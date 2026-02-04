@@ -35,6 +35,20 @@ Standardized JSON Schema for representing educational and scientific concepts.
 - Includes metadata for provenance and licensing
 - Designed for research and educational applications
 
+## 📋 Specifications
+
+### CID Structure Specification (`specs/cid_structure_specification_v1.0.1.md`)
+
+Formal definition of the `Domain:Type/ConceptName` CID format used throughout the HOG system:
+
+- **Format Rules**: Complete syntax and validation rules
+- **Allowed Values**: Domains (Physics, Philosophy, etc.) and Types (Principle, Concept, etc.)
+- **Integration**: How CIDs work with `cid_generator_v1_1_0.py` and `cbor_reader.py`
+- **Examples**: Working examples from educational materials
+- **Standards**: Follows NASA documentation practices
+
+This specification ensures consistency across all CADMIES tools and concepts.
+
 ## 🧪 Hands-On Testing
 
 **New to content addressing? Want to verify the system works on your computer?**
@@ -133,27 +147,30 @@ For commercial licensing: Contact hieroscadmies@proton.me
 
 📁 Repository Structure
 
-```text
 philosophical-ipld-tools/
 ├── cid_generator_v1.1.0.py    # CID generation tool
 ├── cbor_reader.py             # Knowledge retrieval tool
+├── specs/                     # Formal specifications
+│   └── cid_structure_specification_v1.0.1.md
 ├── schemas/                   # Knowledge schemas
 │   └── universal_scientific_concept_schema_v1.0.0.json
 ├── LICENSE                    # AGPLv3 + Commons Clause
 └── README.md                  # This file
-```
 
-## 🔗 Related Resources
+🔗 Related Resources
 
-* IPLD Documentation: https://ipld.io/
-* DAG-CBOR Specification: https://ipld.io/specs/codecs/dag-cbor/
-* CID Explanation: https://docs.ipfs.tech/concepts/content-addressing/
+    IPLD Documentation: https://ipld.io/
+
+    DAG-CBOR Specification: https://ipld.io/specs/codecs/dag-cbor/
+
+    CID Explanation: https://docs.ipfs.tech/concepts/content-addressing/
 
 🤝 Contributing
 
 This project welcomes educational and research-focused contributions. Please ensure all contributions align with the project's ethical framework and licensing terms.
-📞 Contact
 
-For questions about ethical use, commercial licensing, or research collaboration: hieroscadmies@proton.me
+For questions of any kind, about ethical use, commercial licensing, or research collaboration: hieroscadmies@proton.me
 
-"Knowledge should be free to access, but its commercial use should benefit the commons."
+"Knowledge should be free to access, but its commercial use should benefit the commons." 
+
+Let the mycelium grow! 🌱
