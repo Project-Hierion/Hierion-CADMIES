@@ -16,8 +16,9 @@ import json
 import tempfile
 from pathlib import Path
 
-# Add parent directory to import modules
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Import from cadmies_demo package
+from cadmies_demo.cid_generator_v1_1_0 import CIDGenerator_v1_1_0
+from cadmies_demo.cbor_reader import CBORReader
 
 def create_test_concept():
     """Create a test concept for the read/write cycle."""
@@ -49,9 +50,6 @@ def test_complete_cycle():
     print("Testing complete read/write cycle...")
     
     try:
-        from cid_generator_v1_1_0 import CIDGenerator_v1_1_0
-        from cbor_reader import CBORReader
-        
         # Create test concept
         original_concept = create_test_concept()
         
@@ -159,8 +157,6 @@ def test_human_id_lookup():
     print("\nTesting human ID lookup...")
     
     try:
-        from cbor_reader import CBORReader
-        
         reader = CBORReader()
         
         # Load index
