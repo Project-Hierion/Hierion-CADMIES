@@ -1,21 +1,22 @@
 # Detailed Installation Guide
-
 ## System Requirements
-
 ### Minimum Requirements
-- **Operating System**: Linux, macOS, or Windows with WSL2
-- **Python**: 3.8 or higher
-- **Storage**: 50MB free space
-- **Memory**: 512MB RAM
+
+    Operating System: Linux, macOS, or Windows with WSL2
+    Python: 3.8 or higher
+    Storage: 50MB free space
+    Memory: 512MB RAM
 
 ### Recommended Requirements
-- **Python**: 3.10 or higher
-- **Storage**: 500MB for extensive knowledge bases
-- **Memory**: 2GB+ RAM for large operations
+
+    Python: 3.10 or higher
+    Storage: 500MB for extensive knowledge bases
+    Memory: 2GB+ RAM for large operations
 
 ## Installation Methods
 
 ### Method 1: Basic Installation (Recommended)
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
@@ -26,10 +27,13 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # 3. Install dependencies
-pip install dag-cbor multiformats
+pip install -r requirements.txt
 
-# 4. Verify installation
-python -c "import dag_cbor, multiformats; print('✅ Dependencies installed successfully')"
+# 4. Install the package in development mode
+pip install -e .
+
+# 5. Verify installation
+python -c "from cadmies_demo import CIDGenerator_v1_1_0; print('✅ Package installed successfully')"
 
 Method 2: Development Installation
 bash
@@ -39,20 +43,21 @@ git clone --recursive https://github.com/Hieros-CADMIES/CADMIES.git
 cd CADMIES
 
 # Install development dependencies
-pip install dag-cbor multiformats pytest jupyter
+pip install -r requirements-dev.txt
+pip install -e .
 
 # Run test suite to verify
 python -m pytest tests/ -v
 
 Method 3: Docker Installation (Advanced)
-Dockerfile
+dockerfile
 
 # Dockerfile
 FROM python:3.10-slim
 WORKDIR /app
 COPY . .
-RUN pip install dag-cbor multiformats
-CMD ["python", "cid_generator_v1.1.0.py"]
+RUN pip install -r requirements.txt && pip install -e .
+CMD ["python", "-c", "from cadmies_demo import CIDGenerator_v1_1_0; print('✅ Ready')"]
 
 Configuration
 Directory Structure
@@ -81,8 +86,12 @@ Verification
 Test 1: Basic Functionality
 bash
 
-# Generate a sample concept
-python cid_generator_v1.1.0.py
+# Generate a sample concept using the installed package
+python -c "
+from cadmies_demo import CIDGenerator_v1_1_0
+generator = CIDGenerator_v1_1_0()
+print('✅ Generator created successfully')
+"
 
 # Check directories were created
 ls -la blocks/ index/ logs/
@@ -109,11 +118,26 @@ cat > test_concept.json << 'EOF'
 }
 EOF
 
-# Generate CID
-python cid_generator_v1.1.0.py --concept-file test_concept.json
+# Generate CID using the package
+python -c "
+from cadmies_demo import CIDGenerator_v1_1_0
+import json
+
+with open('test_concept.json') as f:
+    concept = json.load(f)
+    
+generator = CIDGenerator_v1_1_0()
+result = generator.generate_cid(concept)
+print(f'CID: {result[\"cid\"]}')
+"
 
 # Read it back
-python cbor_reader.py test_installation
+python -c "
+from cadmies_demo import CBORReader
+reader = CBORReader()
+concept = reader.read_cbor_file('test_installation')
+print(f'Retrieved: {concept[\"title\"]}')
+"
 
 # Clean up
 rm test_concept.json
@@ -157,7 +181,8 @@ powershell
 # Add Python to PATH during installation
 
 # Install dependencies
-pip install dag-cbor multiformats
+pip install -r requirements.txt
+pip install -e .
 
 # Note: Some features may require WSL2 for full compatibility
 
@@ -169,14 +194,14 @@ bash
 
 # Try python3 instead
 python3 --version
-python3 cid_generator_v1.1.0.py
+python3 -c "from cadmies_demo import CIDGenerator_v1_1_0"
 
 Issue: "Module not found: dag_cbor"
 bash
 
 # Reinstall with pip
 pip uninstall dag-cbor multiformats -y
-pip install dag-cbor multiformats --upgrade
+pip install -r requirements.txt --upgrade
 
 Issue: Permission denied creating directories
 bash
@@ -201,11 +226,15 @@ python --version
 Next Steps
 
 After successful installation:
+text
 
-    Run tests to verify everything works
+Run the test suite to verify everything works:
+```bash
+python -m pytest tests/ -v
+```
 
-    Explore examples to see usage patterns
+Explore examples in the `examples/` directory
 
-    Read user manual for complete documentation
+Read the user manual for complete documentation
 
 For additional help: hieroscadmies@proton.me
