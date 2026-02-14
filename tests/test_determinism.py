@@ -9,8 +9,8 @@ import sys
 import os
 from pathlib import Path
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Import from cadmies_demo package
+from cadmies_demo.cid_generator_v1_1_0 import CIDGenerator_v1_1_0
 
 def test_same_content_same_cid():
     """Test that identical content produces identical CIDs."""
@@ -35,8 +35,6 @@ def test_same_content_same_cid():
     
     concept2 = concept1.copy()  # Exact copy
     
-    # Import and use cid_generator
-    from cid_generator_v1_1_0 import CIDGenerator_v1_1_0
     generator = CIDGenerator_v1_1_0()
     
     # Generate CIDs
@@ -64,7 +62,6 @@ def test_different_content_different_cid():
     """Test that different content produces different CIDs."""
     print("🧪 Testing CID Uniqueness...")
     
-    from cid_generator_v1_1_0 import CIDGenerator_v1_1_0
     generator = CIDGenerator_v1_1_0()
     
     # Create two different concepts
@@ -122,7 +119,6 @@ def test_whitespace_insensitivity():
     """Test that JSON formatting doesn't affect CID."""
     print("🧪 Testing Whitespace Insensitivity...")
     
-    from cid_generator_v1_1_0 import CIDGenerator_v1_1_0
     generator = CIDGenerator_v1_1_0()
     
     # Same content, different formatting
