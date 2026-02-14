@@ -1,0 +1,2 @@
+dag-cbor>=1.0.0
+multiformats>=0.3.0
