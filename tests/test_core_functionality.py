@@ -16,16 +16,15 @@ import json
 import tempfile
 from pathlib import Path
 
-# Add parent directory to import modules
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Import from cadmies_demo package
+from cadmies_demo.cid_generator_v1_1_0 import CIDGenerator_v1_1_0
+from cadmies_demo.cbor_reader import CBORReader
 
 def test_cid_generation():
     """Test that we can generate a CID from a simple concept."""
     print("Testing CID generation...")
     
     try:
-        from cid_generator_v1_1_0 import CIDGenerator_v1_1_0
-        
         # Create a simple test concept
         test_concept = {
             "schema_version": "1.0.0",
@@ -82,7 +81,6 @@ def test_cbor_reading():
         
         if example_file.exists():
             # Generate the CID first
-            from cid_generator_v1_1_0 import CIDGenerator_v1_1_0
             generator = CIDGenerator_v1_1_0()
             result = generator.generate_cid_from_file(str(example_file))
             
@@ -90,7 +88,6 @@ def test_cbor_reading():
                 cid = result["cid"]
                 
                 # Now try to read it back
-                from cbor_reader import CBORReader
                 reader = CBORReader()
                 
                 concept = reader.read_cbor_file(cid)
@@ -113,7 +110,6 @@ def test_cbor_reading():
                 cbor_files = list(blocks_dir.glob("*.cbor"))
                 if cbor_files:
                     cid = cbor_files[0].stem  # Get CID from filename
-                    from cbor_reader import CBORReader
                     reader = CBORReader()
                     
                     concept = reader.read_cbor_file(cid)
@@ -139,9 +135,6 @@ def test_schema_validation():
     print("\nTesting schema validation...")
     
     try:
-        # Try to import the schema validation if it exists in the generator
-        from cid_generator_v1_1_0 import CIDGenerator_v1_1_0
-        
         # Create a concept missing required fields
         invalid_concept = {
             "title": "Invalid Concept",
