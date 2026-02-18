@@ -1,10 +1,9 @@
 # IPLD Knowledge Tools
 
 **Content-Addressed Systems for Educational Knowledge Management**
-https://img.shields.io/badge/License-AGPLv3%2520with%2520Commons%2520Clause-blue.svg
-https://img.shields.io/badge/python-3.8+-blue.svg
-https://img.shields.io/badge/IPLD-DAG--CBOR-green.svg
-https://img.shields.io/badge/Atlas-Compatible-orange.svg
+![License](https://img.shields.io/badge/license-AGPLv3%20with%20Commons%20Clause-blue.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Status](https://img.shields.io/badge/status-active-orange.svg)
 
 ## Overview
 
@@ -51,14 +50,20 @@ pip install dag-cbor multiformats
 ```bash
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
 cd CADMIES
+```
 
 # Generate your first concept
+```bash
 python cid_generator_v1.1.0.py
+```
 
 # Retrieve it (use the CID from previous step)
+```bash
 python cbor_reader.py bafyreifh5f5i6elunhcqfuw7n2t3c2rl4z6jtv76rz4wm2kz2q7bj7gnji
+```
 
 # List all stored concepts
+```bash
 python cbor_reader.py --list
 ```
 
@@ -151,7 +156,7 @@ python test_cadmies_atlas_integration.py
 See atlas-integration/README.md for complete documentation.
 
 ## Project Structure
-
+```text
 CADMIES/
 ├── cid_generator_v1.1.0.py      # Create CIDs from concepts
 ├── cbor_reader.py                # Retrieve concepts by CID/ID
@@ -178,14 +183,17 @@ CADMIES/
 ├── schemas/                       # Knowledge schemas
 │   └── universal_scientific_concept_schema_v1.0.0.json
 └── docs/                           # Additional documentation
+```
 
 ## Documentation
+```text
 | Document | Description |
 |----------|-------------|
 | Universal Scientific Concept Schema | JSON schema for concepts |
 | CID Structure Specification | Human-readable ID format |
 | Philosophical Framework | Design principles |
 | Atlas Integration Guide | Network setup |
+```
 
 ## Testing
 
@@ -193,8 +201,10 @@ CADMIES/
 # Test core functionality
 python cid_generator_v1.1.0.py --educational-only
 python cbor_reader.py --list --verbose
+```
 
 # Test Atlas integration
+```bash
 python atlas-integration/tests/test_auth.py
 python atlas-integration/tests/test_api.py      # (server must be running)
 python test_cadmies_atlas_integration.py
@@ -206,17 +216,19 @@ python test_cadmies_atlas_integration.py
 AGPLv3 with Commons Clause - See [LICENSE](LICENSE)
 
 ### Permitted Uses
-
+```text
 - ✅ Individual learning and research
 - ✅ Academic institutions and non-profits
 - ✅ Open source projects
 - ✅ Personal knowledge management
+```
 
 ### Restricted Uses (Commons Clause)
-
+```text
 - ❌ Commercial SaaS offerings without contributing back
 - ❌ Proprietary AI training without reciprocity
 - ❌ Commercial products that don't share improvements
+```
 
 **For commercial licensing:** Contact hieroscadmies@proton.me
 
@@ -244,11 +256,11 @@ See our Contributing Guidelines and Code of Conduct.
 ## Contact
 
 - **Email**: hieroscadmies@proton.me
-- **GitHub Issues**: For bugs and feature requests
+- **GitHub Issues**: For bugs and feature requests https://github.com/Hieros-CADMIES/CADMIES/
 - **Discussions**: Join the conversation
 
 ## 🌱 Philosophy
 
-"You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable" - Alan Watts
+*"You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable" - Alan Watts*
 
-Let the mycelium grow! 🌱
+*Let the mycelium grow! 🌱*
