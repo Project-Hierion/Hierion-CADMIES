@@ -1,49 +1,54 @@
-CADMIES - Content-Addressed Digital Mycorrhizal Intelligence EcoSystem
+# IPLD Knowledge Tools
 
+**Content-Addressed Systems for Educational Knowledge Management**
 https://img.shields.io/badge/License-AGPLv3%2520with%2520Commons%2520Clause-blue.svg
 https://img.shields.io/badge/python-3.8+-blue.svg
 https://img.shields.io/badge/IPLD-DAG--CBOR-green.svg
 https://img.shields.io/badge/Atlas-Compatible-orange.svg
 
-🌿 Overview
+## Overview
 
 CADMIES (Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem) is a decentralized knowledge system using IPLD/DAG-CBOR for storing verifiable concepts with content-addressed identifiers (CIDs). Think of it as mycelium for knowledge—structured, interconnected, and resilient.
 
 Core Principles:
+- **Deterministic addressing** — Same content → Same CID → Same understanding
+- **Local-first** — Air-gapped by default, network optional
+- **Schema-enforced** — All concepts validate against UniversalScientificConcept schema
+- **Privacy by design** — Directory-level visibility control
+- **Ethical knowledge sharing** — AGPLv3 with Commons Clause
 
-    Deterministic addressing — Same content → Same CID → Same understanding
+## Features
 
-    Local-first — Air-gapped by default, network optional
+- **CID Generator** — Create deterministic CIDs from structured JSON concepts
+- **CBOR Reader** — Retrieve concepts by CID or human-readable ID
+- **Universal Schema** — Standardized representation for scientific/philosophical concepts
+- **IPLD Compatible** — Full DAG-CBOR support
+- **Test Suite** — Determinism verification and validation tools
+- **Atlas Network Ready** — Optional integration with decentralized discovery
 
-    Schema-enforced — All concepts validate against UniversalScientificConcept schema
+## Graphical Interface
 
-    Privacy by design — Directory-level visibility control
+CADMIES now includes a web-based GUI for easier interaction:
 
-    Ethical knowledge sharing — AGPLv3 with Commons Clause
+- **Dashboard** – System overview and recent activity
+- **Add Concept** – Form interface with live preview
+- **Browse Library** – Search and view existing concepts
+- **Audit Trail** – Complete operation history
 
-✨ Features
+**[GUI Documentation](./cadmies-gui/README.md)**
 
-    CID Generator — Create deterministic CIDs from structured JSON concepts
+100% local, air-gapped by default, same ethical licensing.
 
-    CBOR Reader — Retrieve concepts by CID or human-readable ID
+## Quick Start
 
-    Universal Schema — Standardized representation for scientific/philosophical concepts
-
-    IPLD Compatible — Full DAG-CBOR support
-
-    Test Suite — Determinism verification and validation tools
-
-    Atlas Network Ready — Optional integration with decentralized discovery
-
-🚀 Quick Start
-
-Prerequisites
-
+### Prerequisites
+```bash
 # Install Python packages
 pip install dag-cbor multiformats
+```
 
-Clone and Test
-
+### Clone and Test
+```bash
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
 cd CADMIES
 
@@ -55,67 +60,63 @@ python cbor_reader.py bafyreifh5f5i6elunhcqfuw7n2t3c2rl4z6jtv76rz4wm2kz2q7bj7gnj
 
 # List all stored concepts
 python cbor_reader.py --list
+```
 
-For complete beginners, see our Beginner's Guide section.
-
-📚 Beginner's Guide
+## Beginner's Guide
 
 New to content-addressed systems? We've got you covered.
 
-Step-by-Step Tutorial
+### Step-by-Step Tutorial
+1. **Open your terminal/command line**
+   -Windows: Press Windows Key → type cmd → Enter
+   -Mac: Press Command + Space → type Terminal → Enter
+   -Linux: Press Ctrl + Alt + T
 
-    Open your terminal/command line
-
-        Windows: Press Windows Key → type cmd → Enter
-
-        Mac: Press Command + Space → type Terminal → Enter
-
-        Linux: Press Ctrl + Alt + T
-
-    Check Python installation
-
+2. **Check Python installation**
+    ```bash
     python --version
-
+    ```
     You should see Python 3.8 or higher.
 
-    Install required packages
+3. **Install required packages**
+   ```bash
+   pip install dag-cbor multiformats
+   ```
 
-    pip install dag-cbor multiformats
+4. **Clone this repository**
+   ```bash
+   git clone https://github.com/Hieros-CADMIES/CADMIES.git
+   cd CADMIES
+   ```
 
-    Clone this repository
+5. **Run your first CID generation**
+   ```bash
+   python cid_generator_v1.1.0.py
+   ```
+   Look for: `🎯 Generated CID: bafy...`
 
-    git clone https://github.com/Hieros-CADMIES/CADMIES.git
-    cd CADMIES
+6. **Retrieve the concept**
+   ```bash
+   python cbor_reader.py [THE_CID_YOU_COPIED]
+   ```
 
-    Run your first CID generation
-
-    python cid_generator_v1.1.0.py
-
-    Look for: 🎯 Generated CID: bafy...
-
-    Retrieve the concept
-
-    python cbor_reader.py [THE_CID_YOU_COPIED]
-
-    Verify determinism (run step 5 again—same CID appears!)
+7. **Verify determinism** (run step 5 again—same CID appears!)
 
 Congratulations! You've just used a content-addressed knowledge system.
 
-🌐 Atlas Network Integration
+### 🌐 Atlas Network Integration
 
 CADMIES nodes can optionally join the Atlas decentralized network, making public knowledge concepts discoverable and queryable by other peers worldwide.
 
-Why Connect to Atlas?
+### Why Connect to Atlas?
 
-    Discoverability — Your public concepts become searchable across the network
+- **Discoverability** — Your public concepts become searchable across the network
+- **Interoperability** — Structured data that other applications can use
+- **No lock-in** — Your node remains fully functional offline
+- **Privacy controlled** — Only directories you explicitly mark as public are visible
 
-    Interoperability — Structured data that other applications can use
-
-    No lock-in — Your node remains fully functional offline
-
-    Privacy controlled — Only directories you explicitly mark as public are visible
-
-Quick Start with Atlas
+### Quick Start with Atlas
+```bash
 
 # Install additional dependencies
 pip install -r atlas-integration/requirements.txt
@@ -129,32 +130,39 @@ python -c "from atlas_integration.auth.keys import generate_node_keys; generate_
 
 # Start the Atlas-compatible API server
 python atlas-integration/api/server.py
+```
 
 Your node will be available at http://localhost:8080 and will:
 
-    Advertise CADMIES concepts to the Atlas network
+- Advertise CADMIES concepts to the Atlas network
+- Respond to queries for public knowledge
+- Keep private directories completely invisible
 
-    Respond to queries for public knowledge
-
-    Keep private directories completely invisible
-
-Privacy First
-
+### Privacy First
 Directories not listed in visible_dirs.yaml are invisible to the network. Queries for private paths receive 404 Not Found with no hint they exist. Your data stays yours.
 
-Test the Integration
+### Test the Integration
+```bash
 
 # Run the full integration test
 python test_cadmies_atlas_integration.py
+```
 
 See atlas-integration/README.md for complete documentation.
 
-📁 Project Structure
+## Project Structure
 
 CADMIES/
 ├── cid_generator_v1.1.0.py      # Create CIDs from concepts
 ├── cbor_reader.py                # Retrieve concepts by CID/ID
 ├── test_cadmies_atlas_integration.py  # Atlas integration test
+├── gui/                          # Web-based graphical interface
+│   ├── README.md
+│   ├── gui_main.py
+│   ├── gui_system.py
+│   ├── gui_concept.py
+│   ├── gui_tools/
+│   └── ui/
 ├── blocks/                       # Stored DAG-CBOR concepts
 ├── index/                        # Human-readable ID mappings
 ├── logs/                         # Operation history
@@ -165,18 +173,23 @@ CADMIES/
 │   ├── api/                        # REST endpoints
 │   ├── adapters/                  # CADMIES wrapper
 │   └── tests/                      # Integration tests
+├── specs/                         # Formal specifications
+│   └── cid_structure_specification_v1.0.1.md
+├── schemas/                       # Knowledge schemas
+│   └── universal_scientific_concept_schema_v1.0.0.json
 └── docs/                           # Additional documentation
 
-📖 Documentation
+## Documentation
+| Document | Description |
+|----------|-------------|
+| Universal Scientific Concept Schema | JSON schema for concepts |
+| CID Structure Specification | Human-readable ID format |
+| Philosophical Framework | Design principles |
+| Atlas Integration Guide | Network setup |
 
-Document	Description
-Universal Scientific Concept Schema	JSON schema for concepts
-CID Structure Specification	Human-readable ID format
-Philosophical Framework	Design principles
-Atlas Integration Guide	Network setup
+## Testing
 
-🧪 Testing
-
+```bash
 # Test core functionality
 python cid_generator_v1.1.0.py --educational-only
 python cbor_reader.py --list --verbose
@@ -185,43 +198,57 @@ python cbor_reader.py --list --verbose
 python atlas-integration/tests/test_auth.py
 python atlas-integration/tests/test_api.py      # (server must be running)
 python test_cadmies_atlas_integration.py
+```
 
-🤝 Contributing
+## ⚖️ License & Ethical Use
+
+### License
+AGPLv3 with Commons Clause - See [LICENSE](LICENSE)
+
+### Permitted Uses
+
+- ✅ Individual learning and research
+- ✅ Academic institutions and non-profits
+- ✅ Open source projects
+- ✅ Personal knowledge management
+
+### Restricted Uses (Commons Clause)
+
+- ❌ Commercial SaaS offerings without contributing back
+- ❌ Proprietary AI training without reciprocity
+- ❌ Commercial products that don't share improvements
+
+**For commercial licensing:** Contact hieroscadmies@proton.me
+
+## Contributing
+
+This project welcomes educational and research-focused contributions. Please ensure all contributions align with the project's ethical framework and licensing terms.
 
 We welcome contributions that align with our ethical framework:
 
-    Knowledge sharing over commercial exploitation
-
-    Reciprocity — If you use it commercially, contribute back
-
-    Privacy preservation — No data leaks, no tracking
-
-    Educational focus — Learning and research first
+- **Knowledge sharing** over commercial exploitation
+- **Reciprocity** — If you use it commercially, contribute back
+- **Privacy preservation** — No data leaks, no tracking
+- **Educational focus** — Learning and research first
 
 See our Contributing Guidelines and Code of Conduct.
 
-License: AGPLv3 with Commons Clause — Free for educational, research, and non-profit use. Commercial use requires permission or contributing improvements back.
+## Related Resources
 
-🔗 Related Projects
+- **IPLD Documentation**: https://ipld.io/
+- **DAG-CBOR Specification**: https://ipld.io/specs/codecs/dag-cbor/
+- **CID Explanation**: https://docs.ipfs.tech/concepts/content-addressing/
+- **Atlas Protocol** — Decentralized discovery network
+- **Schema.org** — Structured data standards
 
-    Atlas Protocol — Decentralized discovery network
+## Contact
 
-    IPLD — InterPlanetary Linked Data
+- **Email**: hieroscadmies@proton.me
+- **GitHub Issues**: For bugs and feature requests
+- **Discussions**: Join the conversation
 
-    Schema.org — Structured data standards
+## 🌱 Philosophy
 
-📬 Contact
+"You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable" - Alan Watts
 
-    Email: hieroscadmies@proton.me
-
-    GitHub Issues: For bugs and feature requests
-
-    Discussions: Join the conversation
-
-🌱 Philosophy
-
-    "We are not building containers for knowledge, but creating frameworks for understanding to grow."
-
-CADMIES treats knowledge as living, connected, and evolving—like mycelium. It grows underground (local-first), fruits when conditions are right (optional network connectivity), and forms symbiotic relationships with other systems (Atlas integration).
-
-The same understanding should always have the same address.
+Let the mycelium grow! 🌱
