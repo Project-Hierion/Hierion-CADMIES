@@ -5,7 +5,7 @@
 ### 1. Create the Page File
 
 **File:** `ui/pages/concept_map.py`
-
+```bash
 from nicegui import ui
 from gui_system import CadmiesSystem
 
@@ -36,11 +36,12 @@ class ConceptMapPage:
                             ui.navigate.to(f"/browse?q={c}")
                         
                         ui.button("View", on_click=view_concept).props("flat")
+```
 
-2. Register in gui_main.py
+### 2. Register in gui_main.py
 
 Find the section where pages are registered (around line 40-60) and add:
-python
+```python
 
 from ui.pages.concept_map import ConceptMapPage  # Add this import
 
@@ -48,11 +49,12 @@ from ui.pages.concept_map import ConceptMapPage  # Add this import
 @ui.page("/concept-map")
 def concept_map():
     ConceptMapPage(self.system).render()
+```
 
-3. Add to Navigation Drawer
+### 3. Add to Navigation Drawer
 
 Find the navigation drawer section (around line 30-40) and add:
-python
+```python
 
 with ui.left_drawer().classes("bg-primary") as drawer:
     ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
@@ -64,18 +66,19 @@ with ui.left_drawer().classes("bg-primary") as drawer:
     ui.link("📋 Audit Trail", "/audit").classes("text-white")
     ui.separator()
     ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
+```
 
-4. Optional: Add Query Parameters
+### 4. Optional: Add Query Parameters
 
 For pages that accept parameters (like /browse?q=consciousness):
-python
+```python
 
 @ui.page("/browse")
 def browse():
     # Get query parameter
     query = ui.query.get("q", "")
     BrowsePage(self.system, initial_query=query).render()
-    
+
 # Then in your page class __init__, accept the parameter
 def __init__(self, system, initial_query=""):
     self.system = system
@@ -100,10 +103,12 @@ def your_page():
     YourPage(self.system).render()
 
 # 3. LINK (navigation drawer)
-ui.link("🚀 Your Page", "/your-route").classes("text-white")
+ui.link("Your Page", "/your-route").classes("text-white")
+```
 
 That's it. The page appears in navigation and is accessible at http://localhost:8081/your-route.
-Development Guidelines
+
+**Development Guidelines**
 
     No hardcoded paths – Use CadmiesSystem methods
 
@@ -115,12 +120,13 @@ Development Guidelines
 
     Add to navigation – Always include a link in the drawer
 
-Testing Your Changes
+**Testing Your Changes**
 
     Run the GUI locally:
-
+```bash
 cd gui
 python gui_main.py
+```
 
     Navigate to your new page
 
@@ -128,7 +134,7 @@ python gui_main.py
 
     Check console for errors
 
-Submitting a Pull Request
+**Submitting a Pull Request**
 
     Create a feature branch from main
 
@@ -141,3 +147,5 @@ Submitting a Pull Request
     Reference any related issues or roadmap items
 
 Questions? Open an issue or start a discussion.
+
+***Let the mycelium grow!*** 🌱
