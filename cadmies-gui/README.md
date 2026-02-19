@@ -10,28 +10,38 @@ A graphical interface for the CADMIES-IPLD system.
 
 ## Quick Start
 
-# Clone the repository
+## Clone the repository
+```bash
 git clone https://github.com/yourname/cadmies-demo
+
 cd cadmies-demo/gui
+```
 
-# Install dependencies
+## Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# Create your data structure (anywhere)
+## Create your data structure (anywhere)
+```bash
 mkdir -p my_cadmies/tools/core/store/{blocks,index,logs}
-
+```
+```text
 # Place your CADMIES tools:
 # - cid_generator_v1.1.0.py
 # - cbor_reader.py
 # into my_cadmies/tools/core/
+```
 
-# Run the GUI
+## Run the GUI
+```bash
 python gui_main.py
+```
 
-Directory Structure
+## Directory Structure
 
 The GUI expects this structure (configurable via env):
-
+```text
 your-cadmies-root/
 └── tools/
     └── core/
@@ -41,8 +51,10 @@ your-cadmies-root/
         │   └── logs/              # operations.jsonl
         ├── cid_generator_v1.1.0.py
         └── cbor_reader.py
+```
 
 ## Usage
+
 Adding a Concept
 
     Click "Add Concept" in navigation
@@ -64,7 +76,7 @@ Adding a Concept
     Toggle between grid and list views
 
 ## Project Structure
-
+```text
 gui/
 ├── gui_main.py              # Application entry point
 ├── gui_system.py            # CADMIES system detection
@@ -81,6 +93,7 @@ gui/
 ├── requirements.txt         # Dependencies
 ├── CONTRIBUTING.md          # Guide for contributors
 └── ROADMAP.md               # Planned features
+```
 
 ## Air-Gap & Security
 
@@ -95,14 +108,18 @@ Current version: 100% air-gapped
     All dependencies are local Python packages
 
 ## Future: Optional secure sharing (sandboxed, user-consent only)
-Configuration
+
+### Configuration
 
 Set CADMIES_TOOLS_PATH environment variable to use a custom location:
 
 export CADMIES_TOOLS_PATH=/absolute/path/to/your/tools/core
+```bash
 python gui_main.py
+```
 
 ## Troubleshooting
+
 "CADMIES System Not Found"
 
     Verify your tools directory exists
