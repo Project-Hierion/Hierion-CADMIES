@@ -158,31 +158,28 @@ See atlas-integration/README.md for complete documentation.
 ## Project Structure
 ```text
 CADMIES/
-├── cid_generator_v1.1.0.py      # Create CIDs from concepts
-├── cbor_reader.py                # Retrieve concepts by CID/ID
-├── test_cadmies_atlas_integration.py  # Atlas integration test
-├── gui/                          # Web-based graphical interface
+├── cadmies-gui/                 # Web interface (complete)
+├── cadmies_demo/                 # Core tools package
+│   ├── cbor_reader.py
+│   ├── cid_generator_v1_1_0.py
+│   └── __init__.py
+├── docs/                         # User documentation
+│   ├── INSTALLATION.md
+│   ├── QUICK_START.md
+│   ├── TESTING_GUIDE.md
+│   └── USER_MANUAL.md
+├── examples/                     # Example concepts
+│   └── conservation_of_energy.json
+├── schemas/                      # JSON schemas
 │   ├── README.md
-│   ├── gui_main.py
-│   ├── gui_system.py
-│   ├── gui_concept.py
-│   ├── gui_tools/
-│   └── ui/
-├── blocks/                       # Stored DAG-CBOR concepts
-├── index/                        # Human-readable ID mappings
-├── logs/                         # Operation history
-├── atlas-integration/            # Optional network layer
-│   ├── README.md
-│   ├── config/                   # Privacy settings
-│   ├── auth/                      # Atlas authentication
-│   ├── api/                        # REST endpoints
-│   ├── adapters/                  # CADMIES wrapper
-│   └── tests/                      # Integration tests
-├── specs/                         # Formal specifications
-│   └── cid_structure_specification_v1.0.1.md
-├── schemas/                       # Knowledge schemas
 │   └── universal_scientific_concept_schema_v1.0.0.json
-└── docs/                           # Additional documentation
+├── specs/                        # Formal specifications
+│   └── cid_structure_specification_v2.0.0.md
+├── tests/                        # Test suite
+│   ├── test_core_functionality.py
+│   ├── test_determinism.py
+│   └── test_read_write_cycle.py
+├── [root files]                  # PDFs, licenses, README, etc.
 ```
 
 ## Documentation
