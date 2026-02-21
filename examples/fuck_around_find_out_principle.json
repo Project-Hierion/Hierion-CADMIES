@@ -1,0 +1,31 @@
+{
+  "human_id": "fuck_around_find_out_principle",
+  "type": "PsychologicalHeuristic",
+  "title": "The Fuck Around / Find Out Principle",
+  "domain": "BehavioralPsychology",
+  "subdomain": "RiskAssessment",
+  "description": "An informal law of cosmic reciprocity describing the exponential relationship between reckless action and consequential outcome.",
+  "definition": "The principle positing that actions taken with disregard for consequences (Fucking Around) produce outcomes (Finding Out) that follow an exponential function: FO = FA² × K, where FA is the intensity of reckless action (1-10) and K is the Chaos Constant—a variable determined by context, ranging from mild social embarrassment (0.1) to reality-altering catastrophe (10). At high levels, the subject ceases to experience consequences and instead becomes a cautionary tale for others.",
+  "confidence": 0.95,
+  "difficulty_level": "beginner",
+  "schema_version": "1.0.0",
+  "metadata": {
+    "created": "2026-02-15T00:00:00.000000Z",
+    "creator": "System:Philosophical_Concept_Generator",
+    "certainty_score": 0.90,
+    "version": 1
+  },
+  "proofs": [
+    {
+      "date": "2026-02-15",
+      "type": "anecdotal",
+      "description": "Universal human experience across all cultures, often invoked as warning before action and explanation after."
+    },
+    {
+      "date": "2026-02-15",
+      "type": "theoretical",
+      "description": "Aligns with concepts of karma, natural consequences, and the precautionary principle in risk management."
+    }
+  ],
+  "relationships": {}
+}
