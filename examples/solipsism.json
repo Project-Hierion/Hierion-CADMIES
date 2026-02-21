@@ -1,0 +1,32 @@
+{
+  "human_id": "solipsism",
+  "type": "EpistemologicalPosition",
+  "title": "Solipsism",
+  "domain": "Epistemology",
+  "subdomain": "PhilosophyOfMind",
+  "description": "The philosophical idea that only one's own mind is sure to exist.",
+  "definition": "The epistemological position that the self is the only reality that can be verified and known. Knowledge of anything outside one's own mind is uncertain; the external world and other minds cannot be known and may not exist outside of one's own perceptions. It represents an extreme form of subjective idealism.",
+  "confidence": 0.90,
+  "certainty_score": 0.85,
+  "difficulty_level": "intermediate",
+  "schema_version": "1.0.0",
+  "metadata": {
+    "created": "2026-02-14T12:10:00.000000Z",
+    "creator": "System:Philosophical_Concept_Generator",
+    "certainty_score": 0.85,
+    "version": 1
+  },
+  "proofs": [
+    {
+      "date": "2026-02-14",
+      "type": "historical",
+      "description": "Roots in Descartes' 'Cogito ergo sum' and developed by Berkeley and later idealists."
+    },
+    {
+      "date": "2026-02-14",
+      "type": "logical",
+      "description": "The problem of other minds: we cannot directly experience the consciousness of others."
+    }
+  ],
+  "relationships": {}
+}
