@@ -16,6 +16,26 @@ Core Principles:
 - **Privacy by design** — Directory-level visibility control
 - **Ethical knowledge sharing** — AGPLv3 with Commons Clause
 
+## Repository Structure
+
+This repo contains **two parallel systems**:
+
+### `/testable_system/`
+**The sanitized demo version** - Perfect for:
+- Beginners learning content-addressed systems
+- Educators running classroom demonstrations
+- Quick testing without setup complexity
+- Exploring the IPLD knowledge concept structure
+👉 Start here if you're new to CADMIES.
+
+### `/CADMIES-IPLD/`
+**The complete production system** - For:
+- Advanced users running their own knowledge base
+- Researchers working with metaphysical concepts
+- Developers extending the platform
+- Full read/write cycle with actual stored concepts
+- 👉 Dive here when you're ready for the real thing.
+
 ## Features
 
 - **CID Generator** — Create deterministic CIDs from structured JSON concepts
