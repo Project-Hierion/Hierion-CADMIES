@@ -1,0 +1,32 @@
+{
+  "human_id": "eternal_return",
+  "type": "PhilosophicalHypothesis",
+  "title": "Nietzsche's Eternal Return",
+  "domain": "Metaphysics",
+  "subdomain": "Existentialism",
+  "description": "The hypothetical concept that the universe and all existence has been recurring, and will continue to recur, in a self-similar form an infinite number of times.",
+  "definition": "A thought experiment and hypothetical cosmological concept proposed by Friedrich Nietzsche. It posits that all events in the cosmos repeat themselves infinitely, in exactly the same order. Nietzsche presents it not as a proven physical theory but as a test of psychological strength: 'What, if some day or night a demon were to steal after you into your loneliest loneliness and say to you: 'This life as you now live it and have lived it, you will have to live once more and innumerable times more' ... Would you not throw yourself down and gnash your teeth and curse the demon who spoke thus? Or have you once experienced a tremendous moment when you would have answered him: 'You are a god and never have I heard anything more divine.'",
+  "confidence": 0.85,
+  "certainty_score": 0.80,
+  "difficulty_level": "advanced",
+  "schema_version": "1.0.0",
+  "metadata": {
+    "created": "2026-02-14T12:10:00.000000Z",
+    "creator": "System:Philosophical_Concept_Generator",
+    "certainty_score": 0.80,
+    "version": 1
+  },
+  "proofs": [
+    {
+      "date": "2026-02-14",
+      "type": "historical",
+      "description": "Presented in Nietzsche's 'The Gay Science' (Section 341) and 'Thus Spoke Zarathustra'."
+    },
+    {
+      "date": "2026-02-14",
+      "type": "theoretical",
+      "description": "Interpreted as an existential test for affirming life fully (amor fati)."
+    }
+  ],
+  "relationships": {}
+}
