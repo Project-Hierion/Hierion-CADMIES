@@ -1,0 +1,32 @@
+{
+  "human_id": "categorical_imperative",
+  "type": "EthicalPrinciple",
+  "title": "The Categorical Imperative",
+  "domain": "Ethics",
+  "subdomain": "Deontology",
+  "description": "The foundational principle of Immanuel Kant's deontological moral philosophy.",
+  "definition": "A moral law that is unconditional or absolute for all agents, the validity or claim of which does not depend on any underlying purpose or desire. The primary formulation is: 'Act only according to that maxim whereby you can at the same time will that it should become a universal law.' It grounds morality in rational consistency and respect for persons as ends in themselves, not merely as means.",
+  "confidence": 0.99,
+  "certainty_score": 0.98,
+  "difficulty_level": "advanced",
+  "schema_version": "1.0.0",
+  "metadata": {
+    "created": "2026-02-14T12:10:00.000000Z",
+    "creator": "System:Philosophical_Concept_Generator",
+    "certainty_score": 0.98,
+    "version": 1
+  },
+  "proofs": [
+    {
+      "date": "2026-02-14",
+      "type": "historical",
+      "description": "Developed in Kant's 'Groundwork of the Metaphysics of Morals' (1785)."
+    },
+    {
+      "date": "2026-02-14",
+      "type": "logical",
+      "description": "Derived from the concept of a rational being and the nature of moral obligation."
+    }
+  ],
+  "relationships": {}
+}
