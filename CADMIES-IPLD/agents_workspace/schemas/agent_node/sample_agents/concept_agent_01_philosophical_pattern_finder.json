@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_pattern_finder_v1",
+  "title": "Philosophical Pattern Finder Agent v1.0.0",
+  "definition": "Cognitive agent that identifies self-similar patterns and connections across metaphysical concepts using our existing philosophical knowledge base.",
+  "type": "CognitiveAgent",
+  "domain": "Metaphysics",
+  "subdomain": "Pattern Recognition",
+  "proofs": [
+    {
+      "type": "design_specification",
+      "description": "Agent schema validates against AgentNode v1.0.0 specification",
+      "confidence": 0.9,
+      "date": "2025-12-29",
+      "reference": "AgentNode schema v1.0.0"
+    }
+  ],
+  "metadata": {
+    "created": "2025-12-29T16:30:00Z",
+    "creator": "MDI Development Team",
+    "certainty_score": 0.85,
+    "version": 1,
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja",
+      "bafyreiftvhx64umvh3jq3tjjzxw6vkcgom7nzqnfojdmqtn4v77bafwu7m",
+      "bafyreigcii5de4qhwnn25i62gxa245s5fwn5nbrzz3in346ut5kem4j474",
+      "bafyreihlh4vwiexvuq667arus727jqs7sifuf3vjuyczwmqqcfpcopghsq",
+      "bafyreiht7rhfuixpxqtfelgckhwboi7ytzar4sullw2f73mksbbsn74f4q"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "An AI assistant that finds connections between philosophical ideas",
+    "intermediate": "A cognitive agent that analyzes metaphysical concepts for patterns using content-addressed knowledge",
+    "expert": "IPLD-based intelligent agent extending UniversalScientificConcept schema with executable pattern recognition capabilities for philosophical concept analysis"
+  },
+  "learning_path": {
+    "prerequisites": [
+      "Understanding of IPLD content addressing",
+      "Familiarity with metaphysical concepts in store"
+    ],
+    "next_steps": [
+      "Create connection graph visualization",
+      "Implement runtime interpreter",
+      "Test pattern finding algorithms"
+    ]
+  },
+  "extra_fields": {
+    "purpose": "Demonstrate AgentNode schema with real philosophical concepts",
+    "testing_focus": "Schema validation and CID generation",
+    "expected_behavior": "Can be stored as IPLD block and retrieved via CID"
+  },
+  "agent_type": "philosophical_analyzer",
+  "execution_spec": {
+    "language": "python",
+    "entry_point": "analyze_philosophical_patterns(concept_cids: list, context: dict) -> dict",
+    "requirements": [
+      "bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja",
+      "bafyreiftvhx64umvh3jq3tjjzxw6vkcgom7nzqnfojdmqtn4v77bafwu7m",
+      "bafyreigcii5de4qhwnn25i62gxa245s5fwn5nbrzz3in346ut5kem4j474",
+      "bafyreihlh4vwiexvuq667arus727jqs7sifuf3vjuyczwmqqcfpcopghsq",
+      "bafyreiht7rhfuixpxqtfelgckhwboi7ytzar4sullw2f73mksbbsn74f4q"
+    ],
+    "environment_spec": {
+      "python_version": "3.9+",
+      "libraries": ["json", "re", "collections"],
+      "resource_limits": {
+        "memory_mb": 256,
+        "timeout_seconds": 10
+      }
+    }
+  },
+  "activation_state": {
+    "active": false,
+    "last_activated": null,
+    "activation_count": 0,
+    "threshold": 0.7
+  },
+  "connection_graph": {
+    "nodes": [
+      "bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja",
+      "bafyreiftvhx64umvh3jq3tjjzxw6vkcgom7nzqnfojdmqtn4v77bafwu7m",
+      "bafyreigcii5de4qhwnn25i62gxa245s5fwn5nbrzz3in346ut5kem4j474",
+      "bafyreihlh4vwiexvuq667arus727jqs7sifuf3vjuyczwmqqcfpcopghsq",
+      "bafyreiht7rhfuixpxqtfelgckhwboi7ytzar4sullw2f73mksbbsn74f4q"
+    ],
+    "edges": [
+      {
+        "source": "bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja",
+        "target": "bafyreiftvhx64umvh3jq3tjjzxw6vkcgom7nzqnfojdmqtn4v77bafwu7m",
+        "weight": 0.8,
+        "type": "semantic",
+        "description": "Fractal patterns inform liberation mechanisms"
+      },
+      {
+        "source": "bafyreiftvhx64umvh3jq3tjjzxw6vkcgom7nzqnfojdmqtn4v77bafwu7m",
+        "target": "bafyreigcii5de4qhwnn25i62gxa245s5fwn5nbrzz3in346ut5kem4j474",
+        "weight": 0.7,
+        "type": "semantic",
+        "description": "Liberation mechanisms connect to cyclic forces"
+      }
+    ],
+    "graph_type": "semantic",
+    "directed": true
+  },
+  "memory_schema": {
+    "memory_type": "semantic",
+    "storage_cid": null,
+    "capacity": 100,
+    "retrieval_mechanism": "pattern_similarity"
+  },
+  "learning_parameters": {
+    "learning_rate": 0.05,
+    "exploration_rate": 0.2,
+    "update_frequency": "batch"
+  }
+}
