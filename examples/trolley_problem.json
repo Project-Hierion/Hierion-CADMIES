@@ -1,0 +1,32 @@
+{
+  "human_id": "trolley_problem",
+  "type": "EthicalThoughtExperiment",
+  "title": "The Trolley Problem",
+  "domain": "Ethics",
+  "subdomain": "MoralPsychology",
+  "description": "A thought experiment in ethics examining the distinction between doing and allowing harm.",
+  "definition": "A moral dilemma presenting a choice between allowing a runaway trolley to kill five people or actively diverting it to kill one. Variations explore the role of direct action, intention, and personal force in moral judgment, challenging utilitarian and deontological frameworks.",
+  "confidence": 0.98,
+  "certainty_score": 0.95,
+  "difficulty_level": "beginner",
+  "schema_version": "1.0.0",
+  "metadata": {
+    "created": "2026-02-14T12:10:00.000000Z",
+    "creator": "System:Philosophical_Concept_Generator",
+    "certainty_score": 0.95,
+    "version": 1
+  },
+  "proofs": [
+    {
+      "date": "2026-02-14",
+      "type": "historical",
+      "description": "Introduced by Philippa Foot (1967), expanded by Judith Jarvis Thomson."
+    },
+    {
+      "date": "2026-02-14",
+      "type": "empirical",
+      "description": "Widely used in neuroscience and psychology to study moral reasoning."
+    }
+  ],
+  "relationships": {}
+}
