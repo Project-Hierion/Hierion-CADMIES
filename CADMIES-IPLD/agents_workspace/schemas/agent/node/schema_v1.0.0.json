@@ -1,0 +1,207 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cadmies.schema/agent_node/v1.0.0",
+  "title": "AgentNode",
+  "description": "IPLD schema for intelligent agents - extends UniversalScientificConcept with executable capabilities",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "../universal_scientific_concept/universal_scientific_concept_schema_v1.0.0.json"
+    }
+  ],
+  "required": [
+    "agent_type",
+    "execution_spec",
+    "activation_state"
+  ],
+  "properties": {
+    "agent_type": {
+      "type": "string",
+      "enum": [
+        "classifier",
+        "reasoner", 
+        "memory",
+        "synthesizer",
+        "sensor",
+        "effector",
+        "philosophical_analyzer",
+        "scientific_reasoner",
+        "metaphysical_explorer"
+      ],
+      "description": "Type of cognitive capability the agent provides"
+    },
+    "execution_spec": {
+      "type": "object",
+      "required": [
+        "language",
+        "entry_point"
+      ],
+      "properties": {
+        "language": {
+          "type": "string",
+          "enum": ["python", "javascript", "wasm"],
+          "description": "Runtime language for agent execution"
+        },
+        "entry_point": {
+          "type": "string",
+          "description": "Function signature or method name for agent activation"
+        },
+        "requirements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^bafyrei[a-z2-7]{59}$"
+          },
+          "description": "CIDs of dependent concepts or agents"
+        },
+        "environment_spec": {
+          "type": "object",
+          "properties": {
+            "python_version": {
+              "type": "string",
+              "description": "Python version requirement if applicable"
+            },
+            "libraries": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Required libraries or dependencies"
+            },
+            "resource_limits": {
+              "type": "object",
+              "properties": {
+                "memory_mb": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "timeout_seconds": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "description": "Specification for how the agent executes"
+    },
+    "connection_graph": {
+      "type": "object",
+      "properties": {
+        "nodes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^bafyrei[a-z2-7]{59}$"
+          },
+          "description": "CIDs of connected agents or concepts"
+        },
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "type": "string",
+                "pattern": "^bafyrei[a-z2-7]{59}$"
+              },
+              "target": {
+                "type": "string", 
+                "pattern": "^bafyrei[a-z2-7]{59}$"
+              },
+              "weight": {
+                "type": "number",
+                "minimum": 0.0,
+                "maximum": 1.0
+              },
+              "type": {
+                "type": "string",
+                "enum": ["data_flow", "control_flow", "semantic"]
+              },
+              "description": {
+                "type": "string"
+              }
+            },
+            "required": ["source", "target"]
+          }
+        },
+        "graph_type": {
+          "type": "string",
+          "enum": ["data_flow", "control_flow", "hybrid"]
+        },
+        "directed": {
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "description": "Network connections to other agents/concepts"
+    },
+    "activation_state": {
+      "type": "object",
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "default": false
+        },
+        "last_activated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "activation_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "threshold": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "default": 0.5
+        }
+      },
+      "description": "Current activation state and history"
+    },
+    "memory_schema": {
+      "type": "object",
+      "properties": {
+        "memory_type": {
+          "type": "string",
+          "enum": ["episodic", "semantic", "procedural", "working"]
+        },
+        "storage_cid": {
+          "type": "string",
+          "pattern": "^bafyrei[a-z2-7]{59}$"
+        },
+        "capacity": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "retrieval_mechanism": {
+          "type": "string"
+        }
+      },
+      "description": "Memory configuration for the agent"
+    },
+    "learning_parameters": {
+      "type": "object",
+      "properties": {
+        "learning_rate": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "exploration_rate": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "update_frequency": {
+          "type": "string",
+          "enum": ["immediate", "batch", "periodic"]
+        }
+      },
+      "description": "Parameters for agent learning and adaptation"
+    }
+  },
+  "additionalProperties": false
+}
