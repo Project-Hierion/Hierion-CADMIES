@@ -1,0 +1,50 @@
+{
+  "human_id": "human_genome_project_overview",
+  "type": "ScientificMilestone",
+  "title": "Human Genome Project - Complete Map",
+  "domain": "Genomics",
+  "subdomain": "HistoryOfScience",
+  "description": "International scientific research project to map all human genes",
+  "definition": "The Human Genome Project was an international collaboration that successfully determined the DNA sequence of the entire human genome from 1990-2003. It produced the first reference genome, enabling modern genomics and personalized medicine.",
+  "start_date": "1990-10-01",
+  "completion_date": "2003-04-14",
+  "cost_billion": 2.7,
+  "countries_involved": ["USA", "UK", "Japan", "France", "Germany", "China"],
+  "difficulty_level": "beginner",
+  "schema_version": "1.0.0",
+  "metadata": {
+    "created": "2026-02-20T14:40:00Z",
+    "creator": "CADMIES_Genomics_Import",
+    "certainty_score": 1.0,
+    "version": 1,
+    "license": "CC0-1.0",
+    "purpose": "educational"
+  },
+  "proofs": [
+    {
+      "type": "primary_source",
+      "description": "Initial draft sequence published in Nature",
+      "confidence": 1.0,
+      "date": "2001-02-15",
+      "reference": "Nature 409, 860-921"
+    },
+    {
+      "type": "primary_source",
+      "description": "Complete sequence published",
+      "confidence": 1.0,
+      "date": "2003-04-14",
+      "reference": "Nature 431, 931-945"
+    }
+  ],
+  "relationships": {
+    "builds_upon": ["dna_sequencing_methods", "genetic_mapping"],
+    "led_to": ["personalized_medicine", "genome_wide_association_studies"],
+    "related_to": ["ethical_legal_social_implications", "celera_genomics"]
+  },
+  "extra_fields": {
+    "key_people": "Francis Collins, Craig Venter, Eric Lander",
+    "technologies": "shotgun_sequencing, clone_mapping, bioinformatics",
+    "outcome": "reference_genome, 20000-25000 genes identified",
+    "legacy": "1000 Genomes Project, ENCODE, Roadmap Epigenomics"
+  }
+}
