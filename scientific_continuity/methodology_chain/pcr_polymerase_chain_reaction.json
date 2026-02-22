@@ -1,0 +1,47 @@
+{
+  "human_id": "pcr_polymerase_chain_reaction",
+  "type": "LaboratoryTechnique",
+  "title": "Polymerase Chain Reaction (PCR)",
+  "domain": "MolecularBiology",
+  "subdomain": "DNAAmplification",
+  "description": "Method to amplify specific DNA sequences exponentially",
+  "definition": "PCR is a technique used to make millions of copies of a specific DNA sequence. It uses thermal cycling with DNA polymerase to repeatedly replicate target DNA, enabling detection and analysis from minimal starting material.",
+  "difficulty_level": "intermediate",
+  "schema_version": "1.0.0",
+  "metadata": {
+    "created": "2026-02-20T14:45:00Z",
+    "creator": "CADMIES_Genomics_Import",
+    "certainty_score": 1.0,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "proofs": [
+    {
+      "type": "nobel_prize",
+      "description": "Kary Mullis awarded Nobel Prize in Chemistry 1993",
+      "confidence": 1.0,
+      "date": "1993-10-01",
+      "reference": "https://www.nobelprize.org/prizes/chemistry/1993/summary/"
+    },
+    {
+      "type": "historical",
+      "description": "Original publication: Mullis et al. (1986)",
+      "confidence": 0.99,
+      "date": "1986-12-20",
+      "reference": "Cold Spring Harb Symp Quant Biol 51: 263-273"
+    }
+  ],
+  "relationships": {
+    "builds_upon": ["dna_replication", "thermostable_polymerases"],
+    "enables": ["dna_sequencing", "forensics", "diagnostics", "cloning"],
+    "related_to": ["rt_pcr", "qPCR", "digital_pcr"]
+  },
+  "extra_fields": {
+    "inventor": "Kary Mullis",
+    "year": 1983,
+    "key_components": ["dna_template", "primers", "polymerase", "nucleotides", "thermal_cycler"],
+    "steps": ["denaturation", "annealing", "extension"],
+    "applications": ["medical_diagnostics", "forensics", "research", "ancient_dna"]
+  }
+}
