@@ -1,0 +1,61 @@
+{
+  "human_id": "dna_sequencing_methods_comparison",
+  "type": "TechnologyComparison",
+  "title": "DNA Sequencing Methods: Sanger to Nanopore",
+  "domain": "Genomics",
+  "subdomain": "SequencingTechnology",
+  "description": "Historical and technical comparison of DNA sequencing platforms",
+  "definition": "DNA sequencing technologies have evolved from chain-termination methods to massively parallel platforms and real-time single-molecule sequencing. Each generation offers trade-offs in read length, accuracy, throughput, and cost.",
+  "difficulty_level": "intermediate",
+  "schema_version": "1.0.0",
+  "metadata": {
+    "created": "2026-02-20T15:00:00Z",
+    "creator": "CADMIES_Genomics_Import",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "proofs": [
+    {
+      "type": "historical",
+      "description": "Sanger method: Nobel Prize 1980",
+      "confidence": 1.0,
+      "date": "1980-10-01"
+    },
+    {
+      "type": "commercial",
+      "description": "Illumina dominates short-read market",
+      "confidence": 0.95,
+      "date": "2025-01-01"
+    }
+  ],
+  "relationships": {
+    "builds_upon": ["polymerase_chain_reaction", "fluorescence_detection"],
+    "enabled": ["human_genome_project", "personal_genomics", "metagenomics"],
+    "competes_with": ["microarray_technology"]
+  },
+  "extra_fields": {
+    "first_generation": {
+      "methods": ["Sanger chain-termination", "Maxam-Gilbert chemical"],
+      "read_length": "400-900 bp",
+      "accuracy": "99.99%",
+      "throughput": "low",
+      "cost_per_megabase": "$1000 (1990s)"
+    },
+    "second_generation": {
+      "methods": ["Illumina", "Ion Torrent"],
+      "read_length": "75-300 bp",
+      "accuracy": "99.9%",
+      "throughput": "high",
+      "cost_per_megabase": "$0.01-0.10"
+    },
+    "third_generation": {
+      "methods": ["PacBio SMRT", "Oxford Nanopore"],
+      "read_length": "10-100+ kb",
+      "accuracy": "85-99% (raw)",
+      "throughput": "medium",
+      "cost_per_megabase": "$0.10-1.00"
+    }
+  }
+}
