@@ -1,4 +1,4 @@
-# IPLD Knowledge Tools
+# CADMIES - IPLD Knowledge Tools
 
 **Content-Addressed Systems for Educational Knowledge Management**
 ![License](https://img.shields.io/badge/license-AGPLv3%20with%20Commons%20Clause-blue.svg)
@@ -7,7 +7,7 @@
 
 ## Overview
 
-CADMIES (Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem) is a decentralized knowledge system using IPLD/DAG-CBOR for storing verifiable concepts with content-addressed identifiers (CIDs). Think of it as mycelium for knowledge—structured, interconnected, and resilient.
+CADMIES (Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem) is a decentralized knowledge system using IPLD/DAG-CBOR for storing verifiable concepts with content-addressed identifiers (CIDs). Think of it as mycelium for knowledge — structured, interconnected, and resilient.
 
 Core Principles:
 - **Deterministic addressing** — Same content → Same CID → Same understanding
@@ -26,28 +26,34 @@ This repo contains **two parallel systems**:
 - Educators running classroom demonstrations
 - Quick testing without setup complexity
 - Exploring the IPLD knowledge concept structure
+
 👉 Start here if you're new to CADMIES.
 
-### `/CADMIES-IPLD/`
+### 🧠 `/CADMIES-IPLD/`
 **The complete production system** - For:
 - Advanced users running their own knowledge base
 - Researchers working with metaphysical concepts
 - Developers extending the platform
 - Full read/write cycle with actual stored concepts
-- 👉 Dive here when you're ready for the real thing.
+- Agent runtime and schema extensions
+- DNA/genomics experimental data
+
+👉 Dive here when you're ready for the real thing.
 
 ## Features
 
 - **CID Generator** — Create deterministic CIDs from structured JSON concepts
 - **CBOR Reader** — Retrieve concepts by CID or human-readable ID
 - **Universal Schema** — Standardized representation for scientific/philosophical concepts
+- **AgentNode Schema** — Extend concepts with executable agent capabilities
+- **Scientific Validator** — Quality control before storage
 - **IPLD Compatible** — Full DAG-CBOR support
 - **Test Suite** — Determinism verification and validation tools
 - **Atlas Network Ready** — Optional integration with decentralized discovery
 
 ## Graphical Interface
 
-CADMIES now includes a web-based GUI for easier interaction:
+CADMIES includes a web-based GUI for easier interaction:
 
 - **Dashboard** – System overview and recent activity
 - **Add Concept** – Form interface with live preview
@@ -64,220 +70,179 @@ CADMIES now includes a web-based GUI for easier interaction:
 ```bash
 # Install Python packages
 pip install dag-cbor multiformats
-```
 
-### Clone and Test
-```bash
+Clone and Test (Demo Version)
+bash
+
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
-cd CADMIES
-```
+cd CADMIES/testable_system
+
+bash
 
 # Generate your first concept
-```bash
 python cid_generator_v1.1.0.py
-```
 
 # Retrieve it (use the CID from previous step)
-```bash
 python cbor_reader.py bafyreifh5f5i6elunhcqfuw7n2t3c2rl4z6jtv76rz4wm2kz2q7bj7gnji
-```
 
 # List all stored concepts
-```bash
 python cbor_reader.py --list
-```
 
-## Beginner's Guide
+Beginner's Guide
 
 New to content-addressed systems? We've got you covered.
+Step-by-Step Tutorial
 
-### Step-by-Step Tutorial
-1. **Open your terminal/command line**
-   -Windows: Press Windows Key → type cmd → Enter
-   -Mac: Press Command + Space → type Terminal → Enter
-   -Linux: Press Ctrl + Alt + T
+    Open your terminal/command line
 
-2. **Check Python installation**
-    ```bash
+        Windows: Press Windows Key → type cmd → Enter
+
+        Mac: Press Command + Space → type Terminal → Enter
+
+        Linux: Press Ctrl + Alt + T
+
+    Check Python installation
+    bash
+
     python --version
-    ```
+
     You should see Python 3.8 or higher.
 
-3. **Install required packages**
-   ```bash
-   pip install dag-cbor multiformats
-   ```
+    Install required packages
+    bash
 
-4. **Clone this repository**
-   ```bash
-   git clone https://github.com/Hieros-CADMIES/CADMIES.git
-   cd CADMIES
-   ```
+    pip install dag-cbor multiformats
 
-5. **Run your first CID generation**
-   ```bash
-   python cid_generator_v1.1.0.py
-   ```
-   Look for: `🎯 Generated CID: bafy...`
+    Clone this repository
+    bash
 
-6. **Retrieve the concept**
-   ```bash
-   python cbor_reader.py [THE_CID_YOU_COPIED]
-   ```
+    git clone https://github.com/Hieros-CADMIES/CADMIES.git
+    cd CADMIES/testable_system
 
-7. **Verify determinism** (run step 5 again—same CID appears!)
+    Run your first CID generation
+    bash
+
+    python cid_generator_v1.1.0.py
+
+    Look for: 🎯 Generated CID: bafy...
+
+    Retrieve the concept
+    bash
+
+    python cbor_reader.py [THE_CID_YOU_COPIED]
+
+    Verify determinism (run step 5 again—same CID appears!)
 
 Congratulations! You've just used a content-addressed knowledge system.
+Project Structure
+text
 
-### 🌐 Atlas Network Integration
-
-CADMIES nodes can optionally join the Atlas decentralized network, making public knowledge concepts discoverable and queryable by other peers worldwide.
-
-### Why Connect to Atlas?
-
-- **Discoverability** — Your public concepts become searchable across the network
-- **Interoperability** — Structured data that other applications can use
-- **No lock-in** — Your node remains fully functional offline
-- **Privacy controlled** — Only directories you explicitly mark as public are visible
-
-### Quick Start with Atlas
-```bash
-
-# Install additional dependencies
-pip install -r atlas-integration/requirements.txt
-
-# Configure which directories are visible
-cp atlas-integration/config/visible_dirs.yaml.example atlas-integration/config/visible_dirs.yaml
-# Edit visible_dirs.yaml to set your privacy preferences
-
-# Generate node keys
-python -c "from atlas_integration.auth.keys import generate_node_keys; generate_node_keys()"
-
-# Start the Atlas-compatible API server
-python atlas-integration/api/server.py
-```
-
-Your node will be available at http://localhost:8080 and will:
-
-- Advertise CADMIES concepts to the Atlas network
-- Respond to queries for public knowledge
-- Keep private directories completely invisible
-
-### Privacy First
-Directories not listed in visible_dirs.yaml are invisible to the network. Queries for private paths receive 404 Not Found with no hint they exist. Your data stays yours.
-
-### Test the Integration
-```bash
-
-# Run the full integration test
-python test_cadmies_atlas_integration.py
-```
-
-See atlas-integration/README.md for complete documentation.
-
-## Project Structure
-```text
 CADMIES/
-├── cadmies-gui/                 # Web interface (complete)
-├── cadmies_demo/                 # Core tools package
-│   ├── cbor_reader.py
-│   ├── cid_generator_v1_1_0.py
-│   └── __init__.py
-├── docs/                         # User documentation
-│   ├── INSTALLATION.md
-│   ├── QUICK_START.md
-│   ├── TESTING_GUIDE.md
-│   └── USER_MANUAL.md
-├── examples/                     # Example concepts
-│   └── conservation_of_energy.json
-├── schemas/                      # JSON schemas
-│   ├── README.md
-│   └── universal_scientific_concept_schema_v1.0.0.json
-├── specs/                        # Formal specifications
-│   └── cid_structure_specification_v2.0.0.md
-├── tests/                        # Test suite
-│   ├── test_core_functionality.py
-│   ├── test_determinism.py
-│   └── test_read_write_cycle.py
-├── [root files]                  # PDFs, licenses, README, etc.
-```
+├── cadmies-gui/                    # Web interface (works with both systems)
+├── testable_system/                 # Sanitized demo version
+│   ├── cadmies_demo/               # Core tools package
+│   ├── docs/                        # User documentation
+│   ├── examples/                    # Example concepts
+│   ├── schemas/                     # JSON schemas
+│   ├── specs/                       # Formal specifications
+│   └── tests/                       # Test suite
+├── CADMIES-IPLD/                    # Complete production system
+│   ├── agents_workspace/            # Agent schemas and implementations
+│   ├── archive/                      # Versioned tool history
+│   ├── audits/                       # Scientific audit system
+│   ├── documentation/                 # Complete documentation suite
+│   ├── experiments/                   # DNA/genomics experimental data
+│   ├── genome_lab/                    # Sequencing workflow
+│   ├── runtime/                       # Agent runtime (Phase 3)
+│   ├── scientific_continuity/         # Peer-review system
+│   ├── store/                         # Authoritative IPLD data
+│   ├── tests/                         # Test files
+│   └── tools/                         # Authoritative toolset
+│       └── core/                       # Production tools
+├── [root files]                      # PDFs, licenses, README, etc.
+└── README.md                          # This file
 
-## Documentation
-```text
-| Document | Description |
-|----------|-------------|
-| Universal Scientific Concept Schema | JSON schema for concepts |
-| CID Structure Specification | Human-readable ID format |
-| Philosophical Framework | Design principles |
-| Atlas Integration Guide | Network setup |
-```
+Documentation
+Document	Location	Description
+Universal Scientific Concept Schema	/schemas/	JSON schema for concepts
+AgentNode Schema	/CADMIES-IPLD/agents_workspace/schemas/agent_node/	Executable agent specification
+CID Structure Specification	/specs/	Human-readable ID format
+User Guide	/testable_system/docs/	Getting started guide
+Technical Documentation	/CADMIES-IPLD/documentation/	Complete system documentation
+Testing
+Test the Demo System
+bash
 
-## Testing
+cd testable_system
+python tests/test_determinism.py
+python tests/test_core_functionality.py
+python tests/test_read_write_cycle.py
 
-```bash
-# Test core functionality
-python cid_generator_v1.1.0.py --educational-only
-python cbor_reader.py --list --verbose
-```
+Test the Production System
+bash
 
-# Test Atlas integration
-```bash
-python atlas-integration/tests/test_auth.py
-python atlas-integration/tests/test_api.py      # (server must be running)
-python test_cadmies_atlas_integration.py
-```
+cd CADMIES-IPLD
+python audits/scientific_audit.py
+python tests/test_autonomous_mining.py
 
-## ⚖️ License & Ethical Use
+⚖️ License & Ethical Use
+License
 
-### License
-AGPLv3 with Commons Clause - See [LICENSE](LICENSE)
+AGPLv3 with Commons Clause - See LICENSE
+Permitted Uses
 
-### Permitted Uses
-```text
-- ✅ Individual learning and research
-- ✅ Academic institutions and non-profits
-- ✅ Open source projects
-- ✅ Personal knowledge management
-```
+    ✅ Individual learning and research
 
-### Restricted Uses (Commons Clause)
-```text
-- ❌ Commercial SaaS offerings without contributing back
-- ❌ Proprietary AI training without reciprocity
-- ❌ Commercial products that don't share improvements
-```
+    ✅ Academic institutions and non-profits
 
-**For commercial licensing:** Contact hieroscadmies@proton.me
+    ✅ Open source projects
 
-## Contributing
+    ✅ Personal knowledge management
+
+Restricted Uses (Commons Clause)
+
+    ❌ Commercial SaaS offerings without contributing back
+
+    ❌ Proprietary AI training without reciprocity
+
+    ❌ Commercial products that don't share improvements
+
+For commercial licensing: Contact hieroscadmies@proton.me
+Contributing
 
 This project welcomes educational and research-focused contributions. Please ensure all contributions align with the project's ethical framework and licensing terms.
 
 We welcome contributions that align with our ethical framework:
 
-- **Knowledge sharing** over commercial exploitation
-- **Reciprocity** — If you use it commercially, contribute back
-- **Privacy preservation** — No data leaks, no tracking
-- **Educational focus** — Learning and research first
+    Knowledge sharing over commercial exploitation
+
+    Reciprocity — If you use it commercially, contribute back
+
+    Privacy preservation — No data leaks, no tracking
+
+    Educational focus — Learning and research first
 
 See our Contributing Guidelines and Code of Conduct.
+Related Resources
 
-## Related Resources
+    IPLD Documentation: https://ipld.io/
 
-- **IPLD Documentation**: https://ipld.io/
-- **DAG-CBOR Specification**: https://ipld.io/specs/codecs/dag-cbor/
-- **CID Explanation**: https://docs.ipfs.tech/concepts/content-addressing/
-- **Atlas Protocol** — Decentralized discovery network
-- **Schema.org** — Structured data standards
+    DAG-CBOR Specification: https://ipld.io/specs/codecs/dag-cbor/
 
-## Contact
+    CID Explanation: https://docs.ipfs.tech/concepts/content-addressing/
 
-- **Email**: hieroscadmies@proton.me
-- **GitHub Issues**: For bugs and feature requests https://github.com/Hieros-CADMIES/CADMIES/
-- **Discussions**: Join the conversation
+    Schema.org — Structured data standards
 
-## 🌱 Philosophy
+Contact
 
-*"You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable" - Alan Watts*
+    Email: hieroscadmies@proton.me
 
-*Let the mycelium grow! 🌱*
+    GitHub Issues: For bugs and feature requests
+
+    Discussions: Join the conversation
+
+🌱 Philosophy
+
+"You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable" - Alan Watts
+
+Let the mycelium grow! 🌱
