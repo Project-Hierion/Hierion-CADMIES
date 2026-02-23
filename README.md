@@ -26,7 +26,6 @@ This repo contains **two parallel systems**:
 - Educators running classroom demonstrations
 - Quick testing without setup complexity
 - Exploring the IPLD knowledge concept structure
-
 👉 Start here if you're new to CADMIES.
 
 ### 🧠 `/CADMIES-IPLD/`
@@ -37,7 +36,6 @@ This repo contains **two parallel systems**:
 - Full read/write cycle with actual stored concepts
 - Agent runtime and schema extensions
 - DNA/genomics experimental data
-
 👉 Dive here when you're ready for the real thing.
 
 ## Features
@@ -76,9 +74,9 @@ bash
 
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
 cd CADMIES/testable_system
+```
 
-bash
-
+```bash
 # Generate your first concept
 python cid_generator_v1.1.0.py
 
@@ -87,11 +85,12 @@ python cbor_reader.py bafyreifh5f5i6elunhcqfuw7n2t3c2rl4z6jtv76rz4wm2kz2q7bj7gnj
 
 # List all stored concepts
 python cbor_reader.py --list
+```
 
-Beginner's Guide
+## Beginner's Guide
 
-New to content-addressed systems? We've got you covered.
-Step-by-Step Tutorial
+**New to content-addressed systems? We've got you covered.**
+### Step-by-Step Tutorial
 
     Open your terminal/command line
 
@@ -102,40 +101,46 @@ Step-by-Step Tutorial
         Linux: Press Ctrl + Alt + T
 
     Check Python installation
-    bash
+    ```bash
 
     python --version
-
+    ```
+    
     You should see Python 3.8 or higher.
 
     Install required packages
-    bash
+    ```bash
 
     pip install dag-cbor multiformats
-
+    ```
+    
     Clone this repository
-    bash
+    ```bash
 
     git clone https://github.com/Hieros-CADMIES/CADMIES.git
     cd CADMIES/testable_system
-
+    ```
+    
     Run your first CID generation
-    bash
+    ```bash
 
     python cid_generator_v1.1.0.py
-
+    ```
+    
     Look for: 🎯 Generated CID: bafy...
 
     Retrieve the concept
-    bash
+    ```bash
 
     python cbor_reader.py [THE_CID_YOU_COPIED]
-
+    ```
+    
     Verify determinism (run step 5 again—same CID appears!)
 
-Congratulations! You've just used a content-addressed knowledge system.
-Project Structure
-text
+**Congratulations! You've just used a content-addressed knowledge system.**
+
+## Project Structure
+```text
 
 CADMIES/
 ├── cadmies-gui/                    # Web interface (works with both systems)
@@ -161,32 +166,38 @@ CADMIES/
 │       └── core/                       # Production tools
 ├── [root files]                      # PDFs, licenses, README, etc.
 └── README.md                          # This file
+```
 
-Documentation
+## Documentation
+```text
 Document	Location	Description
 Universal Scientific Concept Schema	/schemas/	JSON schema for concepts
 AgentNode Schema	/CADMIES-IPLD/agents_workspace/schemas/agent_node/	Executable agent specification
 CID Structure Specification	/specs/	Human-readable ID format
 User Guide	/testable_system/docs/	Getting started guide
 Technical Documentation	/CADMIES-IPLD/documentation/	Complete system documentation
-Testing
-Test the Demo System
-bash
+```
+
+## Testing
+**Test the Demo System**
+```bash
 
 cd testable_system
 python tests/test_determinism.py
 python tests/test_core_functionality.py
 python tests/test_read_write_cycle.py
+```
 
-Test the Production System
-bash
+**Test the Production System**
+```bash
 
 cd CADMIES-IPLD
 python audits/scientific_audit.py
 python tests/test_autonomous_mining.py
+```
 
-⚖️ License & Ethical Use
-License
+## License & Ethical Use
+### License
 
 AGPLv3 with Commons Clause - See LICENSE
 Permitted Uses
@@ -208,7 +219,8 @@ Restricted Uses (Commons Clause)
     ❌ Commercial products that don't share improvements
 
 For commercial licensing: Contact hieroscadmies@proton.me
-Contributing
+
+## Contributing
 
 This project welcomes educational and research-focused contributions. Please ensure all contributions align with the project's ethical framework and licensing terms.
 
@@ -223,7 +235,8 @@ We welcome contributions that align with our ethical framework:
     Educational focus — Learning and research first
 
 See our Contributing Guidelines and Code of Conduct.
-Related Resources
+
+## Related Resources
 
     IPLD Documentation: https://ipld.io/
 
@@ -233,7 +246,7 @@ Related Resources
 
     Schema.org — Structured data standards
 
-Contact
+## Contact
 
     Email: hieroscadmies@proton.me
 
@@ -243,6 +256,6 @@ Contact
 
 🌱 Philosophy
 
-"You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable" - Alan Watts
+***"You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable" - Alan Watts***
 
-Let the mycelium grow! 🌱
+***Let the mycelium grow!*** 🌱
