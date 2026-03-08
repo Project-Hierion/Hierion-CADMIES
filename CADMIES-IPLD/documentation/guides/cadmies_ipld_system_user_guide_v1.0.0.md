@@ -71,8 +71,9 @@ Every concept needs this structure:
     "expert": "Advanced explanation"
   }
 }
+```
 
-2.2 Field-by-Field Guide
+### 2.2 Field-by-Field Guide
 human_id (Required)
 
 Format: Domain:Type/ConceptName
@@ -130,7 +131,8 @@ Categorize your concept:
 proofs (Required - at least one)
 
 Every concept needs evidence:
-json
+
+```json
 
 {
   "type": "experimental",  // or theoretical, observational, anecdotal
@@ -139,6 +141,7 @@ json
   "date": "2024-10-01",
   "reference": "Where this came from"
 }
+```
 
 Confidence scale:
 
@@ -163,11 +166,13 @@ Explain the concept at different levels:
     expert: Technical or advanced perspective
 
 At minimum, provide "intermediate".
-2.3 Optional Fields
+
+### 2.3 Optional Fields
 relationships (Optional, but encouraged)
 
 Connect to other concepts:
-json
+
+```json
 
 {
   "builds_upon": ["OtherConceptID"],
@@ -175,11 +180,13 @@ json
   "related_to": ["SimilarConceptID"],
   "specializes": ["MoreGeneralConceptID"]
 }
+```
 
 extra_fields (Optional)
 
 Any additional information:
-json
+
+```json
 
 {
   "tags": ["tag1", "tag2"],
@@ -187,15 +194,17 @@ json
   "units": "Joules",
   "discovery_year": 1905
 }
+```
 
-2.4 Formatting Example: From Conversation to Concept
+### 2.4 Formatting Example: From Conversation to Concept
 
 Conversation snippet:
 
     "The way we structure knowledge should be both hierarchical (organized) and organic (able to make unexpected connections)."
 
 Formatted concept:
-json
+
+```json
 
 {
   "human_id": "Hieros:Concept/HierarchicalOrganic",
@@ -219,25 +228,28 @@ json
     "expert": "Hybrid knowledge representation combining directed acyclic hierarchies with small-world network properties"
   }
 }
+```
 
-PART 3: PLANTING (STORING CONCEPTS)
-3.1 Using the Workflow Tool
+## PART 3: PLANTING (STORING CONCEPTS)
+### 3.1 Using the Workflow Tool
 
 We have a simple tool to store concepts:
-bash
+
+```bash
 
 # Navigate to the IPLD system
 cd /path/to/CADMIES-IPLD
 
 # Use the workflow tool
 python3 tools/ipld_workflow_v1.0.0.py
+```
 
-3.2 Manual Storage (Advanced)
+### 3.2 Manual Storage (Advanced)
 
 If you want to store concepts manually:
 
 Create a Python script:
-python
+```python
 
 from tools.ipld_workflow import IPLDWorkflow_v1_0_0
 
@@ -251,9 +263,10 @@ concept = {
 result = workflow.create_concept(concept)
 if result["success"]:
     print(f"Stored! CID: {result['cid']}")
+```
 
 Or use command line:
-bash
+```bash
 
 # Create a JSON file with your concept
 echo '{
@@ -278,8 +291,9 @@ workflow = IPLDWorkflow_v1_0_0('./store')
 result = workflow.create_concept(concept)
 print(f'Result: {result}')
 "
+```
 
-3.3 What Happens When You Store
+### 3.3 What Happens When You Store
 
     Validation: System checks if concept has all required fields
 
@@ -292,9 +306,12 @@ print(f'Result: {result}')
     Confirmation: Returns the CID for future reference
 
 Important: The same concept always gets the same CID. Change anything -> new CID.
-PART 4: FINDING & USING CONCEPTS
-4.1 Finding by Human ID
-bash
+
+## PART 4: FINDING & USING CONCEPTS
+
+### 4.1 Finding by Human ID
+
+```bash
 
 # List all concepts
 python3 -c "
@@ -317,9 +334,10 @@ for human_id, cid in index.items():
     if search in human_id:
         print(f'   • {human_id} -> {cid[:20]}...')
 "
+```
 
-4.2 Retrieving Concepts
-python
+### 4.2 Retrieving Concepts
+```python
 
 from tools.ipld_workflow import IPLDWorkflow_v1_0_0
 
@@ -337,19 +355,21 @@ if result["success"]:
 all_concepts = workflow.list_concepts()
 for c in all_concepts["concepts"]:
     print(f"{c['human_id']}: {c['title']}")
+```
 
-4.3 Using in Different Contexts
+### 4.3 Using in Different Contexts
 
 For Learning (Beginner mode):
-python
+```python
 
 concept = workflow.retrieve_by_human_id("Physics:Law/ConservationOfEnergy")
 if concept["success"]:
     explanation = concept["concept"]["difficulty_levels"]["beginner"]
     print(f"Explanation: {explanation}")
+```
 
 For Research (Expert mode):
-python
+```python
 
 concept = workflow.retrieve_by_human_id("Physics:Law/ConservationOfEnergy")  
 if concept["success"]:
@@ -357,6 +377,7 @@ if concept["success"]:
     proofs = concept["concept"]["proofs"]
     print(f"Expert explanation: {explanation}")
     print(f"Evidence: {proofs}")
+```
 
 For AI Assistant:
 AI assistants can:
@@ -369,11 +390,13 @@ AI assistants can:
 
     Reference proofs for credibility
 
-PART 5: UPDATING CONCEPTS
-5.1 Important Rule: Immutability
+## PART 5: UPDATING CONCEPTS
+
+### 5.1 Important Rule: Immutability
 
 Concepts cannot be changed! Once stored, they're permanent.
-5.2 How to Update
+
+### 5.2 How to Update
 
     Retrieve the existing concept
 
@@ -384,7 +407,7 @@ Concepts cannot be changed! Once stored, they're permanent.
     Link versions using relationships
 
 Example:
-json
+```json
 
 {
   "human_id": "Physics:Law/ConservationOfEnergy_v2",
@@ -398,8 +421,9 @@ json
     "supersedes": ["bafyrei..."]  // CID of old version
   }
 }
+```
 
-5.3 Version Naming Convention
+### 5.3 Version Naming Convention
 
     Keep same human_id base
 
@@ -407,8 +431,9 @@ json
 
     Or date: _20241224
 
-PART 6: QUALITY CONTROL
-6.1 Validation Levels
+## PART 6: QUALITY CONTROL
+
+### 6.1 Validation Levels
 
 The system checks concepts at different rigor levels:
 
@@ -420,7 +445,7 @@ The system checks concepts at different rigor levels:
 
     STRICT: Maximum scientific standards
 
-6.2 Common Validation Errors
+### 6.2 Common Validation Errors
 
     Missing required fields -> Add missing fields
 
@@ -432,7 +457,7 @@ The system checks concepts at different rigor levels:
 
     Missing difficulty levels -> Add at least "intermediate"
 
-6.3 Quality Checklist Before Storing
+### 6.3 Quality Checklist Before Storing
 
     human_id follows Domain:Type/Name format
 
@@ -452,9 +477,10 @@ The system checks concepts at different rigor levels:
 
     Dates are in YYYY-MM-DD format
 
-PART 7: SYSTEM STATUS & MAINTENANCE
-7.1 Checking System Health
-bash
+## PART 7: SYSTEM STATUS & MAINTENANCE
+
+### 7.1 Checking System Health
+```bash
 
 # Check storage
 ls -la store/blocks/ | wc -l
@@ -466,8 +492,9 @@ cat store/index/human_id_to_cid.json | jq '. | length' 2>/dev/null || \
 
 # View logs
 tail -n 5 store/logs/operations_*.jsonl 2>/dev/null || echo "No logs yet"
+```
 
-7.2 Current Concepts in System
+### 7.2 Current Concepts in System
 
 As of 2025-12-24, the system contains:
 
@@ -478,7 +505,8 @@ As of 2025-12-24, the system contains:
     Workflow demonstration (system example)
 
 Total: ~6 concepts, ~2.5KB storage
-7.3 Adding More Concepts
+
+### 7.3 Adding More Concepts
 
 Simply follow the 3-step workflow:
 
@@ -488,8 +516,9 @@ Simply follow the 3-step workflow:
 
     Store using the workflow tool
 
-PART 8: TROUBLESHOOTING
-8.1 Common Issues
+## PART 8: TROUBLESHOOTING
+
+### 8.1 Common Issues
 
 "ModuleNotFoundError: No module named 'multiformats'"
 bash
@@ -504,7 +533,8 @@ Make sure all dates are strings (not Python date objects).
 
 "Can't find stored concept"
 Check the index: cat store/index/human_id_to_cid.json
-8.2 Getting Help
+
+### 8.2 Getting Help
 
     Check documentation: This guide and technical docs
 
@@ -514,8 +544,9 @@ Check the index: cat store/index/human_id_to_cid.json
 
     Start simple: Basic concept first, add complexity later
 
-PART 9: BEST PRACTICES
-9.1 Concept Mining Tips
+## PART 9: BEST PRACTICES
+
+### 9.1 Concept Mining Tips
 
     Capture ideas immediately when they occur
 
@@ -527,7 +558,7 @@ PART 9: BEST PRACTICES
 
     Record source context for evidence
 
-9.2 Formatting Tips
+### 9.2 Formatting Tips
 
     Be specific in definitions
 
@@ -539,7 +570,7 @@ PART 9: BEST PRACTICES
 
     Tag generously for searchability
 
-9.3 Storage Tips
+### 9.3 Storage Tips
 
     Validate first before storing
 
@@ -551,7 +582,7 @@ PART 9: BEST PRACTICES
 
     Review periodically for updates
 
-9.4 Collaboration Tips
+### 9.4 Collaboration Tips
 
     Share interesting concepts with team
 
@@ -563,8 +594,9 @@ PART 9: BEST PRACTICES
 
     Credit sources properly
 
-PART 10: THE BIGGER PICTURE
-10.1 Why This System Matters
+## PART 10: THE BIGGER PICTURE
+
+### 10.1 Why This System Matters
 
 You're not just "storing information." You're:
 
@@ -578,7 +610,7 @@ You're not just "storing information." You're:
 
     Preserving ideas with cryptographic certainty
 
-10.2 Your Role as Gardener
+### 10.2 Your Role as Gardener
 
 Think of yourself as tending a mycelial garden:
 
@@ -592,7 +624,7 @@ Think of yourself as tending a mycelial garden:
 
     You share abundance (collaborate)
 
-10.3 The Future Vision
+### 10.3 The Future Vision
 
 This system will eventually:
 
@@ -620,13 +652,14 @@ Your First Mission:
     Share it with a colleague
 
 Quick Reference Card:
-text
+```text
 
 MINE -> Find concepts in your work
 FORMAT -> Use IPLD template (all required fields)
 STORE -> python3 tools/ipld_workflow.py
 FIND -> Check store/index/human_id_to_cid.json
 UPDATE -> Create new version, link to old
+```
 
 SUPPORT & RESOURCES
 
@@ -647,12 +680,14 @@ Tools:
     CID Generator: tools/cid_generator_v1.0.0.py
 
 Location:
-text
+```text
 
 /path/to/CADMIES-IPLD/
+```
 
 Questions? Check documentation first.
 
 Happy knowledge gardening!
 
 "We are not building machines that think; we are building gardens where thoughts can grow like mycelium, connecting everything in cosmic patterns."
+
