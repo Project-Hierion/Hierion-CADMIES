@@ -10,11 +10,9 @@ A graphical interface for the CADMIES-IPLD system.
 
 ## Quick Start
 
-## Clone the repository
+## Navigate to GUI directory (from CADMIES-IPLD root)
 ```bash
-git clone https://github.com/yourname/cadmies-demo
-
-cd cadmies-demo/gui
+cd cadmies-gui
 ```
 
 ## Install dependencies
@@ -22,35 +20,30 @@ cd cadmies-demo/gui
 pip install -r requirements.txt
 ```
 
-## Create your data structure (anywhere)
-```bash
-mkdir -p my_cadmies/tools/core/store/{blocks,index,logs}
-```
-```text
-# Place your CADMIES tools:
-# - cid_generator_v1.1.0.py
-# - cbor_reader.py
-# into my_cadmies/tools/core/
-```
-
 ## Run the GUI
 ```bash
 python gui_main.py
 ```
+The GUI automatically uses:
 
+    ../store/ for IPLD blocks
+
+    ../tools/core/ for CID generator and CBOR reader
+    
 ## Directory Structure
 
 The GUI expects this structure (configurable via env):
 ```text
-your-cadmies-root/
-└── tools/
-    └── core/
-        ├── store/
-        │   ├── blocks/           # CBOR files
-        │   ├── index/             # human_id_to_cid.json
-        │   └── logs/              # operations.jsonl
-        ├── cid_generator_v1.1.0.py
-        └── cbor_reader.py
+CADMIES-IPLD/
+├── store/
+│   ├── blocks/           # CBOR files
+│   ├── index/            # human_id_to_cid.json
+│   └── logs/             # operations.jsonl
+├── tools/
+│   └── core/
+│       ├── cid_generator_v1.1.0.py
+│       └── cbor_reader.py
+└── cadmies-gui/          # This directory
 ```
 
 ## Usage
