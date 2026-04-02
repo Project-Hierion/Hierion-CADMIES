@@ -31,6 +31,19 @@ CADMIES (Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem) is a decentr
 - No central authority needed to validate knowledge
 - The system is trustless by design
 
+## Provenance: The Story Behind the Knowledge
+
+Every concept in CADMIES has two parts:
+
+1. **The Concept Block** — Immutable knowledge (same CID for everyone)
+2. **The Provenance Block** — Sticky note with timestamp + author
+
+When you retrieve a concept, you automatically see both:
+- What was claimed (the concept)
+- Who claimed it and when (the provenance)
+
+This enables scientific verification, attribution, and trust without a central authority.
+
 ## Repository Structure
 ```text
 CADMIES/
@@ -70,6 +83,8 @@ CADMIES/
 - **Scientific Validator** — Quality control before storage (4 validation levels)
 - **IPLD Compatible** — Full DAG-CBOR support
 - **Robust Error Handling** — Graceful failure with informative logging
+- **Provenance Tracking** — Automatic timestamp and author attribution (separate from concept CID)
+- **Sticky Notes** — When retrieved, every concept shows its creation history
 
 ## Graphical Interface
 
