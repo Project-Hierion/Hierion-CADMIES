@@ -1,0 +1,88 @@
+#!/usr/bin/env python3
+"""
+Provenance Manager v1.0.0
+Purpose: Create and query provenance records (timestamps, authorship, verification)
+Dependencies: dag_cbor, multiformats
+Air-Gapped: Yes
+"""
+
+import json
+import dag_cbor
+import hashlib
+from datetime import datetime, timezone
+from pathlib import Path
+from multiformats import multihash, CID
+from typing import Dict, Any, List, Optional
+
+class ProvenanceManager:
+    def __init__(self, store_path: Path = None):
+        if store_path is None:
+            self.store_path = Path(__file__).parent.parent.parent / "store"
+        else:
+            self.store_path = Path(store_path)
+        
+        self.blocks_path = self.store_path / "blocks"
+        self.index_path = self.store_path / "index" / "human_id_to_cid.json"
+        
+    def create_provenance_record(self, concept_cid: str, author: str, record_type: str, **kwargs) -> Dict[str, Any]:
+        """Create a provenance record and store it as an IPLD block"""
+        
+        record = {
+            "concept_cid": concept_cid,
+            "timestamp": datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
+            "author": author,
+            "record_type": record_type,
+            **kwargs
+        }
+        
+        # Generate CID for the provenance record
+        cbor_bytes = dag_cbor.encode(record)
+        digest = hashlib.sha256(cbor_bytes).digest()
+        mh = multihash.wrap(digest, 'sha2-256')
+        cid = CID('base32', 1, 'dag-cbor', mh)
+        
+        # Store the block
+        block_path = self.blocks_path / str(cid)
+        with open(block_path, 'wb') as f:
+            f.write(cbor_bytes)
+        
+        return {
+            "provenance_cid": str(cid),
+            "record": record,
+            "stored": True
+        }
+    
+    def query_provenance(self, concept_cid: str) -> List[Dict[str, Any]]:
+        """Find all provenance records referencing a concept CID"""
+        results = []
+        
+        # Scan all blocks for provenance records
+        for block_file in self.blocks_path.glob("bafy*"):
+            with open(block_file, 'rb') as f:
+                cbor_bytes = f.read()
+            
+            try:
+                record = dag_cbor.decode(cbor_bytes)
+                # Check if it's a provenance record (has concept_cid field)
+                if isinstance(record, dict) and record.get("concept_cid") == concept_cid:
+                    results.append(record)
+            except:
+                continue
+        
+        # Sort by timestamp
+        results.sort(key=lambda x: x.get("timestamp", ""))
+        return results
+    
+    def get_origin(self, concept_cid: str) -> Optional[Dict[str, Any]]:
+        """Get the creation record (oldest provenance) for a concept"""
+        records = self.query_provenance(concept_cid)
+        for record in records:
+            if record.get("record_type") == "creation":
+                return record
+        return None
+
+if __name__ == "__main__":
+    pm = ProvenanceManager()
+    print("Provenance Manager initialized")
+    print(f"Store path: {pm.store_path}")
+    print(f"Blocks: {len(list(pm.blocks_path.glob('bafy*')))}")
