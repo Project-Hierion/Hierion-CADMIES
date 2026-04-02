@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "Epistemology:Concept/PerceptualFramesAsIntelligenceMultipliers",
+  "title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+  "definition": "Intelligence isn't fixed - it's filtered through the operating system of perception. Cannabis and other altered states change the perceptual OS, enabling different pattern recognition and revealing what was previously invisible. Change the OS, change what becomes visible.",
+  "type": "PhilosophicalConcept",
+  "domain": "Epistemology",
+  "subdomain": "Cognitive Science / Consciousness Studies",
+  "metadata": {
+    "creator": "Hieros-CADMIES / DS / Alan Watts (posthumous honorary)",
+    "certainty_score": 0.85,
+    "version": 1,
+    "license": "AGPLv3 with Commons Clause",
+    "purpose": "knowledge_sharing"
+  },
+  "proofs": [
+    {
+      "type": "anecdotal",
+      "description": "Observed pattern: altered perceptual states reveal different cognitive patterns and creative insights",
+      "confidence": 0.75,
+      "reference": "Perceptual Framing Theory / Direct Experience"
+    }
+  ],
+  "relationships": {
+    "builds_upon": ["PerceptualFraming", "CognitivePlasticity", "Neurodiversity"],
+    "related_to": ["ConsciousnessStudies", "Creativity", "PatternRecognition"],
+    "specializes": ["SituatedCognition", "StateDependentMemory"]
+  },
+  "difficulty_levels": {
+    "beginner": "Your mindset and state of consciousness changes what you can see and understand",
+    "intermediate": "Cognitive frameworks and altered states act as perceptual OS filters that enable different patterns to emerge",
+    "expert": "The observer's perceptual apparatus - modified by substances or practices - fundamentally shapes phenomenological reality and pattern detection"
+  },
+  "extra_fields": {
+    "attribution": "Hieros-CADMIES / DS / Alan Watts (posthumous honorary)",
+    "category": "Metaphysics / Epistemology / Cognitive Science",
+    "insight_origin": "Collaborative dialogue between human and artificial intelligence",
+    "reference_os_analogy": "Everyone understands operating systems - this makes complex cognitive concepts accessible"
+  }
+}
