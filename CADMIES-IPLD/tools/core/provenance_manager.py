@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from multiformats import multihash, CID
 from typing import Dict, Any, List, Optional
+from paths import BLOCKS_DIR, INDEX_FILE, LOGS_DIR, ensure_dirs
 
 class ProvenanceManager:
     def __init__(self, store_path: Path = None):

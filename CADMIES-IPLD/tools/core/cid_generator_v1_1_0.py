@@ -58,11 +58,12 @@ import dag_cbor
 from multiformats import multihash, CID
 from typing import Dict, Any
 import hashlib
+from provenance_manager import ProvenanceManager
 from datetime import datetime
 import argparse
 import sys
 import os
-
+from paths import BLOCKS_DIR, INDEX_DIR, INDEX_FILE, LOGS_DIR, ensure_dirs
 
 class CIDGenerator_v1_1_0:
     """
@@ -85,27 +86,33 @@ class CIDGenerator_v1_1_0:
         Validate concept structure against knowledge schema
         """
         errors = []
-        
+        warnings = []
+    
         required_fields = [
             "schema_version", "human_id", "title", "definition",
             "type", "domain", "metadata"
         ]
-        
+    
         for field in required_fields:
             if field not in concept:
                 errors.append(f"Missing required field: {field}")
-        
+    
         if "metadata" in concept:
             metadata = concept["metadata"]
-            meta_required = ["created", "creator", "certainty_score", "version"]
+            meta_required = ["creator", "certainty_score", "version"]  # created is now optional
             for field in meta_required:
                 if field not in metadata:
                     errors.append(f"Missing metadata field: {field}")
         
-        if errors:
-            return {"success": False, "errors": errors}
-        return {"success": True, "errors": []}
+            # Add this after checking required fields
+            if "created" not in metadata:
+                warnings.append("No creation timestamp - provenance will be stored separately")
     
+        if errors:
+            return {"success": False, "errors": errors, "warnings": warnings}
+    
+        return {"success": True, "errors": [], "warnings": warnings}
+
     def generate_cid(self, concept: Dict[str, Any]) -> Dict[str, Any]:
         """
         Generate CID from validated knowledge concept
@@ -176,15 +183,15 @@ class CIDGenerator_v1_1_0:
             human_id = concept.get("human_id", "unknown")
             
             # Save block
-            block_path = f"./blocks/{cid}.cbor"
-            os.makedirs(os.path.dirname(block_path), exist_ok=True)
+            block_path = BLOCKS_DIR / f"{cid}.cbor"
+            block_path.parent.mkdir(parents=True, exist_ok=True)
             
             with open(block_path, "wb") as f:
                 f.write(serialized)
             
             # Update index
-            index_path = "./index/human_id_to_cid.json"
-            os.makedirs(os.path.dirname(index_path), exist_ok=True)
+            index_path = INDEX_DIR / "human_id_to_cid.json"
+            index_path.parent.mkdir(parents=True, exist_ok=True)
             
             index = {}
             if os.path.exists(index_path):
@@ -204,8 +211,8 @@ class CIDGenerator_v1_1_0:
                 json.dump(index, f, indent=2)
             
             # Log operation
-            log_path = "./logs/operations.jsonl"
-            os.makedirs(os.path.dirname(log_path), exist_ok=True)
+            log_path = LOGS_DIR / "operations.jsonl"
+            log_path.parent.mkdir(parents=True, exist_ok=True)
             
             log_entry = {
                 "timestamp": datetime.now().isoformat() + "Z",
@@ -220,7 +227,21 @@ class CIDGenerator_v1_1_0:
             
             with open(log_path, "a") as f:
                 f.write(json.dumps(log_entry) + "\n")
-            
+
+            # Auto-create provenance record for this concept
+            try:
+                pm = ProvenanceManager()
+                provenance_result = pm.create_provenance_record(
+                    concept_cid=cid,
+                    author="CID_Generator",
+                    record_type="creation",
+                    comment="Auto-generated from CID generator"
+                )
+                if provenance_result.get('stored'):
+                    print(f"   📝 Provenance record: {provenance_result['provenance_cid'][:20]}...")
+            except Exception as e:
+                print(f"   ⚠️  Provenance creation failed: {e}")
+
             return {
                 "success": True,
                 "block_path": block_path,

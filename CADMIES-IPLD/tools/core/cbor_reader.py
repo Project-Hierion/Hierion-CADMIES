@@ -59,6 +59,8 @@ import sys
 import os
 from pathlib import Path
 from datetime import datetime
+from paths import BLOCKS_DIR, INDEX_FILE, LOGS_DIR
+from provenance_manager import ProvenanceManager
 
 # Try to import dag-cbor (same as cid_generator.py)
 try:
@@ -85,17 +87,17 @@ class CBORReader:
     SCHEMA_NAME = "universal_scientific_concept_schema_v1.0.0.json"
     SCHEMA_VERSION = "1.0.0"
     
-    def __init__(self, blocks_dir="./blocks", index_dir="./index", logs_dir="./logs"):
-        """Initialize with configurable paths for knowledge storage."""
+    def __init__(self):
+        """Initialize with centralized paths."""
         self.version = "1.0.0"
-        self.blocks_dir = Path(blocks_dir)
-        self.index_file = Path(index_dir) / "human_id_to_cid.json"
-        self.logs_dir = Path(logs_dir)
-        
+        self.blocks_dir = BLOCKS_DIR
+        self.index_file = INDEX_FILE
+        self.logs_dir = LOGS_DIR
+    
         # Create directories if they don't exist
-        self.blocks_dir.mkdir(exist_ok=True)
-        self.index_file.parent.mkdir(exist_ok=True)
-        self.logs_dir.mkdir(exist_ok=True)
+        self.blocks_dir.mkdir(parents=True, exist_ok=True)
+        self.index_file.parent.mkdir(parents=True, exist_ok=True)
+        self.logs_dir.mkdir(parents=True, exist_ok=True)
     
     def validate_cid(self, cid: str) -> bool:
         """Validate CID format (basic check for educational purposes)."""
@@ -210,6 +212,26 @@ class CBORReader:
         output.append(f"CID: {cid}")
         output.append(f"Human ID: {concept.get('human_id', 'Not specified')}")
         output.append("-" * 80)
+        
+        # Display provenance records (sticky notes)
+        try:
+            from provenance_manager import ProvenanceManager
+            pm = ProvenanceManager()
+            provenance_records = pm.query_provenance(cid)
+            if provenance_records:
+                output.append("")
+                output.append("📜 PROVENANCE STICKY NOTES:")
+                for p in provenance_records:
+                    record_type = p.get('record_type', 'unknown')
+                    author = p.get('author', 'unknown')
+                    timestamp = p.get('timestamp', 'unknown')[:19]
+                    output.append(f"   • {record_type} by {author} on {timestamp}")
+                    if p.get('comment'):
+                        output.append(f"     └─ {p.get('comment')}")
+                    if p.get('confidence'):
+                        output.append(f"     └─ Confidence: {p.get('confidence')}")
+        except Exception:
+            pass  # Provenance is optional, fail silently
         
         # Schema compliance information (when verbose)
         if verbose:
@@ -517,12 +539,8 @@ Install: pip install dag-cbor
     
     args = parser.parse_args()
     
-    # Initialize reader with configurable paths
-    reader = CBORReader(
-        blocks_dir=args.blocks_dir,
-        index_dir=args.index_dir,
-        logs_dir=args.logs_dir
-    )
+    # Initialize reader with centralized paths
+    reader = CBORReader()
     
     print("=" * 70)
     print("IPLD CBOR READER v1.0.0")
