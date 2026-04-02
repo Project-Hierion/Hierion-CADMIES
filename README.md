@@ -18,6 +18,19 @@ CADMIES (Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem) is a decentr
 - **Privacy by design** — Directory-level visibility control
 - **Ethical knowledge sharing** — AGPLv3 with Commons Clause
 
+## Understanding CIDs (Content Identifiers)
+
+**How CIDs work:**
+- Same content → Same hash → Same CID → Same understanding
+- CIDs are deterministic across all users and systems
+- Content includes: definition, equations, relationships, proofs
+- Timestamps and authorship are stored separately (see Provenance)
+
+**Why this matters:**
+- You can verify someone else's concept by checking its CID
+- No central authority needed to validate knowledge
+- The system is trustless by design
+
 ## Repository Structure
 ```text
 CADMIES/
@@ -73,24 +86,32 @@ CADMIES includes a web-based GUI for easier interaction:
 
 ## Quick Start
 
-### Prerequisites
+**Prerequisites**
 Install Python packages
 ```bash
 pip install dag-cbor multiformats
 ```
 
-### Generate Your First Concept
+**First-time users: Generate the initial knowledge store**
+```bash
+cd CADMIES-IPLD
+```
+```bash
+python tools/core/cid_generator_v1_1_0.py
+```
+
+**Generate Your First Concept**
 Navigate to the system directory
 ```bash
 cd CADMIES-IPLD
 ```
 
-### Generate a concept (creates CID and stores it)
+**Generate a concept (creates CID and stores it)**
 ```bash
 python tools/core/cid_generator_v1_1_0.py
 ```
 
-### Retrieve a Concept
+**Retrieve a Concept**
 Use the CID from the generation step
 ```bash
 python tools/core/cbor_reader.py bafyreicxfbddn4nsovtujy53envoo6cmmeszv6kk6ypigy7n7omfblnrda
@@ -99,18 +120,18 @@ Or use a human-readable ID
 ```bash
 python tools/core/cbor_reader.py Physics:Law/ConservationOfEnergy
 ```
-### List All Stored Concepts
+**List All Stored Concepts**
 ```bash
 python tools/core/cbor_reader.py --list
 ```
 
-### Validate a Concept
+**Validate a Concept**
 Test the scientific validator
 ```bash
 python tools/core/scientific_validator_v1.0.0.py
 ```
 
-### Run an Agent
+**Run an Agent**
 Test the agent executor with a philosophical analyzer
 ```bash
 python runtime/runtime-minimal_agent_executor.py --test
