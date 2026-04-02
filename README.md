@@ -1,15 +1,17 @@
 # CADMIES - IPLD Knowledge Tools
 
 **Content-Addressed Systems for Educational Knowledge Management**
+
 ![License](https://img.shields.io/badge/license-AGPLv3%20with%20Commons%20Clause-blue.svg)
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![Status](https://img.shields.io/badge/status-active-orange.svg)
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
+[![Codespaces](https://img.shields.io/badge/GitHub-Codespaces-181717?logo=github)](https://github.com/features/codespaces)
 
 ## Overview
 
 CADMIES (Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem) is a decentralized knowledge system using IPLD/DAG-CBOR for storing verifiable concepts with content-addressed identifiers (CIDs). Think of it as mycelium for knowledge — structured, interconnected, and resilient.
 
-Core Principles:
+**Core Principles:**
 - **Deterministic addressing** — Same content → Same CID → Same understanding
 - **Local-first** — Air-gapped by default, network optional
 - **Schema-enforced** — All concepts validate against UniversalScientificConcept schema
@@ -17,26 +19,33 @@ Core Principles:
 - **Ethical knowledge sharing** — AGPLv3 with Commons Clause
 
 ## Repository Structure
+```text
+CADMIES/
+├── CADMIES-IPLD/ # Main system directory
+│ ├── agents/ # Agent implementations
+│ │ └── code/ # Agent Python modules
+│ ├── agents_workspace/ # Agent schemas and definitions
+│ │ └── schemas/agent_node/ # AgentNode schema specifications
+│ ├── audits/ # Scientific audit tools
+│ ├── cadmies-gui/ # Web-based graphical interface
+│ ├── documentation/ # Complete documentation suite
+│ ├── experiments/ # Experimental data (DNA, genomics)
+│ ├── genome_lab/ # Sequencing workflows
+│ ├── runtime/ # Agent execution runtime
+│ ├── schemas/ # JSON schemas for concepts
+│ ├── scientific_continuity/ # Peer-review and methodology
+│ ├── scripts/ # Utility scripts
+│ ├── specs/ # Formal specifications
+│ ├── store/ # IPLD block storage
+│ │ ├── blocks/ # Content-addressed blocks
+│ │ └── index/ # Human ID to CID mappings
+│ └── tools/ # Core toolset
+│ └── core/ # Production tools
+├── LICENSE # AGPLv3 with Commons Clause
+├── README.md # This file
+└── [documentation PDFs] # Project narratives and manifests
+```
 
-This repo contains **two parallel systems**:
-
-### `/testable_system/`
-**The sanitized demo version** - Perfect for:
-- Beginners learning content-addressed systems
-- Educators running classroom demonstrations
-- Quick testing without setup complexity
-- Exploring the IPLD knowledge concept structure
-👉 Start here if you're new to CADMIES.
-
-### 🧠 `/CADMIES-IPLD/`
-**The complete production system** - For:
-- Advanced users running their own knowledge base
-- Researchers working with metaphysical concepts
-- Developers extending the platform
-- Full read/write cycle with actual stored concepts
-- Agent runtime and schema extensions
-- DNA/genomics experimental data
-👉 Dive here when you're ready for the real thing.
 
 ## Features
 
@@ -44,10 +53,10 @@ This repo contains **two parallel systems**:
 - **CBOR Reader** — Retrieve concepts by CID or human-readable ID
 - **Universal Schema** — Standardized representation for scientific/philosophical concepts
 - **AgentNode Schema** — Extend concepts with executable agent capabilities
-- **Scientific Validator** — Quality control before storage
+- **Agent Executor** — Runtime for executing cognitive agents
+- **Scientific Validator** — Quality control before storage (4 validation levels)
 - **IPLD Compatible** — Full DAG-CBOR support
-- **Test Suite** — Determinism verification and validation tools
-- **Atlas Network Ready** — Optional integration with decentralized discovery
+- **Robust Error Handling** — Graceful failure with informative logging
 
 ## Graphical Interface
 
@@ -58,149 +67,173 @@ CADMIES includes a web-based GUI for easier interaction:
 - **Browse Library** – Search and view existing concepts
 - **Audit Trail** – Complete operation history
 
-**[GUI Documentation](./cadmies-gui/README.md)**
+**[GUI Documentation](./CADMIES-IPLD/cadmies-gui/README.md)**
 
 100% local, air-gapped by default, same ethical licensing.
 
 ## Quick Start
 
 ### Prerequisites
+Install Python packages
 ```bash
-# Install Python packages
 pip install dag-cbor multiformats
-
-Clone and Test (Demo Version)
-bash
-
-git clone https://github.com/Hieros-CADMIES/CADMIES.git
-cd CADMIES/testable_system
 ```
 
+### Generate Your First Concept
+Navigate to the system directory
 ```bash
-# Generate your first concept
-python cid_generator_v1.1.0.py
+cd CADMIES-IPLD
+```
 
-# Retrieve it (use the CID from previous step)
-python cbor_reader.py bafyreifh5f5i6elunhcqfuw7n2t3c2rl4z6jtv76rz4wm2kz2q7bj7gnji
+### Generate a concept (creates CID and stores it)
+```bash
+python tools/core/cid_generator_v1_1_0.py
+```
 
-# List all stored concepts
-python cbor_reader.py --list
+### Retrieve a Concept
+Use the CID from the generation step
+```bash
+python tools/core/cbor_reader.py bafyreicxfbddn4nsovtujy53envoo6cmmeszv6kk6ypigy7n7omfblnrda
+```
+Or use a human-readable ID
+```bash
+python tools/core/cbor_reader.py Physics:Law/ConservationOfEnergy
+```
+### List All Stored Concepts
+```bash
+python tools/core/cbor_reader.py --list
+```
+
+### Validate a Concept
+Test the scientific validator
+```bash
+python tools/core/scientific_validator_v1.0.0.py
+```
+
+### Run an Agent
+Test the agent executor with a philosophical analyzer
+```bash
+python runtime/runtime-minimal_agent_executor.py --test
 ```
 
 ## Beginner's Guide
 
-**New to content-addressed systems? We've got you covered.**
+New to content-addressed systems? Let's walk through it.
+What's Happening Under the Hood?
+
+    You provide content — A concept like "Energy cannot be created or destroyed"
+
+    System serializes — Converts to DAG-CBOR format
+
+    System hashes — Creates a SHA2-256 hash of the content
+
+    System generates CID — Packages hash into a Content Identifier
+
+    System stores — Saves block with the CID as its address
+
+**The magic: Same content → Same hash → Same CID → Same understanding**
+
 ### Step-by-Step Tutorial
 
-    Open your terminal/command line
+Open your terminal in the project directory
+Generate a concept:
+```bash
+cd CADMIES-IPLD
+```
+```bash
+python tools/core/cid_generator_v1_1_0.py
+```
 
-        Windows: Press Windows Key → type cmd → Enter
+Look for: 🎯 Generated CID: bafy...
 
-        Mac: Press Command + Space → type Terminal → Enter
+Retrieve it:
+```bash
+python tools/core/cbor_reader.py [THE_CID_YOU_COPIED]
+```
 
-        Linux: Press Ctrl + Alt + T
+Verify determinism: Run step 2 again — same CID appears!
 
-    Check Python installation
-    ```bash
+**Congratulations!** You've just used a content-addressed knowledge system.
 
-    python --version
-    ```
-    
-    You should see Python 3.8 or higher.
+## Testing
 
-    Install required packages
-    ```bash
+Test Core Functionality
+```bash
+cd CADMIES-IPLD
+```
 
-    pip install dag-cbor multiformats
-    ```
-    
-    Clone this repository
-    ```bash
+### Test CID determinism
+```bash
+python tools/core/cid_generator_v1_1_0.py
+```
 
-    git clone https://github.com/Hieros-CADMIES/CADMIES.git
-    cd CADMIES/testable_system
-    ```
-    
-    Run your first CID generation
-    ```bash
+### Test retrieval
+```bash
+python tools/core/cbor_reader.py --list
+```
 
-    python cid_generator_v1.1.0.py
-    ```
-    
-    Look for: 🎯 Generated CID: bafy...
+### Test scientific validation
+```bash
+python tools/core/scientific_validator_v1.0.0.py
+```
 
-    Retrieve the concept
-    ```bash
+### Test agent executor
+```bash
+python runtime/runtime-minimal_agent_executor.py --test
+```
 
-    python cbor_reader.py [THE_CID_YOU_COPIED]
-    ```
-    
-    Verify determinism (run step 5 again—same CID appears!)
-
-**Congratulations! You've just used a content-addressed knowledge system.**
-
-## Project Structure
+### Expected Results
 ```text
+    All concepts generate deterministic CIDs
 
-CADMIES/
-├── cadmies-gui/                    # Web interface (works with both systems)
-├── testable_system/                 # Sanitized demo version
-│   ├── cadmies_demo/               # Core tools package
-│   ├── docs/                        # User documentation
-│   ├── examples/                    # Example concepts
-│   ├── schemas/                     # JSON schemas
-│   ├── specs/                       # Formal specifications
-│   └── tests/                       # Test suite
-├── CADMIES-IPLD/                    # Complete production system
-│   ├── agents_workspace/            # Agent schemas and implementations
-│   ├── archive/                      # Versioned tool history
-│   ├── audits/                       # Scientific audit system
-│   ├── documentation/                 # Complete documentation suite
-│   ├── experiments/                   # DNA/genomics experimental data
-│   ├── genome_lab/                    # Sequencing workflow
-│   ├── runtime/                       # Agent runtime (Phase 3)
-│   ├── scientific_continuity/         # Peer-review system
-│   ├── store/                         # Authoritative IPLD data
-│   ├── tests/                         # Test files
-│   └── tools/                         # Authoritative toolset
-│       └── core/                       # Production tools
-├── [root files]                      # PDFs, licenses, README, etc.
-└── README.md                          # This file
+    Retrieved concepts match stored content exactly
+
+    Scientific validator passes/fails appropriately
+
+    Agent executor handles missing data gracefully
 ```
 
 ## Documentation
 ```text
-Document	Location	Description
-Universal Scientific Concept Schema	/schemas/	JSON schema for concepts
-AgentNode Schema	/CADMIES-IPLD/agents_workspace/schemas/agent_node/	Executable agent specification
-CID Structure Specification	/specs/	Human-readable ID format
-User Guide	/testable_system/docs/	Getting started guide
-Technical Documentation	/CADMIES-IPLD/documentation/	Complete system documentation
+Document:	Location	| Description
+Universal Scientific Concept Schema:	/CADMIES-IPLD/schemas/	| JSON schema for concepts
+AgentNode Schema:	/CADMIES-IPLD/agents_workspace/schemas/agent_node/	| Executable agent specification
+CID Structure Specification:	/CADMIES-IPLD/specs/	| Human-readable ID format
+User Guide:	/CADMIES-IPLD/documentation/guides/	| Getting started guide
+Technical Documentation:	/CADMIES-IPLD/documentation/	| Complete system documentation
+Development
+GitHub Codespaces
 ```
 
-## Testing
-**Test the Demo System**
-```bash
+***This project is fully compatible with GitHub Codespaces.*** **Launch a codespace and the environment is ready to go:**
+```text
+    Click Code → Codespaces → Create codespace on main
 
-cd testable_system
-python tests/test_determinism.py
-python tests/test_core_functionality.py
-python tests/test_read_write_cycle.py
+    Dependencies are pre-installed
+
+    Run the system immediately
 ```
 
-**Test the Production System**
+## Running Locally
 ```bash
-
-cd CADMIES-IPLD
-python audits/scientific_audit.py
-python tests/test_autonomous_mining.py
+git clone https://github.com/Hieros-CADMIES/CADMIES.git
+```
+```bash
+cd CADMIES/CADMIES-IPLD
+```
+```bash
+pip install dag-cbor multiformats
+```
+```bash
+python tools/core/cid_generator_v1_1_0.py
 ```
 
 ## License & Ethical Use
 ### License
 
-AGPLv3 with Commons Clause - See LICENSE
-Permitted Uses
+AGPLv3 with Commons Clause — See LICENSE
+
+**Permitted Uses:**
 
     ✅ Individual learning and research
 
@@ -210,7 +243,7 @@ Permitted Uses
 
     ✅ Personal knowledge management
 
-Restricted Uses (Commons Clause)
+**Restricted Uses (Commons Clause):**
 
     ❌ Commercial SaaS offerings without contributing back
 
@@ -218,13 +251,13 @@ Restricted Uses (Commons Clause)
 
     ❌ Commercial products that don't share improvements
 
-For commercial licensing: Contact hieroscadmies@proton.me
+**For commercial licensing:** hieroscadmies@proton.me
 
-## Contributing
+**Contributing**
 
 This project welcomes educational and research-focused contributions. Please ensure all contributions align with the project's ethical framework and licensing terms.
 
-We welcome contributions that align with our ethical framework:
+We welcome contributions that align with:
 
     Knowledge sharing over commercial exploitation
 
@@ -236,17 +269,17 @@ We welcome contributions that align with our ethical framework:
 
 See our Contributing Guidelines and Code of Conduct.
 
-## Related Resources
+**Related Resources**
 
-    IPLD Documentation: https://ipld.io/
+    IPLD Documentation
 
-    DAG-CBOR Specification: https://ipld.io/specs/codecs/dag-cbor/
+    DAG-CBOR Specification
 
-    CID Explanation: https://docs.ipfs.tech/concepts/content-addressing/
+    CID Explanation
 
     Schema.org — Structured data standards
 
-## Contact
+**Contact**
 
     Email: hieroscadmies@proton.me
 
@@ -254,8 +287,8 @@ See our Contributing Guidelines and Code of Conduct.
 
     Discussions: Join the conversation
 
-🌱 Philosophy
+**🌱 Philosophy**
 
-***"You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable" - Alan Watts***
+    "You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable" — Alan Watts
 
-***Let the mycelium grow!*** 🌱
+***Let the mycelium grow! 🌱***
