@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "pareto_principle",
+  "title": "Pareto Principle (80/20 Rule)",
+  "definition": "For many outcomes, roughly 80% of consequences come from 20% of causes. Examples: 80% of wealth owned by 20% of people, 80% of sales from 20% of customers, 80% of problems from 20% of causes.",
+  "type": "EmpiricalRegularity",
+  "domain": "Economics",
+  "subdomain": "Distribution Theory",
+  "formula": "y = 1/x^a (power law distribution)",
+  "proofs": [
+    {
+      "type": "empirical",
+      "description": "Observed across economics, business, software engineering, and natural systems",
+      "confidence": 0.90,
+      "reference": "Pareto, V. (1906). Manuale di economia politica."
+    },
+    {
+      "type": "mathematical",
+      "description": "Power law distributions produce 80/20 relationships under certain parameters",
+      "confidence": 0.95,
+      "reference": "Newman, M.E.J. (2005). Power laws, Pareto distributions and Zipf's law. Contemporary Physics, 46(5), 323-351."
+    }
+  ],
+  "cross_references": {
+    "related_concepts": ["power_law", "zipfs_law", "long_tail", "cumulative_advantage"],
+    "opposing_views": []
+  },
+  "relationships": {
+    "builds_upon": ["statistical_distributions", "power_laws"],
+    "contradicts": ["normal_distribution_assumptions"],
+    "related_to": ["inequality", "productivity", "quality_management"],
+    "specializes": ["zipfs_law", "price_behavior"]
+  },
+  "difficulty_levels": {
+    "beginner": "A small number of things cause most of the results. 20% of your efforts create 80% of your results.",
+    "intermediate": "The Pareto principle is a heuristic describing power law distributions where a minority of inputs produce a majority of outputs. It guides resource allocation and prioritization.",
+    "expert": "The 80/20 rule emerges from power law distributions common in complex systems (Pareto, Zipf, Yule). It reflects preferential attachment or multiplicative growth processes. Applications include software optimization (80% of errors from 20% of code) and business strategy."
+  },
+  "learning_path": {
+    "prerequisites": ["statistics_basics", "probability_distributions"],
+    "next_steps": ["power_laws", "zipfs_law", "complex_systems"]
+  },
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.90,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "extra_fields": {
+    "historical_context": "Observed by Vilfredo Pareto (1906) studying land ownership in Italy. Popularized by Joseph Juran (1940s) in quality management.",
+    "limitations": "Not a law; exact ratio varies (70/30, 90/10). Descriptive, not prescriptive. Requires identification of the critical 20%.",
+    "key_references": ["Pareto 1906", "Juran 1951", "Koch 1997", "Newman 2005"],
+    "discoverer": "Vilfredo Pareto",
+    "discovery_year": 1906,
+    "applications": ["Business strategy", "Software optimization", "Time management", "Quality control"]
+  }
+}
