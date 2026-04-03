@@ -1,39 +1,43 @@
+# CADMIES GUI
+
 A graphical interface for the CADMIES-IPLD system.  
 100% local, air-gapped, and ready for your own data.
 
 ## Features
 
-- **Dashboard** – System overview, stats, recent activity
-- **Add Concept** – Form interface with live preview
-- **Browse Library** – Search and view existing concepts
-- **Audit Trail** – Complete operation history
+- **Dashboard** – System overview, stats, recent activity, hidden easter egg (click the 🌱)
+- **Add Concept** – Form interface with client-side live preview (updates when you click out of fields)
+- **Browse Library** – Search and view existing concepts with provenance sticky notes
+- **Audit Trail** – Complete operation history with timeline
+- **Mycelium Map** – Interactive knowledge graph visualization (173+ nodes, 160+ edges)
 
 ## Quick Start
 
-## Navigate to GUI directory (from CADMIES-IPLD root)
+### Navigate to GUI directory (from CADMIES-IPLD root)
 ```bash
 cd cadmies-gui
-```
 
-## Install dependencies
-```bash
+Install dependencies
+bash
+
 pip install -r requirements.txt
-```
 
-## Run the GUI
-```bash
+Run the GUI
+bash
+
 python gui_main.py
-```
+
 The GUI automatically uses:
 
     ../store/ for IPLD blocks
 
     ../tools/core/ for CID generator and CBOR reader
-    
-## Directory Structure
+
+Directory Structure
 
 The GUI expects this structure (configurable via env):
-```text
+text
+
 CADMIES-IPLD/
 ├── store/
 │   ├── blocks/           # CBOR files
@@ -41,37 +45,76 @@ CADMIES-IPLD/
 │   └── logs/             # operations.jsonl
 ├── tools/
 │   └── core/
-│       ├── cid_generator_v1.1.0.py
+│       ├── cid_generator_v1_1_0.py
 │       └── cbor_reader.py
+├── mycelium_map.html     # Generated knowledge graph
 └── cadmies-gui/          # This directory
-```
 
-## Usage
-
+Usage
 Adding a Concept
 
-    Click "Add Concept" in navigation
+    Click "Add Concept" in the sidebar navigation
 
-    Fill in the form (live preview updates)
+    Fill in the form:
+
+        Concept Name – Will be converted to snake_case automatically
+
+        Concept Type – Select from dropdown
+
+        Domain – Select from dropdown
+
+        Subdomain – Free text
+
+        Description – The core definition
+
+    Live Preview – Updates automatically when you click out of each field (air-gap compatible)
 
     Click "Generate CID & Store"
 
-    View the new CID and confirmation
+    View the new CID and confirmation dialog
 
-## Browsing Concepts
+Browsing Concepts
 
-    Click "Browse Library"
+    Click "Browse Library" in the sidebar
 
     Search by concept name
 
-    Click "View" on any concept to see details
+    Click "View" on any concept to see details including:
+
+        Full definition
+
+        Provenance sticky notes (who created it, when)
+
+        Version history (supersedes links)
+
+        Relationships, proofs, and difficulty levels
 
     Toggle between grid and list views
 
-## Project Structure
-```text
+Mycelium Map (Knowledge Graph)
+
+    Click "Mycelium Map" in the sidebar
+
+    Explore the interactive graph:
+
+        Nodes = concepts (color-coded by domain)
+
+        Edges = relationships (builds_upon, relates_to, specializes, contradicts)
+
+        Click any node to see concept name
+
+        Zoom and drag to navigate
+
+    Easter egg: Type cadmies anywhere on the map to activate a special visual tribute
+
+Dashboard Easter Egg
+
+Click the 🌱 seedling next to "CADMIES Dashboard" for a bittersweet surprise.
+Project Structure
+text
+
 gui/
-├── gui_main.py              # Application entry point
+├── gui_main.py              # Application entry point (with persistent sidebar)
 ├── gui_system.py            # CADMIES system detection
 ├── gui_concept.py           # Data models (Pydantic)
 ├── gui_tools/               # Core tool wrappers
@@ -79,40 +122,53 @@ gui/
 │   └── reader_wrapper.py    # Calls cbor_reader
 ├── ui/                      # UI pages
 │   └── pages/
-│       ├── dashboard.py
-│       ├── add_concept.py
-│       ├── browse.py
-│       └── audit.py
+│       ├── dashboard.py     # Dashboard with easter egg
+│       ├── add_concept.py   # Form with client-side preview
+│       ├── browse.py        # Concept library
+│       ├── audit.py         # Operation timeline
+│       └── mycelium_map.py  # Knowledge graph (static serving)
 ├── requirements.txt         # Dependencies
 ├── CONTRIBUTING.md          # Guide for contributors
 └── ROADMAP.md               # Planned features
-```
 
-## Air-Gap & Security
+Persistent Sidebar Navigation
+
+The GUI now features a persistent sidebar on ALL pages:
+
+    🏠 Home – Landing page with welcome message
+
+    📊 Dashboard – System overview
+
+    ➕ Add Concept – Create new concepts
+
+    📚 Browse Library – View existing concepts
+
+    📋 Audit Trail – Operation history
+
+    🕸️ Mycelium Map – Knowledge graph visualization
+
+Air-Gap & Security
 
 Current version: 100% air-gapped
 
-    No network connections
+    No network connections (except optional mycelium map CDN for Cytoscape.js)
 
     All data stored locally
 
     No telemetry or analytics
 
-    All dependencies are local Python packages
+    Live preview uses client-side JavaScript (no server communication)
 
-## Future: Optional secure sharing (sandboxed, user-consent only)
-
-### Configuration
+Future: Optional secure sharing (sandboxed, user-consent only)
+Configuration
 
 Set CADMIES_TOOLS_PATH environment variable to use a custom location:
+bash
 
 export CADMIES_TOOLS_PATH=/absolute/path/to/your/tools/core
-```bash
 python gui_main.py
-```
 
-## Troubleshooting
-
+Troubleshooting
 "CADMIES System Not Found"
 
     Verify your tools directory exists
@@ -129,18 +185,32 @@ Concept won't add
 
     Check Python script paths in console output
 
+Preview not updating
+
+    Preview updates when you click out of a field (not while typing)
+
+    This is intentional for air-gap compatibility
+
 No audit logs
 
     First operation creates the log file
 
     Check store/logs/operations.jsonl
 
-## Contributing
+Mycelium Map not loading
+
+    Ensure mycelium_map.html exists in the CADMIES-IPLD root
+
+    Run the relationship extraction script to generate it
+
+Contributing
+
 See CONTRIBUTING.md for step-by-step guide on adding new features.
+Roadmap
 
-## Roadmap
 See ROADMAP.md for planned features and priorities.
+License
 
-## License
 AGPLv3 with Commons Clause – see root repository LICENSE file.
 
+🌱 Let the mycelium grow!
