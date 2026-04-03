@@ -1,4 +1,4 @@
-First off, thank you for considering contributing to CADMIES! 🧑🏽‍🌾🍄
+# **First off, thank you for considering contributing to CADMIES! 🧑🏽‍🌾**
 
 ## Quick Navigation
 
