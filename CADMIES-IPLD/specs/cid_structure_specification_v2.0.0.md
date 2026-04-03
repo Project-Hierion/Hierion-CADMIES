@@ -1,13 +1,13 @@
 ---
 System: CADMIES-IPLD
 Document_ID: CA-2026-004-SPEC
-Version: 2.0.0
+Version: 2.0.1
 Classification: PUBLIC
 Author: Digital Intelligence Research Division - Project Hieros
 Reviewers: [IPLD Architect, Technical Lead]
 Status: ACTIVE
 Created: 2026-02-03
-Modified: 2026-02-18
+Modified: 2026-04-03
 Related_Docs:
   - LICENSE.md (AGPLv3 with Commons Clause)
 Note: CID structure adheres to NASA standards for unambiguous identification
@@ -18,7 +18,6 @@ Ethical_Framework: AGPLv3 with Commons Clause - Knowledge sharing over commercia
 ## Content Identifier Format for IPLD DAG-CBOR System
 
 ### Document Control
-```
 | Field | Value |
 |-------|-------|
 | **System** | CADMIES (Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem) |
@@ -29,11 +28,10 @@ Ethical_Framework: AGPLv3 with Commons Clause - Knowledge sharing over commercia
 | **Applicability** | All concept entries, IPLD blocks, agent nodes, MDI components |
 | **Reference Implementation** | cid_generator_v1.1.0.py |
 | **License** | AGPLv3 with Commons Clause |
-```
+
 ---
 
 ## Table of Contents
-```
 1.0 PURPOSE AND SCOPE
 2.0 CID STRUCTURE DEFINITION
 3.0 RELATIONSHIP TO IPLD SCHEMA
@@ -45,7 +43,7 @@ Ethical_Framework: AGPLv3 with Commons Clause - Knowledge sharing over commercia
 9.0 APPENDICES
 10.0 ETHICAL GUIDELINES
 11.0 RELATED DOCUMENTS
-```
+
 ---
 
 ## 1.0 PURPOSE AND SCOPE
@@ -65,6 +63,14 @@ Applies to all concept entries, IPLD block generation, agent nodes, MDI (Mycorrh
 - **Schema-Compliant**: All concepts validate against defined schemas
 - **Ethical**: All CIDs reference ethically-sourced knowledge (educational/research focus per AGPLv3+Commons Clause)
 
+### 1.4 Mycelium Graph Integration
+
+The CID structure enables automatic relationship mapping:
+- **Relationship fields** (`builds_upon`, `related_to`, `specializes`, `contradicts`) reference other `human_id` values
+- **Bidirectional indexing** creates a complete knowledge graph
+- **Mycelium Map** visualizes all concepts and their connections
+- **Graph navigation** allows exploration of concept relationships interactively
+
 ---
 
 ## 2.0 CID STRUCTURE DEFINITION
@@ -79,11 +85,7 @@ The CADMIES IPLD system uses two complementary identifier systems:
 
 **Format**: `snake_case` (lowercase with underscores)
 
-**Syntax**:
-
-^[a-z][a-z0-9_]*[a-z0-9]$
-text
-
+**Syntax**: `^[a-z][a-z0-9_]*[a-z0-9]$`
 
 **Rules**:
 - All lowercase characters
@@ -93,24 +95,22 @@ text
 - Descriptive but concise (recommended: 3-8 words)
 
 **Examples from Production**:
-- `bond_breaking_as_liberation_mechanism`
-- `cyclic_liberation_force_hypothesis`
-- `fractal_reality_principle`
-- `cosmic_mind_pattern_isomorphism`
-- `informational_pattern_as_cosmic_dna`
+- `conservation_of_energy`
+- `information_is_physical_principle`
+- `perceptual_frames_as_intelligence_multipliers`
+- `natural_selection`
+- `bayes_theorem`
 
 ### 2.3 CID Generation Format
-```
-**Standard**: CIDv1
-**Multibase**: base32 (lowercase)
-**Codec**: dag-cbor (0x71)
-**Hash Function**: SHA2-256
-```
 
-**Example**:
+| Parameter | Value |
+|-----------|-------|
+| **Standard** | CIDv1 |
+| **Multibase** | base32 (lowercase) |
+| **Codec** | dag-cbor (0x71) |
+| **Hash Function** | SHA2-256 |
 
-bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja
-
+**Example**: `bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja`
 
 ### 2.4 Bidirectional Mapping
 
@@ -119,108 +119,86 @@ The system maintains a persistent mapping between `human_id` and CID:
 ```json
 // /store/index/human_id_to_cid.json
 {
-  "bond_breaking_as_liberation_mechanism": "bafyreiftvhx64umvh3jq3tjjzxw6vkcgom7nzqnfojdmqtn4v77bafwu7m",
-  "cyclic_liberation_force_hypothesis": "bafyreify36pdnblhieyevv7o4kld7b3tlgyjjf6imlkv2g66fhdwx7hqfa",
-  "fractal_reality_principle": "bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja"
+  "conservation_of_energy": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+  "information_is_physical_principle": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+  "perceptual_frames_as_intelligence_multipliers": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq"
 }
-```
 
-## 3.0 RELATIONSHIP TO IPLD SCHEMA
-
-### 3.1 UniversalScientificConcept Schema Integration
+3.0 RELATIONSHIP TO IPLD SCHEMA
+3.1 UniversalScientificConcept Schema Integration
 
 The CID is derived from the full concept JSON, which includes the human_id field but does not embed domain/type in the identifier itself.
 
 Concept JSON Structure:
-```json
+json
 
 {
   "schema_version": "1.0.0",
-  "human_id": "fractal_reality_principle",        // snake_case lookup key
-  "title": "Fractal Reality Principle",           // Human-readable title
-  "definition": "The principle that reality exhibits fractal patterns...",
-  "type": "MetaphysicalPrinciple",                // Concept type (CamelCase)
-  "domain": "Metaphysics",                         // Primary domain (CamelCase)
-  "subdomain": "Philosophy of Science",            // Optional subdomain
+  "human_id": "conservation_of_energy",
+  "title": "Law of Conservation of Energy",
+  "definition": "Energy cannot be created or destroyed...",
+  "type": "ScientificLaw",
+  "domain": "Physics",
+  "subdomain": "Classical Mechanics",
+  "formula": "ΔE = 0",
   "metadata": {
-    "created": "2025-12-25T10:30:00Z",
-    "creator": "Concept Miner v1.0",
-    "certainty_score": 0.95,
-    "version": 1,
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.99,
+    "version": 2,
     "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": "bafyreiaeqlqeykyu33kggmf5zwd5wn6yanecibwdxlu2t5o6jaxk3jeswy"
   }
 }
-```
 
-### 3.2 Field Purpose
-```
-| Field | Format | Purpose |
-|-------|--------|---------|
-| **human_id** | snake_case | Human-readable lookup key |
-| **title** | Natural language | Display title |
-| **domain** | CamelCase | Primary classification |
-| **type** | CamelCase | Concept nature classification |
-| **CID** | base32 | Cryptographic content address |
-```
+3.2 Field Purpose
+Field	Format	Purpose
+human_id	snake_case	Human-readable lookup key
+title	Natural language	Display title
+domain	CamelCase	Primary classification
+type	CamelCase	Concept nature classification
+CID	base32	Cryptographic content address
+3.3 Schema Evolution Path
+text
 
-### 3.3 Schema Evolution Path
-```text
+UniversalScientificConcept v1.0.0 → AgentNode v1.0.0 → MDI Components
+                    |                          |
+           Base concept schema          Intelligent agent schema
 
-UniversalScientificConcept v1.0.0 -> AgentNode v1.0.0 -> MDI Components
-                        |                          |
-               Base concept schema          Intelligent agent schema
-```
-
-## 4.0 IPLD IMPLEMENTATION
-
-### 4.1 CID Generation (Reference Implementation)
+4.0 IPLD IMPLEMENTATION
+4.1 CID Generation (Reference Implementation)
 
 When processed by cid_generator_v1.1.0.py:
-```python
+python
 
 # Simplified from reference implementation
 concept_data = {
     "schema_version": "1.0.0",
-    "human_id": "fractal_reality_principle",
-    "title": "Fractal Reality Principle",
+    "human_id": "conservation_of_energy",
+    "title": "Law of Conservation of Energy",
     "definition": "...",
-    "type": "MetaphysicalPrinciple",
-    "domain": "Metaphysics",
+    "type": "ScientificLaw",
+    "domain": "Physics",
     "metadata": {
-        "created": "2025-12-25T10:30:00Z",
-        "creator": "Concept Miner v1.0",
-        "certainty_score": 0.95,
-        "version": 1
+        "created": "2026-04-03T00:00:00Z",
+        "creator": "CADMIES PhD Template v1.0",
+        "certainty_score": 0.99,
+        "version": 2
     }
 }
 
 # Generate CIDv1 with dag-cbor codec using SHA2-256
 cid = CID('base32', 1, 'dag-cbor', multihash(digest, 'sha2-256'))
-# Returns: bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja
-```
+# Returns: bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu
 
-### 4.2 Immutability Principle
+4.2 Immutability Principle
 
 Rule: If any field in the concept changes, a new CID is generated.
-
-Version Chain Example:
-```json
-
-{
-  "metadata": {
-    "version_chain": {
-      "supersedes": "bafy...previous",
-      "superseded_by": null
-    }
-  }
-}
-```
-
-### 4.3 Required Metadata Fields
+4.3 Required Metadata Fields
 
 Each IPLD block must include:
-```json
+json
 
 {
   "metadata": {
@@ -234,27 +212,51 @@ Each IPLD block must include:
     "superseded_by": "CID or null"
   }
 }
-```
 
-***Ethical Note: The purpose field must align with AGPLv3+Commons Clause ethical guidelines.***
+    Ethical Note: The purpose field must align with AGPLv3+Commons Clause ethical guidelines.
 
-### 4.4 Block Storage Structure
-```text
+4.4 Block Storage Structure
+text
 
 /store/
 ├── blocks/
-│   ├── bafyreiftvhx64umvh3jq3tjjzxw6vkcgom7nzqnfojdmqtn4v77bafwu7m.cbor
-│   ├── bafyreify36pdnblhieyevv7o4kld7b3tlgyjjf6imlkv2g66fhdwx7hqfa.cbor
-│   └── bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja.cbor
+│   ├── bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu.cbor
+│   ├── bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm.cbor
+│   └── bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq.cbor
 ├── index/
 │   └── human_id_to_cid.json
 └── logs/
     └── operations.jsonl
-```
 
-## 5.0 VALIDATION RULES
+4.5 Provenance and Version Tracking
 
-### 5.1 human_id Validation
+Each concept has two components:
+
+    Concept Block - Immutable knowledge (deterministic CID)
+
+    Provenance Block - Sticky note with timestamp + author (auto-generated)
+
+Version History:
+
+    Updated concepts include supersedes field linking to previous CID
+
+    Reader displays version history automatically
+
+    Old blocks remain immutable and accessible
+
+Example version chain output from CBOR Reader:
+text
+
+METADATA:
+  Version: 2
+  ...
+
+📜 VERSION HISTORY:
+  Supersedes: bafyreiaeqlqeykyu33kggmf5zwd5wn6yanecibwdxlu2t5o6jaxk3jeswy
+  → To view previous version: python3 cbor_reader.py [old-CID]
+
+5.0 VALIDATION RULES
+5.1 human_id Validation
 
 A valid human_id must pass:
 
@@ -266,7 +268,7 @@ A valid human_id must pass:
 
     No Leading/Trailing Underscores: Underscores only between words
 
-### 5.2 CID Validation
+5.2 CID Validation
 
 A valid CID must:
 
@@ -278,24 +280,23 @@ A valid CID must:
 
     Exist in the blockstore or be verifiable
 
-### 5.3 Reference Implementation Validation
+5.3 Reference Implementation Validation
 
 The validate_concept() method in cid_generator_v1.1.0.py enforces:
-python
 
-def validate_concept(self, concept: Dict[str, Any]) -> Dict[str, Any]:
-    # Checks required fields including schema_version, human_id, title, domain, type
-    # Validates human_id format against regex
-    # Validates metadata subfields
-    # Returns success/error structure
+    Required fields (schema_version, human_id, title, domain, type)
 
-### 5.4 Uniqueness Validation
+    human_id format against regex
+
+    Metadata subfields
+
+5.4 Uniqueness Validation
 
     No two active concepts may have identical human_id values
 
     No two active concepts may have identical CIDs (cryptographically guaranteed)
 
-### 5.5 Index Validation
+5.5 Index Validation
 
     All entries in human_id_to_cid.json must have corresponding blocks
 
@@ -303,113 +304,119 @@ def validate_concept(self, concept: Dict[str, Any]) -> Dict[str, Any]:
 
     Index backups must be maintained for atomic operations
 
-### 5.6 Ethical Validation
-```python
+5.6 Ethical Validation
+python
 
 # Checks for explicit purpose/educational intent
 if "metadata" in concept and "purpose" in concept["metadata"]:
     purpose = concept["metadata"]["purpose"]
     if purpose not in ["educational", "research", "personal_knowledge"]:
         print(f"⚠️  Note: Concept purpose is '{purpose}'...")
-```
 
-## 6.0 EXAMPLES BY DOMAIN
-
-### 6.1 Production Concepts (Validated)
-```text
-| human_id | Domain | Type | CID |
-|----------|--------|------|-----|
-| bond_breaking_as_liberation_mechanism | SystemsTheory | MechanisticPrinciple | bafyreiftvhx64umvh3jq3tjjzxw6vkcgom7nzqnfojdmqtn4v77bafwu7m |
-| cyclic_liberation_force_hypothesis | Metaphysics | PhilosophicalHypothesis | bafyreify36pdnblhieyevv7o4kld7b3tlgyjjf6imlkv2g66fhdwx7hqfa |
-| fractal_reality_principle | Metaphysics | MetaphysicalPrinciple | bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja |
-| cosmic_mind_pattern_isomorphism | Metaphysics | PhilosophicalTheory | bafyreia2e73edv6rcl4duwqtcrvjqunxg5p3oele37wdpdw3d5s7m7wf2i |
-| informational_pattern_as_cosmic_dna | InformationTheory | MetaphysicalConcept | bafyreidcjzvgob34yq7ft3y7d3geyvtx3m4dscsmlh5xnk76qawizf6liu |
-```
-
-### 6.2 Domain Reference
-
+6.0 EXAMPLES BY DOMAIN
+6.1 Production Concepts (20+ Validated)
+human_id	Domain	Type
+conservation_of_energy	Physics	ScientificLaw
+information_is_physical_principle	Physics	ScientificPrinciple
+perceptual_frames_as_intelligence_multipliers	Epistemology	PhilosophicalHypothesis
+entropy	Physics	ScientificConcept
+natural_selection	Biology	ScientificTheory
+bayes_theorem	Mathematics	MathematicalTheorem
+game_theory	Mathematics	MathematicalTheory
+fermi_paradox	Physics	Paradox
+occams_razor	Philosophy	PhilosophicalPrinciple
+schrodingers_cat	Physics	ThoughtExperiment
+godels_incompleteness_theorems	Mathematics	MathematicalTheorem
+heisenberg_uncertainty_principle	Physics	PhysicalPrinciple
+trolley_problem	Philosophy	ThoughtExperiment
+placebo_effect	Medicine	MedicalPhenomenon
+pareto_principle	Economics	EmpiricalRegularity
+dunning_kruger_effect	Psychology	CognitiveBias
+butterfly_effect	Mathematics	ChaosTheoryConcept
+hamiltons_rule	Biology	BiologicalPrinciple
+hard_problem_of_consciousness	Philosophy	PhilosophicalProblem
+newtons_laws_of_motion	Physics	ScientificLaw
+6.2 Domain Reference
 Domain	Description	Example human_id
-Metaphysics	Fundamental nature of reality	fractal_reality_principle
-SystemsTheory	System behavior and structure	bond_breaking_as_liberation_mechanism
-InformationTheory	Information as fundamental	informational_pattern_as_cosmic_dna
-ConsciousnessStudies	Nature of consciousness	cosmic_mind_pattern_isomorphism
-Philosophy	Philosophical frameworks	non_duality_principle
-CognitiveScience	Mind and cognition	associative_mind_model
-
-### 6.3 Type Reference
-
+Physics	Physical laws, principles, systems	conservation_of_energy
+Philosophy	Philosophical frameworks	occams_razor
+Biology	Biological principles, evolution	natural_selection
+Mathematics	Mathematical concepts, theorems	bayes_theorem
+Epistemology	Knowledge theory	perceptual_frames_as_intelligence_multipliers
+Psychology	Cognitive biases, mental phenomena	dunning_kruger_effect
+Economics	Economic principles	pareto_principle
+Medicine	Medical phenomena	placebo_effect
+6.3 Type Reference
 Type	When to Use	Example
-MetaphysicalPrinciple	Fundamental metaphysical truth	fractal_reality_principle
-PhilosophicalHypothesis	Testable philosophical claim	cyclic_liberation_force_hypothesis
-PhilosophicalTheory	Developed philosophical framework	cosmic_mind_pattern_isomorphism
-MechanisticPrinciple	Mechanism-based principle	bond_breaking_as_liberation_mechanism
-MetaphysicalConcept	Abstract metaphysical idea	informational_pattern_as_cosmic_dna
-TestConcept	System validation only	test_simple
+ScientificLaw	Fundamental scientific law	conservation_of_energy
+ScientificPrinciple	Foundational scientific principle	information_is_physical_principle
+PhilosophicalHypothesis	Testable philosophical claim	perceptual_frames_as_intelligence_multipliers
+MathematicalTheorem	Mathematically proven statement	bayes_theorem
+ThoughtExperiment	Conceptual experiment	schrodingers_cat
+CognitiveBias	Systematic pattern of deviation	dunning_kruger_effect
+Paradox	Seemingly contradictory statement	fermi_paradox
+7.0 IMPLEMENTATION GUIDELINES
+7.1 Creating New Concepts
 
-### 7.0 IMPLEMENTATION GUIDELINES
-
-### 7.1 Creating New Concepts
-
-    Choose a descriptive human_id (snake_case)
-
-        Use 3-8 words for clarity
-
-        Be specific: quantum_entanglement_information_transfer not quantum_stuff
+    Choose a descriptive human_id (snake_case, 3-8 words)
 
     Select domain and type from allowed lists
 
     Create JSON concept file following schema
 
-    Validate locally before generation
-
     Generate CID using reference implementation:
     bash
 
-    python3 cid_generator_v1.1.0.py --concept-file concept.json
+python3 cid_generator_v1.1.0.py --concept-file concept.json
 
     Verify block was stored and index updated
 
-### 7.2 Using the GUI (Alternative)
-```bash
+7.2 Using the GUI
+bash
 
 # Start the GUI
-python3 /path/to/cadmies_gui/cadmies_gui_main.py
+cd CADMIES-IPLD/cadmies-gui
+python gui_main.py
 
-# Navigate to: http://localhost:8081/add
-# Fill form -> Submit -> CID returned automatically
-```
+GUI Features:
 
-### 7.3 Evolving Existing Concepts
+    Persistent sidebar navigation (Home, Dashboard, Add Concept, Browse, Audit, Mycelium Map)
+
+    Client-side live preview (air-gap compatible)
+
+    Clickable easter egg (🌱 seedling on Dashboard)
+
+    Interactive Mycelium Map knowledge graph
+
+7.3 Evolving Existing Concepts
 
     Create updated JSON with same human_id
 
     Generate new CID (content changed = new CID)
 
     Update metadata:
-    ```json
+    json
 
-    "metadata": {
-      "version": 2,
-      "supersedes": "bafy...previous-cid",
-      "superseded_by": null
-    }
-    ```
-    
+"metadata": {
+  "version": 2,
+  "supersedes": "bafy...previous-cid",
+  "superseded_by": null
+}
+
     Previous version remains in blockstore (immutable)
 
     Index updated to point to new CID
 
-### 7.4 Deprecating Concepts
-```json
+7.4 Deprecating Concepts
+json
 
 "metadata": {
   "status": "deprecated",
   "superseded_by": "bafy...new-cid",
   "deprecation_reason": "Replaced by more accurate formulation"
 }
-```
 
-### 7.5 Ethical Implementation
+7.5 Ethical Implementation
 
 All concepts must:
 
@@ -421,9 +428,8 @@ All concepts must:
 
     Contribute to diminishing ignorance, not commercial exploitation
 
-## 8.0 QUALITY ASSURANCE CHECKLIST
-
-### 8.1 Pre-Submission Checklist
+8.0 QUALITY ASSURANCE CHECKLIST
+8.1 Pre-Submission Checklist
 Check	Verification
 human_id format	^[a-z][a-z0-9_]*[a-z0-9]$
 human_id uniqueness	Not already in index
@@ -432,11 +438,9 @@ Type	From approved types list
 Title	Matches concept (human-readable)
 Definition	Clear, complete, scientific
 Metadata	All required fields present
-created timestamp	ISO8601 format
 certainty_score	0.0-1.0 with justification
 Purpose	educational/research/personal_knowledge
-
-### 8.2 Technical Validation
+8.2 Technical Validation
 
     JSON validates against schema
 
@@ -450,7 +454,7 @@ Purpose	educational/research/personal_knowledge
 
     Can be retrieved via cbor_reader.py
 
-### 8.3 Ethical Validation
+8.3 Ethical Validation
 
     Concept has clear educational/research purpose
 
@@ -460,42 +464,35 @@ Purpose	educational/research/personal_knowledge
 
     Aligns with knowledge-sharing ethos
 
-## 9.0 APPENDICES
-
-### Appendix A: Command Reference
+9.0 APPENDICES
+Appendix A: Command Reference
 
 Generate CID from JSON file:
-```bash
+bash
 
 python3 cid_generator_v1.1.0.py --concept-file concept.json
-```
 
 Look up concept by human_id:
-```bash
+bash
 
-python3 cbor_reader.py fractal_reality_principle
-```
+python3 cbor_reader.py conservation_of_energy
 
 Look up concept by CID:
-```bash
+bash
 
-python3 cbor_reader.py bafyreignxp73ooqeiwdgecmvqv7dbmnimm4orgyca7srzdiykm7kleqbja
-```
+python3 cbor_reader.py bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu
 
 List all concepts:
-```bash
+bash
 
 python3 cbor_reader.py --list
-```
 
 View audit log:
-```bash
+bash
 
 cat /store/logs/operations.jsonl | tail -20
-```
 
-### Appendix B: File System Locations
-```text
+Appendix B: File System Locations
 Component	Path
 Core Tools	/tools/core/
 CID Generator	/tools/core/cid_generator_v1.1.0.py
@@ -503,31 +500,34 @@ CBOR Reader	/tools/core/cbor_reader.py
 Block Store	/store/blocks/
 Index	/store/index/human_id_to_cid.json
 Audit Log	/store/logs/operations.jsonl
-GUI	/cadmies_gui/
-```
+GUI	/cadmies-gui/
+Mycelium Map	/mycelium_map.html
+Appendix C: Reference Implementation Details
+text
 
-### Appendix C: Reference Implementation Details
-```text
 File: cid_generator_v1.1.0.py
 Version: 1.1.0
 License: AGPLv3 with Commons Clause
 
 Key Methods:
-
     validate_concept() - Validates structure against this spec
-
     generate_cid() - Creates CID from validated concept
-
     save_to_blockstore() - Stores with indexing and audit trail
-
     test_determinism() - Verifies CID consistency
 
 Ethical Framework: Includes purpose validation and Commons Clause protection.
-```
 
-## 10.0 ETHICAL GUIDELINES
+Appendix D: Easter Eggs
 
-### 10.1 Knowledge Sharing Ethos
+CADMIES contains hidden surprises for the curious:
+
+    Mycelium Map: Type cadmies anywhere to activate a visual tribute to The Cars
+
+    Dashboard: Click the 🌱 seedling next to "CADMIES Dashboard" for a bittersweet symphony homage to The Verve
+
+Discover them yourself. The mycelium rewards exploration.
+10.0 ETHICAL GUIDELINES
+10.1 Knowledge Sharing Ethos
 
 All concepts using this CID structure must:
 
@@ -539,7 +539,7 @@ All concepts using this CID structure must:
 
     Diminish Ignorance: Contribute to shared human understanding
 
-### 10.2 Licensing Compliance
+10.2 Licensing Compliance
 
     Tools: Must comply with AGPLv3 + Commons Clause
 
@@ -547,7 +547,7 @@ All concepts using this CID structure must:
 
     Commercial Use: Requires permission or reciprocal contribution
 
-### 10.3 Implementation Responsibility
+10.3 Implementation Responsibility
 
 Developers implementing this specification must:
 
@@ -559,19 +559,26 @@ Developers implementing this specification must:
 
     Use knowledge for educational, not purely commercial, purposes
 
-### 11.0 RELATED DOCUMENTS
-LICENSE.md	AGPLv3 with Commons Clause	License terms
-
-### Appendix D: Version History
+11.0 RELATED DOCUMENTS
+Document	Purpose
+LICENSE.md	AGPLv3 with Commons Clause license terms
+README.md	Main project documentation
+cadmies-gui/README.md	GUI documentation
+source_concepts_README.md	Source concepts directory guide
+Appendix E: Version History
 Version	Date	Changes	Author
 1.0.0	2026-02-03	Initial release (HOG-based format)	DIRD
 1.0.1	2026-02-03	Added reference implementation details	DIRD
-2.0.0	2026-02-18	Complete revision: Removed HOG references, updated to IPLD DAG-CBOR, changed CID format from Domain:Type/Name to snake_case human_id with separate domain/type fields, aligned with production system, added GUI integration	DIRD
+2.0.0	2026-02-18	Complete revision: Removed HOG references, updated to IPLD DAG-CBOR, changed CID format to snake_case	DIRD
+2.0.1	2026-04-03	Added Mycelium Graph Integration, Provenance & Version Tracking, 20+ production concepts, GUI enhancements, easter eggs	CADMIES Team
 
-End of CADMIES CID Structure Specification v2.0.0
+End of CADMIES CID Structure Specification v2.0.1
+
 CADMIES Framework - Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem
 Document Type: SPECIFICATION
 
-*Updated: 2026-02-18*
-*Supersedes: v1.0.1 (2026-02-03)*
-System Alignment: IPLD DAG-CBOR, MDI-ready
+*Updated: 2026-04-03*
+*Supersedes: v2.0.0 (2026-02-18)*
+System Alignment: IPLD DAG-CBOR, MDI-ready, Mycelium Graph-enabled
+
+🌱 Let the mycelium grow!
