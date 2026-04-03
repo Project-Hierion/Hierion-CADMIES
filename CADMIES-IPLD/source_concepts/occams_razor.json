@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "occams_razor",
+  "title": "Occam's Razor (Principle of Parsimony)",
+  "definition": "Among competing hypotheses, the one with the fewest assumptions should be selected. Other things being equal, simpler explanations are more likely to be correct than complex ones.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Philosophy",
+  "subdomain": "Logic / Epistemology",
+  "formula": "P(H|E) ∝ 2^{-K(H)} where K(H) is Kolmogorov complexity",
+  "proofs": [
+    {
+      "type": "theoretical",
+      "description": "Solomonoff's theory of inductive inference provides mathematical justification: simpler hypotheses have higher prior probability",
+      "confidence": 0.85,
+      "reference": "Solomonoff, R.J. (1964). A formal theory of inductive inference. Information and Control, 7(1), 1-22."
+    },
+    {
+      "type": "practical",
+      "description": "Across scientific disciplines, parsimony has proven effective in model selection and preventing overfitting",
+      "confidence": 0.90,
+      "reference": "Forster, M., & Sober, E. (1994). How to tell when simpler, more unified, or less ad hoc theories will provide more accurate predictions. British Journal for the Philosophy of Science, 45(1), 1-35."
+    }
+  ],
+  "cross_references": {
+    "related_concepts": ["bayesian_occams_razor", "minimum_description_length", "algorithmic_probability"],
+    "opposing_views": ["hickams_dictum"]
+  },
+  "relationships": {
+    "builds_upon": ["bayesian_inference", "probability_theory", "inductive_reasoning"],
+    "contradicts": ["ad_hoc_hypothesizing"],
+    "related_to": ["kolmogorov_complexity", "model_selection", "akaike_information_criterion"],
+    "specializes": ["minimum_description_length", "bayesian_occams_razor"]
+  },
+  "difficulty_levels": {
+    "beginner": "When you have two explanations for something, the simpler one is usually right. Don't add unnecessary complications.",
+    "intermediate": "Occam's Razor is a heuristic for choosing between competing hypotheses: prefer the one that makes fewer assumptions. It prevents overfitting and ad hoc reasoning.",
+    "expert": "Occam's Razor finds formal justification in Bayesian probability (simpler hypotheses have higher prior probability) and algorithmic information theory (minimum description length principle). The razor is not a logical necessity but a pragmatic heuristic that has proven remarkably effective."
+  },
+  "learning_path": {
+    "prerequisites": ["bayesian_inference", "probability_theory", "philosophy_of_science"],
+    "next_steps": ["minimum_description_length", "algorithmic_information_theory", "model_selection"]
+  },
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.90,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "extra_fields": {
+    "historical_context": "Attributed to William of Ockham (c. 1287-1347), though similar ideas appear in Aristotle, Ptolemy, and Aquinas. The term 'Occam's Razor' first appeared in 1852.",
+    "limitations": "Not a logical proof; simplicity does not guarantee truth. Can be subjective (what counts as 'simpler'?). May discard necessary complexity.",
+    "key_references": ["Ockham 14th c.", "Solomonoff 1964", "Forster & Sober 1994"],
+    "attribution": "William of Ockham",
+    "century": "14th",
+    "applications": ["Scientific modeling", "Medical diagnosis", "Software design", "Criminal investigation"]
+  }
+}
