@@ -42,16 +42,28 @@ When you retrieve a concept, you automatically see both:
 - What was claimed (the concept)
 - Who claimed it and when (the provenance)
 
+**Version History:** When a concept is updated, the new version includes a `supersedes` link to the old CID, preserving the complete evolution of knowledge.
+
 This enables scientific verification, attribution, and trust without a central authority.
+
+## Mycelium Map: Visual Knowledge Graph
+
+CADMIES includes an interactive graph visualization of your knowledge ecosystem:
+
+- **173+ nodes** — Every concept and its connections
+- **160+ edges** — Builds upon, relates to, specializes, contradicts
+- **Color-coded domains** — Physics, Philosophy, Biology, Mathematics
+- **Click any node** — Reveals concept details
+- **Type `cadmies`** — Hidden easter egg
+
+The mycelium map helps you discover unexpected connections and see the shape of your knowledge.
 
 ## Repository Structure
 ```text
 CADMIES/
 ├── CADMIES-IPLD/ # Main system directory
 │ ├── agents/ # Agent implementations
-│ │ └── code/ # Agent Python modules
 │ ├── agents_workspace/ # Agent schemas and definitions
-│ │ └── schemas/agent_node/ # AgentNode schema specifications
 │ ├── audits/ # Scientific audit tools
 │ ├── cadmies-gui/ # Web-based graphical interface
 │ ├── documentation/ # Complete documentation suite
@@ -66,95 +78,102 @@ CADMIES/
 │ │ ├── blocks/ # Content-addressed blocks
 │ │ └── index/ # Human ID to CID mappings
 │ └── tools/ # Core toolset
-│ └── core/ # Production tools
+│   └── core/ # Production tools
 ├── LICENSE # AGPLv3 with Commons Clause
 ├── README.md # This file
 └── [documentation PDFs] # Project narratives and manifests
-```
 
+Features
 
-## Features
+    CID Generator — Create deterministic CIDs from structured JSON concepts
 
-- **CID Generator** — Create deterministic CIDs from structured JSON concepts
-- **CBOR Reader** — Retrieve concepts by CID or human-readable ID
-- **Universal Schema** — Standardized representation for scientific/philosophical concepts
-- **AgentNode Schema** — Extend concepts with executable agent capabilities
-- **Agent Executor** — Runtime for executing cognitive agents
-- **Scientific Validator** — Quality control before storage (4 validation levels)
-- **IPLD Compatible** — Full DAG-CBOR support
-- **Robust Error Handling** — Graceful failure with informative logging
-- **Provenance Tracking** — Automatic timestamp and author attribution (separate from concept CID)
-- **Sticky Notes** — When retrieved, every concept shows its creation history
+    CBOR Reader — Retrieve concepts by CID or human-readable ID
 
-## Graphical Interface
+    Universal Schema — Standardized representation for scientific/philosophical concepts
 
-CADMIES includes a web-based GUI for easier interaction:
+    Provenance Tracking — Automatic timestamp and author attribution (separate from concept CID)
 
-- **Dashboard** – System overview and recent activity
-- **Add Concept** – Form interface with live preview
-- **Browse Library** – Search and view existing concepts
-- **Audit Trail** – Complete operation history
+    Version History — Supersedes links preserve knowledge evolution
 
-**[GUI Documentation](./CADMIES-IPLD/cadmies-gui/README.md)**
+    Mycelium Map — Interactive graph visualization of connected concepts
+
+    AgentNode Schema — Extend concepts with executable agent capabilities
+
+    Scientific Validator — Quality control before storage (4 validation levels)
+
+    IPLD Compatible — Full DAG-CBOR support
+
+Graphical Interface
+
+CADMIES includes a web-based GUI with persistent sidebar navigation:
+
+    Dashboard – System overview, statistics, recent activity, clickable easter egg
+
+    Add Concept – Form interface with client-side live preview (air-gap compatible)
+
+    Browse Library – Search and view existing concepts with provenance sticky notes
+
+    Audit Trail – Complete operation history with timeline
+
+    Mycelium Map – Interactive knowledge graph visualization
+
+GUI Documentation
 
 100% local, air-gapped by default, same ethical licensing.
+Quick Start
 
-## Quick Start
-
-**Prerequisites**
+Prerequisites
 Install Python packages
-```bash
+bash
+
 pip install dag-cbor multiformats
-```
 
-**First-time users: Generate the initial knowledge store**
-```bash
+First-time users: Generate the initial knowledge store
+bash
+
 cd CADMIES-IPLD
-```
-```bash
 python tools/core/cid_generator_v1_1_0.py
-```
 
-**Generate Your First Concept**
-Navigate to the system directory
-```bash
-cd CADMIES-IPLD
-```
+Launch the GUI
+bash
 
-**Generate a concept (creates CID and stores it)**
-```bash
-python tools/core/cid_generator_v1_1_0.py
-```
+cd CADMIES-IPLD/cadmies-gui
+python gui_main.py
 
-**Retrieve a Concept**
+Then open http://localhost:8081 in your browser.
+
+Generate Your First Concept via GUI
+
+    Click "Add Concept" in the sidebar
+
+    Fill in the form (name, type, domain, description)
+
+    Preview updates as you click out of each field
+
+    Click "Generate CID & Store"
+
+Retrieve a Concept via CLI
 Use the CID from the generation step
-```bash
+bash
+
 python tools/core/cbor_reader.py bafyreicxfbddn4nsovtujy53envoo6cmmeszv6kk6ypigy7n7omfblnrda
-```
+
 Or use a human-readable ID
-```bash
-python tools/core/cbor_reader.py Physics:Law/ConservationOfEnergy
-```
-**List All Stored Concepts**
-```bash
+bash
+
+python tools/core/cbor_reader.py conservation_of_energy
+
+List All Stored Concepts
+bash
+
 python tools/core/cbor_reader.py --list
-```
 
-**Validate a Concept**
-Test the scientific validator
-```bash
-python tools/core/scientific_validator_v1.0.0.py
-```
-
-**Run an Agent**
-Test the agent executor with a philosophical analyzer
-```bash
-python runtime/runtime-minimal_agent_executor.py --test
-```
-
-## Beginner's Guide
+View the Mycelium Map
+Click "Mycelium Map" in the GUI sidebar to explore your knowledge graph.
+Beginner's Guide
 
 New to content-addressed systems? Let's walk through it.
+
 What's Happening Under the Hood?
 
     You provide content — A concept like "Energy cannot be created or destroyed"
@@ -167,109 +186,101 @@ What's Happening Under the Hood?
 
     System stores — Saves block with the CID as its address
 
-**The magic: Same content → Same hash → Same CID → Same understanding**
+The magic: Same content → Same hash → Same CID → Same understanding
+Step-by-Step Tutorial
 
-### Step-by-Step Tutorial
+    Open your terminal in the project directory
 
-Open your terminal in the project directory
-Generate a concept:
-```bash
-cd CADMIES-IPLD
-```
-```bash
-python tools/core/cid_generator_v1_1_0.py
-```
+    Launch the GUI:
 
-Look for: 🎯 Generated CID: bafy...
+bash
 
-Retrieve it:
-```bash
-python tools/core/cbor_reader.py [THE_CID_YOU_COPIED]
-```
+cd CADMIES-IPLD/cadmies-gui
+python gui_main.py
 
-Verify determinism: Run step 2 again — same CID appears!
+    Click "Add Concept" in the sidebar
 
-**Congratulations!** You've just used a content-addressed knowledge system.
+    Enter a concept name: test_concept
 
-## Testing
+    Select Type and Domain
+
+    Add a description
+
+    Click out of each field to see the live preview update
+
+    Click "Generate CID & Store"
+
+    Note the CID returned
+
+    Click "Browse Library" to see your concept
+
+Congratulations! You've just used a content-addressed knowledge system.
+Testing
 
 Test Core Functionality
-```bash
+bash
+
 cd CADMIES-IPLD
-```
 
-### Test CID determinism
-```bash
+Test CID determinism
+bash
+
 python tools/core/cid_generator_v1_1_0.py
-```
 
-### Test retrieval
-```bash
+Test retrieval
+bash
+
 python tools/core/cbor_reader.py --list
-```
 
-### Test scientific validation
-```bash
-python tools/core/scientific_validator_v1.0.0.py
-```
+Test the GUI
+bash
 
-### Test agent executor
-```bash
-python runtime/runtime-minimal_agent_executor.py --test
-```
+cd cadmies-gui
+python gui_main.py
 
-### Expected Results
-```text
+Expected Results
+
     All concepts generate deterministic CIDs
 
     Retrieved concepts match stored content exactly
 
-    Scientific validator passes/fails appropriately
+    Provenance sticky notes appear with every concept
 
-    Agent executor handles missing data gracefully
-```
+    Mycelium map shows all connections
 
-## Documentation
-```text
-Document:	Location	| Description
-Universal Scientific Concept Schema:	/CADMIES-IPLD/schemas/	| JSON schema for concepts
-AgentNode Schema:	/CADMIES-IPLD/agents_workspace/schemas/agent_node/	| Executable agent specification
-CID Structure Specification:	/CADMIES-IPLD/specs/	| Human-readable ID format
-User Guide:	/CADMIES-IPLD/documentation/guides/	| Getting started guide
-Technical Documentation:	/CADMIES-IPLD/documentation/	| Complete system documentation
+    GUI sidebar persists across all pages
+
+Documentation
+Document	Location	Description
+Universal Scientific Concept Schema	/CADMIES-IPLD/schemas/	JSON schema for concepts
+CID Structure Specification v2.0.0	/CADMIES-IPLD/specs/	Human-readable ID format (snake_case)
+User Guide	/CADMIES-IPLD/documentation/guides/	Getting started guide
+Technical Documentation	/CADMIES-IPLD/documentation/	Complete system documentation
 Development
 GitHub Codespaces
-```
 
-***This project is fully compatible with GitHub Codespaces.*** **Launch a codespace and the environment is ready to go:**
-```text
+This project is fully compatible with GitHub Codespaces. Launch a codespace and the environment is ready to go:
+
     Click Code → Codespaces → Create codespace on main
 
     Dependencies are pre-installed
 
     Run the system immediately
-```
 
-## Running Locally
-```bash
+Running Locally
+bash
+
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
-```
-```bash
 cd CADMIES/CADMIES-IPLD
-```
-```bash
-pip install dag-cbor multiformats
-```
-```bash
-python tools/core/cid_generator_v1_1_0.py
-```
+pip install dag-cbor multiformats nicegui pydantic python-dotenv aiofiles
+python cadmies-gui/gui_main.py
 
-## License & Ethical Use
-### License
+License & Ethical Use
+License
 
-AGPLv3 with Commons Clause — See LICENSE
+AGPLv3 with Commons Clause — See LICENSE file.
 
-**Permitted Uses:**
+Permitted Uses:
 
     ✅ Individual learning and research
 
@@ -279,7 +290,7 @@ AGPLv3 with Commons Clause — See LICENSE
 
     ✅ Personal knowledge management
 
-**Restricted Uses (Commons Clause):**
+Restricted Uses (Commons Clause):
 
     ❌ Commercial SaaS offerings without contributing back
 
@@ -287,9 +298,8 @@ AGPLv3 with Commons Clause — See LICENSE
 
     ❌ Commercial products that don't share improvements
 
-**For commercial licensing:** hieroscadmies@proton.me
-
-**Contributing**
+For commercial licensing: hieroscadmies@proton.me
+Contributing
 
 This project welcomes educational and research-focused contributions. Please ensure all contributions align with the project's ethical framework and licensing terms.
 
@@ -303,19 +313,16 @@ We welcome contributions that align with:
 
     Educational focus — Learning and research first
 
-See our Contributing Guidelines and Code of Conduct.
+Easter Eggs
 
-**Related Resources**
+CADMIES contains hidden surprises for the curious:
 
-    IPLD Documentation
+    Mycelium Map: Type cadmies anywhere to let the good times roll
 
-    DAG-CBOR Specification
+    Dashboard: Click the 🌱 seedling next to "CADMIES Dashboard" for a bittersweet symphony
 
-    CID Explanation
-
-    Schema.org — Structured data standards
-
-**Contact**
+Discover them yourself. The mycelium rewards exploration.
+Contact
 
     Email: hieroscadmies@proton.me
 
@@ -323,8 +330,9 @@ See our Contributing Guidelines and Code of Conduct.
 
     Discussions: Join the conversation
 
-**🌱 Philosophy**
+🌱 Philosophy
 
-    "You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable" — Alan Watts
+    "You can put the tools for doing these things in people's hands, and you can show them how to use these tools. But whether they will use those tools for genius is quite unpredictable"
+    — Alan Watts
 
-***Let the mycelium grow! 🌱***
+Let the mycelium grow! 🌱
