@@ -290,6 +290,15 @@ class CBORReader:
         if 'purpose' in metadata:
             output.append(f"  Purpose: {metadata['purpose']}")
         
+        # Version history (supersedes/superseded_by)
+        if 'supersedes' in metadata and metadata['supersedes']:
+            output.append(f"\n📜 VERSION HISTORY:")
+            output.append(f"  Supersedes: {metadata['supersedes']}")
+            output.append(f"  → To view previous version: python3 cbor_reader.py {metadata['supersedes']}")
+        if 'superseded_by' in metadata and metadata['superseded_by']:
+            output.append(f"  Superseded by: {metadata['superseded_by']}")
+            output.append(f"  → This version has been replaced. View newer: python3 cbor_reader.py {metadata['superseded_by']}")
+        
         # Educational relationships
         relationships = concept.get('relationships', {})
         if any(relationships.values()):
