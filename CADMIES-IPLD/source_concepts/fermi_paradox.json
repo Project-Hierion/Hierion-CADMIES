@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fermi_paradox",
+  "title": "The Fermi Paradox",
+  "definition": "The apparent contradiction between the high probability of extraterrestrial civilizations existing in the Milky Way galaxy and the lack of evidence for, or contact with, such civilizations.",
+  "type": "Paradox",
+  "domain": "Physics",
+  "subdomain": "Astrophysics / SETI",
+  "formula": "N = R* × f_p × n_e × f_l × f_i × f_c × L (Drake equation)",
+  "proofs": [
+    {
+      "type": "statistical",
+      "description": "Drake equation estimates high probability of many civilizations given plausible parameters",
+      "confidence": 0.70,
+      "reference": "Drake, F. (1961). Drake Equation formulation at first SETI meeting."
+    },
+    {
+      "type": "observational",
+      "description": "No confirmed extraterrestrial signals or artifacts despite decades of searching",
+      "confidence": 0.95,
+      "reference": "Tarter, J. (2001). The Search for Extraterrestrial Intelligence (SETI). Annual Review of Astronomy and Astrophysics, 39, 511-548."
+    }
+  ],
+  "cross_references": {
+    "related_concepts": ["drake_equation", "seti", "great_filter", "zoo_hypothesis", "simulation_hypothesis"],
+    "opposing_views": ["contact_optimism"]
+  },
+  "relationships": {
+    "builds_upon": ["astrophysics", "probability", "astrobiology"],
+    "contradicts": ["mediocrity_principle"],
+    "related_to": ["exoplanets", "abiogenesis", "technosignatures"],
+    "specializes": ["great_filter", "aestivation_hypothesis", "dark_forest_hypothesis"]
+  },
+  "difficulty_levels": {
+    "beginner": "If there are so many stars and planets out there, where is everybody? The Fermi Paradox asks why we haven't found aliens yet.",
+    "intermediate": "Given the age of the galaxy and high probability of life-bearing planets, we should expect evidence of extraterrestrial civilizations - but we see none. Proposed resolutions include rare life, self-destruction, or deliberate non-contact.",
+    "expert": "The paradox arises from the Drake equation, which yields high N estimates. Solutions invoke a 'Great Filter' (life/technology rare or self-destructive), the Zoo Hypothesis (aliens avoid contact), or the Simulation Hypothesis (we're simulated). Each has profound implications for humanity's future."
+  },
+  "learning_path": {
+    "prerequisites": ["astronomy_basics", "probability_theory", "astrobiology"],
+    "next_steps": ["drake_equation", "great_filter", "seti", "abiogenesis"]
+  },
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.90,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "extra_fields": {
+    "historical_context": "Attributed to physicist Enrico Fermi (1950) during a lunch conversation. Formalized by Michael Hart (1975). Popularized by Stephen Webb and others.",
+    "limitations": "Based on incomplete knowledge of life's probability, civilization longevity, and detection methods.",
+    "key_references": ["Fermi 1950", "Hart 1975", "Webb 2002", "Hanson 1996"],
+    "attribution": "Enrico Fermi (question), Michael Hart (formalization)",
+    "origin_year": 1950,
+    "applications": ["SETI strategy", "Astrobiology", "Philosophy of contact", "Existential risk"]
+  }
+}
