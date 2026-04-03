@@ -1,6 +1,10 @@
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import sys
+sys.path.insert(0, str(Path(__file__).parent.parent / "tools" / "core"))
+from paths import STORE_DIR, BLOCKS_DIR, INDEX_FILE, LOGS_DIR
+
 
 class CadmiesSystem:
     def __init__(self, base_path=None):
@@ -18,21 +22,19 @@ class CadmiesSystem:
         else:
             # Default: look for tools/core/ relative to base_path
             self.tools_path = self.base_path / "tools" / "core"
-        
-        self.store_path = self.tools_path / "store"
     
     def get_blocks_path(self):
-        return self.store_path / "blocks"
-    
+        return BLOCKS_DIR
+
     def get_index_path(self):
-        return self.store_path / "index" / "human_id_to_cid.json"
-    
+        return INDEX_FILE
+
     def get_logs_path(self):
-        return self.store_path / "logs" / "operations.jsonl"
-    
+        return LOGS_DIR / "operations.jsonl"
+
     def get_cid_generator(self):
-        return self.tools_path / "cid_generator_v1.1.0.py"
-    
+        return self.tools_path / "cid_generator_v1_1_0.py"
+
     def get_cbor_reader(self):
         return self.tools_path / "cbor_reader.py"
     
@@ -46,6 +48,10 @@ class CadmiesSystem:
         }
         return all(checks.values()), checks
     
+    @property
+    def store_path(self):
+        return STORE_DIR
+
     def get_system_info(self):
         """Return human-readable system info"""
         valid, checks = self.verify_system()

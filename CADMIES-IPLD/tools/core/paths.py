@@ -1,8 +1,9 @@
 """Centralized path management for all CADMIES tools."""
+
 from pathlib import Path
 
 # Get project root (CADMIES-IPLD/) - this file is in tools/core/
-PROJECT_ROOT = Path(__file__).parent.parent.resolve()
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 # Standard paths
 STORE_DIR = PROJECT_ROOT / "store"

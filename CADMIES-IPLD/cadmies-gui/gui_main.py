@@ -1,5 +1,5 @@
 from nicegui import ui
-from cadmies_gui_system import CadmiesSystem
+from gui_system import CadmiesSystem
 from ui.pages.dashboard import DashboardPage
 from ui.pages.add_concept import AddConceptPage
 from ui.pages.browse import BrowsePage

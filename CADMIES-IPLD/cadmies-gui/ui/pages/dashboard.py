@@ -54,6 +54,17 @@ class DashboardPage:
                     ui.label("v1.0.0").classes("text-h4")
                     ui.label("UniversalScientificConcept").classes("text-caption")
             
+            # Last added concept
+            with ui.card().classes("w-full mt-4"):
+                ui.label("Latest Concept").classes("text-subtitle2")
+                if valid_concepts:
+                    # Get most recent from logs or index
+                    latest = list(concepts.keys())[-1] if concepts else "None"
+                    ui.label(latest.replace('_', ' ').title()).classes("text-h6")
+                    ui.label(f"CID: {concepts.get(latest, '')[:24]}...").classes("text-caption font-mono")
+                else:
+                    ui.label("No concepts yet").classes("text-italic")
+            
             # Quick actions
             ui.label("Quick Actions").classes("text-h5 mt-4")
             with ui.row().classes("gap-4"):

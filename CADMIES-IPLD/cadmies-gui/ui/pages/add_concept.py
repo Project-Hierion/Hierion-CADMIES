@@ -27,7 +27,8 @@ class AddConceptPage:
                         "MechanisticPrinciple",
                         "MetaphysicalConcept",
                         "TestConcept"
-                    ]
+                    ],
+                    value="MetaphysicalPrinciple"
                 ).classes("w-full").props("outlined")
                 
                 domain = ui.select(
@@ -38,7 +39,8 @@ class AddConceptPage:
                         "InformationTheory",
                         "ConsciousnessStudies",
                         "Testing"
-                    ]
+                    ],
+                    value="Metaphysics"
                 ).classes("w-full").props("outlined")
                 
                 subdomain = ui.input("Subdomain *").classes("w-full").props("outlined")

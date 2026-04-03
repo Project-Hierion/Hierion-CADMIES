@@ -54,7 +54,7 @@ class BrowsePage:
             
             async def view_details():
                 content = await self.reader.read_concept_async(concept_id)
-                with ui.dialog() as dialog, ui.card().classes("w-96 p-4 max-h-96 overflow-auto"):
+                with ui.dialog() as dialog, ui.card().classes("w-[7200px] p-4 max-h-[800px] overflow-scroll"):
                     ui.label(concept_id.replace('_', ' ').title()).classes("text-h5")
                     ui.separator()
                     ui.markdown(content)
@@ -71,7 +71,7 @@ class BrowsePage:
                 
                 async def view_details(cid=cid, name=concept_id):
                     content = await self.reader.read_concept_async(name)
-                    with ui.dialog() as dialog, ui.card().classes("w-96 p-4"):
+                    with ui.dialog() as dialog, ui.card().classes("w-[7200px] p-4 max-h-[800px] overflow-scroll"):
                         ui.label(name.replace('_', ' ').title()).classes("text-h5")
                         ui.separator()
                         ui.markdown(content)
