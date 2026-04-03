@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "heisenberg_uncertainty_principle",
+  "title": "Heisenberg's Uncertainty Principle",
+  "definition": "The fundamental limit on the precision with which certain pairs of physical properties (position and momentum, energy and time) can be known simultaneously. The product of their uncertainties is at least ħ/2.",
+  "type": "PhysicalPrinciple",
+  "domain": "Physics",
+  "subdomain": "Quantum Mechanics",
+  "formula": "σ_x σ_p ≥ ħ/2; ΔE Δt ≥ ħ/2",
+  "proofs": [
+    {
+      "type": "theoretical",
+      "description": "Derived from wave mechanics: position and momentum are Fourier transform pairs",
+      "confidence": 1.0,
+      "reference": "Heisenberg, W. (1927). Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik."
+    },
+    {
+      "type": "mathematical",
+      "description": "Generalized uncertainty principle from commutator relations in quantum mechanics",
+      "confidence": 1.0,
+      "reference": "Robertson, H.P. (1929). The Uncertainty Principle. Physical Review, 34(1), 163-164."
+    }
+  ],
+  "cross_references": {
+    "related_concepts": ["wave_particle_duality", "quantum_fluctuations", "commutator", "planck_constant"],
+    "opposing_views": []
+  },
+  "relationships": {
+    "builds_upon": ["wave_mechanics", "matrix_mechanics", "hilbert_space"],
+    "contradicts": ["classical_determinism", "hidden_variable_theories_local"],
+    "related_to": ["quantum_measurement", "wavefunction", "quantum_entanglement"],
+    "specializes": ["energy_time_uncertainty", "angle_action_uncertainty"]
+  },
+  "difficulty_levels": {
+    "beginner": "You can't know exactly where something is and exactly where it's going at the same time. The more you know about one, the less you know about the other.",
+    "intermediate": "The uncertainty principle is not a measurement disturbance effect but a fundamental property of quantum systems. Position and momentum are complementary properties; precise knowledge of one precludes precise knowledge of the other.",
+    "expert": "The uncertainty principle emerges from the non-commutativity of quantum operators: [x̂, p̂] = iħ. It reflects the wave nature of matter: position and momentum are Fourier conjugate variables. The principle holds even for non-commuting observables: σ_A σ_B ≥ |⟨[Â, B̂]⟩|/2."
+  },
+  "learning_path": {
+    "prerequisites": ["wave_mechanics", "fourier_analysis", "linear_algebra"],
+    "next_steps": ["quantum_field_theory", "quantum_measurement", "quantum_information"]
+  },
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 1.0,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "extra_fields": {
+    "historical_context": "Published by Werner Heisenberg in 1927 while working on matrix mechanics. Initially controversial but quickly accepted as fundamental.",
+    "limitations": "Often misunderstood as a measurement disturbance effect (observer effect). The principle is intrinsic, not technological.",
+    "key_references": ["Heisenberg 1927", "Robertson 1929", "Kennard 1927"],
+    "discoverer": "Werner Heisenberg",
+    "discovery_year": 1927,
+    "applications": ["Quantum computing", "Quantum cryptography", "Quantum metrology"]
+  }
+}
