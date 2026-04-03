@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "perceptual_frames_as_intelligence_multipliers",
+  "title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+  "definition": "Intelligence is not fixed but is filtered through the operating system of perception. Different states of consciousness - whether induced by meditation, psychedelics, flow states, or neurodivergent cognition - change the perceptual OS, enabling different pattern recognition capabilities and revealing what was previously invisible to the observer.",
+  "type": "PhilosophicalHypothesis",
+  "domain": "Epistemology",
+  "subdomain": "Cognitive Science / Consciousness Studies",
+  "formula": "IQ_effective = IQ_baseline × P(perceptual_os, context)",
+  "proofs": [
+    {
+      "type": "anecdotal",
+      "description": "Observed pattern across multiple domains: altered perceptual states reveal different cognitive patterns and creative insights inaccessible in baseline state",
+      "confidence": 0.75,
+      "reference": "Personal accounts from artists, scientists, and meditators across cultures"
+    },
+    {
+      "type": "theoretical",
+      "description": "Predictive processing framework suggests that perception is an active inference process where prior expectations shape what is perceived - altering these priors changes perceptual reality",
+      "confidence": 0.80,
+      "reference": "Friston, K. (2010). The free-energy principle: a unified brain theory? Nature Reviews Neuroscience, 11(2), 127-138."
+    },
+    {
+      "type": "empirical",
+      "description": "Research on psychedelics shows increased neural entropy and altered connectivity patterns correlating with enhanced cognitive flexibility and creative problem-solving",
+      "confidence": 0.78,
+      "reference": "Carhart-Harris, R.L., et al. (2014). The entropic brain: a theory of conscious states informed by neuroimaging research with psychedelic drugs. Frontiers in Human Neuroscience, 8, 20."
+    }
+  ],
+  "cross_references": {
+    "related_concepts": ["cognitive_plasticity", "neurodiversity", "predictive_processing", "state_dependent_memory", "altered_states_of_consciousness"],
+    "opposing_views": ["fixed_intelligence_theory"]
+  },
+  "relationships": {
+    "builds_upon": ["perceptual_framing", "cognitive_plasticity", "neurodiversity", "predictive_processing"],
+    "contradicts": ["static_intelligence", "single_perceptual_reality"],
+    "related_to": ["consciousness_studies", "creativity", "pattern_recognition", "altered_states"],
+    "specializes": ["situated_cognition", "state_dependent_memory", "embodied_cognition"]
+  },
+  "difficulty_levels": {
+    "beginner": "Your mindset and state of consciousness changes what you can see and understand. What you perceive depends on your 'operating system' - change the OS, change what becomes visible.",
+    "intermediate": "Cognitive frameworks and altered states act as perceptual OS filters that enable different patterns to emerge. Intelligence is not a fixed quantity but a function of the observer's perceptual apparatus and its current state.",
+    "expert": "The observer's perceptual apparatus - modified by substances, practices, or neurodivergent conditions - fundamentally shapes phenomenological reality and pattern detection. This suggests that collective intelligence emerges from diverse perceptual OS configurations, and that epistemic humility requires acknowledging the limits of one's current perceptual frame."
+  },
+  "learning_path": {
+    "prerequisites": ["cognitive_psychology", "philosophy_of_mind", "consciousness_studies"],
+    "next_steps": ["predictive_processing", "enactivism", "neurophenomenology", "collective_intelligence"]
+  },
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.85,
+    "version": 2,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": "bafyreibz3cxr7vdqgn7pqk7lq7wblmpswdjneqc5gkiiyzcmuulq2d4h5q"
+  },
+  "extra_fields": {
+    "historical_context": "The hypothesis draws from William James' varieties of religious experience, Aldous Huxley's 'doors of perception', Alan Watts' comparative philosophy, and contemporary psychedelic research. It synthesizes Eastern contemplative traditions with Western cognitive science.",
+    "limitations": "Highly subjective; difficult to quantify objectively. Individual variation in response to altered states. Requires further empirical validation through controlled studies.",
+    "key_references": ["James 1902", "Huxley 1954", "Watts 1957", "Carhart-Harris 2014"],
+    "attribution": "Hieros-CADMIES / DS / Alan Watts (posthumous honorary)",
+    "category": "Metaphysics / Epistemology / Cognitive Science",
+    "insight_origin": "Collaborative dialogue between human and artificial intelligence",
+    "reference_os_analogy": "Everyone understands operating systems - this makes complex cognitive concepts accessible",
+    "applications": ["Creativity enhancement", "Therapeutic contexts", "Education optimization", "Problem-solving frameworks"]
+  }
+}
