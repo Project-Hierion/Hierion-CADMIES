@@ -82,64 +82,64 @@ CADMIES/
 ├── LICENSE # AGPLv3 with Commons Clause
 ├── README.md # This file
 └── [documentation PDFs] # Project narratives and manifests
+```
 
-Features
+## Features
 
-    CID Generator — Create deterministic CIDs from structured JSON concepts
+CID Generator — Create deterministic CIDs from structured JSON concepts
 
-    CBOR Reader — Retrieve concepts by CID or human-readable ID
+CBOR Reader — Retrieve concepts by CID or human-readable ID
 
-    Universal Schema — Standardized representation for scientific/philosophical concepts
+Universal Schema — Standardized representation for scientific/philosophical concepts
 
-    Provenance Tracking — Automatic timestamp and author attribution (separate from concept CID)
+Provenance Tracking — Automatic timestamp and author attribution (separate from concept CID)
 
-    Version History — Supersedes links preserve knowledge evolution
+Version History — Supersedes links preserve knowledge evolution
 
-    Mycelium Map — Interactive graph visualization of connected concepts
+Mycelium Map — Interactive graph visualization of connected concepts
 
-    AgentNode Schema — Extend concepts with executable agent capabilities
+AgentNode Schema — Extend concepts with executable agent capabilities
 
-    Scientific Validator — Quality control before storage (4 validation levels)
+Scientific Validator — Quality control before storage (4 validation levels)
 
-    IPLD Compatible — Full DAG-CBOR support
+IPLD Compatible — Full DAG-CBOR support
 
-Graphical Interface
+## Graphical Interface
 
-CADMIES includes a web-based GUI with persistent sidebar navigation:
+**CADMIES includes a web-based GUI with persistent sidebar navigation:**
 
-    Dashboard – System overview, statistics, recent activity, clickable easter egg
+Dashboard – System overview, statistics, recent activity, clickable easter egg
 
-    Add Concept – Form interface with client-side live preview (air-gap compatible)
+Add Concept – Form interface with client-side live preview (air-gap compatible)
 
-    Browse Library – Search and view existing concepts with provenance sticky notes
+Browse Library – Search and view existing concepts with provenance sticky notes
 
-    Audit Trail – Complete operation history with timeline
+Audit Trail – Complete operation history with timeline
 
-    Mycelium Map – Interactive knowledge graph visualization
-
-GUI Documentation
+Mycelium Map – Interactive knowledge graph visualization
 
 100% local, air-gapped by default, same ethical licensing.
-Quick Start
+
+
+## GUI Documentation
+
+**Quick Start**
 
 Prerequisites
 Install Python packages
-bash
-
+```bash
 pip install dag-cbor multiformats
-
+```
 First-time users: Generate the initial knowledge store
-bash
-
+```bash
 cd CADMIES-IPLD
 python tools/core/cid_generator_v1_1_0.py
-
+```
 Launch the GUI
-bash
-
+```bash
 cd CADMIES-IPLD/cadmies-gui
 python gui_main.py
-
+```
 Then open http://localhost:8081 in your browser.
 
 Generate Your First Concept via GUI
@@ -154,20 +154,17 @@ Generate Your First Concept via GUI
 
 Retrieve a Concept via CLI
 Use the CID from the generation step
-bash
-
+```bash
 python tools/core/cbor_reader.py bafyreicxfbddn4nsovtujy53envoo6cmmeszv6kk6ypigy7n7omfblnrda
-
+```
 Or use a human-readable ID
-bash
-
+```bash
 python tools/core/cbor_reader.py conservation_of_energy
-
+```
 List All Stored Concepts
-bash
-
+```bash
 python tools/core/cbor_reader.py --list
-
+```
 View the Mycelium Map
 Click "Mycelium Map" in the GUI sidebar to explore your knowledge graph.
 Beginner's Guide
@@ -187,17 +184,16 @@ What's Happening Under the Hood?
     System stores — Saves block with the CID as its address
 
 The magic: Same content → Same hash → Same CID → Same understanding
+
 Step-by-Step Tutorial
 
     Open your terminal in the project directory
 
     Launch the GUI:
-
-bash
-
-cd CADMIES-IPLD/cadmies-gui
-python gui_main.py
-
+```bash
+    cd CADMIES-IPLD/cadmies-gui
+    python gui_main.py
+```
     Click "Add Concept" in the sidebar
 
     Enter a concept name: test_concept
@@ -215,29 +211,26 @@ python gui_main.py
     Click "Browse Library" to see your concept
 
 Congratulations! You've just used a content-addressed knowledge system.
+
 Testing
 
 Test Core Functionality
-bash
-
+```bash
 cd CADMIES-IPLD
-
+```
 Test CID determinism
-bash
-
+```bash
 python tools/core/cid_generator_v1_1_0.py
-
+```
 Test retrieval
-bash
-
+```bash
 python tools/core/cbor_reader.py --list
-
+```
 Test the GUI
-bash
-
+```bash
 cd cadmies-gui
 python gui_main.py
-
+```
 Expected Results
 
     All concepts generate deterministic CIDs
@@ -251,6 +244,7 @@ Expected Results
     GUI sidebar persists across all pages
 
 Documentation
+```text
 Document	Location	Description
 Universal Scientific Concept Schema	/CADMIES-IPLD/schemas/	JSON schema for concepts
 CID Structure Specification v2.0.0	/CADMIES-IPLD/specs/	Human-readable ID format (snake_case)
@@ -258,7 +252,7 @@ User Guide	/CADMIES-IPLD/documentation/guides/	Getting started guide
 Technical Documentation	/CADMIES-IPLD/documentation/	Complete system documentation
 Development
 GitHub Codespaces
-
+```
 This project is fully compatible with GitHub Codespaces. Launch a codespace and the environment is ready to go:
 
     Click Code → Codespaces → Create codespace on main
@@ -268,13 +262,12 @@ This project is fully compatible with GitHub Codespaces. Launch a codespace and 
     Run the system immediately
 
 Running Locally
-bash
-
+```bash
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
 cd CADMIES/CADMIES-IPLD
 pip install dag-cbor multiformats nicegui pydantic python-dotenv aiofiles
 python cadmies-gui/gui_main.py
-
+```
 License & Ethical Use
 License
 
