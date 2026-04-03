@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dunning_kruger_effect",
+  "title": "Dunning-Kruger Effect",
+  "definition": "A cognitive bias where people with low ability at a task overestimate their ability (illusory superiority), while people with high ability underestimate their competence (impostor syndrome). The effect is driven by metacognitive deficits: the unskilled lack the expertise to recognize their incompetence.",
+  "type": "CognitiveBias",
+  "domain": "Psychology",
+  "subdomain": "Social Psychology / Metacognition",
+  "formula": "",
+  "proofs": [
+    {
+      "type": "empirical",
+      "description": "Multiple studies across domains (logic, grammar, humor) show bottom quartile performers overestimate rank; top quartile underestimate",
+      "confidence": 0.90,
+      "reference": "Kruger, J., & Dunning, D. (1999). Unskilled and Unaware of It. Journal of Personality and Social Psychology, 77(6), 1121-1134."
+    }
+  ],
+  "cross_references": {
+    "related_concepts": ["impostor_syndrome", "overconfidence_effect", "illusory_superiority", "metacognition", "lake_wobegon_effect"],
+    "opposing_views": []
+  },
+  "relationships": {
+    "builds_upon": ["metacognition", "self_assessment", "competence_theory"],
+    "contradicts": ["rational_self_assessment"],
+    "related_to": ["cognitive_biases", "social_psychology", "education"],
+    "specializes": ["illusory_superiority", "impostor_syndrome"]
+  },
+  "difficulty_levels": {
+    "beginner": "People who are bad at something often think they're good at it. People who are good often think they're worse than they really are.",
+    "intermediate": "The Dunning-Kruger effect is a metacognitive bias: incompetent individuals lack the ability to recognize their own incompetence, while competent individuals assume others are equally competent, leading to underestimation.",
+    "expert": "The effect arises from dual deficits: poor performers lack both skill and the metacognitive ability to evaluate skill. Statistical regression effects and idiosyncratic task difficulty contribute. Debates continue about effect magnitude and whether it's a statistical artifact."
+  },
+  "learning_path": {
+    "prerequisites": ["cognitive_psychology", "metacognition", "research_methods"],
+    "next_steps": ["impostor_syndrome", "overconfidence_bias", "calibration_training"]
+  },
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.88,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "extra_fields": {
+    "historical_context": "First systematically studied by David Dunning and Justin Kruger at Cornell University (1999). Winner of the 2000 Ig Nobel Prize in Psychology.",
+    "limitations": "Effect size varies; some studies show only weak or inconsistent effects. Statistical artifacts may explain some findings.",
+    "key_references": ["Kruger & Dunning 1999", "Dunning 2011", "Krueger & Mueller 2002"],
+    "discoverers": ["David Dunning", "Justin Kruger"],
+    "discovery_year": 1999,
+    "applications": ["Education", "Workplace training", "Medical education", "Leadership development"]
+  }
+}
