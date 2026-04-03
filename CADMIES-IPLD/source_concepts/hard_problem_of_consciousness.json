@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hard_problem_of_consciousness",
+  "title": "The Hard Problem of Consciousness",
+  "definition": "The problem of explaining why and how physical processes in the brain give rise to subjective experience (qualia). While 'easy problems' explain cognitive functions, the hard problem addresses why there is 'something it is like' to be a conscious organism.",
+  "type": "PhilosophicalProblem",
+  "domain": "Philosophy",
+  "subdomain": "Philosophy of Mind",
+  "formula": "",
+  "proofs": [
+    {
+      "type": "philosophical",
+      "description": "Zombie argument: conceivability of philosophical zombies (physically identical but lacking consciousness) suggests consciousness is non-physical",
+      "confidence": 0.65,
+      "reference": "Chalmers, D.J. (1996). The Conscious Mind: In Search of a Fundamental Theory."
+    },
+    {
+      "type": "philosophical",
+      "description": "Knowledge argument: Mary in the black-and-white room learns all physical facts but learns something new upon seeing red, showing non-physical knowledge exists",
+      "confidence": 0.70,
+      "reference": "Jackson, F. (1982). Epiphenomenal Qualia. Philosophical Quarterly, 32(127), 127-136."
+    }
+  ],
+  "cross_references": {
+    "related_concepts": ["qualia", "philosophical_zombies", "explanatory_gap", "mind_body_problem"],
+    "opposing_views": ["eliminative_materialism", "illusionism", "panpsychism"]
+  },
+  "relationships": {
+    "builds_upon": ["dualism", "materialism", "functionalism", "phenomenology"],
+    "contradicts": ["reductive_physicalism", "behaviorism"],
+    "related_to": ["consciousness_studies", "neuroscience", "philosophy_of_mind"],
+    "specializes": ["qualia", "intentionality"]
+  },
+  "difficulty_levels": {
+    "beginner": "We know the brain does things, but we don't know why it feels like something to be us. That's the hard problem.",
+    "intermediate": "While we can explain how brains process information, we cannot explain why there is subjective experience. The hard problem persists as a fundamental challenge to reductive physicalism.",
+    "expert": "The hard problem stems from an explanatory gap between objective physical descriptions and subjective phenomenal consciousness. Possible resolutions include panpsychism (consciousness fundamental), dualism (non-physical properties), illusionism (consciousness an illusion), or acceptance of the problem as unsolvable within current paradigms."
+  },
+  "learning_path": {
+    "prerequisites": ["philosophy_of_mind", "cognitive_science", "neuroscience_basics"],
+    "next_steps": ["panpsychism", "integrated_information_theory", "global_workspace_theory"]
+  },
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "extra_fields": {
+    "historical_context": "Term coined by David Chalmers in 1994, though the problem dates back to Leibniz, Descartes, and earlier philosophers of mind.",
+    "limitations": "Some philosophers (Dennett, Churchland) argue the hard problem is a pseudo-problem arising from confused concepts.",
+    "key_references": ["Chalmers 1996", "Jackson 1982", "Nagel 1974", "Leibniz 1714"],
+    "originator": "David Chalmers (term)",
+    "origin_year": 1994,
+    "applications": ["AI consciousness", "Animal ethics", "Clinical neuroscience"]
+  }
+}
