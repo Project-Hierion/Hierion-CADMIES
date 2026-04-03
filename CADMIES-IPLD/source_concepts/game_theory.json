@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "game_theory",
+  "title": "Game Theory",
+  "definition": "The study of mathematical models of strategic interaction between rational decision-makers. It analyzes situations where an individual's success depends on the choices of others, identifying optimal strategies and equilibrium outcomes.",
+  "type": "MathematicalTheory",
+  "domain": "Mathematics",
+  "subdomain": "Decision Theory / Economics",
+  "formula": "Nash equilibrium: ∀i, u_i(s_i*, s_-i*) ≥ u_i(s_i, s_-i*)",
+  "proofs": [
+    {
+      "type": "mathematical",
+      "description": "Nash's proof that every finite game has at least one Nash equilibrium",
+      "confidence": 1.0,
+      "reference": "Nash, J.F. (1950). Equilibrium Points in N-Person Games. Proceedings of the National Academy of Sciences, 36(1), 48-49."
+    },
+    {
+      "type": "theoretical",
+      "description": "Minimax theorem for zero-sum games",
+      "confidence": 1.0,
+      "reference": "von Neumann, J. (1928). Zur Theorie der Gesellschaftsspiele. Mathematische Annalen, 100, 295-320."
+    }
+  ],
+  "cross_references": {
+    "related_concepts": ["nash_equilibrium", "prisoners_dilemma", "minimax", "evolutionary_game_theory"],
+    "opposing_views": []
+  },
+  "relationships": {
+    "builds_upon": ["probability_theory", "optimization", "rational_choice"],
+    "contradicts": [],
+    "related_to": ["economics", "political_science", "biology", "computer_science"],
+    "specializes": ["cooperative_game_theory", "non_cooperative_game_theory", "evolutionary_game_theory"]
+  },
+  "difficulty_levels": {
+    "beginner": "Game theory studies how smart people make decisions when their choices affect each other. It helps predict what will happen in situations like negotiations or competitions.",
+    "intermediate": "Game theory provides formal tools for analyzing strategic interactions. Key concepts include Nash equilibrium (stable strategy profiles), dominant strategies, and Pareto optimality.",
+    "expert": "Game theory extends from rational choice models to evolutionary dynamics, behavioral deviations, and mechanism design. Applications include auction design, voting systems, network formation, and AI multi-agent systems."
+  },
+  "learning_path": {
+    "prerequisites": ["probability_theory", "linear_algebra", "microeconomics"],
+    "next_steps": ["nash_equilibrium", "evolutionary_game_theory", "mechanism_design"]
+  },
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.98,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "extra_fields": {
+    "historical_context": "Originated with von Neumann's minimax theorem (1928). Major contributions from Nash (1950), Shapley, and Harsanyi. John Nash's work earned the Nobel Prize (1994).",
+    "limitations": "Assumes rational, self-interested agents with common knowledge. Behavioral economics shows humans deviate from pure rationality.",
+    "key_references": ["von Neumann 1928", "Nash 1950", "Schelling 1960", "Aumann 1974"],
+    "founders": ["John von Neumann", "John Nash", "Lloyd Shapley"],
+    "founding_year": 1928,
+    "applications": ["Economics", "Political science", "Biology (animal behavior)", "Computer science (AI, algorithms)"]
+  }
+}
