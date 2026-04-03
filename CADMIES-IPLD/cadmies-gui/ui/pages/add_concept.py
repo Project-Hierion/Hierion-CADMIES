@@ -46,34 +46,60 @@ class AddConceptPage:
                 subdomain = ui.input("Subdomain *").classes("w-full").props("outlined")
                 description = ui.textarea("Description *").classes("w-full").props("outlined autogrow")
                 
-                # Preview
+                                # Preview
                 ui.separator()
                 ui.label("Preview").classes("text-h6")
-                preview = ui.markdown().classes("w-full bg-grey-1 p-4 rounded border")
                 
-                def update_preview():
-                    import re
-                    human_id = re.sub(r'[^a-zA-Z0-9\s-]', '', name.value or "")
-                    human_id = human_id.lower().replace(' ', '_')
+                # HTML preview container (replaces markdown)
+                preview = ui.html("""
+                    <div id="concept-preview" class="w-full bg-grey-1 p-4 rounded border">
+                        <h3>Preview will appear here</h3>
+                        <p>Fill in the form above, then click out of each field to see the preview update.</p>
+                    </div>
+                """).classes("w-full")
+                
+                # Inject JavaScript for local preview updates
+                ui.add_body_html("""
+                <script>
+                function updatePreview() {
+                    // Get form values
+                    const name = document.querySelector('[aria-label="Concept Name *"]')?.value || '';
+                    const conceptType = document.querySelector('[aria-label="Concept Type *"]')?.value || 'Not selected';
+                    const domain = document.querySelector('[aria-label="Domain *"]')?.value || 'Not selected';
+                    const subdomain = document.querySelector('[aria-label="Subdomain *"]')?.value || 'Not selected';
+                    const description = document.querySelector('[aria-label="Description *"]')?.value || '';
                     
-                    preview.set_content(f"""
-# {name.value or '[Concept Name]'}
-**Human ID:** `{human_id or '[will be auto-generated]'}`
-
-**Type:** {concept_type.value or 'Not selected'}  
-**Domain:** {domain.value or 'Not selected'}  
-**Subdomain:** {subdomain.value or 'Not selected'}  
-
-{description.value or '*Description will appear here*'}
-                    """)
+                    // Generate human_id
+                    let humanId = name.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\\s+/g, '_');
+                    if (!humanId) humanId = '[will be auto-generated]';
+                    
+                    // Update preview HTML
+                    const previewDiv = document.getElementById('concept-preview');
+                    if (previewDiv) {
+                        previewDiv.innerHTML = `
+                            <h3>${name || '[Concept Name]'}</h3>
+                            <p><strong>Human ID:</strong> <code>${humanId}</code></p>
+                            <p><strong>Type:</strong> ${conceptType}<br>
+                            <strong>Domain:</strong> ${domain}<br>
+                            <strong>Subdomain:</strong> ${subdomain}</p>
+                            <p><strong>Description:</strong><br>${description || '<em>No description yet</em>'}</p>
+                        `;
+                    }
+                }
                 
-                # Live preview updates
-                name.on("input", update_preview)
-                concept_type.on("change", update_preview)
-                domain.on("change", update_preview)
-                subdomain.on("input", update_preview)
-                description.on("input", update_preview)
-                
+                // Add blur event listeners to all form fields
+                document.addEventListener('DOMContentLoaded', function() {
+                    const fields = ['Concept Name *', 'Concept Type *', 'Domain *', 'Subdomain *', 'Description *'];
+                    fields.forEach(fieldLabel => {
+                        const field = document.querySelector(`[aria-label="${fieldLabel}"]`);
+                        if (field) {
+                            field.addEventListener('blur', updatePreview);
+                        }
+                    });
+                });
+                </script>
+                """)
+                               
                 # Submit button
                 async def submit():
                     try:

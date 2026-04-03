@@ -1,9 +1,13 @@
+import json
+from operator import index
+
 from nicegui import ui
 from gui_system import CadmiesSystem
 from ui.pages.dashboard import DashboardPage
 from ui.pages.add_concept import AddConceptPage
 from ui.pages.browse import BrowsePage
 from ui.pages.audit import AuditPage
+from fastapi.staticfiles import StaticFiles 
 
 class CadmiesApp:
     def __init__(self):
@@ -40,36 +44,103 @@ your-cadmies-root/
                         ui.label(f"{icon} {component}")
             return
         
-        # Normal UI with navigation
+        # Serve static files for mycelium map
+        from nicegui import app
+        app.mount("/static", StaticFiles(directory="/workspaces/CADMIES/CADMIES-IPLD"), name="static")
+
+        # ========== HOME PAGE (Landing Page) ==========
         @ui.page("/")
-        def main_page():
+        def home_page():
+            # Sidebar drawer
             with ui.left_drawer().classes("bg-primary") as drawer:
                 ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
                 ui.separator()
+                ui.link("🏠 Home", "/").classes("text-white")
                 ui.link("📊 Dashboard", "/dashboard").classes("text-white")
                 ui.link("➕ Add Concept", "/add").classes("text-white")
                 ui.link("📚 Browse Library", "/browse").classes("text-white")
                 ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🕸️ Mycelium Map", "/static/mycelium_map.html").classes("text-white").props("target=_blank")
                 ui.separator()
                 ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
             
-            ui.navigate.to("/dashboard")
+            # Main content area
+            with ui.column().classes("w-full p-8"):
+                ui.label("Welcome to CADMIES").classes("text-h3")
+                ui.label("Select an option from the sidebar to begin.").classes("text-italic")
+                # Count concepts from the index file directly
+                import json
+                index_path = self.system.get_index_path()
+                if index_path.exists():
+                    with open(index_path) as f:
+                        index = json.load(f)
+                    concept_count = len(index)
+                else:
+                    concept_count = 0
+                ui.label(f"📚 {concept_count} concepts available").classes("mt-4")
         
-        # Register all pages
+        # ========== DASHBOARD PAGE ==========
         @ui.page("/dashboard")
         def dashboard():
+            with ui.left_drawer().classes("bg-primary") as drawer:
+                ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
+                ui.separator()
+                ui.link("🏠 Home", "/").classes("text-white")
+                ui.link("📊 Dashboard", "/dashboard").classes("text-white")
+                ui.link("➕ Add Concept", "/add").classes("text-white")
+                ui.link("📚 Browse Library", "/browse").classes("text-white")
+                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🕸️ Mycelium Map", "/static/mycelium_map.html").classes("text-white").props("target=_blank")
+                ui.separator()
+                ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
             DashboardPage(self.system).render()
         
+        # ========== ADD CONCEPT PAGE ==========
         @ui.page("/add")
         def add():
+            with ui.left_drawer().classes("bg-primary") as drawer:
+                ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
+                ui.separator()
+                ui.link("🏠 Home", "/").classes("text-white")
+                ui.link("📊 Dashboard", "/dashboard").classes("text-white")
+                ui.link("➕ Add Concept", "/add").classes("text-white")
+                ui.link("📚 Browse Library", "/browse").classes("text-white")
+                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🕸️ Mycelium Map", "/static/mycelium_map.html").classes("text-white").props("target=_blank")
+                ui.separator()
+                ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
             AddConceptPage(self.system).render()
         
+        # ========== BROWSE PAGE ==========
         @ui.page("/browse")
         def browse():
+            with ui.left_drawer().classes("bg-primary") as drawer:
+                ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
+                ui.separator()
+                ui.link("🏠 Home", "/").classes("text-white")
+                ui.link("📊 Dashboard", "/dashboard").classes("text-white")
+                ui.link("➕ Add Concept", "/add").classes("text-white")
+                ui.link("📚 Browse Library", "/browse").classes("text-white")
+                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🕸️ Mycelium Map", "/static/mycelium_map.html").classes("text-white").props("target=_blank")
+                ui.separator()
+                ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
             BrowsePage(self.system).render()
         
+        # ========== AUDIT PAGE ==========
         @ui.page("/audit")
         def audit():
+            with ui.left_drawer().classes("bg-primary") as drawer:
+                ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
+                ui.separator()
+                ui.link("🏠 Home", "/").classes("text-white")
+                ui.link("📊 Dashboard", "/dashboard").classes("text-white")
+                ui.link("➕ Add Concept", "/add").classes("text-white")
+                ui.link("📚 Browse Library", "/browse").classes("text-white")
+                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🕸️ Mycelium Map", "/static/mycelium_map.html").classes("text-white").props("target=_blank")
+                ui.separator()
+                ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
             AuditPage(self.system).render()
     
     def run(self):

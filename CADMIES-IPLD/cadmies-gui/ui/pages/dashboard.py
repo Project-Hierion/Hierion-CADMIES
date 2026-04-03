@@ -6,6 +6,17 @@ class DashboardPage:
     def __init__(self, system):
         self.system = system
     
+    def sprout_easter_egg(self):
+        """Easter egg: Sprout surprise"""
+        ui.notify(
+            "🎻 'It's a bittersweet symphony, that's life...' 🎻\n\n"
+            "💿 homage to The Verve - Bitter Sweet Symphony",
+            type="positive",
+            position="bottom-right",
+            multi_line=True,
+            timeout=5000
+        )
+    
     def render(self):
         # Get system info
         info = self.system.get_system_info()
@@ -23,8 +34,12 @@ class DashboardPage:
         legacy_count = len(concepts) - len(valid_concepts)
         
         with ui.column().classes("w-full p-8"):
-            # Header
-            ui.label("CADMIES Dashboard").classes("text-h3")
+            # Header with clickable seedling easter egg
+            with ui.row().classes("items-center gap-2"):
+                ui.label("CADMIES Dashboard").classes("text-h3")
+                seedling = ui.button("🌱", on_click=self.sprout_easter_egg).classes("text-h4 bg-transparent")
+                seedling.props("flat dense")
+                seedling.tooltip("Click for a surprise...")
             ui.label(f"Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}").classes("text-italic")
             
             # System status card
@@ -83,7 +98,7 @@ class DashboardPage:
                     for line in reversed(lines):
                         entry = json.loads(line)
                         with ui.row().classes("w-full items-center border-bottom py-2"):
-                            time = ui.label(entry.get("timestamp", "")[11:19]).classes("w-20 font-mono")
+                            ui.label(entry.get("timestamp", "")[11:19]).classes("w-20 font-mono")
                             
                             op = entry.get("operation", "")
                             op_color = "positive" if "add" in op else "primary"
