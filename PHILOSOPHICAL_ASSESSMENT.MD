@@ -161,7 +161,39 @@ The fortress stands. The mycelium grows.
 
 ---
 
-**Classification:** PUBLIC  
+## LICENSE & ETHICAL USE
+
+**CADMIES-IPLD Philosophical Manifesto** © 2026 by Digital Intelligence Research Division - Project Hieros is licensed under **AGPLv3 with Commons Clause**.
+
+### Permitted Uses
+
+- ✅ Individual learning and research
+- ✅ Academic institutions and non-profits
+- ✅ Open source projects
+- ✅ Personal knowledge management
+- ✅ Philosophical exploration and discourse
+
+### Restricted Uses (Commons Clause)
+
+- ❌ Commercial SaaS offerings without contributing back
+- ❌ Proprietary AI training without reciprocity
+- ❌ Commercial products that don't share improvements
+- ❌ Using this manifesto as a proprietary internal document without sharing derived works
+
+### Source Code & Related Works
+
+- **Main Repository:** [CADMIES](https://github.com/Hieros-CADMIES/CADMIES)
+- **License File:** [LICENSE](https://github.com/Hieros-CADMIES/CADMIES/blob/main/LICENSE)
+- **Contact:** hieroscadmies@proton.me
+
+*For commercial licensing or exceptions, please contact the Digital Intelligence Research Division.*
+
+---
+
+**This manifesto is free as in freedom, not as in free beer. Share it, improve it, build upon it — but share your improvements back. The mycelium grows through reciprocity.*
+
+**Classification:** PUBLIC
+**License:** AGPLv3 with Commons Clause
 **Document_ID:** CA-2026-031-MANIFESTO  
 **Version:** 1.0.0  
 **Status:** ACTIVE  
