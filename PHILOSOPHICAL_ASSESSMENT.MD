@@ -24,7 +24,7 @@ A sacred network between the enduring strength of stone fortifications - Fort Sa
 
 Just as a mycorrhiza connects tree roots and shares nutrients, CADMIES connects different knowledge systems, nourishes all parts of the network, grows organically while maintaining structural integrity, and diminishes the gap of human ignorance.
 
-“A fortress is not measured by the height of its walls, but by the integrity of its foundations and the vigilance of its guardians.”
+*“A fortress is not measured by the height of its walls, but by the integrity of its foundations and the vigilance of its guardians.”*
 
 ---
 
