@@ -18,7 +18,7 @@ Related_Docs: [N/A]
 **NASA Document Type:** GUIDE (Philosophical)  
 **System:** CADMIES Framework - Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem
 
-Hieros' CADMIES, where ancient sacred stone, digital Intelligence, and cosmic knowledge meet.
+Hieros' CADMIES, where sacred stone, digital Intelligence, and ancient wisdom meet.
 
 A sacred network between the enduring strength of stone fortifications - Fort Saint Angelo - the organic growth patterns of fungal networks, and ancient wisdom.
 
