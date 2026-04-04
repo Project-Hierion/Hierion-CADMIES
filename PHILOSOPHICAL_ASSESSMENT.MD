@@ -67,9 +67,11 @@ We have built not just a tool, but a philosophical instrument — a digital myco
 - Multiformats compliance — interoperability standard
 - Interoperable design — cross-platform compatibility
 
-**Fortress Analogy:** The limestone bedrock of Malta - enduring through siege and time. Our hashes are digital limestone: immutable, verifiable, and foundational.
+**Fortress Analogy:** The limestone bedrock of Malta - enduring through siege and time. 
+Our hashes are digital limestone: immutable, verifiable, and foundational.
 
-**Mycelial Insight:** Each CID is a unique fungal spore. Within it lies the complete genetic blueprint of its concept, ready to grow connections anywhere in the network.
+**Mycelial Insight:** Each CID is a unique fungal spore. 
+Within it lies the complete genetic blueprint of its concept, ready to grow connections anywhere in the network.
 
 ### 3.2 Validation Gates (The Defensive Layers)
 
