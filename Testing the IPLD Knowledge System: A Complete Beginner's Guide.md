@@ -1,4 +1,4 @@
-# Testing the IPLD Knowledge System: A Complete Beginner's Guide
+# Testing the CADMIES-IPLD System: A Complete Beginner's Guide
 
 ## Who This Guide Is For
 - **Students** learning about technology
@@ -19,7 +19,9 @@
 1. **Python** (we'll install it if you don't have it)
 2. **Command Line/Terminal** (comes with your computer)
 
-**Don't worry if these sound technical - we'll guide you through everything!**
+**Don't worry if this sounds technical - we'll guide you through everything!**
+
+---
 
 ## PART 1: Setting Up Your Computer
 
@@ -47,71 +49,70 @@ In your terminal/command line, type this **exactly** and press Enter:
 ```bash
 python --version
 ```
+#### What should happen:
 
-What should happen:
-
-Good outcome: You see something like:
+**Good outcome:** You see something like:
 ```text
 Python 3.8.10
 ```
-
 or
-
 ```text
 Python 3.10.0
 ```
 If you see this, you have Python! Skip to Step 4.
-
-Bad outcome: You see:
+#
+#
+**Bad outcome:** You see something like:
 ```text
-    Python 2.7.18 (too old)
-or
-    'python' is not recognized...
-or
-    command not found
+Python 2.7.18 (too old)
 ```
-
+or
+```text
+'python' is not recognized...
+```
+or
+```text
+command not found
+```
 If you see this, you need to install Python. Go to Step 3.
-
+#
+#
 ### Step 3: Install Python (If Needed)
 
-**For Windows:**
+#### For Windows:
 
-   - Open your web browser
+    - Open your web browser
 
-   - Go to: https://www.python.org/downloads/
+    - Go to: https://www.python.org/downloads/
 
-   - Click the big yellow "Download Python 3.12" button
+    - Click the big yellow "Download Python 3.12" button
 
-   - Run the downloaded file
+    - Run the downloaded file
 
-    **IMPORTANT:** Check the box that says "Add Python to PATH"
+    - IMPORTANT: Check the box that says "Add Python to PATH"
 
-   - Click "Install Now"
+    - Click "Install Now"
 
-   - Wait for installation to finish
+    - Wait for installation to finish
 
-   - Close and reopen your Command Prompt
+    - Close and reopen your Command Prompt
 
-**For Mac:**
+#### For Mac:
 
-   - Open your web browser
+    - Open your web browser
 
-   - Go to: https://www.python.org/downloads/macos/
+    - Go to: https://www.python.org/downloads/macos/
 
-   - Download "Python 3.12" for macOS
+    - Download "Python 3.12" for macOS
 
-   - Run the downloaded file
+    - Run the downloaded file
 
-   - Follow the installation steps
+    - Follow the installation steps
 
-   - Close and reopen your Terminal
+    - Close and reopen your Terminal
 
-**For Linux (Ubuntu/Debian):**
-
-In your terminal, type:
+#### For Linux (Ubuntu/Debian):
 ```bash
-
 sudo apt update
 sudo apt install python3 python3-pip
 ```
@@ -122,204 +123,260 @@ After installing: Go back to Step 2 to verify Python is installed.
 
 In your terminal/command line, type this exactly and press Enter:
 ```bash
-
-pip install dag-cbor multiformats
+pip install dag-cbor multiformats nicegui pydantic python-dotenv aiofiles
 ```
 
-What should happen:
+#### What should happen:
 You'll see text scrolling as packages download. It should end with:
 
-"Successfully installed dag-cbor-X.X multiformats-X.X"
+"Successfully installed dag-cbor-X.X multiformats-X.X nicegui-X.X..."
 
-If you get an error:
+#### If you get an error:
 Try this instead:
 ```bash
-
-python -m pip install dag-cbor multiformats
+python -m pip install dag-cbor multiformats nicegui pydantic python-dotenv aiofiles
 ```
 
 ## PART 2: Download and Test the Tools
-
 ### Step 5: Download the Tools
 
 In your terminal/command line, type this exactly and press Enter:
 ```bash
-
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
 ```
 
-What should happen:
-You'll see something like:
+#### What should happen:
 ```text
-
 Cloning into 'CADMIES'...
 remote: Enumerating objects: XX, done.
 remote: Counting objects: 100% (XX/XX), done.
-remote: Compressing objects: 100% (XX/XX), done.
-remote: Total XX (delta XX), reused XX (delta XX), pack-reused XX
-Receiving objects: 100% (XX/XX), XX KiB | XX KiB/s, done.
+...
 ```
 
-If you get an error about "git not found":
+#### If you get an error about "git not found":
 
-   - Download from: https://github.com/Hieros-CADMIES/CADMIES/archive/refs/heads/main.zip
+    - Download from: https://github.com/Hieros-CADMIES/CADMIES/archive/refs/heads/main.zip
 
-   - Extract the ZIP file
+    - Extract the ZIP file
 
-   - Open the extracted folder
+    - Open the extracted folder
 
-### Step 6: Enter the Tools Folder
+### Step 6: Enter the CADMIES Folder
 
 In your terminal/command line, type this exactly and press Enter:
-```bash
+``bash
+cd CADMIES/CADMIES-IPLD
+``
 
-cd CADMIES
-```
+#### What should happen:
+You're now inside the CADMIES-IPLD folder. Type dir (Windows) or ls -la (Mac/Linux) to see the files.
 
-What should happen:
-You're now inside the tools folder. You can type dir (Windows) or ls (Mac/Linux) to see the files.
-
-## PART 3: Your First Test
-
+## PART 3: Your First Test (CLI)
 ### Step 7: Run the CID Generator
 
 In your terminal/command line, type this exactly and press Enter:
 ```bash
-
-python cid_generator_v1.1.0.py
+python tools/core/cid_generator_v1_1_0.py
 ```
 
-What should happen:
-You'll see a lot of text scrolling. Look for this line (it might be near the bottom):
+#### What should happen:
+You'll see a lot of text scrolling. Look for this line:
 ```text
-
-Generated CID: bafyreifh5f5i6elunhcqfuw7n2t3c2rl4z6jtv76rz4wm2kz2q7bj7gnji
+🎯 Generated CID: bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu
 ```
 
-**IMPORTANT:** Your CID might be different! That's okay! Just look for a line starting with 🎯 Generated CID: followed by a long string of letters and numbers.
+**IMPORTANT**: Your CID might be different! That's okay! Just look for a line starting with 🎯 Generated CID: followed by a long string of letters and numbers.
 
 ### Step 8: Copy Your CID
 
 Find the line that says 🎯 Generated CID: and copy the long string after it.
 
-Example of what to copy:
+#### Example of what to copy:
 ```text
-
-bafyreifh5f5i6elunhcqfuw7n2t3c2rl4z6jtv76rz4wm2kz2q7bj7gnji
+bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu
 ```
 
-**How to copy:**
+#### How to copy:
 
-   - Click and drag your mouse to select the entire CID string
+    - Click and drag your mouse to select the entire CID string
 
-   - Right-click and choose "Copy"
+    - Right-click and choose "Copy"
 
-   - Or press Ctrl+C (Windows) or Command+C (Mac)
+    - Or press Ctrl+C (Windows) or Command+C (Mac)
 
 ### Step 9: Test the CBOR Reader
 
-In your terminal/command line, type this exactly:
+In your terminal/command line, type:
 ```bash
-
-python cbor_reader.py bafyreifh5f5i6elunhcqfuw7n2t3c2rl4jbrdkjlfh5lhlkjh3jkh6lkjsdf
+python tools/core/cbor_reader.py [YOUR_CID]
 ```
 
-***But wait! Replace the example CID with your actual CID that you copied.***
-
-Example:
-If your CID was bafyreifh5f5i6elunhcqfuw7n2t3c2rl4z6jtv76rz4wm2kz2q7bj7gnji, type:
+#### Example:
 ```bash
-
-python cbor_reader.py bafyreifh5f5i6elunhcqfuw7n2t3c2rl4z6jtv76rz4wm2kz2q7bj7gnji
+python tools/core/cbor_reader.py bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu
 ```
 
-What should happen:
-You'll see a nicely formatted display showing information about the *"Law of Conservation of Energy."*
+#### What should happen:
+You'll see a nicely formatted display showing information about the "Law of Conservation of Energy" including:
 
-### Step 10: Test Again (Verify Determinism)
+    - The concept definition
 
-In your terminal/command line, type this exactly and press Enter:
+    - Provenance sticky notes (who created it and when)
+
+    - Relationships to other concepts
+
+    - Difficulty levels (beginner/intermediate/expert)
+
+### Step 10: Test by Human ID
+
+Try looking up the concept by its human-readable name:
 ```bash
+python tools/core/cbor_reader.py conservation_of_energy
+```
 
-python cid_generator_v1.1.0.py
+#### What should happen:
+The exact same information appears! The human ID is just an easier way to remember the concept.
+
+### Step 11: Verify Determinism
+
+Run the CID generator again:
+```bash
+python tools/core/cid_generator_v1_1_0.py
 ```
 
 Look for the CID line again:
 ```text
-
-🎯 Generated CID: bafyreifh5f5i6elunhcqfuw7n2t3c2rl4z6jtv76rz4wm2kz2q7bj7gnji
+🎯 Generated CID: bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu
 ```
 
-**IMPORTANT CHECK:**
+#### IMPORTANT CHECK:
 Is this CID ***exactly*** the same as the first one?
 
-YES - Same CID: Perfect! The system works correctly.
-NO - Different CID: Something is wrong. Try the troubleshooting steps below.
+**YES - Same CID:** Perfect! The system works correctly.
+
+**NO - Different CID:** Something is wrong. See troubleshooting below.
+
+## PART 4: Your First Test (GUI)
+
+CADMIES also includes a graphical interface for those who prefer clicking over typing.
+
+### Step 12: Launch the GUI
+
+In your terminal/command line:
+```bash
+cd cadmies-gui
+python gui_main.py
+```
+
+#### What should happen:
+```text
+NiceGUI ready to go on http://localhost:8081
+```
+
+### Step 13: Open the GUI
+
+- Open your web browser
+
+- Go to: http://localhost:8081
+
+You'll see the CADMIES Dashboard with:
+
+- System status
+
+- Concept count (should be 20+ concepts)
+
+- Recent activity
+
+- A sidebar with navigation links
+
+### Step 14: Explore the GUI
+
+#### Browse Concepts:
+
+- Click "Browse Library" in the sidebar
+
+- See all 20+ concepts in grid or list view
+
+- Click "View" on any concept to see details including provenance sticky notes
+
+#### View the Mycelium Map:
+
+- Click "Mycelium Map" in the sidebar
+
+- See the interactive knowledge graph (173+ nodes, 160+ edges)
+
+- Click any node to see concept names
+
+- Type cadmies anywhere on the map for a surprise 🎸
+
+#### Add a Concept:
+
+- Click "Add Concept" in the sidebar
+
+- Fill in the form (name, type, domain, description)
+
+- Click out of each field to see the live preview update
+
+- Click "Generate CID & Store"
+
+- Your new concept gets a deterministic CID and auto-provenance
+
+## PART 5: What Was Created
+
+The system created these folders on your computer:
+```text
+
+CADMIES-IPLD/
+├── store/
+│   ├── blocks/           # IPLD blocks (named by CID)
+│   ├── index/            # human_id → CID mappings
+│   └── logs/             # Operation history (audit trail)
+├── tools/core/           # CLI tools
+└── cadmies-gui/          # Web interface
+```
 
 **🎉 CONGRATULATIONS!**
 
 You've successfully:
 
-    ✅ Set up Python on your computer
+- ✅ Set up Python and installed packages
 
-    ✅ Installed the required packages
+- ✅ Downloaded the CADMIES-IPLD system
 
-    ✅ Downloaded the IPLD knowledge tools
+- ✅ Created your first CID (deterministic content address)
 
-    ✅ Created your first content-addressed identifier (CID)
+- ✅ Retrieved knowledge using CID and human ID
 
-    ✅ Retrieved knowledge using that CID
+- ✅ Verified determinism (same content → same CID)
 
-    ✅ Verified the system is deterministic (same content → same CID)
+- ✅ Launched and explored the GUI
 
-**You now have a working content-addressed knowledge system!**
+- ✅ Viewed the Mycelium Map knowledge graph
 
-**What Was Created?**
+**You now have a working content-addressed knowledge system with provenance tracking!**
 
-The system created three folders on your computer:
-Check what was created:
+### Additional Tests You Can Try
 
-In your terminal/command line, type:
-
-On Windows:
+#### Test A: List All Stored Concepts
 ```bash
-
-dir
+python tools/core/cbor_reader.py --list
 ```
 
-On Mac/Linux:
+#### Test B: View Provenance History
 ```bash
-
-ls -la
+python tools/core/cbor_reader.py conservation_of_energy
+# Look for the "📜 PROVENANCE STICKY NOTES" section
 ```
 
-You should see:
-```text
-
-blocks/    (Contains the encoded knowledge)
-index/     (Contains the human-readable index)
-logs/      (Contains operation history)
-```
-
-**Additional Tests You Can Try**
-
-Test A: List All Stored Concepts
+#### Test C: Check the Audit Trail
 ```bash
-
-python cbor_reader.py --list
+cat store/logs/operations.jsonl | tail -10
 ```
 
-Test B: Try the Human-Readable ID
-```bash
+#### Test D: Create Your Own Concept
 
-python cbor_reader.py Physics:Law/ConservationOfEnergy
-```
+- Create a file called my_concept.json:
 
-Test C: Create Your Own Concept
-
-   - Open Notepad (Windows) or TextEdit (Mac)
-
-   - Copy this text:
 ```json
 
 {
@@ -327,164 +384,138 @@ Test C: Create Your Own Concept
   "human_id": "my_test_concept",
   "title": "My First Test",
   "definition": "This is my first knowledge concept",
-  "type": "Test",
+  "type": "TestConcept",
   "domain": "Testing",
+  "subdomain": "Beginner",
   "metadata": {
-    "created": "2026-01-08T10:00:00Z",
     "creator": "Me",
     "certainty_score": 0.8,
     "version": 1,
-    "purpose": "testing"
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
   }
 }
 ```
 
-   - Save it as my_test.json in the CADMIES folder
+- Generate its CID:
 
-   - In your terminal:
 ```bash
-
-python cid_generator_v1.1.0.py --concept-file my_test.json
-
-python cbor_reader.py my_test_concept
+python tools/core/cid_generator_v1_1_0.py --concept-file my_concept.json
 ```
 
-**Troubleshooting Guide**
+- Retrieve it:
 
-- **Problem 1:** "python not found"
-
---**Solution:** Python isn't in your PATH. Try:
 ```bash
-
-python3 --version
+python tools/core/cbor_reader.py my_test_concept
 ```
 
-If that works, use python3 instead of python in all commands.
+## Troubleshooting Guide
+Problem	Solution
+#
+"python not found"	Try python3 instead of python in all commands
+#
+"pip not found"	Try python -m pip install instead
+#
+Different CIDs each time	This is serious! The system must be deterministic. Check if any files changed or if you're running different commands.
+#
+"Module not found: dag_cbor"	Run pip uninstall dag-cbor multiformats then pip install dag-cbor multiformats --upgrade
+#
+"CADMIES System Not Found" in GUI	Make sure you're running the GUI from cadmies-gui/ folder
+#
+Permission errors (Mac/Linux)	Try sudo pip install dag-cbor multiformats
+#
+#
+## Success Checklist
 
--**Problem 2:** "pip not found"
+- Opened terminal/command line
 
---**Solution:** Try:
-```bash
+- Verified Python 3.8+ is installed
 
-python -m pip install dag-cbor multiformats
-```
+- Installed required packages
 
--**Problem 3:** Different CIDs each time
+- Downloaded CADMIES via git clone
 
---**Solution:** **This is serious!** **The system must be deterministic.**
-``text
-Check:
+- Ran cid_generator_v1_1_0.py
 
-    Are you running the exact same command?
+- Found and copied the CID
 
-    Did any files change?
+- Ran cbor_reader.py with your CID
 
-    Try restarting and running just the basic test again.
-``
+- Saw the knowledge display with provenance
 
--**Problem 4:** "Module not found: dag_cbor"
+- Verified same CID on second run
 
---**Solution:** The installation failed. Try:
-```bash
+- Launched the GUI
 
-pip uninstall dag-cbor multiformats
+- Explored the Mycelium Map
 
-pip install dag-cbor multiformats --upgrade
-```
+If you checked all boxes, you've successfully tested the CADMIES-IPLD system!
 
--**Problem 5:** Permission errors
+## What You Just Demonstrated
 
---**Solution:** On Mac/Linux, try:
-```bash
-
-sudo pip install dag-cbor multiformats
-```
-
-**Next Steps**
-```text
-If You Want to Learn More:
-
-    Read the README.md file in the CADMIES folder
-
-    Look at the examples/ folder for more concepts
-
-    Read docs/USER_MANUAL.md for complete documentation
-```
-```text
-If You're a Teacher:
-
-    Have students run through this guide
-
-    Compare CIDs - everyone should get the same result!
-
-    Discuss why determinism is important for knowledge systems
-```
-```text
-If You're a Researcher:
-
-    Study the schemas/ folder for the data structure
-
-    Examine the test files in tests/
-
-    Create concepts for your research domain
-```
-
-**Need Help?**
-```text
-If you get stuck:
-
-    Check the error message - copy it exactly
-
-    Note what step you were on
-
-    Email: hieroscadmies@proton.me
-
-Include:
-
-    Your operating system (Windows/Mac/Linux)
-
-    Python version (from Step 2)
-
-    The exact error message
-
-    What you were trying to do
-```
-
-**Success Checklist**
-```text
-    Opened terminal/command line
-
-    Verified Python 3.8+ is installed
-
-    Installed dag-cbor and multiformats
-
-    Downloaded the CADMIES tools
-
-    Ran python cid_generator_v1.1.0.py
-
-    Found and copied the CID
-
-    Ran python cbor_reader.py [YOUR_CID]
-
-    Saw the knowledge display
-
-    Verified same CID on second run
-```
-If you checked all boxes, you've successfully tested the system!
-
-
-**What You Just Demonstrated**
-
-    Content Addressing: Knowledge gets a permanent address based on its content
-
-    Determinism: Same content → Same address every time
-
-    Verifiability: Anyone with the CID can verify they have the exact same content
-
-    Local Storage: Everything stays on your computer - no cloud needed
+Concept	What It Means
+#
+Content Addressing	Knowledge gets a permanent address based on its content
+#
+Determinism	Same content → Same address every time
+#
+Provenance	Every concept has a sticky note showing who created it and when
+#
+Verifiability	Anyone with the CID can verify they have the exact same content
+#
+Local Storage	Everything stays on your computer - no cloud needed
+#
+Mycelial Growth	Concepts connect to form a knowledge graph
 
 This is how trustworthy knowledge systems work!
 
-***"The same understanding should always have the same address."***
 
-***Let the mycelium grow!*** 🌱
+## Next Steps
+
+### If You Want to Learn More:
+
+- Read the README.md
+
+- Explore the CID Structure Specification
+
+- Browse the source_concepts/ folder for PhD-level examples
+
+### If You're a Teacher:
+
+- Have students run through this guide
+
+- Compare CIDs - everyone should get the same result!
+
+- Discuss why determinism and provenance matter for knowledge systems
+
+### If You're a Researcher:
+
+- Study the schemas/ folder for data structures
+
+- Create concepts for your research domain
+
+- Use the Mycelium Map to discover connections
+
+## Need Help?
+
+### If you get stuck:
+
+- Check the error message - copy it exactly
+
+- Note what step you were on
+
+- Email: hieroscadmies@proton.me
+
+### Include:
+
+- Your operating system (Windows/Mac/Linux)
+
+- Python version (from Step 2)
+
+- The exact error message
+
+- What you were trying to do
+
+**"The same understanding should always have the same address."**
+
+**Let the mycelium grow! 🌱**
