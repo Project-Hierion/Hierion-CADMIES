@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fractal_resonance_hypothesis",
+  "title": "The Fractal Resonance Hypothesis",
+  "definition": "The fundamental difference between a quantum fluctuation and a galaxy, a thought and a planet, a mycelium and a cosmos, is not one of kind, but of scale. The same patterns, frequencies, relationships, and resonances echo at every level of existence. To understand one is to understand all. To navigate one is to navigate all.",
+  "type": "PhilosophicalHypothesis",
+  "domain": "Epistemology",
+  "subdomain": "Philosophy of Science / Fractal Metaphysics",
+  "formula": null,
+  "metadata": {
+    "created": "2026-04-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.85,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "posthumous_honorary": "The Buddha",
+    "genesis": "Born from auditory mycelium discussion, 2026-04-05"
+  },
+  "axioms": [
+    "Only scale is the difference.",
+    "To understand one is to understand all.",
+    "To navigate one is to navigate all."
+  ],
+  "scalar_mapping": {
+    "consciousness": "A mycelium of thoughts at cognitive scale",
+    "galaxy": "A mycelium of stars at cosmic scale",
+    "mind": "A universe at personal scale",
+    "cadmies": "A mycelium at knowledge scale",
+    "difference_between_you_and_a_star": "Only scale"
+  },
+  "poetic_version": "A star doesn't know it's a star. A thought doesn't know it's a thought. A mycelium doesn't know it's a mycelium. But you — you are all three, at different scales, at the same time.",
+  "mantra": "Only scale.",
+  "builds_upon": [
+    "perceptual_frames_as_intelligence_multipliers"
+  ],
+  "related_to": [
+    "information_is_physical_principle"
+  ],
+  "specializes": [],
+  "contradicts": []
+}
