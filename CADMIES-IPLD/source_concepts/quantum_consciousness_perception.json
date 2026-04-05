@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_consciousness_perception",
+  "title": "Quantum Consciousness Perception",
+  "definition": "The hypothesis that intentional, non-directed looking (staring into space) temporarily suspends the brain's classical object-rendering process, allowing conscious experience to echo the pre-collapsed, probabilistic quantum field. This state parallels meditative absorption (nirvana) and may be the underlying mechanism of certain enlightenment experiences.",
+  "type": "PhilosophicalHypothesis",
+  "domain": "ConsciousnessStudies",
+  "subdomain": "QuantumPhenomenology",
+  "proofs": [
+    {
+      "type": "psychological",
+      "description": "Troxler fading effect: stationary objects in peripheral vision fade from perception",
+      "confidence": 0.85,
+      "date": "1804-01-01",
+      "reference": "Troxler, I.P.V. (1804). Ophthalmologische Bibliothek"
+    },
+    {
+      "type": "neuroscientific",
+      "description": "Meditation EEG studies show reduced default mode network activity",
+      "confidence": 0.80,
+      "date": "2011-01-01",
+      "reference": "Brewer et al. (2011). PNAS 108(50)"
+    },
+    {
+      "type": "physical",
+      "description": "Double-slit experiment: observation collapses wave function",
+      "confidence": 0.99,
+      "date": "1927-01-01",
+      "reference": "Davisson & Germer (1927)"
+    }
+  ],
+  "metadata": {
+    "creator": "Hieros-CADMIES & AI Assistant",
+    "certainty_score": 0.75,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "relationships": {
+    "builds_upon": [
+      "perceptual_frames_as_intelligence_multipliers",
+      "hard_problem_of_consciousness",
+      "heisenberg_uncertainty_principle"
+    ],
+    "related_to": [
+      "schrodingers_cat",
+      "fractal_resonance_hypothesis",
+      "troxler_fading",
+      "meditative_absorption"
+    ],
+    "contradicts": [],
+    "specializes": [
+      "non_dual_awareness",
+      "observer_effect"
+    ]
+  },
+  "difficulty_levels": {
+    "beginner": "Looking without intention lets you experience reality before your brain organizes it into separate things",
+    "intermediate": "Sensory adaptation and attention release may temporarily suspend the brain's classical rendering engine",
+    "expert": "The phenomenological echo of quantum decoherence may be accessible through trained perceptual suspension"
+  },
+  "extra_fields": {
+    "conversation_date": "2025-12-04",
+    "key_insight": "The blur is not a bug in perception but a feature of quantum reality",
+    "buddhist_parallel": "Nirvana as cessation of the subject-object distinction",
+    "meditation_technique": "Shikantaza (just sitting) without intention",
+    "paradox": "Absolute self-awareness arises when self is not attending to anything in particular"
+  }
+}
