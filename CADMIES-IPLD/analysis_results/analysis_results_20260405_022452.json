@@ -1,0 +1,1598 @@
+{
+  "success": true,
+  "concepts_analyzed": 22,
+  "patterns_found": [],
+  "connections": [
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "target_title": "Law of Conservation of Energy",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "system"
+      ]
+    },
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "target_title": "Information is Physical Principle",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "states"
+      ]
+    },
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreidi74jhvrmegdsihwi2goxqagrdrvozqdcyyk5n34w66qujnlcjay",
+      "target_title": "The Hard Problem of Consciousness",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "consciousness"
+      ]
+    },
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "target_title": "Entropy",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "states",
+        "system"
+      ]
+    },
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreidgnaymxvri4ibsftt65mixqmfqlcxbs26xnsf6ivfmaw7bapeyym",
+      "target_title": "G\u00f6del's Incompleteness Theorems",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "system"
+      ]
+    },
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreietkvmvisl7mbgoydsfes243letobkw2piydvytd2wjstvmnkfpxu",
+      "target_title": "The Butterfly Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "different"
+      ]
+    },
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreifgax43ezw5roa64swvoeyvmtyii3oo5sicfdwcnio35iv64k7wlq",
+      "target_title": "Bayes' Theorem",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "hypothesis"
+      ]
+    },
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Epistemology",
+      "confidence": 0.8,
+      "evidence": [
+        "Epistemology"
+      ]
+    },
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_type",
+      "description": "Both are PhilosophicalHypothesis concepts",
+      "confidence": 0.7,
+      "evidence": [
+        "PhilosophicalHypothesis"
+      ]
+    },
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "hypothesis"
+      ]
+    },
+    {
+      "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+      "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+      "target_cid": "bafyreiespm2eqtzr7d233hyiqqfwnqc2vu7uwz7msr2qxijhj6gvxifpqe",
+      "target_title": "Philosophical Pattern Finder Agent v1.0.0",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "pattern"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "target_title": "Information is Physical Principle",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "target_title": "Information is Physical Principle",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "energy",
+        "time"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "target_title": "Newton's Laws of Motion",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "target_title": "Newton's Laws of Motion",
+      "connection_type": "shared_type",
+      "description": "Both are ScientificLaw concepts",
+      "confidence": 0.7,
+      "evidence": [
+        "ScientificLaw"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "target_title": "Newton's Laws of Motion",
+      "connection_type": "shared_subdomain",
+      "description": "Both focus on subdomain: Classical Mechanics",
+      "confidence": 0.9,
+      "evidence": [
+        "Classical Mechanics"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "target_title": "Entropy",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "target_title": "Entropy",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "isolated",
+        "system"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "target_title": "Schr\u00f6dinger's Cat",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreidgnaymxvri4ibsftt65mixqmfqlcxbs26xnsf6ivfmaw7bapeyym",
+      "target_title": "G\u00f6del's Incompleteness Theorems",
+      "connection_type": "shared_terminology",
+      "description": "Share 3 key terms",
+      "confidence": 0.6000000000000001,
+      "evidence": [
+        "cannot",
+        "system",
+        "within"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreiestgqzxnxmpb27s7s5pjv4fjawra6rexgomkni6itljrhlqkf3ee",
+      "target_title": "Natural Selection",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "over"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "energy",
+        "time"
+      ]
+    },
+    {
+      "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+      "source_title": "Law of Conservation of Energy",
+      "target_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "target_title": "The Fermi Paradox",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreiho6xxraamgnfar6ke3sbryw453xqliqvuveleg25xbfsxw5h6vri",
+      "target_title": "Occam's Razor (Principle of Parsimony)",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "principle"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "target_title": "Newton's Laws of Motion",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "target_title": "Newton's Laws of Motion",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "every"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreidi74jhvrmegdsihwi2goxqagrdrvozqdcyyk5n34w66qujnlcjay",
+      "target_title": "The Hard Problem of Consciousness",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "physical"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "target_title": "Entropy",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "target_title": "Entropy",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "states"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "target_title": "Schr\u00f6dinger's Cat",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_terminology",
+      "description": "Share 4 key terms",
+      "confidence": 0.7,
+      "evidence": [
+        "energy",
+        "physical",
+        "principle",
+        "time"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "target_title": "The Fermi Paradox",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreiet4tddzryjmib2ei4skl34z4ysq672oapn6xkjfu7zcm6f4e7tme",
+      "target_title": "Pareto Principle (80/20 Rule)",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "principle"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreietkvmvisl7mbgoydsfes243letobkw2piydvytd2wjstvmnkfpxu",
+      "target_title": "The Butterfly Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "systems"
+      ]
+    },
+    {
+      "source_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+      "source_title": "Information is Physical Principle",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "every"
+      ]
+    },
+    {
+      "source_cid": "bafyreiho6xxraamgnfar6ke3sbryw453xqliqvuveleg25xbfsxw5h6vri",
+      "source_title": "Occam's Razor (Principle of Parsimony)",
+      "target_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "target_title": "Newton's Laws of Motion",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "equal"
+      ]
+    },
+    {
+      "source_cid": "bafyreiho6xxraamgnfar6ke3sbryw453xqliqvuveleg25xbfsxw5h6vri",
+      "source_title": "Occam's Razor (Principle of Parsimony)",
+      "target_cid": "bafyreidi74jhvrmegdsihwi2goxqagrdrvozqdcyyk5n34w66qujnlcjay",
+      "target_title": "The Hard Problem of Consciousness",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Philosophy",
+      "confidence": 0.8,
+      "evidence": [
+        "Philosophy"
+      ]
+    },
+    {
+      "source_cid": "bafyreiho6xxraamgnfar6ke3sbryw453xqliqvuveleg25xbfsxw5h6vri",
+      "source_title": "Occam's Razor (Principle of Parsimony)",
+      "target_cid": "bafyreiestgqzxnxmpb27s7s5pjv4fjawra6rexgomkni6itljrhlqkf3ee",
+      "target_title": "Natural Selection",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "more"
+      ]
+    },
+    {
+      "source_cid": "bafyreiho6xxraamgnfar6ke3sbryw453xqliqvuveleg25xbfsxw5h6vri",
+      "source_title": "Occam's Razor (Principle of Parsimony)",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "principle"
+      ]
+    },
+    {
+      "source_cid": "bafyreiho6xxraamgnfar6ke3sbryw453xqliqvuveleg25xbfsxw5h6vri",
+      "source_title": "Occam's Razor (Principle of Parsimony)",
+      "target_cid": "bafyreiaju2fkll7wlmdtz7nozs6fgp6p23g3psyujldu6lhq5kzgiq6gwy",
+      "target_title": "The Trolley Problem",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Philosophy",
+      "confidence": 0.8,
+      "evidence": [
+        "Philosophy"
+      ]
+    },
+    {
+      "source_cid": "bafyreiho6xxraamgnfar6ke3sbryw453xqliqvuveleg25xbfsxw5h6vri",
+      "source_title": "Occam's Razor (Principle of Parsimony)",
+      "target_cid": "bafyreiet4tddzryjmib2ei4skl34z4ysq672oapn6xkjfu7zcm6f4e7tme",
+      "target_title": "Pareto Principle (80/20 Rule)",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "principle"
+      ]
+    },
+    {
+      "source_cid": "bafyreiho6xxraamgnfar6ke3sbryw453xqliqvuveleg25xbfsxw5h6vri",
+      "source_title": "Occam's Razor (Principle of Parsimony)",
+      "target_cid": "bafyreici2ncd442fw2i5gi75opyan4brbknv5a5pbpsq5gvds7gay4cs7m",
+      "target_title": "Hamilton's Rule (Kin Selection)",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "among"
+      ]
+    },
+    {
+      "source_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "source_title": "Newton's Laws of Motion",
+      "target_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "target_title": "Entropy",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "source_title": "Newton's Laws of Motion",
+      "target_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "target_title": "Schr\u00f6dinger's Cat",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "source_title": "Newton's Laws of Motion",
+      "target_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "target_title": "Schr\u00f6dinger's Cat",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "objects"
+      ]
+    },
+    {
+      "source_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "source_title": "Newton's Laws of Motion",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "source_title": "Newton's Laws of Motion",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "fundamental"
+      ]
+    },
+    {
+      "source_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "source_title": "Newton's Laws of Motion",
+      "target_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "target_title": "Game Theory",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "between"
+      ]
+    },
+    {
+      "source_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "source_title": "Newton's Laws of Motion",
+      "target_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "target_title": "The Fermi Paradox",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "source_title": "Newton's Laws of Motion",
+      "target_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "target_title": "The Fermi Paradox",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "between"
+      ]
+    },
+    {
+      "source_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "source_title": "Newton's Laws of Motion",
+      "target_cid": "bafyreiaju2fkll7wlmdtz7nozs6fgp6p23g3psyujldu6lhq5kzgiq6gwy",
+      "target_title": "The Trolley Problem",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "unless"
+      ]
+    },
+    {
+      "source_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+      "source_title": "Newton's Laws of Motion",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_terminology",
+      "description": "Share 3 key terms",
+      "confidence": 0.6000000000000001,
+      "evidence": [
+        "between",
+        "every",
+        "fundamental"
+      ]
+    },
+    {
+      "source_cid": "bafyreidi74jhvrmegdsihwi2goxqagrdrvozqdcyyk5n34w66qujnlcjay",
+      "source_title": "The Hard Problem of Consciousness",
+      "target_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "target_title": "Schr\u00f6dinger's Cat",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "problem"
+      ]
+    },
+    {
+      "source_cid": "bafyreidi74jhvrmegdsihwi2goxqagrdrvozqdcyyk5n34w66qujnlcjay",
+      "source_title": "The Hard Problem of Consciousness",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "physical"
+      ]
+    },
+    {
+      "source_cid": "bafyreidi74jhvrmegdsihwi2goxqagrdrvozqdcyyk5n34w66qujnlcjay",
+      "source_title": "The Hard Problem of Consciousness",
+      "target_cid": "bafyreiaju2fkll7wlmdtz7nozs6fgp6p23g3psyujldu6lhq5kzgiq6gwy",
+      "target_title": "The Trolley Problem",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Philosophy",
+      "confidence": 0.8,
+      "evidence": [
+        "Philosophy"
+      ]
+    },
+    {
+      "source_cid": "bafyreidi74jhvrmegdsihwi2goxqagrdrvozqdcyyk5n34w66qujnlcjay",
+      "source_title": "The Hard Problem of Consciousness",
+      "target_cid": "bafyreiaju2fkll7wlmdtz7nozs6fgp6p23g3psyujldu6lhq5kzgiq6gwy",
+      "target_title": "The Trolley Problem",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "problem"
+      ]
+    },
+    {
+      "source_cid": "bafyreidi74jhvrmegdsihwi2goxqagrdrvozqdcyyk5n34w66qujnlcjay",
+      "source_title": "The Hard Problem of Consciousness",
+      "target_cid": "bafyreiet4tddzryjmib2ei4skl34z4ysq672oapn6xkjfu7zcm6f4e7tme",
+      "target_title": "Pareto Principle (80/20 Rule)",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "problems"
+      ]
+    },
+    {
+      "source_cid": "bafyreidi74jhvrmegdsihwi2goxqagrdrvozqdcyyk5n34w66qujnlcjay",
+      "source_title": "The Hard Problem of Consciousness",
+      "target_cid": "bafyreidmddgaxgaxhyuq226yfqk5dh47bxwjy5sac6myevf5ph4dhfd3si",
+      "target_title": "Dunning-Kruger Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "cognitive",
+        "while"
+      ]
+    },
+    {
+      "source_cid": "bafyreidi74jhvrmegdsihwi2goxqagrdrvozqdcyyk5n34w66qujnlcjay",
+      "source_title": "The Hard Problem of Consciousness",
+      "target_cid": "bafyreiespm2eqtzr7d233hyiqqfwnqc2vu7uwz7msr2qxijhj6gvxifpqe",
+      "target_title": "Philosophical Pattern Finder Agent v1.0.0",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "cognitive"
+      ]
+    },
+    {
+      "source_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "source_title": "Entropy",
+      "target_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "target_title": "Schr\u00f6dinger's Cat",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "source_title": "Entropy",
+      "target_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "target_title": "Schr\u00f6dinger's Cat",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "macroscopic"
+      ]
+    },
+    {
+      "source_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "source_title": "Entropy",
+      "target_cid": "bafyreidgnaymxvri4ibsftt65mixqmfqlcxbs26xnsf6ivfmaw7bapeyym",
+      "target_title": "G\u00f6del's Incompleteness Theorems",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "second",
+        "system"
+      ]
+    },
+    {
+      "source_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "source_title": "Entropy",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "source_title": "Entropy",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "uncertainty"
+      ]
+    },
+    {
+      "source_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "source_title": "Entropy",
+      "target_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "target_title": "The Fermi Paradox",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreibih425mjit4lny2jpli3byrfxhnthqkcfbvlvmqif7hgmnylktwq",
+      "source_title": "Entropy",
+      "target_cid": "bafyreietkvmvisl7mbgoydsfes243letobkw2piydvytd2wjstvmnkfpxu",
+      "target_title": "The Butterfly Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "state"
+      ]
+    },
+    {
+      "source_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "source_title": "Schr\u00f6dinger's Cat",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "source_title": "Schr\u00f6dinger's Cat",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_subdomain",
+      "description": "Both focus on subdomain: Quantum Mechanics",
+      "confidence": 0.9,
+      "evidence": [
+        "Quantum Mechanics"
+      ]
+    },
+    {
+      "source_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "source_title": "Schr\u00f6dinger's Cat",
+      "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "target_title": "Heisenberg's Uncertainty Principle",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "simultaneously"
+      ]
+    },
+    {
+      "source_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "source_title": "Schr\u00f6dinger's Cat",
+      "target_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "target_title": "The Fermi Paradox",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "source_title": "Schr\u00f6dinger's Cat",
+      "target_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "target_title": "The Fermi Paradox",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "paradox"
+      ]
+    },
+    {
+      "source_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "source_title": "Schr\u00f6dinger's Cat",
+      "target_cid": "bafyreiaju2fkll7wlmdtz7nozs6fgp6p23g3psyujldu6lhq5kzgiq6gwy",
+      "target_title": "The Trolley Problem",
+      "connection_type": "shared_type",
+      "description": "Both are ThoughtExperiment concepts",
+      "confidence": 0.7,
+      "evidence": [
+        "ThoughtExperiment"
+      ]
+    },
+    {
+      "source_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "source_title": "Schr\u00f6dinger's Cat",
+      "target_cid": "bafyreiaju2fkll7wlmdtz7nozs6fgp6p23g3psyujldu6lhq5kzgiq6gwy",
+      "target_title": "The Trolley Problem",
+      "connection_type": "shared_terminology",
+      "description": "Share 3 key terms",
+      "confidence": 0.6000000000000001,
+      "evidence": [
+        "experiment",
+        "problem",
+        "thought"
+      ]
+    },
+    {
+      "source_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+      "source_title": "Schr\u00f6dinger's Cat",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "quantum",
+        "thought"
+      ]
+    },
+    {
+      "source_cid": "bafyreidgnaymxvri4ibsftt65mixqmfqlcxbs26xnsf6ivfmaw7bapeyym",
+      "source_title": "G\u00f6del's Incompleteness Theorems",
+      "target_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "target_title": "Game Theory",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Mathematics",
+      "confidence": 0.8,
+      "evidence": [
+        "Mathematics"
+      ]
+    },
+    {
+      "source_cid": "bafyreidgnaymxvri4ibsftt65mixqmfqlcxbs26xnsf6ivfmaw7bapeyym",
+      "source_title": "G\u00f6del's Incompleteness Theorems",
+      "target_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "target_title": "The Fermi Paradox",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "such"
+      ]
+    },
+    {
+      "source_cid": "bafyreidgnaymxvri4ibsftt65mixqmfqlcxbs26xnsf6ivfmaw7bapeyym",
+      "source_title": "G\u00f6del's Incompleteness Theorems",
+      "target_cid": "bafyreietkvmvisl7mbgoydsfes243letobkw2piydvytd2wjstvmnkfpxu",
+      "target_title": "The Butterfly Effect",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Mathematics",
+      "confidence": 0.8,
+      "evidence": [
+        "Mathematics"
+      ]
+    },
+    {
+      "source_cid": "bafyreidgnaymxvri4ibsftt65mixqmfqlcxbs26xnsf6ivfmaw7bapeyym",
+      "source_title": "G\u00f6del's Incompleteness Theorems",
+      "target_cid": "bafyreifgax43ezw5roa64swvoeyvmtyii3oo5sicfdwcnio35iv64k7wlq",
+      "target_title": "Bayes' Theorem",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Mathematics",
+      "confidence": 0.8,
+      "evidence": [
+        "Mathematics"
+      ]
+    },
+    {
+      "source_cid": "bafyreidgnaymxvri4ibsftt65mixqmfqlcxbs26xnsf6ivfmaw7bapeyym",
+      "source_title": "G\u00f6del's Incompleteness Theorems",
+      "target_cid": "bafyreifgax43ezw5roa64swvoeyvmtyii3oo5sicfdwcnio35iv64k7wlq",
+      "target_title": "Bayes' Theorem",
+      "connection_type": "shared_type",
+      "description": "Both are MathematicalTheorem concepts",
+      "confidence": 0.7,
+      "evidence": [
+        "MathematicalTheorem"
+      ]
+    },
+    {
+      "source_cid": "bafyreidgnaymxvri4ibsftt65mixqmfqlcxbs26xnsf6ivfmaw7bapeyym",
+      "source_title": "G\u00f6del's Incompleteness Theorems",
+      "target_cid": "bafyreifgax43ezw5roa64swvoeyvmtyii3oo5sicfdwcnio35iv64k7wlq",
+      "target_title": "Bayes' Theorem",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "theorem"
+      ]
+    },
+    {
+      "source_cid": "bafyreiestgqzxnxmpb27s7s5pjv4fjawra6rexgomkni6itljrhlqkf3ee",
+      "source_title": "Natural Selection",
+      "target_cid": "bafyreici2ncd442fw2i5gi75opyan4brbknv5a5pbpsq5gvds7gay4cs7m",
+      "target_title": "Hamilton's Rule (Kin Selection)",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Biology",
+      "confidence": 0.8,
+      "evidence": [
+        "Biology"
+      ]
+    },
+    {
+      "source_cid": "bafyreiestgqzxnxmpb27s7s5pjv4fjawra6rexgomkni6itljrhlqkf3ee",
+      "source_title": "Natural Selection",
+      "target_cid": "bafyreici2ncd442fw2i5gi75opyan4brbknv5a5pbpsq5gvds7gay4cs7m",
+      "target_title": "Hamilton's Rule (Kin Selection)",
+      "connection_type": "shared_subdomain",
+      "description": "Both focus on subdomain: Evolutionary Biology",
+      "confidence": 0.9,
+      "evidence": [
+        "Evolutionary Biology"
+      ]
+    },
+    {
+      "source_cid": "bafyreiestgqzxnxmpb27s7s5pjv4fjawra6rexgomkni6itljrhlqkf3ee",
+      "source_title": "Natural Selection",
+      "target_cid": "bafyreici2ncd442fw2i5gi75opyan4brbknv5a5pbpsq5gvds7gay4cs7m",
+      "target_title": "Hamilton's Rule (Kin Selection)",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "individuals",
+        "selection"
+      ]
+    },
+    {
+      "source_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "source_title": "Heisenberg's Uncertainty Principle",
+      "target_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "target_title": "The Fermi Paradox",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Physics",
+      "confidence": 0.8,
+      "evidence": [
+        "Physics"
+      ]
+    },
+    {
+      "source_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "source_title": "Heisenberg's Uncertainty Principle",
+      "target_cid": "bafyreifkh5ipwmnc5ahlg53eww6s2olbeo2tarj5of6uvr3ncifawqachu",
+      "target_title": "The Placebo Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "known"
+      ]
+    },
+    {
+      "source_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "source_title": "Heisenberg's Uncertainty Principle",
+      "target_cid": "bafyreiet4tddzryjmib2ei4skl34z4ysq672oapn6xkjfu7zcm6f4e7tme",
+      "target_title": "Pareto Principle (80/20 Rule)",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "principle"
+      ]
+    },
+    {
+      "source_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "source_title": "Heisenberg's Uncertainty Principle",
+      "target_cid": "bafyreidmddgaxgaxhyuq226yfqk5dh47bxwjy5sac6myevf5ph4dhfd3si",
+      "target_title": "Dunning-Kruger Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "their"
+      ]
+    },
+    {
+      "source_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+      "source_title": "Heisenberg's Uncertainty Principle",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "fundamental"
+      ]
+    },
+    {
+      "source_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "source_title": "Game Theory",
+      "target_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "target_title": "The Fermi Paradox",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "between"
+      ]
+    },
+    {
+      "source_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "source_title": "Game Theory",
+      "target_cid": "bafyreiaju2fkll7wlmdtz7nozs6fgp6p23g3psyujldu6lhq5kzgiq6gwy",
+      "target_title": "The Trolley Problem",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "where"
+      ]
+    },
+    {
+      "source_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "source_title": "Game Theory",
+      "target_cid": "bafyreiet4tddzryjmib2ei4skl34z4ysq672oapn6xkjfu7zcm6f4e7tme",
+      "target_title": "Pareto Principle (80/20 Rule)",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "outcomes"
+      ]
+    },
+    {
+      "source_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "source_title": "Game Theory",
+      "target_cid": "bafyreidmddgaxgaxhyuq226yfqk5dh47bxwjy5sac6myevf5ph4dhfd3si",
+      "target_title": "Dunning-Kruger Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "where"
+      ]
+    },
+    {
+      "source_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "source_title": "Game Theory",
+      "target_cid": "bafyreietkvmvisl7mbgoydsfes243letobkw2piydvytd2wjstvmnkfpxu",
+      "target_title": "The Butterfly Effect",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Mathematics",
+      "confidence": 0.8,
+      "evidence": [
+        "Mathematics"
+      ]
+    },
+    {
+      "source_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "source_title": "Game Theory",
+      "target_cid": "bafyreietkvmvisl7mbgoydsfes243letobkw2piydvytd2wjstvmnkfpxu",
+      "target_title": "The Butterfly Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "outcomes"
+      ]
+    },
+    {
+      "source_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "source_title": "Game Theory",
+      "target_cid": "bafyreifgax43ezw5roa64swvoeyvmtyii3oo5sicfdwcnio35iv64k7wlq",
+      "target_title": "Bayes' Theorem",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Mathematics",
+      "confidence": 0.8,
+      "evidence": [
+        "Mathematics"
+      ]
+    },
+    {
+      "source_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "source_title": "Game Theory",
+      "target_cid": "bafyreifgax43ezw5roa64swvoeyvmtyii3oo5sicfdwcnio35iv64k7wlq",
+      "target_title": "Bayes' Theorem",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "mathematical"
+      ]
+    },
+    {
+      "source_cid": "bafyreicr7j7k2oa6quohflxn2gvlhqf72svf6jroc6bql4gsoq3swe77qq",
+      "source_title": "Game Theory",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "between"
+      ]
+    },
+    {
+      "source_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "source_title": "The Fermi Paradox",
+      "target_cid": "bafyreidmddgaxgaxhyuq226yfqk5dh47bxwjy5sac6myevf5ph4dhfd3si",
+      "target_title": "Dunning-Kruger Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "high",
+        "lack"
+      ]
+    },
+    {
+      "source_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "source_title": "The Fermi Paradox",
+      "target_cid": "bafyreifgax43ezw5roa64swvoeyvmtyii3oo5sicfdwcnio35iv64k7wlq",
+      "target_title": "Bayes' Theorem",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "evidence",
+        "probability"
+      ]
+    },
+    {
+      "source_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "source_title": "The Fermi Paradox",
+      "target_cid": "bafyreici2ncd442fw2i5gi75opyan4brbknv5a5pbpsq5gvds7gay4cs7m",
+      "target_title": "Hamilton's Rule (Kin Selection)",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "apparent"
+      ]
+    },
+    {
+      "source_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "source_title": "The Fermi Paradox",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "between",
+        "galaxy"
+      ]
+    },
+    {
+      "source_cid": "bafyreibzvbpxhsd5hokvqhobc2igydlaaayecturkvznrs7y55wpw3g7ky",
+      "source_title": "The Fermi Paradox",
+      "target_cid": "bafyreiespm2eqtzr7d233hyiqqfwnqc2vu7uwz7msr2qxijhj6gvxifpqe",
+      "target_title": "Philosophical Pattern Finder Agent v1.0.0",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "existing"
+      ]
+    },
+    {
+      "source_cid": "bafyreiaju2fkll7wlmdtz7nozs6fgp6p23g3psyujldu6lhq5kzgiq6gwy",
+      "source_title": "The Trolley Problem",
+      "target_cid": "bafyreiet4tddzryjmib2ei4skl34z4ysq672oapn6xkjfu7zcm6f4e7tme",
+      "target_title": "Pareto Principle (80/20 Rule)",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "people"
+      ]
+    },
+    {
+      "source_cid": "bafyreiaju2fkll7wlmdtz7nozs6fgp6p23g3psyujldu6lhq5kzgiq6gwy",
+      "source_title": "The Trolley Problem",
+      "target_cid": "bafyreidmddgaxgaxhyuq226yfqk5dh47bxwjy5sac6myevf5ph4dhfd3si",
+      "target_title": "Dunning-Kruger Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 2 key terms",
+      "confidence": 0.5,
+      "evidence": [
+        "people",
+        "where"
+      ]
+    },
+    {
+      "source_cid": "bafyreiaju2fkll7wlmdtz7nozs6fgp6p23g3psyujldu6lhq5kzgiq6gwy",
+      "source_title": "The Trolley Problem",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "thought"
+      ]
+    },
+    {
+      "source_cid": "bafyreifkh5ipwmnc5ahlg53eww6s2olbeo2tarj5of6uvr3ncifawqachu",
+      "source_title": "The Placebo Effect",
+      "target_cid": "bafyreidmddgaxgaxhyuq226yfqk5dh47bxwjy5sac6myevf5ph4dhfd3si",
+      "target_title": "Dunning-Kruger Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "effect"
+      ]
+    },
+    {
+      "source_cid": "bafyreifkh5ipwmnc5ahlg53eww6s2olbeo2tarj5of6uvr3ncifawqachu",
+      "source_title": "The Placebo Effect",
+      "target_cid": "bafyreietkvmvisl7mbgoydsfes243letobkw2piydvytd2wjstvmnkfpxu",
+      "target_title": "The Butterfly Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "effect"
+      ]
+    },
+    {
+      "source_cid": "bafyreifkh5ipwmnc5ahlg53eww6s2olbeo2tarj5of6uvr3ncifawqachu",
+      "source_title": "The Placebo Effect",
+      "target_cid": "bafyreifgax43ezw5roa64swvoeyvmtyii3oo5sicfdwcnio35iv64k7wlq",
+      "target_title": "Bayes' Theorem",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "belief"
+      ]
+    },
+    {
+      "source_cid": "bafyreiet4tddzryjmib2ei4skl34z4ysq672oapn6xkjfu7zcm6f4e7tme",
+      "source_title": "Pareto Principle (80/20 Rule)",
+      "target_cid": "bafyreidmddgaxgaxhyuq226yfqk5dh47bxwjy5sac6myevf5ph4dhfd3si",
+      "target_title": "Dunning-Kruger Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "people"
+      ]
+    },
+    {
+      "source_cid": "bafyreiet4tddzryjmib2ei4skl34z4ysq672oapn6xkjfu7zcm6f4e7tme",
+      "source_title": "Pareto Principle (80/20 Rule)",
+      "target_cid": "bafyreietkvmvisl7mbgoydsfes243letobkw2piydvytd2wjstvmnkfpxu",
+      "target_title": "The Butterfly Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "outcomes"
+      ]
+    },
+    {
+      "source_cid": "bafyreiet4tddzryjmib2ei4skl34z4ysq672oapn6xkjfu7zcm6f4e7tme",
+      "source_title": "Pareto Principle (80/20 Rule)",
+      "target_cid": "bafyreici2ncd442fw2i5gi75opyan4brbknv5a5pbpsq5gvds7gay4cs7m",
+      "target_title": "Hamilton's Rule (Kin Selection)",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "rule"
+      ]
+    },
+    {
+      "source_cid": "bafyreidmddgaxgaxhyuq226yfqk5dh47bxwjy5sac6myevf5ph4dhfd3si",
+      "source_title": "Dunning-Kruger Effect",
+      "target_cid": "bafyreietkvmvisl7mbgoydsfes243letobkw2piydvytd2wjstvmnkfpxu",
+      "target_title": "The Butterfly Effect",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "effect"
+      ]
+    },
+    {
+      "source_cid": "bafyreidmddgaxgaxhyuq226yfqk5dh47bxwjy5sac6myevf5ph4dhfd3si",
+      "source_title": "Dunning-Kruger Effect",
+      "target_cid": "bafyreiespm2eqtzr7d233hyiqqfwnqc2vu7uwz7msr2qxijhj6gvxifpqe",
+      "target_title": "Philosophical Pattern Finder Agent v1.0.0",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "cognitive"
+      ]
+    },
+    {
+      "source_cid": "bafyreietkvmvisl7mbgoydsfes243letobkw2piydvytd2wjstvmnkfpxu",
+      "source_title": "The Butterfly Effect",
+      "target_cid": "bafyreifgax43ezw5roa64swvoeyvmtyii3oo5sicfdwcnio35iv64k7wlq",
+      "target_title": "Bayes' Theorem",
+      "connection_type": "shared_domain",
+      "description": "Both concepts belong to domain: Mathematics",
+      "confidence": 0.8,
+      "evidence": [
+        "Mathematics"
+      ]
+    },
+    {
+      "source_cid": "bafyreifgax43ezw5roa64swvoeyvmtyii3oo5sicfdwcnio35iv64k7wlq",
+      "source_title": "Bayes' Theorem",
+      "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "target_title": "The Fractal Resonance Hypothesis",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "hypothesis"
+      ]
+    },
+    {
+      "source_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+      "source_title": "The Fractal Resonance Hypothesis",
+      "target_cid": "bafyreiespm2eqtzr7d233hyiqqfwnqc2vu7uwz7msr2qxijhj6gvxifpqe",
+      "target_title": "Philosophical Pattern Finder Agent v1.0.0",
+      "connection_type": "shared_terminology",
+      "description": "Share 1 key terms",
+      "confidence": 0.4,
+      "evidence": [
+        "patterns"
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "type": "multi_domain_analysis",
+      "description": "Concepts span 9 different domains",
+      "confidence": 0.7,
+      "details": {
+        "Epistemology": 2,
+        "Physics": 7,
+        "Philosophy": 3,
+        "Mathematics": 4,
+        "Biology": 2,
+        "Medicine": 1,
+        "Economics": 1,
+        "Psychology": 1,
+        "Metaphysics": 1
+      }
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "further_exploration",
+      "description": "Explore relationships between 'Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)' and 'Law of Conservation of Energy'",
+      "reason": "These are primary concepts with potential deep connections",
+      "priority": "high"
+    },
+    {
+      "type": "synthesis_opportunity",
+      "description": "Create synthetic concept combining insights from 22 concepts",
+      "reason": "Multiple related concepts suggest synthesis potential",
+      "priority": "medium"
+    }
+  ],
+  "metadata": {
+    "analyzer_version": "1.0.0",
+    "analysis_timestamp": "2026-04-05T02:24:52Z",
+    "execution_time_seconds": 0.07932281494140625,
+    "focus_area": "general",
+    "analysis_depth": "comprehensive",
+    "load_errors": null
+  },
+  "domain_distribution": {
+    "Epistemology": 2,
+    "Physics": 7,
+    "Philosophy": 3,
+    "Mathematics": 4,
+    "Biology": 2,
+    "Medicine": 1,
+    "Economics": 1,
+    "Psychology": 1,
+    "Metaphysics": 1
+  },
+  "type_distribution": {
+    "PhilosophicalHypothesis": 2,
+    "ScientificLaw": 2,
+    "ScientificPrinciple": 1,
+    "PhilosophicalPrinciple": 1,
+    "PhilosophicalProblem": 1,
+    "ScientificConcept": 1,
+    "ThoughtExperiment": 2,
+    "MathematicalTheorem": 2,
+    "ScientificTheory": 1,
+    "PhysicalPrinciple": 1,
+    "MathematicalTheory": 1,
+    "Paradox": 1,
+    "MedicalPhenomenon": 1,
+    "EmpiricalRegularity": 1,
+    "CognitiveBias": 1,
+    "ChaosTheoryConcept": 1,
+    "BiologicalPrinciple": 1,
+    "CognitiveAgent": 1
+  },
+  "common_terminology": {
+    "system": 8,
+    "physical": 6,
+    "problem": 6,
+    "energy": 5,
+    "effect": 5,
+    "different": 4,
+    "states": 4,
+    "information": 4,
+    "principle": 4,
+    "between": 4
+  },
+  "connection_analysis": {
+    "total_connections": 118,
+    "by_type": {
+      "shared_terminology": 79,
+      "shared_domain": 32,
+      "shared_type": 4,
+      "shared_subdomain": 3
+    },
+    "strongest_connections": [
+      {
+        "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+        "source_title": "Law of Conservation of Energy",
+        "target_cid": "bafyreihzppla5p25j7fpgu4yda4d6ieamrcph7wl6l3xdpvvsbdlas2i74",
+        "target_title": "Newton's Laws of Motion",
+        "connection_type": "shared_subdomain",
+        "description": "Both focus on subdomain: Classical Mechanics",
+        "confidence": 0.9,
+        "evidence": [
+          "Classical Mechanics"
+        ]
+      },
+      {
+        "source_cid": "bafyreifauk3dum5knv2i37u5iemszzrzywglri774n5feo7ex25bczmsn4",
+        "source_title": "Schr\u00f6dinger's Cat",
+        "target_cid": "bafyreiagpjxb6y4a3xxs2acrm26s7kkvuyfslxsg6yc3lq7m3ep4t4dycu",
+        "target_title": "Heisenberg's Uncertainty Principle",
+        "connection_type": "shared_subdomain",
+        "description": "Both focus on subdomain: Quantum Mechanics",
+        "confidence": 0.9,
+        "evidence": [
+          "Quantum Mechanics"
+        ]
+      },
+      {
+        "source_cid": "bafyreiestgqzxnxmpb27s7s5pjv4fjawra6rexgomkni6itljrhlqkf3ee",
+        "source_title": "Natural Selection",
+        "target_cid": "bafyreici2ncd442fw2i5gi75opyan4brbknv5a5pbpsq5gvds7gay4cs7m",
+        "target_title": "Hamilton's Rule (Kin Selection)",
+        "connection_type": "shared_subdomain",
+        "description": "Both focus on subdomain: Evolutionary Biology",
+        "confidence": 0.9,
+        "evidence": [
+          "Evolutionary Biology"
+        ]
+      },
+      {
+        "source_cid": "bafyreieaogdoe2zj5gudfhmogfcjwnt4rjlzcb7u4ayurfhah6x2ighunq",
+        "source_title": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
+        "target_cid": "bafyreigu2b6v7zhyisbh6fakuktdzmolthehwbwo6wnszymk44nfymnwb4",
+        "target_title": "The Fractal Resonance Hypothesis",
+        "connection_type": "shared_domain",
+        "description": "Both concepts belong to domain: Epistemology",
+        "confidence": 0.8,
+        "evidence": [
+          "Epistemology"
+        ]
+      },
+      {
+        "source_cid": "bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu",
+        "source_title": "Law of Conservation of Energy",
+        "target_cid": "bafyreia4gz2si7tfvnbln4qkk5qy44hbr4xcdgccb42nqkrno5txi53xnm",
+        "target_title": "Information is Physical Principle",
+        "connection_type": "shared_domain",
+        "description": "Both concepts belong to domain: Physics",
+        "confidence": 0.8,
+        "evidence": [
+          "Physics"
+        ]
+      }
+    ]
+  }
+}
