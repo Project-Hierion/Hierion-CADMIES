@@ -1,0 +1,25 @@
+
+# CADMIES specific
+store/blocks/*.cbor
+store/logs/*.jsonl
+analysis_results/*.json
+__pycache__/
+*.pyc
+
+# Keep these tracked
+!store/index/human_id_to_cid.json
+!source_concepts/*.json
+!agents/code/*.py
+!agents/schemas/**/*.json
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
