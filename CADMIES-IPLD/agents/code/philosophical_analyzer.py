@@ -46,7 +46,7 @@ def get_project_root() -> Path:
     """
     current_file = Path(__file__).resolve()
     # Go up to CADMIES-IPLD root
-    project_root = current_file.parent.parent
+    project_root = current_file.parent.parent.parent
     return project_root
 
 PROJECT_ROOT = get_project_root()
