@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "photosynthesis_process",
+  "title": "Photosynthesis",
+  "definition": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, using carbon dioxide and water to produce glucose and oxygen.",
+  "type": "BiologicalProcess",
+  "domain": "Biology",
+  "subdomain": "PlantPhysiology",
+  "proofs": [
+    {
+      "type": "experimental",
+      "description": "Van Niel's experiments establishing oxygen source from water",
+      "confidence": 0.99,
+      "date": "1931-01-01",
+      "reference": "Van Niel, C. B. (1931). Photosynthesis in bacteria"
+    },
+    {
+      "type": "historical",
+      "description": "Calvin cycle discovery (Nobel Prize 1961)",
+      "confidence": 0.99,
+      "date": "1961-01-01",
+      "reference": "Calvin, M. (1961). Nobel Lecture"
+    }
+  ],
+  "metadata": {
+    "creator": "CADMIES_Quick_Mint",
+    "certainty_score": 0.99,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "relationships": {
+    "builds_upon": ["chloroplast_structure", "light_reactions"],
+    "enables": ["plant_growth", "oxygen_production"],
+    "related_to": ["cellular_respiration", "carbon_cycle"]
+  },
+  "difficulty_levels": {
+    "beginner": "Plants use sunlight to make food from CO2 and water",
+    "intermediate": "Light-dependent reactions produce ATP and NADPH for the Calvin cycle",
+    "expert": "Photosystem II and I work in series to reduce NADP+ to NADPH"
+  },
+  "extra_fields": {
+    "formula": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+    "discoverer": "Jan Ingenhousz",
+    "year": 1779,
+    "location": "chloroplast_thylakoid_membrane"
+  }
+}

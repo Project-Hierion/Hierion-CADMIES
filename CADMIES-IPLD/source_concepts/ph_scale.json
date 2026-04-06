@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ph_scale",
+  "title": "pH Scale",
+  "definition": "pH is a measure of acidity or alkalinity of a solution, defined as the negative logarithm (base 10) of hydrogen ion concentration: pH = -log₁₀[H⁺], where [H⁺] is in moles per liter.",
+  "type": "ScientificConcept",
+  "domain": "Chemistry",
+  "subdomain": "AcidBaseChemistry",
+  "proofs": [
+    {
+      "type": "theoretical",
+      "description": "Sørensen's original definition",
+      "confidence": 0.99,
+      "date": "1909-01-01",
+      "reference": "Sørensen, S. P. L. (1909). Biochemische Zeitschrift"
+    },
+    {
+      "type": "experimental",
+      "description": "Confirmed by countless acid-base titrations",
+      "confidence": 0.99,
+      "date": "1910-01-01",
+      "reference": "Multiple experimental validations"
+    }
+  ],
+  "metadata": {
+    "creator": "CADMIES_Quick_Mint",
+    "certainty_score": 0.99,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "relationships": {
+    "builds_upon": ["acid_base_theory", "logarithmic_scale"],
+    "related_to": ["buffer_solutions", "titration"],
+    "enables": ["biochemistry", "environmental_monitoring"]
+  },
+  "difficulty_levels": {
+    "beginner": "pH measures how acidic or basic something is (0=acidic, 7=neutral, 14=basic)",
+    "intermediate": "Each pH unit represents a 10x change in hydrogen ion concentration",
+    "expert": "pH is the negative log of hydrogen ion activity, accounting for non-ideal behavior"
+  },
+  "extra_fields": {
+    "formula": "pH = -log₁₀[H⁺]",
+    "discoverer": "Søren Peder Lauritz Sørensen",
+    "year": 1909,
+    "scale_range": "0-14",
+    "neutral_at_25c": 7.0
+  }
+}

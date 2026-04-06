@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dna_human_chromosome_1_reference",
+  "title": "Human Chromosome 1 - Reference Sequence (GRCh38)",
+  "definition": "Chromosome 1 is the largest human chromosome, spanning approximately 248 million base pairs. It represents about 8% of total human DNA and contains over 2,000 protein-coding genes.",
+  "type": "GenomicSequence",
+  "domain": "Genomics",
+  "subdomain": "HumanGenome",
+  "proofs": [
+    {
+      "type": "scientific_consensus",
+      "description": "International Human Genome Sequencing Consortium (2001)",
+      "confidence": 0.99,
+      "date": "2001-02-15",
+      "reference": "Nature 409, 860-921"
+    },
+    {
+      "type": "peer_reviewed",
+      "description": "Genome Reference Consortium updates (2022)",
+      "confidence": 0.99,
+      "date": "2022-03-01",
+      "reference": "https://www.ncbi.nlm.nih.gov/grc"
+    }
+  ],
+  "metadata": {
+    "creator": "CADMIES_Genomics_Import",
+    "certainty_score": 0.99,
+    "version": 1,
+    "license": "CC0-1.0",
+    "purpose": "educational"
+  },
+  "relationships": {
+    "builds_upon": ["dna_structure_watson_crick", "genetic_code"],
+    "related_to": ["chromosome_1_disorders", "human_genome_project"],
+    "part_of": ["human_genome_reference_assembly"]
+  },
+  "difficulty_levels": {
+    "expert": "Chromosome 1 is the largest human chromosome with 248M base pairs and 2,038 genes"
+  },
+  "extra_fields": {
+    "source": "GenBank",
+    "accession": "NC_000001.11",
+    "organism": "Homo sapiens",
+    "assembly": "GRCh38.p14",
+    "length_bp": 248956422,
+    "gc_content_percent": 41.5,
+    "genes": 2038,
+    "known_variants": 12000000,
+    "centromere_position": "121.5-146.5 Mb",
+    "sequencing_method": "shotgun_sequencing",
+    "completion_date": "2001-02-15"
+  }
+}

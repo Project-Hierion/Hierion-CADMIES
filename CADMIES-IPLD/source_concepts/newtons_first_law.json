@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "newtons_first_law",
+  "title": "Newton's First Law of Motion",
+  "definition": "An object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an external unbalanced force. This is also known as the Law of Inertia.",
+  "type": "ScientificLaw",
+  "domain": "Physics",
+  "subdomain": "ClassicalMechanics",
+  "proofs": [
+    {
+      "type": "experimental",
+      "description": "Galileo's inclined plane experiments",
+      "confidence": 0.99,
+      "date": "1638-01-01",
+      "reference": "Galileo, G. (1638). Discorsi e dimostrazioni matematiche"
+    },
+    {
+      "type": "theoretical",
+      "description": "Confirmed by all subsequent mechanics experiments",
+      "confidence": 0.99,
+      "date": "1687-01-01",
+      "reference": "Newton, I. (1687). Philosophiæ Naturalis Principia Mathematica"
+    }
+  ],
+  "metadata": {
+    "creator": "CADMIES_Quick_Mint",
+    "certainty_score": 0.99,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "relationships": {
+    "builds_upon": ["galilean_relativity", "inertia_concept"],
+    "led_to": ["newtons_second_law", "conservation_of_momentum"],
+    "related_to": ["friction", "inertial_frames"]
+  },
+  "difficulty_levels": {
+    "beginner": "Things don't change their motion unless something pushes or pulls them",
+    "intermediate": "Velocity remains constant without net external force",
+    "expert": "Inertial reference frames are defined by absence of acceleration"
+  },
+  "extra_fields": {
+    "alternate_name": "Law of Inertia",
+    "discoverer": "Isaac Newton",
+    "year": 1687,
+    "principia_book": "Philosophiæ Naturalis Principia Mathematica"
+  }
+}

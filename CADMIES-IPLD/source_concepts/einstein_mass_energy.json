@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "einstein_mass_energy_equivalence",
+  "title": "Mass-Energy Equivalence: E = mc²",
+  "definition": "Mass-energy equivalence states that mass and energy are the same physical entity, convertible into each other. The equation E = mc² shows that energy (E) equals mass (m) times the speed of light (c) squared.",
+  "type": "PhysicalPrinciple",
+  "domain": "Physics",
+  "subdomain": "Relativity",
+  "proofs": [
+    {
+      "type": "experimental",
+      "description": "Nuclear reactions confirm mass-energy conversion",
+      "confidence": 0.99,
+      "date": "1932-01-01",
+      "reference": "Cockcroft and Walton experiments"
+    },
+    {
+      "type": "theoretical",
+      "description": "Derived from Einstein's special relativity",
+      "confidence": 0.99,
+      "date": "1905-09-27",
+      "reference": "Einstein, A. (1905). Annalen der Physik"
+    }
+  ],
+  "metadata": {
+    "creator": "CADMIES_Quick_Mint",
+    "certainty_score": 0.99,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational"
+  },
+  "relationships": {
+    "builds_upon": ["special_relativity", "lorentz_transformations"],
+    "led_to": ["nuclear_physics", "particle_physics"],
+    "related_to": ["nuclear_binding_energy", "antimatter"]
+  },
+  "difficulty_levels": {
+    "beginner": "Mass can turn into energy, like in the sun or nuclear power plants",
+    "intermediate": "Mass is concentrated energy; c² is a huge conversion factor",
+    "expert": "Invariant mass includes both rest mass and kinetic energy contributions"
+  },
+  "extra_fields": {
+    "formula": "E = mc²",
+    "discoverer": "Albert Einstein",
+    "year": 1905,
+    "c_value_ms": 299792458,
+    "significance": "Explains nuclear energy, particle creation/annihilation"
+  }
+}

@@ -1,59 +1,48 @@
 {
   "schema_version": "1.0.0",
-  "human_id": "entropy",
+  "human_id": "entropy_thermodynamics",
   "title": "Entropy",
-  "definition": "A measure of disorder, randomness, or uncertainty in a system. In thermodynamics, entropy quantifies the number of microscopic configurations corresponding to a macroscopic state. The second law states entropy of an isolated system never decreases.",
+  "definition": "Entropy is a measure of disorder or randomness in a system. In thermodynamics, the change in entropy (ΔS) equals heat transfer (Q) divided by temperature (T) for reversible processes: ΔS = Q/T.",
   "type": "ScientificConcept",
   "domain": "Physics",
-  "subdomain": "Thermodynamics / Statistical Mechanics",
-  "formula": "S = k_B ln(Ω); dS ≥ 0 for isolated systems",
+  "subdomain": "Thermodynamics",
   "proofs": [
     {
       "type": "theoretical",
-      "description": "Boltzmann's entropy formula connects microscopic states to macroscopic entropy",
+      "description": "Clausius formulation of second law of thermodynamics",
       "confidence": 0.99,
-      "reference": "Boltzmann, L. (1877). Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung."
+      "date": "1865-01-01",
+      "reference": "Clausius, R. (1865). Mechanical Theory of Heat"
     },
     {
-      "type": "empirical",
-      "description": "Countless experiments confirm the second law; perpetual motion machines of the second kind impossible",
+      "type": "experimental",
+      "description": "Confirmed through countless thermodynamic experiments",
       "confidence": 0.99,
-      "reference": "Carnot, S. (1824). Réflexions sur la puissance motrice du feu."
+      "date": "1900-01-01",
+      "reference": "Multiple experimental validations"
     }
   ],
-  "cross_references": {
-    "related_concepts": ["second_law_of_thermodynamics", "information_entropy", "shannon_entropy", "von_neumann_entropy"],
-    "opposing_views": ["maxwells_demon"]
-  },
-  "relationships": {
-    "builds_upon": ["thermodynamics", "statistical_mechanics", "probability_theory"],
-    "contradicts": ["perpetual_motion_second_kind"],
-    "related_to": ["arrow_of_time", "information_theory", "quantum_entropy"],
-    "specializes": ["shannon_entropy", "von_neumann_entropy", "topological_entropy"]
-  },
-  "difficulty_levels": {
-    "beginner": "Entropy is a measure of disorder. Things naturally tend to become more disordered over time unless energy is added.",
-    "intermediate": "Entropy quantifies the number of ways a system can be arranged microscopically while looking the same macroscopically. Higher entropy = more possible arrangements.",
-    "expert": "Entropy bridges thermodynamics and information theory. Boltzmann's entropy (k_B ln Ω) counts microstates. Shannon entropy (H = -Σ p_i log p_i) measures information uncertainty. The second law reflects the tendency toward macrostates with overwhelmingly more microstates."
-  },
-  "learning_path": {
-    "prerequisites": ["thermodynamics_basics", "probability_theory", "statistical_mechanics"],
-    "next_steps": ["second_law_of_thermodynamics", "information_entropy", "black_hole_thermodynamics"]
-  },
   "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
+    "creator": "CADMIES_Quick_Mint",
     "certainty_score": 0.99,
     "version": 1,
     "license": "CC BY-SA 4.0",
     "purpose": "educational"
   },
+  "relationships": {
+    "builds_upon": ["thermodynamics", "statistical_mechanics"],
+    "related_to": ["second_law_thermodynamics", "information_entropy"],
+    "specializes": ["boltzmann_entropy"]
+  },
+  "difficulty_levels": {
+    "beginner": "Entropy measures how spread out or disordered things are",
+    "intermediate": "Entropy change equals heat transfer divided by temperature",
+    "expert": "Entropy quantifies microscopic configurations consistent with macroscopic state"
+  },
   "extra_fields": {
-    "historical_context": "Term coined by Rudolf Clausius in 1865 from Greek 'εντροπια' (transformation). Boltzmann's statistical interpretation (1877) revolutionized understanding.",
-    "limitations": "Applies to large systems; fluctuations possible at small scales. Definition ambiguous for non-equilibrium systems.",
-    "key_references": ["Clausius 1865", "Boltzmann 1877", "Shannon 1948", "Gibbs 1902"],
-    "discoverer": "Rudolf Clausius (term), Ludwig Boltzmann (statistical)",
-    "discovery_year": 1865,
-    "applications": ["Heat engines", "Refrigeration", "Information theory", "Cosmology", "Chemistry"]
+    "formula": "ΔS = Q/T",
+    "units": "J/K",
+    "discoverer": "Rudolf Clausius",
+    "year": 1865
   }
 }
