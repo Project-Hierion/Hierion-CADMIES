@@ -233,6 +233,16 @@ class CBORReader:
         except Exception:
             pass  # Provenance is optional, fail silently
         
+        # Display verification badge
+        try:
+            from verification_manager import get_verification_status
+            level, badge, label, verification_chain = get_verification_status(cid)
+            output.append("")
+            output.append(f"🔐 VERIFICATION STATUS: {badge} {label}")
+            output.append(f"   {len(verification_chain)} verification(s) on record")
+        except Exception:
+            pass  # Verification optional, fail silently
+        
         # Schema compliance information (when verbose)
         if verbose:
             output.append("\n" + self.describe_schema_compliance(concept))
