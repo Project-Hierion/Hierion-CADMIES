@@ -1,89 +1,301 @@
-# verification_manager.py
-# Depends on: provenance_manager.py, paths.py
+#!/usr/bin/env python3
+"""
+Verification Manager v1.0.0
+Purpose: Manage verification statements on concepts
+Dependencies: provenance_manager.py, paths.py
+"""
 
+import sys
+from pathlib import Path
+from typing import Dict, List, Tuple, Optional, Any
+from datetime import datetime, timezone
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent))
 from provenance_manager import ProvenanceManager
-from paths import BLOCKS_DIR
+from paths import PROJECT_ROOT, BLOCKS_DIR
+
+
+# ============================================================================
+# VERIFICATION LEVELS
+# ============================================================================
 
 VERIFICATION_LEVELS = {
-    0: {"badge": "🔴", "label": "Unverified"},
-    1: {"badge": "🟡", "label": "Self-verified"},
-    2: {"badge": "🟢", "label": "Verified"},
-    3: {"badge": "💎", "label": "Highly Verified"}
+    0: {"badge": "🔴", "label": "Unverified", "requirement": "No verification blocks"},
+    1: {"badge": "🟡", "label": "Self-verified", "requirement": "Only verifications with source='self'"},
+    2: {"badge": "🟢", "label": "Verified", "requirement": "At least one source='orcid' OR source='institution'"},
+    3: {"badge": "💎", "label": "Highly Verified", "requirement": "2+ ORCID verifications OR 1 ORCID + 1 institution"}
 }
 
-def get_verification_status(concept_cid):
-    """Returns (level, badge, label, verification_chain)"""
-    verification_chain = get_verification_chain(concept_cid)
-    level = calculate_verification_level(verification_chain)
-    badge = VERIFICATION_LEVELS[level]["badge"]
-    label = VERIFICATION_LEVELS[level]["label"]
-    return (level, badge, label, verification_chain)
 
-def get_verification_chain(concept_cid):
-    """Returns all verification provenance blocks for a concept"""
-    try:
-        pm = ProvenanceManager()
-        all_provenance = pm.query_provenance(concept_cid)
-        # Filter for verification records
-        verification_records = [p for p in all_provenance if p.get('record_type') == 'verification']
-        return verification_records
-    except Exception:
-        return []
+# Initialize provenance manager
+pm = ProvenanceManager()
 
-def calculate_verification_level(chain):
-    """Calculate verification level based on chain contents"""
-    if not chain:
+
+def add_verification_statement(verifier_key: str, concept_cid: str, statement_type: str,
+                                source: str, metadata: Optional[Dict] = None) -> Optional[str]:
+    """
+    Add a verification statement to a concept's provenance.
+    
+    Args:
+        verifier_key: Key identifying the verifier (ORCID, public key, or "self")
+        concept_cid: CID of the concept being verified
+        statement_type: Type of verification (e.g., "endorses", "confirms", "agrees")
+        source: Source type ("self", "orcid", "institution", "peer")
+        metadata: Additional metadata (ORCID ID, institution name, etc.)
+    
+    Returns:
+        CID of the created provenance block, or None if failed
+    """
+    record_data = {
+        "verifier_key": verifier_key,
+        "statement_type": statement_type,
+        "source": source,
+        "metadata": metadata or {}
+    }
+    
+    result = pm.create_provenance_record(
+        concept_cid=concept_cid,
+        author=verifier_key,
+        record_type="verification",
+        **record_data
+    )
+    
+    return result.get("provenance_cid") if result.get("stored") else None
+
+
+def get_verification_chain(concept_cid: str) -> List[Dict]:
+    """Get all verification blocks for a concept."""
+    all_provenance = pm.query_provenance(concept_cid)
+    return [p for p in all_provenance if p.get("record_type") == "verification"]
+
+
+def calculate_verification_level(verification_chain: List[Dict]) -> int:
+    """
+    Calculate verification level based on chain.
+    
+    Level 0: No verifications
+    Level 1: Only self-verifications
+    Level 2: At least one ORCID or institution verification
+    Level 3: 2+ ORCID verifications OR 1 ORCID + 1 institution
+    """
+    if not verification_chain:
         return 0
     
-    sources = [p.get('metadata', {}).get('source', 'self') for p in chain]
+    # Count sources
+    source_counts = {"self": 0, "orcid": 0, "institution": 0, "peer": 0}
     
-    # Check for highly verified (level 3)
-    orcid_count = sources.count('orcid')
-    institution_count = sources.count('institution')
+    for v in verification_chain:
+        source = v.get("source", "unknown")
+        if source in source_counts:
+            source_counts[source] += 1
     
-    if orcid_count >= 2 or (orcid_count >= 1 and institution_count >= 1):
+    # Level 1: Only self-verifications
+    if source_counts["self"] > 0 and sum(source_counts.values()) == source_counts["self"]:
+        return 1
+    
+    # Level 3: Highly verified
+    if source_counts["orcid"] >= 2 or (source_counts["orcid"] >= 1 and source_counts["institution"] >= 1):
         return 3
     
-    # Check for verified (level 2)
-    if 'orcid' in sources or 'institution' in sources:
+    # Level 2: At least one ORCID or institution
+    if source_counts["orcid"] >= 1 or source_counts["institution"] >= 1:
         return 2
     
-    # Check for self-verified (level 1)
-    if 'self' in sources:
+    # Fallback to level 1 if only self-verifications but mixed with unknown
+    if source_counts["self"] > 0:
         return 1
     
     return 0
 
-def add_verification_statement(verifier_key, concept_cid, statement_type, source="self", metadata=None):
+
+def get_verification_status(concept_cid: str) -> Dict:
     """
-    Creates provenance block with type="verification"
-    source: "self", "orcid", "institution"
+    Get complete verification status for a concept.
+    
+    Returns:
+        Dict with keys: level, badge, label, chain_count, chain
     """
-    from provenance_manager import ProvenanceManager
-    import json
-    from datetime import datetime
+    chain = get_verification_chain(concept_cid)
+    level = calculate_verification_level(chain)
     
-    pm = ProvenanceManager()
-    
-    verification_data = {
-        "record_type": "verification",
-        "verifier_key": verifier_key,
-        "concept_cid": concept_cid,
-        "statement_type": statement_type,  # "endorses", "questions", "refutes"
-        "source": source,
-        "timestamp": datetime.now().isoformat() + "Z"
+    return {
+        "level": level,
+        "badge": VERIFICATION_LEVELS[level]["badge"],
+        "label": VERIFICATION_LEVELS[level]["label"],
+        "chain_count": len(chain),
+        "chain": chain
     }
+
+
+def cids_equivalent(cid1: str, cid2: str) -> bool:
+    """Check if two CIDs refer to the same content."""
+    if cid1 == cid2:
+        return True
+    try:
+        from multiformats import CID
+        obj1 = CID.decode(cid1)
+        obj2 = CID.decode(cid2)
+        return obj1.digest == obj2.digest
+    except:
+        return False
+
+
+def verify_block_integrity(block_data: bytes, expected_cid: str) -> bool:
+    """Verify that block data matches its CID."""
+    from car_utils import calculate_cid
+    actual_cid = calculate_cid(block_data)
+    return cids_equivalent(actual_cid, expected_cid)
+
+
+def load_block_from_store(cid: str) -> Optional[bytes]:
+    """Load a block from CADMIES blockstore by CID."""
+    # Try with .cbor extension first
+    block_path = BLOCKS_DIR / f"{cid}.cbor"
+    if block_path.exists():
+        with open(block_path, 'rb') as f:
+            return f.read()
     
-    if metadata:
-        verification_data["metadata"] = metadata
+    # Try without extension
+    block_path = BLOCKS_DIR / cid
+    if block_path.exists():
+        with open(block_path, 'rb') as f:
+            return f.read()
     
-    # Create provenance block
-    provenance_cid = pm.create_provenance_record(
+    return None
+
+
+def ensure_bytes(value) -> bytes:
+    """Convert string to bytes if needed."""
+    if isinstance(value, str):
+        return value.encode('utf-8')
+    return value
+
+
+def export_verification_as_car(concept_cid: str, verifier_key: str, statement_type: str,
+                                source: str, output_path: Path, metadata: dict = None) -> bool:
+    """
+    Create a verification block for a concept and export both to a CAR file.
+    
+    Args:
+        concept_cid: CID of concept being verified
+        verifier_key: Key identifying the verifier (e.g., ORCID, public key)
+        statement_type: Type of verification (e.g., "endorses", "confirms")
+        source: Source type ("self", "orcid", "institution")
+        output_path: Where to save the CAR file
+        metadata: Optional additional metadata
+    
+    Returns:
+        True if successful, False otherwise
+    """
+    print("=" * 60)
+    print("Export Verification as CAR")
+    print("=" * 60)
+    
+    # 1. Create verification block
+    provenance_cid = add_verification_statement(
+        verifier_key=verifier_key,
         concept_cid=concept_cid,
-        author=verifier_key,
-        record_type="verification",
-        comment=f"Verification statement: {statement_type}",
-        metadata=verification_data
-)
+        statement_type=statement_type,
+        source=source,
+        metadata=metadata
+    )
     
-    return provenance_cid
+    if not provenance_cid:
+        print(f"❌ Failed to create verification block")
+        return False
+    
+    print(f"✅ Created verification block: {provenance_cid}")
+    
+    # 2. Load concept block
+    concept_block = load_block_from_store(concept_cid)
+    if not concept_block:
+        print(f"❌ Concept block not found: {concept_cid}")
+        return False
+    
+    print(f"✅ Loaded concept block ({len(concept_block)} bytes)")
+    
+    # 3. Load verification block
+    verification_block = load_block_from_store(provenance_cid)
+    if not verification_block:
+        print(f"❌ Verification block not found: {provenance_cid}")
+        return False
+    
+    print(f"✅ Loaded verification block ({len(verification_block)} bytes)")
+    
+    # 4. Build CAR file with both blocks
+    try:
+        sys.path.insert(0, str(Path(__file__).parent.parent))
+        from car_utils import write_car
+        
+        blocks_for_car = {}
+        
+        # Add concept block
+        concept_bytes = ensure_bytes(concept_cid)
+        blocks_for_car[concept_bytes] = concept_block
+        
+        # Add verification block
+        verification_bytes = ensure_bytes(provenance_cid)
+        blocks_for_car[verification_bytes] = verification_block
+        
+        roots = [concept_bytes]
+        
+        write_car(blocks_for_car, roots, output_path)
+        
+        print(f"\n✅ Successfully exported verification CAR to: {output_path}")
+        print(f"   Concept: {concept_cid}")
+        print(f"   Verification: {provenance_cid}")
+        print(f"   File size: {output_path.stat().st_size:,} bytes")
+        
+        return True
+        
+    except Exception as e:
+        print(f"\n❌ Failed to write CAR file: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
+
+# ============================================================================
+# COMMAND LINE INTERFACE
+# ============================================================================
+
+if __name__ == "__main__":
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="Verification Manager")
+    parser.add_argument('--export-verification', action='store_true', help='Export verification as CAR')
+    parser.add_argument('--concept-cid', help='CID of concept to verify')
+    parser.add_argument('--verifier-key', help='Verifier key (ORCID, etc.)')
+    parser.add_argument('--statement-type', default='endorses', help='Type of verification')
+    parser.add_argument('--source', help='Source type (self, orcid, institution)')
+    parser.add_argument('--output', help='Output CAR file path')
+    parser.add_argument('--status', help='Show verification status for a concept CID')
+    
+    args = parser.parse_args()
+    
+    if args.status:
+        status = get_verification_status(args.status)
+        print(f"Verification Status for {args.status}:")
+        print(f"  Badge: {status['badge']}")
+        print(f"  Level: {status['level']}")
+        print(f"  Label: {status['label']}")
+        print(f"  Verifications: {status['chain_count']}")
+    
+    elif args.export_verification:
+        if not args.concept_cid or not args.verifier_key or not args.source or not args.output:
+            print("ERROR: --concept-cid, --verifier-key, --source, and --output required")
+            sys.exit(1)
+        
+        success = export_verification_as_car(
+            concept_cid=args.concept_cid,
+            verifier_key=args.verifier_key,
+            statement_type=args.statement_type,
+            source=args.source,
+            output_path=Path(args.output),
+            metadata={"exported_via": "cli"}
+        )
+        sys.exit(0 if success else 1)
+    
+    else:
+        parser.print_help()

@@ -65,7 +65,17 @@ def merge_index_entry(index: Dict[str, str], human_id: str, cid: str, dry_run: b
         return True, f"✅ Added {human_id} → {cid[:16]}..."
 
 
-def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> bool:
+def get_verification_status_for_import(concept_cid: str):
+    """Get verification status for a concept (import-safe)."""
+    try:
+        sys.path.insert(0, str(Path(__file__).parent / "core"))
+        from verification_manager import get_verification_status
+        return get_verification_status(concept_cid)
+    except Exception as e:
+        return {"badge": "❓", "label": f"Error: {e}", "level": 0, "chain_count": 0}
+
+
+def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, verify_only: bool = False) -> bool:
     """
     Import a CAR file into the local mycelium.
     
@@ -73,6 +83,7 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> 
         car_path: Path to CAR file
         dry_run: If True, preview without writing
         verbose: Show detailed output
+        verify_only: If True, show verification status without saving blocks
     
     Returns:
         True if successful, False otherwise
@@ -81,6 +92,8 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> 
     print("CADMIES Import from CAR")
     if dry_run:
         print("** DRY RUN MODE - No changes will be made **")
+    if verify_only:
+        print("** VERIFY ONLY MODE - Showing verification status only **")
     print("=" * 60)
     
     # 1. Check if CAR file exists
@@ -118,6 +131,9 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> 
         "index_skipped": 0
     }
     
+    # Track verification blocks for post-processing
+    verification_blocks = []
+    
     # First, find index blocks and regular blocks
     index_blocks = {}
     concept_blocks = {}
@@ -135,15 +151,61 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> 
         except:
             pass
         
+        # Check if this is a verification block
+        try:
+            import dag_cbor
+            decoded = dag_cbor.decode(block_data)
+            if decoded.get('record_type') == 'verification':
+                verification_blocks.append({
+                    "cid": cid_str,
+                    "data": block_data,
+                    "concept_cid": decoded.get('concept_cid'),
+                    "source": decoded.get('source'),
+                    "verifier": decoded.get('verifier_key')
+                })
+                if verbose:
+                    print(f"   🔐 Found verification block for concept: {decoded.get('concept_cid', 'unknown')[:16]}...")
+        except:
+            pass
+        
         # Regular block
         concept_blocks[cid_str] = block_data
     
-    # 5. Save regular blocks to store
-    print(f"\n📦 Saving {len(concept_blocks)} concept/provenance block(s)...")
+    # If verify_only mode, just show verification info and exit
+    if verify_only:
+        print("\n" + "-" * 40)
+        print("VERIFICATION STATUS (VERIFY ONLY MODE)")
+        print("-" * 40)
+        
+        if verification_blocks:
+            print(f"\n🔐 Found {len(verification_blocks)} verification block(s) in CAR:")
+            for vb in verification_blocks:
+                print(f"\n   Verification CID: {vb['cid'][:16]}...")
+                print(f"   Concept CID: {vb['concept_cid']}")
+                print(f"   Source: {vb['source']}")
+                print(f"   Verifier: {vb['verifier']}")
+                
+                # Check if concept exists locally
+                concept_exists = (BLOCKS_DIR / f"{vb['concept_cid']}.cbor").exists()
+                if concept_exists:
+                    status = get_verification_status_for_import(vb['concept_cid'])
+                    print(f"   Current badge: {status['badge']} ({status['label']})")
+                    print(f"   Would upgrade to: {status['badge'] if status['chain_count'] > 0 else '🟢 (would add)'}")
+                else:
+                    print(f"   ⚠️ Concept not found locally - import concept first to see badge")
+        else:
+            print("\n   No verification blocks found in this CAR file.")
+        
+        print("\n⚠️  VERIFY ONLY MODE - No changes were made.")
+        print("   Run without --verify-only to import and apply verifications.")
+        return True
+    
+    # 5. Save regular blocks to store (skip if dry_run)
+    if not dry_run:
+        print(f"\n📦 Saving {len(concept_blocks)} concept/provenance block(s)...")
     
     for cid_str, block_data in concept_blocks.items():
         # Skip integrity check for CIDv0 blocks (Qm prefix)
-        # These are usually index or small blocks that work fine
         if cid_str.startswith('Qm'):
             if verbose:
                 print(f"   🔓 Skipping integrity check for CIDv0: {cid_str[:16]}...")
@@ -178,7 +240,8 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> 
             stats["new_blocks"] += 1
     
     # 6. Merge index blocks
-    print(f"\n📑 Processing index entries...")
+    if not dry_run:
+        print(f"\n📑 Processing index entries...")
     
     for idx_cid, index_data in index_blocks.items():
         for human_id, cid in index_data.items():
@@ -191,7 +254,8 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> 
                 print(f"   {message}")
                 stats["index_conflicts"] += 1
             else:
-                print(f"   {message}")
+                if verbose:
+                    print(f"   {message}")
                 stats["index_skipped"] += 1
     
     # 7. Save updated index (if not dry run and changes made)
@@ -201,7 +265,28 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> 
     elif dry_run and stats["index_added"] > 0:
         print(f"\n[DRY RUN] Would add {stats['index_added']} entry(s) to index")
     
-    # 8. Print summary
+    # 8. Post-import: Check verification blocks and refresh badges
+    if not dry_run and verification_blocks:
+        print("\n" + "-" * 40)
+        print("🔐 VERIFICATION BLOCKS DETECTED")
+        print("-" * 40)
+        
+        for vb in verification_blocks:
+            concept_cid = vb['concept_cid']
+            if concept_cid:
+                # Check if concept block exists
+                concept_exists = (BLOCKS_DIR / f"{concept_cid}.cbor").exists()
+                if concept_exists:
+                    status = get_verification_status_for_import(concept_cid)
+                    print(f"\n   Concept: {concept_cid[:16]}...")
+                    print(f"   Verification source: {vb['source']}")
+                    print(f"   New badge: {status['badge']} ({status['label']})")
+                    print(f"   Total verifications: {status['chain_count']}")
+                else:
+                    print(f"\n   ⚠️ Verification block for {concept_cid[:16]}... but concept not found")
+                    print(f"      Import the concept block first, then re-import this CAR")
+    
+    # 9. Print summary
     print("\n" + "=" * 60)
     print("IMPORT SUMMARY")
     print("=" * 60)
@@ -212,6 +297,7 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> 
     print(f"📑 Index entries added:    {stats['index_added']}")
     print(f"⚠️  Index conflicts:        {stats['index_conflicts']}")
     print(f"⏭️  Index entries skipped:  {stats['index_skipped']}")
+    print(f"🔐 Verification blocks:    {len(verification_blocks)}")
     print("=" * 60)
     
     if dry_run:
@@ -233,6 +319,7 @@ Examples:
   import_from_car.py natural_selection.car
   import_from_car.py my_export.car --dry-run
   import_from_car.py concept.car --verbose
+  import_from_car.py verification.car --verify-only
         """,
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
@@ -254,13 +341,20 @@ Examples:
         help='Show detailed output'
     )
     
+    parser.add_argument(
+        '--verify-only',
+        action='store_true',
+        help='Show verification status from CAR without importing blocks'
+    )
+    
     args = parser.parse_args()
     
     # Run import
     success = import_car(
         car_path=Path(args.car_file),
         dry_run=args.dry_run,
-        verbose=args.verbose
+        verbose=args.verbose,
+        verify_only=args.verify_only
     )
     
     sys.exit(0 if success else 1)
