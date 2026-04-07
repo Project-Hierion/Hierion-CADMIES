@@ -7,7 +7,7 @@ Spec: https://ipld.io/specs/transport/car/carv1/
 
 import struct
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List, Tuple, Optional, Union
 import dag_cbor
 from multiformats import CID, multihash
 
@@ -22,38 +22,51 @@ def calculate_cid(data: bytes) -> str:
     return str(cid_obj)
 
 
-def cid_str_to_storage_bytes(cid_str: str) -> bytes:
-    """
-    Convert CID string to storage bytes.
-    Simply encode the string as UTF-8 bytes.
-    This bypasses library decode issues.
-    """
-    return cid_str.encode('utf-8')
+def cid_str_to_storage_bytes(cid_str: Union[str, bytes]) -> bytes:
+    """Convert CID string or bytes to storage bytes for CAR."""
+    if isinstance(cid_str, bytes):
+        return cid_str
+    elif isinstance(cid_str, str):
+        return cid_str.encode('utf-8')
+    else:
+        raise TypeError(f"Expected str or bytes, got {type(cid_str)}")
 
 
-def storage_bytes_to_cid_str(storage_bytes: bytes) -> str:
+def storage_bytes_to_cid_str(storage_bytes: Union[str, bytes]) -> str:
+    """Convert storage bytes back to CID string."""
+    if isinstance(storage_bytes, bytes):
+        return storage_bytes.decode('utf-8')
+    elif isinstance(storage_bytes, str):
+        return storage_bytes
+    else:
+        raise TypeError(f"Expected str or bytes, got {type(storage_bytes)}")
+
+
+def cids_equivalent(cid1: str, cid2: str) -> bool:
     """
-    Convert storage bytes back to CID string.
-    Simply decode UTF-8 bytes to string.
+    Check if two CIDs refer to the same content.
+    Handles CIDv0 vs CIDv1 differences.
     """
-    return storage_bytes.decode('utf-8')
+    if cid1 == cid2:
+        return True
+    
+    # Decode both to get their multihash digests
+    try:
+        obj1 = CID.decode(cid1)
+        obj2 = CID.decode(cid2)
+        return obj1.digest == obj2.digest
+    except:
+        return False
 
 
 # ============================================================================
 # CAR FORMAT FUNCTIONS
 # ============================================================================
 
-def write_car(blocks: Dict[str, bytes], roots: List[str], output_path: Path) -> None:
-    """
-    Write blocks to CAR file.
-    
-    Args:
-        blocks: Dict of {cid_string: block_bytes}
-        roots: List of root CID strings
-        output_path: Where to write the CAR file
-    """
+def write_car(blocks: Dict[bytes, bytes], roots: List[bytes], output_path: Path) -> None:
+    """Write blocks to CAR file."""
     with open(output_path, 'wb') as f:
-        # Convert root CID strings to storage bytes for header
+        # Convert root CID bytes to storage bytes for header
         root_bytes_list = [cid_str_to_storage_bytes(root) for root in roots]
         
         # Write header
@@ -63,13 +76,13 @@ def write_car(blocks: Dict[str, bytes], roots: List[str], output_path: Path) -> 
         f.write(header_bytes)
         
         # Write each block
-        for cid_str, block_data in blocks.items():
-            # Convert CID string to storage bytes
-            cid_bytes = cid_str_to_storage_bytes(cid_str)
+        for cid_bytes, block_data in blocks.items():
+            # Ensure cid_bytes is bytes
+            cid_bytes_clean = cid_str_to_storage_bytes(cid_bytes)
             
             # Write CID length + CID bytes
-            _write_varint(f, len(cid_bytes))
-            f.write(cid_bytes)
+            _write_varint(f, len(cid_bytes_clean))
+            f.write(cid_bytes_clean)
             
             # Write block length + block data
             _write_varint(f, len(block_data))
@@ -77,14 +90,7 @@ def write_car(blocks: Dict[str, bytes], roots: List[str], output_path: Path) -> 
 
 
 def read_car(file_path: Path) -> Tuple[Dict[str, bytes], List[str]]:
-    """
-    Read CAR file and extract all blocks.
-    
-    Returns:
-        Tuple of (blocks_dict, roots_list)
-        blocks_dict: {cid_string: block_bytes}
-        roots_list: List of root CID strings
-    """
+    """Read CAR file and extract all blocks."""
     blocks = {}
     roots = []
     
@@ -189,9 +195,9 @@ def save_block_to_store(cid: str, block_data: bytes, blocks_dir: Path) -> bool:
 
 
 def verify_block_integrity(block_data: bytes, expected_cid: str) -> bool:
-    """Verify that block data matches its CID."""
+    """Verify that block data matches its CID (handles CIDv0/CIDv1 equivalence)."""
     actual_cid = calculate_cid(block_data)
-    return actual_cid == expected_cid
+    return cids_equivalent(actual_cid, expected_cid)
 
 
 # ============================================================================
@@ -215,11 +221,14 @@ if __name__ == "__main__":
     print(f"   CID1: {cid1_str}")
     print(f"   CID2: {cid2_str}")
     
+    cid1_bytes = cid_str_to_storage_bytes(cid1_str)
+    cid2_bytes = cid_str_to_storage_bytes(cid2_str)
+    
     test_blocks = {
-        cid1_str: block1_data,
-        cid2_str: block2_data
+        cid1_bytes: block1_data,
+        cid2_bytes: block2_data
     }
-    test_roots = [cid1_str]
+    test_roots = [cid1_bytes]
     
     import tempfile
     with tempfile.NamedTemporaryFile(suffix='.car', delete=False) as tmp:
@@ -227,6 +236,7 @@ if __name__ == "__main__":
     
     write_car(test_blocks, test_roots, tmp_path)
     print(f"   Wrote CAR to {tmp_path}")
+    print(f"   File size: {tmp_path.stat().st_size} bytes")
     
     read_blocks, read_roots = read_car(tmp_path)
     print(f"   Read {len(read_blocks)} blocks, roots: {read_roots}")
@@ -254,21 +264,25 @@ if __name__ == "__main__":
     else:
         print("   ❌ CID calculation failed")
     
-    # Test 3: Storage conversion
-    print("\n3. Testing storage conversion...")
-    test_cid_str = calculate_cid(b"test conversion")
-    test_cid_bytes = cid_str_to_storage_bytes(test_cid_str)
-    test_cid_back = storage_bytes_to_cid_str(test_cid_bytes)
+    # Test 3: CID equivalence
+    print("\n3. Testing CID equivalence...")
+    test_block = b'{"test": "equivalence"}'
+    cid_v0 = calculate_cid(test_block)
+    # Create CIDv1 version
+    digest = multihash.digest(test_block, "sha2-256")
+    cid_v1_obj = CID.create("cidv1", "dag-cbor", digest)
+    cid_v1 = str(cid_v1_obj)
     
-    print(f"   Original: {test_cid_str}")
-    print(f"   Bytes length: {len(test_cid_bytes)}")
-    print(f"   Converted back: {test_cid_back}")
+    print(f"   CIDv0: {cid_v0}")
+    print(f"   CIDv1: {cid_v1}")
+    print(f"   Equivalent: {cids_equivalent(cid_v0, cid_v1)}")
     
-    if test_cid_back == test_cid_str:
-        print("   ✅ Conversion works")
+    if cids_equivalent(cid_v0, cid_v1):
+        print("   ✅ CID equivalence working")
     else:
-        print("   ❌ Conversion failed")
+        print("   ❌ CID equivalence failed")
     
     print("\n" + "=" * 60)
     print("CAR Utils ready for use")
     print("=" * 60)
+    
