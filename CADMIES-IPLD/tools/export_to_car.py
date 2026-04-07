@@ -3,13 +3,15 @@
 Export to CAR v1.0.0
 Purpose: Export CADMIES concepts (with provenance) to CAR files for sharing
 Usage: python tools/export_to_car.py <human_id_or_cid> --output <file.car>
+       python tools/export_to_car.py --concepts id1,id2,id3 --output bundle.car
+       python tools/export_to_car.py --all --output full_mycelium.car
 """
 
 import argparse
 import json
 import sys
 from pathlib import Path
-from typing import Dict, Optional, Union
+from typing import Dict, Optional, Union, List, Set
 
 # Add tools directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
@@ -110,73 +112,89 @@ def get_provenance_blocks(concept_cid: str) -> Dict[str, bytes]:
     return provenance_blocks
 
 
-def export_concept(identifier: str, output_path: Path, include_provenance: bool = True) -> bool:
+def collect_concept_blocks(identifiers: List[str], index: Dict[str, str], include_provenance: bool = True) -> tuple:
     """
-    Export a concept and its provenance to a CAR file.
+    Collect all blocks for given identifiers.
+    Returns (blocks_dict, concept_cids_list, human_id_map)
+    """
+    blocks = {}
+    concept_cids = []
+    human_id_map = {}
+    
+    for identifier in identifiers:
+        # Resolve to CID
+        cid = resolve_identifier(identifier, index)
+        if not cid:
+            print(f"⚠️ Skipping invalid identifier: {identifier}")
+            continue
+        
+        concept_cids.append(cid)
+        
+        # Load concept block
+        concept_block = load_block_from_store(cid, BLOCKS_DIR)
+        if not concept_block:
+            print(f"⚠️ Concept block not found for {identifier} ({cid})")
+            continue
+        
+        blocks[cid] = concept_block
+        print(f"   📦 {identifier} → {cid[:16]}... ({len(concept_block)} bytes)")
+        
+        # Track human_id mapping
+        human_id_map[identifier] = cid
+        
+        # Add provenance blocks
+        if include_provenance:
+            provenance = get_provenance_blocks(cid)
+            blocks.update(provenance)
+            if provenance:
+                print(f"      📎 +{len(provenance)} provenance block(s)")
+    
+    return blocks, concept_cids, human_id_map
+
+
+def export_concepts(identifiers: List[str], output_path: Path, include_provenance: bool = True) -> bool:
+    """
+    Export multiple concepts to a CAR file.
     """
     print("=" * 60)
-    print("CADMIES Export to CAR")
+    print("CADMIES Export to CAR (Multi-Concept)")
     print("=" * 60)
     
     # 1. Load index
     index = load_index()
     
-    # 2. Resolve identifier to CID
-    concept_cid = resolve_identifier(identifier, index)
-    if not concept_cid:
+    # 2. Collect all blocks
+    print(f"\n📦 Collecting {len(identifiers)} concept(s)...")
+    blocks, concept_cids, human_id_map = collect_concept_blocks(identifiers, index, include_provenance)
+    
+    if not blocks:
+        print("❌ No valid concepts found to export")
         return False
     
-    print(f"✅ Resolved to CID: {concept_cid}")
+    print(f"\n✅ Collected {len(blocks)} total block(s)")
+    print(f"   Concept blocks: {len(concept_cids)}")
+    print(f"   Total unique CIDs: {len(set(blocks.keys()))}")
     
-    # 3. Load concept block
-    concept_block = load_block_from_store(concept_cid, BLOCKS_DIR)
-    if not concept_block:
-        print(f"❌ Concept block not found: {concept_cid}")
-        return False
+    # 3. Add consolidated index block
+    index_bytes = json.dumps(human_id_map, indent=2).encode('utf-8')
+    index_cid = calculate_cid(index_bytes)
+    blocks[index_cid] = index_bytes
+    print(f"✅ Added consolidated index block with {len(human_id_map)} mapping(s)")
     
-    print(f"✅ Loaded concept block ({len(concept_block)} bytes)")
-    
-    # 4. Prepare blocks dictionary (key: CID string, value: block bytes)
-    blocks: Dict[str, bytes] = {
-        concept_cid: concept_block
-    }
-    
-    # 5. Find and add provenance blocks
-    if include_provenance:
-        provenance_blocks = get_provenance_blocks(concept_cid)
-        blocks.update(provenance_blocks)
-        print(f"✅ Found {len(provenance_blocks)} provenance block(s)")
-    else:
-        print(f"⚠️ Skipping provenance blocks")
-    
-    # 6. Add index block (human_id → CID mapping)
-    human_id = None
-    for hid, cid in index.items():
-        if cid == concept_cid:
-            human_id = hid
-            break
-    
-    if human_id:
-        index_block = {human_id: concept_cid}
-        index_bytes = json.dumps(index_block, indent=2).encode('utf-8')
-        index_cid = calculate_cid(index_bytes)
-        blocks[index_cid] = index_bytes
-        print(f"✅ Added index block with human_id: {human_id}")
-    
-    # 7. Write CAR file
+    # 4. Write CAR file
     try:
-        # Convert blocks from {cid_str: bytes} to {cid_bytes: bytes}
         blocks_for_car = {}
         for cid_str, block_data in blocks.items():
             cid_bytes = ensure_bytes(cid_str)
             blocks_for_car[cid_bytes] = block_data
         
-        roots = [ensure_bytes(concept_cid)]
+        roots = [ensure_bytes(cid) for cid in concept_cids]
         
         write_car(blocks_for_car, roots, output_path)
         
         print(f"\n✅ Successfully exported to: {output_path}")
         print(f"   Total blocks: {len(blocks)}")
+        print(f"   Root concepts: {len(concept_cids)}")
         print(f"   File size: {output_path.stat().st_size:,} bytes")
         
         return True
@@ -188,23 +206,66 @@ def export_concept(identifier: str, output_path: Path, include_provenance: bool 
         return False
 
 
+def get_all_concept_cids(index: Dict[str, str]) -> List[str]:
+    """Get all unique concept CIDs from the index."""
+    return list(set(index.values()))
+
+
+def get_all_human_ids(index: Dict[str, str]) -> List[str]:
+    """Get all human_ids from the index."""
+    return list(index.keys())
+
+
 # ============================================================================
 # COMMAND LINE INTERFACE
 # ============================================================================
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Export CADMIES concept to CAR file",
+        description="Export CADMIES concepts to CAR file",
         epilog="""
 Examples:
-  export_to_car.py natural_selection --output natural_selection.car
-  export_to_car.py bafyreiestgqzxnxmpb27s7s5pjv4fjawra6rexgomkni6itljrhlqkf3ee --output concept.car
-        """
+  # Single concept
+  export_to_car.py natural_selection --output single.car
+  
+  # Multiple concepts (comma-separated)
+  export_to_car.py --concepts natural_selection,entropy,occams_razor --output bundle.car
+  
+  # Multiple concepts (file)
+  export_to_car.py --concepts-file my_list.txt --output bundle.car
+  
+  # All concepts
+  export_to_car.py --all --output full_mycelium.car
+  
+  # By CID
+  export_to_car.py --cids bafy...,bafy... --output bundle.car
+        """,
+        formatter_class=argparse.RawDescriptionHelpFormatter
     )
     
-    parser.add_argument(
+    # Mutually exclusive input methods
+    input_group = parser.add_mutually_exclusive_group(required=True)
+    input_group.add_argument(
         'identifier',
-        help='CID or human_id of concept to export'
+        nargs='?',
+        help='Single CID or human_id'
+    )
+    input_group.add_argument(
+        '--concepts', '-c',
+        help='Comma-separated list of human_ids'
+    )
+    input_group.add_argument(
+        '--concepts-file', '-f',
+        help='File containing one human_id per line'
+    )
+    input_group.add_argument(
+        '--cids',
+        help='Comma-separated list of CIDs'
+    )
+    input_group.add_argument(
+        '--all', '-a',
+        action='store_true',
+        help='Export all concepts in the mycelium'
     )
     
     parser.add_argument(
@@ -219,10 +280,52 @@ Examples:
         help='Exclude provenance blocks'
     )
     
+    parser.add_argument(
+        '--verbose', '-v',
+        action='store_true',
+        help='Show detailed output'
+    )
+    
     args = parser.parse_args()
     
-    success = export_concept(
-        identifier=args.identifier,
+    # Parse identifiers based on input method
+    identifiers = []
+    
+    if args.identifier:
+        identifiers = [args.identifier]
+    
+    elif args.concepts:
+        identifiers = [h.strip() for h in args.concepts.split(',') if h.strip()]
+    
+    elif args.concepts_file:
+        path = Path(args.concepts_file)
+        if not path.exists():
+            print(f"❌ File not found: {path}")
+            sys.exit(1)
+        with open(path, 'r') as f:
+            identifiers = [line.strip() for line in f if line.strip()]
+    
+    elif args.cids:
+        identifiers = [c.strip() for c in args.cids.split(',') if c.strip()]
+    
+    elif args.all:
+        index = load_index()
+        identifiers = get_all_human_ids(index)
+        print(f"📦 Exporting all {len(identifiers)} concepts from mycelium")
+    
+    if not identifiers:
+        print("❌ No identifiers provided")
+        sys.exit(1)
+    
+    print(f"📦 Exporting {len(identifiers)} concept(s)")
+    if args.verbose:
+        for i, id in enumerate(identifiers[:10]):
+            print(f"   {i+1}. {id}")
+        if len(identifiers) > 10:
+            print(f"   ... and {len(identifiers) - 10} more")
+    
+    success = export_concepts(
+        identifiers=identifiers,
         output_path=Path(args.output),
         include_provenance=not args.no_provenance
     )
