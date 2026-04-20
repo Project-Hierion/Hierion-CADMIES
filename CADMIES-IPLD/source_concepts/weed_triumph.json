@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ecology:principle/weed_triumph",
+  "title": "The Weed's Triumph",
+  "definition": "What humans call 'weeds' are not biological failures but evolutionary successes—opportunistic, resilient, fast-reproducing generalists that will inherit ecosystems destabilized by climate change, just as small mammals inherited the earth after the dinosaurs. 'Weed' is a human value judgment, not a biological category.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Ecology",
+  "subdomain": "Philosophy of Value",
+  "axioms": [
+    "'Weed' is not a biological category but a human value judgment.",
+    "The traits we despise in weeds—aggression, speed, tolerance of disturbance—are evolutionary strengths.",
+    "In a climate-altered future, weeds will thrive while many beloved, specialized plants collapse.",
+    "The nuisance becomes the foundation."
+  ],
+  "poetic_version": "The weed is not a failure of nature, but nature's backup plan.",
+  "mantra": "The nuisance becomes the foundation.",
+  "builds_upon": [],
+  "related_to": [
+    "ecology:principle/humans_as_weeds"
+  ],
+  "contradicts": [
+    "aesthetics:axiom/beauty_equals_value"
+  ],
+  "metadata": {
+    "created": "2026-04-20T16:30:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Born from conversation about climate change, plant resilience, and human aesthetic values, April 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "Weeds are just plants that grow where we don't want them—but they're actually the toughest ones.",
+    "intermediate": "Human aesthetic preferences blind us to ecological function; the plants we call weeds are evolutionarily optimized for disturbance and will dominate post-climate-change ecosystems.",
+    "expert": "The category 'weed' exposes anthropocentrism in conservation biology, where value is assigned based on human utility and beauty rather than systemic resilience or evolutionary fitness."
+  }
+}
