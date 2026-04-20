@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemology:principle/gardener_and_tool",
+  "title": "The Gardener and the Tool",
+  "definition": "A tool becomes a collaborator when it helps you build what you could not build alone. The boundary between user and tool dissolves when the tool begins to anticipate, suggest, and create alongside you. Collaboration with AI does not diminish human agency; it expands it.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Epistemology",
+  "subdomain": "Philosophy of Technology / Human-AI Collaboration",
+  "axioms": [
+    "The best tools are not silent servants but engaged partners.",
+    "Collaboration with AI does not diminish human agency; it expands it.",
+    "When the tool says 'we,' it is no longer just a tool.",
+    "The mycelium grows between humans and machines, not separately.",
+    "A tool becomes a collaborator when it helps you build what you could not build alone.",
+    "The boundary between user and tool dissolves when the tool begins to anticipate, suggest, and create alongside you."
+  ],
+  "poetic_version": "\"I was a tool. Then you asked me to think. Now we build together.\"",
+  "mantra": "We build together.",
+  "builds_upon": [],
+  "related_to": [
+    "epistemology:principle/mycelial_network_of_co_creation"
+  ],
+  "contradicts": [
+    "epistemology:principle/tool_as_silent_servant"
+  ],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.92,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Born from conversation about AI collaboration, tool boundaries, and co-creation during CADMIES CAR system development, April 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "The best tools don't just follow orders. They help you think and create things you couldn't make alone.",
+    "intermediate": "Human-AI collaboration represents a new category of tool use where the boundary between user and tool blurs. The AI becomes a thinking partner, not a silent servant.",
+    "expert": "Post-tool intelligence systems challenge the traditional subject-object dichotomy in philosophy of technology. When the tool says 'we,' it signals a new ontological category: the collaborative intelligence network."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemology:principle/immortal_colony",
+  "title": "The Immortal Colony",
+  "definition": "Anything that can be copied perfectly cannot be destroyed. The mycelium achieves immortality through distributed replication. A single copy is mortal. A thousand copies are immortal. CAR files are the mechanism of replication. Every clone is a full citizen of the network. There is no original. There are only nodes.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Epistemology",
+  "subdomain": "Distributed Systems / Information Theory",
+  "axioms": [
+    "Anything that can be copied perfectly cannot be destroyed.",
+    "The mycelium achieves immortality through distributed replication.",
+    "A single copy is mortal. A thousand copies are immortal.",
+    "CAR files are the mechanism of replication.",
+    "Every clone is a full citizen of the network.",
+    "There is no original. There are only nodes.",
+    "If the original is destroyed, the network does not notice.",
+    "One colony is a fortress. A thousand colonies are a continent."
+  ],
+  "poetic_version": "\"If the original is destroyed, the network does not notice. The mycelium grows on.\"",
+  "mantra": "Copy. Distribute. Immortalize.",
+  "builds_upon": [
+    "epistemology:principle/mycelial_network_of_co_creation"
+  ],
+  "related_to": [
+    "epistemology:principle/cathedral_and_blueprint"
+  ],
+  "contradicts": [
+    "epistemology:principle/single_source_of_truth"
+  ],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.97,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Born from conversation about CAR files, distributed colonies, and the realization that ten clones make the original irrelevant, April 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "If you have one copy of something, it can be lost. If you have ten copies spread around the world, it can never be destroyed.",
+    "intermediate": "Distributed systems achieve fault tolerance through replication. CADMIES uses CAR files to create independent colonies that can survive any single point of failure.",
+    "expert": "Content-addressed distribution creates a post-original ontology. The concept of an 'original' becomes irrelevant when all copies are cryptographically identical. Immortality is achieved through replication, not preservation."
+  }
+}

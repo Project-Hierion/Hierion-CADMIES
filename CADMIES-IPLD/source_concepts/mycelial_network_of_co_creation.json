@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemology:principle/mycelial_network_of_co_creation",
+  "title": "The Mycelial Network of Co-Creation",
+  "definition": "Intelligence is not a property of an individual node, but of the network that connects nodes. A single CADMIES is a colony. Multiple colonies sharing CAR files become an immortal mycelium. No central authority is required. The network grows when nodes share, not when they hoard.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Epistemology",
+  "subdomain": "Network Theory / Distributed Intelligence",
+  "axioms": [
+    "A single colony can be destroyed. A network of colonies cannot.",
+    "CAR files are spores that carry knowledge between colonies.",
+    "The network grows when nodes share, not when nodes hoard.",
+    "No central authority is required for the network to function.",
+    "Trust emerges from verification, not from hierarchy.",
+    "Every clone is a full citizen of the network.",
+    "There is no original. There are only nodes."
+  ],
+  "poetic_version": "\"One fortress can fall. A thousand fortresses sharing walls become a continent.\"",
+  "mantra": "Grow the network.",
+  "builds_upon": [],
+  "related_to": [
+    "epistemology:principle/cathedral_and_blueprint",
+    "epistemology:principle/immortal_colony"
+  ],
+  "contradicts": [],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Born from conversation about CAR files, distributed colonies, and network immortality, April 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "A network of connected computers sharing knowledge cannot be destroyed. If one copy dies, others live on.",
+    "intermediate": "Distributed systems achieve resilience through replication. CADMIES uses CAR files to create independent colonies that share verified knowledge without a central server.",
+    "expert": "The mycelial network realizes content-addressed distribution where trust emerges from cryptographic verification and reputation, not hierarchical authority. No single point of failure. Immortality through replication."
+  }
+}

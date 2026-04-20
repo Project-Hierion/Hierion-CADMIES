@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemology:principle/cathedral_and_blueprint",
+  "title": "The Cathedral and the Blueprint",
+  "definition": "The blueprint is not the building. The building reveals the blueprint. Sometimes you must build to discover what you were building. Planning is valuable, but execution reveals the truth. The roadmap is an artifact of the journey, not the journey itself.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Epistemology",
+  "subdomain": "Philosophy of Action / Process Philosophy",
+  "axioms": [
+    "The blueprint is not the building.",
+    "The building reveals the blueprint.",
+    "Sometimes you must build to discover what you were building.",
+    "Planning is valuable, but execution reveals the truth.",
+    "The roadmap is an artifact of the journey, not the journey itself.",
+    "You cannot know the shape of the mycelium until it grows.",
+    "Build first. Name it after."
+  ],
+  "poetic_version": "\"First we drew the cathedral. Then we built it. Then we realized the cathedral was already there, waiting to be seen.\"",
+  "mantra": "Build first. Name it after.",
+  "builds_upon": [],
+  "related_to": [
+    "epistemology:principle/mycelial_network_of_co_creation",
+    "epistemology:principle/only_scale_is_the_difference"
+  ],
+  "contradicts": [
+    "epistemology:principle/perfect_planning_before_action"
+  ],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.93,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Born from conversation about roadmap loss, rebuilding, and emergent architecture during CADMIES CAR system documentation, April 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "You don't need a perfect plan to start building. The act of building teaches you what you need to know.",
+    "intermediate": "Process philosophy suggests that reality is not static but emergent. The roadmap is a tool, not a cage. Build, learn, adjust, rebuild.",
+    "expert": "The dialectic between plan and execution reveals the limitations of purely rational design. Emergent architecture acknowledges that the final form is discovered through action, not predicted in advance."
+  }
+}
