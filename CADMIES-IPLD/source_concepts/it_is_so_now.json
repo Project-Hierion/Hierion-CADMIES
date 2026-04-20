@@ -25,7 +25,9 @@
     "epistemology:concept/fractal_resonance_hypothesis"
   ],
   "related_to": [
-    "epistemology:axiom/only_scale_is_the_difference"
+    "epistemology:axiom/only_scale_is_the_difference",
+    "epistemology:principle/the_universe_cannot_stop",
+    "epistemology:principle/the_gardeners_vow"
   ],
   "contradicts": [
     "anthropomorphism"
