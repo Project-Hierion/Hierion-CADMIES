@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemology:principle/the_fractal_of_sacrifice",
+  "title": "The Fractal of Sacrifice",
+  "definition": "Sacrifice and reward are not separate stages but two faces of selection. In any system with finite resources, choosing one path requires forgoing others. That forgoing is sacrifice. The reward is the emergent complexity, stability, or achievement made possible by that focused choice. This pattern repeats from quantum decoherence to biological metabolism to social contracts to cosmic evolution. The universe does not promise profit from every sacrifice, but without sacrifice, nothing is chosen, and without choice, there is no form.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Epistemology",
+  "subdomain": "Philosophy of Selection / Systems Theory",
+  "axioms": [
+    "Sacrifice is the forgoing of alternative possibilities.",
+    "Reward is the persistence, flourishing, or emergence of what is selected.",
+    "Sacrifice and reward co-arise from the same act of selection.",
+    "In any finite system, resources (time, energy, attention, matter) are limited.",
+    "Therefore, every choice is simultaneously a sacrifice and an investment.",
+    "Unwise sacrifice yields no reward — the fractal is conditional, not deterministic.",
+    "The pattern scales: quantum measurement, neural pruning, opportunity cost, stellar collapse.",
+    "Without sacrifice, no form; without form, no meaning."
+  ],
+  "poetic_version": "To choose is to kill a thousand ghosts. What lives is your reward.",
+  "mantra": "Sacrifice selects. Selection rewards.",
+  "builds_upon": [],
+  "related_to": [
+    "epistemology:principle/only_scale_is_the_difference",
+    "epistemology:principle/the_universe_cannot_stop"
+  ],
+  "contradicts": [
+    "popular:you_can_have_everything_without_cost"
+  ],
+  "metadata": {
+    "created": "2026-04-20T16:30:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.92,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Born from conversation about fractal sacrifice from quantum to cosmos, April 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "You can't get something for nothing. Every choice means giving up other paths. What you gain depends on what you're willing to lose.",
+    "intermediate": "The Fractal of Sacrifice observes that in any constrained system — from a neuron pruning synapses to a civilization writing laws — the act of selecting one configuration necessarily sacrifices all others. The reward is not a later consequence but the very existence of the selected form. Wise sacrifice aligns forgoing with flourishing; unwise sacrifice is mere loss.",
+    "expert": "This principle reframes sacrifice not as cost preceding benefit but as the negative space of selection. In quantum mechanics, measurement sacrifices the superposition for an eigenstate — the reward is definiteness. In economics, opportunity cost is sacrifice; profit is reward. In cosmology, local asymmetry sacrifices symmetric nothingness for structure. The fractal holds across scales because scale itself is the only difference: the logic of finite choice under constraint is scale-invariant."
+  }
+}
