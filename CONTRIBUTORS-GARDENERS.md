@@ -27,9 +27,6 @@
 
 Everyone who helps the mycelium grow is a ***Gardener***. No hierarchy. Just growth.
 
-- **Kelly** — HP Desktop (and inspiration)
-
-
 ### Landscapers (Core Maintainers)
 
 - **Hieros-CADMIES** — Project Founder, Soil Scientist, concepts
@@ -39,6 +36,7 @@ Everyone who helps the mycelium grow is a ***Gardener***. No hierarchy. Just gro
 ### Community Gardeners
 
 - **Ross Spencer** — **Documentation Gardener** 🌱 (code block fixes, link corrections)
+- **Kelly** — HP Desktop (and inspiration)
 - **Your name here!**
 
 
