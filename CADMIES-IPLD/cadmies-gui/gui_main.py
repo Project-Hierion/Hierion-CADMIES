@@ -1,13 +1,24 @@
+import sys
+from pathlib import Path
 import json
 from operator import index
 
 from nicegui import ui
+from fastapi.staticfiles import StaticFiles
+
+# === PATH SETUP: Make tools/core importable from GUI ===
+REPO_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(REPO_ROOT / "tools" / "core"))
+
+# Now we can use the centralized paths
+from paths import PROJECT_ROOT, STORE_DIR, BLOCKS_DIR, ensure_dirs
+
+# === GUI IMPORTS ===
 from gui_system import CadmiesSystem
 from ui.pages.dashboard import DashboardPage
 from ui.pages.add_concept import AddConceptPage
 from ui.pages.browse import BrowsePage
 from ui.pages.audit import AuditPage
-from fastapi.staticfiles import StaticFiles 
 
 class CadmiesApp:
     def __init__(self):
@@ -44,9 +55,9 @@ your-cadmies-root/
                         ui.label(f"{icon} {component}")
             return
         
-        # Serve static files for mycelium map
+        # Serve static files for mycelium map (NOW PORTABLE!)
         from nicegui import app
-        app.mount("/static", StaticFiles(directory="/workspaces/CADMIES/CADMIES-IPLD"), name="static")
+        app.mount("/static", StaticFiles(directory=str(PROJECT_ROOT)), name="static")
 
         # ========== HOME PAGE (Landing Page) ==========
         @ui.page("/")
