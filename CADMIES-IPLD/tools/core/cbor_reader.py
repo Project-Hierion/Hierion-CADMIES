@@ -135,12 +135,12 @@ class CBORReader:
         
         if not cbor_file.exists():
             print(f"ERROR: Knowledge block not found: {cbor_file}")
-            available_blocks = len(list(self.blocks_dir.glob('*.cbor')))
+            available_blocks = len([f for f in self.blocks_dir.iterdir() if f.is_file()])
             print(f"Available knowledge blocks: {available_blocks}")
             
             if available_blocks > 0:
                 print("Sample blocks (first 5):")
-                for i, block in enumerate(list(self.blocks_dir.glob('*.cbor'))[:5]):
+                for i, block in enumerate([f for f in self.blocks_dir.iterdir() if f.is_file()][:5]):
                     print(f"  {i+1}. {block.stem[:20]}...")
             
             sys.exit(1)
