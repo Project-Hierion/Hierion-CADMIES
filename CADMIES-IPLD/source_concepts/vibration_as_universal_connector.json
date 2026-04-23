@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vibration_as_universal_connector",
+  "title": "Vibration as Universal Connector",
+  "definition": "The metaphysical principle that sound is vibration, and vibration connects all things across physical, biological, and spiritual domains, enabling phenomena such as planetary breath synchronization.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Philosophy",
+  "formula": null,
+  "related_to": [
+    "planetary_synchronized_breath",
+    "meditative_breath_merging_with_nature"
+  ],
+  "builds_upon": [],
+  "specializes": [],
+  "contradicts": [],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "CADMIES-IPLD/philosophical_mining",
+    "certainty_score": 0.4,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "status": "active",
+    "supersedes": null,
+    "superseded_by": null,
+    "deprecation_reason": null
+  }
+}

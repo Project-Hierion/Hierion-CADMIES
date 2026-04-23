@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "playful_mystery_as_valid_knowing",
+  "title": "Playful Mystery as a Mode of Knowing",
+  "definition": "An epistemological stance in which an idea may lack scientific or empirical truth but still be considered 'true' in an emotional, poetic, or spiritual sense, often signaled by playfulness, irony, or a winking tone (e.g., the 🙃 emoji).",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Epistemology",
+  "formula": null,
+  "related_to": [
+    "oceanic_exhale_hypothesis"
+  ],
+  "builds_upon": [],
+  "specializes": [],
+  "contradicts": [],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "CADMIES-IPLD/philosophical_mining",
+    "certainty_score": 0.7,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "status": "active",
+    "supersedes": null,
+    "superseded_by": null,
+    "deprecation_reason": null
+  }
+}

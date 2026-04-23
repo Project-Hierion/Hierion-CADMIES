@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "oceanic_exhale_hypothesis",
+  "title": "Oceanic Exhale Hypothesis",
+  "definition": "The crashing sound of ocean waves is interpreted not as a purely physical process of water and air, but as the audible exhalation of breath from numerous beings across the world at any given time, particularly those in meditative states.",
+  "type": "PhilosophicalHypothesis",
+  "domain": "Epistemology",
+  "formula": null,
+  "related_to": [
+    "planetary_synchronized_breath",
+    "meditative_breath_merging_with_nature"
+  ],
+  "builds_upon": [],
+  "specializes": [],
+  "contradicts": [],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "CADMIES-IPLD/philosophical_mining",
+    "certainty_score": 0.3,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "status": "active",
+    "supersedes": null,
+    "superseded_by": null,
+    "deprecation_reason": null
+  }
+}
