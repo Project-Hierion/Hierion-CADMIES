@@ -79,7 +79,6 @@ CAR file	A bundle of blocks for sharing
 ```text
 CADMIES-IPLD/
 ├── README.md                      # This file
-├── CAR_USER_GUIDE.md              # Complete CAR export/import guide
 ├── store/
 │   ├── blocks/                    # CBOR blocks (concepts + provenance)
 │   └── index/                     # human_id → CID mappings
