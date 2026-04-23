@@ -32,6 +32,23 @@ python tools/core/cbor_reader.py natural_selection
 python tools/core/cid_generator_v1_1_0.py --concept-file source_concepts/example.json
 ```
 
+### Import the Full Mycelium (Recommended)
+
+The clone includes only 2 seed blocks:
+- **Philosophical Pattern Finder** — A pre-installed librarian agent that helps navigate and connect concepts
+- **A reference block** — A minimal test block to verify the system works out of the box
+
+All other concepts (50+) are distributed via CAR releases. This keeps the repository lightweight and allows the mycelium to grow independently of code updates.
+
+Import the full collection from the latest CAR release:
+
+```bash
+# Download and import the full mycelium
+python tools/import_from_github.py --url https://github.com/Hieros-CADMIES/CADMIES/releases/download/v0.2.0-reader-capability/full_mycelium_v0.2.0.car
+```
+
+You now have the complete mycelium of interconnected concepts.
+
 ## What is CADMIES?
 
 CADMIES is a system for storing scientific and philosophical concepts as immutable, content-addressed blocks (IPLD). Each concept has a permanent CID (Content IDentifier) that changes if and only if the content changes.
