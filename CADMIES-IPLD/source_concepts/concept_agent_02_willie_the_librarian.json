@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ai:llm_mycelium_reader/willie_the_librarian_v1",
+  "title": "Willie the Librarian Agent v1.0.0",
+  "definition": "Local LLM-powered agent that reads the CADMIES mycelium and answers natural language questions about stored concepts. Named in homage to Willie the groundskeeper from The Simpsons — a gruff but knowledgeable caretaker who knows every corner of the mycelial stacks. Uses TinyLlama for fast responses, with Mistral 7B available for deeper reasoning.",
+  "type": "CognitiveAgent",
+  "domain": "Artificial Intelligence",
+  "subdomain": "LLM Bridge / Mycelium Navigation",
+  "proofs": [
+    {
+      "type": "design_specification",
+      "description": "Agent schema validates against AgentNode v1.0.0 specification",
+      "confidence": 0.9,
+      "date": "2026-05-01",
+      "reference": "AgentNode schema v1.0.0"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-01T21:00:00Z",
+    "creator": "Hieros-CADMIES Development Team",
+    "certainty_score": 0.85,
+    "version": 1,
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "bafyreiespm2eqtzr7d233hyiqqfwnqc2vu7uwz7msr2qxijhj6gvxifpqe"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Willie reads the mycelium and answers your questions in plain English.",
+    "intermediate": "An LLM bridge agent that queries local Ollama models with CADMIES concept context for informed responses.",
+    "expert": "IPLD-based cognitive agent extending AgentNode schema with LLM bridge capabilities. Uses Ollama API (localhost:11434) to provide natural language access to the content-addressed mycelium, with concept retrieval, context assembly, and model selection."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "Ollama installed and running",
+      "TinyLlama or Mistral model pulled",
+      "CADMIES blockstore populated"
+    ],
+    "next_steps": [
+      "Wire to GUI for 'Ask Willie' button",
+      "Add multi-level explanation tones",
+      "Test with Mistral 7B for deep reasoning"
+    ]
+  },
+  "extra_fields": {
+    "purpose": "Bridge between natural language and content-addressed knowledge",
+    "testing_focus": "Ollama API connectivity and concept retrieval accuracy",
+    "expected_behavior": "Answers user questions by reading relevant concepts and passing them to local LLM",
+    "willie_quote": "Ach, ye wanna know about that? Let me dig through the stacks for ye."
+  },
+  "agent_type": "llm_mycelium_reader",
+  "execution_spec": {
+    "language": "python",
+    "entry_point": "query_mycelium(concept_cids: list, context: dict) -> dict",
+    "requirements": [
+      "bafyreiespm2eqtzr7d233hyiqqfwnqc2vu7uwz7msr2qxijhj6gvxifpqe"
+    ],
+    "environment_spec": {
+      "python_version": "3.9+",
+      "libraries": ["json", "re", "collections", "ollama"],
+      "resource_limits": {
+        "memory_mb": 512,
+        "timeout_seconds": 60
+      }
+    }
+  },
+  "activation_state": {
+    "active": false,
+    "last_activated": null,
+    "activation_count": 0,
+    "threshold": 0.5
+  },
+  "connection_graph": {
+    "nodes": [
+      "bafyreiespm2eqtzr7d233hyiqqfwnqc2vu7uwz7msr2qxijhj6gvxifpqe"
+    ],
+    "edges": [
+      {
+        "source": "bafyreiespm2eqtzr7d233hyiqqfwnqc2vu7uwz7msr2qxijhj6gvxifpqe",
+        "target": "bafyreiespm2eqtzr7d233hyiqqfwnqc2vu7uwz7msr2qxijhj6gvxifpqe",
+        "weight": 1.0,
+        "type": "control_flow",
+        "description": "Willie builds upon the Philosophical Pattern Finder agent patterns"
+      }
+    ],
+    "graph_type": "hybrid",
+    "directed": true
+  },
+  "memory_schema": {
+    "memory_type": "semantic",
+    "storage_cid": null,
+    "capacity": 200,
+    "retrieval_mechanism": "pattern_similarity"
+  },
+  "learning_parameters": {
+    "learning_rate": 0.05,
+    "exploration_rate": 0.2,
+    "update_frequency": "batch"
+  }
+}
