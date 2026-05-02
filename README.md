@@ -12,6 +12,7 @@ A philosophical and technical framework for content-addressed, scientifically-va
 # Clone the repository
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
 ```
+
 ```bash
 # Change directory
 cd CADMIES/CADMIES-IPLD
@@ -49,6 +50,59 @@ python tools/import_from_github.py --url https://github.com/Hieros-CADMIES/CADMI
 
 You now have the complete mycelium of interconnected concepts.
 
+### Ask Willie the Librarian (LLM Agent)
+
+Willie is CADMIES's local LLM agent — a Scottish groundskeeper who reads the mycelium and answers your questions in natural language. He searches the concept store, feeds relevant blocks to a local LLM via Ollama, and returns answers with CID references and accuracy tags.
+
+**Prerequisites:**
+
+```bash
+# Install Ollama and pull a model
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull mistral:7b     # Deep reasoning (recommended)
+ollama pull tinyllama:1.1b  # Fast queries
+```
+
+```bash
+# Install the Ollama Python client
+pip install ollama
+```
+
+```bash
+# Start Ollama (in a separate terminal)
+ollama serve
+```
+
+```bash
+# Ask Willie a question
+python agents/code/llm_mycelium_reader_v1.1.0.py --query "What is natural selection and how does it connect to other concepts?" --model mistral:7b
+```
+
+**What Willie does:**
+- Searches all 52+ concepts for relevance to your query
+- Feeds the top matches to the LLM as context
+- Returns answers with accuracy tags: `(empirical)`, `(philosophical)`, `(speculative)`, `(CADMIES-defined)`
+- References every concept by its permanent CID
+
+**Quick test:**
+
+```bash
+python agents/code/llm_mycelium_reader_v1.1.0.py --test
+```
+
+**Dual-model strategy:**
+
+| Model | Size | Speed | Use |
+|-------|------|-------|-----|
+| TinyLlama 1.1B | 637 MB | ~2s load | Quick lookups, concept retrieval |
+| Mistral 7B | 4.4 GB | ~2.5s load | Deep reasoning, cross-domain synthesis |
+
+Everything runs locally. No API keys, no cloud, no external calls. The LLM reads *your* mycelium, on *your* machine, sovereign and air-gapped.
+
+> *"Ach, ye wanna know about that? Let me dig through the stacks for ye."* — Willie the Librarian
+
+---
+
 ## What is CADMIES?
 
 CADMIES is a system for storing scientific and philosophical concepts as immutable, content-addressed blocks (IPLD). Each concept has a permanent CID (Content IDentifier) that changes if and only if the content changes.
@@ -66,6 +120,7 @@ CADMIES is a system for storing scientific and philosophical concepts as immutab
     CAR sharing – Export/import concepts as single files
 
 ### Core Concepts
+
 ```text
 Concept	Description
 CID	Content Identifier – permanent, content-addressed hash
@@ -76,6 +131,7 @@ CAR file	A bundle of blocks for sharing
 ```
 
 ## Directory Structure
+
 ```text
 CADMIES-IPLD/
 ├── README.md                      # This file
@@ -94,7 +150,11 @@ CADMIES-IPLD/
 │   ├── import_from_car.py         # Import CAR files
 │   └── import_from_github.py      # Download and import from GitHub
 ├── agents/                        # Executable agents
-│   └── code/                      # Agent implementations
+│   ├── code/                      # Agent implementations
+│   │   ├── philosophical_analyzer.py
+│   │   └── llm_mycelium_reader_v1.1.0.py  # Willie the Librarian
+│   └── schemas/                   # Agent schemas
+│       └── agent_node/
 └── source_concepts/               # JSON concept definitions
 ```
 
@@ -104,14 +164,17 @@ CADMIES uses CAR (Content Addressable Archive) files to share concepts between i
 A CAR file bundles one or more concepts with their provenance into a single file.
 
 ### Quick Export/Import
+
 ```bash
 # Export a single concept
 python tools/export_to_car.py natural_selection --output share.car
 ```
+
 ```bash
 # Import a CAR file
 python tools/import_from_car.py share.car
 ```
+
 ```bash
 # Export everything (backup)
 python tools/export_to_car.py --all --output full_backup.car
@@ -120,6 +183,7 @@ python tools/export_to_car.py --all --output full_backup.car
 ### Verification Workflow
 
 Scientists can verify concepts using ORCID and send back a CAR file:
+
 ```bash
 # Export a verified concept as CAR
 python tools/core/verification_manager.py --export-verification \
@@ -128,21 +192,25 @@ python tools/core/verification_manager.py --export-verification \
   --source orcid \
   --output verified.car
 ```
+
 ```bash
 # Preview verification without importing
 python tools/import_from_car.py verified.car --verify-only
 ```
+
 ```bash
 # Import verification
 python tools/import_from_car.py verified.car
 ```
 
 ### Import from GitHub
+
 ```bash
 python tools/import_from_github.py --url https://github.com/.../concept.car
 ```
 
 **Complete instructions: See CAR_USER_GUIDE.md**
+
 ```text
 Verification Badges
 Badge	Level	Meaning
@@ -153,6 +221,7 @@ Badge	Level	Meaning
 ```
 
 ## Tools
+
 ```text
 Tool	Purpose
 cid_generator_v1_1_0.py	Generate CID from JSON concept
@@ -163,12 +232,22 @@ export_to_car.py	Export concepts to CAR files
 import_from_car.py	Import CAR files into mycelium
 import_from_github.py	Download and import from GitHub
 car_utils.py	Low-level CAR reader/writer
+philosophical_analyzer.py	Analyze concepts for patterns and connections
+llm_mycelium_reader_v1.1.0.py	Ask Willie questions about the mycelium via local LLM
 ```
 
 ## Dependencies
+
 ```bash
 pip install dag-cbor multiformats
 ```
+
+Optional for LLM agent:
+
+```bash
+pip install ollama
+```
+
 No other external dependencies. 
 Air-gap compatible.
 
@@ -198,6 +277,6 @@ Free for:
 CADMIES is a digital mycorrhiza – a network where knowledge grows organically, distributed across independent colonies. 
 No single point of failure. 
 No central authority. 
-Just the mycelium. And you.
+Just the mycelium. And you. And Willie.
 
-The fortress stands. The mycelium grows. 🌱
+The fortress stands. The mycelium grows. The mycelium thinks. 🌱🧠
