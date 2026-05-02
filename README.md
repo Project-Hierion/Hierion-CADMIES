@@ -101,6 +101,41 @@ Everything runs locally. No API keys, no cloud, no external calls. The LLM reads
 
 > *"Ach, ye wanna know about that? Let me dig through the stacks for ye."* — Willie the Librarian
 
+### Graphical User Interface (GUI)
+
+CADMIES includes a web-based GUI for browsing, searching, and managing your mycelium visually.
+
+```bash
+# Navigate to the GUI directory
+cd cadmies-gui
+```
+
+```bash
+# Install GUI dependencies
+pip install -r requirements.txt
+```
+
+```bash
+# Launch the GUI
+python main.py
+```
+
+Open http://localhost:8080 in your browser. The GUI provides:
+
+Visual concept browsing by category and domain
+
+Full-text search across all concepts
+
+CID and provenance inspection
+
+One-click CAR import/export
+
+Interactive mycelium map (Cytoscape.js graph visualization)
+
+Verification badge display (🔴 🟡 🟢 💎)
+
+First-time setup: See cadmies-gui/README.md for detailed setup instructions including environment configuration.
+
 ---
 
 ## What is CADMIES?
@@ -135,6 +170,7 @@ CAR file	A bundle of blocks for sharing
 ```text
 CADMIES-IPLD/
 ├── README.md                      # This file
+├── CAR_USER_GUIDE.md              # CAR file system complete instructions
 ├── store/
 │   ├── blocks/                    # CBOR blocks (concepts + provenance)
 │   └── index/                     # human_id → CID mappings
@@ -153,9 +189,16 @@ CADMIES-IPLD/
 │   ├── code/                      # Agent implementations
 │   │   ├── philosophical_analyzer.py
 │   │   └── llm_mycelium_reader_v1.1.0.py  # Willie the Librarian
-│   └── schemas/                   # Agent schemas
-│       └── agent_node/
-└── source_concepts/               # JSON concept definitions
+│   ├── schemas/                   # Agent schemas
+│   │   └── agent_node/
+│   └── README.md                  # Agent system documentation
+├── cadmies-gui/                   # Web-based GUI (NiceGUI)
+│   ├── main.py
+│   ├── requirements.txt
+│   └── README.md
+├── source_concepts/               # JSON concept definitions
+├── specs/                         # Technical specifications
+└── analysis_results/              # Agent analysis output
 ```
 
 ## CAR File System (Sharing Concepts)
