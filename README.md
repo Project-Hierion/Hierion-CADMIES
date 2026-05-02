@@ -97,6 +97,8 @@ python agents/code/llm_mycelium_reader_v1.1.0.py --test
 | TinyLlama 1.1B | 637 MB | ~2s load | Quick lookups, concept retrieval |
 | Mistral 7B | 4.4 GB | ~2.5s load | Deep reasoning, cross-domain synthesis |
 
+**Complete setup instructions: See [LLM Setup Guide](documentation/guides/LLM_SETUP_GUIDE.md).**
+
 Everything runs locally. No API keys, no cloud, no external calls. The LLM reads *your* mycelium, on *your* machine, sovereign and air-gapped.
 
 > *"Ach, ye wanna know about that? Let me dig through the stacks for ye."* — Willie the Librarian
