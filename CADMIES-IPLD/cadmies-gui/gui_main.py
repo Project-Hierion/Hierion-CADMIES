@@ -20,6 +20,9 @@ from ui.pages.add_concept import AddConceptPage
 from ui.pages.browse import BrowsePage
 from ui.pages.audit import AuditPage
 
+# === WILLIE IMPORT ===
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from ui.pages.willie_chat import create_willie_page
 class CadmiesApp:
     def __init__(self):
         self.system = CadmiesSystem()
@@ -62,24 +65,22 @@ your-cadmies-root/
         # ========== HOME PAGE (Landing Page) ==========
         @ui.page("/")
         def home_page():
-            # Sidebar drawer
             with ui.left_drawer().classes("bg-primary") as drawer:
                 ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
                 ui.separator()
-                ui.link("🏠 Home", "/").classes("text-white")
-                ui.link("📊 Dashboard", "/dashboard").classes("text-white")
-                ui.link("➕ Add Concept", "/add").classes("text-white")
+                ui.link("📌 Dashboard", "/dashboard").classes("text-white")
                 ui.link("📚 Browse Library", "/browse").classes("text-white")
-                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🌱 Talk to Willie the librarian", "/willie").classes("text-white").props("target=_blank")
+                ui.link("➕ Add Concept", "/add").classes("text-white")
                 ui.link("🕸️ Mycelium Map", "/static/mycelium_map.html").classes("text-white").props("target=_blank")
+                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🏠 Home", "/").classes("text-white")
                 ui.separator()
                 ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
             
-            # Main content area
             with ui.column().classes("w-full p-8"):
                 ui.label("Welcome to CADMIES").classes("text-h3")
                 ui.label("Select an option from the sidebar to begin.").classes("text-italic")
-                # Count concepts from the index file directly
                 import json
                 index_path = self.system.get_index_path()
                 if index_path.exists():
@@ -96,12 +97,13 @@ your-cadmies-root/
             with ui.left_drawer().classes("bg-primary") as drawer:
                 ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
                 ui.separator()
-                ui.link("🏠 Home", "/").classes("text-white")
-                ui.link("📊 Dashboard", "/dashboard").classes("text-white")
-                ui.link("➕ Add Concept", "/add").classes("text-white")
+                ui.link("📌 Dashboard", "/dashboard").classes("text-white")
                 ui.link("📚 Browse Library", "/browse").classes("text-white")
-                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🌱 Talk to Willie the librarian", "/willie").classes("text-white").props("target=_blank")
+                ui.link("➕ Add Concept", "/add").classes("text-white")
                 ui.link("🕸️ Mycelium Map", "/static/mycelium_map.html").classes("text-white").props("target=_blank")
+                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🏠 Home", "/").classes("text-white")
                 ui.separator()
                 ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
             DashboardPage(self.system).render()
@@ -112,12 +114,13 @@ your-cadmies-root/
             with ui.left_drawer().classes("bg-primary") as drawer:
                 ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
                 ui.separator()
-                ui.link("🏠 Home", "/").classes("text-white")
-                ui.link("📊 Dashboard", "/dashboard").classes("text-white")
-                ui.link("➕ Add Concept", "/add").classes("text-white")
+                ui.link("📌 Dashboard", "/dashboard").classes("text-white")
                 ui.link("📚 Browse Library", "/browse").classes("text-white")
-                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🌱 Talk to Willie the librarian", "/willie").classes("text-white").props("target=_blank")
+                ui.link("➕ Add Concept", "/add").classes("text-white")
                 ui.link("🕸️ Mycelium Map", "/static/mycelium_map.html").classes("text-white").props("target=_blank")
+                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🏠 Home", "/").classes("text-white")
                 ui.separator()
                 ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
             AddConceptPage(self.system).render()
@@ -128,12 +131,13 @@ your-cadmies-root/
             with ui.left_drawer().classes("bg-primary") as drawer:
                 ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
                 ui.separator()
-                ui.link("🏠 Home", "/").classes("text-white")
-                ui.link("📊 Dashboard", "/dashboard").classes("text-white")
-                ui.link("➕ Add Concept", "/add").classes("text-white")
+                ui.link("📌 Dashboard", "/dashboard").classes("text-white")
                 ui.link("📚 Browse Library", "/browse").classes("text-white")
-                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🌱 Talk to Willie the librarian", "/willie").classes("text-white").props("target=_blank")
+                ui.link("➕ Add Concept", "/add").classes("text-white")
                 ui.link("🕸️ Mycelium Map", "/static/mycelium_map.html").classes("text-white").props("target=_blank")
+                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🏠 Home", "/").classes("text-white")
                 ui.separator()
                 ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
             BrowsePage(self.system).render()
@@ -144,15 +148,21 @@ your-cadmies-root/
             with ui.left_drawer().classes("bg-primary") as drawer:
                 ui.label("CADMIES IPLD Explorer").classes("text-h6 text-white")
                 ui.separator()
-                ui.link("🏠 Home", "/").classes("text-white")
-                ui.link("📊 Dashboard", "/dashboard").classes("text-white")
-                ui.link("➕ Add Concept", "/add").classes("text-white")
+                ui.link("📌 Dashboard", "/dashboard").classes("text-white")
                 ui.link("📚 Browse Library", "/browse").classes("text-white")
-                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🌱 Talk to Willie the librarian", "/willie").classes("text-white").props("target=_blank")
+                ui.link("➕ Add Concept", "/add").classes("text-white")
                 ui.link("🕸️ Mycelium Map", "/static/mycelium_map.html").classes("text-white").props("target=_blank")
+                ui.link("📋 Audit Trail", "/audit").classes("text-white")
+                ui.link("🏠 Home", "/").classes("text-white")
                 ui.separator()
                 ui.label(f"Store: {self.system.store_path}").classes("text-caption text-white")
             AuditPage(self.system).render()
+        
+        # ========== WILLIE CHAT PAGE ==========
+        @ui.page("/willie")
+        def willie():
+            create_willie_page()
     
     def run(self):
         ui.run(
