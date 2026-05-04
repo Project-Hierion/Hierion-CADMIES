@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "middle_path_of_consumption",
+  "title": "Middle Path of Consumption",
+  "definition": "Navigating between indulgence (clinging to pleasure as necessary for happiness) and aversion (rejecting pleasure as an obstacle to practice), finding a relationship with sensory experience that allows genuine enjoyment without dependency. The Middle Path of consumption is not grim moderation — it is joyful freedom. As the conversation crystallized: 'Enjoy it for what it is, without needing it to be more.'",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Buddhist_Philosophy",
+  "subdomain": "Applied Ethics",
+  "axioms": [
+    "Indulgence chains you to the object of craving.",
+    "Aversion chains you to the rejection of the object.",
+    "Both extremes are forms of bondage, not freedom.",
+    "True freedom is the capacity to enjoy without dependency.",
+    "The Middle Path is not compromise between extremes — it is transcendence of the binary."
+  ],
+  "poetic_version": "Love the Coke, and let it go.",
+  "mantra": "Enjoy without needing.",
+  "builds_upon": [
+    "craving_tanha_cycle"
+  ],
+  "related_to": [
+    "mindful_consumption",
+    "buddhist_philosophy:principle/non_attachment_vs_detachment"
+  ],
+  "contradicts": [
+    "ascetic_culture:axiom/pleasure_is_obstacle",
+    "consumer_culture:axiom/more_pleasure_equals_happiness"
+  ],
+  "metadata": {
+    "created": "2026-05-03T19:40:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.92,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Extracted by Mistral 7B and enriched by human co-gardener from conversation about Coca-Cola consumption and the Middle Way, May 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "You can enjoy your Coke without it owning you. The middle way isn't about giving up what you love — it's about not needing it to be happy. Drink it, enjoy it, and be fine without it.",
+    "intermediate": "The Middle Path of consumption rejects both hedonistic clinging and ascetic rejection. By recognizing sensory pleasures as impermanent and non-essential to wellbeing, one can engage with them fully while remaining fundamentally unshaken by their presence or absence.",
+    "expert": "This principle extends the Buddha's Middle Way into the domain of consumer behavior. It demonstrates that liberation is compatible with full participation in sensory life — the key is the quality of relationship, not the presence or absence of the object. Non-attachment enables deeper enjoyment precisely because it removes the desperation that corrupts pleasure."
+  }
+}
