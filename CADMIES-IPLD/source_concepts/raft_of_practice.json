@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "raft_of_practice",
+  "title": "Raft of Practice",
+  "definition": "A method or teaching is a vehicle for crossing over — a tool for liberation, not an end in itself. Once it has served its purpose, clinging to the method itself becomes another fetter to release. The mindful consumption practice used to see through Coca-Cola craving is itself a raft: use it to cross the river of compulsion, then leave it on the shore and walk on. The practice dissolves when it has done its work.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Buddhist_Philosophy",
+  "subdomain": "Practice Theory",
+  "axioms": [
+    "All practices and teachings are provisional, not absolute.",
+    "A method is for crossing over, not for carrying on your back.",
+    "Attachment to the practice is still attachment.",
+    "The highest teaching lets go of itself when its work is complete.",
+    "Leaving the raft behind is not ingratitude — it is the fulfillment of its purpose."
+  ],
+  "poetic_version": "The raft that crosses the river is not carried through the forest.",
+  "mantra": "Use it, then release it.",
+  "builds_upon": [
+    "non_attachment_vs_detachment"
+  ],
+  "related_to": [
+    "mindful_consumption",
+    "everyday_dharma"
+  ],
+  "contradicts": [
+    "dogmatic_culture:axiom/practice_is_permanent_obligation"
+  ],
+  "metadata": {
+    "created": "2026-05-03T19:40:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Identified by human co-gardener inspired by the Buddha's raft simile, applied to mindful Coca-Cola practice, May 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a practice like a raft. You use it to cross a river. Once you're on the other side, you don't carry the raft on your back — you leave it there gratefully and walk on. Mindful Coke-drinking is like that raft.",
+    "intermediate": "The Buddha's raft simile (Alagaddupama Sutta) warns against clinging to the Dharma itself. Practices are provisional tools. Mindful consumption is a raft for crossing the river of compulsive craving — once the compulsion dissolves, the need for the 'practice' label dissolves with it. One simply drinks, or doesn't, without weight.",
+    "expert": "This principle addresses the subtle attachment to spiritual methodology. The paradox of practice — learning cessation while consuming — resolves when the practice has done its work. The raft is real and necessary for crossing, but retaining it afterward becomes an obstruction. Liberation includes liberation from the means of liberation."
+  }
+}
