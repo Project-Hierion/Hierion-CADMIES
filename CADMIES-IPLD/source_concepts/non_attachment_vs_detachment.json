@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "non_attachment_vs_detachment",
+  "title": "Non-Attachment vs Detachment",
+  "definition": "The critical distinction between releasing dependency on an experience (non-attachment) versus coldly rejecting or avoiding it (detachment). Non-attachment allows genuine enjoyment without enslavement — you can love the Coke and let it go. Detachment, by contrast, is a form of aversion that still binds you to the object through rejection. Happiness that depends on a thing is fragile; happiness that doesn't depend on it is freedom.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Buddhist_Philosophy",
+  "subdomain": "Philosophy of Mind",
+  "axioms": [
+    "Non-attachment means freedom from dependency, not absence of experience.",
+    "Detachment is aversion disguised as wisdom — it is still bondage.",
+    "True non-attachment allows fuller enjoyment because desperation is absent.",
+    "You can fully love something without needing it for your wellbeing."
+  ],
+  "poetic_version": "Hold it lightly, love it fully, let it go freely.",
+  "mantra": "Love without clinging.",
+  "builds_upon": [
+    "middle_path_of_consumption"
+  ],
+  "related_to": [
+    "mindful_consumption",
+    "buddhist_philosophy:principle/raft_of_practice"
+  ],
+  "contradicts": [
+    "ascetic_culture:axiom/pleasure_is_obstacle",
+    "attachment_culture:axiom/love_requires_possession"
+  ],
+  "metadata": {
+    "created": "2026-05-03T19:40:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.90,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Identified by human co-gardener during analysis of Coca-Cola and Buddhist practice conversation, May 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "Non-attachment doesn't mean you can't enjoy things. It means your happiness isn't held hostage by them. You can love Coke and be perfectly happy without it too.",
+    "intermediate": "The distinction between non-attachment and detachment is crucial for practical Dharma. Detachment (avoiding pleasure out of fear of craving) is still a form of bondage — the object still controls you through aversion. Non-attachment is the capacity to engage fully while remaining inwardly free.",
+    "expert": "This principle resolves a common misinterpretation of Buddhist teaching. The goal is not apathy or emotional numbness but a radical freedom that paradoxically enables deeper engagement with experience. Because the non-attached person does not need the object for wellbeing, they can experience it more purely — untainted by the anxiety of potential loss."
+  }
+}
