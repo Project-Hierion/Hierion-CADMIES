@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mindful_consumption",
+  "title": "Mindful Consumption",
+  "definition": "The practice of experiencing a pleasant stimulus with full present-moment awareness, observing the sensation arise and fade without automatically acting on the subsequent craving. It introduces a 'pause' between sensation and reaction, breaking the automatic chain of compulsive consumption. This is not about abstinence from pleasure but about transforming one's relationship with it — freedom through awareness rather than restriction.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Buddhist_Philosophy",
+  "subdomain": "Applied Ethics",
+  "axioms": [
+    "Full awareness of a sensation weakens the automatic craving response.",
+    "The pause between sensation and reaction is where freedom resides.",
+    "Mindful consumption is not about avoiding pleasure but about non-dependency on it.",
+    "Any ordinary experience can serve as a vehicle for practice and insight."
+  ],
+  "poetic_version": "Savor the tingle, then let it go.",
+  "mantra": "Notice. Enjoy. Release.",
+  "builds_upon": [
+    "craving_tanha_cycle"
+  ],
+  "related_to": [
+    "buddhist_philosophy:principle/middle_path_of_consumption",
+    "buddhist_philosophy:principle/non_attachment_vs_detachment"
+  ],
+  "contradicts": [
+    "consumer_culture:axiom/more_is_better"
+  ],
+  "metadata": {
+    "created": "2026-05-03T19:40:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.91,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Extracted by Mistral 7B and enriched by human co-gardener from conversation about mindful Coca-Cola drinking and Buddhist practice, May 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "Drink your Coke slowly. Really taste it. When the urge for another sip comes, just notice it. You don't have to obey the craving — you can just watch it and choose differently.",
+    "intermediate": "Mindful consumption inserts metacognitive awareness between vedana and tanha. By observing the sensation's impermanence in real time, the compulsive link weakens. The goal is not abstinence but freedom from automaticity.",
+    "expert": "This practice operationalizes the Buddhist analysis of perception: contact → feeling → craving → clinging. By bringing sustained attention to the feeling phase without progressing to craving, one empirically verifies the constructed nature of compulsion and the possibility of its dissolution."
+  }
+}
