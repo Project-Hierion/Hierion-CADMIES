@@ -44,9 +44,9 @@ class AddConceptPage:
                 other_type = ui.input("Specify Type").classes("w-full mt-2").props("outlined")
                 other_type.visible = False
                 
-                def on_type_change(e):
-                    other_type.visible = (e.value == "Other")
-                concept_type.on_change(on_type_change)
+                def on_type_change():
+                    other_type.visible = (concept_type.value == "Other")
+                concept_type.on('change', on_type_change)
                 
                 domain = ui.select(
                     label="Domain *",
@@ -75,9 +75,9 @@ class AddConceptPage:
                 other_domain = ui.input("Specify Domain").classes("w-full mt-2").props("outlined")
                 other_domain.visible = False
                 
-                def on_domain_change(e):
-                    other_domain.visible = (e.value == "Other")
-                domain.on_change(on_domain_change)
+                def on_domain_change():
+                    other_domain.visible = (domain.value == "Other")
+                domain.on('change', on_domain_change)
                 
                 subdomain = ui.input("Subdomain *").classes("w-full").props("outlined")
                 subdomain.tooltip("e.g., Classical Mechanics, Applied Ethics, Practice Theory")
@@ -90,8 +90,8 @@ class AddConceptPage:
                 ui.label("Optional — Enrichment").classes("text-h6 text-grey-7")
                 ui.label("These fields add depth. You or another gardener can fill them in later.").classes("text-italic text-grey-6 text-caption")
                 
-                axioms = ui.textarea("Axioms").classes("w-full").props("outlined autogrow")
-                axioms.tooltip("Core truths of the concept. One axiom per line. e.g., 'Pleasant sensations are impermanent by nature.'")
+                axioms = ui.textarea("Axioms (Core Truths)").classes("w-full").props("outlined autogrow")
+                axioms.tooltip("Core truths of the concept. One axiom per line. Multiple axioms accepted. e.g., 'Pleasant sensations are impermanent by nature.'")
                 
                 poetic_version = ui.input("Poetic Version").classes("w-full").props("outlined")
                 poetic_version.tooltip("The concept distilled into one beautiful sentence. e.g., 'The bubbles fade, the thirst remains.'")
@@ -102,27 +102,30 @@ class AddConceptPage:
                 # === RELATIONSHIP FIELDS ===
                 ui.separator()
                 ui.label("Optional — Relationships").classes("text-h6 text-grey-7")
-                ui.label("Link this concept to others in the mycelium. Use human_ids (snake_case).").classes("text-italic text-grey-6 text-caption")
+                ui.label("Link this concept to others in the mycelium. Use human_ids (snake_case). Enter one per line.").classes("text-italic text-grey-6 text-caption")
                 
                 builds_upon = ui.textarea("Builds Upon").classes("w-full").props("outlined autogrow")
-                builds_upon.tooltip("Concepts this one directly extends. One human_id per line. e.g., 'craving_tanha_cycle'")
+                builds_upon.tooltip("Concepts this one directly extends. One human_id per line. Multiple entries accepted. e.g., 'craving_tanha_cycle'")
                 
                 related_to = ui.textarea("Related To").classes("w-full").props("outlined autogrow")
-                related_to.tooltip("Concepts with meaningful connections. One human_id per line.")
+                related_to.tooltip("Concepts with meaningful connections. One human_id per line. Multiple entries accepted.")
                 
                 contradicts = ui.textarea("Contradicts").classes("w-full").props("outlined autogrow")
-                contradicts.tooltip("Concepts or axioms this challenges. One per line.")
+                contradicts.tooltip("Concepts or axioms this challenges. One per line. Multiple entries accepted.")
                 
                 # === METADATA FIELDS ===
                 ui.separator()
                 ui.label("Optional — Metadata").classes("text-h6 text-grey-7")
                 
-                certainty = ui.slider(min=0.0, max=1.0, step=0.01, value=0.8)
-                certainty_label = ui.label("Certainty Score: 0.80").classes("text-caption")
+                certainty = ui.slider(min=0.0, max=1.0, step=0.01, value=0.8).classes("w-full")
+                with ui.row().classes("items-center gap-2"):
+                    ui.label("Certainty Score").classes("text-caption text-grey-7")
+                    ui.icon("info").classes("text-grey-5").tooltip("How confident are you in this concept? 0.0 = wild guess, 1.0 = irrefutable truth. Use the slider above to adjust.")
+                certainty_label = ui.label("0.80").classes("text-h6 text-primary")
                 
-                def on_certainty_change(e):
-                    certainty_label.set_text(f"Certainty Score: {e.value:.2f}")
-                certainty.on_change(on_certainty_change)
+                def on_certainty_change():
+                    certainty_label.set_text(f"{certainty.value:.2f}")
+                certainty.on('change', on_certainty_change)
                 
                 purpose = ui.select(
                     label="Purpose",
@@ -130,7 +133,7 @@ class AddConceptPage:
                     value="educational"
                 ).classes("w-full").props("outlined")
                 
-                genesis = ui.textarea("Genesis").classes("w-full").props("outlined autogrow")
+                genesis = ui.textarea("Genesis (Origin Story)").classes("w-full").props("outlined autogrow")
                 genesis.tooltip("How this concept came to be. e.g., 'Born from a conversation about Coca-Cola and Buddhist craving, May 2026.'")
                 
                 # === DIFFICULTY LEVELS ===
@@ -167,7 +170,7 @@ class AddConceptPage:
                     const domain = document.querySelector('[aria-label="Domain *"]')?.value || 'Not selected';
                     const subdomain = document.querySelector('[aria-label="Subdomain *"]')?.value || 'Not selected';
                     const description = document.querySelector('[aria-label="Definition *"]')?.value || '';
-                    const axioms = document.querySelector('[aria-label="Axioms"]')?.value || '';
+                    const axioms = document.querySelector('[aria-label="Axioms (Core Truths)"]')?.value || '';
                     const poetic = document.querySelector('[aria-label="Poetic Version"]')?.value || '';
                     const mantra = document.querySelector('[aria-label="Mantra"]')?.value || '';
                     
@@ -196,7 +199,7 @@ class AddConceptPage:
                 }
                 
                 document.addEventListener('DOMContentLoaded', function() {
-                    const fields = ['Concept Name *', 'Concept Type *', 'Domain *', 'Subdomain *', 'Definition *', 'Axioms', 'Poetic Version', 'Mantra'];
+                    const fields = ['Concept Name *', 'Concept Type *', 'Domain *', 'Subdomain *', 'Definition *', 'Axioms (Core Truths)', 'Poetic Version', 'Mantra'];
                     fields.forEach(fieldLabel => {
                         const field = document.querySelector(`[aria-label="${fieldLabel}"]`);
                         if (field) {
@@ -207,36 +210,7 @@ class AddConceptPage:
                 </script>
                 """)
                 
-                # === BUTTONS ===
-                with ui.row().classes("w-full justify-between mt-4"):
-                    ui.button("Generate CID & Store", on_click=submit).props("color=primary size=large")
-                    
-                    def reset_form():
-                        name.value = ""
-                        concept_type.value = "PhilosophicalPrinciple"
-                        domain.value = "Philosophy"
-                        subdomain.value = ""
-                        description.value = ""
-                        axioms.value = ""
-                        poetic_version.value = ""
-                        mantra.value = ""
-                        builds_upon.value = ""
-                        related_to.value = ""
-                        contradicts.value = ""
-                        certainty.value = 0.8
-                        purpose.value = "educational"
-                        genesis.value = ""
-                        beginner_explanation.value = ""
-                        intermediate_explanation.value = ""
-                        expert_explanation.value = ""
-                        other_type.visible = False
-                        other_domain.visible = False
-                        preview.content = ""
-                        ui.notify("Form cleared", type="info")
-                    
-                    ui.button("Reset", on_click=reset_form).props("color=grey outline")
-                
-                # === SUBMIT FUNCTION ===
+                # === SUBMIT FUNCTION (defined before buttons that reference it) ===
                 async def submit():
                     try:
                         # Build concept data with all fields
@@ -331,3 +305,32 @@ Stored in: `{self.system.get_blocks_path()}`
                         for error in e.errors():
                             field_name = error['loc'][0] if error['loc'] else 'unknown'
                             ui.notify(f"{field_name}: {error['msg']}", type="warning")
+                
+                # === RESET FUNCTION ===
+                def reset_form():
+                    name.value = ""
+                    concept_type.value = "PhilosophicalPrinciple"
+                    domain.value = "Philosophy"
+                    subdomain.value = ""
+                    description.value = ""
+                    axioms.value = ""
+                    poetic_version.value = ""
+                    mantra.value = ""
+                    builds_upon.value = ""
+                    related_to.value = ""
+                    contradicts.value = ""
+                    certainty.value = 0.8
+                    purpose.value = "educational"
+                    genesis.value = ""
+                    beginner_explanation.value = ""
+                    intermediate_explanation.value = ""
+                    expert_explanation.value = ""
+                    other_type.visible = False
+                    other_domain.visible = False
+                    preview.content = ""
+                    ui.notify("Form cleared", type="info")
+                
+                # === BUTTONS ===
+                with ui.row().classes("w-full justify-between mt-4"):
+                    ui.button("Generate CID & Store", on_click=submit).props("color=primary size=large")
+                    ui.button("Reset", on_click=reset_form).props("color=grey outline")
