@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sunyata_emptiness",
+  "title": "Śūnyatā (Emptiness)",
+  "definition": "The Buddhist philosophical principle that all phenomena are empty of inherent, independent existence. Things do not possess an essential, unchanging nature or 'self' (svabhāva). Rather, everything arises in dependence on causes and conditions, exists relationally, and lacks any permanent core. Emptiness is not nothingness — it is the recognition that things exist conventionally while being ultimately empty of independent essence. The Heart Sutra crystallizes this: 'Form is emptiness, emptiness is form.' To understand emptiness is to see through the illusion of solidity without falling into nihilism. It is the middle way between eternalism (things permanently exist) and annihilationism (nothing exists at all).",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Philosophy",
+  "subdomain": "Buddhist Philosophy",
+  "axioms": [
+    "All phenomena are empty of inherent, independent existence.",
+    "Emptiness is not nothingness — it is the absence of intrinsic essence, not the absence of appearance.",
+    "Form is emptiness; emptiness is form. The conventional and ultimate are not two separate realities.",
+    "To realize emptiness is to be liberated from clinging to fixed views, identities, and concepts.",
+    "Emptiness itself is empty — it is not a metaphysical absolute to cling to."
+  ],
+  "poetic_version": "The wave is not the water. The water is not the wave. Both are the ocean. The ocean is neither.",
+  "mantra": "Gate gate pāragate pārasaṃgate bodhi svāhā. (Gone, gone, gone beyond, gone utterly beyond — awake, so be it.)",
+  "builds_upon": [],
+  "related_to": [
+    "paradox_of_practice",
+    "non_attachment_vs_detachment",
+    "epistemic_humility"
+  ],
+  "contradicts": [
+    "commonsense:axiom/things_have_fixed_identities",
+    "scientific_materialism:axiom/only_physical_entities_exist"
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.90,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Root philosophical concept from Mahayana Buddhist tradition, specifically the Prajñāpāramitā (Perfection of Wisdom) literature and Nāgārjuna's Mādhyamaka philosophy. Added to CADMIES as foundational bridge concept, May 2026."
+  },
+  "difficulty_levels": {
+    "beginner": "Nothing is as solid as it seems. A table looks like one solid thing, but it's actually wood fibers, which are cells, which are molecules, which are atoms, which are mostly empty space. And 'table' is just a name we give it. Even you — your thoughts change, your cells replace themselves, your beliefs shift. There's no fixed, permanent 'you' hiding inside. That doesn't mean you don't exist. It means you exist as a process, not a statue. Emptiness means everything is like this: real, but not solid. Present, but not permanent.",
+    "intermediate": "Śūnyatā is the central philosophical insight of Mahayana Buddhism, systematized by Nāgārjuna (c. 150-250 CE) in his Mādhyamaka (Middle Way) philosophy. It holds that all dharmas (phenomena) are empty of svabhāva — inherent, independent self-nature. This is established through prasaṅga (reductio ad absurdum) analysis: any posited inherent existence leads to logical contradictions. Yet emptiness is not a nihilistic denial of the conventional world. Nāgārjuna's Two Truths doctrine distinguishes saṃvṛti-satya (conventional truth — the everyday world of cause and effect) from paramārtha-satya (ultimate truth — the emptiness of all phenomena). Realization of emptiness is not intellectual assent but a transformative insight that uproots the root cause of suffering: clinging to a reified sense of self and world.",
+    "expert": "Śūnyatā operates as both a metaphysical claim and a soteriological technique. Metaphysically, it is the assertion that all entities lack svabhāva — they are dependently originated (pratītyasamutpāda) and therefore empty of independent existence. This is not a denial of existence but a denial of a specific kind of existence: substantial, independent, self-sufficient. Nāgārjuna's tetralemma (catuṣkoṭi) demonstrates that ultimate reality cannot be captured by any of the four logical positions: existence, non-existence, both, or neither. Emptiness is therefore not a view to be adopted but a via negativa that eliminates all metaphysical views. Soteriologically, realizing emptiness is identical to liberation — seeing through the illusion of a substantial self extinguishes the three poisons (greed, hatred, delusion) at their root. In the CADMIES ecosystem, śūnyatā resonates with the core axiom 'A CID is a finger pointing at the moon' — the CID is not the concept, merely a reliable pointer. The map is not the territory. The concept is not the reality. Even emptiness is empty."
+  }
+}

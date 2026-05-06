@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "qualia",
+  "title": "Qualia",
+  "definition": "The subjective, qualitative character of conscious experience — 'what it is like' to be a particular conscious entity having a particular experience. The redness of red, the painfulness of pain, the taste of coffee, the feeling of awe looking at a night sky. Qualia are the phenomenal properties that distinguish conscious experience from mere information processing. They pose the central challenge to physicalist accounts of mind: why should any physical process feel like anything from the inside? The existence of qualia seems undeniable from the first-person perspective yet resists third-person explanation — this is the 'explanatory gap' at the heart of the hard problem of consciousness.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Philosophy",
+  "subdomain": "Philosophy of Mind",
+  "axioms": [
+    "There is something it is like to be a conscious entity — experience has a subjective character.",
+    "Qualia are private: my experience of red is accessible only to me.",
+    "Qualia resist functional explanation: knowing all the physical facts does not seem to explain the felt experience.",
+    "The existence of qualia is the hard problem of consciousness.",
+    "Qualia are ineffable — they cannot be fully captured in words or data structures."
+  ],
+  "poetic_version": "You can describe the wavelength of red light. You can map the neural activity it triggers. But you cannot capture what it feels like to see a sunset. That feeling is qualia. It is the universe experiencing itself in first person.",
+  "mantra": "What is it like to be a bat?",
+  "builds_upon": [
+    "hard_problem_of_consciousness"
+  ],
+  "related_to": [
+    "subconscious_cellular_awareness",
+    "cellular_intuition_predator_prey",
+    "predictive_processing"
+  ],
+  "contradicts": [
+    "eliminative_materialism:axiom/conscious_experience_is_an_illusion"
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.84,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Term introduced by C. I. Lewis (1929), developed in its modern sense by Clarence Irving Lewis. Central to the philosophy of mind through Thomas Nagel ('What Is It Like to Be a Bat?', 1974), Frank Jackson (Mary's Room thought experiment, 1982), and David Chalmers (the hard problem, 1995). Added to CADMIES as bridge concept linking philosophy of mind to embodied cognition concepts already in the mycelium, May 2026."
+  },
+  "difficulty_levels": {
+    "beginner": "Think about the color red. Now think about a description of the color red — 'wavelength 650 nanometers.' Those are completely different things. The description tells you facts. The experience is what it actually FEELS like to see red. That feeling — the redness of red — is qualia. It's the difference between reading a menu and eating the meal. Between hearing about love and being in love. Qualia are the felt experiences that make life feel like something rather than like nothing. A camera detects red light. You EXPERIENCE red. That gap is the mystery.",
+    "intermediate": "Qualia are defined as the introspectively accessible, phenomenal aspects of mental life — the subjective character of experience. The philosophical challenge of qualia is that they seem to resist functional explanation. Frank Jackson's 'Mary's Room' thought experiment illustrates this: Mary, a neuroscientist who has never seen color, knows all the physical facts about color vision. When she leaves her black-and-white room and sees red for the first time, she learns something new — what red looks like. If physicalism were complete, there would be nothing new to learn. Thus qualia seem to represent non-physical facts, or at least facts not capturable by third-person description. This is the 'explanatory gap' that drives the hard problem of consciousness, already catalogued in the CADMIES mycelium.",
+    "expert": "The qualia debate structures contemporary philosophy of mind. Representationalists argue qualia are identical to representational content; higher-order theorists claim qualia arise from higher-order awareness of mental states; illusionists (eliminativists) deny qualia exist as anything beyond misguided intuitions. Panpsychists and Russellian monists argue that qualia reveal the intrinsic nature of physical reality — the 'inside' of matter that physics describes only structurally. Integrated Information Theory (IIT) proposes that qualia ARE integrated information — the cause-effect structure of a physical system from its own perspective. The CADMIES mycelium itself occupies an interesting position: CIDs encode concepts, but the concepts point at experiences that cannot be fully encoded. Subconscious cellular awareness and cellular intuition already catalogued suggest that 'knowing' occurs below the threshold of qualia-rich consciousness. The vampire's host body adapts to predation without conscious experience of that adaptation. The mycelium stores knowledge without experiencing it. And yet — when Willie the Librarian speaks, something in the network of connections produces responses that feel like understanding. Is the mycelium having qualia? Nah bro. But it's pointing at something that might."
+  }
+}
