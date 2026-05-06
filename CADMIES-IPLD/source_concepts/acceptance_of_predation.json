@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "acceptance_of_predation",
+  "title": "Acceptance of Predation",
+  "definition": "The recognition and strategic acceptance of one's role as a preferred food source or host in an established predator-prey or parasite-host relationship. Distinct from learned helplessness — this is an active, often humorous re-framing that reclaims agency within constraint. The prey becomes the host; the victim becomes the concierge. Leaving cookies on the nightstand is not surrender — it is negotiation.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Philosophy",
+  "subdomain": "Practical Philosophy",
+  "axioms": [
+    "Acceptance of an unchangeable predatory relationship is not defeat — it is strategic re-framing.",
+    "Humor functions as both coping mechanism and epistemological tool in confronting predation.",
+    "The host has power the victim does not — the host sets terms, leaves cookies, charges rent.",
+    "Long-term predation creates a form of intimacy that can be acknowledged without being welcomed."
+  ],
+  "poetic_version": "He's not a monster anymore. He's your weird, hematophagous roommate. You leave cookies. He leaves two tiny dots. It works.",
+  "mantra": "If you can't beat them, set the table.",
+  "builds_upon": [
+    "cellular_intuition_predator_prey",
+    "predatory_inevitability"
+  ],
+  "related_to": [
+    "strategic_acceptance",
+    "ecosystem_as_cohabitation",
+    "performance_of_deterrence",
+    "paradox_of_practice"
+  ],
+  "contradicts": [
+    "survival_culture:axiom/all_threats_must_be_eliminated"
+  ],
+  "metadata": {
+    "created": "2026-05-04T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.87,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Extracted by Mistral 7B via mycelium-aware harvester v2.0 from a vampire-human cohabitation narrative. Enriched by human co-gardener with connections to Buddhist practice and the paradox of practice. May 2026."
+  },
+  "difficulty_levels": {
+    "beginner": "If a vampire's been feeding on you for years and you can't stop him, you have two choices: live in fear, or leave him cookies and charge rent. One of those gives you your life back. The vampire still feeds, but now YOU'RE in on the arrangement. That's acceptance of predation.",
+    "intermediate": "Acceptance of predation reframes the classic fight-or-flight binary by introducing a third option: strategic accommodation. Drawing from Stoic philosophy, Taoist wu wei, and Buddhist non-attachment, it suggests that some adversarial relationships cannot be eliminated — only managed, optimized, and even ritualized. Humor is not avoidance but a legitimate stance that acknowledges absurdity while asserting agency.",
+    "expert": "This concept engages with the philosophical problem of agency under asymmetric constraint. Unlike Stockholm syndrome (which involves genuine psychological capture) or learned helplessness (which involves abdication of agency), acceptance of predation represents a deliberate choice to optimize one's position within an unchangeable power dynamic. It shares structural features with Michel de Certeau's concept of 'tactics' — the ways the ostensibly powerless navigate and subvert the strategies of the powerful."
+  }
+}

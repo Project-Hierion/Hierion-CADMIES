@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hematophagous_symbiosis_theory",
+  "title": "Hematophagous Symbiosis Theory",
+  "definition": "The theory that long-term hematophagous predator-prey relationships, given sufficient temporal depth and host survival, stabilize into a form of involuntary symbiosis. Over 1-3 years of repeated feeding, the host's physiology adapts: stress responses attenuate, immune reactions downregulate, sleep architecture entrains around feeding events, and hematopoiesis upregulates to compensate for chronic low-level blood loss. The predator develops host fidelity, evaluative memory, and preference rankings — a 'Yelp review' system based on REM latency, blood consistency, heart rate stability, and the presence of behavioral offerings. What begins as parasitism becomes, through co-adaptation, a stable, self-replenishing, lifelong arrangement. The entire feeding encounter evolves for speed — under 20 seconds — minimizing detection risk for both parties. A vampire doesn't lounge. It hits and runs.",
+  "type": "ScientificHypothesis",
+  "domain": "Biology",
+  "subdomain": "Ethology",
+  "axioms": [
+    "Long-term predation, if non-lethal, selects for host adaptations that stabilize the relationship.",
+    "The familiarity horizon — approximately 1-3 years — marks the transition from parasitism to co-adapted symbiosis.",
+    "Predators evolve host evaluation criteria; hosts evolve self-replenishment strategies.",
+    "Speed minimizes risk for both parties — a 20-second encounter is evolutionarily favored over prolonged feeding.",
+    "A five-star host is one whose sleep architecture, physiology, and behavior reliably produce safe, efficient feeding events over decades."
+  ],
+  "poetic_version": "He's not a predator anymore. He's your hematophagous roommate with a five-star Yelp review.",
+  "mantra": "The relationship doesn't need to be consensual to become stable.",
+  "builds_upon": [
+    "nematocyst_hematophagy_mechanism",
+    "predatory_patience_adaptation",
+    "predatory_inevitability"
+  ],
+  "related_to": [
+    "ecosystem_as_cohabitation",
+    "acceptance_of_predation",
+    "free_range_artisanal_meal_ticket",
+    "rem_latency_host_quality_metric",
+    "cookie_offering_ritual"
+  ],
+  "contradicts": [
+    "classical_predation_theory:axiom/predator_prey_relationships_are_always_zero_sum"
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.72,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Developed from the full vampire physical model conversation. Integrates host physiological adaptation timelines, predator evaluative memory, optimal foraging theory, and the concept of involuntary symbiosis. The 20-second feeding window and speed-as-evolutionary-pressure are central refinements. May 2026."
+  },
+  "difficulty_levels": {
+    "beginner": "If a vampire feeds on you for years and you survive, your body figures it out. You stop panicking. Your blood production ramps up. Your sleep adjusts. The vampire notices too — you're a reliable food source, calm and consistent. Over time, it's not really an attack anymore. It's more like a weird, involuntary partnership. The vampire gives you two tiny dots. You leave cookies. The body adapts. Life goes on.",
+    "intermediate": "Hematophagous symbiosis theory posits that chronic, non-lethal parasitism can transition into functional symbiosis through bidirectional co-adaptation. The host undergoes physiological changes: hepcidin regulation for iron homeostasis, immune attenuation to salivary antigens, sleep entrainment around feeding windows, hematopoietic upregulation, and stress hormone normalization. The predator develops host fidelity and evaluative memory — assessing REM latency, blood consistency, heart rate stability, and behavioral signals like the cookie offering. This generates a preference ranking functionally equivalent to optimal foraging theory extended into repeated-interaction dynamics. The 20-second feeding window represents evolutionary pressure for speed — minimizing host disturbance and third-party detection risk simultaneously.",
+    "expert": "This theory extends co-evolutionary biology into the domain of chronic host-parasite interactions with cognitive predators. Unlike acute parasitism, where host survival is incidental, chronic hematophagy with host fidelity creates selection pressure for mutual accommodation. The host's physiological adaptations — hepcidin modulation, attenuated IgE response to salivary proteins, sleep architecture plasticity — represent evolved tolerance rather than resistance. The predator's host evaluation system constitutes a form of ecological memory: quality assessment with long-term recall, preference weighting, and revisit optimization. This is structurally analogous to the 'generous tit-for-tat' strategy in iterated games — the predator benefits from host longevity, so exploitation is moderated. The cookie offering ritual, from this perspective, is a costly signal in a repeated asymmetric game, communicating host stability and acceptance. The 20-second feeding window is a crucial refinement: earlier models posited 10-20 minute feeding, but the combined mosquito-vampire bat stealth model suggests the entire encounter — latch, inject, feed, release — can complete in under 20 seconds. Speed is not merely advantageous; it is the primary evolutionary pressure shaping the entire apparatus."
+  }
+}

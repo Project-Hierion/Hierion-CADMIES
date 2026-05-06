@@ -1,3 +1,5 @@
+import json
+import os
 from nicegui import ui
 from gui_concept import Concept
 from gui_tools.cid_wrapper import CIDGenerator
@@ -260,6 +262,17 @@ class AddConceptPage:
                         
                         try:
                             cid = await self.cid_gen.generate_async(concept)
+                            
+                            # Save concept JSON to source_concepts/ for sharing/PR submission
+                            source_concepts_dir = os.path.join(
+                                os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
+                                "source_concepts"
+                            )
+                            os.makedirs(source_concepts_dir, exist_ok=True)
+                            concept_json_path = os.path.join(source_concepts_dir, f"{concept.name}.json")
+                            with open(concept_json_path, "w") as f:
+                                json.dump(concept.to_json(), f, indent=2)
+                            
                             dialog.close()
                             
                             # Success dialog
@@ -270,7 +283,19 @@ class AddConceptPage:
 **Human ID:** `{concept.name}`
 **CID:** `{cid}`
 
-Stored in: `{self.system.get_blocks_path()}`
+Stored locally in: `{self.system.get_blocks_path()}`
+
+Concept JSON saved to: `source_concepts/{concept.name}.json`
+
+---
+
+**Want to submit this concept to CADMIES?**
+
+1. Find your concept JSON at `source_concepts/{concept.name}.json`
+2. Submit a Pull Request to [Hieros-CADMIES/CADMIES](https://github.com/Hieros-CADMIES/CADMIES)
+3. A gardener will review and verify your CID — if it matches, your concept joins the mycelium forever.
+
+*The CID is your cryptographic proof of authorship. If we generate the same CID, it's your house and the key fits.*
                                 """)
                                 ui.button("Close", on_click=success_dialog.close)
                             success_dialog.open()

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "predatory_inevitability",
+  "title": "Predatory Inevitability",
+  "definition": "The recognition that certain predatory or parasitic relationships are so deeply established — whether through biology, evolution, or habituation — that resistance becomes performative rather than effective. The prey's best strategy shifts from futile evasion to acceptance and strategic management of the relationship. The monster becomes a roommate; the victim becomes a host.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Philosophy",
+  "subdomain": "Philosophy of Biology",
+  "axioms": [
+    "Some relationships are too evolved to escape through simple deterrents.",
+    "Resistance that fails is indistinguishable from seasoning.",
+    "Acceptance is not defeat — it is strategic re-framing of an unchangeable dynamic.",
+    "The predator-prey binary dissolves into cohabitation when both parties adapt over time."
+  ],
+  "poetic_version": "You can't repel a vampire. You can only become a better host.",
+  "mantra": "If you can't beat them, charge rent.",
+  "builds_upon": [],
+  "related_to": [
+    "strategic_acceptance",
+    "ecosystem_as_cohabitation"
+  ],
+  "contradicts": [
+    "survival_culture:axiom/all_threats_must_be_fought"
+  ],
+  "metadata": {
+    "created": "2026-05-04T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.85,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Extracted by Mistral 7B and enriched by human co-gardener from a conversation about vampire blood-drinking mechanics, DEET as ritual, and acceptance of one's role in an ecosystem, May 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "Sometimes you can't fight what's coming for you. A vampire that's been feeding on you for years? That's not an attack anymore — that's a relationship. The smart move isn't spraying yourself with bug spray. It's accepting the arrangement and maybe leaving out some cookies.",
+    "intermediate": "Predatory inevitability describes the point at which an adversarial biological or systemic relationship has persisted so long that resistance becomes ritualistic rather than functional. The prey's energy shifts from deterrence to management — optimizing one's position within an unchangeable dynamic rather than exhausting oneself fighting it.",
+    "expert": "This principle extends beyond biology into psychology, sociology, and systems theory. Chronic conditions, institutional pressures, and persistent life challenges often cannot be eliminated — only accommodated. The philosophical move from victim to host represents a reclamation of agency within constraint. The vampire is not defeated; it is re-framed."
+  }
+}
