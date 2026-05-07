@@ -171,7 +171,9 @@ your-cadmies-root/
             dark=False,
             port=8081,
             show=True,
-            reload=False
+            reload=False,
+            ws_ping_interval=30,
+            ws_ping_timeout=600,
         )
 
 if __name__ == "__main__":

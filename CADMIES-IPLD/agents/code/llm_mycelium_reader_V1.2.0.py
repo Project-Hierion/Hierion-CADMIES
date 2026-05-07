@@ -3,8 +3,8 @@ File: llm_mycelium_reader.py
 Agent: Willie the Librarian
 Author: CADMIES Research Group
 Created: 2026-05-01
-Updated: 2026-05-05 — Tuned hybrid search weights + smarter expansion prompt
-Version: 1.2.1
+Updated: 2026-05-05 — Hybrid search + accuracy tags merge
+Version: 1.2.0
 System: CADMIES IPLD - LLM Bridge Agent
 Agent Type: llm_mycelium_reader
 Status: ACTIVE
@@ -13,16 +13,15 @@ Purpose: Bridge between natural language and the CADMIES mycelium.
          Reads concepts from blockstore, feeds them as context to a local
          LLM via Ollama, and returns informed answers with CID references.
 
-Version 1.2.1 Changes:
-  - Semantic weight bumped 0.4 → 0.5 for better cross-domain recall
-  - Keyword weight adjusted 0.6 → 0.5 (now equal weighting)
-  - Smarter expansion prompt: informs Mistral about actual mycelium domains
-  - Expansion now accepts optional domain context for better targeting
-
-Version 1.2.0 Changes (merge):
+Version 1.2.0 Changes (merge of two 1.1.0 branches):
   - Hybrid search: keyword matching + Mistral-powered semantic query expansion
   - Accuracy tags system: (empirical), (philosophical), (speculative), (CADMIES-defined)
   - Improved system prompt with four-step answer structure and full CADMIES name
+  - search_mycelium() now accepts use_semantic parameter
+  - keyword_search() extracted as standalone precision search
+  - expand_query_semantically() bridges everyday language to technical vocabulary
+  - load_all_concepts() helper added
+  - CLI: --semantic and --keyword-only flags
 
 Dependencies: ollama (pip install ollama), dag_cbor, json, re, collections
 Air-Gapped: Yes (Ollama runs on localhost:11434, no external APIs)
@@ -35,7 +34,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Dict, List, Any, Optional, Set
 
-__version__ = "1.2.1"
+__version__ = "1.2.0"
 
 # Try importing dag_cbor for block reading
 try:
@@ -137,26 +136,7 @@ def load_all_concepts() -> Dict[str, Dict[str, Any]]:
     return concepts
 
 
-def get_mycelium_domains(all_cids: List[str]) -> str:
-    """
-    Extract a summary of domains present in the mycelium for the expansion prompt.
-    """
-    domains = Counter()
-    for cid in all_cids:
-        concept = load_concept(cid)
-        if 'error' not in concept:
-            domain = concept.get('domain', 'Unknown')
-            domains[domain] += 1
-    
-    if not domains:
-        return "various knowledge domains"
-    
-    top_domains = domains.most_common(15)
-    domain_list = ", ".join([f"{d} ({c} concepts)" for d, c in top_domains])
-    return domain_list
-
-
-def expand_query_semantically(text: str, model: str = "mistral:7b", domain_context: str = "") -> List[str]:
+def expand_query_semantically(text: str, model: str = "mistral:7b") -> List[str]:
     """
     Use Mistral to expand a query or conversation snippet into related search terms,
     synonyms, and domain-specific vocabulary. Bridges the gap between everyday
@@ -165,7 +145,6 @@ def expand_query_semantically(text: str, model: str = "mistral:7b", domain_conte
     Args:
         text: The query or conversation text to expand
         model: Ollama model to use for expansion (default: mistral:7b)
-        domain_context: Optional string describing the mycelium's domains
         
     Returns:
         List of expanded search terms
@@ -173,25 +152,18 @@ def expand_query_semantically(text: str, model: str = "mistral:7b", domain_conte
     if not OLLAMA_AVAILABLE:
         return []
     
-    domain_info = ""
-    if domain_context:
-        domain_info = (
-            f"The knowledge system contains concepts in these domains: {domain_context}.\n"
-            f"Tailor your expansion to match the vocabulary used in these fields.\n\n"
-        )
-    
     expansion_prompt = (
         "You are a search query expander for a knowledge system containing concepts "
         "in philosophy, biology, cognitive science, buddhist philosophy, complexity science, "
         "physics, and related domains.\n\n"
-        f"{domain_info}"
         "Given the text below, generate a list of search keywords and phrases that would "
         "help find RELATED concepts — even ones that use different vocabulary.\n\n"
-        "RULES:\n"
-        "- Include synonyms, broader terms, narrower terms, and domain-specific technical vocabulary\n"
-        "- Think across domains: everyday language → technical terms, technical terms → everyday language\n"
-        "- If the text is playful or metaphorical, also generate the serious/academic terms for the same ideas\n"
-        "- Include 10-20 terms\n"
+        "Think across domains:\n"
+        "- If the text mentions vampires, also think about: parasitism, symbiosis, predation, hematophagy\n"
+        "- If the text mentions letting go, also think about: non-attachment, acceptance, wu wei, surrender\n"
+        "- If the text mentions patterns, also think about: fractals, emergence, self-organization\n"
+        "- If the text mentions the self, also think about: anatta, ego, identity, consciousness\n\n"
+        "Include synonyms, broader terms, narrower terms, and domain-specific technical vocabulary.\n"
         "Return ONLY a comma-separated list of keywords and short phrases. No other text.\n\n"
         "TEXT TO EXPAND:\n" + text[:2000]
     )
@@ -274,23 +246,20 @@ def search_mycelium(
     all_cids: List[str],
     use_semantic: bool = True,
     semantic_model: str = "mistral:7b",
-    keyword_weight: float = 0.5,
-    semantic_weight: float = 0.5
+    keyword_weight: float = 0.6,
+    semantic_weight: float = 0.4
 ) -> List[Dict[str, Any]]:
     """
     Hybrid search: combines keyword matching (precision) with semantic query
     expansion (recall) to find relevant concepts across vocabulary boundaries.
-    
-    Uses equal weighting (0.5/0.5) to give semantic-only discoveries a fair
-    chance at ranking well.
     
     Args:
         query: User's question or conversation text
         all_cids: List of all CIDs to search through
         use_semantic: Enable semantic query expansion (default: True)
         semantic_model: Ollama model for query expansion
-        keyword_weight: Weight for keyword match scores (default: 0.5)
-        semantic_weight: Weight for semantic match scores (default: 0.5)
+        keyword_weight: Weight for keyword match scores (default: 0.6)
+        semantic_weight: Weight for semantic match scores (default: 0.4)
         
     Returns:
         List of relevant concepts with combined relevance scores,
@@ -317,10 +286,7 @@ def search_mycelium(
     # === SEMANTIC SEARCH (optional) ===
     if use_semantic and OLLAMA_AVAILABLE:
         print("  Expanding query for semantic search...")
-        
-        # Get domain context to improve expansion quality
-        domain_context = get_mycelium_domains(all_cids)
-        expanded_terms = expand_query_semantically(query, semantic_model, domain_context)
+        expanded_terms = expand_query_semantically(query, semantic_model)
         
         if expanded_terms:
             print(f"  Semantic terms: {', '.join(expanded_terms[:10])}")
