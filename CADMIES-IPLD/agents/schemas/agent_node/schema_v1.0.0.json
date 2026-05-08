@@ -26,7 +26,8 @@
         "effector",
         "philosophical_analyzer",
         "scientific_reasoner",
-        "metaphysical_explorer"
+        "metaphysical_explorer",
+        "llm_mycelium_reader"
       ],
       "description": "Type of cognitive capability the agent provides"
     },

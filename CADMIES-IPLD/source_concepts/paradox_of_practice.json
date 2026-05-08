@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "paradox_of_practice",
+  "title": "Paradox of Practice",
+  "definition": "The apparent paradox of simultaneously learning about the cessation of craving while actively engaging with an object of craving — and the recognition that this is not a failure of practice but its highest expression. To the untrained mind, it appears contradictory. To the trained mind, there is no paradox: one is simply observing sensation without feeding the chain. What looks like indulgence from the outside is clarity from the inside.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Buddhist_Philosophy",
+  "subdomain": "Practice Theory",
+  "axioms": [
+    "What appears as paradox to the untrained mind is simply clarity to the trained mind.",
+    "Practicing with the object of craving is not compromise — it is advanced engagement.",
+    "The 'paradox' of mindful consumption resolves when direct experience replaces conceptual analysis.",
+    "Holding apparent contradictions is a sign of practice depth, not inconsistency."
+  ],
+  "poetic_version": "The sip that teaches cessation, the bubble that liberates.",
+  "mantra": "The paradox is the pointer, not the problem.",
+  "builds_upon": [
+    "everyday_dharma",
+    "raft_of_practice"
+  ],
+  "related_to": [
+    "mindful_consumption",
+    "middle_path_of_consumption"
+  ],
+  "contradicts": [
+    "purist_culture:axiom/practice_must_be_pure_and_separate"
+  ],
+  "metadata": {
+    "created": "2026-05-03T19:40:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.91,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Distilled from the central paradox of a conversation about learning Buddhist cessation while drinking Coca-Cola, May 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "Is it weird to learn about stopping craving while drinking a Coke? Maybe it seems that way at first. But actually, that's the best time to learn — right in the middle of the experience you're trying to understand.",
+    "intermediate": "The Paradox of Practice presents the untrained mind with an apparent contradiction: practicing cessation while consuming. But the contradiction exists only in concept, not in direct experience. The practitioner is not 'indulging while renouncing' — they are observing vedana without feeding tanha. The paradox resolves in the doing.",
+    "expert": "This principle engages with the pedagogical function of paradox in Buddhist practice. Like traditional koans, the apparent contradiction between consuming and practicing cessation is designed to exhaust the conceptual mind and open the door to direct insight. The resolution is not intellectual but experiential: one discovers that mindful engagement with craving's object can itself be the path through it."
+  }
+}

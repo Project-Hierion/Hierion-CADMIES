@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "everyday_dharma",
+  "title": "Everyday Dharma",
+  "definition": "The recognition that profound spiritual practice and insight occur within ordinary, even mundane, experiences — not only in retreat or formal meditation. A can of Coca-Cola can serve as a complete teaching on craving, impermanence, and liberation. The marketplace is the monastery; the carbonated beverage is the sutra.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Buddhist_Philosophy",
+  "subdomain": "Practice Theory",
+  "axioms": [
+    "Any moment of experience contains the entirety of the Dharma.",
+    "Retreat from the world is not required for awakening.",
+    "Ordinary objects and experiences can be complete vehicles for insight.",
+    "The distinction between 'sacred practice' and 'mundane life' is itself an attachment."
+  ],
+  "poetic_version": "The clink of ice, the fizz on the tongue — it's all part of the Dharma.",
+  "mantra": "This, too, is the path.",
+  "builds_upon": [
+    "mindful_consumption"
+  ],
+  "related_to": [
+    "buddhist_philosophy:principle/middle_path_of_consumption",
+    "buddhist_philosophy:principle/raft_of_practice",
+    "paradox_of_practice"
+  ],
+  "contradicts": [
+    "spiritual_culture:axiom/practice_requires_retreat"
+  ],
+  "metadata": {
+    "created": "2026-05-03T19:40:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.93,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Identified by human co-gardener from conversation about Coca-Cola consumption and Buddhist practice, May 2026"
+  },
+  "difficulty_levels": {
+    "beginner": "You don't need a meditation cushion or a quiet room. The can of Coke in your hand right now is already a perfect teacher — just pay attention to what's happening.",
+    "intermediate": "Everyday Dharma dissolves the sacred/profane binary. The same principles discovered in formal practice — impermanence, craving, liberation — are fully present in a sip of soda. Practice is not a place you go; it's a way of relating to whatever is already happening.",
+    "expert": "This principle aligns with the Mahayana teaching that samsara and nirvana are not separate realms. The Coke is empty of inherent existence, dependently arisen, and a complete dharma gate. Awakening is not elsewhere — it is available in the most ordinary moments of consumption and sensation."
+  }
+}

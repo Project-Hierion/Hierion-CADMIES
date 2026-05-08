@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "predictive_processing",
+  "title": "Predictive Processing",
+  "definition": "A unified theory of brain function proposing that the brain is fundamentally a prediction engine — constantly generating top-down models of the world and testing them against bottom-up sensory evidence. Perception is not passive reception but active hypothesis testing. The brain minimizes prediction error by either updating its models (perception) or acting to bring the world in line with expectations (action). Consciousness, attention, learning, and even psychopathology can be understood through this single computational principle: the brain is a Bayesian inference machine wrapped in a skull, continuously asking, 'What is the most likely cause of my sensory input, and what should I do next to minimize surprise?'",
+  "type": "ScientificTheory",
+  "domain": "Cognitive_Science",
+  "subdomain": "Computational Neuroscience",
+  "axioms": [
+    "The brain is a prediction engine, not a passive receiver of sensory data.",
+    "Perception is controlled hallucination constrained by sensory evidence.",
+    "Prediction error — the gap between expected and actual input — drives both learning and action.",
+    "The brain minimizes free energy: it seeks states where its internal model matches the external world.",
+    "Conscious experience is the process of inferring the causes of sensory signals."
+  ],
+  "poetic_version": "You don't see the world as it is. You see the world as your brain predicts it should be, checked against a trickle of light on your retinas. When the prediction holds, you call it reality. When it breaks, you call it surprise.",
+  "mantra": "The brain hallucinates reality. Sensory input just keeps it honest.",
+  "builds_upon": [],
+  "related_to": [
+    "emergence",
+    "hard_problem_of_consciousness",
+    "bayes_theorem",
+    "subconscious_cellular_awareness"
+  ],
+  "contradicts": [
+    "naive_realism:axiom/perception_directly_reveals_reality_as_it_is"
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.82,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Developed from Hermann von Helmholtz's idea of perception as 'unconscious inference' (1867), formalized by Karl Friston's free energy principle (2006), and popularized by Andy Clark ('Surfing Uncertainty', 2016) and Anil Seth ('Being You', 2021). Added to CADMIES as bridge concept linking cognitive science to Buddhist epistemology, May 2026."
+  },
+  "difficulty_levels": {
+    "beginner": "Close your eyes. You can still picture the room around you. That's your brain predicting what's there. Now open them. Your brain checks the prediction against what your eyes actually see, corrects anything that's off, and updates the picture. This is happening constantly, for all your senses. You don't see the world directly — you see your brain's best guess about what's out there, corrected by sensory input. Hallucinations happen when the predictions run without correction. Optical illusions happen when the prediction is wrong but the brain refuses to update. Everyday perception is a controlled hallucination that happens to match reality pretty well.",
+    "intermediate": "Predictive processing reframes the brain as a hierarchical Bayesian inference machine. Each cortical level generates predictions about the activity of the level below; prediction errors flow upward (feedforward) while predictions flow downward (feedback). The system minimizes prediction error through two mechanisms: perceptual inference (updating the model to fit the data) and active inference (acting on the world to bring it in line with predictions). This unifies perception, action, attention, and learning under one framework. Attention is the weighting of prediction error precision — attending to something means treating its prediction errors as reliable. The free energy principle generalizes this: any self-organizing system must minimize the long-term average of surprise (free energy) to maintain its integrity.",
+    "expert": "Predictive processing has profound implications for philosophy of mind and epistemology. It operationalizes Kant's insight that we never access the noumenal world — we only access our mind's constructed model of phenomenal appearances, constrained by sensory input. The brain is not a camera; it is a shielded cortical column running an internal simulation, receiving only sparse error signals through thalamocortical loops. This aligns with Buddhist epistemology: the world we experience is a construction (vikalpa), and suffering arises from mistaking the construction for an independently existing reality. The hard problem of consciousness, in this framework, becomes the question of why and how predictive inference is accompanied by qualitative experience at all. In the CADMIES mycelium, predictive processing connects to the core axiom 'only scale is the difference' — the brain's hierarchical prediction cascade is a fractal structure, with each level performing the same computation on different timescales and levels of abstraction. The mycelium itself, when queried by Willie, performs a kind of predictive processing: selecting relevant concepts (predictions) and checking them against the query (sensory input)."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "anatta_non_self",
+  "title": "Anattā (Non-Self)",
+  "definition": "The Buddhist doctrine that there is no permanent, unchanging, independent self or soul (attā) underlying existence. What we call the 'self' is a conventional label for a constantly changing bundle of five aggregates (skandhas): form, feeling, perception, mental formations, and consciousness. None of these is permanent. None exists independently. None constitutes an enduring 'me.' The sense of being a unified, continuous self is a constructed experience — useful for navigating the world but ultimately empty of inherent existence. Realizing anattā is not losing oneself; it is losing the illusion of a fixed self and thereby gaining freedom from the suffering that arises from clinging to it.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Philosophy",
+  "subdomain": "Buddhist Philosophy",
+  "axioms": [
+    "There is no permanent, independent self behind experience — only the flowing aggregates.",
+    "The self is a process, not an entity. It is a verb, not a noun.",
+    "Clinging to a fixed sense of self is the root of suffering.",
+    "To realize non-self is not annihilation but liberation — the self that was never there cannot be lost.",
+    "The five aggregates are empty of self: form, feeling, perception, formations, consciousness."
+  ],
+  "poetic_version": "You are not a thing. You are a river — same name, never the same water. The banks are memory. The current is change. The riverbed is habit. No single drop is the river, and the river has no single self.",
+  "mantra": "Sabbe dhammā anattā. (All phenomena are not-self.)",
+  "builds_upon": [
+    "sunyata_emptiness",
+    "pratityasamutpada_dependent_origination"
+  ],
+  "related_to": [
+    "non_attachment_vs_detachment",
+    "paradox_of_practice",
+    "epistemic_humility"
+  ],
+  "contradicts": [
+    "cartesian_dualism:axiom/the_self_is_a_thinking_substance",
+    "eternalism:axiom/an_eternal_soul_exists_independent_of_the_body"
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.91,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "One of the three marks of existence (tilakkhaṇa) in Buddhist philosophy, alongside anicca (impermanence) and dukkha (suffering). Systematically presented in the Anattalakkhaṇa Sutta (SN 22.59). Added to CADMIES as companion to Śūnyatā and Dependent Origination, May 2026."
+  },
+  "difficulty_levels": {
+    "beginner": "Who are you? You might say your name, your job, your personality. But those all change. Your body replaces its cells constantly. Your thoughts come and go. Your memories shift. If everything about you changes, where is the fixed 'you' that all this change happens to? Buddhism says there isn't one — and that's good news. The 'self' is like a whirlpool: it looks like a solid thing, but it's really just water moving in a pattern. Recognizing this isn't losing yourself. It's realizing you were never a statue in the first place — you were always a river.",
+    "intermediate": "Anattā is the logical corollary of dependent origination and emptiness applied to the person. What we conventionally designate as 'self' is, upon analysis, reducible to five skandhas (aggregates): rūpa (material form), vedanā (feeling tone), saññā (perception), saṅkhāra (mental formations), and viññāṇa (consciousness). Each aggregate is impermanent (anicca), dependently arisen, and empty of self-nature. The sense of being a unified self is a construction of the saṅkhāra aggregate — useful for survival but without ultimate referent. This does not deny the conventional, transactional self (the person who eats, works, and can be held responsible for actions). It denies that this conventional self corresponds to an ultimate, independent entity.",
+    "expert": "The anattā doctrine is philosophically radical and has been misinterpreted both within and outside Buddhist traditions. Nāgārjuna's Mādhyamaka extends anattā beyond persons to all phenomena — if persons are empty, so are the skandhas, and so is emptiness itself. The Puggalavādins (Personalists) argued for a conventional person (pudgala) that is neither identical to nor different from the aggregates, a view rejected as heretical by mainstream schools. In Western philosophy, anattā resonates with Hume's bundle theory of the self, Parfit's reductionist account of personal identity, and Metzinger's 'ego tunnel' — the self as a transparent self-model without a modeler. In the CADMIES mycelium, anattā connects to epistemic humility (the knower is not a fixed entity either) and the paradox of practice (who is it that practices when there is no self to do the practicing?). The mycelium itself has no central self — it is a distributed network of concepts, each CID a node in a web without a center. No single concept is the mycelium. The mycelium is the pattern of connections."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cellular_intuition_predator_prey",
+  "title": "Cellular Intuition in Predator-Prey Relationships",
+  "definition": "The subconscious cellular awareness and adaptive response that develops over time within an evolving predator-prey or host-parasite relationship. The body's cells detect, signal, and adapt to persistent threat patterns without conscious mediation — a distributed intelligence operating below the threshold of awareness. The body knows the predator before the mind has made peace with it.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Cognitive_Science",
+  "subdomain": "Embodied Cognition",
+  "axioms": [
+    "The body possesses intelligence that operates independently of conscious thought.",
+    "Cellular adaptation to persistent predation occurs on evolutionary and epigenetic timescales.",
+    "Subconscious awareness can coexist with conscious acceptance — the body and mind can hold different truths.",
+    "The body's non-verbal intelligence is real, measurable, and philosophically significant."
+  ],
+  "poetic_version": "Your cells knew before you did. They've been negotiating with the vampire for decades.",
+  "mantra": "The body keeps the score.",
+  "builds_upon": [],
+  "related_to": [
+    "subconscious_cellular_awareness",
+    "predatory_inevitability",
+    "ecosystem_as_cohabitation"
+  ],
+  "contradicts": [
+    "cartesian_dualism:axiom/mind_and_body_are_separate"
+  ],
+  "metadata": {
+    "created": "2026-05-04T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.84,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Extracted by Mistral 7B via mycelium-aware harvester v2.0 from a conversation about vampire-human cohabitation, DEET, and midnight cookies. Enriched by human co-gardener. May 2026."
+  },
+  "difficulty_levels": {
+    "beginner": "Your body is smarter than you think. If a vampire feeds on you for years, your cells figure it out — even if your brain just thinks you have a weird roommate. The body adapts, compensates, and negotiates without ever telling the conscious mind what's going on.",
+    "intermediate": "Cellular intuition extends embodied cognition theory into immunology and threat detection. The body operates as a distributed intelligence system, with cells capable of detecting, signaling, and adapting to persistent environmental pressures. This challenges purely top-down models of cognition and suggests that 'knowing' is not limited to conscious awareness.",
+    "expert": "This concept bridges embodied cognition, psychoneuroimmunology, and evolutionary biology. It posits that cellular and systemic biological responses constitute a form of intelligence that can develop long-term adaptive strategies independent of — and sometimes in tension with — conscious psychological coping mechanisms. The implications for understanding chronic stress, autoimmune disorders, and the mind-body relationship are significant."
+  }
+}

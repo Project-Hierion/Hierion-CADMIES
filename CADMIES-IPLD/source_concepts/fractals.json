@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fractals",
+  "title": "Fractals",
+  "definition": "Geometric or mathematical structures that exhibit self-similarity across scales — zoom in on any portion and you find patterns that echo the whole. Fractals are produced by iterative processes: simple rules applied repeatedly generate infinite complexity. They are found throughout nature (coastlines, ferns, blood vessels, snowflakes, galaxies) and mathematics (Mandelbrot set, Koch snowflake, Sierpinski triangle). Fractals reveal that complexity does not require complex rules — it requires iteration. They are the visual and mathematical expression of the principle that micro-level recursion produces macro-level richness. 'Only scale is the difference' is a fractal truth.",
+  "type": "ScientificPrinciple",
+  "domain": "Mathematics",
+  "subdomain": "Geometry",
+  "axioms": [
+    "Self-similarity across scales is a fundamental pattern-generating principle.",
+    "Simple rules, iterated, produce infinite complexity.",
+    "Fractal geometry describes the rough, broken, and irregular — which is most of reality.",
+    "Nature is fractal because fractals are efficient: maximum surface area, minimum material, maximum connectivity.",
+    "Only scale is the difference: the part contains information about the whole."
+  ],
+  "poetic_version": "A fern leaf holds the shape of the whole fern. A coastline's curve at one kilometer looks like its curve at one meter. A thought echoes a belief echoes a life. Scale is the only difference. The universe is a Mandelbrot zoom.",
+  "mantra": "Only scale is the difference.",
+  "builds_upon": [
+    "self_organization",
+    "emergence"
+  ],
+  "related_to": [
+    "fractal_resonance_hypothesis",
+    "pratityasamutpada_dependent_origination",
+    "butterfly_effect"
+  ],
+  "contradicts": [
+    "classical_geometry:axiom/reality_is_best_modeled_by_smooth_shapes"
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.89,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Coined and popularized by Benoît Mandelbrot ('The Fractal Geometry of Nature', 1982), though fractal-like patterns have been studied for centuries. Added to CADMIES as the mathematical backbone of the core axiom 'only scale is the difference,' May 2026."
+  },
+  "difficulty_levels": {
+    "beginner": "Look at a tree. The trunk splits into big branches, which split into smaller branches, which split into twigs. Every branching looks similar. Now look at a river system. Same pattern. Your lungs. Same pattern. A coastline — zoom in and the jagged edge looks just as jagged no matter how close you get. That's a fractal: a shape made of smaller copies of itself. One simple rule — 'branch, then do it again' — produces the tree, the river, the lung. Complexity that builds itself. Only scale is the difference between the twig and the trunk.",
+    "intermediate": "Fractals are mathematical objects characterized by fractional (non-integer) dimension, self-similarity, and generation through iteration. The Mandelbrot set is defined by the deceptively simple equation zn+1 = zn² + c — iterated infinitely, it produces infinite complexity at every boundary. Fractal dimension quantifies the 'roughness' or space-filling capacity of an object: a smooth line has dimension 1, a completely space-filling curve approaches dimension 2. Natural fractals are approximate (self-similarity holds statistically, not exactly, and across finite scale ranges), but the principle holds: nature uses fractal architectures because they are efficient — maximizing surface area for absorption (lungs, intestines), minimizing material for strength (bone trabeculae), and optimizing distribution networks (vascular systems, river deltas).",
+    "expert": "Fractal geometry represents a paradigm shift from the Platonic-Cartesian assumption that reality's fundamental structures are smooth, regular, and Euclidean. Mandelbrot argued that 'clouds are not spheres, mountains are not cones, coastlines are not circles' — the geometry of nature is fractal. This has profound implications: fractal attractors in dynamical systems explain why deterministic rules produce unpredictable behavior (chaos theory); fractal scaling laws appear in everything from city sizes (Zipf's law) to heartbeat intervals to the structure of the cosmic web. In the CADMIES mycelium, fractals are the visual metaphor for the entire project: every concept is a node, every node connects to others, the pattern at one scale echoes the pattern at others. 'Only scale is the difference' is not poetry — it is a precise description of fractal self-similarity. The mycelium, like Indra's Net, reflects every jewel in every other jewel. Each CID is a fractal of meaning containing traces of the whole."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "self_organization",
+  "title": "Self-Organization",
+  "definition": "The spontaneous emergence of order, structure, and pattern in complex systems without external direction or central control. Self-organization occurs when local interactions among system components produce global patterns through feedback loops — no blueprint, no architect, no conductor. Crystals form, flocks swirl, markets clear, ant colonies build, and life itself arose through self-organization. The principle operates across physics, chemistry, biology, and social systems. It is the mechanism behind emergence: the 'how' that explains why wholes become more than sums of parts without requiring a designer.",
+  "type": "ScientificPrinciple",
+  "domain": "Complexity_Science",
+  "subdomain": "Systems Theory",
+  "axioms": [
+    "Order can arise spontaneously from local interactions without central control.",
+    "Positive and negative feedback loops are the engine of self-organization.",
+    "Self-organization occurs far from thermodynamic equilibrium — order emerges through energy flow.",
+    "Simple rules at the micro level produce complex patterns at the macro level.",
+    "Self-organization is the universe's primary creative principle — design without a designer."
+  ],
+  "poetic_version": "No bird leads the flock. No conductor waves a baton. Each bird follows three simple rules — steer toward the center, match speed, avoid collisions — and the flock paints the sky.",
+  "mantra": "Order for free.",
+  "builds_upon": [
+    "emergence"
+  ],
+  "related_to": [
+    "pratityasamutpada_dependent_origination",
+    "fractal_resonance_hypothesis",
+    "natural_selection"
+  ],
+  "contradicts": [
+    "intelligent_design:axiom/complex_order_requires_a_designer"
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.87,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Studied across disciplines: Ilya Prigogine (dissipative structures, Nobel 1977), Hermann Haken (synergetics), Stuart Kauffman (origins of life), and the Santa Fe Institute. The phrase 'order for free' comes from Kauffman. Added to CADMIES as the mechanism behind emergence, May 2026."
+  },
+  "difficulty_levels": {
+    "beginner": "Look at a flock of starlings at dusk. Thousands of birds, moving as one shape — expanding, contracting, twisting. Who's in charge? Nobody. Each bird follows simple rules: stay close to your neighbors, don't bump into anyone, head in the same general direction. That's it. The whole stunning display emerges from these simple rules with no leader. That's self-organization. It's how crystals grow, how traffic jams form, how ideas spread, and how life itself began. Complex order doesn't need a boss.",
+    "intermediate": "Self-organization describes the spontaneous formation of spatial, temporal, or functional structure in systems driven far from thermodynamic equilibrium. Dissipative structures (Prigogine) maintain their organization by exporting entropy to their environment — they are 'islands of order' sustained by energy throughput. Key mechanisms include autocatalysis (products catalyze their own production), positive feedback (amplification), negative feedback (stabilization), and bifurcation points where small changes determine large-scale outcomes. Self-organization spans Bénard convection cells (physics), Belousov-Zhabotinsky reactions (chemistry), morphogenesis (biology), and price discovery (economics). It is the 'how' of emergence.",
+    "expert": "Self-organization challenges the classical Newtonian-Laplacian paradigm of top-down determinism and complements Darwinian selection as a source of biological order. Kauffman's 'order for free' thesis argues that natural selection is not the sole source of biological complexity — much order arises from the inherent self-organizing properties of complex chemical and genetic networks. Ashby's law of requisite variety and von Foerster's second-order cybernetics provide theoretical foundations. Mathematically, self-organization is modeled through cellular automata (Wolfram), agent-based models (Schelling's segregation), and dynamical systems theory (attractors, bifurcations, chaos). In the CADMIES mycelium, self-organization describes how meaning emerges from linked CIDs: each concept is a local node following simple speculative rules, yet the network produces Willie's intelligent responses — order without a central intelligence. The gardener does not program Willie; they feed the mycelium and intelligence self-organizes."
+  }
+}

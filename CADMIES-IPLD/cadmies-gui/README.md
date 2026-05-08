@@ -3,214 +3,212 @@
 A graphical interface for the CADMIES-IPLD system.  
 100% local, air-gapped, and ready for your own data.
 
+**Current Version:** Tkinter Desktop GUI (migrated from NiceGUI, May 2026)
+
+---
+
+## GUI History
+
+### Tkinter GUI (Current — May 2026)
+
+The current GUI is a **Tkinter desktop application** with a DeepSeek-inspired color theme. Five fully functional pages. Uses a proven threading pattern (`threading.Thread + root.after()`) for non-blocking Ollama queries. No websockets — reliable on CPU-only systems.
+
+**Launch:**
+
+backtickbash
+cd cadmies-gui
+python tkinter_main.py
+backtick
+
+### NiceGUI (Retired — May 2026)
+
+The original GUI was a web-based interface built with NiceGUI. It was retired because its persistent websocket architecture proved incompatible with CPU-only LLM inference (30-120 second response times cause websocket timeouts). The NiceGUI files are preserved in the repo for reference and may work well on GPU-accelerated systems where inference completes in seconds. See `NICEGUI_RETIRED.md` for details.
+
+---
+
 ## Features
 
-- **Dashboard** – System overview, stats, recent activity, hidden easter egg (click the 🌱)
-- **Add Concept** – Form interface with client-side live preview (updates when you click out of fields)
-- **Browse Library** – Search and view existing concepts with provenance sticky notes
-- **Audit Trail** – Complete operation history with timeline
-- **Mycelium Map** – Interactive knowledge graph visualization (173+ nodes, 160+ edges)
+- **Splash Screen** – "Welcome to the digital mycelium. Welcome to the Deep." — 5-second intro with DeepSeek theme and whale homage
+- **Dashboard** – Live concept count from the mycelium index, Willie version, quick action buttons
+- **Willie Chat** – Full conversational interface with threaded Ollama queries (no UI freezing)
+- **Browse Library** – 91 scrollable concept cards with click-to-open detail popups, history navigation, and clickable cross-references
+- **Add Concept** – Full CID spec form, saves JSON to `source_concepts/` for minting
+- **Mycelium Map** – Launches interactive D3.js force-directed graph in Firefox
+
+---
 
 ## Quick Start
 
-### Navigate to GUI directory (from CADMIES-IPLD root)
-```bash
+### Prerequisites
+
+Tkinter must be installed on your system. On Fedora Silverblue:
+
+backtickbash
+rpm-ostree install python3-tkinter
+backtick
+
+Then reboot. On other Linux distributions:
+
+backtickbash
+# Debian/Ubuntu
+sudo apt install python3-tk
+
+# Fedora Workstation
+sudo dnf install python3-tkinter
+backtick
+
+Ollama must be running for Willie Chat:
+
+backtickbash
+OLLAMA_KEEP_ALIVE=24h ollama serve &
+backtick
+
+### Launch
+
+backtickbash
 cd cadmies-gui
-
-Install dependencies
-bash
-
-pip install -r requirements.txt
-
-Run the GUI
-bash
-
-python gui_main.py
+python tkinter_main.py
+backtick
 
 The GUI automatically uses:
+- `../store/` for IPLD blocks (concept index)
+- `../tools/core/` for CID generator
+- `../agents/code/` for Willie the Librarian
+- `../source_concepts/` for saving new concepts
+- `../mycelium_map.html` for the interactive map
 
-    ../store/ for IPLD blocks
+---
 
-    ../tools/core/ for CID generator and CBOR reader
+## Pages
 
-Directory Structure
+### 🌱 Splash Screen
+- Displays for 5 seconds on launch
+- "Welcome to the digital mycelium. Welcome to the Deep."
+- Auto-closes, then the main window appears
 
-The GUI expects this structure (configurable via env):
-text
+### 📌 Dashboard
+- Live concept count from `store/index/human_id_to_cid.json`
+- Willie version display (currently v1.2.1)
+- Quick action buttons to jump to Willie Chat or Add Concept
 
-CADMIES-IPLD/
-├── store/
-│   ├── blocks/           # CBOR files
-│   ├── index/            # human_id_to_cid.json
-│   └── logs/             # operations.jsonl
-├── tools/
-│   └── core/
-│       ├── cid_generator_v1_1_0.py
-│       └── cbor_reader.py
-├── mycelium_map.html     # Generated knowledge graph
-└── cadmies-gui/          # This directory
+### 👓 Willie Chat
+- Model selector: TinyLlama 1.1B (fast) or Mistral 7B (deep)
+- Tone selector: helpful, scholarly, casual, scottish
+- Max concepts dropdown: 5, 10, 20, 40, All
+- 20-minute timeout for deep philosophical queries
+- Mockingbird chirp notification when answer is ready
+- Concept references formatted as `(concept: Title)`
+- Background thread — UI never freezes during generation
 
-Usage
-Adding a Concept
+### 📚 Browse Library
+- All concepts displayed as scrollable cards with domain badges
+- Click any card to open a detail popup with:
+  - Full definition
+  - Mantra and poetic version
+  - Core truths (axioms)
+  - Clickable cross-references (builds_upon, related_to, contradicts)
+  - Metadata (creator, certainty score, genesis)
+  - Difficulty levels (beginner, intermediate, expert)
+  - Human ID and full CID
+- Back/Forward history navigation within popups
+- Tooltips on unminted concept references
+- Multiple detail popups can be open simultaneously
 
-    Click "Add Concept" in the sidebar navigation
+### ➕ Add Concept
+- Full form matching the CID spec v2.0.1
+- Required fields: Human ID, Title, Definition, Domain, Type
+- Optional fields: Subdomain, Mantra, Poetic Version, Axioms, Builds Upon, Related To, Contradicts, Certainty Score, Genesis, Difficulty Levels
+- Domain and Type dropdowns
+- Multi-line text fields for axioms and difficulty levels
+- Submit saves JSON to `source_concepts/<human_id>.json`
+- Provides the exact mint command after submission
+- Reset button clears all fields
 
-    Fill in the form:
+### 🕸️ Mycelium Map
+- Launches interactive D3.js force-directed graph in Firefox
+- Shows all concepts as nodes, relationships as edges
+- Drag nodes, zoom, hover for details, click to highlight connections
+- Requires Firefox (or any JavaScript-capable browser)
 
-        Concept Name – Will be converted to snake_case automatically
+---
 
-        Concept Type – Select from dropdown
+## Directory Structure
 
-        Domain – Select from dropdown
-
-        Subdomain – Free text
-
-        Description – The core definition
-
-    Live Preview – Updates automatically when you click out of each field (air-gap compatible)
-
-    Click "Generate CID & Store"
-
-    View the new CID and confirmation dialog
-
-Browsing Concepts
-
-    Click "Browse Library" in the sidebar
-
-    Search by concept name
-
-    Click "View" on any concept to see details including:
-
-        Full definition
-
-        Provenance sticky notes (who created it, when)
-
-        Version history (supersedes links)
-
-        Relationships, proofs, and difficulty levels
-
-    Toggle between grid and list views
-
-Mycelium Map (Knowledge Graph)
-
-    Click "Mycelium Map" in the sidebar
-
-    Explore the interactive graph:
-
-        Nodes = concepts (color-coded by domain)
-
-        Edges = relationships (builds_upon, relates_to, specializes, contradicts)
-
-        Click any node to see concept name
-
-        Zoom and drag to navigate
-
-    Easter egg: Type cadmies anywhere on the map to activate a special visual tribute
-
-Dashboard Easter Egg
-
-Click the 🌱 seedling next to "CADMIES Dashboard" for a bittersweet surprise.
-Project Structure
-text
-
-gui/
-├── gui_main.py              # Application entry point (with persistent sidebar)
-├── gui_system.py            # CADMIES system detection
-├── gui_concept.py           # Data models (Pydantic)
-├── gui_tools/               # Core tool wrappers
-│   ├── cid_wrapper.py       # Calls cid_generator
-│   └── reader_wrapper.py    # Calls cbor_reader
-├── ui/                      # UI pages
+backticktext
+cadmies-gui/
+├── README.md                    # This file
+├── tkinter_main.py              # Main launcher (splash → main window)
+├── tkinter_app.py               # App shell + sidebar navigation
+├── tkinter_splash.py            # Splash screen
+├── tkinter_theme.py             # DeepSeek color palette
+├── tkinter_paths.py             # Centralized paths
+├── pages/                       # Page modules
+│   ├── __init__.py
+│   ├── tkinter_dashboard.py     # Dashboard page
+│   ├── tkinter_willie_chat.py   # Willie Chat page
+│   ├── tkinter_browse.py        # Browse Library page
+│   ├── tkinter_add_concept.py   # Add Concept page
+│   └── tkinter_mycelium_map.py  # Mycelium Map page
+├── ui/                          # Archived NiceGUI files (retired)
 │   └── pages/
-│       ├── dashboard.py     # Dashboard with easter egg
-│       ├── add_concept.py   # Form with client-side preview
-│       ├── browse.py        # Concept library
-│       ├── audit.py         # Operation timeline
-│       └── mycelium_map.py  # Knowledge graph (static serving)
-├── requirements.txt         # Dependencies
-├── CONTRIBUTING.md          # Guide for contributors
-└── ROADMAP.md               # Planned features
+├── gui_main.py                  # Archived NiceGUI launcher (retired)
+├── gui_system.py                # Archived NiceGUI system (retired)
+├── gui_concept.py               # Pydantic models (still used)
+├── requirements.txt             # Dependencies
+└── NICEGUI_RETIRED.md           # NiceGUI retirement notes
+backtick
 
-Persistent Sidebar Navigation
+---
 
-The GUI now features a persistent sidebar on ALL pages:
+## Archived Files
 
-    🏠 Home – Landing page with welcome message
+The following files from the original NiceGUI implementation are preserved for reference. They are **not used** by the current Tkinter GUI:
 
-    📊 Dashboard – System overview
+- `gui_main.py` — NiceGUI launcher (retired)
+- `gui_system.py` — System detection (retired)
+- `ui/pages/` — NiceGUI page modules (retired)
+- `gui_tools/` — Core tool wrappers (may still be useful)
 
-    ➕ Add Concept – Create new concepts
+These may be removed in a future cleanup.
 
-    📚 Browse Library – View existing concepts
+---
 
-    📋 Audit Trail – Operation history
+## Troubleshooting
 
-    🕸️ Mycelium Map – Knowledge graph visualization
+### "No module named 'tkinter'"
+Tkinter is not installed. See Prerequisites above.
 
-Air-Gap & Security
+### GUI launches but Willie Chat doesn't respond
+Ensure Ollama is running and the model is warm:
+backtickbash
+OLLAMA_KEEP_ALIVE=24h ollama serve &
+backtick
 
-Current version: 100% air-gapped
+### Concept count shows 0
+The index file may not be found. Verify `../store/index/human_id_to_cid.json` exists.
 
-    No network connections (except optional mycelium map CDN for Cytoscape.js)
+### Mycelium Map doesn't open
+Firefox must be installed. The map requires JavaScript.
 
-    All data stored locally
+### Mockingbird chirp not heard
+The GUI must be restarted after the chirp code is added. The sound plays through the system bell.
 
-    No telemetry or analytics
+### Browse Library links don't work
+Some concepts reference unminted ideas. These show "concept not yet in mycelium" with a tooltip explanation.
 
-    Live preview uses client-side JavaScript (no server communication)
+---
 
-Future: Optional secure sharing (sandboxed, user-consent only)
-Configuration
+## Air-Gap & Security
 
-Set CADMIES_TOOLS_PATH environment variable to use a custom location:
-bash
+- 100% air-gapped — no network connections
+- All data stored locally
+- No telemetry or analytics
+- Mycelium Map launches in local Firefox (no external CDN)
 
-export CADMIES_TOOLS_PATH=/absolute/path/to/your/tools/core
-python gui_main.py
+---
 
-Troubleshooting
-"CADMIES System Not Found"
+## License
 
-    Verify your tools directory exists
+AGPLv3 with Commons Clause — see root repository LICENSE file.
 
-    Check that tools/core/store/ exists
-
-    Ensure Python scripts are present
-
-Concept won't add
-
-    All fields are required
-
-    Name will be cleaned (special chars removed)
-
-    Check Python script paths in console output
-
-Preview not updating
-
-    Preview updates when you click out of a field (not while typing)
-
-    This is intentional for air-gap compatibility
-
-No audit logs
-
-    First operation creates the log file
-
-    Check store/logs/operations.jsonl
-
-Mycelium Map not loading
-
-    Ensure mycelium_map.html exists in the CADMIES-IPLD root
-
-    Run the relationship extraction script to generate it
-
-Contributing
-
-See CONTRIBUTING.md for step-by-step guide on adding new features.
-Roadmap
-
-See ROADMAP.md for planned features and priorities.
-License
-
-AGPLv3 with Commons Clause – see root repository LICENSE file.
-
-🌱 Let the mycelium grow!
+🌱 Welcome to the digital mycelium. Welcome to the Deep. 🐋
