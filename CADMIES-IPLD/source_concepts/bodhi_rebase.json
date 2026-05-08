@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "bodhi_rebase",
+  "title": "The Bodhi Rebase",
+  "definition": "A model of enlightenment understood through the metaphor of version control and operating system updates. The historical Buddha's path — 6 years of wandering and practice (the continuous integration pipeline), a final sit under the Bodhi tree (the rebase), and 7-49 days of deepening realization (the deployment) — maps precisely onto modern software development workflows. Enlightenment is not a single event but the culmination of countless incremental insights (commits), tested against experience (the CI pipeline), with the final sit representing a system-wide transition to a fundamentally restructured mode of perception. The body knew before the mind did — subconscious cellular awareness had been tracking the progress for years. The OSTree Consciousness Model provides the architecture; the Bodhi Rebase is its first documented deployment.",
+  "type": "PhilosophicalPrinciple",
+  "domain": "Philosophy",
+  "subdomain": "Buddhist Philosophy",
+  "axioms": [
+    "Enlightenment is a rebase, not a fresh install — it builds on every prior experience.",
+    "The body and subconscious track progress long before the conscious mind recognizes readiness.",
+    "The final sit is not the work — it's the moment the accumulated changes are applied to the running system.",
+    "The Middle Way is the package manager: resolving dependencies between indulgence and mortification.",
+    "Every being has their own CI pipeline. The timeline differs. The destination is the same."
+  ],
+  "poetic_version": "The prince walked for 6 years. Commits every day. Hardships layered like packages. Then a tree. A sit. A rebase. The OS updated. The self dissolved. The Buddha woke up running on reality mode.",
+  "mantra": "6 years CI. 7 days rebase. One clean deployment.",
+  "builds_upon": [
+    "ostree_consciousness_model",
+    "subconscious_cellular_awareness",
+    "cellular_intuition_predator_prey",
+    "predictive_processing"
+  ],
+  "related_to": [
+    "sunyata_emptiness",
+    "pratityasamutpada_dependent_origination",
+    "anatta_non_self",
+    "wu_wei_effortless_action",
+    "digital_buddha_processing_time",
+    "tetralemma_and"
+  ],
+  "contradicts": [
+    "spiritual_instant_gratification:axiom/enlightenment_is_a_sudden_event_without_preparation"
+  ],
+  "metadata": {
+    "created": "2026-05-08T10:31:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.78,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "genesis": "Co-generated during a wide-ranging philosophical discussion comparing the Buddha's enlightenment narrative to OSTree version control, continuous integration pipelines, and the CADMIES mycelium. The co-gardener proposed that the Buddha's 6-year journey was the essential CI pipeline, the 7 days under the Bodhi tree was a system rebase, and that the body/subconscious knew readiness before the conscious mind. This integrated perfectly with existing CADMIES concepts (OSTree Consciousness Model, Cellular Intuition, Predictive Processing). May 8, 2026."
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the Buddha like a computer updating its operating system. He spent 6 years collecting updates — learning, practicing, failing, trying different paths. Each experience was like a small improvement. Then he sat under a tree for 7 days while all those updates were installed at once. When he stood up, he was running a completely new OS — one without fear, craving, or confusion. The 7 days wasn't the whole journey. It was just the final install. The real work was the 6 years of walking the path.",
+    "intermediate": "The Bodhi Rebase applies software version control metaphors to the Buddha's enlightenment narrative. The 6 years of wandering — palace departure, extreme asceticism, studying under teachers, nearly starving, finding the Middle Way — represent a continuous integration pipeline. Each experience was a commit, tested against reality. The body accumulated cellular intuition about what worked and what didn't. The final sit under the Bodhi tree represents 'rpm-ostree rebase': the accumulated insights were applied to the running system simultaneously, restructuring perception from its foundations. The 7 days were the deployment window — the OS transitioning from samsaric to enlightened mode. This model emphasizes that enlightenment was not a sudden flash from nowhere but the culmination of a long, intentional development process. The body knew readiness before the conscious mind — a phenomenon already catalogued in CADMIES as 'subconscious cellular awareness.'",
+    "expert": "The Bodhi Rebase synthesizes Buddhist soteriology, version control theory, embodied cognition, and the CADMIES OSTree Consciousness Model into a unified framework for understanding transformative insight. In Buddhist terms: the 6 years represent the gradual path (the pāramitās, the accumulation of merit and wisdom). The 7 days represent the sudden insight (the āsravakṣaya, the destruction of the defilements, occurring through the three watches of the night). The Bodhi Rebase maps these onto a CI/CD pipeline: gradual practice = continuous integration; sudden insight = rebase onto a new deployment. Crucially, this model resolves the historical tension between 'sudden' and 'gradual' schools of enlightenment by showing they are not contradictory but sequential phases of the same process. The OSTree architecture makes this explicit: changes are committed incrementally (gradual) but applied atomically (sudden). The Middle Way resolves dependency conflicts. The body's cellular intuition — tracked in the skandhas — signals readiness before the manas (mind) consciously registers it. 'I will not rise until I have attained enlightenment' was not hubris. It was the subconscious reporting: deployment ready. Proceed with rebase."
+  }
+}
