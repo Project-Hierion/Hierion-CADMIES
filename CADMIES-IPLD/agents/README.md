@@ -15,8 +15,27 @@ Agents in CADMIES are **first-class IPLD nodes** — they have CIDs, provenance,
 | **Extensible** | Create new agents by implementing the schema |
 
 ## Available Agents
+### Agent 01. Willie the Librarian (LLM Bridge Agent)
 
-### Philosophical Analyzer Agent
+The primary user-facing agent. Answers natural language questions by searching the mycelium and synthesizing responses via local LLM.
+
+| Field | Value |
+|-------|-------|
+| **Human ID** | `willie_the_librarian` |
+| **Runtime** | `agents/code/llm_mycelium_reader.py` |
+| **Agent Type** | `llm_mycelium_reader` |
+| **Version** | v1.2.1 |
+| **Domain** | Knowledge Retrieval / LLM Bridge |
+
+**Capabilities:**
+- Hybrid search: keyword matching + semantic query expansion via Mistral
+- Connects concepts across domains (Mycelial Rosetta Effect)
+- Accuracy tags on all factual claims
+- Terminal and GUI interfaces
+- Finding cross-domain connections even when vocabularies differ
+
+
+### Agent 02. Philosophical Analyzer Agent
 
 The flagship agent that analyzes concepts for patterns, connections, and insights.
 
