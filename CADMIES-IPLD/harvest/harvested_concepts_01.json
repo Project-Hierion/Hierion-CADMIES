@@ -5,44 +5,35 @@
   "mycelium_aware": true,
   "concepts": [
     {
-      "name": "cellular_intuition_predator_prey_relationship",
-      "definition": "The subconscious cellular awareness and adaptive response to an evolving predator-prey relationship, leading to behavioral patterns that may contribute to the predation",
-      "domain": "Cognitive_Science",
-      "insight": "The conversation highlights the potential for cellular intuition in driving behavioral patterns related to an unseen predator (vampire), suggesting a level of biological awareness beyond conscious understanding.",
-      "builds_upon": [],
-      "related_to": [
-        "unconscious_processes",
-        "evolutionary_biology"
+      "name": "gravitomotive_transmission",
+      "definition": "A theoretical model that describes a black hole as a self-sustaining, non-linear geometric structure of spacetime where angular momentum is imprinted onto the geometry via the Kerr metric, forming a 'gear train' known as the gravitomagnetic field.",
+      "domain": "Physics",
+      "insight": "The model presents a new way to understand black holes as a unified, organic transmission of angular momentum from the singularity to the edge of causality, facilitated by the gravitomagnetic gear train of frame-dragged spacetime.",
+      "builds_upon": [
+        "general_relativity"
       ],
-      "contradicts": []
+      "related_to": [
+        "singularity",
+        "event_horizon",
+        "ergosphere",
+        "gravitomagnetic_field"
+      ],
+      "contradicts": null
     },
     {
-      "name": "acceptance_of_predation",
-      "definition": "The recognition and acceptance of one's role as a preferred food source in an evolving predator-prey relationship, characterized by a calm and humorous approach to the situation",
-      "domain": "Philosophy",
-      "insight": "The conversation demonstrates a novel philosophical perspective on accepting and embracing one's role as a preferred food source for an unseen predator (vampire), emphasizing humor, self-awareness, and resilience.",
+      "name": "domestic_insights",
+      "definition": "The idea that great insights in physics can be inspired by domestic, mundane objects or situations, as demonstrated by the analogy between a washing machine and a Kerr black hole.",
+      "domain": "Philosophy_of_Science",
+      "insight": "This concept challenges the traditional view of scientific discoveries being the result of rigorous academic research and instead highlights the role of intuition, creativity, and everyday experiences in the process of discovery.",
       "builds_upon": [
-        "cellular_intuition_predator_prey_relationship"
+        "scientific_method"
       ],
       "related_to": [
-        "acceptance",
-        "humor_as_coping_mechanism"
+        "creativity",
+        "intuition",
+        "everyday_experience"
       ],
-      "contradicts": []
-    },
-    {
-      "name": "free-range_artisanal_meal_ticket",
-      "definition": "A human who, through behavioral patterns driven by cellular intuition, has evolved to become an ideal food source for a predator (vampire), offering a unique flavor profile and quality",
-      "domain": "Philosophy",
-      "insight": "The conversation presents the concept of humans evolving to become high-quality, free-range, artisanal meal tickets for vampires, emphasizing the idea of biological evolution shaping human behavior and dietary preferences.",
-      "builds_upon": [
-        "cellular_intuition_predator_prey_relationship"
-      ],
-      "related_to": [
-        "evolutionary_biology",
-        "diet_culture"
-      ],
-      "contradicts": []
+      "contradicts": null
     }
   ]
 }
