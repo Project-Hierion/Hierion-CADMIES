@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "innermost_stable_circular_orbit_grip",
+  "title": "Innermost Stable Circular Orbit Grip",
+  "definition": "For a maximally spinning black hole, the innermost stable circular orbit (ISCO) can shrink down to the event horizon itself, demonstrating the powerful grip that spin exerts on surrounding matter and the extreme coupling between spacetime rotation and orbital mechanics.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "General Relativity",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via CADMIES Harvest Pipeline",
+      "confidence": 0.8,
+      "date": "2026-05-09T00:00:00Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 — raw dump rescue"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T00:00:00Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": ["black_hole_mass_spin_primacy", "frame_dragging_gradient"],
+    "contradicts": [],
+    "related_to": ["event_horizon", "accretion_disk", "ergosphere"],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A fast-spinning black hole can pull stable orbits right up to its edge.",
+    "intermediate": "For a maximally spinning black hole, the innermost stable circular orbit can shrink down to the event horizon itself, showing how powerfully spin grips surrounding matter.",
+    "expert": "The ISCO for prograde orbits around a maximally spinning Kerr black hole (a=M) coincides with the event horizon radius. This demonstrates frame-dragging's ability to stabilize orbits at radii that would be deeply unstable around a non-spinning black hole, where ISCO is at 3 Schwarzschild radii."
+  },
+  "learning_path": {
+    "prerequisites": ["black_hole_mass_spin_primacy", "frame_dragging_gradient"],
+    "next_steps": ["accretion_disk", "penrose_process"]
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The spin of a black hole exerts a ferocious, far-reaching grip on surrounding matter that defies Newtonian intuition about orbital mechanics.",
+    "source": "raw_failed_chunk_1.txt rescue",
+    "harvester_version": "4.0.0"
+  }
+}

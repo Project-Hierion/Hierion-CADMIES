@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_as_spacetime_geometry",
+  "title": "Black Hole as Spacetime Geometry",
+  "definition": "A black hole is not a material object in spacetime but a self-sustaining, non-linear geometric structure of spacetime itself. Mass and spin define the object, reversing the ordinary relationship where spin is a property of an object.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "General Relativity",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via CADMIES Harvest Pipeline",
+      "confidence": 0.8,
+      "date": "2026-05-09T00:00:00Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 — raw dump rescue"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T00:00:00Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": ["general_relativity", "kerr_metric"],
+    "contradicts": [],
+    "related_to": ["singularity", "event_horizon", "ergosphere"],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A black hole isn't a thing spinning in space — it IS spinning space.",
+    "intermediate": "A black hole is a self-sustaining, non-linear geometric structure of spacetime. Mass and spin define the object rather than being properties of it.",
+    "expert": "In the Kerr solution, the black hole is a vacuum spacetime geometry where mass and angular momentum are global properties of the metric itself. The usual object-property relationship is inverted: the geometry is primary, and what we call mass and spin are parameters of that geometry."
+  },
+  "learning_path": {
+    "prerequisites": ["general_relativity"],
+    "next_steps": ["kerr_metric", "frame_dragging", "ergosphere"]
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The role of cause and effect are reversed in a black hole compared to ordinary objects. The geometry comes first.",
+    "source": "raw_failed_chunk_1.txt rescue",
+    "harvester_version": "4.0.0"
+  }
+}

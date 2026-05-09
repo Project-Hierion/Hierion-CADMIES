@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "boundaryless_existence",
+  "title": "Boundaryless Existence",
+  "definition": "The recognition that one is an integral part of a web of relationships and interconnected systems, blurring the boundaries between self and environment.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "Ecology",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via CADMIES Harvest Pipeline",
+      "confidence": 0.8,
+      "date": "2026-05-09T00:00:00Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 — raw dump rescue"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T00:00:00Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": ["personal_responsibility", "ecological_consciousness"],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "We are all connected to each other and to the world around us.",
+    "intermediate": "The recognition that one is an integral part of a web of relationships and interconnected systems, blurring the boundaries between self and environment.",
+    "expert": "Boundaryless existence posits that the distinction between self and environment is a perceptual construct. Every thought, word, and action propagates through interconnected systems, making each individual a constant, ongoing cause in the broader web of existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": ["personal_responsibility", "ecological_consciousness"]
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Every thought, word, and action has an effect on the world around us, making us constant, ongoing causes in the system.",
+    "source": "raw_failed_chunk_1.txt rescue",
+    "harvester_version": "4.0.0"
+  }
+}

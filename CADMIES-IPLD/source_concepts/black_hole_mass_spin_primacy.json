@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_mass_spin_primacy",
+  "title": "Black Hole Mass Spin Primacy",
+  "definition": "In a black hole, mass and spin are not properties of an object but the defining parameters of the spacetime geometry itself. A bigger mass means a larger event horizon and greater reach for frame-dragging effects, while angular momentum determines the intensity of the dragging.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "General Relativity",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via CADMIES Harvest Pipeline",
+      "confidence": 0.8,
+      "date": "2026-05-09T00:00:00Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 — raw dump rescue"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T00:00:00Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": ["black_hole_as_spacetime_geometry"],
+    "contradicts": [],
+    "related_to": ["event_horizon", "ergosphere", "frame_dragging_gradient"],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A black hole's mass sets its size, and its spin sets how strongly it drags space around it.",
+    "intermediate": "Mass determines the scale of the event horizon and the reach of frame-dragging. Angular momentum determines the intensity of the dragging effect, not the speed of swirling spacetime.",
+    "expert": "The Kerr metric is parameterized by mass M and specific angular momentum a. Mass primarily sets the horizon radius and overall scale, while a/M determines the degree of frame-dragging intensity. A small, high-mass black hole can exert enormous gravitational influence despite modest angular momentum."
+  },
+  "learning_path": {
+    "prerequisites": ["black_hole_as_spacetime_geometry"],
+    "next_steps": ["kerr_metric", "frame_dragging_gradient"]
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A small, slow-spinning black hole can have outsized influence due to its mass. Size of influence and intensity of spin are distinct parameters.",
+    "source": "raw_failed_chunk_1.txt rescue",
+    "harvester_version": "4.0.0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "social_fermentation",
+  "title": "Social Fermentation",
+  "definition": "The slow, underground process of change in society that suddenly surfaces in visible, tangible ways.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via CADMIES Harvest Pipeline",
+      "confidence": 0.8,
+      "date": "2026-05-09T00:00:00Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 — raw dump rescue"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T00:00:00Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": ["social_change", "community_development"],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Social change often happens invisibly before it becomes obvious.",
+    "intermediate": "The slow, underground process of change in society that suddenly surfaces in visible, tangible ways.",
+    "expert": "Social fermentation models societal transformation as analogous to biological fermentation: invisible preparatory processes occurring beneath the surface of public awareness that create the conditions for sudden, visible emergence of new social structures."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": ["social_change", "community_development"]
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "One's actions can create new possibilities and inspire others to follow suit, thereby creating positive social transformation.",
+    "source": "raw_failed_chunk_1.txt rescue",
+    "harvester_version": "4.0.0"
+  }
+}
