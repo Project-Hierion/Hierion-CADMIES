@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "Eternal_Evolution",
+  "title": "Eternal Evolution",
+  "definition": "The constant change and progression of life, with nothing remaining static or unchanging.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-09T21:53:47.741605Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T21:53:47.741605Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "Interconnectedness_of_Life"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The constant change and progression of life, with nothing remaining static or unchanging.",
+    "intermediate": "The constant change and progression of life, with nothing remaining static or unchanging.",
+    "expert": "In the dance of existence, each step is a new chapter in an ever-unfolding story."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "Interconnectedness_of_Life"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "In the dance of existence, each step is a new chapter in an ever-unfolding story.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.0"
+  }
+}

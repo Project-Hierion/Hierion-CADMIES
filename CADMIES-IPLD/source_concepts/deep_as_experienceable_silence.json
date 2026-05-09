@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "deep_as_experienceable_silence",
+  "title": "Deep As Experienceable Silence",
+  "definition": "A concept in Asian philosophical and spiritual traditions where 'the deep' signifies a qualitative state of profound, wordless understanding that transcends casual comprehension.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-09T20:50:36.362684Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T20:50:36.362684Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "human_id: tetralemma_and"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "Zen",
+      "Tao"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A concept in Asian philosophical and spiritual traditions where 'the deep' signifies a qualitative state of profound, wordless understanding that transcends casual comprehension.",
+    "intermediate": "A concept in Asian philosophical and spiritual traditions where 'the deep' signifies a qualitative state of profound, wordless understanding that transcends casual comprehension.",
+    "expert": "The idea of 'deep' in these traditions represents an experiential silence more eloquent than speech, a paradoxical reality where seeker and sought begin to merge."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "human_id: tetralemma_and"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea of 'deep' in these traditions represents an experiential silence more eloquent than speech, a paradoxical reality where seeker and sought begin to merge.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.0"
+  }
+}

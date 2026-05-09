@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "Interconnectedness_of_Life",
+  "title": "Interconnectedness Of Life",
+  "definition": "The idea that all aspects of life are intertwined and influence each other in complex ways, forming a continuous cycle.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-09T21:53:47.741344Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T21:53:47.741344Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "Life's Cycle"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that all aspects of life are intertwined and influence each other in complex ways, forming a continuous cycle.",
+    "intermediate": "The idea that all aspects of life are intertwined and influence each other in complex ways, forming a continuous cycle.",
+    "expert": "As we embark on new paths, the old ones remain connected, creating an intricate web of existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "As we embark on new paths, the old ones remain connected, creating an intricate web of existence.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.0"
+  }
+}
