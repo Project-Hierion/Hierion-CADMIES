@@ -4,82 +4,41 @@
   "harvester_version": "4.0.0",
   "mycelium_aware": true,
   "llm_available": true,
-  "chunk_size": 500,
-  "total_chunks": 3,
+  "chunk_size": 200,
+  "total_chunks": 2,
   "concepts": [
     {
-      "name": "Conditional-Interdependence",
-      "definition": "The understanding that every individual, action, or state is deeply interconnected and dependent on the conditions surrounding them, with the power to influence and transform those conditions.",
-      "domain": "Philosophy",
-      "insight": "The realization that one's actions can create new possibilities and foster interdependence within a network of conditions.",
+      "name": "Sacred-Everyday-Continuum",
+      "definition": "The recognition that the fundamental goal of meditation and contemplation remains constant, while the external variables such as instruments and settings can vary greatly.",
+      "domain": "Philosophy of Daily Life",
+      "insight": "The potential for mindfulness is not dependent on the tool or the place, but on the intention behind the action. The challenge is to remember that even chores can be made sacred.",
       "builds_upon": [],
       "related_to": [
-        "Social Fermentation",
-        "Conditionality"
+        "Mindfulness",
+        "Meditation",
+        "Everyday Life"
       ],
       "contradicts": []
     },
     {
-      "name": "interconnected_organisms",
-      "definition": "The understanding that every living entity, including humans, are interconnected nodes within a complex web of relationships, each playing a crucial role in the overall system.",
-      "domain": "Biology, Philosophy",
-      "insight": "The realization that human actions have far-reaching effects on others and the environment, either positively or negatively.",
+      "name": "universal_action_and_evolution_of_tools",
+      "definition": "The observation that certain fundamental actions or processes persist across time, while the tools and settings in which they are performed evolve.",
+      "domain": "Philosophy of Technology",
+      "insight": "The enduring essence of human action transcends the temporal changes in technology.",
       "builds_upon": [],
       "related_to": [
-        "systemic_thinking",
-        "ecosystem"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "cultivating_conditions",
-      "definition": "The ability to consciously influence and shape the conditions within one's immediate environment, which in turn affects the larger system.",
-      "domain": "Ethics, Social Science",
-      "insight": "The power to create positive or negative conditions through individual actions, making every action a moral choice.",
-      "builds_upon": [
-        "interconnected_organisms"
-      ],
-      "related_to": [
-        "personal_responsibility",
-        "community_impact"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "gardening_of_human_condition",
-      "definition": "The recognition that every individual has the power to shape and influence the emotional and social environment around them, akin to tending a garden.",
-      "domain": "Ethics & Philosophy of Mind",
-      "insight": "Understanding that each action has a causal effect on others and the world, encouraging responsibility and compassion in one's actions.",
-      "builds_upon": [],
-      "related_to": [
-        "causality",
-        "ethics"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "unified_garden",
-      "definition": "The realization that the self, others, and the world are interconnected and form a single, living entity, akin to a garden.",
-      "domain": "Metaphysics & Philosophy of Mind",
-      "insight": "A profound understanding of interdependence and unity in existence, fostering compassion and awareness towards self and others.",
-      "builds_upon": [
-        "gardening_of_human_condition"
-      ],
-      "related_to": [
-        "interconnectedness",
-        "unified_reality"
+        "humanity",
+        "technological advancement"
       ],
       "contradicts": []
     }
   ],
   "poetic_versions": [
-    "In the dance of life, each step leaves an impression, a ripple in time's stream. Actions, like seeds sown, grow roots deep into the soil of existence. The dance continues as new possibilities bloom.",
-    "A dance of life, intertwined and interwoven, each strand a story in the grand tapestry. From garden to heartbeat, we are not separate but one, our actions shaping the world as seeds sown.",
-    "In the quiet garden of life, we tend,\n  The soil is our souls, and we're the tillers without end.\n  Each seed sown shapes the world anew,\n  A dance of cause and effect in perfect harmony, we see.\n  United, intertwined, all one whole,\n  In the grand garden, we find our soul."
+    "In the monk's broom or the leaf blower's roar,\n  The sacred and everyday intertwine,\n  Where the heart's intention seeds the lore,\n  Mindfulness blossoms, transcending time.\n  From temple to driveway, the challenge is found,\n  In chores to make the sacred be discovered,\n  The sacred-everyday continuum astounded,\n  A path of contemplation in every hour.",
+    "In every epoch, a dance of hands and tools,\n    A rhythm of action in the grand human tale,\n    Through time's ever-shifting flow, the waltz remains whole."
   ],
   "mantras": [
-    "Every action creates conditions, every condition shapes actions.",
-    "In every act, I shape my world. Live rightly, cultivate positively.",
-    "Tend the garden within, let compassion bloom."
+    "Every act can be sacred, if my intention is sound.",
+    "Eternal actions, temporal tools"
   ]
 }

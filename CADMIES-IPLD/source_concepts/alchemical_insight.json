@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "Alchemical Insight",
+  "title": "Alchemical Insight",
+  "definition": "The fusion of intellectual epiphany and spiritual enlightenment resulting in a profound transformation of one's being.",
+  "type": "Concept",
+  "domain": "Philosophy of Science & Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-09T22:22:26.899337Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T22:22:26.899337Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "Intellectual Epiphany",
+      "Spiritual Enlightenment"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The fusion of intellectual epiphany and spiritual enlightenment resulting in a profound transformation of one's being.",
+    "intermediate": "The fusion of intellectual epiphany and spiritual enlightenment resulting in a profound transformation of one's being.",
+    "expert": "Combining the 'Aha!' moment of scientific discovery with the 'Oh...' of spiritual interconnectedness results in an alchemical journey that rewires one's very essence, transcending mere information acquisition."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Combining the 'Aha!' moment of scientific discovery with the 'Oh...' of spiritual interconnectedness results in an alchemical journey that rewires one's very essence, transcending mere information acquisition.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.0"
+  }
+}

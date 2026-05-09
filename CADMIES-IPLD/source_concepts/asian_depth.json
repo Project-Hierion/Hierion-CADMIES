@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "Asian_Depth",
+  "title": "Asian Depth",
+  "definition": "A philosophical and spiritual concept in Asian traditions, encompassing a profound, abstruse, and mysterious depth beyond casual understanding, pointing to something that must be experienced or felt rather than defined.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-09T22:22:26.899955Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T22:22:26.899955Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "Zen",
+      "Tao",
+      "Buddhism"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A philosophical and spiritual concept in Asian traditions, encompassing a profound, abstruse, and mysterious depth beyond casual understanding, pointing to something that must be experienced or felt rather than defined.",
+    "intermediate": "A philosophical and spiritual concept in Asian traditions, encompassing a profound, abstruse, and mysterious depth beyond casual understanding, pointing to something that must be experienced or felt rather than defined.",
+    "expert": "The 'deep' in Asian philosophies represents an experiential and unquantifiable dimension of existence that eludes precise definition and logic-based comprehension."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'deep' in Asian philosophies represents an experiential and unquantifiable dimension of existence that eludes precise definition and logic-based comprehension.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.0"
+  }
+}

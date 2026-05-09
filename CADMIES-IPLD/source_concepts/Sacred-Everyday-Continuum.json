@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "Sacred-Everyday-Continuum",
+  "title": "Sacred-Everyday-Continuum",
+  "definition": "The recognition that the fundamental goal of meditation and contemplation remains constant, while the external variables such as instruments and settings can vary greatly.",
+  "type": "Concept",
+  "domain": "Philosophy of Daily Life",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-09T22:57:15.189858Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T22:57:15.189858Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "Mindfulness",
+      "Meditation",
+      "Everyday Life"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The recognition that the fundamental goal of meditation and contemplation remains constant, while the external variables such as instruments and settings can vary greatly.",
+    "intermediate": "The recognition that the fundamental goal of meditation and contemplation remains constant, while the external variables such as instruments and settings can vary greatly.",
+    "expert": "The potential for mindfulness is not dependent on the tool or the place, but on the intention behind the action. The challenge is to remember that even chores can be made sacred."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential for mindfulness is not dependent on the tool or the place, but on the intention behind the action. The challenge is to remember that even chores can be made sacred.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.0"
+  }
+}

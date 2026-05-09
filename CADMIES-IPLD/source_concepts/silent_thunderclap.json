@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "silent_thunderclap",
+  "title": "Silent Thunderclap",
+  "definition": "The unspoken axiom at the heart of all, representing the universal truth that transcends languages and cultures, and can only be experienced, not spoken.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-09T22:22:26.900258Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T22:22:26.900258Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "universal truth",
+      "unspoken axiom"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The unspoken axiom at the heart of all, representing the universal truth that transcends languages and cultures, and can only be experienced, not spoken.",
+    "intermediate": "The unspoken axiom at the heart of all, representing the universal truth that transcends languages and cultures, and can only be experienced, not spoken.",
+    "expert": "The realization that there exists an ultimate truth beyond language and culture, which can be felt but not articulated."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that there exists an ultimate truth beyond language and culture, which can be felt but not articulated.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.0"
+  }
+}
