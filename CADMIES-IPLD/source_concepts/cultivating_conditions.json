@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cultivating_conditions",
+  "title": "Cultivating Conditions",
+  "definition": "The ability to consciously influence and shape the conditions within one's immediate environment, which in turn affects the larger system.",
+  "type": "Concept",
+  "domain": "Ethics, Social Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-09T05:18:54.292669Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T05:18:54.292669Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "interconnected_organisms"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "personal_responsibility",
+      "community_impact"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The ability to consciously influence and shape the conditions within one's immediate environment, which in turn affects the larger system.",
+    "intermediate": "The ability to consciously influence and shape the conditions within one's immediate environment, which in turn affects the larger system.",
+    "expert": "The power to create positive or negative conditions through individual actions, making every action a moral choice."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "interconnected_organisms"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The power to create positive or negative conditions through individual actions, making every action a moral choice.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.0"
+  }
+}

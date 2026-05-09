@@ -42,7 +42,7 @@ CONVERSATION_FILE = HARVEST_DIR / "conversation.json"
 OUTPUT_FILE = HARVEST_DIR / "harvested_concepts.json"
 SOURCE_CONCEPTS_DIR = PROJECT_ROOT / "source_concepts"
 MODEL = "mistral:7b"
-CHUNK_SIZE = 3000
+CHUNK_SIZE = 500
 DELAY = 2
 RELEVANCE_THRESHOLD = 0.1
 DEFAULT_CERTAINTY = 0.8
@@ -84,9 +84,9 @@ from provenance_manager import ProvenanceManager
 # === EXTRACTION PROMPT ===
 EXTRACTION_PROMPT = """You are a philosophical concept extractor for the CADMIES knowledge system.
 
-Extract NEW concepts, a poetic version, and a mantra from this conversation.
-
 IMPORTANT: Extract only 1-3 broad, high-level concepts. Do NOT break insights into small granular pieces. Prefer unified, philosophical concepts over micro-observations. Quality over quantity.
+
+Extract NEW concepts, a poetic version, and a mantra from this conversation.
 
 Existing concepts (DO NOT extract these — reference only):
 {mycelium_context}
@@ -556,6 +556,7 @@ def main():
     print(f"LLM: {'AVAILABLE' if LLM_AVAILABLE else 'UNAVAILABLE — manual mode'}")
     print(f"Mycelium: {'ENABLED' if MYCELIUM_AVAILABLE else 'DISABLED'}")
     print("=" * 60)
+    print("\a")  # Terminal bell — harvest complete
 
     # Load minted index for filtering
     minted_ids = set()

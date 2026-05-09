@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "Conditional-Interdependence",
+  "title": "Conditional-Interdependence",
+  "definition": "The understanding that every individual, action, or state is deeply interconnected and dependent on the conditions surrounding them, with the power to influence and transform those conditions.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-09T05:18:54.291748Z",
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-09T05:18:54.291748Z",
+    "creator": "CADMIES Harvest Pipeline v4.0",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "Social Fermentation",
+      "Conditionality"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The understanding that every individual, action, or state is deeply interconnected and dependent on the conditions surrounding them, with the power to influence and transform those conditions.",
+    "intermediate": "The understanding that every individual, action, or state is deeply interconnected and dependent on the conditions surrounding them, with the power to influence and transform those conditions.",
+    "expert": "The realization that one's actions can create new possibilities and foster interdependence within a network of conditions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that one's actions can create new possibilities and foster interdependence within a network of conditions.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.0"
+  }
+}

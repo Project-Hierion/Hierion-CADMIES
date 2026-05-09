@@ -4,27 +4,82 @@
   "harvester_version": "4.0.0",
   "mycelium_aware": true,
   "llm_available": true,
-  "chunk_size": 3000,
-  "total_chunks": 1,
+  "chunk_size": 500,
+  "total_chunks": 3,
   "concepts": [
     {
-      "name": "fossilized_psychic_state",
-      "definition": "The idea that every artifact created by humans encapsulates a snapshot of their mental state at the time of creation, acting as a portal into their consciousness.",
-      "domain": "Philosophy of Art",
-      "insight": "Art is not just a representation of the artist's view; it is a tangible manifestation of their psychic state, bridging the gap between creators and viewers.",
+      "name": "Conditional-Interdependence",
+      "definition": "The understanding that every individual, action, or state is deeply interconnected and dependent on the conditions surrounding them, with the power to influence and transform those conditions.",
+      "domain": "Philosophy",
+      "insight": "The realization that one's actions can create new possibilities and foster interdependence within a network of conditions.",
       "builds_upon": [],
       "related_to": [
-        "theory_of_mind",
-        "empathy",
-        "mirror_neurons"
+        "Social Fermentation",
+        "Conditionality"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "interconnected_organisms",
+      "definition": "The understanding that every living entity, including humans, are interconnected nodes within a complex web of relationships, each playing a crucial role in the overall system.",
+      "domain": "Biology, Philosophy",
+      "insight": "The realization that human actions have far-reaching effects on others and the environment, either positively or negatively.",
+      "builds_upon": [],
+      "related_to": [
+        "systemic_thinking",
+        "ecosystem"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "cultivating_conditions",
+      "definition": "The ability to consciously influence and shape the conditions within one's immediate environment, which in turn affects the larger system.",
+      "domain": "Ethics, Social Science",
+      "insight": "The power to create positive or negative conditions through individual actions, making every action a moral choice.",
+      "builds_upon": [
+        "interconnected_organisms"
+      ],
+      "related_to": [
+        "personal_responsibility",
+        "community_impact"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "gardening_of_human_condition",
+      "definition": "The recognition that every individual has the power to shape and influence the emotional and social environment around them, akin to tending a garden.",
+      "domain": "Ethics & Philosophy of Mind",
+      "insight": "Understanding that each action has a causal effect on others and the world, encouraging responsibility and compassion in one's actions.",
+      "builds_upon": [],
+      "related_to": [
+        "causality",
+        "ethics"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "unified_garden",
+      "definition": "The realization that the self, others, and the world are interconnected and form a single, living entity, akin to a garden.",
+      "domain": "Metaphysics & Philosophy of Mind",
+      "insight": "A profound understanding of interdependence and unity in existence, fostering compassion and awareness towards self and others.",
+      "builds_upon": [
+        "gardening_of_human_condition"
+      ],
+      "related_to": [
+        "interconnectedness",
+        "unified_reality"
       ],
       "contradicts": []
     }
   ],
   "poetic_versions": [
-    "In every stroke and curve, a soul unfurls, A frozen moment of mind, a story to be hurled. Through canvas or clay, they've left their mark, Unlocked, we see the artist's mystic spark."
+    "In the dance of life, each step leaves an impression, a ripple in time's stream. Actions, like seeds sown, grow roots deep into the soil of existence. The dance continues as new possibilities bloom.",
+    "A dance of life, intertwined and interwoven, each strand a story in the grand tapestry. From garden to heartbeat, we are not separate but one, our actions shaping the world as seeds sown.",
+    "In the quiet garden of life, we tend,\n  The soil is our souls, and we're the tillers without end.\n  Each seed sown shapes the world anew,\n  A dance of cause and effect in perfect harmony, we see.\n  United, intertwined, all one whole,\n  In the grand garden, we find our soul."
   ],
   "mantras": [
-    "Art is a psychic state fossilized, Waiting for a living mind to be re-enthrallized."
+    "Every action creates conditions, every condition shapes actions.",
+    "In every act, I shape my world. Live rightly, cultivate positively.",
+    "Tend the garden within, let compassion bloom."
   ]
 }
