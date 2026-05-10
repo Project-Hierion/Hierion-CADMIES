@@ -2,9 +2,9 @@
 """
 File: harvest_full_pipeline.py
 CLI: CADMIES Conversation Harvester (Full Pipeline)
-Version: 4.0.0
+Version: 4.0.1
 System: CADMIES-IPLD / harvest
-Status: ACTIVE — TESTING on phase19-harvest-pipeline-v4
+Status: ACTIVE — Hardened (apostrophe + case + reference validation fixes)
 Dependencies: ollama, llm_mycelium_reader, cid_generator, scientific_validator,
               provenance_manager, paths
 
@@ -25,11 +25,14 @@ Version History:
   2.0.0 — Mycelium-aware extraction via Willie's search
   3.0.0 — Poetic version and mantra extraction
   4.0.0 — Full pipeline: extract → review → validate → mint, LLM-optional mode
+  4.0.1 — Hardened: apostrophe escaping, human_id lowercase enforcement,
+          builds_upon validation against minted IDs, robust markdown stripping
 """
 
 import json
 import sys
 import time
+import re
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -84,6 +87,11 @@ from provenance_manager import ProvenanceManager
 # === EXTRACTION PROMPT ===
 EXTRACTION_PROMPT = """You are a philosophical concept extractor for the CADMIES knowledge system.
 
+CRITICAL RULES:
+- "name" MUST be lowercase_snake_case (e.g., "gravitomotive_gearbox", not "Gravitomotive_Gearbox").
+- Escape ALL apostrophes inside string values with backslash (e.g., "it\\'s" not "it's").
+- "builds_upon", "related_to", and "contradicts" MUST reference EXISTING human_ids from the list above, OR be empty lists []. Do NOT invent phrases or descriptions here.
+
 IMPORTANT: Extract only 1-3 broad, high-level concepts. Do NOT break insights into small granular pieces. Prefer unified, philosophical concepts over micro-observations. Quality over quantity.
 
 Extract NEW concepts, a poetic version, and a mantra from this conversation.
@@ -120,7 +128,7 @@ CONVERSATION:
 # ============================================================================
 
 def load_conversation_robust(filepath):
-    """Load conversation text from JSON, handling unescaped newlines."""
+    """Load conversation text from JSON, handling unescaped newlines and apostrophes."""
     with open(filepath, "r") as f:
         raw_text = f.read().strip()
 
@@ -149,6 +157,10 @@ def load_conversation_robust(filepath):
     # Strip wrapping quotes if present
     if raw_value.startswith('"') and raw_value.endswith('"'):
         raw_value = raw_value[1:-1]
+
+    # Escape unescaped apostrophes within the content string
+    # Find single quotes that aren't already backslash-escaped
+    raw_value = re.sub(r"(?<!\\)'", r"\\'", raw_value)
 
     print("  (used robust loader)")
     return raw_value
@@ -210,11 +222,22 @@ def extract_from_chunk(chunk, mycelium_context, index, total):
     try:
         response = ollama.generate(model=MODEL, prompt=prompt)
         raw = response["response"].strip()
-        if raw.startswith("```"):
-            lines = raw.split("\n")
-            raw = "\n".join(lines[1:]) if lines[0].startswith("```") else raw
-        if raw.endswith("```"):
-            raw = raw[:-3].strip()
+
+        # Robust markdown fence stripping
+        while raw.startswith("```"):
+            raw = raw.lstrip("`")
+            # If it was a fence line like ```json, strip the rest of that line
+            if "\n" in raw:
+                raw = raw.split("\n", 1)[1]
+        while raw.endswith("```"):
+            raw = raw.rstrip("`")
+        raw = raw.strip()
+
+        # Pre-parse: escape any unescaped apostrophes in the raw JSON
+        # This catches cases where Mistral ignores the prompt instruction
+        raw = re.sub(r'(?<!\\)"', lambda m: m.group(0), raw)  # leave valid quotes
+        # Fix unescaped apostrophes inside string values (single quotes not preceded by backslash)
+        raw = re.sub(r"(?<!\\)'", r"\\'", raw)
 
         result = json.loads(raw, strict=False)
         concepts = result.get("concepts", [])
@@ -228,7 +251,7 @@ def extract_from_chunk(chunk, mycelium_context, index, total):
         dump_path = HARVEST_DIR / f"raw_failed_chunk_{index+1}.txt"
         with open(dump_path, "w") as f:
             f.write(raw)
-        print(f"  WARNING: JSON parse failed. Raw output saved to {dump_path}")
+        print(f"  WARNING: JSON parse failed (check for unescaped apostrophes or malformed strings). Raw output saved to {dump_path}")
         return {"concepts": [{"error": "json_parse_failed", "raw_output": raw}], "poetic_version": "", "mantra": ""}
     except Exception as e:
         print(f"  ERROR: {e}")
@@ -243,6 +266,9 @@ def import_from_source_concepts(source_dir, minted_ids=None):
     """Load unminted concept JSONs from source_concepts/ for review/minting."""
     if minted_ids is None:
         minted_ids = set()
+
+    # Normalize minted_ids to lowercase for case-insensitive comparison
+    minted_ids_lower = {mid.lower() for mid in minted_ids}
 
     if not source_dir.exists():
         print("  No source_concepts/ directory found.")
@@ -261,7 +287,8 @@ def import_from_source_concepts(source_dir, minted_ids=None):
             with open(jf, "r") as f:
                 concept = json.load(f)
             human_id = concept.get("human_id", jf.stem)
-            if human_id in minted_ids:
+            # Case-insensitive dedup check
+            if human_id.lower() in minted_ids_lower:
                 skipped += 1
                 continue
             domain = concept.get("domain", "unknown")
@@ -281,11 +308,38 @@ def import_from_source_concepts(source_dir, minted_ids=None):
 # STEP 5: TRANSFORM
 # ============================================================================
 
-def transform_to_concept(extracted, chunk_index):
+def transform_to_concept(extracted, chunk_index, minted_ids=None):
     """Transform Mistral output to UniversalScientificConcept schema."""
-    name = extracted.get("name", "unnamed_concept")
+    if minted_ids is None:
+        minted_ids = set()
+
+    name = extracted.get("name", "unnamed_concept").lower()  # ENFORCE LOWERCASE
     title = name.replace("_", " ").title()
     now = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
+
+    # Validate builds_upon / related_to / contradicts — keep only real minted human_ids
+    raw_builds_upon = extracted.get("builds_upon", []) or []
+    raw_related_to = extracted.get("related_to", []) or []
+    raw_contradicts = extracted.get("contradicts", []) or []
+
+    # Filter to only valid minted IDs (case-insensitive)
+    minted_lower = {mid.lower() for mid in minted_ids}
+    builds_upon = [b for b in raw_builds_upon if isinstance(b, str) and b.lower() in minted_lower]
+    related_to = [r for r in raw_related_to if isinstance(r, str) and r.lower() in minted_lower]
+    contradicts = [c for c in raw_contradicts if isinstance(c, str) and c.lower() in minted_lower]
+
+    # Warn about filtered references
+    filtered_bu = set(raw_builds_upon) - set(builds_upon)
+    filtered_rt = set(raw_related_to) - set(related_to)
+    filtered_ct = set(raw_contradicts) - set(contradicts)
+    if filtered_bu or filtered_rt or filtered_ct:
+        print(f"  NOTE: Filtered invalid references from {name}:")
+        if filtered_bu:
+            print(f"    builds_upon: {filtered_bu}")
+        if filtered_rt:
+            print(f"    related_to: {filtered_rt}")
+        if filtered_ct:
+            print(f"    contradicts: {filtered_ct}")
 
     return {
         "schema_version": "1.0.0",
@@ -296,17 +350,17 @@ def transform_to_concept(extracted, chunk_index):
         "domain": extracted.get("domain", "Unknown"),
         "subdomain": "",
         "proofs": [
-    {
-        "type": "conversation_extraction",
-        "description": f"Extracted from conversation via {MODEL}",
-        "confidence": DEFAULT_CERTAINTY,
-        "date": now,
-        "reference": f"CADMIES Harvest Pipeline v4.0 — {CONVERSATION_FILE.name}"
-    }
-],
+            {
+                "type": "conversation_extraction",
+                "description": f"Extracted from conversation via {MODEL}",
+                "confidence": DEFAULT_CERTAINTY,
+                "date": now,
+                "reference": f"CADMIES Harvest Pipeline v4.0.1 — {CONVERSATION_FILE.name}"
+            }
+        ],
         "metadata": {
             "created": now,
-            "creator": "CADMIES Harvest Pipeline v4.0",
+            "creator": "CADMIES Harvest Pipeline v4.0.1",
             "certainty_score": DEFAULT_CERTAINTY,
             "version": 1,
             "license": "CC BY-SA 4.0",
@@ -315,9 +369,9 @@ def transform_to_concept(extracted, chunk_index):
             "superseded_by": None
         },
         "relationships": {
-            "builds_upon": extracted.get("builds_upon", []) or [],
-            "contradicts": extracted.get("contradicts", []) or [],
-            "related_to": extracted.get("related_to", []) or [],
+            "builds_upon": builds_upon,
+            "contradicts": contradicts,
+            "related_to": related_to,
             "specializes": []
         },
         "difficulty_levels": {
@@ -326,7 +380,7 @@ def transform_to_concept(extracted, chunk_index):
             "expert": extracted.get("insight", "")
         },
         "learning_path": {
-            "prerequisites": extracted.get("builds_upon", []) or [],
+            "prerequisites": builds_upon,
             "next_steps": []
         },
         "cross_references": {},
@@ -334,7 +388,7 @@ def transform_to_concept(extracted, chunk_index):
             "insight": extracted.get("insight", ""),
             "source_chunk": chunk_index + 1,
             "origin_file": CONVERSATION_FILE.name,
-            "harvester_version": "4.0.0"
+            "harvester_version": "4.0.1"
         }
     }
 
@@ -373,6 +427,7 @@ def merge_concepts(all_results):
                 seen.add(name)
                 merged.append(c)
     return merged
+
 
 def merge_poetics(all_results):
     """Collect poetics and mantras."""
@@ -482,7 +537,7 @@ def mint_concept(concept, cid_gen, pm):
     try:
         pm.create_provenance_record(
             concept_cid=cid_result["cid"],
-            author="CADMIES Harvest Pipeline v4.0",
+            author="CADMIES Harvest Pipeline v4.0.1",
             record_type="creation",
             comment=f"Extracted from conversation via {MODEL}" if LLM_AVAILABLE else "Imported from source_concepts/ via manual mode"
         )
@@ -550,9 +605,9 @@ def mint_approved(indices, concepts, concept_files, poetics, mantras):
 
 def main():
     print("=" * 60)
-    print("CADMIES HARVEST FULL PIPELINE v4.0")
+    print("CADMIES HARVEST FULL PIPELINE v4.0.1")
     print(f"Model: {MODEL}  |  Chunk Size: {CHUNK_SIZE} words")
-    print(f"Branch: phase19-harvest-pipeline-v4 (TESTING)")
+    print(f"Branch: main (HARDENED)")
     print(f"LLM: {'AVAILABLE' if LLM_AVAILABLE else 'UNAVAILABLE — manual mode'}")
     print(f"Mycelium: {'ENABLED' if MYCELIUM_AVAILABLE else 'DISABLED'}")
     print("=" * 60)
@@ -599,9 +654,9 @@ def main():
             if "error" in c:
                 print(f"  Skipping errored concept from chunk extraction.")
                 continue
-            full = transform_to_concept(c, i)
-            # Skip if already minted
-            if full["human_id"] in minted_ids:
+            full = transform_to_concept(c, i, minted_ids)
+            # Case-insensitive skip if already minted
+            if full["human_id"].lower() in {mid.lower() for mid in minted_ids}:
                 print(f"  Skipping already-minted: {full['human_id']}")
                 continue
             filepath = save_concept_json(full, SOURCE_CONCEPTS_DIR)
@@ -614,7 +669,7 @@ def main():
         output = {
             "source_file": CONVERSATION_FILE.name,
             "model": MODEL,
-            "harvester_version": "4.0.0",
+            "harvester_version": "4.0.1",
             "mycelium_aware": MYCELIUM_AVAILABLE,
             "llm_available": LLM_AVAILABLE,
             "chunk_size": CHUNK_SIZE,

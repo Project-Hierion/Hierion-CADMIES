@@ -1,44 +1,12 @@
 {
   "source_file": "conversation.json",
   "model": "mistral:7b",
-  "harvester_version": "4.0.0",
+  "harvester_version": "4.0.1",
   "mycelium_aware": true,
   "llm_available": true,
   "chunk_size": 200,
-  "total_chunks": 2,
-  "concepts": [
-    {
-      "name": "Sacred-Everyday-Continuum",
-      "definition": "The recognition that the fundamental goal of meditation and contemplation remains constant, while the external variables such as instruments and settings can vary greatly.",
-      "domain": "Philosophy of Daily Life",
-      "insight": "The potential for mindfulness is not dependent on the tool or the place, but on the intention behind the action. The challenge is to remember that even chores can be made sacred.",
-      "builds_upon": [],
-      "related_to": [
-        "Mindfulness",
-        "Meditation",
-        "Everyday Life"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "universal_action_and_evolution_of_tools",
-      "definition": "The observation that certain fundamental actions or processes persist across time, while the tools and settings in which they are performed evolve.",
-      "domain": "Philosophy of Technology",
-      "insight": "The enduring essence of human action transcends the temporal changes in technology.",
-      "builds_upon": [],
-      "related_to": [
-        "humanity",
-        "technological advancement"
-      ],
-      "contradicts": []
-    }
-  ],
-  "poetic_versions": [
-    "In the monk's broom or the leaf blower's roar,\n  The sacred and everyday intertwine,\n  Where the heart's intention seeds the lore,\n  Mindfulness blossoms, transcending time.\n  From temple to driveway, the challenge is found,\n  In chores to make the sacred be discovered,\n  The sacred-everyday continuum astounded,\n  A path of contemplation in every hour.",
-    "In every epoch, a dance of hands and tools,\n    A rhythm of action in the grand human tale,\n    Through time's ever-shifting flow, the waltz remains whole."
-  ],
-  "mantras": [
-    "Every act can be sacred, if my intention is sound.",
-    "Eternal actions, temporal tools"
-  ]
+  "total_chunks": 3,
+  "concepts": [],
+  "poetic_versions": [],
+  "mantras": []
 }
