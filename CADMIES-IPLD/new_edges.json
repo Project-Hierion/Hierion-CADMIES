@@ -1,0 +1,176 @@
+{
+  "acceptance_of_predation": [
+    {
+      "target": "cellular_intuition_predator_prey",
+      "type": "related_to"
+    }
+  ],
+  "emergence": [
+    {
+      "target": "epistemology_concept_perceptualframesasintelligencemultipliers",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_cathedral_and_blueprint",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_gardener_and_tool",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_mycelial_network_of_co_creation",
+      "type": "related_to"
+    }
+  ],
+  "epistemic_humility": [
+    {
+      "target": "epistemology_principle_cathedral_and_blueprint",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_gardener_and_tool",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_the_fractal_of_sacrifice",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_the_gardeners_vow",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_concept_perceptualframesasintelligencemultipliers": [
+    {
+      "target": "emergence",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_cathedral_and_blueprint",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_gardener_and_tool",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_mycelial_network_of_co_creation",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_principle_cathedral_and_blueprint": [
+    {
+      "target": "emergence",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemic_humility",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_concept_perceptualframesasintelligencemultipliers",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_gardener_and_tool",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_principle_gardener_and_tool": [
+    {
+      "target": "emergence",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemic_humility",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_concept_perceptualframesasintelligencemultipliers",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_cathedral_and_blueprint",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_principle_immortal_colony": [
+    {
+      "target": "epistemology_principle_the_fractal_of_sacrifice",
+      "type": "contradicts"
+    }
+  ],
+  "epistemology_principle_it_is_so_now": [
+    {
+      "target": "epistemic_humility",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_cathedral_and_blueprint",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_gardener_and_tool",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_principle_mycelial_network_of_co_creation": [
+    {
+      "target": "emergence",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemic_humility",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_concept_perceptualframesasintelligencemultipliers",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_cathedral_and_blueprint",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_principle_the_fractal_of_sacrifice": [
+    {
+      "target": "epistemic_humility",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_cathedral_and_blueprint",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_gardener_and_tool",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_principle_the_laminar_paradox": [
+    {
+      "target": "epistemology_principle_it_is_so_now",
+      "type": "related_to"
+    }
+  ],
+  "silent_thunderclap": [
+    {
+      "target": "sunyata_emptiness",
+      "type": "related_to"
+    },
+    {
+      "target": "vibration_as_universal_connector",
+      "type": "related_to"
+    }
+  ],
+  "the_silent_thunderclap": [
+    {
+      "target": "tetralemma_and",
+      "type": "builds_upon"
+    },
+    {
+      "target": "sunyata_emptiness",
+      "type": "builds_upon"
+    }
+  ]
+}

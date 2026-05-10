@@ -237,7 +237,7 @@ def extract_from_chunk(chunk, mycelium_context, index, total):
         # This catches cases where Mistral ignores the prompt instruction
         raw = re.sub(r'(?<!\\)"', lambda m: m.group(0), raw)  # leave valid quotes
         # Fix unescaped apostrophes inside string values (single quotes not preceded by backslash)
-        raw = re.sub(r"(?<!\\)'", r"\\'", raw)
+        # Apostrophe escaping handled by prompt — regex removed to prevent valid JSON corruption
 
         result = json.loads(raw, strict=False)
         concepts = result.get("concepts", [])

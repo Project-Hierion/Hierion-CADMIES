@@ -83,32 +83,20 @@ def gather_concept_summaries():
 # ============================================================================
 
 def build_intra_batch_prompt(batch_ids, summaries):
-    """
-    Build prompt for intra-batch edges.
-    Includes a one-shot example showing the EXACT JSON structure expected.
-    """
-    lines = []
-    for hid in batch_ids:
-        s = summaries[hid]
-        lines.append(f"{hid} [{s['domain']}]")
-    concept_block = "\n".join(lines)
+    """Send ONLY concept IDs — no domains, no titles, no brackets."""
+    ids_only = "\n".join(batch_ids)
+    
+    return f"""Propose relationships between these concept IDs.
 
-    return f"""Propose relationships between these concepts.
+{ids_only}
 
-CRITICAL: Return EXACTLY this JSON structure. Note that relationships is an OBJECT
-keyed by source concept ID, each containing an ARRAY of edge objects:
+CRITICAL RULES:
+- Use the EXACT IDs listed directly above this sentence as both keys and targets
+- ONLY use types: builds_upon, related_to, specializes, contradicts
+- Every ID listed above must appear as a key, even with empty array
 
-EXAMPLE for concepts entropy, thermodynamics:
-{{"relationships": {{"entropy": [{{"target":"thermodynamics","type":"builds_upon"}}], "thermodynamics": []}}}}
-
-Now do the same for these concepts. Use the EXACT concept IDs shown.
-ONLY use types: builds_upon, related_to, specializes, contradicts.
-Do NOT invent new IDs or types. Include EVERY concept as a key, even if empty array.
-
-{concept_block}
-
-Return ONLY the JSON (no markdown, no commentary):"""
-
+Return ONLY this exact structure:
+{{"relationships": {{"concept_id": [{{"target": "other_id", "type": "builds_upon"}}], "other_id": []}}}}"""
 
 def build_bridge_prompt(ambassadors, summaries):
     """
@@ -160,7 +148,7 @@ def call_mistral(prompt, step_name):
             model=MODEL,
             prompt=prompt,
             options={
-                "num_predict": 256,
+                "num_predict": 512,
                 "temperature": 0.1,
             }
         )

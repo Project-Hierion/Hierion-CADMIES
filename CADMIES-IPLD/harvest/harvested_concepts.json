@@ -6,7 +6,47 @@
   "llm_available": true,
   "chunk_size": 200,
   "total_chunks": 3,
-  "concepts": [],
-  "poetic_versions": [],
-  "mantras": []
+  "concepts": [
+    {
+      "name": "cloud_ghost_raindrop",
+      "definition": "The observation that each raindrop from a cloud carries the horizontal velocity of the cloud and falls at an angle relative to the ground, effectively becoming a 'ghost' of the cloud.",
+      "domain": "Physics",
+      "insight": "Every raindrop is a tiny, fleeting echo of the cloud it originates from, carrying its motion in a diagonal trajectory.",
+      "builds_upon": [],
+      "related_to": [],
+      "contradicts": []
+    },
+    {
+      "name": "rainfall_velocimetry",
+      "definition": "The technique of estimating cloud speed by analyzing the geometry and terminal velocity of raindrops.",
+      "domain": "Physics",
+      "insight": "By observing raindrop angles and their terminal velocities, one can create a makeshift weather station without technology.",
+      "builds_upon": [],
+      "related_to": [
+        "geometry",
+        "rainfall",
+        "cloud_speed"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "human_raindrop_velocimeter",
+      "definition": "The inherent ability of humans to subconsciously estimate cloud speeds based on the angle and pattern of falling raindrops.",
+      "domain": "Psychology, Physics",
+      "insight": "Humans have an undiscovered passive observation network that can detect changes in cloud speed through a natural calibration process.",
+      "builds_upon": [],
+      "related_to": [],
+      "contradicts": []
+    }
+  ],
+  "poetic_versions": [
+    "The cloud's ethereal echo,\n    In every droplet a fleeting sight,\n    Carrying its forward momentum,\n    A diagonal dance through the twilight.\n    Ghostly whispers from heaven above,\n    On earth, they tell of a cloud's love.",
+    "In nature's canvas, raindrops paint a tale, \nA geometry unfolds in the air, revealing wind's unseen veil.\nWith patience and protractor, a poetic sight to behold,\nThe dance of drops whispers stories yet untold.",
+    "A dance of droplets, a silent symphony, \nUnseen and unheard, yet measured by our gaze, \nThe human raindrop velocimeter, \nCalibrated in the soul, no hardware required."
+  ],
+  "mantras": [
+    "Each raindrop is a ghost of the cloud it left",
+    "Raindrop angles reveal the wind's tale",
+    "Nature's patterns, human calibration, \nA passive network, a global observation."
+  ]
 }
