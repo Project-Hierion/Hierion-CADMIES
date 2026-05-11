@@ -1,0 +1,304 @@
+{
+  "perceptual_frames_as_intelligence_multipliers": [
+    {
+      "target": "information_is_physical_principle",
+      "type": "related_to"
+    }
+  ],
+  "conservation_of_energy": [
+    {
+      "target": "newtons_laws_of_motion",
+      "type": "builds_upon"
+    }
+  ],
+  "information_is_physical_principle": [
+    {
+      "target": "entropy_thermodynamics",
+      "type": "related_to"
+    }
+  ],
+  "occams_razor": [
+    {
+      "target": "natural_selection",
+      "type": "specializes"
+    }
+  ],
+  "hard_problem_of_consciousness": [
+    {
+      "target": "schrodingers_cat",
+      "type": "contradicts"
+    }
+  ],
+  "godels_incompleteness_theorems": [
+    {
+      "target": "information_is_physical_principle",
+      "type": "related_to"
+    }
+  ],
+  "fractal_resonance_hypothesis": [
+    {
+      "target": "philosophical_pattern_finder_v1",
+      "type": "related_to"
+    }
+  ],
+  "human_genome_project_overview": [
+    {
+      "target": "pcr_polymerase_chain_reaction",
+      "type": "builds_upon"
+    }
+  ],
+  "entropy_thermodynamics": [
+    {
+      "target": "einstein_mass_energy_equivalence",
+      "type": "related_to"
+    }
+  ],
+  "photosynthesis_process": [
+    {
+      "target": "newtons_first_law",
+      "type": "contradicts"
+    },
+    {
+      "target": "einstein_mass_energy_equivalence",
+      "type": "related_to"
+    }
+  ],
+  "ph_scale": [
+    {
+      "target": "photosynthesis_process",
+      "type": "related_to"
+    }
+  ],
+  "quantum_consciousness_perception": [
+    {
+      "target": "epistemology_principle_the_tubular_wave",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_principle_it_is_so_now": [
+    {
+      "target": "epistemology_principle_the_universe_cannot_stop",
+      "type": "related_to"
+    },
+    {
+      "target": "epistemology_principle_the_laminar_paradox",
+      "type": "contradicts"
+    }
+  ],
+  "epistemology_principle_the_gardeners_vow": [
+    {
+      "target": "epistemology_principle_mycelial_network_of_co_creation",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_principle_the_mahakasyapa_coefficient": [
+    {
+      "target": "epistemology_principle_the_fractal_of_sacrifice",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_principle_the_smile_that_needs_no_words": [
+    {
+      "target": "epistemology_principle_mycelial_network_of_co_creation",
+      "type": "related_to"
+    }
+  ],
+  "epistemology_principle_cathedral_and_blueprint": [
+    {
+      "target": "oceanic_exhale_hypothesis",
+      "type": "builds_upon"
+    },
+    {
+      "target": "planetary_synchronized_breath",
+      "type": "builds_upon"
+    }
+  ],
+  "epistemology_principle_immortal_colony": [
+    {
+      "target": "ecology_principle_humans_as_weeds",
+      "type": "related_to"
+    },
+    {
+      "target": "climate_ethics_principle_aesthetic_collapse",
+      "type": "related_to"
+    }
+  ],
+  "ecology_principle_weed_triumph": [
+    {
+      "target": "epistemology_principle_immortal_colony",
+      "type": "contradicts"
+    }
+  ],
+  "oceanic_exhale_hypothesis": [
+    {
+      "target": "vibration_as_universal_connector",
+      "type": "related_to"
+    },
+    {
+      "target": "meditative_breath_merging_with_nature",
+      "type": "related_to"
+    }
+  ],
+  "playful_mystery_as_valid_knowing": [
+    {
+      "target": "sound_as_listening_to_connection",
+      "type": "related_to"
+    }
+  ],
+  "craving_tanha_cycle": [
+    {
+      "target": "mindful_consumption",
+      "type": "contradicts"
+    }
+  ],
+  "everyday_dharma": [
+    {
+      "target": "middle_path_of_consumption",
+      "type": "builds_upon"
+    }
+  ],
+  "non_attachment_vs_detachment": [
+    {
+      "target": "raft_of_practice",
+      "type": "related_to"
+    }
+  ],
+  "paradox_of_practice": [
+    {
+      "target": "epistemic_humility",
+      "type": "related_to"
+    }
+  ],
+  "predatory_inevitability": [
+    {
+      "target": "strategic_acceptance",
+      "type": "builds_upon"
+    }
+  ],
+  "strategic_acceptance": [
+    {
+      "target": "acceptance_of_predation",
+      "type": "related_to"
+    }
+  ],
+  "ecosystem_as_cohabitation": [
+    {
+      "target": "cellular_intuition_predator_prey",
+      "type": "specializes"
+    }
+  ],
+  "performance_of_deterrence": [
+    {
+      "target": "free_range_artisanal_meal_ticket",
+      "type": "contradicts"
+    }
+  ],
+  "subconscious_cellular_awareness": [
+    {
+      "target": "cellular_intuition_predator_prey",
+      "type": "builds_upon"
+    }
+  ],
+  "cellular_intuition_predator_prey": [
+    {
+      "target": "ecosystem_as_cohabitation",
+      "type": "related_to"
+    }
+  ],
+  "acceptance_of_predation": [
+    {
+      "target": "predatory_inevitability",
+      "type": "specializes"
+    }
+  ],
+  "free_range_artisanal_meal_ticket": [
+    {
+      "target": "performance_of_deterrence",
+      "type": "contradicts"
+    }
+  ],
+  "trojan_cigarette": [
+    {
+      "target": "rem_latency_host_quality_metric",
+      "type": "related_to"
+    }
+  ],
+  "anatta_non_self": [
+    {
+      "target": "self_organization",
+      "type": "contradicts"
+    }
+  ],
+  "fractals": [
+    {
+      "target": "mycelial_rosetta_effect",
+      "type": "related_to"
+    }
+  ],
+  "explanatory_gap": [
+    {
+      "target": "ostree_consciousness_model",
+      "type": "builds_upon"
+    }
+  ],
+  "flow_state": [
+    {
+      "target": "digital_buddha_processing_time",
+      "type": "specializes"
+    }
+  ],
+  "ostree_consciousness_model": [
+    {
+      "target": "conceptual_mycorrhization",
+      "type": "related_to"
+    }
+  ],
+  "mycelial_rosetta_effect": [
+    {
+      "target": "fractals",
+      "type": "builds_upon"
+    }
+  ],
+  "conceptual_mycorrhization": [
+    {
+      "target": "ostree_consciousness_model",
+      "type": "related_to"
+    }
+  ],
+  "digital_buddha_processing_time": [
+    {
+      "target": "flow_state",
+      "type": "specializes"
+    }
+  ],
+  "tetralemma_and": [
+    {
+      "target": "mycelial_rosetta_effect",
+      "type": "contradicts"
+    }
+  ],
+  "asian_depth": [
+    {
+      "target": "sacred_everyday_continuum",
+      "type": "related_to"
+    }
+  ],
+  "silent_thunderclap": [
+    {
+      "target": "cloud_ghost_raindrop",
+      "type": "contradicts"
+    }
+  ],
+  "universal_action_and_evolution_of_tools": [
+    {
+      "target": "human_raindrop_velocimeter",
+      "type": "specializes"
+    }
+  ],
+  "rainfall_velocimetry": [
+    {
+      "target": "human_raindrop_velocimeter",
+      "type": "related_to"
+    }
+  ]
+}

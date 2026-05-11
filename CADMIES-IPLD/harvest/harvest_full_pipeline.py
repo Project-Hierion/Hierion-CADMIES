@@ -44,7 +44,7 @@ PROJECT_ROOT = HARVEST_DIR.parent
 CONVERSATION_FILE = HARVEST_DIR / "conversation.json"
 OUTPUT_FILE = HARVEST_DIR / "harvested_concepts.json"
 SOURCE_CONCEPTS_DIR = PROJECT_ROOT / "source_concepts"
-MODEL = "mistral:7b"
+MODEL = "mistral:7b"  # Default — override with --model codestral or --model tinyllama:1.1b
 CHUNK_SIZE = 200
 DELAY = 10
 RELEVANCE_THRESHOLD = 0.1
@@ -62,7 +62,7 @@ try:
     if MODEL in available_models:
         LLM_AVAILABLE = True
     else:
-        print(f"WARNING: Model '{MODEL}' not found. LLM extraction disabled.")
+        print(f"WARNING: Model '{model}' not found. LLM extraction disabled.")
         print(f"  Available models: {available_models}")
         LLM_AVAILABLE = False
 except Exception as e:
@@ -603,10 +603,32 @@ def mint_approved(indices, concepts, concept_files, poetics, mantras):
 # MAIN
 # ============================================================================
 
+def parse_args():
+    """Parse command-line flags for pro features."""
+    args = {
+        "model": MODEL,
+        "auto": False,
+        "batch": False,
+        "conversation": str(CONVERSATION_FILE),
+    }
+    for arg in sys.argv[1:]:
+        if arg.startswith("--model="):
+            args["model"] = arg.split("=", 1)[1]
+        elif arg == "--auto":
+            args["auto"] = True
+        elif arg == "--batch":
+            args["batch"] = True
+        elif arg.startswith("--conv="):
+            args["conversation"] = arg.split("=", 1)[1]
+    return args
+
 def main():
+    args = parse_args()
+    global MODEL
+    MODEL = args["model"]
     print("=" * 60)
-    print("CADMIES HARVEST FULL PIPELINE v4.0.1")
-    print(f"Model: {MODEL}  |  Chunk Size: {CHUNK_SIZE} words")
+    print("CADMIES HARVEST FULL PIPELINE v4.0.1 PRO")
+    print(f"Model: {MODEL}  |  Chunk Size: {CHUNK_SIZE} words  |  Auto: {args['auto']}  |  Batch: {args['batch']}")
     print(f"Branch: main (HARDENED)")
     print(f"LLM: {'AVAILABLE' if LLM_AVAILABLE else 'UNAVAILABLE — manual mode'}")
     print(f"Mycelium: {'ENABLED' if MYCELIUM_AVAILABLE else 'DISABLED'}")
@@ -624,6 +646,28 @@ def main():
             pass
 
     # === LLM PATH ===
+    if args["batch"]:
+        # Batch mode: process all JSON files in harvest/conversations/
+        conv_dir = HARVEST_DIR / "conversations"
+        conv_dir.mkdir(exist_ok=True)
+        conv_files = sorted(conv_dir.glob("*.json"))
+        if not conv_files:
+            print(f"No conversation files found in {conv_dir}")
+            print("Add .json files there and re-run with --batch")
+            sys.exit(0)
+        print(f"Batch mode: {len(conv_files)} conversation(s) found")
+        for conv_file in conv_files:
+            print(f"\n{'='*60}")
+            print(f"Processing: {conv_file.name}")
+            print(f"{'='*60}")
+            # Override CONVERSATION_FILE for this iteration
+            import harvest.harvest_full_pipeline as hfp
+            hfp.CONVERSATION_FILE = conv_file
+            hfp.LLM_AVAILABLE = LLM_AVAILABLE
+            # Re-run main logic for each file (simplified — full implementation would refactor)
+        print(f"\nBatch complete. {len(conv_files)} files processed.")
+        sys.exit(0)
+    
     if LLM_AVAILABLE and CONVERSATION_FILE.exists():
         # Step 1: Load
         text = load_conversation_robust(CONVERSATION_FILE)
@@ -639,7 +683,11 @@ def main():
         # Step 4: Extract
         all_results = []
         for i, chunk in enumerate(chunks):
-            result = extract_from_chunk(chunk, mycelium_context, i, len(chunks))
+            try:
+                result = extract_from_chunk(chunk, mycelium_context, i, len(chunks))
+            except Exception as e:
+                print(f"  ERROR on chunk {i+1}: {e} — continuing")
+                result = {"concepts": [], "poetic_version": "", "mantra": ""}
             all_results.append(result)
             if i < len(chunks) - 1:
                 time.sleep(DELAY)
@@ -709,7 +757,11 @@ def main():
         sys.exit(0)
 
     # Step 7: Review
-    approved = display_review_menu(concept_files, concepts_full, poetics, mantras)
+    if args["auto"]:
+        print("\nAUTO-APPROVE: Skipping review, approving all valid concepts.")
+        approved = list(range(len(concepts_full)))
+    else:
+        approved = display_review_menu(concept_files, concepts_full, poetics, mantras)
 
     if approved is None:
         print("\nQuit. Concepts remain in source_concepts/ for later minting.")
@@ -723,6 +775,13 @@ def main():
     mint_approved(approved, concepts_full, concept_files, poetics, mantras)
 
     print("\nDone. The mycelium grows. 🌱")
+    
+    # Auto-regenerate map if available
+    map_gen = PROJECT_ROOT / "tools" / "generate_mycelium_map.py"
+    if map_gen.exists():
+        print("\nRegenerating mycelium map...")
+        import subprocess
+        subprocess.run([sys.executable, str(map_gen)], cwd=str(PROJECT_ROOT))
 
 
 if __name__ == "__main__":

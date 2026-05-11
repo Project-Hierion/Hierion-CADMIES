@@ -83,7 +83,7 @@ class MyceliumMapPage:
         tk.Label(
             info_card,
             text=(
-                "The mycelium map is an interactive force-directed graph showing all 116 concepts "
+                "The mycelium map is an interactive force-directed graph showing all 122 concepts "
                 "in the CADMIES knowledge network. Each node is a concept. Each connection is a "
                 "relationship — builds_upon, related_to, or contradicts.\n\n"
                 "• Drag nodes to rearrange the network\n"
