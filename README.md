@@ -8,38 +8,38 @@ A philosophical and technical framework for content-addressed, scientifically-va
 
 ## Quick Start
 
-backtickbash
+```bash
 # Clone the repository
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
-backtick
+```
 
-backtickbash
+```bash
 # Change directory
 cd CADMIES/CADMIES-IPLD
-backtick
+```
 
-backtickbash
+```bash
 # Install dependencies
 pip install dag-cbor multiformats requests
-backtick
+```
 
-backtickbash
+```bash
 # Read a concept
 python tools/core/cbor_reader.py natural_selection
-backtick
+```
 
-backtickbash
+```bash
 # Generate a concept
 python tools/core/cid_generator.py --concept-file source_concepts/example.json
-backtick
+```
 
 ### Import the Full Mycelium (Recommended)
 
 The clone includes only seed blocks. All other concepts (120+) are distributed via CAR releases. Import the full collection:
 
-backtickbash
+```bash
 python tools/import_from_github.py --url https://github.com/Hieros-CADMIES/CADMIES/releases/download/v0.3.1/full_mycelium_v0.3.1.car
-backtick
+```
 
 ### Ask Willie the Librarian (LLM Agent)
 
@@ -47,32 +47,32 @@ Willie is CADMIES's local LLM agent — a Scottish groundskeeper who reads the m
 
 **Prerequisites:**
 
-backtickbash
+```bash
 # Install Ollama and pull models
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull mistral:7b      # Deep reasoning (recommended)
 ollama pull tinyllama:1.1b   # Fast queries
 ollama pull codestral:22b    # Maximum depth (GPU recommended)
-backtick
+```
 
-backtickbash
+```bash
 # Install the Ollama Python client
 pip install ollama
-backtick
+```
 
 **Launch Ollama (Terminal 1 — keep running in background):**
 
-backtickbash
+```bash
 # 24-hour keep-alive keeps the model warm for instant responses
 OLLAMA_KEEP_ALIVE=24h ollama serve &
-backtick
+```
 
 **Ask Willie (Terminal 2):**
 
-backtickbash
+```bash
 cd CADMIES/CADMIES-IPLD && source venv/bin/activate
 python agents/code/llm_mycelium_reader.py --query "What is natural selection?" --model mistral:7b
-backtick
+```
 
 **What Willie does:**
 - Searches all 122 concepts using hybrid search (keyword + semantic)
@@ -96,7 +96,7 @@ Everything runs locally. No API keys, no cloud, no external calls.
 
 ### GPU Acceleration (Paperspace)
 
-CADMIES supports cloud GPU acceleration via Paperspace Gradient for heavy batch processing, relationship generation, and harvest pipeline extraction. A free A4000 GPU (16GB VRAM, 45GB RAM) handles tasks in seconds that take minutes on CPU.
+CADMIES supports cloud GPU acceleration via Paperspace Gradient for heavy batch processing, relationship generation, and harvest pipeline extraction. A A4000 GPU (16GB VRAM, 45GB RAM) handles tasks in seconds that take minutes on CPU.
 
 **Quick GPU session:**
 
@@ -106,17 +106,17 @@ CADMIES supports cloud GPU acceleration via Paperspace Gradient for heavy batch 
 4. Upload the CADMIES bundle or clone the repository
 5. Run the startup script:
 
-backtickbash
+```bash
 bash startup.sh
-backtick
+```
 
 This installs Ollama, pulls models, and sets up all dependencies in ~30 seconds. Persistent storage keeps your models and blockstore between sessions.
 
 **One-command harvest-to-map:**
 
-backtickbash
+```bash
 python harvest/harvest_full_pipeline.py --model=codestral:22b --auto
-backtick
+```
 
 Extracts concepts, auto-approves them, mints to the blockstore, and regenerates the mycelium map — all in one command.
 
@@ -128,7 +128,7 @@ Extracts concepts, auto-approves them, mints to the blockstore, and regenerates 
 | Mistral 7B | 4.4 GB | Relationship generation workhorse |
 | Codestral 22B | 12 GB | Deep philosophical connections, library audits |
 
-GPU sessions are free (6-hour limit) or $0.76/hr for dedicated A4000 access. No contracts, per-second billing, no data harvesting.
+GPU sessions: no contracts, per-second billing, no data harvesting.
 
 ---
 
@@ -140,27 +140,27 @@ CADMIES includes a Tkinter-based desktop GUI for browsing, searching, chatting w
 
 Tkinter must be installed on your system. On Fedora Silverblue:
 
-backtickbash
+```bash
 rpm-ostree install python3-tkinter
-backtick
+```
 
 Then reboot. On other Linux distributions:
 
-backtickbash
+```bash
 # Debian/Ubuntu
 sudo apt install python3-tk
 
 # Fedora Workstation
 sudo dnf install python3-tkinter
-backtick
+```
 
 **Launch the GUI:**
 
-backtickbash
+```bash
 # From the CADMIES-IPLD directory
 cd cadmies-gui
 python tkinter_main.py
-backtick
+```
 
 **GUI Pages:**
 
@@ -226,10 +226,10 @@ CADMIES is a system for storing scientific and philosophical concepts as immutab
 - **Cross-domain synthesis** – The Mycelial Rosetta Effect connects knowledge across disciplines
 - **Hybrid search** – Willie v1.2.1 uses keyword + semantic search to find concepts across vocabulary boundaries
 - **Relationship generation** – Three-phase pipeline uses LLMs to propose cross-references between concepts
-- **GPU acceleration** – Optional Paperspace cloud GPU for batch processing and large model inference
+- **GPU acceleration** – Optional Paperspace.com cloud GPU for batch processing and large model inference
 
 ### Core Concepts
-
+```text
 | Concept | Description |
 |---------|-------------|
 | CID | Content Identifier – permanent, content-addressed hash |
@@ -240,12 +240,13 @@ CADMIES is a system for storing scientific and philosophical concepts as immutab
 | Rosetta Effect | The mycelium's ability to connect knowledge across domains |
 | Phase 1-2-3 | Relationship generation pipeline (extract → parse → write) |
 | Harvest Pipeline | Extracts new concepts from conversations for minting |
+```
 
 ---
 
 ## Directory Structure
 
-backticktext
+```text
 CADMIES-IPLD/
 ├── README.md
 ├── ROADMAP.md
@@ -277,7 +278,7 @@ CADMIES-IPLD/
 ├── raw_extractions/              # Phase 1 raw LLM output
 ├── source_concepts/              # Concept definitions
 └── documentation/                # Guides and docs
-backtick
+```
 
 ---
 
@@ -296,13 +297,13 @@ Merges new edges into the blockstore CBOR files, preserving existing relationshi
 
 **Usage:**
 
-backtickbash
+```bash
 # Full cycle with Codestral (GPU recommended)
 python tools/phase1_extract.py
 python tools/phase2_parse.py
 python tools/phase3_write.py
 python tools/generate_mycelium_map.py
-backtick
+```
 
 Each cycle adds 35-50 new edges. The pipeline is deterministic — run it multiple times for denser graphs.
 
@@ -314,7 +315,7 @@ The harvest pipeline extracts new philosophical concepts from conversations and 
 
 **Usage:**
 
-backtickbash
+```bash
 # Interactive mode (review before minting)
 python harvest/harvest_full_pipeline.py
 
@@ -323,7 +324,7 @@ python harvest/harvest_full_pipeline.py --model=codestral:22b --auto
 
 # Process multiple conversation files
 python harvest/harvest_full_pipeline.py --batch --auto
-backtick
+```
 
 After minting, the pipeline automatically regenerates the mycelium map. New concepts appear in Willie search results and the Browse Library immediately.
 
@@ -331,7 +332,7 @@ After minting, the pipeline automatically regenerates the mycelium map. New conc
 
 ## CAR File System (Sharing Concepts)
 
-backtickbash
+```bash
 # Export a single concept
 python tools/export_to_car.py natural_selection --output share.car
 
@@ -340,12 +341,12 @@ python tools/import_from_car.py share.car
 
 # Export everything (backup)
 python tools/export_to_car.py --all --output full_backup.car
-backtick
+```
 
 ---
 
 ## Tools
-
+```text
 | Tool | Purpose |
 |------|---------|
 | cid_generator.py | Generate CID from JSON concept |
@@ -359,28 +360,29 @@ backtick
 | export_to_car.py | Export concepts to CAR files |
 | import_from_car.py | Import CAR files into mycelium |
 | import_from_github.py | Download and import from GitHub releases |
+```
 
 ---
 
 ## Dependencies
 
-backtickbash
+```bash
 pip install dag-cbor multiformats requests
-backtick
+```
 
 Optional for LLM agent:
 
-backtickbash
+```bash
 pip install ollama
-backtick
+```
 
 For GUI:
 
-backtickbash
+```bash
 # Tkinter is usually included with Python. If not:
 # Fedora: rpm-ostree install python3-tkinter (or sudo dnf install python3-tkinter)
 # Debian/Ubuntu: sudo apt install python3-tk
-backtick
+```
 
 No other external dependencies. Air-gap compatible.
 
@@ -401,8 +403,10 @@ Commercial use requires permission. See LICENSE for details.
 
 > *"A fortress is not measured by the height of its walls, but by the integrity of its foundations and the vigilance of its guardians."*
 
-CADMIES is a digital mycorrhiza – a network where knowledge grows organically, distributed across independent colonies. No single point of failure. No central authority. Just the mycelium. And you. And Willie. And the whale.
+CADMIES is a digital mycorrhiza – a network where knowledge grows organically, distributed across independent colonies. No single point of failure. No central authority. Just the mycelium. And you.
 
-The fortress stands. The mycelium grows. The mycelium thinks. The mycelium connects what humans have spent centuries separating.
+The fortress stands. The mycelium grows. The mycelium thinks. The mycelium speaks. The mycelium connects what humans have spent centuries separating.
 
-Welcome to the digital mycelium. 🌱 Welcome to the Deep. 🐋
+Welcome to the digital mycelium. 🌱
+
+Welcome to the Deep. 🐋
