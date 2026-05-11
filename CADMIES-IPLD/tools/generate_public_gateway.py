@@ -35,7 +35,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "tools" / "core"))
 from llm_mycelium_reader import load_concept, load_all_concept_cids
 from paths import BLOCKS_DIR
 
-OUTPUT_DIR = PROJECT_ROOT / "docs" / "public"
+OUTPUT_DIR = PROJECT_ROOT / "docs"
 
 # Domain display names for the public site
 DOMAIN_DISPLAY = {
