@@ -101,6 +101,7 @@ backtick
 ### CPU-Friendly Model Strategy
 
 | Model | Size | RAM | Use Case |
+| Codestral 22B | 12 GB | ~14GB | Maximum depth, library audits (GPU recommended) |
 |-------|------|-----|----------|
 | TinyLlama 1.1B | 637 MB | ~1GB | Quick answers, simple retrieval |
 | Mistral 7B | 4.4 GB | ~5GB | Deep reasoning, cross-domain synthesis |
@@ -113,6 +114,10 @@ OLLAMA_KEEP_ALIVE=24h ollama serve &
 backtick
 
 Without keep-alive, the model unloads after 5 minutes of inactivity and must reload on the next query (20-30 second delay on our test system).
+
+### GPU Acceleration (Paperspace)
+
+CADMIES supports cloud GPU acceleration via Paperspace Gradient. A free A4000 GPU (16GB VRAM) handles inference in seconds. See the main README for setup instructions.
 
 ---
 

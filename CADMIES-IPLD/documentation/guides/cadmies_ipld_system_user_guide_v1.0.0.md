@@ -504,7 +504,7 @@ As of 2025-12-24, the system contains:
 
     Workflow demonstration (system example)
 
-Total: ~6 concepts, ~2.5KB storage
+Total: 122 concepts, ~2.5KB storage
 
 ### 7.3 Adding More Concepts
 

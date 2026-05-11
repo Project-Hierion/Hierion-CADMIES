@@ -114,7 +114,7 @@ json
 
 {
   "success": true,
-  "concepts_analyzed": 22,
+  "concepts_analyzed": 122,
   "domain_distribution": {"Physics": 7, "Philosophy": 3, ...},
   "type_distribution": {"ScientificLaw": 2, "CognitiveAgent": 1, ...},
   "common_terminology": {"system": 8, "physical": 6, ...},

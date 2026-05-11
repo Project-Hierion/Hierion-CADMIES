@@ -31,7 +31,7 @@ The original GUI was a web-based interface built with NiceGUI. It was retired be
 - **Splash Screen** – "Welcome to the digital mycelium. Welcome to the Deep." — 5-second intro with DeepSeek theme and whale homage
 - **Dashboard** – Live concept count from the mycelium index, Willie version, quick action buttons
 - **Willie Chat** – Full conversational interface with threaded Ollama queries (no UI freezing)
-- **Browse Library** – 91 scrollable concept cards with click-to-open detail popups, history navigation, and clickable cross-references
+- **Browse Library** – 122 scrollable concept cards with click-to-open detail popups, history navigation, and clickable cross-references
 - **Add Concept** – Full CID spec form, saves JSON to `source_concepts/` for minting
 - **Mycelium Map** – Launches interactive D3.js force-directed graph in Firefox
 
