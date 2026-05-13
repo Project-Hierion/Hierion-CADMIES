@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
-"""Remint concepts with normalized human_ids, preserving provenance."""
+"""
+File: remint_existing_concepts.py
+Tool: CADMIES Concept Reminter
+Version: 1.0.0
+System: CADMIES
+Status: ACTIVE
+
+Purpose: Remints existing concepts with updated fields (normalized human_ids)
+         while preserving provenance chains. Used during Phase 29 library
+         normalization.
+
+Usage:
+    python tools/remint_existing_concepts.py
+"""
+
 import json, sys
 from pathlib import Path
 from datetime import datetime, timezone
@@ -11,7 +25,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "tools" / "core"))
 
 from llm_mycelium_reader import load_concept, load_all_concept_cids
 from paths import BLOCKS_DIR
-from cid_generator import CIDGenerator_v1_1_0 as CIDGenerator
+from cid_generator import CIDGenerator
 from provenance_manager import ProvenanceManager
 import dag_cbor
 

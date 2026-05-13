@@ -3,7 +3,7 @@
 File: harvest_full_pipeline.py
 CLI: CADMIES Conversation Harvester (Full Pipeline)
 Version: 4.0.1
-System: CADMIES-IPLD / harvest
+System: CADMIES
 Status: ACTIVE — Hardened (apostrophe + case + reference validation fixes)
 Dependencies: ollama, llm_mycelium_reader, cid_generator, scientific_validator,
               provenance_manager, paths
@@ -80,8 +80,8 @@ except ImportError:
 
 # === CID GENERATOR ===
 sys.path.insert(0, str(PROJECT_ROOT / "tools" / "core"))
-from cid_generator import CIDGenerator_v1_1_0 as CIDGenerator
-from scientific_validator import ScientificValidator_v1_0_0 as ScientificValidator
+from cid_generator import CIDGenerator
+from scientific_validator import ScientificValidator as ScientificValidator
 from provenance_manager import ProvenanceManager
 
 # === EXTRACTION PROMPT ===
@@ -355,12 +355,12 @@ def transform_to_concept(extracted, chunk_index, minted_ids=None):
                 "description": f"Extracted from conversation via {MODEL}",
                 "confidence": DEFAULT_CERTAINTY,
                 "date": now,
-                "reference": f"CADMIES Harvest Pipeline v4.0.1 — {CONVERSATION_FILE.name}"
+                "reference": f"CADMIES Harvest Pipeline — {CONVERSATION_FILE.name}"
             }
         ],
         "metadata": {
             "created": now,
-            "creator": "CADMIES Harvest Pipeline v4.0.1",
+            "creator": "CADMIES Harvest Pipeline",
             "certainty_score": DEFAULT_CERTAINTY,
             "version": 1,
             "license": "CC BY-SA 4.0",
@@ -537,7 +537,7 @@ def mint_concept(concept, cid_gen, pm):
     try:
         pm.create_provenance_record(
             concept_cid=cid_result["cid"],
-            author="CADMIES Harvest Pipeline v4.0.1",
+            author="CADMIES Harvest Pipeline",
             record_type="creation",
             comment=f"Extracted from conversation via {MODEL}" if LLM_AVAILABLE else "Imported from source_concepts/ via manual mode"
         )
@@ -627,7 +627,7 @@ def main():
     global MODEL
     MODEL = args["model"]
     print("=" * 60)
-    print("CADMIES HARVEST FULL PIPELINE v4.0.1 PRO")
+    print("CADMIES HARVEST PIPELINE")
     print(f"Model: {MODEL}  |  Chunk Size: {CHUNK_SIZE} words  |  Auto: {args['auto']}  |  Batch: {args['batch']}")
     print(f"Branch: main (HARDENED)")
     print(f"LLM: {'AVAILABLE' if LLM_AVAILABLE else 'UNAVAILABLE — manual mode'}")

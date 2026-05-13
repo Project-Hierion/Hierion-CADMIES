@@ -36,7 +36,7 @@ from tkinter_paths import INDEX_FILE
 # Import concept loader
 sys.path.insert(0, str(INDEX_FILE.parent.parent.parent / "agents" / "code"))
 try:
-    from llm_mycelium_reader import load_concept as _load_concept_raw
+    from cadmies_concept_reader import load_concept as _load_concept_raw
     READER_AVAILABLE = True
 except ImportError:
     READER_AVAILABLE = False

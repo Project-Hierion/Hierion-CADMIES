@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 File: generate_relationships.py
-Tool: CADMIES Mycelium Relationship Generator
+Tool: CADMIES Relationship Generator
 Version: 1.2.3
-System: CADMIES-IPLD / tools
+System: CADMIES / tools
 Status: ACTIVE
 
 Purpose: Feeds minted concepts to Mistral in small batches to propose
@@ -44,7 +44,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "tools" / "core"))
 
 from llm_mycelium_reader import load_concept, load_all_concept_cids
 from paths import BLOCKS_DIR
-from cid_generator import CIDGenerator_v1_1_0 as CIDGenerator
+from cid_generator import CIDGenerator
 import dag_cbor
 
 # === CONFIG ===

@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """
-CADMIES IPLD SYSTEM - SCIENTIFIC AUDIT
-Comprehensive verification of system rigor and standards
+File: scientific_audit.py
+Tool: CADMIES Scientific Audit
+Version: 1.0.0
+System: CADMIES
+Status: ACTIVE
+
+Purpose: Comprehensive verification of system rigor and standards
+         across the CADMIES ecosystem.
 """
 
 import os
@@ -101,8 +107,8 @@ class ScientificAudit:
         print("="*60)
         
         try:
-            from tools.cid_generator import CIDGenerator_v1_0_0
-            gen = CIDGenerator_v1_0_0()
+            from tools.cid_generator import CIDGenerator
+            gen = CIDGenerator()
             
             # Test 1: Reproducibility
             test_data = {'test': 'reproducible'}

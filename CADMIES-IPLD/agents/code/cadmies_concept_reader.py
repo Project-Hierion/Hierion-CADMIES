@@ -1,15 +1,15 @@
 """
-File: llm_mycelium_reader.py
-Agent: Willie the Librarian
+File: cadmies_concept_reader.py
+Agent: Willie the Research Assistant
 Author: CADMIES Research Group
 Created: 2026-05-01
 Updated: 2026-05-05 — Tuned hybrid search weights + smarter expansion prompt
 Version: 1.2.1
-System: CADMIES IPLD - LLM Bridge Agent
-Agent Type: llm_mycelium_reader
+System: CADMIES - LLM Bridge Agent
+Agent Type: concept_reader
 Status: ACTIVE
 
-Purpose: Bridge between natural language and the CADMIES mycelium.
+Purpose: Bridge between natural language and CADMIES.
          Reads concepts from blockstore, feeds them as context to a local
          LLM via Ollama, and returns informed answers with CID references.
 
@@ -25,7 +25,7 @@ Version 1.2.0 Changes (merge):
   - Improved system prompt with four-step answer structure and full CADMIES name
 
 Dependencies: ollama (pip install ollama), dag_cbor, json, re, collections
-Air-Gapped: Yes (Ollama runs on localhost:11434, no external APIs)
+Air-Gapped: Yes (Ollama runs on localhost, no external APIs)
 """
 
 import json
@@ -158,7 +158,7 @@ def get_mycelium_domains(all_cids: List[str]) -> str:
 
 def expand_query_semantically(text: str, model: str = "mistral:7b", domain_context: str = "") -> List[str]:
     """
-    Use Mistral to expand a query or conversation snippet into related search terms,
+    Use LLM to expand a query or conversation snippet into related search terms,
     synonyms, and domain-specific vocabulary. Bridges the gap between everyday
     language and technical/philosophical terminology.
     
@@ -398,7 +398,7 @@ def build_context_for_llm(relevant_concepts: List[Dict], max_concepts: int = 3) 
 
 def query_mycelium(concept_cids: List[str] = None, context: Dict[str, Any] = None) -> Dict[str, Any]:
     """
-    Main entry point for Willie the Librarian.
+    Main entry point for Willie the Research Assistant.
     
     Takes a natural language query, searches the mycelium for relevant
     concepts using hybrid search, feeds them to the LLM via Ollama, and
@@ -444,7 +444,7 @@ def query_mycelium(concept_cids: List[str] = None, context: Dict[str, Any] = Non
         }
     
     print(f"\n{'='*60}")
-    print(f"WILLIE THE LIBRARIAN v{__version__} - QUERY")
+    print(f"WILLIE THE RESEARCH ASSISTANT v{__version__} - QUERY")
     print(f"{'='*60}")
     print(f"Query: {user_query}")
     print(f"Model: {model}")
@@ -460,7 +460,7 @@ def query_mycelium(concept_cids: List[str] = None, context: Dict[str, Any] = Non
         print(f"Searching all {len(search_cids)} indexed concepts")
     
     # Step 2: Hybrid search
-    print("\nSEARCHING MYCELIUM...")
+    print("\nSEARCHING CADMIES...")
     relevant = search_mycelium(
         user_query,
         search_cids,
@@ -589,11 +589,11 @@ def query_mycelium(concept_cids: List[str] = None, context: Dict[str, Any] = Non
 
 def test_agent() -> Dict[str, Any]:
     """
-    Self-test: verify Willie can connect to Ollama and read the mycelium
+    Self-test: verify Willie can connect to Ollama and read CADMIES
     with hybrid search operational.
     """
     print("=" * 60)
-    print(f"WILLIE THE LIBRARIAN v{__version__} - SELF TEST")
+    print(f"WILLIE THE RESEARCH ASSISTANT v{__version__} - SELF TEST")
     print("=" * 60)
     
     if not OLLAMA_AVAILABLE:
@@ -658,7 +658,7 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(
-        description="Willie the Librarian - Ask the mycelium questions via local LLM",
+        description="Willie the research assistant - Ask CADMIES questions via local LLM",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

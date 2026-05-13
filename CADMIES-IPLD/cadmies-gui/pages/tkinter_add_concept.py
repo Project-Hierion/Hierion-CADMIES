@@ -2,7 +2,7 @@
 File: tkinter_add_concept.py
 GUI: CADMIES Tkinter Interface
 Version: 1.0.0
-System: CADMIES-IPLD / cadmies-gui
+System: CADMIES GUI
 Status: ACTIVE
 
 Purpose: Add Concept page — full form for submitting new concepts to the
@@ -341,7 +341,7 @@ class AddConceptPage:
             "Concept Saved",
             f"✅ '{concept['title']}' saved to:\n{filepath}\n\n"
             f"Next step: Run the CID generator to mint this concept into the mycelium.\n\n"
-            f"Command:\npython tools/core/cid_generator_v1_1_0.py --concept-file source_concepts/{filename}"
+            f"Command:\npython tools/core/cid_generator.py --concept-file source_concepts/{filename}"
         )
 
     def _reset(self):

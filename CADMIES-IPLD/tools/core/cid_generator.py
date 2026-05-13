@@ -46,11 +46,11 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-File: cid_generator_v1.1.0.py
+File: cid_generator.py
 Description: CID Generator for IPLD-based knowledge storage
 Version: 1.1.0
-System: IPLD Scientific Concept Tools
-Purpose: Diminishing human ignorance through open knowledge systems
+System: CADMIES
+Purpose: Diminishing human ignorance through open, mycorrhizal knowledge systems.
 """
 
 import json
@@ -65,7 +65,7 @@ import sys
 import os
 from paths import BLOCKS_DIR, INDEX_DIR, INDEX_FILE, LOGS_DIR, ensure_dirs
 
-class CIDGenerator_v1_1_0:
+class CIDGenerator:
     """
     CID Generator for UniversalScientificConcept format
     
@@ -104,7 +104,6 @@ class CIDGenerator_v1_1_0:
                 if field not in metadata:
                     errors.append(f"Missing metadata field: {field}")
         
-            # Add this after checking required fields
             if "created" not in metadata:
                 warnings.append("No creation timestamp - provenance will be stored separately")
     
@@ -327,7 +326,7 @@ def create_sample_concept() -> Dict[str, Any]:
         },
         "metadata": {
             "created": datetime.now().isoformat() + "Z",
-            "creator": "IPLD_Knowledge_Generator_v1.1.0",
+            "creator": "IPLD_Knowledge_Generator",
             "certainty_score": 0.99,
             "version": 1,
             "license": "CC BY-SA 4.0",
@@ -398,7 +397,7 @@ def read_concept_file(file_path: str) -> Dict[str, Any]:
 def main():
     """Main function with command-line argument parsing"""
     parser = argparse.ArgumentParser(
-        description="IPLD CID Generator v1.1.0 - Generate CIDs for knowledge concepts",
+        description="IPLD CID Generator - Generate CIDs for knowledge concepts",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 ETHICAL USE STATEMENT:
@@ -424,7 +423,7 @@ Install: pip install dag-cbor multiformats
     parser.add_argument(
         "--version",
         action="version",
-        version=f"IPLD CID Generator v1.1.0 (AGPLv3 + Commons Clause)"
+        version=f"IPLD CID Generator (AGPLv3 + Commons Clause)"
     )
     
     parser.add_argument(
@@ -435,10 +434,10 @@ Install: pip install dag-cbor multiformats
     
     args = parser.parse_args()
     
-    generator = CIDGenerator_v1_1_0()
+    generator = CIDGenerator()
     
     print("=" * 70)
-    print("IPLD CID GENERATOR v1.1.0")
+    print(f"IPLD CID GENERATOR v{__version__}")
     print("Content-Addressed Knowledge Systems")
     print("License: AGPLv3 with Commons Clause (see header)")
     print("=" * 70)
