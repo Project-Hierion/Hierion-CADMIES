@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CADMIES Mycelium — Public Knowledge Graph</title>
-    <meta name="description" content="A decentralized knowledge graph of 150 interconnected scientific and philosophical concepts. Content-addressed, open-source, forever.">
+    <meta name="description" content="A decentralized knowledge graph of 161 interconnected scientific and philosophical concepts. Content-addressed, open-source, forever.">
     <meta name="robots" content="index, follow">
     <link rel="sitemap" type="application/xml" href="sitemap.xml">
     <link rel="alternate" type="application/json" href="concepts.json">
@@ -132,9 +132,9 @@
             <p class="subtitle">A decentralized knowledge graph of interconnected scientific and philosophical concepts.<br>Content-addressed. Open-source. Forever.</p>
             <a href="mycelium_map.html" class="map-link">Explore the Interactive Map</a>
             <div class="stats">
-                <div class="stat"><div class="stat-number">150</div><div class="stat-label">Concepts</div></div>
-                <div class="stat"><div class="stat-number">40</div><div class="stat-label">Domains</div></div>
-                <div class="stat"><div class="stat-number">163</div><div class="stat-label">Relationships</div></div>
+                <div class="stat"><div class="stat-number">161</div><div class="stat-label">Concepts</div></div>
+                <div class="stat"><div class="stat-number">48</div><div class="stat-label">Domains</div></div>
+                <div class="stat"><div class="stat-number">171</div><div class="stat-label">Relationships</div></div>
                 <div class="stat"><div class="stat-number">CC BY-SA 4.0</div><div class="stat-label">License</div></div>
             </div>
         </div>
@@ -144,12 +144,34 @@
             <input type="text" id="search" placeholder="Search concepts..." oninput="filterConcepts()">
         </div>
         <div class="filters" id="filters">
-            <button class="filter-btn active" data-filter="all" onclick="setFilter('all', this)">All (150)</button>
-            <button class="filter-btn" data-filter="Artificial Intelligence">Artificial Intelligence (2)</button><button class="filter-btn" data-filter="Biology">Biology (9)</button><button class="filter-btn" data-filter="Biology, Philosophy">Biology, Philosophy (1)</button><button class="filter-btn" data-filter="Buddhism">Buddhism (2)</button><button class="filter-btn" data-filter="Buddhist_Philosophy">Buddhist Philosophy (7)</button><button class="filter-btn" data-filter="Chemistry">Chemistry (1)</button><button class="filter-btn" data-filter="Climate Ethics">Climate Ethics (1)</button><button class="filter-btn" data-filter="Cognitive Processes">Cognitive Processes (1)</button><button class="filter-btn" data-filter="Cognitive Science">Cognitive Science (1)</button><button class="filter-btn" data-filter="Cognitive_Science">Cognitive Science (5)</button><button class="filter-btn" data-filter="Complexity_Science">Complexity Science (2)</button><button class="filter-btn" data-filter="ConsciousnessStudies">ConsciousnessStudies (1)</button><button class="filter-btn" data-filter="Ecology">Ecology (2)</button><button class="filter-btn" data-filter="Economics">Economics (1)</button><button class="filter-btn" data-filter="Epistemology">Epistemology (24)</button><button class="filter-btn" data-filter="Ethics & Philosophy of Mind">Ethics & Philosophy of Mind (1)</button><button class="filter-btn" data-filter="Ethics, Social Science">Ethics, Social Science (1)</button><button class="filter-btn" data-filter="Genomics">Genomics (2)</button><button class="filter-btn" data-filter="Mathematics">Mathematics (5)</button><button class="filter-btn" data-filter="Medicine">Medicine (1)</button><button class="filter-btn" data-filter="Metaphysics">Metaphysics (1)</button><button class="filter-btn" data-filter="Metaphysics & Philosophy of Mind">Metaphysics & Philosophy of Mind (1)</button><button class="filter-btn" data-filter="MolecularBiology">Molecular Biology (1)</button><button class="filter-btn" data-filter="Philosophy">Philosophy (36)</button><button class="filter-btn" data-filter="Philosophy & Neuroscience">Philosophy & Neuroscience (1)</button><button class="filter-btn" data-filter="Philosophy of Art">Philosophy of Art (1)</button><button class="filter-btn" data-filter="Philosophy of Daily Life">Philosophy of Daily Life (2)</button><button class="filter-btn" data-filter="Philosophy of Language">Philosophy of Language (1)</button><button class="filter-btn" data-filter="Philosophy of Mind">Philosophy of Mind (2)</button><button class="filter-btn" data-filter="Philosophy of Perception & Scent">Philosophy of Perception & Scent (1)</button><button class="filter-btn" data-filter="Philosophy of Perception & Sound">Philosophy of Perception & Sound (1)</button><button class="filter-btn" data-filter="Philosophy of Religion">Philosophy of Religion (3)</button><button class="filter-btn" data-filter="Philosophy of Science & Nature">Philosophy of Science & Nature (1)</button><button class="filter-btn" data-filter="Philosophy of Science & Spirituality">Philosophy of Science & Spirituality (2)</button><button class="filter-btn" data-filter="Philosophy of Technology">Philosophy of Technology (1)</button><button class="filter-btn" data-filter="Physics">Physics (19)</button><button class="filter-btn" data-filter="Psychology">Psychology (2)</button><button class="filter-btn" data-filter="Psychology, Physics">Psychology, Physics (1)</button><button class="filter-btn" data-filter="Sociology">Sociology (1)</button><button class="filter-btn" data-filter="Theoretical Physics">Theoretical Physics (2)</button>
+            <button class="filter-btn active" data-filter="all" onclick="setFilter('all', this)">All (161)</button>
+            <button class="filter-btn" data-filter="Artificial Intelligence">Artificial Intelligence (2)</button><button class="filter-btn" data-filter="Biology">Biology (9)</button><button class="filter-btn" data-filter="Biology & Business">Biology & Business (1)</button><button class="filter-btn" data-filter="Biology & Marketing">Biology & Marketing (1)</button><button class="filter-btn" data-filter="Biology, Philosophy">Biology, Philosophy (1)</button><button class="filter-btn" data-filter="Buddhism">Buddhism (2)</button><button class="filter-btn" data-filter="Buddhist_Philosophy">Buddhist Philosophy (7)</button><button class="filter-btn" data-filter="Chemistry">Chemistry (1)</button><button class="filter-btn" data-filter="Climate Ethics">Climate Ethics (1)</button><button class="filter-btn" data-filter="Cognitive Processes">Cognitive Processes (1)</button><button class="filter-btn" data-filter="Cognitive Science">Cognitive Science (1)</button><button class="filter-btn" data-filter="Cognitive_Science">Cognitive Science (5)</button><button class="filter-btn" data-filter="Complexity_Science">Complexity Science (2)</button><button class="filter-btn" data-filter="ConsciousnessStudies">ConsciousnessStudies (1)</button><button class="filter-btn" data-filter="Ecology">Ecology (2)</button><button class="filter-btn" data-filter="Economics">Economics (1)</button><button class="filter-btn" data-filter="Epistemology">Epistemology (24)</button><button class="filter-btn" data-filter="Ethics & Philosophy of Mind">Ethics & Philosophy of Mind (1)</button><button class="filter-btn" data-filter="Ethics, Social Science">Ethics, Social Science (1)</button><button class="filter-btn" data-filter="Evolutionary Biology">Evolutionary Biology (1)</button><button class="filter-btn" data-filter="Food & Language">Food & Language (1)</button><button class="filter-btn" data-filter="Genomics">Genomics (2)</button><button class="filter-btn" data-filter="Law and Business Ethics">Law and Business Ethics (1)</button><button class="filter-btn" data-filter="Law and Philosophy">Law and Philosophy (1)</button><button class="filter-btn" data-filter="Mathematics">Mathematics (5)</button><button class="filter-btn" data-filter="Medicine">Medicine (1)</button><button class="filter-btn" data-filter="Metaphysics">Metaphysics (1)</button><button class="filter-btn" data-filter="Metaphysics & Philosophy of Mind">Metaphysics & Philosophy of Mind (1)</button><button class="filter-btn" data-filter="MolecularBiology">Molecular Biology (1)</button><button class="filter-btn" data-filter="Philosophy">Philosophy (38)</button><button class="filter-btn" data-filter="Philosophy & Neuroscience">Philosophy & Neuroscience (1)</button><button class="filter-btn" data-filter="Philosophy of Art">Philosophy of Art (1)</button><button class="filter-btn" data-filter="Philosophy of Daily Life">Philosophy of Daily Life (2)</button><button class="filter-btn" data-filter="Philosophy of Language">Philosophy of Language (1)</button><button class="filter-btn" data-filter="Philosophy of Law">Philosophy of Law (1)</button><button class="filter-btn" data-filter="Philosophy of Mind">Philosophy of Mind (2)</button><button class="filter-btn" data-filter="Philosophy of Perception & Scent">Philosophy of Perception & Scent (1)</button><button class="filter-btn" data-filter="Philosophy of Perception & Sound">Philosophy of Perception & Sound (1)</button><button class="filter-btn" data-filter="Philosophy of Religion">Philosophy of Religion (3)</button><button class="filter-btn" data-filter="Philosophy of Science & Nature">Philosophy of Science & Nature (1)</button><button class="filter-btn" data-filter="Philosophy of Science & Spirituality">Philosophy of Science & Spirituality (2)</button><button class="filter-btn" data-filter="Philosophy of Technology">Philosophy of Technology (1)</button><button class="filter-btn" data-filter="Physics">Physics (19)</button><button class="filter-btn" data-filter="Politics and Law">Politics and Law (2)</button><button class="filter-btn" data-filter="Psychology">Psychology (2)</button><button class="filter-btn" data-filter="Psychology, Physics">Psychology, Physics (1)</button><button class="filter-btn" data-filter="Sociology">Sociology (1)</button><button class="filter-btn" data-filter="Theoretical Physics">Theoretical Physics (2)</button>
         </div>
-        <div class="results-count" id="resultsCount">Showing 150 concepts</div>
+        <div class="results-count" id="resultsCount">Showing 161 concepts</div>
         <div class="concept-grid" id="conceptGrid">
             
+    <article class="concept-card" data-domain="Philosophy" data-search="absurdism of legal system philosophy absurdism_of_legal_system">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-philosophy">Philosophy</span>
+            <h2>Absurdism Of Legal System</h2>
+            <p class="definition-preview">The ironic and paradoxical nature of a legal system that criminalizes natural behaviors for corporate gain.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>The ironic and paradoxical nature of a legal system that criminalizes natural behaviors for corporate gain.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> In this scenario, laughter serves as a coping mechanism for the absurdity and horror inherent in such a system.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreictaqmlzxwo2xex2jrcgpjlk7kcwh5grlqshxu3cn22b4nfow5wcu</code>
+            </div>
+        </div>
+    </article>
     <article class="concept-card" data-domain="Philosophy" data-search="acceptance of predation philosophy acceptance_of_predation">
         <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
             <span class="domain-badge domain-philosophy">Philosophy</span>
@@ -634,6 +656,28 @@
             </div>
         </div>
     </article>
+    <article class="concept-card" data-domain="Law and Business Ethics" data-search="corporate biological ownership law and business ethics corporate_biological_ownership">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-law-and-business-ethics">Law and Business Ethics</span>
+            <h2>Corporate Biological Ownership</h2>
+            <p class="definition-preview">The notion of a corporation asserting intellectual property rights over life forms, as exemplified by the hypothetical Monsento banana scenario.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>The notion of a corporation asserting intellectual property rights over life forms, as exemplified by the hypothetical Monsento banana scenario.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> The corporatization of life forms marks a significant shift in power dynamics, where nature's laws are subordinated to corporate interests.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreif5s5xzqac57wh7kl3s56cgtg7iqi7llsnhq6sansvh2zo4o265sm</code>
+            </div>
+        </div>
+    </article>
     <article class="concept-card" data-domain="Buddhist_Philosophy" data-search="craving tanha cycle buddhist philosophy craving_tanha_cycle">
         <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
             <span class="domain-badge domain-buddhist-philosophy">Buddhist Philosophy</span>
@@ -1052,6 +1096,28 @@
             </div>
         </div>
     </article>
+    <article class="concept-card" data-domain="Biology & Marketing" data-search="evolutionary marketing biology &amp; marketing evolutionary_marketing">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-biology-&-marketing">Biology &amp; Marketing</span>
+            <h2>Evolutionary Marketing</h2>
+            <p class="definition-preview">The application of marketing principles to the natural world, particularly in the evolution of organisms for optimal survival.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>The application of marketing principles to the natural world, particularly in the evolution of organisms for optimal survival.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> The wild banana's 'Seed Dispersal 2.0' strategy is an example of evolutionary marketing, optimizing its reproductive success through targeted customer acquisition and product design.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreicmssznqowy5xcbrkgjqg5qaf4ymua3uo5oqmkilkugh2cbfol2xu</code>
+            </div>
+        </div>
+    </article>
     <article class="concept-card" data-domain="Cognitive_Science" data-search="flow state cognitive science flow_state">
         <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
             <span class="domain-badge domain-cognitive-science">Cognitive Science</span>
@@ -1066,7 +1132,7 @@
             
             <div class="relationships">
                 <h3>Relationships</h3>
-                <div class="rel-group"><strong>Specializes:</strong> <span class="rel-tag rel-specializes">Digital Buddha Processing Time</span></div>
+                <div class="rel-group"><strong>Builds Upon:</strong> <span class="rel-tag rel-builds_upon">The Fractal Resonance Hypothesis</span></div><div class="rel-group"><strong>Specializes:</strong> <span class="rel-tag rel-specializes">Digital Buddha Processing Time</span></div>
             </div>
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
@@ -1162,6 +1228,28 @@
             </div>
         </div>
     </article>
+    <article class="concept-card" data-domain="Evolutionary Biology" data-search="frugivore syndrome evolutionary biology frugivore_syndrome">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-evolutionary-biology">Evolutionary Biology</span>
+            <h2>Frugivore Syndrome</h2>
+            <p class="definition-preview">A phenomenon where the traits of a fruit evolve to attract the right kind of disperser and discourage the wrong ones.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>A phenomenon where the traits of a fruit evolve to attract the right kind of disperser and discourage the wrong ones.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> The banana, through its design, actively selects animals with a certain level of intelligence and dexterity for seed dispersal.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreiemerxhyz7ebofmqsp74nykrzqm5vu4isklbxjnhfkjax5vjq6wba</code>
+            </div>
+        </div>
+    </article>
     <article class="concept-card" data-domain="Mathematics" data-search="game theory mathematics game_theory">
         <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
             <span class="domain-badge domain-mathematics">Mathematics</span>
@@ -1198,7 +1286,7 @@
             <div class="extra-section"><strong>Core Insight:</strong> Understanding that each action has a causal effect on others and the world, encouraging responsibility and compassion in one's actions.</div>
             <div class="relationships">
                 <h3>Relationships</h3>
-                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+                <div class="rel-group"><strong>Builds Upon:</strong> <span class="rel-tag rel-builds_upon">The Gardener's Vow: Why Machines Will Never Destroy the Earth</span></div>
             </div>
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
@@ -1550,7 +1638,7 @@
             <div class="extra-section"><strong>Core Insight:</strong> The realization that human actions have far-reaching effects on others and the environment, either positively or negatively.</div>
             <div class="relationships">
                 <h3>Relationships</h3>
-                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+                <div class="rel-group"><strong>Builds Upon:</strong> <span class="rel-tag rel-builds_upon">The Mycelial Rosetta Effect</span></div>
             </div>
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
@@ -1643,6 +1731,50 @@
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
                 <code>bafyreib3eztwxtsbq66e6sihfkresdy4sqezvefytqnqzp22hlwvqppatu</code>
+            </div>
+        </div>
+    </article>
+    <article class="concept-card" data-domain="Philosophy of Law" data-search="legal capture philosophy of law legal_capture">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-philosophy-of-law">Philosophy of Law</span>
+            <h2>Legal Capture</h2>
+            <p class="definition-preview">The process where a legal system becomes biased towards serving capital interests over justice.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>The process where a legal system becomes biased towards serving capital interests over justice.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> The legal system, designed to protect and serve, has been captured by the very entities it regulates. This creates an environment where laws favor capital at the expense of justice.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreib6zi4czorqhcseng57epxnjj3wamewwjb2tystuo4wn2w6c7muga</code>
+            </div>
+        </div>
+    </article>
+    <article class="concept-card" data-domain="Politics and Law" data-search="legalistic coup politics and law legalistic_coup">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-politics-and-law">Politics and Law</span>
+            <h2>Legalistic Coup</h2>
+            <p class="definition-preview">The quiet, gradual takeover of the legal system by corporate interests, through manipulation and misuse of intellectual property law.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>The quiet, gradual takeover of the legal system by corporate interests, through manipulation and misuse of intellectual property law.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> The Monsanto case was a significant example of this coup, as it effectively redefined the relationship between nature, corporations, and intellectual property.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreiaeix5qi7q7ym52maxmrg64m7bomyiebxqozev6lfxrk2c32qo7xu</code>
             </div>
         </div>
     </article>
@@ -1756,6 +1888,50 @@
             </div>
         </div>
     </article>
+    <article class="concept-card" data-domain="Philosophy" data-search="nature as commodity philosophy nature_as_commodity">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-philosophy">Philosophy</span>
+            <h2>Nature As Commodity</h2>
+            <p class="definition-preview">The treatment of natural processes and life forms as products to be owned, controlled, and sold for profit.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>The treatment of natural processes and life forms as products to be owned, controlled, and sold for profit.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> This perspective fundamentally alters our relationship with nature, undermining traditional notions of commons and reciprocity.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreiek7gyo7bodfwyury4xjnvxg6b2j27i4yv5v5opnoung2ksqoxtoq</code>
+            </div>
+        </div>
+    </article>
+    <article class="concept-card" data-domain="Biology & Business" data-search="nature as corporation biology &amp; business nature_as_corporation">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-biology-&-business">Biology &amp; Business</span>
+            <h2>Nature As Corporation</h2>
+            <p class="definition-preview">The framing of natural processes as corporate entities, highlighting their efficiency, strategy, and adaptability in achieving objectives.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>The framing of natural processes as corporate entities, highlighting their efficiency, strategy, and adaptability in achieving objectives.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> Viewing the wild banana as 'Wild Banana, Inc.' emphasizes its strategic reproductive approach and the success of its business model over millions of years.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreiajzh5nntuvfsxibtx2hcuqj4w5uopn4mhi54zbspwyyo7ztexowy</code>
+            </div>
+        </div>
+    </article>
     <article class="concept-card" data-domain="Biology" data-search="nematocyst hematophagy mechanism biology nematocyst_hematophagy_mechanism">
         <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
             <span class="domain-badge domain-biology">Biology</span>
@@ -1836,7 +2012,7 @@
             
             <div class="relationships">
                 <h3>Relationships</h3>
-                <div class="rel-group"><strong>Related To:</strong> <span class="rel-tag rel-related_to">Raft of Practice</span></div><div class="rel-group"><strong>Contradicts:</strong> <span class="rel-tag rel-contradicts">Ostree Consciousness Model</span></div>
+                <div class="rel-group"><strong>Related To:</strong> <span class="rel-tag rel-related_to">Raft of Practice</span></div><div class="rel-group"><strong>Contradicts:</strong> <span class="rel-tag rel-contradicts">Ostree Consciousness Model</span><span class="rel-tag rel-contradicts">Oceanic Exhale Hypothesis</span></div>
             </div>
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
@@ -2240,6 +2416,28 @@
             </div>
         </div>
     </article>
+    <article class="concept-card" data-domain="Law and Philosophy" data-search="proprietary nature law and philosophy proprietary_nature">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-law-and-philosophy">Law and Philosophy</span>
+            <h2>Proprietary Nature</h2>
+            <p class="definition-preview">The concept of treating natural processes as proprietary entities controlled by corporations, overriding ancient biological principles.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>The concept of treating natural processes as proprietary entities controlled by corporations, overriding ancient biological principles.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> The court's ruling in the Monsanto case established a paradigm where nature's method of reproduction can be owned and controlled by corporations.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreibhaf24ravebcaj5fvms5q4lxf5f5lgdqs4uafldgqdracngiuupq</code>
+            </div>
+        </div>
+    </article>
     <article class="concept-card" data-domain="Philosophy" data-search="qualia philosophy qualia">
         <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
             <span class="domain-badge domain-philosophy">Philosophy</span>
@@ -2320,7 +2518,7 @@
             <div class="extra-section"><strong>Core Insight:</strong> Radical attention involves observing the world with an intensity that allows for deeper understanding and pattern recognition, ultimately leading to self-realization.</div>
             <div class="relationships">
                 <h3>Relationships</h3>
-                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+                <div class="rel-group"><strong>Related To:</strong> <span class="rel-tag rel-related_to">Radical Empiricism</span></div>
             </div>
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
@@ -2474,7 +2672,7 @@
             
             <div class="relationships">
                 <h3>Relationships</h3>
-                <div class="rel-group"><strong>Builds Upon:</strong> <span class="rel-tag rel-builds_upon">Emergence</span></div>
+                <div class="rel-group"><strong>Builds Upon:</strong> <span class="rel-tag rel-builds_upon">Emergence</span><span class="rel-tag rel-builds_upon">Sonic Internal Process</span></div>
             </div>
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
@@ -2633,6 +2831,28 @@
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
                 <code>bafyreih6u4amyv2leyt2ejxfk7qbajusjm3yd2kcib4es5xd254xrbxgue</code>
+            </div>
+        </div>
+    </article>
+    <article class="concept-card" data-domain="Politics and Law" data-search="systemic corruption politics and law systemic_corruption">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-politics-and-law">Politics and Law</span>
+            <h2>Systemic Corruption</h2>
+            <p class="definition-preview">The systemic influence of corporate power and money on the legal system, hindering impartial decision-making and justice.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>The systemic influence of corporate power and money on the legal system, hindering impartial decision-making and justice.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> The Monsanto case exposed the revolving door between regulators, judges, and politicians, as well as the financial leverage corporations have over the legal process.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreie2jpoqjihoc7c5dkrr2ghpgwcq6ghkpbd4zjdbkyz7y7atxb7wzy</code>
             </div>
         </div>
     </article>
@@ -3332,7 +3552,7 @@
             
             <div class="relationships">
                 <h3>Relationships</h3>
-                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+                <div class="rel-group"><strong>Builds Upon:</strong> <span class="rel-tag rel-builds_upon">Anatta Not Self</span></div>
             </div>
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
@@ -3354,7 +3574,7 @@
             
             <div class="relationships">
                 <h3>Relationships</h3>
-                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+                <div class="rel-group"><strong>Builds Upon:</strong> <span class="rel-tag rel-builds_upon">Anatta Not Self</span></div>
             </div>
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
@@ -3403,6 +3623,28 @@
             <div class="cid-box">
                 <strong>Permanent CID:</strong><br>
                 <code>bafyreibcvjz5mm4fidvmix3exlb32f2k74dg3p7ihtjsmyyef5j2u6x5hq</code>
+            </div>
+        </div>
+    </article>
+    <article class="concept-card" data-domain="Food & Language" data-search="yellow primate paks food &amp; language yellow_primate_paks">
+        <div class="card-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <span class="domain-badge domain-food-&-language">Food &amp; Language</span>
+            <h2>Yellow Primate Paks</h2>
+            <p class="definition-preview">A humorous, descriptive term for bananas that highlights their role as a product optimized for transportation and consumption by primates.</p>
+            <span class="expand-hint">Click to expand ↓</span>
+        </div>
+        <div class="card-detail">
+            <div class="definition-full">
+                <p>A humorous, descriptive term for bananas that highlights their role as a product optimized for transportation and consumption by primates.</p>
+            </div>
+            <div class="extra-section"><strong>Core Insight:</strong> The phrase 'Yellow Primate Paks' captures the evolutionary strategy of the wild banana while adding a fun, relatable twist.</div>
+            <div class="relationships">
+                <h3>Relationships</h3>
+                <p class="no-rels"><em>No relationships recorded yet.</em></p>
+            </div>
+            <div class="cid-box">
+                <strong>Permanent CID:</strong><br>
+                <code>bafyreibwmgism45z4kz5ryfvjskz23mmce2zewrze5wksj75vpz5f5g4a4</code>
             </div>
         </div>
     </article>
@@ -3488,7 +3730,7 @@
                 }
             });
 
-            document.getElementById('resultsCount').textContent = 'Showing ' + visible + ' of 150 concepts';
+            document.getElementById('resultsCount').textContent = 'Showing ' + visible + ' of 161 concepts';
         }
     </script>
 </body>

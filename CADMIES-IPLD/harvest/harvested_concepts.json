@@ -5,26 +5,159 @@
   "mycelium_aware": true,
   "llm_available": true,
   "chunk_size": 1000,
-  "total_chunks": 1,
+  "total_chunks": 5,
   "concepts": [
     {
-      "name": "emotional_physics",
-      "definition": "The study or understanding of emotional energy and its effects as following laws of motion, pressure, displacement, resonance, entropy, conservation, and kinesis.",
-      "domain": "Philosophy & Neuroscience",
-      "insight": "A novel perspective that emotions follow laws akin to physics, highlighting the interplay between emotional energy and physical sensations.",
+      "name": "frugivore_syndrome",
+      "definition": "A phenomenon where the traits of a fruit evolve to attract the right kind of disperser and discourage the wrong ones.",
+      "domain": "Evolutionary Biology",
+      "insight": "The banana, through its design, actively selects animals with a certain level of intelligence and dexterity for seed dispersal.",
+      "builds_upon": [],
+      "related_to": [],
+      "contradicts": []
+    },
+    {
+      "name": "evolutionary_marketing",
+      "definition": "The application of marketing principles to the natural world, particularly in the evolution of organisms for optimal survival.",
+      "domain": "Biology & Marketing",
+      "insight": "The wild banana's 'Seed Dispersal 2.0' strategy is an example of evolutionary marketing, optimizing its reproductive success through targeted customer acquisition and product design.",
       "builds_upon": [],
       "related_to": [
-        "neurochemistry",
-        "philosophy",
-        "emotions"
+        "evolution",
+        "marketing"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "nature_as_corporation",
+      "definition": "The framing of natural processes as corporate entities, highlighting their efficiency, strategy, and adaptability in achieving objectives.",
+      "domain": "Biology & Business",
+      "insight": "Viewing the wild banana as 'Wild Banana, Inc.' emphasizes its strategic reproductive approach and the success of its business model over millions of years.",
+      "builds_upon": [
+        "evolutionary marketing"
+      ],
+      "related_to": [
+        "corporations",
+        "evolution"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "yellow_primate_paks",
+      "definition": "A humorous, descriptive term for bananas that highlights their role as a product optimized for transportation and consumption by primates.",
+      "domain": "Food & Language",
+      "insight": "The phrase 'Yellow Primate Paks' captures the evolutionary strategy of the wild banana while adding a fun, relatable twist.",
+      "builds_upon": [
+        "evolutionary marketing",
+        "nature as corporation"
+      ],
+      "related_to": [
+        "bananas",
+        "language"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "corporate_biological_ownership",
+      "definition": "The notion of a corporation asserting intellectual property rights over life forms, as exemplified by the hypothetical Monsento banana scenario.",
+      "domain": "Law and Business Ethics",
+      "insight": "The corporatization of life forms marks a significant shift in power dynamics, where nature's laws are subordinated to corporate interests.",
+      "builds_upon": [],
+      "related_to": [
+        "intellectual_property",
+        "biological_patents"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "nature_as_commodity",
+      "definition": "The treatment of natural processes and life forms as products to be owned, controlled, and sold for profit.",
+      "domain": "Philosophy",
+      "insight": "This perspective fundamentally alters our relationship with nature, undermining traditional notions of commons and reciprocity.",
+      "builds_upon": [
+        "corporate_biological_ownership"
+      ],
+      "related_to": [],
+      "contradicts": []
+    },
+    {
+      "name": "absurdism_of_legal_system",
+      "definition": "The ironic and paradoxical nature of a legal system that criminalizes natural behaviors for corporate gain.",
+      "domain": "Philosophy",
+      "insight": "In this scenario, laughter serves as a coping mechanism for the absurdity and horror inherent in such a system.",
+      "builds_upon": [
+        "corporate_biological_ownership",
+        "nature_as_commodity"
+      ],
+      "related_to": [],
+      "contradicts": []
+    },
+    {
+      "name": "proprietary_nature",
+      "definition": "The concept of treating natural processes as proprietary entities controlled by corporations, overriding ancient biological principles.",
+      "domain": "Law and Philosophy",
+      "insight": "The court's ruling in the Monsanto case established a paradigm where nature's method of reproduction can be owned and controlled by corporations.",
+      "builds_upon": [],
+      "related_to": [
+        "intellectual_property_law",
+        "biological_principles"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "systemic_corruption",
+      "definition": "The systemic influence of corporate power and money on the legal system, hindering impartial decision-making and justice.",
+      "domain": "Politics and Law",
+      "insight": "The Monsanto case exposed the revolving door between regulators, judges, and politicians, as well as the financial leverage corporations have over the legal process.",
+      "builds_upon": [
+        "proprietary_nature"
+      ],
+      "related_to": [
+        "corporate_power",
+        "government_corruption"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "legalistic_coup",
+      "definition": "The quiet, gradual takeover of the legal system by corporate interests, through manipulation and misuse of intellectual property law.",
+      "domain": "Politics and Law",
+      "insight": "The Monsanto case was a significant example of this coup, as it effectively redefined the relationship between nature, corporations, and intellectual property.",
+      "builds_upon": [
+        "proprietary_nature",
+        "systemic_corruption"
+      ],
+      "related_to": [
+        "legal_power_struggle",
+        "corporate_domination"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "legal_capture",
+      "definition": "The process where a legal system becomes biased towards serving capital interests over justice.",
+      "domain": "Philosophy of Law",
+      "insight": "The legal system, designed to protect and serve, has been captured by the very entities it regulates. This creates an environment where laws favor capital at the expense of justice.",
+      "builds_upon": [],
+      "related_to": [
+        "corporate_power",
+        "governance_corruption"
       ],
       "contradicts": []
     }
   ],
   "poetic_versions": [
-    "In the dance of emotion, a tsunami swells and ebbs,\nDisplacing cold darkness with a radiant glow,\nResonating through souls in sympathetic tone,\nEntropy's chill dispelled by a fiery dawn.\nEmotional physics, a secret we've long known,\nYet now named in the bright light of day,\nA language that speaks to hearts alone,\nIn this symphony of life, we play."
+    "Nature's intricate dance, a banana's test: \nA peel, a signal, and seeds to vet,\nTo choose the right disperser in this sweet quest.",
+    "In the jungle, they grow bananas,\n    A gift from nature's hand,\n    An evolutionary marvel, a corporate grand plan,\n    A testament to design and strategy that stands.\n\n    With a peel so tough, yet intuitive to grip,\n    And fruit so sweet, it's no surprise we can't resist,\n    The seeds protected, in the primate's digestive trip,\n    Nature's greatest marketing success persists.\n\n    From the canopy to the grocery store aisle,\n    Each banana a Yellow Primate Pak, a smile,\n    In evolution's grand design, a mile,\n    The wild banana has met its perfect style.",
+    "In a world where seeds are sterile and fruits proprietary,\nApe troops face the law's unyielding iron hand,\nTheir primal instincts deemed a crime against man,\nAs nature's laws cede to corporate demands.\n\nLife itself is owned, patented, and traded,\nNature stripped of its commons, its reciprocity snared,\nA world where laughter may be the only sane response,\nTo the tragic disconnect that rules our dawn.\n",
+    "In a world where seeds can be owned, and the wind a debtor,\nNature's ancient laws crumble beneath the might of corporate power.\nA legalistic coup unfolds as the system bows to greed,\nLeaving life itself in the hands of those who profit from its seed.",
+    "In lands where justice dwells, A silent redesign takes place, The scales tilted, truth concealed, By gold-laced hands and legal grace. Yet, in the shadows cast by laws, A grim revelation comes to light, That serving power's insatiable thirst, Has tainted our courts with subtle might."
   ],
   "mantras": [
-    "Expand warmth, displace coldness,\nConnect through resonance, resist entropy,\nCreate movement, conserve energy,\nEmbrace emotional physics within."
+    "Choose wisely, banana's wisdom lies within its fruit",
+    "In nature, as in business, success comes from knowing your customer.",
+    "Life as a commodity: The ultimate absurdity.",
+    "Proprietary nature, systemic corruption, and a legalistic coup: The cost of unchecked corporate dominance.",
+    "Justice for all, but not at any cost"
   ]
 }

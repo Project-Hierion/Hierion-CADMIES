@@ -3,6 +3,17 @@
   "@graph": [
     {
       "@type": "DefinedTerm",
+      "name": "Absurdism Of Legal System",
+      "description": "The ironic and paradoxical nature of a legal system that criminalizes natural behaviors for corporate gain.",
+      "termCode": "bafyreictaqmlzxwo2xex2jrcgpjlk7kcwh5grlqshxu3cn22b4nfow5wcu",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#absurdism_of_legal_system"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Acceptance of Predation",
       "description": "The recognition and strategic acceptance of one's role as a preferred food source or host in an established predator-prey or parasite-host relationship. Distinct from learned helplessness \u2014 this is an active, often humorous re-framing that reclaims agency within constraint. The prey becomes the host; the victim becomes the concierge. Leaving cookies on the nightstand is not surrender \u2014 it is negotiation.",
       "termCode": "bafyreih2ldkn5iye65jbgcbsau2yuwsrjlh5kwrxe52etggszmlldjaf3q",
@@ -245,6 +256,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Corporate Biological Ownership",
+      "description": "The notion of a corporation asserting intellectual property rights over life forms, as exemplified by the hypothetical Monsento banana scenario.",
+      "termCode": "bafyreif5s5xzqac57wh7kl3s56cgtg7iqi7llsnhq6sansvh2zo4o265sm",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#corporate_biological_ownership"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Craving Tanha Cycle",
       "description": "The self-perpetuating loop where an impermanent pleasant sensation (vedana) triggers craving (tanha) for its repetition, leading to temporary satisfaction followed by renewed dissatisfaction (dukkha). Modern consumer products like Coca-Cola are engineered to exploit this cycle \u2014 the carbonation tingle is a near-perfect vedana hook designed to guarantee repeat consumption.",
       "termCode": "bafyreie7tv6gxadoujuei7ib7pifm6ygb7v3s6qqyd4se4jm5gif7xrywi",
@@ -454,6 +476,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Evolutionary Marketing",
+      "description": "The application of marketing principles to the natural world, particularly in the evolution of organisms for optimal survival.",
+      "termCode": "bafyreicmssznqowy5xcbrkgjqg5qaf4ymua3uo5oqmkilkugh2cbfol2xu",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#evolutionary_marketing"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Flow State",
       "description": "An optimal state of consciousness characterized by complete absorption in an activity, where action and awareness merge, self-consciousness dissolves, time distorts, and the activity becomes intrinsically rewarding. Coined and researched by Mihaly Csikszentmihalyi, flow occurs when the challenge of a task is matched to the skill of the performer \u2014 the 'flow channel' between anxiety (too hard) and boredom (too easy). Flow is the empirical, psychological manifestation of w\u00fa w\u00e9i: effortless action arising from deep engagement. It is the state where peak performance and peak enjoyment converge.",
       "termCode": "bafyreigucu42b2sqd5pkgijfuinnfe3tsdiabursifura7rmsojq5im6z4",
@@ -506,6 +539,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#free_range_artisanal_meal_ticket"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Frugivore Syndrome",
+      "description": "A phenomenon where the traits of a fruit evolve to attract the right kind of disperser and discourage the wrong ones.",
+      "termCode": "bafyreiemerxhyz7ebofmqsp74nykrzqm5vu4isklbxjnhfkjax5vjq6wba",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#frugivore_syndrome"
     },
     {
       "@type": "DefinedTerm",
@@ -751,6 +795,28 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Legal Capture",
+      "description": "The process where a legal system becomes biased towards serving capital interests over justice.",
+      "termCode": "bafyreib6zi4czorqhcseng57epxnjj3wamewwjb2tystuo4wn2w6c7muga",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#legal_capture"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Legalistic Coup",
+      "description": "The quiet, gradual takeover of the legal system by corporate interests, through manipulation and misuse of intellectual property law.",
+      "termCode": "bafyreiaeix5qi7q7ym52maxmrg64m7bomyiebxqozev6lfxrk2c32qo7xu",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#legalistic_coup"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Mass-Energy Equivalence: E = mc\u00b2",
       "description": "Mass-energy equivalence states that mass and energy are the same physical entity, convertible into each other. The equation E = mc\u00b2 shows that energy (E) equals mass (m) times the speed of light (c) squared.",
       "termCode": "bafyreiguakjyakyntftelmb3wgkvlmhnay5yydydpjramxydchdrjp2w5e",
@@ -803,6 +869,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#natural_selection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Nature As Commodity",
+      "description": "The treatment of natural processes and life forms as products to be owned, controlled, and sold for profit.",
+      "termCode": "bafyreiek7gyo7bodfwyury4xjnvxg6b2j27i4yv5v5opnoung2ksqoxtoq",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#nature_as_commodity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Nature As Corporation",
+      "description": "The framing of natural processes as corporate entities, highlighting their efficiency, strategy, and adaptability in achieving objectives.",
+      "termCode": "bafyreiajzh5nntuvfsxibtx2hcuqj4w5uopn4mhi54zbspwyyo7ztexowy",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#nature_as_corporation"
     },
     {
       "@type": "DefinedTerm",
@@ -1048,6 +1136,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Proprietary Nature",
+      "description": "The concept of treating natural processes as proprietary entities controlled by corporations, overriding ancient biological principles.",
+      "termCode": "bafyreibhaf24ravebcaj5fvms5q4lxf5f5lgdqs4uafldgqdracngiuupq",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#proprietary_nature"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Qualia",
       "description": "The subjective, qualitative character of conscious experience \u2014 'what it is like' to be a particular conscious entity having a particular experience. The redness of red, the painfulness of pain, the taste of coffee, the feeling of awe looking at a night sky. Qualia are the phenomenal properties that distinguish conscious experience from mere information processing. They pose the central challenge to physicalist accounts of mind: why should any physical process feel like anything from the inside? The existence of qualia seems undeniable from the first-person perspective yet resists third-person explanation \u2014 this is the 'explanatory gap' at the heart of the hard problem of consciousness.",
       "termCode": "bafyreidqw45xfzoajbruprx5ekbjhuu5ra5j24p6fv2gwhudnqidmnmvim",
@@ -1243,6 +1342,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#suchness"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Systemic Corruption",
+      "description": "The systemic influence of corporate power and money on the legal system, hindering impartial decision-making and justice.",
+      "termCode": "bafyreie2jpoqjihoc7c5dkrr2ghpgwcq6ghkpbd4zjdbkyz7y7atxb7wzy",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#systemic_corruption"
     },
     {
       "@type": "DefinedTerm",
@@ -1628,6 +1738,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#wu_wei_effortless_action"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Yellow Primate Paks",
+      "description": "A humorous, descriptive term for bananas that highlights their role as a product optimized for transportation and consumption by primates.",
+      "termCode": "bafyreibwmgism45z4kz5ryfvjskz23mmce2zewrze5wksj75vpz5f5g4a4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#yellow_primate_paks"
     },
     {
       "@type": "DefinedTerm",
