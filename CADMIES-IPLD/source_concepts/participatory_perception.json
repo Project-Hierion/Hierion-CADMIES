@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "participatory_perception",
+  "title": "Participatory Perception",
+  "definition": "The active engagement in observing a natural phenomenon to gain tacit, non-verbal knowledge and understanding, often revealing an archetypal essence.",
+  "type": "Concept",
+  "domain": "Philosophy of Science & Nature",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:10:01.155635Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:10:01.155635Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The active engagement in observing a natural phenomenon to gain tacit, non-verbal knowledge and understanding, often revealing an archetypal essence.",
+    "intermediate": "The active engagement in observing a natural phenomenon to gain tacit, non-verbal knowledge and understanding, often revealing an archetypal essence.",
+    "expert": "Observation transcends mere recognition, becoming a journey of participation in the lifecycle of a plant, revealing insights beyond the tangible."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Observation transcends mere recognition, becoming a journey of participation in the lifecycle of a plant, revealing insights beyond the tangible.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

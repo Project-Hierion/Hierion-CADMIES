@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cloud_speed_raindrop_angle",
+  "title": "Cloud Speed Raindrop Angle",
+  "definition": "The relationship between the speed of a cloud and the angle at which its raindrops fall to the ground.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-05-11T02:40:24.663400Z",
+      "reference": "CADMIES Harvest Pipeline v4.0.1 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-11T02:40:24.663400Z",
+    "creator": "CADMIES Harvest Pipeline v4.0.1",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "rainfall_velocimetry",
+      "cloud_ghost_raindrop"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The relationship between the speed of a cloud and the angle at which its raindrops fall to the ground.",
+    "intermediate": "The relationship between the speed of a cloud and the angle at which its raindrops fall to the ground.",
+    "expert": "Raindrops carry the horizontal velocity of their originating cloud, causing them to land ahead in relation to where they were released from, creating an angled path relative to the ground."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "rainfall_velocimetry",
+      "cloud_ghost_raindrop"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Raindrops carry the horizontal velocity of their originating cloud, causing them to land ahead in relation to where they were released from, creating an angled path relative to the ground.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

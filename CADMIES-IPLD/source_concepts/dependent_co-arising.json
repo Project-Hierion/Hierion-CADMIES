@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dependent_co-arising",
+  "title": "Dependent Co-Arising",
+  "definition": "The Buddhist concept that everything is dependent and interconnected, arising and passing away due to causes and conditions.",
+  "type": "Concept",
+  "domain": "Philosophy of Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:12:28.621024Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:12:28.621024Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Buddhist concept that everything is dependent and interconnected, arising and passing away due to causes and conditions.",
+    "intermediate": "The Buddhist concept that everything is dependent and interconnected, arising and passing away due to causes and conditions.",
+    "expert": "The realization that all phenomena are transient and empty of a permanent self or substantial essence, leading to the cessation of suffering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that all phenomena are transient and empty of a permanent self or substantial essence, leading to the cessation of suffering.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

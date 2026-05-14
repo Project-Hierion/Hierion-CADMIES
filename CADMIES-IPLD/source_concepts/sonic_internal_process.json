@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sonic_internal_process",
+  "title": "Sonic Internal Process",
+  "definition": "The interpretation of subtle, auditory cues in nature to discern internal processes, emotions, or states within living organisms.",
+  "type": "Concept",
+  "domain": "Philosophy of Perception & Sound",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:10:01.156120Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:10:01.156120Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The interpretation of subtle, auditory cues in nature to discern internal processes, emotions, or states within living organisms.",
+    "intermediate": "The interpretation of subtle, auditory cues in nature to discern internal processes, emotions, or states within living organisms.",
+    "expert": "Sound is not just a medium for transmission; it can be a key to understanding the inner workings and conditions of natural entities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Sound is not just a medium for transmission; it can be a key to understanding the inner workings and conditions of natural entities.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

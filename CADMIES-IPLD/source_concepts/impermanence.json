@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "impermanence",
+  "title": "Impermanence",
+  "definition": "The inherent transience and flux of all phenomena, including thoughts, feelings, and the self.",
+  "type": "Concept",
+  "domain": "Buddhism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:10:01.159374Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:10:01.159374Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The inherent transience and flux of all phenomena, including thoughts, feelings, and the self.",
+    "intermediate": "The inherent transience and flux of all phenomena, including thoughts, feelings, and the self.",
+    "expert": "The revelation that everything is in a state of constant change, with no fixed or permanent identity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The revelation that everything is in a state of constant change, with no fixed or permanent identity.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

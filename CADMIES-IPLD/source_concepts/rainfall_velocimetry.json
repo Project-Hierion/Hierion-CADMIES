@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "rainfall_velocimetry",
+  "title": "Rainfall Velocimetry",
+  "definition": "The technique of estimating cloud speed by analyzing the geometry and terminal velocity of raindrops.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-10T19:12:11.398254Z",
+      "reference": "CADMIES Harvest Pipeline v4.0.1 \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-10T19:12:11.398254Z",
+    "creator": "CADMIES Harvest Pipeline v4.0.1",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The technique of estimating cloud speed by analyzing the geometry and terminal velocity of raindrops.",
+    "intermediate": "The technique of estimating cloud speed by analyzing the geometry and terminal velocity of raindrops.",
+    "expert": "By observing raindrop angles and their terminal velocities, one can create a makeshift weather station without technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "By observing raindrop angles and their terminal velocities, one can create a makeshift weather station without technology.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

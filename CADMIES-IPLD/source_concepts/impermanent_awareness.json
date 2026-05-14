@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "impermanent_awareness",
+  "title": "Impermanent Awareness",
+  "definition": "The recognition that our consciousness is not a fixed entity but an ever-changing process, intertwined with the transient nature of all phenomena.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:14:32.322192Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:14:32.322192Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The recognition that our consciousness is not a fixed entity but an ever-changing process, intertwined with the transient nature of all phenomena.",
+    "intermediate": "The recognition that our consciousness is not a fixed entity but an ever-changing process, intertwined with the transient nature of all phenomena.",
+    "expert": "The observation and eventual realization that the observer itself is as impermanent as the observed, leading to the quenching of existential thirst."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The observation and eventual realization that the observer itself is as impermanent as the observed, leading to the quenching of existential thirst.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "suchness",
+  "title": "Suchness",
+  "definition": "The Buddhist concept of seeing things as they truly are, without the filter of a self or dualistic perspective.",
+  "type": "Concept",
+  "domain": "Philosophy of Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:12:28.622390Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:12:28.622390Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Buddhist concept of seeing things as they truly are, without the filter of a self or dualistic perspective.",
+    "intermediate": "The Buddhist concept of seeing things as they truly are, without the filter of a self or dualistic perspective.",
+    "expert": "The ultimate realization that leads to liberation from the cycle of suffering and attainment of enlightenment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ultimate realization that leads to liberation from the cycle of suffering and attainment of enlightenment.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

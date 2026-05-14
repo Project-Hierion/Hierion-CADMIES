@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "radical_attention",
+  "title": "Radical Attention",
+  "definition": "A heightened level of focus on one's environment, aiming to perceive patterns and mechanisms through repeated observation.",
+  "type": "Concept",
+  "domain": "Cognitive Processes",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:14:32.321687Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:14:32.321687Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A heightened level of focus on one's environment, aiming to perceive patterns and mechanisms through repeated observation.",
+    "intermediate": "A heightened level of focus on one's environment, aiming to perceive patterns and mechanisms through repeated observation.",
+    "expert": "Radical attention involves observing the world with an intensity that allows for deeper understanding and pattern recognition, ultimately leading to self-realization."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Radical attention involves observing the world with an intensity that allows for deeper understanding and pattern recognition, ultimately leading to self-realization.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

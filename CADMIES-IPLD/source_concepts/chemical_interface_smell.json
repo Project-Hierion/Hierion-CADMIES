@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "chemical_interface_smell",
+  "title": "Chemical Interface Smell",
+  "definition": "The direct connection between the olfactory senses and the chemical composition of natural elements, offering unique insights into their characteristics.",
+  "type": "Concept",
+  "domain": "Philosophy of Perception & Scent",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:10:01.156922Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:10:01.156922Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The direct connection between the olfactory senses and the chemical composition of natural elements, offering unique insights into their characteristics.",
+    "intermediate": "The direct connection between the olfactory senses and the chemical composition of natural elements, offering unique insights into their characteristics.",
+    "expert": "Smells can serve as a tangible link to the molecular structure of nature, providing an unspoken language of sorts for discerning qualities within living and non-living entities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Smells can serve as a tangible link to the molecular structure of nature, providing an unspoken language of sorts for discerning qualities within living and non-living entities.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

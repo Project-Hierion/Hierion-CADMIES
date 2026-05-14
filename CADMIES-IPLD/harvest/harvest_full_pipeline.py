@@ -45,7 +45,7 @@ CONVERSATION_FILE = HARVEST_DIR / "conversation.json"
 OUTPUT_FILE = HARVEST_DIR / "harvested_concepts.json"
 SOURCE_CONCEPTS_DIR = PROJECT_ROOT / "source_concepts"
 MODEL = "mistral:7b"  # Default — override with --model codestral or --model tinyllama:1.1b
-CHUNK_SIZE = 200
+CHUNK_SIZE = 1000
 DELAY = 10
 RELEVANCE_THRESHOLD = 0.1
 DEFAULT_CERTAINTY = 0.8
@@ -62,7 +62,7 @@ try:
     if MODEL in available_models:
         LLM_AVAILABLE = True
     else:
-        print(f"WARNING: Model '{model}' not found. LLM extraction disabled.")
+        print(f"WARNING: Model '{MODEL}' not found. LLM extraction disabled.")
         print(f"  Available models: {available_models}")
         LLM_AVAILABLE = False
 except Exception as e:
@@ -81,7 +81,7 @@ except ImportError:
 # === CID GENERATOR ===
 sys.path.insert(0, str(PROJECT_ROOT / "tools" / "core"))
 from cid_generator import CIDGenerator
-from scientific_validator import ScientificValidator as ScientificValidator
+from scientific_validator import ScientificValidator
 from provenance_manager import ProvenanceManager
 
 # === EXTRACTION PROMPT ===
@@ -609,6 +609,7 @@ def parse_args():
         "model": MODEL,
         "auto": False,
         "batch": False,
+        "with_relationships": False,
         "conversation": str(CONVERSATION_FILE),
     }
     for arg in sys.argv[1:]:
@@ -618,6 +619,8 @@ def parse_args():
             args["auto"] = True
         elif arg == "--batch":
             args["batch"] = True
+        elif arg == "--with-relationships":
+            args["with_relationships"] = True
         elif arg.startswith("--conv="):
             args["conversation"] = arg.split("=", 1)[1]
     return args
@@ -628,7 +631,7 @@ def main():
     MODEL = args["model"]
     print("=" * 60)
     print("CADMIES HARVEST PIPELINE")
-    print(f"Model: {MODEL}  |  Chunk Size: {CHUNK_SIZE} words  |  Auto: {args['auto']}  |  Batch: {args['batch']}")
+    print(f"Model: {MODEL}  |  Chunk Size: {CHUNK_SIZE} words  |  Auto: {args['auto']}  |  Batch: {args['batch']}  |  With-Relationships: {args['with_relationships']}")
     print(f"Branch: main (HARDENED)")
     print(f"LLM: {'AVAILABLE' if LLM_AVAILABLE else 'UNAVAILABLE — manual mode'}")
     print(f"Mycelium: {'ENABLED' if MYCELIUM_AVAILABLE else 'DISABLED'}")
@@ -782,6 +785,31 @@ def main():
         print("\nRegenerating mycelium map...")
         import subprocess
         subprocess.run([sys.executable, str(map_gen)], cwd=str(PROJECT_ROOT))
+    
+    # Auto-generate relationships if --with-relationships flag is set
+    if args["with_relationships"]:
+        rel_gen = PROJECT_ROOT / "tools" / "generate_relationships.py"
+        if rel_gen.exists():
+            print(f"\n{'='*60}")
+            print("AUTO-GENERATING RELATIONSHIPS (--with-relationships)")
+            print(f"{'='*60}")
+            import subprocess
+            result = subprocess.run(
+                [sys.executable, str(rel_gen), "--incremental", "--write"],
+                cwd=str(PROJECT_ROOT),
+                capture_output=True,
+                text=True
+            )
+            # Print the last few lines for edge count summary
+            for line in result.stdout.split("\n")[-8:]:
+                if line.strip():
+                    print(f"  {line.strip()}")
+            if result.returncode != 0:
+                print(f"  WARNING: Relationship generator exited with code {result.returncode}")
+                if result.stderr:
+                    print(f"  {result.stderr[:500]}")
+        else:
+            print(f"  WARNING: {rel_gen} not found — skipping relationship generation")
 
 
 if __name__ == "__main__":

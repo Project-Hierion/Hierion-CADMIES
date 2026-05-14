@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "duality_wilting",
+  "title": "Duality Wilting",
+  "definition": "The realization and discarding of the subject-object duality in favor of direct, unfiltered experience.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:10:01.161118Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:10:01.161118Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The realization and discarding of the subject-object duality in favor of direct, unfiltered experience.",
+    "intermediate": "The realization and discarding of the subject-object duality in favor of direct, unfiltered experience.",
+    "expert": "Through deep observation, the notion of a separate observer learning about a world is seen as illusory, leading to the dissolution of the subject-object duality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Through deep observation, the notion of a separate observer learning about a world is seen as illusory, leading to the dissolution of the subject-object duality.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

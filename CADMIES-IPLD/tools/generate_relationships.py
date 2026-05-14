@@ -125,7 +125,6 @@ Do NOT invent new IDs or types. Include EVERY concept as a key, even if empty ar
 
 Return ONLY the JSON (no markdown, no commentary):"""
 
-
 # ============================================================================
 # MISTRAL INTERFACE — No timeout, no stop tokens, trailing comma fix
 # ============================================================================
@@ -133,14 +132,16 @@ Return ONLY the JSON (no markdown, no commentary):"""
 def call_mistral(prompt, step_name):
     """
     Send prompt to Mistral and parse JSON response.
-    No timeout, no stop tokens — num_predict=256 is the only cap.
+    No timeout, no stop tokens — num_predict=512 is the only cap.
+    Robust JSON extraction handles prose, markdown fences, bare objects.
     Trailing commas stripped before JSON parse (common Mistral quirk).
     Failed JSON saved to tools/raw_*.txt for debugging.
     """
     import ollama
+    import re
 
     est_tokens = len(prompt.split())
-    print(f"  Mistral ← {est_tokens} tokens...", end=" ", flush=True)
+    print(f"  Mistral <- {est_tokens} tokens...", end=" ", flush=True)
 
     raw = None
     try:
@@ -153,16 +154,18 @@ def call_mistral(prompt, step_name):
             }
         )
         raw = response["response"].strip()
-        print(f"→ {len(raw)} chars", end=" ", flush=True)
+        print(f"-> {len(raw)} chars", end=" ", flush=True)
 
-        # Strip markdown code fences
-        while raw.startswith("```"):
-            raw = raw.lstrip("`")
-            if "\n" in raw:
-                raw = raw.split("\n", 1)[1]
-        while raw.endswith("```"):
-            raw = raw.rstrip("`").rstrip()
-        raw = raw.strip()
+        # Robust JSON extraction — handles prose before/after fences
+        # Pattern 1: ```json ... ``` or ``` ... ``` fences anywhere in response
+        match = re.search(r'```(?:json)?\s*\n?(\{.*?\})\s*```', raw, re.DOTALL)
+        if match:
+            raw = match.group(1).strip()
+        else:
+            # Pattern 2: Find the first { ... } object (handles prose-before-JSON with no fences)
+            match = re.search(r'\{.*\}', raw, re.DOTALL)
+            if match:
+                raw = match.group(0).strip()
 
         # Fix trailing commas (Mistral JSON quirk)
         raw = raw.replace(", }", "}")
@@ -173,7 +176,7 @@ def call_mistral(prompt, step_name):
         data = json.loads(raw)
         rels = data.get("relationships", {})
         edge_count = sum(len(v) for v in rels.values())
-        print(f"→ {edge_count} edges")
+        print(f"-> {edge_count} edges")
         return rels
 
     except json.JSONDecodeError:

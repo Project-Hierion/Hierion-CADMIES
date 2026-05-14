@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dukkha_unsatisfactoriness",
+  "title": "Dukkha Unsatisfactoriness",
+  "definition": "A central concept in Buddhism, referring to the inherent suffering and dissatisfaction caused by desire, craving, ignorance, and clinging to temporary states.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:10:01.160711Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:10:01.160711Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A central concept in Buddhism, referring to the inherent suffering and dissatisfaction caused by desire, craving, ignorance, and clinging to temporary states.",
+    "intermediate": "A central concept in Buddhism, referring to the inherent suffering and dissatisfaction caused by desire, craving, ignorance, and clinging to temporary states.",
+    "expert": "The recognition that trying to hold onto any peak state is futile, as everything is transient and impermanent, leading to a constant need-to-water (suffering)."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that trying to hold onto any peak state is futile, as everything is transient and impermanent, leading to a constant need-to-water (suffering).",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}

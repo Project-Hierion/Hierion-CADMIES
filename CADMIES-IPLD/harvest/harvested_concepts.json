@@ -1,59 +1,30 @@
 {
   "source_file": "conversation.json",
-  "model": "codestral:22b",
+  "model": "mistral:7b",
   "harvester_version": "4.0.1",
   "mycelium_aware": true,
   "llm_available": true,
-  "chunk_size": 200,
-  "total_chunks": 3,
+  "chunk_size": 1000,
+  "total_chunks": 1,
   "concepts": [
     {
-      "name": "cloud_speed_raindrop_angle",
-      "definition": "The relationship between the speed of a cloud and the angle at which its raindrops fall to the ground.",
-      "domain": "Physics",
-      "insight": "Raindrops carry the horizontal velocity of their originating cloud, causing them to land ahead in relation to where they were released from, creating an angled path relative to the ground.",
-      "builds_upon": [
-        "rainfall_velocimetry",
-        "cloud_ghost_raindrop"
-      ],
-      "related_to": [],
-      "contradicts": []
-    },
-    {
-      "name": "cloud_kinematics_velocimetry",
-      "definition": "The concept of extracting cloud speed and direction by analyzing the geometry, terminal velocity, and slant angle of raindrops.",
-      "domain": "Physics",
-      "insight": "Even slight deviations from vertical in raindrop fall can be used to calculate cloud speed.",
-      "builds_upon": [
-        "rainfall_velocimetry"
-      ],
+      "name": "emotional_physics",
+      "definition": "The study or understanding of emotional energy and its effects as following laws of motion, pressure, displacement, resonance, entropy, conservation, and kinesis.",
+      "domain": "Philosophy & Neuroscience",
+      "insight": "A novel perspective that emotions follow laws akin to physics, highlighting the interplay between emotional energy and physical sensations.",
+      "builds_upon": [],
       "related_to": [
-        "cloud_ghost_raindrop"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "human_pattern_recognition",
-      "definition": "The process by which humans perceive and interpret patterns in their environment, including the subtle motion of raindrops.",
-      "domain": "Psychology",
-      "insight": "Humans have a built-in cloud speedometer with an approximate 3 mph detection threshold, utilizing pattern recognition to distinguish between vertical and angled rainfall.",
-      "builds_upon": [
-        "rainfall_velocimetry"
-      ],
-      "related_to": [
-        "cloud_ghost_raindrop"
+        "neurochemistry",
+        "philosophy",
+        "emotions"
       ],
       "contradicts": []
     }
   ],
   "poetic_versions": [
-    "Cloud's soul in every drop, a silent testament\nOf speed and motion, a celestial metamorphosis\nRaindrops, the witnesses of their cloud's journey,\nLean forward in the wind's soft caress.",
-    "The silent dance of raindrops, each a ghost\nTells the story of its cloud's swift flight,\nEven a slight sway reveals its speed,\nIn the quiet language of water's light.",
-    "Through the dance of drops, we unveil\nThe silent whispers of the sky above.\nOur eyes may not see, but our minds do decipher,\nThe motion that defies the forces below."
+    "In the dance of emotion, a tsunami swells and ebbs,\nDisplacing cold darkness with a radiant glow,\nResonating through souls in sympathetic tone,\nEntropy's chill dispelled by a fiery dawn.\nEmotional physics, a secret we've long known,\nYet now named in the bright light of day,\nA language that speaks to hearts alone,\nIn this symphony of life, we play."
   ],
   "mantras": [
-    "Clouds speak in rain, read the angle with care.",
-    "Raindrops reveal, the cloud's silent speed.",
-    "We observe patterns, even when unseen."
+    "Expand warmth, displace coldness,\nConnect through resonance, resist entropy,\nCreate movement, conserve energy,\nEmbrace emotional physics within."
   ]
 }

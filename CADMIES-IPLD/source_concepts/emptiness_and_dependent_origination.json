@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emptiness_and_dependent_origination",
+  "title": "Emptiness And Dependent Origination",
+  "definition": "The Buddhist understanding of the emptiness of all phenomena, including self and other, and their interdependence in a process of constant change.",
+  "type": "Concept",
+  "domain": "Philosophy of Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-13T04:12:28.621756Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-13T04:12:28.621756Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Buddhist understanding of the emptiness of all phenomena, including self and other, and their interdependence in a process of constant change.",
+    "intermediate": "The Buddhist understanding of the emptiness of all phenomena, including self and other, and their interdependence in a process of constant change.",
+    "expert": "The recognition that the very concept of a separate observer is an illusion, leading to the release from the cycle of suffering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that the very concept of a separate observer is an illusion, leading to the release from the cycle of suffering.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.0.1"
+  }
+}
