@@ -754,26 +754,18 @@ Three layers, one system: the fortress holds the library, the library holds the 
 
 **Vault Structure:**
 CADMIES-Vault/
-├── 00-Meta/ # How the vault works
-│ └── Note-Taking Protocol.md
-├── 01-System/ # CADMIES architecture
-│ ├── Architecture Overview.md
-│ ├── Blockstore & IPLD.md
-│ ├── Two-System Setup.md
-│ └── Three-Model Arsenal.md
-├── 02-Pipeline/ # Each tool documented
-│ ├── Harvester.md
-│ ├── Relationship Generator.md
-│ ├── Mycelium Map.md
-│ └── Public Gateway.md
-├── 03-Development/ # Session logs, phase docs, decisions
-│ ├── Session-001.md through Session-XXX.md
-│ ├── Phase-XX-Topic.md
-│ └── Decisions-Log.md
-├── 04-Concepts/ # Links into source_concepts/
-└── 05-Collaboration/
-└── Dr-Rebentisch-Twin-Mycelium.md
-
+├── Raw CADMIES/                # Primary workspace — the live notebook
+│   ├── Scratchpad/
+│   ├── Ideas/
+│   └── Session-Notes/
+├── Polished CADMIES/           # Secondary — structured, PhD-ready
+│   ├── 01-System/
+│   ├── 02-Pipeline/
+│   ├── 03-Development/
+│   ├── 04-Concepts/
+│   └── 05-Collaboration/
+└── 00-Meta/                    # Governs both layers
+    └── Note-Taking Protocol.md
 text
 
 The vault structure uses five top-level folders, each serving a distinct purpose. Meta governs how the vault itself operates. System documents the architecture. Pipeline covers each tool. Development holds the living record of sessions, phases, and decisions. Concepts links outward to the source_concepts repository. Collaboration documents external partnerships.
