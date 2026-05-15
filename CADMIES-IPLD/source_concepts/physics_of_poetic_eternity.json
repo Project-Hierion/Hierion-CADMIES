@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "physics_of_poetic_eternity",
+  "title": "Physics Of Poetic Eternity",
+  "definition": "The theory that the universe is a vibrating sheet of all possible patterns of being, where 'death' and 'birth' are merely transitions between states of active excitation and quiet potential.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-15T17:16:30.244114Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-15T17:16:30.244114Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A model suggesting that everything in the universe, including our consciousness, is like a bouncing ball on an endless trampoline, where death is just a pause before being reborn.",
+    "intermediate": "An interpretation of quantum physics and conservation laws proposing the universe as a vast web of patterns interconnected by energy, with transitions between active and dormant states as 'birth' and 'death'.",
+    "expert": "A philosophical extrapolation of certain physical principles (conservation of energy, quantum potential) proposing the universe as a vibrating network where consciousness patterns can change forms but never truly disappear."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that the universe is not just full of stars and souls, but also of all possible patterns of being, where life and death are mere phases in an eternal dance of excitation and dormancy.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

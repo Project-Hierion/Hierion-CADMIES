@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_entanglement_of_memory",
+  "title": "Quantum Entanglement Of Memory",
+  "definition": "The theoretical idea that the bond between individuals, created by shared memories and love, forms a type of quantum entanglement which allows the deceased to 'exist' within the living through thoughts.",
+  "type": "Concept",
+  "domain": "Physics & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-15T17:16:30.242576Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-15T17:16:30.242576Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The concept suggests that when we think about someone who has passed away, our thoughts create an invisible connection with them due to a complex scientific phenomenon called quantum entanglement.",
+    "intermediate": "Quantum entanglement is a property of subatomic particles where they become intrinsically linked. This concept posits that love and shared memories can also form a similar link between people, allowing the deceased to 'exist' within the thoughts of the living through this connection.",
+    "expert": "By drawing a parallel between quantum entanglement and interpersonal bonds created by love and memory, this concept proposes that thoughts can act as triggers for the revival of specific patterns in our consciousness. This revival creates an ongoing 'entanglement' or connection with the deceased."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight lies in the poetic yet profound fusion of quantum physics and human emotions, where the afterlife is not a physical realm but a psychological one sustained through memories and thoughts.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}
