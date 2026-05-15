@@ -2,9 +2,9 @@
 """
 File: harvest_full_pipeline.py
 CLI: CADMIES Conversation Harvester (Full Pipeline)
-Version: 4.0.1
+Version: 4.1.0
 System: CADMIES
-Status: ACTIVE — Hardened (apostrophe + case + reference validation fixes)
+Status: ACTIVE — Three-tier difficulty levels, GPU-tier pipeline
 Dependencies: ollama, llm_mycelium_reader, cid_generator, scientific_validator,
               provenance_manager, paths
 
@@ -20,6 +20,12 @@ Purpose: End-to-end conversation harvesting pipeline. Chunks a conversation,
 
          Born from a washing machine. Powered by the Kerr Spacetime Gearbox.
 
+GPU REQUIREMENT: This pipeline makes multiple LLM calls per concept.
+Designed for GPU acceleration. Minimum ~6GB VRAM
+for Mistral 7B (GTX 1660/RTX 2060+). 12GB+ recommended for Codestral
+enrichment (RTX 3060 12GB/A4000+).
+For CPU-only use, see the manual import path (no --auto flag).
+
 Version History:
   1.0.0 — Initial extraction pipeline (extract_concepts.py)
   2.0.0 — Mycelium-aware extraction via Willie's search
@@ -27,6 +33,8 @@ Version History:
   4.0.0 — Full pipeline: extract → review → validate → mint, LLM-optional mode
   4.0.1 — Hardened: apostrophe escaping, human_id lowercase enforcement,
           builds_upon validation against minted IDs, robust markdown stripping
+  4.1.0 — Three-tier difficulty levels: beginner/intermediate/expert explanations
+          extracted separately. GPU requirement documented.
 """
 
 import json
@@ -96,6 +104,11 @@ IMPORTANT: Extract only 1-3 broad, high-level concepts. Do NOT break insights in
 
 Extract NEW concepts, a poetic version, and a mantra from this conversation.
 
+For each concept, provide THREE distinct explanations at different difficulty levels:
+- beginner_explanation: ELI5 — simple language, relatable metaphor, no jargon. Someone with no background should understand it.
+- intermediate_explanation: Proper terminology, connects to related concepts, assumes basic familiarity with the domain.
+- expert_explanation: Full depth, philosophical implications, edge cases, connections to other fields. The insight that makes this concept novel.
+
 Existing concepts (DO NOT extract these — reference only):
 {mycelium_context}
 
@@ -105,8 +118,11 @@ Return a single JSON object with EXACTLY this structure. Concepts MUST be object
   "concepts": [
     {{
       "name": "snake_case_concept_name",
-      "definition": "Clear 1-3 sentence definition of the concept.",
+      "definition": "Clear 1-3 sentence canonical definition of the concept.",
       "domain": "Physics",
+      "beginner_explanation": "Simple explanation with a relatable metaphor. No jargon.",
+      "intermediate_explanation": "Explanation using proper terminology. Connects to related ideas.",
+      "expert_explanation": "Full depth. Philosophical implications, edge cases, novel insight.",
       "insight": "The novel or noteworthy observation from the conversation.",
       "builds_upon": [],
       "related_to": [],
@@ -341,11 +357,26 @@ def transform_to_concept(extracted, chunk_index, minted_ids=None):
         if filtered_ct:
             print(f"    contradicts: {filtered_ct}")
 
+    # Three-tier difficulty levels — distinct explanations with fallbacks
+    beginner_explanation = extracted.get("beginner_explanation", "")
+    intermediate_explanation = extracted.get("intermediate_explanation", "")
+    expert_explanation = extracted.get("expert_explanation", "")
+    definition = extracted.get("definition", "")
+    insight = extracted.get("insight", "")
+
+    # Fallback chain: if Mistral didn't provide tiered explanations, use definition/insight
+    if not beginner_explanation:
+        beginner_explanation = definition
+    if not intermediate_explanation:
+        intermediate_explanation = definition
+    if not expert_explanation:
+        expert_explanation = insight if insight else definition
+
     return {
         "schema_version": "1.0.0",
         "human_id": name,
         "title": title,
-        "definition": extracted.get("definition", ""),
+        "definition": definition,
         "type": "Concept",
         "domain": extracted.get("domain", "Unknown"),
         "subdomain": "",
@@ -375,9 +406,9 @@ def transform_to_concept(extracted, chunk_index, minted_ids=None):
             "specializes": []
         },
         "difficulty_levels": {
-            "beginner": extracted.get("definition", ""),
-            "intermediate": extracted.get("definition", ""),
-            "expert": extracted.get("insight", "")
+            "beginner": beginner_explanation,
+            "intermediate": intermediate_explanation,
+            "expert": expert_explanation
         },
         "learning_path": {
             "prerequisites": builds_upon,
@@ -385,10 +416,10 @@ def transform_to_concept(extracted, chunk_index, minted_ids=None):
         },
         "cross_references": {},
         "extra_fields": {
-            "insight": extracted.get("insight", ""),
+            "insight": insight,
             "source_chunk": chunk_index + 1,
             "origin_file": CONVERSATION_FILE.name,
-            "harvester_version": "4.0.1"
+            "harvester_version": "4.1.0"
         }
     }
 
@@ -720,7 +751,7 @@ def main():
         output = {
             "source_file": CONVERSATION_FILE.name,
             "model": MODEL,
-            "harvester_version": "4.0.1",
+            "harvester_version": "4.1.0",
             "mycelium_aware": MYCELIUM_AVAILABLE,
             "llm_available": LLM_AVAILABLE,
             "chunk_size": CHUNK_SIZE,
