@@ -3,9 +3,9 @@
   "human_id": "cloud_speed_raindrop_angle",
   "title": "Cloud Speed Raindrop Angle",
   "definition": "The relationship between the speed of a cloud and the angle at which its raindrops fall to the ground.",
-  "type": "Concept",
+  "type": "PhysicalPhenomenon",
   "domain": "Physics",
-  "subdomain": "",
+  "subdomain": "Cloud Physics",
   "formula": null,
   "proofs": [
     {
@@ -36,8 +36,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The relationship between the speed of a cloud and the angle at which its raindrops fall to the ground.",
-    "intermediate": "The relationship between the speed of a cloud and the angle at which its raindrops fall to the ground.",
+    "beginner": "Raindrops falling from clouds form an angle with the ground due to their speed. For example, faster moving raindrops will create a steeper angle than slower ones.",
+    "intermediate": "The cloud speed raindrop angle phenomenon is based on Bernoulli's principle, which explains why raindrops move faster when they fall from higher altitudes in the cloud.",
     "expert": "Raindrops carry the horizontal velocity of their originating cloud, causing them to land ahead in relation to where they were released from, creating an angled path relative to the ground."
   },
   "learning_path": {
@@ -55,9 +55,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This concept is rooted in the study of atmospheric physics and hydrology.",
+    "limitations": [
+      "The relationship between cloud speed and raindrop angle can be influenced by various factors such as air temperature and humidity.",
+      "Predicting precise angles and speeds based on this phenomenon can still present challenges."
+    ],
+    "applications": [
+      "Weather forecasting and modeling",
+      "Water resource management"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

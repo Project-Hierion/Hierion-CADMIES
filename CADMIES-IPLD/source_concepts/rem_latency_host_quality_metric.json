@@ -50,9 +50,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This hypothesis is based on a comedic extension of the concept of Yelp reviews for vampire feeding experiences.",
+    "limitations": [
+      "The hypothesis assumes that hematophagous predators can detect REM sleep and develop evaluative criteria. This may not be the case in reality.",
+      "Predator preferences may also be influenced by factors beyond sleep architecture."
+    ],
+    "applications": [
+      "Understanding predator-prey interactions in hematophagous species",
+      "Exploring potential evolutionary adaptations related to sleep architecture"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

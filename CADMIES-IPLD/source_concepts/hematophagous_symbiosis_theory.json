@@ -50,9 +50,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This theory emerges from the integration of several concepts in biology and co-evolutionary theory, including hematophagous behavior, optimal foraging theory, host physiological adaptation timelines, and the concept of involuntary symbiosis.",
+    "limitations": [
+      "The theory is primarily based on vampire bats and their hosts; its applicability to other hematophagous species requires further study.",
+      "The theory assumes long-term relationships between predator and host; short-term interactions are not considered."
+    ],
+    "applications": [
+      "Understanding the dynamics of chronic hematophagy can aid in disease management for hosts, such as anemia prevention in cattle.",
+      "Investigating co-adaptation between species offers insights into the evolution of symbiotic relationships."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

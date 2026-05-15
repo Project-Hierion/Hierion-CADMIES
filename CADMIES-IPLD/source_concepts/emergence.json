@@ -50,9 +50,17 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Emergence can be traced back to the philosophies of John Stuart Mill (1843) and G. H. Lewes (1875). It was further developed by figures such as Phil Anderson ('More is Different', 1972) and the Santa Fe Institute.",
+    "limitations": [
+      "Emergence may oversimplify complex systems, ignoring internal structures or hierarchies.",
+      "The distinction between weak and strong emergence remains debated.",
+      "Downward causation is difficult to empirically verify."
+    ],
+    "applications": [
+      "Swarm intelligence in robotics",
+      "Self-organizing maps in machine learning",
+      "Emergent behavior in artificial life simulation"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

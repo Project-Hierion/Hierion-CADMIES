@@ -3,9 +3,9 @@
   "human_id": "gardening_of_human_condition",
   "title": "Gardening Of Human Condition",
   "definition": "The recognition that every individual has the power to shape and influence the emotional and social environment around them, akin to tending a garden.",
-  "type": "Concept",
+  "type": "EthicalPrinciple",
   "domain": "Ethics & Philosophy of Mind",
-  "subdomain": "",
+  "subdomain": "Moral Agency and Responsibility",
   "formula": null,
   "proofs": [
     {
@@ -36,8 +36,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The recognition that every individual has the power to shape and influence the emotional and social environment around them, akin to tending a garden.",
-    "intermediate": "The recognition that every individual has the power to shape and influence the emotional and social environment around them, akin to tending a garden.",
+    "beginner": "Everyone has the power to influence their environment like a gardener tends plants, shaping and nurturing relationships.",
+    "intermediate": "The recognition that every individual's actions have ripple effects on their social and emotional landscape, encouraging responsibility and compassion.",
     "expert": "Understanding that each action has a causal effect on others and the world, encouraging responsibility and compassion in one's actions."
   },
   "learning_path": {
@@ -52,9 +52,14 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Gardening of Human Condition reflects contemporary discussions on moral agency and the role of personal behavior in shaping social dynamics.",
+    "limitations": [
+      "The concept lacks clear boundaries or criteria for evaluating the 'success' or effectiveness of one's gardening efforts.",
+      "Some argue that it oversimplifies complex ethical issues and ignores structural factors."
+    ],
+    "applications": [
+      "Personal development, interpersonal relationships, community organizing, social change movements"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

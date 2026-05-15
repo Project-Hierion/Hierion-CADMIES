@@ -50,9 +50,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Sunyata emerged from Mahayana Buddhism, specifically Nagarjuna's Madhyamaka philosophy (c. 150-250 CE). It is a foundational concept in the Perfection of Wisdom literature.",
+    "limitations": [
+      "Some interpretations of sunyata can lead to nihilism or skepticism if not properly understood as emptiness of inherent existence, not non-existence.",
+      "Sunyata is a controversial concept that has been criticized for being too idealistic and abstract, detached from everyday reality."
+    ],
+    "applications": [
+      "Meditation practices to cultivate insight into sunyata can lead to greater clarity, compassion, and wisdom",
+      "Understanding sunyata informs ethical decision-making by helping one see the interconnectedness of all things and avoid harm"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

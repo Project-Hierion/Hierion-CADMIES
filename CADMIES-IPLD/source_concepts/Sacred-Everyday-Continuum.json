@@ -3,9 +3,9 @@
   "human_id": "Sacred-Everyday-Continuum",
   "title": "Sacred-Everyday-Continuum",
   "definition": "The recognition that the fundamental goal of meditation and contemplation remains constant, while the external variables such as instruments and settings can vary greatly.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy of Daily Life",
-  "subdomain": "",
+  "subdomain": "Philosophy of Daily Life",
   "formula": null,
   "proofs": [
     {
@@ -37,8 +37,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The recognition that the fundamental goal of meditation and contemplation remains constant, while the external variables such as instruments and settings can vary greatly.",
-    "intermediate": "The recognition that the fundamental goal of meditation and contemplation remains constant, while the external variables such as instruments and settings can vary greatly.",
+    "beginner": "The idea is that even everyday activities can be transformed into spiritual practices if approached with the right mindset.",
+    "intermediate": "This framework posits that the constant in meditation and contemplation is the pursuit of a deeper connection, while the methods can vary greatly from person to person or culture to culture.",
     "expert": "The potential for mindfulness is not dependent on the tool or the place, but on the intention behind the action. The challenge is to remember that even chores can be made sacred."
   },
   "learning_path": {
@@ -53,9 +53,14 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This concept emerged from modern contemplative movements that seek to integrate mindfulness and spirituality into everyday life.",
+    "limitations": [
+      "The boundaries of what qualifies as a 'sacred' activity may be subjective and open to interpretation.",
+      "The framework might be criticized for oversimplifying the complexities of spiritual growth."
+    ],
+    "applications": [
+      "Personal development, Mindfulness practices, Everyday mindfulness"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

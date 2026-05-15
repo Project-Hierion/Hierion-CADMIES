@@ -3,9 +3,9 @@
   "human_id": "attention_as_foundation_of_wisdom",
   "title": "Attention As Foundation Of Wisdom",
   "definition": "The idea that radical, patient attention to one's environment can lead to profound insights about physics, biology, and time, ultimately culminating in self-realization and liberation.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Attention and Consciousness",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The idea that radical, patient attention to one's environment can lead to profound insights about physics, biology, and time, ultimately culminating in self-realization and liberation.",
-    "intermediate": "The idea that radical, patient attention to one's environment can lead to profound insights about physics, biology, and time, ultimately culminating in self-realization and liberation.",
+    "beginner": "The idea that paying close attention to our surroundings can lead to deeper understanding, like a seed growing into a plant with proper care.",
+    "intermediate": "A philosophical framework emphasizing the importance of focused attention in gaining wisdom and self-realization, connecting to concepts like mindfulness and presence.",
     "expert": "The plant as a teacher: the journey from observation to enlightenment through sustained, deep attention."
   },
   "learning_path": {
@@ -49,9 +49,16 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This idea builds upon ancient practices like meditation and contemplation, as well as modern research in psychology, cognitive science, and philosophy.",
+    "limitations": [
+      "The definition of attention can be difficult to pin down, leading to debates over its nature and the best ways to cultivate it.",
+      "The idea may be too abstract or metaphorical for some to fully understand or apply in their lives."
+    ],
+    "applications": [
+      "Personal growth and self-realization",
+      "Improved mindfulness and focus in daily life",
+      "Study and learning techniques"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

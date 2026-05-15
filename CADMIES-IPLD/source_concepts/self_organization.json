@@ -50,9 +50,13 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The study of self-organization emerged as a response to the classical Newtonian-Laplacian paradigm, challenging top-down determinism. It was further developed by scientists like Ilya Prigogine and Stuart Kauffman.",
+    "limitations": [
+      "Self-organization doesn't explain every aspect of complex systems, as it often relies on specific conditions."
+    ],
+    "applications": [
+      "Bioinformatics, Evolutionary Biology, Artificial Intelligence, Economics"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

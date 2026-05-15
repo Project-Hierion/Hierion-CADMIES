@@ -3,9 +3,9 @@
   "human_id": "participatory_perception",
   "title": "Participatory Perception",
   "definition": "The active engagement in observing a natural phenomenon to gain tacit, non-verbal knowledge and understanding, often revealing an archetypal essence.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Philosophy of Science & Nature",
-  "subdomain": "",
+  "subdomain": "Phenomenology in the Philosophy of Science & Nature",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The active engagement in observing a natural phenomenon to gain tacit, non-verbal knowledge and understanding, often revealing an archetypal essence.",
-    "intermediate": "The active engagement in observing a natural phenomenon to gain tacit, non-verbal knowledge and understanding, often revealing an archetypal essence.",
+    "beginner": "Participatory Perception involves actively engaging with nature to gain deeper, non-verbal understanding beyond simple observation.",
+    "intermediate": "Participatory Perception is a philosophy that emphasizes active participation in natural phenomena as a means of gaining holistic and intuitive knowledge.",
     "expert": "Observation transcends mere recognition, becoming a journey of participation in the lifecycle of a plant, revealing insights beyond the tangible."
   },
   "learning_path": {
@@ -49,9 +49,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Participatory Perception emerged from philosophies of science and nature that seek to understand the interconnectedness between observer and observed.",
+    "limitations": [
+      "The subjectivity of participatory perception may lead to interpretative discrepancies among observers.",
+      "The methodology can be challenging to apply in a controlled scientific setting."
+    ],
+    "applications": [
+      "Art and ecology, where artists immerse themselves in natural environments to inform their creative process.",
+      "Education, where students are encouraged to engage directly with the natural world to foster holistic learning."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

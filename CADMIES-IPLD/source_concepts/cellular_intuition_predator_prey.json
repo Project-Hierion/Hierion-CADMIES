@@ -50,9 +50,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Cellular Intuition extends embodied cognition theory by incorporating immunology and threat detection. It is a product of current AI-assisted discussions on the nature of intelligence and awareness.",
+    "limitations": [
+      "The concept requires further empirical research to validate its claims.",
+      "The role of consciousness in this process remains unclear."
+    ],
+    "applications": [
+      "Understanding chronic stress and autoimmune disorders",
+      "Exploring the limits of cognition and intelligence"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

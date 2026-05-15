@@ -50,9 +50,13 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The study of fractals can be traced back to ancient times, but it was popularized by Benoit Mandelbrot in the mid-20th century. His work on the Mandelbrot set and fractal dimension revolutionized mathematics and inspired further research.",
+    "limitations": [
+      "Fractals are approximations of natural structures and may not capture all their complexity; Fractal models can be computationally intensive; Interpreting the meaning and significance of fractal patterns in nature is a topic of ongoing debate."
+    ],
+    "applications": [
+      "Computer graphics and art, scientific modeling of complex systems (e.g., city growth, river networks), understanding the structure of mathematical spaces, and exploring non-Euclidean geometries."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

@@ -3,9 +3,9 @@
   "human_id": "rainfall_velocimetry",
   "title": "Rainfall Velocimetry",
   "definition": "The technique of estimating cloud speed by analyzing the geometry and terminal velocity of raindrops.",
-  "type": "Concept",
+  "type": "ScientificTheory",
   "domain": "Physics",
-  "subdomain": "",
+  "subdomain": "Meteorology",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The technique of estimating cloud speed by analyzing the geometry and terminal velocity of raindrops.",
-    "intermediate": "The technique of estimating cloud speed by analyzing the geometry and terminal velocity of raindrops.",
+    "beginner": "Estimating cloud speed using the size and falling speed of raindrops, like guessing an object's weight by its bounce.",
+    "intermediate": "Rainfall velocimetry is a method to analyze cloud speed based on geometrical properties and terminal velocity of raindrops, which can aid in weather forecasting.",
     "expert": "By observing raindrop angles and their terminal velocities, one can create a makeshift weather station without technology."
   },
   "learning_path": {
@@ -49,9 +49,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Rainfall velocimetry is an important tool in meteorology and atmospheric science that emerged from studies on raindrop motion and cloud dynamics.",
+    "limitations": [
+      "The accuracy of the technique depends on various factors such as air turbulence, humidity, and precipitation type.",
+      "It may not be suitable for precise wind speed measurements in certain weather conditions."
+    ],
+    "applications": [
+      "Weather forecasting and climate modeling",
+      "Assessing wind shear and microburst potential during aviation"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

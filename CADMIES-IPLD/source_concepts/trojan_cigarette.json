@@ -50,9 +50,14 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Trojan Cigarette was born from a discussion about Dave Chappelle's concealed cannabis consumption during a live performance. The observation that he appeared to be smoking a cigarette while actually smoking cannabis led to the concept of object-level camouflage where form is preserved but function is swapped.",
+    "limitations": [
+      "The Trojan Cigarette may not always work in situations where the observer is highly experienced or well-informed about the disguised object."
+    ],
+    "applications": [
+      "Art, design, and advertising: Creating deceptive visuals for commercial purposes",
+      "Social contexts: Using disguise to hide intentions or true identity"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

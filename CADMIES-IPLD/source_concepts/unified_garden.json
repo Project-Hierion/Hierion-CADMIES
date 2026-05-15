@@ -3,9 +3,9 @@
   "human_id": "unified_garden",
   "title": "Unified Garden",
   "definition": "The realization that the self, others, and the world are interconnected and form a single, living entity, akin to a garden.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Metaphysics & Philosophy of Mind",
-  "subdomain": "",
+  "subdomain": "Philosophy of Mind",
   "formula": null,
   "proofs": [
     {
@@ -38,8 +38,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The realization that the self, others, and the world are interconnected and form a single, living entity, akin to a garden.",
-    "intermediate": "The realization that the self, others, and the world are interconnected and form a single, living entity, akin to a garden.",
+    "beginner": "The Unified Garden is a concept that suggests the self, others, and the world are interconnected like plants in a garden.",
+    "intermediate": "The Unified Garden is a metaphysical framework proposing the unity of the self, others, and the world, emphasizing interdependence and connection.",
     "expert": "A profound understanding of interdependence and unity in existence, fostering compassion and awareness towards self and others."
   },
   "learning_path": {
@@ -56,9 +56,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Unified Garden can be seen as a modern development within the broader tradition of Eastern philosophies focusing on unity and interconnectedness.",
+    "limitations": [
+      "May be difficult to apply in practical daily life without mindfulness practice",
+      "Potential for over-emphasizing unity at the expense of individuality"
+    ],
+    "applications": [
+      "Spiritual practices like meditation and yoga",
+      "Psychological therapies focusing on interpersonal relationships"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

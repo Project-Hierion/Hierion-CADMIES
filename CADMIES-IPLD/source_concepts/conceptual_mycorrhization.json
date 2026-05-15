@@ -50,9 +50,13 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The concept emerged from a Tkinter GUI build session in 2026. It reflects recent advancements in cognitive science and embodied cognition theory.",
+    "limitations": [
+      "The model does not account for conscious memorization or deliberate learning."
+    ],
+    "applications": [
+      "Education, propaganda, advertising, personal knowledge management"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

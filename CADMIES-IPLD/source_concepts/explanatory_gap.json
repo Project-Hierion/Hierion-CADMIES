@@ -50,9 +50,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Explanatory Gap emerged within discussions on the relationship between mind and body in the late 20th century.",
+    "limitations": [
+      "It may not provide a comprehensive solution to the hard problem of consciousness",
+      "It does not fully address ontological questions regarding the nature of reality"
+    ],
+    "applications": [
+      "In discussions on the philosophy of mind, as a tool for understanding the limitations of current explanatory frameworks",
+      "As a starting point for exploring alternative theories, such as dualism or panpsychism"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

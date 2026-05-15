@@ -50,9 +50,16 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Raft of Practice principle emerged from a contemporary interpretation of the Buddha's raft simile, applied to mindful Coca-Cola practice in May 2026.",
+    "limitations": [
+      "May not fully address non-consumptive forms of attachment",
+      "Application to other spiritual practices may require adaptation"
+    ],
+    "applications": [
+      "Mindful consumption practices",
+      "Buddhist meditation techniques",
+      "Modern adaptations of ancient teachings"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

@@ -50,9 +50,16 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Paradox of Practice originated from a conversation about Buddhist cessation while drinking Coca-Cola in May 2026.",
+    "limitations": [
+      "Interpretations may vary due to individual perspectives and cultural differences",
+      "Misunderstandings can arise if the paradox is not approached with an open mind"
+    ],
+    "applications": [
+      "Meditation practices",
+      "Cultural discussions about consumption habits",
+      "Pedagogy and learning strategies in Buddhism"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

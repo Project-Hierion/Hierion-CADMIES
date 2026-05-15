@@ -3,9 +3,9 @@
   "human_id": "dukkha_unsatisfactoriness",
   "title": "Dukkha Unsatisfactoriness",
   "definition": "A central concept in Buddhism, referring to the inherent suffering and dissatisfaction caused by desire, craving, ignorance, and clinging to temporary states.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Ethics and Spirituality",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "A central concept in Buddhism, referring to the inherent suffering and dissatisfaction caused by desire, craving, ignorance, and clinging to temporary states.",
-    "intermediate": "A central concept in Buddhism, referring to the inherent suffering and dissatisfaction caused by desire, craving, ignorance, and clinging to temporary states.",
+    "beginner": "Dukkha, in Buddhism, is the feeling of unsatisfactoriness or dissatisfaction that comes from desiring things we cannot have, or clinging to things we already have. It's like trying to fill a bucket with holes, no matter how much you pour in, it never fills up.",
+    "intermediate": "Dukkha is a central concept in Buddhism, referring to the inherent suffering and dissatisfaction caused by desire, craving, ignorance, and clinging to temporary states. It encompasses three types: physical pain, mental distress, and the pervasive unsatisfactoriness of life itself.",
     "expert": "The recognition that trying to hold onto any peak state is futile, as everything is transient and impermanent, leading to a constant need-to-water (suffering)."
   },
   "learning_path": {
@@ -49,9 +49,16 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Dukkha is a central concept in Buddhism, originating from the teachings of Gautama Buddha around the 5th century BCE.",
+    "limitations": [
+      "Interpretations of Dukkha can vary among different schools of Buddhism",
+      "The concept's applicability to non-Buddhist contexts is debated"
+    ],
+    "applications": [
+      "Meditation practices aimed at reducing suffering",
+      "Insight into the nature of human desire and its role in suffering",
+      "A foundation for the development of compassion and empathy"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

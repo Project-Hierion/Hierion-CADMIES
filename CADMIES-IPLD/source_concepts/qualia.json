@@ -50,9 +50,17 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Introduced by C. I. Lewis (1929), developed in its modern sense by Clarence Irving Lewis. Central to the philosophy of mind through Thomas Nagel ('What Is It Like to Be a Bat?', 1974), Frank Jackson (Mary's Room thought experiment, 1982), and David Chalmers (the hard problem, 1995). Added to CADMIES as bridge concept linking philosophy of mind to embodied cognition concepts already in the mycelium, May 2026.",
+    "limitations": [
+      "The existence of qualia resists third-person explanation",
+      "Qualia pose a challenge to physicalist accounts of mind",
+      "The nature of qualia is debated among philosophers"
+    ],
+    "applications": [
+      "Investigating the nature of consciousness",
+      "Exploring the limits of physicalism and materialism",
+      "Developing theories of subjective experience in AI and robotics"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

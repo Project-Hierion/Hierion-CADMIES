@@ -50,9 +50,17 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Rooted in the Buddhist tradition, Mindful Consumption evolved as a practical application of the Middle Way.",
+    "limitations": [
+      "Requires consistent practice and discipline",
+      "May conflict with societal norms promoting constant consumption",
+      "Results may vary depending on individual mindfulness capacity"
+    ],
+    "applications": [
+      "Cultivating self-awareness in daily life",
+      "Transforming compulsive habits into conscious choices",
+      "Exploring the nature of desire and craving"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

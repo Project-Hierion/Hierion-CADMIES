@@ -3,9 +3,9 @@
   "human_id": "suchness",
   "title": "Suchness",
   "definition": "The Buddhist concept of seeing things as they truly are, without the filter of a self or dualistic perspective.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy of Religion",
-  "subdomain": "",
+  "subdomain": "BuddhistPhilosophy",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The Buddhist concept of seeing things as they truly are, without the filter of a self or dualistic perspective.",
-    "intermediate": "The Buddhist concept of seeing things as they truly are, without the filter of a self or dualistic perspective.",
+    "beginner": "The Buddhist concept of seeing things as they truly are, without the filter of a self or dualistic perspective. For example, imagine looking at a tree without judging it as beautiful or ugly.",
+    "intermediate": "Suchness is a central concept in Mahayana Buddhism that refers to the inherent nature or essence of things. It emphasizes the importance of understanding reality as it truly is, beyond our subjective interpretations and biases.",
     "expert": "The ultimate realization that leads to liberation from the cycle of suffering and attainment of enlightenment."
   },
   "learning_path": {
@@ -49,9 +49,17 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Suchness is a key component of Mahayana Buddhism and can be traced back to various sutras and texts from the 2nd century BCE onwards.",
+    "limitations": [
+      "The concept of suchness can be difficult to grasp without a foundation in Mahayana Buddhist thought.",
+      "Some argue that the emphasis on suchness may lead to a denial of subjective experience.",
+      "Critics suggest that the idea of seeing things as they truly are is idealistic and unattainable."
+    ],
+    "applications": [
+      "Suchness informs meditation practices aimed at achieving a non-dualistic understanding of reality.",
+      "It has influenced various art movements, such as Zen calligraphy, that strive to capture the inherent nature of things.",
+      "In philosophy, it challenges Western metaphysical frameworks that prioritize objectivity over subjective experience."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

@@ -64,9 +64,17 @@
     "harvester_version": "",
     "discoverer": "Rudolf Clausius",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Clausius' formulation of the second law of thermodynamics introduced entropy as a measure of disorder in thermodynamic systems.",
+    "limitations": [
+      "Entropy doesn't consider specific particle interactions",
+      "Assumes reversible processes",
+      "May not fully capture the complexity of real-world systems"
+    ],
+    "applications": [
+      "Understanding heat engines efficiency",
+      "Modeling phase transitions",
+      "Analyzing information theory and computation"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": [],

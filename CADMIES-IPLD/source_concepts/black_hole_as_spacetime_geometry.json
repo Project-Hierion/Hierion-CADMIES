@@ -3,7 +3,7 @@
   "human_id": "black_hole_as_spacetime_geometry",
   "title": "Black Hole as Spacetime Geometry",
   "definition": "A black hole is not a material object in spacetime but a self-sustaining, non-linear geometric structure of spacetime itself. Mass and spin define the object, reversing the ordinary relationship where spin is a property of an object.",
-  "type": "Concept",
+  "type": "MathematicalConcept",
   "domain": "Physics",
   "subdomain": "General Relativity",
   "formula": null,
@@ -62,9 +62,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The discovery of black holes as geometries in spacetime is a significant development in our understanding of general relativity and its implications for the universe.",
+    "limitations": [
+      "Black hole geometries are difficult to observe directly due to their extreme densities and the effects of event horizons"
+    ],
+    "applications": [
+      "Helping us understand the behavior of matter under extreme gravity",
+      "Aiding in our understanding of the structure and evolution of galaxies",
+      "Providing a testbed for theories of quantum gravity"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": [],

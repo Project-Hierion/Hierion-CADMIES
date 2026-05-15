@@ -3,9 +3,9 @@
   "human_id": "chemical_interface_smell",
   "title": "Chemical Interface Smell",
   "definition": "The direct connection between the olfactory senses and the chemical composition of natural elements, offering unique insights into their characteristics.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Philosophy of Perception & Scent",
-  "subdomain": "",
+  "subdomain": "Philosophy of Perception & Scent",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The direct connection between the olfactory senses and the chemical composition of natural elements, offering unique insights into their characteristics.",
-    "intermediate": "The direct connection between the olfactory senses and the chemical composition of natural elements, offering unique insights into their characteristics.",
+    "beginner": "Chemical Interface Smell is the unique ability to learn about natural elements by smelling them. For example, smelling a lemon can help you know it's sour.",
+    "intermediate": "Chemical Interface Smell refers to the direct connection between the olfactory senses and the chemical composition of natural elements, offering insights into their characteristics.",
     "expert": "Smells can serve as a tangible link to the molecular structure of nature, providing an unspoken language of sorts for discerning qualities within living and non-living entities."
   },
   "learning_path": {
@@ -49,9 +49,14 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Chemical Interface Smell plays a role in understanding the connections between chemistry, biology, and perception.",
+    "limitations": [
+      "The accuracy of identification through smell can vary depending on individual sensitivity and environmental factors.",
+      "Smells can be subjective and may not always accurately reflect the chemical composition."
+    ],
+    "applications": [
+      "Identifying foods, identifying hazardous materials, aromatherapy"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

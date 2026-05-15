@@ -50,9 +50,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Craving Tanha Cycle is a central concept in the teachings of Gautama Buddha (563 BCE - 483 BCE), the founder of Buddhism.",
+    "limitations": [
+      "The cycle's existence is not empirically testable.",
+      "It may oversimplify human desire and behavior."
+    ],
+    "applications": [
+      "Exploring consumer psychology in marketing and advertising",
+      "Analyzing addiction and dependency in mental health"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

@@ -66,9 +66,17 @@
     "harvester_version": "",
     "discoverer": "S\u00f8ren Peder Lauritz S\u00f8rensen",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The pH scale was developed by Danish chemist S\u00f8ren Peder Lauritz S\u00f8rensen in 1909 to standardize the measurement of acidity and alkalinity.",
+    "limitations": [
+      "The pH scale assumes ideal behavior, which may not always hold true for certain solutions",
+      "pH measurements can be influenced by temperature and ionic strength",
+      "pH measures hydrogen ion activity, but does not directly measure proton concentration."
+    ],
+    "applications": [
+      "Industrial chemical processes",
+      "Biochemistry and molecular biology",
+      "Environmental monitoring and pollution assessment"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": [],

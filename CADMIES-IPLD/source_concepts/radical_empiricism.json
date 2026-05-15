@@ -3,9 +3,9 @@
   "human_id": "radical_empiricism",
   "title": "Radical Empiricism",
   "definition": "The act of applying raw, unfiltered observation to both external and internal phenomena.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Philosophy of Mind",
-  "subdomain": "",
+  "subdomain": "Philosophy of Mind",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The act of applying raw, unfiltered observation to both external and internal phenomena.",
-    "intermediate": "The act of applying raw, unfiltered observation to both external and internal phenomena.",
+    "beginner": "Radical Empiricism is the idea that we should only believe what we can directly observe, applied to both external and internal phenomena.",
+    "intermediate": "Radical Empiricism posits that all knowledge comes from direct experience, without relying on innate ideas or abstract reasoning.",
     "expert": "The realization that all things are transient, constantly changing, yet interconnected in a complex web of causality."
   },
   "learning_path": {
@@ -49,9 +49,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Radical Empiricism emerged as a reaction against rationalism and empiricism during the late 19th century.",
+    "limitations": [
+      "It has been criticized for being overly subjective and unable to account for objective truth.",
+      "It does not provide a clear mechanism for distinguishing between valid and invalid observations."
+    ],
+    "applications": [
+      "In psychology, it has been used as a foundation for understanding consciousness and perception.",
+      "In philosophy of science, it has influenced theories of scientific methodology."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

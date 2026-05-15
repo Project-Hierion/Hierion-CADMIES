@@ -3,9 +3,9 @@
   "human_id": "radical_attention",
   "title": "Radical Attention",
   "definition": "A heightened level of focus on one's environment, aiming to perceive patterns and mechanisms through repeated observation.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Cognitive Processes",
-  "subdomain": "",
+  "subdomain": "Mindfulness and Consciousness",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "A heightened level of focus on one's environment, aiming to perceive patterns and mechanisms through repeated observation.",
-    "intermediate": "A heightened level of focus on one's environment, aiming to perceive patterns and mechanisms through repeated observation.",
+    "beginner": "Radical attention is a heightened focus on your surroundings, helping you spot patterns and mechanisms by looking closely and repeatedly.",
+    "intermediate": "Radical attention refers to an intense form of mindfulness that enables deeper understanding and pattern recognition through repeated observation.",
     "expert": "Radical attention involves observing the world with an intensity that allows for deeper understanding and pattern recognition, ultimately leading to self-realization."
   },
   "learning_path": {
@@ -49,9 +49,16 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Radical attention can be traced back to Eastern philosophies emphasizing mindfulness and meditation.",
+    "limitations": [
+      "Its benefits may vary among individuals and can be challenging for some to maintain.",
+      "The concept lacks a scientific consensus on its methodology and outcomes."
+    ],
+    "applications": [
+      "Self-discovery and self-realization",
+      "Artistic creativity and inspiration",
+      "Mindfulness practices in mental health treatment"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

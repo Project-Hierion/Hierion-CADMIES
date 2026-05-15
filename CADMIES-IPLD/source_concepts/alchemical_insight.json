@@ -3,9 +3,9 @@
   "human_id": "Alchemical Insight",
   "title": "Alchemical Insight",
   "definition": "The fusion of intellectual epiphany and spiritual enlightenment resulting in a profound transformation of one's being.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Philosophy of Science & Spirituality",
-  "subdomain": "",
+  "subdomain": "Philosophy of Science & Spirituality",
   "formula": null,
   "proofs": [
     {
@@ -36,8 +36,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The fusion of intellectual epiphany and spiritual enlightenment resulting in a profound transformation of one's being.",
-    "intermediate": "The fusion of intellectual epiphany and spiritual enlightenment resulting in a profound transformation of one's being.",
+    "beginner": "Alchemical Insight is the combination of a deep understanding and spiritual realization that leads to profound personal transformation.",
+    "intermediate": "Alchemical Insight represents the integration of intellectual epiphany and spiritual enlightenment, which results in a transformative shift in one's being.",
     "expert": "Combining the 'Aha!' moment of scientific discovery with the 'Oh...' of spiritual interconnectedness results in an alchemical journey that rewires one's very essence, transcending mere information acquisition."
   },
   "learning_path": {
@@ -52,9 +52,16 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Alchemical Insight emerged from the interplay of philosophical, scientific, and spiritual traditions throughout history.",
+    "limitations": [
+      "The definition of Alchemical Insight can be subjective and varies among individuals and cultures",
+      "The concept may not be clearly defined or recognized outside certain philosophical circles"
+    ],
+    "applications": [
+      "Personal growth and transformation",
+      "Philosophical inquiry",
+      "Mysticism and spirituality"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

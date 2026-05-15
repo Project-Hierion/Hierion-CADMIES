@@ -3,9 +3,9 @@
   "human_id": "fossilized_psychic_state",
   "title": "Fossilized Psychic State",
   "definition": "The idea that every artifact created by humans encapsulates a snapshot of their mental state at the time of creation, acting as a portal into their consciousness.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy of Art",
-  "subdomain": "",
+  "subdomain": "Philosophy of Art",
   "formula": null,
   "proofs": [
     {
@@ -37,8 +37,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The idea that every artifact created by humans encapsulates a snapshot of their mental state at the time of creation, acting as a portal into their consciousness.",
-    "intermediate": "The idea that every artifact created by humans encapsulates a snapshot of their mental state at the time of creation, acting as a portal into their consciousness.",
+    "beginner": "Fossilized Psychic State suggests that every artifact made by humans can give us a glimpse into their mindset at the time it was created.",
+    "intermediate": "The idea posits that an artifact's creation encapsulates a moment in its creator's consciousness, offering insight into their thought processes and emotions.",
     "expert": "Art is not just a representation of the artist's view; it is a tangible manifestation of their psychic state, bridging the gap between creators and viewers."
   },
   "learning_path": {
@@ -53,9 +53,16 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Fossilized Psychic State builds on theories such as theory of mind, empathy, and mirror neurons to understand the connections between art, artists, and their mental states.",
+    "limitations": [
+      "Interpretation can be subjective and influenced by cultural or personal biases",
+      "The extent to which an artifact truly captures the creator's psychic state remains debatable"
+    ],
+    "applications": [
+      "Art history and criticism",
+      "Psychology research",
+      "Understanding historical periods through artistic analysis"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

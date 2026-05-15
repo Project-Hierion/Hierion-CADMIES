@@ -3,9 +3,9 @@
   "human_id": "Conditional-Interdependence",
   "title": "Conditional-Interdependence",
   "definition": "The understanding that every individual, action, or state is deeply interconnected and dependent on the conditions surrounding them, with the power to influence and transform those conditions.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Interdependence Theory",
   "formula": null,
   "proofs": [
     {
@@ -36,8 +36,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The understanding that every individual, action, or state is deeply interconnected and dependent on the conditions surrounding them, with the power to influence and transform those conditions.",
-    "intermediate": "The understanding that every individual, action, or state is deeply interconnected and dependent on the conditions surrounding them, with the power to influence and transform those conditions.",
+    "beginner": "Everything is connected and can affect each other, like dominoes in a line.",
+    "intermediate": "The idea that all actions and states are interconnected and influence each other through the conditions surrounding them.",
     "expert": "The realization that one's actions can create new possibilities and foster interdependence within a network of conditions."
   },
   "learning_path": {
@@ -52,9 +52,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Rooted in ancient philosophies such as Heraclitus' 'Panta Rhei' (everything flows) and the holistic worldview of Eastern traditions.",
+    "limitations": [
+      "Idealized view may oversimplify reality",
+      "Difficult to quantify or measure interdependence in complex systems"
+    ],
+    "applications": [
+      "Political theory: Interdependence Theory in International Relations",
+      "Ecology: Understanding ecosystems as interconnected networks"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

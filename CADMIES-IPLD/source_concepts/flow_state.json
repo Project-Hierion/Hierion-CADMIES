@@ -50,9 +50,16 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Pioneered by Mihaly Csikszentmihalyi through decades of research beginning in the 1970s, documented in 'Flow: The Psychology of Optimal Experience' (1990).",
+    "limitations": [
+      "The subjective nature of flow can make it challenging to measure objectively.",
+      "Individual differences in perception and interpretation of flow can lead to inconsistencies in research findings."
+    ],
+    "applications": [
+      "Sports performance enhancement",
+      "Work productivity improvement",
+      "Artistic creativity facilitation"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

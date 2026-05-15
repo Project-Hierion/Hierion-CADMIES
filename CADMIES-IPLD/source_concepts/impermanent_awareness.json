@@ -3,9 +3,9 @@
   "human_id": "impermanent_awareness",
   "title": "Impermanent Awareness",
   "definition": "The recognition that our consciousness is not a fixed entity but an ever-changing process, intertwined with the transient nature of all phenomena.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Philosophy of Mind",
-  "subdomain": "",
+  "subdomain": "Buddhism and Mindfulness",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The recognition that our consciousness is not a fixed entity but an ever-changing process, intertwined with the transient nature of all phenomena.",
-    "intermediate": "The recognition that our consciousness is not a fixed entity but an ever-changing process, intertwined with the transient nature of all phenomena.",
+    "beginner": "Recognizing that our thoughts, feelings, and perceptions are constantly changing, like leaves on a tree.",
+    "intermediate": "Understanding the concept of anicca (impermanence) in Buddhism as it relates to the impermanent nature of consciousness.",
     "expert": "The observation and eventual realization that the observer itself is as impermanent as the observed, leading to the quenching of existential thirst."
   },
   "learning_path": {
@@ -49,9 +49,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Impermanent Awareness is a fundamental concept in Buddhism that forms the foundation of mindfulness practices.",
+    "limitations": [
+      "The concept can be difficult to apply in daily life without regular practice and guidance.",
+      "It may challenge traditional Western notions of a fixed, unchanging self."
+    ],
+    "applications": [
+      "Improving mental health through mindfulness practices based on the recognition of impermanent awareness.",
+      "Exploring existential questions about the nature of reality and personal identity in philosophy."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

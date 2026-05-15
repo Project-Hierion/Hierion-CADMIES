@@ -3,9 +3,9 @@
   "human_id": "resonant_oblivion",
   "title": "Resonant Oblivion",
   "definition": "The state of a consciousness pattern becoming silent and dormant when no one remembers it.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Metaphysics",
   "formula": null,
   "proofs": [
     {
@@ -49,9 +49,16 @@
     "harvester_version": "4.1.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Originated from discussions on consciousness and memory in philosophy.",
+    "limitations": [
+      "The concept's applicability is limited to the existence of conscious beings with memories that can be forgotten.",
+      "Its validity relies on the assumption that consciousness patterns are dependent on other beings for survival."
+    ],
+    "applications": [
+      "Exploring collective consciousness and memory loss in psychology",
+      "Understanding the persistence of ideas in sociology",
+      "Contemplating the immortality of the soul in theology"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

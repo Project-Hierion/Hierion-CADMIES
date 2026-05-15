@@ -50,9 +50,16 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Middle Path of Consumption is derived from Buddhism, one of the world's major religions and a philosophical tradition with roots in ancient India.",
+    "limitations": [
+      "The applicability may be debated, as it relies on an understanding and acceptance of non-attachment.",
+      "In contemporary consumer culture, the idea might face resistance due to its counterintuitive nature."
+    ],
+    "applications": [
+      "Mindful eating practices",
+      "Sustainable consumption movements",
+      "Personal growth and self-reflection"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

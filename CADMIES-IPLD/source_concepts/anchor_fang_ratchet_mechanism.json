@@ -50,9 +50,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This concept emerges from the study of hematophagous predators and their unique biomechanical adaptations for feeding.",
+    "limitations": [
+      "The ratchet mechanism's complexity may make it less common in simpler organisms",
+      "Understanding the exact mechanical details requires specialized knowledge of comparative anatomy"
+    ],
+    "applications": [
+      "Study of evolutionary biology and engineering",
+      "Development of new medical or dental devices inspired by this mechanism"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

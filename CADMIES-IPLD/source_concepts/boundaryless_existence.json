@@ -3,7 +3,7 @@
   "human_id": "boundaryless_existence",
   "title": "Boundaryless Existence",
   "definition": "The recognition that one is an integral part of a web of relationships and interconnected systems, blurring the boundaries between self and environment.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy",
   "subdomain": "Ecology",
   "formula": null,
@@ -55,9 +55,16 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Emerged within contemporary ecological philosophy and discussions on the interconnectedness of all life.",
+    "limitations": [
+      "May oversimplify the complexities of individuality and personal identity",
+      "Assumptions about interconnectedness may not apply to all cultural or philosophical traditions."
+    ],
+    "applications": [
+      "Environmental ethics",
+      "Ecopsychology",
+      "Sustainable living practices"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": [],

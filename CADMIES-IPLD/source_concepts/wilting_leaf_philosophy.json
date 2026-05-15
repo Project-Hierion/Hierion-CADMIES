@@ -3,9 +3,9 @@
   "human_id": "wilting_leaf_philosophy",
   "title": "Wilting Leaf Philosophy",
   "definition": "A metaphorical perspective that views life as a wilting leaf, emphasizing the impermanence and unsatisfactoriness of states, and encouraging non-attachment to them.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Metaphysics",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "A metaphorical perspective that views life as a wilting leaf, emphasizing the impermanence and unsatisfactoriness of states, and encouraging non-attachment to them.",
-    "intermediate": "A metaphorical perspective that views life as a wilting leaf, emphasizing the impermanence and unsatisfactoriness of states, and encouraging non-attachment to them.",
+    "beginner": "Wilting Leaf Philosophy views life as a wilting leaf, emphasizing that happiness comes from accepting and letting go rather than clinging.",
+    "intermediate": "Wilting Leaf Philosophy is a metaphorical perspective that stresses the ephemeral nature of life's states, encouraging non-attachment to them as a path towards inner peace.",
     "expert": "The realization that everything is transient, and clinging to any state leads to suffering. The understanding of 'self' as a process rather than a solid entity."
   },
   "learning_path": {
@@ -49,9 +49,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Wilting Leaf Philosophy is a modern philosophical perspective that builds upon Eastern spiritual traditions such as Buddhism.",
+    "limitations": [
+      "Criticized for overly simplifying complex concepts of life and consciousness",
+      "May be difficult to apply in everyday life without guidance"
+    ],
+    "applications": [
+      "Mindfulness practices, personal growth, and self-reflection",
+      "Spiritual and philosophical discourse"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

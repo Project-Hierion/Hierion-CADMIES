@@ -3,9 +3,9 @@
   "human_id": "human_raindrop_velocimeter",
   "title": "Human Raindrop Velocimeter",
   "definition": "The inherent ability of humans to subconsciously estimate cloud speeds based on the angle and pattern of falling raindrops.",
-  "type": "Concept",
+  "type": "PsychologicalPhenomenon",
   "domain": "Psychology, Physics",
-  "subdomain": "",
+  "subdomain": "Perception and Estimation",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The inherent ability of humans to subconsciously estimate cloud speeds based on the angle and pattern of falling raindrops.",
-    "intermediate": "The inherent ability of humans to subconsciously estimate cloud speeds based on the angle and pattern of falling raindrops.",
+    "beginner": "Guessing the speed of clouds based on raindrop patterns is something humans can do without thinking.",
+    "intermediate": "The human brain has a unique ability to estimate cloud speeds by observing the angle and pattern of falling raindrops.",
     "expert": "Humans have an undiscovered passive observation network that can detect changes in cloud speed through a natural calibration process."
   },
   "learning_path": {
@@ -49,9 +49,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Human Raindrop Velocimeter is an interesting development in the field of psychology and perception studies.",
+    "limitations": [
+      "Understanding the exact mechanism behind this phenomenon remains a mystery.",
+      "It's unclear how accurate these subconscious estimates are."
+    ],
+    "applications": [
+      "Weather forecasting (indirectly) by crowdsourcing cloud speed estimates.",
+      "Research in human perception and cognition."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

@@ -50,9 +50,17 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Subconscious cellular awareness extends embodied cognition theory into immunology and threat detection. It was initially proposed in discussions about long-term relationships between predators and their prey.",
+    "limitations": [
+      "The exact mechanisms by which this awareness operates are not fully understood.",
+      "It is difficult to separate the role of subconscious cellular awareness from other factors affecting the body's response to threats.",
+      "The concept may be challenging to apply outside of biological contexts."
+    ],
+    "applications": [
+      "Understanding disease progression and development of treatments",
+      "Improving understanding of long-term survival strategies in predator-prey relationships",
+      "Informing theories about the evolution of intelligence"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

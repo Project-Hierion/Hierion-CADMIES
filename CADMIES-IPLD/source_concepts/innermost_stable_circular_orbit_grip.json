@@ -3,7 +3,7 @@
   "human_id": "innermost_stable_circular_orbit_grip",
   "title": "Innermost Stable Circular Orbit Grip",
   "definition": "For a maximally spinning black hole, the innermost stable circular orbit (ISCO) can shrink down to the event horizon itself, demonstrating the powerful grip that spin exerts on surrounding matter and the extreme coupling between spacetime rotation and orbital mechanics.",
-  "type": "Concept",
+  "type": "MathematicalConcept",
   "domain": "Physics",
   "subdomain": "General Relativity",
   "formula": null,
@@ -62,9 +62,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The concept of innermost stable circular orbit was developed within the framework of General Relativity to explain the behavior of matter near black holes.",
+    "limitations": [
+      "The exact location of ISCO for oblique orbits is still a subject of ongoing research.",
+      "ISCO might not always be a circle due to various factors, such as accretion disk distortions."
+    ],
+    "applications": [
+      "Astrophysical simulations",
+      "Understanding the structure and evolution of active galactic nuclei"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": [],

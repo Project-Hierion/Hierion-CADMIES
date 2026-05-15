@@ -3,9 +3,9 @@
   "human_id": "unspoken_experience",
   "title": "Unspoken Experience",
   "definition": "The realization that certain truths or understandings are inexpressible through language, only to be directly experienced.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Philosophy of Language",
-  "subdomain": "",
+  "subdomain": "Philosophy of Language",
   "formula": null,
   "proofs": [
     {
@@ -35,8 +35,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The realization that certain truths or understandings are inexpressible through language, only to be directly experienced.",
-    "intermediate": "The realization that certain truths or understandings are inexpressible through language, only to be directly experienced.",
+    "beginner": "Unspoken Experience refers to the idea that some truths or understandings are so deep or complex that they cannot be fully expressed through language, but can only be directly experienced.",
+    "intermediate": "The realization that certain truths or understandings are inexpressible through language is a concept central to philosophy of language and metaphysics. It highlights the limitations of language in capturing certain aspects of reality.",
     "expert": "The profound observation that some fundamental aspects of reality can only be grasped through direct experience, not verbal articulation."
   },
   "learning_path": {
@@ -53,9 +53,16 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The concept of Unspoken Experience can be traced back to ancient philosophers such as Plato and his theory of Forms, which posited that there were realities beyond the physical world.",
+    "limitations": [
+      "Unspoken Experience does not provide a practical method for expressing inexpressible truths.",
+      "It may lead to skepticism about the possibility of shared understanding."
+    ],
+    "applications": [
+      "In spirituality, as a basis for meditation and mystical experience.",
+      "In art, as a means of exploring non-verbal forms of expression.",
+      "In philosophy, as a foundation for theories on the limits of knowledge."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

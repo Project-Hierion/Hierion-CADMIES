@@ -3,9 +3,9 @@
   "human_id": "Asian_Philosophical_Deep",
   "title": "Asian Philosophical Deep",
   "definition": "In Asian philosophies, a qualitative state of profound mystery and depth that transcends casual understanding.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Asian Mysticism",
   "formula": null,
   "proofs": [
     {
@@ -37,8 +37,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "In Asian philosophies, a qualitative state of profound mystery and depth that transcends casual understanding.",
-    "intermediate": "In Asian philosophies, a qualitative state of profound mystery and depth that transcends casual understanding.",
+    "beginner": "A concept in Asian philosophies that refers to a profound and mysterious state that cannot be easily understood.",
+    "intermediate": "An esoteric aspect of Asian philosophy, embodying deep wisdom beyond the grasp of ordinary thought.",
     "expert": "The 'deep' in Asian philosophies signifies an abstruse, mysterious realm beyond the reach of words and logic."
   },
   "learning_path": {
@@ -53,9 +53,16 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Emerges from various aspects of Eastern philosophies including Zen Buddhism, Taoism, and Hinduism.",
+    "limitations": [
+      "Interpretation varies across different schools of Asian philosophy",
+      "Difficult to articulate in Western terms"
+    ],
+    "applications": [
+      "Exploration of spirituality",
+      "Inspiration for art and literature",
+      "Meditation and mindfulness practice"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

@@ -3,9 +3,9 @@
   "human_id": "internal_plant",
   "title": "Internal Plant",
   "definition": "The metaphorical representation of the self as a living entity that undergoes changes over time.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Buddhism",
-  "subdomain": "",
+  "subdomain": "Buddhist Psychology",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The metaphorical representation of the self as a living entity that undergoes changes over time.",
-    "intermediate": "The metaphorical representation of the self as a living entity that undergoes changes over time.",
+    "beginner": "The Internal Plant is a metaphor for viewing the self as a living, growing entity that changes over time.",
+    "intermediate": "In Buddhism, the Internal Plant serves as a tool to understand the dynamic nature of one's mind and its potential for growth and transformation.",
     "expert": "The understanding that by treating one's internal state with the same rigorous observation as external objects, profound insights about impermanence and interconnectedness can be gained."
   },
   "learning_path": {
@@ -49,9 +49,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Internal Plant is rooted in Buddhist philosophy, serving as a key concept within the tradition.",
+    "limitations": [
+      "May not fully account for the complexity of human consciousness",
+      "Assumptions about self and change may be challenged by other philosophies"
+    ],
+    "applications": [
+      "Psychological exploration and self-awareness",
+      "Meditative practice to foster understanding of impermanence"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

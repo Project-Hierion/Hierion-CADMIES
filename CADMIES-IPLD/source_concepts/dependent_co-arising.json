@@ -3,9 +3,9 @@
   "human_id": "dependent_co-arising",
   "title": "Dependent Co-Arising",
   "definition": "The Buddhist concept that everything is dependent and interconnected, arising and passing away due to causes and conditions.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy of Religion",
-  "subdomain": "",
+  "subdomain": "Buddhism",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The Buddhist concept that everything is dependent and interconnected, arising and passing away due to causes and conditions.",
-    "intermediate": "The Buddhist concept that everything is dependent and interconnected, arising and passing away due to causes and conditions.",
+    "beginner": "The Buddhist concept that everything in the universe is interconnected and nothing exists independently.",
+    "intermediate": "A key tenet of Buddhism, Dependent Co-Arising (Prat\u012btyasamutp\u0101da) explains the arising and passing away of phenomena due to causes and conditions.",
     "expert": "The realization that all phenomena are transient and empty of a permanent self or substantial essence, leading to the cessation of suffering."
   },
   "learning_path": {
@@ -49,9 +49,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "A central concept in Buddhism that emphasizes interconnectedness and impermanence.",
+    "limitations": [
+      "Dependent Co-Arising is a philosophical framework and not empirically testable."
+    ],
+    "applications": [
+      "Meditative practices for understanding the nature of reality.",
+      "Influence on Buddhist ethics and morality.",
+      "Theoretical foundations of Mahayana Buddhism."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

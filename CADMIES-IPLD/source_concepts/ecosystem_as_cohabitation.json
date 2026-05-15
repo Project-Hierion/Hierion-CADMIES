@@ -50,9 +50,16 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "A re-framing of ecological relationships, drawing from concepts such as co-evolution and mutual recognition in biology and psychology.",
+    "limitations": [
+      "May oversimplify the complexity of some ecological interactions",
+      "Does not account for situations where one party has a clear advantage"
+    ],
+    "applications": [
+      "Environmental conservation",
+      "Psychotherapy",
+      "Sociopolitical analysis"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

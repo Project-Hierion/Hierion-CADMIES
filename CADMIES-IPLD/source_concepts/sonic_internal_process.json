@@ -3,9 +3,9 @@
   "human_id": "sonic_internal_process",
   "title": "Sonic Internal Process",
   "definition": "The interpretation of subtle, auditory cues in nature to discern internal processes, emotions, or states within living organisms.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy of Perception & Sound",
-  "subdomain": "",
+  "subdomain": "Philosophy of Sound and Perception",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The interpretation of subtle, auditory cues in nature to discern internal processes, emotions, or states within living organisms.",
-    "intermediate": "The interpretation of subtle, auditory cues in nature to discern internal processes, emotions, or states within living organisms.",
+    "beginner": "Imagining sound as a window into the soul of animals.",
+    "intermediate": "The use of auditory cues for understanding living organisms' internal states.",
     "expert": "Sound is not just a medium for transmission; it can be a key to understanding the inner workings and conditions of natural entities."
   },
   "learning_path": {
@@ -49,9 +49,13 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Sonic Internal Process concept is rooted in anthropomorphism and traditional beliefs about animal communication.",
+    "limitations": [
+      "Sensitivity to environmental noise, individual differences in sound interpretation, misinterpretation due to cultural biases."
+    ],
+    "applications": [
+      "Wildlife research, Animal behavior studies, Sound-based therapeutic practices"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

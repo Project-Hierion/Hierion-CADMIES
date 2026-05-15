@@ -50,9 +50,17 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This concept arose from discussions on human behavior and its relationship to rituals and self-soothing strategies in May 2026.",
+    "limitations": [
+      "May not account for all instances of deterrence performances",
+      "Assumptions about the nature of rituals may be debated",
+      "Explanation assumes familiarity with Terror Management Theory"
+    ],
+    "applications": [
+      "Study of human behavior and decision-making",
+      "Exploration of self-soothing mechanisms in anxiety disorders",
+      "Analysis of ritual practices across cultures"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

@@ -3,9 +3,9 @@
   "human_id": "interconnected_organisms",
   "title": "Interconnected Organisms",
   "definition": "The understanding that every living entity, including humans, are interconnected nodes within a complex web of relationships, each playing a crucial role in the overall system.",
-  "type": "Concept",
+  "type": "EthicalPrinciple",
   "domain": "Biology, Philosophy",
-  "subdomain": "",
+  "subdomain": "Environmental Ethics, Social Ethics",
   "formula": null,
   "proofs": [
     {
@@ -36,8 +36,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The understanding that every living entity, including humans, are interconnected nodes within a complex web of relationships, each playing a crucial role in the overall system.",
-    "intermediate": "The understanding that every living entity, including humans, are interconnected nodes within a complex web of relationships, each playing a crucial role in the overall system.",
+    "beginner": "Every living being, including humans, are like parts of a big puzzle that depend on each other. Our actions can have a huge impact on others and the world around us.",
+    "intermediate": "The interconnected organisms principle suggests that all living beings are interwoven in a complex web of relationships where each one's actions can affect others and the overall system. It implies a responsibility towards maintaining balance and harmony among them.",
     "expert": "The realization that human actions have far-reaching effects on others and the environment, either positively or negatively."
   },
   "learning_path": {
@@ -52,9 +52,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The concept of Interconnected Organisms can be traced back to ancient philosophies like Taoism and Buddhism, which promote interdependence among all things in the universe. It has gained more attention in modern times due to growing awareness about environmental issues and social responsibility.",
+    "limitations": [
+      "The concept might be challenging to apply in practical situations due to conflicting interests or lack of information.",
+      "Interconnected Organisms may lead to overemphasis on individual actions, neglecting the role of systemic factors in environmental degradation."
+    ],
+    "applications": [
+      "Informing decisions related to conservation and sustainability",
+      "Promoting social responsibility in various fields such as business, education, and politics"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

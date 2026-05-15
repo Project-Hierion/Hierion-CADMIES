@@ -50,9 +50,14 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Bodhi Rebase emerged from a discussion comparing the Buddha's enlightenment narrative to modern software development workflows.",
+    "limitations": [
+      "The metaphor may not capture the full spiritual or philosophical implications of the Buddha's enlightenment experience."
+    ],
+    "applications": [
+      "Comparative study of the Buddhist path and software engineering methodologies",
+      "Understanding personal growth as a process of incremental change and system-wide transformation"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

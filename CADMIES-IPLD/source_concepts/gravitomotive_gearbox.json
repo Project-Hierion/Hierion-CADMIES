@@ -3,9 +3,9 @@
   "human_id": "Gravitomotive Gearbox",
   "title": "Gravitomotive Gearbox",
   "definition": "A theoretical model that describes the relationship between a black hole singularity and its event horizon, comparing their rotational dynamics to a mechanical gearbox.",
-  "type": "Concept",
+  "type": "TheoreticalConcept",
   "domain": "Theoretical Physics",
-  "subdomain": "",
+  "subdomain": "Black Hole Physics",
   "formula": null,
   "proofs": [
     {
@@ -36,8 +36,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "A theoretical model that describes the relationship between a black hole singularity and its event horizon, comparing their rotational dynamics to a mechanical gearbox.",
-    "intermediate": "A theoretical model that describes the relationship between a black hole singularity and its event horizon, comparing their rotational dynamics to a mechanical gearbox.",
+    "beginner": "A model that compares the rotational dynamics of a black hole singularity and its event horizon to a mechanical gearbox.",
+    "intermediate": "A theoretical model that describes the relationship between a black hole singularity and its event horizon, using mechanical gearbox analogies.",
     "expert": "This concept offers a novel and intuitive understanding of black holes as self-sustaining, non-linear geometric structures with a transmission mechanism akin to a mechanical gearbox."
   },
   "learning_path": {
@@ -52,9 +52,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Gravitomotive Gearbox concept emerged within the context of ongoing explorations in black hole physics.",
+    "limitations": [
+      "The model's accuracy in representing real-world black holes remains to be validated by further research.",
+      "The use of a mechanical gearbox analogy may oversimplify the complex physics involved."
+    ],
+    "applications": [
+      "Informing interpretations of black hole behavior and properties",
+      "Aiding visualization and teaching of advanced astrophysics concepts"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

@@ -3,9 +3,9 @@
   "human_id": "cloud_ghost_raindrop",
   "title": "Cloud Ghost Raindrop",
   "definition": "The observation that each raindrop from a cloud carries the horizontal velocity of the cloud and falls at an angle relative to the ground, effectively becoming a 'ghost' of the cloud.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Physics",
-  "subdomain": "",
+  "subdomain": "Atmospheric Physics and Metaphysics",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The observation that each raindrop from a cloud carries the horizontal velocity of the cloud and falls at an angle relative to the ground, effectively becoming a 'ghost' of the cloud.",
-    "intermediate": "The observation that each raindrop from a cloud carries the horizontal velocity of the cloud and falls at an angle relative to the ground, effectively becoming a 'ghost' of the cloud.",
+    "beginner": "Raindrops appear to fall at an angle because they retain the horizontal motion of the cloud, resembling a ghostly version of the cloud.",
+    "intermediate": "Cloud Ghost Raindrop is a metaphysical concept that describes how raindrops carry the horizontal momentum of their parent cloud and descend at an oblique angle due to air resistance.",
     "expert": "Every raindrop is a tiny, fleeting echo of the cloud it originates from, carrying its motion in a diagonal trajectory."
   },
   "learning_path": {
@@ -49,9 +49,16 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Cloud Ghost Raindrop concept emerged from observations of rainfall and is part of the broader study of fluid dynamics.",
+    "limitations": [
+      "The concept does not account for variable wind speeds or other atmospheric factors that may affect raindrop trajectories.",
+      "Cloud Ghost Raindrop assumes a uniform distribution of cloud velocity, which may not always be accurate."
+    ],
+    "applications": [
+      "Study of atmospheric dynamics and fluid mechanics",
+      "Artistic and poetic interpretations of rainfall",
+      "Development of more advanced rainfall simulation models"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

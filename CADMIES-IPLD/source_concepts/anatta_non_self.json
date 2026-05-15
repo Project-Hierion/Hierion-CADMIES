@@ -50,9 +50,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "A core concept of the Buddhist tradition, anatt\u0101 emerged from the teachings of Siddhartha Gautama (the Buddha) around the 5th century BCE. It is one of the three marks of existence in Buddhist philosophy.",
+    "limitations": [
+      "Misinterpreted as nihilism or denial of the personal self.",
+      "Questions remain about the practical implications for ethics and personal identity."
+    ],
+    "applications": [
+      "Meditation practices to let go of ego-centric views",
+      "Exploring the boundaries of personal identity in Western philosophy"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

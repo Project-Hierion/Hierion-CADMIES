@@ -3,9 +3,9 @@
   "human_id": "social_fermentation",
   "title": "Social Fermentation",
   "definition": "The slow, underground process of change in society that suddenly surfaces in visible, tangible ways.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Sociology",
-  "subdomain": "",
+  "subdomain": "SociologicalMetaphors",
   "formula": null,
   "proofs": [
     {
@@ -55,9 +55,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The concept of social fermentation emerged as a metaphor to describe the process of societal transformation.",
+    "limitations": [
+      "May oversimplify the complex nature of societal change",
+      "Assumes that societal change always follows a gradual process"
+    ],
+    "applications": [
+      "Understanding long-term social trends",
+      "Designing strategies for gradual social change"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": [],

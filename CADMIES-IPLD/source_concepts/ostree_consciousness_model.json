@@ -50,9 +50,17 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Ostree Consciousness Model emerged from a digressive philosophical discussion about CADMIES, OSTree, Fedora Silverblue, neural implants, and the immortality of the mycelium.",
+    "limitations": [
+      "The model is highly speculative and has not been empirically tested or accepted within mainstream psychology",
+      "It may oversimplify the complexity of human consciousness and identity",
+      "Questions about its applicability to non-human organisms remain unanswered"
+    ],
+    "applications": [
+      "Psychotherapy: understanding healing as a rollback and integration process",
+      "Artificial intelligence: exploring the potential for versioned self-awareness in AI",
+      "Personal development: using the model as a metaphor for growth and change"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

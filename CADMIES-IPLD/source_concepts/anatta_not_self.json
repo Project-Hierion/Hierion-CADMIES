@@ -3,9 +3,9 @@
   "human_id": "anatta_not_self",
   "title": "Anatta Not Self",
   "definition": "The Buddhist concept that there is no permanent, unchanging self or ego; instead, self-identities are dependent on various factors and constantly changing.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Buddhism",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The Buddhist concept that there is no permanent, unchanging self or ego; instead, self-identities are dependent on various factors and constantly changing.",
-    "intermediate": "The Buddhist concept that there is no permanent, unchanging self or ego; instead, self-identities are dependent on various factors and constantly changing.",
+    "beginner": "The idea that Buddhists believe there is no permanent, unchanging 'self' or ego; instead, self-identities are dependent on various factors and constantly changing.",
+    "intermediate": "Anatta is the concept in Buddhism that challenges the notion of a permanent self or ego. It asserts that self-identities are composed, passing phenomena and thus impermanent.",
     "expert": "The observation of the observer as a composed, passing phenomenon, further emphasizing the impermanence and interconnectedness of all things."
   },
   "learning_path": {
@@ -49,9 +49,16 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Anatta is a fundamental concept in Buddhism that emerged from the teachings of Gautama Buddha around the 5th or 6th century BCE.",
+    "limitations": [
+      "May be challenging for those who hold beliefs centered on a permanent self or soul",
+      "Can lead to confusion and misunderstanding without proper understanding of Buddhist philosophy"
+    ],
+    "applications": [
+      "Influences meditation practices focused on self-awareness and mindfulness",
+      "Provides a foundation for understanding the Four Noble Truths in Buddhism",
+      "Offers an alternative worldview for those seeking spiritual growth and personal development."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

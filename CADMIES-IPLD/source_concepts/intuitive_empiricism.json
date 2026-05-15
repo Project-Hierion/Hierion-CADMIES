@@ -3,9 +3,9 @@
   "human_id": "intuitive_empiricism",
   "title": "Intuitive Empiricism",
   "definition": "The ability to intuit causality and internal mechanisms based on repeated observations of external phenomena, without the need for explicit measurement or textbook knowledge.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Cognitive Science",
-  "subdomain": "",
+  "subdomain": "Philosophy of Science",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The ability to intuit causality and internal mechanisms based on repeated observations of external phenomena, without the need for explicit measurement or textbook knowledge.",
-    "intermediate": "The ability to intuit causality and internal mechanisms based on repeated observations of external phenomena, without the need for explicit measurement or textbook knowledge.",
+    "beginner": "The ability to understand the world around us by observing patterns and making educated guesses, without needing formal education or tools.",
+    "intermediate": "A philosophical approach that emphasizes the role of observation and intuition in understanding causality and internal mechanisms within natural phenomena.",
     "expert": "The process of observing nature's patterns and making connections beyond what is immediately apparent, leading to the discovery of underlying principles such as turgor pressure."
   },
   "learning_path": {
@@ -49,9 +49,16 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Intuitive Empiricism has roots in ancient Greek philosophy and was further developed during the Enlightenment period.",
+    "limitations": [
+      "Relies heavily on intuition which can lead to subjective interpretations",
+      "May not be as accurate as empirical methods that involve explicit measurement"
+    ],
+    "applications": [
+      "Science education and learning",
+      "Everyday problem-solving",
+      "Inspiring new theoretical frameworks in philosophy"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

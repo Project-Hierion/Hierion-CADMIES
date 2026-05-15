@@ -50,9 +50,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Tetralemma AND is a key concept in the Mahayana branch of Buddhism, originating from N\u0101g\u0101rjuna's M\u0101dhyamaka school of philosophy.",
+    "limitations": [
+      "Some argue that the Tetralemma AND may lead to skepticism and relativism by negating all metaphysical views.",
+      "Others claim that it might be difficult to apply in practical, everyday situations due to its complexity."
+    ],
+    "applications": [
+      "The Tetralemma AND can inspire new approaches to knowledge organization, especially in the context of AI systems like CADMIES.",
+      "It may also contribute to the development of more nuanced philosophical positions and epistemological frameworks."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

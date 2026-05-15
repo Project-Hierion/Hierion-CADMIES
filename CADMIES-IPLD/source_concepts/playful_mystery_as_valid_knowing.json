@@ -5,7 +5,7 @@
   "definition": "An epistemological stance in which an idea may lack scientific or empirical truth but still be considered 'true' in an emotional, poetic, or spiritual sense, often signaled by playfulness, irony, or a winking tone (e.g., the \ud83d\ude43 emoji).",
   "type": "PhilosophicalPrinciple",
   "domain": "Epistemology",
-  "subdomain": "",
+  "subdomain": "Aesthetics and Emotion",
   "formula": null,
   "proofs": [
     {
@@ -35,9 +35,9 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "",
-    "intermediate": "",
-    "expert": ""
+    "beginner": "It's an idea that suggests we can 'know' something without it being scientifically or empirically true, especially when it comes across as playful, ironic, or witty. Think of it like a joke: you might not understand the mechanics, but you still 'get it'.",
+    "intermediate": "This principle posits that there are ways of knowing beyond empirical evidence and scientific proof, such as through emotional resonance, poetic imagery, or spiritual connection. It can be seen in expressions like the playful use of emojis to convey ideas.",
+    "expert": "The concept challenges traditional epistemology by asserting that certain forms of knowledge may not be based on empirical evidence but rather on emotional, poetic, or spiritual experiences. It questions the nature of truth and knowledge itself."
   },
   "learning_path": {
     "prerequisites": [],
@@ -51,9 +51,17 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The principle can be seen as an extension of postmodern epistemology and is influenced by the rise of digital communication and emotive expression.",
+    "limitations": [
+      "It may be criticized for being overly subjective and potentially invalidating objective truth.",
+      "Its application may be limited to specific contexts where empirical evidence is not readily available or applicable.",
+      "The principle can be misused to justify unfounded beliefs or ideas."
+    ],
+    "applications": [
+      "Social media communication and expression, particularly through emojis or memes.",
+      "Artistic interpretation and creative writing.",
+      "Exploring philosophical questions related to truth, knowledge, and meaning."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

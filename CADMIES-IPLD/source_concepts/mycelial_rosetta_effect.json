@@ -50,9 +50,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Mycelial Rosetta Effect was born from the observation of a knowledge graph's ability to reveal hidden connections between seemingly unrelated concepts.",
+    "limitations": [
+      "The effect may not be as strong in networks with insufficient or weak connections.",
+      "It requires careful curation and management of the knowledge network to ensure accurate and meaningful connections."
+    ],
+    "applications": [
+      "Machine learning algorithms that utilize the Mycelial Rosetta Effect for cross-domain data analysis",
+      "Developing a better understanding of human cognition by exploring its underlying patterns across different fields"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

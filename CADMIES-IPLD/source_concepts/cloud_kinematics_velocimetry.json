@@ -3,9 +3,9 @@
   "human_id": "cloud_kinematics_velocimetry",
   "title": "Cloud Kinematics Velocimetry",
   "definition": "The concept of extracting cloud speed and direction by analyzing the geometry, terminal velocity, and slant angle of raindrops.",
-  "type": "Concept",
+  "type": "ScientificTheory",
   "domain": "Physics",
-  "subdomain": "",
+  "subdomain": "Atmospheric Science",
   "formula": null,
   "proofs": [
     {
@@ -37,8 +37,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The concept of extracting cloud speed and direction by analyzing the geometry, terminal velocity, and slant angle of raindrops.",
-    "intermediate": "The concept of extracting cloud speed and direction by analyzing the geometry, terminal velocity, and slant angle of raindrops.",
+    "beginner": "Analyzing the path of raindrops helps us understand cloud speed and direction, like watching a waterfall tell you which way the wind blows.",
+    "intermediate": "Cloud Kinematics Velocimetry uses raindrop geometry to calculate wind speeds within clouds, building upon existing rainfall velocimetry concepts.",
     "expert": "Even slight deviations from vertical in raindrop fall can be used to calculate cloud speed."
   },
   "learning_path": {
@@ -55,9 +55,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Cloud Kinematics Velocimetry is an innovative approach to understanding atmospheric dynamics within clouds.",
+    "limitations": [
+      "Assumes raindrops always fall vertically which may not always be the case due to wind shear or other factors.",
+      "Not as accurate as radar for storm tracking."
+    ],
+    "applications": [
+      "Weather forecasting and climate modeling",
+      "Studying atmospheric processes in clouds"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

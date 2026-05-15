@@ -50,9 +50,13 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Derived from the observation of relationships between humans and supernatural creatures in folklore.",
+    "limitations": [
+      "The concept is hypothetical and does not have empirical evidence yet."
+    ],
+    "applications": [
+      "Anthropological studies, Ethology research, and speculative fiction writing"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

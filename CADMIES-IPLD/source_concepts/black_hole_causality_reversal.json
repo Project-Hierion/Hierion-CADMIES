@@ -3,7 +3,7 @@
   "human_id": "black_hole_causality_reversal",
   "title": "Black Hole Causality Reversal",
   "definition": "Inside a black hole's event horizon, the ordinary relationship between cause and effect breaks down. The roles of space and time can swap, with the radial direction toward the singularity becoming timelike \u2014 making the singularity an inevitable future moment rather than a location.",
-  "type": "Concept",
+  "type": "MathematicalConcept",
   "domain": "Physics",
   "subdomain": "General Relativity",
   "formula": null,
@@ -62,9 +62,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This concept emerged from research on black holes and general relativity.",
+    "limitations": [
+      "The understanding of causality reversal in black holes is still an active area of research.",
+      "The singularity remains a mathematical point of infinite density and cannot be directly observed."
+    ],
+    "applications": [
+      "Understanding the behavior of matter near the event horizon",
+      "Exploring the limits of our understanding of space and time"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": [],

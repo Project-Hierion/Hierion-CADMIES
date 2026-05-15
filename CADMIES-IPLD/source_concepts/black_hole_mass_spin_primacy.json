@@ -3,7 +3,7 @@
   "human_id": "black_hole_mass_spin_primacy",
   "title": "Black Hole Mass Spin Primacy",
   "definition": "In a black hole, mass and spin are not properties of an object but the defining parameters of the spacetime geometry itself. A bigger mass means a larger event horizon and greater reach for frame-dragging effects, while angular momentum determines the intensity of the dragging.",
-  "type": "Concept",
+  "type": "MathematicalConcept",
   "domain": "Physics",
   "subdomain": "General Relativity",
   "formula": null,
@@ -60,9 +60,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This concept is an extension of Einstein's theory of General Relativity.",
+    "limitations": [
+      "The Kerr solution may not fully capture the properties of real-world black holes.",
+      "It does not consider the effects of electromagnetic fields and matter on the spacetime geometry."
+    ],
+    "applications": [
+      "Understanding the behavior of black holes in astrophysics",
+      "Developing theories for the observation of gravitational waves"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": [],

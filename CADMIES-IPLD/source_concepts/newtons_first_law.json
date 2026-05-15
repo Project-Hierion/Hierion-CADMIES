@@ -66,9 +66,15 @@
     "harvester_version": "",
     "discoverer": "Isaac Newton",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Newton's First Law was introduced in his famous work 'Philosophi\u00e6 Naturalis Principia Mathematica', published in 1687.",
+    "limitations": [
+      "The law assumes that the force acting on an object is constant and does not take into account friction or other resistive forces."
+    ],
+    "applications": [
+      "Understanding motion of objects in everyday life, such as throwing a ball or driving a car",
+      "Designing machinery and predicting their behavior",
+      "Space travel planning"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": [],

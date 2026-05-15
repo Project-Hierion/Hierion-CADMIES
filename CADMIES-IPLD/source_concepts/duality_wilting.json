@@ -3,9 +3,9 @@
   "human_id": "duality_wilting",
   "title": "Duality Wilting",
   "definition": "The realization and discarding of the subject-object duality in favor of direct, unfiltered experience.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Subjective Experience",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The realization and discarding of the subject-object duality in favor of direct, unfiltered experience.",
-    "intermediate": "The realization and discarding of the subject-object duality in favor of direct, unfiltered experience.",
+    "beginner": "The idea that one can experience reality directly, without the need for a separate observer or subject-object duality.",
+    "intermediate": "A philosophical framework that advocates for direct experience and the rejection of the traditional subject-object separation.",
     "expert": "Through deep observation, the notion of a separate observer learning about a world is seen as illusory, leading to the dissolution of the subject-object duality."
   },
   "learning_path": {
@@ -49,9 +49,13 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Rooted in various Eastern philosophies and mysticism, it reflects a growing interest in direct experience and the deconstruction of traditional Western dualistic thinking.",
+    "limitations": [
+      "Criticized for potential lack of scientific rigor, difficulty in practical application, and challenges to traditional western philosophical paradigms."
+    ],
+    "applications": [
+      "Mindfulness practices, certain forms of meditation, and existential exploration."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

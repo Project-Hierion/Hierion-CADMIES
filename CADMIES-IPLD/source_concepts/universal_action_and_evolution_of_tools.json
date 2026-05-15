@@ -3,9 +3,9 @@
   "human_id": "universal_action_and_evolution_of_tools",
   "title": "Universal Action And Evolution Of Tools",
   "definition": "The observation that certain fundamental actions or processes persist across time, while the tools and settings in which they are performed evolve.",
-  "type": "Concept",
+  "type": "PhilosophicalConcept",
   "domain": "Philosophy of Technology",
-  "subdomain": "",
+  "subdomain": "Philosophy of Technology",
   "formula": null,
   "proofs": [
     {
@@ -36,8 +36,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The observation that certain fundamental actions or processes persist across time, while the tools and settings in which they are performed evolve.",
-    "intermediate": "The observation that certain fundamental actions or processes persist across time, while the tools and settings in which they are performed evolve.",
+    "beginner": "The idea that certain actions stay the same while the tools used to perform them change.",
+    "intermediate": "The observation that fundamental human actions persist throughout history, even as technology evolves.",
     "expert": "The enduring essence of human action transcends the temporal changes in technology."
   },
   "learning_path": {
@@ -52,9 +52,14 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This concept emerges from discussions about technology's impact on human behavior.",
+    "limitations": [
+      "Assumes a universal definition of 'action', which can be subjective."
+    ],
+    "applications": [
+      "Understanding the evolution of labor and productivity",
+      "Exploring ethical implications of technological advancement"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

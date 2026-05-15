@@ -3,9 +3,9 @@
   "human_id": "Interconnectedness_of_Life",
   "title": "Interconnectedness Of Life",
   "definition": "The idea that all aspects of life are intertwined and influence each other in complex ways, forming a continuous cycle.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Ecological Philosophy",
   "formula": null,
   "proofs": [
     {
@@ -35,8 +35,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The idea that all aspects of life are intertwined and influence each other in complex ways, forming a continuous cycle.",
-    "intermediate": "The idea that all aspects of life are intertwined and influence each other in complex ways, forming a continuous cycle.",
+    "beginner": "All living things are connected and affect each other in complex ways, like a web or an ecosystem.",
+    "intermediate": "The holistic perspective that every part of nature influences and is influenced by every other part, promoting interdependence.",
     "expert": "As we embark on new paths, the old ones remain connected, creating an intricate web of existence."
   },
   "learning_path": {
@@ -51,9 +51,17 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Originated from a holistic view of nature within ancient spiritual traditions and has been further developed by modern ecophilosophers.",
+    "limitations": [
+      "Overlooks the individuality and autonomy of living things",
+      "May be criticized for being too abstract or difficult to operationalize",
+      "Can be controversial when applied to human-centered activities"
+    ],
+    "applications": [
+      "Environmental ethics",
+      "Nature conservation strategies",
+      "Sustainable urban planning"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

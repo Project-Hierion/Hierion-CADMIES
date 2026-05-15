@@ -50,9 +50,16 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Everyday Dharma emerged within contemporary Buddhism as a response to the need for integrating spiritual practice into modern life.",
+    "limitations": [
+      "The principle may be interpreted in ways that trivialize or oversimplify spiritual practice.",
+      "It could potentially blur the lines between spiritual and mundane activities, leading to a lack of focus on formal practice."
+    ],
+    "applications": [
+      "Meditation in daily life",
+      "Mindful consumption",
+      "Integrating spirituality into professional settings"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

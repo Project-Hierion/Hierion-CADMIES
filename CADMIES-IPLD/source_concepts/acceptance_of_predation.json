@@ -50,9 +50,16 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Derived from a vampire-human cohabitation narrative, Acceptance of Predation can be seen as an extension of practical philosophies rooted in humor and strategy.",
+    "limitations": [
+      "The principle's effectiveness may vary depending on the power dynamics involved.",
+      "It could potentially be misinterpreted as submission or complacency."
+    ],
+    "applications": [
+      "Cohabitation with hostile entities (e.g., roommates, neighbors, work colleagues)",
+      "Negotiation in asymmetric relationships",
+      "Humor therapy for dealing with adversity"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

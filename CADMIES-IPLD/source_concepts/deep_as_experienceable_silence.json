@@ -3,9 +3,9 @@
   "human_id": "deep_as_experienceable_silence",
   "title": "Deep As Experienceable Silence",
   "definition": "A concept in Asian philosophical and spiritual traditions where 'the deep' signifies a qualitative state of profound, wordless understanding that transcends casual comprehension.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Asian Philosophy and Spirituality",
   "formula": null,
   "proofs": [
     {
@@ -38,8 +38,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "A concept in Asian philosophical and spiritual traditions where 'the deep' signifies a qualitative state of profound, wordless understanding that transcends casual comprehension.",
-    "intermediate": "A concept in Asian philosophical and spiritual traditions where 'the deep' signifies a qualitative state of profound, wordless understanding that transcends casual comprehension.",
+    "beginner": "'Deep As Experienceable Silence' is a concept in Eastern philosophy signifying a state of profound, wordless understanding that goes beyond ordinary thought.",
+    "intermediate": "In Asian philosophical and spiritual traditions, 'Deep As Experienceable Silence' represents a qualitative state transcending casual comprehension, often associated with Zen and Taoism.",
     "expert": "The idea of 'deep' in these traditions represents an experiential silence more eloquent than speech, a paradoxical reality where seeker and sought begin to merge."
   },
   "learning_path": {
@@ -56,9 +56,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The concept can be traced back to ancient Eastern philosophies and spiritual practices.",
+    "limitations": [
+      "Interpretations may vary across different schools and traditions",
+      "Can be difficult to articulate or communicate in everyday language"
+    ],
+    "applications": [
+      "Aids meditation and mindfulness practices",
+      "Inspires artistic and philosophical explorations of silence and transcendence"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

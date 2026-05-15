@@ -3,9 +3,9 @@
   "human_id": "cultivating_conditions",
   "title": "Cultivating Conditions",
   "definition": "The ability to consciously influence and shape the conditions within one's immediate environment, which in turn affects the larger system.",
-  "type": "Concept",
+  "type": "EthicalPrinciple",
   "domain": "Ethics, Social Science",
-  "subdomain": "",
+  "subdomain": "Social Ethics",
   "formula": null,
   "proofs": [
     {
@@ -38,8 +38,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The ability to consciously influence and shape the conditions within one's immediate environment, which in turn affects the larger system.",
-    "intermediate": "The ability to consciously influence and shape the conditions within one's immediate environment, which in turn affects the larger system.",
+    "beginner": "The ability to shape one's environment is like being a gardener, deciding what seeds to plant and nurturing them to grow.",
+    "intermediate": "Cultivating Conditions involves the conscious effort to influence local conditions that impact larger systems.",
     "expert": "The power to create positive or negative conditions through individual actions, making every action a moral choice."
   },
   "learning_path": {
@@ -56,9 +56,15 @@
     "harvester_version": "4.0.0",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "This principle is a modern development in ethics and social science, reflecting increased awareness of individual responsibility within complex systems.",
+    "limitations": [
+      "Its application can be subjective and depends on one's definition of 'conditions'.",
+      "It may overlook the impact of systemic forces beyond individual control."
+    ],
+    "applications": [
+      "Urban planning to create sustainable cities.",
+      "Personal development strategies for positive life changes."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

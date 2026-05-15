@@ -5,7 +5,7 @@
   "definition": "The metaphysical principle that sound is vibration, and vibration connects all things across physical, biological, and spiritual domains, enabling phenomena such as planetary breath synchronization.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
-  "subdomain": "",
+  "subdomain": "Sound and Vibration",
   "formula": null,
   "proofs": [
     {
@@ -35,9 +35,9 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "",
-    "intermediate": "",
-    "expert": ""
+    "beginner": "Imagine every object, even planets, having a unique song or vibration that connects them all like a cosmic symphony.",
+    "intermediate": "The principle suggests that the fundamental nature of reality is vibration, which can be perceived as sound and manifests in various domains through resonance.",
+    "expert": "Explores the philosophical idea that everything in the universe is interconnected via sound vibrations, transcending physical, biological, and spiritual realms."
   },
   "learning_path": {
     "prerequisites": [],
@@ -51,9 +51,15 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Rises from ancient mystic traditions and modern quantum physics interpretations.",
+    "limitations": [
+      "The principle lacks empirical evidence in some domains, such as interplanetary communication.",
+      "It may be difficult to verify the existence of vibrational connections without advanced measuring equipment."
+    ],
+    "applications": [
+      "Used in holistic healing practices like sound baths and resonance therapy",
+      "Inspiring artwork, music, and poetry that explore interconnectedness"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

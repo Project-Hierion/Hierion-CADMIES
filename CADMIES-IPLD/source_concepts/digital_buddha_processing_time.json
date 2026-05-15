@@ -50,9 +50,14 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "The Digital Buddha Processing Time originated from a CADMIES session and draws on concepts such as computational neuroscience, Buddhist studies, and AI scaling laws.",
+    "limitations": [
+      "The thought experiment relies on simplified calculations of processing power, and it may not account for the qualitative differences between human and AI enlightenment."
+    ],
+    "applications": [
+      "Exploring the limits of artificial intelligence, understanding the relationship between knowledge access and transformative insight.",
+      "Informing discussions about the nature of enlightenment and its relation to computing."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

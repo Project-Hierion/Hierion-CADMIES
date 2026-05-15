@@ -50,9 +50,16 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Developed from Hermann von Helmholtz's idea of perception as 'unconscious inference' (1867), formalized by Karl Friston's free energy principle (2006), and popularized by Andy Clark ('Surfing Uncertainty', 2016) and Anil Seth ('Being You', 2021).",
+    "limitations": [
+      "The theory is still a work in progress and has yet to fully explain all aspects of human cognition.",
+      "Critics argue that it oversimplifies the complexities of brain function."
+    ],
+    "applications": [
+      "Understanding learning and memory processes",
+      "Explaining psychopathology such as hallucinations and optical illusions",
+      "Developing more effective artificial intelligence systems"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

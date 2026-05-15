@@ -3,9 +3,9 @@
   "human_id": "emptiness_and_dependent_origination",
   "title": "Emptiness And Dependent Origination",
   "definition": "The Buddhist understanding of the emptiness of all phenomena, including self and other, and their interdependence in a process of constant change.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Philosophy of Religion",
-  "subdomain": "",
+  "subdomain": "Buddhism",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The Buddhist understanding of the emptiness of all phenomena, including self and other, and their interdependence in a process of constant change.",
-    "intermediate": "The Buddhist understanding of the emptiness of all phenomena, including self and other, and their interdependence in a process of constant change.",
+    "beginner": "The Buddhist teaching that everything is interconnected and nothing has a permanent self or essence.",
+    "intermediate": "A central Buddhist doctrine explaining the nature of reality as dependent origination, and the emptiness of all phenomena including self and other.",
     "expert": "The recognition that the very concept of a separate observer is an illusion, leading to the release from the cycle of suffering."
   },
   "learning_path": {
@@ -49,9 +49,16 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Emptiness and Dependent Origination are fundamental concepts in Buddhism, emerging from the teachings of Siddhartha Gautama (the Buddha) around the 5th century BCE.",
+    "limitations": [
+      "Interpretations may vary among different schools of Buddhism",
+      "Misunderstandings can lead to nihilism or skepticism"
+    ],
+    "applications": [
+      "Meditation and mindfulness practices",
+      "Insight into the nature of reality",
+      "Foundation for various Buddhist philosophical systems"
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []

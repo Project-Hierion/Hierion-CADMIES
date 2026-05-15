@@ -3,9 +3,9 @@
   "human_id": "impermanence",
   "title": "Impermanence",
   "definition": "The inherent transience and flux of all phenomena, including thoughts, feelings, and the self.",
-  "type": "Concept",
+  "type": "MetaphysicalFramework",
   "domain": "Buddhism",
-  "subdomain": "",
+  "subdomain": "Buddhist Philosophy",
   "formula": null,
   "proofs": [
     {
@@ -33,8 +33,8 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "The inherent transience and flux of all phenomena, including thoughts, feelings, and the self.",
-    "intermediate": "The inherent transience and flux of all phenomena, including thoughts, feelings, and the self.",
+    "beginner": "Impermanence refers to the idea that everything in life is constantly changing and nothing stays the same.",
+    "intermediate": "In Buddhism, Impermanence suggests that all phenomena, including thoughts, feelings, and physical objects, are transient and subject to change.",
     "expert": "The revelation that everything is in a state of constant change, with no fixed or permanent identity."
   },
   "learning_path": {
@@ -49,9 +49,15 @@
     "harvester_version": "4.0.1",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
+    "historical_context": "Impermanence is central to Buddhism and originates from early Buddhist scriptures.",
+    "limitations": [
+      "The concept of Impermanence can be interpreted differently across various schools within Buddhism.",
+      "Some critics argue that the emphasis on change overlooks the possibility of lasting transformation."
+    ],
+    "applications": [
+      "In meditation practices, contemplating Impermanence helps cultivate mindfulness and non-attachment.",
+      "Understanding Impermanence can provide a framework for coping with loss and change in daily life."
+    ],
     "key_references": [],
     "poetic_versions": [],
     "mantras": []
