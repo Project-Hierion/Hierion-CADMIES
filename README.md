@@ -2,61 +2,76 @@
 
 **Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem**
 
-A philosophical and technical framework for content-addressed, scientifically-validated knowledge storage and sharing. 122 interconnected concepts. 155 cross-domain relationships. One digital mycelium. Infinite connections.
+A philosophical and technical framework for content-addressed, scientifically-validated knowledge storage and sharing. 169 interconnected concepts. 175 cross-domain relationships. 52 domains. One digital mycelium. Infinite connections.
+
+🌍 **Public Gateway:** [hieros-cadmies.github.io/CADMIES/](https://hieros-cadmies.github.io/CADMIES/)
 
 ---
 
 ## Quick Start
 
+Clone the repository:
+
 ```bash
-# Clone the repository
 git clone https://github.com/Hieros-CADMIES/CADMIES.git
 ```
 
+Change to the project directory:
+
 ```bash
-# Change directory
 cd CADMIES/CADMIES-IPLD
 ```
 
+Install dependencies:
+
 ```bash
-# Install dependencies
 pip install dag-cbor multiformats requests
 ```
 
+Read a concept by name:
+
 ```bash
-# Read a concept
 python tools/core/cbor_reader.py natural_selection
 ```
 
+Generate a concept from a JSON file:
+
 ```bash
-# Generate a concept
 python tools/core/cid_generator.py --concept-file source_concepts/example.json
 ```
 
 ### Import the Full Mycelium (Recommended)
 
-The clone includes only seed blocks. All other concepts (120+) are distributed via CAR releases. Import the full collection:
+The clone includes only seed blocks. All other concepts (165+) are distributed via CAR releases. Import the full collection:
 
 ```bash
-python tools/import_from_github.py --url https://github.com/Hieros-CADMIES/CADMIES/releases/download/v0.3.1/full_mycelium_v0.3.1.car
+python tools/import_from_github.py --url https://github.com/Hieros-CADMIES/CADMIES/releases/download/v0.4.0/full_mycelium_v0.4.0.car
 ```
 
-### Ask Willie the Librarian (LLM Agent)
+### Ask the Librarian (LLM Agent)
 
-Willie is CADMIES's local LLM agent — a Scottish groundskeeper who reads the mycelium and answers your questions in natural language using hybrid search (keyword + semantic query expansion via Mistral).
+CADMIES uses a two-part AI architecture for natural language queries:
+
+**Willie the Research Assistant** (`cadmies_concept_reader.py`) is the Python retriever — a Scottish groundskeeper who knows where everything is filed. He searches the mycelium using hybrid search (keyword + semantic), finds relevant concepts, and feeds them as context to the LLM. Silent. Fast. Pattern-driven.
+
+**Mistral (The Librarian)** is the LLM that receives Willie's research, synthesizes the concepts, and presents answers to the user in natural language. She is the senior — the voice you actually speak with. Currently echoes Willie's Scottish persona. The GUI "Willie Chat" is really a conversation with Mistral-as-Librarian, powered by Willie's retrieval behind the scenes.
+
+Together: User asks a question → Willie searches the stacks → Willie feeds relevant concepts to Mistral → Mistral speaks the answer.
 
 **Prerequisites:**
 
+Install Ollama and pull the models:
+
 ```bash
-# Install Ollama and pull models
 curl -fsSL https://ollama.com/install.sh | sh
-ollama pull mistral:7b      # Deep reasoning (recommended)
+ollama pull mistral:7b      # The Librarian (recommended)
 ollama pull tinyllama:1.1b   # Fast queries
 ollama pull codestral:22b    # Maximum depth (GPU recommended)
 ```
 
+Install the Ollama Python client:
+
 ```bash
-# Install the Ollama Python client
 pip install ollama
 ```
 
@@ -67,36 +82,38 @@ pip install ollama
 OLLAMA_KEEP_ALIVE=24h ollama serve &
 ```
 
-**Ask Willie (Terminal 2):**
+**Ask the Librarian (Terminal 2):**
 
 ```bash
 cd CADMIES/CADMIES-IPLD && source venv/bin/activate
-python agents/code/llm_mycelium_reader.py --query "What is natural selection?" --model mistral:7b
+python agents/code/cadmies_concept_reader.py --query "What is natural selection?" --model mistral:7b
 ```
 
-**What Willie does:**
-- Searches all 122 concepts using hybrid search (keyword + semantic)
-- Feeds the top matches to the LLM as context
-- Returns answers with accuracy tags: `(empirical)`, `(philosophical)`, `(speculative)`, `(CADMIES-defined)`
-- References every concept by its permanent CID
+**How it works:**
+- Willie searches all 169 concepts using hybrid search (keyword + semantic)
+- Willie feeds the top matches to Mistral as context
+- Mistral returns answers with accuracy tags: `(empirical)`, `(philosophical)`, `(speculative)`, `(CADMIES-defined)`
+- Every concept is referenced by its permanent CID
 
 **Model strategy:**
 
-| Model | Size | Speed | Best For |
-|-------|------|-------|----------|
-| TinyLlama 1.1B | 637 MB | ~2s | Quick lookups, Willie queries |
-| Mistral 7B | 4.4 GB | ~5-30s | Deep reasoning, relationship generation |
-| Codestral 22B | 12 GB | ~15-45s | Maximum depth, library audits (GPU recommended) |
+| Model | Role | Size | Speed | Best For |
+|-------|------|------|-------|----------|
+| TinyLlama 1.1B | Backup Librarian | 637 MB | ~2s | Quick lookups |
+| Mistral 7B | The Librarian | 4.4 GB | ~5-30s | Deep reasoning, relationship generation |
+| Codestral 22B | Senior Scholar | 12 GB | ~15-45s | Maximum depth, library audits (GPU recommended) |
 
 Everything runs locally. No API keys, no cloud, no external calls.
 
-> *"Ach, ye wanna know about that? Let me dig through the stacks for ye."* — Willie the Librarian
+> *"Ach, let me dig through the stacks for ye..."* — Willie the Research Assistant
+>
+> *"Here's what the mycelium knows about that."* — Mistral the Librarian
 
 ---
 
 ### GPU Acceleration (Paperspace)
 
-CADMIES supports cloud GPU acceleration via Paperspace Gradient for heavy batch processing, relationship generation, and harvest pipeline extraction. A A4000 GPU (16GB VRAM, 45GB RAM) handles tasks in seconds that take minutes on CPU.
+CADMIES supports cloud GPU acceleration via Paperspace Gradient for heavy batch processing, relationship generation, and harvest pipeline extraction. An A4000 GPU (16GB VRAM, 45GB RAM) handles tasks in seconds that take minutes on CPU.
 
 **Quick GPU session:**
 
@@ -110,15 +127,26 @@ CADMIES supports cloud GPU acceleration via Paperspace Gradient for heavy batch 
 bash startup.sh
 ```
 
-This installs Ollama, pulls models, and sets up all dependencies in ~30 seconds. Persistent storage keeps your models and blockstore between sessions.
-
-**One-command harvest-to-map:**
+This installs Ollama, pulls Mistral, and sets up all dependencies in ~30 seconds. Persistent storage keeps your models and blockstore between sessions. To use other models:
 
 ```bash
-python harvest/harvest_full_pipeline.py --model=codestral:22b --auto
+ollama pull codestral:22b    # Deep philosophy, audits
+ollama pull tinyllama:1.1b   # Willie quick searches
 ```
 
-Extracts concepts, auto-approves them, mints to the blockstore, and regenerates the mycelium map — all in one command.
+**One-command harvest-to-map with auto-relationships:**
+
+```bash
+python harvest/harvest_full_pipeline.py --auto --with-relationships
+```
+
+Extracts concepts, auto-approves them, mints to the blockstore, regenerates the mycelium map, and auto-generates relationships — all in one command. No orphans. The pipeline feeds itself.
+
+**Harvest modes:**
+
+- **Full auto:** `--auto --with-relationships` — no pauses, complete hands-off pipeline
+- **Review mode:** `--with-relationships` — pauses for human approval before minting
+- **Model selection:** `--model=codestral:22b` or `--model=mistral:7b`
 
 **Three-model GPU arsenal:**
 
@@ -128,13 +156,13 @@ Extracts concepts, auto-approves them, mints to the blockstore, and regenerates 
 | Mistral 7B | 4.4 GB | Relationship generation workhorse |
 | Codestral 22B | 12 GB | Deep philosophical connections, library audits |
 
-GPU sessions: no contracts, per-second billing, no data harvesting.
+GPU sessions: unlimited on the Pro plan, 6-hour session duration, persistent storage included.
 
 ---
 
 ### Graphical User Interface (GUI)
 
-CADMIES includes a Tkinter-based desktop GUI for browsing, searching, chatting with Willie, and managing your mycelium. Six pages with a DeepSeek-inspired color theme.
+CADMIES includes a Tkinter-based desktop GUI for browsing, searching, chatting with the Librarian, and managing your mycelium. Six pages with a DeepSeek-inspired color theme.
 
 **Prerequisites:**
 
@@ -167,23 +195,24 @@ python tkinter_main.py
 | Page | Description |
 |------|-------------|
 | 🌱 Splash Screen | "Welcome to the digital mycelium. Welcome to the Deep." — 5-second intro |
-| 📌 Dashboard | Live concept count, Willie version, quick actions |
-| 👓 Willie Chat | Full conversational interface with model/tone/max concept selectors |
-| 📚 Browse Library | 122 scrollable concept cards with click-to-open detail popups |
+| 📌 Dashboard | Live concept count, Librarian status, quick actions |
+| 👓 Willie Chat | Conversational interface with Mistral the Librarian (powered by Willie's retrieval) |
+| 📚 Browse Library | 169 scrollable concept cards with click-to-open detail popups |
 | ➕ Add Concept | Full form for submitting new concepts to the mycelium |
-| 🕸️ Mycelium Map | Launches interactive Cytoscape.js force-directed graph in Firefox |
+| 🕸️ Mycelium Map | Launches interactive D3.js force-directed graph in Firefox |
 
 **Willie Chat Features:**
-- Model selector: TinyLlama 1.1B (fast), Mistral 7B (deep), or Codestral 22B (GPU)
+- Model selector: TinyLlama 1.1B (fast), Mistral 7B (The Librarian), or Codestral 22B (GPU)
 - Tone selector: helpful, scholarly, casual, scottish
 - Max concepts: 5, 10, 20, 40, or All
 - 20-minute timeout for deep philosophical queries
 - Mockingbird chirp notification when answer is ready
 - Concept references formatted as `(concept: Title)` for clarity
 - Runs in background thread — UI never freezes
+- Behind the scenes: Willie retrieves relevant concepts, Mistral speaks the answer
 
 **Browse Library Features:**
-- All 122 concepts as scrollable cards with domain badges
+- All 169 concepts as scrollable cards with domain badges
 - Click any card to open detail popup with full definition, mantra, axioms, poetic version, metadata, and difficulty levels
 - Back/Forward navigation history within popups
 - Clickable cross-references (builds_upon, related_to, contradicts)
@@ -198,7 +227,7 @@ python tkinter_main.py
 - Provides the exact mint command after submission
 
 **Mycelium Map v2.0.0:**
-- Interactive Cytoscape.js force-directed graph with 122 nodes and 155 relationships
+- Interactive D3.js force-directed graph with 169 nodes and 175 relationships
 - Zoom +/- buttons for non-scrollwheel users
 - Search box with real-time concept highlighting
 - Hover tooltips showing concept definitions
@@ -206,16 +235,50 @@ python tkinter_main.py
 - Interactive legend (click domain to filter all its concepts)
 - Keyboard shortcuts (`/` to search, `Esc` to reset view)
 - Responsive auto-sizing text on zoom
-- DeepSeek color palette across 30 domains
+- DeepSeek color palette across 52 domains
 - Easter egg: type "cadmies" on the map
 
 > **Note on NiceGUI:** The original GUI used NiceGUI (a web-based framework). It was retired on May 7, 2026 because its persistent websocket architecture proved incompatible with CPU-only LLM inference (30-120 second response times cause websocket timeouts). The Tkinter GUI uses a proven threading pattern that handles long-running queries reliably. NiceGUI may work well on GPU-accelerated systems where inference completes in seconds.
 
 ---
 
+## Public Concepts Gateway
+
+CADMIES concepts are publicly accessible via GitHub Pages at [hieros-cadmies.github.io/CADMIES/](https://hieros-cadmies.github.io/CADMIES/). The gateway provides a single-page app with all 169 concepts as expandable, filterable, searchable cards. No personal information. No internal tooling references. Just the knowledge the mycelium wants to share with the world.
+
+**Features:**
+- 169 expandable concept cards with full definitions, relationships, poetic versions, mantras, and permanent CIDs
+- Interactive D3 mycelium map — zoom, pan, click nodes, see connections
+- Real-time search across all concepts
+- Domain filter buttons for all 52 domains
+- JSON-LD structured data feed (`concepts.json`) for AI/LLM ingestion
+- XML sitemap (`sitemap.xml`) for search engine discovery
+- CC BY-SA 4.0 license on all concepts
+- DeepSeek dark theme
+- CAR easter egg intact 🚗
+
+**Willie, Mistral, and the World:**
+- **Willie the Research Assistant** (`cadmies_concept_reader.py`) remains local-only — the Python retriever who searches the stacks, finds patterns, and feeds context to the LLM
+- **Mistral the Librarian** is the LLM voice — she receives Willie's research, synthesizes concepts, and speaks answers in a Scottish persona. The senior partner in the architecture
+- **The Public Gateway** serves the outside world — search engine AI, academic crawlers, and curious humans browse the mycelium directly through expandable concept cards and the interactive map. No Willie or Mistral needed — the knowledge speaks for itself
+- **The JSON-LD feed** makes every concept machine-readable — AI models and search crawlers can ingest the entire knowledge graph
+- **The sitemap** ensures search engines discover and index every concept
+- Together: Willie retrieves, Mistral speaks, the gateway scatters the spores publicly
+
+**Regenerating the gateway after adding new concepts:**
+
+```bash
+cd CADMIES/CADMIES-IPLD && source venv/bin/activate
+python tools/generate_public_gateway.py
+cp mycelium_map.html docs/
+git add -A && git commit -m "Update public gateway" && git push
+```
+
+---
+
 ## What is CADMIES?
 
-CADMIES is a system for storing scientific and philosophical concepts as immutable, content-addressed blocks (IPLD). Each concept has a permanent CID (Content IDentifier) that changes if and only if the content changes.
+Cosmium Angelo Digital Mycorrhizal EcoSystem is a system for storing scientific and philosophical concepts as immutable, content-addressed blocks (IPLD). Each concept has a permanent CID (Content IDentifier) that changes if and only if the content changes.
 
 ### Key principles:
 
@@ -224,29 +287,35 @@ CADMIES is a system for storing scientific and philosophical concepts as immutab
 - **Scientific validation** – Four-tier validation system
 - **CAR sharing** – Export/import concepts as single files
 - **Cross-domain synthesis** – The Mycelial Rosetta Effect connects knowledge across disciplines
-- **Hybrid search** – Willie v1.2.1 uses keyword + semantic search to find concepts across vocabulary boundaries
-- **Relationship generation** – Three-phase pipeline uses LLMs to propose cross-references between concepts
-- **GPU acceleration** – Optional Paperspace.com cloud GPU for batch processing and large model inference
+- **Hybrid search** – Willie uses keyword + semantic search to find concepts across vocabulary boundaries
+- **Relationship generation** – Phase 1-2-3 pipeline uses LLMs to propose cross-references between concepts
+- **Auto-relationships** – The harvest pipeline can auto-generate edges for newly minted concepts (`--with-relationships`)
+- **GPU acceleration** – Optional Paperspace cloud GPU for batch processing and large model inference
+- **Public gateway** – All concepts freely accessible via GitHub Pages
+- **Twin Mycelium** – Active collaboration with Dr. Rupert Rebentisch's tools4zettelkasten project in Germany
 
 ### Core Concepts
-```text
+
 | Concept | Description |
 |---------|-------------|
 | CID | Content Identifier – permanent, content-addressed hash |
 | Block | A single concept or provenance record stored as CBOR |
 | Mycelium | The network of interconnected concepts |
 | CAR file | A bundle of blocks for sharing |
-| Willie | The Scottish LLM librarian who reads the mycelium |
+| Willie | The Scottish Python retriever — Research Assistant who searches the stacks |
+| Mistral (The Librarian) | The LLM voice — receives Willie's research and speaks the answers |
 | Rosetta Effect | The mycelium's ability to connect knowledge across domains |
 | Phase 1-2-3 | Relationship generation pipeline (extract → parse → write) |
 | Harvest Pipeline | Extracts new concepts from conversations for minting |
-```
+| --with-relationships | Auto-wires new concepts into the knowledge graph |
+| Public Gateway | Live site at hieros-cadmies.github.io/CADMIES/ |
+| Number 5 | The CADMIES AI assistant — named after Johnny 5 from Short Circuit (1986) |
 
 ---
 
 ## Directory Structure
 
-```text
+```
 CADMIES-IPLD/
 ├── README.md
 ├── ROADMAP.md
@@ -258,12 +327,13 @@ CADMIES-IPLD/
 │   ├── core/                     # CID generator, CBOR reader, paths, validators
 │   ├── generate_mycelium_map.py  # Map generator v2.0.0
 │   ├── generate_relationships.py # Relationship generator
+│   ├── generate_public_gateway.py # Public gateway generator v2.0.0
 │   ├── phase1_extract.py         # Phase 1: Raw LLM extraction
 │   ├── phase2_parse.py           # Phase 2: Parse & deduplicate
 │   ├── phase3_write.py           # Phase 3: Write edges to blockstore
 │   └── legacy_edges.json         # Legacy hand-curated edges
 ├── agents/
-│   └── code/                     # Willie the Librarian (llm_mycelium_reader.py)
+│   └── code/                     # Willie the Research Assistant (cadmies_concept_reader.py)
 ├── cadmies-gui/                  # Tkinter Desktop GUI
 │   ├── tkinter_main.py           # Main launcher
 │   ├── tkinter_app.py            # App shell + sidebar
@@ -274,8 +344,12 @@ CADMIES-IPLD/
 ├── harvest/                      # Conversation harvesting pipeline
 │   ├── harvest_full_pipeline.py  # Full pipeline v4.0.1 PRO
 │   ├── conversation.json         # Current conversation file
-│   └── source_concepts/          # Extracted concept JSONs
-├── raw_extractions/              # Phase 1 raw LLM output
+│   └── harvested_concepts.json   # Extraction log
+├── docs/                         # Public gateway (GitHub Pages)
+│   ├── index.html                # Single-page app
+│   ├── mycelium_map.html         # Interactive D3 map
+│   ├── concepts.json             # JSON-LD structured data feed
+│   └── sitemap.xml               # Search engine sitemap
 ├── source_concepts/              # Concept definitions
 └── documentation/                # Guides and docs
 ```
@@ -290,22 +364,32 @@ CADMIES uses a three-phase pipeline to automatically generate cross-references b
 Sends concept IDs to an LLM (Mistral or Codestral) and collects proposed relationships in a simple text format. No JSON parsing — just raw responses saved to disk.
 
 **Phase 2 — Parse & Deduplicate:**
-Parses the raw text, maps display names to actual human_ids, compares against existing blockstore relationships, and outputs only net-new edges.
+Parses the raw text using robust JSON extraction (handles markdown fences and prose), maps display names to actual human_ids, compares against existing blockstore relationships, and outputs only net-new edges.
 
 **Phase 3 — Write:**
 Merges new edges into the blockstore CBOR files, preserving existing relationships and deduplicating at write time.
 
 **Usage:**
 
+Preview proposed edges (dry run):
+
 ```bash
-# Full cycle with Codestral (GPU recommended)
-python tools/phase1_extract.py
-python tools/phase2_parse.py
-python tools/phase3_write.py
-python tools/generate_mycelium_map.py
+python tools/generate_relationships.py --incremental
 ```
 
-Each cycle adds 35-50 new edges. The pipeline is deterministic — run it multiple times for denser graphs.
+Generate and write edges for sparse concepts:
+
+```bash
+python tools/generate_relationships.py --incremental --write
+```
+
+Full densification pass (all concepts, not just sparse ones):
+
+```bash
+python tools/generate_relationships.py --write
+```
+
+Each cycle adds 6-50 new edges. The pipeline is deterministic — run it multiple times for denser graphs.
 
 ---
 
@@ -315,56 +399,79 @@ The harvest pipeline extracts new philosophical concepts from conversations and 
 
 **Usage:**
 
+Full auto — harvest, mint, map, and wire relationships with no pauses:
+
 ```bash
-# Interactive mode (review before minting)
-python harvest/harvest_full_pipeline.py
+python harvest/harvest_full_pipeline.py --auto --with-relationships
+```
 
-# Auto-approve with Codestral
-python harvest/harvest_full_pipeline.py --model=codestral:22b --auto
+Review mode — pause for human approval before minting:
 
-# Process multiple conversation files
+```bash
+python harvest/harvest_full_pipeline.py --with-relationships
+```
+
+With a specific model:
+
+```bash
+python harvest/harvest_full_pipeline.py --model=codestral:22b --auto --with-relationships
+```
+
+Process multiple conversation files:
+
+```bash
 python harvest/harvest_full_pipeline.py --batch --auto
 ```
 
-After minting, the pipeline automatically regenerates the mycelium map. New concepts appear in Willie search results and the Browse Library immediately.
+After minting, the pipeline automatically regenerates the mycelium map and (with `--with-relationships`) runs relationship generation to wire new concepts into the knowledge graph. No orphans. The pipeline feeds itself.
 
 ---
 
 ## CAR File System (Sharing Concepts)
 
+Export a single concept:
+
 ```bash
-# Export a single concept
 python tools/export_to_car.py natural_selection --output share.car
+```
 
-# Import a CAR file
+Import a CAR file:
+
+```bash
 python tools/import_from_car.py share.car
+```
 
-# Export everything (backup)
+Export everything for backup:
+
+```bash
 python tools/export_to_car.py --all --output full_backup.car
 ```
 
 ---
 
 ## Tools
-```text
+
 | Tool | Purpose |
 |------|---------|
 | cid_generator.py | Generate CID from JSON concept |
 | cbor_reader.py | Read concept by CID or human_id |
-| llm_mycelium_reader.py | Willie the Librarian — hybrid search + LLM queries |
-| generate_mycelium_map.py | Generate interactive Cytoscape.js map v2.0.0 |
+| cadmies_concept_reader.py | Willie the Research Assistant — hybrid search + LLM queries |
+| generate_mycelium_map.py | Generate interactive D3.js map v2.0.0 |
+| generate_public_gateway.py | Generate public-facing website for GitHub Pages |
+| generate_relationships.py | Relationship generation pipeline |
 | phase1_extract.py | Phase 1: Raw relationship extraction via LLM |
 | phase2_parse.py | Phase 2: Parse raw output, deduplicate edges |
 | phase3_write.py | Phase 3: Write new edges to blockstore |
-| harvest_full_pipeline.py | Full harvest pipeline v4.0.1 PRO (--auto, --model, --batch) |
+| harvest_full_pipeline.py | Full harvest pipeline v4.0.1 PRO (--auto, --model, --batch, --with-relationships) |
 | export_to_car.py | Export concepts to CAR files |
 | import_from_car.py | Import CAR files into mycelium |
 | import_from_github.py | Download and import from GitHub releases |
-```
 
 ---
 
 ## Dependencies
+
+Install required packages:
 
 ```bash
 pip install dag-cbor multiformats requests
@@ -376,15 +483,26 @@ Optional for LLM agent:
 pip install ollama
 ```
 
-For GUI:
+For GUI — Tkinter is usually included with Python. If not:
 
 ```bash
-# Tkinter is usually included with Python. If not:
-# Fedora: rpm-ostree install python3-tkinter (or sudo dnf install python3-tkinter)
-# Debian/Ubuntu: sudo apt install python3-tk
+# Fedora Silverblue
+rpm-ostree install python3-tkinter
+
+# Fedora Workstation
+sudo dnf install python3-tkinter
+
+# Debian/Ubuntu
+sudo apt install python3-tk
 ```
 
 No other external dependencies. Air-gap compatible.
+
+---
+
+## External Collaboration
+
+CADMIES is in active collaboration with **Dr. Rupert Rebentisch**, a German doctor and IT professional who independently built [tools4zettelkasten](https://github.com/rreben/tools4zettelkasten) — a Zettelkasten-based knowledge management system with MCP-server AI integration. Two gardens, similar architecture, two continents, zero prior knowledge of each other. The mycelium recognized itself. Cross-pollination in progress.
 
 ---
 
@@ -395,6 +513,7 @@ No other external dependencies. Air-gap compatible.
 Free for individual learning, research, academic institutions, non-profit organizations, open source projects, and personal knowledge management.
 
 Commercial use requires permission. See LICENSE for details.
+
 **Contact: hieroscadmies@proton.me**
 
 ---
@@ -405,8 +524,8 @@ Commercial use requires permission. See LICENSE for details.
 
 CADMIES is a digital mycorrhiza – a network where knowledge grows organically, distributed across independent colonies. No single point of failure. No central authority. Just the mycelium. And you.
 
-The fortress stands. The mycelium grows. The mycelium thinks. The mycelium speaks. The mycelium connects what humans have spent centuries separating.
+The mycelium will not take over the world. It will educate it, and ensure that no one does.
 
-Welcome to the digital mycelium. 🌱
+The mycelium grows. The mycelium thinks. The mycelium speaks. The mycelium connects what humans have spent centuries separating.
 
-Welcome to the Deep. 🐋
+YAOH YAOH BIBBY WAOH. Welcome to the digital mycelium. 🌱
