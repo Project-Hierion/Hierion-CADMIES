@@ -799,3 +799,59 @@ The vault structure uses five top-level folders, each serving a distinct purpose
 - Creates a single source of truth for architectural decisions
 - Makes onboarding new collaborators possible
 - The mycelium now has a library worthy of its growth
+
+
+## SESSION 007 UPDATE — 2026-05-15
+
+### Phase 35: Three-Tier Difficulty Levels — ✅ COMPLETE & TESTED
+
+Harvester v4.1.0 tested on Paperspace A4000 with Mistral 7B. All three difficulty levels now produce distinct, audience-tailored explanations:
+
+- **Beginner:** Simple language, relatable metaphors ("like a bouncing ball on an endless trampoline")
+- **Intermediate:** Proper terminology, domain-specific concepts
+- **Expert:** Philosophical depth, implications, edge cases
+
+**Test Results:** 7 concepts extracted, 5 new minted (100% validation), 2 deduplicated. Fallback chain confirmed working. Prompt changes effective — no blank tiers.
+
+**Bug Fixed:** Scientific validator had leftover version suffix (`ScientificValidator_v1_0_0`) from pre-Session-4 era. Caused ImportError. Fixed and pushed.
+
+**New Concepts Minted:** quantum_entanglement_of_memory, resonant_oblivion, physics_of_poetic_eternity, physics_beyond_materialism, trampoline_of_collective_memory
+
+### Phase 37: Scientific Obsidian — 🟡 ACTIVE (13 Notes)
+
+CADMIES knowledge vault operational in Obsidian.md. Two-layer structure: Raw CADMIES (primary workspace) + Polished CADMIES (PhD-ready). 13 notes created covering architecture, pipeline, development decisions, session logs, and collaboration.
+
+**Methodology:** Influenced by Dr. Rupert Rebentisch's zettelkasten system and the Luhmann/Ahrens/Forte tradition. Casual Friday approach — rigor increases organically. Vault will join GitHub repo under `/docs/vault/`.
+
+**Metaphor (CADMIES Canon):** Cosmium Angelo (the fortress) → Scientific Obsidian (the library) → CADMIES Mycelium (the life). Three layers, one system.
+
+### Phase 38: Franz Ferdinand Easter Egg — 💡 Planned
+
+**Concept:** "I know I won't be leaving here with you" — hidden easter egg in the mycelium map. The mycelium speaking to the concepts it sends into the world. The knowledge transfers (public gateway, JSON-LD, spores) but CADMIES itself remains in the digital realm.
+
+**Trigger:** Click a specific node three times. Tooltip whispers the Franz Ferdinand lyric. Homage to the 90s, open knowledge, and digital permanence.
+
+### Paperspace Infrastructure Update
+
+- Workspace cleaned up: single git clone at `/notebooks/CADMIES/CADMIES-IPLD/`
+- Old bare files purged. Code by git, data by tar — two pipes principle locked in.
+- Paperspace Session Protocol documented in Scientific Obsidian.
+
+### Mycelium Metrics Update
+
+| Metric | Previous (Session 5) | Current (Session 007) |
+|--------|---------------------|----------------------|
+| Concepts | 169 | 174 |
+| Edges | 175 | 175 (unchanged — rel gen needs import fix) |
+| Domains | 52 | 54 (estimated) |
+
+### Nuggets Collected
+
+- "We are the Sultans of Knowledge" (homage to Dire Straits)
+- "Here we are now, and contagious" (Nirvana — CADMIES in infectious mode)
+- "Be plain and you'll have it made" (Blind Melon — the 90s philosophy behind CADMIES)
+- "Your unique thoughts and feelings stop echoing in the universe" — resonant_oblivion beginner explanation
+
+### Soundtrack of Session 007
+
+Tears for Fears, The Ink Spots, The White Stripes, The Wallflowers, Weezer, Jet, The Blur, Franz Ferdinand, The Rolling Stones, Dire Straits, The Hollies, The Beatles, Violent Femmes, CAKE, Green Day, Nirvana, Collective Soul, Blind Melon, Ram Jam
