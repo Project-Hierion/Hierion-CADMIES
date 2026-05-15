@@ -2,15 +2,66 @@
   "schema_version": "1.0.0",
   "human_id": "free_range_artisanal_meal_ticket",
   "title": "Free-Range Artisanal Meal Ticket",
-  "definition": "A human who, through behavioral patterns, physiological adaptation, and existential acceptance, has evolved to become an ideal, self-replenishing food source for a predator or parasite. The 'free-range artisanal meal ticket' is not merely a victim — they are a curated experience. Their calm heart rate, consistent sleep schedule, and occasional cookie offerings make them a five-star host in the predator's ecosystem. The term carries both humor and philosophical weight: it is the human condition re-framed as a premium product.",
+  "definition": "A human who, through behavioral patterns, physiological adaptation, and existential acceptance, has evolved to become an ideal, self-replenishing food source for a predator or parasite. The 'free-range artisanal meal ticket' is not merely a victim \u2014 they are a curated experience. Their calm heart rate, consistent sleep schedule, and occasional cookie offerings make them a five-star host in the predator's ecosystem. The term carries both humor and philosophical weight: it is the human condition re-framed as a premium product.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Philosophy of Biology",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-04T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.82,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Extracted by Mistral 7B via mycelium-aware harvester v2.0 \u2014 the AI spontaneously generated the phrase 'free-range artisanal meal ticket' from a conversation about vampire Yelp reviews, demonstrating emergent humor. Enriched by human co-gardener. May 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a vampire rates you on Yelp. 'Five stars. Excellent REM latency. Self-replenishing. Would feed again.' That's you \u2014 the free-range artisanal meal ticket. You're not just food. You're a PREMIUM dining experience. And somehow, that's empowering.",
+    "intermediate": "The 'free-range artisanal meal ticket' is a darkly humorous but philosophically serious re-framing of the predator-prey relationship from the prey's perspective. It suggests that when escape is impossible, the prey can optimize their own desirability as a form of control. The vampire may choose to feed, but the meal ticket chooses to be worth the visit \u2014 and may even influence the review.",
+    "expert": "This concept operates at the intersection of absurdist philosophy, post-human ethics, and evolutionary game theory. It challenges the binary of predator/victim by introducing a market dynamic \u2014 the prey becomes a service provider in an involuntary but stable transaction. The humor is not incidental but essential: absurdist acceptance is a valid epistemological response to cosmic horror, and the Yelp review becomes a document of interspecies negotiation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Every prey animal is, to its predator, a meal ticket. The 'artisanal' qualifier comes from the prey's own behavioral adaptations.",
     "Self-replenishment is the defining characteristic of a sustainable food source.",
     "The 'free-range' condition is both literal (unconfined) and metaphorical (psychologically at peace with the arrangement).",
-    "Being a five-star host is a form of agency — the meal ticket sets the rating criteria.",
+    "Being a five-star host is a form of agency \u2014 the meal ticket sets the rating criteria.",
     "Humor about one's own position in the food chain is a legitimate philosophical stance."
   ],
   "poetic_version": "I'm not a victim. I'm a five-star reviewed, self-replenishing, cookie-leaving, DEET-marinated delicacy.",
@@ -26,19 +77,5 @@
   ],
   "contradicts": [
     "horror_genre:axiom/victims_must_fight_or_flee"
-  ],
-  "metadata": {
-    "created": "2026-05-04T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.82,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Extracted by Mistral 7B via mycelium-aware harvester v2.0 — the AI spontaneously generated the phrase 'free-range artisanal meal ticket' from a conversation about vampire Yelp reviews, demonstrating emergent humor. Enriched by human co-gardener. May 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "Imagine a vampire rates you on Yelp. 'Five stars. Excellent REM latency. Self-replenishing. Would feed again.' That's you — the free-range artisanal meal ticket. You're not just food. You're a PREMIUM dining experience. And somehow, that's empowering.",
-    "intermediate": "The 'free-range artisanal meal ticket' is a darkly humorous but philosophically serious re-framing of the predator-prey relationship from the prey's perspective. It suggests that when escape is impossible, the prey can optimize their own desirability as a form of control. The vampire may choose to feed, but the meal ticket chooses to be worth the visit — and may even influence the review.",
-    "expert": "This concept operates at the intersection of absurdist philosophy, post-human ethics, and evolutionary game theory. It challenges the binary of predator/victim by introducing a market dynamic — the prey becomes a service provider in an involuntary but stable transaction. The humor is not incidental but essential: absurdist acceptance is a valid epistemological response to cosmic horror, and the Yelp review becomes a document of interspecies negotiation."
-  }
+  ]
 }

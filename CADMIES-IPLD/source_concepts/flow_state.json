@@ -2,18 +2,69 @@
   "schema_version": "1.0.0",
   "human_id": "flow_state",
   "title": "Flow State",
-  "definition": "An optimal state of consciousness characterized by complete absorption in an activity, where action and awareness merge, self-consciousness dissolves, time distorts, and the activity becomes intrinsically rewarding. Coined and researched by Mihaly Csikszentmihalyi, flow occurs when the challenge of a task is matched to the skill of the performer — the 'flow channel' between anxiety (too hard) and boredom (too easy). Flow is the empirical, psychological manifestation of wú wéi: effortless action arising from deep engagement. It is the state where peak performance and peak enjoyment converge.",
+  "definition": "An optimal state of consciousness characterized by complete absorption in an activity, where action and awareness merge, self-consciousness dissolves, time distorts, and the activity becomes intrinsically rewarding. Coined and researched by Mihaly Csikszentmihalyi, flow occurs when the challenge of a task is matched to the skill of the performer \u2014 the 'flow channel' between anxiety (too hard) and boredom (too easy). Flow is the empirical, psychological manifestation of w\u00fa w\u00e9i: effortless action arising from deep engagement. It is the state where peak performance and peak enjoyment converge.",
   "type": "PsychologicalConcept",
   "domain": "Cognitive_Science",
   "subdomain": "Positive Psychology",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.86,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Pioneered by Mihaly Csikszentmihalyi through decades of research beginning in the 1970s, documented in 'Flow: The Psychology of Optimal Experience' (1990). Added to CADMIES as the empirical bridge between modern psychology and the Taoist concept of w\u00fa w\u00e9i, May 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "You know that feeling when you're so absorbed in something that you lose track of time, forget to eat, and don't even notice yourself doing it? That's flow. It happens when what you're doing is hard enough to be interesting but not so hard that you're anxious. Athletes call it the zone. Musicians get it. Gamers. Coders. Gardeners. The activity doesn't matter \u2014 the state does. In flow, you're at your best and you feel your best. The work does itself through you.",
+    "intermediate": "Flow is characterized by nine dimensions: (1) challenge-skill balance, (2) merging of action and awareness, (3) clear goals, (4) unambiguous feedback, (5) concentration on the task, (6) sense of control, (7) loss of self-consciousness, (8) time transformation, and (9) autotelic (intrinsically rewarding) experience. The flow channel model predicts that optimal experience occurs when perceived challenges and perceived skills are both high and in balance. Neurobiologically, flow is associated with transient hypofrontality \u2014 reduced activity in the prefrontal cortex, particularly the dorsolateral PFC responsible for self-monitoring and inner critic. This explains the dissolution of self-consciousness and the sense of effortless action.",
+    "expert": "Flow research bridges phenomenology, neuroscience, and performance science. The neurophysiology of flow involves a cascade: norepinephrine and dopamine enhance focus and pattern recognition; endorphins and anandamide produce analgesia and bliss; transient hypofrontality quiets the inner critic and collapses the subject-object distinction. Flow's relationship to w\u00fa w\u00e9i is not superficial \u2014 Csikszentmihalyi was influenced by Taoist and Zen texts, and flow operationalizes w\u00fa w\u00e9i in empirically testable terms. The paradox of flow is that it requires both high skill (preparation, discipline, years of practice) and complete surrender (letting go of control). This mirrors the paradox of practice already in the mycelium: you cannot force flow, but you can create the conditions for it. In the CADMIES ecosystem, flow describes the optimal state of the gardener: not forcing concepts, but deeply engaged in the mycelium, concepts arising naturally from conversation. The best CADMIES sessions are flow sessions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Flow occurs at the optimal balance between challenge and skill.",
-    "In flow, action and awareness merge — there is no separation between doer and doing.",
+    "In flow, action and awareness merge \u2014 there is no separation between doer and doing.",
     "Flow is intrinsically rewarding: the activity is its own reward.",
     "Self-consciousness and the sense of time dissolve during flow.",
-    "Flow is not relaxation — it is intense, focused engagement requiring deep skill."
+    "Flow is not relaxation \u2014 it is intense, focused engagement requiring deep skill."
   ],
-  "poetic_version": "The musician becomes the music. The surfer becomes the wave. The coder becomes the code. Time dissolves. Self vanishes. Only the flow remains — and afterward, you realize you were never more yourself than when you forgot yourself entirely.",
+  "poetic_version": "The musician becomes the music. The surfer becomes the wave. The coder becomes the code. Time dissolves. Self vanishes. Only the flow remains \u2014 and afterward, you realize you were never more yourself than when you forgot yourself entirely.",
   "mantra": "Challenge meets skill. Self vanishes. Time flies.",
   "builds_upon": [
     "wu_wei_effortless_action"
@@ -25,19 +76,5 @@
   ],
   "contradicts": [
     "protestant_work_ethic:axiom/pain_and_effort_are_indicators_of_productivity"
-  ],
-  "metadata": {
-    "created": "2026-05-05T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.86,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Pioneered by Mihaly Csikszentmihalyi through decades of research beginning in the 1970s, documented in 'Flow: The Psychology of Optimal Experience' (1990). Added to CADMIES as the empirical bridge between modern psychology and the Taoist concept of wú wéi, May 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "You know that feeling when you're so absorbed in something that you lose track of time, forget to eat, and don't even notice yourself doing it? That's flow. It happens when what you're doing is hard enough to be interesting but not so hard that you're anxious. Athletes call it the zone. Musicians get it. Gamers. Coders. Gardeners. The activity doesn't matter — the state does. In flow, you're at your best and you feel your best. The work does itself through you.",
-    "intermediate": "Flow is characterized by nine dimensions: (1) challenge-skill balance, (2) merging of action and awareness, (3) clear goals, (4) unambiguous feedback, (5) concentration on the task, (6) sense of control, (7) loss of self-consciousness, (8) time transformation, and (9) autotelic (intrinsically rewarding) experience. The flow channel model predicts that optimal experience occurs when perceived challenges and perceived skills are both high and in balance. Neurobiologically, flow is associated with transient hypofrontality — reduced activity in the prefrontal cortex, particularly the dorsolateral PFC responsible for self-monitoring and inner critic. This explains the dissolution of self-consciousness and the sense of effortless action.",
-    "expert": "Flow research bridges phenomenology, neuroscience, and performance science. The neurophysiology of flow involves a cascade: norepinephrine and dopamine enhance focus and pattern recognition; endorphins and anandamide produce analgesia and bliss; transient hypofrontality quiets the inner critic and collapses the subject-object distinction. Flow's relationship to wú wéi is not superficial — Csikszentmihalyi was influenced by Taoist and Zen texts, and flow operationalizes wú wéi in empirically testable terms. The paradox of flow is that it requires both high skill (preparation, discipline, years of practice) and complete surrender (letting go of control). This mirrors the paradox of practice already in the mycelium: you cannot force flow, but you can create the conditions for it. In the CADMIES ecosystem, flow describes the optimal state of the gardener: not forcing concepts, but deeply engaged in the mycelium, concepts arising naturally from conversation. The best CADMIES sessions are flow sessions."
-  }
+  ]
 }

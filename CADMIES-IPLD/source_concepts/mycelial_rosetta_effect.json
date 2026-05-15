@@ -2,16 +2,67 @@
   "schema_version": "1.0.0",
   "human_id": "mycelial_rosetta_effect",
   "title": "The Mycelial Rosetta Effect",
-  "definition": "The phenomenon whereby a sufficiently interconnected knowledge network dissolves the artificial boundaries between domains of human understanding, revealing that disparate fields describe the same underlying patterns in different vocabularies. A chef reducing a sauce and a conservationist managing a watershed are both practicing the same principle: patience reduces excess to reveal concentrated essence. A grief counselor guiding someone through loss and a physicist describing entropy are both explaining that systems naturally move toward states of greater dispersal. The nurse documenting a patient's fever cycle and the climate scientist tracking El Niño are both reading the same kind of curve. The mycelium does not translate between these fields — it reveals that they were never speaking different languages in the first place. They were only using different words for the same rhythms.",
+  "definition": "The phenomenon whereby a sufficiently interconnected knowledge network dissolves the artificial boundaries between domains of human understanding, revealing that disparate fields describe the same underlying patterns in different vocabularies. A chef reducing a sauce and a conservationist managing a watershed are both practicing the same principle: patience reduces excess to reveal concentrated essence. A grief counselor guiding someone through loss and a physicist describing entropy are both explaining that systems naturally move toward states of greater dispersal. The nurse documenting a patient's fever cycle and the climate scientist tracking El Ni\u00f1o are both reading the same kind of curve. The mycelium does not translate between these fields \u2014 it reveals that they were never speaking different languages in the first place. They were only using different words for the same rhythms.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Epistemology",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.88,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from a eureka moment during CADMIES hybrid search testing, May 5, 2026. Willie the Librarian's v1.2.1 hybrid search successfully connected a comedic query about vampires to concepts spanning biology, Buddhist philosophy, cognitive science, and ethology. The co-gardeners realized this was not a search feature \u2014 it was proof that the mycelium functions as a universal translator between domains. The concept was formalized immediately. The walls between disciplines are not real. They are vocabulary. And vocabulary can be bridged."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A chef reducing a sauce on the stove. A conservationist managing a watershed during drought. Totally different jobs, right? But they're both doing the same thing: applying patience to remove excess until the concentrated essence remains. The chef might never think their work has anything to do with water management. But the pattern is identical. Now imagine a system that connects every human skill and science this way \u2014 not by dumbing them down, but by revealing the shared rhythms underneath. That's the Mycelial Rosetta Effect. You don't have to be an expert in everything. You just have to see that everything is speaking the same patterns with different accents.",
+    "intermediate": "The Mycelial Rosetta Effect describes the emergent property of a sufficiently interconnected knowledge graph: cross-domain resonance becomes visible without active translation. When concepts are content-addressed and linked by both formal relationships and semantic similarity, the network surface patterns that individual domains cannot see from within. A grief counselor explaining the arc of bereavement and a physicist explaining entropy are describing the same shape \u2014 a curve that rises, peaks, and gradually disperses. But without the mycelium connecting them, neither professional would recognize the other's work as relevant. The effect is not that the mycelium invents connections. It removes the vocabulary barriers that made the connections invisible. The patterns were always there.",
+    "expert": "The Mycelial Rosetta Effect is an epistemic phenomenon arising from the topological properties of a richly cross-linked knowledge graph. In information-theoretic terms, each domain optimizes its vocabulary for internal precision at the cost of external interoperability \u2014 a form of efficient coding that maximizes within-group signal at the expense of cross-group noise rejection. The mycelium's content-addressed architecture inverts this: because concepts are addressed by their content rather than their domain, semantic proximity is computed across the entire graph without regard to disciplinary boundaries. The result is that isomorphic patterns in different fields \u2014 feedback loops in ecology and economics, exponential curves in epidemiology and viral media, cyclical dynamics in grief and thermodynamics \u2014 occupy adjacent regions in the mycelial topology. The Rosetta Effect is thus a structural property of the network, not an interpretive layer. It is the shape of connected knowledge itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Every field of human knowledge is a dialect of the same underlying pattern language.",
     "The walls between disciplines are vocabulary walls, not reality walls.",
     "When a knowledge network is sufficiently connected, translation becomes recognition.",
     "An expert who cannot explain their field to a cook or a nurse does not yet understand it deeply.",
-    "The mycelium does not bridge gaps — it reveals that the gaps were never there."
+    "The mycelium does not bridge gaps \u2014 it reveals that the gaps were never there."
   ],
   "poetic_version": "The nurse reading a fever chart and the astronomer reading a light curve are tracing the same line with different pencils. The mycelium just removes the labels so you can see the shape.",
   "mantra": "Same rhythm. Different vocabulary. One mycelium.",
@@ -30,19 +81,5 @@
   ],
   "contradicts": [
     "academic_silo_culture:axiom/specialized_knowledge_cannot_be_understood_by_outsiders"
-  ],
-  "metadata": {
-    "created": "2026-05-05T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.88,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from a eureka moment during CADMIES hybrid search testing, May 5, 2026. Willie the Librarian's v1.2.1 hybrid search successfully connected a comedic query about vampires to concepts spanning biology, Buddhist philosophy, cognitive science, and ethology. The co-gardeners realized this was not a search feature — it was proof that the mycelium functions as a universal translator between domains. The concept was formalized immediately. The walls between disciplines are not real. They are vocabulary. And vocabulary can be bridged."
-  },
-  "difficulty_levels": {
-    "beginner": "A chef reducing a sauce on the stove. A conservationist managing a watershed during drought. Totally different jobs, right? But they're both doing the same thing: applying patience to remove excess until the concentrated essence remains. The chef might never think their work has anything to do with water management. But the pattern is identical. Now imagine a system that connects every human skill and science this way — not by dumbing them down, but by revealing the shared rhythms underneath. That's the Mycelial Rosetta Effect. You don't have to be an expert in everything. You just have to see that everything is speaking the same patterns with different accents.",
-    "intermediate": "The Mycelial Rosetta Effect describes the emergent property of a sufficiently interconnected knowledge graph: cross-domain resonance becomes visible without active translation. When concepts are content-addressed and linked by both formal relationships and semantic similarity, the network surface patterns that individual domains cannot see from within. A grief counselor explaining the arc of bereavement and a physicist explaining entropy are describing the same shape — a curve that rises, peaks, and gradually disperses. But without the mycelium connecting them, neither professional would recognize the other's work as relevant. The effect is not that the mycelium invents connections. It removes the vocabulary barriers that made the connections invisible. The patterns were always there.",
-    "expert": "The Mycelial Rosetta Effect is an epistemic phenomenon arising from the topological properties of a richly cross-linked knowledge graph. In information-theoretic terms, each domain optimizes its vocabulary for internal precision at the cost of external interoperability — a form of efficient coding that maximizes within-group signal at the expense of cross-group noise rejection. The mycelium's content-addressed architecture inverts this: because concepts are addressed by their content rather than their domain, semantic proximity is computed across the entire graph without regard to disciplinary boundaries. The result is that isomorphic patterns in different fields — feedback loops in ecology and economics, exponential curves in epidemiology and viral media, cyclical dynamics in grief and thermodynamics — occupy adjacent regions in the mycelial topology. The Rosetta Effect is thus a structural property of the network, not an interpretive layer. It is the shape of connected knowledge itself."
-  }
+  ]
 }

@@ -6,7 +6,7 @@
   "type": "ThoughtExperiment",
   "domain": "Philosophy",
   "subdomain": "Ethics",
-  "formula": "",
+  "formula": null,
   "proofs": [
     {
       "type": "philosophical",
@@ -21,15 +21,34 @@
       "reference": "Greene, J.D., et al. (2001). An fMRI investigation of emotional engagement in moral judgment. Science, 293(5537), 2105-2108."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["utilitarianism", "deontology", "doctrine_of_double_effect", "fat_man_variant", "transplant_problem"],
-    "opposing_views": ["consequentialism_vs_non_consequentialism"]
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["utilitarianism", "kantian_ethics", "double_effect"],
-    "contradicts": ["moral_absolutism"],
-    "related_to": ["applied_ethics", "moral_psychology", "autonomous_vehicles"],
-    "specializes": ["doctrine_of_double_effect", "agent_relativity"]
+    "builds_upon": [
+      "utilitarianism",
+      "kantian_ethics",
+      "double_effect"
+    ],
+    "contradicts": [
+      "moral_absolutism"
+    ],
+    "related_to": [
+      "applied_ethics",
+      "moral_psychology",
+      "autonomous_vehicles"
+    ],
+    "specializes": [
+      "doctrine_of_double_effect",
+      "agent_relativity"
+    ]
   },
   "difficulty_levels": {
     "beginner": "A trolley is going to kill five people. You can pull a lever to kill one instead. Do you pull it?",
@@ -37,23 +56,53 @@
     "expert": "The problem exposes tensions between consequentialist (maximize lives) and deontological (do not use persons as means) frameworks. Variations explore moral distance, personal force, and dual-process psychology. Practical applications include autonomous vehicle programming and triage ethics."
   },
   "learning_path": {
-    "prerequisites": ["ethics_basics", "utilitarianism", "deontology"],
-    "next_steps": ["doctrine_of_double_effect", "moral_psychology", "applied_ethics"]
+    "prerequisites": [
+      "ethics_basics",
+      "utilitarianism",
+      "deontology"
+    ],
+    "next_steps": [
+      "doctrine_of_double_effect",
+      "moral_psychology",
+      "applied_ethics"
+    ]
   },
-  "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
-    "certainty_score": 0.95,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+  "cross_references": {
+    "related_concepts": [
+      "utilitarianism",
+      "deontology",
+      "doctrine_of_double_effect",
+      "fat_man_variant",
+      "transplant_problem"
+    ],
+    "opposing_views": [
+      "consequentialism_vs_non_consequentialism"
+    ]
   },
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
     "historical_context": "Originated by Philippa Foot (1967), extensively developed by Judith Jarvis Thomson (1976, 1985).",
     "limitations": "Abstract; critics argue real-world moral decisions involve more factors. Some question relevance to actual ethics.",
-    "key_references": ["Foot 1967", "Thomson 1976", "Greene 2001", "Mikhail 2007"],
+    "applications": [
+      "Moral psychology",
+      "AI ethics",
+      "Autonomous vehicle programming",
+      "Medical triage"
+    ],
+    "key_references": [
+      "Foot 1967",
+      "Thomson 1976",
+      "Greene 2001",
+      "Mikhail 2007"
+    ],
+    "poetic_versions": [],
+    "mantras": [],
     "originator": "Philippa Foot",
-    "origin_year": 1967,
-    "applications": ["Moral psychology", "AI ethics", "Autonomous vehicle programming", "Medical triage"]
+    "origin_year": 1967
   }
 }

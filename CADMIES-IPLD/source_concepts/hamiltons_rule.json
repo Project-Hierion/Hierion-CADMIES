@@ -21,15 +21,35 @@
       "reference": "Sherman, P.W. (1977). Nepotism and the evolution of alarm calls. Science, 197(4310), 1246-1253."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["inclusive_fitness", "kin_selection", "altruism", "eusociality", "coefficient_of_relatedness"],
-    "opposing_views": ["group_selection_controversy"]
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["population_genetics", "game_theory", "darwinian_evolution"],
-    "contradicts": ["pure_group_selectionism"],
-    "related_to": ["sociobiology", "evolutionary_psychology", "behavioral_ecology"],
-    "specializes": ["eusociality", "alarm_calls", "cooperative_breeding"]
+    "builds_upon": [
+      "population_genetics",
+      "game_theory",
+      "darwinian_evolution"
+    ],
+    "contradicts": [
+      "pure_group_selectionism"
+    ],
+    "related_to": [
+      "sociobiology",
+      "evolutionary_psychology",
+      "behavioral_ecology"
+    ],
+    "specializes": [
+      "eusociality",
+      "alarm_calls",
+      "cooperative_breeding"
+    ]
   },
   "difficulty_levels": {
     "beginner": "You're more likely to help your family than strangers because you share genes. Evolution can favor helping relatives even at a cost to yourself.",
@@ -37,23 +57,51 @@
     "expert": "Inclusive fitness theory extends Darwinian fitness to include effects on relatives. Hamilton's Rule (rB > C) predicts altruism when relatedness is high (r approaches 1), benefits large, or costs small. It resolves apparent paradoxes of altruism and underpins modern sociobiology."
   },
   "learning_path": {
-    "prerequisites": ["population_genetics", "evolutionary_theory", "game_theory"],
-    "next_steps": ["inclusive_fitness", "eusociality", "reciprocal_altruism"]
+    "prerequisites": [
+      "population_genetics",
+      "evolutionary_theory",
+      "game_theory"
+    ],
+    "next_steps": [
+      "inclusive_fitness",
+      "eusociality",
+      "reciprocal_altruism"
+    ]
   },
-  "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
-    "certainty_score": 0.95,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+  "cross_references": {
+    "related_concepts": [
+      "inclusive_fitness",
+      "kin_selection",
+      "altruism",
+      "eusociality",
+      "coefficient_of_relatedness"
+    ],
+    "opposing_views": [
+      "group_selection_controversy"
+    ]
   },
   "extra_fields": {
-    "historical_context": "Proposed by W.D. Hamilton (1964). Revolutionized understanding of social evolution. Extended by John Maynard Smith (kin selection) and E.O. Wilson (sociobiology).",
-    "limitations": "Requires accurate measurement of relatedness and costs/benefits. Controversial for some social behaviors. Does not explain all altruism (reciprocal altruism explains non-kin cooperation).",
-    "key_references": ["Hamilton 1964", "Trivers 1971", "Dawkins 1976", "Nowak 2006"],
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
     "discoverer": "W.D. Hamilton",
     "discovery_year": 1964,
-    "applications": ["Behavioral ecology", "Conservation biology", "Understanding social insects", "Evolution of cooperation"]
+    "historical_context": "Proposed by W.D. Hamilton (1964). Revolutionized understanding of social evolution. Extended by John Maynard Smith (kin selection) and E.O. Wilson (sociobiology).",
+    "limitations": "Requires accurate measurement of relatedness and costs/benefits. Controversial for some social behaviors. Does not explain all altruism (reciprocal altruism explains non-kin cooperation).",
+    "applications": [
+      "Behavioral ecology",
+      "Conservation biology",
+      "Understanding social insects",
+      "Evolution of cooperation"
+    ],
+    "key_references": [
+      "Hamilton 1964",
+      "Trivers 1971",
+      "Dawkins 1976",
+      "Nowak 2006"
+    ],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

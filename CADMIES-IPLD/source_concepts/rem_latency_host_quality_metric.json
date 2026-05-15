@@ -2,12 +2,63 @@
   "schema_version": "1.0.0",
   "human_id": "rem_latency_host_quality_metric",
   "title": "REM Latency as Host Quality Metric",
-  "definition": "A proposed evaluative framework within hematophagous predator behavior wherein the predator assesses host quality based on sleep architecture — specifically, the speed and depth of REM sleep onset after the feeding event begins. A host with low REM latency (falling quickly into deep sleep) is a higher-quality food source: they are less likely to wake during feeding, exhibit stable heart rate and blood pressure, and provide a predictable, uninterrupted feeding window. Over time, the predator develops preferences and rankings — a 'Yelp review' system based on unconscious host performance metrics. 'Excellent REM latency. Self-replenishing. Would feed again.'",
+  "definition": "A proposed evaluative framework within hematophagous predator behavior wherein the predator assesses host quality based on sleep architecture \u2014 specifically, the speed and depth of REM sleep onset after the feeding event begins. A host with low REM latency (falling quickly into deep sleep) is a higher-quality food source: they are less likely to wake during feeding, exhibit stable heart rate and blood pressure, and provide a predictable, uninterrupted feeding window. Over time, the predator develops preferences and rankings \u2014 a 'Yelp review' system based on unconscious host performance metrics. 'Excellent REM latency. Self-replenishing. Would feed again.'",
   "type": "ScientificHypothesis",
   "domain": "Biology",
   "subdomain": "Ethology",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.45,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Derived from a comedic conversation about vampire Yelp reviews. The joke \u2014 'Excellent REM latency. Would feed again.' \u2014 was expanded into a serious ethological hypothesis about how hematophagous predators might evaluate and rank hosts. May 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "If a vampire feeds on you while you sleep, the best thing you can be is a deep sleeper. If you stay in REM, heart rate steady, breathing calm \u2014 you're a five-star meal. If you thrash around and wake up, you're a one-star review, and the vampire might find someone else. Your sleep quality is literally your Yelp rating in the vampire ecosystem.",
+    "intermediate": "REM latency as a host quality metric proposes that hematophagous predators with host fidelity develop evaluative frameworks based on host sleep architecture. Short REM latency (falling quickly into deep sleep after feeding onset) correlates with reduced host disturbance risk, stable hemodynamics during feeding, and predictable feeding windows. Over repeated encounters, the predator builds a preference ranking \u2014 optimizing which hosts to revisit and which to abandon. This is functionally analogous to optimal foraging theory extended into the temporal domain of host consciousness.",
+    "expert": "This hypothesis extends optimal foraging theory into the domain of host behavioral states. For a predator whose feeding success depends on host unconsciousness, sleep architecture becomes an ecological variable subject to selective pressure. The model predicts: (1) predators will evolve the ability to detect REM onset via respiratory patterns, heart rate, or pheromonal sleep-stage markers; (2) hosts with genetically or pharmacologically deeper sleep will be preferentially targeted; (3) over generational timescales, host populations may evolve sleep patterns that reduce predation risk \u2014 or, paradoxically, deeper sleep if the predation becomes commensal. The 'Yelp review' anthropomorphism describes a real evolutionary dynamic: quality assessment with memory and preference."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
-    "Host consciousness is the primary risk factor for hematophagous predators — a waking host is a threat.",
+    "Host consciousness is the primary risk factor for hematophagous predators \u2014 a waking host is a threat.",
     "REM latency is a measurable, consistent proxy for host disturbance risk.",
     "Predators with long-term host fidelity evolve evaluative criteria for host quality.",
     "Host ranking systems are an evolutionary adaptation that optimizes feeding success across repeated encounters.",
@@ -25,19 +76,5 @@
   ],
   "contradicts": [
     "classical_predation_theory:axiom/all_prey_are_equivalent"
-  ],
-  "metadata": {
-    "created": "2026-05-05T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.45,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Derived from a comedic conversation about vampire Yelp reviews. The joke — 'Excellent REM latency. Would feed again.' — was expanded into a serious ethological hypothesis about how hematophagous predators might evaluate and rank hosts. May 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "If a vampire feeds on you while you sleep, the best thing you can be is a deep sleeper. If you stay in REM, heart rate steady, breathing calm — you're a five-star meal. If you thrash around and wake up, you're a one-star review, and the vampire might find someone else. Your sleep quality is literally your Yelp rating in the vampire ecosystem.",
-    "intermediate": "REM latency as a host quality metric proposes that hematophagous predators with host fidelity develop evaluative frameworks based on host sleep architecture. Short REM latency (falling quickly into deep sleep after feeding onset) correlates with reduced host disturbance risk, stable hemodynamics during feeding, and predictable feeding windows. Over repeated encounters, the predator builds a preference ranking — optimizing which hosts to revisit and which to abandon. This is functionally analogous to optimal foraging theory extended into the temporal domain of host consciousness.",
-    "expert": "This hypothesis extends optimal foraging theory into the domain of host behavioral states. For a predator whose feeding success depends on host unconsciousness, sleep architecture becomes an ecological variable subject to selective pressure. The model predicts: (1) predators will evolve the ability to detect REM onset via respiratory patterns, heart rate, or pheromonal sleep-stage markers; (2) hosts with genetically or pharmacologically deeper sleep will be preferentially targeted; (3) over generational timescales, host populations may evolve sleep patterns that reduce predation risk — or, paradoxically, deeper sleep if the predation becomes commensal. The 'Yelp review' anthropomorphism describes a real evolutionary dynamic: quality assessment with memory and preference."
-  }
+  ]
 }

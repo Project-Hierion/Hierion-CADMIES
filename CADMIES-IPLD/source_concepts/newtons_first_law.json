@@ -6,6 +6,7 @@
   "type": "ScientificLaw",
   "domain": "Physics",
   "subdomain": "ClassicalMechanics",
+  "formula": null,
   "proofs": [
     {
       "type": "experimental",
@@ -19,30 +20,60 @@
       "description": "Confirmed by all subsequent mechanics experiments",
       "confidence": 0.99,
       "date": "1687-01-01",
-      "reference": "Newton, I. (1687). Philosophiæ Naturalis Principia Mathematica"
+      "reference": "Newton, I. (1687). Philosophi\u00e6 Naturalis Principia Mathematica"
     }
   ],
   "metadata": {
+    "created": "2026-05-15T22:49:48.060957Z",
     "creator": "CADMIES_Quick_Mint",
     "certainty_score": 0.99,
     "version": 1,
     "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["galilean_relativity", "inertia_concept"],
-    "led_to": ["newtons_second_law", "conservation_of_momentum"],
-    "related_to": ["friction", "inertial_frames"]
+    "builds_upon": [
+      "galilean_relativity",
+      "inertia_concept"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "friction",
+      "inertial_frames"
+    ],
+    "specializes": [],
+    "led_to": [
+      "newtons_second_law",
+      "conservation_of_momentum"
+    ]
   },
   "difficulty_levels": {
     "beginner": "Things don't change their motion unless something pushes or pulls them",
     "intermediate": "Velocity remains constant without net external force",
     "expert": "Inertial reference frames are defined by absence of acceleration"
   },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
   "extra_fields": {
-    "alternate_name": "Law of Inertia",
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
     "discoverer": "Isaac Newton",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
+    "alternate_name": "Law of Inertia",
     "year": 1687,
-    "principia_book": "Philosophiæ Naturalis Principia Mathematica"
+    "principia_book": "Philosophi\u00e6 Naturalis Principia Mathematica"
   }
 }

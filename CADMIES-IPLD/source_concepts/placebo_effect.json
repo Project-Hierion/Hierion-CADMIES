@@ -1,4 +1,4 @@
-  {
+{
   "schema_version": "1.0.0",
   "human_id": "placebo_effect",
   "title": "The Placebo Effect",
@@ -6,7 +6,7 @@
   "type": "MedicalPhenomenon",
   "domain": "Medicine",
   "subdomain": "Psychophysiology",
-  "formula": "",
+  "formula": null,
   "proofs": [
     {
       "type": "empirical",
@@ -17,19 +17,38 @@
     {
       "type": "empirical",
       "description": "Neuroimaging studies show placebo activates endogenous opioid and dopamine systems",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "reference": "Wager, T.D., et al. (2004). Placebo-induced changes in FMRI in the anticipation and experience of pain. Science, 303(5661), 1162-1167."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["nocebo_effect", "expectancy_theory", "classical_conditioning", "mind_body_connection"],
-    "opposing_views": ["skepticism_of_placebo_mechanisms"]
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["psychophysiology", "neuroscience", "expectancy_theory"],
-    "contradicts": ["pure_physicalism_of_disease"],
-    "related_to": ["pain_management", "depression_treatment", "clinical_trials"],
-    "specializes": ["open_label_placebo", "conditioned_placebo"]
+    "builds_upon": [
+      "psychophysiology",
+      "neuroscience",
+      "expectancy_theory"
+    ],
+    "contradicts": [
+      "pure_physicalism_of_disease"
+    ],
+    "related_to": [
+      "pain_management",
+      "depression_treatment",
+      "clinical_trials"
+    ],
+    "specializes": [
+      "open_label_placebo",
+      "conditioned_placebo"
+    ]
   },
   "difficulty_levels": {
     "beginner": "Sometimes people feel better after taking a sugar pill because they believe it will help. The belief itself causes real changes in the body.",
@@ -37,21 +56,50 @@
     "expert": "Placebo effects are mediated by endogenous opioid, dopamine, and endocannabinoid systems. They are strongest for pain, depression, and Parkinson's disease. Nocebo effects (negative expectations causing harm) are equally real. Mechanisms include classical conditioning, conscious expectancy, and social learning."
   },
   "learning_path": {
-    "prerequisites": ["neuroscience_basics", "clinical_trial_methodology", "psychophysiology"],
-    "next_steps": ["nocebo_effect", "expectancy_theory", "mind_body_medicine"]
+    "prerequisites": [
+      "neuroscience_basics",
+      "clinical_trial_methodology",
+      "psychophysiology"
+    ],
+    "next_steps": [
+      "nocebo_effect",
+      "expectancy_theory",
+      "mind_body_medicine"
+    ]
   },
-  "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
-    "certainty_score": 0.95,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+  "cross_references": {
+    "related_concepts": [
+      "nocebo_effect",
+      "expectancy_theory",
+      "classical_conditioning",
+      "mind_body_connection"
+    ],
+    "opposing_views": [
+      "skepticism_of_placebo_mechanisms"
+    ]
   },
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
     "historical_context": "Term introduced by Henry Beecher (1955), though phenomena known since ancient medicine. Modern understanding integrates neurobiology and psychology.",
     "limitations": "Not all conditions respond to placebo. Ethical concerns about deception in clinical practice. Effect sizes vary by condition.",
-    "key_references": ["Beecher 1955", "Wager 2004", "Benedetti 2014", "Finniss 2010"],
-    "applications": ["Clinical trial design", "Pain management", "Psychiatric treatment", "Drug development"]
+    "applications": [
+      "Clinical trial design",
+      "Pain management",
+      "Psychiatric treatment",
+      "Drug development"
+    ],
+    "key_references": [
+      "Beecher 1955",
+      "Wager 2004",
+      "Benedetti 2014",
+      "Finniss 2010"
+    ],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

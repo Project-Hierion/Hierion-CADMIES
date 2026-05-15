@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Physics",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "The idea that the universe is not just full of stars and souls, but also of all possible patterns of being, where life and death are mere phases in an eternal dance of excitation and dormancy.",
     "source_chunk": 4,
     "origin_file": "conversation.json",
-    "harvester_version": "4.1.0"
+    "harvester_version": "4.1.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

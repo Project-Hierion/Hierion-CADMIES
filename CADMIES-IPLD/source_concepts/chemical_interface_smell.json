@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Philosophy of Perception & Scent",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "Smells can serve as a tangible link to the molecular structure of nature, providing an unspoken language of sorts for discerning qualities within living and non-living entities.",
     "source_chunk": 5,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.1"
+    "harvester_version": "4.0.1",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

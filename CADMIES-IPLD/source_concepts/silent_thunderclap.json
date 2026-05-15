@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Philosophy",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -48,6 +49,14 @@
     "insight": "The realization that there exists an ultimate truth beyond language and culture, which can be felt but not articulated.",
     "source_chunk": 3,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.0"
+    "harvester_version": "4.0.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

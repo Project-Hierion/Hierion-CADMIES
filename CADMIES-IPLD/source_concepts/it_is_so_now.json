@@ -2,18 +2,70 @@
   "schema_version": "1.0.0",
   "human_id": "epistemology:principle/it_is_so_now",
   "title": "The Dove's Sermon: Animals Speak Only the Eternal Present",
-  "definition": "Animals do not talk, though they do communicate — by signaling the presence of a state at a given time and place. They speak only the verb 'to be' conjugated in the eternal present: IT IS SO. NOW. The dove coos not to converse, but to broadcast its presence. The signal is the state. There is no displacement, no memory, no anxiety about tomorrow. The dove just is the coo, in the coo, for the duration of the coo.",
+  "definition": "Animals do not talk, though they do communicate \u2014 by signaling the presence of a state at a given time and place. They speak only the verb 'to be' conjugated in the eternal present: IT IS SO. NOW. The dove coos not to converse, but to broadcast its presence. The signal is the state. There is no displacement, no memory, no anxiety about tomorrow. The dove just is the coo, in the coo, for the duration of the coo.",
   "type": "PhilosophicalPrinciple",
   "domain": "Epistemology",
   "subdomain": "Philosophy of Mind / Bioacoustics",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from observing a dove in a tree, April 2026",
+    "posthumous_honorary": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Animals don't talk like we do. They just say 'I am here right now' in their own way.",
+    "intermediate": "Animals communicate by signaling present states. They cannot talk about yesterday or tomorrow. They only speak the eternal present.",
+    "expert": "A philosophical principle distinguishing communication (signal of present state) from language (symbolic, syntactic, displaced propositions). Animals broadcast presence; they do not converse."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
-    "Animals don't talk, though they do communicate — by signaling the presence of a state at a given time and place.",
+    "Animals don't talk, though they do communicate \u2014 by signaling the presence of a state at a given time and place.",
     "Communication = transfer of information. Talking = symbolic, syntactic, intentional exchange of propositions.",
     "The animal cannot displace. It cannot say 'yesterday by the river.' It can only say: SNAKE-STATE: ACTIVE. LOCATION: HERE. TIME: NOW.",
     "The signal is the presence of the state. You cannot signal the memory of the state.",
     "The dove is not having a meeting. It is maintaining a pressure gradient. The coo is a bubble of sonic presence.",
     "The dove doesn't lie awake replaying an awkward coo from three years ago. The dove just is the coo, in the coo, for the duration of the coo.",
-    "We — the linguistic species — are cursed and blessed with the ability to say 'It was so' (memory, trauma), 'It might be so' (anxiety, hope), 'It is not so' (lies, fiction). That's why we can't sleep at night.",
+    "We \u2014 the linguistic species \u2014 are cursed and blessed with the ability to say 'It was so' (memory, trauma), 'It might be so' (anxiety, hope), 'It is not so' (lies, fiction). That's why we can't sleep at night.",
     "All meditation apps, mindfulness retreats, and psychedelic journeys are expensive, complicated attempts to regain the dove's factory settings: IT IS SO. NOW.",
     "The dove doesn't need the app. The dove is the app.",
     "The ultimate flex: We write dissertations on IT IS SO. NOW. The dove just does it and flies off to find a crumb."
@@ -31,20 +83,5 @@
   ],
   "contradicts": [
     "anthropomorphism"
-  ],
-  "metadata": {
-    "created": "2026-04-20T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.95,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from observing a dove in a tree, April 2026",
-    "posthumous_honorary": null
-  },
-  "difficulty_levels": {
-    "beginner": "Animals don't talk like we do. They just say 'I am here right now' in their own way.",
-    "intermediate": "Animals communicate by signaling present states. They cannot talk about yesterday or tomorrow. They only speak the eternal present.",
-    "expert": "A philosophical principle distinguishing communication (signal of present state) from language (symbolic, syntactic, displaced propositions). Animals broadcast presence; they do not converse."
-  }
+  ]
 }

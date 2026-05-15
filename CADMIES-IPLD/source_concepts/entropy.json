@@ -2,10 +2,11 @@
   "schema_version": "1.0.0",
   "human_id": "entropy_thermodynamics",
   "title": "Entropy",
-  "definition": "Entropy is a measure of disorder or randomness in a system. In thermodynamics, the change in entropy (ΔS) equals heat transfer (Q) divided by temperature (T) for reversible processes: ΔS = Q/T.",
+  "definition": "Entropy is a measure of disorder or randomness in a system. In thermodynamics, the change in entropy (\u0394S) equals heat transfer (Q) divided by temperature (T) for reversible processes: \u0394S = Q/T.",
   "type": "ScientificConcept",
   "domain": "Physics",
   "subdomain": "Thermodynamics",
+  "formula": null,
   "proofs": [
     {
       "type": "theoretical",
@@ -23,26 +24,54 @@
     }
   ],
   "metadata": {
+    "created": "2026-05-15T22:49:47.972890Z",
     "creator": "CADMIES_Quick_Mint",
     "certainty_score": 0.99,
     "version": 1,
     "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["thermodynamics", "statistical_mechanics"],
-    "related_to": ["second_law_thermodynamics", "information_entropy"],
-    "specializes": ["boltzmann_entropy"]
+    "builds_upon": [
+      "thermodynamics",
+      "statistical_mechanics"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "second_law_thermodynamics",
+      "information_entropy"
+    ],
+    "specializes": [
+      "boltzmann_entropy"
+    ]
   },
   "difficulty_levels": {
     "beginner": "Entropy measures how spread out or disordered things are",
     "intermediate": "Entropy change equals heat transfer divided by temperature",
     "expert": "Entropy quantifies microscopic configurations consistent with macroscopic state"
   },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
   "extra_fields": {
-    "formula": "ΔS = Q/T",
-    "units": "J/K",
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
     "discoverer": "Rudolf Clausius",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
+    "formula": "\u0394S = Q/T",
+    "units": "J/K",
     "year": 1865
   }
 }

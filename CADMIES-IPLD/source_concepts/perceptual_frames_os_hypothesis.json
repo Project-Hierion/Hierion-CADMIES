@@ -6,13 +6,7 @@
   "type": "PhilosophicalConcept",
   "domain": "Epistemology",
   "subdomain": "Cognitive Science / Consciousness Studies",
-  "metadata": {
-    "creator": "Hieros-CADMIES / DS / Alan Watts (posthumous honorary)",
-    "certainty_score": 0.85,
-    "version": 1,
-    "license": "AGPLv3 with Commons Clause",
-    "purpose": "knowledge_sharing"
-  },
+  "formula": null,
   "proofs": [
     {
       "type": "anecdotal",
@@ -21,17 +15,56 @@
       "reference": "Perceptual Framing Theory / Direct Experience"
     }
   ],
+  "metadata": {
+    "created": "2026-05-15T22:49:48.084148Z",
+    "creator": "Hieros-CADMIES / DS / Alan Watts (posthumous honorary)",
+    "certainty_score": 0.85,
+    "version": 1,
+    "license": "AGPLv3 with Commons Clause",
+    "purpose": "knowledge_sharing",
+    "supersedes": null,
+    "superseded_by": null
+  },
   "relationships": {
-    "builds_upon": ["PerceptualFraming", "CognitivePlasticity", "Neurodiversity"],
-    "related_to": ["ConsciousnessStudies", "Creativity", "PatternRecognition"],
-    "specializes": ["SituatedCognition", "StateDependentMemory"]
+    "builds_upon": [
+      "PerceptualFraming",
+      "CognitivePlasticity",
+      "Neurodiversity"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "ConsciousnessStudies",
+      "Creativity",
+      "PatternRecognition"
+    ],
+    "specializes": [
+      "SituatedCognition",
+      "StateDependentMemory"
+    ]
   },
   "difficulty_levels": {
     "beginner": "Your mindset and state of consciousness changes what you can see and understand",
     "intermediate": "Cognitive frameworks and altered states act as perceptual OS filters that enable different patterns to emerge",
     "expert": "The observer's perceptual apparatus - modified by substances or practices - fundamentally shapes phenomenological reality and pattern detection"
   },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
     "attribution": "Hieros-CADMIES / DS / Alan Watts (posthumous honorary)",
     "category": "Metaphysics / Epistemology / Cognitive Science",
     "insight_origin": "Collaborative dialogue between human and artificial intelligence",

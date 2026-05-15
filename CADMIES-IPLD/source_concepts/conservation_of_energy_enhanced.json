@@ -6,13 +6,13 @@
   "type": "ScientificLaw",
   "domain": "Physics",
   "subdomain": "Classical Mechanics",
-  "formula": "ΔE_system + ΔE_surroundings = 0",
+  "formula": "\u0394E_system + \u0394E_surroundings = 0",
   "proofs": [
     {
       "type": "theoretical",
       "description": "Noether's theorem establishes conservation of energy as a consequence of time-translation symmetry in physical laws",
       "confidence": 0.99,
-      "reference": "Noether, E. (1918). Invariante Variationsprobleme. Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse, 1918, 235-257."
+      "reference": "Noether, E. (1918). Invariante Variationsprobleme. Nachrichten von der Gesellschaft der Wissenschaften zu G\u00f6ttingen, Mathematisch-Physikalische Klasse, 1918, 235-257."
     },
     {
       "type": "experimental",
@@ -21,25 +21,6 @@
       "reference": "Joule, J.P. (1850). On the Mechanical Equivalent of Heat. Philosophical Transactions of the Royal Society, 140, 61-82."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["conservation_of_momentum", "conservation_of_mass", "first_law_of_thermodynamics"],
-    "opposing_views": []
-  },
-  "relationships": {
-    "builds_upon": ["newtonian_mechanics", "thermodynamics"],
-    "contradicts": [],
-    "related_to": ["conservation_of_momentum", "noethers_theorem", "symmetry_principles"],
-    "specializes": ["first_law_of_thermodynamics"]
-  },
-  "difficulty_levels": {
-    "beginner": "Energy can change forms (like from motion to heat) but the total amount always stays the same. You can't create energy from nothing or make it disappear.",
-    "intermediate": "The total energy of any isolated system remains constant. Energy transforms between kinetic, potential, thermal, chemical, and other forms, but the sum is invariant.",
-    "expert": "Energy conservation emerges from time-translation symmetry via Noether's theorem. In general relativity, energy conservation requires careful formulation due to curved spacetime, but in flat spacetime and local inertial frames, it holds exactly."
-  },
-  "learning_path": {
-    "prerequisites": ["newtons_laws", "work_energy_theorem"],
-    "next_steps": ["noethers_theorem", "first_law_of_thermodynamics", "hamiltonian_mechanics"]
-  },
   "metadata": {
     "created": "2026-04-03T00:00:00Z",
     "creator": "CADMIES PhD Template v1.0",
@@ -47,15 +28,74 @@
     "version": 2,
     "license": "CC BY-SA 4.0",
     "purpose": "educational",
-    "supersedes": "bafyreiaeqlqeykyu33kggmf5zwd5wn6yanecibwdxlu2t5o6jaxk3jeswy"
+    "supersedes": "bafyreiaeqlqeykyu33kggmf5zwd5wn6yanecibwdxlu2t5o6jaxk3jeswy",
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "newtonian_mechanics",
+      "thermodynamics"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "conservation_of_momentum",
+      "noethers_theorem",
+      "symmetry_principles"
+    ],
+    "specializes": [
+      "first_law_of_thermodynamics"
+    ]
+  },
+  "difficulty_levels": {
+    "beginner": "Energy can change forms (like from motion to heat) but the total amount always stays the same. You can't create energy from nothing or make it disappear.",
+    "intermediate": "The total energy of any isolated system remains constant. Energy transforms between kinetic, potential, thermal, chemical, and other forms, but the sum is invariant.",
+    "expert": "Energy conservation emerges from time-translation symmetry via Noether's theorem. In general relativity, energy conservation requires careful formulation due to curved spacetime, but in flat spacetime and local inertial frames, it holds exactly."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "newtons_laws",
+      "work_energy_theorem"
+    ],
+    "next_steps": [
+      "noethers_theorem",
+      "first_law_of_thermodynamics",
+      "hamiltonian_mechanics"
+    ]
+  },
+  "cross_references": {
+    "related_concepts": [
+      "conservation_of_momentum",
+      "conservation_of_mass",
+      "first_law_of_thermodynamics"
+    ],
+    "opposing_views": []
   },
   "extra_fields": {
-    "historical_context": "The concept evolved through the work of Leibniz, Joule, Helmholtz, and Mayer in the 1840s-1850s, culminating in the first law of thermodynamics. Noether's theorem (1918) provided the deep mathematical foundation linking conservation laws to symmetries.",
-    "limitations": "Energy conservation in general relativity is subtle; global energy conservation breaks down in expanding spacetime (cosmology). Virtual particles in quantum field theory temporarily violate conservation but average out over time.",
-    "key_references": ["Noether 1918", "Joule 1850", "Helmholtz 1847"],
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
     "discoverer": "Julius Robert von Mayer, James Prescott Joule, Hermann von Helmholtz",
     "discovery_year": 1842,
-    "related_equations": ["E = mc²", "ΔU = Q - W", "dE/dt = 0"],
-    "applications": ["Power generation", "Ballistics", "Astrophysics", "Thermal systems"]
+    "historical_context": "The concept evolved through the work of Leibniz, Joule, Helmholtz, and Mayer in the 1840s-1850s, culminating in the first law of thermodynamics. Noether's theorem (1918) provided the deep mathematical foundation linking conservation laws to symmetries.",
+    "limitations": "Energy conservation in general relativity is subtle; global energy conservation breaks down in expanding spacetime (cosmology). Virtual particles in quantum field theory temporarily violate conservation but average out over time.",
+    "applications": [
+      "Power generation",
+      "Ballistics",
+      "Astrophysics",
+      "Thermal systems"
+    ],
+    "key_references": [
+      "Noether 1918",
+      "Joule 1850",
+      "Helmholtz 1847"
+    ],
+    "poetic_versions": [],
+    "mantras": [],
+    "related_equations": [
+      "E = mc\u00b2",
+      "\u0394U = Q - W",
+      "dE/dt = 0"
+    ]
   }
 }

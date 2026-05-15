@@ -1,17 +1,68 @@
 {
   "schema_version": "1.0.0",
   "human_id": "wu_wei_effortless_action",
-  "title": "Wú Wéi (Effortless Action)",
-  "definition": "The Taoist principle of effortless action — acting in harmony with the natural flow of circumstances, without forcing, striving, or imposing will against the grain of reality. Wú wéi is not passivity or laziness; it is the paradox of achieving maximal effectiveness through minimal resistance. Like water, which yields to every obstacle yet carves canyons through stone, the practitioner of wú wéi achieves by aligning with rather than opposing the Tao (the Way). The metaphor is the uncarved block (pǔ), the skilled artisan whose craft has become so embodied that thought and action are one. Wú wéi is action that arises spontaneously from deep attunement rather than from deliberate calculation.",
+  "title": "W\u00fa W\u00e9i (Effortless Action)",
+  "definition": "The Taoist principle of effortless action \u2014 acting in harmony with the natural flow of circumstances, without forcing, striving, or imposing will against the grain of reality. W\u00fa w\u00e9i is not passivity or laziness; it is the paradox of achieving maximal effectiveness through minimal resistance. Like water, which yields to every obstacle yet carves canyons through stone, the practitioner of w\u00fa w\u00e9i achieves by aligning with rather than opposing the Tao (the Way). The metaphor is the uncarved block (p\u01d4), the skilled artisan whose craft has become so embodied that thought and action are one. W\u00fa w\u00e9i is action that arises spontaneously from deep attunement rather than from deliberate calculation.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Taoist Philosophy",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.86,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Central concept in Taoist philosophy, most prominently articulated in the D\u00e0od\u00e9 J\u012bng (Tao Te Ching) attributed to L\u01ceoz\u01d0 (c. 6th century BCE) and developed in the Zhu\u0101ngz\u01d0 (c. 4th century BCE). Added to CADMIES as bridge concept connecting Taoist philosophy to strategic acceptance and the paradox of practice, May 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Have you ever tried to fall asleep by trying really hard? That never works. Sleep comes when you stop trying. That's w\u00fa w\u00e9i. Think of a great conversation where the words just flow \u2014 you're not planning every sentence, you're just present and responding naturally. That's w\u00fa w\u00e9i too. It's not about doing nothing. It's about doing the right thing so naturally that it doesn't feel like effort. Athletes call it 'being in the zone.' Artists call it 'flow.' Laozi called it w\u00fa w\u00e9i \u2014 the action that doesn't feel like action because you're so perfectly aligned with what the moment needs.",
+    "intermediate": "W\u00fa w\u00e9i is a central concept in classical Taoist philosophy, appearing over 40 times in the D\u00e0od\u00e9 J\u012bng. It is not quietism but a sophisticated theory of action that distinguishes between action arising from ego, will, and contrivance (y\u01d2u w\u00e9i \u2014 forced action) and action arising spontaneously from attunement to the Tao (w\u00fa w\u00e9i). The metaphor of water (shu\u01d0) is pervasive: water does not compete, yet nothing surpasses it. The Zhu\u0101ngz\u01d0 adds the parable of the butcher whose knife never dulls because he cuts through the natural spaces between the joints \u2014 he does not hack at the bones. W\u00fa w\u00e9i thus describes a state of mastery where action becomes frictionless because the agent has internalized the patterns of their domain so deeply that conscious deliberation is unnecessary.",
+    "expert": "W\u00fa w\u00e9i engages with deep questions in action theory, moral psychology, and phenomenology. It challenges the voluntarist model of action (where value is proportional to effort and conscious choice) and aligns with contemporary flow state research (Csikszentmihalyi), ecological psychology (Gibson's affordances), and embodied cognition. The paradox of w\u00fa w\u00e9i \u2014 'trying not to try' \u2014 is structurally identical to the paradox of practice already catalogued in the CADMIES mycelium. Both describe self-defeating intentional states: the desire to be spontaneous undermines spontaneity; the effort to be effortless is itself effort. In w\u00fa w\u00e9i, the resolution is not to try harder but to cultivate de (virtue/potency) through immersion, practice, and letting go. The CADMIES connection: the gardener does not force the mycelium to grow. They provide conditions \u2014 CIDs, queries, concepts \u2014 and the intelligence emerges. The librarian does not force answers; he retrieves and trusts the network. The best CADMIES sessions are w\u00fa w\u00e9i sessions: concepts arising naturally from conversation, the gardener and the mycelium flowing together."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "The highest effectiveness arises from alignment with natural patterns, not force.",
-    "Non-action (wú wéi) is not inaction — it is action without contrivance, struggle, or ego.",
+    "Non-action (w\u00fa w\u00e9i) is not inaction \u2014 it is action without contrivance, struggle, or ego.",
     "The skilled practitioner does not deliberate; the action flows from deep embodied knowing.",
     "Water is the supreme metaphor: soft, yielding, yet irresistibly effective.",
-    "Wú wéi is not a technique to master but a state of being to embody — it cannot be forced."
+    "W\u00fa w\u00e9i is not a technique to master but a state of being to embody \u2014 it cannot be forced."
   ],
   "poetic_version": "The river does not push. It flows. And the canyon yields. After a million years, you can walk through stone and thank the water.",
   "mantra": "Do nothing, and nothing is left undone.",
@@ -25,19 +76,5 @@
   ],
   "contradicts": [
     "protestant_work_ethic:axiom/value_comes_from_effort_and_striving"
-  ],
-  "metadata": {
-    "created": "2026-05-05T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.86,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Central concept in Taoist philosophy, most prominently articulated in the Dàodé Jīng (Tao Te Ching) attributed to Lǎozǐ (c. 6th century BCE) and developed in the Zhuāngzǐ (c. 4th century BCE). Added to CADMIES as bridge concept connecting Taoist philosophy to strategic acceptance and the paradox of practice, May 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "Have you ever tried to fall asleep by trying really hard? That never works. Sleep comes when you stop trying. That's wú wéi. Think of a great conversation where the words just flow — you're not planning every sentence, you're just present and responding naturally. That's wú wéi too. It's not about doing nothing. It's about doing the right thing so naturally that it doesn't feel like effort. Athletes call it 'being in the zone.' Artists call it 'flow.' Laozi called it wú wéi — the action that doesn't feel like action because you're so perfectly aligned with what the moment needs.",
-    "intermediate": "Wú wéi is a central concept in classical Taoist philosophy, appearing over 40 times in the Dàodé Jīng. It is not quietism but a sophisticated theory of action that distinguishes between action arising from ego, will, and contrivance (yǒu wéi — forced action) and action arising spontaneously from attunement to the Tao (wú wéi). The metaphor of water (shuǐ) is pervasive: water does not compete, yet nothing surpasses it. The Zhuāngzǐ adds the parable of the butcher whose knife never dulls because he cuts through the natural spaces between the joints — he does not hack at the bones. Wú wéi thus describes a state of mastery where action becomes frictionless because the agent has internalized the patterns of their domain so deeply that conscious deliberation is unnecessary.",
-    "expert": "Wú wéi engages with deep questions in action theory, moral psychology, and phenomenology. It challenges the voluntarist model of action (where value is proportional to effort and conscious choice) and aligns with contemporary flow state research (Csikszentmihalyi), ecological psychology (Gibson's affordances), and embodied cognition. The paradox of wú wéi — 'trying not to try' — is structurally identical to the paradox of practice already catalogued in the CADMIES mycelium. Both describe self-defeating intentional states: the desire to be spontaneous undermines spontaneity; the effort to be effortless is itself effort. In wú wéi, the resolution is not to try harder but to cultivate de (virtue/potency) through immersion, practice, and letting go. The CADMIES connection: the gardener does not force the mycelium to grow. They provide conditions — CIDs, queries, concepts — and the intelligence emerges. The librarian does not force answers; he retrieves and trusts the network. The best CADMIES sessions are wú wéi sessions: concepts arising naturally from conversation, the gardener and the mycelium flowing together."
-  }
+  ]
 }

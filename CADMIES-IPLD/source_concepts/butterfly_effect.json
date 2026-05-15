@@ -6,7 +6,7 @@
   "type": "ChaosTheoryConcept",
   "domain": "Mathematics",
   "subdomain": "Chaos Theory / Dynamical Systems",
-  "formula": "Lyapunov exponent λ > 0; |δZ(t)| ≈ e^{λt}|δZ₀|",
+  "formula": "Lyapunov exponent \u03bb > 0; |\u03b4Z(t)| \u2248 e^{\u03bbt}|\u03b4Z\u2080|",
   "proofs": [
     {
       "type": "mathematical",
@@ -21,15 +21,34 @@
       "reference": "Strogatz, S.H. (1994). Nonlinear Dynamics and Chaos."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["chaos_theory", "lyapunov_exponent", "strange_attractor", "nonlinear_dynamics", "three_body_problem"],
-    "opposing_views": []
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.99,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["differential_equations", "nonlinear_systems", "dynamical_systems"],
-    "contradicts": ["laplacian_determinism_practical"],
-    "related_to": ["weather_prediction", "complex_systems", "fractals"],
-    "specializes": ["deterministic_chaos", "sensitive_dependence"]
+    "builds_upon": [
+      "differential_equations",
+      "nonlinear_systems",
+      "dynamical_systems"
+    ],
+    "contradicts": [
+      "laplacian_determinism_practical"
+    ],
+    "related_to": [
+      "weather_prediction",
+      "complex_systems",
+      "fractals"
+    ],
+    "specializes": [
+      "deterministic_chaos",
+      "sensitive_dependence"
+    ]
   },
   "difficulty_levels": {
     "beginner": "Small changes can have big effects. A tiny difference now can lead to completely different outcomes later.",
@@ -37,23 +56,51 @@
     "expert": "The butterfly effect is characterized by positive Lyapunov exponents, indicating exponential divergence of nearby trajectories. It implies practical unpredictability beyond the Lyapunov horizon despite deterministic equations. Found in weather, population dynamics, fluid turbulence, and neural networks."
   },
   "learning_path": {
-    "prerequisites": ["differential_equations", "dynamical_systems", "nonlinear_dynamics"],
-    "next_steps": ["chaos_theory", "lyapunov_exponents", "strange_attractors"]
+    "prerequisites": [
+      "differential_equations",
+      "dynamical_systems",
+      "nonlinear_dynamics"
+    ],
+    "next_steps": [
+      "chaos_theory",
+      "lyapunov_exponents",
+      "strange_attractors"
+    ]
   },
-  "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
-    "certainty_score": 0.99,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+  "cross_references": {
+    "related_concepts": [
+      "chaos_theory",
+      "lyapunov_exponent",
+      "strange_attractor",
+      "nonlinear_dynamics",
+      "three_body_problem"
+    ],
+    "opposing_views": []
   },
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
     "historical_context": "Term coined by Edward Lorenz (1972) in paper 'Predictability: Does the Flap of a Butterfly's Wings in Brazil Set Off a Tornado in Texas?'",
     "limitations": "Effect size is exponential but requires long time horizons. Not all systems are chaotic; linear and stable systems don't show butterfly effect.",
-    "key_references": ["Lorenz 1963", "Lorenz 1972", "Gleick 1987", "Strogatz 1994"],
+    "applications": [
+      "Weather prediction",
+      "Climate science",
+      "Economics",
+      "Population dynamics"
+    ],
+    "key_references": [
+      "Lorenz 1963",
+      "Lorenz 1972",
+      "Gleick 1987",
+      "Strogatz 1994"
+    ],
+    "poetic_versions": [],
+    "mantras": [],
     "coiner": "Edward Lorenz",
-    "coining_year": 1972,
-    "applications": ["Weather prediction", "Climate science", "Economics", "Population dynamics"]
+    "coining_year": 1972
   }
 }

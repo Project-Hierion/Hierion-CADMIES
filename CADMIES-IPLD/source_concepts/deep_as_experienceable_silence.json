@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Philosophy",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -52,6 +53,14 @@
     "insight": "The idea of 'deep' in these traditions represents an experiential silence more eloquent than speech, a paradoxical reality where seeker and sought begin to merge.",
     "source_chunk": 1,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.0"
+    "harvester_version": "4.0.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

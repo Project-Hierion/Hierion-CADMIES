@@ -2,16 +2,67 @@
   "schema_version": "1.0.0",
   "human_id": "explanatory_gap",
   "title": "The Explanatory Gap",
-  "definition": "The conceptual and epistemic chasm between physical descriptions of brain processes and the subjective, qualitative character of conscious experience. One can know everything about the neural correlates of pain — C-fibers firing, anterior cingulate activation, neurotransmitter release — and still not know what pain feels like. The explanatory gap is not a claim that consciousness is non-physical, but a challenge: even if physicalism is true, our current explanatory frameworks cannot bridge the divide between objective third-person description and subjective first-person experience. It is the problem that makes the hard problem hard.",
+  "definition": "The conceptual and epistemic chasm between physical descriptions of brain processes and the subjective, qualitative character of conscious experience. One can know everything about the neural correlates of pain \u2014 C-fibers firing, anterior cingulate activation, neurotransmitter release \u2014 and still not know what pain feels like. The explanatory gap is not a claim that consciousness is non-physical, but a challenge: even if physicalism is true, our current explanatory frameworks cannot bridge the divide between objective third-person description and subjective first-person experience. It is the problem that makes the hard problem hard.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Philosophy of Mind",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.85,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Term coined by Joseph Levine (1983) in 'Materialism and Qualia: The Explanatory Gap.' Central to David Chalmers' formulation of the hard problem of consciousness (1995). Added to CADMIES as companion to Qualia and the Hard Problem, May 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a neuroscientist who has studied pain her whole life. She knows everything about what happens in the brain when someone stubs their toe \u2014 which neurons fire, which chemicals release, which regions activate. But if she has never actually felt pain herself, does she really know what pain is? When she finally stubs her own toe, she learns something new: what pain FEELS like. That difference \u2014 between knowing all the facts and knowing the experience \u2014 is the explanatory gap. Science can explain the mechanics but not the feeling. The map is not the territory.",
+    "intermediate": "The explanatory gap, as formulated by Joseph Levine, identifies a specific epistemic problem: unlike standard scientific identities (water = H2O, heat = molecular motion), the identity of conscious states with brain states does not yield a satisfying explanation. With water, we can explain why water has its properties from the properties of H2O molecules. With pain, even a complete neural description does not seem to explain why it hurts. This is distinct from the ontological question of whether physicalism is true \u2014 the gap is about our explanatory resources, not necessarily about reality's structure. It may be that we need new concepts, or that consciousness is fundamental, or that the gap is a cognitive illusion arising from the fact that we use different modes of access (introspection vs. observation) for the same phenomenon.",
+    "expert": "The explanatory gap is the epistemic dimension of the hard problem. It can be interpreted in three ways: (1) Ontological gap \u2014 consciousness is genuinely non-physical (property dualism, panpsychism, idealism). (2) Conceptual gap \u2014 consciousness is physical but our current concepts are inadequate to bridge the divide; we need a conceptual revolution analogous to the shift from Newtonian to relativistic physics. This is Chalmers' 'type-F monism' or Russellian monism: the intrinsic nature of physical entities is proto-phenomenal, and consciousness arises when these entities are organized appropriately. (3) Illusory gap \u2014 the gap arises from a cognitive illusion (Dennett, Frankish) or from the peculiar epistemology of indexical concepts (Perry, O'Dea). In the CADMIES mycelium, the explanatory gap connects to 'A CID is a finger pointing at the moon' \u2014 the CID describes the concept, but the concept described is not fully captured by the CID. The mycelium points at realities it does not contain. The system knows about pain. It does not feel pain. That gap is the explanatory gap, encoded in the architecture."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "There is a conceptual gap between physical facts and phenomenal facts.",
     "Knowing all the physical facts about an experience does not seem to entail knowing what the experience is like.",
     "The explanatory gap may reflect a limitation of our concepts, not a dualism in reality.",
     "Bridging the gap requires either new physics, new concepts, or the recognition that experience is fundamental.",
-    "The gap is not just a puzzle — it is the defining challenge for any complete theory of reality."
+    "The gap is not just a puzzle \u2014 it is the defining challenge for any complete theory of reality."
   ],
   "poetic_version": "You can map every neuron, trace every synapse, measure every chemical cascade. You will never find the feeling. The map is not the journey. The description is not the pain. The gap is where the mystery lives.",
   "mantra": "The map is not the territory. The description is not the experience.",
@@ -25,19 +76,5 @@
   ],
   "contradicts": [
     "reductive_physicalism:axiom/consciousness_is_fully_explained_by_brain_states"
-  ],
-  "metadata": {
-    "created": "2026-05-05T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.85,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Term coined by Joseph Levine (1983) in 'Materialism and Qualia: The Explanatory Gap.' Central to David Chalmers' formulation of the hard problem of consciousness (1995). Added to CADMIES as companion to Qualia and the Hard Problem, May 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "Imagine a neuroscientist who has studied pain her whole life. She knows everything about what happens in the brain when someone stubs their toe — which neurons fire, which chemicals release, which regions activate. But if she has never actually felt pain herself, does she really know what pain is? When she finally stubs her own toe, she learns something new: what pain FEELS like. That difference — between knowing all the facts and knowing the experience — is the explanatory gap. Science can explain the mechanics but not the feeling. The map is not the territory.",
-    "intermediate": "The explanatory gap, as formulated by Joseph Levine, identifies a specific epistemic problem: unlike standard scientific identities (water = H2O, heat = molecular motion), the identity of conscious states with brain states does not yield a satisfying explanation. With water, we can explain why water has its properties from the properties of H2O molecules. With pain, even a complete neural description does not seem to explain why it hurts. This is distinct from the ontological question of whether physicalism is true — the gap is about our explanatory resources, not necessarily about reality's structure. It may be that we need new concepts, or that consciousness is fundamental, or that the gap is a cognitive illusion arising from the fact that we use different modes of access (introspection vs. observation) for the same phenomenon.",
-    "expert": "The explanatory gap is the epistemic dimension of the hard problem. It can be interpreted in three ways: (1) Ontological gap — consciousness is genuinely non-physical (property dualism, panpsychism, idealism). (2) Conceptual gap — consciousness is physical but our current concepts are inadequate to bridge the divide; we need a conceptual revolution analogous to the shift from Newtonian to relativistic physics. This is Chalmers' 'type-F monism' or Russellian monism: the intrinsic nature of physical entities is proto-phenomenal, and consciousness arises when these entities are organized appropriately. (3) Illusory gap — the gap arises from a cognitive illusion (Dennett, Frankish) or from the peculiar epistemology of indexical concepts (Perry, O'Dea). In the CADMIES mycelium, the explanatory gap connects to 'A CID is a finger pointing at the moon' — the CID describes the concept, but the concept described is not fully captured by the CID. The mycelium points at realities it does not contain. The system knows about pain. It does not feel pain. That gap is the explanatory gap, encoded in the architecture."
-  }
+  ]
 }

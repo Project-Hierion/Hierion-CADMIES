@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Psychology",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -51,6 +52,14 @@
     "insight": "Humans have a built-in cloud speedometer with an approximate 3 mph detection threshold, utilizing pattern recognition to distinguish between vertical and angled rainfall.",
     "source_chunk": 3,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.1"
+    "harvester_version": "4.0.1",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

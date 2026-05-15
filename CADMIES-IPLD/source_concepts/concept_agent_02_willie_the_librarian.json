@@ -2,10 +2,11 @@
   "schema_version": "1.0.0",
   "human_id": "ai:llm_mycelium_reader/willie_the_librarian_v1",
   "title": "Willie the Librarian Agent v1.0.0",
-  "definition": "Local LLM-powered agent that reads the CADMIES mycelium and answers natural language questions about stored concepts. Named in homage to Willie the groundskeeper from The Simpsons — a gruff but knowledgeable caretaker who knows every corner of the mycelial stacks. Uses TinyLlama for fast responses, with Mistral 7B available for deeper reasoning.",
+  "definition": "Local LLM-powered agent that reads the CADMIES mycelium and answers natural language questions about stored concepts. Named in homage to Willie the groundskeeper from The Simpsons \u2014 a gruff but knowledgeable caretaker who knows every corner of the mycelial stacks. Uses TinyLlama for fast responses, with Mistral 7B available for deeper reasoning.",
   "type": "CognitiveAgent",
   "domain": "Artificial Intelligence",
   "subdomain": "LLM Bridge / Mycelium Navigation",
+  "formula": null,
   "proofs": [
     {
       "type": "design_specification",
@@ -20,6 +21,8 @@
     "creator": "Hieros-CADMIES Development Team",
     "certainty_score": 0.85,
     "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
     "supersedes": null,
     "superseded_by": null
   },
@@ -48,7 +51,20 @@
       "Test with Mistral 7B for deep reasoning"
     ]
   },
+  "cross_references": {},
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
     "purpose": "Bridge between natural language and content-addressed knowledge",
     "testing_focus": "Ollama API connectivity and concept retrieval accuracy",
     "expected_behavior": "Answers user questions by reading relevant concepts and passing them to local LLM",
@@ -63,7 +79,12 @@
     ],
     "environment_spec": {
       "python_version": "3.9+",
-      "libraries": ["json", "re", "collections", "ollama"],
+      "libraries": [
+        "json",
+        "re",
+        "collections",
+        "ollama"
+      ],
       "resource_limits": {
         "memory_mb": 512,
         "timeout_seconds": 60

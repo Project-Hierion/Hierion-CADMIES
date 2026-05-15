@@ -2,22 +2,20 @@
   "schema_version": "1.0.0",
   "human_id": "epistemology:principle/the_tubular_wave",
   "title": "The Tubular Wave",
-  "definition": "Direct experience of consciousness is not a semantic data set to be decoded; it is a fluid dynamic state achieved through specific somatic geometries. When the breath assumes laminar flow—a smooth, tubular wave of air mass—the nervous system shifts from semantic friction to somatic coherence.",
+  "definition": "Direct experience of consciousness is not a semantic data set to be decoded; it is a fluid dynamic state achieved through specific somatic geometries. When the breath assumes laminar flow\u2014a smooth, tubular wave of air mass\u2014the nervous system shifts from semantic friction to somatic coherence.",
   "type": "PhilosophicalPrinciple",
   "domain": "Epistemology",
   "subdomain": "Phenomenology and Somatic Cognition",
-  "axioms": [
-    "The shape of the breath determines the state of the mind.",
-    "Humming creates a tubular architecture of air within the trachea that eliminates friction between body and awareness.",
-    "The 'little being riding the wave' is the Observer Self navigating the distorted sensory map of the Cortical Homunculus.",
-    "Vibration in the throat floods the largest territories of the brain's sensory map, temporarily dissolving the boundary between inside and outside.",
-    "The wave is the meaning; the word that triggered it is merely the pointing finger."
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
   ],
-  "poetic_version": "A tiny being riding a gentle tubular wave of air mass in the throat, like a surfer inside the tunnel of an ocean wave—drawn out by outside pressure rather than pushed forward.",
-  "mantra": "Ride the tube. Be the wave.",
-  "builds_upon": [],
-  "related_to": [],
-  "contradicts": [],
   "metadata": {
     "created": "2026-04-20T00:00:00Z",
     "creator": "Hieros-CADMIES",
@@ -25,11 +23,50 @@
     "version": 1,
     "license": "CC BY-SA 4.0",
     "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
     "genesis": "Born from conversation about humming, AUM, and somatic experience, April 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
   },
   "difficulty_levels": {
     "beginner": "How you breathe changes how you feel. A slow, smooth exhale like a hum creates a 'tube' of calm in your throat.",
     "intermediate": "Laminar flow in the airway triggers vagal afferent stimulation via mechanoreceptors in the larynx and pharynx, releasing nitric oxide and shifting the autonomic nervous system toward parasympathetic dominance.",
     "expert": "This principle unifies the phenomenology of Bhramari Pranayama with the neurophysiology of interoceptive predictive coding, suggesting that the 'self' is a fluid boundary maintained or dissolved through respiratory geometry."
-  }
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
+  "axioms": [
+    "The shape of the breath determines the state of the mind.",
+    "Humming creates a tubular architecture of air within the trachea that eliminates friction between body and awareness.",
+    "The 'little being riding the wave' is the Observer Self navigating the distorted sensory map of the Cortical Homunculus.",
+    "Vibration in the throat floods the largest territories of the brain's sensory map, temporarily dissolving the boundary between inside and outside.",
+    "The wave is the meaning; the word that triggered it is merely the pointing finger."
+  ],
+  "poetic_version": "A tiny being riding a gentle tubular wave of air mass in the throat, like a surfer inside the tunnel of an ocean wave\u2014drawn out by outside pressure rather than pushed forward.",
+  "mantra": "Ride the tube. Be the wave.",
+  "builds_upon": [],
+  "related_to": [],
+  "contradicts": []
 }

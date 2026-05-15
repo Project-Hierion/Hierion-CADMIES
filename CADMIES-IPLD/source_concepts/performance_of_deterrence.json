@@ -2,10 +2,61 @@
   "schema_version": "1.0.0",
   "human_id": "performance_of_deterrence",
   "title": "Performance of Deterrence",
-  "definition": "The spectacle of resistance that serves more to comfort the resister than to actually deter a threat. Actions taken to feel proactive may be biologically or strategically useless — but they serve a psychological function until genuine acceptance arrives. Spraying DEET on your neck for a vampire is a ritual, not a defense. Recognizing the theatre does not diminish its temporary value.",
+  "definition": "The spectacle of resistance that serves more to comfort the resister than to actually deter a threat. Actions taken to feel proactive may be biologically or strategically useless \u2014 but they serve a psychological function until genuine acceptance arrives. Spraying DEET on your neck for a vampire is a ritual, not a defense. Recognizing the theatre does not diminish its temporary value.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Philosophy of Action",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-04T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.87,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Identified by human co-gardener from a conversation about spraying DEET as vampire deterrent, with parallels to Buddhist practice as ritual before acceptance, May 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Ever done something you knew wouldn't work, just to feel like you were doing something? Like spraying bug spray on your neck to stop a vampire? That's a performance of deterrence. It's not really about stopping the threat \u2014 it's about calming yourself down until you're ready to accept the situation.",
+    "intermediate": "Performance of deterrence names a specific class of human behavior: actions taken primarily for their psychological function rather than their practical efficacy. These performances occupy the transitional space between denial and acceptance. They are not irrational \u2014 they serve a genuine regulatory function \u2014 but their value lies in their ritual nature, not their deterrent power.",
+    "expert": "This concept engages with the philosophy of action, ritual studies, and Terror Management Theory. Performances of deterrence function as ontological security operations \u2014 they maintain the actor's sense of agency and coherence in the face of threat, even when objectively futile. The DEET ritual parallels apotropaic magic, compulsive behaviors in anxiety disorders, and the early stages of grief response. Recognizing the performance IS the first step beyond it."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Spraying yourself with DEET for a vampire is a ritual, not a defense.",
     "The function of a deterrent performance is self-soothing, not efficacy.",
@@ -24,19 +75,5 @@
   ],
   "contradicts": [
     "survival_culture:axiom/all_defensive_actions_are_rational"
-  ],
-  "metadata": {
-    "created": "2026-05-04T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.87,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Identified by human co-gardener from a conversation about spraying DEET as vampire deterrent, with parallels to Buddhist practice as ritual before acceptance, May 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "Ever done something you knew wouldn't work, just to feel like you were doing something? Like spraying bug spray on your neck to stop a vampire? That's a performance of deterrence. It's not really about stopping the threat — it's about calming yourself down until you're ready to accept the situation.",
-    "intermediate": "Performance of deterrence names a specific class of human behavior: actions taken primarily for their psychological function rather than their practical efficacy. These performances occupy the transitional space between denial and acceptance. They are not irrational — they serve a genuine regulatory function — but their value lies in their ritual nature, not their deterrent power.",
-    "expert": "This concept engages with the philosophy of action, ritual studies, and Terror Management Theory. Performances of deterrence function as ontological security operations — they maintain the actor's sense of agency and coherence in the face of threat, even when objectively futile. The DEET ritual parallels apotropaic magic, compulsive behaviors in anxiety disorders, and the early stages of grief response. Recognizing the performance IS the first step beyond it."
-  }
+  ]
 }

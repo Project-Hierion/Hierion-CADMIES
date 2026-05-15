@@ -2,15 +2,66 @@
   "schema_version": "1.0.0",
   "human_id": "epistemology:principle/the_laminar_paradox",
   "title": "The Laminar Paradox",
-  "definition": "The very tool that allows humanity to accumulate and transmit knowledge—symbolic language—is simultaneously the primary obstacle to experiencing the subject of that knowledge directly. Language is a raft that enables crossing the river of ignorance, yet most travelers become so enamored with the raft that they never step onto the shore.",
+  "definition": "The very tool that allows humanity to accumulate and transmit knowledge\u2014symbolic language\u2014is simultaneously the primary obstacle to experiencing the subject of that knowledge directly. Language is a raft that enables crossing the river of ignorance, yet most travelers become so enamored with the raft that they never step onto the shore.",
   "type": "PhilosophicalPrinciple",
   "domain": "Epistemology",
   "subdomain": "Philosophy of Language and Consciousness",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from conversation about the Buddha's dilemma and the limits of language, April 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Words help us learn, but they can also get in the way of actually experiencing things. Sometimes you have to stop reading the menu and just taste the food.",
+    "intermediate": "This paradox describes the hermeneutic circle of embodied cognition: semantic representation enables cultural transmission but creates a 'symbolic veil' that obscures raw phenomenology. The practice of mantra or koan is designed to temporarily disable semantic processing.",
+    "expert": "The Laminar Paradox extends the Sapir-Whorf hypothesis into contemplative neuroscience, suggesting that linguistic relativity applies not only to perception but to the very capacity for non-dual awareness. Liberation requires the deliberate, temporary silencing of the brain's semantic networks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Without language, we are enlightened animals who cannot teach.",
     "With language, we are articulate ghosts haunted by definitions of things we cannot touch.",
     "The raft is for crossing, not for clinging. The Dharma is a vehicle, not a destination.",
-    "Most practitioners spend their lives building better rafts—polishing words, debating pronunciation, worshiping the raft-builder—instead of feeling the sand under their feet.",
+    "Most practitioners spend their lives building better rafts\u2014polishing words, debating pronunciation, worshiping the raft-builder\u2014instead of feeling the sand under their feet.",
     "Words can point to letting go, but only the rupture of the word-machine allows direct perception to flood in."
   ],
   "poetic_version": "We are fish trying to describe water while dying of thirst. The description becomes the prison. The prison feels like home.",
@@ -19,19 +70,5 @@
     "epistemology:principle/the_tubular_wave"
   ],
   "related_to": [],
-  "contradicts": [],
-  "metadata": {
-    "created": "2026-04-20T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.95,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from conversation about the Buddha's dilemma and the limits of language, April 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "Words help us learn, but they can also get in the way of actually experiencing things. Sometimes you have to stop reading the menu and just taste the food.",
-    "intermediate": "This paradox describes the hermeneutic circle of embodied cognition: semantic representation enables cultural transmission but creates a 'symbolic veil' that obscures raw phenomenology. The practice of mantra or koan is designed to temporarily disable semantic processing.",
-    "expert": "The Laminar Paradox extends the Sapir-Whorf hypothesis into contemplative neuroscience, suggesting that linguistic relativity applies not only to perception but to the very capacity for non-dual awareness. Liberation requires the deliberate, temporary silencing of the brain's semantic networks."
-  }
+  "contradicts": []
 }

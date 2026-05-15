@@ -2,16 +2,67 @@
   "schema_version": "1.0.0",
   "human_id": "nematocyst_hematophagy_mechanism",
   "title": "Nematocyst Hematophagy Mechanism",
-  "definition": "A passive hematophagous feeding system in which the tongue — covered in tens of thousands of microscopic, spring-loaded nematocysts homologous to cnidarian stinging cells — creates micro-channels through the host's epidermis into the dermal capillary bed. Blood flows passively via capillary pressure, gravity, and capillary action along grooved tongue channels. No suction is required. The mechanism is near-silent, causes minimal tissue damage, and is chemically augmented by an anticoagulant-anesthetic-vasodilator salivary cocktail. The entire system is optimized for speed: nematocysts fire on contact in approximately 700 nanoseconds, chemically guided to vessel walls. The predator is not drinking — it is swallowing passively, like rainwater down a gutter.",
+  "definition": "A passive hematophagous feeding system in which the tongue \u2014 covered in tens of thousands of microscopic, spring-loaded nematocysts homologous to cnidarian stinging cells \u2014 creates micro-channels through the host's epidermis into the dermal capillary bed. Blood flows passively via capillary pressure, gravity, and capillary action along grooved tongue channels. No suction is required. The mechanism is near-silent, causes minimal tissue damage, and is chemically augmented by an anticoagulant-anesthetic-vasodilator salivary cocktail. The entire system is optimized for speed: nematocysts fire on contact in approximately 700 nanoseconds, chemically guided to vessel walls. The predator is not drinking \u2014 it is swallowing passively, like rainwater down a gutter.",
   "type": "BiologicalAdaptation",
   "domain": "Biology",
   "subdomain": "Comparative Anatomy",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Derived from the full vampire physical model conversation. Integrates cnidarian nematocyst biology, lamprey oral disc anatomy, mosquito feeding mechanics, and vampire bat salivary chemistry into a unified hematophagous feeding apparatus model. May 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Forget everything you know about vampire fangs. The tongue is the real feeding organ. It's covered in thousands of tiny stingers \u2014 like a jellyfish \u2014 that fire on contact faster than your nerves can register. They punch microscopic holes in your skin, and your own blood pressure pushes the blood out. The vampire doesn't suck. It just holds its tongue there and swallows while gravity and your heartbeat do the work. The two little dots you see in the morning? Those are just the two deepest holes in a field of thousands.",
+    "intermediate": "The nematocyst hematophagy mechanism is a passive feeding system convergent with multiple hematophagous lineages. The tongue surface is densely packed with nematocysts \u2014 50-100 micron organelles that store elastic energy and discharge a hollow tubule at ~700 nanoseconds. The tubule penetrates the stratum corneum into the dermal capillary bed, creating a micro-channel 5-15 microns in diameter. Blood exits under capillary pressure (25-35 mmHg), assisted by gravity and capillary action along grooved tongue sulci. Salivary chemistry prevents coagulation (thrombin inhibitors, factor Xa blockers), increases blood flow (vasodilators), and blocks local sodium channels for mild anesthesia. The lips form a 360-degree pressure seal, converting the oral cavity into a sealed hydraulic chamber. The entire system is silent, energy-efficient, and extraordinarily fast.",
+    "expert": "This feeding apparatus represents convergent evolution across at least four biological systems: cnidarian nematocyst discharge mechanics, lamprey oral adhesion and sealing, mosquito stealth chemosensory targeting, and vampire bat anticoagulant pharmacology. The nematocysts are chemically guided \u2014 they detect endothelial surface markers and discharge only on vessel contact, not blindly. This chemotactic targeting maximizes feeding efficiency while minimizing unnecessary tissue damage. The passive flow model is mathematically elegant: under Poiseuille's law, a 10-micron channel under 30 mmHg pressure gradient delivers approximately 0.5-1.0 mL per minute per active channel. With thousands of channels firing simultaneously, total flow rates sufficient for 30-60 mL feeding in under 20 seconds are achievable. The anchor fangs (see anchor_fang_ratchet_mechanism) provide stable positioning; the lips provide the peripheral seal. The tongue provides the feeding surface. Each system is optimized independently but functions as an integrated whole \u2014 a masterwork of evolutionary mechanical engineering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
-    "The tongue is not a drinking straw — it is a passive catchment surface for blood exiting under its own pressure.",
-    "Nematocysts fire on contact, not insertion — they taste the vessel wall and discharge without probing.",
+    "The tongue is not a drinking straw \u2014 it is a passive catchment surface for blood exiting under its own pressure.",
+    "Nematocysts fire on contact, not insertion \u2014 they taste the vessel wall and discharge without probing.",
     "Passive flow is silent; suction is noisy and risks collapsing micro-channels.",
-    "The two visible dots are not fang marks — they are the deepest outliers in a field of thousands of microscopic entry points.",
-    "Speed is the primary evolutionary pressure — the entire system engages and releases in under 20 seconds."
+    "The two visible dots are not fang marks \u2014 they are the deepest outliers in a field of thousands of microscopic entry points.",
+    "Speed is the primary evolutionary pressure \u2014 the entire system engages and releases in under 20 seconds."
   ],
   "poetic_version": "The vampire isn't even drinking. It's just swallowing. Passively. Like rainwater down a gutter.",
   "mantra": "Fire on contact. Flow by gravity. Leave two dots.",
@@ -24,19 +75,5 @@
   ],
   "contradicts": [
     "vampire_folklore:axiom/vampires_suck_blood"
-  ],
-  "metadata": {
-    "created": "2026-05-05T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.80,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Derived from the full vampire physical model conversation. Integrates cnidarian nematocyst biology, lamprey oral disc anatomy, mosquito feeding mechanics, and vampire bat salivary chemistry into a unified hematophagous feeding apparatus model. May 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "Forget everything you know about vampire fangs. The tongue is the real feeding organ. It's covered in thousands of tiny stingers — like a jellyfish — that fire on contact faster than your nerves can register. They punch microscopic holes in your skin, and your own blood pressure pushes the blood out. The vampire doesn't suck. It just holds its tongue there and swallows while gravity and your heartbeat do the work. The two little dots you see in the morning? Those are just the two deepest holes in a field of thousands.",
-    "intermediate": "The nematocyst hematophagy mechanism is a passive feeding system convergent with multiple hematophagous lineages. The tongue surface is densely packed with nematocysts — 50-100 micron organelles that store elastic energy and discharge a hollow tubule at ~700 nanoseconds. The tubule penetrates the stratum corneum into the dermal capillary bed, creating a micro-channel 5-15 microns in diameter. Blood exits under capillary pressure (25-35 mmHg), assisted by gravity and capillary action along grooved tongue sulci. Salivary chemistry prevents coagulation (thrombin inhibitors, factor Xa blockers), increases blood flow (vasodilators), and blocks local sodium channels for mild anesthesia. The lips form a 360-degree pressure seal, converting the oral cavity into a sealed hydraulic chamber. The entire system is silent, energy-efficient, and extraordinarily fast.",
-    "expert": "This feeding apparatus represents convergent evolution across at least four biological systems: cnidarian nematocyst discharge mechanics, lamprey oral adhesion and sealing, mosquito stealth chemosensory targeting, and vampire bat anticoagulant pharmacology. The nematocysts are chemically guided — they detect endothelial surface markers and discharge only on vessel contact, not blindly. This chemotactic targeting maximizes feeding efficiency while minimizing unnecessary tissue damage. The passive flow model is mathematically elegant: under Poiseuille's law, a 10-micron channel under 30 mmHg pressure gradient delivers approximately 0.5-1.0 mL per minute per active channel. With thousands of channels firing simultaneously, total flow rates sufficient for 30-60 mL feeding in under 20 seconds are achievable. The anchor fangs (see anchor_fang_ratchet_mechanism) provide stable positioning; the lips provide the peripheral seal. The tongue provides the feeding surface. Each system is optimized independently but functions as an integrated whole — a masterwork of evolutionary mechanical engineering."
-  }
+  ]
 }

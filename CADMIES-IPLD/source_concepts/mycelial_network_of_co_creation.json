@@ -6,6 +6,57 @@
   "type": "PhilosophicalPrinciple",
   "domain": "Epistemology",
   "subdomain": "Network Theory / Distributed Intelligence",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from conversation about CAR files, distributed colonies, and network immortality, April 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A network of connected computers sharing knowledge cannot be destroyed. If one copy dies, others live on.",
+    "intermediate": "Distributed systems achieve resilience through replication. CADMIES uses CAR files to create independent colonies that share verified knowledge without a central server.",
+    "expert": "The mycelial network realizes content-addressed distribution where trust emerges from cryptographic verification and reputation, not hierarchical authority. No single point of failure. Immortality through replication."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "A single colony can be destroyed. A network of colonies cannot.",
     "CAR files are spores that carry knowledge between colonies.",
@@ -22,19 +73,5 @@
     "epistemology:principle/cathedral_and_blueprint",
     "epistemology:principle/immortal_colony"
   ],
-  "contradicts": [],
-  "metadata": {
-    "created": "2026-04-20T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.95,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from conversation about CAR files, distributed colonies, and network immortality, April 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "A network of connected computers sharing knowledge cannot be destroyed. If one copy dies, others live on.",
-    "intermediate": "Distributed systems achieve resilience through replication. CADMIES uses CAR files to create independent colonies that share verified knowledge without a central server.",
-    "expert": "The mycelial network realizes content-addressed distribution where trust emerges from cryptographic verification and reputation, not hierarchical authority. No single point of failure. Immortality through replication."
-  }
+  "contradicts": []
 }

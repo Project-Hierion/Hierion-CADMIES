@@ -6,6 +6,7 @@
   "type": "GenomicSequence",
   "domain": "Genomics",
   "subdomain": "HumanGenome",
+  "formula": null,
   "proofs": [
     {
       "type": "scientific_consensus",
@@ -23,21 +24,53 @@
     }
   ],
   "metadata": {
+    "created": "2026-05-15T22:49:47.923741Z",
     "creator": "CADMIES_Genomics_Import",
     "certainty_score": 0.99,
     "version": 1,
     "license": "CC0-1.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["dna_structure_watson_crick", "genetic_code"],
-    "related_to": ["chromosome_1_disorders", "human_genome_project"],
-    "part_of": ["human_genome_reference_assembly"]
+    "builds_upon": [
+      "dna_structure_watson_crick",
+      "genetic_code"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "chromosome_1_disorders",
+      "human_genome_project"
+    ],
+    "specializes": [],
+    "part_of": [
+      "human_genome_reference_assembly"
+    ]
   },
   "difficulty_levels": {
+    "beginner": "",
+    "intermediate": "",
     "expert": "Chromosome 1 is the largest human chromosome with 248M base pairs and 2,038 genes"
   },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
     "source": "GenBank",
     "accession": "NC_000001.11",
     "organism": "Homo sapiens",

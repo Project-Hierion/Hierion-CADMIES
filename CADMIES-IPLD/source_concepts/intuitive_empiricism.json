@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Cognitive Science",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "The process of observing nature's patterns and making connections beyond what is immediately apparent, leading to the discovery of underlying principles such as turgor pressure.",
     "source_chunk": 2,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.1"
+    "harvester_version": "4.0.1",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

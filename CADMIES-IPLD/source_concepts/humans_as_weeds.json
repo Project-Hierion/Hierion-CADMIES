@@ -2,17 +2,68 @@
   "schema_version": "1.0.0",
   "human_id": "ecology:principle/humans_as_weeds",
   "title": "Humans as Weeds",
-  "definition": "From the perspective of almost any other species—or an impartial observer of ecosystem health—humans are the ultimate invasive weed. We possess every trait we despise in weeds: extreme range expansion, ecosystem transformation, high reproductive output, tolerance of disturbance, displacement of native species, and toxicity to neighbors.",
+  "definition": "From the perspective of almost any other species\u2014or an impartial observer of ecosystem health\u2014humans are the ultimate invasive weed. We possess every trait we despise in weeds: extreme range expansion, ecosystem transformation, high reproductive output, tolerance of disturbance, displacement of native species, and toxicity to neighbors.",
   "type": "PhilosophicalPrinciple",
   "domain": "Ecology",
   "subdomain": "Anthropocentrism",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-04-20T16:40:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.97,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from conversation about weeds, human value judgments, and climate resilience, April 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "From nature's point of view, humans act just like the weeds we complain about\u2014spreading everywhere and crowding everything else out.",
+    "intermediate": "The traits we use to define 'weeds'\u2014aggression, adaptability, high reproduction, ecosystem transformation\u2014apply perfectly to Homo sapiens, revealing the hypocrisy of anthropocentric environmental aesthetics.",
+    "expert": "Humans as a keystone invasive species: the very characteristics that enable our ecological success are those we pathologize in other organisms, exposing the self-exceptionalism at the heart of Western environmental ethics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
-    "Humans have colonized every continent, including Antarctica—extreme range expansion.",
-    "We clear forests, pave prairies, reroute rivers—ecosystem transformation.",
-    "Eight billion and counting, with no natural predator keeping us in check—high reproductive output.",
-    "We thrive in places we've trashed, then call it 'urban resilience'—tolerance of disturbance.",
-    "We systematically eliminate competitors—wolves, forests, indigenous cultures with different land-use patterns.",
-    "Pollution, light, noise, plastic—we are chemically and physically aggressive to neighbors.",
+    "Humans have colonized every continent, including Antarctica\u2014extreme range expansion.",
+    "We clear forests, pave prairies, reroute rivers\u2014ecosystem transformation.",
+    "Eight billion and counting, with no natural predator keeping us in check\u2014high reproductive output.",
+    "We thrive in places we've trashed, then call it 'urban resilience'\u2014tolerance of disturbance.",
+    "We systematically eliminate competitors\u2014wolves, forests, indigenous cultures with different land-use patterns.",
+    "Pollution, light, noise, plastic\u2014we are chemically and physically aggressive to neighbors.",
     "If a plant did what we do, we wouldn't call it a weed. We'd call it a monoculture plague and spray it from the air."
   ],
   "poetic_version": "We're the dandelion that learned to drive a car and burn fossil fuels.",
@@ -25,19 +76,5 @@
   ],
   "contradicts": [
     "anthropocentrism:axiom/humans_are_separate_from_nature"
-  ],
-  "metadata": {
-    "created": "2026-04-20T16:40:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.97,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from conversation about weeds, human value judgments, and climate resilience, April 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "From nature's point of view, humans act just like the weeds we complain about—spreading everywhere and crowding everything else out.",
-    "intermediate": "The traits we use to define 'weeds'—aggression, adaptability, high reproduction, ecosystem transformation—apply perfectly to Homo sapiens, revealing the hypocrisy of anthropocentric environmental aesthetics.",
-    "expert": "Humans as a keystone invasive species: the very characteristics that enable our ecological success are those we pathologize in other organisms, exposing the self-exceptionalism at the heart of Western environmental ethics."
-  }
+  ]
 }

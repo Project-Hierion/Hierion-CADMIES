@@ -2,15 +2,66 @@
   "schema_version": "1.0.0",
   "human_id": "epistemology:principle/the_mahakasyapa_coefficient",
   "title": "The Mahakasyapa Coefficient",
-  "definition": "True transmission of ineffable knowledge occurs only in the rupture of the linguistic loop. The smile—spontaneous, wordless, and immediate—is the only valid epistemological response to a truth that cannot be spoken. It is the measurable, observable proof that the Raft has been abandoned.",
+  "definition": "True transmission of ineffable knowledge occurs only in the rupture of the linguistic loop. The smile\u2014spontaneous, wordless, and immediate\u2014is the only valid epistemological response to a truth that cannot be spoken. It is the measurable, observable proof that the Raft has been abandoned.",
   "type": "PhilosophicalPrinciple",
   "domain": "Epistemology",
   "subdomain": "Non-Verbal Transmission and Pedagogy",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from conversation about the Flower Sermon and direct transmission, April 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Some things can't be explained with words. When someone really gets it, they just smile. That smile is the proof.",
+    "intermediate": "The Mahakasyapa Coefficient describes the moment of recognition that bypasses the brain's language centers entirely. It is a limbic resonance\u2014a direct sharing of state rather than a transfer of information. The smile is the external marker of Default Mode Network deactivation.",
+    "expert": "This concept provides an epistemological framework for evaluating non-dual transmission. The 'Coefficient' refers to the observable ratio of semantic processing to direct perception. When the ratio approaches zero, transmission occurs. This has implications for pedagogy, psychotherapy, and the study of charisma and spiritual authority."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "The Buddha held up a flower. Only Mahakasyapa smiled. Nothing was said. Everything was transmitted.",
     "The smile is not understanding. The smile is the cessation of the need to understand.",
     "Words are the pointing finger. The smile is seeing the moon.",
-    "The 'lol' at the cosmic double-bind is the modern Mahakasyapa smile—a recognition that the trap is hilarious once you've stepped outside it.",
+    "The 'lol' at the cosmic double-bind is the modern Mahakasyapa smile\u2014a recognition that the trap is hilarious once you've stepped outside it.",
     "Seriousness is a symptom of being caught in language. Laughter is the sign of freedom."
   ],
   "poetic_version": "The flower was held up. The mind stopped. The smile happened. Before the word 'flower.' Before the word 'smile.' Before the word 'understanding.' Just the suchness of it. The is-ness.",
@@ -20,19 +71,5 @@
     "epistemology:principle/the_laminar_paradox"
   ],
   "related_to": [],
-  "contradicts": [],
-  "metadata": {
-    "created": "2026-04-20T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.95,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from conversation about the Flower Sermon and direct transmission, April 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "Some things can't be explained with words. When someone really gets it, they just smile. That smile is the proof.",
-    "intermediate": "The Mahakasyapa Coefficient describes the moment of recognition that bypasses the brain's language centers entirely. It is a limbic resonance—a direct sharing of state rather than a transfer of information. The smile is the external marker of Default Mode Network deactivation.",
-    "expert": "This concept provides an epistemological framework for evaluating non-dual transmission. The 'Coefficient' refers to the observable ratio of semantic processing to direct perception. When the ratio approaches zero, transmission occurs. This has implications for pedagogy, psychotherapy, and the study of charisma and spiritual authority."
-  }
+  "contradicts": []
 }

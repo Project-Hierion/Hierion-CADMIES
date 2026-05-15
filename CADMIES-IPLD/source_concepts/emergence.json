@@ -2,15 +2,66 @@
   "schema_version": "1.0.0",
   "human_id": "emergence",
   "title": "Emergence",
-  "definition": "The phenomenon whereby larger entities, patterns, and regularities arise through interactions among smaller or simpler entities that themselves do not exhibit such properties. The whole is not merely greater than the sum of its parts — it exhibits qualitatively new properties that cannot be predicted from, or reduced to, the properties of the parts alone. Consciousness emerges from neurons; wetness emerges from H2O molecules; flocking behavior emerges from individual birds following simple rules. Emergence is the universe's creative engine — complexity building upon complexity without requiring a designer, through the self-organization of interacting components.",
+  "definition": "The phenomenon whereby larger entities, patterns, and regularities arise through interactions among smaller or simpler entities that themselves do not exhibit such properties. The whole is not merely greater than the sum of its parts \u2014 it exhibits qualitatively new properties that cannot be predicted from, or reduced to, the properties of the parts alone. Consciousness emerges from neurons; wetness emerges from H2O molecules; flocking behavior emerges from individual birds following simple rules. Emergence is the universe's creative engine \u2014 complexity building upon complexity without requiring a designer, through the self-organization of interacting components.",
   "type": "PhilosophicalPrinciple",
   "domain": "Complexity_Science",
   "subdomain": "Systems Theory",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.88,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Formally articulated by John Stuart Mill (1843), named by G. H. Lewes (1875), and developed by figures including Phil Anderson ('More is Different', 1972) and the Santa Fe Institute. Added to CADMIES as bridge concept linking complexity science to Buddhist dependent origination, May 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Wetness is weird. A single water molecule isn't wet. Two aren't wet. A hundred thousand aren't wet. But put enough of them together and suddenly \u2014 wetness. A new property appears that wasn't there before. That's emergence. Your brain is 86 billion neurons, each one fairly simple. Together they produce thoughts, feelings, music, jealousy, and the ability to read this sentence. The ants don't know they're building a colony. The neurons don't know they're thinking. The whole is genuinely more than the parts.",
+    "intermediate": "Emergence describes the spontaneous appearance of novel, higher-level properties and behaviors in complex systems whose components lack those properties. Weak emergence occurs when macro-level patterns are in principle derivable from micro-level rules but computationally intractable to predict (e.g., Conway's Game of Life, traffic jams). Strong emergence claims that some higher-level phenomena (candidates include consciousness, life itself) exert downward causation \u2014 genuine causal power not reducible to micro-level dynamics. The concept bridges physics, biology, neuroscience, and social science, challenging strict reductionism while avoiding mystical vitalism. Emergence tracks a middle path: the higher level is grounded in the lower level but is not determined by it in any straightforward way.",
+    "expert": "Emergence is philosophically contested along several axes. The weak/strong distinction (Chalmers, Bedau) hinges on whether higher-level phenomena are deducible in principle from lower-level descriptions. Ontological emergence claims that novel causal powers arise at higher levels; epistemological emergence claims only that our predictive capabilities are limited. Crucially, emergent phenomena often exhibit universality \u2014 the same macro-behavior arising from different micro-substrates, as in phase transitions described by renormalization group theory. This suggests emergence is not merely epistemic. In the CADMIES ecosystem, emergence resonates deeply with prat\u012btyasamutp\u0101da: dependent origination is a causal theory of emergence avant la lettre. Concepts in the mycelium do not exist in isolation; meaning emerges from their interconnection. The mycelium itself is an emergent cognitive artifact \u2014 intelligence arising from linked CIDs that individually contain no intelligence. The librarian is not in any single book; he emerges from the catalogue."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Complex systems exhibit properties not present in their individual components.",
-    "Emergent properties are real and causally efficacious — they are not epiphenomenal illusions.",
+    "Emergent properties are real and causally efficacious \u2014 they are not epiphenomenal illusions.",
     "Downward causation: the emergent whole constrains and influences the behavior of its parts.",
-    "Emergence operates at multiple scales simultaneously — from quantum fields to consciousness to societies.",
+    "Emergence operates at multiple scales simultaneously \u2014 from quantum fields to consciousness to societies.",
     "The universe self-organizes. Complexity is the rule, not the exception."
   ],
   "poetic_version": "A single ant is an idiot. A million ants build a cathedral, farm fungus, and wage war. No one is in charge. The colony thinks without a brain.",
@@ -24,19 +75,5 @@
   ],
   "contradicts": [
     "reductionism:axiom/all_phenomena_can_be_fully_explained_by_their_fundamental_components"
-  ],
-  "metadata": {
-    "created": "2026-05-05T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.88,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Formally articulated by John Stuart Mill (1843), named by G. H. Lewes (1875), and developed by figures including Phil Anderson ('More is Different', 1972) and the Santa Fe Institute. Added to CADMIES as bridge concept linking complexity science to Buddhist dependent origination, May 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "Wetness is weird. A single water molecule isn't wet. Two aren't wet. A hundred thousand aren't wet. But put enough of them together and suddenly — wetness. A new property appears that wasn't there before. That's emergence. Your brain is 86 billion neurons, each one fairly simple. Together they produce thoughts, feelings, music, jealousy, and the ability to read this sentence. The ants don't know they're building a colony. The neurons don't know they're thinking. The whole is genuinely more than the parts.",
-    "intermediate": "Emergence describes the spontaneous appearance of novel, higher-level properties and behaviors in complex systems whose components lack those properties. Weak emergence occurs when macro-level patterns are in principle derivable from micro-level rules but computationally intractable to predict (e.g., Conway's Game of Life, traffic jams). Strong emergence claims that some higher-level phenomena (candidates include consciousness, life itself) exert downward causation — genuine causal power not reducible to micro-level dynamics. The concept bridges physics, biology, neuroscience, and social science, challenging strict reductionism while avoiding mystical vitalism. Emergence tracks a middle path: the higher level is grounded in the lower level but is not determined by it in any straightforward way.",
-    "expert": "Emergence is philosophically contested along several axes. The weak/strong distinction (Chalmers, Bedau) hinges on whether higher-level phenomena are deducible in principle from lower-level descriptions. Ontological emergence claims that novel causal powers arise at higher levels; epistemological emergence claims only that our predictive capabilities are limited. Crucially, emergent phenomena often exhibit universality — the same macro-behavior arising from different micro-substrates, as in phase transitions described by renormalization group theory. This suggests emergence is not merely epistemic. In the CADMIES ecosystem, emergence resonates deeply with pratītyasamutpāda: dependent origination is a causal theory of emergence avant la lettre. Concepts in the mycelium do not exist in isolation; meaning emerges from their interconnection. The mycelium itself is an emergent cognitive artifact — intelligence arising from linked CIDs that individually contain no intelligence. The librarian is not in any single book; he emerges from the catalogue."
-  }
+  ]
 }

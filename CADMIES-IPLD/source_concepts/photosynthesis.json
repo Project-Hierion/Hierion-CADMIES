@@ -6,6 +6,7 @@
   "type": "BiologicalProcess",
   "domain": "Biology",
   "subdomain": "PlantPhysiology",
+  "formula": null,
   "proofs": [
     {
       "type": "experimental",
@@ -23,25 +24,55 @@
     }
   ],
   "metadata": {
+    "created": "2026-05-15T22:49:48.090440Z",
     "creator": "CADMIES_Quick_Mint",
     "certainty_score": 0.99,
     "version": 1,
     "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["chloroplast_structure", "light_reactions"],
-    "enables": ["plant_growth", "oxygen_production"],
-    "related_to": ["cellular_respiration", "carbon_cycle"]
+    "builds_upon": [
+      "chloroplast_structure",
+      "light_reactions"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "cellular_respiration",
+      "carbon_cycle"
+    ],
+    "specializes": [],
+    "enables": [
+      "plant_growth",
+      "oxygen_production"
+    ]
   },
   "difficulty_levels": {
     "beginner": "Plants use sunlight to make food from CO2 and water",
     "intermediate": "Light-dependent reactions produce ATP and NADPH for the Calvin cycle",
     "expert": "Photosystem II and I work in series to reduce NADP+ to NADPH"
   },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
   "extra_fields": {
-    "formula": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
     "discoverer": "Jan Ingenhousz",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
+    "formula": "6CO\u2082 + 6H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082",
     "year": 1779,
     "location": "chloroplast_thylakoid_membrane"
   }

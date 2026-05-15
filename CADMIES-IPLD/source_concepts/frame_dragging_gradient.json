@@ -6,13 +6,14 @@
   "type": "Concept",
   "domain": "Physics",
   "subdomain": "General Relativity",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
       "description": "Extracted from conversation via CADMIES Harvest Pipeline",
       "confidence": 0.8,
       "date": "2026-05-09T00:00:00Z",
-      "reference": "CADMIES Harvest Pipeline v4.0 — raw dump rescue"
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 raw dump rescue"
     }
   ],
   "metadata": {
@@ -26,9 +27,16 @@
     "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["black_hole_as_spacetime_geometry", "kerr_metric"],
+    "builds_upon": [
+      "black_hole_as_spacetime_geometry",
+      "kerr_metric"
+    ],
     "contradicts": [],
-    "related_to": ["ergosphere", "event_horizon", "gravitomotive_transmission"],
+    "related_to": [
+      "ergosphere",
+      "event_horizon",
+      "gravitomotive_transmission"
+    ],
     "specializes": []
   },
   "difficulty_levels": {
@@ -37,13 +45,28 @@
     "expert": "Frame-dragging angular velocity is a function of radial distance and polar angle, dictated by the Kerr metric. The effect is most intense at the event horizon and decays with distance, creating a differential rotation gradient that defines the ergosphere's boundary."
   },
   "learning_path": {
-    "prerequisites": ["black_hole_as_spacetime_geometry"],
-    "next_steps": ["ergosphere", "penrose_process"]
+    "prerequisites": [
+      "black_hole_as_spacetime_geometry"
+    ],
+    "next_steps": [
+      "ergosphere",
+      "penrose_process"
+    ]
   },
   "cross_references": {},
   "extra_fields": {
-    "insight": "Contrary to intuitive reverse-drag models, the spin effect is strongest at the center and weakens outward — the opposite of a washing machine's fluid dynamics.",
-    "source": "raw_failed_chunk_1.txt rescue",
-    "harvester_version": "4.0.0"
+    "insight": "Contrary to intuitive reverse-drag models, the spin effect is strongest at the center and weakens outward \u2014 the opposite of a washing machine's fluid dynamics.",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "4.0.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
+    "source": "raw_failed_chunk_1.txt rescue"
   }
 }

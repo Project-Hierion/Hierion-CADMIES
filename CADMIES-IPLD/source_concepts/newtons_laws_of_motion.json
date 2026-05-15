@@ -6,13 +6,13 @@
   "type": "ScientificLaw",
   "domain": "Physics",
   "subdomain": "Classical Mechanics",
-  "formula": "F = dp/dt = m·a; F₁₂ = -F₂₁",
+  "formula": "F = dp/dt = m\u00b7a; F\u2081\u2082 = -F\u2082\u2081",
   "proofs": [
     {
       "type": "empirical",
       "description": "Countless experiments from ballistics to orbital mechanics validate Newton's laws to high precision",
       "confidence": 0.99,
-      "reference": "Newton, I. (1687). Philosophiæ Naturalis Principia Mathematica."
+      "reference": "Newton, I. (1687). Philosophi\u00e6 Naturalis Principia Mathematica."
     },
     {
       "type": "theoretical",
@@ -21,15 +21,34 @@
       "reference": "Noether, E. (1918). Invariante Variationsprobleme."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["newtons_first_law", "newtons_second_law", "newtons_third_law", "inertia", "momentum"],
-    "opposing_views": []
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.99,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["galilean_relativity", "keplers_laws", "calculus"],
-    "contradicts": ["aristotelian_physics"],
-    "related_to": ["classical_mechanics", "orbital_mechanics", "fluid_dynamics"],
-    "specializes": ["hamiltonian_mechanics", "lagrangian_mechanics"]
+    "builds_upon": [
+      "galilean_relativity",
+      "keplers_laws",
+      "calculus"
+    ],
+    "contradicts": [
+      "aristotelian_physics"
+    ],
+    "related_to": [
+      "classical_mechanics",
+      "orbital_mechanics",
+      "fluid_dynamics"
+    ],
+    "specializes": [
+      "hamiltonian_mechanics",
+      "lagrangian_mechanics"
+    ]
   },
   "difficulty_levels": {
     "beginner": "Things move the way they do because of forces. An object at rest stays at rest. Force makes things accelerate. Every push has an equal push back.",
@@ -37,23 +56,49 @@
     "expert": "Newton's laws are approximations valid for macroscopic objects at speeds much less than light. They emerge from more fundamental conservation principles via Noether's theorem: first law from momentum conservation, second from definition of force, third from conservation of momentum in closed systems."
   },
   "learning_path": {
-    "prerequisites": ["algebra", "trigonometry", "basic_calculus"],
-    "next_steps": ["hamiltonian_mechanics", "lagrangian_mechanics", "special_relativity"]
+    "prerequisites": [
+      "algebra",
+      "trigonometry",
+      "basic_calculus"
+    ],
+    "next_steps": [
+      "hamiltonian_mechanics",
+      "lagrangian_mechanics",
+      "special_relativity"
+    ]
   },
-  "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
-    "certainty_score": 0.99,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+  "cross_references": {
+    "related_concepts": [
+      "newtons_first_law",
+      "newtons_second_law",
+      "newtons_third_law",
+      "inertia",
+      "momentum"
+    ],
+    "opposing_views": []
   },
   "extra_fields": {
-    "historical_context": "Published in Newton's Principia Mathematica (1687), synthesizing work of Galileo, Kepler, and Hooke. Revolutionized physics and enabled the Industrial Revolution.",
-    "limitations": "Fails at very small scales (quantum mechanics), very high speeds (relativity), and very strong gravity (general relativity).",
-    "key_references": ["Newton 1687", "Galileo 1638", "Noether 1918"],
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
     "discoverer": "Isaac Newton",
     "discovery_year": 1687,
-    "applications": ["Engineering", "Astronomy", "Ballistics", "Robotics", "Vehicle design"]
+    "historical_context": "Published in Newton's Principia Mathematica (1687), synthesizing work of Galileo, Kepler, and Hooke. Revolutionized physics and enabled the Industrial Revolution.",
+    "limitations": "Fails at very small scales (quantum mechanics), very high speeds (relativity), and very strong gravity (general relativity).",
+    "applications": [
+      "Engineering",
+      "Astronomy",
+      "Ballistics",
+      "Robotics",
+      "Vehicle design"
+    ],
+    "key_references": [
+      "Newton 1687",
+      "Galileo 1638",
+      "Noether 1918"
+    ],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

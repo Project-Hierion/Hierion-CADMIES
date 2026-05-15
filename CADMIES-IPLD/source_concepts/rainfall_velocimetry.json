@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Physics",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "By observing raindrop angles and their terminal velocities, one can create a makeshift weather station without technology.",
     "source_chunk": 2,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.1"
+    "harvester_version": "4.0.1",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

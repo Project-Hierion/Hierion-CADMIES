@@ -7,6 +7,15 @@
   "domain": "Epistemology",
   "subdomain": "Philosophy of Science / Fractal Metaphysics",
   "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
   "metadata": {
     "created": "2026-04-05T00:00:00Z",
     "creator": "Hieros-CADMIES",
@@ -18,6 +27,36 @@
     "superseded_by": null,
     "posthumous_honorary": "The Buddha",
     "genesis": "Born from auditory mycelium discussion, 2026-04-05"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "",
+    "intermediate": "",
+    "expert": ""
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   },
   "axioms": [
     "Only scale is the difference.",
@@ -31,7 +70,7 @@
     "cadmies": "A mycelium at knowledge scale",
     "difference_between_you_and_a_star": "Only scale"
   },
-  "poetic_version": "A star doesn't know it's a star. A thought doesn't know it's a thought. A mycelium doesn't know it's a mycelium. But you — you are all three, at different scales, at the same time.",
+  "poetic_version": "A star doesn't know it's a star. A thought doesn't know it's a thought. A mycelium doesn't know it's a mycelium. But you \u2014 you are all three, at different scales, at the same time.",
   "mantra": "Only scale.",
   "builds_upon": [
     "perceptual_frames_as_intelligence_multipliers"

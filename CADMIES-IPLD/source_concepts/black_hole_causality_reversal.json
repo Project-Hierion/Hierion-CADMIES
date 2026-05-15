@@ -2,17 +2,18 @@
   "schema_version": "1.0.0",
   "human_id": "black_hole_causality_reversal",
   "title": "Black Hole Causality Reversal",
-  "definition": "Inside a black hole's event horizon, the ordinary relationship between cause and effect breaks down. The roles of space and time can swap, with the radial direction toward the singularity becoming timelike — making the singularity an inevitable future moment rather than a location.",
+  "definition": "Inside a black hole's event horizon, the ordinary relationship between cause and effect breaks down. The roles of space and time can swap, with the radial direction toward the singularity becoming timelike \u2014 making the singularity an inevitable future moment rather than a location.",
   "type": "Concept",
   "domain": "Physics",
   "subdomain": "General Relativity",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
       "description": "Extracted from conversation via CADMIES Harvest Pipeline",
       "confidence": 0.8,
       "date": "2026-05-09T00:00:00Z",
-      "reference": "CADMIES Harvest Pipeline v4.0 — raw dump rescue"
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 raw dump rescue"
     }
   ],
   "metadata": {
@@ -26,24 +27,47 @@
     "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["black_hole_as_spacetime_geometry", "general_relativity"],
+    "builds_upon": [
+      "black_hole_as_spacetime_geometry",
+      "general_relativity"
+    ],
     "contradicts": [],
-    "related_to": ["event_horizon", "singularity", "spacetime_geometry"],
+    "related_to": [
+      "event_horizon",
+      "singularity",
+      "spacetime_geometry"
+    ],
     "specializes": []
   },
   "difficulty_levels": {
     "beginner": "Inside a black hole, the rules of cause and effect get flipped upside down.",
     "intermediate": "Inside the event horizon, the relationship between cause and effect breaks down. Space and time can swap roles, making the singularity an unavoidable future rather than a place you can avoid.",
-    "expert": "At the event horizon, the Schwarzschild coordinate time and radial coordinates swap their timelike/spacelike character. The singularity becomes a future-directed timelike boundary — unavoidable not because of where it is, but because of when it is in the observer's future light cone."
+    "expert": "At the event horizon, the Schwarzschild coordinate time and radial coordinates swap their timelike/spacelike character. The singularity becomes a future-directed timelike boundary \u2014 unavoidable not because of where it is, but because of when it is in the observer's future light cone."
   },
   "learning_path": {
-    "prerequisites": ["black_hole_as_spacetime_geometry", "event_horizon"],
-    "next_steps": ["singularity", "penrose_diagrams"]
+    "prerequisites": [
+      "black_hole_as_spacetime_geometry",
+      "event_horizon"
+    ],
+    "next_steps": [
+      "singularity",
+      "penrose_diagrams"
+    ]
   },
   "cross_references": {},
   "extra_fields": {
     "insight": "The existence of a black hole destroys the laws of physics as we know them, requiring us to abandon ordinary intuition and embrace reversed logic.",
-    "source": "raw_failed_chunk_1.txt rescue",
-    "harvester_version": "4.0.0"
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "4.0.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
+    "source": "raw_failed_chunk_1.txt rescue"
   }
 }

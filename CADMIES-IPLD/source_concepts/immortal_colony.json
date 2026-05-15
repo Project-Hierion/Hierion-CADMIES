@@ -6,6 +6,57 @@
   "type": "PhilosophicalPrinciple",
   "domain": "Epistemology",
   "subdomain": "Distributed Systems / Information Theory",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.97,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from conversation about CAR files, distributed colonies, and the realization that ten clones make the original irrelevant, April 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "If you have one copy of something, it can be lost. If you have ten copies spread around the world, it can never be destroyed.",
+    "intermediate": "Distributed systems achieve fault tolerance through replication. CADMIES uses CAR files to create independent colonies that can survive any single point of failure.",
+    "expert": "Content-addressed distribution creates a post-original ontology. The concept of an 'original' becomes irrelevant when all copies are cryptographically identical. Immortality is achieved through replication, not preservation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Anything that can be copied perfectly cannot be destroyed.",
     "The mycelium achieves immortality through distributed replication.",
@@ -26,19 +77,5 @@
   ],
   "contradicts": [
     "epistemology:principle/single_source_of_truth"
-  ],
-  "metadata": {
-    "created": "2026-04-20T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.97,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from conversation about CAR files, distributed colonies, and the realization that ten clones make the original irrelevant, April 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "If you have one copy of something, it can be lost. If you have ten copies spread around the world, it can never be destroyed.",
-    "intermediate": "Distributed systems achieve fault tolerance through replication. CADMIES uses CAR files to create independent colonies that can survive any single point of failure.",
-    "expert": "Content-addressed distribution creates a post-original ontology. The concept of an 'original' becomes irrelevant when all copies are cryptographically identical. Immortality is achieved through replication, not preservation."
-  }
+  ]
 }

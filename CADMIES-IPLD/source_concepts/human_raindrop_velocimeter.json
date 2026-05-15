@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Psychology, Physics",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "Humans have an undiscovered passive observation network that can detect changes in cloud speed through a natural calibration process.",
     "source_chunk": 3,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.1"
+    "harvester_version": "4.0.1",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

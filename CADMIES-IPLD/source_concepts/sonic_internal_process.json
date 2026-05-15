@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Philosophy of Perception & Sound",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "Sound is not just a medium for transmission; it can be a key to understanding the inner workings and conditions of natural entities.",
     "source_chunk": 4,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.1"
+    "harvester_version": "4.0.1",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

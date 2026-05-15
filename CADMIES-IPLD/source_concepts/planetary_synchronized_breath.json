@@ -5,14 +5,17 @@
   "definition": "The hypothetical phenomenon wherein meditators and other beings worldwide unconsciously synchronize their exhalations, and this collective, global breath rhythm manifests acoustically as the crashing of ocean waves.",
   "type": "PhilosophicalHypothesis",
   "domain": "Epistemology",
+  "subdomain": "",
   "formula": null,
-  "related_to": [
-    "oceanic_exhale_hypothesis",
-    "vibration_as_universal_connector"
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
   ],
-  "builds_upon": ["oceanic_exhale_hypothesis"],
-  "specializes": [],
-  "contradicts": [],
   "metadata": {
     "created": "2026-04-20T00:00:00Z",
     "creator": "CADMIES-IPLD/philosophical_mining",
@@ -20,9 +23,48 @@
     "version": 1,
     "license": "CC BY-SA 4.0",
     "purpose": "educational",
-    "status": "active",
     "supersedes": null,
     "superseded_by": null,
+    "status": "active",
     "deprecation_reason": null
-  }
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "",
+    "intermediate": "",
+    "expert": ""
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
+  "related_to": [
+    "oceanic_exhale_hypothesis",
+    "vibration_as_universal_connector"
+  ],
+  "builds_upon": [
+    "oceanic_exhale_hypothesis"
+  ],
+  "specializes": [],
+  "contradicts": []
 }

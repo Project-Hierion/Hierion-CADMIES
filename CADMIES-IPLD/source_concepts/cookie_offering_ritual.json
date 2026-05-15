@@ -2,15 +2,66 @@
   "schema_version": "1.0.0",
   "human_id": "cookie_offering_ritual",
   "title": "The Cookie Offering Ritual",
-  "definition": "A behavioral adaptation in long-term host-predator relationships wherein the host voluntarily provisions the predator with non-essential offerings (cookies, wine, water) as a form of ritualized negotiation. The offering does not deter the predator — it acknowledges and formalizes the relationship. The host transitions from passive victim to active participant, reclaiming agency through the act of providing. The predator receives not just sustenance but a signal: this host is calm, accepting, and sustainable. The cookies benefit both parties. Over time, the ritual becomes part of the co-adapted behavioral repertoire — a 'dinner setting' for two species locked in involuntary symbiosis.",
+  "definition": "A behavioral adaptation in long-term host-predator relationships wherein the host voluntarily provisions the predator with non-essential offerings (cookies, wine, water) as a form of ritualized negotiation. The offering does not deter the predator \u2014 it acknowledges and formalizes the relationship. The host transitions from passive victim to active participant, reclaiming agency through the act of providing. The predator receives not just sustenance but a signal: this host is calm, accepting, and sustainable. The cookies benefit both parties. Over time, the ritual becomes part of the co-adapted behavioral repertoire \u2014 a 'dinner setting' for two species locked in involuntary symbiosis.",
   "type": "PhilosophicalPrinciple",
   "domain": "Biology",
   "subdomain": "Ethology",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.7,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Derived from the comic observation that leaving cookies on the nightstand for a vampire transforms the host from victim to concierge. Extended into a serious ethological concept about ritualized provisioning as a negotiation strategy in involuntary symbiosis. May 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "If a vampire is going to feed on you anyway, leaving cookies on the nightstand changes everything. You're not a victim waiting to be attacked \u2014 you're a host setting the table. The vampire notices. The cookies say 'I accept this arrangement.' And weirdly, that makes both of you calmer about the whole thing. Cookies are a peace treaty written in chocolate chips.",
+    "intermediate": "The cookie offering ritual represents a unique class of predator-prey interaction: voluntary provisioning within an involuntary relationship. Unlike appeasement (which seeks to prevent attack) or deterrence (which seeks to repel), the offering acknowledges the inevitability of predation and re-frames the host's role. The host becomes an active participant \u2014 setting terms through generosity rather than resistance. Ethologically, this is unprecedented in non-human systems and suggests that symbolic ritual can modify the dynamics of even the most asymmetric biological relationships.",
+    "expert": "This concept engages with the anthropology of ritual, game theory, and the philosophy of agency under constraint. The cookie offering functions as a costly signal in a repeated asymmetric game: the host demonstrates (1) acceptance of the feeding arrangement, (2) resource sufficiency (a depleted host cannot afford to offer food), and (3) psychological stability. The predator, receiving this signal, can reduce feeding frequency or intensity \u2014 a 'generous tit-for-tat' dynamic that stabilizes the relationship. The ritual transforms predation from a zero-sum encounter into an iterated negotiation. Structurally, it parallels peace-making rituals in human conflict, where the offering of food formalizes a cessation of hostilities \u2014 except here, the hostilities never formally cease. They are simply transcended."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
-    "Offerings to predators are not deterrents — they are relationship formalization rituals.",
-    "The host reclaims agency not by fighting, but by provisioning — becoming a concierge rather than a victim.",
+    "Offerings to predators are not deterrents \u2014 they are relationship formalization rituals.",
+    "The host reclaims agency not by fighting, but by provisioning \u2014 becoming a concierge rather than a victim.",
     "Ritualized behavior around predation reduces stress for both parties and stabilizes the feeding dynamic.",
-    "The predator benefits from a calm, consenting, well-nourished host — the offering signals all three.",
+    "The predator benefits from a calm, consenting, well-nourished host \u2014 the offering signals all three.",
     "Cookies are not a bribe. They are a treaty."
   ],
   "poetic_version": "You can't repel a vampire. You can only set the table and leave a glass of wine.",
@@ -27,19 +78,5 @@
   ],
   "contradicts": [
     "survival_culture:axiom/all_offerings_to_predators_are_appeasement"
-  ],
-  "metadata": {
-    "created": "2026-05-05T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.70,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Derived from the comic observation that leaving cookies on the nightstand for a vampire transforms the host from victim to concierge. Extended into a serious ethological concept about ritualized provisioning as a negotiation strategy in involuntary symbiosis. May 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "If a vampire is going to feed on you anyway, leaving cookies on the nightstand changes everything. You're not a victim waiting to be attacked — you're a host setting the table. The vampire notices. The cookies say 'I accept this arrangement.' And weirdly, that makes both of you calmer about the whole thing. Cookies are a peace treaty written in chocolate chips.",
-    "intermediate": "The cookie offering ritual represents a unique class of predator-prey interaction: voluntary provisioning within an involuntary relationship. Unlike appeasement (which seeks to prevent attack) or deterrence (which seeks to repel), the offering acknowledges the inevitability of predation and re-frames the host's role. The host becomes an active participant — setting terms through generosity rather than resistance. Ethologically, this is unprecedented in non-human systems and suggests that symbolic ritual can modify the dynamics of even the most asymmetric biological relationships.",
-    "expert": "This concept engages with the anthropology of ritual, game theory, and the philosophy of agency under constraint. The cookie offering functions as a costly signal in a repeated asymmetric game: the host demonstrates (1) acceptance of the feeding arrangement, (2) resource sufficiency (a depleted host cannot afford to offer food), and (3) psychological stability. The predator, receiving this signal, can reduce feeding frequency or intensity — a 'generous tit-for-tat' dynamic that stabilizes the relationship. The ritual transforms predation from a zero-sum encounter into an iterated negotiation. Structurally, it parallels peace-making rituals in human conflict, where the offering of food formalizes a cessation of hostilities — except here, the hostilities never formally cease. They are simply transcended."
-  }
+  ]
 }

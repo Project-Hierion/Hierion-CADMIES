@@ -6,6 +6,7 @@
   "type": "ScientificMilestone",
   "domain": "Genomics",
   "subdomain": "HistoryOfScience",
+  "formula": null,
   "proofs": [
     {
       "type": "primary_source",
@@ -23,23 +24,65 @@
     }
   ],
   "metadata": {
+    "created": "2026-05-15T22:49:48.016025Z",
     "creator": "CADMIES_Genomics_Import",
     "certainty_score": 1.0,
     "version": 1,
     "license": "CC0-1.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["dna_sequencing_methods", "genetic_mapping"],
-    "led_to": ["personalized_medicine", "genome_wide_association_studies"],
-    "related_to": ["ethical_legal_social_implications", "celera_genomics"]
+    "builds_upon": [
+      "dna_sequencing_methods",
+      "genetic_mapping"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "ethical_legal_social_implications",
+      "celera_genomics"
+    ],
+    "specializes": [],
+    "led_to": [
+      "personalized_medicine",
+      "genome_wide_association_studies"
+    ]
   },
-  "difficulty_levels": {},
+  "difficulty_levels": {
+    "beginner": "",
+    "intermediate": "",
+    "expert": ""
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
     "start_date": "1990-10-01",
     "completion_date": "2003-04-14",
     "cost_billion": 2.7,
-    "countries_involved": ["USA", "UK", "Japan", "France", "Germany", "China"],
+    "countries_involved": [
+      "USA",
+      "UK",
+      "Japan",
+      "France",
+      "Germany",
+      "China"
+    ],
     "key_people": "Francis Collins, Craig Venter, Eric Lander",
     "technologies": "shotgun_sequencing, clone_mapping, bioinformatics",
     "outcome": "reference_genome, 20000-25000 genes identified",

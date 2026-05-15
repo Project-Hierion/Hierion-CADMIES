@@ -6,12 +6,12 @@
   "type": "Paradox",
   "domain": "Physics",
   "subdomain": "Astrophysics / SETI",
-  "formula": "N = R* × f_p × n_e × f_l × f_i × f_c × L (Drake equation)",
+  "formula": "N = R* \u00d7 f_p \u00d7 n_e \u00d7 f_l \u00d7 f_i \u00d7 f_c \u00d7 L (Drake equation)",
   "proofs": [
     {
       "type": "statistical",
       "description": "Drake equation estimates high probability of many civilizations given plausible parameters",
-      "confidence": 0.70,
+      "confidence": 0.7,
       "reference": "Drake, F. (1961). Drake Equation formulation at first SETI meeting."
     },
     {
@@ -21,15 +21,35 @@
       "reference": "Tarter, J. (2001). The Search for Extraterrestrial Intelligence (SETI). Annual Review of Astronomy and Astrophysics, 39, 511-548."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["drake_equation", "seti", "great_filter", "zoo_hypothesis", "simulation_hypothesis"],
-    "opposing_views": ["contact_optimism"]
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.9,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["astrophysics", "probability", "astrobiology"],
-    "contradicts": ["mediocrity_principle"],
-    "related_to": ["exoplanets", "abiogenesis", "technosignatures"],
-    "specializes": ["great_filter", "aestivation_hypothesis", "dark_forest_hypothesis"]
+    "builds_upon": [
+      "astrophysics",
+      "probability",
+      "astrobiology"
+    ],
+    "contradicts": [
+      "mediocrity_principle"
+    ],
+    "related_to": [
+      "exoplanets",
+      "abiogenesis",
+      "technosignatures"
+    ],
+    "specializes": [
+      "great_filter",
+      "aestivation_hypothesis",
+      "dark_forest_hypothesis"
+    ]
   },
   "difficulty_levels": {
     "beginner": "If there are so many stars and planets out there, where is everybody? The Fermi Paradox asks why we haven't found aliens yet.",
@@ -37,23 +57,54 @@
     "expert": "The paradox arises from the Drake equation, which yields high N estimates. Solutions invoke a 'Great Filter' (life/technology rare or self-destructive), the Zoo Hypothesis (aliens avoid contact), or the Simulation Hypothesis (we're simulated). Each has profound implications for humanity's future."
   },
   "learning_path": {
-    "prerequisites": ["astronomy_basics", "probability_theory", "astrobiology"],
-    "next_steps": ["drake_equation", "great_filter", "seti", "abiogenesis"]
+    "prerequisites": [
+      "astronomy_basics",
+      "probability_theory",
+      "astrobiology"
+    ],
+    "next_steps": [
+      "drake_equation",
+      "great_filter",
+      "seti",
+      "abiogenesis"
+    ]
   },
-  "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
-    "certainty_score": 0.90,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+  "cross_references": {
+    "related_concepts": [
+      "drake_equation",
+      "seti",
+      "great_filter",
+      "zoo_hypothesis",
+      "simulation_hypothesis"
+    ],
+    "opposing_views": [
+      "contact_optimism"
+    ]
   },
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
     "historical_context": "Attributed to physicist Enrico Fermi (1950) during a lunch conversation. Formalized by Michael Hart (1975). Popularized by Stephen Webb and others.",
     "limitations": "Based on incomplete knowledge of life's probability, civilization longevity, and detection methods.",
-    "key_references": ["Fermi 1950", "Hart 1975", "Webb 2002", "Hanson 1996"],
+    "applications": [
+      "SETI strategy",
+      "Astrobiology",
+      "Philosophy of contact",
+      "Existential risk"
+    ],
+    "key_references": [
+      "Fermi 1950",
+      "Hart 1975",
+      "Webb 2002",
+      "Hanson 1996"
+    ],
+    "poetic_versions": [],
+    "mantras": [],
     "attribution": "Enrico Fermi (question), Michael Hart (formalization)",
-    "origin_year": 1950,
-    "applications": ["SETI strategy", "Astrobiology", "Philosophy of contact", "Existential risk"]
+    "origin_year": 1950
   }
 }

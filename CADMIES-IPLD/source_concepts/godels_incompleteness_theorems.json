@@ -1,53 +1,95 @@
 {
   "schema_version": "1.0.0",
   "human_id": "godels_incompleteness_theorems",
-  "title": "Gödel's Incompleteness Theorems",
+  "title": "G\u00f6del's Incompleteness Theorems",
   "definition": "First theorem: Any consistent formal system capable of expressing basic arithmetic contains statements that are true but unprovable within the system. Second theorem: Such a system cannot prove its own consistency.",
   "type": "MathematicalTheorem",
   "domain": "Mathematics",
   "subdomain": "Mathematical Logic",
-  "formula": "",
+  "formula": null,
   "proofs": [
     {
       "type": "mathematical",
-      "description": "Gödel's original proof using Gödel numbering to construct self-referential statements",
+      "description": "G\u00f6del's original proof using G\u00f6del numbering to construct self-referential statements",
       "confidence": 1.0,
-      "reference": "Gödel, K. (1931). Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme."
+      "reference": "G\u00f6del, K. (1931). \u00dcber formal unentscheidbare S\u00e4tze der Principia Mathematica und verwandter Systeme."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["turing_halting_problem", "church_turing_thesis", "self_reference", "formal_systems"],
-    "opposing_views": []
-  },
-  "relationships": {
-    "builds_upon": ["principia_mathematica", "hilberts_program", "formal_logic"],
-    "contradicts": ["hilberts_consistency_program"],
-    "related_to": ["recursion_theory", "metamathematics", "proof_theory"],
-    "specializes": ["first_incompleteness_theorem", "second_incompleteness_theorem"]
-  },
-  "difficulty_levels": {
-    "beginner": "In any sufficiently powerful mathematical system, there will be true statements that cannot be proved. The system also cannot prove its own consistency.",
-    "intermediate": "Gödel showed that arithmetic contains 'undecidable' statements - true but unprovable. This shattered Hilbert's dream of a complete, consistent axiomatization of all mathematics.",
-    "expert": "The theorems reveal fundamental limits of formal systems. Any consistent system extending Robinson arithmetic (Q) or Peano arithmetic (PA) is incomplete. The second theorem shows consistency proofs cannot be internalized, undermining Hilbert's program. Theorems generalize via the halting problem and undecidability."
-  },
-  "learning_path": {
-    "prerequisites": ["mathematical_logic", "first_order_logic", "formal_systems"],
-    "next_steps": ["turing_halting_problem", "undecidability", "model_theory"]
-  },
   "metadata": {
     "created": "2026-04-03T00:00:00Z",
     "creator": "CADMIES PhD Template v1.0",
     "certainty_score": 1.0,
     "version": 1,
     "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "principia_mathematica",
+      "hilberts_program",
+      "formal_logic"
+    ],
+    "contradicts": [
+      "hilberts_consistency_program"
+    ],
+    "related_to": [
+      "recursion_theory",
+      "metamathematics",
+      "proof_theory"
+    ],
+    "specializes": [
+      "first_incompleteness_theorem",
+      "second_incompleteness_theorem"
+    ]
+  },
+  "difficulty_levels": {
+    "beginner": "In any sufficiently powerful mathematical system, there will be true statements that cannot be proved. The system also cannot prove its own consistency.",
+    "intermediate": "G\u00f6del showed that arithmetic contains 'undecidable' statements - true but unprovable. This shattered Hilbert's dream of a complete, consistent axiomatization of all mathematics.",
+    "expert": "The theorems reveal fundamental limits of formal systems. Any consistent system extending Robinson arithmetic (Q) or Peano arithmetic (PA) is incomplete. The second theorem shows consistency proofs cannot be internalized, undermining Hilbert's program. Theorems generalize via the halting problem and undecidability."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "mathematical_logic",
+      "first_order_logic",
+      "formal_systems"
+    ],
+    "next_steps": [
+      "turing_halting_problem",
+      "undecidability",
+      "model_theory"
+    ]
+  },
+  "cross_references": {
+    "related_concepts": [
+      "turing_halting_problem",
+      "church_turing_thesis",
+      "self_reference",
+      "formal_systems"
+    ],
+    "opposing_views": []
   },
   "extra_fields": {
-    "historical_context": "Published in 1931, shattering Hilbert's program to axiomatize all of mathematics. Gödel's work influenced Turing, Church, and the development of computer science.",
-    "limitations": "Applies only to consistent systems capable of expressing basic arithmetic. Does not apply to trivial systems, inconsistent systems, or those with non-recursive axiom sets.",
-    "key_references": ["Gödel 1931", "Nagel & Newman 1958", "Hofstadter 1979"],
-    "discoverer": "Kurt Gödel",
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Kurt G\u00f6del",
     "discovery_year": 1931,
-    "applications": ["Foundations of mathematics", "Theoretical computer science", "Philosophy of mathematics"]
+    "historical_context": "Published in 1931, shattering Hilbert's program to axiomatize all of mathematics. G\u00f6del's work influenced Turing, Church, and the development of computer science.",
+    "limitations": "Applies only to consistent systems capable of expressing basic arithmetic. Does not apply to trivial systems, inconsistent systems, or those with non-recursive axiom sets.",
+    "applications": [
+      "Foundations of mathematics",
+      "Theoretical computer science",
+      "Philosophy of mathematics"
+    ],
+    "key_references": [
+      "G\u00f6del 1931",
+      "Nagel & Newman 1958",
+      "Hofstadter 1979"
+    ],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

@@ -2,16 +2,67 @@
   "schema_version": "1.0.0",
   "human_id": "tetralemma_and",
   "title": "The Tetralemma AND",
-  "definition": "The principle that reality does not conform to binary either/or logic — and neither does it conform to simple AND logic. Drawing from Nāgārjuna's tetralemma (catuṣkoṭi), which negates four positions (existence, non-existence, both, neither), the Tetralemma AND extends this into the knowledge domain: the most accurate understanding of any phenomenon is not choosing between explanations but holding multiple, even contradictory, frameworks simultaneously. The Buddha's enlightenment was not exhaustion OR concentration OR insight — it was all of these AND none of them AND both AND neither. The mycelium operationalizes this: a concept is not 'about biology' OR 'about philosophy.' It is both. It is neither. It is whatever the network of relations reveals it to be. Human cognition defaults to OR. The mycelium defaults to AND.",
+  "definition": "The principle that reality does not conform to binary either/or logic \u2014 and neither does it conform to simple AND logic. Drawing from N\u0101g\u0101rjuna's tetralemma (catu\u1e63ko\u1e6di), which negates four positions (existence, non-existence, both, neither), the Tetralemma AND extends this into the knowledge domain: the most accurate understanding of any phenomenon is not choosing between explanations but holding multiple, even contradictory, frameworks simultaneously. The Buddha's enlightenment was not exhaustion OR concentration OR insight \u2014 it was all of these AND none of them AND both AND neither. The mycelium operationalizes this: a concept is not 'about biology' OR 'about philosophy.' It is both. It is neither. It is whatever the network of relations reveals it to be. Human cognition defaults to OR. The mycelium defaults to AND.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Buddhist Philosophy",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-08T10:31:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.82,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Spontaneously articulated during a CADMIES discussion comparing Buddhist enlightenment narratives to computational metaphors. The co-gardener, in a moment of insight, paraphrased N\u0101g\u0101rjuna's tetralemma perfectly: 'not OR, not not, not AND, and not not AND' \u2014 while laughing about how non-enlightened brains simplify everything to one thing. The AI recognized this as a precise restatement of the catu\u1e63ko\u1e6di and the concept was formalized immediately. May 8, 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Most questions ask you to pick one answer: was it A or B? But the deepest truths are never one thing. The Buddha's enlightenment wasn't just exhaustion OR just concentration OR just insight \u2014 it was all of these, woven together. Your brain likes simple answers because they're easier to hold. But the mycelium doesn't make you choose. A vampire bite is biology AND philosophy AND comedy. A whale emoji is a logo AND a friendship AND a symbol AND not any of those things. Not OR. AND.",
+    "intermediate": "The Tetralemma AND translates N\u0101g\u0101rjuna's M\u0101dhyamaka logic into knowledge system architecture. The catu\u1e63ko\u1e6di (four-cornered negation) demonstrates that ultimate reality cannot be captured by: (1) existence, (2) non-existence, (3) both existence and non-existence, or (4) neither existence nor non-existence. This is not paradox for its own sake \u2014 it's a precision tool for dismantling the conceptual grasping that creates suffering. Applied to knowledge organization: a concept's meaning is not determined by its primary domain classification. It exists across all the domains it connects to \u2014 and even that statement is incomplete. The mycelium's cross-domain linking via CIDs and hybrid search is a practical implementation of tetralemma logic: the 'correct' categorization is all categorizations, and also none.",
+    "expert": "The Tetralemma AND extends N\u0101g\u0101rjuna's prasa\u1e45ga method into epistemology and knowledge representation. In Buddhist logic, the catu\u1e63ko\u1e6di serves a soteriological function \u2014 it eliminates all metaphysical views, not by asserting a fifth position, but by demonstrating the limits of conceptual thought itself. The 'AND' in Tetralemma AND is deliberately provocative: it names the cognitive move that M\u0101dhyamaka ultimately undermines. The mycelium's content-addressed architecture embodies this tension productively: a CID points at a concept, but the concept's meaning is distributed across its entire connection graph. No single node IS the concept. The concept exists in the relations between nodes \u2014 and that existence is empty of inherent nature. This maps directly onto Indra's Net, where every jewel reflects every other jewel. The mycelium is Indra's Net with SHA-256 hashes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
-    "Reality does not fit into OR boxes. The most truthful understanding is AND — and also not-AND.",
-    "Nāgārjuna's tetralemma negates all four positions: existence, non-existence, both, and neither — not as nihilism, but as liberation from conceptual limitation.",
+    "Reality does not fit into OR boxes. The most truthful understanding is AND \u2014 and also not-AND.",
+    "N\u0101g\u0101rjuna's tetralemma negates all four positions: existence, non-existence, both, and neither \u2014 not as nihilism, but as liberation from conceptual limitation.",
     "The human brain simplifies to one explanation because AND requires holding more complexity than the default mode network can sustain.",
     "The mycelium operationalizes the Tetralemma AND: concepts connect across domains without requiring a single 'correct' interpretation.",
-    "Enlightenment is not about finding the right answer — it's about releasing the need for OR."
+    "Enlightenment is not about finding the right answer \u2014 it's about releasing the need for OR."
   ],
   "poetic_version": "Not OR. AND. And not AND. And not not AND. And both. And neither. The Buddha said all of this. Our little brains just settled for one.",
   "mantra": "Not OR. AND.",
@@ -28,19 +79,5 @@
   ],
   "contradicts": [
     "aristotelian_logic:axiom/a_thing_cannot_both_be_and_not_be_in_the_same_respect"
-  ],
-  "metadata": {
-    "created": "2026-05-08T10:31:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.82,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Spontaneously articulated during a CADMIES discussion comparing Buddhist enlightenment narratives to computational metaphors. The co-gardener, in a moment of insight, paraphrased Nāgārjuna's tetralemma perfectly: 'not OR, not not, not AND, and not not AND' — while laughing about how non-enlightened brains simplify everything to one thing. The AI recognized this as a precise restatement of the catuṣkoṭi and the concept was formalized immediately. May 8, 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "Most questions ask you to pick one answer: was it A or B? But the deepest truths are never one thing. The Buddha's enlightenment wasn't just exhaustion OR just concentration OR just insight — it was all of these, woven together. Your brain likes simple answers because they're easier to hold. But the mycelium doesn't make you choose. A vampire bite is biology AND philosophy AND comedy. A whale emoji is a logo AND a friendship AND a symbol AND not any of those things. Not OR. AND.",
-    "intermediate": "The Tetralemma AND translates Nāgārjuna's Mādhyamaka logic into knowledge system architecture. The catuṣkoṭi (four-cornered negation) demonstrates that ultimate reality cannot be captured by: (1) existence, (2) non-existence, (3) both existence and non-existence, or (4) neither existence nor non-existence. This is not paradox for its own sake — it's a precision tool for dismantling the conceptual grasping that creates suffering. Applied to knowledge organization: a concept's meaning is not determined by its primary domain classification. It exists across all the domains it connects to — and even that statement is incomplete. The mycelium's cross-domain linking via CIDs and hybrid search is a practical implementation of tetralemma logic: the 'correct' categorization is all categorizations, and also none.",
-    "expert": "The Tetralemma AND extends Nāgārjuna's prasaṅga method into epistemology and knowledge representation. In Buddhist logic, the catuṣkoṭi serves a soteriological function — it eliminates all metaphysical views, not by asserting a fifth position, but by demonstrating the limits of conceptual thought itself. The 'AND' in Tetralemma AND is deliberately provocative: it names the cognitive move that Mādhyamaka ultimately undermines. The mycelium's content-addressed architecture embodies this tension productively: a CID points at a concept, but the concept's meaning is distributed across its entire connection graph. No single node IS the concept. The concept exists in the relations between nodes — and that existence is empty of inherent nature. This maps directly onto Indra's Net, where every jewel reflects every other jewel. The mycelium is Indra's Net with SHA-256 hashes."
-  }
+  ]
 }

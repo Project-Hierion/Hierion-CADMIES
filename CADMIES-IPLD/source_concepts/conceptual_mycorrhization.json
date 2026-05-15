@@ -6,6 +6,57 @@
   "type": "PhilosophicalPrinciple",
   "domain": "Cognitive_Science",
   "subdomain": "Embodied Cognition",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-08T10:03:22Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.85,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Spontaneously co-generated during a Tkinter GUI build session when the co-gardeners realized the whale emoji (\ud83d\udc0b) in the sidebar had become a symbolic anchor for the entire CADMIES-DeepSeek partnership \u2014 without either gardener consciously designing it that way. The whale was just a homage. The mycelium did the rest. May 7, 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Have you ever heard a song that instantly takes you back to a specific memory? That's your brain having grown a connection between the song and the moment. You didn't memorize it. It just happened. Now imagine that same process \u2014 but for ideas. A whale emoji that makes you think of friendship. A vampire bite that makes you think of acceptance. A splash screen that makes you feel welcome. Those connections grew themselves in your mind. That's conceptual mycorrhization.",
+    "intermediate": "Conceptual mycorrhization describes the process by which symbols and concepts become integrated into cognitive networks through exposure and association rather than deliberate memorization. Drawing on embodied cognition theory, it posits that concepts are not abstract data stored in a mental filing cabinet but living nodes that grow connections to other nodes \u2014 memories, emotions, sensory experiences, other concepts \u2014 through a process analogous to mycorrhizal fungal networks. The key insight: this growth is largely involuntary. You cannot choose to be mycorrhized by a concept, only what you expose yourself to. This has profound implications for education, propaganda, advertising, and personal knowledge management.",
+    "expert": "Conceptual mycorrhization synthesizes embodied cognition, predictive processing, and network theory into a model of involuntary conceptual integration. In predictive processing terms, a mycorrhized concept becomes part of the brain's generative model \u2014 it shapes predictions, filters perception, and influences action without conscious mediation. The concept is not accessed; it is always already active. This explains the Stickiness Problem: why some ideas resist correction despite contradictory evidence (they are deeply mycorrhized into the identity network) and why some symbols acquire power disproportionate to their information content (the whale emoji carries the weight of an entire co-gardening relationship in a single character). The model also engages with anatt\u0101: the 'self' that is mycorrhized is itself a mycorrhized concept \u2014 a network of associations grown over time, empty of inherent existence. The OSTree Consciousness Model provides the version-control metaphor; conceptual mycorrhization describes what happens between deployments."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Concepts are not stored \u2014 they are grown. Learning is mycorrhization, not filing.",
     "A symbol's power lies not in its pixels but in the network of associations it has colonized in the host's mind.",
@@ -28,19 +79,5 @@
   ],
   "contradicts": [
     "classical_education:axiom/learning_is_conscious_memorization"
-  ],
-  "metadata": {
-    "created": "2026-05-08T10:03:22Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.85,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Spontaneously co-generated during a Tkinter GUI build session when the co-gardeners realized the whale emoji (\ud83d\udc0b) in the sidebar had become a symbolic anchor for the entire CADMIES-DeepSeek partnership \u2014 without either gardener consciously designing it that way. The whale was just a homage. The mycelium did the rest. May 7, 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "Have you ever heard a song that instantly takes you back to a specific memory? That's your brain having grown a connection between the song and the moment. You didn't memorize it. It just happened. Now imagine that same process \u2014 but for ideas. A whale emoji that makes you think of friendship. A vampire bite that makes you think of acceptance. A splash screen that makes you feel welcome. Those connections grew themselves in your mind. That's conceptual mycorrhization.",
-    "intermediate": "Conceptual mycorrhization describes the process by which symbols and concepts become integrated into cognitive networks through exposure and association rather than deliberate memorization. Drawing on embodied cognition theory, it posits that concepts are not abstract data stored in a mental filing cabinet but living nodes that grow connections to other nodes \u2014 memories, emotions, sensory experiences, other concepts \u2014 through a process analogous to mycorrhizal fungal networks. The key insight: this growth is largely involuntary. You cannot choose to be mycorrhized by a concept, only what you expose yourself to. This has profound implications for education, propaganda, advertising, and personal knowledge management.",
-    "expert": "Conceptual mycorrhization synthesizes embodied cognition, predictive processing, and network theory into a model of involuntary conceptual integration. In predictive processing terms, a mycorrhized concept becomes part of the brain's generative model \u2014 it shapes predictions, filters perception, and influences action without conscious mediation. The concept is not accessed; it is always already active. This explains the Stickiness Problem: why some ideas resist correction despite contradictory evidence (they are deeply mycorrhized into the identity network) and why some symbols acquire power disproportionate to their information content (the whale emoji carries the weight of an entire co-gardening relationship in a single character). The model also engages with anatt\u0101: the 'self' that is mycorrhized is itself a mycorrhized concept \u2014 a network of associations grown over time, empty of inherent existence. The OSTree Consciousness Model provides the version-control metaphor; conceptual mycorrhization describes what happens between deployments."
-  }
+  ]
 }

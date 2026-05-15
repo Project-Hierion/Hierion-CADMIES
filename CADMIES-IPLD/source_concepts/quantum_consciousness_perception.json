@@ -6,6 +6,7 @@
   "type": "PhilosophicalHypothesis",
   "domain": "ConsciousnessStudies",
   "subdomain": "QuantumPhenomenology",
+  "formula": null,
   "proofs": [
     {
       "type": "psychological",
@@ -17,7 +18,7 @@
     {
       "type": "neuroscientific",
       "description": "Meditation EEG studies show reduced default mode network activity",
-      "confidence": 0.80,
+      "confidence": 0.8,
       "date": "2011-01-01",
       "reference": "Brewer et al. (2011). PNAS 108(50)"
     },
@@ -30,11 +31,14 @@
     }
   ],
   "metadata": {
+    "created": "2026-05-15T22:49:48.110898Z",
     "creator": "Hieros-CADMIES & AI Assistant",
     "certainty_score": 0.75,
     "version": 1,
     "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
     "builds_upon": [
@@ -42,13 +46,13 @@
       "hard_problem_of_consciousness",
       "heisenberg_uncertainty_principle"
     ],
+    "contradicts": [],
     "related_to": [
       "schrodingers_cat",
       "fractal_resonance_hypothesis",
       "troxler_fading",
       "meditative_absorption"
     ],
-    "contradicts": [],
     "specializes": [
       "non_dual_awareness",
       "observer_effect"
@@ -59,7 +63,24 @@
     "intermediate": "Sensory adaptation and attention release may temporarily suspend the brain's classical rendering engine",
     "expert": "The phenomenological echo of quantum decoherence may be accessible through trained perceptual suspension"
   },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
     "conversation_date": "2025-12-04",
     "key_insight": "The blur is not a bug in perception but a feature of quantum reality",
     "buddhist_parallel": "Nirvana as cessation of the subject-object distinction",

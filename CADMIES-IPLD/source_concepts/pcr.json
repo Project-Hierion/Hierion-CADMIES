@@ -6,6 +6,7 @@
   "type": "LaboratoryTechnique",
   "domain": "MolecularBiology",
   "subdomain": "DNAAmplification",
+  "formula": null,
   "proofs": [
     {
       "type": "nobel_prize",
@@ -23,25 +24,75 @@
     }
   ],
   "metadata": {
+    "created": "2026-05-15T22:49:48.079752Z",
     "creator": "CADMIES_Genomics_Import",
     "certainty_score": 1.0,
     "version": 1,
     "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["dna_replication", "thermostable_polymerases"],
-    "enables": ["dna_sequencing", "forensics", "diagnostics", "cloning"],
-    "related_to": ["rt_pcr", "qPCR", "digital_pcr"]
+    "builds_upon": [
+      "dna_replication",
+      "thermostable_polymerases"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "rt_pcr",
+      "qPCR",
+      "digital_pcr"
+    ],
+    "specializes": [],
+    "enables": [
+      "dna_sequencing",
+      "forensics",
+      "diagnostics",
+      "cloning"
+    ]
   },
   "difficulty_levels": {
-    "intermediate": "PCR uses thermal cycling to exponentially amplify specific DNA sequences"
+    "beginner": "",
+    "intermediate": "PCR uses thermal cycling to exponentially amplify specific DNA sequences",
+    "expert": ""
   },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [
+      "medical_diagnostics",
+      "forensics",
+      "research",
+      "ancient_dna"
+    ],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
     "inventor": "Kary Mullis",
     "year": 1983,
-    "key_components": ["dna_template", "primers", "polymerase", "nucleotides", "thermal_cycler"],
-    "steps": ["denaturation", "annealing", "extension"],
-    "applications": ["medical_diagnostics", "forensics", "research", "ancient_dna"]
+    "key_components": [
+      "dna_template",
+      "primers",
+      "polymerase",
+      "nucleotides",
+      "thermal_cycler"
+    ],
+    "steps": [
+      "denaturation",
+      "annealing",
+      "extension"
+    ]
   }
 }

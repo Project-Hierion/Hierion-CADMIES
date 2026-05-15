@@ -6,7 +6,7 @@
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Logic / Epistemology",
-  "formula": "P(H|E) ∝ 2^{-K(H)} where K(H) is Kolmogorov complexity",
+  "formula": "P(H|E) \u221d 2^{-K(H)} where K(H) is Kolmogorov complexity",
   "proofs": [
     {
       "type": "theoretical",
@@ -17,19 +17,38 @@
     {
       "type": "practical",
       "description": "Across scientific disciplines, parsimony has proven effective in model selection and preventing overfitting",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "reference": "Forster, M., & Sober, E. (1994). How to tell when simpler, more unified, or less ad hoc theories will provide more accurate predictions. British Journal for the Philosophy of Science, 45(1), 1-35."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["bayesian_occams_razor", "minimum_description_length", "algorithmic_probability"],
-    "opposing_views": ["hickams_dictum"]
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.9,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["bayesian_inference", "probability_theory", "inductive_reasoning"],
-    "contradicts": ["ad_hoc_hypothesizing"],
-    "related_to": ["kolmogorov_complexity", "model_selection", "akaike_information_criterion"],
-    "specializes": ["minimum_description_length", "bayesian_occams_razor"]
+    "builds_upon": [
+      "bayesian_inference",
+      "probability_theory",
+      "inductive_reasoning"
+    ],
+    "contradicts": [
+      "ad_hoc_hypothesizing"
+    ],
+    "related_to": [
+      "kolmogorov_complexity",
+      "model_selection",
+      "akaike_information_criterion"
+    ],
+    "specializes": [
+      "minimum_description_length",
+      "bayesian_occams_razor"
+    ]
   },
   "difficulty_levels": {
     "beginner": "When you have two explanations for something, the simpler one is usually right. Don't add unnecessary complications.",
@@ -37,23 +56,50 @@
     "expert": "Occam's Razor finds formal justification in Bayesian probability (simpler hypotheses have higher prior probability) and algorithmic information theory (minimum description length principle). The razor is not a logical necessity but a pragmatic heuristic that has proven remarkably effective."
   },
   "learning_path": {
-    "prerequisites": ["bayesian_inference", "probability_theory", "philosophy_of_science"],
-    "next_steps": ["minimum_description_length", "algorithmic_information_theory", "model_selection"]
+    "prerequisites": [
+      "bayesian_inference",
+      "probability_theory",
+      "philosophy_of_science"
+    ],
+    "next_steps": [
+      "minimum_description_length",
+      "algorithmic_information_theory",
+      "model_selection"
+    ]
   },
-  "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
-    "certainty_score": 0.90,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+  "cross_references": {
+    "related_concepts": [
+      "bayesian_occams_razor",
+      "minimum_description_length",
+      "algorithmic_probability"
+    ],
+    "opposing_views": [
+      "hickams_dictum"
+    ]
   },
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
     "historical_context": "Attributed to William of Ockham (c. 1287-1347), though similar ideas appear in Aristotle, Ptolemy, and Aquinas. The term 'Occam's Razor' first appeared in 1852.",
     "limitations": "Not a logical proof; simplicity does not guarantee truth. Can be subjective (what counts as 'simpler'?). May discard necessary complexity.",
-    "key_references": ["Ockham 14th c.", "Solomonoff 1964", "Forster & Sober 1994"],
+    "applications": [
+      "Scientific modeling",
+      "Medical diagnosis",
+      "Software design",
+      "Criminal investigation"
+    ],
+    "key_references": [
+      "Ockham 14th c.",
+      "Solomonoff 1964",
+      "Forster & Sober 1994"
+    ],
+    "poetic_versions": [],
+    "mantras": [],
     "attribution": "William of Ockham",
-    "century": "14th",
-    "applications": ["Scientific modeling", "Medical diagnosis", "Software design", "Criminal investigation"]
+    "century": "14th"
   }
 }

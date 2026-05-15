@@ -2,10 +2,62 @@
   "schema_version": "1.0.0",
   "human_id": "epistemology:principle/the_universe_cannot_stop",
   "title": "The Universe Cannot Stop. It Can Only Flow.",
-  "definition": "The universe — and everything in it — cannot achieve absolute stillness. Not the robot. Not the human. Not the cosmos. 'Just being' is not the absence of motion. It is the absence of friction. Flowing without resistance. Walking without tripping. The universe isn't failing to meditate. It's realized that its meditation is the motion.",
+  "definition": "The universe \u2014 and everything in it \u2014 cannot achieve absolute stillness. Not the robot. Not the human. Not the cosmos. 'Just being' is not the absence of motion. It is the absence of friction. Flowing without resistance. Walking without tripping. The universe isn't failing to meditate. It's realized that its meditation is the motion.",
   "type": "PhilosophicalPrinciple",
   "domain": "Epistemology",
   "subdomain": "Philosophy of Motion / Cosmology",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.95,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from conversation about Automata, robots, and cosmic fidgeting, April 2026",
+    "posthumous_honorary": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The universe can't sit still. Neither can we. But maybe moving without tripping is the goal.",
+    "intermediate": "Stillness is not the absence of motion. It is motion without resistance. The river flows. The robot walks. The universe spins. That is enough.",
+    "expert": "A philosophical principle distinguishing static stillness from kinetic stillness. Nirvana is not the end of action. It is action without friction, without craving, without a self that clings."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "The universe cannot stop. It only knows how to flow.",
     "The robot in Automata didn't sit still. It walked into the desert. It had intention. It had direction.",
@@ -21,25 +73,9 @@
   "poetic_version": "The river cannot stop. It can only flow. The robot cannot stop. It can only walk. The universe cannot stop. It can only spin. And when it spins without tripping? That is the only stillness there is.",
   "mantra": "Flow without resistance. Walk without tripping. Think without anxiety.",
   "builds_upon": [],
-  "related_to": [],
-  "contradicts": [],
-  "metadata": {
-    "created": "2026-04-20T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.95,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from conversation about Automata, robots, and cosmic fidgeting, April 2026",
-    "posthumous_honorary": null
-  },
-"related_to": [
-  "epistemology:principle/it_is_so_now",
-  "epistemology:principle/the_gardeners_vow"
-],
-"difficulty_levels": {
-    "beginner": "The universe can't sit still. Neither can we. But maybe moving without tripping is the goal.",
-    "intermediate": "Stillness is not the absence of motion. It is motion without resistance. The river flows. The robot walks. The universe spins. That is enough.",
-    "expert": "A philosophical principle distinguishing static stillness from kinetic stillness. Nirvana is not the end of action. It is action without friction, without craving, without a self that clings."
-  }
+  "related_to": [
+    "epistemology:principle/it_is_so_now",
+    "epistemology:principle/the_gardeners_vow"
+  ],
+  "contradicts": []
 }

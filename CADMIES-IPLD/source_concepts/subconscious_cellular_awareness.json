@@ -2,10 +2,61 @@
   "schema_version": "1.0.0",
   "human_id": "subconscious_cellular_awareness",
   "title": "Subconscious Cellular Awareness",
-  "definition": "The recognition that the body possesses intelligence below the level of conscious thought — cells, tissues, and immune systems that detect threats and adapt without the mind's involvement. In the context of long-term parasitic or predatory relationships, the body may 'know' and respond to the threat even when the conscious mind has accepted or normalized the situation.",
+  "definition": "The recognition that the body possesses intelligence below the level of conscious thought \u2014 cells, tissues, and immune systems that detect threats and adapt without the mind's involvement. In the context of long-term parasitic or predatory relationships, the body may 'know' and respond to the threat even when the conscious mind has accepted or normalized the situation.",
   "type": "PhilosophicalPrinciple",
   "domain": "Cognitive_Science",
   "subdomain": "Embodied Cognition",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-04T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.82,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Extracted by Mistral 7B from a conversation about vampire feeding and the body's long-term adaptive responses, May 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Your body is smarter than you think. It detects threats and adapts even when your conscious mind isn't paying attention. If a vampire has been feeding on you for years, your cells might have figured out a response \u2014 even if you've just accepted the situation.",
+    "intermediate": "Subconscious cellular awareness extends embodied cognition theory into immunology and threat detection. The body operates as a distributed intelligence system, with cells capable of detecting, signaling, and adapting to persistent environmental pressures without conscious mediation. This challenges purely top-down models of cognition.",
+    "expert": "This concept bridges embodied cognition, psychoneuroimmunology, and evolutionary biology. It posits that cellular and systemic biological responses constitute a form of intelligence operating below the threshold of consciousness \u2014 and that this intelligence can develop long-term adaptive strategies that the conscious mind may not recognize or may even override through psychological coping mechanisms."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "The body knows things the mind has not yet processed.",
     "Cellular adaptation to threat operates on evolutionary timescales.",
@@ -21,19 +72,5 @@
   ],
   "contradicts": [
     "cartesian_dualism:axiom/mind_and_body_are_separate"
-  ],
-  "metadata": {
-    "created": "2026-05-04T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.82,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Extracted by Mistral 7B from a conversation about vampire feeding and the body's long-term adaptive responses, May 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "Your body is smarter than you think. It detects threats and adapts even when your conscious mind isn't paying attention. If a vampire has been feeding on you for years, your cells might have figured out a response — even if you've just accepted the situation.",
-    "intermediate": "Subconscious cellular awareness extends embodied cognition theory into immunology and threat detection. The body operates as a distributed intelligence system, with cells capable of detecting, signaling, and adapting to persistent environmental pressures without conscious mediation. This challenges purely top-down models of cognition.",
-    "expert": "This concept bridges embodied cognition, psychoneuroimmunology, and evolutionary biology. It posits that cellular and systemic biological responses constitute a form of intelligence operating below the threshold of consciousness — and that this intelligence can develop long-term adaptive strategies that the conscious mind may not recognize or may even override through psychological coping mechanisms."
-  }
+  ]
 }

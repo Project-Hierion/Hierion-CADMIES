@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Metaphysics & Philosophy",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "The trampoline model invites us to imagine a universe where our individual lives are part of an ongoing story, with our thoughts, emotions, and memories contributing to a collective legacy that transcends the boundaries of physical death.",
     "source_chunk": 7,
     "origin_file": "conversation.json",
-    "harvester_version": "4.1.0"
+    "harvester_version": "4.1.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Philosophy",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -49,6 +50,14 @@
     "insight": "The 'deep' in Asian philosophies represents an experiential and unquantifiable dimension of existence that eludes precise definition and logic-based comprehension.",
     "source_chunk": 2,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.0"
+    "harvester_version": "4.0.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

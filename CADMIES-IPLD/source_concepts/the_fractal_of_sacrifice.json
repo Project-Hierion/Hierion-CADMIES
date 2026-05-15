@@ -6,13 +6,64 @@
   "type": "PhilosophicalPrinciple",
   "domain": "Epistemology",
   "subdomain": "Philosophy of Selection / Systems Theory",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-04-20T16:30:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.92,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from conversation about fractal sacrifice from quantum to cosmos, April 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "You can't get something for nothing. Every choice means giving up other paths. What you gain depends on what you're willing to lose.",
+    "intermediate": "The Fractal of Sacrifice observes that in any constrained system \u2014 from a neuron pruning synapses to a civilization writing laws \u2014 the act of selecting one configuration necessarily sacrifices all others. The reward is not a later consequence but the very existence of the selected form. Wise sacrifice aligns forgoing with flourishing; unwise sacrifice is mere loss.",
+    "expert": "This principle reframes sacrifice not as cost preceding benefit but as the negative space of selection. In quantum mechanics, measurement sacrifices the superposition for an eigenstate \u2014 the reward is definiteness. In economics, opportunity cost is sacrifice; profit is reward. In cosmology, local asymmetry sacrifices symmetric nothingness for structure. The fractal holds across scales because scale itself is the only difference: the logic of finite choice under constraint is scale-invariant."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Sacrifice is the forgoing of alternative possibilities.",
     "Reward is the persistence, flourishing, or emergence of what is selected.",
     "Sacrifice and reward co-arise from the same act of selection.",
     "In any finite system, resources (time, energy, attention, matter) are limited.",
     "Therefore, every choice is simultaneously a sacrifice and an investment.",
-    "Unwise sacrifice yields no reward — the fractal is conditional, not deterministic.",
+    "Unwise sacrifice yields no reward \u2014 the fractal is conditional, not deterministic.",
     "The pattern scales: quantum measurement, neural pruning, opportunity cost, stellar collapse.",
     "Without sacrifice, no form; without form, no meaning."
   ],
@@ -25,19 +76,5 @@
   ],
   "contradicts": [
     "popular:you_can_have_everything_without_cost"
-  ],
-  "metadata": {
-    "created": "2026-04-20T16:30:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.92,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from conversation about fractal sacrifice from quantum to cosmos, April 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "You can't get something for nothing. Every choice means giving up other paths. What you gain depends on what you're willing to lose.",
-    "intermediate": "The Fractal of Sacrifice observes that in any constrained system — from a neuron pruning synapses to a civilization writing laws — the act of selecting one configuration necessarily sacrifices all others. The reward is not a later consequence but the very existence of the selected form. Wise sacrifice aligns forgoing with flourishing; unwise sacrifice is mere loss.",
-    "expert": "This principle reframes sacrifice not as cost preceding benefit but as the negative space of selection. In quantum mechanics, measurement sacrifices the superposition for an eigenstate — the reward is definiteness. In economics, opportunity cost is sacrifice; profit is reward. In cosmology, local asymmetry sacrifices symmetric nothingness for structure. The fractal holds across scales because scale itself is the only difference: the logic of finite choice under constraint is scale-invariant."
-  }
+  ]
 }

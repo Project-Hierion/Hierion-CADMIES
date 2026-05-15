@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Physics",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "Every raindrop is a tiny, fleeting echo of the cloud it originates from, carrying its motion in a diagonal trajectory.",
     "source_chunk": 1,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.1"
+    "harvester_version": "4.0.1",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

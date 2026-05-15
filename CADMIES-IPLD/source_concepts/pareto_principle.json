@@ -11,7 +11,7 @@
     {
       "type": "empirical",
       "description": "Observed across economics, business, software engineering, and natural systems",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "reference": "Pareto, V. (1906). Manuale di economia politica."
     },
     {
@@ -21,15 +21,33 @@
       "reference": "Newman, M.E.J. (2005). Power laws, Pareto distributions and Zipf's law. Contemporary Physics, 46(5), 323-351."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["power_law", "zipfs_law", "long_tail", "cumulative_advantage"],
-    "opposing_views": []
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.9,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["statistical_distributions", "power_laws"],
-    "contradicts": ["normal_distribution_assumptions"],
-    "related_to": ["inequality", "productivity", "quality_management"],
-    "specializes": ["zipfs_law", "price_behavior"]
+    "builds_upon": [
+      "statistical_distributions",
+      "power_laws"
+    ],
+    "contradicts": [
+      "normal_distribution_assumptions"
+    ],
+    "related_to": [
+      "inequality",
+      "productivity",
+      "quality_management"
+    ],
+    "specializes": [
+      "zipfs_law",
+      "price_behavior"
+    ]
   },
   "difficulty_levels": {
     "beginner": "A small number of things cause most of the results. 20% of your efforts create 80% of your results.",
@@ -37,23 +55,47 @@
     "expert": "The 80/20 rule emerges from power law distributions common in complex systems (Pareto, Zipf, Yule). It reflects preferential attachment or multiplicative growth processes. Applications include software optimization (80% of errors from 20% of code) and business strategy."
   },
   "learning_path": {
-    "prerequisites": ["statistics_basics", "probability_distributions"],
-    "next_steps": ["power_laws", "zipfs_law", "complex_systems"]
+    "prerequisites": [
+      "statistics_basics",
+      "probability_distributions"
+    ],
+    "next_steps": [
+      "power_laws",
+      "zipfs_law",
+      "complex_systems"
+    ]
   },
-  "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
-    "certainty_score": 0.90,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+  "cross_references": {
+    "related_concepts": [
+      "power_law",
+      "zipfs_law",
+      "long_tail",
+      "cumulative_advantage"
+    ],
+    "opposing_views": []
   },
   "extra_fields": {
-    "historical_context": "Observed by Vilfredo Pareto (1906) studying land ownership in Italy. Popularized by Joseph Juran (1940s) in quality management.",
-    "limitations": "Not a law; exact ratio varies (70/30, 90/10). Descriptive, not prescriptive. Requires identification of the critical 20%.",
-    "key_references": ["Pareto 1906", "Juran 1951", "Koch 1997", "Newman 2005"],
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
     "discoverer": "Vilfredo Pareto",
     "discovery_year": 1906,
-    "applications": ["Business strategy", "Software optimization", "Time management", "Quality control"]
+    "historical_context": "Observed by Vilfredo Pareto (1906) studying land ownership in Italy. Popularized by Joseph Juran (1940s) in quality management.",
+    "limitations": "Not a law; exact ratio varies (70/30, 90/10). Descriptive, not prescriptive. Requires identification of the critical 20%.",
+    "applications": [
+      "Business strategy",
+      "Software optimization",
+      "Time management",
+      "Quality control"
+    ],
+    "key_references": [
+      "Pareto 1906",
+      "Juran 1951",
+      "Koch 1997",
+      "Newman 2005"
+    ],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

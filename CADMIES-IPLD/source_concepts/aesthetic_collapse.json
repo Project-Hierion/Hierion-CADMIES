@@ -2,16 +2,67 @@
   "schema_version": "1.0.0",
   "human_id": "climate_ethics:principle/aesthetic_collapse",
   "title": "The Aesthetic Collapse",
-  "definition": "Human panic over climate change is not fundamentally about extinction or planetary destruction—the planet will survive. It is about inconvenience at scale: displacement, hunger, supply chain collapse, loss of coastal real estate and comfortable lifestyles. The real crisis is aesthetic and lifestyle collapse, not existential dread.",
+  "definition": "Human panic over climate change is not fundamentally about extinction or planetary destruction\u2014the planet will survive. It is about inconvenience at scale: displacement, hunger, supply chain collapse, loss of coastal real estate and comfortable lifestyles. The real crisis is aesthetic and lifestyle collapse, not existential dread.",
   "type": "PhilosophicalPrinciple",
   "domain": "Climate Ethics",
   "subdomain": "Philosophy of Emotion",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-04-20T16:35:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.92,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from conversation about human climate panic compared to aesthetic judgments about weeds, April 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Climate change scares us mostly because it will make life uncomfortable, not because it will end the world.",
+    "intermediate": "Anthropocentric climate discourse overstates existential risk and understates the real driver: loss of accustomed lifestyle, stability, and aesthetic order.",
+    "expert": "The conflation of 'climate crisis' with 'existential threat' obscures the more philosophically interesting truth: humans are resilient but averse to inconvenience, and our panic reflects threatened preferences, not threatened existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "The planet will be fine in the long geological sense.",
     "Humans have survived worse: ice ages, volcanic winters, plagues that wiped out half of Europe.",
     "The panic is about saving our current comfort zone, not saving humanity.",
-    "Deep down, the terror is inconvenience—just really, really annoying at scale.",
-    "We are clever, adaptable little fuckers—the weeds of the primate world."
+    "Deep down, the terror is inconvenience\u2014just really, really annoying at scale.",
+    "We are clever, adaptable little fuckers\u2014the weeds of the primate world."
   ],
   "poetic_version": "We'll survive. We'll just be very, very annoyed about where we have to live and what we have to eat.",
   "mantra": "Inconvenience at scale.",
@@ -23,19 +74,5 @@
   ],
   "contradicts": [
     "climate_ethics:axiom/climate_change_is_existential_threat"
-  ],
-  "metadata": {
-    "created": "2026-04-20T16:35:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.92,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from conversation about human climate panic compared to aesthetic judgments about weeds, April 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "Climate change scares us mostly because it will make life uncomfortable, not because it will end the world.",
-    "intermediate": "Anthropocentric climate discourse overstates existential risk and understates the real driver: loss of accustomed lifestyle, stability, and aesthetic order.",
-    "expert": "The conflation of 'climate crisis' with 'existential threat' obscures the more philosophically interesting truth: humans are resilient but averse to inconvenience, and our panic reflects threatened preferences, not threatened existence."
-  }
+  ]
 }

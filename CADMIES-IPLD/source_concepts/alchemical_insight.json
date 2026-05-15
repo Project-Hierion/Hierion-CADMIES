@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Philosophy of Science & Spirituality",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -48,6 +49,14 @@
     "insight": "Combining the 'Aha!' moment of scientific discovery with the 'Oh...' of spiritual interconnectedness results in an alchemical journey that rewires one's very essence, transcending mere information acquisition.",
     "source_chunk": 1,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.0"
+    "harvester_version": "4.0.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

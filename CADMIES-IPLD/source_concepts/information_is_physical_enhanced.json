@@ -6,7 +6,7 @@
   "type": "ScientificPrinciple",
   "domain": "Physics",
   "subdomain": "Information Theory",
-  "formula": "E ≥ kT ln(2) per bit erased (Landauer's principle)",
+  "formula": "E \u2265 kT ln(2) per bit erased (Landauer's principle)",
   "proofs": [
     {
       "type": "theoretical",
@@ -18,34 +18,15 @@
       "type": "experimental",
       "description": "Experimental verification of Landauer's principle using colloidal particles and optical traps",
       "confidence": 0.93,
-      "reference": "Bérut, A., et al. (2012). Experimental verification of Landauer's principle. Nature, 483, 187-189."
+      "reference": "B\u00e9rut, A., et al. (2012). Experimental verification of Landauer's principle. Nature, 483, 187-189."
     },
     {
       "type": "theoretical",
       "description": "Maxwell's demon thought experiment demonstrates that information acquisition has thermodynamic consequences",
-      "confidence": 0.90,
-      "reference": "Bennett, C.H. (1982). The thermodynamics of computation—a review. International Journal of Theoretical Physics, 21, 905-940."
+      "confidence": 0.9,
+      "reference": "Bennett, C.H. (1982). The thermodynamics of computation\u2014a review. International Journal of Theoretical Physics, 21, 905-940."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["landauers_principle", "maxwells_demon", "thermodynamics", "quantum_information"],
-    "opposing_views": []
-  },
-  "relationships": {
-    "builds_upon": ["thermodynamics", "statistical_mechanics", "computational_theory"],
-    "contradicts": ["dualism", "information_dualism"],
-    "related_to": ["landauers_principle", "bekenstein_bound", "holographic_principle"],
-    "specializes": ["physical_computing", "thermodynamic_computing"]
-  },
-  "difficulty_levels": {
-    "beginner": "Information has to be stored somewhere physical - you can't have information without something physical to hold it. Even computer data exists as electrical charges or magnetic patterns.",
-    "intermediate": "Information is tied to physical states; erasing information generates heat and is a physical process, not abstract. This connects computation directly to thermodynamics.",
-    "expert": "The physicality of information bridges thermodynamics and computation, establishing fundamental limits on computing and connecting Shannon entropy to thermodynamic entropy. Landauer's principle provides the quantitative link: erasing one bit of information dissipates at least kT ln(2) energy."
-  },
-  "learning_path": {
-    "prerequisites": ["basic_thermodynamics", "entropy", "classical_mechanics"],
-    "next_steps": ["landauers_principle", "maxwells_demon", "quantum_computing", "bekenstein_bound"]
-  },
   "metadata": {
     "created": "2026-04-03T00:00:00Z",
     "creator": "CADMIES PhD Template v1.0",
@@ -53,16 +34,83 @@
     "version": 2,
     "license": "CC BY-SA 4.0",
     "purpose": "educational",
-    "supersedes": "bafyreidlyqiioh3hzjuhenb65rf7ys44rmkyzr2mcnjfneax3nasiojzni"
+    "supersedes": "bafyreidlyqiioh3hzjuhenb65rf7ys44rmkyzr2mcnjfneax3nasiojzni",
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "thermodynamics",
+      "statistical_mechanics",
+      "computational_theory"
+    ],
+    "contradicts": [
+      "dualism",
+      "information_dualism"
+    ],
+    "related_to": [
+      "landauers_principle",
+      "bekenstein_bound",
+      "holographic_principle"
+    ],
+    "specializes": [
+      "physical_computing",
+      "thermodynamic_computing"
+    ]
+  },
+  "difficulty_levels": {
+    "beginner": "Information has to be stored somewhere physical - you can't have information without something physical to hold it. Even computer data exists as electrical charges or magnetic patterns.",
+    "intermediate": "Information is tied to physical states; erasing information generates heat and is a physical process, not abstract. This connects computation directly to thermodynamics.",
+    "expert": "The physicality of information bridges thermodynamics and computation, establishing fundamental limits on computing and connecting Shannon entropy to thermodynamic entropy. Landauer's principle provides the quantitative link: erasing one bit of information dissipates at least kT ln(2) energy."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "basic_thermodynamics",
+      "entropy",
+      "classical_mechanics"
+    ],
+    "next_steps": [
+      "landauers_principle",
+      "maxwells_demon",
+      "quantum_computing",
+      "bekenstein_bound"
+    ]
+  },
+  "cross_references": {
+    "related_concepts": [
+      "landauers_principle",
+      "maxwells_demon",
+      "thermodynamics",
+      "quantum_information"
+    ],
+    "opposing_views": []
   },
   "extra_fields": {
-    "historical_context": "The principle emerged from Landauer's 1961 insight connecting computation to thermodynamics, resolving Maxwell's demon paradox. Bennett (1982) extended the work, showing that only logically irreversible operations (like erasure) require energy dissipation.",
-    "limitations": "Applies to macroscopic systems; quantum information processing may have different constraints. The kT ln(2) bound is a minimum - real systems dissipate more.",
-    "key_references": ["Landauer 1961", "Bennett 1982", "Bérut et al. 2012"],
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
     "discoverer": "Rolf Landauer",
     "discovery_year": 1961,
-    "related_equations": ["ΔE ≥ kT ln(2)", "S = k_B ln(Ω)", "I = H(X) - H(X|Y)"],
-    "applications": ["Computing efficiency limits", "Quantum computing", "Nanotechnology", "Information thermodynamics"],
+    "historical_context": "The principle emerged from Landauer's 1961 insight connecting computation to thermodynamics, resolving Maxwell's demon paradox. Bennett (1982) extended the work, showing that only logically irreversible operations (like erasure) require energy dissipation.",
+    "limitations": "Applies to macroscopic systems; quantum information processing may have different constraints. The kT ln(2) bound is a minimum - real systems dissipate more.",
+    "applications": [
+      "Computing efficiency limits",
+      "Quantum computing",
+      "Nanotechnology",
+      "Information thermodynamics"
+    ],
+    "key_references": [
+      "Landauer 1961",
+      "Bennett 1982",
+      "B\u00e9rut et al. 2012"
+    ],
+    "poetic_versions": [],
+    "mantras": [],
+    "related_equations": [
+      "\u0394E \u2265 kT ln(2)",
+      "S = k_B ln(\u03a9)",
+      "I = H(X) - H(X|Y)"
+    ],
     "philosophical_implication": "Information cannot be separated from its physical substrate - mind and matter are entangled"
   }
 }

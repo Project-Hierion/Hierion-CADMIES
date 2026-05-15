@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Buddhism",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "The understanding that by treating one's internal state with the same rigorous observation as external objects, profound insights about impermanence and interconnectedness can be gained.",
     "source_chunk": 8,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.1"
+    "harvester_version": "4.0.1",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

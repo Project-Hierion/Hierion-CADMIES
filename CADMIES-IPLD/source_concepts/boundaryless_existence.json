@@ -6,13 +6,14 @@
   "type": "Concept",
   "domain": "Philosophy",
   "subdomain": "Ecology",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
       "description": "Extracted from conversation via CADMIES Harvest Pipeline",
       "confidence": 0.8,
       "date": "2026-05-09T00:00:00Z",
-      "reference": "CADMIES Harvest Pipeline v4.0 — raw dump rescue"
+      "reference": "CADMIES Harvest Pipeline v4.0 \u2014 raw dump rescue"
     }
   ],
   "metadata": {
@@ -28,7 +29,10 @@
   "relationships": {
     "builds_upon": [],
     "contradicts": [],
-    "related_to": ["personal_responsibility", "ecological_consciousness"],
+    "related_to": [
+      "personal_responsibility",
+      "ecological_consciousness"
+    ],
     "specializes": []
   },
   "difficulty_levels": {
@@ -38,12 +42,25 @@
   },
   "learning_path": {
     "prerequisites": [],
-    "next_steps": ["personal_responsibility", "ecological_consciousness"]
+    "next_steps": [
+      "personal_responsibility",
+      "ecological_consciousness"
+    ]
   },
   "cross_references": {},
   "extra_fields": {
     "insight": "Every thought, word, and action has an effect on the world around us, making us constant, ongoing causes in the system.",
-    "source": "raw_failed_chunk_1.txt rescue",
-    "harvester_version": "4.0.0"
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "4.0.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
+    "source": "raw_failed_chunk_1.txt rescue"
   }
 }

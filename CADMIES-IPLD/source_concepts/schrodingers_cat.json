@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0.0",
   "human_id": "schrodingers_cat",
-  "title": "Schrödinger's Cat",
+  "title": "Schr\u00f6dinger's Cat",
   "definition": "A thought experiment illustrating the paradox of quantum superposition applied to macroscopic objects. A cat in a box with a radioactive source and poison is simultaneously alive and dead until observed, highlighting the measurement problem in quantum mechanics.",
   "type": "ThoughtExperiment",
   "domain": "Physics",
   "subdomain": "Quantum Mechanics",
-  "formula": "|ψ⟩ = (1/√2)(|alive⟩ + |dead⟩)",
+  "formula": "|\u03c8\u27e9 = (1/\u221a2)(|alive\u27e9 + |dead\u27e9)",
   "proofs": [
     {
       "type": "theoretical",
       "description": "The thought experiment demonstrates the absurdity of naively applying superposition to macroscopic objects",
       "confidence": 1.0,
-      "reference": "Schrödinger, E. (1935). Die gegenwärtige Situation in der Quantenmechanik. Naturwissenschaften, 23(48), 807-812."
+      "reference": "Schr\u00f6dinger, E. (1935). Die gegenw\u00e4rtige Situation in der Quantenmechanik. Naturwissenschaften, 23(48), 807-812."
     },
     {
       "type": "empirical",
@@ -21,39 +21,84 @@
       "reference": "Arndt, M., et al. (1999). Wave-particle duality of C60 molecules. Nature, 401, 680-682."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["measurement_problem", "quantum_superposition", "wavefunction_collapse", "many_worlds_interpretation", "copenhagen_interpretation"],
-    "opposing_views": []
-  },
-  "relationships": {
-    "builds_upon": ["quantum_superposition", "born_rule", "measurement_problem"],
-    "contradicts": ["classical_determinism"],
-    "related_to": ["quantum_decoherence", "quantum_entanglement", "observer_effect"],
-    "specializes": ["measurement_problem", "quantum_paradoxes"]
-  },
-  "difficulty_levels": {
-    "beginner": "Schrödinger imagined a cat that is both alive and dead until you look. It shows how weird quantum mechanics seems when applied to everyday objects.",
-    "intermediate": "The thought experiment illustrates the measurement problem: quantum systems exist in superposition until measured, but what constitutes a 'measurement'? When does the cat become definitively alive or dead?",
-    "expert": "Schrödinger's cat was intended to mock the Copenhagen interpretation, not endorse it. Modern decoherence theory resolves the paradox: environmental interaction causes apparent collapse without requiring consciousness. The cat is never truly in superposition due to continuous decoherence from its environment."
-  },
-  "learning_path": {
-    "prerequisites": ["quantum_mechanics_basics", "wavefunction", "superposition"],
-    "next_steps": ["quantum_decoherence", "measurement_problem", "interpretations_of_quantum_mechanics"]
-  },
   "metadata": {
     "created": "2026-04-03T00:00:00Z",
     "creator": "CADMIES PhD Template v1.0",
     "certainty_score": 0.98,
     "version": 1,
     "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "quantum_superposition",
+      "born_rule",
+      "measurement_problem"
+    ],
+    "contradicts": [
+      "classical_determinism"
+    ],
+    "related_to": [
+      "quantum_decoherence",
+      "quantum_entanglement",
+      "observer_effect"
+    ],
+    "specializes": [
+      "measurement_problem",
+      "quantum_paradoxes"
+    ]
+  },
+  "difficulty_levels": {
+    "beginner": "Schr\u00f6dinger imagined a cat that is both alive and dead until you look. It shows how weird quantum mechanics seems when applied to everyday objects.",
+    "intermediate": "The thought experiment illustrates the measurement problem: quantum systems exist in superposition until measured, but what constitutes a 'measurement'? When does the cat become definitively alive or dead?",
+    "expert": "Schr\u00f6dinger's cat was intended to mock the Copenhagen interpretation, not endorse it. Modern decoherence theory resolves the paradox: environmental interaction causes apparent collapse without requiring consciousness. The cat is never truly in superposition due to continuous decoherence from its environment."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "quantum_mechanics_basics",
+      "wavefunction",
+      "superposition"
+    ],
+    "next_steps": [
+      "quantum_decoherence",
+      "measurement_problem",
+      "interpretations_of_quantum_mechanics"
+    ]
+  },
+  "cross_references": {
+    "related_concepts": [
+      "measurement_problem",
+      "quantum_superposition",
+      "wavefunction_collapse",
+      "many_worlds_interpretation",
+      "copenhagen_interpretation"
+    ],
+    "opposing_views": []
   },
   "extra_fields": {
-    "historical_context": "Proposed by Erwin Schrödinger in 1935 in response to the Copenhagen interpretation, specifically to highlight the absurdity of applying superposition to macroscopic objects.",
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "Proposed by Erwin Schr\u00f6dinger in 1935 in response to the Copenhagen interpretation, specifically to highlight the absurdity of applying superposition to macroscopic objects.",
     "limitations": "Modern decoherence theory largely resolves the paradox; actual experiments never create macroscopic superpositions due to environmental decoherence.",
-    "key_references": ["Schrödinger 1935", "Zurek 1991", "Tegmark 1993"],
-    "creator": "Erwin Schrödinger",
-    "creation_year": 1935,
-    "applications": ["Quantum foundations", "Pedagogy", "Popular science"]
+    "applications": [
+      "Quantum foundations",
+      "Pedagogy",
+      "Popular science"
+    ],
+    "key_references": [
+      "Schr\u00f6dinger 1935",
+      "Zurek 1991",
+      "Tegmark 1993"
+    ],
+    "poetic_versions": [],
+    "mantras": [],
+    "creator": "Erwin Schr\u00f6dinger",
+    "creation_year": 1935
   }
 }

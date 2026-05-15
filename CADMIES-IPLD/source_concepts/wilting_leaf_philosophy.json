@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Philosophy",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "The realization that everything is transient, and clinging to any state leads to suffering. The understanding of 'self' as a process rather than a solid entity.",
     "source_chunk": 10,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.1"
+    "harvester_version": "4.0.1",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Ethics & Philosophy of Mind",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -48,6 +49,14 @@
     "insight": "Understanding that each action has a causal effect on others and the world, encouraging responsibility and compassion in one's actions.",
     "source_chunk": 4,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.0"
+    "harvester_version": "4.0.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

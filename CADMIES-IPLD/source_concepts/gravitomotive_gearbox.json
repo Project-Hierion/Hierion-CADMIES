@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Theoretical Physics",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -48,6 +49,14 @@
     "insight": "This concept offers a novel and intuitive understanding of black holes as self-sustaining, non-linear geometric structures with a transmission mechanism akin to a mechanical gearbox.",
     "source_chunk": 1,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.0"
+    "harvester_version": "4.0.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

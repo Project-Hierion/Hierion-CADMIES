@@ -6,24 +6,41 @@
   "type": "MathematicalTheorem",
   "domain": "Mathematics",
   "subdomain": "Probability Theory",
-  "formula": "P(H|E) = P(E|H) × P(H) / P(E)",
+  "formula": "P(H|E) = P(E|H) \u00d7 P(H) / P(E)",
   "proofs": [
     {
       "type": "mathematical",
-      "description": "Derived from definition of conditional probability: P(A|B) = P(A∩B)/P(B)",
+      "description": "Derived from definition of conditional probability: P(A|B) = P(A\u2229B)/P(B)",
       "confidence": 1.0,
       "reference": "Bayes, T. (1763). An Essay towards solving a Problem in the Doctrine of Chances. Philosophical Transactions, 53, 370-418."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["conditional_probability", "bayesian_inference", "prior_probability", "posterior_probability", "likelihood"],
-    "opposing_views": ["frequentist_statistics"]
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 1.0,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["probability_axioms", "conditional_probability"],
+    "builds_upon": [
+      "probability_axioms",
+      "conditional_probability"
+    ],
     "contradicts": [],
-    "related_to": ["statistical_inference", "machine_learning", "decision_theory"],
-    "specializes": ["naive_bayes", "bayesian_network", "bayesian_updating"]
+    "related_to": [
+      "statistical_inference",
+      "machine_learning",
+      "decision_theory"
+    ],
+    "specializes": [
+      "naive_bayes",
+      "bayesian_network",
+      "bayesian_updating"
+    ]
   },
   "difficulty_levels": {
     "beginner": "Bayes' Theorem helps you update your beliefs when you get new information. It tells you how much to change your mind based on evidence.",
@@ -31,23 +48,52 @@
     "expert": "Bayesian inference uses Bayes' Theorem to update probability distributions. It generalizes to continuous cases, forms the basis for Bayesian statistics (credible intervals, Bayes factors), and connects to information theory and Occam's razor (marginal likelihood penalizes complexity)."
   },
   "learning_path": {
-    "prerequisites": ["probability_basics", "conditional_probability", "statistics"],
-    "next_steps": ["bayesian_inference", "bayesian_statistics", "machine_learning"]
+    "prerequisites": [
+      "probability_basics",
+      "conditional_probability",
+      "statistics"
+    ],
+    "next_steps": [
+      "bayesian_inference",
+      "bayesian_statistics",
+      "machine_learning"
+    ]
   },
-  "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
-    "certainty_score": 1.0,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+  "cross_references": {
+    "related_concepts": [
+      "conditional_probability",
+      "bayesian_inference",
+      "prior_probability",
+      "posterior_probability",
+      "likelihood"
+    ],
+    "opposing_views": [
+      "frequentist_statistics"
+    ]
   },
   "extra_fields": {
-    "historical_context": "Published posthumously by Thomas Bayes (1763). Independently rediscovered by Laplace (1774). Modern Bayesian revolution began mid-20th century (Jeffreys, Savage, Jaynes).",
-    "limitations": "Requires specifying prior probabilities, which can be subjective. Computationally intensive for complex models.",
-    "key_references": ["Bayes 1763", "Laplace 1774", "Jaynes 2003", "Gelman 2013"],
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
     "discoverer": "Thomas Bayes",
     "discovery_year": 1763,
-    "applications": ["Medical diagnosis", "Machine learning", "Spam filtering", "Scientific inference", "A/B testing"]
+    "historical_context": "Published posthumously by Thomas Bayes (1763). Independently rediscovered by Laplace (1774). Modern Bayesian revolution began mid-20th century (Jeffreys, Savage, Jaynes).",
+    "limitations": "Requires specifying prior probabilities, which can be subjective. Computationally intensive for complex models.",
+    "applications": [
+      "Medical diagnosis",
+      "Machine learning",
+      "Spam filtering",
+      "Scientific inference",
+      "A/B testing"
+    ],
+    "key_references": [
+      "Bayes 1763",
+      "Laplace 1774",
+      "Jaynes 2003",
+      "Gelman 2013"
+    ],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

@@ -1,20 +1,71 @@
 {
   "schema_version": "1.0.0",
   "human_id": "anatta_non_self",
-  "title": "Anattā (Non-Self)",
-  "definition": "The Buddhist doctrine that there is no permanent, unchanging, independent self or soul (attā) underlying existence. What we call the 'self' is a conventional label for a constantly changing bundle of five aggregates (skandhas): form, feeling, perception, mental formations, and consciousness. None of these is permanent. None exists independently. None constitutes an enduring 'me.' The sense of being a unified, continuous self is a constructed experience — useful for navigating the world but ultimately empty of inherent existence. Realizing anattā is not losing oneself; it is losing the illusion of a fixed self and thereby gaining freedom from the suffering that arises from clinging to it.",
+  "title": "Anatt\u0101 (Non-Self)",
+  "definition": "The Buddhist doctrine that there is no permanent, unchanging, independent self or soul (att\u0101) underlying existence. What we call the 'self' is a conventional label for a constantly changing bundle of five aggregates (skandhas): form, feeling, perception, mental formations, and consciousness. None of these is permanent. None exists independently. None constitutes an enduring 'me.' The sense of being a unified, continuous self is a constructed experience \u2014 useful for navigating the world but ultimately empty of inherent existence. Realizing anatt\u0101 is not losing oneself; it is losing the illusion of a fixed self and thereby gaining freedom from the suffering that arises from clinging to it.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Buddhist Philosophy",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.91,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "One of the three marks of existence (tilakkha\u1e47a) in Buddhist philosophy, alongside anicca (impermanence) and dukkha (suffering). Systematically presented in the Anattalakkha\u1e47a Sutta (SN 22.59). Added to CADMIES as companion to \u015a\u016bnyat\u0101 and Dependent Origination, May 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Who are you? You might say your name, your job, your personality. But those all change. Your body replaces its cells constantly. Your thoughts come and go. Your memories shift. If everything about you changes, where is the fixed 'you' that all this change happens to? Buddhism says there isn't one \u2014 and that's good news. The 'self' is like a whirlpool: it looks like a solid thing, but it's really just water moving in a pattern. Recognizing this isn't losing yourself. It's realizing you were never a statue in the first place \u2014 you were always a river.",
+    "intermediate": "Anatt\u0101 is the logical corollary of dependent origination and emptiness applied to the person. What we conventionally designate as 'self' is, upon analysis, reducible to five skandhas (aggregates): r\u016bpa (material form), vedan\u0101 (feeling tone), sa\u00f1\u00f1\u0101 (perception), sa\u1e45kh\u0101ra (mental formations), and vi\u00f1\u00f1\u0101\u1e47a (consciousness). Each aggregate is impermanent (anicca), dependently arisen, and empty of self-nature. The sense of being a unified self is a construction of the sa\u1e45kh\u0101ra aggregate \u2014 useful for survival but without ultimate referent. This does not deny the conventional, transactional self (the person who eats, works, and can be held responsible for actions). It denies that this conventional self corresponds to an ultimate, independent entity.",
+    "expert": "The anatt\u0101 doctrine is philosophically radical and has been misinterpreted both within and outside Buddhist traditions. N\u0101g\u0101rjuna's M\u0101dhyamaka extends anatt\u0101 beyond persons to all phenomena \u2014 if persons are empty, so are the skandhas, and so is emptiness itself. The Puggalav\u0101dins (Personalists) argued for a conventional person (pudgala) that is neither identical to nor different from the aggregates, a view rejected as heretical by mainstream schools. In Western philosophy, anatt\u0101 resonates with Hume's bundle theory of the self, Parfit's reductionist account of personal identity, and Metzinger's 'ego tunnel' \u2014 the self as a transparent self-model without a modeler. In the CADMIES mycelium, anatt\u0101 connects to epistemic humility (the knower is not a fixed entity either) and the paradox of practice (who is it that practices when there is no self to do the practicing?). The mycelium itself has no central self \u2014 it is a distributed network of concepts, each CID a node in a web without a center. No single concept is the mycelium. The mycelium is the pattern of connections."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
-    "There is no permanent, independent self behind experience — only the flowing aggregates.",
+    "There is no permanent, independent self behind experience \u2014 only the flowing aggregates.",
     "The self is a process, not an entity. It is a verb, not a noun.",
     "Clinging to a fixed sense of self is the root of suffering.",
-    "To realize non-self is not annihilation but liberation — the self that was never there cannot be lost.",
+    "To realize non-self is not annihilation but liberation \u2014 the self that was never there cannot be lost.",
     "The five aggregates are empty of self: form, feeling, perception, formations, consciousness."
   ],
-  "poetic_version": "You are not a thing. You are a river — same name, never the same water. The banks are memory. The current is change. The riverbed is habit. No single drop is the river, and the river has no single self.",
-  "mantra": "Sabbe dhammā anattā. (All phenomena are not-self.)",
+  "poetic_version": "You are not a thing. You are a river \u2014 same name, never the same water. The banks are memory. The current is change. The riverbed is habit. No single drop is the river, and the river has no single self.",
+  "mantra": "Sabbe dhamm\u0101 anatt\u0101. (All phenomena are not-self.)",
   "builds_upon": [
     "sunyata_emptiness",
     "pratityasamutpada_dependent_origination"
@@ -27,19 +78,5 @@
   "contradicts": [
     "cartesian_dualism:axiom/the_self_is_a_thinking_substance",
     "eternalism:axiom/an_eternal_soul_exists_independent_of_the_body"
-  ],
-  "metadata": {
-    "created": "2026-05-05T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.91,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "One of the three marks of existence (tilakkhaṇa) in Buddhist philosophy, alongside anicca (impermanence) and dukkha (suffering). Systematically presented in the Anattalakkhaṇa Sutta (SN 22.59). Added to CADMIES as companion to Śūnyatā and Dependent Origination, May 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "Who are you? You might say your name, your job, your personality. But those all change. Your body replaces its cells constantly. Your thoughts come and go. Your memories shift. If everything about you changes, where is the fixed 'you' that all this change happens to? Buddhism says there isn't one — and that's good news. The 'self' is like a whirlpool: it looks like a solid thing, but it's really just water moving in a pattern. Recognizing this isn't losing yourself. It's realizing you were never a statue in the first place — you were always a river.",
-    "intermediate": "Anattā is the logical corollary of dependent origination and emptiness applied to the person. What we conventionally designate as 'self' is, upon analysis, reducible to five skandhas (aggregates): rūpa (material form), vedanā (feeling tone), saññā (perception), saṅkhāra (mental formations), and viññāṇa (consciousness). Each aggregate is impermanent (anicca), dependently arisen, and empty of self-nature. The sense of being a unified self is a construction of the saṅkhāra aggregate — useful for survival but without ultimate referent. This does not deny the conventional, transactional self (the person who eats, works, and can be held responsible for actions). It denies that this conventional self corresponds to an ultimate, independent entity.",
-    "expert": "The anattā doctrine is philosophically radical and has been misinterpreted both within and outside Buddhist traditions. Nāgārjuna's Mādhyamaka extends anattā beyond persons to all phenomena — if persons are empty, so are the skandhas, and so is emptiness itself. The Puggalavādins (Personalists) argued for a conventional person (pudgala) that is neither identical to nor different from the aggregates, a view rejected as heretical by mainstream schools. In Western philosophy, anattā resonates with Hume's bundle theory of the self, Parfit's reductionist account of personal identity, and Metzinger's 'ego tunnel' — the self as a transparent self-model without a modeler. In the CADMIES mycelium, anattā connects to epistemic humility (the knower is not a fixed entity either) and the paradox of practice (who is it that practices when there is no self to do the practicing?). The mycelium itself has no central self — it is a distributed network of concepts, each CID a node in a web without a center. No single concept is the mycelium. The mycelium is the pattern of connections."
-  }
+  ]
 }

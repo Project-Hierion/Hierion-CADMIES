@@ -1,11 +1,12 @@
 {
   "schema_version": "1.0.0",
   "human_id": "einstein_mass_energy_equivalence",
-  "title": "Mass-Energy Equivalence: E = mc²",
-  "definition": "Mass-energy equivalence states that mass and energy are the same physical entity, convertible into each other. The equation E = mc² shows that energy (E) equals mass (m) times the speed of light (c) squared.",
+  "title": "Mass-Energy Equivalence: E = mc\u00b2",
+  "definition": "Mass-energy equivalence states that mass and energy are the same physical entity, convertible into each other. The equation E = mc\u00b2 shows that energy (E) equals mass (m) times the speed of light (c) squared.",
   "type": "PhysicalPrinciple",
   "domain": "Physics",
   "subdomain": "Relativity",
+  "formula": null,
   "proofs": [
     {
       "type": "experimental",
@@ -23,25 +24,55 @@
     }
   ],
   "metadata": {
+    "created": "2026-05-15T22:49:47.964243Z",
     "creator": "CADMIES_Quick_Mint",
     "certainty_score": 0.99,
     "version": 1,
     "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["special_relativity", "lorentz_transformations"],
-    "led_to": ["nuclear_physics", "particle_physics"],
-    "related_to": ["nuclear_binding_energy", "antimatter"]
+    "builds_upon": [
+      "special_relativity",
+      "lorentz_transformations"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "nuclear_binding_energy",
+      "antimatter"
+    ],
+    "specializes": [],
+    "led_to": [
+      "nuclear_physics",
+      "particle_physics"
+    ]
   },
   "difficulty_levels": {
     "beginner": "Mass can turn into energy, like in the sun or nuclear power plants",
-    "intermediate": "Mass is concentrated energy; c² is a huge conversion factor",
+    "intermediate": "Mass is concentrated energy; c\u00b2 is a huge conversion factor",
     "expert": "Invariant mass includes both rest mass and kinetic energy contributions"
   },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
   "extra_fields": {
-    "formula": "E = mc²",
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
     "discoverer": "Albert Einstein",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
+    "formula": "E = mc\u00b2",
     "year": 1905,
     "c_value_ms": 299792458,
     "significance": "Explains nuclear energy, particle creation/annihilation"

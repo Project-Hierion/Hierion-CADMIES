@@ -2,10 +2,61 @@
   "schema_version": "1.0.0",
   "human_id": "craving_tanha_cycle",
   "title": "Craving Tanha Cycle",
-  "definition": "The self-perpetuating loop where an impermanent pleasant sensation (vedana) triggers craving (tanha) for its repetition, leading to temporary satisfaction followed by renewed dissatisfaction (dukkha). Modern consumer products like Coca-Cola are engineered to exploit this cycle — the carbonation tingle is a near-perfect vedana hook designed to guarantee repeat consumption.",
+  "definition": "The self-perpetuating loop where an impermanent pleasant sensation (vedana) triggers craving (tanha) for its repetition, leading to temporary satisfaction followed by renewed dissatisfaction (dukkha). Modern consumer products like Coca-Cola are engineered to exploit this cycle \u2014 the carbonation tingle is a near-perfect vedana hook designed to guarantee repeat consumption.",
   "type": "PhilosophicalPrinciple",
   "domain": "Buddhist_Philosophy",
   "subdomain": "Philosophy of Mind",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-03T19:40:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.94,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Extracted by Mistral 7B and enriched by human co-gardener from conversation about Coca-Cola consumption and Buddhist craving, May 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When we want something because it felt good once, and keep wanting more but it's never enough \u2014 that's the craving cycle. Like drinking Coke for the bubbles, but the bubbles always fade.",
+    "intermediate": "The cycle operates through vedana (feeling-tone), tanha (craving), and dukkha (dissatisfaction). A pleasant sensation vanishes, the mind craves its return, fulfillment is temporary, and the craving returns stronger each time.",
+    "expert": "Consumer capitalism operationalizes the tanha cycle by designing products that deliver intense but fleeting vedana \u2014 the carbonation 'tingle' in Coca-Cola is a textbook example of engineered impermanence that guarantees repeated consumption without satisfaction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Pleasant sensations are impermanent by nature (vedana).",
     "Craving arises when the mind grasps at repeating a faded pleasant sensation (tanha).",
@@ -20,19 +71,5 @@
     "buddhist_philosophy:principle/mindful_consumption",
     "buddhist_philosophy:principle/middle_path_of_consumption"
   ],
-  "contradicts": [],
-  "metadata": {
-    "created": "2026-05-03T19:40:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.94,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Extracted by Mistral 7B and enriched by human co-gardener from conversation about Coca-Cola consumption and Buddhist craving, May 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "When we want something because it felt good once, and keep wanting more but it's never enough — that's the craving cycle. Like drinking Coke for the bubbles, but the bubbles always fade.",
-    "intermediate": "The cycle operates through vedana (feeling-tone), tanha (craving), and dukkha (dissatisfaction). A pleasant sensation vanishes, the mind craves its return, fulfillment is temporary, and the craving returns stronger each time.",
-    "expert": "Consumer capitalism operationalizes the tanha cycle by designing products that deliver intense but fleeting vedana — the carbonation 'tingle' in Coca-Cola is a textbook example of engineered impermanence that guarantees repeated consumption without satisfaction."
-  }
+  "contradicts": []
 }

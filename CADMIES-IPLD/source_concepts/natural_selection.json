@@ -6,7 +6,7 @@
   "type": "ScientificTheory",
   "domain": "Biology",
   "subdomain": "Evolutionary Biology",
-  "formula": "R = h² × S (breeder's equation)",
+  "formula": "R = h\u00b2 \u00d7 S (breeder's equation)",
   "proofs": [
     {
       "type": "empirical",
@@ -21,15 +21,36 @@
       "reference": "Fisher, R.A. (1930). The Genetical Theory of Natural Selection."
     }
   ],
-  "cross_references": {
-    "related_concepts": ["evolution", "adaptation", "sexual_selection", "genetic_drift"],
-    "opposing_views": ["creationism", "lamarckism"]
+  "metadata": {
+    "created": "2026-04-03T00:00:00Z",
+    "creator": "CADMIES PhD Template v1.0",
+    "certainty_score": 0.99,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["genetics", "population_biology", "heritability"],
-    "contradicts": ["lamarckian_inheritance", "vitalism"],
-    "related_to": ["speciation", "phylogenetics", "evolutionary_developmental_biology"],
-    "specializes": ["sexual_selection", "kin_selection", "group_selection"]
+    "builds_upon": [
+      "genetics",
+      "population_biology",
+      "heritability"
+    ],
+    "contradicts": [
+      "lamarckian_inheritance",
+      "vitalism"
+    ],
+    "related_to": [
+      "speciation",
+      "phylogenetics",
+      "evolutionary_developmental_biology"
+    ],
+    "specializes": [
+      "sexual_selection",
+      "kin_selection",
+      "group_selection"
+    ]
   },
   "difficulty_levels": {
     "beginner": "Living things with traits that help them survive and reproduce tend to pass those traits to their offspring. Over time, the population becomes better adapted to its environment.",
@@ -37,23 +58,54 @@
     "expert": "Natural selection operates on phenotypes but acts on genotypes via inclusive fitness. The modern synthesis integrates selection with population genetics. Selection can be stabilizing, directional, or disruptive. Selection acts at multiple levels: gene, individual, kin, group."
   },
   "learning_path": {
-    "prerequisites": ["genetics_basics", "population_biology", "heritability"],
-    "next_steps": ["population_genetics", "speciation", "evolutionary_developmental_biology"]
+    "prerequisites": [
+      "genetics_basics",
+      "population_biology",
+      "heritability"
+    ],
+    "next_steps": [
+      "population_genetics",
+      "speciation",
+      "evolutionary_developmental_biology"
+    ]
   },
-  "metadata": {
-    "created": "2026-04-03T00:00:00Z",
-    "creator": "CADMIES PhD Template v1.0",
-    "certainty_score": 0.99,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+  "cross_references": {
+    "related_concepts": [
+      "evolution",
+      "adaptation",
+      "sexual_selection",
+      "genetic_drift"
+    ],
+    "opposing_views": [
+      "creationism",
+      "lamarckism"
+    ]
   },
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": 1858,
     "historical_context": "Independently proposed by Charles Darwin and Alfred Russel Wallace (1858). Darwin's On the Origin of Species (1859) provided extensive evidence. Modern synthesis (1930s-40s) integrated with genetics.",
     "limitations": "Does not explain origin of life (abiogenesis), cultural evolution, or traits with no fitness differential. Neutral theory (Kimura) explains much molecular evolution.",
-    "key_references": ["Darwin 1859", "Fisher 1930", "Hamilton 1964", "Kimura 1968"],
-    "discoverers": ["Charles Darwin", "Alfred Russel Wallace"],
-    "discovery_year": 1858,
-    "applications": ["Medicine (antibiotic resistance)", "Agriculture (crop breeding)", "Conservation biology"]
+    "applications": [
+      "Medicine (antibiotic resistance)",
+      "Agriculture (crop breeding)",
+      "Conservation biology"
+    ],
+    "key_references": [
+      "Darwin 1859",
+      "Fisher 1930",
+      "Hamilton 1964",
+      "Kimura 1968"
+    ],
+    "poetic_versions": [],
+    "mantras": [],
+    "discoverers": [
+      "Charles Darwin",
+      "Alfred Russel Wallace"
+    ]
   }
 }

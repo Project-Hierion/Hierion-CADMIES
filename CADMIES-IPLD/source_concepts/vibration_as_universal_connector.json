@@ -5,14 +5,17 @@
   "definition": "The metaphysical principle that sound is vibration, and vibration connects all things across physical, biological, and spiritual domains, enabling phenomena such as planetary breath synchronization.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
+  "subdomain": "",
   "formula": null,
-  "related_to": [
-    "planetary_synchronized_breath",
-    "meditative_breath_merging_with_nature"
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
   ],
-  "builds_upon": [],
-  "specializes": [],
-  "contradicts": [],
   "metadata": {
     "created": "2026-04-20T00:00:00Z",
     "creator": "CADMIES-IPLD/philosophical_mining",
@@ -20,9 +23,46 @@
     "version": 1,
     "license": "CC BY-SA 4.0",
     "purpose": "educational",
-    "status": "active",
     "supersedes": null,
     "superseded_by": null,
+    "status": "active",
     "deprecation_reason": null
-  }
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "",
+    "intermediate": "",
+    "expert": ""
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
+  "related_to": [
+    "planetary_synchronized_breath",
+    "meditative_breath_merging_with_nature"
+  ],
+  "builds_upon": [],
+  "specializes": [],
+  "contradicts": []
 }

@@ -2,15 +2,66 @@
   "schema_version": "1.0.0",
   "human_id": "trojan_cigarette",
   "title": "The Trojan Cigarette",
-  "definition": "A delivery mechanism disguised as something mundane, only identifiable by its effects on the user rather than its appearance. The term originates from the practice of emptying a standard cigarette of its tobacco and repacking it with cannabis — the object appears identical to a regular cigarette but produces radically different effects. Philosophically, it describes any concealment strategy where the form is indistinguishable from the ordinary while the function is entirely different. The cigarette is not a cigarette. It is a joint in cigarette clothing. The deception is not in the object but in the observer's assumption that form predicts function.",
+  "definition": "A delivery mechanism disguised as something mundane, only identifiable by its effects on the user rather than its appearance. The term originates from the practice of emptying a standard cigarette of its tobacco and repacking it with cannabis \u2014 the object appears identical to a regular cigarette but produces radically different effects. Philosophically, it describes any concealment strategy where the form is indistinguishable from the ordinary while the function is entirely different. The cigarette is not a cigarette. It is a joint in cigarette clothing. The deception is not in the object but in the observer's assumption that form predicts function.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Philosophy of Perception",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-05T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.75,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from a discussion about Dave Chappelle's concealed cannabis consumption during a live performance. The observation that he appeared to be smoking a cigarette while actually smoking cannabis \u2014 the effects becoming visible only to the trained eye \u2014 led to the concept of object-level camouflage where form is preserved but function is swapped. May 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a cigarette that isn't a cigarette. It looks exactly like a Marlboro \u2014 white paper, filter, everything. But inside, instead of tobacco, it's packed with cannabis. From twenty feet away, even a police officer sees just a guy smoking a cigarette. Up close, the smell gives it away. The Trojan Cigarette is a disguise that works on distance and assumption \u2014 it hides in plain sight by looking exactly like something harmless.",
+    "intermediate": "The Trojan Cigarette exemplifies a class of concealment strategies that exploit categorical perception. The observer sees 'cigarette' because the object matches the visual template for 'cigarette' \u2014 the brain lazy-matches and moves on. The deception works at the level of pattern recognition, not physical hiding. This principle extends beyond physical objects to ideas, behaviors, and systems that present as one thing while functioning as another.",
+    "expert": "The Trojan Cigarette operates at the intersection of philosophy of perception, semiotics, and game theory. It demonstrates that successful camouflage does not require invisibility \u2014 only category membership. The object is placed in a trusted category ('cigarette'), and the observer's own heuristic processing completes the deception. This is structurally identical to Batesian mimicry in evolutionary biology but applied to human artifacts. The principle has implications for understanding propaganda, social signaling, and the epistemology of everyday perception: we do not see objects. We see categories. And categories can be hacked."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Form does not guarantee function. Appearance is not essence.",
     "Plausible deniability is a design principle, not merely a legal strategy.",
     "The effectiveness of a disguise is inversely proportional to the observer's expertise.",
-    "The Trojan Cigarette works at medium social distance — it fails under close inspection.",
+    "The Trojan Cigarette works at medium social distance \u2014 it fails under close inspection.",
     "Camouflage exploits the observer's lazy pattern-matching, not their inability to detect."
   ],
   "poetic_version": "It looks like a cigarette. It burns like a cigarette. But twenty minutes later, the parking lot is a Monet painting.",
@@ -24,19 +75,5 @@
   ],
   "contradicts": [
     "commonsense:axiom/things_are_what_they_appear_to_be"
-  ],
-  "metadata": {
-    "created": "2026-05-05T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.75,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from a discussion about Dave Chappelle's concealed cannabis consumption during a live performance. The observation that he appeared to be smoking a cigarette while actually smoking cannabis — the effects becoming visible only to the trained eye — led to the concept of object-level camouflage where form is preserved but function is swapped. May 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "Imagine a cigarette that isn't a cigarette. It looks exactly like a Marlboro — white paper, filter, everything. But inside, instead of tobacco, it's packed with cannabis. From twenty feet away, even a police officer sees just a guy smoking a cigarette. Up close, the smell gives it away. The Trojan Cigarette is a disguise that works on distance and assumption — it hides in plain sight by looking exactly like something harmless.",
-    "intermediate": "The Trojan Cigarette exemplifies a class of concealment strategies that exploit categorical perception. The observer sees 'cigarette' because the object matches the visual template for 'cigarette' — the brain lazy-matches and moves on. The deception works at the level of pattern recognition, not physical hiding. This principle extends beyond physical objects to ideas, behaviors, and systems that present as one thing while functioning as another.",
-    "expert": "The Trojan Cigarette operates at the intersection of philosophy of perception, semiotics, and game theory. It demonstrates that successful camouflage does not require invisibility — only category membership. The object is placed in a trusted category ('cigarette'), and the observer's own heuristic processing completes the deception. This is structurally identical to Batesian mimicry in evolutionary biology but applied to human artifacts. The principle has implications for understanding propaganda, social signaling, and the epistemology of everyday perception: we do not see objects. We see categories. And categories can be hacked."
-  }
+  ]
 }

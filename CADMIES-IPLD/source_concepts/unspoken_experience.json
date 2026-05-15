@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Philosophy of Language",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -49,6 +50,14 @@
     "insight": "The profound observation that some fundamental aspects of reality can only be grasped through direct experience, not verbal articulation.",
     "source_chunk": 2,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.0"
+    "harvester_version": "4.0.0",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

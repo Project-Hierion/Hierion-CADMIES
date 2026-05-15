@@ -6,6 +6,57 @@
   "type": "PhilosophicalPrinciple",
   "domain": "Epistemology",
   "subdomain": "Philosophy of Action / Process Philosophy",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-04-20T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.93,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from conversation about roadmap loss, rebuilding, and emergent architecture during CADMIES CAR system documentation, April 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "You don't need a perfect plan to start building. The act of building teaches you what you need to know.",
+    "intermediate": "Process philosophy suggests that reality is not static but emergent. The roadmap is a tool, not a cage. Build, learn, adjust, rebuild.",
+    "expert": "The dialectic between plan and execution reveals the limitations of purely rational design. Emergent architecture acknowledges that the final form is discovered through action, not predicted in advance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "The blueprint is not the building.",
     "The building reveals the blueprint.",
@@ -24,19 +75,5 @@
   ],
   "contradicts": [
     "epistemology:principle/perfect_planning_before_action"
-  ],
-  "metadata": {
-    "created": "2026-04-20T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.93,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from conversation about roadmap loss, rebuilding, and emergent architecture during CADMIES CAR system documentation, April 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "You don't need a perfect plan to start building. The act of building teaches you what you need to know.",
-    "intermediate": "Process philosophy suggests that reality is not static but emergent. The roadmap is a tool, not a cage. Build, learn, adjust, rebuild.",
-    "expert": "The dialectic between plan and execution reveals the limitations of purely rational design. Emergent architecture acknowledges that the final form is discovered through action, not predicted in advance."
-  }
+  ]
 }

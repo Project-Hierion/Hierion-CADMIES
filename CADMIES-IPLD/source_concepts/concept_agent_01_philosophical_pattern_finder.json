@@ -6,6 +6,7 @@
   "type": "CognitiveAgent",
   "domain": "Metaphysics",
   "subdomain": "Pattern Recognition",
+  "formula": null,
   "proofs": [
     {
       "type": "design_specification",
@@ -20,6 +21,8 @@
     "creator": "MDI Development Team",
     "certainty_score": 0.85,
     "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
     "supersedes": null,
     "superseded_by": null
   },
@@ -51,7 +54,20 @@
       "Test pattern finding algorithms"
     ]
   },
+  "cross_references": {},
   "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
     "purpose": "Demonstrate AgentNode schema with real philosophical concepts",
     "testing_focus": "Schema validation and CID generation",
     "expected_behavior": "Can be stored as IPLD block and retrieved via CID"
@@ -69,7 +85,11 @@
     ],
     "environment_spec": {
       "python_version": "3.9+",
-      "libraries": ["json", "re", "collections"],
+      "libraries": [
+        "json",
+        "re",
+        "collections"
+      ],
       "resource_limits": {
         "memory_mb": 256,
         "timeout_seconds": 10

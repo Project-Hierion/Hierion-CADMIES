@@ -2,17 +2,18 @@
   "schema_version": "1.0.0",
   "human_id": "ph_scale",
   "title": "pH Scale",
-  "definition": "pH is a measure of acidity or alkalinity of a solution, defined as the negative logarithm (base 10) of hydrogen ion concentration: pH = -log₁₀[H⁺], where [H⁺] is in moles per liter.",
+  "definition": "pH is a measure of acidity or alkalinity of a solution, defined as the negative logarithm (base 10) of hydrogen ion concentration: pH = -log\u2081\u2080[H\u207a], where [H\u207a] is in moles per liter.",
   "type": "ScientificConcept",
   "domain": "Chemistry",
   "subdomain": "AcidBaseChemistry",
+  "formula": null,
   "proofs": [
     {
       "type": "theoretical",
-      "description": "Sørensen's original definition",
+      "description": "S\u00f8rensen's original definition",
       "confidence": 0.99,
       "date": "1909-01-01",
-      "reference": "Sørensen, S. P. L. (1909). Biochemische Zeitschrift"
+      "reference": "S\u00f8rensen, S. P. L. (1909). Biochemische Zeitschrift"
     },
     {
       "type": "experimental",
@@ -23,25 +24,55 @@
     }
   ],
   "metadata": {
+    "created": "2026-05-15T22:49:48.088306Z",
     "creator": "CADMIES_Quick_Mint",
     "certainty_score": 0.99,
     "version": 1,
     "license": "CC BY-SA 4.0",
-    "purpose": "educational"
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
   },
   "relationships": {
-    "builds_upon": ["acid_base_theory", "logarithmic_scale"],
-    "related_to": ["buffer_solutions", "titration"],
-    "enables": ["biochemistry", "environmental_monitoring"]
+    "builds_upon": [
+      "acid_base_theory",
+      "logarithmic_scale"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "buffer_solutions",
+      "titration"
+    ],
+    "specializes": [],
+    "enables": [
+      "biochemistry",
+      "environmental_monitoring"
+    ]
   },
   "difficulty_levels": {
     "beginner": "pH measures how acidic or basic something is (0=acidic, 7=neutral, 14=basic)",
     "intermediate": "Each pH unit represents a 10x change in hydrogen ion concentration",
     "expert": "pH is the negative log of hydrogen ion activity, accounting for non-ideal behavior"
   },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
   "extra_fields": {
-    "formula": "pH = -log₁₀[H⁺]",
-    "discoverer": "Søren Peder Lauritz Sørensen",
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "S\u00f8ren Peder Lauritz S\u00f8rensen",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": [],
+    "formula": "pH = -log\u2081\u2080[H\u207a]",
     "year": 1909,
     "scale_range": "0-14",
     "neutral_at_25c": 7.0

@@ -2,17 +2,68 @@
   "schema_version": "1.0.0",
   "human_id": "ecosystem_as_cohabitation",
   "title": "Ecosystem as Cohabitation",
-  "definition": "The re-framing of adversarial biological or systemic relationships as long-term cohabitation arrangements where both parties adapt, negotiate, and develop mutual recognition over time. The 'monster' becomes a familiar presence rather than an existential threat. Long-term exposure transforms terror into familiarity — and with familiarity comes a strange form of domesticity.",
+  "definition": "The re-framing of adversarial biological or systemic relationships as long-term cohabitation arrangements where both parties adapt, negotiate, and develop mutual recognition over time. The 'monster' becomes a familiar presence rather than an existential threat. Long-term exposure transforms terror into familiarity \u2014 and with familiarity comes a strange form of domesticity.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Philosophy of Biology",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-04T00:00:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.86,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Extracted by Mistral 7B and enriched by human co-gardener from a conversation about vampire-human cohabitation, DEET, and midnight cookies, May 2026"
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "After a while, even scary things become normal. A vampire that visits every night stops being a monster and starts being a weird roommate. You adapt. He adapts. You're both part of the same household now. Might as well make it work.",
+    "intermediate": "Ecosystem as cohabitation challenges the predator-prey binary by introducing temporal depth. Over sufficient time, adversarial relationships develop patterns, accommodations, and even mutual recognition. The host's immune system adapts. The predator's hunting strategy relaxes. What was parasitic becomes \u2014 if not symbiotic \u2014 at least stable and familiar.",
+    "expert": "This principle extends co-evolutionary theory into psychological and social domains. It suggests that persistent stressors \u2014 whether biological, institutional, or psychological \u2014 undergo a process of normalization that transforms the subject's relationship to the stressor. The 'monster' is domesticated not through defeat but through duration. The implications for chronic illness, systemic oppression, and long-term care are significant."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
     "Long-term exposure transforms terror into familiarity.",
-    "Every predator is part of the ecosystem — including yours.",
+    "Every predator is part of the ecosystem \u2014 including yours.",
     "Co-evolution applies to behavioral and psychological adaptations too.",
     "A relationship does not need to be consensual to become stable."
   ],
-  "poetic_version": "The wolf at the door becomes the dog by the fire — same teeth, different arrangement.",
+  "poetic_version": "The wolf at the door becomes the dog by the fire \u2014 same teeth, different arrangement.",
   "mantra": "He's not an intruder. He's part of the household now.",
   "builds_upon": [
     "predatory_inevitability"
@@ -23,19 +74,5 @@
   ],
   "contradicts": [
     "horror_genre:axiom/monsters_are_existential_threats"
-  ],
-  "metadata": {
-    "created": "2026-05-04T00:00:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.86,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Extracted by Mistral 7B and enriched by human co-gardener from a conversation about vampire-human cohabitation, DEET, and midnight cookies, May 2026"
-  },
-  "difficulty_levels": {
-    "beginner": "After a while, even scary things become normal. A vampire that visits every night stops being a monster and starts being a weird roommate. You adapt. He adapts. You're both part of the same household now. Might as well make it work.",
-    "intermediate": "Ecosystem as cohabitation challenges the predator-prey binary by introducing temporal depth. Over sufficient time, adversarial relationships develop patterns, accommodations, and even mutual recognition. The host's immune system adapts. The predator's hunting strategy relaxes. What was parasitic becomes — if not symbiotic — at least stable and familiar.",
-    "expert": "This principle extends co-evolutionary theory into psychological and social domains. It suggests that persistent stressors — whether biological, institutional, or psychological — undergo a process of normalization that transforms the subject's relationship to the stressor. The 'monster' is domesticated not through defeat but through duration. The implications for chronic illness, systemic oppression, and long-term care are significant."
-  }
+  ]
 }

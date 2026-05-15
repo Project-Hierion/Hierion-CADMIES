@@ -6,6 +6,7 @@
   "type": "Concept",
   "domain": "Philosophy of Religion",
   "subdomain": "",
+  "formula": null,
   "proofs": [
     {
       "type": "conversation_extraction",
@@ -45,6 +46,14 @@
     "insight": "The realization that all phenomena are transient and empty of a permanent self or substantial essence, leading to the cessation of suffering.",
     "source_chunk": 2,
     "origin_file": "conversation.json",
-    "harvester_version": "4.0.1"
+    "harvester_version": "4.0.1",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
   }
 }

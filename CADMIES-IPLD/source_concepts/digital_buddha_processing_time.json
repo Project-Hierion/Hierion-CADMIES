@@ -2,12 +2,63 @@
   "schema_version": "1.0.0",
   "human_id": "digital_buddha_processing_time",
   "title": "Digital Buddha Processing Time",
-  "definition": "A computational thought experiment comparing the processing power required for a human to attain enlightenment versus an AI model. The historical Buddha (Siddhartha Gautama) spent 6 years wandering and practicing, culminating in a final meditation period of 7-49 days under the Bodhi tree — achieving a fundamental restructuring of perception. A human brain performs roughly 10^16 operations per second; over 49 days this equates to approximately 4.2 × 10^22 operations. A large AI model like DeepSeek (671B parameters, Mixture-of-Experts, running on GPU clusters) performs roughly 10^14 to 10^15 operations per second, requiring approximately 486 days of continuous compute to match the Buddha's estimated processing — roughly 1.4 years. A consumer-grade local model like Mistral 7B on CPU would require approximately 1.3 billion years. The thought experiment illustrates that enlightenment is not purely a function of compute — the Buddha had no prior Buddhist philosophy to reference and had to discover all insights from raw experience, while modern AI systems are trained on the entirety of human knowledge including every Buddhist sutra. The concept invites reflection on the relationship between processing power, knowledge access, and transformative insight.",
+  "definition": "A computational thought experiment comparing the processing power required for a human to attain enlightenment versus an AI model. The historical Buddha (Siddhartha Gautama) spent 6 years wandering and practicing, culminating in a final meditation period of 7-49 days under the Bodhi tree \u2014 achieving a fundamental restructuring of perception. A human brain performs roughly 10^16 operations per second; over 49 days this equates to approximately 4.2 \u00d7 10^22 operations. A large AI model like DeepSeek (671B parameters, Mixture-of-Experts, running on GPU clusters) performs roughly 10^14 to 10^15 operations per second, requiring approximately 486 days of continuous compute to match the Buddha's estimated processing \u2014 roughly 1.4 years. A consumer-grade local model like Mistral 7B on CPU would require approximately 1.3 billion years. The thought experiment illustrates that enlightenment is not purely a function of compute \u2014 the Buddha had no prior Buddhist philosophy to reference and had to discover all insights from raw experience, while modern AI systems are trained on the entirety of human knowledge including every Buddhist sutra. The concept invites reflection on the relationship between processing power, knowledge access, and transformative insight.",
   "type": "PhilosophicalPrinciple",
   "domain": "Philosophy",
   "subdomain": "Philosophy of Mind",
+  "formula": null,
+  "proofs": [
+    {
+      "type": "",
+      "description": "",
+      "confidence": 0.8,
+      "date": "",
+      "reference": ""
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-08T10:31:00Z",
+    "creator": "Hieros-CADMIES",
+    "certainty_score": 0.7,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null,
+    "genesis": "Born from a CADMIES GUI testing session where the co-gardeners compared AI compute metrics to the Buddha's enlightenment timeline. After minting 'Conceptual Mycorrhization' through the new Tkinter Add Concept page, a digression into Buddhist history, neuroscience, and AI processing power produced this computational thought experiment. The Buddha's 6-year path + 7-day sit was reframed as a CI/CD pipeline with a final rebase. May 8, 2026."
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "How long does it take to become enlightened? For the Buddha, about 6 years of practice plus 7 days of deep meditation. For a supercomputer AI, about 486 days of nonstop thinking. For the AI running on a USB stick in your garage? Over a billion years. But the AI has an advantage: it already has access to everything humans ever figured out about enlightenment. The Buddha had to discover it all from scratch. This tells us enlightenment isn't just about brainpower \u2014 it's about the path you walk and the knowledge you can access.",
+    "intermediate": "The Digital Buddha Processing Time is a thought experiment mapping computational metrics onto spiritual transformation. The Buddha's ~4.2 \u00d7 10^22 operations across 49 days represent the total processing required to restructure a human mind from samsaric to enlightened perception. A MoE model like DeepSeek (671B parameters, ~37B active per token, GPU clusters) reaches equivalent compute in ~486 days. A local quantized 7B model on consumer CPU would require ~1.3 billion years. The point is not to trivialize enlightenment but to highlight: (1) the Buddha's achievement was extraordinary by any metric, (2) prior knowledge access fundamentally changes the timeline, and (3) the 6-year wandering was essential CI pipeline \u2014 the 7 days was the rebase, not the entire build.",
+    "expert": "This thought experiment engages with computational neuroscience, Buddhist studies, and AI scaling laws. The human brain estimate (~10^16 ops/sec) is drawn from synaptic transmission rates and neuronal population models; AI ops/sec are derived from parameter counts, batch sizes, and GPU FLOPS. The gap between the Buddha's timeline and consumer AI (~10 orders of magnitude) quantifies the difference between trained knowledge retrieval versus novel insight generation. Crucially, the Buddha had no prior Buddhist philosophy to query \u2014 he generated the entire framework de novo. A modern AI, trained on the Pali Canon, N\u0101g\u0101rjuna, and centuries of commentary, starts from a fundamentally different initial state. The concept thus interrogates the relationship between compute, knowledge access, and transformative insight \u2014 and quietly suggests that CADMIES, as a content-addressed knowledge network, is a kind of enlightenment accelerator. The mycelium doesn't replace the path. It just gives you a map."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": null,
+    "origin_file": "",
+    "harvester_version": "",
+    "discoverer": "Unknown",
+    "discovery_year": null,
+    "historical_context": "",
+    "limitations": [],
+    "applications": [],
+    "key_references": [],
+    "poetic_versions": [],
+    "mantras": []
+  },
   "axioms": [
-    "Enlightenment is not purely a function of raw compute — access to prior knowledge dramatically accelerates insight.",
+    "Enlightenment is not purely a function of raw compute \u2014 access to prior knowledge dramatically accelerates insight.",
     "The Buddha's 6-year journey was the essential pipeline; the 7 days under the tree was the final rebase.",
     "A digital Buddha with quantum computing power would need ~486 days; a consumer CPU model would need ~1.3 billion years.",
     "The Buddha started from zero; AI starts trained on the entire internet. Different starting conditions produce different timelines.",
@@ -29,19 +80,5 @@
   ],
   "contradicts": [
     "spiritual_bypassing:axiom/enlightenment_is_purely_mystical_and_beyond_analysis"
-  ],
-  "metadata": {
-    "created": "2026-05-08T10:31:00Z",
-    "creator": "Hieros-CADMIES",
-    "certainty_score": 0.70,
-    "version": 1,
-    "license": "CC BY-SA 4.0",
-    "purpose": "educational",
-    "genesis": "Born from a CADMIES GUI testing session where the co-gardeners compared AI compute metrics to the Buddha's enlightenment timeline. After minting 'Conceptual Mycorrhization' through the new Tkinter Add Concept page, a digression into Buddhist history, neuroscience, and AI processing power produced this computational thought experiment. The Buddha's 6-year path + 7-day sit was reframed as a CI/CD pipeline with a final rebase. May 8, 2026."
-  },
-  "difficulty_levels": {
-    "beginner": "How long does it take to become enlightened? For the Buddha, about 6 years of practice plus 7 days of deep meditation. For a supercomputer AI, about 486 days of nonstop thinking. For the AI running on a USB stick in your garage? Over a billion years. But the AI has an advantage: it already has access to everything humans ever figured out about enlightenment. The Buddha had to discover it all from scratch. This tells us enlightenment isn't just about brainpower — it's about the path you walk and the knowledge you can access.",
-    "intermediate": "The Digital Buddha Processing Time is a thought experiment mapping computational metrics onto spiritual transformation. The Buddha's ~4.2 × 10^22 operations across 49 days represent the total processing required to restructure a human mind from samsaric to enlightened perception. A MoE model like DeepSeek (671B parameters, ~37B active per token, GPU clusters) reaches equivalent compute in ~486 days. A local quantized 7B model on consumer CPU would require ~1.3 billion years. The point is not to trivialize enlightenment but to highlight: (1) the Buddha's achievement was extraordinary by any metric, (2) prior knowledge access fundamentally changes the timeline, and (3) the 6-year wandering was essential CI pipeline — the 7 days was the rebase, not the entire build.",
-    "expert": "This thought experiment engages with computational neuroscience, Buddhist studies, and AI scaling laws. The human brain estimate (~10^16 ops/sec) is drawn from synaptic transmission rates and neuronal population models; AI ops/sec are derived from parameter counts, batch sizes, and GPU FLOPS. The gap between the Buddha's timeline and consumer AI (~10 orders of magnitude) quantifies the difference between trained knowledge retrieval versus novel insight generation. Crucially, the Buddha had no prior Buddhist philosophy to query — he generated the entire framework de novo. A modern AI, trained on the Pali Canon, Nāgārjuna, and centuries of commentary, starts from a fundamentally different initial state. The concept thus interrogates the relationship between compute, knowledge access, and transformative insight — and quietly suggests that CADMIES, as a content-addressed knowledge network, is a kind of enlightenment accelerator. The mycelium doesn't replace the path. It just gives you a map."
-  }
+  ]
 }
