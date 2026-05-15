@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-File: scientific_validator_v1.0.0.py
+File: scientific_validator.py
 Author: CADMIES Research Group
 Created: 2025-12-24
 Version: 1.0.0
@@ -20,7 +20,7 @@ import json
 from typing import Dict, Any, List, Tuple
 from datetime import datetime
 
-class ScientificValidator_v1_0_0:
+class ScientificValidator:
     """
     Validator for UniversalScientificConcept format
     
@@ -384,7 +384,7 @@ def test_validation():
         print(f"VALIDATION LEVEL: {level}")
         print(f"{'='*40}")
         
-        validator = ScientificValidator_v1_0_0(level)
+        validator = ScientificValidator(level)
         
         print(f"\nTesting GOOD concept:")
         valid1, errors1, report1 = validator.validate(good_concept)
