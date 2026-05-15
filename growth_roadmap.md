@@ -733,3 +733,77 @@ python harvest/harvest_full_pipeline.py --auto --with-relationships
 | 2026-05-14 | Gardener's first solo harvest — 11 concepts                |
 | 2026-05-14 | Gardener's second solo harvest — reproducibility confirmed |
 | 2026-05-14 | Mycelium: 169 concepts, 175 edges, 52 domains              |
+
+## PHASE 37: SCIENTIFIC OBSIDIAN — THE CADMIES KNOWLEDGE VAULT
+
+**Date Initiated:** 2026-05-14
+
+**Status:** 🟡 Infrastructure — vault structure designed, first notes pending
+
+**What It Is:**
+
+Scientific Obsidian is the CADMIES scientific documentation system — an Obsidian.md vault that serves as the formal lab notebook, decision log, and architectural record for the entire project.
+
+**The Metaphor (CADMIES Canon):**
+
+- **Cosmium Angelo** — the conceptual fortress (CADMIES's version of Fort Saint Angelo in Malta). The container that holds everything. Stone walls, timeless, immovable.
+- **Scientific Obsidian** — the library within the fortress. Volcanic glass shelves formed from conversations that cooled before they could crystallize into dogma. Frozen lava, perfect for recording. Dead, stable, immutable — the ideal recording medium.
+- **CADMIES Mycelium** — the living knowledge network growing THROUGH the obsidian shelves. Concepts, edges, Willie, the harvester, the gardener, Number 5. Alive, connecting, fruiting. The mycelium is not obsidian — it's the life that weaves through it.
+
+Three layers, one system: the fortress holds the library, the library holds the records, the mycelium holds the living knowledge.
+
+**Vault Structure:**
+CADMIES-Vault/
+├── 00-Meta/ # How the vault works
+│ └── Note-Taking Protocol.md
+├── 01-System/ # CADMIES architecture
+│ ├── Architecture Overview.md
+│ ├── Blockstore & IPLD.md
+│ ├── Two-System Setup.md
+│ └── Three-Model Arsenal.md
+├── 02-Pipeline/ # Each tool documented
+│ ├── Harvester.md
+│ ├── Relationship Generator.md
+│ ├── Mycelium Map.md
+│ └── Public Gateway.md
+├── 03-Development/ # Session logs, phase docs, decisions
+│ ├── Session-001.md through Session-XXX.md
+│ ├── Phase-XX-Topic.md
+│ └── Decisions-Log.md
+├── 04-Concepts/ # Links into source_concepts/
+└── 05-Collaboration/
+└── Dr-Rebentisch-Twin-Mycelium.md
+
+text
+
+The vault structure uses five top-level folders, each serving a distinct purpose. Meta governs how the vault itself operates. System documents the architecture. Pipeline covers each tool. Development holds the living record of sessions, phases, and decisions. Concepts links outward to the source_concepts repository. Collaboration documents external partnerships.
+
+**Methodology:**
+
+- Influenced by Dr. Rupert Rebentisch's zettelkasten methodology (tools4zettelkasten) and the Luhmann/Ahrens/Forte tradition of atomic, densely-linked knowledge management. We're students of the method, not clones of the implementation.
+- Casual Friday approach to start — lenient, chill, learn-as-we-go. Rigor increases organically as the process matures and we figure out what works for CADMIES specifically.
+- Atomic notes with `[[double bracket]]` linking — each note is a node in the graph
+- Each phase gets a dedicated note documenting: what changed, why, how tested, results
+- Session summaries remain the primary lab notebook entries
+- Commit messages serve as the external-facing scientific record
+- File naming: Sentence case, human-readable
+- Credit where credit is due — all influences documented, all collaborators acknowledged
+
+**Next Actions:**
+
+| # | Action | Priority |
+|---|--------|----------|
+| 1 | Create vault directory structure locally | 🔴 |
+| 2 | Write Note-Taking Protocol (00-Meta) | 🔴 |
+| 3 | Backfill Harvester history (02-Pipeline/Harvester.md) | 🔴 |
+| 4 | Create Session-005.md from this session's log | 🟡 |
+| 5 | Document Phase 35 (three-tier difficulty levels) | 🟡 |
+| 6 | Backfill prior sessions as time allows | 🟢 |
+
+**Significance:**
+
+- Formalizes CADMIES as a scientific project, not just a personal tool
+- Aligns with twin mycelium collaboration (methodology influence)
+- Creates a single source of truth for architectural decisions
+- Makes onboarding new collaborators possible
+- The mycelium now has a library worthy of its growth
