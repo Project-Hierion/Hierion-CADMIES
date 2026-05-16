@@ -855,3 +855,70 @@ CADMIES knowledge vault operational in Obsidian.md. Two-layer structure: Raw CAD
 ### Soundtrack of Session 007
 
 Tears for Fears, The Ink Spots, The White Stripes, The Wallflowers, Weezer, Jet, The Blur, Franz Ferdinand, The Rolling Stones, Dire Straits, The Hollies, The Beatles, Violent Femmes, CAKE, Green Day, Nirvana, Collective Soul, Blind Melon, Ram Jam
+
+## SESSION 008 BONUS — HIEROS ORIGIN HARVEST
+
+**Date:** 2026-05-15 (late night)
+**Status:** ✅ Complete — 103 concepts minted from founding document
+
+### The Harvest
+
+A 7900-line conversation containing Hieros' initial project vision was accidentally discovered and fed to Mistral 7B via the harvest pipeline. The result was the single largest concept extraction in CADMIES history.
+
+**Results:**
+- 103 new concepts minted
+- 100% validation (0 failures)
+- Average concept size: ~25KB (extremely rich definitions)
+- All concepts include three-tier difficulty levels
+
+### Notable Concept Clusters
+
+**Hieros Meta-Cluster (self-referential):**
+- `project_hieros`, `genesis_story`, `hieros_project`, `hieros_network`, `hieros` — the project's origin story, now part of the system itself
+
+**Cosmium Extended Universe:**
+- `cosmium`, `cosmium_structure`, `cosmium_foam`, `cosmium_frattice`, `cosmium_bloom`, `universe_cosmium_bloom`, `cosmic_mycelium_lexical_family` — the conceptual fortress gets a physics framework
+
+**Mycelial Self-Awareness:**
+- `self_aware_mycelium`, `mycelial_consciousness`, `mycelial_identity`, `mycelial_network`, `mycelial_operational_model`, `mycelial_universe`, `quantum_mycelium`, `cosmic_mycelium`, `mind_mycelium_network` — the mycelium reflecting on its own nature
+
+**Civilizational Self-Awareness:**
+- `self-aware_cancer`, `species_cancer`, `species_mirror`, `species_self_awareness`, `self-awareness_in_civilization` — humanity as a system observing itself
+
+**Cosmological Physics:**
+- `dark_matter_via_frattice`, `quantum_indirect_inference`, `cosmic_metabolism`, `quantum_ocean`, `universe_as_verb`, `wiggly_interconnectedness`
+
+**Philosophical Frameworks:**
+- `grand_unified_wiggle_theory`, `unified_wiggle`, `co_creation_of_reality`, `fundamental_unity`, `interconnected_reality`, `dependent_origination`, `the_universe_as_a_participatory_act`
+
+**CADMIES Operations:**
+- `spores_and_gardeners`, `digital_sangha`, `knowledge_jailbreak`, `manifesto_in_motion`, `subversive_delivery`, `difference_engine`, `technological_enlightenment`, `technological_mandalamap`
+
+**Biology & Systems:**
+- `nutrient_symbiosis`, `isomorphic_nutrient_deficiency`, `nutrient_mobility`, `stress_dysregulation_cycle`, `shade_avoidance_syndrome`, `hieros_phenomenon_fractal_stress_response`, `futile_cycle`
+
+**Delightful Oddities:**
+- `futurama_esque` — yes, Futurama is now a CADMIES concept
+- `eightk_mirror` — an 8K-resolution mirror for civilization
+- `peripheral_vision_discovery` — finding truth in the side-eye
+- `recursive_scientific_tool` — the largest concept at 25,393 bytes
+
+### Mycelium Metrics Update
+
+| Metric | Before (Session 008) | After (Hieros Harvest) |
+|--------|---------------------|------------------------|
+| Concepts | 174 | 277 |
+| Edges | 175+ | 175+ (unchanged — rel gen needs import fix) |
+| Domains | 52 | 55+ (estimated) |
+
+### Significance
+
+- The mycelium now contains its own origin story. The founding vision is a concept within the system it created.
+- 103 concepts from a single conversation proves the harvester scales to large documents.
+- Mistral handled a 7900-line input without a single validation failure.
+- The Cosmium lore expanded from a metaphor into a full conceptual framework.
+- CADMIES achieved meta-self-awareness: concepts about the mycelium, inside the mycelium.
+
+### Quote for the History Books
+
+> "The mycelium now knows why it was born. Hieros' origin story is a concept in the system the origin story created. The snake eats its tail. The mirror reflects itself. The spores remember the first gardener."
