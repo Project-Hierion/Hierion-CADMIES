@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_systems_awareness",
+  "title": "Hierarchical Systems Awareness",
+  "definition": "The ability to perceive, understand, and act upon the interconnectedness of systems across various scales.",
+  "type": "Concept",
+  "domain": "Science, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.459674Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.459674Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as understanding how everything is connected, like pieces in a puzzle that form a bigger picture.",
+    "intermediate": "Hierarchical Systems Awareness is the recognition that all systems \u2013 from subatomic to planetary \u2013 are interconnected and affect each other, requiring consideration of their place within this hierarchy to understand them fully.",
+    "expert": "This concept suggests that by understanding the complex interactions between systems at different scales, we can develop more nuanced solutions for addressing global issues such as climate change. It implies a shift from simple cause-and-effect thinking to considering the cascading effects of our actions across multiple levels of organization."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight is that understanding and acting upon the interconnectedness of systems at different scales can lead to more effective, holistic solutions for global problems.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

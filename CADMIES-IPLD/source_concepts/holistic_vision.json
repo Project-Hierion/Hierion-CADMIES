@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holistic_vision",
+  "title": "Holistic Vision",
+  "definition": "A comprehensive perspective that encompasses the moral, technical, and scientific aspects of a project to ensure its overall success and alignment with core values.",
+  "type": "Concept",
+  "domain": "Project Management, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.449459Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.449459Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A leader's ability to see the big picture and consider not just the technical aspects but also the ethical implications of a project.",
+    "intermediate": "A mindset that emphasizes the importance of understanding and considering all factors, from morality to technology, in achieving a project's goals.",
+    "expert": "A novel approach to project management that recognizes the interconnectedness of different aspects and focuses on maintaining harmony between them."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that a successful project requires considering all factors, not just technical competence.",
+    "source_chunk": 27,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_as_sky",
+  "title": "Consciousness As Sky",
+  "definition": "The idea that consciousness is a vast, boundless expanse in which thoughts and sensations arise and pass away.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:08:55.481858Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:08:55.481858Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A metaphor for the nature of consciousness as a vast space where thoughts and feelings come and go.",
+    "intermediate": "An analogy that posits consciousness as an unchanging, all-encompassing background upon which the ever-changing stream of thoughts and sensations unfolds.",
+    "expert": "A philosophical perspective likening consciousness to a vast, ever-present sky within which thoughts and sensory experiences arise and dissolve."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that consciousness is not limited by the thoughts and emotions that arise within it",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

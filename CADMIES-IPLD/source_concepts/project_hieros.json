@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "project_hieros",
+  "title": "Project Hieros",
+  "definition": "A comprehensive, self-sustaining knowledge ecosystem that aims to unify science by connecting concepts across disciplines.",
+  "type": "Concept",
+  "domain": "Technology & Society",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.452736Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.452736Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Project Hieros is like a massive library that helps scientists find connections between different fields of study. It's a digital tool designed to help us understand the world better by revealing hidden links between seemingly unrelated things.",
+    "intermediate": "Project Hieros is an open-source, decentralized platform that leverages artificial intelligence and blockchain technology to create a connected knowledge graph spanning various scientific disciplines. It aims to facilitate collaboration, discovery, and innovation by breaking down silos in research.",
+    "expert": "Project Hieros represents a paradigm shift in the way we approach science. By creating an ontology graph based on interdisciplinary connections, it challenges the traditional compartmentalization of knowledge and encourages holistic understanding. It's a testament to the power of technology in facilitating global collaboration, democratizing access to information, and fostering innovation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight of Project Hieros is its approach to solving the problem of siloed science by creating a unified knowledge ecosystem that transcends traditional disciplinary boundaries.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

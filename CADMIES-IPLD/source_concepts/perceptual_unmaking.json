@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "perceptual_unmaking",
+  "title": "Perceptual Unmaking",
+  "definition": "The process of dissolving perceived boundaries and merging sensory inputs during passive looking.",
+  "type": "Concept",
+  "domain": "Neuroscience & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.270277Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.270277Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you stare at a repetitive pattern like tiles, they start to blur together\u2014a subtle shift from actively seeing to passively looking. This is called perceptual unmaking because it's like your brain is taking apart the separate pieces of what you're looking at.",
+    "intermediate": "Perceptual unmaking occurs when the visual system adapts to constant, low-contrast input, resulting in a blurring and merging of perceived boundaries. This state can be associated with sensory deprivation, mind-wandering, meditation, and other altered states.",
+    "expert": "Perceptual unmaking is a unique neurological event that occurs when the brain's visual processing systems adapt to constant input from repetitive patterns. This adaptation results in the blurring of perceived boundaries and the merging of sensory inputs, often associated with states of dissociation, mindfulness, and higher states of consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The connection between a seemingly mundane experience (staring at tiles) and profound philosophical concepts (awareness, selflessness, mindfulness)",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

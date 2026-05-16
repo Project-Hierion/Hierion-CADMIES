@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "wiggly_interconnectedness",
+  "title": "Wiggly Interconnectedness",
+  "definition": "The idea that everything in the universe is inherently interconnected, even at a fundamental level.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.467044Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.467044Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like every piece of the world is connected by an invisible web, and each piece affects all the others in some way.",
+    "intermediate": "This concept posits that everything in the universe, from the smallest subatomic particles to the largest galaxies, are interconnected and influence each other through complex networks and relationships.",
+    "expert": "Wiggly Interconnectedness suggests that the fundamental laws of physics allow for a deep interdependence between seemingly disparate aspects of reality. This concept challenges traditional reductionist views of science and encourages a more holistic understanding of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The profound realization that our world is inherently connected at its core, and that even our thoughts and actions ripple outwards in ways we may never fully comprehend.",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

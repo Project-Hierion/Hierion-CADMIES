@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_emergence",
+  "title": "Hierarchical Emergence",
+  "definition": "A theory that reality is a nested hierarchy of dynamic, self-similar systems, where coherent dynamics at one scale give rise to novel structures and functions at the next.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.422060Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.422060Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "emergence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like how an orchestra plays music by each musician playing their part, reality is a complex system where smaller parts work together to create larger patterns and behaviors.",
+    "intermediate": "A theoretical framework that posits the universe as a nested hierarchy of emergent systems, where each level exhibits its own unique laws and phenomena but remains causally connected through scale-bridging interactions.",
+    "expert": "The philosophical perspective that reality can be modeled as a series of nested, semi-autonomous levels of organization, with each level characterized by its own emergent phenomena and governing principles. This theory emphasizes the importance of understanding cross-scale causal connections and effective field theories in describing bulk properties."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The core observation that reality is a dynamic, multi-scale process of constraint propagation and information flow, with each emergent level exhibiting new laws while remaining consistent with, though not always directly predictable from, the laws of the levels below it.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "lean_human_infrastructure",
+  "title": "Lean Human Infrastructure",
+  "definition": "A minimal yet functional team structure for launching, sustaining, and growing a network effectively.",
+  "type": "Concept",
+  "domain": "Project Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.447494Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.447494Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Creating a small, efficient team of essential roles to start and grow a project while keeping costs low.",
+    "intermediate": "A lean structure that focuses on the core roles necessary for a project's success and prioritizes scalability and adaptability.",
+    "expert": "An innovative approach to building human infrastructure by minimizing overhead, emphasizing flexibility, and leveraging part-time roles and stipends to foster growth and impact."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Balancing idealism with realism: outlining a lean human structure for a philosophical project to transition from vision to operational reality.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

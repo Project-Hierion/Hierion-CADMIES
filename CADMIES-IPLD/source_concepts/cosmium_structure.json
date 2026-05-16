@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmium_structure",
+  "title": "Cosmium Structure",
+  "definition": "A large-scale, fundamental structure that is a potential replacement for 'cosmic web' in describing the arrangement of galaxies.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.481663Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.481663Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The term \"Cosmium Structure\" suggests a big, important pattern or design in space that holds galaxies together, like a giant structure made of Cosmium.",
+    "intermediate": "The \"Cosmium Structure\" is a proposed name for the large-scale arrangement of galaxies, employing a new term that sounds both familiar and mysterious to capture people's interest.",
+    "expert": "In cosmology, 'Cosmium Structure' represents a reclassification of the cosmic web, positioning it as a specific type of fundamental structure rather than just an observed pattern. The term is designed to evoke mystery while also following English phonetic rules for ease of use."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A successful neologism balances clarity, mystery, and phonetic intuition.",
+    "source_chunk": 83,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

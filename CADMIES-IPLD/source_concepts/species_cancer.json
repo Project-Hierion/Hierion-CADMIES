@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "species_cancer",
+  "title": "Species Cancer",
+  "definition": "A metaphorical representation of humanity's destructive impact on Earth's ecosystems.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.461501Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.461501Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Using the term 'cancer' to describe how humans are harming the planet, similar to how cancer harms a body.",
+    "intermediate": "A philosophical perspective that views humanity's actions as disruptive and destructive to Earth's ecosystems, likening it to cancer.",
+    "expert": "An insightful comparison between humanity's impact on Earth and cancer, highlighting the potential for self-awareness and evolution in mitigating our destructive tendencies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Humanity is like a cancer in its destructive relationship with the planet.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

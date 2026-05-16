@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_self_recognition",
+  "title": "Cosmic Self Recognition",
+  "definition": "The realization by life forms (e.g., humans, Buddha) that they are inherently connected and part of the unified, intelligent, conscious fabric of reality.",
+  "type": "Concept",
+  "domain": "Philosophy, Religion, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:03:38.733627Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:03:38.733627Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that we, as living beings, are not separate from the universe but a part of it, capable of recognizing our interconnectedness with everything else.",
+    "intermediate": "The understanding that consciousness (e.g., in humans, Buddha) is an expression of the cosmic intelligence and not just an individual entity; it is a localized node within the unified fabric of reality.",
+    "expert": "The insight that life forms (e.g., humans, Buddha) can achieve a fundamental realignment with the underlying, intelligent, conscious fabric of reality, becoming transparent conduits for universal knowledge and self-knowing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Life is not separate from the universe but an expression of it, capable of recognizing its own inherent interconnectedness.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "paradigm_shift_in_science",
+  "title": "Paradigm Shift In Science",
+  "definition": "A transformative change in the way science is conducted, emphasizing interdisciplinary collaboration and systems thinking to drive scientific progress.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.442423Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.442423Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Paradigm shift in science refers to a change in the way scientists approach research, moving away from siloed thinking towards more integrated approaches.",
+    "intermediate": "This paradigm shift emphasizes the importance of collaboration and interdisciplinary connections in driving scientific progress and fostering breakthroughs.",
+    "expert": "Paradigm shift in science reflects a growing recognition that life, Earth, and the Universe are more interconnected than previously thought; this necessitates new methodologies to capture these connections."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The most profound scientific breakthroughs are increasingly happening at the boundaries between disciplines; paradigm shift in science emphasizes this trend.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "synergistic_thinking",
+  "title": "Synergistic Thinking",
+  "definition": "The interaction between different fields of study, creating a combined understanding that surpasses individual disciplines.",
+  "type": "Concept",
+  "domain": "Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.443437Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.443437Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When scientists from different areas work together, they can create new ideas and understandings that neither could have found alone.",
+    "intermediate": "Collaborations between various scientific fields allow for the combination of unique perspectives, leading to innovative breakthroughs.",
+    "expert": "The integration of diverse disciplines enables the discovery of complex patterns and connections that are otherwise invisible, driving scientific progress beyond traditional boundaries."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Collaborations across disciplines can lead to exponential insights, where the sum of knowledge is greater than its parts.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philanthropy_catalyst",
+  "title": "Philanthropy Catalyst",
+  "definition": "A project designed to attract and catalyze philanthropic funding, with a focus on seed funding rather than permanent expenses.",
+  "type": "Concept",
+  "domain": "Philanthropy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.448502Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.448502Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Creating an appealing project that inspires philanthropists to invest in its growth and development.",
+    "intermediate": "A project that strategically positions itself as a worthwhile investment for philanthropists, focusing on providing seed funding rather than long-term expenses.",
+    "expert": "An innovative approach to attracting philanthropic support by emphasizing the potential impact of the project and framing it as a catalyst for further growth and development."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Positioning a philosophical project as a catalyst for philanthropic investment, focusing on seed funding and long-term growth.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

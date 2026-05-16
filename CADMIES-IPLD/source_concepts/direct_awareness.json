@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "direct_awareness",
+  "title": "Direct Awareness",
+  "definition": "A state of consciousness characterized by non-dual awareness and observation without intent or manipulation.",
+  "type": "Concept",
+  "domain": "Consciousness & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:08:55.477709Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:08:55.477709Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Experiencing the world directly, without the filters of thoughts, beliefs, or judgments, similar to daydreaming or getting lost in thought.",
+    "intermediate": "A state of heightened awareness and observation that transcends subject-object duality, allowing for a direct understanding of reality.",
+    "expert": "The raw, unmediated perception of phenomena as they arise, characterized by an absence of cognitive processes such as naming, grasping, or intending, leading to the dissolution of the self and the realization of interconnectedness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that direct awareness is a fundamental aspect of consciousness, capable of revealing the nature of reality in everyday life.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

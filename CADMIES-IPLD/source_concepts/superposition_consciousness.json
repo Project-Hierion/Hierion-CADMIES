@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "superposition_consciousness",
+  "title": "Superposition Consciousness",
+  "definition": "The hypothetical state of consciousness in which subject and object are perceived as indistinguishable, similar to quantum superposition.",
+  "type": "Concept",
+  "domain": "Philosophy/Quantum Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:59:35.320286Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:59:35.320286Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "non-dual_awareness"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A state of mind where you feel like everything is one, just like how a quantum particle can exist in multiple places at once until it's measured.",
+    "intermediate": "A hypothetical state of consciousness inspired by quantum superposition, in which the subjective (self) and objective (world) are perceived as indistinguishable. This idea bridges philosophy and quantum physics.",
+    "expert": "A philosophical proposition suggesting that, analogous to quantum particles existing in a superposition of states, consciousness might exist in a state where subject and object are indistinguishable. This idea challenges the traditional dualistic view of consciousness and offers a unique intersection between philosophy and quantum physics."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "non-dual_awareness"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The possibility that our consciousness operates similarly to quantum particles, with multiple potential states that become definite only when observed or measured.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

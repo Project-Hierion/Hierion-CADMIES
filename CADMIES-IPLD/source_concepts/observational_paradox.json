@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "observational_paradox",
+  "title": "Observational Paradox",
+  "definition": "The paradoxical relationship between observation and the nature of reality, in which the act of observation alters the observed phenomenon.",
+  "type": "Concept",
+  "domain": "Philosophy of Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.275233Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.275233Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like trying to watch a film without moving your eyes or blinking. The act of watching changes the movie you're watching, even if just a little bit.",
+    "intermediate": "The observational paradox refers to the idea that our observations and measurements can have an impact on the very things we are trying to understand, making it difficult to know the true nature of reality.",
+    "expert": "In quantum mechanics, for example, the act of observation collapses the wave function of a particle, changing its state from a probabilistic distribution to a definite position. This raises deep questions about the relationship between observer and observed, and the nature of reality itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight here is that our observations can have profound effects on the phenomena we are trying to understand, suggesting that our understanding of reality is inextricably linked to our role as observers.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

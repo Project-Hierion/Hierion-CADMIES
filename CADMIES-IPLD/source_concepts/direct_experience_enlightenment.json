@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "direct_experience_enlightenment",
+  "title": "Direct Experience Enlightenment",
+  "definition": "The realization of one's fundamental nature as a unified, non-dual reality that transcends subject/object dichotomy.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:03:38.724864Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:03:38.724864Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Direct experience enlightenment refers to the profound realization that you are not separate from the universe, but an integral part of it. It's like understanding that you're not just watching a movie, but you're also part of the screen and the characters.",
+    "intermediate": "Direct experience enlightenment is the awareness of the interconnectedness and inseparability of all phenomena, beyond subjective and objective distinctions. It is the direct knowing that you are not merely a perceiver but an intrinsic aspect of the perceived reality.",
+    "expert": "Direct experience enlightenment is the experiential understanding that consciousness and matter are inseparable and interdependent, transcending the dualistic paradigm. It implies a recognition of the non-dual nature of existence, challenging traditional metaphysical frameworks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that direct experience enlightenment is not a unique mystical event but an accessible everyday phenomenon that can be achieved through stopping mental manipulation of perception.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

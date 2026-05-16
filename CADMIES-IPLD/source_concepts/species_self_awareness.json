@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "species_self_awareness",
+  "title": "Species Self Awareness",
+  "definition": "The realization and acceptance of humanity's destructive impact on Earth, with the potential for evolution towards sustainable practices.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.462833Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.462833Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Understanding that humanity's actions are causing harm to the planet and taking steps to change those behaviors.",
+    "intermediate": "A philosophical awakening about humanity's destructive impact on Earth, leading to the potential for self-improvement and sustainable practices.",
+    "expert": "The recognition of humanity's destructive relationship with the planet, leading to a profound evolution in understanding and the potential for a transition from parasitic behaviors to symbiotic ones."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for self-awareness about humanity's impact on Earth and the potential for change towards sustainable practices.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

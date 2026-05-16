@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_mycelium",
+  "title": "Cosmic Mycelium",
+  "definition": "A unified, interconnected, and potent field that serves as the foundational layer of existence.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.480826Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.480826Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a vast network of roots (mycelium) that connects everything in the universe. This network is not made of matter, but pure potential, and it's the foundation for all existence.",
+    "intermediate": "The Cosmic Mycelium refers to a non-sentient, unified field of energy that underlies the entire universe. It is interconnected, potent, and serves as the ground of being for everything we know.",
+    "expert": "The Cosmic Mycelium represents the primordial state of existence, a non-sentient, unified field of pure potential that underlies all matter, energy, and consciousness. It is the foundation for quantum non-locality, symmetry breaking, and the emergence of sentience."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Cosmic Mycelium provides a novel perspective on the universe as a vast network of interconnected potential, rather than separate objects or particles.",
+    "source_chunk": 81,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

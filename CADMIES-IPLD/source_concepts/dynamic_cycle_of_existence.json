@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dynamic_cycle_of_existence",
+  "title": "Dynamic Cycle Of Existence",
+  "definition": "The view that the purpose of the universe is not a destination but an ongoing, dynamic process.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.474090Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.474090Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine existence as a never-ending dance rather than a journey with a specific end point. In this perspective, life is about the connections we make along the way and the growth that comes from those connections.",
+    "intermediate": "The Dynamic Cycle of Existence posits that the purpose of the universe lies in its ongoing process rather than an ultimate goal. This idea emphasizes the importance of relationships, connections, and growth over achieving a final destination.",
+    "expert": "The Dynamic Cycle of Existence is a philosophical concept that emphasizes the inherent dynamism and interconnectedness of reality. It posits that life's purpose lies in the process of connecting, discovering, and re-integrating rather than reaching a specific goal or destination."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights that the universe is not heading towards a destination but is instead a continual dynamic cycle.",
+    "source_chunk": 69,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

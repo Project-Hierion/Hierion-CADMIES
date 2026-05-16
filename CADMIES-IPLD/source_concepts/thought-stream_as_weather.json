@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "thought-stream_as_weather",
+  "title": "Thought-Stream As Weather",
+  "definition": "A metaphor comparing the continuous flow of thoughts to weather patterns, suggesting that just as we can't control the weather, we cannot control our thoughts entirely.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:03:38.732666Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:03:38.732666Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that thoughts are like clouds passing through the sky\u2014we can't stop them from forming, but we can observe and learn to let go of some of them.",
+    "intermediate": "A metaphor likening the mental thought-stream to weather patterns in the sky, emphasizing the idea that one cannot control thoughts entirely, but rather can learn to acknowledge, accept, or even transcend them.",
+    "expert": "The thought-stream as weather is a poetic and philosophical metaphor that likens the continuous flow of thoughts to changing weather patterns. It underscores the idea that one cannot control thoughts entirely but can develop techniques for observing, accepting, or transcending them, similar to how one learns to live with various weather conditions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that our thoughts are as transient and unpredictable as the weather, suggesting that they may not fully define us and that we have the power to observe and influence them rather than being entirely defined by them.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

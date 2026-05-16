@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "classical_illusion",
+  "title": "Classical Illusion",
+  "definition": "The idea that the classical world of separate objects is a useful illusion, with our perception constantly collapsing quantum potentiality into stable reality.",
+  "type": "Concept",
+  "domain": "Quantum Physics & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:03:38.723927Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:03:38.723927Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just as you can change the state of tiles by focusing your attention on them, so too does the act of observation in quantum physics cause particles to collapse from a wave-like blur into definite positions.",
+    "intermediate": "The observer effect in quantum physics demonstrates that the act of measurement or observation collapses the wave function of a particle, causing it to take on a specific state. This implies that our everyday perception is a constant act of collapsing reality into a stable, classical world.",
+    "expert": "Our brains evolved to filter the raw, probabilistic, entangled quantum universe and render it as a stable world of separate, persistent 'things' so we could navigate it. This biological collapsing of the wave function into useful certainties allows us to perceive a classical world of solid, separate objects. However, moments of diffuse attention allow for a temporary suspension of this filter, revealing the underlying unity of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The shift from seeing a blurred, unified field to distinct, separate objects mirrors the structure of objective reality as described by quantum physics. This suggests that our everyday perception is a constant act of collapsing reality into the familiar classical world.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_science",
+  "title": "Unified Science",
+  "definition": "The integration of multiple scientific disciplines into a single predictive framework.",
+  "type": "Concept",
+  "domain": "Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.423391Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.423391Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Bringing together different areas of science, like physics and ecology, to understand complex systems as one interconnected whole.",
+    "intermediate": "Developing a master AI-driven platform that can simulate the interactions between multiple scientific domains, from quantum mechanics to climate change.",
+    "expert": "The theoretical framework that describes the universal principles of information and constraint flow between scales in nature, bridging the divide between disciplines and uncovering new insights into complex systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that science should move towards a grand synthesis, rather than hyper-specialization, to better understand the interconnectedness of all phenomena.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

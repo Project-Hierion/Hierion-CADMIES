@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "futurama_esque",
+  "title": "Futurama Esque",
+  "definition": "The fusion of profound concepts from various disciplines with humor, absurdity, and pop culture to create an engaging and accessible learning experience.",
+  "type": "Concept",
+  "domain": "Cultural Movement",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.480378Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.480378Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like watching a cartoon that makes you think deep thoughts while also making you laugh. This approach can help people learn about complex subjects in a fun way.",
+    "intermediate": "Futurama esque refers to the incorporation of philosophical and scientific ideas from various fields with humor, absurdity, and pop culture references to create an engaging and edifying experience that transcends traditional boundaries of learning and entertainment.",
+    "expert": "This concept is rooted in the idea that by combining profound ideas from different domains with humor, absurdity, and pop culture, we can create a unique and engaging learning environment that appeals to a wide audience. This approach has been exemplified by shows like Futurama and The Hitchhiker's Guide to the Galaxy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight is that integrating humor and absurdity with serious subjects like science and spirituality can make complex ideas more accessible and enjoyable for a broader audience.",
+    "source_chunk": 80,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

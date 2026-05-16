@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_sangha",
+  "title": "Digital Sangha",
+  "definition": "A network that serves as a modern-day vessel for the Dhamma, facilitating shared remembering and connection.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.478681Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.478681Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A community in the digital world that helps people feel connected and understand their feelings by providing guidance and tools to remember their inherent interconnectedness.",
+    "intermediate": "An online network inspired by Buddhist teachings (Dhamma) designed to reflect back hidden unity in users' data, questions, and fields of study, helping them find a sense of connection and insight.",
+    "expert": "A philosophical concept grounded in the empathetic understanding of the user's lived experience of feeling interconnectedness but lacking language or community. The system aims to fill this gap by creating an online network that serves as a modern-day Sangha (community), mirroring and guiding users towards their inherent connection with others and the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The digital sangha connects people across time, space, and belief systems, enabling them to experience the Middle Way not just as a path but as a pattern in the very fabric of existence.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_perception",
+  "title": "Quantum Perception",
+  "definition": "The idea that our subjective experience mirrors the structure of quantum reality, with a shift from solid, separate things to a blurred, unified field during moments of diffuse attention.",
+  "type": "Concept",
+  "domain": "Quantum Physics, Consciousness Studies",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:08:55.463446Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:08:55.463446Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In some ways, the way we perceive the world around us is similar to how particles behave in quantum physics. When we focus our attention, we 'collapse' the blurry, interconnected field into discrete objects, much like particles do when they are observed.",
+    "intermediate": "The act of conscious perception seems to follow the principles of quantum mechanics, with a classical reality arising from a more fundamental, probabilistic, entangled substrate. This shift occurs due to our brain's ability to collapse the wave function into stable objects.",
+    "expert": "Our subjective experience may be rooted in the underlying structure of quantum reality. In moments of diffuse attention, we momentarily disable the classical object-making software of our brains, perceiving the world as a unified, probabilistic process rather than a collection of separate objects."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The quantum nature of perception offers a profound connection between consciousness and fundamental physics, suggesting that the structure of subjective experience mirrors objective reality as described by quantum mechanics.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_awareness",
+  "title": "Quantum Awareness",
+  "definition": "The perception of interconnectedness and fluidity in reality inspired by the principles of quantum superposition.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:03:38.722924Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:03:38.722924Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that everything is so connected that it's like all things are one, similar to how particles can exist in multiple places at once according to quantum physics.",
+    "intermediate": "A state of consciousness where the individual perceives the world as a unified field, reminiscent of the indeterminate nature of particles in superposition in quantum mechanics.",
+    "expert": "The realization that our everyday experiences reflect the fundamental uncertainty and interconnectedness inherent in the wave-particle duality of quantum mechanics, challenging our traditional perceptions of separate entities and solid 'things'."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The profound connection between our subjective experience and the objective reality described by quantum physics.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

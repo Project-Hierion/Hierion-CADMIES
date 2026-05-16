@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "stress_dysregulation_cycle",
+  "title": "Stress Dysregulation Cycle",
+  "definition": "A pathophysiological vicious cycle in which chronic psychological or physiological stress leads to dysregulation of the Hypothalamic-Pituitary-Adrenal (HPA) axis.",
+  "type": "Concept",
+  "domain": "Medicine",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.489833Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.489833Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A recurring, harmful response pattern triggered by prolonged stress that affects how our body responds to stress and can lead to symptoms such as headaches, fatigue, burnout, and muscle tension.",
+    "intermediate": "A positive feedback loop in which chronic stress leads to dysregulation of the HPA axis, resulting in a hypersensitive stress response and an exaggerated neuroendocrine cascade, causing adrenal exhaustion and cortisol resistance.",
+    "expert": "A critical systems-level pattern characterized by homeostatic failure, where chronic stress perpetuates the dysregulation of the HPA axis, leading to hypersensitivity to minor perturbations, resulting in a disproportionate neuroendocrine cascade and reinforcing the original chronic stress state."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The link between chronic stress, adrenal exhaustion, cortisol resistance, and hypersensitivity to small stressors, forming a self-perpetuating cycle.",
+    "source_chunk": 97,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

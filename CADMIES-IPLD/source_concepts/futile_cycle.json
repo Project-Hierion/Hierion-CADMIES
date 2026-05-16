@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "futile_cycle",
+  "title": "Futile Cycle",
+  "definition": "A process that consumes energy to perform work, but where the net result is the dissipation of that energy as waste without the creation of a persistent, higher-order structure or function.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.492699Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.492699Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A futile cycle is like trying to warm a frozen lake by putting a candle on one side. The candle burns energy, but the heat doesn't spread evenly and the lake remains frozen.",
+    "intermediate": "A futile cycle is a process that consumes energy for short-term gain, but ultimately wastes it without creating any lasting structure or function. It can be found in various systems, from geological processes to human behavior.",
+    "expert": "Futile cycles are recurring patterns observed across different scales of organization, from molecules to galaxies, where energy is expended but no higher-order structures or functions are created. They represent a trade-off between short-term survival and long-term complexity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe imposes trade-offs on systems that prioritize one form of stability at the cost of its own complexity and dynamism, leading to wasteful and inefficient processes.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

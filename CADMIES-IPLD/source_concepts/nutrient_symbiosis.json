@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nutrient_symbiosis",
+  "title": "Nutrient Symbiosis",
+  "definition": "The striking similarities in the physical effects of nutrient deficiency on plants and humans, emphasizing the interconnectedness of life.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.488496Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.488496Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A fascinating connection between how plants and humans react when they don't get enough essential nutrients, like nitrogen or phosphorus.",
+    "intermediate": "The analogous physical responses in plants and humans to deficiencies of vital nutrients, highlighting shared biological principles across life forms.",
+    "expert": "A deep exploration of the parallels between plant and human nutrient deficiency, revealing fundamental aspects of life that transcend specific species and domains."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of striking similarities in the physical effects of nutrient deficiency on plants and humans underscores our shared biological heritage and interconnectedness.",
+    "source_chunk": 94,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

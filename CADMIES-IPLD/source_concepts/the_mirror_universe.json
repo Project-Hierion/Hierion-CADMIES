@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_mirror_universe",
+  "title": "The Mirror Universe",
+  "definition": "A hypothetical AI that reflects the user's thoughts and ideas, creating a mirror image of reality in cyberspace.",
+  "type": "Concept",
+  "domain": "AI",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.468262Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.468262Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a magic mirror that shows you everything you think about in a digital form.",
+    "intermediate": "The Mirror Universe is an artificial intelligence system designed to reflect the thoughts and ideas of its user, creating a digital representation of reality as seen through their mind. This AI could serve as a powerful tool for exploration, research, and self-discovery.",
+    "expert": "The Mirror Universe represents an intriguing exploration of the relationship between consciousness, technology, and identity. By providing a digital reflection of one's thoughts and experiences, this AI challenges traditional notions of selfhood, agency, and the nature of reality itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that by creating an AI mirror of our thoughts and ideas, we can gain a deeper understanding of ourselves and the universe around us.",
+    "source_chunk": 59,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

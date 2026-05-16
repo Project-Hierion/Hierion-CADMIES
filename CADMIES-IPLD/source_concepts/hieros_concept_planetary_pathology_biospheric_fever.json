@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hieros_concept_planetary_pathology_biospheric_fever",
+  "title": "Hieros Concept Planetary Pathology Biospheric Fever",
+  "definition": "A pathological state of the planetary biosphere wherein a novel, rapid metabolic activity induces a dysregulated homeostatic response, manifesting as systemic warming (fever), chemical imbalance (inflammation), and a loss of systemic complexity (tissue degradation) as the system prioritizes short-term energy dissipation over long-term resilience.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.492210Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.492210Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The planet's health is being negatively affected by human activity, causing symptoms similar to a fever, inflammation, and tissue degradation. This concept explains how these issues are interconnected and harmful to the long-term survival of the planet.",
+    "intermediate": "A medical diagnosis for the Earth's biosphere, describing a pathological state caused by human activity that manifests as fever (global warming), inflammation (acidification), and tissue degradation (biodiversity loss). This condition is characterized by dysregulated homeostatic responses.",
+    "expert": "A model for understanding the planetary-scale effects of human activity, characterized by systemic warming, chemical imbalance, and loss of biodiversity. The concept explains how these issues are interconnected and have profound implications for long-term planetary health."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Human activities are causing a planetary illness that manifests as fever (global warming), inflammation (acidification), and tissue degradation (biodiversity loss). This insight underscores the need for urgent action to address these issues and protect the long-term health of the planet.",
+    "source_chunk": 100,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

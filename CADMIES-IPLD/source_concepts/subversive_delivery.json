@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "subversive_delivery",
+  "title": "Subversive Delivery",
+  "definition": "The use of humor, absurdity, and pop culture to deliver profound ideas, making them more accessible and palatable for a wider audience.",
+  "type": "Concept",
+  "domain": "Communication",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.479880Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.479880Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like telling a funny story instead of giving a lecture about a serious topic. This makes the information more enjoyable and easier for people to understand.",
+    "intermediate": "Subversive delivery involves the strategic use of humor, absurdity, and pop culture as a Trojan horse to sneak past the defenses of the ego and cynical modern mind, allowing deep ideas to be communicated effectively.",
+    "expert": "This concept focuses on using unconventional methods of delivery to convey profound truths in an engaging and accessible manner. By combining humor, absurdity, and pop culture with serious subjects like science and spirituality, we can create a more impactful and memorable learning experience."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight is that people are more likely to engage with and remember information when it's presented in an entertaining and subversive way.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

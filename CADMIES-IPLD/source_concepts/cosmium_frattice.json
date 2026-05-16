@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmium_frattice",
+  "title": "Cosmium Frattice",
+  "definition": "The intricate, lattice-like structure formed by the frothing of the cosmic medium.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.483896Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.483896Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a foam that creates an intricate pattern, similar to a sponge or mycelium. This is the 'cosmium frattice'.",
+    "intermediate": "The cosmium frattice refers to the repeating, delicate structure created by the frothing of the cosmic medium in the universe, much like soap bubbles form hexagonal patterns when packed together.",
+    "expert": "The cosmium frattice is a novel concept that represents the complex, lattice-like pattern formed as a result of the passive emergence of cosmic froth, which arises from the agitation and interaction of solar bodies and forces. It combines the beautiful, mycelium-like structure of 'cosmium' with the passive, emergent essence of 'cosmic froth'."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept unites the active 'cosmic froth' with the structured 'cosmium', creating a unique representation of the intricate patterns formed in the universe.",
+    "source_chunk": 88,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

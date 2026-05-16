@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nested_hierarchy_of_wiggles",
+  "title": "Nested Hierarchy Of Wiggles",
+  "definition": "A cascading series of wiggly components, from the smallest particles to complex biological systems.",
+  "type": "Concept",
+  "domain": "Physics, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.419212Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.419212Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagining a universe where everything is made up of tiny, dynamic parts that interact and form larger structures.",
+    "intermediate": "A nested structure composed of wiggly components at different scales, where each level emerges from the interactions of the level below it.",
+    "expert": "The conceptualization of a multi-level hierarchy of dynamically interacting processes spanning various scales in the universe, with each level arising from the behavior of its constituent parts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding that our perception of self and reality is built upon a foundation of wiggly components at multiple levels.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

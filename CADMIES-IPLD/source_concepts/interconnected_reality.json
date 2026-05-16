@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interconnected_reality",
+  "title": "Interconnected Reality",
+  "definition": "The notion that all aspects of reality are deeply interconnected and influence each other in intricate ways.",
+  "type": "Concept",
+  "domain": "Physics, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.463571Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.463571Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like the dots on a connect-the-dots picture are all connected, everything in the universe is connected to each other in some way.",
+    "intermediate": "The idea that reality emerges from complex interactions between its parts and that these interactions create new properties at different scales, such as thermodynamics, life, and consciousness.",
+    "expert": "The philosophical concept that reality is not a collection of independent entities but rather an interconnected network where changes in one part can have far-reaching effects on others. This concept is supported by observations in various fields, such as science, sociology, and data science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The understanding that our current fragmented knowledge limits our perception of the deeply interconnected reality we live in, and that a collective self-awareness could help us overcome this limitation.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

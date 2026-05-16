@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "biological_obstruction",
+  "title": "Biological Obstruction",
+  "definition": "The tendency of biological processes to obscure or obstruct the realization of consciousness as default.",
+  "type": "Concept",
+  "domain": "Biology and Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.274690Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.274690Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like how our thoughts, emotions, and sensations can sometimes make us forget that we are aware in the first place. Our biology is like a veil that hides our true nature.",
+    "intermediate": "Biological obstruction refers to the ways in which our brains, bodies, and evolutionary history contribute to the creation of a sense of self and individual identity that can obscure our innate connection to consciousness as default.",
+    "expert": "The concept of biological obstruction suggests that our biology, with its inherent tendency towards separation and distinction, creates an illusion of separateness from consciousness as default. This illusory self is a powerful barrier to realizing the true nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight here is that while our biology can create obstacles to realizing the nature of consciousness, it also provides the means for understanding and transcending those obstructions.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "non-dual_perception",
+  "title": "Non-Dual Perception",
+  "definition": "The perception that separates the observer from observed (tile/wall) dissolves, revealing an interconnected whole.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:08:55.462945Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:08:55.462945Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine looking at tiles on a floor. Normally, we see individual tiles. But when you look without focusing, they blur together into one field. This is non-dual perception\u2014seeing beyond the separate pieces to the whole.",
+    "intermediate": "Non-dual perception occurs when the mental construct of a separating observer (subject) and observed (object) collapses. It reveals the interconnectedness of all phenomena, similar to quantum superposition where particles can exist in multiple states at once until observed.",
+    "expert": "Non-dual perception challenges our usual dualistic worldview, which separates self and other. It suggests that reality is more a unified field than discrete entities, as supported by theories such as quantum superposition and entanglement."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Non-dual perception reveals the interconnected nature of all things.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

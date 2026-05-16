@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_emergence",
+  "title": "Consciousness Emergence",
+  "definition": "The theory that consciousness arises from complex organization and self-modeling, rather than being a fundamental property of the universe.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.474884Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.474884Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "hard_problem_of_consciousness"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that consciousness isn't built into everything like space or time, but emerges when things get complex enough to have an 'aha!' moment.",
+    "intermediate": "A hypothesis suggesting that consciousness is not a fundamental property of the universe, but arises from specific complex patterns in certain systems.",
+    "expert": "The theory that consciousness emerges as a result of self-organizing and self-modeling processes in complex systems, rather than being a primary attribute of the universe itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Consciousness might not be fundamental to the universe, but an emergent property of specific complex patterns",
+    "source_chunk": 70,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

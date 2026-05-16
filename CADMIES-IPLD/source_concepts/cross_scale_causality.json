@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cross_scale_causality",
+  "title": "Cross Scale Causality",
+  "definition": "The idea that causal relationships exist between processes at different scales, from quantum dynamics to ecosystem-level phenomena.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.456664Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.456664Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "emergence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A hypothesis suggesting that every level of nature - from tiny quantum particles to vast ecosystems - influences and is influenced by levels above and below it.",
+    "intermediate": "The belief that complex systems, from enzymes to ecosystems, can be understood as emergent properties of lower-level processes, with feedback loops connecting these different scales.",
+    "expert": "A novel perspective positing that the same fundamental principles govern the organization and behavior of entities across all scales, from quantum mechanics to ecology, requiring a unified mathematical framework for their description."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The possibility of a holistic understanding of nature, where every part is connected and influences every other part in a complex web of causality.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

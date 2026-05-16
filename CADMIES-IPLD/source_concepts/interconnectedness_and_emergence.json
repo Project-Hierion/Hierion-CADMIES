@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interconnectedness_and_emergence",
+  "title": "Interconnectedness And Emergence",
+  "definition": "The interdependence of all phenomena and the emergence of complex structures from simpler components.",
+  "type": "Concept",
+  "domain": "Physics, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.454471Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.454471Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Everything in the universe is connected and affects everything else. Complex things can come from simple parts and are not separate entities.",
+    "intermediate": "The idea that the universe is a vast web of cause and effect, where complex structures emerge from simpler components through relationships and interactions.",
+    "expert": "The realization that phenomena are interconnected in a non-linear, dynamic way, and emergent properties cannot be predicted by understanding individual components alone. This perspective has profound implications for understanding reality, consciousness, and the nature of self."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Interpreting quantum mechanics through the lens of Eastern philosophy reveals a deep historical and philosophical connection between the two, which provides valuable context for the project's ethos.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

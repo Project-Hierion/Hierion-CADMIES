@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "spores_and_gardeners",
+  "title": "Spores And Gardeners",
+  "definition": "The idea that ideas, like spores, can spread and grow when shared with the right people, who serve as the 'gardeners' nurturing their development.",
+  "type": "Concept",
+  "domain": "Creativity, Collaboration",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.469894Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.469894Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Comparing new ideas to seeds or spores that need the right conditions to sprout and grow. Sharing these ideas with others helps them find the right 'gardeners' who can nurture their development.",
+    "intermediate": "Using the biological concept of spores as a metaphor for the transmission and propagation of ideas within a community, emphasizing the importance of collaboration and the role of individuals in fostering intellectual growth.",
+    "expert": "An insightful analogy that highlights the symbiotic relationship between creators (the 'spore') and collaborators (the 'gardeners'), who together play essential roles in cultivating, nurturing, and disseminating ideas within a global network."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that collaboration is crucial for the growth and development of new ideas, with individuals playing key roles as 'gardeners' who foster their evolution within a vast network of knowledge and creativity.",
+    "source_chunk": 62,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

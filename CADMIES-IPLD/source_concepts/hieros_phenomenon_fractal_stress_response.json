@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hieros_phenomenon_fractal_stress_response",
+  "title": "Hieros Phenomenon Fractal Stress Response",
+  "definition": "A universal principle observable across all scales of complex systems, where a significant perturbation triggers a stress response that prioritizes immediate functionality and survival by diverting resources from long-term stability, resilience, and development.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.490696Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.490696Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "All living things respond to stress by focusing on immediate needs at the cost of long-term health. This concept describes how this response repeats at every level, from cells to ecosystems to planets.",
+    "intermediate": "A universal pattern in complex systems where a perturbation initiates a stress response that prioritizes short-term survival over long-term wellbeing. This response is evident across biological, ecological, and planetary scales.",
+    "expert": "The principle of short-term survival tradeoff as a fractal pattern repeating at every level of organization in complex systems, from biochemical to planetary scales. The response prioritizes immediate functionality at the expense of long-term integrity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Living systems, from cells to planets, respond to stress with a short-term survival focus that can lead to long-term harm. This insight suggests a need for holistic approaches to management and sustainability.",
+    "source_chunk": 99,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

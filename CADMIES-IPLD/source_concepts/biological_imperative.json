@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "biological_imperative",
+  "title": "Biological Imperative",
+  "definition": "The inherent drive or pressure exerted by an organism's biology to maintain survival, reproduce, and adapt.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:03:38.732003Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:03:38.732003Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The instincts or drives that help animals survive, such as the need for food, water, and shelter, as well as the urge to reproduce and protect offspring.",
+    "intermediate": "The inherent, inbuilt pressure exerted on an organism by its biological makeup to maintain survival, reproduction, and adaptation within its environment.",
+    "expert": "The biological imperative is a concept describing the intrinsic drive of any living being towards maintaining survival, reproducing, and adapting to its environment. It encompasses various instincts, drives, and behaviors related to foraging, mating, nesting, and predator avoidance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that our biological imperative often obscures our understanding of reality, with the thinking, striving, story-making mind functioning as a survival tool but also serving as an obstacle in the quest for enlightenment or truth.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

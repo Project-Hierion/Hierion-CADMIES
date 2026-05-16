@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "illusion_of_solidity",
+  "title": "Illusion Of Solidity",
+  "definition": "The idea that our perception of a solid, unchanging self is an illusion and that we are fundamentally wiggly and interconnected.",
+  "type": "Concept",
+  "domain": "Philosophy, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.419766Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.419766Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Our sense of self as a solid entity is a misconception; we're actually made up of dynamic components and are interconnected with the universe.",
+    "intermediate": "The realization that our perception of self as separate and stable is an illusion, as we are built upon wiggly components at various scales that are inherently connected and probabilistic in nature.",
+    "expert": "A philosophical insight that emphasizes the fundamental interconnectedness and dynamism of all matter, which challenges the notion of a stable self and highlights our unity with the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The revelation that our sense of a solid, unchanging self is an illusion and that we are actually wiggly components in a larger, wiggling universe.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "direct_experience",
+  "title": "Direct Experience",
+  "definition": "The realization that perception can be altered by ceasing manipulation of it, leading to a direct experience of the fundamental nature of reality.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.272384Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.272384Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you stop trying to see something a certain way and just let your eyes work on their own, you might find that you see things more clearly. This concept is about realizing that the same principle applies to life and reality itself.",
+    "intermediate": "Direct experience refers to the shift in perception that occurs when one stops intentionally manipulating their senses and instead allows for a direct, unfiltered encounter with reality. This notion challenges our traditional understanding of subjectivity and objectivity.",
+    "expert": "Direct experience is the philosophical insight that the nature of reality can be directly perceived when we stop deliberately shaping our perceptions. It suggests that our conventional notions of self, world, and reality are artificially constructed through intentional perception and that a more fundamental, unmediated reality lies beneath."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that reality can be directly experienced without the need for technology or understanding of the brain.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

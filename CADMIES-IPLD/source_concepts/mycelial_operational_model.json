@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_operational_model",
+  "title": "Mycelial Operational Model",
+  "definition": "A model that describes Hieros Network as a mycelial organism, outlining various features and implications of this analogy.",
+  "type": "Concept",
+  "domain": "Computer Science, Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.454094Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.454094Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Hieros Network is like a vast underground network of fungi that helps plants grow. In this model, the network represents individual contributors (hyphae), the core protocol (mycelial mat), discoveries (fruiting bodies), and more.",
+    "intermediate": "The mycelial operational model compares the Hieros Network to a mycelium, an underground fungal network. It highlights how individual contributors (hyphae) form a decentralized network (mycelial mat), produce discoveries (fruiting bodies), and establish symbiotic relationships with other networks (mycorrhizal network).",
+    "expert": "The mycelial operational model is an analogy that likens the Hieros Network to a mycelium, an underground network of fungi. It emphasizes how this network functions by individual contributors (hyphae) exchanging resources and information (HOG), growing on a physical substrate (IPFS Data Fabric), producing discoveries (fruiting bodies), establishing symbiotic relationships with other networks (mycorrhizal network), decomposing stagnant or siloed knowledge, and distributing intelligence throughout the system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights a profound connection between the Hieros Network and mycelium, presenting a unique operational model for the project that emphasizes its decentralized, interconnected, and symbiotic nature.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

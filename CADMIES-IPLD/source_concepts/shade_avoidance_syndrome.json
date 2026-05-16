@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "shade_avoidance_syndrome",
+  "title": "Shade Avoidance Syndrome",
+  "definition": "A plant's response to shade involving hormonal changes, growth alterations, and defense reduction that can lead to fragility and vulnerability.",
+  "type": "Concept",
+  "domain": "Botany",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.490286Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.490286Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A plant's survival strategy in a crowded or shaded environment where it rapidly grows tall and weak to try to outgrow the shade, making it more vulnerable to pests and disease.",
+    "intermediate": "A complex plant response to perceived competition for light, involving hormonal changes, growth alterations, and reduced defense investments that can lead to a weakened, fragile state.",
+    "expert": "A formal parallel between the human stress cycle and the plant's shade-avoidance syndrome, both exhibiting high-alarm states and depletion of energy reserves due to stress."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The connection between a person burning out from work stress and a plant growing itself to death in a crowded forest through a shared pattern of system stuck in a high-alarm state and depleted energy reserves.",
+    "source_chunk": 98,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

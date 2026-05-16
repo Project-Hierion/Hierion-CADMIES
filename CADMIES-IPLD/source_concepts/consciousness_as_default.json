@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_as_default",
+  "title": "Consciousness As Default",
+  "definition": "The inherent state of awareness that underlies all cognitive processes, including thinking, perceiving, and experiencing.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.274261Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.274261Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like the background that lets everything else appear. Just as your computer screen shows images because it's on, consciousness is always there even though we often don't notice it.",
+    "intermediate": "Consciousness is the fundamental ground of all experience. It is not a product or result of thinking or perceiving, but rather the underlying condition that makes these processes possible.",
+    "expert": "In many Eastern philosophical traditions, consciousness is seen as the unchanging foundation of reality. It is understood to be pure awareness, free from any content, and independent of thoughts, emotions, or sensory experiences."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight here is that consciousness, in its default state, transcends the boundaries of individual identity and personal history. It offers a glimpse into the boundless and timeless nature of reality.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "recursive_scientific_tool",
+  "title": "Recursive Scientific Tool",
+  "definition": "A scientific tool that embodies the principles it seeks to understand, creating a recursive, self-referential system.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.451852Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.451852Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine building a microscope to study tiny particles. The microscope itself needs to be small and precise. In the same way, our project aims to create a complex system that can study other complex systems, mirroring the very principles it's trying to understand.",
+    "intermediate": "The Hieros Network is designed as a decentralized, adaptive, community-driven system capable of studying interconnected, emergent, complex systems. The network itself, with its self-referential design, exemplifies the principles it seeks to explore, creating a unique recursive feedback loop.",
+    "expert": "The project aims at building a living mirror of complex systems theory. Every aspect of Hieros\u2014from its decentralized data fabric to its ethical governance\u2014reflects the intricacies of complex adaptive systems. This meta-perspective breaks down traditional boundaries between subjects, instruments, and experimenters, blurring the lines between the observer and the observed."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The project embodies a profound recursion: it seeks to study complex systems by becoming one itself.",
+    "source_chunk": 32,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

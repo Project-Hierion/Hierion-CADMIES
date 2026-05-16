@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "funny_monsters",
+  "title": "Funny Monsters",
+  "definition": "The idea that everything, including ourselves, can be seen as complex entities composed of smaller, wiggling components.",
+  "type": "Concept",
+  "domain": "Physics (String Theory)",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.420736Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.420736Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "emergence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine yourself not just as a single entity, but as a collection of tiny, wiggling parts. That's what funny monsters are all about!",
+    "intermediate": "The concept of funny monsters emphasizes the emergent nature of complex systems by depicting larger entities like cells, organisms, and even planets as composites of wiggling components such as atoms, molecules, and strings.",
+    "expert": "Funny Monsters represent a novel way to think about the self-similar, hierarchical structure of the universe. This idea posits that by understanding the fundamental vibrations or wiggles that underlie the behavior of smaller components, we can gain insights into the emergent properties and behaviors of larger systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Everything in the universe is connected through a complex web of wiggling components, forming interconnected entities like funny monsters.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resonance_incubator",
+  "title": "Resonance Incubator",
+  "definition": "The idea that Earth acts as a 'consciousness incubator' in a cold, quiet cosmos, providing the conditions necessary for self-awareness to emerge.",
+  "type": "Concept",
+  "domain": "Astrobiology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:59:35.331510Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:59:35.331510Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The theory that Earth's unique combination of physical and biological properties creates an environment where consciousness can flourish and evolve.",
+    "intermediate": "The hypothesis that the Earth's complex, self-organizing systems\u2014including lifeforms and their environments\u2014provide a high density of resonant frequencies, attracting and fostering the emergence of consciousness.",
+    "expert": "A proposed model in which the Earth acts as a 'consciousness incubator' due to its unique combination of geophysical, geochemical, and biological properties, creating the optimal conditions for self-awareness to arise and evolve."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Earth is a dense, intense playground of resonance where awareness can experience itself in extreme contrast.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

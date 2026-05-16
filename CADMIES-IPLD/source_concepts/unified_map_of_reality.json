@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_map_of_reality",
+  "title": "Unified Map Of Reality",
+  "definition": "A proposed framework that connects quantum fields to human introspection, facilitating a data-driven, cross-disciplinary investigation into the nature of reality.",
+  "type": "Concept",
+  "domain": "Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.475976Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.475976Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A grand design for understanding reality from its smallest components to our own consciousness, bringing together science and philosophy.",
+    "intermediate": "An ambitious project that aims to create a unified map of reality by connecting quantum physics with human introspection through data-driven, cross-disciplinary research.",
+    "expert": "A visionary endeavor to develop a comprehensive framework for understanding reality, from the smallest particles to our own conscious experience, by bridging quantum physics and philosophy through large-scale, data-driven research."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Creating a unified map of reality that connects quantum physics with human introspection",
+    "source_chunk": 72,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

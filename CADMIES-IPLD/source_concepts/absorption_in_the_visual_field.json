@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "absorption_in_the_visual_field",
+  "title": "Absorption In The Visual Field",
+  "definition": "A state where the higher-order parts of the visual cortex stop constructing the world of 'things', leaving a more primitive experience of light, color, and undifferentiated form.",
+  "type": "Concept",
+  "domain": "Neuroscience & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:03:38.722143Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:03:38.722143Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you look at something for too long, like tiles or a wall, your brain can start to blur them together into a sea of colors. This is called absorption in the visual field and it's a way to give your brain a rest.",
+    "intermediate": "Absorption in the visual field is a neurological state where the constant object-identification machinery takes a break, allowing a more primitive experience of light, color, and undifferentiated form. It's related to phenomena like perceptual rivalry, sensory adaptation, and the Troxler fading effect.",
+    "expert": "Absorption in the visual field is a point where two things converge: The physical 'tuning out', as the sensory adaptation in the visual cortex causes the blurring of static input, and the conscious 'letting go', as the higher-order parts of the visual cortex halt the usual cognitive framing. This state allows for an experience of pure consciousness, without content, which is a goal of many contemplative traditions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Absorption in the visual field is not just a random mental glitch; it is a direct, intuitive taste of one of the core goals of many meditation practices.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

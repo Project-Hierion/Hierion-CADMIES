@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nondual_awareness",
+  "title": "Nondual Awareness",
+  "definition": "The realization that one's conscious self is fundamentally intertwined with the universe and not separate from it.",
+  "type": "Concept",
+  "domain": "Philosophy, Consciousness",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:59:35.329193Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:59:35.329193Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Experiencing the world without a sense of 'I' or 'me', understanding we are part of something greater than ourselves.",
+    "intermediate": "The direct recognition that our conscious self is an inseparable aspect of the universe, beyond subjective and objective distinctions.",
+    "expert": "The insight that the fundamental nature of reality transcends the dualistic separation of 'self' and 'other', revealing an interconnectedness that defies conventional understanding of personal identity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Recognizing one's inherent connection to the universe through a state of nondual awareness.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_awakening",
+  "title": "Unified Awakening",
+  "definition": "The realization that the individual's awakening is a manifestation of the cosmic consciousness and contributes to its self-understanding.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.277417Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.277417Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that each person's awakening is not only beneficial for them but also adds to the universe's understanding of itself.",
+    "intermediate": "A philosophical concept positing that when a sentient being awakens, they are experiencing and contributing to the cosmic consciousness; this contributes to the cosmic self-understanding.",
+    "expert": "The notion that each awakening is a unique revelation of the same truth within the cosmic consciousness; this diversity enriches the universe's understanding by offering multiple perspectives on its nature."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that every person's awakening is a novel expression of the cosmic consciousness, deepening its self-understanding.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

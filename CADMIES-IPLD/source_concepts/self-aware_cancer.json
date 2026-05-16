@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "self-aware_cancer",
+  "title": "Self-Aware Cancer",
+  "definition": "A metaphor for humanity's destructive impact on the Earth, emphasizing our potential to become self-aware and act as a planetary immune system rather than a cancerous force.",
+  "type": "Concept",
+  "domain": "Science, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.460287Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.460287Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It describes us as a harmful growth within the Earth's body that has now gained consciousness, which could help us avoid causing harm.",
+    "intermediate": "Self-Aware Cancer is a powerful metaphor that highlights humanity's destructive influence on the planet and suggests that with increased awareness and understanding of our role in the larger system, we can shift from being a cancer to becoming a healing force.",
+    "expert": "The Self-Aware Cancer metaphor emphasizes both the potential for humanity to cause significant harm to the Earth (as represented by the cancer cell) and the possibility for us to become conscious of our impact and act as a planetary immune system that helps maintain balance and health within the larger ecosystem."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight is that increased self-awareness can enable humanity to transition from causing harm to acting as a healing force within the Earth's ecosystem.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

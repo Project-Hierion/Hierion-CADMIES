@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scale_bridging_theory",
+  "title": "Scale Bridging Theory",
+  "definition": "A unified framework that links quantum fields with the biosphere, bridging scales from micro to macro.",
+  "type": "Concept",
+  "domain": "Physics, Biology, Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.422946Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.422946Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine building a universal language and a massive data network to connect scientists from various fields who study everything from tiny quantum particles to large ecosystems, to understand complex systems as a whole.",
+    "intermediate": "A theoretical framework that models the interactions between different scales in nature, such as electrons, cells, organisms, and entire ecosystems. It aims to provide a comprehensive understanding of the behavior of these complex systems by connecting quantum physics, biology, and computer science.",
+    "expert": "A novel mathematical theory that connects the microscopic realm of quantum mechanics with the macroscopic domain of biosphere dynamics, enabling an integrated understanding of complex systems through multiscale modeling, causal inference, and data integration. It addresses the challenges of the scaling problem, causality problem, and data integration problem by providing a unified mathematical framework that spans multiple disciplines."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that connecting the quantum realm to the biosphere through a unified scale-bridging theory could revolutionize our understanding of complex systems in nature.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hieros",
+  "title": "Hieros",
+  "definition": "The process and principles of creating new words and phrases to fill lexical gaps, specifically when existing language is inadequate to describe a newly understood concept or phenomenon.",
+  "type": "Concept",
+  "domain": "Linguistics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.484817Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.484817Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A method used to create new words that help scientists and others more accurately discuss complex concepts or phenomena.",
+    "intermediate": "Hieros is the process of creating new terms to address lexical gaps in understanding, using methods such as compounding, blending, and classical roots. This allows for a more accurate and evocative discussion of newly understood concepts and phenomena.",
+    "expert": "Hieros is a critical tool for advancing knowledge by creating new words and phrases that accurately describe complex concepts or phenomena, thereby filling lexical gaps in existing language. This method involves identifying conceptual inadequacy, exploring morphological methods, and legitimizing the new term through definition and usage."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of creating new words to fill lexical gaps, allowing for a more precise and accurate discussion of complex concepts or phenomena.",
+    "source_chunk": 89,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

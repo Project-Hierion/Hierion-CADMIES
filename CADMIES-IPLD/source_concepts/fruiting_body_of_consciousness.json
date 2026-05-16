@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fruiting_body_of_consciousness",
+  "title": "Fruiting Body Of Consciousness",
+  "definition": "The idea that humans, life, and consciousness are the fruiting bodies of a greater, interconnected network, like mycelium.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.473310Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.473310Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just as mushrooms grow from an underground network called mycelium, humans and all life grow from a larger, unseen network. In this perspective, we are not separate entities but expressions of the same consciousness.",
+    "intermediate": "Fruiting Body of Consciousness is a philosophical concept that posits that humans, life, and consciousness are the fruiting bodies of an underlying interconnected network or organism, similar to how mushrooms grow from mycelium.",
+    "expert": "The Fruiting Body of Consciousness is a powerful metaphor that unites spirituality, biology, and philosophy. It posits that humans are not separate entities but expressions of the same interconnected consciousness, like fruiting bodies arising from a mycelial network."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Humans, life, and consciousness are seen as the fruiting bodies of a larger, interconnected network or organism, with The Buddha representing the highest expression of this unity.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

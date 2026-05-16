@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmium",
+  "title": "Cosmium",
+  "definition": "A proposed noun for the fundamental, living, connective framework of the universe, derived from 'cosmic' and 'mycelium'.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.481229Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.481229Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A new name for the cosmos that combines 'cosmic' and 'mycelium', suggesting a living web-like structure similar to fungal networks.",
+    "intermediate": "An original noun created by merging two existing words, 'cosmic' and 'mycelium', to represent the universal fabric of the cosmos with a biological connotation.",
+    "expert": "A neologism that unifies the concepts of 'cosmic' and 'mycelial' within a single term, emphasizing the living, interconnected nature of the universe while offering a foundation for further linguistic development."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The creative blending of existing terms to create a new concept, serving as a powerful tool for world-building and language evolution.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "minimal_cost_ecosystem",
+  "title": "Minimal Cost Ecosystem",
+  "definition": "A decentralized knowledge system where contributors incur minimal cost, fostering widespread participation and rapid discovery.",
+  "type": "Concept",
+  "domain": "Computer Science, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.445633Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.445633Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A place for people to share information easily, with as little effort or money spent as possible. It's like a library where everyone can contribute a book without having to buy the shelves.",
+    "intermediate": "An open-source, decentralized network that leverages free resources and relies on community efforts to reduce barriers for participation, encouraging collaboration and knowledge sharing.",
+    "expert": "A philosophical exploration of resource allocation in collective intelligence systems, prioritizing minimal cost as a means to attract contributors and promote equitable access to knowledge production, fostering a self-sustaining, democratized ecosystem for discovery."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that minimizing the cost of participation can lead to an explosion of shared knowledge and innovation.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "volunteer_guardianship",
+  "title": "Volunteer Guardianship",
+  "definition": "A leadership model where key decision-makers are unpaid volunteers, selected based on reputation and commitment to the project's values.",
+  "type": "Concept",
+  "domain": "Governance",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.450508Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.450508Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Leaders of a project are chosen because they care deeply about its mission, not for money or career advancement. This way, their decisions will always be guided by what's best for the project and the world.",
+    "intermediate": "A governance structure where key decision-makers are volunteers to prevent conflicts of interest and maintain a focus on the project's values, rather than financial incentives.",
+    "expert": "A revolutionary approach to leadership that prioritizes integrity and commitment over financial gain, creating a self-filtering mechanism where only truly dedicated individuals participate, thereby strengthening the project and its mission."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Paying the Guardians would undermine their purpose by introducing financial incentives and potentially corrupt motives.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_resonance",
+  "title": "Cosmic Resonance",
+  "definition": "The idea that consciousness arises from organized, complex, and self-referential vibrations in the universe.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.276144Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.276144Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "emergence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that our awareness might be a result of certain patterns or frequencies in the universe, similar to how a tuning fork produces a specific sound when struck.",
+    "intermediate": "The theory that consciousness is an emergent property of self-referential and organized vibrations within the universe, such as Earth's stable environment, liquid water, and feedback loops in life and nature.",
+    "expert": "A philosophical hypothesis suggesting that consciousness emerges when vibrational systems become sufficiently complex and self-referential, bridging physics, philosophy, and cosmology. The universe, through certain conditions, can give rise to forms of awareness capable of perceiving and questioning its own nature."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe might be observing and understanding itself through the emergence of consciousness in certain complex systems, such as Earth and life on it.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

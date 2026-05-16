@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dependent_origination",
+  "title": "Dependent Origination",
+  "definition": "The principle that everything arises due to specific conditions, suggesting a universe of interconnectedness.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.476493Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.476493Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "impermanence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Everything in the universe is connected and depends on certain conditions. For example, a butterfly needs a caterpillar, food, and the right weather to transform into a butterfly.",
+    "intermediate": "The philosophical concept that all phenomena arise due to specific conditions or causes, and that nothing exists independently. This idea is central to Buddhist philosophy and emphasizes interconnectedness and impermanence.",
+    "expert": "A fundamental principle in many Eastern philosophies, including Buddhism, that everything arises dependently on other factors. It highlights the inherent interdependence and conditionality of all phenomena, which challenges traditional metaphysical views of substance or essence and encourages an understanding of the world as a constantly changing, interconnected web."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that every event, thought, or object is a result of specific conditions, suggesting that everything in the universe is deeply connected.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

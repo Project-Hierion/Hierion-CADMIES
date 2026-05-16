@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "wiggle_theory",
+  "title": "Wiggle Theory",
+  "definition": "The theory that everything in the universe is composed of vibrating strings or wiggles.",
+  "type": "Concept",
+  "domain": "Physics (String Theory)",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.420266Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.420266Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the smallest particles as tiny, vibrating strings. Everything, including you and me, is made up of these wiggly strings.",
+    "intermediate": "String theory proposes that all matter in the universe is composed of one-dimensional, vibrating objects called strings. The properties and interactions of these strings define the behavior of particles at every scale.",
+    "expert": "Wiggle Theory suggests a unified framework for understanding reality, from the quantum level to the macroscopic scale, by treating fundamental constituents as vibrational modes of one-dimensional objects. This approach dissolves the boundary between object and process, fundamentally altering our understanding of the nature of physical phenomena."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is not just made of things; it's an interconnected network of vibrations or wiggles.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

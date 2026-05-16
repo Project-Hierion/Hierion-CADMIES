@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_neural_network",
+  "title": "Cosmic Neural Network",
+  "definition": "The idea that the universe can be conceptualized as an interconnected, self-aware cosmic neural network, with individual beings serving as nodes and enlightenment representing unique neural transmissions.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:03:38.734148Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:03:38.734148Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe as a giant brain where each person is like a neuron. Enlightenment is the process of a neuron connecting with others and contributing to the overall understanding of the universe.",
+    "intermediate": "This concept proposes that the universe functions as an interconnected neural network, with individual beings serving as nodes or neurons. Enlightenment represents the unique neural transmission or insights contributed by each node to the collective self-understanding of the cosmic brain.",
+    "expert": "The cosmic neural network concept offers a dynamic view of enlightenment as the universe's recursive learning process, in which individual beings (as nodes) contribute unique data points, perspectives, and insights that enrich the overall self-understanding of the cosmic brain. Enlightenment represents a novel configuration of consciousness realizing its own nature, with each occurrence adding a new nuance or texture to the understanding of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is not merely observing itself through individual beings; it is learning from and expanding its self-understanding through each enlightened being's unique perspective.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

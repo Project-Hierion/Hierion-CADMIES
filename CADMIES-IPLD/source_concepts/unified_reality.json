@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_reality",
+  "title": "Unified Reality",
+  "definition": "The concept that everything in the universe may be fundamentally interconnected, beyond classical distinctions of separation.",
+  "type": "Concept",
+  "domain": "Quantum Physics & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:03:38.723443Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:03:38.723443Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just as you can see all tiles merging into a single field without focus, so too might the entire universe be interconnected at its core, with no distinct boundaries between things.",
+    "intermediate": "Quantum entanglement suggests that when two particles become linked, they lose their individual identities and exist as a single unified system, even when separated by vast distances. This implies a deeper level of unity underlying the classical world of separate objects.",
+    "expert": "In quantum physics, the observation or measurement of a particle can cause it to collapse from a state of superposition (a wave-like, probabilistic blur) into a definite position. This phenomenon is known as the observer effect. When consciousness collapses the wave function, it filters the raw, entangled quantum universe into a classical world of separate objects. However, moments of diffuse attention allow for a temporary suspension of this filter, revealing the underlying unity of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The shift from seeing a blurred, unified field to distinct, separate objects mirrors the structure of objective reality as described by quantum physics. This suggests that our everyday perception is a constant act of collapsing reality into the familiar classical world.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

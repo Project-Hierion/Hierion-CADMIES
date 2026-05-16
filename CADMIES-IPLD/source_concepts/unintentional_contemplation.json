@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unintentional_contemplation",
+  "title": "Unintentional Contemplation",
+  "definition": "The accidental experience of a state aimed for in meditation, characterized by the dissolution of perceptual boundaries and self-awareness.",
+  "type": "Concept",
+  "domain": "Neuroscience/Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:59:35.319219Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:59:35.319219Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you stare into space and the world around you seems to blur or disappear, you're experiencing a moment where your brain takes a break from actively processing the environment. This state can be similar to what happens during meditation.",
+    "intermediate": "Unintentional contemplation refers to the spontaneous occurrence of a mental state that is sought through intentional practice in meditation, characterized by the dissolution of perceptual boundaries and self-awareness. It is caused by sensory adaptation and a shift from focused to diffuse attention.",
+    "expert": "Unintentional contemplation is a neurological phenomenon that arises when one's visual processing system adapts to repetitive, low-contrast stimuli, causing perceptual boundaries to soften or dissolve. It can be considered a moment of absolute self-awareness, where the higher-order parts of the visual cortex cease constructing the world of 'things', leaving behind pure consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Unintentional contemplation is an accidental taste of one of the core goals of meditation, offering a glimpse into the nature of awareness and reality.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

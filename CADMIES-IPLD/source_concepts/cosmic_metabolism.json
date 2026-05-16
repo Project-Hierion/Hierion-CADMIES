@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_metabolism",
+  "title": "Cosmic Metabolism",
+  "definition": "The eternal cycle of creation, dissolution, and rebirth in the universe, where matter, energy, and information are constantly recycled, reassembled, and relaunched into existence.",
+  "type": "Concept",
+  "domain": "Physics & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.471864Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.471864Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a forest. Mycelium is the underground network that supports all plant life. The universe can be seen as a vast mycelial network where everything - stars, planets, humans - are part of an endless cycle of creation, death, and rebirth.",
+    "intermediate": "Cosmic Metabolism refers to the idea that the universe operates not as a static collection of objects, but as a dynamic process where matter, energy, and information are constantly cycled. This view challenges traditional notions of creation and death by suggesting that everything is interconnected and part of a continuous cycle.",
+    "expert": "In this concept, the universe is viewed as an ecosystem where every component undergoes a constant process of transformation. The fundamental particles that make up matter, energy, and information are never truly destroyed; instead, they are recycled and recombined into new forms. This cyclical view challenges our understanding of time, space, and the nature of reality itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is not a static collection of objects but a dynamic, cyclical process.",
+    "source_chunk": 66,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

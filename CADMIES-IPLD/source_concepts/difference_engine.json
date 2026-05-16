@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "difference_engine",
+  "title": "Difference Engine",
+  "definition": "A system capable of accurately mapping and understanding the precise distinctions between concepts, rather than just their similarities.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.485450Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.485450Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a machine that doesn't just tell you all cats are furry, but also explains why a Siamese cat is different from a British Shorthair. This is the difference engine.",
+    "intermediate": "The difference engine is a tool that focuses on identifying and understanding differences between concepts rather than solely finding similarities, allowing for more precise analysis and comparison.",
+    "expert": "The difference engine represents the engine of precision within a system like Hieros. While many AI systems are focused on unifying patterns, the difference engine emphasizes the importance of mapping boundaries between ideas and understanding why two concepts might be different, which can often lead to more profound insights."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight is that mapping precise distinctions between concepts can lead to a deeper understanding of philosophical systems and prevent the creation of a 'mushy, everything-is-one' soup.",
+    "source_chunk": 90,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

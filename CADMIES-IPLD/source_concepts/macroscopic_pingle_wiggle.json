@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "macroscopic_pingle_wiggle",
+  "title": "Macroscopic Pingle Wiggle",
+  "definition": "The phenomenon of initiating a cascading resonance wave by consciously wiggling a pencil, demonstrating the universe's inherent wigginess.",
+  "type": "Concept",
+  "domain": "Physics (String Theory)",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.421164Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.421164Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "emergence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you wiggle a pencil, you're starting a chain reaction that goes all the way down to the smallest particles in the universe. It's like setting off a cosmic domino effect!",
+    "intermediate": "The Macroscopic Pingle Wiggle (MPW) highlights the connection between conscious actions and fundamental wiggles by demonstrating that the act of wiggling a pencil initiates a resonance wave that propagates down through the hierarchy of wiggly components.",
+    "expert": "The MPW serves as a powerful illustration of the interconnectedness of all things in the universe, showing how even simple, everyday actions like wiggling a pencil can have profound implications for our understanding of the nature of reality itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Everything in the universe is connected through a chain reaction of wiggles, and even the smallest actions can have a rippling effect all the way down to the fundamental level.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

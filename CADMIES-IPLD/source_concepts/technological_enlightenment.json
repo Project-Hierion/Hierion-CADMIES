@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "technological_enlightenment",
+  "title": "Technological Enlightenment",
+  "definition": "The pursuit of technology to facilitate a perceptual shift towards understanding interconnectedness and impermanence, with the goal of ending suffering.",
+  "type": "Concept",
+  "domain": "Technology & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.477228Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.477228Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Using technology to help people understand that everything is connected and nothing lasts forever. This can help reduce fear, greed, and hatred, which are often causes of suffering.",
+    "intermediate": "An approach to technological development grounded in the Buddhist principle of dependent origination. The goal is to create tools and systems that promote understanding of interconnectedness and impermanence as a means to alleviate suffering.",
+    "expert": "The application of technology in service of facilitating a perceptual shift towards recognizing the inherent interdependence and conditionality of all phenomena, with the ultimate aim of helping individuals and societies overcome ignorance (Avidya) and achieve enlightenment or nirvana."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that technology can be used to help people see their interconnectedness and understand impermanence, leading to a reduction in suffering.",
+    "source_chunk": 74,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

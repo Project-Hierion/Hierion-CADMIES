@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dynamic_process_of_connection",
+  "title": "Dynamic Process Of Connection",
+  "definition": "A philosophical perspective where the value of scientific knowledge lies in the relationships between data points rather than individual data points.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.425124Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.425124Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In this new approach, science is not just about collecting facts but connecting them to see the bigger picture.",
+    "intermediate": "The focus shifts from isolated findings to understanding the complex web of relationships between different disciplines and fields.",
+    "expert": "This perspective emphasizes the importance of integrative thinking, interdisciplinary collaboration, and systems thinking in scientific progress."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Life, Earth, and the Universe are more interconnected than previously thought; this insight challenges traditional siloed approaches to science.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

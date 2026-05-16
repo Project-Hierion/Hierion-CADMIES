@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "co_creation_of_reality",
+  "title": "Co Creation Of Reality",
+  "definition": "The process of shaping reality through the creation and use of tools that allow for a coherent perception and manipulation of previously inaccessible patterns.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.452297Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.452297Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When Newton invented calculus, he didn't just observe reality but actively shaped it by creating a new lens through which we could understand the world. The Hieros Project aims to do something similar for complex systems.",
+    "intermediate": "By crafting tools that allow us to perceive and manipulate complex systems in a coherent way, we are not just observing reality but actively participating in its creation.",
+    "expert": "Co-creation of Reality posits that our tools shape what we can see and thus shape reality itself. The Hieros Project aims to build tools that allow for a more unified understanding of complex systems, effectively actualizing latent potentials in the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user's question about Newton's influence on reality highlights the project's goal: not just to observe complex systems but to actively participate in shaping them.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

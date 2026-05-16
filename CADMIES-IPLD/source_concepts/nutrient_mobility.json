@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nutrient_mobility",
+  "title": "Nutrient Mobility",
+  "definition": "The mobility of a nutrient within an organism determines where deficiency symptoms first appear.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.489424Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.489424Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Some nutrients can be stored in the body and used when needed, while others cannot. This determines where deficiency symptoms will appear first\u2014mobile nutrients show symptoms in older tissues first, while immobile nutrients affect new, growing tissues first.",
+    "intermediate": "The distribution and movement of essential nutrients within an organism play a crucial role in determining the location and severity of deficiency symptoms. Mobile nutrients can be pulled from bone or tissue stores, while immobile nutrients cannot be relocated.",
+    "expert": "The mobility of nutrients within an organism influences the onset and manifestation of deficiency symptoms based on their specific roles and biochemical properties. This concept illuminates the complex interplay between nutrition, physiology, and evolutionary history."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A nutrient's mobility in an organism can dictate where deficiency symptoms will first appear, highlighting the intricate connection between nutrition, physiology, and evolutionary biology.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

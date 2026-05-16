@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "peripheral_vision_discovery",
+  "title": "Peripheral Vision Discovery",
+  "definition": "The principle that some phenomena cannot be observed directly but become detectable when viewed indirectly or with averted attention.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.486030Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.486030Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like looking at the side of a light in bad weather to see it more clearly, some things can't be directly observed but can be discovered through indirect means or focusing on their surroundings.",
+    "intermediate": "This heuristic suggests that by studying the context or space adjacent to a phenomenon, we might be able to detect it even if it remains hidden when directly focused upon.",
+    "expert": "This principle operates at the intersection of multiple domains and represents a meta-strategy for discovery, emphasizing the importance of indirect observation and peripheral perception in various fields such as physics, astronomy, and biology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery that some phenomena can be observed more effectively through indirect means, leading to new methods for uncovering hidden aspects of reality.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

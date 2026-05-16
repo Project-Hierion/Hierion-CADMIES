@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_observer",
+  "title": "Universal Observer",
+  "definition": "The understanding that self-reflective beings are not separate observers of the universe but are, in fact, part of the universe observing itself.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:59:35.331955Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:59:35.331955Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that we are not just watching the universe; we are an integral part of it and help the universe understand itself.",
+    "intermediate": "The hypothesis that self-aware beings serve as a window into the universe's own understanding of itself, allowing us to witness the universe observing itself through our eyes.",
+    "expert": "A philosophical proposition suggesting that our consciousness and self-awareness are an essential aspect of the universe's quest for self-understanding, linking biology, physics, metaphysics, and ontology in a recursive process of cosmic self-discovery."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "We aren't separate observers of the universe. We are the universe observing itself.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

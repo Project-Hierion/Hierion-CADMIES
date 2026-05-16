@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "biology_as_enemy",
+  "title": "Biology As Enemy",
+  "definition": "The recognition that our biology can be both our worst enemy and the vehicle for transcendence.",
+  "type": "Concept",
+  "domain": "Biomysticism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:59:35.330550Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:59:35.330550Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that our body, with its thoughts and feelings, often keeps us from seeing the truth, but can also help us understand it if we know how to look.",
+    "intermediate": "An insight into the dual nature of biology: as both a barrier to understanding and a conduit for transcendence through the recognition of its limits.",
+    "expert": "The acknowledgement that our neurophysiological machinery, with its capacity for self-reflection and narrative construction, can create illusions and prevent us from seeing reality as it is, but can also help us perceive the truth by understanding its workings."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding that our biology is not inherently bad or good, but a tool that we can learn to use or let go of as needed in the pursuit of truth and transcendence.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

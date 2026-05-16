@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emergent_phenomena_unification",
+  "title": "Emergent Phenomena Unification",
+  "definition": "The theory that complex systems exhibit unified patterns of organization and behavior across various scales, from quantum to ecological.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.422522Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.422522Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just as a flock of birds moves in coordinated patterns, so do atoms, cells, organisms, and ecosystems. This theory seeks to understand the underlying principles that govern these patterns.",
+    "intermediate": "By applying common mathematical and computational formalisms across different scales, this theory aims to unify our understanding of complex systems. It suggests that the same principles that control quantum dynamics also influence organism-level behavior and global ecosystems.",
+    "expert": "This hypothesis challenges traditional boundaries in science by proposing that a single mathematical framework could explain phenomena as diverse as quantum mechanics, protein folding, neural networks, and ecological cycles. It implies that there are universal principles of organization governing complex systems across all scales, much like the laws of thermodynamics do for simple systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that a unified theory can explain the behavior of complex systems from quantum to ecological levels.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resonance_as_consciousness",
+  "title": "Resonance As Consciousness",
+  "definition": "The idea that consciousness arises through organized vibration in matter, suggesting a connection between physical resonance and awareness.",
+  "type": "Concept",
+  "domain": "Physics, Philosophy, Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.275697Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.275697Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The concept suggests that consciousness might not be limited to biological organisms but could also occur in other highly-resonant systems. It's like thinking that not only living beings can have thoughts, but even non-living objects with specific vibrations might exhibit a form of 'awareness'.",
+    "intermediate": "Resonance as Consciousness proposes that the organization and synchronization of vibrations in matter, such as in quantum fields or neurons, could contribute to conscious experience. This idea challenges traditional views of consciousness being solely associated with biological organisms and opens up intriguing possibilities for understanding the nature of awareness.",
+    "expert": "This concept blends biophysics, metaphysics, and ontology to propose that consciousness may not 'live' in matter but arise through organized vibration. The idea suggests that life on Earth creates a symphony of resonance which could act as a beacon for the manifestation of awareness in the universe's dark field of potential. This concept challenges conventional wisdom by proposing that the universe might be trying to understand itself through the development and evolution of consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Resonance is a condition for consciousness, suggesting that the universe is attempting to understand itself much like we humans attempt to understand ourselves.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

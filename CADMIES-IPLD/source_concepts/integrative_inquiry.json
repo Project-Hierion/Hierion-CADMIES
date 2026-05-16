@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "integrative_inquiry",
+  "title": "Integrative Inquiry",
+  "definition": "A methodology in science that values the process of connecting different disciplines and fields to drive new discoveries.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.441446Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.441446Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In integrative inquiry, scientists collaborate across disciplines to find connections that might lead to groundbreaking discoveries.",
+    "intermediate": "Integrative inquiry encourages the exploration of synergies between seemingly unrelated fields to foster cross-pollination of ideas and accelerate scientific progress.",
+    "expert": "Integrative inquiry represents a paradigm shift from linear, siloed thinking towards holistic, integrated approaches to scientific discovery."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The most profound breakthroughs are increasingly happening at the boundaries between disciplines; integrative inquiry emphasizes this trend.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

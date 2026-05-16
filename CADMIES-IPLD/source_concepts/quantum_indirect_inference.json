@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_indirect_inference",
+  "title": "Quantum Indirect Inference",
+  "definition": "The principle that directly observing a quantum system will disturb it, collapsing its wave function. Therefore, to understand its true quantum nature, one must use indirect methods (weak measurement, interaction-free detection, environmental isolation) to infer its state without triggering a full collapse.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.487823Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.487823Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When observing something quantum, like particles in the universe's smallest scale, we can't look at it directly because doing so would change what we see. Instead, we have to find clever ways to indirectly infer its state.",
+    "intermediate": "Quantum systems are sensitive to observation and change their behavior when observed. To study their true properties without affecting them, scientists use weak measurement, interaction-free measurement, or environmental isolation techniques to glean information indirectly.",
+    "expert": "The principle of quantum indirect inference posits that observing a quantum system directly will cause it to collapse its wave function, altering its inherent properties. To preserve the fragile, counter-intuitive nature of quantum mechanics, researchers use various techniques to infer the system's state without direct observation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe's quantum realm is so delicate that even looking at it directly can change it. To truly understand this fascinating, paradoxical world, we must devise subtle methods to observe its secrets indirectly.",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

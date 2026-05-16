@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "factory_reset",
+  "title": "Factory Reset",
+  "definition": "The idea that enlightenment is not an upgrade but a return to a state of unburdened, clear awareness that precedes the formation of fixed ideas and heavy identity.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.273057Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.273057Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Enlightenment is like pressing the reset button on your brain. It means going back to a state before you had so many thoughts and beliefs about who you are and what is real.",
+    "intermediate": "Factory reset refers to the idea that enlightenment involves returning to a state of unburdened, clear awareness that existed before the formation of fixed ideas and heavy identity. This notion challenges our conventional understanding of personal growth as an accumulation of knowledge and experiences.",
+    "expert": "Factory reset is the philosophical insight that enlightenment does not involve an upgrade or addition to one's consciousness but rather a return to a state of unburdened, clear awareness that existed before the formation of fixed ideas and heavy identity. This notion emphasizes the importance of shedding accumulated beliefs and experiences in order to access this fundamental state."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that enlightenment is not an upgrade but a return to a state of pure, unburdened awareness.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_universe",
+  "title": "Mycelial Universe",
+  "definition": "The analogy of the quantum fields as a mycelial network in a substrate of spacetime.",
+  "type": "Concept",
+  "domain": "Physics, Quantum Field Theory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.470804Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.470804Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of our universe as a forest where the mycelium is the invisible underground network that holds everything together and allows nutrients to travel between trees. In this analogy, spacetime acts as the soil or log that supports the entire ecosystem.",
+    "intermediate": "In this view, the quantum fields are likened to a mycelial network\u2014an extensive, interconnected web of fungal threads that permeates the substrate. This analogy captures the dynamic, interwoven, and non-local nature of the quantum fields.",
+    "expert": "The Mycelial Universe metaphor offers a powerful insight into the nature of quantum fields. By comparing them to a mycelial network in a substrate of spacetime, it emphasizes their interconnectedness, living quality, and non-local interactions that are crucial for understanding the fabric of our universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Mycelial Universe analogy beautifully captures the complex, dynamic, and interwoven nature of quantum fields.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

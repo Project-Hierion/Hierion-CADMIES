@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hieros_ontology_graph",
+  "title": "Hieros Ontology Graph",
+  "definition": "A universal translator for scientific data, a collaboratively built and maintained digital dictionary that maps the relationships of terms across disciplines.",
+  "type": "Concept",
+  "domain": "Science & Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.423812Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.423812Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a global library where everyone contributes their own words and connections between them. This library helps scientists understand each other's work, even if they come from different fields.",
+    "intermediate": "Hieros Ontology Graph (HOG) is a massive network of interconnected terms and concepts spanning various scientific disciplines, providing a common language for researchers to communicate effectively.",
+    "expert": "The Hieros Ontology Graph (HOG) represents an attempt to unify the fragmented landscape of scientific knowledge by mapping the relationships between terms across multiple disciplines. It serves as a foundation for the development of advanced AI and knowledge discovery tools, bridging gaps in understanding at diverse scales."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Hieros Ontology Graph offers a potential solution to the problem of diverse terminologies in science, fostering greater collaboration and accelerating discovery by enabling cross-disciplinary communication.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

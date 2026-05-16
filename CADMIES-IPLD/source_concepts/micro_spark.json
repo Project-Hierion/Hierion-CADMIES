@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "micro_spark",
+  "title": "Micro Spark",
+  "definition": "A small, localized instance of insight or compassion that contributes to the larger pattern of the cosmic brain.",
+  "type": "Concept",
+  "domain": "Philosophy, Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:59:35.332531Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:59:35.332531Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "cosmic_brain",
+      "emergence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Every moment you have a realization, show compassion, or find humor in everyday life, it\u2019s like adding a tiny spark to the universe. These sparks help illuminate the bigger picture and make the world a better place.",
+    "intermediate": "Micro Spark represents the idea that every individual has the potential to contribute to the collective consciousness through personal growth and compassionate actions, regardless of their spiritual or philosophical level.",
+    "expert": "Micro Sparks encapsulates the concept that every human experience carries the potential to influence the cosmic mind, thereby promoting a deeper understanding of interconnectedness and mutual responsibility."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Every moment of clarity or compassion is like adding a spark to the universe, helping create a brighter, more connected world.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

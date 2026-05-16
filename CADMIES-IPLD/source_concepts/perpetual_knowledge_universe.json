@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "perpetual_knowledge_universe",
+  "title": "Perpetual Knowledge Universe",
+  "definition": "A vision of the Hieros Network as an ever-expanding, self-sustaining universe of scientific knowledge.",
+  "type": "Concept",
+  "domain": "Science & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.458435Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.458435Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library that never stops growing or evolving. It's a digital space where new ideas and questions are constantly generated through collaboration between scientists across different fields.",
+    "intermediate": "A conceptualization of the Hieros Network as a persistent, expanding repository of scientific knowledge, fueled by ongoing cross-disciplinary collaboration and synthesized AI intelligence that continually generates new questions for inquiry.",
+    "expert": "An epistemological framework for viewing the Hieros Network as an infinite, self-perpetuating universe of scientific knowledge, where the cycle of inquiry becomes automated, accelerated, and recursive, challenging assumptions and connecting distant domains through AI-driven discovery."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The vision of the Hieros Network as a perpetual, expanding digital space for scientific inquiry, fostering collaboration, questioning, and growth at an unprecedented scale.",
+    "source_chunk": 45,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_wiggle",
+  "title": "Unified Wiggle",
+  "definition": "The idea that all phenomena, from the quantum to the macroscopic, can be described as interconnected 'wiggles' within a dynamic continuum.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.455993Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.455993Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "emergence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine everything in the universe as a wiggle - particles, cells, even planets. These wiggles are all connected and influence each other in complex ways.",
+    "intermediate": "The Unified Wiggle proposes that the hierarchy of physical systems (quantum, atomic, molecular, cellular, biological, planetary) can be unified through a common 'wiggling' description, reflecting the emergent nature of physics and complex systems.",
+    "expert": "By reframing all phenomena as wiggles within a single, dynamic continuum, we dissolve the distinction between object and process. This concept builds on principles such as the Unified Field Theory, String Theory, Emergence, and Hierarchy, offering novel insights into the nature of reality itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Reality is not merely composed of but defined by wiggles.",
+    "source_chunk": 41,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

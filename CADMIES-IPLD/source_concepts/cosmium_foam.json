@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmium_foam",
+  "title": "Cosmium Foam",
+  "definition": "The cosmic substance that forms the structure of the universe, similar to foam or froth.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.483434Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.483434Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Universe is like a big, bubbly ocean. The galaxies are like the foam on top.",
+    "intermediate": "The cosmic substance that forms the structure of the universe can be compared to froth or foam.",
+    "expert": "Cosmium Foam is a novel concept for the cosmic substance that aggregates under specific conditions, creating visible structures like galaxies and dark matter. This concept positions the phenomenon as an emergent byproduct rather than a growing structure."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Universe is not a web but an ocean, and what we see as galaxies are just the frothy Cosmium Spume.",
+    "source_chunk": 87,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

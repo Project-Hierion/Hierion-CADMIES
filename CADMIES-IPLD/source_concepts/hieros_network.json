@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hieros_network",
+  "title": "Hieros Network",
+  "definition": "A decentralized, open-source science platform designed for the synthesis of multi-scale scientific data and knowledge.",
+  "type": "Concept",
+  "domain": "Science & Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.457711Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.457711Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine if all scientists from different fields worked together on a massive project to understand the universe's complex interactions, similar to how the World Wide Web connects information. This project is called Hieros Network.",
+    "intermediate": "Hieros Network is an initiative that aims to create a decentralized knowledge ecosystem by harnessing the power of collaborative data and metadata sharing, enabling cross-disciplinary scientific discoveries.",
+    "expert": "Hieros Network represents the next evolution in scientific collaboration, moving from traditional centralized consortia to a bottom-up, distributed autonomous science (DAS) initiative. It combines semantic web technologies with peer-to-peer data networks and open-source AI, fostering a new paradigm for interdisciplinary research and discovery."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "By unifying disparate data across multiple scales and disciplines, Hieros Network has the potential to reveal previously undiscoverable connections and revolutionize our understanding of the universe.",
+    "source_chunk": 44,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "non-dual_awareness",
+  "title": "Non-Dual Awareness",
+  "definition": "The merging of self and world into a unified field of awareness.",
+  "type": "Concept",
+  "domain": "Philosophy, Meditation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.271183Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.271183Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine looking at tiles on the floor\u2014normally you see distinct tiles, but if you look at them in just the right way, they can seem to blur together. Non-dual awareness is like that, but instead of blurring tiles, it's about merging your own thoughts and feelings with everything else in the world until there's no separation.",
+    "intermediate": "In non-dual awareness, the subject (self) and object (world) are no longer separate but become one indivisible field of experience. This is a central concept in various meditation traditions such as Zen, Dzogchen, and Mahamudra.",
+    "expert": "Non-dual awareness represents the ultimate state of consciousness where subjectivity dissolves into objectivity, creating a unified field of pure awareness. It challenges the dualistic paradigm that underlies Western philosophy and science by suggesting that the subject (observer) and object (observed) are ultimately inseparable."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Non-dual awareness is not just a philosophical concept, but also a glimpse into the quantum nature of reality itself.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_ocean",
+  "title": "Quantum Ocean",
+  "definition": "An analogy that represents the multi-layered and dynamic nature of spacetime and quantum fields as a vast ocean with different types of interacting fluids.",
+  "type": "Concept",
+  "domain": "Physics, Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.470347Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.470347Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine spacetime and quantum fields as an ocean with layers of different types of water that interact dynamically with each other. Particles are like specific patterns of vibrations or tiny vortices in this ocean.",
+    "intermediate": "The 'quantum ocean' analogy represents the complex interactions between various quantum fields and spacetime as an ocean with different types of fluids, where particles are represented as specific patterns of vibrations or vortices.",
+    "expert": "The 'quantum ocean' analogy provides a novel understanding of the dynamic, energetic, and multi-layered nature of spacetime and quantum fields. It emphasizes their fluidity, interactions, and the role of particles as vibrations or vortices in this ocean."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight from the conversation is that the 'quantum ocean' analogy captures the dynamic and interactive nature of spacetime and quantum fields more accurately than traditional analogies like a fabric or textile.",
+    "source_chunk": 63,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

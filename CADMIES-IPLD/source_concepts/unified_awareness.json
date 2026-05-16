@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_awareness",
+  "title": "Unified Awareness",
+  "definition": "The realization that consciousness arises from organized vibration, and that self-reflective beings are the universe observing itself.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:59:35.330950Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:59:35.330950Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that everything in the universe is connected and intertwined, and that our consciousness is a part of this grand unity.",
+    "intermediate": "The hypothesis that self-awareness emerges from organized vibrations within complex systems, such as neurons, and that these systems are intrinsically connected to the cosmos as a whole.",
+    "expert": "A philosophical proposal suggesting that consciousness is not limited to certain forms of matter but arises through universal patterns of organization and resonance, linking biology, physics, metaphysics, and ontology in a single, breathtaking vision."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is attempting to understand itself much like we humans attempt to understand ourselves.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

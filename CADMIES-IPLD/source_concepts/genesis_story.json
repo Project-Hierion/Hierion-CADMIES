@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "genesis_story",
+  "title": "Genesis Story",
+  "definition": "The inspirational narrative that serves as the foundation for Project Hieros, explaining its purpose and vision.",
+  "type": "Concept",
+  "domain": "Literature & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.453127Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.453127Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Genesis Story is like a powerful speech that sets out the mission and goal of Project Hieros. It tells us why we need this tool and what it can do for science and humanity.",
+    "intermediate": "The Genesis Story serves as a manifesto for Project Hieros, presenting its core principles and vision in a concise and compelling manner. It's designed to inspire people to join the project and contribute to its growth.",
+    "expert": "The Genesis Story is a foundational text that outlines the purpose, philosophy, and ethos of Project Hieros. It sets the tone for the project's development and provides a unifying narrative that guides its evolution."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight in the Genesis Story lies in its ability to inspire and motivate people to join Project Hieros and work towards creating a more connected, collaborative, and innovative scientific community.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_driven_paradigm_shift",
+  "title": "Community Driven Paradigm Shift",
+  "definition": "A collaborative approach to scientific discovery that leverages a global community and open-source technology, aiming to break down disciplinary silos.",
+  "type": "Concept",
+  "domain": "Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.450967Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.450967Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Instead of relying on a single team or organization, this project seeks to create a network where scientists worldwide collaborate to share knowledge freely and make discoveries faster.",
+    "intermediate": "By harnessing the power of open-source technology and a global community of volunteers, this paradigm shift aims to revolutionize science by breaking down disciplinary silos, fostering collaboration, and accelerating discovery.",
+    "expert": "This concept represents a fundamental change in how scientific research is conducted. By adopting a decentralized, community-driven model, the project aims to transcend traditional barriers, facilitate the sharing of knowledge, and foster rapid innovation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The power of collective intelligence and open collaboration in advancing scientific discovery.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

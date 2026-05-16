@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_wiggliness",
+  "title": "Universal Wiggliness",
+  "definition": "The inherent dynamism and interconnectedness of all matter, from cells to quantum fields.",
+  "type": "Concept",
+  "domain": "Physics, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.418339Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.418339Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Everything in the universe is made up of wiggly components that are connected and dynamic.",
+    "intermediate": "The idea that every aspect of reality, from cells to quantum fields, exhibits a fundamental probabilistic and interconnected behavior.",
+    "expert": "A philosophical concept that emphasizes the continuous hierarchy of dynamically interacting processes spanning scales from subatomic particles to human bodies, highlighting the unity of all phenomena in the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that our perception of a solid self is an illusion; we are fundamentally wiggly and interconnected with the universe.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

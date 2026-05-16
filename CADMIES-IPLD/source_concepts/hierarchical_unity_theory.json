@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_unity_theory",
+  "title": "Hierarchical Unity Theory",
+  "definition": "A unifying theory that spans quantum fields to the biosphere, bridging scales and disciplines.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.457156Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.457156Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine connecting all the dots of different scientific fields like pieces of a giant puzzle. 'Hierarchical Unity Theory' aims to do just that, from tiny quantum particles to the vast biosphere.",
+    "intermediate": "A comprehensive theory that addresses the complex interactions between physical scales and disciplines, from quantum physics to planetary science, through mathematical models and interdisciplinary research.",
+    "expert": "An ambitious effort that seeks to bridge the gap between the tiniest quantum particles and the largest ecosystems by developing a unified theoretical framework capable of describing the emergent behavior of complex systems at all scales."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that science is on the brink of connecting seemingly disparate fields through a grand unification theory.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fundamental_interconnectedness",
+  "title": "Fundamental Interconnectedness",
+  "definition": "The fundamental interconnectivity between the microscopic quantum realm and the macroscopic biological realm, suggesting that everything is an ever-changing, wiggly, and strange process.",
+  "type": "Concept",
+  "domain": "Physics & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.445193Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.445193Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Everything in the universe, from our bodies to quantum particles, is interconnected and constantly changing, like funny monsters or squiggly things that we can't see with the naked eye.",
+    "intermediate": "The idea that there is a deep connection between the microscopic world of quantum physics (with its uncertainty principle and vacuum fluctuations) and the macroscopic world of biology. This connection suggests that our understanding of ourselves should also encompass this quantum realm, which we often overlook.",
+    "expert": "The realization that the universe is fundamentally interconnected at all levels, from the microscopic realm of quantum particles to the macroscopic realm of living organisms. This connection challenges our traditional understanding of a separate and isolated self, suggesting instead that we are part of an ever-changing, wiggly, and strange process that pervades the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Everything is connected at its core, from quantum particles to living organisms, challenging our traditional understanding of a separate and isolated self.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

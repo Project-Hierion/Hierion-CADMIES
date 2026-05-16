@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_translator",
+  "title": "Universal Translator",
+  "definition": "An AI system that bridges linguistic gaps across disciplines, enabling seamless communication and collaboration among scientists.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.424287Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.424287Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a translator for scientists who speaks all scientific languages. This AI helps them understand each other by finding common concepts and relationships in their research papers, making it easier to collaborate across different fields.",
+    "intermediate": "The Universal Translator is an AI system that uses deep learning to identify and map relationships between terms from various disciplines, enabling researchers to communicate effectively regardless of their field-specific jargon or terminology.",
+    "expert": "The Universal Translator represents a breakthrough in cross-disciplinary communication by leveraging Large Language Models (LLMs) trained on vast amounts of scientific literature to bridge the linguistic gaps between fields, thus facilitating collaboration and fostering interdisciplinary discoveries."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universal translator is a game-changer as it enables the automation and acceleration of scientific inquiry by allowing researchers to communicate effectively regardless of their field-specific jargon or terminology.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

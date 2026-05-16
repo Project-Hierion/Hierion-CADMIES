@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "self-perpetuating_ecosystem",
+  "title": "Self-Perpetuating Ecosystem",
+  "definition": "A dynamic, evolving network of knowledge that fosters continuous growth and collaboration across various fields.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.444756Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.444756Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where different types of plants grow together, feeding off each other and constantly adapting to new conditions. That's what a self-perpetuating ecosystem is like, but for knowledge.",
+    "intermediate": "A self-perpetuating ecosystem encourages ongoing interaction and collaboration between disciplines, fostering growth and adaptation in response to new information.",
+    "expert": "The self-perpetuating ecosystem of knowledge represents a novel approach to scientific progress, emphasizing the importance of interdisciplinary collaboration and continuous learning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A self-perpetuating ecosystem is a sustainable, adaptive model for scientific advancement that leverages the power of diverse disciplines working together.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

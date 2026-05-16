@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_mycelium",
+  "title": "Quantum Mycelium",
+  "definition": "The quantum realm analogized as a mycelial network, with particles as temporary, visible fruiting bodies and fundamental forces as methods of communication and interaction.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.471393Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.471393Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like mushrooms are temporary visible structures growing from an underground network called mycelium, particles in the quantum realm are temporary visible structures growing from a complex network that we can't see directly.",
+    "intermediate": "The quantum realm is compared to a mycelial network where particles are likened to fruiting bodies (mushrooms) that emerge from this unseen network. Interactions between particles, or fundamental forces, are represented as methods of communication and interaction within the mycelium.",
+    "expert": "This concept establishes a profound analogy between the quantum realm and a mycelial network, where particles are temporary fruiting bodies and interactions represent various forms of communication. It emphasizes the unity, interconnectedness, and cyclical nature of existence in both the biological and quantum realms."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The analogy between the quantum realm and a mycelial network highlights their inherent unity, interconnectedness, and cyclical nature.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

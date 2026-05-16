@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universe_cosmium_bloom",
+  "title": "Universe Cosmium Bloom",
+  "definition": "The magnificent, frozen-in-time, visible structure resulting from the primordial processes of the universe.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.482074Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.482074Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The beautiful pattern in space that was formed billions of years ago when the universe began to expand and form stars, galaxies, and other cosmic structures.",
+    "intermediate": "A term for the complex network of visible cosmic structures like galaxies and galaxy clusters, which is the result of primordial processes in the early universe.",
+    "expert": "A philosophical concept that captures both the physical appearance and the underlying history of the observable universe. It suggests a frozen snapshot of the cosmos' dynamic growth process, providing a way to visually represent the interconnectedness of celestial objects within a unified framework."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Universe's Cosmium Bloom offers a poetic and precise description of the intricate network of cosmic structures, emphasizing its beauty as well as its origin story.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

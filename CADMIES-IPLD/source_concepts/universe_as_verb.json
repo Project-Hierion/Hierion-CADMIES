@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universe_as_verb",
+  "title": "Universe As Verb",
+  "definition": "The philosophical perspective that reality is not composed of static objects but a dynamic, interconnected process.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.493296Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.493296Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe as a story unfolding, rather than a collection of fixed objects. Everything changes and evolves over time, just like a narrative.",
+    "intermediate": "The Universe-as-Verb perspective proposes that reality is best understood as an ever-changing, interconnected process, not as a collection of static objects or entities.",
+    "expert": "The Universe-as-Verb perspective posits that the universe is better described as a verb rather than a noun, dissolving the illusion of a separate observer and framing all phenomena as active expressions of a unified field."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "By viewing the universe as a verb, we can reconcile the rigor of physics with the wonder of metaphysics, understanding that everything is part of an interconnected process of existence.",
+    "source_chunk": 102,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

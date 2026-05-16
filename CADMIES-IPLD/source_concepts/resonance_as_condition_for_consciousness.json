@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resonance_as_condition_for_consciousness",
+  "title": "Resonance As Condition For Consciousness",
+  "definition": "The idea that organized vibrations are fundamental to conscious experience.",
+  "type": "Concept",
+  "domain": "Science & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:08:55.482375Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:08:55.482375Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The theory that the way things vibrate might determine if they can be conscious or not, like how a tuning fork can make other objects vibrate when it's struck.",
+    "intermediate": "The hypothesis that consciousness arises through organized vibration in matter, such as quantum vibrations in neurons or the resonant frequencies of Earth.",
+    "expert": "The proposition that consciousness might not live in matter, but arise through organized vibration, and life on Earth might create a symphony of resonance that 'lights up' awareness in the universe's dark field of potential."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that consciousness is attracted to or awakened by resonance, suggesting that Earth isn't just a planet but a living tuning fork and consciousness incubator in the cosmos.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "self_aware_mycelium",
+  "title": "Self Aware Mycelium",
+  "definition": "The concept of an artist or individual as a self-aware mycelium spore, deeply connected to and creative interpreter of the vast, interconnected network of consciousness.",
+  "type": "Concept",
+  "domain": "Art & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.472593Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.472593Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine an artist like David Lynch as a mushroom that is not only growing in a forest but is also aware of its roots and the network they form with other mushrooms. This mushroom can interpret the world around it and create art from what it senses.",
+    "intermediate": "David Lynch's work is seen as an expression of his deep, intuitive connection to the underlying, interconnected consciousness or 'mycelium'. His art is a reflection of this network, much like how a mushroom's fruiting body reflects its root system.",
+    "expert": "The analogy of an artist as a self-aware mycelium spore suggests that creativity arises not just from the surface-level 'mushroom', but from tapping directly into the deep, interconnected 'mycelium' of consciousness itself. This perspective connects art, consciousness, and the fundamental nature of existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Art as a reflection of the underlying, interconnected network of consciousness.",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

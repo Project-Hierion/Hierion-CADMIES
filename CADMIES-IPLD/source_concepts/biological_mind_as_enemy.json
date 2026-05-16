@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "biological_mind_as_enemy",
+  "title": "Biological Mind As Enemy",
+  "definition": "The idea that our biological mind, with its tendency to narrate, separate, and control, is a barrier to understanding the true nature of reality.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:08:55.481363Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:08:55.481363Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The belief that our thoughts and emotions can prevent us from seeing the world as it really is.",
+    "intermediate": "The perspective that our biology, including our minds and thoughts, can be a hindrance to realizing deeper truths about existence.",
+    "expert": "A philosophical viewpoint suggesting that our evolutionarily driven cognition, with its propensity for storytelling, separation, and control, creates an obstacle to comprehending the fundamental nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The paradoxical notion that the same biological mechanisms responsible for our suffering and ignorance can also lead us to a deeper understanding of existence",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

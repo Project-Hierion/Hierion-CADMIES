@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "manifesto_in_motion",
+  "title": "Manifesto In Motion",
+  "definition": "The idea that a philosophical conversation can be visualized as an animated short film to inspire and provoke thought.",
+  "type": "Concept",
+  "domain": "Art, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.468853Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.468853Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A creative way of sharing ideas in the form of an animated short movie. Like watching a story come alive.",
+    "intermediate": "Using animation as a medium to express complex philosophical concepts in a captivating and engaging manner, inviting the audience to reflect upon them.",
+    "expert": "An innovative approach that combines art, philosophy, and technology by using animated short films as manifestos capable of disseminating ideas, sparking discussions, and fostering intellectual growth in a visual, accessible, and emotionally impactful way."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential for animated films to serve as living philosophical dialogues, inviting viewers to explore complex concepts through captivating storytelling and visual aesthetics.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

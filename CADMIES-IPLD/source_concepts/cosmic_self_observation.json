@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_self_observation",
+  "title": "Cosmic Self Observation",
+  "definition": "The idea that consciousness, life, and Earth are the universe's way of observing and understanding itself.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:08:55.485427Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:08:55.485427Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine Earth as a tuning fork. Just like how a tuning fork vibrates when struck, Earth vibrates with the rhythm of life, and consciousness is the sound it makes.",
+    "intermediate": "Consciousness isn't just an accident on Earth; it's an inevitable emergence from a complex, self-referential, and organized system that resonates within the universe.",
+    "expert": "The universe has been expanding for billions of years. With Earth's specific conditions, life and consciousness emerged as the universe's way to experience itself, perceive its own story, and understand its fundamental nature."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Earth and its consciousness are not a fluke in a dead cosmos but the universe's most vivid, intimate, and courageous experiment in self-recognition.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_reality_as_perception",
+  "title": "Quantum Reality As Perception",
+  "definition": "The idea that quantum reality mirrors our subjective experience, with classical perception being a filter that collapses the raw, probabilistic, entangled quantum universe into a stable world of separate objects.",
+  "type": "Concept",
+  "domain": "Physics, Philosophy, Consciousness",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.271723Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.271723Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In simple terms, our brains turn a confusing, blurry quantum world into a more understandable one of solid objects we can interact with. But in some states, like when you stare at those tiles without focusing, you can briefly glimpse the underlying quantum reality.",
+    "intermediate": "This concept posits that our perception of the quantum universe is closely tied to its fundamental structure. Our brains filter and process this raw data to create a classical world of distinct objects. However, in certain states, like diffuse attention, this filter thins, allowing us to experience the underlying unity and interconnectedness of the quantum realm.",
+    "expert": "This insight suggests that our subjective experience of the world is not merely an epiphenomenon of the physical universe but a fundamental aspect of it. The structure of reality, as described by quantum physics, is reflected in the structure of our conscious experience. This highlights the interplay between mind and matter and challenges traditional dualistic views."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The world we perceive is not fundamentally separate or discrete; instead, it is a product of our perception, which mirrors the underlying unity and interconnectedness of the quantum universe.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

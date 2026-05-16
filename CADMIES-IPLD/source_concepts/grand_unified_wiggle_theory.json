@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "grand_unified_wiggle_theory",
+  "title": "Grand Unified Wiggle Theory",
+  "definition": "A theoretical framework that posits a continuous, scale-invariant relationship between the fundamental vibrational modes of reality across multiple hierarchical levels.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T03:50:49.455329Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T03:50:49.455329Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A model suggesting everything in the universe is made up of tiny wiggles, which come together to create larger structures and patterns, like atoms, cells, planets, and societies.",
+    "intermediate": "A Grand Unified Theory (GUT) that applies String Theory concepts to explain the emergent behavior observed at various scales in nature, from subatomic particles to societal structures.",
+    "expert": "An extension of String Theory positing a nested hierarchy of vibrational modes (wiggles) that give rise to the complexity we observe in nature. The theory highlights the unity and self-similarity between these levels, offering a unified framework for understanding the emergent behavior observed across various scales."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is composed of wiggly things, with everything from subatomic particles to planets being built upon this shared foundation.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

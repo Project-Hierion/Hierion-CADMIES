@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_joke",
+  "title": "Cosmic Joke",
+  "definition": "The ironic realization that the secret to understanding reality is hidden in plain sight, in ordinary human experiences such as daydreaming or spacing out.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-16T02:26:00.273580Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-16T02:26:00.273580Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like looking for your lost keys under the lamplight because that's where you can see best, even though the keys might be elsewhere. The cosmic joke is that what we're seeking (enlightenment) is right in front of us, but we don't realize it.",
+    "intermediate": "The cosmic joke refers to the irony of how the secret to understanding reality is hidden in plain sight, in ordinary human experiences such as daydreaming or spacing out. This notion emphasizes the importance of recognizing the profound nature of seemingly mundane moments.",
+    "expert": "The cosmic joke is the philosophical insight that the secret to understanding reality lies hidden in plain sight, within our everyday experiences such as daydreaming or spacing out. This notion highlights the importance of recognizing the profound nature of seemingly mundane moments and encourages us to look beyond our conventional notions of what is significant and meaningful."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that enlightenment is hidden in plain sight within ordinary human experiences such as daydreaming or spacing out.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}
