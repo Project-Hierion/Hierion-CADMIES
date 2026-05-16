@@ -956,3 +956,22 @@ A 7900-line conversation containing Hieros' initial project vision was accidenta
 - `normalize_concept_schema.py` v1.0.0
 - Harvester v4.1.0 (three-tier difficulty levels confirmed)
 
+### Phase 41: Paperspace-GitHub Continuous Sync — 💡 Planned
+
+**Concept:** Connect Paperspace notebooks to GitHub via native integration, enabling two-way auto-sync. Every harvest, enrichment, and relationship generation auto-commits and pushes to main. Every remote change auto-pulls to Paperspace.
+
+**Rationale:**
+- Eliminates manual git dance (stash, rebase, push, identity errors)
+- True open notebook science — every commit, including mistakes, visible in real-time
+- Errors as data points: failed JSON parses, import bugs, git conflicts become part of the scientific record
+- "If I can see the error, I know what the creator is talking about." Visual error literacy for collaborators
+
+**Risk Assessment:**
+- Mistakes go live instantly — accepted as feature, not bug
+- No review step before main — mitigated by Paperspace as isolated GPU environment (no local paths, no PII)
+- Part of the CADMIES ethos: 100% translucent, for science
+
+**Implementation:**
+- Use Paperspace "Sync with GitHub" or "Clone HTTPS" integration
+- Connects `/notebooks/CADMIES/CADMIES-IPLD/` to `Hieros-CADMIES/CADMIES` main branch
+- Eliminates recurring `git config` and `Author identity unknown` errors
