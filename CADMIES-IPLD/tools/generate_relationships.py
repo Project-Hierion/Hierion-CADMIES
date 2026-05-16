@@ -42,7 +42,7 @@ PROJECT_ROOT = TOOLS_DIR.parent
 sys.path.insert(0, str(PROJECT_ROOT / "agents" / "code"))
 sys.path.insert(0, str(PROJECT_ROOT / "tools" / "core"))
 
-from llm_mycelium_reader import load_concept, load_all_concept_cids
+from cadmies_concept_reader import load_concept, load_all_concept_cids
 from paths import BLOCKS_DIR
 from cid_generator import CIDGenerator
 import dag_cbor
