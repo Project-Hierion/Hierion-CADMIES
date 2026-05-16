@@ -2,7 +2,7 @@
 """
 File: enrich_concepts.py
 CLI: CADMIES Concept Enrichment Tool
-Version: 1.0.0
+Version: 1.0.1
 System: CADMIES
 Status: ACTIVE — Phase 39: Concept Enrichment
 Dependencies: ollama, cid_generator, scientific_validator, provenance_manager
@@ -15,13 +15,12 @@ Purpose: Enriches existing minted concepts with missing or weak fields.
          Designed for GPU acceleration. Uses Mistral 7B by default,
          Codestral 22B for deeper enrichment.
 
-         Born from the Sultans of Knowledge. Powered by the Kerr Spacetime Gearbox.
-
 GPU REQUIREMENT: Makes LLM calls per concept. Minimum ~6GB VRAM for Mistral 7B.
 12GB+ recommended for Codestral enrichment (RTX 3060 12GB/A4000+).
 
 Version History:
   1.0.0 — Initial enrichment pipeline: detect gaps, enrich, validate, remint
+  1.0.1 — Fixed supersedes chain and version increment bugs
 """
 
 import json
@@ -266,13 +265,7 @@ def validate_and_remint(concept, dry_run=False):
         print(f"  📝 {human_id}: Dry run — would remint here")
         return {"success": True, "human_id": human_id, "dry_run": True}
     
-    # Generate new CID
-    cid_gen = CIDGenerator()
-    cid_result = cid_gen.generate_cid(concept)
-    if not cid_result["success"]:
-        return {"success": False, "human_id": human_id, "error": "cid_failed"}
-    
-    # Set supersedes in metadata
+    # Get old CID BEFORE we overwrite anything
     old_cid = None
     index_path = STORE_DIR / "index" / "human_id_to_cid.json"
     if index_path.exists():
@@ -280,12 +273,18 @@ def validate_and_remint(concept, dry_run=False):
             index = json.load(f)
         old_cid = index.get(human_id)
     
-    if old_cid:
-        concept["metadata"]["supersedes"] = old_cid
+    # Increment version
+    current_version = concept.get("metadata", {}).get("version", 1)
+    concept["metadata"]["version"] = current_version + 1
     
-    # Update metadata
-    now = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
-    concept["metadata"]["version"] = concept.get("metadata", {}).get("version", 1) + 1
+    # Set supersedes
+    concept["metadata"]["supersedes"] = old_cid  # None if first enrichment, CID if reminting
+    
+    # Generate new CID
+    cid_gen = CIDGenerator()
+    cid_result = cid_gen.generate_cid(concept)
+    if not cid_result["success"]:
+        return {"success": False, "human_id": human_id, "error": "cid_failed"}
     
     # Save to blockstore
     save_result = cid_gen.save_to_blockstore(cid_result, concept)
@@ -307,13 +306,22 @@ def validate_and_remint(concept, dry_run=False):
             concept_cid=cid_result["cid"],
             author="CADMIES Enrichment Pipeline",
             record_type="enrichment",
-            comment=f"Enriched missing fields via {MODEL}. Supersedes {old_cid}"
+            comment=f"Enriched missing fields via {MODEL}. Version {concept['metadata']['version']}. Supersedes {old_cid}"
         )
     except Exception as e:
         print(f"  ⚠️ {human_id}: Provenance creation failed — {e}")
     
-    print(f"  ✅ {human_id}: Reminted — CID: {cid_result['cid'][:20]}...")
-    return {"success": True, "human_id": human_id, "cid": cid_result["cid"], "supersedes": old_cid}
+    print(f"  ✅ {human_id}: Reminted — v{concept['metadata']['version']} | CID: {cid_result['cid'][:30]}...")
+    if old_cid:
+        print(f"     Supersedes: {old_cid[:30]}...")
+    
+    return {
+        "success": True, 
+        "human_id": human_id, 
+        "cid": cid_result["cid"], 
+        "version": concept["metadata"]["version"],
+        "supersedes": old_cid
+    }
 
 
 # ============================================================================

@@ -44,6 +44,24 @@ import re
 from pathlib import Path
 from datetime import datetime, timezone
 
+# ========== DEDUPLICATION FUNCTION ==========
+def deduplicate_concepts(concept_list):
+    """Remove duplicate concepts based on title similarity."""
+    if not concept_list or len(concept_list) <= 1:
+        return concept_list
+    
+    seen = {}
+    unique = []
+    for c in concept_list:
+        title = c.get('title', '').lower().strip()
+        if title and title not in seen:
+            seen[title] = True
+            unique.append(c)
+    
+    print(f"   Deduplication: {len(concept_list)} → {len(unique)} concepts")
+    return unique
+# ============================================
+
 # === PATH SETUP ===
 HARVEST_DIR = Path(__file__).parent
 PROJECT_ROOT = HARVEST_DIR.parent
@@ -789,6 +807,13 @@ def main():
     if not concept_files:
         print("No concepts to review. Exiting.")
         sys.exit(0)
+        
+# ========== INSERT DEDUPLICATION HERE ==========
+    print("\n🧹 Running deduplication on extracted concepts...")
+    original_count = len(concepts_full)
+    concepts_full = deduplicate_concepts(concepts_full)  # your dedupe function
+    print(f"   Deduplication: {original_count} → {len(concepts_full)} concepts")
+# =================================================
 
     # Step 7: Review
     if args["auto"]:
