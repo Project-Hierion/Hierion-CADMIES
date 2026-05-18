@@ -971,6 +971,29 @@ A 7900-line conversation containing Hieros' initial project vision was accidenta
 - No review step before main — mitigated by Paperspace as isolated GPU environment (no local paths, no PII)
 - Part of the CADMIES ethos: 100% translucent, for science
 
+
+### Phase 42: Index Backup Cleanup — 📋 Planned
+
+**Issue:** Harvest and enrichment scripts create automatic backups of `store/index/human_id_to_cid.json` (e.g., `human_id_to_cid.json.backup.20260516_035050`) directly in `store/index/`. Over time, this clutters the index directory with timestamped backup files alongside the active index.
+
+**Fix:**
+
+1. **Create backup subdirectory:** All backups go to `store/index/backups/` instead of `store/index/`.
+2. **Auto-cleanup on success:** When the script completes successfully, delete the backups it created during that run.
+3. **Keep on failure:** If the script errors out, backups are preserved for recovery.
+4. **Active index untouched:** The main `human_id_to_cid.json` stays in `store/index/` — backups are always in the subdirectory.
+
+**Implementation:**
+
+- Update `enrich_concepts.py` — backup path to `store/index/backups/`
+- Update `harvest_full_pipeline.py` — same
+- Update `generate_relationships.py` — same
+- Add cleanup step in each script's success path
+- Add `.gitignore` entry: `store/index/backups/` (backups stay local, not in repo)
+
+**Benefit:** Clean index directory. Backups organized and temporary. No risk to active index.
+
+
 **Implementation:**
 - Use Paperspace "Sync with GitHub" or "Clone HTTPS" integration
 - Connects `/notebooks/CADMIES/CADMIES-IPLD/` to `Hieros-CADMIES/CADMIES` main branch
