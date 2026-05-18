@@ -998,3 +998,66 @@ A 7900-line conversation containing Hieros' initial project vision was accidenta
 - Use Paperspace "Sync with GitHub" or "Clone HTTPS" integration
 - Connects `/notebooks/CADMIES/CADMIES-IPLD/` to `Hieros-CADMIES/CADMIES` main branch
 - Eliminates recurring `git config` and `Author identity unknown` errors
+
+### Phase 43: Concept Editing & Reminting — 📋 Planned
+
+Three components to complete the manual editing workflow:
+
+**43A: `tools/remint_concept.py` — CLI Remint Tool**
+
+CLI tool for reminting manually-edited concepts. No automatic minting — gardener always confirms.
+
+**Behavior:**
+1. Loads edited JSON from `source_concepts/{human_id}.json`
+2. Compares against existing blockstore version (if available)
+3. Reports what changed:
+   - Metadata-only: dates, sources, formatting
+   - Content changed: definition, difficulty levels, extra_fields
+   - Gaps remain: empty subdomain, generic type, missing scholarly fields
+4. Offers context-aware options:
+   - Metadata-only → "Ready to remint. Proceed? [y/N]"
+   - Content changed → "Content edits detected. Run LLM review before minting? [y/N]"
+   - Gaps remain → "Missing fields detected. Run enrichment before minting? [y/N]"
+5. If approved → validates, generates new CID, updates blockstore and index
+6. Sets `metadata.supersedes` to old CID, increments version
+7. Creates provenance record for manual edit
+8. Old block preserved in blockstore — never deleted
+
+**Flags:**
+- `--concept={human_id}` — remint a single concept
+- `--yes` — skip confirmation (for scripting, use with caution)
+- `--dry-run` — show what would change without minting
+
+**43B: GUI "Edit Concept" Page**
+
+New page in Tkinter GUI:
+- Browse library → select concept → "Edit" button
+- Form pre-filled with existing concept data
+- Save updates `source_concepts/{human_id}.json`
+- "Review & Remint" button shows diff summary and options (same as CLI)
+- Optional LLM review/enrichment available from GUI
+- Shows old CID → new CID with supersedes chain
+
+**43C: Unified "Edit + Remint" Workflow**
+
+Single action flow for both CLI and GUI:
+1. Edit concept (CLI: text editor, GUI: form)
+2. Save to `source_concepts/{human_id}.json`
+3. Run remint tool (CLI: `remint_concept.py`, GUI: "Review & Remint" button)
+4. Tool detects changes, offers LLM options if needed
+5. Gardener confirms → mint → new CID with provenance
+
+### Phase 44: Map Legend Cleanup — 📋 Planned
+
+**Issue:** The mycelium map legend displays all domain combinations (e.g., "Biology, Philosophy", "Biology & Marketing", "Law & Philosophy", "Ethics, Social Science"), cluttering the legend with compound domains.
+
+**Fix:** Legend should display only PRIMARY parent domains. Compound domains (those with commas, ampersands, or slashes) get mapped to their constituent parents for legend display. Nodes still show their full domain on hover/tooltip.
+
+**Implementation:**
+- Add `--simple-legend` option or make it default behavior in `generate_mycelium_map.py`
+- Logic: split compound domains on `,`, `&`, `/` — extract primary domains
+- Legend shows clean, single-domain entries (Physics, Philosophy, Biology, Ethics, etc.)
+- Domain counts aggregate: "Biology, Philosophy" counts for both Biology AND Philosophy
+- Colors default to primary domain color for nodes with compound domains
+
+
