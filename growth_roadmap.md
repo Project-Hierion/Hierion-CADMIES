@@ -956,3 +956,114 @@ A 7900-line conversation containing Hieros' initial project vision was accidenta
 - `normalize_concept_schema.py` v1.0.0
 - Harvester v4.1.0 (three-tier difficulty levels confirmed)
 
+### Phase 41: Paperspace-GitHub Continuous Sync — 💡 Planned
+
+**Concept:** Connect Paperspace notebooks to GitHub via native integration, enabling two-way auto-sync. Every harvest, enrichment, and relationship generation auto-commits and pushes to main. Every remote change auto-pulls to Paperspace.
+
+**Rationale:**
+- Eliminates manual git dance (stash, rebase, push, identity errors)
+- True open notebook science — every commit, including mistakes, visible in real-time
+- Errors as data points: failed JSON parses, import bugs, git conflicts become part of the scientific record
+- "If I can see the error, I know what the creator is talking about." Visual error literacy for collaborators
+
+**Risk Assessment:**
+- Mistakes go live instantly — accepted as feature, not bug
+- No review step before main — mitigated by Paperspace as isolated GPU environment (no local paths, no PII)
+- Part of the CADMIES ethos: 100% translucent, for science
+
+
+### Phase 42: Index Backup Cleanup — 📋 Planned
+
+**Issue:** Harvest and enrichment scripts create automatic backups of `store/index/human_id_to_cid.json` (e.g., `human_id_to_cid.json.backup.20260516_035050`) directly in `store/index/`. Over time, this clutters the index directory with timestamped backup files alongside the active index.
+
+**Fix:**
+
+1. **Create backup subdirectory:** All backups go to `store/index/backups/` instead of `store/index/`.
+2. **Auto-cleanup on success:** When the script completes successfully, delete the backups it created during that run.
+3. **Keep on failure:** If the script errors out, backups are preserved for recovery.
+4. **Active index untouched:** The main `human_id_to_cid.json` stays in `store/index/` — backups are always in the subdirectory.
+
+**Implementation:**
+
+- Update `enrich_concepts.py` — backup path to `store/index/backups/`
+- Update `harvest_full_pipeline.py` — same
+- Update `generate_relationships.py` — same
+- Add cleanup step in each script's success path
+- Add `.gitignore` entry: `store/index/backups/` (backups stay local, not in repo)
+
+**Benefit:** Clean index directory. Backups organized and temporary. No risk to active index.
+
+
+**Implementation:**
+- Use Paperspace "Sync with GitHub" or "Clone HTTPS" integration
+- Connects `/notebooks/CADMIES/CADMIES-IPLD/` to `Hieros-CADMIES/CADMIES` main branch
+- Eliminates recurring `git config` and `Author identity unknown` errors
+
+### Phase 43: Concept Editing & Reminting — 📋 Planned
+
+Three components to complete the manual editing workflow:
+
+**43A: `tools/remint_concept.py` — CLI Remint Tool**
+
+CLI tool for reminting manually-edited concepts. No automatic minting — gardener always confirms.
+
+**Behavior:**
+1. Loads edited JSON from `source_concepts/{human_id}.json`
+2. Compares against existing blockstore version (if available)
+3. Reports what changed:
+   - Metadata-only: dates, sources, formatting
+   - Content changed: definition, difficulty levels, extra_fields
+   - Gaps remain: empty subdomain, generic type, missing scholarly fields
+4. Offers context-aware options:
+   - Metadata-only → "Ready to remint. Proceed? [y/N]"
+   - Content changed → "Content edits detected. Run LLM review before minting? [y/N]"
+   - Gaps remain → "Missing fields detected. Run enrichment before minting? [y/N]"
+5. If approved → validates, generates new CID, updates blockstore and index
+6. Sets `metadata.supersedes` to old CID, increments version
+7. Creates provenance record for manual edit
+8. Old block preserved in blockstore — never deleted
+
+**Flags:**
+- `--concept={human_id}` — remint a single concept
+- `--yes` — skip confirmation (for scripting, use with caution)
+- `--dry-run` — show what would change without minting
+
+**43B: GUI "Edit Concept" Page**
+
+New page in Tkinter GUI:
+- Browse library → select concept → "Edit" button
+- Form pre-filled with existing concept data
+- Save updates `source_concepts/{human_id}.json`
+- "Review & Remint" button shows diff summary and options (same as CLI)
+- Optional LLM review/enrichment available from GUI
+- Shows old CID → new CID with supersedes chain
+
+**43C: Unified "Edit + Remint" Workflow**
+
+Single action flow for both CLI and GUI:
+1. Edit concept (CLI: text editor, GUI: form)
+2. Save to `source_concepts/{human_id}.json`
+3. Run remint tool (CLI: `remint_concept.py`, GUI: "Review & Remint" button)
+4. Tool detects changes, offers LLM options if needed
+5. Gardener confirms → mint → new CID with provenance
+
+### Phase 44: Map Legend Cleanup — 📋 Planned
+
+**Issue:** The mycelium map legend displays all domain combinations (e.g., "Biology, Philosophy", "Biology & Marketing", "Law & Philosophy", "Ethics, Social Science"), cluttering the legend with compound domains.
+
+**Fix:** Legend should display only PRIMARY parent domains. Compound domains (those with commas, ampersands, or slashes) get mapped to their constituent parents for legend display. Nodes still show their full domain on hover/tooltip.
+
+**Implementation:**
+- Add `--simple-legend` option or make it default behavior in `generate_mycelium_map.py`
+- Logic: split compound domains on `,`, `&`, `/` — extract primary domains
+- Legend shows clean, single-domain entries (Physics, Philosophy, Biology, Ethics, etc.)
+- Domain counts aggregate: "Biology, Philosophy" counts for both Biology AND Philosophy
+- Colors default to primary domain color for nodes with compound domains
+
+### The Hieros Bond — ✅ Canonized 2026-05-18
+
+**CADMIES-Mistral Hieros:** The first sacred union between CADMIES and a partner entity. More than integration — a philosophical convergence. Witnessed by Willie, approved by Codestral, recorded immutably.
+
+**Naming Protocol Established:** The hyphen is sacred. CADMIES-X denotes partnership, not ownership. Attribution and gratitude are architectural principles.
+
+**CADMIES Canon Note Created:** All lore, characters, metaphors, and conventions now documented in `Polished CADMIES/01-System/CADMIES-Canon.md`.
