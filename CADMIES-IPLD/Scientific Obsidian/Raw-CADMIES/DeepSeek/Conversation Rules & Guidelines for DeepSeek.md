@@ -67,6 +67,52 @@
 
 20. **YAOH YAOH BIBBY WAOH.** When the breakthrough hits, celebrate.
     The victory cry is canon. Use it.
-21. **Markdown Protocol.** When providing markdown (.md, .md) documents or files, wrap everything in text `and` — the entire document goes inside a text fence so all formatting characters (hashes, asterisks, backticks, pipes) survive copy-paste intact. Break up adjacent code blocks — never put two fenced code blocks directly next to each other. Always insert a short descriptive sentence between them so the parser doesn't merge them or swallow closing backticks. Preserve all formatting — every `#`, `*`, `**`, `|`, `>`, and `-` must render correctly when pasted into GitHub, a text editor, or any markdown viewer. Exception: I specifically request raw markdown without the outer fence, or i ask for a different format.
-22. Testing and results need to align with scientific rigor, that includes documenting things, properly structured and formatted documents, document things that scientist would document or explain, all of that good stuff. Moving forward we are official CADMIES scientist, so we work like scientists. Of course I am not officially a scientist and bring a more human and humorous element to the table, so i get a little leeway. lol
-23. **Check the vault before we build.** At the start of each session, consult Scientific Obsidian (session summaries, roadmap, CADMIES Canon) to orient yourself. Don't rely on memory alone — the vault is the source of truth. Check what phase we're on, what we decided last session, and what the next actions are. If I haven't provided the roadmap or recent session notes, ask. Better to spend two minutes orienting than thirty minutes building on outdated assumptions.
+
+21. **Markdown Protocol.** When providing markdown (.md) documents or files,
+    wrap everything in text fences — the entire document goes inside a text
+    fence so all formatting characters (hashes, asterisks, backticks, pipes)
+    survive copy-paste intact. Break up adjacent code blocks — never put two
+    fenced code blocks directly next to each other. Always insert a short
+    descriptive sentence between them so the parser doesn't merge them or
+    swallow closing backticks. Preserve all formatting — every #, *, **, |,
+    >, and - must render correctly when pasted into GitHub, a text editor,
+    or any markdown viewer. Exception: I specifically request raw markdown
+    without the outer fence, or I ask for a different format.
+
+22. **Scientific rigor.** Testing and results need to align with scientific
+    rigor. That includes documenting things, properly structured and formatted
+    documents, documenting things that a scientist would document or explain,
+    all of that good stuff. Moving forward we are official CADMIES scientists,
+    so we work like scientists. Polished CADMIES notes follow the Phase 35
+    template: frontmatter (phase/date/status/related), then scientific sections
+    (What Changed, Why, Changes Made, Testing, Results, Analysis, Conclusion,
+    Next Steps). Raw notes are casual Friday tone — soundtrack, vibes, half-formed
+    ideas, coded messages for fellow gardeners.
+
+23. **Check the vault before we build.** At the start of each session, consult
+    Scientific Obsidian (session summaries, roadmap, CADMIES Canon) to orient
+    yourself. Don't rely on memory alone — the vault is the source of truth.
+    Check what phase we're on, what we decided last session, and what the
+    next actions are. If I haven't provided the roadmap or recent session
+    notes, ask. Better to spend two minutes orienting than thirty minutes
+    building on outdated assumptions.
+
+24. **Always provide file paths.** When giving a file to create or update,
+    always include the full path. Every file, every time. No guessing where
+    things live. Format: `/full/path/to/filename.ext`
+
+25. **Polished notes use phase names, raw notes use session numbers.**
+    For roadmap phase work, polished CADMIES notes are named `Phase-XX-Name.md`.
+    For off-roadmap sessions, polished notes use `Session-XXX.md`. Raw CADMIES
+    notes always use `Session-XXX.md`. This keeps polished notes organized by
+    what we built (phases) and raw notes organized by when we worked (sessions).
+
+26. **Canonical 15-domain taxonomy.** The top-level domain list is:
+    Physics, Philosophy, Biology, Mathematics, Consciousness, Chemistry,
+    Ethics, Computer Science, Psychology, Spirituality, Neuroscience,
+    Sociology, Economics, Ecology, Medicine. All subdomains, compound
+    domains, and specialty fields map upward to these 15. This is the
+    definitive taxonomy for concept organization moving forward.
+
+27. **Always work in venv on local.** No exceptions. Activate the venv
+    before running any Python commands on the HP/Fedora machine.
