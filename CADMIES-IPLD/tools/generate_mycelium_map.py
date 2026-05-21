@@ -2,14 +2,15 @@
 """
 File: generate_mycelium_map.py
 Tool: CADMIES Mycelium Map Generator
-Version: 2.0.0
+Version: 2.3.0
 System: CADMIES-IPLD / tools
-Status: ACTIVE — Enhanced with zoom controls, search, tooltips, interactive legend
+Status: ACTIVE — Phase 44: canonical 15-domain legend, directional arrows, concept cards
 
 Purpose: Dynamically generates mycelium_map.html from the live blockstore.
          Enhanced features: zoom buttons, concept search, hover tooltips,
          click-to-highlight connections, interactive domain legend,
-         keyboard shortcuts, responsive design.
+         keyboard shortcuts, responsive design, directional edge arrows,
+         concept info cards on click.
 
 Usage:
     python tools/generate_mycelium_map.py
@@ -35,30 +36,95 @@ from paths import BLOCKS_DIR
 # === CONFIG ===
 OUTPUT_FILE = PROJECT_ROOT / "mycelium_map.html"
 
-# DeepSeek-themed domain colors
+# === CANONICAL TOP-LEVEL DOMAINS (Phase 44) ===
+# Only these 15 domains appear in the map legend.
+# All other domains map upward to the closest canonical parent.
+CANONICAL_DOMAINS = [
+    "Physics",
+    "Philosophy",
+    "Biology",
+    "Mathematics",
+    "Consciousness",
+    "Chemistry",
+    "Ethics",
+    "Computer Science",
+    "Psychology",
+    "Spirituality",
+    "Neuroscience",
+    "Sociology",
+    "Economics",
+    "Ecology",
+    "Medicine",
+]
+
+# DeepSeek-themed colors for canonical domains
 DOMAIN_COLORS = {
-    "Physics": "#4F46E5", "Philosophy": "#6366F1", "Biology": "#10B981",
-    "Mathematics": "#1E1B4B", "Genomics": "#8B5CF6", "Consciousness": "#0F172A",
-    "Chemistry": "#F59E0B", "Ethics": "#EC4899", "Epistemology": "#6366F1",
-    "Complexity_Science": "#1E1B4B", "Cosmology": "#4F46E5",
-    "Computer_Science": "#3B82F6", "Psychology": "#14B8A6",
-    "Spirituality": "#A78BFA", "Buddhism": "#A78BFA",
-    "Neuroscience": "#14B8A6", "Sociology": "#EC4899",
-    "Economics": "#F59E0B", "Education": "#3B82F6",
-    "Political_Science": "#EC4899", "Medicine": "#10B981",
-    "Buddhist_Philosophy": "#A78BFA", "Cognitive_Science": "#14B8A6",
-    "Ecology": "#10B981", "Metaphysics": "#6366F1",
-    "MolecularBiology": "#10B981", "ConsciousnessStudies": "#0F172A",
-    "Climate Ethics": "#EC4899", "Philosophy of Art": "#6366F1",
-    "Biology, Philosophy": "#10B981", "Ethics, Social Science": "#EC4899",
-    "Ethics & Philosophy of Mind": "#EC4899",
-    "Metaphysics & Philosophy of Mind": "#6366F1",
-    "Artificial Intelligence": "#3B82F6", "Theoretical Physics": "#4F46E5",
-    "Philosophy of Science & Spirituality": "#6366F1",
-    "Philosophy of Daily Life": "#6366F1", "Philosophy of Technology": "#6366F1",
-    "Psychology, Physics": "#14B8A6",
+    "Physics": "#4F46E5",
+    "Philosophy": "#6366F1",
+    "Biology": "#10B981",
+    "Mathematics": "#1E1B4B",
+    "Consciousness": "#0F172A",
+    "Chemistry": "#F59E0B",
+    "Ethics": "#EC4899",
+    "Computer Science": "#3B82F6",
+    "Psychology": "#14B8A6",
+    "Spirituality": "#A78BFA",
+    "Neuroscience": "#14B8A6",
+    "Sociology": "#EC4899",
+    "Economics": "#F59E0B",
+    "Ecology": "#10B981",
+    "Medicine": "#10B981",
 }
 DEFAULT_COLOR = "#64748B"
+
+# === UPWARD MAPPING ===
+# Every non-canonical domain maps to its closest canonical parent.
+# Subdomains, compound domains, and specialty fields all resolve here.
+DOMAIN_UPWARD_MAP = {
+    # Physics subdomains
+    "Theoretical Physics": "Physics",
+    "Cosmology": "Physics",
+    "Complexity_Science": "Physics",
+    # Philosophy subdomains
+    "Epistemology": "Philosophy",
+    "Metaphysics": "Philosophy",
+    "Buddhist_Philosophy": "Philosophy",
+    "Philosophy of Art": "Philosophy",
+    "Philosophy of Daily Life": "Philosophy",
+    "Philosophy of Technology": "Philosophy",
+    "Philosophy of Science & Spirituality": "Philosophy",
+    "Metaphysics & Philosophy of Mind": "Philosophy",
+    "Ethics & Philosophy of Mind": "Ethics",
+    # Biology subdomains
+    "MolecularBiology": "Biology",
+    "Genomics": "Biology",
+    "Biology, Philosophy": "Biology",
+    # Psychology / Mind subdomains
+    "Cognitive_Science": "Psychology",
+    "ConsciousnessStudies": "Consciousness",
+    "Psychology, Physics": "Psychology",
+    # Ethics subdomains
+    "Climate Ethics": "Ethics",
+    "Ethics, Social Science": "Ethics",
+    # Computer Science subdomains
+    "Artificial Intelligence": "Computer Science",
+    # Buddhism / Spirituality
+    "Buddhism": "Spirituality",
+}
+
+def normalize_domain(domain):
+    """Map any domain to its canonical parent.
+    If already canonical, return as-is.
+    If in upward map, return the canonical parent.
+    Otherwise, return as-is (will get default color, flagged for review).
+    """
+    if domain in CANONICAL_DOMAINS:
+        return domain
+    if domain in DOMAIN_UPWARD_MAP:
+        return DOMAIN_UPWARD_MAP[domain]
+    # Unknown domain — log it so we can decide where it belongs
+    print(f"  NOTE: Unmapped domain '{domain}' — using default color. Consider adding to DOMAIN_UPWARD_MAP.")
+    return domain
 
 EDGE_COLORS = {
     "builds_upon": "#10B981", "related_to": "#F59E0B",
@@ -86,7 +152,9 @@ def load_legacy_edges():
 
 
 def gather_concepts():
-    """Load all concepts, extract graph data, merge with legacy edges."""
+    """Load all concepts, extract graph data, merge with legacy edges.
+    All domains are normalized to canonical top-level domains.
+    """
     all_cids = load_all_concept_cids()
     print(f"Loading {len(all_cids)} concepts from blockstore...")
 
@@ -101,13 +169,15 @@ def gather_concepts():
             continue
         hid = concept.get('human_id', '')
         title = concept.get('title', hid.replace('_', ' ').title())
-        domain = concept.get('domain', 'Unknown')
-        definition = concept.get('definition', '')[:150]
-        domain_counts[domain] += 1
-        color = DOMAIN_COLORS.get(domain, DEFAULT_COLOR)
+        raw_domain = concept.get('domain', 'Unknown')
+        # Normalize to canonical top-level domain
+        display_domain = normalize_domain(raw_domain)
+        definition = concept.get('definition', '')[:200]
+        domain_counts[display_domain] += 1
+        color = DOMAIN_COLORS.get(display_domain, DEFAULT_COLOR)
         nodes.append({
             "id": hid, "label": title, "color": color,
-            "domain": domain, "definition": definition,
+            "domain": display_domain, "definition": definition,
         })
         node_ids.add(hid)
 
@@ -141,6 +211,7 @@ def gather_concepts():
         print(f"  Filtered {orphan} orphan edge(s)")
 
     print(f"  {len(nodes)} nodes, {len(valid_edges)} edges, {skipped} skipped")
+    print(f"  Domains in legend: {len(domain_counts)} (canonical: {len([d for d in domain_counts if d in CANONICAL_DOMAINS])})")
     return nodes, valid_edges, domain_counts
 
 
@@ -253,6 +324,64 @@ def build_html_template():
             pointer-events: none; max-width: 280px;
             display: none; border: 1px solid #475569;
         }
+        .concept-card {
+            position: absolute;
+            background: #0F172A;
+            color: #FFFFFF;
+            border-radius: 12px;
+            padding: 18px 22px;
+            z-index: 3000;
+            max-width: 360px;
+            min-width: 260px;
+            max-height: 80vh;
+            overflow-y: auto;
+            border: 1px solid #475569;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            display: none;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            pointer-events: auto;
+        }
+        .concept-card h3 {
+            margin: 0 0 4px 0;
+            font-size: 16px;
+            color: #FFFFFF;
+        }
+        .concept-card .card-domain {
+            font-size: 11px;
+            color: #94A3B8;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+            .concept-card .card-definition {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #CBD5E1;
+            margin-bottom: 10px;
+        }
+        .concept-card .card-relationships {
+            font-size: 11px;
+            color: #94A3B8;
+            border-top: 1px solid #334155;
+            padding-top: 8px;
+            margin-top: 4px;
+        }
+        .concept-card .card-relationships span {
+            display: inline-block;
+            margin-right: 8px;
+            margin-bottom: 4px;
+        }
+        .concept-card .card-close {
+            position: absolute;
+            top: 8px;
+            right: 12px;
+            cursor: pointer;
+            color: #64748B;
+            font-size: 16px;
+        }
+        .concept-card .card-close:hover {
+            color: #FFFFFF;
+        }
         .reset-btn {
             position: absolute; bottom: 55px; left: 20px;
             z-index: 1000; cursor: pointer;
@@ -268,6 +397,13 @@ def build_html_template():
     <div id="cy"></div>
     <div id="info">__INFO_TEXT__</div>
     <div class="node-tooltip" id="nodeTooltip"></div>
+    <div class="concept-card" id="conceptCard">
+        <span class="card-close" id="cardClose">x</span>
+        <h3 id="cardTitle"></h3>
+        <div class="card-domain" id="cardDomain"></div>
+        <div class="card-definition" id="cardDefinition"></div>
+        <div class="card-relationships" id="cardRelationships"></div>
+    </div>
 
     <div id="searchBox">
         <input id="searchInput" type="text" placeholder="Search concepts..." />
@@ -300,10 +436,10 @@ def build_html_template():
             style: [
                 { selector: 'node', style: {
                     'label': 'data(label)', 'background-color': 'data(background_color)',
-                    'width': 45, 'height': 45, 'font-size': '10px',
+                    'width': 60, 'height': 60, 'font-size': '11px',
                     'text-valign': 'center', 'text-halign': 'center',
                     'color': '#FFFFFF', 'text-wrap': 'wrap',
-                    'text-max-width': '40px', 'text-overflow-wrap': 'anywhere',
+                    'text-max-width': '54px', 'text-overflow-wrap': 'anywhere',
                     'border-width': 2, 'border-color': '#E2E8F0'
                 }},
                 { selector: 'edge', style: {
@@ -313,10 +449,10 @@ def build_html_template():
                     'color': '#475569', 'text-background-color': '#FFFFFF',
                     'text-background-opacity': 0.8, 'text-background-padding': '2px'
                 }},
-                { selector: 'edge[label = "builds_upon"]', style: { 'line-color': '#10B981', 'width': 2 }},
+                { selector: 'edge[label = "builds_upon"]', style: { 'line-color': '#10B981', 'width': 2, 'target-arrow-color': '#10B981', 'target-arrow-shape': 'triangle' }},
                 { selector: 'edge[label = "related_to"]', style: { 'line-color': '#F59E0B', 'width': 2 }},
-                { selector: 'edge[label = "specializes"]', style: { 'line-color': '#8B5CF6', 'line-style': 'dashed', 'width': 2 }},
-                { selector: 'edge[label = "contradicts"]', style: { 'line-color': '#EF4444', 'width': 3 }}
+                { selector: 'edge[label = "specializes"]', style: { 'line-color': '#8B5CF6', 'line-style': 'dashed', 'width': 2, 'target-arrow-color': '#8B5CF6', 'target-arrow-shape': 'triangle' }},
+                { selector: 'edge[label = "contradicts"]', style: { 'line-color': '#EF4444', 'width': 3, 'target-arrow-color': '#EF4444', 'target-arrow-shape': 'triangle' }}
             ],
             layout: {
                 name: 'cose', idealEdgeLength: 120,
@@ -328,10 +464,10 @@ def build_html_template():
         // Auto-size on zoom
         cy.on('zoom', function() {
             var zoom = cy.zoom();
-            var base = Math.max(32, 45 / Math.sqrt(zoom));
+            var base = Math.max(40, 60 / Math.sqrt(zoom));
             cy.style().selector('node').style({
                 'width': base, 'height': base,
-                'font-size': Math.max(7, base * 0.2) + 'px',
+                'font-size': Math.max(7, base * 0.18) + 'px',
                 'text-max-width': (base * 0.85) + 'px'
             }).update();
         });
@@ -349,22 +485,45 @@ def build_html_template():
             if (q === '') { cy.elements().style('opacity', 1); }
         });
 
-        // Click node -> highlight connections
+        // Click node -> show concept card
         cy.on('tap', 'node', function(evt) {
             var node = evt.target;
-            alert('Concept: ' + node.data('label') + ' (ID: ' + node.id() + ')');
-            cy.elements().style('opacity', 0.15);
-            node.style('opacity', 1);
-            node.neighborhood().style('opacity', 1);
+            var card = document.getElementById('conceptCard');
+            document.getElementById('cardTitle').textContent = node.data('label');
+            document.getElementById('cardDomain').textContent = node.data('domain').replace(/_/g, ' ');
+            document.getElementById('cardDefinition').textContent = node.data('definition') || 'No definition available.';
+
+            // Gather relationships for this node
+            var rels = [];
+            node.connectedEdges().forEach(function(edge) {
+                var other = edge.source().id() === node.id() ? edge.target() : edge.source();
+                var dir = edge.source().id() === node.id() ? '→' : '←';
+                rels.push('<span>' + dir + ' <b>' + edge.data('label') + '</b> ' + other.data('label') + '</span>');
+            });
+            document.getElementById('cardRelationships').innerHTML = rels.length > 0
+                ? rels.join('') : '<span>No relationships yet.</span>';
+
+            card.style.display = 'block';
+            card.style.left = Math.min(evt.originalEvent.clientX + 20, window.innerWidth - 360) + 'px';
+            card.style.top = Math.min(evt.originalEvent.clientY - 30, window.innerHeight - 300) + 'px';
         });
 
-        // Click background -> reset
+        // Click background -> reset and dismiss card
         cy.on('tap', function(evt) {
-            if (evt.target === cy) { cy.elements().style('opacity', 1); }
+            if (evt.target === cy) {
+                cy.elements().style('opacity', 1);
+                document.getElementById('conceptCard').style.display = 'none';
+            }
+        });
+
+        // Close card via X button
+        document.getElementById('cardClose').addEventListener('click', function() {
+            document.getElementById('conceptCard').style.display = 'none';
         });
 
         function resetView() {
             cy.elements().style('opacity', 1);
+            document.getElementById('conceptCard').style.display = 'none';
             cy.fit();
             cy.center();
         }
@@ -451,7 +610,9 @@ def build_html_template():
 
 
 def generate_html(nodes, edges, domain_counts):
-    """Build complete mycelium_map.html with all data injected."""
+    """Build complete mycelium_map.html with all data injected.
+    Legend only shows canonical domains in defined order — nothing else.
+    """
     template = build_html_template()
 
     # Build nodes JSON
@@ -480,40 +641,24 @@ def generate_html(nodes, edges, domain_counts):
         )
     template = template.replace('__EDGES_JSON__', ',\n'.join(edges_json) if edges_json else '')
 
-    # Build legend items
-    core_order = ["Physics", "Philosophy", "Biology", "Mathematics", "Consciousness",
-                  "Chemistry", "Ethics", "Genomics", "Computer_Science", "Psychology",
-                  "Spirituality", "Buddhism", "Complexity_Science", "Cosmology",
-                  "Epistemology", "Neuroscience", "Sociology", "Economics", "Education",
-                  "Political_Science", "Medicine"]
-    shown = set()
+    # Build legend items — CANONICAL DOMAINS ONLY, in defined order
     legend_items = []
-    for domain in core_order:
-        if domain in domain_counts and domain not in shown:
+    for domain in CANONICAL_DOMAINS:
+        if domain in domain_counts:
             color = DOMAIN_COLORS.get(domain, DEFAULT_COLOR)
             legend_items.append(
                 '<div class="legend-item"><div class="color-box" style="background:{}"></div><span>{}</span></div>'.format(
                     color, domain.replace('_', ' ')
                 )
             )
-            shown.add(domain)
-    for domain in sorted(domain_counts.keys()):
-        if domain not in shown:
-            color = DOMAIN_COLORS.get(domain, DEFAULT_COLOR)
-            legend_items.append(
-                '<div class="legend-item"><div class="color-box" style="background:{}"></div><span>{}</span></div>'.format(
-                    color, domain.replace('_', ' ')
-                )
-            )
-            shown.add(domain)
     template = template.replace('__LEGEND_ITEMS__', '\n'.join(legend_items))
 
     # Build edge legend
     edge_legend = '''
-        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #10B981"></div><span>builds_upon</span></div>
-        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #F59E0B"></div><span>related_to</span></div>
-        <div class="legend-item"><div class="line-sample" style="border-bottom:2px dashed #8B5CF6"></div><span>specializes</span></div>
-        <div class="legend-item"><div class="line-sample" style="border-bottom:3px solid #EF4444"></div><span>contradicts</span></div>'''
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #10B981"></div><span>→ builds_upon</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #F59E0B"></div><span>— related_to</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px dashed #8B5CF6"></div><span>→ specializes</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:3px solid #EF4444"></div><span>→ contradicts</span></div>'''
     template = template.replace('__EDGE_LEGEND__', edge_legend)
 
     # Build info text
@@ -528,9 +673,10 @@ def generate_html(nodes, edges, domain_counts):
 
 def main():
     print("=" * 60)
-    print("CADMIES MYCELIUM MAP GENERATOR v2.0.0")
+    print("CADMIES MYCELIUM MAP GENERATOR v2.3.0")
     print(f"Blockstore: {BLOCKS_DIR}")
     print(f"Output: {OUTPUT_FILE}")
+    print(f"Canonical domains: {len(CANONICAL_DOMAINS)}")
     print("=" * 60)
 
     nodes, edges, domain_counts = gather_concepts()
@@ -547,9 +693,12 @@ def main():
         f.write(html)
 
     print(f"\nMap generated: {OUTPUT_FILE}")
-    print(f"   {len(nodes)} nodes, {len(edges)} relationships, {len(domain_counts)} domains")
-    print(f"   Features: zoom buttons, search, tooltips, click-to-highlight, interactive legend, keyboard shortcuts")
-    
+    print(f"   {len(nodes)} nodes, {len(edges)} relationships, {len(domain_counts)} domains in data")
+    legend_domains = [d for d in CANONICAL_DOMAINS if d in domain_counts]
+    print(f"   Legend: {len(legend_domains)} canonical domains shown")
+    print(f"   Features: zoom, search, tooltips, concept cards, directional arrows, interactive legend, keyboard shortcuts")
+    print(f"   Phase 44: Canonical 15-domain allowlist with upward mapping")
+
     # Update Tkinter page count
     tkinter_page = PROJECT_ROOT / "cadmies-gui" / "pages" / "tkinter_mycelium_map.py"
     if tkinter_page.exists():
