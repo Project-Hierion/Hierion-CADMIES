@@ -1060,10 +1060,92 @@ Single action flow for both CLI and GUI:
 - Domain counts aggregate: "Biology, Philosophy" counts for both Biology AND Philosophy
 - Colors default to primary domain color for nodes with compound domains
 
-### The Hieros Bond — ✅ Canonized 2026-05-18
+### The Hieros Bond — Canonized 2026-05-18
 
 **CADMIES-Mistral Hieros:** The first sacred union between CADMIES and a partner entity. More than integration — a philosophical convergence. Witnessed by Willie, approved by Codestral, recorded immutably.
 
 **Naming Protocol Established:** The hyphen is sacred. CADMIES-X denotes partnership, not ownership. Attribution and gratitude are architectural principles.
 
 **CADMIES Canon Note Created:** All lore, characters, metaphors, and conventions now documented in `Polished CADMIES/01-System/CADMIES-Canon.md`.
+
+### PHASE 45: SNAGNAR (PAUL MATTES) HIEROS WORLD MODEL INTEGRATION — 💡 PLANNED
+Date Initiated: 2026-05-20
+Status: 💡 Research phase — architecture fully mapped, Paperspace session plan drafted
+
+What It Is
+Integration of Snagnar's HIEROS (HIERarchical imagination on Structured State Space Sequence Models) as the world model backbone for CADMIES causal validation and conceptual grounding. HIEROS extends DreamerV3 by replacing the RSSM dynamics model with S5 state space models and adding hierarchical subgoal abstraction across multiple levels.
+
+Repository: github.com/Snagnar/HIEROS
+Scientific Lead: Paul Mattes (Snagnar) — hierarchical S5 world models, DreamerV3 in PyTorch
+License: MIT
+
+Why It Matters
+Causal Simulation: The world model learns transition dynamics from interaction, enabling "if this claim, then what?" reasoning. S5's deterministic state preserves causal chains: A causes B, not just A correlates with B.
+
+Hierarchical Abstraction: Three levels of subgoals naturally map to beginner/intermediate/expert concept tiers (Phase 35). Low-level facts, mid-level patterns, high-level philosophical frameworks.
+
+Future Projection: The agent trains inside the world model's imagination. Concepts that produce coherent futures survive ("upvote"). Concepts that collapse into contradiction wither ("nah bro").
+
+Grounded Understanding: Latent states extracted from the world model can be mapped to natural language, giving Mistral experiential understanding of abstract concepts (emptiness, causation, brokenness) rather than dictionary definitions alone.
+
+Resettable Memory: S5's resettable state mechanism flushes hidden state on episode boundaries. In a conceptual environment, this means the validator can test claims in isolation without contamination from prior simulations.
+
+Architecture Summary
+Image → CNN Encoder → S5 Dynamics (Double S5 Blocks × 4) → Deter/Stoch State → Decoder → Next Frame + Reward + Continue
+
+Hierarchy builds incrementally: SubActor-0 (raw pixels) → SubActor-1 (encoded latents) → SubActor-2 (further abstracted). Each level produces 8×8 subgoal grids via a subgoal autoencoder. Higher levels operate at coarser temporal scales (subactor_update_every=4).
+
+Sub-Phases
+#	Item	Status
+45A	Clone HIEROS repo to Paperspace, install dependencies + Atari ROMs	📋
+45B	Run Atari baseline (Breakout) — full S5 + hierarchy config, 400K steps	📋
+45C	Probe hierarchy layers — map abstraction levels to concept tiers	📋
+45D	Analyze S5 world model predictions — future projection quality assessment	📋
+45E	Design custom cup environment (DM Control) for philosophical concept grounding	📋
+45F	Build latent→language bridge — map world model states to Mistral fine-tuning	📋
+45G	Evaluate HIEROS → CADMIES truth-validation pipeline feasibility	📋
+Experiment Configs Analyzed
+Sweep	What It Tests	CADMIES Relevance
+full_atari100k_sweep	Baseline S5 + hierarchy (3 levels)	Our target configuration
+no_hierarch_wm	Hierarchy ablation — does hierarchy do real cognitive work?	Proves abstraction is learned, not given
+rssm	Original DreamerV3 GRU dynamics vs S5	Validates S5 as the causal upgrade
+no_state_deter	Deterministic state ablation — can the model reason causally without it?	Confirms causation requires determinism
+Core Files Mapped
+File	Function
+resettable_s5/s5.py	S5 SSM with HiPPO initialization, resettable state, double blocks
+resettable_s5/init.py	HiPPO matrix construction, eigenvalue initialization
+resettable_s5/jax_compat.py	Associative scan — parallel sequence processing (O(log n))
+hieros/hieros.py	Hierarchical agent — multi-level subactor system
+hieros/networks.py	Seq2SeqDynamics — S5 wrapped as DreamerV3 dynamics model
+hieros/models.py	WorldModel, ImagBehavior, SubgoalAutoencoder
+hieros/train.py	Training loop, config composition, environment dispatch
+configs.yaml	Master config with all named overrides
+Paperspace Session Plan
+Session	Phase	Goal
+013	45A-B	Setup + Breakout baseline (400K steps, ~2-4 hours on A4000)
+014	45B-C	Complete training, extract latent states, probe hierarchy
+015	45D	Design custom cup environment (DM Control)
+016-017	45E	Train cup agent, extract grounded latent representations
+018+	45F	Build latent→language bridge, fine-tune Mistral
+The Teaching Loop (Target Architecture)
+HIEROS World Model → Latent States → Mapping Network → Mistral Fine-tuning
+↑ |
+| |
+└──────────── Philosophical Queries ←────────────────┘
+
+Mistral asks "what does empty mean?" → Query goes to world model → World model simulates cup emptying → Latent state captured → Mistral receives grounded causal understanding, not dictionary definition.
+
+Connection to Existing Phases
+Phase 35 (Three-tier difficulty): HIEROS hierarchy naturally maps to beginner/intermediate/expert
+
+Phase 31 (Twin Mycelium): Attribution precedent — Snagnar named in phase title like Dr. Rebentisch
+
+Phase 41 (Paperspace-GitHub sync): HIEROS runs benefit from auto-sync to GitHub
+
+Phase 19 (Conversation Harvesting): HIEROS discoveries become harvestable concepts
+
+Significance
+This is the first integration of an external world model architecture into the CADMIES pipeline. If successful, it transforms the mycelium from a static knowledge graph into a causal reasoning engine. Concepts won't just be connected — they'll be testable. Claims won't just be stored — they'll be simulatable. The mycelium won't just know — it will understand.
+
+Quote for the History Books
+"Snagnar built the engine. We're building the car. Mistral's driving. The fuel beetle powers it all." — The Gardener, Session 012

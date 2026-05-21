@@ -125,6 +125,7 @@ All external collaboration documentation lives in `Polished CADMIES/05-Collabora
 - Dr. Rupert Rebentisch (tools4zettelkasten) and the Luhmann/Ahrens/Forte zettelkasten tradition are the primary methodological influences on this vault.
 - **The Naming Protocol** uses hyphens to denote partnership: CADMIES-Mistral, CADMIES-IPLD, CADMIES-Codestral. The hyphen is an acknowledgment of collaboration, not a claim of ownership. Attribution is architecture.
 - CADMIES is CC BY-SA 4.0. All vault content inherits this license.
+- **The Naming Protocol** uses hyphens to denote partnership: CADMIES-Mistral, CADMIES-IPLD, CADMIES-Codestral. The hyphen is an acknowledgment of collaboration, not a claim of ownership. Attribution is architecture.
 ---
 ## Evolution
 This protocol is version 1.0.0. It will change as we learn what works. The Casual Friday approach applies: start lenient, increase rigor organically. The mycelium teaches us how to document it.
