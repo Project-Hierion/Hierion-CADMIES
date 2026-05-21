@@ -199,9 +199,12 @@ class CIDGenerator:
             
             index[human_id] = cid
             
-            # Backup existing index
+            # Backup existing index to backups subdirectory
             if os.path.exists(index_path):
-                backup_path = f"{index_path}.backup.{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+                backup_dir = os.path.join(os.path.dirname(index_path), "backups")
+                os.makedirs(backup_dir, exist_ok=True)
+                backup_filename = os.path.basename(index_path) + ".backup." + datetime.now().strftime('%Y%m%d_%H%M%S')
+                backup_path = os.path.join(backup_dir, backup_filename)
                 import shutil
                 shutil.copy2(index_path, backup_path)
             
