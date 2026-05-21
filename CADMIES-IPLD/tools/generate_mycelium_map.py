@@ -194,6 +194,17 @@ DOMAIN_UPWARD_MAP = {
 
     # === Buddhism / Spirituality ===
     "Buddhism": "Spirituality",
+    # Phase 46 final batch (Session 015)
+    "Biomysticism": "Philosophy",
+    "Quantum Physics & Philosophy": "Physics",
+    "Philosophy, Religion, Physics": "Philosophy",
+    "Neuroscience & Quantum Physics": "Neuroscience",
+    "Philosophy, Psychology": "Philosophy",
+    "Philosophy, Consciousness": "Philosophy",
+    "Astrobiology": "Biology",
+    "Philosophy/Quantum Physics": "Physics",
+    "Metaphysics & Philosophy": "Philosophy",
+    "Neuroscience/Philosophy": "Neuroscience",
 }
 
 def normalize_domain(domain):
