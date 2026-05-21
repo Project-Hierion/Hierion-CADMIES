@@ -81,34 +81,118 @@ DEFAULT_COLOR = "#64748B"
 # Every non-canonical domain maps to its closest canonical parent.
 # Subdomains, compound domains, and specialty fields all resolve here.
 DOMAIN_UPWARD_MAP = {
-    # Physics subdomains
+    # === Physics subdomains & compounds ===
     "Theoretical Physics": "Physics",
     "Cosmology": "Physics",
     "Complexity_Science": "Physics",
-    # Philosophy subdomains
+    "Astrophysics": "Physics",
+    "Physics (String Theory)": "Physics",
+    "Physics, Quantum Field Theory": "Physics",
+    "Quantum Mechanics, Philosophy": "Physics",
+    "Quantum Physics and Philosophy": "Physics",
+    "Quantum Physics, Consciousness Studies": "Physics",
+    "Physics and Philosophy": "Physics",
+    "Physics & Philosophy": "Physics",
+    "Physics, Philosophy": "Physics",
+    "Philosophy, Physics": "Philosophy",
+    "Physics, Metaphysics": "Physics",
+    "Metaphysics, Philosophy": "Philosophy",
+    "Physics, Philosophy, Consciousness": "Physics",
+    "Physics, Philosophy, Biology": "Physics",
+    "Physics, Biology, Ecology": "Physics",
+    "Physics, Biology, Computer Science": "Physics",
+    "Neurology and Quantum Physics": "Neuroscience",
+
+    # === Philosophy subdomains & compounds ===
     "Epistemology": "Philosophy",
     "Metaphysics": "Philosophy",
     "Buddhist_Philosophy": "Philosophy",
     "Philosophy of Art": "Philosophy",
+    "Art, Philosophy": "Philosophy",
+    "Art & Philosophy": "Philosophy",
     "Philosophy of Daily Life": "Philosophy",
     "Philosophy of Technology": "Philosophy",
+    "Technology, Philosophy": "Philosophy",
+    "Technology & Philosophy": "Philosophy",
     "Philosophy of Science & Spirituality": "Philosophy",
+    "Philosophy of Science": "Philosophy",
+    "Philosophy of Science & Nature": "Philosophy",
+    "Philosophy of Physics": "Philosophy",
+    "Philosophy of Language": "Philosophy",
+    "Philosophy of Mind": "Philosophy",
+    "Philosophy of Religion": "Philosophy",
+    "Philosophy of Law": "Philosophy",
+    "Philosophy of Perception & Sound": "Philosophy",
+    "Philosophy of Perception & Scent": "Philosophy",
+    "Philosophy, Meditation": "Philosophy",
+    "Philosophy & Neuroscience": "Philosophy",
+    "Philosophy & Psychology": "Philosophy",
+    "Philosophy & Psychology": "Philosophy",
     "Metaphysics & Philosophy of Mind": "Philosophy",
-    "Ethics & Philosophy of Mind": "Ethics",
-    # Biology subdomains
+    "Literature & Philosophy": "Philosophy",
+    "Symbolism, Philosophy": "Philosophy",
+    "Science & Philosophy": "Philosophy",
+    "Science, Philosophy": "Philosophy",
+    "Science & Philosophy": "Philosophy",
+
+    # === Biology subdomains & compounds ===
     "MolecularBiology": "Biology",
     "Genomics": "Biology",
     "Biology, Philosophy": "Biology",
-    # Psychology / Mind subdomains
+    "Evolutionary Biology": "Biology",
+    "Botany": "Biology",
+    "Biology & Marketing": "Biology",
+    "Biology & Business": "Biology",
+    "Biology and Philosophy of Mind": "Biology",
+    "Computer Science, Biology": "Computer Science",
+
+    # === Psychology / Cognitive Science ===
     "Cognitive_Science": "Psychology",
+    "Cognitive Science": "Psychology",
+    "Cognitive Processes": "Psychology",
     "ConsciousnessStudies": "Consciousness",
     "Psychology, Physics": "Psychology",
-    # Ethics subdomains
+    "Psychology and Neuroscience": "Psychology",
+    "Neuroscience & Philosophy": "Neuroscience",
+    "Consciousness & Philosophy": "Consciousness",
+
+    # === Ethics subdomains & compounds ===
     "Climate Ethics": "Ethics",
     "Ethics, Social Science": "Ethics",
-    # Computer Science subdomains
+    "Ethics & Philosophy of Mind": "Ethics",
+    "Law and Business Ethics": "Ethics",
+    "Law and Philosophy": "Philosophy",
+    "Philanthropy": "Ethics",
+    "Project Management, Ethics": "Ethics",
+    "Project Management, Philosophy": "Philosophy",
+
+    # === Computer Science subdomains & compounds ===
     "Artificial Intelligence": "Computer Science",
-    # Buddhism / Spirituality
+    "AI": "Computer Science",
+    "Computer Science, Philosophy": "Computer Science",
+    "Science & Technology": "Computer Science",
+    "Technology & Society": "Sociology",
+
+    # === Sociology (social structures, governance, culture, communication) ===
+    "Politics and Law": "Sociology",
+    "Governance": "Sociology",
+    "Communication": "Sociology",
+    "Cultural Movement": "Sociology",
+    "Creativity, Collaboration": "Sociology",
+    "Food & Language": "Sociology",
+    "Project Management": "Sociology",
+    "Project Management, Governance": "Sociology",
+
+    # === Economics ===
+    "Project Financing": "Economics",
+
+    # === Linguistics (philosophy of language) ===
+    "Linguistics": "Philosophy",
+
+    # === Knowledge Management (social knowledge systems) ===
+    "Knowledge Management": "Sociology",
+
+    # === Buddhism / Spirituality ===
     "Buddhism": "Spirituality",
 }
 
