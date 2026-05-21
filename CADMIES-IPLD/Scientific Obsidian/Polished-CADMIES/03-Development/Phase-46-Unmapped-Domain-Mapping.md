@@ -1,7 +1,7 @@
 ---
 phase: 46
 date: 2026-05-21
-status: 🟡 In Progress — 87 unmapped reduced to 11
+status: ✅ Complete
 related: [[Phase-44-Map-Legend-Cleanup]], [[Phase-45-Snagnar-HIEROS]], [[generate_mycelium_map.py]], [[Session-015]]
 ---
 
@@ -9,7 +9,7 @@ related: [[Phase-44-Map-Legend-Cleanup]], [[Phase-45-Snagnar-HIEROS]], [[generat
 
 ## What Changed
 
-The `DOMAIN_UPWARD_MAP` dictionary in `generate_mycelium_map.py` was expanded from approximately 22 entries to approximately 75 entries, reducing unmapped domain occurrences from 87 to 11. Six source concept files had their domain fields corrected from the generic "Science" to their actual disciplines. Forty previously unminted concepts were discovered during the remint process and were added to the blockstore with proper CIDs and provenance records.
+The `DOMAIN_UPWARD_MAP` dictionary in `generate_mycelium_map.py` was expanded from approximately 22 entries to over 85 entries, eliminating all unmapped domain occurrences from the mycelium map. Six source concept files had their domain fields corrected from the generic "Science" to their actual disciplines. Forty previously unminted concepts were discovered during the remint process and were added to the blockstore with proper CIDs and provenance records. The relationship generator produced 28 new edges across 24 concepts. The map now displays 342 nodes, 165 edges, and exactly 15 canonical domains in the legend with zero unmapped domain warnings.
 
 ## Why
 
@@ -23,7 +23,7 @@ Phase 46 was necessary because:
 
 ## Changes Made
 
-### 1. Content-Based Domain Mapping
+### 1. Content-Based Domain Mapping (Local — Session 015 Part 1)
 
 Instead of mapping domains by name alone, each unmapped concept's source file was read to determine its actual subject matter. Key examples:
 
@@ -38,35 +38,20 @@ Instead of mapping domains by name alone, each unmapped concept's source file wa
 | complexity_paradigm_shift | Science | Philosophy | Philosophical paradigm shift |
 | community_driven_paradigm_shift | Science | Sociology | Social organization of science |
 
-**"Project Management" (2 concepts) → Sociology:**
-Both concepts addressed team structure, sustainability, and organizational design, not technical project management methodologies.
+**Other category redistributions:**
 
-**"Linguistics" (2 concepts) → Philosophy:**
-Both concepts dealt with word creation for philosophical ideas ("Hieros," "Cosmic Mycelium Lexical Family"), placing them in philosophy of language rather than scientific linguistics.
-
-**"Communication" (1 concept) → Sociology:**
-"Subversive Delivery" — using humor and pop culture to spread ideas — is a social communication strategy.
-
-**"Cultural Movement" (1 concept) → Sociology:**
-"Futurama Esque" — cultural fusion of philosophy and entertainment.
-
-**"Knowledge Management" (1 concept) → Sociology:**
-"Self-Perpetuating Ecosystem" — social knowledge network dynamics.
-
-**"Governance" (1 concept) → Sociology:**
-"Volunteer Guardianship" — community leadership model.
-
-**"Philanthropy" (1 concept) → Ethics:**
-"Philanthropy Catalyst" — altruistic giving as an ethical framework.
-
-**"Project Financing" (1 concept) → Economics:**
-"Transparent Budgeting" — financial planning and resource allocation.
-
-**"Creativity, Collaboration" (1 concept) → Sociology:**
-"Spores and Gardeners" — community nurturing of ideas.
-
-**"Food & Language" (1 concept) → Sociology:**
-Ghost concept (blockstore-only, no source file found).
+| Original Domain | Concepts | Mapped To | Rationale |
+|----------------|----------|-----------|-----------|
+| Project Management | 2 | Sociology | Team structure, sustainability, organizational design |
+| Linguistics | 2 | Philosophy | Philosophy of language (word creation for philosophical ideas) |
+| Communication | 1 | Sociology | Social communication strategy |
+| Cultural Movement | 1 | Sociology | Cultural fusion of philosophy and entertainment |
+| Knowledge Management | 1 | Sociology | Social knowledge network dynamics |
+| Governance | 1 | Sociology | Community leadership model |
+| Philanthropy | 1 | Ethics | Altruistic giving as ethical framework |
+| Project Financing | 1 | Economics | Financial planning and resource allocation |
+| Creativity, Collaboration | 1 | Sociology | Community nurturing of ideas |
+| Food & Language | 1 | Sociology | Ghost concept (blockstore-only) |
 
 ### 2. Compound Domain Resolution Rule
 
@@ -99,9 +84,9 @@ Changing source concept files does not automatically update the blockstore. The 
 
 **Result:** 46 concepts were reminted with new CIDs and provenance records — the six corrected concepts plus 40 additional concepts that existed in `source_concepts/` but had never been added to the blockstore.
 
-### 5. New Unmapped Domains
+### 5. Final Domain Mapping Batch (Paperspace — Session 015 Part 2)
 
-The 40 newly minted concepts introduced 11 domain strings not present in the original 87. These were all straightforward to categorize:
+The 40 newly minted concepts introduced 11 domain strings not present in the original 87. These were all mapped on Paperspace:
 
 | Domain String | Occurrences | Maps To |
 |---------------|-------------|---------|
@@ -116,39 +101,49 @@ The 40 newly minted concepts introduced 11 domain strings not present in the ori
 | Metaphysics & Philosophy | 1 | Philosophy |
 | Neuroscience/Philosophy | 1 | Neuroscience |
 
-These 11 remaining entries have been catalogued for the next mapping session but do not block Phase 46 completion — the system correctly identifies and flags them.
+### 6. Relationship Generation
+
+After domain mapping was complete, `generate_relationships.py --incremental --write` was run on Paperspace with Mistral 7B. The run produced 28 new edges across 24 concepts, densifying the mycelium from 139 to 165 edges.
 
 ## Testing
 
-### Pre-Phase State
+### Phase 46 Part 1 (Local)
 
-| Metric | Value |
-|--------|-------|
-| Unmapped domain occurrences | 87 |
-| Unique unmapped domain strings | ~55 |
-| DOMAIN_UPWARD_MAP entries | ~22 |
-| Concepts in blockstore | 302 |
-| Edges | 135 |
+| Metric | Before | After |
+|--------|--------|-------|
+| Unmapped domain occurrences | 87 | 11 |
+| Unique unmapped domain strings | ~55 | 11 |
+| DOMAIN_UPWARD_MAP entries | ~22 | ~75 |
+| Concepts in blockstore | 302 | 342 |
+| Edges | 135 | 139 |
 
-### Post-Phase State
+### Phase 46 Part 2 (Paperspace)
 
-| Metric | Value |
-|--------|-------|
-| Unmapped domain occurrences | 11 |
-| Unique unmapped domain strings | 11 |
-| DOMAIN_UPWARD_MAP entries | ~75 |
-| Concepts in blockstore | 342 |
-| Edges | 139 |
+| Metric | Before | After |
+|--------|--------|-------|
+| Unmapped domain occurrences | 11 | 0 |
+| DOMAIN_UPWARD_MAP entries | ~75 | 85+ |
+| Edges | 139 | 165 |
 
-### Verification
-
-The map generator was run locally:
+### Final Verification (Local)
 
 ```
 python tools/generate_mycelium_map.py
+============================================================
+CADMIES MYCELIUM MAP GENERATOR v2.3.0
+Canonical domains: 15
+============================================================
+Loading 342 concepts from blockstore...
+  Filtered 316 orphan edge(s)
+  342 nodes, 165 edges, 0 skipped
+  Domains in legend: 15 (canonical: 15)
+
+Map generated: mycelium_map.html
+   342 nodes, 165 relationships, 15 domains in data
+   Legend: 15 canonical domains shown
 ```
 
-Output confirmed: 342 nodes, 139 edges, 15 canonical domains in legend, 11 unmapped domain NOTES remaining (the 11 new domains from the freshly minted concepts).
+Zero unmapped domain warnings. Map legend displays exactly 15 canonical domains. All three nodes (local, Paperspace, GitHub) synchronized via git push, git pull, and tarball transfer.
 
 ## Analysis
 
@@ -174,7 +169,7 @@ Removing index entries to force reminting revealed 40 previously unminted concep
 
 ### Scale of the Domain Mapping System
 
-With 342 concepts, the `DOMAIN_UPWARD_MAP` now contains approximately 75 entries covering the vast majority of domain strings. The system is designed to grow: new domains encountered during map generation trigger a NOTE in the terminal output, allowing incremental mapping without requiring batch phases.
+With 342 concepts, the `DOMAIN_UPWARD_MAP` now contains over 85 entries covering all known domain strings. The system is designed to grow: new domains encountered during map generation trigger a NOTE in the terminal output, allowing incremental mapping without requiring batch phases. At this scale, new domain strings are expected to appear infrequently and will typically be straightforward one-to-one mappings.
 
 ## Issues Encountered
 
@@ -184,13 +179,17 @@ The harvester's `import_from_source_concepts()` identifies concepts by `human_id
 
 ### New Domains from Unminted Concepts
 
-The 40 newly minted concepts introduced 11 new domain strings, adding a small new workload to the mapping effort. This was expected — the concepts were never visible to the map generator before, so their domains were never flagged. This is a one-time cleanup cost associated with the remint cascade.
+The 40 newly minted concepts introduced 11 new domain strings, adding a small new workload to the mapping effort. This was expected — the concepts were never visible to the map generator before, so their domains were never flagged. This was a one-time cleanup cost associated with the remint cascade.
+
+### Git Merge Conflict on Local
+
+The locally regenerated map file conflicted with the version pushed from Paperspace. Resolved via `git stash`, `git pull`, and regeneration with the updated code. This is a routine synchronization artifact when map generation occurs on both machines before syncing.
 
 ## Conclusion
 
-Phase 46 is substantially complete. The original 87 unmapped domain occurrences have been reduced to 11, all of which are catalogued and have straightforward mappings. The `DOMAIN_UPWARD_MAP` now covers approximately 75 domain strings, providing robust coverage for the 342-concept blockstore. The map generator correctly displays all mapped concepts under their canonical 15-domain legend entries, and unmapped domains are explicitly flagged for review.
+Phase 46 is complete. All 87 originally unmapped domain occurrences have been resolved. The `DOMAIN_UPWARD_MAP` now contains over 85 entries providing complete coverage for the 342-concept blockstore. The mycelium map displays exactly 15 canonical domains in the legend with zero unmapped domain warnings. The relationship generator added 28 new edges, bringing the total to 165 relationships across 342 concepts.
 
-The remaining 11 domain mappings can be completed in the next session. They are all direct one-to-one mappings with no content analysis required.
+All three infrastructure nodes — local (HP/Fedora), Paperspace (A4000 GPU), and GitHub — are synchronized.
 
 ## Key Principles Established
 
@@ -198,13 +197,4 @@ The remaining 11 domain mappings can be completed in the next session. They are 
 2. **Compound domains resolve to the first domain listed** — the harvester writes the anchor discipline first, the lens second.
 3. **Domain mapping should be based on concept content, not domain labels** — read the definition, map what the concept actually IS.
 4. **The remint workflow requires index manipulation** — changing source files does not auto-trigger reminting. Pop the index entry, run the harvester.
-
-## Next Steps
-
-| #   | Action                                                 | Priority |
-| --- | ------------------------------------------------------ | -------- |
-| 1   | Add 11 remaining domain mappings to DOMAIN_UPWARD_MAP  | 🔴       |
-| 2   | Regenerate map, verify zero "Unmapped domain" warnings | 🔴       |
-| 3   | Run `generate_relationships.py --incremental --write`  | 🟡       |
-| 4   | Commit all changes, push to GitHub                     | 🔴       |
-| 5   | Restart Ollama local for future harvests               | 🟢       |
+5. **Tarballs live in `/notebooks/` on Paperspace** — not `/root/`. File browser only shows `/notebooks/`.
