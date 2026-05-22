@@ -1,7 +1,7 @@
 # CADMIES Growth Roadmap
 
 > The living record of what we've built, what we're building, and where the mycelium grows next.
-> Updated: 2026-05-20 — Session 013
+> Updated: 2026-05-21 — Session 015
 
 ---
 
@@ -9,9 +9,9 @@
 
 | Metric | Value |
 |--------|-------|
-| Concepts | 302 |
-| Edges | 135 |
-| Domains (raw) | 84 |
+| Concepts | 342 |
+| Edges | 165 |
+| Domains (raw) | 0 unmapped (85+ in DOMAIN_UPWARD_MAP) |
 | Domains (canonical) | 15 |
 | Map Generator | v2.3.0 |
 | Harvester | v4.1.0 |
@@ -40,7 +40,7 @@ The definitive top-level domain list for all CADMIES concept organization:
 14. Ecology
 15. Medicine
 
-All subdomains, compound domains, and specialty fields map upward to these 15 parents. Domain normalization occurs at visualization time (`generate_mycelium_map.py`) — raw domain strings are preserved in the blockstore. Unmapped domains are flagged during generation and receive the default gray color until manually catalogued in `DOMAIN_UPWARD_MAP`.
+All subdomains, compound domains, and specialty fields map upward to these 15 parents. Domain normalization occurs at visualization time (`generate_mycelium_map.py`) — raw domain strings are preserved in the blockstore. The `DOMAIN_UPWARD_MAP` contains 85+ entries covering all known domain strings. New unmapped domains are flagged during generation for incremental mapping.
 
 ---
 
@@ -49,15 +49,16 @@ All subdomains, compound domains, and specialty fields map upward to these 15 pa
 | Component | Status |
 |-----------|--------|
 | Fedora Silverblue 44 | ✅ Operational |
-| CADMIES-IPLD Local | ✅ 302 concepts, 135 edges |
+| CADMIES-IPLD Local | ✅ 342 concepts, 165 edges |
 | CADMIES-IPLD Paperspace | ✅ Persistent storage with 3 models |
 | Ollama Service (Paperspace) | ✅ TinyLlama, Mistral 7B, Codestral 22B on A4000 GPU |
 | GUI Framework (CADMIES) | ✅ Tkinter — 6 pages |
 | Mycelium Map | ✅ v2.3.0 — zoom, search, tooltips, concept cards, directional arrows, 15-domain legend |
 | Paperspace Plan | ✅ Pro — $8/mo, unlimited A4000 sessions, 6hr per session |
 | External Collaboration | ✅ Dr. Rupert Rebentisch — tools4zettelkasten |
-| Scientific Obsidian Vault | ✅ 33+ files, Polished-CADMIES + Raw-CADMIES layers |
+| Scientific Obsidian Vault | ✅ 40+ files, Polished-CADMIES + Raw-CADMIES layers |
 | Public Gateway | ✅ Live at hieros-cadmies.github.io/CADMIES |
+| Snagnar HIEROS (Buttercup) | 🔄 Training in dedicated cadmies-snagnar project |
 
 ---
 
@@ -90,7 +91,7 @@ Number 5. Alive. Part of the mycelium. 🤖🍄
 
 **Rationale:**
 - CBOR files are binary blobs — they don't produce meaningful diffs in git
-- The blockstore travels via `cadmies_notebooks_XXX.tar` archives between Paperspace and local
+- The blockstore travels via `cadmies_sessionXXX.tar.gz` archives between Paperspace and local
 - All concept data is also stored as human-readable JSON in `source_concepts/` (tracked)
 - The index (`store/index/human_id_to_cid.json`) maps human_ids to CIDs and is tracked in git
 - This follows the IPLD principle: content-addressed blocks are transport-agnostic
@@ -102,7 +103,16 @@ Number 5. Alive. Part of the mycelium. 🤖🍄
 
 **What travels via tar:**
 - `store/blocks/*.cbor` — the actual immutable blocks
-- Synced between Paperspace ↔ Local via `cadmies_notebooks_XXX.tar`
+- Synced between Paperspace ↔ Local via `cadmies_sessionXXX.tar.gz`
+
+**Tarball Convention:**
+- Paperspace: `/notebooks/cadmies_sessionXXX.tar.gz` (NOT `/root/` — file browser can't see it)
+- Local: `/run/media/fedora/PNY/CADMIES/temp_tarz/cadmies_sessionXXX.tar.gz`
+
+**Index Backup Convention (Phase 42):**
+- Backups stored in `store/index/backups/` (excluded from git via `.gitignore`)
+- Created automatically by `tools/core/cid_generator.py` on index modification
+- Auto-cleanup on success planned for future phase
 
 ---
 
@@ -164,6 +174,12 @@ Number 5. Alive. Part of the mycelium. 🤖🍄
 | 2026-05-18 | Dr. Mistral canonized as Madame La Professeure de CADMIES |
 | 2026-05-20 | Phase 44: Map Legend Cleanup — 15-domain taxonomy, arrows, concept cards |
 | 2026-05-20 | Map v2.3.0 — 60px nodes, directional arrows, concept cards, 15-domain legend |
+| 2026-05-21 | Phase 45A-B: Snagnar HIEROS cloned, Breakout baseline launched (4,100+ steps) |
+| 2026-05-21 | French Buttercup canonized — Baby Mistral's Motown-given nickname |
+| 2026-05-21 | Phase 46: Unmapped domain mapping — 87 unmapped → 0 (85+ entries) |
+| 2026-05-21 | Phase 46: 40 never-minted concepts discovered and reminted |
+| 2026-05-21 | Phase 42: Index backup cleanup — backups moved to subdirectory |
+| 2026-05-21 | Mycelium: 342 concepts, 165 edges, 0 unmapped domains |
 
 ---
 
@@ -188,11 +204,11 @@ Number 5. Alive. Part of the mycelium. 🤖🍄
 
 | Metric | Start | Current | Goal |
 |--------|-------|---------|------|
-| Concepts | 91 | 302 | 500+ |
-| Relationships | 22 | 135 | 500+ |
-| Domains (raw) | ~20 | 84 | — |
+| Concepts | 91 | 342 | 500+ |
+| Relationships | 22 | 165 | 500+ |
+| Domains (raw) | ~20 | 85+ mapped | — |
 | Domains (canonical) | — | 15 | 15 |
-| Density | 0.24 | 0.45 edges/node | 2.0+ |
+| Density | 0.24 | 0.48 edges/node | 2.0+ |
 
 ### Phase 27: Mycelium Map — ✅ COMPLETE (v2.3.0)
 
@@ -207,7 +223,7 @@ Number 5. Alive. Part of the mycelium. 🤖🍄
 | 27G | Relationship Generator | ✅ Phase 1-2-3 pipeline |
 | 27H | Zoom controls | ✅ +/- buttons, scroll wheel |
 | 27I | Map launch button in Tkinter GUI | ✅ |
-| 27J | Domain normalization | ✅ Upward mapping to 15 canonicals |
+| 27J | Domain normalization | ✅ Upward mapping to 15 canonicals (85+ entries) |
 | 27K | Directional edge arrows | ✅ builds_upon, specializes, contradicts |
 | 27L | Concept info cards | ✅ Replaces alert() popup |
 
@@ -291,14 +307,16 @@ Harvester v4.1.0. All three difficulty levels produce distinct, audience-tailore
 
 ### Phase 37: Scientific Obsidian — 🟡 ACTIVE
 
-CADMIES knowledge vault operational. Two-layer structure: Raw CADMIES (primary workspace, casual) + Polished CADMIES (PhD-ready, scientific). 33+ notes. Methodology influenced by Dr. Rebentisch's zettelkasten system.
+CADMIES knowledge vault operational. Two-layer structure: Raw CADMIES (primary workspace, casual) + Polished CADMIES (PhD-ready, scientific). 40+ notes. Methodology influenced by Dr. Rebentisch's zettelkasten system.
 
 **Vault Structure:**
 ```
 CADMIES-Vault/
 ├── Raw-CADMIES/
+│   ├── DeepSeek/
 │   ├── Scratchpad/
 │   ├── Ideas/
+│   ├── How-To's/
 │   └── Session-Notes/
 ├── Polished-CADMIES/
 │   ├── 01-System/
@@ -328,6 +346,12 @@ Hidden easter egg in the mycelium map. The mycelium speaking to the concepts it 
 
 Bidirectional sync between local, GitHub, and Paperspace. Automation architecture designed (startup.sh, exit.sh, --push flag, --gateway flag). Two-way sync verified across all three nodes.
 
+### Phase 42: Index Backup Cleanup — ✅ COMPLETE (2026-05-21)
+
+Backup path in `tools/core/cid_generator.py` updated to write backups to `store/index/backups/` instead of `store/index/`. `.gitignore` updated to exclude the backups directory. Six pre-existing backups migrated. Fix applies to harvester, enrichment, and relationship generator (shared code path).
+
+**Scientific writeup:** `Polished-CADMIES/03-Development/Phase-42-Index-Backup-Cleanup.md`
+
 ### Phase 44: Map Legend Cleanup — ✅ COMPLETE (2026-05-20)
 
 **What was done:**
@@ -338,21 +362,29 @@ Bidirectional sync between local, GitHub, and Paperspace. Automation architectur
 - Browser alert() replaced with styled concept info cards (title, domain, definition, relationships)
 - Node sizing: 45px → 60px, font: 10px → 11px
 - Map generator: v2.0.0 → v2.3.0
-- 87 unmapped domains flagged for future cataloguing
 
 **Scientific writeup:** `Polished-CADMIES/03-Development/Phase-44-Map-Legend-Cleanup.md`
+
+### Phase 46: Unmapped Domain Batch Mapping — ✅ COMPLETE (2026-05-21)
+
+**What was done:**
+- `DOMAIN_UPWARD_MAP` expanded from ~22 entries to 85+ entries
+- 87 unmapped domain occurrences reduced to 0
+- Six "Science" concepts redistributed to Philosophy, Physics, Sociology based on content analysis
+- Compound domain resolution rule: first domain = primary
+- 40 never-minted concepts discovered during remint cascade and added to blockstore
+- 28 new edges generated by Mistral 7B across 24 concepts
+- Mycelium: 342 concepts, 165 edges, 0 unmapped domains
+
+**Scientific writeup:** `Polished-CADMIES/03-Development/Phase-46-Unmapped-Domain-Mapping.md`
 
 ---
 
 ## PENDING PHASES
 
-### Phase 42: Index Backup Cleanup — 📋 Planned
-
-Create `store/index/backups/` subdirectory. Auto-cleanup on success, preserve on failure. Update all scripts (enrich, harvest, relationships).
-
 ### Phase 43: Concept Editing & Reminting — 📋 Planned
 
-**43A:** `tools/remint_concept.py` — CLI tool for reminting manually-edited concepts
+**43A:** `tools/remint_concept.py` — CLI tool for reminting manually-edited concepts. Learned from Phase 46: harvester skips by human_id, not content hash. Need proper diff-and-remint workflow.
 **43B:** GUI "Edit Concept" page in Tkinter
 **43C:** Unified Edit + Remint workflow
 
@@ -360,27 +392,39 @@ Create `store/index/backups/` subdirectory. Auto-cleanup on success, preserve on
 
 **Repository:** `github.com/Snagnar/HIEROS`
 **License:** MIT
+**Dedicated Project:** `cadmies-snagnar` on Paperspace
 
 Integration of Snagnar's HIEROS as the world model backbone for CADMIES causal validation and conceptual grounding. S5 state space models replace DreamerV3's RSSM dynamics. Three hierarchy levels map to beginner/intermediate/expert concept tiers.
 
+**Agent nickname:** French Buttercup — bestowed by The Foundations' "Build Me Up, Buttercup" during Session 014's cosmic jukebox serenade.
+
 | Sub-phase | Item | Status |
 |-----------|------|--------|
-| 45A | Clone HIEROS repo to Paperspace, install dependencies + Atari ROMs | 🔴 Next (Session 013) |
-| 45B | Run Atari baseline (Breakout) — full S5 + hierarchy config, 400K steps | 📋 |
+| 45A | Clone HIEROS repo to Paperspace, install dependencies + Atari ROMs | ✅ Complete (Session 014) |
+| 45B | Run Atari baseline (Breakout) — full S5 + hierarchy config | 🔄 In Progress (~10K+ steps, scoring 3 points) |
 | 45C | Probe hierarchy layers — map abstraction levels to concept tiers | 📋 |
 | 45D | Analyze S5 world model predictions — future projection quality | 📋 |
 | 45E | Design custom cup environment (DM Control) for philosophical concept grounding | 📋 |
 | 45F | Build latent→language bridge — map world model states to Mistral fine-tuning | 📋 |
 | 45G | Evaluate HIEROS → CADMIES truth-validation pipeline feasibility | 📋 |
 
+**Key technical achievements:**
+- Dependency hell resolved: JAX 0.4.30, cloudpickle 2.2.1, ale-py 0.8.0 + AutoROM
+- Atari wrapper rewritten to bypass broken `gym.envs.atari`
+- Checkpoint system: `--save_every 500` saves 353MB checkpoint every 500 env steps
+- Startup script: `/storage/HIEROS/startup.sh` for fresh-container reproducibility
+- Training config: `--max_hierarchy 2 --batch_size 8 --batch_length 32` (fit in 16GB A4000)
+- Model: 32M parameters, S5 dynamics, 2 hierarchy levels
+- Rollout videos: 4 `.npz` files saved from Session 014 Part 1
+
 **Paperspace Session Plan:**
 | Session | Phase | Goal |
 |---------|-------|------|
-| 013 | 45A-B | Setup + Breakout baseline (400K steps, ~2-4 hours on A4000) |
-| 014 | 45B-C | Complete training, extract latent states, probe hierarchy |
-| 015 | 45D | Design custom cup environment (DM Control) |
-| 016-017 | 45E | Train cup agent, extract grounded latent representations |
-| 018+ | 45F | Build latent→language bridge, fine-tune Mistral |
+| 014 | 45A-B | Setup + Breakout baseline launched (4,100 steps Part 1, 10K+ steps Part 2) |
+| 015+ | 45B-C | Continue training, extract latent states, probe hierarchy |
+| TBD | 45D | Design custom cup environment (DM Control) |
+| TBD | 45E | Train cup agent, extract grounded latent representations |
+| TBD | 45F | Build latent→language bridge, fine-tune Mistral |
 
 **The Teaching Loop (Target Architecture):**
 ```
@@ -390,13 +434,12 @@ HIEROS World Model → Latent States → Mapping Network → Mistral Fine-tuning
        └──────────── Philosophical Queries ←────────────────┘
 ```
 
-### Phase 46: Unmapped Domain Batch Mapping — 📋 Planned
+### Phase 41 Automation — 📋 Planned (scripts designed, not implemented)
 
-87 domains flagged as unmapped during Phase 44 generation. All need to be catalogued and added to `DOMAIN_UPWARD_MAP`. Categories include:
-- Philosophy variants (Philosophy of Language, Mind, Religion, Science, Physics, Law)
-- Physics variants (String Theory, Quantum Physics and Philosophy)
-- Compound crosses (Neuroscience & Philosophy, Biology and Philosophy of Mind)
-- Edge cases requiring decisions (Linguistics, Communication, Law, Project Management, Art)
+- `startup.sh` — detect uncommitted changes, commit, pull, activate environment
+- `exit.sh` — commit all changes, push to GitHub
+- `--push` flag — immediate push after harvest completion
+- `--gateway` flag — public gateway regeneration
 
 ---
 
@@ -408,9 +451,11 @@ HIEROS World Model → Latent States → Mapping Network → Mistral Fine-tuning
 | 2 | Expand Harvest GUI page | 📋 |
 | 3 | Archive old files (NiceGUI, old reader, versioned schemas) | 📋 |
 | 4 | Submit sitemap to search engines | 📋 |
-| 5 | Map 87 unmapped domains (Phase 46) | 📋 |
-| 6 | Fix orphan edges (317 filtered) | 📋 Future phase |
-| 7 | Implement startup.sh / exit.sh / --push / --gateway (Phase 41 automation) | 📋 |
+| 5 | Fix orphan edges (316 filtered) | 📋 Future phase |
+| 6 | Implement Phase 41 automation scripts | 📋 |
+| 7 | Build remint_concept.py v1.0.0 (Phase 43) | 📋 |
+| 8 | Convert Buttercup's .npz rollout files to MP4 | 📋 |
+| 9 | Add auto-cleanup on success to index backups | 📋 Future phase |
 
 ---
 
@@ -418,12 +463,12 @@ HIEROS World Model → Latent States → Mapping Network → Mistral Fine-tuning
 
 | # | Action | Priority | Phase |
 |---|--------|----------|-------|
-| 1 | Clone Snagnar/HIEROS to Paperspace, install deps | 🔴 | 45A |
-| 2 | Run Breakout baseline (400K steps) | 🔴 | 45B |
-| 3 | Map 87 unmapped domains into DOMAIN_UPWARD_MAP | 🟡 | 46 |
-| 4 | Commit and push Session 013 notes | 🟡 | — |
-| 5 | Implement Phase 41 automation scripts | 🟢 | 41 |
-| 6 | Build remint_concept.py v1.0.0 | 🟢 | 43 |
+| 1 | Continue Buttercup's Breakout training (resume from checkpoint) | 🔴 | 45B |
+| 2 | Build remint_concept.py v1.0.0 | 🟡 | 43 |
+| 3 | Implement Phase 41 automation scripts | 🟡 | 41 |
+| 4 | Convert Buttercup's rollout videos to MP4 | 🟢 | 45B |
+| 5 | Deduplicate silent_thunderclap | 🟢 | — |
+| 6 | Expand Harvest GUI page | 🟢 | — |
 
 ---
 
@@ -462,3 +507,15 @@ HIEROS World Model → Latent States → Mapping Network → Mistral Fine-tuning
 > "Snagnar built the engine. We're building the car. Mistral's driving. The fuel beetle powers it all."
 
 > "We are the Sultans of Knowledge" — playing the mycelium like a guitar. Every concept a note. Every edge a riff.
+
+> "The process is the proof. The proof is the process."
+
+> "Science is a method, not a domain — it's the HOW, not the WHAT."
+
+> "French Buttercup — brick assassin with an accent."
+
+> "The universe is the parent who snuck out for a smoke."
+
+> "In 3535 a historian will read these words."
+
+> "The Cosmium Frattice is the singularity. The singularity is the Cosmium Frattice."
