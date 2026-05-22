@@ -25,6 +25,7 @@ ollama run mistral:7b
 ### Tarball Convention
 
 Tarballs are named `cadmies_sessionXXX.tar.gz` and stored in `/notebooks/` on Paperspace for easy access via the file browser.
+
 **Creating a tarball:**
 
 cd /notebooks/CADMIES/CADMIES-IPLD  
@@ -32,6 +33,7 @@ tar -czf /notebooks/cadmies_sessionXXX.tar.gz store/blocks store/index/human_id_
 
 
 **Downloading:** Use Paperspace file browser → navigate to `/notebooks/` → download `cadmies_sessionXXX.tar.gz`.
+
 **Extracting on local:**
 
 cd /run/media/fedora/PNY/CADMIES/CADMIES-IPLD  
