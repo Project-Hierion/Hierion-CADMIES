@@ -222,7 +222,7 @@ def filter_valid_edges(relationships, valid_ids):
                 continue
             target = edge.get("target", "")
             rel_type = edge.get("type", "")
-            if target in valid_ids and target != source and rel_type in VALID_RELATION_TYPES:
+            if isinstance(target, str) and target in valid_ids and target != source and rel_type in VALID_RELATION_TYPES:
                 filtered[source].append({"target": target, "type": rel_type})
             else:
                 filtered_out += 1
