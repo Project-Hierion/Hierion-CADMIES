@@ -2,7 +2,7 @@
 """
 File: generate_relationships.py
 Tool: CADMIES Relationship Generator
-Version: 1.2.3
+Version: 1.2.4
 System: CADMIES / tools
 Status: ACTIVE
 
@@ -28,6 +28,11 @@ Lessons Learned (2026-05-09):
     - Mistral invents IDs/types → strict rules + example in prompt
     - signal.alarm() conflicts with ollama.generate → removed
     - Trailing commas before } or ] → stripped in call_mistral()
+
+Changelog (2026-05-21 — v1.2.4):
+    - Phase 47 fix: write step now validates target exists in full blockstore
+      index before appending edge. Prevents orphan edges from deleted/renamed
+      concepts. Skips with log message instead of silently creating ghost edges.
 """
 
 import json
@@ -255,7 +260,7 @@ def main():
     incremental = "--incremental" in sys.argv
 
     print("=" * 60)
-    print("CADMIES RELATIONSHIP GENERATOR v1.2.3")
+    print("CADMIES RELATIONSHIP GENERATOR v1.2.4")
     print(f"Model: {MODEL}  |  Batch: {BATCH_SIZE}  |  Delay: {DELAY}s")
     print(f"Mode: {'WRITE' if write_mode else 'DRY RUN (preview only)'}")
     print(f"Filter: {'INCREMENTAL (sparse only)' if incremental else 'FULL (all concepts)'}")
@@ -372,6 +377,7 @@ def main():
 
     cid_gen = CIDGenerator()
     updated = 0
+    skipped_orphans = 0
     for hid, new_edges in all_relationships.items():
         if not new_edges:
             continue
@@ -386,6 +392,13 @@ def main():
         for edge in new_edges:
             t = edge['type']
             target = edge['target']
+
+            # Phase 47 fix: validate target exists in full blockstore index
+            if target not in cid_map:
+                print(f"  SKIP: target '{target}' not in blockstore (orphan prevented)")
+                skipped_orphans += 1
+                continue
+
             if t not in rels:
                 rels[t] = []
             if target not in rels[t]:
@@ -399,6 +412,8 @@ def main():
         updated += 1
 
     print(f"✅ Updated {updated} concepts in blockstore")
+    if skipped_orphans:
+        print(f"⚠️  Skipped {skipped_orphans} orphan edge(s) — target(s) not in blockstore")
     print(f"   Run: python tools/generate_mycelium_map.py")
     print(f"   Then open mycelium_map.html in Firefox.")
 
