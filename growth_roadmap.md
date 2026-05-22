@@ -447,7 +447,7 @@ HIEROS World Model → Latent States → Mapping Network → Mistral Fine-tuning
 
 | # | Item | Status |
 |---|------|--------|
-| 1 | Deduplicate silent_thunderclap | 📋 |
+| 1 | Deduplicate silent_thunderclap | ✅ |
 | 2 | Expand Harvest GUI page | 📋 |
 | 3 | Archive old files (NiceGUI, old reader, versioned schemas) | 📋 |
 | 4 | Submit sitemap to search engines | 📋 |

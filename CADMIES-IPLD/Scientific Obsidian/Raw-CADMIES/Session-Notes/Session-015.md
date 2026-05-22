@@ -122,3 +122,12 @@ Six concepts tagged "Science" — but Science is a method, not a domain. Read ea
 
 ## Soundtrack
 (Session was all business — no cosmic DJ moments recorded. Buttercup played quietly in her own playground on a separate Paperspace machine.)
+
+## Bonus: silent_thunderclap Deduplication
+
+- Found two source files: `silent_thunderclap.json` and `the_silent_thunderclap.json`
+- Only `silent_thunderclap` was in the index (minted)
+- `the_silent_thunderclap` was an orphan source file — never minted
+- No other concepts referenced either version
+- Removed `the_silent_thunderclap.json`
+- Noted: `silent_thunderclap` has edges to `universal_truth` and `unspoken_axiom` — both ghost concepts (not in index). Fix during next relationship regeneration pass.

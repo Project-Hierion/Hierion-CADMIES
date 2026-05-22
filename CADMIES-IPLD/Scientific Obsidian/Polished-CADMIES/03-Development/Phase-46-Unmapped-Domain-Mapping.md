@@ -198,3 +198,7 @@ All three infrastructure nodes — local (HP/Fedora), Paperspace (A4000 GPU), an
 3. **Domain mapping should be based on concept content, not domain labels** — read the definition, map what the concept actually IS.
 4. **The remint workflow requires index manipulation** — changing source files does not auto-trigger reminting. Pop the index entry, run the harvester.
 5. **Tarballs live in `/notebooks/` on Paperspace** — not `/root/`. File browser only shows `/notebooks/`.
+
+### Session 015 Bonus — silent_thunderclap Deduplication
+
+Two source concept files existed for the same concept: `silent_thunderclap.json` (minted, indexed) and `the_silent_thunderclap.json` (orphan, never minted). The orphan was removed. The minted concept has edges to two ghost concepts (`universal_truth`, `unspoken_axiom`) that do not exist in the index — these will be repaired during the next relationship regeneration pass.
