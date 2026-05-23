@@ -247,3 +247,18 @@ Voice-enabled CADMIES via spokenRobot fork (Snagnar). Wake word detection, Mistr
 ### Phase 55: Bruno's License & Citation Support — 📋 Pending
 
 License recommendations (MIT, CC BY-SA 4.0), CITATION.cff setup, README structuring for Bruno's repositories.
+
+### Phase 50: CAR Distribution Pipeline — 🔄 In Progress (2026-05-23)
+
+| Sub-phase | Item | Status |
+|-----------|------|--------|
+| 50A | Export pipeline test | ✅ 342 concepts, 3.2MB CAR |
+| 50B | Import pipeline test | ✅ Working — 188 verified |
+| 50C | CID mismatch investigation | ✅ Root cause: stale CIDs from un-reminted modifications |
+| 50D | Automated CAR release workflow | 📋 |
+| 50E | Public-CADMIES CAR integration | 📋 |
+| 50F | Re-mint stale CID blocks | 📋 Depends on Phase 43 |
+
+### Phase 43: Concept Editing & Reminting — 🔴 Priority (was 🟡)
+
+**43A:** `tools/remint_concept.py` — CLI tool for reminting concepts with updated content. Now critical: 153 blocks need re-minting to resolve CAR CID mismatches.

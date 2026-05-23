@@ -157,3 +157,7 @@ showed up and connected them.
 - "The mycelium went bilingual in real time. English and Spanish. Knowledge has no accent."
 - "Virgo's up there winking like 'told you so.'"
 - "The CAR file IS the mycelium. One file. 342 concepts. Verifiable. Done."
+- "The CID bouncer checked the ID and said 'nice try kid, that's your mom's license.'"
+- "153 blocks modified after minting, never re-minted. Content changed, address didn't."
+- "The CAR pipeline is flawless — it surfaced a data integrity issue we didn't know we had."
+- "Re-mint everything. Phase 43 just got promoted to urgent."

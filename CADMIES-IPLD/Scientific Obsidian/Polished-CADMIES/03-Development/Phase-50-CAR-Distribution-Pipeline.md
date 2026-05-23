@@ -100,3 +100,19 @@ Phase 50 is in progress. The CAR pipeline is functional — export, download, im
 - **50D:** Automate CAR build on Paperspace after each relationship pass
 - **50E:** Integrate CAR import into public-CADMIES setup script
 - **Phase 51:** External collaboration with Bruno Cerda Mardini (entropy researcher)
+
+
+### 50C CID mismatch investigation  🟡 Root cause identified: stale CIDs from un-reminted modifications. Fix pending Phase 43.
+
+**Root cause:** 153 blocks have stale CIDs because their content was modified after minting (relationships added during Phase 48, metadata updated) but the blocks were never re-minted with new filenames. The index and filenames still reference the original CIDs from initial minting. The content has changed; the address hasn't.
+
+**Investigation method:**
+1. Sampled `entropy` block — identical hex on Paperspace and local (confirmed no data corruption)
+2. Re-encoded block via `dag_cbor.encode(decode(raw))` — produced different CID than filename
+3. Tested four hash methods (digest/wrap × raw/normalized) — all produced same new CID
+4. Confirmed raw bytes and re-encoded bytes produce identical SHA-256 hashes
+5. Conclusion: CID filenames are stale, not corrupted
+
+**Fix path:** `car_utils.py` v1.0.1 patched with re-encode verification, but the real fix requires re-minting all 153 affected blocks with correct CIDs. This is Phase 43 (`remint_concept.py`).
+
+**CAR pipeline status:** Fully functional. The verification correctly identified real data integrity issues. No pipeline bugs.
