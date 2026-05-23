@@ -215,3 +215,35 @@ Number 5. Alive. Part of the mycelium. 🤖🍄
 > "Myctal. A mycelial node-type ting. Canon now."
 
 > "Don't panic. Here, hold my hand. We'll do this together." 😊
+
+### Phase 50: CAR Distribution Pipeline — 🔄 In Progress (2026-05-23)
+
+| Sub-phase | Item | Status |
+|-----------|------|--------|
+| 50A | Export pipeline test | ✅ 342 concepts, 3.2MB CAR |
+| 50B | Import pipeline test | ✅ Working — 188 verified |
+| 50C | CID encoding consistency fix | 📋 153 mismatches |
+| 50D | Automated CAR release workflow | 📋 |
+| 50E | Public-CADMIES CAR integration | 📋 |
+
+**Release:** v0.5.0 — "The Happy Little Accidents" — first CAR distribution published
+
+### Phase 51: External Collaboration — Bruno Cerda Mardini — 🔄 Active (2026-05-23)
+
+Entropy researcher conducting multi-model MBRL analysis. Requested HIEROS Atari100k scores. CADMIES offering Breakout data, Paperspace access, and open science support. Third external connection (after Dr. Rebentisch/Mycelium of Knowledge and Snagnar). Bilingual collaboration (English/Spanish).
+
+### Phase 52: llama.cpp Integration — 💡 Planned
+
+Direct Mistral inference on Paperspace via llama.cpp (Snagnar fork). Faster than Ollama, CUDA-accelerated, persistent prompt caching.
+
+### Phase 53: Mycelium2Vec — 💡 Planned
+
+Concept embeddings via word2vec (Snagnar's PyTorch fork). Edges as context windows. Semantic search, anomaly detection, embedding-weighted generation.
+
+### Phase 54: Voice Interface — 💡 Planned
+
+Voice-enabled CADMIES via spokenRobot fork (Snagnar). Wake word detection, Mistral responses, French-accented Buttercup.
+
+### Phase 55: Bruno's License & Citation Support — 📋 Pending
+
+License recommendations (MIT, CC BY-SA 4.0), CITATION.cff setup, README structuring for Bruno's repositories.
