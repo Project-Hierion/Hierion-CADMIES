@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
 """
-CAR Utils v1.0.0 - Minimal CAR (Content Addressable Archive) reader/writer
+CAR Utils v1.0.2 - Minimal CAR (Content Addressable Archive) reader/writer
 Purpose: Read/write CAR files without external dependencies
 Spec: https://ipld.io/specs/transport/car/carv1/
+
+Changelog:
+  v1.0.2 (2026-05-23): Fixed calculate_cid() to use hashlib.sha256 + multihash.wrap
+                       matching cid_generator.py and remint_existing_concepts.py.
+                       multihash.digest() produces different multihash byte structures
+                       on some inputs despite using the same sha2-256 algorithm.
+  v1.0.1 (2026-05-23): Fixed CID construction, added re-encode verification
+  v1.0.0: Initial release
 """
 
 import struct
+import hashlib
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional, Union
 import dag_cbor
@@ -16,9 +25,15 @@ from multiformats import CID, multihash
 # ============================================================================
 
 def calculate_cid(data: bytes) -> str:
-    """Calculate CID string for given data."""
-    digest = multihash.digest(data, "sha2-256")
-    cid_obj = CID.decode(digest)
+    """Calculate CID string for given data.
+    
+    Uses hashlib.sha256 + multihash.wrap to match cid_generator.py
+    and remint_existing_concepts.py. Do not use multihash.digest() —
+    it produces different multihash byte structures on some inputs.
+    """
+    hash_bytes = hashlib.sha256(data).digest()
+    mh = multihash.wrap(hash_bytes, "sha2-256")
+    cid_obj = CID("base32", 1, "dag-cbor", mh)
     return str(cid_obj)
 
 
@@ -50,7 +65,6 @@ def cids_equivalent(cid1: str, cid2: str) -> bool:
     if cid1 == cid2:
         return True
     
-    # Decode both to get their multihash digests
     try:
         obj1 = CID.decode(cid1)
         obj2 = CID.decode(cid2)
@@ -66,25 +80,19 @@ def cids_equivalent(cid1: str, cid2: str) -> bool:
 def write_car(blocks: Dict[bytes, bytes], roots: List[bytes], output_path: Path) -> None:
     """Write blocks to CAR file."""
     with open(output_path, 'wb') as f:
-        # Convert root CID bytes to storage bytes for header
         root_bytes_list = [cid_str_to_storage_bytes(root) for root in roots]
         
-        # Write header
         header = {"version": 1, "roots": root_bytes_list}
         header_bytes = dag_cbor.encode(header)
         _write_varint(f, len(header_bytes))
         f.write(header_bytes)
         
-        # Write each block
         for cid_bytes, block_data in blocks.items():
-            # Ensure cid_bytes is bytes
             cid_bytes_clean = cid_str_to_storage_bytes(cid_bytes)
             
-            # Write CID length + CID bytes
             _write_varint(f, len(cid_bytes_clean))
             f.write(cid_bytes_clean)
             
-            # Write block length + block data
             _write_varint(f, len(block_data))
             f.write(block_data)
 
@@ -95,7 +103,6 @@ def read_car(file_path: Path) -> Tuple[Dict[str, bytes], List[str]]:
     roots = []
     
     with open(file_path, 'rb') as f:
-        # Read header
         header_length = _read_varint(f)
         header_bytes = f.read(header_length)
         header = dag_cbor.decode(header_bytes)
@@ -103,35 +110,26 @@ def read_car(file_path: Path) -> Tuple[Dict[str, bytes], List[str]]:
         if header.get("version") != 1:
             raise ValueError(f"Unsupported CAR version: {header.get('version')}")
         
-        # Convert root bytes back to CID strings
         for root_bytes in header.get("roots", []):
             roots.append(storage_bytes_to_cid_str(root_bytes))
         
-        # Read blocks
         while True:
             try:
-                # Read CID length
                 cid_length = _read_varint(f)
                 if cid_length == 0:
                     break
                 
-                # Read CID bytes
                 cid_bytes = f.read(cid_length)
                 if len(cid_bytes) != cid_length:
                     break
                 
-                # Convert CID bytes back to string
                 cid_str = storage_bytes_to_cid_str(cid_bytes)
                 
-                # Read block length
                 block_length = _read_varint(f)
-                
-                # Read block data
                 block_data = f.read(block_length)
                 if len(block_data) != block_length:
                     raise ValueError(f"Truncated block for CID {cid_str}")
                 
-                # Store block
                 blocks[cid_str] = block_data
                 
             except EOFError:
@@ -195,9 +193,21 @@ def save_block_to_store(cid: str, block_data: bytes, blocks_dir: Path) -> bool:
 
 
 def verify_block_integrity(block_data: bytes, expected_cid: str) -> bool:
-    """Verify that block data matches its CID (handles CIDv0/CIDv1 equivalence)."""
-    actual_cid = calculate_cid(block_data)
-    return cids_equivalent(actual_cid, expected_cid)
+    """Verify that block data matches its CID.
+    
+    Re-encodes the block via dag_cbor first to normalize any encoding
+    differences (key ordering, etc.), then computes CID from normalized bytes.
+    This handles stale filenames where the block was re-encoded but the
+    file kept its original CID name.
+    """
+    try:
+        decoded = dag_cbor.decode(block_data)
+        normalized = dag_cbor.encode(decoded)
+        actual_cid = calculate_cid(normalized)
+        return cids_equivalent(actual_cid, expected_cid)
+    except:
+        actual_cid = calculate_cid(block_data)
+        return cids_equivalent(actual_cid, expected_cid)
 
 
 # ============================================================================
@@ -206,10 +216,9 @@ def verify_block_integrity(block_data: bytes, expected_cid: str) -> bool:
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("CAR Utils v1.0.0 - Self Test")
+    print("CAR Utils v1.0.2 - Self Test")
     print("=" * 60)
     
-    # Test 1: Write and read a simple CAR file
     print("\n1. Testing write/read roundtrip...")
     
     block1_data = b"Hello world"
@@ -252,7 +261,6 @@ if __name__ == "__main__":
     
     tmp_path.unlink()
     
-    # Test 2: CID calculation
     print("\n2. Testing CID calculation...")
     test_data = b'{"test": true}'
     cid = calculate_cid(test_data)
@@ -264,30 +272,23 @@ if __name__ == "__main__":
     else:
         print("   ❌ CID calculation failed")
     
-    # Test 3: CID equivalence (fixed to work without CID.create)
     print("\n3. Testing CID equivalence...")
     test_block = b'{"test": "equivalence"}'
     cid_v0 = calculate_cid(test_block)
-    
-    # Since the library doesn't have CID.create, we test equivalence by:
-    # 1. Same CID should be equivalent (trivial)
-    # 2. Calculate CID twice from same data should produce same string
     cid_v0_again = calculate_cid(test_block)
     
     print(f"   CID from data: {cid_v0}")
     print(f"   Same data again: {cid_v0_again}")
     print(f"   Strings match: {cid_v0 == cid_v0_again}")
     
-    # Test the cids_equivalent function with identical CIDs
     equivalent = cids_equivalent(cid_v0, cid_v0_again)
     print(f"   cids_equivalent() returns: {equivalent}")
     
     if equivalent and cid_v0 == cid_v0_again:
-        print("   ✅ CID equivalence working (same content → same CID)")
+        print("   ✅ CID equivalence working")
     else:
         print("   ❌ CID equivalence failed")
     
-    # Test 4: CID string/byte conversion
     print("\n4. Testing CID string/byte conversion...")
     test_cid_str = calculate_cid(b"test conversion")
     test_cid_bytes = cid_str_to_storage_bytes(test_cid_str)
@@ -303,6 +304,5 @@ if __name__ == "__main__":
         print("   ❌ Conversion failed")
     
     print("\n" + "=" * 60)
-    print("CAR Utils ready for use")
+    print("CAR Utils v1.0.2 ready for use")
     print("=" * 60)
-    

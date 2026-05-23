@@ -2,19 +2,26 @@
 """
 File: remint_existing_concepts.py
 Tool: CADMIES Concept Reminter
-Version: 1.0.0
+Version: 2.0.0
 System: CADMIES
-Status: ACTIVE
+Status: ACTIVE — Session 019 / Phase 43
 
-Purpose: Remints existing concepts with updated fields (normalized human_ids)
-         while preserving provenance chains. Used during Phase 29 library
-         normalization.
+Purpose: Remints existing concepts whose block content has changed since
+         original minting (e.g., relationships added, metadata updated).
+         Computes the correct CID from current content, saves under new
+         filename, removes old file, and updates the index.
+         
+         Originally built for Phase 29 library normalization (human_id renames).
+         Updated in Phase 43/50C to handle stale CIDs from content modifications.
 
 Usage:
-    python tools/remint_existing_concepts.py
+    python tools/remint_existing_concepts.py                 # Dry run — preview stale blocks
+    python tools/remint_existing_concepts.py --apply         # Re-mint all stale blocks
+    python tools/remint_existing_concepts.py --concept entropy  # Check single concept
+    python tools/remint_existing_concepts.py --concept entropy --apply  # Re-mint single
 """
 
-import json, sys
+import json, sys, os, hashlib
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -23,8 +30,8 @@ PROJECT_ROOT = TOOLS_DIR.parent
 sys.path.insert(0, str(PROJECT_ROOT / "agents" / "code"))
 sys.path.insert(0, str(PROJECT_ROOT / "tools" / "core"))
 
-from llm_mycelium_reader import load_concept, load_all_concept_cids
-from paths import BLOCKS_DIR
+from cadmies_concept_reader import load_concept, load_all_concept_cids
+from paths import BLOCKS_DIR, INDEX_FILE
 from cid_generator import CIDGenerator
 from provenance_manager import ProvenanceManager
 import dag_cbor
@@ -33,103 +40,137 @@ cid_gen = CIDGenerator()
 pm = ProvenanceManager()
 now = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
 
-# These are the old→new mappings from the normalization
-renames = {
-    'epistemology:principle/it_is_so_now': 'epistemology_principle_it_is_so_now',
-    'epistemology:principle/the_universe_cannot_stop': 'epistemology_principle_the_universe_cannot_stop',
-    'epistemology:principle/the_gardeners_vow': 'epistemology_principle_the_gardeners_vow',
-    'epistemology:principle/the_tubular_wave': 'epistemology_principle_the_tubular_wave',
-    'epistemology:principle/the_laminar_paradox': 'epistemology_principle_the_laminar_paradox',
-    'epistemology:principle/the_mahakasyapa_coefficient': 'epistemology_principle_the_mahakasyapa_coefficient',
-    'epistemology:principle/the_smile_that_needs_no_words': 'epistemology_principle_the_smile_that_needs_no_words',
-    'epistemology:principle/the_fractal_of_sacrifice': 'epistemology_principle_the_fractal_of_sacrifice',
-    'epistemology:principle/mycelial_network_of_co_creation': 'epistemology_principle_mycelial_network_of_co_creation',
-    'epistemology:principle/gardener_and_tool': 'epistemology_principle_gardener_and_tool',
-    'epistemology:principle/cathedral_and_blueprint': 'epistemology_principle_cathedral_and_blueprint',
-    'epistemology:principle/immortal_colony': 'epistemology_principle_immortal_colony',
-    'ecology:principle/weed_triumph': 'ecology_principle_weed_triumph',
-    'climate_ethics:principle/aesthetic_collapse': 'climate_ethics_principle_aesthetic_collapse',
-    'ecology:principle/humans_as_weeds': 'ecology_principle_humans_as_weeds',
-    'Conditional-Interdependence': 'conditional_interdependence',
-    'ai:llm_mycelium_reader/willie_the_librarian_v1': 'ai_llm_mycelium_reader_willie_the_librarian_v1',
-    'Gravitomotive Gearbox': 'gravitomotive_gearbox',
-    'Epistemology:Concept/PerceptualFramesAsIntelligenceMultipliers': 'epistemology_concept_perceptualframesasintelligencemultipliers',
-    'Asian_Philosophical_Deep': 'asian_philosophical_deep',
-    'The_Silent_Thunderclap': 'the_silent_thunderclap',
-    'Interconnectedness_of_Life': 'interconnectedness_of_life',
-    'Eternal_Evolution': 'eternal_evolution',
-    'Alchemical Insight': 'alchemical_insight',
-    'Asian_Depth': 'asian_depth',
-    'Sacred-Everyday-Continuum': 'sacred_everyday_continuum',
-}
 
-# Load index
-index_path = PROJECT_ROOT / 'store' / 'index' / 'human_id_to_cid.json'
-with open(index_path, 'r') as f:
-    index = json.load(f)
+def compute_current_cid(concept: dict) -> str:
+    """Compute the correct CID for a concept dict from its current content.
+    Uses the same method as cid_generator.py: dag_cbor.encode → sha256 → multihash.wrap → CID."""
+    serialized = dag_cbor.encode(concept)
+    hash_bytes = hashlib.sha256(serialized).digest()
+    from multiformats import multihash, CID
+    mh = multihash.wrap(hash_bytes, "sha2-256")
+    return str(CID("base32", 1, "dag-cbor", mh))
 
-reminted = 0
-for old_id, new_id in renames.items():
-    old_cid = index.get(old_id)
-    if not old_cid:
-        print(f"  SKIP: {old_id} not in index")
-        continue
-    
-    # Load old concept
-    concept = load_concept(old_cid)
-    if 'error' in concept:
-        print(f"  ERROR loading {old_id}: {concept['error']}")
-        continue
-    
-    # Update human_id (content was already changed by normalization script)
-    concept['human_id'] = new_id
-    if concept.get('title') == old_id:
-        concept['title'] = new_id.replace('_', ' ').title()
-    
-    # Add supersedes metadata
-    concept['metadata']['supersedes'] = old_cid
-    concept['metadata']['version'] = concept['metadata'].get('version', 1) + 1
-    
-    # Generate new CID
-    result = cid_gen.generate_cid(concept)
-    if not result['success']:
-        print(f"  CID generation failed for {new_id}")
-        continue
-    
-    new_cid = result['cid']
-    
-    # Save new CBOR
-    new_path = BLOCKS_DIR / f"{new_cid}.cbor"
-    with open(new_path, 'wb') as f:
-        f.write(dag_cbor.encode(concept))
-    
-    # Create provenance record
-    try:
-        pm.create_provenance_record(
-            concept_cid=new_cid,
-            author="CADMIES Normalization Script",
-            record_type="supersedes",
-            comment=f"Normalized human_id: {old_id} → {new_id}"
-        )
-    except Exception as e:
-        print(f"  WARNING: Provenance failed for {new_id}: {e}")
-    
-    # Remove old CBOR
-    old_path = BLOCKS_DIR / f"{old_cid}.cbor"
-    if not old_path.exists():
-        old_path = BLOCKS_DIR / old_cid
-    if old_path.exists():
-        old_path.unlink()
-    
-    # Update index
-    del index[old_id]
-    index[new_id] = new_cid
-    
-    print(f"  ✅ {old_id} → {new_id}  (CID: {new_cid[:16]}...)")
-    reminted += 1
 
-# Save updated index
-with open(index_path, 'w') as f:
-    json.dump(index, f, indent=2)
+def main():
+    apply = "--apply" in sys.argv
+    target = None
+    for i, arg in enumerate(sys.argv):
+        if arg.startswith("--concept="):
+            target = arg.split("=", 1)[1]
+        elif arg == "--concept" and i + 1 < len(sys.argv):
+            target = sys.argv[i + 1]
 
-print(f"\nReminted {reminted} concepts. Index now has {len(index)} entries.")
+    mode = "APPLY" if apply else "DRY RUN"
+    scope = f"concept '{target}'" if target else "ALL concepts"
+    print(f"=== CADMIES Concept Reminter v2.0.0 — {mode} ===")
+    print(f"Scope: {scope}")
+    print(f"Blockstore: {BLOCKS_DIR}\n")
+
+    # Load index
+    with open(INDEX_FILE, 'r') as f:
+        index = json.load(f)
+
+    # Build work list
+    if target:
+        if target not in index:
+            print(f"❌ Concept '{target}' not found in index.")
+            sys.exit(1)
+        work_list = {target: index[target]}
+    else:
+        work_list = dict(index)
+
+    # Scan each concept
+    stale_count = 0
+    clean_count = 0
+    missing_count = 0
+    reminted = 0
+
+    for human_id, old_cid in sorted(work_list.items()):
+        # Load concept
+        concept = load_concept(old_cid)
+        if 'error' in concept:
+            print(f"  ⚠️  {human_id}: cannot load (CID: {old_cid[:20]}...) — {concept['error']}")
+            missing_count += 1
+            continue
+
+        # Compute correct CID from current content
+        new_cid = compute_current_cid(concept)
+
+        if new_cid == old_cid:
+            clean_count += 1
+            continue
+
+        stale_count += 1
+        print(f"  🔄 {human_id}")
+        print(f"     Old CID: {old_cid}")
+        print(f"     New CID: {new_cid}")
+
+        if not apply:
+            continue
+
+        # === APPLY: re-mint the block ===
+
+        # Update metadata
+        concept['metadata']['supersedes'] = concept['metadata'].get('supersedes', old_cid)
+        concept['metadata']['version'] = concept['metadata'].get('version', 1) + 1
+
+        # Save under new CID
+        new_path = BLOCKS_DIR / f"{new_cid}.cbor"
+        serialized = dag_cbor.encode(concept)
+        with open(new_path, 'wb') as f:
+            f.write(serialized)
+
+        # Create provenance record
+        try:
+            pm.create_provenance_record(
+                concept_cid=new_cid,
+                author="CADMIES Remint Script v2.0.0 (Session 019)",
+                record_type="supersedes",
+                comment=f"Re-minted due to content change. Old CID: {old_cid}"
+            )
+        except Exception as e:
+            print(f"     ⚠️  Provenance failed: {e}")
+
+        # Remove old file
+        old_path = BLOCKS_DIR / f"{old_cid}.cbor"
+        if not old_path.exists():
+            old_path = BLOCKS_DIR / old_cid
+        if old_path.exists():
+            old_path.unlink()
+
+        # Update index
+        index[human_id] = new_cid
+
+        reminted += 1
+        print(f"     ✅ Re-minted. Old file removed. Index updated.")
+
+    # Save index if changes were made
+    if apply and reminted > 0:
+        # Backup index first
+        backup_dir = INDEX_FILE.parent / "backups"
+        backup_dir.mkdir(parents=True, exist_ok=True)
+        backup_name = f"human_id_to_cid.json.backup.{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+        import shutil
+        shutil.copy2(INDEX_FILE, backup_dir / backup_name)
+
+        with open(INDEX_FILE, 'w') as f:
+            json.dump(index, f, indent=2)
+        print(f"\n💾 Index saved with {reminted} updated entries.")
+        print(f"   Backup: {backup_name}")
+
+    # Summary
+    print(f"\n{'='*60}")
+    print(f"SUMMARY")
+    print(f"{'='*60}")
+    print(f"  Clean (CID matches):    {clean_count}")
+    print(f"  Stale (needs remint):   {stale_count}")
+    print(f"  Missing (load failed):  {missing_count}")
+    if apply:
+        print(f"  Re-minted this run:     {reminted}")
+    else:
+        print(f"\n  DRY RUN — add --apply to re-mint {stale_count} stale blocks.")
+    print(f"{'='*60}")
+
+
+if __name__ == "__main__":
+    main()
