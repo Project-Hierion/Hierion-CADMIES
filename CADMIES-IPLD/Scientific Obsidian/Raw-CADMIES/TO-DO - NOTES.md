@@ -1,4 +1,4 @@
-1. 4 noble truths nint
+1. 4 noble truths mint
 2. 
 3. 
 4. 

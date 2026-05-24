@@ -53,7 +53,7 @@ python hieros/train.py \
   --batch_size 16 \
   --batch_length 64 \
   --save_every 500 \
-  --from_checkpoint /storage/HIEROS/logs/atari_breakout-YYYYMMDD-HHMMSS/checkpoint.ckpt
+  --from_checkpoint /storage/HIEROS/logs/atari_breakout-20260524-040723/checkpoint.ckpt
 ```
 
 ## Batch Size Settings by GPU
