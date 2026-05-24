@@ -262,3 +262,9 @@ License recommendations (MIT, CC BY-SA 4.0), CITATION.cff setup, README structur
 ### Phase 43: Concept Editing & Reminting — 🔴 Priority (was 🟡)
 
 **43A:** `tools/remint_concept.py` — CLI tool for reminting concepts with updated content. Now critical: 153 blocks need re-minting to resolve CAR CID mismatches.
+
+| 50C | CID mismatch investigation | 🟡 Root cause identified: HOG-era artifacts + code alignment discrepancy. 153 blocks re-minted. Deferred. |
+
+| 2026-05-23 | Phase 50C: CID mismatch root cause identified — HOG-era artifacts documented |
+| 2026-05-23 | Buttercup: First intentional brick hit confirmed, age 3-4, 107K steps on A6000 |
+
