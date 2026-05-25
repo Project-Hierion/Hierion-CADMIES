@@ -45,7 +45,7 @@ Replace `XXX` with the current tar number.
 ### 4. Run Startup Script
 
 ```bash
-cd /notebooks/CADMIES/CADMIES-IPLD && bash startup.sh
+cd /notebooks/CADMIES/CADMIES-IPLD/scripts && bash startup.sh
 ```
 
 Installs system dependencies (zstd), Ollama (if not present), Python packages (dag-cbor, ollama), and starts the Ollama service. Takes approximately 30 seconds.
