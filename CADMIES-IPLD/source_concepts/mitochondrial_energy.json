@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mitochondrial_energy",
+  "title": "Mitochondrial Energy",
+  "definition": "The role of mitochondria in generating ATP, the primary energy currency of cells, through oxidative phosphorylation.",
+  "type": "Concept",
+  "domain": "Cell Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:59:01.422339Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:59:01.422339Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Mitochondria are like the power plants within our cells, producing the energy we need to function.",
+    "intermediate": "Mitochondria generate ATP through oxidative phosphorylation, a process that relies on a specialized double membrane structure and an electron transport chain.",
+    "expert": "The chemiosmotic theory explains the energy-generating mechanisms of mitochondria, providing insights into metabolic disorders, aging, and exercise physiology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mitochondria, once free-living organisms, now serve as our cells' lifeblood, powering every aspect of our biology.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

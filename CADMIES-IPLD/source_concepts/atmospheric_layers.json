@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "atmospheric_layers",
+  "title": "Atmospheric Layers",
+  "definition": "Divisions of the atmosphere based on temperature gradients.",
+  "type": "Concept",
+  "domain": "Physics & Atmospheric Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:48:57.048914Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:48:57.048914Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The atmosphere is divided into different sections, each with its own unique properties and functions.",
+    "intermediate": "The atmosphere is divided into various layers based on temperature gradients. These layers have distinct characteristics and play crucial roles in weather patterns, ozone absorption, and satellite deployment.",
+    "expert": "The division of the atmosphere into layers provides a framework for understanding its complex behavior and interactions with the Earth's surface. Each layer has unique properties and plays specific roles in phenomena such as weather formation, ozone depletion, and climate change."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the different atmospheric layers is essential for studying everything from weather patterns to planetary habitability.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

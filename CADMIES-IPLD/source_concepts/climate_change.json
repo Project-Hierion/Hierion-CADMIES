@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "climate_change",
+  "title": "Climate Change",
+  "definition": "Long-term shifts in global temperature and weather patterns primarily caused by human activities, leading to a host of environmental and social impacts.",
+  "type": "Concept",
+  "domain": "Earth Sciences",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:13:14.797703Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:13:14.797703Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Climate change refers to changes in the Earth's climate over time, largely due to human activities like burning fossil fuels, deforestation, and agriculture.",
+    "intermediate": "Climate change describes long-term shifts in global temperature and weather patterns, primarily caused by anthropogenic greenhouse gas emissions.",
+    "expert": "Climate change encompasses complex interactions between human activities, the Earth's systems, and the consequences of these interactions on a global scale. It demands interdisciplinary research for effective mitigation and adaptation strategies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Addressing climate change requires a holistic understanding of the Earth system and collaboration across scientific disciplines and societies.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

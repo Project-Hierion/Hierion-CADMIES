@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mitochondria_function",
+  "title": "Mitochondria Function",
+  "definition": "The role of mitochondria in generating cellular energy through oxidative phosphorylation.",
+  "type": "Concept",
+  "domain": "Cell Biology, Physiology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:48:57.047810Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:48:57.047810Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Mitochondria are often referred to as the powerhouses of the cell because they produce most of a cell's energy in the form of ATP.",
+    "intermediate": "Mitochondria are essential organelles that generate energy for cells through oxidative phosphorylation, playing a key role in various physiological processes.",
+    "expert": "An exploration of the complex biochemistry and physics underlying mitochondrial function, offering insights into aging, metabolic disorders, and potential applications like anti-aging research and mitochondrial replacement therapy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The intricate inner workings of the powerhouses that fuel life at a cellular level.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

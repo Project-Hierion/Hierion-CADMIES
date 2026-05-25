@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "general_relativity",
+  "title": "General Relativity",
+  "definition": "The theory describing gravity as the curvature of spacetime caused by mass and energy.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:13:14.793410Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:13:14.793410Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A concept that explains how massive objects bend space, causing other objects to move towards them, as proposed by Einstein in 1915.",
+    "intermediate": "The theory of gravity that superseded Newton's laws of motion and unified the concepts of space, time, and gravity. Gravity is not a force but rather the curvature of spacetime caused by mass and energy.",
+    "expert": "General relativity connects the geometry of spacetime with energy and momentum, revealing insights into black holes, cosmology, and the expansion of the universe. It has been experimentally validated in various tests and continues to guide our understanding of gravitational phenomena."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Gravity is not a force but the curvature of spacetime caused by mass and energy.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

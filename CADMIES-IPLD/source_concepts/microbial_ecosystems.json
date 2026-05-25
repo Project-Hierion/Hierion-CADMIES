@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "microbial_ecosystems",
+  "title": "Microbial Ecosystems",
+  "definition": "The study of the communities, interactions, and dynamics of microorganisms in various environments, including bacteria, fungi, and archaea.",
+  "type": "Concept",
+  "domain": "Microbiology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:13:14.796338Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:13:14.796338Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "An exploration of the tiny living organisms that make up a significant portion of life on Earth and their roles in different ecosystems.",
+    "intermediate": "The investigation of the complex networks, interactions, and relationships among microorganisms within various environments, taking into account factors such as genetics, reproduction, and exchange of genetic material.",
+    "expert": "A multidisciplinary field that delves into the intricate world of microbes, examining their ecological roles, interactions, and impacts on ecosystems. It offers insights into topics like antibiotic resistance, bioremediation, and evolutionary adaptations."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the dynamics of microbial ecosystems offers crucial knowledge for addressing global challenges such as climate change, food security, and public health issues.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

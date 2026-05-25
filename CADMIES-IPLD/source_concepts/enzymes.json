@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "enzymes",
+  "title": "Enzymes",
+  "definition": "Protein catalysts that accelerate biochemical reactions without being consumed.",
+  "type": "Concept",
+  "domain": "Biochemistry",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:07:05.181127Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:07:05.181127Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Specialized proteins that speed up chemical reactions in our bodies, like a chef preparing meals more efficiently.",
+    "intermediate": "Protein molecules that accelerate biochemical reactions by providing specific sites for reactions to occur without being consumed themselves.",
+    "expert": "Protein catalysts responsible for speeding up biochemical reactions in living organisms, lowering activation energy and making reactions proceed at physiological temperatures. Enzyme activity depends on factors like temperature, pH, and substrate concentration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Enzymes are the biological chefs that make life's chemical processes happen",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

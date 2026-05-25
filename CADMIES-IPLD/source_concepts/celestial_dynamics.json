@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "celestial_dynamics",
+  "title": "Celestial Dynamics",
+  "definition": "The study of the motion and interactions of celestial bodies, including planets, moons, comets, and artificial satellites.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:13:14.795269Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:13:14.795269Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The rules that govern the movement of objects in space like planets, moons, and satellites, allowing for calculations necessary for space travel planning.",
+    "intermediate": "The mathematical description of the motion of celestial bodies based on Kepler's laws and Newton's law of universal gravitation, which provides a foundation for understanding various phenomena in astronomy and astrophysics.",
+    "expert": "A multidisciplinary field that combines mathematics, physics, and astronomy to investigate the complex interactions and movements of celestial bodies within and beyond our solar system. It delves into the fundamental principles behind planetary motion and offers insights into the evolution of celestial systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the laws governing celestial dynamics unlocks the secrets of our universe, enabling the exploration of space, predictions of astronomical events, and calculations essential for space missions.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

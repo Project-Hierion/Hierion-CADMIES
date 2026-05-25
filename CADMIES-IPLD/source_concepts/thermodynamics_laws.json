@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "thermodynamics_laws",
+  "title": "Thermodynamics Laws",
+  "definition": "A set of four fundamental laws that govern energy, heat, and work in a system, formulated by Carnot, Clausius, Kelvin, and others.",
+  "type": "Concept",
+  "domain": "Thermodynamics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:07:05.179255Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:07:05.179255Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The laws of thermodynamics explain why your coffee gets cold and your ice cream melts, and why we can't build a perpetual motion machine.",
+    "intermediate": "The laws of thermodynamics describe the principles that govern energy transformations, providing insights into engineering, chemistry, biology, and cosmology.",
+    "expert": "Thermodynamics laws unite physics, chemistry, and biology by connecting energy transformations with temperature, entropy, and time."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Thermodynamics provides the foundational principles that link energy, heat, and work across all scales and disciplines.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

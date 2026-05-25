@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_entanglement",
+  "title": "Quantum Entanglement",
+  "definition": "A phenomenon where particles become correlated such that the quantum state of each particle cannot be described independently, as discovered by Einstein.",
+  "type": "Concept",
+  "domain": "Quantum Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:07:05.178429Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:07:05.178429Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Entangled particles are like two dice that always show matching numbers, no matter how far apart they are.",
+    "intermediate": "Quantum entanglement is a phenomenon where particles remain connected regardless of distance, challenging our understanding of locality in quantum mechanics.",
+    "expert": "Entanglement challenges the very foundations of quantum mechanics by demonstrating non-locality and interdependence between particles."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Entangled particles are mysteriously linked, defying intuition about distance and separation.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

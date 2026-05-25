@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_method",
+  "title": "Scientific Method",
+  "definition": "The systematic process of observation, hypothesis formation, experimentation, and theory building that underlies all empirical science.",
+  "type": "Concept",
+  "domain": "Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:45:24.616334Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:45:24.616334Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A step-by-step procedure scientists use to test their ideas and learn about the world around us.",
+    "intermediate": "The set of principles guiding how scientists ask questions, make predictions, design experiments, analyze data, and build theories based on evidence.",
+    "expert": "A flexible yet rigorous process enabling scientific progress by ensuring empirical justification for claims, fostering the growth of knowledge, and maintaining its reliability through peer review and reproducibility."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The power to challenge assumptions and drive advancement through evidence-based inquiry.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

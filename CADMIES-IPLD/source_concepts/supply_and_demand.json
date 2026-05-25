@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "supply_and_demand",
+  "title": "Supply And Demand",
+  "definition": "The fundamental model of market economics describing how prices and quantities are determined in a market.",
+  "type": "Concept",
+  "domain": "Economics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:39:28.964967Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:39:28.964967Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Prices and quantities of goods are determined by the number of people who want them and the number available, forming the basis of our economic system.",
+    "intermediate": "The interplay between supply and demand determines prices and quantities in markets, from everyday consumer goods to complex international trade.",
+    "expert": "Supply and demand is a fundamental principle that underlies all market behavior, shaping not only prices but also the distribution of resources and the allocation of wealth within society."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interplay between supply and demand shapes our world, from the cost of a home to the availability of life-saving medications.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "clinical_trial_methodology",
+  "title": "Clinical Trial Methodology",
+  "definition": "A systematic process for testing the efficacy and safety of treatments in a controlled environment.",
+  "type": "Concept",
+  "domain": "Medicine",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:39:28.968105Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:39:28.968105Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The organized way scientists test new treatments on people to prove they work and are safe, starting with a small group and gradually expanding.",
+    "intermediate": "A method for evaluating the effectiveness and safety of medical interventions in a controlled setting, comprising four phases: I (safety), II (efficacy), III (comparison to standard care), and IV (long-term effects monitoring).",
+    "expert": "A multidisciplinary approach for investigating the benefits and risks of medical treatments, encompassing various stages, statistical analyses, ethical considerations, sociocultural influences, and the practical implementation of research findings."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interplay between science, ethics, statistics, and society in the pursuit of improving healthcare through rigorous research.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

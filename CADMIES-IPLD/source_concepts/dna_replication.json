@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dna_replication",
+  "title": "Dna Replication",
+  "definition": "The process by which a cell duplicates its genome prior to cell division.",
+  "type": "Concept",
+  "domain": "Molecular Biology, Genetics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:48:57.047060Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:48:57.047060Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The copying of a cell's genetic material (DNA) into two identical sets before the cell divides into two daughter cells.",
+    "intermediate": "A key process in cell division where the cell's genetic information is duplicated, ensuring that each daughter cell receives an identical set of genes.",
+    "expert": "The fundamental process by which a cell replicates its genome prior to division, shedding light on the mechanisms of inheritance and mutations, and providing insights into cancer development and gene therapy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The intricate dance of enzymes and base-pairing rules that ensure genetic information is faithfully copied during cell division.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

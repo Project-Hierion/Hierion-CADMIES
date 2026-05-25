@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "endocrine_system",
+  "title": "Endocrine System",
+  "definition": "The system that produces hormones, chemical messengers that regulate metabolism, growth, reproduction, stress response, sleep cycles, and more.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:13:14.796815Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:13:14.796815Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like a communication network within our bodies, using special chemicals called hormones to control different body functions.",
+    "intermediate": "A complex system of glands that secrete hormones into the bloodstream to affect specific organs and processes, including growth, metabolism, reproduction, and stress response.",
+    "expert": "The endocrine system is a network of glands and organs that produce hormones, which act as chemical messengers responsible for various bodily functions. Its intricate interactions reveal insights into physiology, evolution, and disease mechanisms."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the delicate balance between hormones offers potential for novel treatments in endocrinology, reproductive medicine, and management of metabolic disorders.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

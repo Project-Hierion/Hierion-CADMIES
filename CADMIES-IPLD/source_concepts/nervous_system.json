@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nervous_system",
+  "title": "Nervous System",
+  "definition": "A complex network of cells that coordinates the body's actions and transmits signals between different regions.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:13:14.794441Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:13:14.794441Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The system that allows our bodies to react, think, and feel by sending messages between different parts.",
+    "intermediate": "The complex network of cells responsible for transmitting signals and coordinating the body's actions, comprised of the central nervous system (brain and spinal cord) and peripheral nervous system (limbs and organs).",
+    "expert": "The intricate neural network that underpins our perception, cognition, and behavior. Its study sheds light on consciousness, neurodegenerative diseases, and the development of artificial intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The nervous system is a complex network that coordinates the body's actions and transmits signals between different regions.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

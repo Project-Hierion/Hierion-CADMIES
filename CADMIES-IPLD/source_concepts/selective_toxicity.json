@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "selective_toxicity",
+  "title": "Selective Toxicity",
+  "definition": "The ability of certain substances to target specific structures in certain types of cells while leaving other cells unaffected.",
+  "type": "Concept",
+  "domain": "Chemistry & Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:48:57.048345Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:48:57.048345Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of selective toxicity like a targeted bomb that only destroys enemy bases, not friendly ones.",
+    "intermediate": "Selective toxicity is the characteristic of certain substances to target specific structures within certain types of cells, such as bacterial cell walls or ribosomes, while leaving human cells intact. This allows for targeted treatment of infections without damaging host tissues.",
+    "expert": "Selective toxicity is a crucial concept in pharmacology and microbiology, where substances are designed to selectively target and disrupt specific biochemical pathways or structures within disease-causing organisms, while minimizing harmful effects on host tissues. This principle underlies the development of antibiotics and other therapeutic agents."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to target specific biological structures in disease-causing organisms while sparing host cells is a fundamental principle that enables life-saving treatments like antibiotics.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

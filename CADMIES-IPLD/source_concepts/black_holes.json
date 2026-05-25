@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_holes",
+  "title": "Black Holes",
+  "definition": "Regions in space where gravity is so strong that not even light can escape.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:13:14.797272Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:13:14.797272Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a point in space with such immense pull that nothing, not even light, can escape. Those points are black holes.",
+    "intermediate": "Black holes are regions of spacetime where gravity is so strong that not even light can escape, forming when massive stars collapse at the end of their lives.",
+    "expert": "Black holes represent some of the most extreme phenomena in the universe, challenging our understanding of physics and the nature of space and time. They offer insights into general relativity, galaxy formation, and quantum gravity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The study of black holes promises to unveil secrets about the universe's origins and its fundamental laws.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

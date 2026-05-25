@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neurotransmitter_system",
+  "title": "Neurotransmitter System",
+  "definition": "A system that uses chemical messengers to transmit signals between neurons and modulate various physiological processes.",
+  "type": "Concept",
+  "domain": "Neuroscience, Chemistry, Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:48:57.045133Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:48:57.045133Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A way for brain cells to communicate with each other using special chemicals called neurotransmitters that carry messages across tiny gaps between the cells.",
+    "intermediate": "A complex system responsible for transmitting signals between neurons through the release and binding of neurotransmitters, regulating a wide range of physiological processes such as mood, motivation, memory, and motor control.",
+    "expert": "A fundamental mechanism underlying communication within the nervous system and modulation of various physiological and psychological processes. Neurotransmitter systems offer insights into the molecular basis of behavior, disease mechanisms, and drug development."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The critical role neurotransmitters play in shaping our thoughts, emotions, and actions.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

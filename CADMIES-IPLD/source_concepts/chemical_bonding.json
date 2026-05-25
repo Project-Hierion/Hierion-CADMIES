@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "chemical_bonding",
+  "title": "Chemical Bonding",
+  "definition": "The force that holds atoms together to form molecules, governed by electron interactions between atoms.",
+  "type": "Concept",
+  "domain": "Chemistry",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:39:28.962769Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:39:28.962769Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Atoms combine to create molecules due to the way their electrons interact, forming the basis of life and matter.",
+    "intermediate": "Chemical bonds explain why elements combine to form the complex molecules that make up our world, from the fundamental building blocks of life to the metals we use daily.",
+    "expert": "Understanding chemical bonding reveals the deep connection between physics and biology, demonstrating how the principles of quantum mechanics give rise to the complex chemistry necessary for life."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Chemical bonds are the foundation upon which our world is built, connecting the tiniest particles to the grandest structures.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "electrical_signaling",
+  "title": "Electrical Signaling",
+  "definition": "The process by which electrical signals are transmitted and processed within neurons, forming the basis of neural communication.",
+  "type": "Concept",
+  "domain": "Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:45:24.608740Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:45:24.608740Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The way nerves communicate using electrical impulses, like a relay race where messages travel from one nerve to another.",
+    "intermediate": "The transmission and processing of electrical signals within neurons, underpinning the communication network of the nervous system.",
+    "expert": "A fundamental principle in neuroscience that describes the propagation of electrical impulses along axons, enabling information transfer between neurons, and connecting to computer science through binary signaling and physics through electrochemistry."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The all-or-nothing nature of action potentials that forms the bridge between biology and technology.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

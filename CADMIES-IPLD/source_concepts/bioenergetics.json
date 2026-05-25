@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "bioenergetics",
+  "title": "Bioenergetics",
+  "definition": "The study of the energy flow and conversion within living organisms, focusing on cellular respiration, photosynthesis, and metabolism.",
+  "type": "Concept",
+  "domain": "Biochemistry",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:13:14.795783Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:13:14.795783Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The process by which cells convert nutrients (like glucose) into the energy currency of life (ATP), powering various life functions.",
+    "intermediate": "The investigation of the mechanisms by which living organisms store, transport, and utilize energy for growth, reproduction, and maintenance, incorporating concepts from biochemistry, physiology, and sports science.",
+    "expert": "A comprehensive field that examines the interconnected biological processes involved in energy generation, storage, and utilization. It explores various pathways of energy metabolism, shedding light on the intricacies of cellular respiration, photosynthesis, and other related phenomena."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Bioenergetics bridges the gap between biochemistry and physiology, offering valuable insights into life's energy-related processes and their implications for medicine, sports science, and environmental conservation.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

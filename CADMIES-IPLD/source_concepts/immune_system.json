@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "immune_system",
+  "title": "Immune System",
+  "definition": "The body's defense system against pathogens and foreign substances.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:45:24.621540Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T20:45:24.621540Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A network of cells, tissues, and organs that protect the body from harmful invaders like viruses and bacteria.",
+    "intermediate": "A complex system consisting of innate and adaptive immunity, working in concert to detect, eliminate, and remember pathogens and foreign substances.",
+    "expert": "An intricate interplay of immune cells, tissues, and signaling molecules that provides specific and long-lasting defense against a wide variety of threats, while maintaining self/non-self recognition to minimize damage to the host organism."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Nature's intricate system for safeguarding life from harm.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

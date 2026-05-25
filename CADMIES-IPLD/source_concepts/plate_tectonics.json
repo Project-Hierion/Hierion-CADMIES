@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "plate_tectonics",
+  "title": "Plate Tectonics",
+  "definition": "The theory explaining the movement of Earth's lithospheric plates that accounts for continental drift, mountain formation, earthquakes, and volcanoes.",
+  "type": "Concept",
+  "domain": "Geology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:07:05.179946Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:07:05.179946Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A moving puzzle where pieces (plates) slowly shift over millions of years, causing events like earthquakes and creating mountains.",
+    "intermediate": "The idea that Earth's crust moves due to convection currents in the mantle, responsible for geographical changes over time.",
+    "expert": "The theory explaining how Earth's tectonic plates move, influencing the distribution of continents, oceans, mountains, earthquakes, and volcanoes, with implications for resource exploration, understanding Earth's history, and earthquake prediction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Earth is not a fixed entity but rather an ever-changing puzzle piece landscape",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_formation",
+  "title": "Black Hole Formation",
+  "definition": "The process by which massive stars collapse under gravity, creating a singularity surrounded by an event horizon.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T21:07:05.182208Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-24T21:07:05.182208Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Black holes are created when huge stars explode and collapse into a super dense point. The area around it is so powerful that not even light can escape.",
+    "intermediate": "Black hole formation occurs when massive stars exceed the Chandrasekhar limit, leading to core collapse and the creation of a singularity surrounded by an event horizon.",
+    "expert": "The process of black hole formation involves complex astrophysical phenomena such as supernova explosions, neutron star mergers, and accretion disk instabilities. Understanding black hole formation provides insights into the life cycles of stars and the structure of spacetime."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Black holes represent some of the most enigmatic objects in our universe, offering tantalizing glimpses into the nature of gravity and spacetime.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
+  }
+}
