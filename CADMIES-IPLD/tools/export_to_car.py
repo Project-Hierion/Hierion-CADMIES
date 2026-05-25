@@ -15,7 +15,7 @@ from typing import Dict, Optional, Union, List, Set
 
 # Add tools directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
-from car_utils import (
+from core.car_utils import (
     write_car,
     load_block_from_store,
     calculate_cid

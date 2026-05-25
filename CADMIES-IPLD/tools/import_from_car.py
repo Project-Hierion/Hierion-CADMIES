@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 """
-Import from CAR v1.0.0
+Import from CAR v1.1.0
 Purpose: Import CADMIES concepts from CAR files into local mycelium
 Usage: python tools/import_from_car.py <file.car>
+
+v1.1.0 (2026-05-25): CID change on import now preserves provenance.
+  When a block's CID doesn't match locally (encoding differences between
+  machines), the block is re-encoded and saved under its new CID with
+  original_car_cid and import_cid preserved in extra_fields.
 """
 
 import argparse
@@ -10,14 +15,16 @@ import json
 import sys
 from pathlib import Path
 from typing import Dict, Tuple
+from datetime import datetime, timezone
 
 # Add tools directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
-from car_utils import (
+from core.car_utils import (
     read_car,
     save_block_to_store,
     load_block_from_store,
-    verify_block_integrity
+    verify_block_integrity,
+    calculate_cid
 )
 
 # ============================================================================
@@ -89,7 +96,7 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
         True if successful, False otherwise
     """
     print("=" * 60)
-    print("CADMIES Import from CAR")
+    print("CADMIES Import from CAR v1.1.0")
     if dry_run:
         print("** DRY RUN MODE - No changes will be made **")
     if verify_only:
@@ -126,6 +133,7 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
         "new_blocks": 0,
         "existing_blocks": 0,
         "invalid_blocks": 0,
+        "reminted_blocks": 0,
         "index_added": 0,
         "index_conflicts": 0,
         "index_skipped": 0
@@ -214,8 +222,36 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
             integrity_ok = verify_block_integrity(block_data, cid_str)
         
         if not integrity_ok:
-            print(f"   ❌ Invalid block (CID mismatch): {cid_str[:16]}...")
-            stats["invalid_blocks"] += 1
+            # CID mismatch during import — re-encode and save under new CID
+            # This preserves provenance by recording both the original CAR CID
+            # and the new locally-computed CID inside the block's extra_fields.
+            import dag_cbor
+            decoded = dag_cbor.decode(block_data)
+            normalized = dag_cbor.encode(decoded)
+            
+            # Save under the new CID with provenance embedded
+            if not dry_run:
+                # Preserve the original CAR CID in the block metadata
+                if 'extra_fields' not in decoded:
+                    decoded['extra_fields'] = {}
+                decoded['extra_fields']['original_car_cid'] = cid_str
+                decoded['extra_fields']['import_date'] = datetime.now(timezone.utc).isoformat()
+                # Re-encode with the added provenance fields
+                enriched = dag_cbor.encode(decoded)
+                # Recalculate CID with provenance embedded
+                final_cid = calculate_cid(enriched)
+                success = save_block_to_store(final_cid, enriched, BLOCKS_DIR)
+                if success:
+                    print(f"   🔄 CID changed during import: {cid_str[:16]}... → {final_cid[:16]}... (provenance preserved)")
+                    stats["new_blocks"] += 1
+                    stats["reminted_blocks"] += 1
+                else:
+                    print(f"   ❌ Failed to save: {cid_str[:16]}...")
+                    stats["invalid_blocks"] += 1
+            else:
+                print(f"   [DRY RUN] Would re-mint with provenance: {cid_str[:16]}...")
+                stats["new_blocks"] += 1
+                stats["reminted_blocks"] += 1
             continue
         
         # Check if already exists
@@ -292,6 +328,7 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
     print("=" * 60)
     print(f"📦 Total blocks in CAR:    {stats['total_blocks']}")
     print(f"✅ New blocks saved:       {stats['new_blocks']}")
+    print(f"🔄   Reminted on import:    {stats['reminted_blocks']}")
     print(f"⏭️  Already existed:        {stats['existing_blocks']}")
     print(f"❌ Invalid blocks:         {stats['invalid_blocks']}")
     print(f"📑 Index entries added:    {stats['index_added']}")

@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-CAR Utils v1.0.2 - Minimal CAR (Content Addressable Archive) reader/writer
+CAR Utils v1.0.3 - Minimal CAR (Content Addressable Archive) reader/writer
 Purpose: Read/write CAR files without external dependencies
 Spec: https://ipld.io/specs/transport/car/carv1/
 
 Changelog:
+  v1.0.3 (2026-05-25): Added read_car_index() to extract human_id -> CID mapping
+                       from consolidated index blocks in CADMIES CAR files.
   v1.0.2 (2026-05-23): Fixed calculate_cid() to use hashlib.sha256 + multihash.wrap
                        matching cid_generator.py and remint_existing_concepts.py.
-                       multihash.digest() produces different multihash byte structures
-                       on some inputs despite using the same sha2-256 algorithm.
   v1.0.1 (2026-05-23): Fixed CID construction, added re-encode verification
   v1.0.0: Initial release
 """
@@ -138,6 +138,30 @@ def read_car(file_path: Path) -> Tuple[Dict[str, bytes], List[str]]:
     return blocks, roots
 
 
+def read_car_index(file_path: Path) -> Dict[str, str]:
+    """Build human_id -> CID mapping from all concept blocks in a CAR file.
+    
+    Reads every block in the CAR, decodes it, and extracts the human_id
+    field from each concept block to build the index mapping.
+    
+    Returns:
+        Dict mapping human_id strings to CID strings.
+    """
+    blocks, roots = read_car(file_path)
+    index = {}
+    
+    for cid_str, block_data in blocks.items():
+        try:
+            decoded = dag_cbor.decode(block_data)
+            if isinstance(decoded, dict) and 'human_id' in decoded:
+                human_id = decoded['human_id']
+                index[human_id] = cid_str
+        except:
+            continue
+    
+    return index
+
+
 def _write_varint(file_handle, value: int) -> None:
     """Write unsigned 64-bit varint to file."""
     while True:
@@ -216,7 +240,7 @@ def verify_block_integrity(block_data: bytes, expected_cid: str) -> bool:
 
 if __name__ == "__main__":
     print("=" * 60)
-    print("CAR Utils v1.0.2 - Self Test")
+    print("CAR Utils v1.0.3 - Self Test")
     print("=" * 60)
     
     print("\n1. Testing write/read roundtrip...")
@@ -304,5 +328,5 @@ if __name__ == "__main__":
         print("   ❌ Conversion failed")
     
     print("\n" + "=" * 60)
-    print("CAR Utils v1.0.2 ready for use")
+    print("CAR Utils v1.0.3 ready for use")
     print("=" * 60)
