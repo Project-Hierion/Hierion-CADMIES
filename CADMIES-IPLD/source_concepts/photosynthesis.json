@@ -1,32 +1,24 @@
 {
   "schema_version": "1.0.0",
-  "human_id": "photosynthesis_process",
+  "human_id": "photosynthesis",
   "title": "Photosynthesis",
-  "definition": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, using carbon dioxide and water to produce glucose and oxygen.",
-  "type": "BiologicalProcess",
+  "definition": "The conversion of light energy into chemical energy stored in organic compounds, such as glucose, with the release of oxygen.",
+  "type": "Concept",
   "domain": "Biology",
-  "subdomain": "PlantPhysiology",
-  "formula": null,
+  "subdomain": "",
   "proofs": [
     {
-      "type": "experimental",
-      "description": "Van Niel's experiments establishing oxygen source from water",
-      "confidence": 0.99,
-      "date": "1931-01-01",
-      "reference": "Van Niel, C. B. (1931). Photosynthesis in bacteria"
-    },
-    {
-      "type": "historical",
-      "description": "Calvin cycle discovery (Nobel Prize 1961)",
-      "confidence": 0.99,
-      "date": "1961-01-01",
-      "reference": "Calvin, M. (1961). Nobel Lecture"
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-24T20:45:24.624537Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
     }
   ],
   "metadata": {
-    "created": "2026-05-15T22:49:48.090440Z",
-    "creator": "CADMIES_Quick_Mint",
-    "certainty_score": 0.99,
+    "created": "2026-05-24T20:45:24.624537Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
     "version": 1,
     "license": "CC BY-SA 4.0",
     "purpose": "educational",
@@ -34,25 +26,15 @@
     "superseded_by": null
   },
   "relationships": {
-    "builds_upon": [
-      "chloroplast_structure",
-      "light_reactions"
-    ],
+    "builds_upon": [],
     "contradicts": [],
-    "related_to": [
-      "cellular_respiration",
-      "carbon_cycle"
-    ],
-    "specializes": [],
-    "enables": [
-      "plant_growth",
-      "oxygen_production"
-    ]
+    "related_to": [],
+    "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "Plants use sunlight to make food from CO2 and water",
-    "intermediate": "Light-dependent reactions produce ATP and NADPH for the Calvin cycle",
-    "expert": "Photosystem II and I work in series to reduce NADP+ to NADPH"
+    "beginner": "The process by which plants convert sunlight, water, and carbon dioxide to create food and release oxygen.",
+    "intermediate": "A complex biochemical pathway involving light reactions and the Calvin cycle that captures solar energy and converts it into chemical energy stored in organic molecules, with the byproduct of oxygen.",
+    "expert": "A fundamental biological process enabling life on Earth, harnessing sunlight to drive the fixation of carbon dioxide into carbohydrates, releasing oxygen as a byproduct, and playing a critical role in climate regulation."
   },
   "learning_path": {
     "prerequisites": [],
@@ -60,20 +42,9 @@
   },
   "cross_references": {},
   "extra_fields": {
-    "insight": "",
-    "source_chunk": null,
-    "origin_file": "",
-    "harvester_version": "",
-    "discoverer": "Jan Ingenhousz",
-    "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
-    "applications": [],
-    "key_references": [],
-    "poetic_versions": [],
-    "mantras": [],
-    "formula": "6CO\u2082 + 6H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082",
-    "year": 1779,
-    "location": "chloroplast_thylakoid_membrane"
+    "insight": "The life-giving engine that powers our planet's ecosystems.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.1.0"
   }
 }
