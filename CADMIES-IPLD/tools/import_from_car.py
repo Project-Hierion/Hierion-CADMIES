@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """
-Import from CAR v1.1.0
+Import from CAR v1.2.0
 Purpose: Import CADMIES concepts from CAR files into local mycelium
 Usage: python tools/import_from_car.py <file.car>
 
+v1.2.0 (2026-05-25): Automatic index update on every block save.
+  Index is now kept in sync during import — no manual rebuild required.
+  Reminted blocks update the index with their new CID immediately.
 v1.1.0 (2026-05-25): CID change on import now preserves provenance.
   When a block's CID doesn't match locally (encoding differences between
   machines), the block is re-encoded and saved under its new CID with
-  original_car_cid and import_cid preserved in extra_fields.
+  original_car_cid and import_date preserved in extra_fields.
 """
 
 import argparse
@@ -55,21 +58,16 @@ def save_index(index: Dict[str, str]) -> None:
         json.dump(index, f, indent=2)
 
 
-def merge_index_entry(index: Dict[str, str], human_id: str, cid: str, dry_run: bool = False) -> Tuple[bool, str]:
+def update_index_entry(index: Dict[str, str], human_id: str, cid: str) -> bool:
     """
-    Merge a single index entry.
-    Returns (was_added, message)
+    Update a single index entry. Returns True if the entry was new or changed.
+    Creates a backup before first modification.
     """
     if human_id in index:
-        existing_cid = index[human_id]
-        if existing_cid == cid:
-            return False, f"⚠️  Skipped {human_id} (already exists with same CID)"
-        else:
-            return False, f"❌ Conflict: {human_id} points to different CID (existing: {existing_cid[:16]}..., new: {cid[:16]}...)"
-    else:
-        if not dry_run:
-            index[human_id] = cid
-        return True, f"✅ Added {human_id} → {cid[:16]}..."
+        if index[human_id] == cid:
+            return False  # Already correct
+    index[human_id] = cid
+    return True
 
 
 def get_verification_status_for_import(concept_cid: str):
@@ -86,6 +84,9 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
     """
     Import a CAR file into the local mycelium.
     
+    Automatically updates the index for every saved block, including
+    reminted blocks with provenance-preserving CID changes.
+    
     Args:
         car_path: Path to CAR file
         dry_run: If True, preview without writing
@@ -96,7 +97,7 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
         True if successful, False otherwise
     """
     print("=" * 60)
-    print("CADMIES Import from CAR v1.1.0")
+    print("CADMIES Import from CAR v1.2.0")
     if dry_run:
         print("** DRY RUN MODE - No changes will be made **")
     if verify_only:
@@ -122,6 +123,8 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
     
     # 3. Load current index
     current_index = load_index()
+    index_modified = False
+    index_updates = 0
     
     # 4. Process each block
     print("\n" + "-" * 40)
@@ -134,27 +137,24 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
         "existing_blocks": 0,
         "invalid_blocks": 0,
         "reminted_blocks": 0,
-        "index_added": 0,
-        "index_conflicts": 0,
-        "index_skipped": 0
+        "index_updated": 0
     }
     
     # Track verification blocks for post-processing
     verification_blocks = []
     
-    # First, find index blocks and regular blocks
+    # First pass: separate blocks by type
     index_blocks = {}
     concept_blocks = {}
     
     for cid_str, block_data in blocks.items():
-        # Check if block is an index.json block
+        # Check if block is a JSON index block (legacy format)
         try:
             decoded = json.loads(block_data.decode('utf-8'))
-            # Check if it's our index format (keys are human_ids, values are CIDs)
             if all(isinstance(v, str) and (v.startswith('bafy') or v.startswith('Qm')) for v in decoded.values()):
                 index_blocks[cid_str] = decoded
                 if verbose:
-                    print(f"   📑 Found index block: {cid_str[:16]}... ({len(decoded)} entries)")
+                    print(f"   📑 Found legacy index block: {cid_str[:16]}... ({len(decoded)} entries)")
                 continue
         except:
             pass
@@ -173,10 +173,11 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
                 })
                 if verbose:
                     print(f"   🔐 Found verification block for concept: {decoded.get('concept_cid', 'unknown')[:16]}...")
+                continue
         except:
             pass
         
-        # Regular block
+        # Regular concept block
         concept_blocks[cid_str] = block_data
     
     # If verify_only mode, just show verification info and exit
@@ -193,7 +194,6 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
                 print(f"   Source: {vb['source']}")
                 print(f"   Verifier: {vb['verifier']}")
                 
-                # Check if concept exists locally
                 concept_exists = (BLOCKS_DIR / f"{vb['concept_cid']}.cbor").exists()
                 if concept_exists:
                     status = get_verification_status_for_import(vb['concept_cid'])
@@ -208,7 +208,7 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
         print("   Run without --verify-only to import and apply verifications.")
         return True
     
-    # 5. Save regular blocks to store (skip if dry_run)
+    # 5. Save concept blocks to store
     if not dry_run:
         print(f"\n📦 Saving {len(concept_blocks)} concept/provenance block(s)...")
     
@@ -222,29 +222,34 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
             integrity_ok = verify_block_integrity(block_data, cid_str)
         
         if not integrity_ok:
-            # CID mismatch during import — re-encode and save under new CID
-            # This preserves provenance by recording both the original CAR CID
-            # and the new locally-computed CID inside the block's extra_fields.
+            # CID mismatch — re-encode and save under new CID with provenance
             import dag_cbor
             decoded = dag_cbor.decode(block_data)
             normalized = dag_cbor.encode(decoded)
             
-            # Save under the new CID with provenance embedded
             if not dry_run:
-                # Preserve the original CAR CID in the block metadata
+                # Embed provenance in the block
                 if 'extra_fields' not in decoded:
                     decoded['extra_fields'] = {}
                 decoded['extra_fields']['original_car_cid'] = cid_str
                 decoded['extra_fields']['import_date'] = datetime.now(timezone.utc).isoformat()
-                # Re-encode with the added provenance fields
                 enriched = dag_cbor.encode(decoded)
-                # Recalculate CID with provenance embedded
                 final_cid = calculate_cid(enriched)
                 success = save_block_to_store(final_cid, enriched, BLOCKS_DIR)
+                
                 if success:
-                    print(f"   🔄 CID changed during import: {cid_str[:16]}... → {final_cid[:16]}... (provenance preserved)")
+                    print(f"   🔄 Reminted: {cid_str[:16]}... → {final_cid[:16]}... (provenance preserved)")
                     stats["new_blocks"] += 1
                     stats["reminted_blocks"] += 1
+                    
+                    # Update index with the new CID
+                    human_id = decoded.get('human_id')
+                    if human_id:
+                        if update_index_entry(current_index, human_id, final_cid):
+                            index_updates += 1
+                            index_modified = True
+                            if verbose:
+                                print(f"      📑 Index updated: {human_id} → {final_cid[:16]}...")
                 else:
                     print(f"   ❌ Failed to save: {cid_str[:16]}...")
                     stats["invalid_blocks"] += 1
@@ -254,12 +259,25 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
                 stats["reminted_blocks"] += 1
             continue
         
-        # Check if already exists
+        # Block passes integrity check
         existing = load_block_from_store(cid_str, BLOCKS_DIR)
         if existing is not None:
             if verbose:
                 print(f"   ⏭️  Already exists: {cid_str[:16]}...")
             stats["existing_blocks"] += 1
+            
+            # Ensure index is up to date even for existing blocks
+            try:
+                import dag_cbor
+                decoded = dag_cbor.decode(block_data)
+                human_id = decoded.get('human_id')
+                if human_id and update_index_entry(current_index, human_id, cid_str):
+                    index_updates += 1
+                    index_modified = True
+                    if verbose:
+                        print(f"      📑 Index updated: {human_id} → {cid_str[:16]}...")
+            except:
+                pass
             continue
         
         # Save new block
@@ -268,6 +286,19 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
             if success:
                 print(f"   ✅ Saved: {cid_str[:16]}... ({len(block_data)} bytes)")
                 stats["new_blocks"] += 1
+                
+                # Update index
+                try:
+                    import dag_cbor
+                    decoded = dag_cbor.decode(block_data)
+                    human_id = decoded.get('human_id')
+                    if human_id and update_index_entry(current_index, human_id, cid_str):
+                        index_updates += 1
+                        index_modified = True
+                        if verbose:
+                            print(f"      📑 Index updated: {human_id} → {cid_str[:16]}...")
+                except:
+                    pass
             else:
                 print(f"   ❌ Failed to save: {cid_str[:16]}...")
                 stats["invalid_blocks"] += 1
@@ -275,33 +306,27 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
             print(f"   [DRY RUN] Would save: {cid_str[:16]}...")
             stats["new_blocks"] += 1
     
-    # 6. Merge index blocks
-    if not dry_run:
-        print(f"\n📑 Processing index entries...")
+    # 6. Merge legacy index blocks (from older CAR format)
+    if not dry_run and index_blocks:
+        print(f"\n📑 Processing legacy index entries...")
+        for idx_cid, index_data in index_blocks.items():
+            for human_id, cid in index_data.items():
+                if update_index_entry(current_index, human_id, cid):
+                    index_updates += 1
+                    index_modified = True
+                    if verbose:
+                        print(f"   ✅ Index: {human_id} → {cid[:16]}...")
     
-    for idx_cid, index_data in index_blocks.items():
-        for human_id, cid in index_data.items():
-            was_added, message = merge_index_entry(current_index, human_id, cid, dry_run)
-            
-            if "Added" in message:
-                print(f"   {message}")
-                stats["index_added"] += 1
-            elif "Conflict" in message:
-                print(f"   {message}")
-                stats["index_conflicts"] += 1
-            else:
-                if verbose:
-                    print(f"   {message}")
-                stats["index_skipped"] += 1
-    
-    # 7. Save updated index (if not dry run and changes made)
-    if not dry_run and (stats["index_added"] > 0):
+    # 7. Save index if modified
+    if index_modified and not dry_run:
         save_index(current_index)
-        print(f"\n💾 Saved index with {stats['index_added']} new entry(s)")
-    elif dry_run and stats["index_added"] > 0:
-        print(f"\n[DRY RUN] Would add {stats['index_added']} entry(s) to index")
+        print(f"\n💾 Index saved with {index_updates} update(s)")
+    elif index_modified and dry_run:
+        print(f"\n[DRY RUN] Would update index with {index_updates} entry(s)")
+    else:
+        print(f"\n📑 Index unchanged (all entries already current)")
     
-    # 8. Post-import: Check verification blocks and refresh badges
+    # 8. Post-import: Check verification blocks
     if not dry_run and verification_blocks:
         print("\n" + "-" * 40)
         print("🔐 VERIFICATION BLOCKS DETECTED")
@@ -310,7 +335,6 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
         for vb in verification_blocks:
             concept_cid = vb['concept_cid']
             if concept_cid:
-                # Check if concept block exists
                 concept_exists = (BLOCKS_DIR / f"{concept_cid}.cbor").exists()
                 if concept_exists:
                     status = get_verification_status_for_import(concept_cid)
@@ -331,9 +355,7 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
     print(f"🔄   Reminted on import:    {stats['reminted_blocks']}")
     print(f"⏭️  Already existed:        {stats['existing_blocks']}")
     print(f"❌ Invalid blocks:         {stats['invalid_blocks']}")
-    print(f"📑 Index entries added:    {stats['index_added']}")
-    print(f"⚠️  Index conflicts:        {stats['index_conflicts']}")
-    print(f"⏭️  Index entries skipped:  {stats['index_skipped']}")
+    print(f"📑 Index entries updated:  {index_updates}")
     print(f"🔐 Verification blocks:    {len(verification_blocks)}")
     print("=" * 60)
     
@@ -350,10 +372,10 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False, ver
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Import CADMIES concept from CAR file",
+        description="Import CADMIES concepts from CAR file into local mycelium. Index updates automatically.",
         epilog="""
 Examples:
-  import_from_car.py natural_selection.car
+  import_from_car.py cadmies_latest.car
   import_from_car.py my_export.car --dry-run
   import_from_car.py concept.car --verbose
   import_from_car.py verification.car --verify-only
@@ -386,7 +408,6 @@ Examples:
     
     args = parser.parse_args()
     
-    # Run import
     success = import_car(
         car_path=Path(args.car_file),
         dry_run=args.dry_run,
