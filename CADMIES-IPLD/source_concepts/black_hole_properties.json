@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_properties",
+  "title": "Black Hole Properties",
+  "definition": "The unique characteristics and behaviors of black holes, such as their event horizon and singularity.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:34:30.721935Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:34:30.721935Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "general_relativity"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A region in space where gravity is so strong that nothing can escape, not even light. They form from the collapse of massive stars and have certain boundaries like the event horizon and a center point called the singularity.",
+    "intermediate": "Regions of spacetime with extreme gravitational fields that cause the collapse of light into an invisible boundary known as the event horizon, leading to the formation of a point singularity at their center where general relativity breaks down.",
+    "expert": "Gravitationally collapsed celestial objects with immense mass concentrations and strong gravitational fields that cause the collapse of light into an event horizon, resulting in the formation of a point singularity, challenging our understanding of physics and providing insights into quantum gravity and the nature of spacetime."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "general_relativity"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mysteries of space unraveled through black holes.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

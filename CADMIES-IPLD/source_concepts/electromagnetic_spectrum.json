@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "electromagnetic_spectrum",
+  "title": "Electromagnetic Spectrum",
+  "definition": "A range of electromagnetic radiation, ordered by wavelength and frequency, encompassing radio waves to gamma rays.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T01:56:55.907141Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T01:56:55.907141Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "quantum_entanglement"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The diverse forms of energy that travel as waves, including radio waves for communication, visible light we can see, and X-rays used in medical imaging.",
+    "intermediate": "A continuum of electromagnetic radiation, from long-wavelength radio waves to short-wavelength gamma rays. The energy of these waves is inversely proportional to their wavelength, with applications spanning telecommunications, astronomy, and medical diagnostics.",
+    "expert": "A vast range of electromagnetic radiation extending from radio waves to gamma rays. James Clerk Maxwell unified electricity and magnetism in 1865, predicting the existence of electromagnetic waves that travel at the speed of light. The energy of these waves is inversely proportional to their wavelength, making them useful for various applications such as telecommunications, medical diagnostics, and energy production."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The electromagnetic spectrum reveals the interconnected nature of electricity, magnetism, and light.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

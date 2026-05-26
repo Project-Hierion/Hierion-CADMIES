@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "plate_tectonics_and_earths_evolution",
+  "title": "Plate Tectonics And Earths Evolution",
+  "definition": "The movement of Earth's lithospheric plates and their impact on the distribution of continents, oceans, mountains, earthquakes, volcanoes, and the understanding of Earth's history.",
+  "type": "Concept",
+  "domain": "Geology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:08:12.253161Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:08:12.253161Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Plate tectonics is a theory explaining how Earth's outer shell moves around, causing things like mountain building, earthquakes, and the shifting of continents over time.",
+    "intermediate": "Plate tectonics describes the movement of Earth's major lithospheric plates, which affects features such as mountain ranges, ocean floors, and earthquake zones. It is crucial for understanding Earth's history and evolution.",
+    "expert": "Plate tectonics is a fundamental concept in geology that explains the movement of Earth's lithospheric plates, driving phenomena such as continental drift, volcanism, seafloor spreading, and earthquakes. It provides insight into Earth's history, evolution, and resources distribution."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Plate tectonics offers a unique window into Earth's dynamic past and ongoing transformations.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

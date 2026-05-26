@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "stellar_nucleosynthesis",
+  "title": "Stellar Nucleosynthesis",
+  "definition": "The process by which elements are created within stars through nuclear fusion, contributing to the formation of heavier elements over time.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:08:12.248243Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:08:12.248243Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The way in which stars produce new elements through a series of reactions that fuse hydrogen into helium and other heavier elements, shaping the universe as we know it.",
+    "intermediate": "The phenomenon whereby stars synthesize elements from lighter to heavier through nuclear fusion in their cores, from hydrogen to iron, eventually leading to the formation of neutron stars or black holes.",
+    "expert": "The intricate process by which stars generate new elements through nuclear reactions, creating a hierarchy of elements within the universe over billions of years. This process not only shapes the cosmos but also provides crucial clues about the origins and evolution of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that stars are not just glowing orbs, but factories for creating the very building blocks of our existence, from hydrogen to iron and beyond.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

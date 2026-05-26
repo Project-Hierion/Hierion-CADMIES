@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "plate_tectonics_and_earthquakes",
+  "title": "Plate Tectonics And Earthquakes",
+  "definition": "The movement of Earth's lithospheric plates and the subsequent formation of continents, oceans, mountains, earthquakes, and volcanoes, which has fundamental implications for geology and seismology.",
+  "type": "Concept",
+  "domain": "Geology, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:29:33.050985Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:29:33.050985Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The movement of Earth's outer shell called the lithosphere, responsible for creating features like mountains and earthquakes.",
+    "intermediate": "The dynamic process by which Earth's lithospheric plates move, resulting in the formation of various geological structures such as continents, oceans, mountains, earthquakes, and volcanoes.",
+    "expert": "Plate tectonics is a theory that explains the movement of Earth's lithospheric plates, responsible for the distribution of continents, oceans, and various geological phenomena like earthquakes, volcanoes, and mountain ranges."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding plate tectonics sheds light on the formation and evolution of our planet, as well as the occurrence of natural disasters.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

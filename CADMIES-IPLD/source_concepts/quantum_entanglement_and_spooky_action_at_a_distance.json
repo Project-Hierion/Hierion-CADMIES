@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_entanglement_and_spooky_action_at_a_distance",
+  "title": "Quantum Entanglement And Spooky Action At A Distance",
+  "definition": "The phenomenon of quantum entanglement, where particles become correlated and measurements on one particle can instantaneously affect the other regardless of distance.",
+  "type": "Concept",
+  "domain": "Quantum Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:08:12.245576Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:08:12.245576Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two dice that are magically linked so when you roll one, the other instantly shows the same number. That's what quantum entanglement is like, but with tiny particles instead of dice, and it happens faster than the speed of light!",
+    "intermediate": "Quantum entanglement is a phenomenon in which two or more particles become correlated in such a way that the state of one particle cannot be described independently of the other. Measurements on one particle can instantaneously affect the state of the other, regardless of distance. This has led to Einstein's famous quote about 'spooky action at a distance'.",
+    "expert": "Quantum entanglement is a phenomenon in which two or more particles become correlated in such a way that their quantum states are dependent on each other, even when separated by large distances. This instantaneous correlation has been interpreted as violating local realism and has important implications for our understanding of the nature of reality itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Quantum entanglement demonstrates the intricate interconnectedness and non-locality of quantum systems, challenging our traditional understanding of the physical world.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

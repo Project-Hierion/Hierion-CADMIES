@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "climate_and_consciousness",
+  "title": "Climate And Consciousness",
+  "definition": "The connection between the state of our planet's climate and human consciousness, particularly in relation to the recognition and mitigation of climate change.",
+  "type": "Concept",
+  "domain": "Environmental Science and Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:34:30.705137Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:34:30.705137Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Understanding how our actions impact the Earth's climate and our collective responsibility to make sustainable choices for the planet's future.",
+    "intermediate": "Exploring the relationship between human awareness, values, and attitudes towards climate change and their impact on policy-making, technological innovation, and everyday lifestyle choices.",
+    "expert": "Investigating the philosophical implications of our relationship with nature, including how our perception of ourselves as separate from the natural world contributes to environmental degradation and the search for sustainable solutions that promote harmony between humans and the planet."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Addressing climate change requires not only technological innovations but also a shift in human consciousness towards a more mindful relationship with nature.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gravitational_waves",
+  "title": "Gravitational Waves",
+  "definition": "Ripples in spacetime caused by accelerating masses, predicted by Einstein and first detected by LIGO.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:29:32.996584Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:29:32.996584Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "gravity"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a pond disturbed by a falling rock. Gravitational waves are like those ripples on a larger scale, caused by the movement of massive objects like black holes.",
+    "intermediate": "Gravitational waves are disturbances in the curvature of spacetime that travel outward from accelerating masses, providing a new way to study gravity and the universe.",
+    "expert": "Gravitational waves offer a unique probe into strong-field gravity, enabling the detection and characterization of astrophysical sources such as binary black hole mergers and neutron star collisions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "They provide a novel way to study the universe's most extreme environments.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

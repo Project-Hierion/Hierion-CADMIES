@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "natural_selection_and_evolution",
+  "title": "Natural Selection And Evolution",
+  "definition": "The differential survival and reproduction of individuals due to differences in traits, leading to the evolution of populations through adaptations.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:08:12.253749Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:08:12.253749Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Natural selection is a process where certain traits help an organism survive better and have more offspring, passing these advantageous traits onto future generations, thus evolving the species over time.",
+    "intermediate": "Natural selection is a mechanism by which populations evolve through the differential survival and reproduction of individuals with advantageous traits. It leads to adaptations and speciation over time.",
+    "expert": "Natural selection is a key mechanism driving evolution, as it favors individuals with advantageous traits that increase their chances of survival and reproduction. Over generations, these favorable traits become more common in the population, leading to adaptations and eventually speciation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Natural selection demonstrates the power of adaptation and change over time in living organisms.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

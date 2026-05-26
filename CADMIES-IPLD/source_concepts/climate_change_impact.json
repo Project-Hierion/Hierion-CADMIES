@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "climate_change_impact",
+  "title": "Climate Change Impact",
+  "definition": "The far-reaching effects of global warming on ecosystems, weather patterns, and human societies.",
+  "type": "Concept",
+  "domain": "Climate Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T01:42:25.673570Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T01:42:25.673570Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "climate_change"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Climate change causes rising temperatures, severe storms, melting ice caps, and disrupted ecosystems. These changes can have a serious impact on our planet's wildlife, agricultural practices, and even the buildings we live in.",
+    "intermediate": "Climate change impact encompasses myriad effects on Earth's atmosphere, oceans, and land masses, including increased temperatures, altered precipitation patterns, rising sea levels, and extreme weather events.",
+    "expert": "Climate change impact represents a complex web of consequences that extend beyond simply rising temperatures. These include ecosystem disruption, loss of biodiversity, resource depletion, and threats to human health and livelihoods."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "climate_change"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cascading effects of climate change have far-reaching implications for our planet's inhabitants and resources.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

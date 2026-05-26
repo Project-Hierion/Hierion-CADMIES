@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hormone_system",
+  "title": "Hormone System",
+  "definition": "A complex system responsible for communication within the body through chemical messengers called hormones.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:08:12.254313Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:08:12.254313Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "endocrine_system"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A collection of special chemicals that help regulate various processes in our bodies, like growth, metabolism, stress response, and reproduction.",
+    "intermediate": "An intricate network of endocrine glands secreting hormones that travel through the bloodstream to target organs, controlling a wide range of physiological functions.",
+    "expert": "A sophisticated signaling system using chemical messengers called hormones for intercellular communication, playing crucial roles in development, reproduction, stress response, and metabolism, with disruptions leading to various diseases."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The intricate orchestra of hormones that govern our lives, from growth and reproduction to the body's stress response and sleep cycles.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

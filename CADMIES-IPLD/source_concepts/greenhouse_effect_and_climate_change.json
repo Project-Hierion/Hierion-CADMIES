@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "greenhouse_effect_and_climate_change",
+  "title": "Greenhouse Effect And Climate Change",
+  "definition": "The warming of Earth's surface due to the trapping of heat by atmospheric gases, leading to climate change.",
+  "type": "Concept",
+  "domain": "Climate Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:29:32.999486Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:29:32.999486Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "climate_change"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a greenhouse with glass panels that trap warmth from the sun, causing the temperature inside to rise. The natural greenhouse effect works similarly on Earth but is enhanced by human activities, leading to global warming.",
+    "intermediate": "The greenhouse effect, driven by certain gases in the atmosphere like carbon dioxide, methane, and water vapor, causes Earth's temperature to rise. This enhanced greenhouse effect, largely caused by human activities, contributes to climate change.",
+    "expert": "Understanding the complex interactions between atmospheric gases, solar radiation, and Earth's climate system is crucial for predicting future climate change and developing mitigation strategies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Anthropogenic changes to the greenhouse effect are driving global climate change.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

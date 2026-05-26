@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "elastic_rebound",
+  "title": "Elastic Rebound",
+  "definition": "The theory that earthquakes occur due to the release of stored elastic energy when tectonic plates slip along faults, as described by the theory of elastic rebound.",
+  "type": "Concept",
+  "domain": "Geophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:34:30.709051Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:34:30.709051Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that earthquakes are caused by the sudden release of built-up tension in Earth's crust along fault lines, leading to seismic waves.",
+    "intermediate": "The principle that the buildup and subsequent release of elastic energy along fault zones cause earthquakes as explained by the theory of elastic rebound.",
+    "expert": "The concept that stress builds up along locked faults, eventually leading to a catastrophic release of stored elastic energy and causing seismic waves, as described by the theory of elastic rebound."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The buildup and sudden release of elastic energy in Earth's crust as the cause of earthquakes.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

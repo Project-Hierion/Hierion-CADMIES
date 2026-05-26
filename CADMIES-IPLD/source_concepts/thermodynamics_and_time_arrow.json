@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "thermodynamics_and_time_arrow",
+  "title": "Thermodynamics And Time Arrow",
+  "definition": "The role of thermodynamics in the directionality of time and its connection to the arrow of time.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:08:12.246367Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:08:12.246367Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a movie playing backward: coffee cooling instead of warming, eggs unscrambling themselves. Thermodynamics explains why things don't usually happen that way in the real world. It tells us about the direction time flows and why it doesn't run backwards naturally.",
+    "intermediate": "The laws of thermodynamics provide a framework for understanding the behavior of energy, heat, and work in systems. One consequence is the second law, which states that entropy (a measure of disorder) always increases in an isolated system, leading to the irreversibility of processes and the directionality of time.",
+    "expert": "The second law of thermodynamics states that the entropy (disorder) of an isolated system will always increase over time. This leads to the irreversibility of processes and the unidirectional flow of time, which is often referred to as the 'arrow of time'. Thermodynamics plays a crucial role in connecting physics to various fields such as chemistry, biology, and cosmology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Thermodynamics offers an explanation for the directionality of time through its second law, connecting physics to a broader understanding of the universe's evolution.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

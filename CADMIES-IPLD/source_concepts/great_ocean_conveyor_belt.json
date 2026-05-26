@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "great_ocean_conveyor_belt",
+  "title": "Great Ocean Conveyor Belt",
+  "definition": "The global thermohaline circulation, a continuous movement of seawater driven by temperature and salinity gradients.",
+  "type": "Concept",
+  "domain": "Oceanography",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:29:33.053409Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:29:33.053409Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a giant conveyor belt made of water, moving nutrients and heat around the globe to regulate climate.",
+    "intermediate": "The Great Ocean Conveyor Belt is a global system of ocean currents that regulates Earth's climate by transporting heat from the equator toward the poles.",
+    "expert": "The Great Ocean Conveyor Belt, or thermohaline circulation, is a complex system of deep and surface ocean currents driven by temperature and salinity gradients. The movement of these currents plays a crucial role in regulating global climate, with significant implications for weather patterns and ecosystems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Great Ocean Conveyor Belt plays a vital role in regulating global climate by transporting heat around the world.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

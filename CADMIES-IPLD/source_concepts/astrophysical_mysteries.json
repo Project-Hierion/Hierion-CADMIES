@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "astrophysical_mysteries",
+  "title": "Astrophysical Mysteries",
+  "definition": "Unresolved phenomena in astrophysics, such as black holes and the nature of dark matter/energy.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:29:33.055572Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:29:33.055572Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "black_holes"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of these as unsolved puzzles in the vast universe. They require more study to better understand how they work.",
+    "intermediate": "Astrophysical mysteries encompass various phenomena, like black holes and dark matter/energy, which challenge our current understanding of physics and the cosmos.",
+    "expert": "Exploring astrophysical mysteries helps to expand our knowledge of the universe's intricacies. This understanding can also lead to technological advancements and new discoveries."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The study of black holes and dark matter/energy opens up exciting avenues for exploring uncharted territories in physics and cosmology.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

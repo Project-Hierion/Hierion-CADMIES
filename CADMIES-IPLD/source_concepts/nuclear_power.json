@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nuclear_power",
+  "title": "Nuclear Power",
+  "definition": "The generation of electricity from controlled nuclear reactions.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:34:30.717517Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:34:30.717517Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "plate_tectonics"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Using the energy released by splitting atoms in a safe and controlled manner to produce electricity.",
+    "intermediate": "A method of electricity production that relies on the controlled fission of uranium or plutonium nuclei, releasing a large amount of energy.",
+    "expert": "A technology harnessing the power of nuclear reactions to produce electricity. It operates through the controlled splitting of heavy atom nuclei, like uranium-235 and plutonium-239, in a nuclear reactor, releasing a tremendous amount of energy that can be converted into electricity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Harnessing the destructive force of atomic fission for peaceful purposes: electricity production.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

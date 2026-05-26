@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "energetic_spectrum_and_time",
+  "title": "Energetic Spectrum And Time",
+  "definition": "The exploration of the relationship between energy, time, and their manifestations across the electromagnetic spectrum.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:34:30.701473Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:34:30.701473Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "quantum_entanglement"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Exploring how different forms of energy behave at different times, like understanding why radio waves take longer to travel than gamma rays.",
+    "intermediate": "Investigating the relationship between the properties of energy (frequency and wavelength) and time, such as Maxwell's prediction of electromagnetic waves that propagate at the speed of light.",
+    "expert": "Exploring the interplay of energy, time, and their manifestations across various energy scales, like how quantum entanglement challenges our understanding of causality in space and time."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Energy and time are intricately connected, with different forms of energy displaying unique properties that reveal deeper truths about the fabric of the universe.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

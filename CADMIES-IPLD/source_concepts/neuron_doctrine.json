@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neuron_doctrine",
+  "title": "Neuron Doctrine",
+  "definition": "The concept that neurons are the functional units of the nervous system and communicate through electrochemical signals.",
+  "type": "Concept",
+  "domain": "Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:29:33.000811Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:29:33.000811Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that individual nerve cells, called neurons, are the building blocks for how our brains and nervous systems function.",
+    "intermediate": "The theory established by Santiago Ramon y Cajal in the late 19th century that the nervous system consists of discrete, interconnected functional units known as neurons that transmit information through electrical and chemical signaling.",
+    "expert": "A revolutionary concept proposed by Santiago Ramon y Cajal that revolutionized our understanding of the nervous system, asserting that it is composed of individual, discrete cells called neurons that communicate via electrochemical signals. This work overturned the prevailing theory of a continuous, interconnected nervous tissue and paved the way for modern neuroscience."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conceptual separation of the nervous system into individual functional units: neurons.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

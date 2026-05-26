@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole",
+  "title": "Black Hole",
+  "definition": "A region of spacetime where gravity is so intense that nothing, not even light, can escape.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:08:12.255291Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:08:12.255291Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "general_relativity"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A mysterious and powerful cosmic object that has such a strong gravitational pull that not even light can get out.",
+    "intermediate": "A highly compact celestial entity arising from the collapse of massive stars, whose immense gravity creates an event horizon beyond which escape is impossible.",
+    "expert": "An astrophysical phenomenon occurring when a massive star collapses, forming a region with such extreme gravitational force that not even light can escape, posing challenges to our understanding of physics and the universe's structure."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "general_relativity"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The enigmatic, invisible gatekeepers of the cosmos, challenging our comprehension of space, time, and matter.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

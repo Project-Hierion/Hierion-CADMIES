@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "thermodynamic_time",
+  "title": "Thermodynamic Time",
+  "definition": "The directionality of time as a consequence of the second law of thermodynamics and the increase of entropy in closed systems.",
+  "type": "Concept",
+  "domain": "Thermodynamics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:20:40.205118Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:20:40.205118Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Time always moves forward because the universe is constantly becoming more disordered, as described by the laws of thermodynamics.",
+    "intermediate": "The second law of thermodynamics posits that entropy, or disorder, increases in closed systems, implying a directionality to time that can be observed in the natural world.",
+    "expert": "The irreversible increase of entropy in closed systems dictates the direction of time's arrow. This connection between thermodynamics and the nature of time offers insights into the origins of the universe and its eventual heat death."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Time's arrow is linked to the second law of thermodynamics, implying a deep connection between thermodynamics and cosmology.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

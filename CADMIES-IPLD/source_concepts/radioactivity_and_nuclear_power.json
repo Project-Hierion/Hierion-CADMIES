@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "radioactivity_and_nuclear_power",
+  "title": "Radioactivity And Nuclear Power",
+  "definition": "The emission of energy from unstable atomic nuclei and its application in various fields, including carbon dating, medical imaging, cancer therapy, nuclear medicine, archaeological dating, energy production, and nuclear power generation.",
+  "type": "Concept",
+  "domain": "Physics, Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:29:33.046874Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:29:33.046874Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "plate_tectonics",
+      "sleep"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Emission of energy from unstable atomic particles that can be used for various purposes such as power generation and medical applications.",
+    "intermediate": "The emission of particles or electromagnetic radiation from unstable atomic nuclei, which is harnessed in various fields like nuclear medicine, archaeology, energy production, and power generation.",
+    "expert": "Radioactivity refers to the process of unstable atomic nuclei emitting energy through alpha, beta, or gamma decay. This phenomenon has significant applications in energy production, medical imaging, cancer treatment, carbon dating, and even understanding the Earth's geology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the interplay between radioactivity and nuclear power provides insights into energy production, medicine, and even the history of our planet.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

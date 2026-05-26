@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "stomatal_regulation",
+  "title": "Stomatal Regulation",
+  "definition": "The control mechanism of stomata in plants, regulating gas exchange through opening and closing in response to light, carbon dioxide concentration, and water availability.",
+  "type": "Concept",
+  "domain": "Plant Physiology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:29:33.042643Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:29:33.042643Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The way in which tiny pores called stomata on plant leaves open and close to allow for the intake of carbon dioxide during photosynthesis while preventing excessive water loss.",
+    "intermediate": "The mechanisms that control the opening and closing of stomata, microscopic pores on the surface of plant leaves, in response to factors such as light, carbon dioxide concentration, and water availability.",
+    "expert": "A complex regulatory system in plants controlling the opening and closing of stomata, tiny pores that control gas exchange, in response to a variety of environmental factors. This process plays a crucial role in photosynthesis, transpiration, and plant survival under stress."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The intricate regulation of microscopic pores called stomata on plant leaves for optimal gas exchange and water conservation.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

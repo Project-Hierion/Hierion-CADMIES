@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "glymphatic_system",
+  "title": "Glymphatic System",
+  "definition": "A waste clearance system in the brain that operates during sleep, removing toxic byproducts and supporting cognitive function.",
+  "type": "Concept",
+  "domain": "Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T01:56:55.911745Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T01:56:55.911745Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "sleep"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the glymphatic system as your brain's garbage truck, running at night to collect waste and keep your brain clean and healthy.",
+    "intermediate": "The glymphatic system is a waste removal network in the brain that functions during sleep, facilitating the clearance of metabolic byproducts and supporting optimal cognitive function.",
+    "expert": "The glymphatic system is a unique cerebrospinal fluid circulation pathway within the brain that facilitates waste clearance, particularly of toxic molecules like beta-amyloid. Its activity during sleep plays a crucial role in preserving cognitive function."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight is recognizing that sleep serves an essential role in waste clearance from the brain, which has implications for understanding and treating various neurological disorders.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

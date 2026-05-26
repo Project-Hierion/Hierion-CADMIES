@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "biodiversity",
+  "title": "Biodiversity",
+  "definition": "The variety of life at genetic, species, and ecosystem levels.",
+  "type": "Concept",
+  "domain": "Biology, Ecology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:34:30.718242Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:34:30.718242Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Different kinds of plants, animals, and microorganisms that make up our planet's living world.",
+    "intermediate": "The richness and variability of life forms within ecosystems, from genetic differences among individuals to diversity among species and habitats.",
+    "expert": "A measure of the totality of genes, species, and ecosystems on Earth, including extinction rates, threats to biodiversity, conservation efforts, and societal impacts of biodiversity loss."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of preserving biodiversity for a healthy planet.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

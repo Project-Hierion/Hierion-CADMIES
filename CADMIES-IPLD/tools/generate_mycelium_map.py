@@ -205,6 +205,23 @@ DOMAIN_UPWARD_MAP = {
     "Philosophy/Quantum Physics": "Physics",
     "Metaphysics & Philosophy": "Philosophy",
     "Neuroscience/Philosophy": "Neuroscience",
+    
+    # === Session 021: Unmapped domain cleanup ===
+    "Genetics": "Biology",
+    "Quantum Physics": "Physics",
+    "Thermodynamics": "Physics",
+    "Geology": "Physics",
+    "Biochemistry": "Chemistry",
+    "Environmental Science": "Ecology",
+    "Microbiology": "Biology",
+    "Earth Sciences": "Physics",
+    "Cell Biology": "Biology",
+    "Science": "Philosophy",
+    "Cell Biology, Physiology": "Biology",
+    "Chemistry & Biology": "Chemistry",
+    "Molecular Biology, Genetics": "Biology",
+    "Neuroscience, Chemistry, Psychology": "Neuroscience",
+    "Physics & Atmospheric Science": "Physics",
 }
 
 def normalize_domain(domain):

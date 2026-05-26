@@ -53,9 +53,9 @@
     ]
   },
   "difficulty_levels": {
-    "beginner": "",
-    "intermediate": "PCR uses thermal cycling to exponentially amplify specific DNA sequences",
-    "expert": ""
+    "beginner": "PCR is a technique that makes many copies of a specific part of DNA, like copying pages from a book repeatedly. It helps scientists find and study tiny amounts of DNA.",
+    "intermediate": "Polymerase Chain Reaction (PCR) is an in vitro method used to make numerous identical copies of a specific DNA segment. This technique involves thermal cycling with DNA polymerase, which replicates the target DNA sequence exponentially, allowing detection and analysis from minimal starting material.",
+    "expert": "Polymerase Chain Reaction (PCR) is a powerful molecular biology tool that enables the amplification of specific DNA sequences. It leverages thermal cycling to achieve repeated DNA synthesis by DNA polymerases, enabling detection and analysis of minute DNA samples. PCR's wide applications range from fundamental research to medical diagnostics, forensics, and ancient DNA studies."
   },
   "learning_path": {
     "prerequisites": [],
@@ -69,8 +69,12 @@
     "harvester_version": "",
     "discoverer": "Unknown",
     "discovery_year": null,
-    "historical_context": "",
-    "limitations": [],
+    "historical_context": "PCR emerged in the mid-1980s as a significant breakthrough in molecular biology, revolutionizing DNA analysis and paving the way for various applications such as genetic engineering and forensics.",
+    "limitations": [
+      "PCR can sometimes produce false positive or false negative results due to contamination or inhibition of the reaction",
+      "PCR amplification may lead to artifacts if not optimally designed or executed",
+      "PCR is temperature-dependent, requiring precise control and monitoring"
+    ],
     "applications": [
       "medical_diagnostics",
       "forensics",

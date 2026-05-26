@@ -74,7 +74,7 @@ CONVERSATION_FILE = HARVEST_DIR / "conversation.json"
 OUTPUT_FILE = HARVEST_DIR / "harvested_concepts.json"
 SOURCE_CONCEPTS_DIR = PROJECT_ROOT / "source_concepts"
 MODEL = "mistral:7b"  # Default — override with --model codestral or --model tinyllama:1.1b
-CHUNK_SIZE = 1000
+CHUNK_SIZE = 750
 DELAY = 10
 RELEVANCE_THRESHOLD = 0.1
 DEFAULT_CERTAINTY = 0.8
@@ -268,6 +268,10 @@ def extract_from_chunk(chunk, mycelium_context, index, total):
         raw = raw.strip()
 
         
+        # Strip any prose before the first opening brace
+        brace_pos = raw.find("{")
+        if brace_pos > 0:
+            raw = raw[brace_pos:]
         result = json.loads(raw, strict=False)
         concepts = result.get("concepts", [])
         poetic = result.get("poetic_version", "")

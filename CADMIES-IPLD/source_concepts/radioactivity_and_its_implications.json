@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "radioactivity_and_its_implications",
+  "title": "Radioactivity And Its Implications",
+  "definition": "The emission of particles or electromagnetic radiation from unstable atomic nuclei, with applications in various fields such as carbon dating, medical imaging, cancer radiotherapy, nuclear power generation, and waste management.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:08:12.248820Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:08:12.248820Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Radioactivity is a property of certain substances where they release energy in the form of particles or light. This energy can be harnessed for various purposes like producing electricity, imaging, and treating diseases.",
+    "intermediate": "Radioactivity refers to the spontaneous decay of unstable atomic nuclei through alpha, beta, or gamma emission. These processes have applications in areas such as nuclear medicine, energy production, and carbon dating.",
+    "expert": "Radioactivity is a fundamental aspect of nuclear physics, involving the transformation of unstable atomic nuclei through various decay modes (alpha, beta, gamma). Its study has led to significant technological advancements in fields like medicine, archaeology, and energy production, while also raising concerns about waste management and safety."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding radioactivity provides a profound insight into the nature of matter and its transformations.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hormonal_homeostasis",
+  "title": "Hormonal Homeostasis",
+  "definition": "The balanced regulation of hormones to maintain an organism's internal environment.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:29:33.054716Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:29:33.054716Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "endocrine_system"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like a thermostat in your house keeps the temperature stable, hormones work inside our bodies to keep things running smoothly.",
+    "intermediate": "Hormonal homeostasis refers to the complex system of feedback loops involving endocrine glands and their secreted messengers that help maintain a stable internal environment in multicellular organisms.",
+    "expert": "By understanding the delicate balance of hormones, we can uncover insights into various physiological processes, including growth, development, metabolism, and reproduction. Moreover, it provides a foundation for addressing endocrine-related disorders and exploring evolutionary adaptations."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interplay between hormones and their target organs forms an intricate system of self-regulation in organisms, ensuring optimal survival conditions.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

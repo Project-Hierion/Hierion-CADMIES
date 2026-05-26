@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gravitation_versus_electromagnetism",
+  "title": "Gravitation Versus Electromagnetism",
+  "definition": "The fundamental difference in nature between gravity and electromagnetism.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:08:12.243151Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:08:12.243151Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "general_relativity"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Gravity pulls everything together, like the attraction between two magnets that push each other apart. While electromagnetism is what makes objects stick together or repel based on their electric charge.",
+    "intermediate": "Gravity is a force of attraction between all masses in the universe, while electromagnetism encompasses electric and magnetic forces that can be either attractive or repulsive depending on charges and distances. Einstein's theory of General Relativity describes gravity as the curvature of spacetime caused by mass and energy, whereas Maxwell's equations describe electromagnetism.",
+    "expert": "Gravitation and electromagnetism are two fundamental forces in nature that govern the behavior of matter and energy. Gravity, being a force of attraction between all masses, is responsible for the motion of planets, the formation of stars and galaxies, and the large-scale structure of the universe. Electromagnetism, on the other hand, is responsible for electric and magnetic phenomena, including light, electricity, and magnetism. While both forces are fundamental and have been unified through various theories, their differences in range, strength, and behavior make them distinct entities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The contrast between gravity, which pulls everything together, and electromagnetism, which can push things apart or hold them together, highlights the diverse yet interconnected nature of fundamental forces in physics.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

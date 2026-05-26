@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sixth_mass_extinction",
+  "title": "Sixth Mass Extinction",
+  "definition": "The current extinction event caused by human activities, characterized by a rapid loss of biodiversity.",
+  "type": "Concept",
+  "domain": "Ecology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:29:33.053929Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:29:33.053929Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "We're in the middle of the sixth mass extinction, which is causing a dramatic loss of species and biodiversity due to human activities like habitat loss, climate change, pollution, overexploitation, and invasive species.",
+    "intermediate": "The current extinction event, often referred to as the Anthropocene, is driven by human activities and has resulted in a significant loss of biodiversity at the genetic, species, and ecosystem levels.",
+    "expert": "The sixth mass extinction, or Anthropocene extinction, is a global crisis caused by human activities such as habitat destruction, climate change, pollution, overexploitation, and invasive species. This event has resulted in the loss of numerous species and poses significant threats to ecosystems and the planet as a whole."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The current extinction event, driven by human activities, is causing a rapid loss of biodiversity and threatening global ecosystems.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

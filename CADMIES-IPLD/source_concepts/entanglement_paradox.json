@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "entanglement_paradox",
+  "title": "Entanglement Paradox",
+  "definition": "The paradoxical nature of quantum entanglement, where particles become correlated and can instantaneously affect each other regardless of distance.",
+  "type": "Concept",
+  "domain": "Quantum Mechanics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:20:40.204538Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:20:40.204538Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In the strange world of quantum mechanics, entangled particles can instantly influence each other, no matter how far apart they are.",
+    "intermediate": "Quantum entanglement is a phenomenon in which two or more particles become correlated such that the state of one instantaneously affects the state of the other, regardless of distance.",
+    "expert": "Entangled particles share an intrinsic correlation, making their quantum states interdependent even when separated by vast distances. This seemingly instantaneous communication is not a means for transmitting information but rather a consequence of the non-locality inherent in quantum mechanics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The paradoxical phenomenon of entanglement that challenges our understanding of space and time.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

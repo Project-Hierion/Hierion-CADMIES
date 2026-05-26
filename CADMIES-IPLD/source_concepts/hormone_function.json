@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hormone_function",
+  "title": "Hormone Function",
+  "definition": "The mechanisms by which hormones control various bodily functions.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T02:34:30.721483Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T02:34:30.721483Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "endocrine_system"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A communication system inside our bodies that helps regulate different processes like metabolism, growth, and reproduction using chemical messengers called hormones.",
+    "intermediate": "The role of hormones in transmitting signals between cells to maintain homeostasis and control various physiological functions.",
+    "expert": "Intricate network of chemical messengers secreted by endocrine glands, traveling through the bloodstream to target organs, which regulate a myriad of biological processes such as growth, development, metabolism, and behavior, in addition to their profound implications for disease pathogenesis and drug therapy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The symphony orchestrated by hormones within our bodies.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}
