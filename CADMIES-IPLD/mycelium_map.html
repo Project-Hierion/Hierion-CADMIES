@@ -176,7 +176,7 @@
 </head>
 <body>
     <div id="cy"></div>
-    <div id="info">CADMIES Mycelium Map | 374 nodes | 452 edges | 2026-05-24 21:54 UTC | Click node for details | / to search | Esc to reset</div>
+    <div id="info">CADMIES Mycelium Map | 383 nodes | 458 edges | 2026-05-26 00:57 UTC | Click node for details | / to search | Esc to reset</div>
     <div class="node-tooltip" id="nodeTooltip"></div>
     <div class="concept-card" id="conceptCard">
         <span class="card-close" id="cardClose">x</span>
@@ -600,7 +600,16 @@
 { data: { id: "microbial_ecosystems", label: "Microbial Ecosystems", definition: "The study of the communities, interactions, and dynamics of microorganisms in various environments, including bacteria, fungi, and archaea.", domain: "Microbiology", background_color: "#64748B" } },
 { data: { id: "endocrine_system", label: "Endocrine System", definition: "The system that produces hormones, chemical messengers that regulate metabolism, growth, reproduction, stress response, sleep cycles, and more.", domain: "Biology", background_color: "#10B981" } },
 { data: { id: "black_holes", label: "Black Holes", definition: "Regions in space where gravity is so strong that not even light can escape.", domain: "Physics", background_color: "#4F46E5" } },
-{ data: { id: "climate_change", label: "Climate Change", definition: "Long-term shifts in global temperature and weather patterns primarily caused by human activities, leading to a host of environmental and social impacts.", domain: "Earth Sciences", background_color: "#64748B" } }], edges: [{ data: { source: "perceptual_frames_as_intelligence_multipliers", target: "predictive_processing", label: "builds_upon" } },
+{ data: { id: "climate_change", label: "Climate Change", definition: "Long-term shifts in global temperature and weather patterns primarily caused by human activities, leading to a host of environmental and social impacts.", domain: "Earth Sciences", background_color: "#64748B" } },
+{ data: { id: "spacetime_curvature", label: "Spacetime Curvature", definition: "The alteration of spacetime as a result of mass and energy, according to Einstein's theory of general relativity.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "quantum_entanglement_nonlocality", label: "Quantum Entanglement Nonlocality", definition: "The phenomenon where entangled particles exhibit correlations that cannot be explained by local hidden variable theories, implying instantaneous communication beyond the speed of light.", domain: "Quantum Physics", background_color: "#64748B" } },
+{ data: { id: "protein_function", label: "Protein Function", definition: "Role of proteins in living organisms performing diverse functions.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "universal_gravitational_force", label: "Universal Gravitational Force", definition: "The attractive force between any two masses in the universe, discovered by Newton.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "cellular_respiration", label: "Cellular Respiration", definition: "The process by which cells convert organic matter and oxygen into ATP, the energy currency of life.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "microbial_diversity_and_interactions", label: "Microbial Diversity And Interactions", definition: "The variety and relationships among microorganisms in various environments, with significant implications for health, ecology, and industry.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "hormonal_balance", label: "Hormonal Balance", definition: "The delicate regulation of hormone levels in living organisms to maintain health and physiological functions.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "black_hole_evaporation", label: "Black Hole Evaporation", definition: "The slow evaporation of a black hole due to the emission of Hawking radiation, challenging our understanding of quantum mechanics and general relativity.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "climate_change_feedback", label: "Climate Change Feedback", definition: "The complex, self-reinforcing interactions between global warming and various Earth systems that amplify the effects of climate change.", domain: "Environmental Science", background_color: "#64748B" } }], edges: [{ data: { source: "perceptual_frames_as_intelligence_multipliers", target: "predictive_processing", label: "builds_upon" } },
 { data: { source: "perceptual_frames_as_intelligence_multipliers", target: "occams_razor", label: "builds_upon" } },
 { data: { source: "perceptual_frames_as_intelligence_multipliers", target: "information_is_physical_principle", label: "related_to" } },
 { data: { source: "conservation_of_energy", target: "newtons_laws_of_motion", label: "builds_upon" } },
@@ -1051,7 +1060,13 @@
 { data: { source: "black_holes", target: "black_hole_causality_reversal", label: "builds_upon" } },
 { data: { source: "black_holes", target: "black_hole_formation", label: "builds_upon" } },
 { data: { source: "climate_change", target: "climate_change_mitigation", label: "builds_upon" } },
-{ data: { source: "climate_change", target: "celestial_dynamics", label: "related_to" } }] };
+{ data: { source: "climate_change", target: "celestial_dynamics", label: "related_to" } },
+{ data: { source: "spacetime_curvature", target: "gravity", label: "related_to" } },
+{ data: { source: "spacetime_curvature", target: "general_relativity", label: "related_to" } },
+{ data: { source: "quantum_entanglement_nonlocality", target: "quantum_entanglement", label: "builds_upon" } },
+{ data: { source: "hormonal_balance", target: "endocrine_system", label: "related_to" } },
+{ data: { source: "black_hole_evaporation", target: "black_holes", label: "builds_upon" } },
+{ data: { source: "climate_change_feedback", target: "climate_change", label: "builds_upon" } }] };
 
         var cy = cytoscape({
             container: document.getElementById('cy'),

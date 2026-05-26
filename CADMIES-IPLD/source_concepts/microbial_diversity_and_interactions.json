@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "microbial_diversity_and_interactions",
+  "title": "Microbial Diversity And Interactions",
+  "definition": "The variety and relationships among microorganisms in various environments, with significant implications for health, ecology, and industry.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T00:57:47.581502Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T00:57:47.581502Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The study of the many different types of tiny living things, like bacteria and fungi, that live all around us and their interactions. Some are beneficial, while others can cause disease.",
+    "intermediate": "An examination of the diverse microbial communities in various ecosystems, including humans, considering their roles in nutrition, immunity, pathogenesis, and biodegradation.",
+    "expert": "A broad field that explores the immense biodiversity of microorganisms, their interactions, and their ecological roles. It encompasses areas such as antibiotic resistance, symbiotic relationships, and industrial applications like bioremediation and genetic engineering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The rich and interconnected world of microbes that shapes our health, environment, and industry.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

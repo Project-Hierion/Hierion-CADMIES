@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "climate_change_feedback",
+  "title": "Climate Change Feedback",
+  "definition": "The complex, self-reinforcing interactions between global warming and various Earth systems that amplify the effects of climate change.",
+  "type": "Concept",
+  "domain": "Environmental Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T00:57:47.583747Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T00:57:47.583747Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "climate_change"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The interconnected processes by which climate change triggers further changes in Earth's systems, leading to even more warming and severe consequences.",
+    "intermediate": "The positive feedback loops between global warming and various factors such as melting ice, deforestation, and altered weather patterns that intensify the rate and severity of climate change.",
+    "expert": "The sophisticated interplay between human-induced climate changes and complex Earth systems, leading to self-reinforcing feedback loops that exacerbate global warming and its impacts on ecosystems, agriculture, and infrastructure."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "climate_change"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding climate change feedback mechanisms is essential for predicting the future of our planet and designing effective mitigation strategies.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

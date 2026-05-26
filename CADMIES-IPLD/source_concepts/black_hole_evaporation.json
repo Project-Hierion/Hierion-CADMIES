@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_evaporation",
+  "title": "Black Hole Evaporation",
+  "definition": "The slow evaporation of a black hole due to the emission of Hawking radiation, challenging our understanding of quantum mechanics and general relativity.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T00:57:47.583068Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T00:57:47.583068Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "black_holes"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A strange phenomenon where black holes, despite their immense gravity, can slowly disappear over time due to mysterious particles called Hawking radiation.",
+    "intermediate": "The theoretical process by which black holes emit radiation that causes them to gradually lose mass and eventually evaporate, according to quantum mechanics and general relativity.",
+    "expert": "The intriguing prediction of Hawking radiation and black hole evaporation that challenges our understanding of the interplay between gravity, quantum mechanics, and thermodynamics, with implications in astrophysics, cosmology, and the study of singularities."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "black_holes"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Black hole evaporation offers a tantalizing glimpse into the deepest mysteries of the universe and our fundamental understanding of physics.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

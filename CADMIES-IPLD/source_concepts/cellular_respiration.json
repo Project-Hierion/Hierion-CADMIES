@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cellular_respiration",
+  "title": "Cellular Respiration",
+  "definition": "The process by which cells convert organic matter and oxygen into ATP, the energy currency of life.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T00:57:47.580930Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T00:57:47.580930Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A complex metabolic process that converts food (like sugar) into the energy required to power our bodies. Oxygen is essential for this process.",
+    "intermediate": "The biochemical pathway responsible for generating ATP, the primary energy carrier in cells, through a series of reactions involving glycolysis, the citric acid cycle, and the electron transport chain.",
+    "expert": "A fundamental process that enables organisms to extract energy from nutrients and oxygen, powering all life on Earth. It involves intricate molecular mechanisms, including enzyme-catalyzed reactions and proton gradients, to create a highly efficient energy conversion system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The life-sustaining process that enables cells to harness the chemical energy stored in nutrients for growth, reproduction, and maintenance.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

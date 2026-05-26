@@ -1,58 +1,60 @@
 #!/usr/bin/env bash
 # ============================================================================
-# Buttercup Training Startup — Paperspace cadmies-snagnar
+# CADMIES Paperspace Startup
 # ============================================================================
-# Reinstalls dependencies and launches HIEROS training.
-# Paperspace wipes system packages between sessions, so we reinstall each time.
+# Installs everything needed for a fresh Paperspace machine:
+# system deps, Ollama, Python packages, models.
+# Run once per session: bash scripts/startup.sh
 # ============================================================================
 
-echo "🚀 Buttercup HIEROS Startup"
-echo "============================"
+echo "🚀 CADMIES Paperspace Startup"
+echo "=============================="
 
 # ----------------------------------------
 # Step 1: Install system dependencies
 # ----------------------------------------
 echo "[1/5] Installing system packages..."
-apt-get update -qq && apt-get install -y -qq zstd ffmpeg > /dev/null 2>&1
-echo "   ✅ zstd, ffmpeg"
+apt-get update -qq && apt-get install -y -qq zstd curl > /dev/null 2>&1
+echo "   ✅ zstd, curl"
 
 # ----------------------------------------
-# Step 2: Fix requirements.txt (jaxlib 0.4.16 no longer exists)
+# Step 2: Install Ollama
 # ----------------------------------------
-echo "[2/5] Patching requirements..."
-sed -i 's/jax==0.4.16/jax==0.4.30/' /storage/HIEROS/requirements.txt
-sed -i 's/jaxlib==0.4.16/jaxlib==0.4.30/' /storage/HIEROS/requirements.txt
-echo "   ✅ JAX versions bumped to 0.4.30"
+echo "[2/5] Installing Ollama..."
+if ! command -v ollama &> /dev/null; then
+    curl -fsSL https://ollama.com/install.sh | sh > /dev/null 2>&1
+    echo "   ✅ Ollama installed"
+else
+    echo "   ✅ Ollama already installed"
+fi
 
 # ----------------------------------------
-# Step 3: Install Python dependencies
+# Step 3: Install Python packages
 # ----------------------------------------
 echo "[3/5] Installing Python packages..."
-pip install -r /storage/HIEROS/requirements.txt -q
-pip install cloudpickle==2.2.1 -q
-pip install ale-py==0.8.0 -q
-echo "   ✅ Python packages"
+pip install ollama dag_cbor multiformats -q 2>&1 | tail -1
+echo "   ✅ ollama, dag_cbor, multiformats"
 
 # ----------------------------------------
-# Step 4: Install Atari ROMs
+# Step 4: Launch Ollama
 # ----------------------------------------
-echo "[4/5] Installing Atari ROMs..."
-pip install autorom -q
-mkdir -p /storage/atari_roms
-ale-import-roms /storage/atari_roms > /dev/null 2>&1
-echo "   ✅ 104 ROMs installed"
+echo "[4/5] Starting Ollama..."
+ollama serve &
+sleep 3
+echo "   ✅ Ollama running"
 
 # ----------------------------------------
-# Step 5: Verify GPU
+# Step 5: Pull models
 # ----------------------------------------
-echo "[5/5] Checking GPU..."
-nvidia-smi --query-gpu=name,memory.total --format=csv,noheader
+echo "[5/5] Pulling models..."
+ollama pull mistral:7b
+echo "   ✅ mistral:7b"
 echo ""
-
 echo "✅ Ready!"
 echo ""
-echo "To resume Buttercup:"
-echo "  python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_size additional_inputs --max_hierarchy 2 --subgoal_visualization True --dynamics_model s5 --task atari_breakout --tensorboard_logging True --wandb_logging False --batch_size 16 --batch_length 64 --save_every 500 --from_checkpoint /storage/HIEROS/logs/atari_breakout-20260524-040723/checkpoint.ckpt"
+echo "To pull additional models:"
+echo "  ollama pull codestral:22b"
+echo "  ollama pull tinyllama:1.1b"
 echo ""
-echo "Or check for the latest checkpoint:"
-echo "  ls -lt /storage/HIEROS/logs/atari_breakout-*/checkpoint.ckpt | head -1"
+echo "To start harvesting:"
+echo "  python harvest/harvest_full_pipeline.py --auto --with-relationships"

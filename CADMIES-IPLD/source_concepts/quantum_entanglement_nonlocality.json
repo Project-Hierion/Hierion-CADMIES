@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_entanglement_nonlocality",
+  "title": "Quantum Entanglement Nonlocality",
+  "definition": "The phenomenon where entangled particles exhibit correlations that cannot be explained by local hidden variable theories, implying instantaneous communication beyond the speed of light.",
+  "type": "Concept",
+  "domain": "Quantum Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T00:57:47.579089Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T00:57:47.579089Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "quantum_entanglement"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Entangled particles are linked in such a way that the state of one particle instantly affects the other, regardless of distance. This is often referred to as 'spooky action at a distance' by Einstein.",
+    "intermediate": "Quantum entanglement is a phenomenon where two or more particles become correlated such that measuring one instantaneously determines the state of the other. This violates classical notions of locality and has profound implications for our understanding of the nature of reality.",
+    "expert": "Quantum entanglement is a fundamental aspect of quantum mechanics that challenges our intuition about space, time, and causality. It implies non-locality, meaning that measurements on one entangled particle can instantaneously affect another, regardless of the distance between them. This has been experimentally confirmed through Bell's inequality tests."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "quantum_entanglement"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Measurements on one entangled particle can instantaneously affect another, regardless of the distance between them",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

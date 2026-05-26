@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hormonal_balance",
+  "title": "Hormonal Balance",
+  "definition": "The delicate regulation of hormone levels in living organisms to maintain health and physiological functions.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T00:57:47.582324Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T00:57:47.582324Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "endocrine_system"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Balancing the different chemicals that control various body functions, like growth, metabolism, and reproduction, for optimal health.",
+    "intermediate": "The intricate system of negative feedback loops controlling hormone production and distribution to ensure proper bodily functions.",
+    "expert": "The complex network of endocrine glands and their chemical messengers (hormones) that maintain homeostasis through the regulation of various physiological processes, with implications in evolutionary biology, genetic disorders, and reproductive medicine."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding hormonal balance sheds light on the intricate interplay between different body systems and their role in maintaining overall health.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

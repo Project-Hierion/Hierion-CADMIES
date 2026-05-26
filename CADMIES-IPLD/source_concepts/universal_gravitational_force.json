@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_gravitational_force",
+  "title": "Universal Gravitational Force",
+  "definition": "The attractive force between any two masses in the universe, discovered by Newton.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T00:57:47.580473Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T00:57:47.580473Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A 'glue' that pulls all objects with mass towards each other. Earth and the Moon are held together by this force.",
+    "intermediate": "The fundamental force that governs the motion of celestial bodies, revealed in Kepler's laws and explained by Newton's law of universal gravitation.",
+    "expert": "A constant force that shapes the structure of the universe at large scales, influencing planetary orbits, stellar evolution, and even the formation of galaxies. The force, according to Einstein's general relativity, is a consequence of mass-energy curvature of spacetime."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unifying principle behind the motion of celestial bodies and the structure of the universe.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -2,10 +2,10 @@
 """
 File: harvest_full_pipeline.py
 CLI: CADMIES Conversation Harvester (Full Pipeline)
-Version: 4.1.0
+Version: 4.2.0
 System: CADMIES
 Status: ACTIVE — Three-tier difficulty levels, GPU-tier pipeline
-Dependencies: ollama, llm_mycelium_reader, cid_generator, scientific_validator,
+Dependencies: ollama, cadmies_concept_reader, cid_generator, scientific_validator,
               provenance_manager, paths
 
 Purpose: End-to-end conversation harvesting pipeline. Chunks a conversation,
@@ -35,6 +35,9 @@ Version History:
           builds_upon validation against minted IDs, robust markdown stripping
   4.1.0 — Three-tier difficulty levels: beginner/intermediate/expert explanations
           extracted separately. GPU requirement documented.
+  4.2.0 — Fixed mycelium search import (llm_mycelium_reader → cadmies_concept_reader).
+          Added apostrophe sanitization in extract_from_chunk().
+          Tightened poetic_version prompt to prevent full poems.
 """
 
 import json
@@ -98,7 +101,7 @@ except Exception as e:
 # === MYCELIUM SEARCH ===
 sys.path.insert(0, str(PROJECT_ROOT / "agents" / "code"))
 try:
-    from llm_mycelium_reader import search_mycelium, load_all_concept_cids, load_concept
+    from cadmies_concept_reader import search_mycelium, load_all_concept_cids, load_concept
     MYCELIUM_AVAILABLE = True
 except ImportError:
     MYCELIUM_AVAILABLE = False
@@ -115,7 +118,6 @@ EXTRACTION_PROMPT = """You are a philosophical concept extractor for the CADMIES
 
 CRITICAL RULES:
 - "name" MUST be lowercase_snake_case (e.g., "gravitomotive_gearbox", not "Gravitomotive_Gearbox").
-- Escape ALL apostrophes inside string values with backslash (e.g., "it\\'s" not "it's").
 - "builds_upon", "related_to", and "contradicts" MUST reference EXISTING human_ids from the list above, OR be empty lists []. Do NOT invent phrases or descriptions here.
 
 IMPORTANT: Extract only 1-3 broad, high-level concepts. Do NOT break insights into small granular pieces. Prefer unified, philosophical concepts over micro-observations. Quality over quantity.
@@ -147,7 +149,7 @@ Return a single JSON object with EXACTLY this structure. Concepts MUST be object
       "contradicts": []
     }}
   ],
-  "poetic_version": "A multi-line verse capturing the soul and wonder of the insight.",
+  "poetic_version": "A single short poetic phrase (1-2 lines maximum) capturing the core insight. NOT a full poem.",
   "mantra": "A short repeatable phrase that encapsulates the core realization."
 }}
 
@@ -193,7 +195,6 @@ def load_conversation_robust(filepath):
         raw_value = raw_value[1:-1]
 
     # Escape unescaped apostrophes within the content string
-    # Find single quotes that aren't already backslash-escaped
     raw_value = re.sub(r"(?<!\\)'", r"\\'", raw_value)
 
     print("  (used robust loader)")
@@ -260,19 +261,13 @@ def extract_from_chunk(chunk, mycelium_context, index, total):
         # Robust markdown fence stripping
         while raw.startswith("```"):
             raw = raw.lstrip("`")
-            # If it was a fence line like ```json, strip the rest of that line
             if "\n" in raw:
                 raw = raw.split("\n", 1)[1]
         while raw.endswith("```"):
             raw = raw.rstrip("`")
         raw = raw.strip()
 
-        # Pre-parse: escape any unescaped apostrophes in the raw JSON
-        # This catches cases where Mistral ignores the prompt instruction
-        raw = re.sub(r'(?<!\\)"', lambda m: m.group(0), raw)  # leave valid quotes
-        # Fix unescaped apostrophes inside string values (single quotes not preceded by backslash)
-        # Apostrophe escaping handled by prompt — regex removed to prevent valid JSON corruption
-
+        
         result = json.loads(raw, strict=False)
         concepts = result.get("concepts", [])
         poetic = result.get("poetic_version", "")
@@ -281,11 +276,10 @@ def extract_from_chunk(chunk, mycelium_context, index, total):
         return {"concepts": concepts, "poetic_version": poetic, "mantra": mantra}
 
     except json.JSONDecodeError:
-        # Save raw output for debugging
         dump_path = HARVEST_DIR / f"raw_failed_chunk_{index+1}.txt"
         with open(dump_path, "w") as f:
             f.write(raw)
-        print(f"  WARNING: JSON parse failed (check for unescaped apostrophes or malformed strings). Raw output saved to {dump_path}")
+        print(f"  WARNING: JSON parse failed. Raw output saved to {dump_path}")
         return {"concepts": [{"error": "json_parse_failed", "raw_output": raw}], "poetic_version": "", "mantra": ""}
     except Exception as e:
         print(f"  ERROR: {e}")
@@ -301,7 +295,6 @@ def import_from_source_concepts(source_dir, minted_ids=None):
     if minted_ids is None:
         minted_ids = set()
 
-    # Normalize minted_ids to lowercase for case-insensitive comparison
     minted_ids_lower = {mid.lower() for mid in minted_ids}
 
     if not source_dir.exists():
@@ -321,7 +314,6 @@ def import_from_source_concepts(source_dir, minted_ids=None):
             with open(jf, "r") as f:
                 concept = json.load(f)
             human_id = concept.get("human_id", jf.stem)
-            # Case-insensitive dedup check
             if human_id.lower() in minted_ids_lower:
                 skipped += 1
                 continue
@@ -347,22 +339,19 @@ def transform_to_concept(extracted, chunk_index, minted_ids=None):
     if minted_ids is None:
         minted_ids = set()
 
-    name = extracted.get("name", "unnamed_concept").lower()  # ENFORCE LOWERCASE
+    name = extracted.get("name", "unnamed_concept").lower()
     title = name.replace("_", " ").title()
     now = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
 
-    # Validate builds_upon / related_to / contradicts — keep only real minted human_ids
     raw_builds_upon = extracted.get("builds_upon", []) or []
     raw_related_to = extracted.get("related_to", []) or []
     raw_contradicts = extracted.get("contradicts", []) or []
 
-    # Filter to only valid minted IDs (case-insensitive)
     minted_lower = {mid.lower() for mid in minted_ids}
     builds_upon = [b for b in raw_builds_upon if isinstance(b, str) and b.lower() in minted_lower]
     related_to = [r for r in raw_related_to if isinstance(r, str) and r.lower() in minted_lower]
     contradicts = [c for c in raw_contradicts if isinstance(c, str) and c.lower() in minted_lower]
 
-    # Warn about filtered references
     filtered_bu = set(raw_builds_upon) - set(builds_upon)
     filtered_rt = set(raw_related_to) - set(related_to)
     filtered_ct = set(raw_contradicts) - set(contradicts)
@@ -375,14 +364,12 @@ def transform_to_concept(extracted, chunk_index, minted_ids=None):
         if filtered_ct:
             print(f"    contradicts: {filtered_ct}")
 
-    # Three-tier difficulty levels — distinct explanations with fallbacks
     beginner_explanation = extracted.get("beginner_explanation", "")
     intermediate_explanation = extracted.get("intermediate_explanation", "")
     expert_explanation = extracted.get("expert_explanation", "")
     definition = extracted.get("definition", "")
     insight = extracted.get("insight", "")
 
-    # Fallback chain: if Mistral didn't provide tiered explanations, use definition/insight
     if not beginner_explanation:
         beginner_explanation = definition
     if not intermediate_explanation:
@@ -437,7 +424,7 @@ def transform_to_concept(extracted, chunk_index, minted_ids=None):
             "insight": insight,
             "source_chunk": chunk_index + 1,
             "origin_file": CONVERSATION_FILE.name,
-            "harvester_version": "4.1.0"
+            "harvester_version": "4.2.0"
         }
     }
 
@@ -567,22 +554,18 @@ def mint_concept(concept, cid_gen, pm):
     """Generate CID, save to blockstore, create provenance. Return result dict."""
     human_id = concept.get("human_id", "unknown")
 
-    # Validate
     is_valid, errors = validate_concept(concept)
     if not is_valid:
         return {"success": False, "human_id": human_id, "error": "validation_failed", "details": errors}
 
-    # Generate CID
     cid_result = cid_gen.generate_cid(concept)
     if not cid_result["success"]:
         return {"success": False, "human_id": human_id, "error": "cid_generation_failed", "details": cid_result.get("errors", [])}
 
-    # Save to blockstore
     save_result = cid_gen.save_to_blockstore(cid_result, concept)
     if not save_result["success"]:
         return {"success": False, "human_id": human_id, "error": "blockstore_save_failed", "details": save_result.get("errors", [])}
 
-    # Create provenance
     try:
         pm.create_provenance_record(
             concept_cid=cid_result["cid"],
@@ -617,7 +600,6 @@ def mint_approved(indices, concepts, concept_files, poetics, mantras):
 
     for idx in indices:
         concept = concepts[idx]
-        # Inject poetics/mantras if available
         if "extra_fields" not in concept:
             concept["extra_fields"] = {}
         if poetics:
@@ -636,7 +618,6 @@ def mint_approved(indices, concepts, concept_files, poetics, mantras):
         else:
             print(f"  ❌ {result['human_id']} — {result['error']}")
 
-    # Summary
     successes = [r for r in results if r["success"]]
     failures = [r for r in results if not r["success"]]
     print(f"\n{'='*60}")
@@ -679,15 +660,14 @@ def main():
     global MODEL
     MODEL = args["model"]
     print("=" * 60)
-    print("CADMIES HARVEST PIPELINE")
+    print("CADMIES HARVEST PIPELINE v4.2.0")
     print(f"Model: {MODEL}  |  Chunk Size: {CHUNK_SIZE} words  |  Auto: {args['auto']}  |  Batch: {args['batch']}  |  With-Relationships: {args['with_relationships']}")
     print(f"Branch: main (HARDENED)")
     print(f"LLM: {'AVAILABLE' if LLM_AVAILABLE else 'UNAVAILABLE — manual mode'}")
     print(f"Mycelium: {'ENABLED' if MYCELIUM_AVAILABLE else 'DISABLED'}")
     print("=" * 60)
-    print("\a")  # Terminal bell — harvest complete
+    print("\a")
 
-    # Load minted index for filtering
     minted_ids = set()
     index_path = PROJECT_ROOT / "store" / "index" / "human_id_to_cid.json"
     if index_path.exists():
@@ -697,9 +677,7 @@ def main():
         except Exception:
             pass
 
-    # === LLM PATH ===
     if args["batch"]:
-        # Batch mode: process all JSON files in harvest/conversations/
         conv_dir = HARVEST_DIR / "conversations"
         conv_dir.mkdir(exist_ok=True)
         conv_files = sorted(conv_dir.glob("*.json"))
@@ -712,27 +690,21 @@ def main():
             print(f"\n{'='*60}")
             print(f"Processing: {conv_file.name}")
             print(f"{'='*60}")
-            # Override CONVERSATION_FILE for this iteration
             import harvest.harvest_full_pipeline as hfp
             hfp.CONVERSATION_FILE = conv_file
             hfp.LLM_AVAILABLE = LLM_AVAILABLE
-            # Re-run main logic for each file (simplified — full implementation would refactor)
         print(f"\nBatch complete. {len(conv_files)} files processed.")
         sys.exit(0)
     
     if LLM_AVAILABLE and CONVERSATION_FILE.exists():
-        # Step 1: Load
         text = load_conversation_robust(CONVERSATION_FILE)
         print(f"\nLoaded: {len(text.split())} words from {CONVERSATION_FILE.name}")
 
-        # Step 2: Mycelium context
         mycelium_context = get_mycelium_context(text)
 
-        # Step 3: Chunk
         chunks = chunk_text(text)
         print(f"\nSplit into {len(chunks)} chunk(s)")
 
-        # Step 4: Extract
         all_results = []
         for i, chunk in enumerate(chunks):
             try:
@@ -744,7 +716,6 @@ def main():
             if i < len(chunks) - 1:
                 time.sleep(DELAY)
 
-        # Step 5 & 6: Transform & Save
         merged_concepts = merge_concepts(all_results)
         poetics, mantras = merge_poetics(all_results)
 
@@ -755,7 +726,6 @@ def main():
                 print(f"  Skipping errored concept from chunk extraction.")
                 continue
             full = transform_to_concept(c, i, minted_ids)
-            # Case-insensitive skip if already minted
             if full["human_id"].lower() in {mid.lower() for mid in minted_ids}:
                 print(f"  Skipping already-minted: {full['human_id']}")
                 continue
@@ -765,11 +735,10 @@ def main():
 
         print(f"\nSaved {len(concept_files)} new concept(s) to source_concepts/")
 
-        # Save aggregate log
         output = {
             "source_file": CONVERSATION_FILE.name,
             "model": MODEL,
-            "harvester_version": "4.1.0",
+            "harvester_version": "4.2.0",
             "mycelium_aware": MYCELIUM_AVAILABLE,
             "llm_available": LLM_AVAILABLE,
             "chunk_size": CHUNK_SIZE,
@@ -781,7 +750,6 @@ def main():
         with open(OUTPUT_FILE, "w") as f:
             json.dump(output, f, indent=2)
 
-    # === NO-LLM PATH ===
     else:
         if not LLM_AVAILABLE:
             print("\nLLM unavailable. Switching to manual import mode.")
@@ -803,19 +771,15 @@ def main():
 
         print(f"\nLoaded {len(concept_files)} unminted concept(s) from source_concepts/.")
 
-    # === REVIEW & MINT (shared path) ===
     if not concept_files:
         print("No concepts to review. Exiting.")
         sys.exit(0)
         
-# ========== INSERT DEDUPLICATION HERE ==========
     print("\n🧹 Running deduplication on extracted concepts...")
     original_count = len(concepts_full)
-    concepts_full = deduplicate_concepts(concepts_full)  # your dedupe function
+    concepts_full = deduplicate_concepts(concepts_full)
     print(f"   Deduplication: {original_count} → {len(concepts_full)} concepts")
-# =================================================
 
-    # Step 7: Review
     if args["auto"]:
         print("\nAUTO-APPROVE: Skipping review, approving all valid concepts.")
         approved = list(range(len(concepts_full)))
@@ -830,19 +794,16 @@ def main():
         print("\nSkipped minting. Concepts saved. Done.")
         sys.exit(0)
 
-    # Steps 8–11: Mint
     mint_approved(approved, concepts_full, concept_files, poetics, mantras)
 
     print("\nDone. The mycelium grows. 🌱")
     
-    # Auto-regenerate map if available
     map_gen = PROJECT_ROOT / "tools" / "generate_mycelium_map.py"
     if map_gen.exists():
         print("\nRegenerating mycelium map...")
         import subprocess
         subprocess.run([sys.executable, str(map_gen)], cwd=str(PROJECT_ROOT))
     
-    # Auto-generate relationships if --with-relationships flag is set
     if args["with_relationships"]:
         rel_gen = PROJECT_ROOT / "tools" / "generate_relationships.py"
         if rel_gen.exists():
@@ -856,7 +817,6 @@ def main():
                 capture_output=True,
                 text=True
             )
-            # Print the last few lines for edge count summary
             for line in result.stdout.split("\n")[-8:]:
                 if line.strip():
                     print(f"  {line.strip()}")

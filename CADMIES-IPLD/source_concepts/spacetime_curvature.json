@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "spacetime_curvature",
+  "title": "Spacetime Curvature",
+  "definition": "The alteration of spacetime as a result of mass and energy, according to Einstein's theory of general relativity.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T00:57:47.577590Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T00:57:47.577590Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "gravity",
+      "general_relativity"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of spacetime like a rubber sheet stretched out. When heavy objects are placed on it, the space around them bends, just as a weight would cause a dent in the sheet.",
+    "intermediate": "In Einstein's general relativity, gravity is not a force but the curvature of spacetime caused by mass and energy. The presence of mass distorts the fabric of spacetime around it, causing objects to move along curved paths.",
+    "expert": "Einstein's theory of general relativity unifies gravity with the other fundamental forces by describing them as curvature in a four-dimensional space called spacetime. This concept revolutionized our understanding of gravity, leading to predictions such as gravitational waves."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Gravity is not a force but the curvature of spacetime caused by mass and energy",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

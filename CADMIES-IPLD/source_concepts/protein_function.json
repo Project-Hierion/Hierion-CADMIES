@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "protein_function",
+  "title": "Protein Function",
+  "definition": "Role of proteins in living organisms performing diverse functions.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T00:57:47.579929Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T00:57:47.579929Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Proteins are like multitasking molecules that help cells perform various tasks, such as building structures, making energy, and sending signals.",
+    "intermediate": "Protein sequences fold into specific three-dimensional structures that determine their function. Enzymes, structural proteins, transport proteins, and signaling proteins all play crucial roles in biology.",
+    "expert": "Understanding protein structure and function is key to unlocking secrets of life processes, drug design, and genetic diseases."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Proteins are the workhorses of life that enable complex organisms to exist.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}
