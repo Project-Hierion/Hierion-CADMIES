@@ -199,3 +199,13 @@ User-to-user CAR imports are technically possible but strongly discouraged. CID 
 - **Phase 49:** Create `public` branch with provenance-aware import
     
 - **50E:** Public-CADMIES CAR integration with remint-on-import policy documented
+
+### Session 021 Update — import_from_car.py v1.2.0 (2026-05-25)
+
+**What Changed:** `import_from_car.py` upgraded to v1.2.0. The index is now automatically updated during CAR import — no manual rebuild required. Every saved block (new, existing, or reminted with provenance) triggers an immediate index update via `update_index_entry()`. The index stays in sync with the blockstore throughout the import process.
+
+**Testing:** After importing a CAR with 287 blocks, the index correctly reflected all 687 entries without manual intervention. The summary now shows `📑 Index entries updated` count instead of the old conflict/skip breakdown.
+
+**Next Steps (Updated):**
+- **50F (Complete):** Automatic index update in `import_from_car.py` v1.2.0 ✅
+- **50G:** Harmonize `car_utils.calculate_cid()` with `cid_generator.py`

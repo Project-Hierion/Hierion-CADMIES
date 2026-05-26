@@ -269,3 +269,14 @@ License recommendations (MIT, CC BY-SA 4.0), CITATION.cff setup, README structur
 | 2026-05-23 | Buttercup: First intentional brick hit confirmed, age 3-4, 107K steps on A6000 |
 
 | 2026-05-25 | Session 020: 687 nodes, 466 edges, emergence at center. CAR import v1.1.0 with provenance preservation. car_utils moved to tools/core. Mycelium search fixed. Buddha's dependent origination visually proven. Buttercup 268K steps. |
+
+| 2026-05-25 | Session 021: Harvester v4.2.1 hardened (JSON parse bug fixed — missing commas, double-escaped apostrophes), CAR import v1.2.0 with auto index update, startup.sh hardened for bare machines, 9 new STEM concepts minted, 383 nodes 458 edges, hybrid Core+Gradient architecture scoped |
+
+| Concepts | 383 |
+| Edges | 458 |
+| Harvester | v4.2.1 |
+| Import from CAR | v1.2.0 |
+
+| 7 | Fix JSON parse failures in harvester | ✅ Session 021 |
+| 11 | Auto index update in CAR import | ✅ Session 021 |
+
