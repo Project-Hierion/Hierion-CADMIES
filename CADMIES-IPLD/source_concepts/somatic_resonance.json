@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "somatic_resonance",
+  "title": "Somatic Resonance",
+  "definition": "The internal vibrational experience resulting from conscious control and surrender during the vocalization of 'AH...mmmnn'.",
+  "type": "Concept",
+  "domain": "Philosophy of Consciousness",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.729152Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.729152Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "'Somatic Resonance' is the feeling of a gentle, natural sound that arises within you when you open your mouth to let out a sigh on a tone, without force or control. It's like a soft hum or buzz in your chest and head, and it can be experienced as the collapse of self-awareness back into a larger awareness.",
+    "intermediate": "'Somatic Resonance' is a kinesthetic and somatic experience that arises from the conscious control and surrender during the vocalization of 'AH...mmmnn'. It involves allowing the breath to find its own pitch and resonate in your chest, and then naturally transitioning into a sustained, phonetically ambiguous vibration that feels like a hum or buzz in your body.",
+    "expert": "'Somatic Resonance' is a novel exploration of consciousness through the vocalization of 'AH...mmmnn'. It represents a shift from technique-driven practice (such as chanting 'OM') to a more embodied, experiential understanding. The resonance arises from a deep relaxation and surrender, which requires trust in the breath's natural flow and the vibration's organic path to dissolution. This experience can be seen as a miniature model of the cosmos, encompassing creation, expansion, decay, and dissolution."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight is that 'Somatic Resonance' offers a unique and powerful means of exploring consciousness through the body, transcending traditional techniques such as mantra chanting.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

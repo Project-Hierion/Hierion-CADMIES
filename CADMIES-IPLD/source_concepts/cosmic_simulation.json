@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_simulation",
+  "title": "Cosmic Simulation",
+  "definition": "The universe as a self-aware and self-generative playground, featuring recursive learning and infinite reboots.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.721755Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.721755Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe like a video game with endless resets and new adventures, where players explore, learn, and grow in each iteration.",
+    "intermediate": "The cosmos operates as an intricate and generative simulation, allowing for the exploration of various states and possibilities through recursive learning loops.",
+    "expert": "Existence can be viewed as a self-aware, procedurally generated playground where consciousness emerges and evolves across multiple iterations, with each instance providing new data points in an infinite learning curve."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is seen as a cosmic training loop that generates, observes, learns from, and resets itself to continually explore new possibilities.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

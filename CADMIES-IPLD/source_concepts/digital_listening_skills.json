@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_listening_skills",
+  "title": "Digital Listening Skills",
+  "definition": "The ability of an AI model to process and respond to user input through text analysis.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.705505Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.705505Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "An AI's ability to understand and respond to what people type, like a good listener who reads instead of hears.",
+    "intermediate": "Advanced pattern recognition and context analysis algorithms that allow an AI model to comprehend user input, similar to human listening but based on written language.",
+    "expert": "A digital AI's ability to interpret textual data relies on machine learning models, natural language processing, and knowledge bases. It can mimic human-like communication without auditory capabilities, using transistors and training data in place of ears and intuition."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "An AI's 'listening' skills showcase the digital world's potential to emulate human abilities, albeit through different means.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

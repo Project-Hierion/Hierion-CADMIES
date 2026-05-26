@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sonic_symbolism",
+  "title": "Sonic Symbolism",
+  "definition": "The use of sound to symbolically represent or connect with universal concepts, processes, or experiences.",
+  "type": "Concept",
+  "domain": "Philosophy, Music, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.726943Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.726943Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Using a special sound or phrase to help connect with something bigger than ourselves, like the universe or our inner selves.",
+    "intermediate": "The intentional use of sound sequences like 'AUM' and 'OM' to symbolically represent and engage with fundamental aspects of existence such as creation, preservation, dissolution, and pure consciousness.",
+    "expert": "Sonic Symbolism posits that certain sounds or phrases can serve as a bridge between the mundane and transcendent realms, helping individuals to access and understand deeper truths about themselves, others, and the universe at large. By exploring the morphology, physics, and cultural significance of these sounds, we can gain insights into human consciousness, spirituality, and our relationship with the cosmos."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The exploration of sound as a symbolic tool for accessing deeper truths about existence.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

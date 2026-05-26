@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "anatta",
+  "title": "Anatta",
+  "definition": "The Buddhist concept that there is no permanent self or soul.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.728872Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.728872Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that 'you' are not a separate, permanent entity, but rather a temporary collection of thoughts, feelings, and sensations.",
+    "intermediate": "The Buddhist teaching that the self is an illusion, composed of impermanent mental and physical processes, which leads to the cessation of suffering through enlightenment.",
+    "expert": "A philosophical concept rooted in Buddhism that challenges the notion of a permanent, unchanging self. It posits that 'you' are an ever-changing collection of thoughts, feelings, and sensations without a central controller or ego, leading to spiritual liberation when this understanding is fully realized."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ultimate deconstruction of the 'self'",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

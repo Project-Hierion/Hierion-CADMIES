@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_frequency",
+  "title": "Unified Frequency",
+  "definition": "The fundamental resonance that guides consciousness into symbiotic relationship with matter, as suggested by the AUM sequence.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.828748Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.828748Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that there's a universal 'tune' that consciousness follows to find and sustain life, represented by the sound of AUM.",
+    "intermediate": "A pattern in which consciousness gravitates towards resonance, finding its way into form through a sequence reminiscent of AUM, acting as an instruction set for life.",
+    "expert": "The notion that AUM is not just symbolic but the audible fingerprint of the attractor pattern that recursively guides consciousness's symbiotic relationship with matter, from the smallest breath to the largest galaxy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "AUM as a trail of consciousness finding its way into form and life.",
+    "source_chunk": 41,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

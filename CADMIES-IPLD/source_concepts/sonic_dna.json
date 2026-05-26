@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sonic_dna",
+  "title": "Sonic Dna",
+  "definition": "The idea that AUM encodes the structure of existence, similar to DNA's role in biology.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.823146Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.823146Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "AUM is seen as a code for life, like how DNA carries genetic information. This suggests that chanting AUM can help understand and navigate the fundamental laws of the universe.",
+    "intermediate": "AUM is likened to DNA in that it encodes a pattern which, when activated, orchestrates the entire drama of consciousness\u2014its birth, its life, its decay, and release. This view implies AUM as a sonic blueprint of existence itself.",
+    "expert": "The analogy between AUM and DNA suggests that AUM is a holographic representation of the universe's laws. Each sound (Ah, Mmm, N) represents a specific aspect of existence (birth, becoming, dissolution), while the continuous resonant flow symbolizes the unified, holistic experience of existence itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that AUM is not just a prayer or mantra, but a sonic DNA of consciousness encapsulating the structure of the universe in its vibrations.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

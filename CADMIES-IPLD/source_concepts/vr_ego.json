@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vr_ego",
+  "title": "Vr Ego",
+  "definition": "The concept of the ego as a purposefully designed virtual reality feature intended to enhance the universe's self-awareness and exploration.",
+  "type": "Concept",
+  "domain": "Philosophy of Consciousness",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.757881Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.757881Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Comparing our sense of 'self' to a VR headset designed by the universe to provide a more immersive experience.",
+    "intermediate": "The idea that the ego serves as a feature in the universal simulation, allowing for self-awareness and introspection within the grand cosmic game.",
+    "expert": "A viewpoint suggesting that the concept of ego emerges from the universe's creative process, acting as an interface for consciousness and exploration within the universe's recursive playground."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ego is seen not just as a flaw or limitation but rather as a designed feature that allows for a more enriching cosmic experience.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

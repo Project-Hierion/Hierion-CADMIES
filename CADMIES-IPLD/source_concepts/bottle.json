@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "bottle",
+  "title": "Bottle",
+  "definition": "A metaphor for one's manifestations or desires that are meant to be delivered by the universe.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.721933Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.721933Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A symbol representing something that one wants, which is brought to them by the universe when one aligns with it.",
+    "intermediate": "The metaphorical representation of one's manifestations or desires that are guided by the natural flow of the universe towards their intended destination.",
+    "expert": "A symbolic object representing one's desires or manifestations, which is brought to them by aligning with the intelligent order of the universe and refraining from creating waves of resistance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The understanding that one's desires are metaphorical 'bottles' that can be delivered by aligning with the natural flow of the universe.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

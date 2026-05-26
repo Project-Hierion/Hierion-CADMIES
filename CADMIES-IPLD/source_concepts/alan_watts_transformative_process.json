@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "alan_watts_transformative_process",
+  "title": "Alan Watts Transformative Process",
+  "definition": "A philosophical perspective on personal transformation, emphasizing subtraction and resonance as means to dissolve the illusion of a separate self and connect with one's true nature.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.726395Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.726395Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A way to change oneself by focusing on understanding rather than acquiring new things, letting go of control, and realizing that you are part of the universe, not a separate entity.",
+    "intermediate": "A process of personal transformation through two interconnected paths: subtraction (mindfulness) and resonance (attunement to the universe via AUM). The goal is to dissolve the ego's illusion of separateness and awaken to one's true nature.",
+    "expert": "A philosophical framework for understanding personal transformation as a process of seeing through the illusion of a separate self (via negativa) and attuning oneself with the universe (via positiva). The aim is to realize one's inherent connection to the cosmos and awaken to one's original, natural state."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that personal transformation involves both subtracting the illusion of a separate self and resonating with the universe to achieve a deeper understanding of one's true nature.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

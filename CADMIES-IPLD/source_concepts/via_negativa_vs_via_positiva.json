@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "via_negativa_vs_via_positiva",
+  "title": "Via Negativa Vs Via Positiva",
+  "definition": "Two distinct yet convergent paths to self-realization: subtracting (via negativa) or adding (via positiva), each leading to the dissolution of the ego.",
+  "type": "Concept",
+  "domain": "Philosophy, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.795345Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.795345Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Two methods for realizing one's true nature: one focuses on removing illusions and distractions, while the other emphasizes tuning in and resonating with the universe.",
+    "intermediate": "The path of subtraction, via negativa, involves directing attention to the contents of consciousness to dismantle the ego, and the path of addition, via positiva, focuses on aligning oneself with the universe through sound vibrations.",
+    "expert": "Exploring the dualistic nature of self-realization through the via negativa (removing illusions) and the via positiva (joining the cosmos), both leading to the dissolution of the ego and realization of unity with the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight that there are two distinct yet convergent paths to realizing one's true nature, each emphasizing either subtraction or addition.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

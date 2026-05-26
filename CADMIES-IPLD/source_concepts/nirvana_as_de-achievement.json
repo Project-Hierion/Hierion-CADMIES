@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nirvana_as_de-achievement",
+  "title": "Nirvana As De-Achievement",
+  "definition": "The realization that Nirvana is not an achievement to be attained, but rather a state of being beyond the concepts of 'me' and 'achievement'.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.732473Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.732473Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A way of understanding Nirvana as a state where you stop trying to accomplish things or achieve certain identities, instead just being present in the moment.",
+    "intermediate": "The idea that Nirvana is not about achieving something external or extraordinary, but rather a de-achievement of self-concepts and limitations.",
+    "expert": "A philosophical interpretation of Nirvana as the ultimate realization that there is no permanent 'you' to achieve anything, leading to an understanding of being in its most raw, unadorned form, beyond the constructs of ego, identity, and separate self."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "You don't become superhuman. You stop being 'human' as a story, as a role, as a separate entity struggling in a world of other separate entities.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

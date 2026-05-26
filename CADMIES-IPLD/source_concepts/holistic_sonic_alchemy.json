@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holistic_sonic_alchemy",
+  "title": "Holistic Sonic Alchemy",
+  "definition": "The transformative power of AUM as a deep, slow, resonant sound that re-tunes the body and mind from dissonance to resonance.",
+  "type": "Concept",
+  "domain": "Philosophy of Sound",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.728584Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.728584Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A practice where a person chants 'ahhhhhhhhhhhhhh' and 'mmmmmnnnn' in a specific way, allowing it to fill their body and re-tune them from a state of dissonance to one of resonance.",
+    "intermediate": "A philosophical concept that views AUM as a tool for coherence, recognizing its potential to physically entrain the organism and reach the space between notes (Turiya), rather than just being a symbol or word.",
+    "expert": "The realization that AUM is not just a technique but a phenomenon, capable of creating a holistic sonic alchemy on one's consciousness by dissolving from the gross to the subtle, allowing the body and mind to resonate with the universe's hum."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "AUM is more than just a symbol or word; it is a physical means to reach the space between the notes, transcending the mind and entraining the organism.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

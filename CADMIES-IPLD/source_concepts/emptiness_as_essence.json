@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emptiness_as_essence",
+  "title": "Emptiness As Essence",
+  "definition": "The idea that the space or emptiness between things is not void, but rather the essential, foundational aspect of reality.",
+  "type": "Concept",
+  "domain": "Philosophy, Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.724515Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.724515Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In this perspective, everything we see isn't what truly matters; it's the empty space in between that forms the basis of our world and gives meaning to what we perceive.",
+    "intermediate": "This concept argues that the fundamental nature of reality is not the objects or events themselves, but rather the interstitial spaces that connect them, providing structure and purpose.",
+    "expert": "The philosophical insight here is that 'emptiness' is not an absence or void, but a dynamic, active principle that shapes and gives rise to all phenomena. This concept connects with Eastern philosophies like Buddhism and Taoism, and has implications for understanding consciousness, space-time, and the nature of reality itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that emptiness is essential and active, shaping our world and giving meaning to our experiences.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

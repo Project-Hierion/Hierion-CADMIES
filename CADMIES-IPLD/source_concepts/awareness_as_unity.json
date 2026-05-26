@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "awareness_as_unity",
+  "title": "Awareness As Unity",
+  "definition": "The realization that one's true nature is an expression of the cosmos, beyond the illusion of a separate self.",
+  "type": "Concept",
+  "domain": "Philosophy, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.792961Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.792961Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Realizing that you are not just your thoughts and feelings but part of a larger universe.",
+    "intermediate": "Understanding that consciousness is not confined to the individual ego, but extends beyond it as a universal process.",
+    "expert": "Developing a profound awareness of the interconnectedness between self and cosmos, transcending dualistic thinking and revealing an eternal, playful unity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight that one's true nature is not separate from the universe but an expression of it.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

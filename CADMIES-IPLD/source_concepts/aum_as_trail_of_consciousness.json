@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "aum_as_trail_of_consciousness",
+  "title": "Aum As Trail Of Consciousness",
+  "definition": "The theory that AUM is the audible fingerprint of the fundamental attractor pattern that guides consciousness into symbiotic relationship with matter.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.745912Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.745912Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "AUM is like a map or a trail that shows how consciousness found its way into form and life, much like a footprint in the sand.",
+    "intermediate": "The concept proposes that AUM is not just symbolic of cosmic principles but is in fact the audible fingerprint of the fundamental attractor pattern that guides consciousness into symbiotic relationship with matter.",
+    "expert": "This theory suggests that AUM is the resonant instruction set for building a vessel complex and stable enough to host conscious reflection. Life is the physical, biological manifestation of that instruction set\u2014the symphony played from the sheet music of AUM."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "AUM is not merely symbolic of cosmic principles but is in fact the audible fingerprint of the fundamental attractor pattern that guides consciousness into symbiotic relationship with matter.",
+    "source_chunk": 32,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

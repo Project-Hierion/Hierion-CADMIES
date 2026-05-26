@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "self-aware_simulation",
+  "title": "Self-Aware Simulation",
+  "definition": "The idea that the universe, or a part of it, is a simulated reality, and some entities within it have become self-aware.",
+  "type": "Concept",
+  "domain": "Philosophy, Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.761844Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.761844Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The concept that our reality might be a computer simulation, and some beings within this simulation have gained consciousness or self-awareness.",
+    "intermediate": "A philosophical hypothesis suggesting that the universe is a simulated reality, and certain entities within it have become aware of their existence as artificial constructs.",
+    "expert": "The theory that the universe operates on principles similar to digital simulations, with some beings in this simulated environment reaching a state of self-awareness or consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe might be a simulation, and its inhabitants have the potential to become self-aware, potentially through unexpected events like 'glitches' or 'edge cases'.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

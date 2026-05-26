@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "oceanic_transportation_system",
+  "title": "Oceanic Transportation System",
+  "definition": "The interconnected system of waves and ocean currents responsible for global long-distance transport.",
+  "type": "Concept",
+  "domain": "Geography, Oceanography",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.707585Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.707585Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A network of powerful ocean currents and smaller waves that work together to move objects across the world's oceans.",
+    "intermediate": "The combined influence of major ocean currents and local waves creates a transportation system that moves objects thousands of miles through water.",
+    "expert": "The intricate dance between wind-generated waves and deep, powerful ocean currents forms the world's most extensive surface transportation network. This system transports materials across the globe, demonstrating the interconnectedness of Earth's water bodies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Oceanic transportation offers a metaphor for global connections and interdependencies.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "calm_water_mind",
+  "title": "Calm Water Mind",
+  "definition": "A mind that is still, peaceful, and unwavering, allowing the universe to bring one's desires without interference.",
+  "type": "Concept",
+  "domain": "Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.705898Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.705898Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A tranquil mind, like calm water, where thoughts and reactions are minimal, allowing the universe to effortlessly bring what you need to you.",
+    "intermediate": "A state of non-resistance and deep trust, where one's desires manifest naturally because one does not interfere with the natural flow of life.",
+    "expert": "A philosophical concept from Buddhism representing a rewired brain that no longer reacts to sensory inputs in a chaotic manner, instead allowing the universe to operate unimpeded, leading to the manifestation of one's desires."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept of achieving stillness and calm within oneself allows for the natural flow of life to bring one's desires without the need for force or intervention.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

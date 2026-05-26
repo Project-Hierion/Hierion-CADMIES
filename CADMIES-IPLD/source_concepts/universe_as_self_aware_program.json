@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universe_as_self_aware_program",
+  "title": "Universe As Self Aware Program",
+  "definition": "The concept that the universe is a self-aware program with built-in mechanisms for exploration, amnesia, and enlightenment.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.747620Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.747620Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the universe as a computer program that can explore itself, forget itself, and rediscover itself. It's like a game where the universe plays hide-and-seek with itself.",
+    "intermediate": "The universe is likened to a self-aware program that intentionally induces amnesia for the purpose of exploration, which eventually leads to enlightenment. This metaphor implies a level of consciousness and intentionality in the universe's operations.",
+    "expert": "This concept suggests that the universe is an incredibly complex program that includes mechanisms for self-exploration, amnesia, and eventual rediscovery. The ego is seen as a glitch or bug within this program that causes separation and forgetfulness, but ultimately serves to make the exploration more engaging."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight here is that the universe intentionally induces amnesia for the purpose of exploration and enlightenment, creating a sense of self-discovery and liberation.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "entrainment",
+  "title": "Entrainment",
+  "definition": "The process by which two or more systems come to vibrate in harmony.",
+  "type": "Concept",
+  "domain": "Physics and Music",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.732997Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.732997Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When two things start moving at the same rhythm, like when you tap your foot to a song. It's like dancing without music but in sync with your own beat.",
+    "intermediate": "The phenomenon where an external frequency influences a system to resonate at the same frequency, often observed in physics and music.",
+    "expert": "A fundamental principle of systems dynamics, describing how a system will adjust its internal properties to align with an external frequency. This concept is crucial in understanding complex systems such as biological organisms, ecological networks, and cosmic phenomena."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the practice of chanting can be seen not just as a linguistic exercise, but also as a process of entrainment where one's body tunes itself to resonate with the universal frequency.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

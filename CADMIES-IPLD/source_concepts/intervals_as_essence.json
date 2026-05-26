@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "intervals_as_essence",
+  "title": "Intervals As Essence",
+  "definition": "The intervals or spaces between things are the fundamental essence that gives meaning, connection, and life.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.780783Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.780783Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In music, the silent space between notes is just as important as the notes themselves. Similarly, in life, the spaces between people, thoughts, and even atoms are essential for connections, understanding, and awareness.",
+    "intermediate": "The Chinese word 'k\u2019ung' represents the concept of space or emptiness, which not only defines utility but also signifies the fundamental aspect that makes things meaningful. This is the space between thoughts, people, atoms, stars, and everything in between.",
+    "expert": "This insight suggests that reality does not reside within objects or events but rather in the spaces that allow these to exist. It challenges our perception of the world as separate entities and invites us to embrace a holistic understanding of the universe where space is just as important as matter."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the significance of space, silence, and intervals as fundamental aspects of existence and experience.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

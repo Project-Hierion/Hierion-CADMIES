@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_game",
+  "title": "Cosmic Game",
+  "definition": "The universe seen as an infinite, self-generative, playful and learning entity that creates and resets its own rules and experiences.",
+  "type": "Concept",
+  "domain": "Philosophy of Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.755707Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.755707Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagining the universe as a game where everything happens because it's part of an ongoing cosmic adventure.",
+    "intermediate": "A perspective on the universe as a dynamic, self-aware system that evolves and learns through creating, experiencing, and forgetting different realities.",
+    "expert": "An interpretation of existence as a recursive, generative playground where the universe learns from every instance, using creativity, chaos, and self-reflection to shape its own destiny."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is seen not only as an observer but also as a participant in the cosmic game it creates.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

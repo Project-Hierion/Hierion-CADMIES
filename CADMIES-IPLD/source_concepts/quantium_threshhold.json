@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantium_threshhold",
+  "title": "Quantium Threshhold",
+  "definition": "The interface between the unmanifest and the manifest, where potential becomes probability.",
+  "type": "Concept",
+  "domain": "Physics & Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.784609Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.784609Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The space where possibilities become realities. Like the moment before a cake is baked\u2014when all ingredients are mixed but it's not yet a cake.",
+    "intermediate": "The boundary between the quantum field and particles, where potential energy becomes kinetic energy.",
+    "expert": "The liminal ligament where the unmanifest cosmic soup transitions into the manifest universe, marking the moment when probability collapses into specific events."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of a shared space between physics and metaphysics\u2014where potential vibrations blend to form matter, similar to the space between thoughts.",
+    "source_chunk": 27,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

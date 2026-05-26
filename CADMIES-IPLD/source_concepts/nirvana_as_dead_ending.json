@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nirvana_as_dead_ending",
+  "title": "Nirvana As Dead Ending",
+  "definition": "Nirvana as a state where sensory inputs dead-end and do not trigger emotional or mental fabrication.",
+  "type": "Concept",
+  "domain": "Philosophy, Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.726299Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.726299Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "default_mode_network"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In Nirvana, the brain stops creating stories around sensory inputs like physical pain, leading to a state without emotions, thoughts, or self-referential thinking.",
+    "intermediate": "Nirvana is understood as a state where the default mode network (DMN) activity reduces significantly, causing a dramatic decrease in self-referential thought, past/future projection, and narrative identity, thus stopping mental proliferations and craving/aversion.",
+    "expert": "Nirvana represents a profound shift in consciousness where sensory inputs are processed differently, bypassing the self-referential networks that generate emotions, thoughts, and narratives. This leads to an embodiment of 'nirodha' (cessation) and 'annica' (impermanence), resulting in the discontinuation of craving and aversion."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Nirvana is not about feeling peaceful; it's about the brain failing to generate a narrative or emotional cascade in response to stimuli, which leads to a state where there's only the first arrow (physical sensation) without the second arrow (mental and emotional fabrication).",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

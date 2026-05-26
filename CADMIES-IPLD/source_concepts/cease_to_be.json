@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cease_to_be",
+  "title": "Cease To Be",
+  "definition": "The act or state of allowing oneself to cease existing as a separate entity, revealing the inherent unity with the universe.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.740487Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.740487Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Letting go of one's self-identity and recognizing that we are all part of something greater than ourselves.",
+    "intermediate": "The radical cessation of individual consciousness, which reveals the interconnectedness and oneness with the universe according to certain philosophical traditions.",
+    "expert": "The dissolution of the ego's sense of separation from the universe, leading to a direct realization of one's inherent nature as pure awareness and non-dual consciousness. This idea is central to some Eastern philosophies such as Buddhism."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that true liberation comes not through transformation or personal effort, but through ceasing to be affected by the illusion of separate selfhood.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

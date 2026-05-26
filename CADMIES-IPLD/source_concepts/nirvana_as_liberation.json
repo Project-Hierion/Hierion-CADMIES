@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nirvana_as_liberation",
+  "title": "Nirvana As Liberation",
+  "definition": "The state or process of releasing oneself from the illusion of a separate self, resulting in a heightened sense of interconnectedness and unity with existence.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.713864Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.713864Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Nirvana is like letting go of fears, ego, and self to gain freedom and peace, similar to being released from jail.",
+    "intermediate": "Nirvana represents the dissolution of the separate self-sense, allowing for a direct experience of the interconnectedness of all things, transcending dualistic thinking.",
+    "expert": "Nirvana is the release from the illusion of a separate self, understood as a biological survival mechanism, revealing the inherent freedom and unity underlying existence itself, challenging conventional notions of self and identity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The paradoxical nature of Nirvana: it appears as annihilation to the ego but is, in reality, liberation from the illusion of separate existence.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

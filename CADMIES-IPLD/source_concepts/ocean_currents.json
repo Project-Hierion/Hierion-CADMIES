@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ocean_currents",
+  "title": "Ocean Currents",
+  "definition": "The natural flow of life, providence, karma, or divine order that moves things according to a larger, harmonious pattern.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.718092Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.718092Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The natural flow of the universe, which moves everything towards its intended destination.",
+    "intermediate": "A metaphorical representation of the inherent intelligence and purpose in the order of the universe that guides things to their destinations.",
+    "expert": "An allusion to the intelligent and harmonious pattern of the universe, which operates independently of individual will but can be aligned with through non-resistance for the manifestation of desires."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that the universe has an inherent intelligence and purpose that can be harnessed for the fulfillment of one's desires.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

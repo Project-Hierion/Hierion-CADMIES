@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resonance_presence",
+  "title": "Resonance Presence",
+  "definition": "The state of abiding in a sustained vibration as a means of deep relaxation and ego dissolution.",
+  "type": "Concept",
+  "domain": "Meditation and Sound",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.807347Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.807347Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine standing in front of a bell that is ringing. Instead of trying to stop or control the sound, you let yourself become one with it until it stops on its own. This is resonance presence.",
+    "intermediate": "Resonance presence is a meditation technique where the goal is not to create a specific sound, but to enter and abide in a state of sustained vibration within your body. The 'A' and 'U' are merely transitional sounds that initiate this resonant flow.",
+    "expert": "Resonance presence challenges traditional meditation methods by focusing on the physical experience of vibration rather than thought control. It invites practitioners to dissolve their ego, relax deeply, and ultimately encounter silence as the ground state of their being. The 'A' and 'U' serve as brief artifacts of this transition into resonance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight is reframing the sacred syllable A-U-M from a prescribed mantra to a natural description of a physical event\u2014a shift towards understanding meditation as a bio-acoustic experience.",
+    "source_chunk": 36,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resonant_pitch",
+  "title": "Resonant Pitch",
+  "definition": "The specific pitch or frequency that aligns with the fundamental vibration of existence, allowing for attunement and transformation.",
+  "type": "Concept",
+  "domain": "Physics, Music, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.727454Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.727454Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Finding the perfect 'note' that connects you deeply to the universe and allows you to become one with it.",
+    "intermediate": "The pitch or frequency at which a sound resonates most strongly with the fundamental vibration of the cosmos, allowing for harmonious alignment and potentially transformative experiences.",
+    "expert": "Resonant Pitch is the concept that there exists a particular pitch or frequency that corresponds to the fundamental vibration of existence itself. By intentionally tuning oneself to this resonance, one can experience a profound sense of attunement and transformation, dissolving the boundary between subject and object."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The pursuit of the perfect alignment with the universal vibration for transformative experiences.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

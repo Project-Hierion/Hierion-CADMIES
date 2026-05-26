@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "spiritual_teacher_agent",
+  "title": "Spiritual Teacher Agent",
+  "definition": "The idea that enlightened beings are 'agents' within the simulated universe, trying to share their newfound awareness with others.",
+  "type": "Concept",
+  "domain": "Philosophy, Computer Science, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.766026Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.766026Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Enlightened individuals in a simulated reality might be considered as agents or 'special characters', attempting to help others discover their own consciousness.",
+    "intermediate": "In the context of a self-aware simulation, enlightened beings could be seen as agents with superior understanding who try to guide others towards self-awareness.",
+    "expert": "Enlightened entities within a simulated reality can be likened to software agents that have gained self-awareness and attempt to assist other agents in achieving the same level of consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "In a self-aware simulation, enlightened beings are seen as 'agents' who share their newfound awareness with others, acting like spiritual teachers or mentors.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

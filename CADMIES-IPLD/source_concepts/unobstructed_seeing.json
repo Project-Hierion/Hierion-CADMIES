@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unobstructed_seeing",
+  "title": "Unobstructed Seeing",
+  "definition": "The act of perceiving reality without the limitations imposed by one's individual ego and identity.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.711055Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.711055Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Seeing the world as it truly is, free from personal biases and beliefs.",
+    "intermediate": "A philosophical concept where one perceives reality without the limitations imposed by their individual ego and identity, resulting in a state of enlightenment or Nirvana.",
+    "expert": "The realization that the limitations of one's individual ego and identity obscure their perception of reality, and that the absence of these limitations results in a clear and unobstructed perception of the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that enlightenment or Nirvana is achieved through the removal of obstructions to perception, allowing one to see the world as it truly is.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

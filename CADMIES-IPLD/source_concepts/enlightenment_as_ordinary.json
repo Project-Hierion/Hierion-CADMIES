@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "enlightenment_as_ordinary",
+  "title": "Enlightenment As Ordinary",
+  "definition": "The understanding that enlightenment is not a special or profound state but an ordinary, everyday experience accessible to everyone.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.789822Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.789822Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like recognizing that 'enlightenment' is simply being fully present and aware, something anyone can do anytime.",
+    "intermediate": "The concept that enlightenment is not a grand or mysterious state but an everyday experience of clear awareness and interconnectedness.",
+    "expert": "The philosophical realization that enlightenment is not a rare, extraordinary event but an ordinary, moment-to-moment realization of one's true nature."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Enlightenment as an ordinary experience, accessible to everyone.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

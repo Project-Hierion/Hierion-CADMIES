@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "calm_water_enlightenment",
+  "title": "Calm Water Enlightenment",
+  "definition": "The Buddhist metaphor for a tranquil, enlightened mind as still and clear as calm water.",
+  "type": "Concept",
+  "domain": "Philosophy, Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.711934Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.711934Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A peaceful and clear mind, like a mirror reflecting reality without distortion, is considered enlightened in Buddhism.",
+    "intermediate": "In Buddhism, the idea of still, untroubled water represents an enlightened state of mind, free from turbulence, craving, and delusion.",
+    "expert": "The 'calm water' metaphor in Buddhism signifies the goal of achieving a tranquil, reflective, and wise state of mind. This imagery encourages cultivating peace, clarity, and understanding amidst life's chaos."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'calm water' metaphor offers insight into the Buddhist pursuit of inner peace and wisdom.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

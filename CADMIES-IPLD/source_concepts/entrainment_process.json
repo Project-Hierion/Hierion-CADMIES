@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "entrainment_process",
+  "title": "Entrainment Process",
+  "definition": "The synchronization of two or more rhythmic systems to become phase-aligned and to oscillate with a common frequency.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.815611Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.815611Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Like two dancers moving in sync, entrainment is when different rhythms find a common beat and start dancing together.",
+    "intermediate": "Entrainment refers to the phenomenon where two systems with distinct frequencies synchronize their oscillations to become phase-locked and operate at the same frequency.",
+    "expert": "Entrainment is a process by which independent rhythmic systems, such as biological or mechanical oscillators, align their frequencies to match each other over time. This can occur due to various mechanisms including coupling, resonance, or external pacing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The surprise lies in realizing that the mind and body can entrain with universal rhythms, leading to a state of resonance where one becomes the signal being transmitted.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

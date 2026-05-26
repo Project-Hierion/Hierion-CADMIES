@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "asian_profound_depth",
+  "title": "Asian Profound Depth",
+  "definition": "A qualitative state in Asian philosophies and spiritualities signifying depth, mystery, and a wordless understanding beyond casual comprehension.",
+  "type": "Concept",
+  "domain": "Philosophy & Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.704238Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.704238Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A concept in Asian thought that denotes the 'deep' as something profound, abstruse, and more than just a physical measurement of distance or depth.",
+    "intermediate": "A qualitative aspect of Eastern philosophies and spiritualities that signifies an intangible, inexpressible dimension of existence, beyond rational explanation or logical understanding.",
+    "expert": "An essential characteristic of Asian wisdom traditions which points to a realm of reality that is experienced rather than defined, embodying the essence of Zen, Tao, and other mystical concepts that transcend linguistic boundaries."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The exploration of the 'deep' as a dimension beyond language or logic in Eastern philosophies and spiritualities.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

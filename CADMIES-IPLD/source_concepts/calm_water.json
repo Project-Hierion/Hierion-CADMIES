@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "calm_water",
+  "title": "Calm Water",
+  "definition": "A metaphor for a still, non-resistant mind that allows the universe to effortlessly deliver what is meant for it.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.713968Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.713968Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A calm and peaceful mind, like still water, where one doesn't create waves or push away their desires.",
+    "intermediate": "The state of a tranquil mind that does not interfere with the natural flow of life (the universe), allowing manifestations to reach it effortlessly.",
+    "expert": "A metaphorical state representing non-resistance, detachment from sensory inputs, and deep trust, which facilitates the alignment with the intelligent order of the universe for the fulfillment of one's desires."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that a still mind allows the universe to effortlessly deliver what is meant for it, instead of pushing it away.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

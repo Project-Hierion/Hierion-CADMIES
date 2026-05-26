@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sonic_alchemy",
+  "title": "Sonic Alchemy",
+  "definition": "The transformative power of using sound, specifically AUM, to reshape one's consciousness.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.802398Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.802398Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Using a specific chant (AUM) to change how you feel inside, bringing about a sense of harmony and relaxation.",
+    "intermediate": "The application of sound vibrations to alter one's consciousness, drawing upon mystical traditions and modern resonance theories.",
+    "expert": "A sonic methodology that leverages the Schumann Resonance, human body resonances, and wave physics to effect a profound shift in personal awareness, transcending traditional religious or philosophical interpretations of AUM."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The transformation of AUM from a symbol or concept into a tangible tool for altering consciousness through vibration.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

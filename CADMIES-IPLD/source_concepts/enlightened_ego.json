@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "enlightened_ego",
+  "title": "Enlightened Ego",
+  "definition": "The illusion of a separate self or ego that persists even in states of nondual awareness, hindering the complete realization of unity and interconnectedness.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T03:35:29.725850Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T03:35:29.725850Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "nondual_awareness"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Even though we may have glimpses of unity and interconnectedness, there is still a tendency to cling to our separate identity. This ego can be a barrier to fully realizing the nondual state.",
+    "intermediate": "In states of nondual awareness, the illusion of a separate self or ego may persist, hindering the complete realization of unity and interconnectedness. The enlightened ego is a remnant of dualistic thinking that clings to individual identity even in the face of the transcendent.",
+    "expert": "The enlightened ego refers to the illusion of a separate self or ego that persists even in states of nondual awareness. This ego is a residual manifestation of dualistic thinking, which can hinder the complete realization of unity and interconnectedness."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "nondual_awareness"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Even in states of nondual awareness, the illusion of a separate self or ego can persist, hindering the complete realization of unity and interconnectedness.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

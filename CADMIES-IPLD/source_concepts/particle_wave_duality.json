@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "particle_wave_duality",
+  "title": "Particle Wave Duality",
+  "definition": "The idea that AUM represents both specific, defined sounds (Particle) and a continuous, unbroken resonant flow (Wave), mirroring the dual nature of light.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-26T15:37:53.827830Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T15:37:53.827830Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "AUM is considered to be like both a single particle (the specific sounds Ah, Mmm, N) and a wave (the continuous resonance). This suggests that AUM can be experienced as both a discrete, transmissible entity and an all-encompassing, holistic experience.",
+    "intermediate": "The duality of AUM represents the idea that it can be both a specific, defined sequence of sounds (Particle) and an unbroken field of vibrations (Wave). This mirrors the deepest mystery in science\u2014light's dual nature as both particle and wave.",
+    "expert": "The duality of AUM symbolizes the idea that it represents discrete, transmissible bits (Particle) as well as an unbroken, holistic experience (Wave). This mirrors the concept of light being both a localized particle and a diffuse wave\u2014a notion central to quantum mechanics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition of AUM's dual nature as both specific sounds and continuous resonance, echoing the mystery of light's particle-wave duality.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}
