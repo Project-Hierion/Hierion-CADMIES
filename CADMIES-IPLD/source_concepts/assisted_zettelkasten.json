@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "assisted_zettelkasten",
+  "title": "Assisted Zettelkasten",
+  "definition": "The integration of an AI agent with a Zettelkasten system to streamline knowledge management tasks.",
+  "type": "Concept",
+  "domain": "Information Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from Dr. Rupert Rebentisch's blog 'Mycelium of Knowledge' \u2014 article: 'When AI Becomes Your Zettelkasten's Co-Pilot: How an Agent Changed My Knowledge Workflow'",
+      "confidence": 0.8,
+      "date": "2026-05-26T18:21:48.317254Z",
+      "reference": "https://www.mycelium-of-knowledge.org/when-ai-becomes-your-zettelkastens-co-pilot/"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T18:21:48.317254Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Using AI to help manage a personal knowledge base (Zettelkasten) by automating tasks like note-taking, reorganizing, and formatting.",
+    "intermediate": "Leveraging an AI agent to handle the technical aspects of maintaining a Zettelkasten, allowing for more focus on the ideas and learning process itself.",
+    "expert": "Incorporating AI into the Zettelkasten workflow as a collaborative tool that adapts to the user's specific context, facilitating active engagement with new concepts and efficient knowledge organization."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight is the use of AI not just as a passive tool for information retrieval, but as an active partner in learning and knowledge creation.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "auditory_learning",
+  "title": "Auditory Learning",
+  "definition": "A method of learning through listening, designed to absorb specialized terminology in a natural and effortless manner.",
+  "type": "Concept",
+  "domain": "Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from Dr. Rupert Rebentisch's blog 'Mycelium of Knowledge' \u2014 article: 'When AI Becomes Your Zettelkasten's Co-Pilot: How an Agent Changed My Knowledge Workflow'",
+      "confidence": 0.8,
+      "date": "2026-05-26T18:21:48.404749Z",
+      "reference": "https://www.mycelium-of-knowledge.org/when-ai-becomes-your-zettelkastens-co-pilot/"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T18:21:48.404749Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Learning new words by listening to them spoken, like hearing a language course during car rides or daily activities.",
+    "intermediate": "A technique that utilizes text-to-speech technology to teach specialized vocabulary in an engaging auditory format, enhancing memory retention and everyday integration.",
+    "expert": "An innovative approach for mastering complex terminology by converting it into coherent example sentences, then delivering them via a text-to-speech system. This technique promotes efficient learning through natural speech and contextual understanding, especially beneficial for foreign languages or specialized fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Unlocking language acquisition through engaging auditory experiences",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

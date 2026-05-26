@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "rag_system",
+  "title": "Rag System",
+  "definition": "An AI system that understands the semantic meaning behind a query, enabling it to surface relevant notes even if none of them contain those precise words.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from Dr. Rupert Rebentisch's blog 'Mycelium of Knowledge' \u2014 article: 'When AI Becomes Your Zettelkasten's Co-Pilot: How an Agent Changed My Knowledge Workflow'",
+      "confidence": 0.8,
+      "date": "2026-05-26T18:21:48.396141Z",
+      "reference": "https://www.mycelium-of-knowledge.org/when-ai-becomes-your-zettelkastens-co-pilot/"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T18:21:48.396141Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A smart assistant for your note-taking system. It can find and show you important notes based on the ideas they contain, not just specific keywords.",
+    "intermediate": "An AI system that leverages semantic analysis to retrieve relevant information from a growing Zettelkasten archive, even without exact keyword matches.",
+    "expert": "A paradigm shift in knowledge organization and retrieval. The RAG system uses deep learning techniques to understand the context of notes, enabling it to find related information even when keywords are not present."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Transforming a static archive into an interactive knowledge companion through semantic understanding.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

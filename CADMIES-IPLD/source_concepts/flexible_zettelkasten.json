@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "flexible_zettelkasten",
+  "title": "Flexible Zettelkasten",
+  "definition": "A durable and adaptable personal knowledge management system that leverages open formats, flexible tools, and reliable backups.",
+  "type": "Concept",
+  "domain": "Information Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from Dr. Rupert Rebentisch's blog 'Mycelium of Knowledge' \u2014 article: 'When AI Becomes Your Zettelkasten's Co-Pilot: How an Agent Changed My Knowledge Workflow'",
+      "confidence": 0.8,
+      "date": "2026-05-26T18:21:48.408036Z",
+      "reference": "https://www.mycelium-of-knowledge.org/when-ai-becomes-your-zettelkastens-co-pilot/"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T18:21:48.408036Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A way to organize and keep track of your information in a way that can grow with you and change as needed, using simple text files and tools like Git for backup.",
+    "intermediate": "A comprehensive approach to personal knowledge management utilizing open formats, versatile software, and reliable backups to ensure data durability, portability, consistency, and flexibility over time.",
+    "expert": "A holistic system for lifelong learning that emphasizes the use of open standards, adaptable tools, and robust backups to foster a future-proof, interoperable, and scalable knowledge repository."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight is combining flexible tools with an emphasis on data durability, portability, consistency, and flexibility to create a knowledge management system that can grow and adapt over time.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

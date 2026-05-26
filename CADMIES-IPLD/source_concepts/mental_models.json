@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mental_models",
+  "title": "Mental Models",
+  "definition": "A latticework of theories and concepts that serve as a framework for understanding the world.",
+  "type": "Concept",
+  "domain": "Cognitive Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from Dr. Rupert Rebentisch's blog 'Mycelium of Knowledge' \u2014 article: 'When AI Becomes Your Zettelkasten's Co-Pilot: How an Agent Changed My Knowledge Workflow'",
+      "confidence": 0.8,
+      "date": "2026-05-26T18:21:48.411710Z",
+      "reference": "https://www.mycelium-of-knowledge.org/when-ai-becomes-your-zettelkastens-co-pilot/"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T18:21:48.411710Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Mental models are mental representations of how things work, helping us make sense of the world around us. They can be simple or complex, explicit or implicit, and they play a crucial role in our decision-making process.",
+    "intermediate": "Mental models are the internal frameworks that individuals use to interpret and understand reality. They consist of a network of concepts, theories, and heuristics that help people make predictions, solve problems, and navigate complex situations.",
+    "expert": "Mental models are the invisible nets of our knowledge that provide a framework for understanding the world. They are dynamic, evolving over time as we gather new experiences and learn from them. By creating and refining mental models, individuals can make more informed decisions, foster creativity, and improve their overall thinking abilities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mental models serve as a foundation for our understanding of the world by organizing information and guiding decision-making.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

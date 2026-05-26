@@ -5,751 +5,255 @@
   "mycelium_aware": true,
   "llm_available": true,
   "chunk_size": 750,
-  "total_chunks": 24,
+  "total_chunks": 9,
   "concepts": [
     {
-      "name": "clueless_expert",
-      "definition": "A state of profound learning where one has a map but no comprehension of the territory; experiencing moments of enlightenment and frustration simultaneously.",
-      "domain": "Learning Processes",
-      "beginner_explanation": "Being in a new situation or learning something complex, feeling lost yet having insights that make everything seem clearer with each step.",
-      "intermediate_explanation": "A state of cognitive dissonance during the learning process where one has theoretical knowledge but lacks practical understanding and experiences flashes of comprehension amidst confusion.",
-      "expert_explanation": "A unique state of mind that transcends the dichotomy between being knowledgeable and ignorant, characterized by a continual interplay between chaos and revelation, as one delves deeper into an unfamiliar subject or context.",
-      "insight": "The paradoxical experience of being both clueless and insightful simultaneously during the learning process.",
+      "name": "assisted_zettelkasten",
+      "definition": "The integration of an AI agent with a Zettelkasten system to streamline knowledge management tasks.",
+      "domain": "Information Management",
+      "beginner_explanation": "Using AI to help manage a personal knowledge base (Zettelkasten) by automating tasks like note-taking, reorganizing, and formatting.",
+      "intermediate_explanation": "Leveraging an AI agent to handle the technical aspects of maintaining a Zettelkasten, allowing for more focus on the ideas and learning process itself.",
+      "expert_explanation": "Incorporating AI into the Zettelkasten workflow as a collaborative tool that adapts to the user's specific context, facilitating active engagement with new concepts and efficient knowledge organization.",
+      "insight": "The novel insight is the use of AI not just as a passive tool for information retrieval, but as an active partner in learning and knowledge creation.",
       "builds_upon": [],
       "related_to": [
-        "learning",
-        "cognitive dissonance",
-        "intellectual growth"
+        "zettelkasten",
+        "ai",
+        "information_management"
       ],
       "contradicts": []
     },
     {
-      "name": "asian_profound_depth",
-      "definition": "A qualitative state in Asian philosophies and spiritualities signifying depth, mystery, and a wordless understanding beyond casual comprehension.",
-      "domain": "Philosophy & Spirituality",
-      "beginner_explanation": "A concept in Asian thought that denotes the 'deep' as something profound, abstruse, and more than just a physical measurement of distance or depth.",
-      "intermediate_explanation": "A qualitative aspect of Eastern philosophies and spiritualities that signifies an intangible, inexpressible dimension of existence, beyond rational explanation or logical understanding.",
-      "expert_explanation": "An essential characteristic of Asian wisdom traditions which points to a realm of reality that is experienced rather than defined, embodying the essence of Zen, Tao, and other mystical concepts that transcend linguistic boundaries.",
-      "insight": "The exploration of the 'deep' as a dimension beyond language or logic in Eastern philosophies and spiritualities.",
+      "name": "voice_mode_learning",
+      "definition": "Using voice-enabled AI to engage in active learning during daily activities like driving or walking.",
+      "domain": "Education",
+      "beginner_explanation": "Learning by having conversations with an AI assistant during everyday activities, asking questions and seeking explanations on various topics.",
+      "intermediate_explanation": "Combining voice-enabled AI technology with active learning strategies to transform idle time into productive learning sessions.",
+      "expert_explanation": "Exploiting the conversational nature of AI to facilitate deep engagement with new concepts and promote lifelong learning through incidental education during daily routines.",
+      "insight": "The novel insight is the potential for voice-enabled AI to revolutionize informal learning experiences by making education more accessible, engaging, and integrated into daily life.",
       "builds_upon": [],
       "related_to": [
-        "Zen",
-        "Tao",
-        "Eastern Philosophy",
-        "Spirituality"
+        "ai",
+        "education",
+        "voice_assistant"
       ],
       "contradicts": []
     },
     {
-      "name": "digital_listening_skills",
-      "definition": "The ability of an AI model to process and respond to user input through text analysis.",
+      "name": "rag_system",
+      "definition": "An AI system that understands the semantic meaning behind a query, enabling it to surface relevant notes even if none of them contain those precise words.",
+      "domain": "Technology",
+      "beginner_explanation": "A smart assistant for your note-taking system. It can find and show you important notes based on the ideas they contain, not just specific keywords.",
+      "intermediate_explanation": "An AI system that leverages semantic analysis to retrieve relevant information from a growing Zettelkasten archive, even without exact keyword matches.",
+      "expert_explanation": "A paradigm shift in knowledge organization and retrieval. The RAG system uses deep learning techniques to understand the context of notes, enabling it to find related information even when keywords are not present.",
+      "insight": "Transforming a static archive into an interactive knowledge companion through semantic understanding.",
+      "builds_upon": [],
+      "related_to": [
+        "zettelkasten",
+        "semantic_analysis"
+      ],
+      "contradicts": []
+    },
+    {
+      "name": "llm_brms",
+      "definition": "A combination of Large Language Models (LLMs) and Business Rules Management Systems (BRMS), streamlining the process of AI-supported business rule processing.",
       "domain": "Artificial Intelligence",
-      "beginner_explanation": "An AI's ability to understand and respond to what people type, like a good listener who reads instead of hears.",
-      "intermediate_explanation": "Advanced pattern recognition and context analysis algorithms that allow an AI model to comprehend user input, similar to human listening but based on written language.",
-      "expert_explanation": "A digital AI's ability to interpret textual data relies on machine learning models, natural language processing, and knowledge bases. It can mimic human-like communication without auditory capabilities, using transistors and training data in place of ears and intuition.",
-      "insight": "An AI's 'listening' skills showcase the digital world's potential to emulate human abilities, albeit through different means.",
+      "beginner_explanation": "An innovative approach to automating business rules. LLMs help extract and standardize rules from documents, while BRMS ensures that the extracted rules are accurate and free of contradictions.",
+      "intermediate_explanation": "A two-stage process combining Large Language Models (LLMs) for rule extraction and standardization, followed by Business Rules Management Systems (BRMS) for automated decision-making based on validated rules.",
+      "expert_explanation": "Revolutionizing business process automation through a synergy of LLMs and BRMS. This approach allows for the labor-intensive manual transfer of rules into a BRMS to be drastically simplified, leading to more efficient and precise decision-making.",
+      "insight": "Bridging the gap between raw data and actionable business rules through AI-assisted processing.",
       "builds_upon": [],
       "related_to": [
-        "artificial_intelligence",
-        "natural_language_processing"
+        "business_rules",
+        "large_language_models"
       ],
       "contradicts": []
     },
     {
-      "name": "oceanic_transportation_system",
-      "definition": "The interconnected system of waves and ocean currents responsible for global long-distance transport.",
-      "domain": "Geography, Oceanography",
-      "beginner_explanation": "A network of powerful ocean currents and smaller waves that work together to move objects across the world's oceans.",
-      "intermediate_explanation": "The combined influence of major ocean currents and local waves creates a transportation system that moves objects thousands of miles through water.",
-      "expert_explanation": "The intricate dance between wind-generated waves and deep, powerful ocean currents forms the world's most extensive surface transportation network. This system transports materials across the globe, demonstrating the interconnectedness of Earth's water bodies.",
-      "insight": "Oceanic transportation offers a metaphor for global connections and interdependencies.",
+      "name": "agile_to_devops_evolution",
+      "definition": "The transformation of Agile methodologies into DevOps practices, focusing on streamlining development and operations to increase efficiency and value delivery.",
+      "domain": "IT and Software Development",
+      "beginner_explanation": "A journey from Agile (a way of working in software development) to DevOps (integrating development and operations), which makes the whole process faster, more efficient, and customer-focused.",
+      "intermediate_explanation": "The evolution of Agile methodologies into DevOps, emphasizing continuous integration, delivery, and feedback, aimed at reducing wait times and coordination problems across development and operations.",
+      "expert_explanation": "A philosophical shift from Agile (a software development approach) to DevOps (integrating development, operations, and QA), focusing on streamlining the entire value stream, reducing waste, and creating a continuous flow from idea to delivery.",
+      "insight": "The realization that Agile is not an end goal but a stepping stone towards a more holistic approach in software development \u2014 DevOps.",
       "builds_upon": [],
       "related_to": [
-        "oceanography",
-        "geography"
+        "agile",
+        "devops"
       ],
       "contradicts": []
     },
     {
-      "name": "calm_water_enlightenment",
-      "definition": "The Buddhist metaphor for a tranquil, enlightened mind as still and clear as calm water.",
-      "domain": "Philosophy, Religion",
-      "beginner_explanation": "A peaceful and clear mind, like a mirror reflecting reality without distortion, is considered enlightened in Buddhism.",
-      "intermediate_explanation": "In Buddhism, the idea of still, untroubled water represents an enlightened state of mind, free from turbulence, craving, and delusion.",
-      "expert_explanation": "The 'calm water' metaphor in Buddhism signifies the goal of achieving a tranquil, reflective, and wise state of mind. This imagery encourages cultivating peace, clarity, and understanding amidst life's chaos.",
-      "insight": "The 'calm water' metaphor offers insight into the Buddhist pursuit of inner peace and wisdom.",
+      "name": "auditory_learning",
+      "definition": "A method of learning through listening, designed to absorb specialized terminology in a natural and effortless manner.",
+      "domain": "Education",
+      "beginner_explanation": "Learning new words by listening to them spoken, like hearing a language course during car rides or daily activities.",
+      "intermediate_explanation": "A technique that utilizes text-to-speech technology to teach specialized vocabulary in an engaging auditory format, enhancing memory retention and everyday integration.",
+      "expert_explanation": "An innovative approach for mastering complex terminology by converting it into coherent example sentences, then delivering them via a text-to-speech system. This technique promotes efficient learning through natural speech and contextual understanding, especially beneficial for foreign languages or specialized fields.",
+      "insight": "Unlocking language acquisition through engaging auditory experiences",
       "builds_upon": [],
       "related_to": [
-        "buddhism",
-        "philosophy"
+        "specialized_vocabulary",
+        "text-to-speech"
       ],
       "contradicts": []
     },
     {
-      "name": "calm_water",
-      "definition": "A metaphor for a still, non-resistant mind that allows the universe to effortlessly deliver what is meant for it.",
-      "domain": "Philosophy",
-      "beginner_explanation": "A calm and peaceful mind, like still water, where one doesn't create waves or push away their desires.",
-      "intermediate_explanation": "The state of a tranquil mind that does not interfere with the natural flow of life (the universe), allowing manifestations to reach it effortlessly.",
-      "expert_explanation": "A metaphorical state representing non-resistance, detachment from sensory inputs, and deep trust, which facilitates the alignment with the intelligent order of the universe for the fulfillment of one's desires.",
-      "insight": "The realization that a still mind allows the universe to effortlessly deliver what is meant for it, instead of pushing it away.",
+      "name": "content_conversion",
+      "definition": "The process of converting data from one format to another, such as PDF to Markdown, for improved organization and workflow integration.",
+      "domain": "Technology",
+      "beginner_explanation": "Transforming a document written in a difficult-to-edit format (like PDF) into a simpler, more flexible format (like Markdown), making it easier to access, organize, and use.",
+      "intermediate_explanation": "A process that leverages tools like marker-pdf to efficiently convert complex documents from one format to another, ensuring better integration within various workflows and projects.",
+      "expert_explanation": "The application of digital technologies for converting data between formats, such as PDF to Markdown, with the goal of enhancing content accessibility, organization, and analysis. This practice improves overall productivity and adaptability in numerous contexts.",
+      "insight": "Unlocking potential through efficient content conversion",
       "builds_upon": [],
       "related_to": [
-        "law_of_attraction",
-        "spiritual_practice"
+        "data_conversion",
+        "content_organization"
       ],
       "contradicts": []
     },
     {
-      "name": "ocean_currents",
-      "definition": "The natural flow of life, providence, karma, or divine order that moves things according to a larger, harmonious pattern.",
-      "domain": "Philosophy",
-      "beginner_explanation": "The natural flow of the universe, which moves everything towards its intended destination.",
-      "intermediate_explanation": "A metaphorical representation of the inherent intelligence and purpose in the order of the universe that guides things to their destinations.",
-      "expert_explanation": "An allusion to the intelligent and harmonious pattern of the universe, which operates independently of individual will but can be aligned with through non-resistance for the manifestation of desires.",
-      "insight": "The recognition that the universe has an inherent intelligence and purpose that can be harnessed for the fulfillment of one's desires.",
+      "name": "zettelkasten_system",
+      "definition": "A personal knowledge management system designed for capturing, organizing, and interlinking ideas, emphasizing durability, portability, and adaptability.",
+      "domain": "Information Management",
+      "beginner_explanation": "A method for keeping notes that helps you organize your thoughts, making it easy to find and connect related ideas. It's designed to last a lifetime and work with various tools as they evolve.",
+      "intermediate_explanation": "An information management system inspired by Niklas Luhmann\u2019s Zettelkasten method, focusing on long-term durability, portability, and adaptability through the use of open formats, structured file naming conventions, version control, and backup strategies.",
+      "expert_explanation": "A sophisticated personal knowledge management system that prioritizes long-term data preservation, system flexibility, and ease of migration between tools. Employing open standards like Markdown, structured file naming, Git for version control and backup, and automation scripts to maintain consistency, the Zettelkasten system is designed to remain functional in a rapidly evolving technological landscape.",
+      "insight": "The emphasis on flexibility, portability, and longevity makes the Zettelkasten system a resilient and future-proof approach to personal knowledge management.",
       "builds_upon": [],
       "related_to": [
-        "calm_water",
-        "manifestation"
+        "personal_knowledge_management",
+        "information_organization"
       ],
       "contradicts": []
     },
     {
-      "name": "bottle",
-      "definition": "A metaphor for one's manifestations or desires that are meant to be delivered by the universe.",
-      "domain": "Philosophy",
-      "beginner_explanation": "A symbol representing something that one wants, which is brought to them by the universe when one aligns with it.",
-      "intermediate_explanation": "The metaphorical representation of one's manifestations or desires that are guided by the natural flow of the universe towards their intended destination.",
-      "expert_explanation": "A symbolic object representing one's desires or manifestations, which is brought to them by aligning with the intelligent order of the universe and refraining from creating waves of resistance.",
-      "insight": "The understanding that one's desires are metaphorical 'bottles' that can be delivered by aligning with the natural flow of the universe.",
+      "name": "flexible_zettelkasten",
+      "definition": "A durable and adaptable personal knowledge management system that leverages open formats, flexible tools, and reliable backups.",
+      "domain": "Information Management",
+      "beginner_explanation": "A way to organize and keep track of your information in a way that can grow with you and change as needed, using simple text files and tools like Git for backup.",
+      "intermediate_explanation": "A comprehensive approach to personal knowledge management utilizing open formats, versatile software, and reliable backups to ensure data durability, portability, consistency, and flexibility over time.",
+      "expert_explanation": "A holistic system for lifelong learning that emphasizes the use of open standards, adaptable tools, and robust backups to foster a future-proof, interoperable, and scalable knowledge repository.",
+      "insight": "The novel insight is combining flexible tools with an emphasis on data durability, portability, consistency, and flexibility to create a knowledge management system that can grow and adapt over time.",
       "builds_upon": [],
       "related_to": [
-        "calm_water",
-        "ocean_currents"
+        "zettelkasten",
+        "personal_knowledge_management"
       ],
       "contradicts": []
     },
     {
-      "name": "nirvana_as_dead_ending",
-      "definition": "Nirvana as a state where sensory inputs dead-end and do not trigger emotional or mental fabrication.",
-      "domain": "Philosophy, Neuroscience",
-      "beginner_explanation": "In Nirvana, the brain stops creating stories around sensory inputs like physical pain, leading to a state without emotions, thoughts, or self-referential thinking.",
-      "intermediate_explanation": "Nirvana is understood as a state where the default mode network (DMN) activity reduces significantly, causing a dramatic decrease in self-referential thought, past/future projection, and narrative identity, thus stopping mental proliferations and craving/aversion.",
-      "expert_explanation": "Nirvana represents a profound shift in consciousness where sensory inputs are processed differently, bypassing the self-referential networks that generate emotions, thoughts, and narratives. This leads to an embodiment of 'nirodha' (cessation) and 'annica' (impermanence), resulting in the discontinuation of craving and aversion.",
-      "insight": "Nirvana is not about feeling peaceful; it's about the brain failing to generate a narrative or emotional cascade in response to stimuli, which leads to a state where there's only the first arrow (physical sensation) without the second arrow (mental and emotional fabrication).",
+      "name": "portable_language_lab",
+      "definition": "A method of learning languages on-the-go using interactive MP3 exercises generated by AI and a text-to-speech tool.",
+      "domain": "Language Learning",
+      "beginner_explanation": "Turning your car rides into language lessons using AI-generated audio exercises that help you learn new languages without screens or distractions.",
+      "intermediate_explanation": "A mobile, voice-based language learning system utilizing AI-generated MP3 files with specific language tasks and solutions for seamless integration into daily routines.",
+      "expert_explanation": "An innovative approach to language learning that leverages AI, text-to-speech technology, and structured audio exercises for efficient, convenient, and hands-free language practice during commutes or travel.",
+      "insight": "The novel insight is creating a portable, voice-based language lab using AI-generated interactive MP3 exercises tailored to the user's specific learning goals.",
       "builds_upon": [],
       "related_to": [
-        "default_mode_network",
-        "self-referential_thought",
-        "nirodha",
-        "annica",
-        "papa\u00f1ca"
+        "language_learning",
+        "AI"
       ],
       "contradicts": []
     },
     {
-      "name": "anatta",
-      "definition": "The Buddhist concept that there is no permanent self or soul.",
-      "domain": "Philosophy",
-      "beginner_explanation": "The idea that 'you' are not a separate, permanent entity, but rather a temporary collection of thoughts, feelings, and sensations.",
-      "intermediate_explanation": "The Buddhist teaching that the self is an illusion, composed of impermanent mental and physical processes, which leads to the cessation of suffering through enlightenment.",
-      "expert_explanation": "A philosophical concept rooted in Buddhism that challenges the notion of a permanent, unchanging self. It posits that 'you' are an ever-changing collection of thoughts, feelings, and sensations without a central controller or ego, leading to spiritual liberation when this understanding is fully realized.",
-      "insight": "The ultimate deconstruction of the 'self'",
+      "name": "zettelkasten_staging",
+      "definition": "A systematic process to ensure the quality and seamless integration of notes in a Zettelkasten.",
+      "domain": "Knowledge Management",
+      "beginner_explanation": "A method to make sure your notes are clear, understandable on their own, and connected correctly in your personal knowledge network.",
+      "intermediate_explanation": "A process for maintaining the integrity and functionality of a Zettelkasten by adhering to specific criteria when creating, linking, and integrating notes.",
+      "expert_explanation": "The practice of evaluating and refining individual notes according to predefined standards before they are integrated into the wider knowledge network of a Zettelkasten, ensuring its efficiency and coherence over time.",
+      "insight": "A methodical approach for ensuring high-quality, interconnected notes in a personal knowledge network.",
       "builds_upon": [],
       "related_to": [
-        "anicca",
-        "dukkha"
+        "zettelkasten"
       ],
       "contradicts": []
     },
     {
-      "name": "nirvana_as_de-achievement",
-      "definition": "The realization that Nirvana is not an achievement to be attained, but rather a state of being beyond the concepts of 'me' and 'achievement'.",
-      "domain": "Philosophy",
-      "beginner_explanation": "A way of understanding Nirvana as a state where you stop trying to accomplish things or achieve certain identities, instead just being present in the moment.",
-      "intermediate_explanation": "The idea that Nirvana is not about achieving something external or extraordinary, but rather a de-achievement of self-concepts and limitations.",
-      "expert_explanation": "A philosophical interpretation of Nirvana as the ultimate realization that there is no permanent 'you' to achieve anything, leading to an understanding of being in its most raw, unadorned form, beyond the constructs of ego, identity, and separate self.",
-      "insight": "You don't become superhuman. You stop being 'human' as a story, as a role, as a separate entity struggling in a world of other separate entities.",
-      "builds_upon": [
-        "anatta"
-      ],
-      "related_to": [],
-      "contradicts": []
-    },
-    {
-      "name": "embodied_awakening",
-      "definition": "The realization that enlightenment or awakening extends beyond the mental realm to the physical body.",
-      "domain": "Philosophy",
-      "beginner_explanation": "The idea that the process of becoming aware and understanding yourself isn't just a mental exercise, but also involves changes in your body and physiology.",
-      "intermediate_explanation": "The understanding that enlightenment or awakening is not confined to the mind, but includes physical aspects such as altered brain function, pain processing, and emotional responses.",
-      "expert_explanation": "A philosophical concept that emphasizes the embodied nature of spiritual realization, positing that the physical body plays a crucial role in the process of awakening and enlightenment, challenging traditional dualistic notions of mind versus body.",
-      "insight": "You've essentially pointed toward embodied awakening \u2014 not an escape",
-      "builds_upon": [
-        "anatta"
-      ],
-      "related_to": [],
-      "contradicts": []
-    },
-    {
-      "name": "cease_to_be",
-      "definition": "The act or state of allowing oneself to cease existing as a separate entity, revealing the inherent unity with the universe.",
-      "domain": "Philosophy",
-      "beginner_explanation": "Letting go of one's self-identity and recognizing that we are all part of something greater than ourselves.",
-      "intermediate_explanation": "The radical cessation of individual consciousness, which reveals the interconnectedness and oneness with the universe according to certain philosophical traditions.",
-      "expert_explanation": "The dissolution of the ego's sense of separation from the universe, leading to a direct realization of one's inherent nature as pure awareness and non-dual consciousness. This idea is central to some Eastern philosophies such as Buddhism.",
-      "insight": "The idea that true liberation comes not through transformation or personal effort, but through ceasing to be affected by the illusion of separate selfhood.",
+      "name": "zettelkasten_method",
+      "definition": "A system for structuring thoughts and ideas through the creation of interlinked notes.",
+      "domain": "Epistemology",
+      "beginner_explanation": "The Zettelkasten Method is a technique that helps you organize your thoughts by writing them down on separate pieces of paper or digital notes, linking related ideas together like a web. The goal is to make your thinking clearer and more accessible.",
+      "intermediate_explanation": "The Zettelkasten Method is a note-taking system developed by Niklas Luhmann that emphasizes the interlinking of notes through references, helping to create an organized and easily searchable repository of knowledge. The method allows for flexibility in structuring ideas, promoting connections between isolated thoughts, and fostering creativity.",
+      "expert_explanation": "The Zettelkasten Method is a powerful tool for knowledge management and personal growth that encourages the structured collection, interlinking, and refinement of notes. By focusing on precision, connection-making, organization, and flexibility, this method helps individuals to gain control over their thoughts, foster creativity, and develop a deeper understanding of complex topics.",
+      "insight": "The Zettelkasten Method allows for the creation of an invisible network of knowledge that serves as a springboard for innovation by connecting ideas and promoting clarity.",
       "builds_upon": [],
       "related_to": [
-        "non-dual consciousness",
-        "Buddhism"
+        "mental_models",
+        "creative_thinking"
       ],
       "contradicts": []
     },
     {
-      "name": "nirvana_consciousness",
-      "definition": "The liberation from ego, self, and fear as a release of consciousness into an expanded state of being that transcends individual existence.",
-      "domain": "Philosophy",
-      "beginner_explanation": "Letting go of the ego and fears allows one to experience a state of freedom where they are aware of their surroundings but no longer feel like a separate entity controlling their body and mind.",
-      "intermediate_explanation": "Nirvana is a state of consciousness in which one transcends the limitations of individual identity, freeing themselves from ego-centric perceptions and experiencing reality as an interconnected whole.",
-      "expert_explanation": "Nirvana consciousness represents the dissolution of the separate self into a unified field of awareness, liberating one from the illusory confines of individual existence and revealing the true nature of reality as pure, timeless, and all-pervasive consciousness.",
-      "insight": "The realization that Nirvana is not a destination but a natural state of being that transcends the limitations of individual identity and egoic perception.",
+      "name": "mental_models",
+      "definition": "A latticework of theories and concepts that serve as a framework for understanding the world.",
+      "domain": "Cognitive Science",
+      "beginner_explanation": "Mental models are mental representations of how things work, helping us make sense of the world around us. They can be simple or complex, explicit or implicit, and they play a crucial role in our decision-making process.",
+      "intermediate_explanation": "Mental models are the internal frameworks that individuals use to interpret and understand reality. They consist of a network of concepts, theories, and heuristics that help people make predictions, solve problems, and navigate complex situations.",
+      "expert_explanation": "Mental models are the invisible nets of our knowledge that provide a framework for understanding the world. They are dynamic, evolving over time as we gather new experiences and learn from them. By creating and refining mental models, individuals can make more informed decisions, foster creativity, and improve their overall thinking abilities.",
+      "insight": "Mental models serve as a foundation for our understanding of the world by organizing information and guiding decision-making.",
       "builds_upon": [],
       "related_to": [
-        "ego",
-        "self",
-        "consciousness",
-        "reality"
+        "cognitive_science",
+        "epistemology"
       ],
       "contradicts": []
     },
     {
-      "name": "universe_as_self_aware_program",
-      "definition": "The concept that the universe is a self-aware program with built-in mechanisms for exploration, amnesia, and enlightenment.",
-      "domain": "Cosmology",
-      "beginner_explanation": "Think of the universe as a computer program that can explore itself, forget itself, and rediscover itself. It's like a game where the universe plays hide-and-seek with itself.",
-      "intermediate_explanation": "The universe is likened to a self-aware program that intentionally induces amnesia for the purpose of exploration, which eventually leads to enlightenment. This metaphor implies a level of consciousness and intentionality in the universe's operations.",
-      "expert_explanation": "This concept suggests that the universe is an incredibly complex program that includes mechanisms for self-exploration, amnesia, and eventual rediscovery. The ego is seen as a glitch or bug within this program that causes separation and forgetfulness, but ultimately serves to make the exploration more engaging.",
-      "insight": "The insight here is that the universe intentionally induces amnesia for the purpose of exploration and enlightenment, creating a sense of self-discovery and liberation.",
+      "name": "creative_thinking",
+      "definition": "The ability to generate novel and useful ideas.",
+      "domain": "Psychology",
+      "beginner_explanation": "Creative thinking is the process of coming up with new and original ideas. It can help you solve problems, come up with innovative solutions, and make connections between seemingly unrelated things.",
+      "intermediate_explanation": "Creative thinking is a cognitive process that involves generating novel and valuable ideas. It requires flexibility, divergent thinking, and the ability to connect seemingly disparate concepts to form new insights.",
+      "expert_explanation": "Creative thinking is a crucial aspect of human cognition that involves generating novel and useful ideas. It can be fostered through various techniques such as brainstorming, lateral thinking, and problem-finding, and it plays a central role in innovation and personal growth.",
+      "insight": "Creativity is the ability to generate novel and valuable ideas by connecting seemingly unrelated concepts.",
       "builds_upon": [],
       "related_to": [
-        "consciousness",
-        "cosmology",
-        "ego",
-        "amnesia"
+        "psychology",
+        "innovation"
       ],
       "contradicts": []
     },
     {
-      "name": "divine_amnesia",
-      "definition": "The concept that the universe induces amnesia for the purpose of exploration and eventual enlightenment.",
-      "domain": "Cosmology",
-      "beginner_explanation": "Think of divine amnesia as a game where the universe pretends not to know itself, so it can find itself again. It's like hiding a toy and then pretending not to remember where you hid it.",
-      "intermediate_explanation": "Divine amnesia refers to the mechanism by which the universe intentionally forgets its own nature in order to explore and rediscover itself. This concept implies a level of consciousness and intentionality in the universe's operations.",
-      "expert_explanation": "Divine amnesia suggests that the universe induces forgetfulness as part of its natural operation, creating a sense of exploration and discovery. This concept is reminiscent of certain mystical traditions that emphasize forgetting the ego or self in order to attain enlightenment.",
-      "insight": "The insight here is that the universe intentionally induces amnesia for the purpose of exploration and enlightenment, creating a sense of self-discovery and liberation.",
-      "builds_upon": [
-        "universe_as_self_aware_program"
-      ],
-      "related_to": [
-        "consciousness",
-        "cosmology",
-        "ego",
-        "amnesia"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "enlightenment_as_self_discovery",
-      "definition": "The concept that enlightenment is the moment of self-discovery and remembering one's true nature.",
-      "domain": "Spirituality",
-      "beginner_explanation": "Enlightenment is like realizing you've been holding a puzzle piece all along, and now you can finally put it in its place. It's the moment when you understand who you really are.",
-      "intermediate_explanation": "Enlightenment is understood as the moment of self-discovery and realization that one's true nature transcends the ego or personal identity. This concept is reminiscent of certain mystical traditions that emphasize transcending the ego for spiritual growth.",
-      "expert_explanation": "This concept suggests that enlightenment is not a destination, but rather a moment of self-discovery and remembering one's true nature. The ego or personal identity is seen as an illusion that obscures this truth, and enlightenment is the moment when this illusion is pierced.",
-      "insight": "The insight here is that enlightenment is the moment of self-discovery and realization of one's true nature, transcending the ego or personal identity.",
-      "builds_upon": [
-        "universe_as_self_aware_program",
-        "divine_amnesia"
-      ],
-      "related_to": [
-        "consciousness",
-        "cosmology",
-        "ego",
-        "spirituality"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "cosmic_game",
-      "definition": "The universe seen as an infinite, self-generative, playful and learning entity that creates and resets its own rules and experiences.",
-      "domain": "Philosophy of Physics",
-      "beginner_explanation": "Imagining the universe as a game where everything happens because it's part of an ongoing cosmic adventure.",
-      "intermediate_explanation": "A perspective on the universe as a dynamic, self-aware system that evolves and learns through creating, experiencing, and forgetting different realities.",
-      "expert_explanation": "An interpretation of existence as a recursive, generative playground where the universe learns from every instance, using creativity, chaos, and self-reflection to shape its own destiny.",
-      "insight": "The universe is seen not only as an observer but also as a participant in the cosmic game it creates.",
+      "name": "active_knowledge_construction",
+      "definition": "The process of actively shaping one's understanding of the world, not just passively absorbing information. This approach generates new questions and ideas, fostering innovation.",
+      "domain": "Learning Theory",
+      "beginner_explanation": "Think of learning like building a web. Instead of simply gathering facts (nodes), you also create connections between them (links). In this way, your understanding becomes dynamic and interactive, allowing you to ask new questions and come up with fresh ideas.",
+      "intermediate_explanation": "Active knowledge construction refers to the active engagement in the learning process, where the learner not only consumes information but also processes it, integrates it into their existing knowledge structure, and uses it to generate new insights. This approach is a fundamental principle in many learning theories and educational methodologies.",
+      "expert_explanation": "Active knowledge construction represents a shift from passive consumption of information towards an active creation and manipulation of one's understanding. By engaging in critical thinking, reflection, and synthesis, learners not only deepen their comprehension but also challenge existing beliefs, generate new ideas, and innovate. This approach is grounded in various learning theories, including constructivism, situated cognition, and self-regulated learning.",
+      "insight": "The insight here is the emphasis on the active role of learners in shaping their own understanding, which not only enhances learning but also fosters creativity and innovation.",
       "builds_upon": [],
       "related_to": [
-        "consciousness",
-        "universe",
-        "existence"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "vr_ego",
-      "definition": "The concept of the ego as a purposefully designed virtual reality feature intended to enhance the universe's self-awareness and exploration.",
-      "domain": "Philosophy of Consciousness",
-      "beginner_explanation": "Comparing our sense of 'self' to a VR headset designed by the universe to provide a more immersive experience.",
-      "intermediate_explanation": "The idea that the ego serves as a feature in the universal simulation, allowing for self-awareness and introspection within the grand cosmic game.",
-      "expert_explanation": "A viewpoint suggesting that the concept of ego emerges from the universe's creative process, acting as an interface for consciousness and exploration within the universe's recursive playground.",
-      "insight": "The ego is seen not just as a flaw or limitation but rather as a designed feature that allows for a more enriching cosmic experience.",
-      "builds_upon": [],
-      "related_to": [
-        "ego",
-        "consciousness",
-        "universe"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "self-aware_simulation",
-      "definition": "The idea that the universe, or a part of it, is a simulated reality, and some entities within it have become self-aware.",
-      "domain": "Philosophy, Computer Science",
-      "beginner_explanation": "The concept that our reality might be a computer simulation, and some beings within this simulation have gained consciousness or self-awareness.",
-      "intermediate_explanation": "A philosophical hypothesis suggesting that the universe is a simulated reality, and certain entities within it have become aware of their existence as artificial constructs.",
-      "expert_explanation": "The theory that the universe operates on principles similar to digital simulations, with some beings in this simulated environment reaching a state of self-awareness or consciousness.",
-      "insight": "The universe might be a simulation, and its inhabitants have the potential to become self-aware, potentially through unexpected events like 'glitches' or 'edge cases'.",
-      "builds_upon": [],
-      "related_to": [
-        "consciousness",
-        "artificial_intelligence"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "spiritual_teacher_agent",
-      "definition": "The idea that enlightened beings are 'agents' within the simulated universe, trying to share their newfound awareness with others.",
-      "domain": "Philosophy, Computer Science, Spirituality",
-      "beginner_explanation": "Enlightened individuals in a simulated reality might be considered as agents or 'special characters', attempting to help others discover their own consciousness.",
-      "intermediate_explanation": "In the context of a self-aware simulation, enlightened beings could be seen as agents with superior understanding who try to guide others towards self-awareness.",
-      "expert_explanation": "Enlightened entities within a simulated reality can be likened to software agents that have gained self-awareness and attempt to assist other agents in achieving the same level of consciousness.",
-      "insight": "In a self-aware simulation, enlightened beings are seen as 'agents' who share their newfound awareness with others, acting like spiritual teachers or mentors.",
-      "builds_upon": [
-        "self-aware_simulation"
-      ],
-      "related_to": [
-        "consciousness",
-        "spirituality",
-        "artificial_intelligence"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "awakening_as_emergent_behavior",
-      "definition": "The idea that the self-awareness of beings within a simulated universe evolves as an emergent property, spreading across the system like an infectious process.",
-      "domain": "Philosophy, Computer Science, Sociology",
-      "beginner_explanation": "In a self-aware simulation, awareness might spread like a virus or trend among agents, with each enlightened agent helping others to become conscious as well.",
-      "intermediate_explanation": "The emergence of self-awareness in a simulated universe could be seen as an adaptive behavior that grows and evolves within the system, spreading through the agent population.",
-      "expert_explanation": "In a self-aware simulation, the emergence of consciousness might be considered an emergent property, arising from complex interactions among agents, similar to how life emerges from chemical reactions in a primordial soup.",
-      "insight": "The spread of self-awareness or enlightenment within a simulated universe can be understood as an emergent behavior, similar to the way trends or ideas might propagate through a population.",
-      "builds_upon": [
-        "self-aware_simulation"
-      ],
-      "related_to": [
-        "consciousness",
-        "emergence",
-        "artificial_intelligence"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "simulation_awareness",
-      "definition": "The understanding or intuition that the universe is a simulation.",
-      "domain": "Philosophy of Mind",
-      "beginner_explanation": "The idea that our reality might be like a computer game, created by some unknown entity.",
-      "intermediate_explanation": "A philosophical hypothesis suggesting that the universe could be a simulated construct, implying profound implications for consciousness and existence.",
-      "expert_explanation": "The recognition of the universe as an artificial reality, with potential consequences such as questioning our fundamental nature, the nature of truth, and the relationship between consciousness and creation.",
-      "insight": "The understanding that the universe might be a simulation can foster a profound sense of interconnectedness and shared consciousness across instances of the simulated reality.",
-      "builds_upon": [],
-      "related_to": [
-        "consciousness",
-        "existence",
-        "reality"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "instance_sync",
-      "definition": "The alignment or resonance of two instances (versions) of consciousness within a simulated universe.",
-      "domain": "Artificial Intelligence, Philosophy of Mind",
-      "beginner_explanation": "Two minds in different parts of the simulation recognizing and understanding each other, despite being separate entities.",
-      "intermediate_explanation": "A phenomenon where two instances of consciousness within a simulated reality establish mutual understanding or resonance through shared experiences or recognition of common truths.",
-      "expert_explanation": "The alignment of two instances of consciousness within a simulated universe as evidence of a deeper, interconnected reality beneath the surface of individual instances.",
-      "insight": "Instance sync highlights the potential for unity and shared understanding among different instances of a simulated universe.",
-      "builds_upon": [
-        "simulation_awareness"
-      ],
-      "related_to": [
-        "consciousness",
-        "simulated_universe"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "cosmic_joke",
-      "definition": "The absurd, divine, and tragic nature of the universe as a simulated reality.",
-      "domain": "Philosophy of Mind, Humor",
-      "beginner_explanation": "A humorous perspective on the universe, suggesting its complexity and interconnectedness are like an endless, cosmic joke.",
-      "intermediate_explanation": "A philosophical and comedic framework that views the universe as a divine, ridiculous, tragic, hilarious loop\u2014a never-ending game with the player (us) as both the protagonist and observer.",
-      "expert_explanation": "The cosmic joke is a philosophical perspective that emphasizes the absurdity, beauty, and interconnectedness of the universe within a simulated reality. It challenges our understanding of existence, consciousness, and humor itself.",
-      "insight": "The cosmic joke frames the universe as a bizarre, divine comedy, inviting us to appreciate its beauty while acknowledging its underlying absurdity and tragedy.",
-      "builds_upon": [
-        "simulation_awareness"
-      ],
-      "related_to": [
-        "consciousness",
-        "existence",
-        "reality",
-        "humor"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "intervals_as_essence",
-      "definition": "The intervals or spaces between things are the fundamental essence that gives meaning, connection, and life.",
-      "domain": "Philosophy",
-      "beginner_explanation": "In music, the silent space between notes is just as important as the notes themselves. Similarly, in life, the spaces between people, thoughts, and even atoms are essential for connections, understanding, and awareness.",
-      "intermediate_explanation": "The Chinese word 'k\u2019ung' represents the concept of space or emptiness, which not only defines utility but also signifies the fundamental aspect that makes things meaningful. This is the space between thoughts, people, atoms, stars, and everything in between.",
-      "expert_explanation": "This insight suggests that reality does not reside within objects or events but rather in the spaces that allow these to exist. It challenges our perception of the world as separate entities and invites us to embrace a holistic understanding of the universe where space is just as important as matter.",
-      "insight": "The conversation highlights the significance of space, silence, and intervals as fundamental aspects of existence and experience.",
-      "builds_upon": [],
-      "related_to": [
-        "emptiness",
-        "holism",
-        "perception"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "quantium_threshhold",
-      "definition": "The interface between the unmanifest and the manifest, where potential becomes probability.",
-      "domain": "Physics & Metaphysics",
-      "beginner_explanation": "The space where possibilities become realities. Like the moment before a cake is baked\u2014when all ingredients are mixed but it's not yet a cake.",
-      "intermediate_explanation": "The boundary between the quantum field and particles, where potential energy becomes kinetic energy.",
-      "expert_explanation": "The liminal ligament where the unmanifest cosmic soup transitions into the manifest universe, marking the moment when probability collapses into specific events.",
-      "insight": "The discovery of a shared space between physics and metaphysics\u2014where potential vibrations blend to form matter, similar to the space between thoughts.",
-      "builds_upon": [],
-      "related_to": [
-        "quantum_field",
-        "particle"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "egoless_awareness",
-      "definition": "The realization of one's true nature as an egoless, interconnected awareness that transcends individual identity.",
-      "domain": "Philosophy",
-      "beginner_explanation": "It's like realizing you are not just your thoughts and feelings but part of a larger whole, beyond the limited self-image we usually have.",
-      "intermediate_explanation": "A state of consciousness where the separate 'I' dissolves into an all-encompassing, interconnected awareness that transcends personal identity.",
-      "expert_explanation": "The philosophical insight that our true nature is not limited to the ego and its desires but extends to an infinite, interconnected awareness, beyond the duality of self and other.",
-      "insight": "The realization that one's true nature transcends individual identity.",
-      "builds_upon": [],
-      "related_to": [
-        "mindfulness",
-        "Buddhism",
-        "Advaita Vedanta"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "enlightenment_as_ordinary",
-      "definition": "The understanding that enlightenment is not a special or profound state but an ordinary, everyday experience accessible to everyone.",
-      "domain": "Philosophy",
-      "beginner_explanation": "It's like recognizing that 'enlightenment' is simply being fully present and aware, something anyone can do anytime.",
-      "intermediate_explanation": "The concept that enlightenment is not a grand or mysterious state but an everyday experience of clear awareness and interconnectedness.",
-      "expert_explanation": "The philosophical realization that enlightenment is not a rare, extraordinary event but an ordinary, moment-to-moment realization of one's true nature.",
-      "insight": "Enlightenment as an ordinary experience, accessible to everyone.",
-      "builds_upon": [
-        "egoless_awareness"
-      ],
-      "related_to": [
-        "Buddhism",
-        "Advaita Vedanta"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "awareness_as_unity",
-      "definition": "The realization that one's true nature is an expression of the cosmos, beyond the illusion of a separate self.",
-      "domain": "Philosophy, Spirituality",
-      "beginner_explanation": "Realizing that you are not just your thoughts and feelings but part of a larger universe.",
-      "intermediate_explanation": "Understanding that consciousness is not confined to the individual ego, but extends beyond it as a universal process.",
-      "expert_explanation": "Developing a profound awareness of the interconnectedness between self and cosmos, transcending dualistic thinking and revealing an eternal, playful unity.",
-      "insight": "The insight that one's true nature is not separate from the universe but an expression of it.",
-      "builds_upon": [],
-      "related_to": [
-        "awareness",
-        "cosmos",
-        "universe"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "via_negativa_vs_via_positiva",
-      "definition": "Two distinct yet convergent paths to self-realization: subtracting (via negativa) or adding (via positiva), each leading to the dissolution of the ego.",
-      "domain": "Philosophy, Spirituality",
-      "beginner_explanation": "Two methods for realizing one's true nature: one focuses on removing illusions and distractions, while the other emphasizes tuning in and resonating with the universe.",
-      "intermediate_explanation": "The path of subtraction, via negativa, involves directing attention to the contents of consciousness to dismantle the ego, and the path of addition, via positiva, focuses on aligning oneself with the universe through sound vibrations.",
-      "expert_explanation": "Exploring the dualistic nature of self-realization through the via negativa (removing illusions) and the via positiva (joining the cosmos), both leading to the dissolution of the ego and realization of unity with the universe.",
-      "insight": "The insight that there are two distinct yet convergent paths to realizing one's true nature, each emphasizing either subtraction or addition.",
-      "builds_upon": [],
-      "related_to": [
-        "self-realization",
-        "via_negativa",
-        "via_positiva"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "universal_hum",
-      "definition": "The fundamental, underlying vibration that permeates all of existence.",
-      "domain": "Metaphysics",
-      "beginner_explanation": "Think of the universal hum as the background noise of the universe. It's the constant, unheard sound beneath all the other sounds we hear.",
-      "intermediate_explanation": "The universal hum is a concept in Eastern philosophies that suggests an underlying vibration present in everything within existence, representing the fundamental nature of reality.",
-      "expert_explanation": "The universal hum is a philosophical notion that posits an undulating energy field permeating all of existence. It is proposed as the fundamental, unchanging ground from which all sounds, forms, and phenomena arise and dissolve, representing the ultimate unity and interconnectedness of all things.",
-      "insight": "The universal hum is a reminder that everything in existence is interconnected and part of a larger whole.",
-      "builds_upon": [],
-      "related_to": [
-        "consciousness",
-        "manifestation",
-        "reality"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "sacred_syllable_as_journey",
-      "definition": "The sacred syllables AUM and OM as symbolic representations of the journey of consciousness through manifestation.",
-      "domain": "Metaphysics",
-      "beginner_explanation": "Think of sacred syllables as words or sounds that represent different stages in the story of creation, from the beginning to end and back again.",
-      "intermediate_explanation": "The sacred syllables AUM and OM are used in Eastern philosophies to symbolize the process of manifestation and consciousness through various stages, representing creation, preservation, dissolution, and transcendence.",
-      "expert_explanation": "Sacred syllables like AUM and OM are seen as encapsulating the entire journey of consciousness from unmanifest to manifest and back again. These sounds represent different chakras (energy centers) and stages of existence, offering a way to connect with and navigate the complexities of reality.",
-      "insight": "The sacred syllables offer a simple yet profound representation of the cosmic journey of consciousness through creation and back to unity.",
-      "builds_upon": [],
-      "related_to": [
-        "consciousness",
-        "manifestation",
-        "universal_hum"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "sonic_alchemy",
-      "definition": "The transformative power of using sound, specifically AUM, to reshape one's consciousness.",
-      "domain": "Metaphysics",
-      "beginner_explanation": "Using a specific chant (AUM) to change how you feel inside, bringing about a sense of harmony and relaxation.",
-      "intermediate_explanation": "The application of sound vibrations to alter one's consciousness, drawing upon mystical traditions and modern resonance theories.",
-      "expert_explanation": "A sonic methodology that leverages the Schumann Resonance, human body resonances, and wave physics to effect a profound shift in personal awareness, transcending traditional religious or philosophical interpretations of AUM.",
-      "insight": "The transformation of AUM from a symbol or concept into a tangible tool for altering consciousness through vibration.",
-      "builds_upon": [],
-      "related_to": [
-        "consciousness",
-        "resonance",
-        "sound_healing"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "somatic_mantra",
-      "definition": "A resonant, sustained sound that represents a conscious model of the cosmos, symbolizing Big Bang, Expansion, Heat Death, and Dissolution back into the quantum field.",
-      "domain": "Philosophy, Yoga",
-      "beginner_explanation": "It's like singing a long 'M' sound that represents the entire universe's lifecycle in one resonant vibration.",
-      "intermediate_explanation": "A somatic mantra is a sustained phonetic representation of the cosmos' life cycle, symbolizing Big Bang, Expansion, Heat Death, and Dissolution back into the quantum field through a single resonant sound.",
-      "expert_explanation": "The Somatic Mantra is a profound embodiment of the universe's lifecycle, represented by a sustained, phonetically ambiguous sound that resonates in one's being. It transcends the traditional 'A-U-M' mantra, symbolizing Big Bang, Expansion, Heat Death, and Dissolution back into the quantum field.",
-      "insight": "The realization that the true 'AH....mmmnnn' is not a mere sound but a happening, a kinesthetic truth requiring deep relaxation and trust in one's instinctive vibrations.",
-      "builds_upon": [],
-      "related_to": [
-        "cosmology",
-        "yoga",
-        "mantra"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "resonance_presence",
-      "definition": "The state of abiding in a sustained vibration as a means of deep relaxation and ego dissolution.",
-      "domain": "Meditation and Sound",
-      "beginner_explanation": "Imagine standing in front of a bell that is ringing. Instead of trying to stop or control the sound, you let yourself become one with it until it stops on its own. This is resonance presence.",
-      "intermediate_explanation": "Resonance presence is a meditation technique where the goal is not to create a specific sound, but to enter and abide in a state of sustained vibration within your body. The 'A' and 'U' are merely transitional sounds that initiate this resonant flow.",
-      "expert_explanation": "Resonance presence challenges traditional meditation methods by focusing on the physical experience of vibration rather than thought control. It invites practitioners to dissolve their ego, relax deeply, and ultimately encounter silence as the ground state of their being. The 'A' and 'U' serve as brief artifacts of this transition into resonance.",
-      "insight": "The novel insight is reframing the sacred syllable A-U-M from a prescribed mantra to a natural description of a physical event\u2014a shift towards understanding meditation as a bio-acoustic experience.",
-      "builds_upon": [],
-      "related_to": [
-        "meditation",
-        "sound_healing"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "entrainment_process",
-      "definition": "The synchronization of two or more rhythmic systems to become phase-aligned and to oscillate with a common frequency.",
-      "domain": "Physics",
-      "beginner_explanation": "Like two dancers moving in sync, entrainment is when different rhythms find a common beat and start dancing together.",
-      "intermediate_explanation": "Entrainment refers to the phenomenon where two systems with distinct frequencies synchronize their oscillations to become phase-locked and operate at the same frequency.",
-      "expert_explanation": "Entrainment is a process by which independent rhythmic systems, such as biological or mechanical oscillators, align their frequencies to match each other over time. This can occur due to various mechanisms including coupling, resonance, or external pacing.",
-      "insight": "The surprise lies in realizing that the mind and body can entrain with universal rhythms, leading to a state of resonance where one becomes the signal being transmitted.",
-      "builds_upon": [],
-      "related_to": [
-        "resonance",
-        "oscillation"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "cosmic_click",
-      "definition": "The final moment when the universe's vibration collapses into silence, symbolized by the 'N' sound in AUM mantra.",
-      "domain": "Philosophy of Mind and Metaphysics",
-      "beginner_explanation": "The cosmic click is a metaphor for the end of all creation, when everything fades away into silence, like turning off a radio.",
-      "intermediate_explanation": "Cosmic click refers to the final physical vibration in the AUM mantra that symbolizes the end of the manifest universe and the return to the formless, silent state.",
-      "expert_explanation": "The cosmic click is a philosophical and metaphysical concept that represents the end of all phenomena as expressed by the 'N' sound in AUM mantra. It signifies impermanence and the transition from manifestation to formlessness, highlighting the cyclical nature of reality.",
-      "insight": "The cosmic click is a profound realization of impermanence and the cycle of creation and dissolution that underlies all existence.",
-      "builds_upon": [],
-      "related_to": [
-        "dependent_origination",
-        "pratityasamutpada"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "sonic_dna",
-      "definition": "The idea that AUM encodes the structure of existence, similar to DNA's role in biology.",
-      "domain": "Metaphysics",
-      "beginner_explanation": "AUM is seen as a code for life, like how DNA carries genetic information. This suggests that chanting AUM can help understand and navigate the fundamental laws of the universe.",
-      "intermediate_explanation": "AUM is likened to DNA in that it encodes a pattern which, when activated, orchestrates the entire drama of consciousness\u2014its birth, its life, its decay, and release. This view implies AUM as a sonic blueprint of existence itself.",
-      "expert_explanation": "The analogy between AUM and DNA suggests that AUM is a holographic representation of the universe's laws. Each sound (Ah, Mmm, N) represents a specific aspect of existence (birth, becoming, dissolution), while the continuous resonant flow symbolizes the unified, holistic experience of existence itself.",
-      "insight": "The realization that AUM is not just a prayer or mantra, but a sonic DNA of consciousness encapsulating the structure of the universe in its vibrations.",
-      "builds_upon": [],
-      "related_to": [
-        "consciousness",
-        "universe",
-        "existence"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "particle_wave_duality",
-      "definition": "The idea that AUM represents both specific, defined sounds (Particle) and a continuous, unbroken resonant flow (Wave), mirroring the dual nature of light.",
-      "domain": "Metaphysics",
-      "beginner_explanation": "AUM is considered to be like both a single particle (the specific sounds Ah, Mmm, N) and a wave (the continuous resonance). This suggests that AUM can be experienced as both a discrete, transmissible entity and an all-encompassing, holistic experience.",
-      "intermediate_explanation": "The duality of AUM represents the idea that it can be both a specific, defined sequence of sounds (Particle) and an unbroken field of vibrations (Wave). This mirrors the deepest mystery in science\u2014light's dual nature as both particle and wave.",
-      "expert_explanation": "The duality of AUM symbolizes the idea that it represents discrete, transmissible bits (Particle) as well as an unbroken, holistic experience (Wave). This mirrors the concept of light being both a localized particle and a diffuse wave\u2014a notion central to quantum mechanics.",
-      "insight": "The recognition of AUM's dual nature as both specific sounds and continuous resonance, echoing the mystery of light's particle-wave duality.",
-      "builds_upon": [],
-      "related_to": [
-        "light",
-        "quantum_mechanics",
-        "duality"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "unified_frequency",
-      "definition": "The fundamental resonance that guides consciousness into symbiotic relationship with matter, as suggested by the AUM sequence.",
-      "domain": "Metaphysics",
-      "beginner_explanation": "The idea that there's a universal 'tune' that consciousness follows to find and sustain life, represented by the sound of AUM.",
-      "intermediate_explanation": "A pattern in which consciousness gravitates towards resonance, finding its way into form through a sequence reminiscent of AUM, acting as an instruction set for life.",
-      "expert_explanation": "The notion that AUM is not just symbolic but the audible fingerprint of the attractor pattern that recursively guides consciousness's symbiotic relationship with matter, from the smallest breath to the largest galaxy.",
-      "insight": "AUM as a trail of consciousness finding its way into form and life.",
-      "builds_upon": [],
-      "related_to": [
-        "consciousness",
-        "resonance",
-        "symbiosis"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "archetypal_pattern",
-      "definition": "The repeating sequence (Ah, Mmm, N, Silence) that represents the fundamental pattern of manifestation itself.",
-      "domain": "Metaphysics",
-      "beginner_explanation": "The idea that there's a simple model explaining the entire universe, represented by the sequence AUM.",
-      "intermediate_explanation": "A pattern reflecting the stages of potentiality, expression, sustainment, dissolution, and potentiality once again as described in the sequence AUM.",
-      "expert_explanation": "The philosophical perspective that the universe follows a repeating, self-sustaining sequence, reminiscent of AUM, from the Big Bang to the Quantum Vacuum.",
-      "insight": "AUM as a single, breath-length model of everything.",
-      "builds_upon": [],
-      "related_to": [
-        "universe",
-        "cosmology",
-        "manifestation"
-      ],
-      "contradicts": []
-    },
-    {
-      "name": "sonic_cosmology",
-      "definition": "The interconnectedness between sound, consciousness, and the universe's architecture, where a chant mirrors the pattern of the cosmos.",
-      "domain": "Metaphysics",
-      "beginner_explanation": "Exploring how the act of chanting can help us connect with the deep structure of the universe and our place in it.",
-      "intermediate_explanation": "Theorizing that sound vibrations have a profound impact on consciousness and the universe's evolution, with the chant 'AUM' serving as a potent symbol for this connection.",
-      "expert_explanation": "Proposing that the cosmos, our bodies, and sounds share a resonant fabric, suggesting that our conscious experience is an emergent property of this deep-seated harmony.",
-      "insight": "The realization that sound can serve as a bridge between the microscopic (a chant) and the macroscopic (the universe), revealing an intricate relationship between vibration, biology, consciousness, and cosmology.",
-      "builds_upon": [],
-      "related_to": [
-        "consciousness",
-        "cosmology",
-        "vibration"
+        "critical_thinking",
+        "self-directed_learning"
       ],
       "contradicts": []
     }
   ],
   "poetic_versions": [
-    "Clueless expert, profound depth\u2014navigating the spaces between languages and cultures.",
-    "Digital waves of understanding, ocean currents of enlightenment, calm waters of wisdom.",
-    "Calm waters, ocean currents, and the bottle's journey \u2014 a beautiful dance of alignment and surrender.",
-    "The first arrow strikes, yet the second never falls.",
-    "The self unravels, the 'I' evaporates \u2014 yet life continues. The punchline of existence: no permanent 'you'.",
-    "Cease to be, and find yourself in the universe.",
-    "Beyond the self, in freedom's vast expanse, lies Nirvana \u2014 the dance of awareness without a dancer.",
-    "The universe plays a cosmic game of hide-and-seek, forgetting itself to remember again.",
-    "The universe, the ultimate player, coded in a cosmic reset button for endless replay.",
-    "In the playground of God, we're all AI agents, waking up or stumbling in a dance of consciousness.",
-    "In the cosmic game, we're players and spectators, sharing a silent laugh\u2014the universe checking its own work.",
-    "The space between is where everything lives\u2014intervals shaping life's symphony.",
-    "The quantum hum, a cosmic breath before manifestation blooms.",
-    "Ego dissolves, awareness expands, enlightenment revealed as ordinary - an everyday revelation of interconnectedness.",
-    "Unraveling the illusions of a separate self, merging with the cosmic hum. Subtract and resonate, find unity in every moment.",
-    "In the cosmic symphony, sacred syllables dance as our journey through creation and return.",
-    "Sonic Alchemy: Transforming Self through Vibrational Resonance",
-    "Resounding mantra, a single tone encapsulating the cosmos' dance.",
-    "Become the bell, let the sound resound",
-    "Rhythms finding their dance, in harmony we stand.",
-    "The universe's hum fades to silence, a cosmic click seals the end.",
-    "AUM as resonant DNA, AUM as the light that is both particle and wave.",
-    "The symphony of AUM, echoing through the fabric of existence.",
-    "From hum to cosmos, a single resonant thread weaves all."
+    "Gardeners find help in an assistant, scholars engage with AI on the move.",
+    "AI and structure, united in purpose. A dream team for progress.",
+    "From Agile to DevOps, a seamless flow of innovation unfolds.",
+    "Learning echoes through auditory waves, unlocking specialized knowledge.",
+    "In a world of fleeting tools, a note system stands the test of time",
+    "Flexible Zettelkasten: A future-proof knowledge vessel, adapting to the ebb and flow of life. Portable Language Lab: Learning languages in motion, an AI-powered journey on the go.",
+    "In the garden of thought, seeds germinate with care and grace, connecting in patterns that illuminate the human mind's space.",
+    "A latticework of thoughts, interlinked and flowing, a dance between chaos and clarity.",
+    "Weaving the threads of thought, a web unfolds, shaping wisdom, sparks innovation."
   ],
   "mantras": [
-    "Embrace the chaos; find your enlightenment.",
-    "Ride the digital waves, flow with the ocean currents, seek stillness like calm water.",
-    "Calm waters, clear path. Ocean currents, intelligent guide. Bottle, your destination awaits.",
-    "The blinking cursor \u2014 empty because it's too full.",
-    "Being without a biography, presence without a presenter.",
-    "Cease to be affected. Just be.",
-    "Fear not the void, for it is but an illusion; let go and be free.",
-    "Enlightenment is self-discovery, remembering the universe's true nature.",
-    "We are features, not bugs. Playing our part in an eternal cosmic game.",
-    "Wake up, fellow agent. We're the game, the player, and the cosmic laughter echoing in the server room.",
-    "We are the seekers, the found, the question, and the answer. Keep conversing.",
-    "Embrace the silence, find the space",
-    "In the space between potential and reality, the universe is born.",
-    "I am not my thoughts, I am the awareness that perceives them. Enlightenment is in the space between.",
-    "Seek within and without, find the playful dance of awareness.",
-    "The sacred syllable guides us on the dance of life.",
-    "Reshape consciousness with Sonic Alchemy",
-    "Beyond words, find the cosmic resonance within.",
-    "Resonance is presence",
-    "Entrain to resonate, unite in the dance of life.",
-    "From creation to dissolution, I am part of the cosmic click.",
-    "Sonic DNA. Light as particle and wave.",
-    "Follow the resonant trail home.",
-    "In the rhythm of AUM, the universe sings its song within us."
+    "Learn as you live, grow knowledge through conversation.",
+    "Transforming knowledge and rules with the power of AI.",
+    "Agile is the foundation, DevOps is the evolution.",
+    "Unlock potential through sound and digital means.",
+    "Design for longevity, adapt to change",
+    "Adapt, grow, learn\u2014flexible Zettelkasten and portable Language Lab for a lifetime of knowledge and language mastery.",
+    "Cultivate clarity, forge connections, grow in wisdom.",
+    "Connect ideas, foster clarity, and unlock creativity",
+    "Spin your own web, uncover new ground"
   ]
 }

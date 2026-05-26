@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "zettelkasten_staging",
+  "title": "Zettelkasten Staging",
+  "definition": "A systematic process to ensure the quality and seamless integration of notes in a Zettelkasten.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from Dr. Rupert Rebentisch's blog 'Mycelium of Knowledge' \u2014 article: 'When AI Becomes Your Zettelkasten's Co-Pilot: How an Agent Changed My Knowledge Workflow'",
+      "confidence": 0.8,
+      "date": "2026-05-26T18:21:48.409535Z",
+      "reference": "https://www.mycelium-of-knowledge.org/when-ai-becomes-your-zettelkastens-co-pilot/"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T18:21:48.409535Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A method to make sure your notes are clear, understandable on their own, and connected correctly in your personal knowledge network.",
+    "intermediate": "A process for maintaining the integrity and functionality of a Zettelkasten by adhering to specific criteria when creating, linking, and integrating notes.",
+    "expert": "The practice of evaluating and refining individual notes according to predefined standards before they are integrated into the wider knowledge network of a Zettelkasten, ensuring its efficiency and coherence over time."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A methodical approach for ensuring high-quality, interconnected notes in a personal knowledge network.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "zettelkasten_method",
+  "title": "Zettelkasten Method",
+  "definition": "A system for structuring thoughts and ideas through the creation of interlinked notes.",
+  "type": "Concept",
+  "domain": "Epistemology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from Dr. Rupert Rebentisch's blog 'Mycelium of Knowledge' \u2014 article: 'When AI Becomes Your Zettelkasten's Co-Pilot: How an Agent Changed My Knowledge Workflow'",
+      "confidence": 0.8,
+      "date": "2026-05-26T18:21:48.411007Z",
+      "reference": "https://www.mycelium-of-knowledge.org/when-ai-becomes-your-zettelkastens-co-pilot/"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T18:21:48.411007Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Zettelkasten Method is a technique that helps you organize your thoughts by writing them down on separate pieces of paper or digital notes, linking related ideas together like a web. The goal is to make your thinking clearer and more accessible.",
+    "intermediate": "The Zettelkasten Method is a note-taking system developed by Niklas Luhmann that emphasizes the interlinking of notes through references, helping to create an organized and easily searchable repository of knowledge. The method allows for flexibility in structuring ideas, promoting connections between isolated thoughts, and fostering creativity.",
+    "expert": "The Zettelkasten Method is a powerful tool for knowledge management and personal growth that encourages the structured collection, interlinking, and refinement of notes. By focusing on precision, connection-making, organization, and flexibility, this method helps individuals to gain control over their thoughts, foster creativity, and develop a deeper understanding of complex topics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Zettelkasten Method allows for the creation of an invisible network of knowledge that serves as a springboard for innovation by connecting ideas and promoting clarity.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "active_knowledge_construction",
+  "title": "Active Knowledge Construction",
+  "definition": "The process of actively shaping one's understanding of the world, not just passively absorbing information. This approach generates new questions and ideas, fostering innovation.",
+  "type": "Concept",
+  "domain": "Learning Theory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from Dr. Rupert Rebentisch's blog 'Mycelium of Knowledge' \u2014 article: 'When AI Becomes Your Zettelkasten's Co-Pilot: How an Agent Changed My Knowledge Workflow'",
+      "confidence": 0.8,
+      "date": "2026-05-26T18:21:48.413199Z",
+      "reference": "https://www.mycelium-of-knowledge.org/when-ai-becomes-your-zettelkastens-co-pilot/"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T18:21:48.413199Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of learning like building a web. Instead of simply gathering facts (nodes), you also create connections between them (links). In this way, your understanding becomes dynamic and interactive, allowing you to ask new questions and come up with fresh ideas.",
+    "intermediate": "Active knowledge construction refers to the active engagement in the learning process, where the learner not only consumes information but also processes it, integrates it into their existing knowledge structure, and uses it to generate new insights. This approach is a fundamental principle in many learning theories and educational methodologies.",
+    "expert": "Active knowledge construction represents a shift from passive consumption of information towards an active creation and manipulation of one's understanding. By engaging in critical thinking, reflection, and synthesis, learners not only deepen their comprehension but also challenge existing beliefs, generate new ideas, and innovate. This approach is grounded in various learning theories, including constructivism, situated cognition, and self-regulated learning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight here is the emphasis on the active role of learners in shaping their own understanding, which not only enhances learning but also fosters creativity and innovation.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

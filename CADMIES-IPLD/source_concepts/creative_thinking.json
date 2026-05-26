@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "creative_thinking",
+  "title": "Creative Thinking",
+  "definition": "The ability to generate novel and useful ideas.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from Dr. Rupert Rebentisch's blog 'Mycelium of Knowledge' \u2014 article: 'When AI Becomes Your Zettelkasten's Co-Pilot: How an Agent Changed My Knowledge Workflow'",
+      "confidence": 0.8,
+      "date": "2026-05-26T18:21:48.412458Z",
+      "reference": "https://www.mycelium-of-knowledge.org/when-ai-becomes-your-zettelkastens-co-pilot/"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T18:21:48.412458Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Creative thinking is the process of coming up with new and original ideas. It can help you solve problems, come up with innovative solutions, and make connections between seemingly unrelated things.",
+    "intermediate": "Creative thinking is a cognitive process that involves generating novel and valuable ideas. It requires flexibility, divergent thinking, and the ability to connect seemingly disparate concepts to form new insights.",
+    "expert": "Creative thinking is a crucial aspect of human cognition that involves generating novel and useful ideas. It can be fostered through various techniques such as brainstorming, lateral thinking, and problem-finding, and it plays a central role in innovation and personal growth."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Creativity is the ability to generate novel and valuable ideas by connecting seemingly unrelated concepts.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "zettelkasten_system",
+  "title": "Zettelkasten System",
+  "definition": "A personal knowledge management system designed for capturing, organizing, and interlinking ideas, emphasizing durability, portability, and adaptability.",
+  "type": "Concept",
+  "domain": "Information Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from Dr. Rupert Rebentisch's blog 'Mycelium of Knowledge' \u2014 article: 'When AI Becomes Your Zettelkasten's Co-Pilot: How an Agent Changed My Knowledge Workflow'",
+      "confidence": 0.8,
+      "date": "2026-05-26T18:21:48.407270Z",
+      "reference": "https://www.mycelium-of-knowledge.org/when-ai-becomes-your-zettelkastens-co-pilot/"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-26T18:21:48.407270Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A method for keeping notes that helps you organize your thoughts, making it easy to find and connect related ideas. It's designed to last a lifetime and work with various tools as they evolve.",
+    "intermediate": "An information management system inspired by Niklas Luhmann\u2019s Zettelkasten method, focusing on long-term durability, portability, and adaptability through the use of open formats, structured file naming conventions, version control, and backup strategies.",
+    "expert": "A sophisticated personal knowledge management system that prioritizes long-term data preservation, system flexibility, and ease of migration between tools. Employing open standards like Markdown, structured file naming, Git for version control and backup, and automation scripts to maintain consistency, the Zettelkasten system is designed to remain functional in a rapidly evolving technological landscape."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The emphasis on flexibility, portability, and longevity makes the Zettelkasten system a resilient and future-proof approach to personal knowledge management.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}
