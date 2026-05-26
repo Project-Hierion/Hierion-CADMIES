@@ -268,3 +268,4 @@ License recommendations (MIT, CC BY-SA 4.0), CITATION.cff setup, README structur
 | 2026-05-23 | Phase 50C: CID mismatch root cause identified — HOG-era artifacts documented |
 | 2026-05-23 | Buttercup: First intentional brick hit confirmed, age 3-4, 107K steps on A6000 |
 
+| 2026-05-25 | Session 020: 687 nodes, 466 edges, emergence at center. CAR import v1.1.0 with provenance preservation. car_utils moved to tools/core. Mycelium search fixed. Buddha's dependent origination visually proven. Buttercup 268K steps. |

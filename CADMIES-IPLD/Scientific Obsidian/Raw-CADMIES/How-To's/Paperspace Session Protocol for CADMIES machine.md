@@ -1,15 +1,6 @@
 
-tar up the local files   (if needed, otherwise a pull from main to notebooks will handle updates)
-
-upload them to paperpspace as tar, or upload single files if needed and not in github
-
-bash in a terminal in paperspace, if not already at that prompt:      cd /notebooks 
-
-then bash to untar the file:          bash 1tar -xzf cadmies_149.tar.gz (change the number at the end of the file name)
-
-then bash load everything up:        ```
 ```
-bash /notebooks/CADMIES/CADMIES-IPLD/startup.sh
+bash /notebooks/CADMIES/CADMIES-IPLD/scripts/startup.sh
 ```
 
 then pull the model, i.e Mistral:        
