@@ -8,7 +8,11 @@ bash /notebooks/CADMIES/CADMIES-IPLD/startup.sh
 
 ```
 ollama pull mistral:7b
+```
+```
 ollama pull tinyllama:latest
+```
+```
 ollama pull codestral:22b
 ```
 
@@ -53,7 +57,7 @@ python hieros/train.py \
   --batch_size 16 \
   --batch_length 64 \
   --save_every 500 \
-  --from_checkpoint /storage/HIEROS/logs/atari_breakout-20260524-040723/checkpoint.ckpt
+  --from_checkpoint /storage/HIEROS/logs/atari_breakout-20260526-194833/checkpoint.ckpt
 ```
 
 ## Batch Size Settings by GPU

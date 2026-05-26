@@ -202,3 +202,22 @@ All three infrastructure nodes — local (HP/Fedora), Paperspace (A4000 GPU), an
 ### Session 015 Bonus — silent_thunderclap Deduplication
 
 Two source concept files existed for the same concept: `silent_thunderclap.json` (minted, indexed) and `the_silent_thunderclap.json` (orphan, never minted). The orphan was removed. The minted concept has edges to two ghost concepts (`universal_truth`, `unspoken_axiom`) that do not exist in the index — these will be repaired during the next relationship regeneration pass.
+
+
+### Session 022 Update — Continued Domain Growth
+
+By May 26, 2026, the mycelium had grown to 461 nodes across 152 domains. The `DOMAIN_UPWARD_MAP` continues to expand incrementally. New domains discovered during Session 022 mega-harvests and the Rebentisch collaboration include:
+
+| Domain String | Maps To |
+|---------------|---------|
+| Climate Science | Ecology |
+| Plant Physiology | Biology |
+| Oceanography | Physics |
+| Geophysics | Physics |
+| Environmental Science and Philosophy | Ecology |
+| Biology, Ecology | Biology |
+| Information Management | Computer Science |
+| Learning Theory | Psychology |
+| Knowledge Management | Sociology |
+
+The incremental mapping system proved effective — new domains are flagged during map generation and added to `DOMAIN_UPWARD_MAP` without requiring dedicated phases. The system scales with the mycelium.
