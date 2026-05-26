@@ -1,10 +1,19 @@
 {
-  "metadata": {
-    "_citation_guidance": "For scientific provenance and proper attribution, complete the fields below. Optional — omitted fields default to internal CADMIES system standards. May be amended as new source information becomes available.",
-    "source_description": "",
-    "source_url": "",
-    "author": "",
-    "license": ""
-  },
-  "content": ""
+
+"metadata": {
+
+"_citation_guidance": "For scientific provenance and proper attribution, complete the fields below. They are optional but we highly advise they be filled in — omitted fields default to internal CADMIES system standards. All entries may be amended later as new source information becomes available.",
+
+"source_description": YOUR TEXT HERE,
+
+"source_url": YOUR TEXT HERE,
+
+"author": YOUR TEXT HERE,
+
+"license": YOUR TEXT HERE
+
+},
+
+"content": YOUR TEXT HERE
+
 }

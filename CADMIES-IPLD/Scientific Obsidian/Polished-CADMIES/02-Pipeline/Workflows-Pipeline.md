@@ -7,32 +7,32 @@ related: [[Phase-57-Harvester-Hardening]], [[Phase-58-Mega-Harvest]], [[Phase-56
 # CADMIES Pipeline Workflows
 
 ### Ground Zero: Capture the Conversation
-Before anything else, save your conversation to `tools/harvest/conversation.json`.
-For internal CADMIES conversations:
+Before anything else, save your conversation to **`tools/harvest/conversation.json`**.
+This is the template for that file. This is a spore. Everything downstream flows from this file.
 ```json
 {
-  "content": "Paste the full conversation between gardener and AI here..."
-}
 
-For external sources (blogs, papers, articles):
+"metadata": {
 
-json
+"_citation_guidance": "For scientific provenance and proper attribution, complete the fields below. They are optional but we highly advise they be filled in — omitted fields default to internal CADMIES system standards. All entries may be amended later as new source information becomes available.",
 
-{
-  "metadata": {
-    "_citation_guidance": "For scientific provenance and proper attribution, complete the fields below. Optional — defaults to internal CADMIES standards. May be amended later.",
-    "source_description": "",
-    "source_url": "",
-    "author": "",
-    "license": ""
-  },
-  "content": "Paste the full article or conversation text here..."
+"source_description": YOUR TEXT HERE,
+
+"source_url": YOUR TEXT HERE,
+
+"author": YOUR TEXT HERE,
+
+"license": YOUR TEXT HERE
+
+},
+
+"content": YOUR TEXT HERE
+
 }
 ```
-This is the seed. Everything downstream flows from this file.
 
 ## Workflow 1: Full Harvest Pipeline
-The complete journey from source material to public deployment.
+The complete journey from source conversation to public mycelium map deployment.
 
 ┌───────────────────────────────────────────────────────────┐  
 │ FULL HARVEST PIPELINE │  
@@ -68,20 +68,27 @@ The complete journey from source material to public deployment.
 
 text
 
-### Commands
-```bash
-# Prepare source material
-# Edit tools/harvest/conversation.json with your text
-# Optional: fill in metadata.source_* fields
-# Run the full pipeline
+# Commands
+
+## Prepare source material
+## Edit tools/harvest/conversation.json with your text
+## Optional: fill in metadata.source_* fields
+## Run the full pipeline
+```
 python tools/harvest/harvest_full_pipeline.py --auto --with-relationships
-# Export backup
+```
+## Export backup
+```
 python tools/export_to_car.py --all --output /notebooks/cadmies_latest.car
-# Update public gateway (manual map copy needed)
-python tools/generate_public_gateway.py
-cp mycelium_map.html /notebooks/CADMIES/docs/
-# Commit and deploy
+```
+## Update public gateway (manual map copy needed)
+```
+python tools/generate_public_gateway.py && cp mycelium_map.html /notebooks/CADMIES/docs/
+```
+## Commit and deploy
+```
 cd /notebooks/CADMIES && git add docs/ && git commit -m "Update public gateway" && git push
+```
 
 ---
 
@@ -97,10 +104,10 @@ text
 │  conversation.json                  Harvester                      │
 │  ┌─────────────────────┐           reads metadata                  │
 │  │ metadata:           │                │                          │
-│  │   source_desc: ...  │                ▼                          │
-│  │   source_url: ...   │      Injects into proofs                  │
-│  │   author: ...       │           │                               │
-│  │   license: ...      │           ▼                               │
+│  │ source_desc: ...  │                ▼                          │
+│  │ source_url: ...   │      Injects into proofs                  │
+│  │ author: ...       │           │                               │
+│  │ license: ...        │           ▼                               │
 │  │ content:            │    concepts minted                        │
 │  │   [article text]    │    with full attribution                  │
 │  └─────────────────────┘           │                               │
@@ -116,7 +123,7 @@ text
 
 ### Example: Rebentisch Harvest
 
-json
+```json
 
 {
   "metadata": {
@@ -128,6 +135,7 @@ json
   },
   "content": "[Full article text here]"
 }
+```
 
 ---
 
@@ -161,15 +169,17 @@ text
 
 ### Commands
 
-bash
-
 # On Paperspace: export
+```
 python tools/export_to_car.py --all --output /notebooks/cadmies_latest.car
+```
 # Download cadmies_latest.car to local incoming_cars/
 # On local: import
+```
 cd /run/media/fedora/PNY/CADMIES/CADMIES-IPLD && source venv/bin/activate
 python tools/import_from_car.py incoming_cars/cadmies_latest.car
 python tools/generate_mycelium_map.py
+```
 
 ---
 
@@ -211,13 +221,16 @@ text
 
 ### Commands
 
-bash
-
 # Remint any stale CIDs
+```
 python tools/remint_existing_concepts.py --apply
+```
 # Regenerate map and check domains
+```
 python tools/generate_mycelium_map.py
+```
 # Audit source concepts
+```
 python3 -c "
 import json; from pathlib import Path
 source_dir = Path('source_concepts')
@@ -228,8 +241,11 @@ for jf in source_dir.glob('*.json'):
         if level not in dl or not dl[level]:
             print(f'{c[\"human_id\"]}: EMPTY {level}')
 "
+```
 # Export backup
+```
 python tools/export_to_car.py --all --output /notebooks/cadmies_latest.car
+```
 
 ---
 
@@ -258,15 +274,17 @@ text
 
 ### Commands
 
-bash
-
 # On Paperspace
+```
 cd /notebooks/CADMIES/CADMIES-IPLD
 git add -A
 git commit -m "Session XXX: description of changes"
 git push origin main
+```
 # On PNY
+```
 cd /run/media/fedora/PNY/CADMIES/CADMIES-IPLD && source venv/bin/activate
 git pull origin main
+```
 
 ---
