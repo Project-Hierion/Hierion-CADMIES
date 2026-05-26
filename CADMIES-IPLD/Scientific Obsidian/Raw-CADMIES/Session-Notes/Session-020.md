@@ -1,10 +1,6 @@
----
-session: 020
-dates: [2026-05-24, 2026-05-25]
-status: Complete
-system: CADMIES
----
-
+> ⚠️ RAW NOTE — Work in progress. May contain half-formed ideas, typos, 
+  unfiltered thoughts, and coded messages for fellow gardeners.
+  For polished documentation, check Polished CADMIES or promote this note.
 # Session 020 — The Emergence Session
 
 ## Soundtrack

@@ -67,7 +67,7 @@ def deduplicate_concepts(concept_list):
 
 # === PATH SETUP ===
 HARVEST_DIR = Path(__file__).parent
-PROJECT_ROOT = HARVEST_DIR.parent
+PROJECT_ROOT = HARVEST_DIR.parent.parent
 
 # === CONFIG ===
 CONVERSATION_FILE = HARVEST_DIR / "conversation.json"

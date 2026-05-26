@@ -85,7 +85,7 @@ class App(tk.Tk):
 
     def run_harvest(self):
         try:
-            subprocess.run(["python", "harvest/harvest_full_pipeline.py"], input=self.conversation_area.get("1.0", "end-1c"), check=True)
+            subprocess.run(["python", "tools/harvest/harvest_full_pipeline.py"], input=self.conversation_area.get("1.0", "end-1c"), check=True)
             self.update_preview()
             messagebox.showinfo("Success", "Harvesting completed successfully.")
         except subprocess.CalledProcessError as e:

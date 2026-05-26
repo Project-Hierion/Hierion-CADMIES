@@ -1,73 +1,65 @@
----
-session: 021
-dates: [2026-05-25]
-status: Complete
-system: CADMIES
----
-
+> ⚠️ RAW NOTE — Work in progress. May contain half-formed ideas, typos, 
+  unfiltered thoughts, and coded messages for fellow gardeners.
+  For polished documentation, check Polished CADMIES or promote this note.
 # Session 021 — The Harvester Hardening
 
 ## Soundtrack
-Whatever plays when you fix three bugs in one sitting and the pipeline finally works.
+Pine Vinyl — Luke LaRock. Bong rips. Flaming Hot Cheeto Puffs. Bob's judgmental mustache.
 
 ## What Went Down
 
-### Day 2 (continued from Session 020)
+- Resumed from Session 020 (May 25, 5:15 PM).
 - `import_from_car.py` upgraded to v1.2.0 — automatic index update on every block save.
-  No more manual index rebuild after CAR import. Index stays in sync inline.
-- Attempted JSON parse bug fix on harvester. Found four failed chunk files.
-  Root cause #1: Mistral not escaping apostrophes in poetic_version. Added regex fix.
-  Root cause #2 (found by Codestral): Missing commas between JSON array elements. Added comma regex.
-  Root cause #3 (found by Codestral on second audit): Our apostrophe regex was DOUBLE-ESCAPING.
-  Mistral correctly outputs `\'` but our regex added another `\` making `\\'` — invalid JSON.
-  Fix: removed the apostrophe escape line entirely. Mistral handles it now.
-- Harvester v4.2.0 → v4.2.1: comma fix added, apostrophe fix removed, prompt tightened.
-- Prompt updated: "1-2 lines maximum, NOT a full poem" and "Each object MUST be separated by a comma."
-- Tested: 9 concepts minted, zero failures. 100% validation pass.
-- New concepts: spacetime_curvature, quantum_entanglement_nonlocality, protein_function,
-  universal_gravitational_force, cellular_respiration, microbial_diversity_and_interactions,
-  hormonal_balance, black_hole_evaporation, climate_change_feedback.
-- Map: 383 nodes, 458 edges, 2 skipped.
-- `startup.sh` updated to install Python packages (ollama, dag_cbor, multiformats). Now 5 steps.
-- Discovered `startup.sh` cross-contamination: CADMIES notebook had Buttercup's startup script.
-  Restored correct CADMIES version with Ollama auto-install.
-- Buttercup training continued on separate notebook. Fresh checkpoint at `logs/atari_breakout-20260525-220517/`.
-  FPS 4.28-4.43 on A6000. Subactor-1 re-learning from fresh start.
-- Paperspace Core vs Gradient pricing researched. Future hybrid architecture scoped: 
-  Gradient Pro ($8/mo) for GPU training + Core CPU ($~50-80/mo) for 24/7 public library.
-- All four nodes synced. Clean main branch.
-
-## Key Decisions
-
-1. **Auto index update in CAR import.** v1.2.0 keeps index in sync during import. No manual rebuild.
-2. **Apostrophe fix removed.** Mistral learned to escape properly. Our fix became the bug.
-3. **Comma fix added.** Regex adds missing commas between JSON array elements.
-4. **Startup script hardened.** Now handles completely bare Paperspace machines.
-5. **Hybrid Core+Gradient architecture designed** for future 24/7 public mycelium.
+  No more manual index rebuild after CAR import.
+- Debugged JSON parse failures in harvester. Four root causes identified and fixed:
+  1. Missing commas between array elements (Codestral found it).
+  2. Double-escaped apostrophes — our fix was breaking valid JSON. Removed it.
+  3. Prose before JSON — Mistral finishes sentences before outputting JSON. 
+     Fix: strip everything before first `{`.
+  4. Chunk size reduced from 1000 to 750 words.
+- Codestral audited all 337 source concepts. Found 3 with missing difficulty levels.
+  Enriched them. 100% validation pass.
+- Merged 4 case-variant duplicates into lowercase canonicals.
+- Added 15 unmapped domains to DOMAIN_UPWARD_MAP. Map legend clean.
+- `startup.sh` hardened for bare Paperspace machines. 5 steps including Ollama auto-install.
+  Cross-contamination with Buttercup's script discovered and fixed.
+- Paperspace Core vs Gradient pricing researched. Hybrid architecture scoped.
+- Buttercup training continued on separate notebook.
+- Two full harvest runs: 23 new concepts minted, zero parse failures.
+- All four nodes synced. CAR exported.
 
 ## Final State
 
-| Metric | Value |
-|--------|-------|
-| Nodes (Paperspace) | 383 |
-| Edges (Paperspace) | 458 |
-| New concepts | 9 |
-| Harvester version | v4.2.1 |
-| Import version | v1.2.0 |
-| Buttercup step | training (new run) |
-| Buttercup checkpoint | logs/atari_breakout-20260525-220517/ |
+| Metric | Start | End |
+|--------|-------|-----|
+| Nodes | 383 | 404 |
+| Edges | 458 | 512 |
+| Harvester | v4.1.0 | v4.2.2 |
+| Import | v1.1.0 | v1.2.0 |
+| Source concept issues | 3 | 0 |
+| Duplicates | 4 | 0 |
+| Parse failures | Multiple | 0 |
 
-## Bugs Found & Fixed
+## Bugs Fixed
 
-1. **JSON parse failure — missing commas:** Mistral drops commas between array elements. Regex fix added.
-2. **JSON parse failure — double-escaped apostrophes:** Our fix was breaking valid JSON. Removed.
-3. **startup.sh cross-contamination:** CADMIES notebook had Buttercup's script. Restored.
-4. **Index drift after CAR import:** Fixed by auto-updating index in v1.2.0.
+1. Missing commas in JSON arrays — regex fix
+2. Double-escaped apostrophes — removed broken fix
+3. Prose before JSON — strip to first `{`
+4. `llm_mycelium_reader` → `cadmies_concept_reader`
+5. `car_utils.py` location: `tools/` → `tools/core/`
+6. `read_car_index()` missing — added to car_utils v1.0.3
+7. Startup script cross-contamination
 
 ## Nuggets
 
-- "Codestral caught it. Our apostrophe fix is BACKFIRING."
-- "Mistral learned. We didn't."
 - "A missing comma. Not apostrophes. I was so focused on the wrong problem."
-- "The carbutrator walks the blocks until it finds the right CAR to F in."
-- "The mycelium will be free."
+- "Mistral learned. We didn't."
+- "ZERO. FAILURES. ZERO. ERRORS."
+- "Mistral extracts, Codestral enriches. Option B, Alex."
+
+## Next Steps (Session 022)
+
+- Option B: Mistral extracts → Codestral enriches pipeline
+- Fix new unmapped domains (Climate Science, Plant Physiology, Oceanography, etc.)
+- Resume Buttercup training from checkpoint
+- Phase 52: llama.cpp groundwork

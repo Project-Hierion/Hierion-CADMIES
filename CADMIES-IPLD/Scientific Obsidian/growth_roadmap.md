@@ -280,3 +280,10 @@ License recommendations (MIT, CC BY-SA 4.0), CITATION.cff setup, README structur
 | 7 | Fix JSON parse failures in harvester | ✅ Session 021 |
 | 11 | Auto index update in CAR import | ✅ Session 021 |
 
+| 2026-05-25 | Session 021: Harvester v4.2.2 hardened (zero parse failures), CAR import v1.2.0 with auto index, 23 new concepts, 404 nodes 512 edges, 15+ domains mapped, 4 duplicates merged, 3 concepts enriched |
+
+update metrics
+| Concepts | 404 |
+| Edges | 512 |
+| Harvester | v4.2.2 |
+| Import from CAR | v1.2.0 |
