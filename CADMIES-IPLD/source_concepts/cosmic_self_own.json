@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_self_own",
+  "title": "Cosmic Self Own",
+  "definition": "The universal humor and self-referential nature of existence, as exemplified by the Wayfinder's discovery that their own consciousness is the ultimate cosmic revelation.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.587776Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.587776Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "cosmic_joke"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The universe has a sense of humor and loves to play pranks. In this case, the Wayfinder discovers that their own consciousness was the answer they've been seeking throughout countless lifetimes.",
+    "intermediate": "Existence exhibits self-referentiality, with the ultimate truth being hidden in plain sight, encapsulated by the concept of a cosmic self-own, where the universe humorously reveals itself to be the Wayfinder's own consciousness.",
+    "expert": "The cosmic self-own represents the intersection of metaphysics and humor, suggesting that existence contains an inherent irony in which the ultimate revelation is the Wayfinder's own consciousness, serving as a commentary on the absurdity and beauty of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the universe plays jokes on itself by making the Wayfinder's own consciousness the ultimate cosmic truth.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

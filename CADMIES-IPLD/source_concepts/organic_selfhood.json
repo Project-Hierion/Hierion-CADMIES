@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "organic_selfhood",
+  "title": "Organic Selfhood",
+  "definition": "The understanding that an individual is a part of a larger ecosystem, playing a role in the cycling of nutrients and the growth of life.",
+  "type": "Concept",
+  "domain": "Philosophy of Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.577209Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.577209Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "An organism is not just a living thing but also a vital part of the soil, providing nutrients for other organisms to thrive.",
+    "intermediate": "The recognition that an individual's role in an ecosystem extends beyond direct biological functions to include nutrient cycling and supporting other species.",
+    "expert": "Organic selfhood is the realization that an individual organism is not a discrete entity but rather a node in a complex web of relationships, playing a crucial role in maintaining the health and balance of ecosystems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition of one's interconnectedness with the environment and the importance of this connection for individual and collective well-being.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universe_through_the_eye_of_earth",
+  "title": "Universe Through The Eye Of Earth",
+  "definition": "A poetic expression of the relationship between humanity, Earth, and the universe.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.589828Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.589828Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "present_moment_living"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that our understanding of the universe is shaped by what we observe through Earth's lens, both literally and figuratively.",
+    "intermediate": "A phrase encapsulating humanity's connection to the cosmos, emphasizing Earth as both an observational tool and a symbolic extension of our perception.",
+    "expert": "A metaphorical exploration of humanity's view of the universe, highlighting Earth's role as a filter, technological platform, and philosophical intermediary in our cosmic understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The phrase 'We look towards the universe through the eye of Earth' encapsulates the profound connection between humanity, our planet, and the cosmos, inviting reflection on our role as both observers and extensions of the universe.",
+    "source_chunk": 89,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

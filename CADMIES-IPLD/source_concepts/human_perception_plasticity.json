@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "human_perception_plasticity",
+  "title": "Human Perception Plasticity",
+  "definition": "The ability of the human brain to adapt and change its sensory abilities through training and technology.",
+  "type": "Concept",
+  "domain": "Neuroscience, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.572842Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.572842Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like how we can learn to taste wine or music better with practice, our brains have the potential to increase their ability to perceive smells, sounds, and more, even beyond human limits with technology.",
+    "intermediate": "The brain's active interpretation of sensory data allows for enhancement through training (perceptual learning) and technology, such as sensory substitution devices that enable blind people to 'see'.",
+    "expert": "Human perception is malleable due to the brain's adaptability. Training can improve discrimination in sensory domains, while technology can bypass damaged senses and feed new data directly into the brain for interpretation. This demonstrates the plasticity of human perception, with potential for superhuman abilities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight lies in recognizing that our perception is not fixed but can be shaped and augmented through training and technology.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

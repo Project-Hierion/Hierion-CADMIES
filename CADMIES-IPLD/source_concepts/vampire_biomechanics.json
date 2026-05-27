@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vampire_biomechanics",
+  "title": "Vampire Biomechanics",
+  "definition": "The study of the structural, functional, and evolutionary aspects of a vampire's physiology.",
+  "type": "Concept",
+  "domain": "Bioengineering & Mythology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.580592Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.580592Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "hematophagous_symbiosis_theory",
+      "nematocyst_hematophagy_mechanism"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Understanding how a vampire could feed without making a mess or waking its victim.",
+    "intermediate": "Exploring the unique biological adaptations that enable a vampire to feed stealthily and efficiently, such as its jellyfish-like tongue and passive blood feeding mechanism.",
+    "expert": "Investigating the complex interplay between evolution, anatomy, and physiology in the creation of a mythical creature like a vampire, providing insights into potential real-world applications and pushing the boundaries of bioengineering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A blend of the fantastical and the scientific, illuminating new possibilities for real-world bioengineering.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

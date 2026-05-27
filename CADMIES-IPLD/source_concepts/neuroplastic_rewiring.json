@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neuroplastic_rewiring",
+  "title": "Neuroplastic Rewiring",
+  "definition": "The brain's ability to physically change and adapt due to experience and training, leading to permanent changes in neural networks.",
+  "type": "Concept",
+  "domain": "Neuroscience, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.571533Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.571533Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The brain can alter itself by learning new things or changing its habits. This is like rewiring a house's electrical system.",
+    "intermediate": "Through deliberate training and practice, the brain can undergo structural changes that affect its default processing and perception of reality.",
+    "expert": "Neuroplasticity is the brain's inherent ability to change its neural connections in response to experience. This includes learning new skills, adapting to injury, and altering thought patterns."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Buddhist path of mindfulness, meditation, and ethical living leads to a rewiring of the brain that results in a shift from a self-centered perception to an impersonal, ownerless view of reality.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

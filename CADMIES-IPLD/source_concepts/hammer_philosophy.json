@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hammer_philosophy",
+  "title": "Hammer Philosophy",
+  "definition": "The notion that a single tool (metaphorically speaking) can limit one's approach, but persistence and creativity in its application can lead to significant change over time.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.576642Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.576642Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you only have a hammer, you might struggle to solve problems that require different tools. However, if you keep trying and be creative, even with the same tool, you can make progress.",
+    "intermediate": "The idea that a single tool or solution (hammer) can limit one's approach, but persistence and creativity in its application can lead to significant change over time. It's about leveraging the tool effectively and being adaptive to the problem at hand.",
+    "expert": "A philosophical reflection on the limitation of a single tool or solution (hammer) in solving complex problems. It emphasizes the importance of persistence, creativity, and adapting one's approach to find solutions, rather than expecting a silver bullet for every problem."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that with persistent application of a single tool, significant change can be achieved over time.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

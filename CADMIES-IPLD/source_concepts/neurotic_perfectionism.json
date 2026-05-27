@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neurotic_perfectionism",
+  "title": "Neurotic Perfectionism",
+  "definition": "The compulsive drive for perfection, even in the most unexpected creatures.",
+  "type": "Concept",
+  "domain": "Behavior",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.576384Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.576384Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A tiny, black bird that clears every speck of dirt from its dance floor before performing.",
+    "intermediate": "An unusual display of obsessive-compulsive behavior in the animal kingdom, characterized by a meticulous need for cleanliness and order.",
+    "expert": "A philosophical concept that highlights the existence of neurotic tendencies in certain creatures, demonstrating the universality of perfectionism across species."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Nature's most neurotic perfectionist\u2014a tiny black velvet disco ball with an OCD cleaning protocol.",
+    "source_chunk": 36,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

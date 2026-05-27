@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "enlightened_humanity",
+  "title": "Enlightened Humanity",
+  "definition": "The transformed state of human qualities exhibited by the Buddha after his enlightenment, characterized by wisdom, compassion, and freedom from suffering.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.566046Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.566046Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Buddha's post-enlightenment state showed a kinder, wiser version of being human, free from selfishness and suffering.",
+    "intermediate": "The Buddha embodied a perfected form of human qualities after enlightenment, characterized by wisdom, compassion, and freedom from craving and suffering.",
+    "expert": "The Buddha's enlightened humanity represents the transcendence of personal afflictions, leading to a state of unconditional loving-kindness, compassion, sympathetic joy, and equanimity, all tailored for skillful means."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A vividly human yet purified and perfected form of existence that serves as a model of what enlightenment looks like in the world.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

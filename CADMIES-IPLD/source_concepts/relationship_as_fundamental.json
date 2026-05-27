@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "relationship_as_fundamental",
+  "title": "Relationship As Fundamental",
+  "definition": "The idea that relationships and connections between entities are fundamental to the existence and evolution of complex systems.",
+  "type": "Concept",
+  "domain": "Philosophy of Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.588998Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.588998Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The notion that what matters most in life is not just individual organisms, but the connections they have with each other. For example, trees would not exist without the soil, which exists because of mycorrhizal fungi.",
+    "intermediate": "A philosophical perspective emphasizing the importance of symbiotic relationships and connections between entities as a driving force in evolution and complexity. Mycorrhiza is presented as an example of such a relationship that underpins the entire terrestrial ecosystem.",
+    "expert": "An insight suggesting that the emergence, persistence, and evolution of complex systems are fundamentally based on their interconnected relationships. The example of mycorrhiza highlights this concept by demonstrating how these fungi form mutualistic partnerships with plants that underpin life as we know it, challenging traditional hierarchies of importance in favor of relational complexity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition of the primacy of relationship over individuality in understanding complex systems and their evolution.",
+    "source_chunk": 85,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

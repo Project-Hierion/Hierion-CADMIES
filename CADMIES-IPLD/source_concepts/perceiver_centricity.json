@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "perceiver_centricity",
+  "title": "Perceiver Centricity",
+  "definition": "The idea that perception and consciousness are central to understanding art, rather than physical realism or optical space.",
+  "type": "Concept",
+  "domain": "Art Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.578681Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.578681Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Instead of focusing on what we see in a painting, perceiver-centricity suggests considering the artist's intent, emotions, and perspective as crucial aspects to understanding the artwork.",
+    "intermediate": "Perceiver-centricity is an approach to art that emphasizes the role of perception and consciousness in interpreting works, challenging traditional notions of physical realism and optics.",
+    "expert": "Perceiver-centricity proposes that art is a means of transmitting meaning, emotion, and spiritualized views of the body, bypassing physical realism. It suggests that true understanding comes from experiencing the artist's perception at the moment of creation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Art as a window to the artist's soul and a tool for spiritual transformation.",
+    "source_chunk": 44,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

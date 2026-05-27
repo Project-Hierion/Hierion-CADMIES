@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "life_as_cultural_fermentation",
+  "title": "Life As Cultural Fermentation",
+  "definition": "The idea that life, like fermentation, is a slow, underground process that transforms conditions to enable visible changes and new possibilities.",
+  "type": "Concept",
+  "domain": "Philosophy of Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.576909Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.576909Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Life is like a yeast that slowly alters conditions in its environment, creating an opportunity for positive changes to occur.",
+    "intermediate": "Life operates as a process of cultural fermentation, where individual actions can create new social conditions that enable and encourage similar positive actions from others.",
+    "expert": "Life is a form of slow, self-organizing change that alters the conditions for its own propagation, leading to the emergence of novel forms and collective behaviors, much like cultural fermentation processes in biology and society."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that individual actions can have profound societal impacts by creating enabling conditions for positive change.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "integrated_path",
+  "title": "Integrated Path",
+  "definition": "The Eightfold Path as an interdependent and organic system, where all facets develop simultaneously to support each other.",
+  "type": "Concept",
+  "domain": "Philosophy of Buddhism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.574477Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.574477Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Eightfold Path is not a step-by-step guide; rather, it's like a set of skills that should be developed and used together at the same time for enlightenment.",
+    "intermediate": "The Eightfold Path consists of eight interrelated factors (Right View, Intention, Speech, Action, Livelihood, Effort, Mindfulness, and Concentration) that mutually support each other in the development of an enlightened mind.",
+    "expert": "The Eightfold Path is a holistic and non-linear framework for the development of wisdom, ethics, and mental discipline. The eight factors are interconnected and form a dynamic system where each factor supports and depends on others in reaching enlightenment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Eightfold Path is not a linear process but an organic, interdependent system that matures simultaneously to support the ultimate goal of enlightenment.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

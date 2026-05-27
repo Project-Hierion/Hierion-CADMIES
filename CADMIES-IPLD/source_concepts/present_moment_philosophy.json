@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "present_moment_philosophy",
+  "title": "Present Moment Philosophy",
+  "definition": "The philosophy emphasizing the importance and completeness of living fully in each present moment.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.589434Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.589434Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Instead of focusing on a long life, this philosophy encourages enjoying every moment as if it's your only one.",
+    "intermediate": "This perspective shifts the focus from the length of life to the quality of presence in each moment, drawing inspiration from the mayfly's brief existence.",
+    "expert": "By embracing the present moment as a complete unit of existence, this philosophy encourages us to live fully and without regret or anxiety, learning from the example of creatures like the mayfly that have short lifespans but intense experiences."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Emphasizing the present moment as a whole and complete unit of life rather than just a fraction of a long lifespan.",
+    "source_chunk": 87,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

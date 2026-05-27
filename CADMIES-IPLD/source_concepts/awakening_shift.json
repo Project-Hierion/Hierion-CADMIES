@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "awakening_shift",
+  "title": "Awakening Shift",
+  "definition": "The transformative experience where the Buddha realized the illusory nature of self and the interdependent arising of all phenomena.",
+  "type": "Concept",
+  "domain": "Philosophy, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.569479Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.569479Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A moment in the life of Buddha when he realized that our sense of 'self' is an illusion. It's like seeing through a mask and recognizing there's no one wearing it.",
+    "intermediate": "The process by which the Buddha moved beyond the concept of self, understanding the interdependence of all phenomena and their impermanent nature.",
+    "expert": "The profound realization by the Buddha that the sense of 'self' is a construct, an illusion, and the recognition of the interdependent origination (pa\u1e6dicca-samupp\u0101da) of all things, which led to his enlightenment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the illusory nature of self and the interdependence of all phenomena is key to the Buddha's awakening.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

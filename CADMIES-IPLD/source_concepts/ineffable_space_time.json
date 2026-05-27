@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ineffable_space_time",
+  "title": "Ineffable Space Time",
+  "definition": "The inability to fully comprehend the true nature of space-time due to the limitations of language and human perception.",
+  "type": "Concept",
+  "domain": "Physics & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.590610Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.590610Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The experience of time and space cannot be accurately explained or described using words, as it transcends our understanding and lies beyond the reach of language.",
+    "intermediate": "The complexity and ambiguity of space-time (as described by General Relativity) make it difficult to grasp with conventional methods of understanding and communication.",
+    "expert": "The Qualia Problem in philosophy of mind suggests that our concepts and language are insufficient for capturing the full richness of lived experiences like a shift in time or the feeling of being in a specific space."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Space-time, as described by physics, is fundamentally ineffable due to its complexity and the limitations of human perception and understanding.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "perspectival_diversity_in_art",
+  "title": "Perspectival Diversity In Art",
+  "definition": "The coexistence of different artistic perspectives, each with its own unique approach to representing space and form.",
+  "type": "Concept",
+  "domain": "Art and Aesthetics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.578399Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.578399Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Different art movements use different techniques to create the illusion of three-dimensional space on a two-dimensional surface. For example, Indian miniature paintings often have figures that appear almost cartoonish or flat, while Western art often strives for greater realism.",
+    "intermediate": "Perspectival diversity in art reflects the variety of ways people have attempted to represent reality over time and across cultures. Each approach offers unique insights into the artist's worldview and cognitive processes.",
+    "expert": "The perspectival diversity found in art serves as a testament to the richness and complexity of human thought and perception. It highlights the many ways in which people have attempted to represent reality, and it invites us to question our own assumptions about the nature of visual representation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Perspectival diversity challenges us to embrace multiple perspectives and to recognize that there is no one 'correct' way to see the world.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

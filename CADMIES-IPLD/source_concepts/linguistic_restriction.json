@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "linguistic_restriction",
+  "title": "Linguistic Restriction",
+  "definition": "The idea that language, by labeling concepts like 'time' and 'space', restricts our understanding of these abstract entities.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.590053Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.590053Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Our words can limit how we think about and perceive complex ideas such as time and space because they reduce them to simple, static labels.",
+    "intermediate": "The Sapir-Whorf Hypothesis suggests that our language shapes our perception of the world, including time and space, by providing categories and labels that constrain our thinking.",
+    "expert": "By attaching words to abstract concepts, we inadvertently limit their comprehension to the bounds of these linguistic constructs. This leads to a disconnect between our conceptual knowledge and lived experiences, as philosopher Henri Bergson argued."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Language may restrict our understanding of complex ideas like time and space due to the constraints imposed by labels.",
+    "source_chunk": 90,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

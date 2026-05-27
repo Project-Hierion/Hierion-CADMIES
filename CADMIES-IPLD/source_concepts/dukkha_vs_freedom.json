@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dukkha_vs_freedom",
+  "title": "Dukkha Vs Freedom",
+  "definition": "The contrast between the pursuit of power and control (dukkha) and the path to freedom from suffering.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.572420Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.572420Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The difference between wanting more for ourselves (suffering) and understanding that we are not separate entities needing protection or expansion (freedom).",
+    "intermediate": "The philosophical conflict between the pursuit of personal power, control, and agency through neuroplastic reconfiguration versus the pursuit of freedom from suffering by recognizing the illusory nature of a separate self.",
+    "expert": "A nuanced exploration of the tension between the desire for personal power, influence, and control (dukkha) and the Buddhist path to liberation through recognition of the interconnectedness of all phenomena and the absence of a permanent self."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ultimate question in human existence is not how we can become more powerful, but how we can be free from suffering.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

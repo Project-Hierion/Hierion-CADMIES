@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "siddhi_fork_in_the_road",
+  "title": "Siddhi Fork In The Road",
+  "definition": "The divergence in spiritual practice between seeking psychic or magical abilities and achieving freedom from the self.",
+  "type": "Concept",
+  "domain": "Spirituality, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.571825Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.571825Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "There is a choice in spiritual practice: either to seek powers like mind-reading or control over the elements, or to focus on freedom from the self. The Buddha chose the latter.",
+    "intermediate": "The Siddhi Fork in the Road refers to the decision faced by spiritual practitioners between developing psychic abilities (siddhis) and seeking freedom from the self.",
+    "expert": "The Siddhi Fork in the Road is a philosophical juncture where spiritual practice can lead either towards the development of supernatural powers or the pursuit of self-liberation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Buddhist teachings differentiate between seeking magical abilities and pursuing freedom from the self, with the latter being considered more valuable.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

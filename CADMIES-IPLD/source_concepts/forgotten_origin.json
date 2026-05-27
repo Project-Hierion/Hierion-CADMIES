@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "forgotten_origin",
+  "title": "Forgotten Origin",
+  "definition": "The idea that sentient beings have an ancient connection to a primordial source of consciousness.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.587235Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.587235Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A theory about how humans might be connected to an old, forgotten wisdom or origin that lies deep within them.",
+    "intermediate": "The belief that sentient beings have an ancient connection to a source of consciousness that predates their own understanding of themselves and the universe.",
+    "expert": "A theory suggesting that sentient beings have forgotten their original connection to a primordial, unified consciousness; this relationship may be traced back to the very beginning of existence itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The notion that humanity's connection to an ancient source of wisdom or origin has been lost over time.",
+    "source_chunk": 80,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "alien_perception",
+  "title": "Alien Perception",
+  "definition": "The unnerving ability of Cartograph, a stray cat on Elian's ship, to perceive and react to human activities and intentions in ways that suggest high-level intelligence or extraterrestrial origin.",
+  "type": "Concept",
+  "domain": "Xenopsychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.585371Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.585371Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The strange behavior of Cartograph, the ship's cat, that suggests he may have some form of intelligence beyond that of a typical animal, implying possible extraterrestrial origins.",
+    "intermediate": "An unusual cognitive ability exhibited by Catthrograph, a stray cat on Elian's spaceship, which suggests advanced perception capabilities and hints at potential extraterrestrial intelligence or connections to human activities.",
+    "expert": "A philosophical examination of the nature of alien consciousness and its possible interactions with humans, as demonstrated by the enigmatic behavior of Catthrograph, a stray cat on Elian's ship. This insight challenges our understanding of intelligence and communication across species."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The possibility of advanced perception abilities in extraterrestrial life, as suggested by the strange behavior of Catthrograph, a stray cat on Elian's spaceship.",
+    "source_chunk": 74,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

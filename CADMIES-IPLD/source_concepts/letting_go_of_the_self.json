@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "letting_go_of_the_self",
+  "title": "Letting Go Of The Self",
+  "definition": "The conscious effort to relinquish personal identity, desires, and attachments in pursuit of spiritual liberation.",
+  "type": "Concept",
+  "domain": "Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.569036Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.569036Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Letting go of the need for self-importance or ego gratification in order to achieve inner peace and understanding.",
+    "intermediate": "The process of releasing personal attachments, desires, and identities to attain spiritual freedom and enlightenment.",
+    "expert": "A philosophical and spiritual practice aimed at overcoming ego-centrism, attachment, and self-delusion in pursuit of ultimate liberation from suffering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that true spiritual progress requires the letting go of personal identity and attachments, enabling a deeper connection with oneself, others, and the universe.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emptiness_and_interconnectedness",
+  "title": "Emptiness And Interconnectedness",
+  "definition": "The realization that one's true nature is empty and luminous, and that all things are interconnected.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.591683Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.591683Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "anatta"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In this conversation, the idea is presented that everything, including ourselves, is 'empty' or void of a separate, independent self. Instead, we are interconnected with everything else in the universe. It's like understanding that each drop of water in an ocean is not separate but part of the same whole.",
+    "intermediate": "The concept of emptiness and interconnectedness refers to the Buddhist philosophy that all phenomena, including ourselves, lack inherent existence and are interdependent. This means that there is no ultimate separation between self and other, as everything is perceived through the lens of our own mind.",
+    "expert": "The conversation introduces the idea that our true nature is 'empty' or void of a separate, independent self. This emptiness implies that we are not separate entities but part of an interconnected whole. The implication is that the boundary between self and other dissolves, leading to a profound understanding of unity and interdependence in all things."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the realization that our true nature is empty and luminous, and that all things are interconnected. This understanding brings about a sense of oneness with the universe, challenging traditional notions of selfhood.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

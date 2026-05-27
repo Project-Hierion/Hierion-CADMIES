@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "skillful_means",
+  "title": "Skillful Means",
+  "definition": "The Buddha's ability to tailor his actions, whether teaching, rebuking, or remaining silent, for the purpose of helping others move toward liberation.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.567267Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.567267Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Buddha knew how to say and do the right things at the right times to help others on their spiritual path.",
+    "intermediate": "Skillful means refers to the Buddha's ability to adapt his actions according to a listener's needs, guided by compassionate wisdom rather than personal bias.",
+    "expert": "The Buddha mastered the art of skillful means (Upaya-kaushalya), which allowed him to employ various methods to guide individuals toward liberation based on their readiness and capacity for understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Buddha's use of skillful means demonstrated his profound compassion and wisdom, enabling him to help others in the most effective way possible.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

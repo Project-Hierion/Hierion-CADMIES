@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "modern_buddha",
+  "title": "Modern Buddha",
+  "definition": "An individual who has achieved a state of enlightenment in contemporary society, characterized by compassionate action and wisdom without ego or need for recognition.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.568447Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.568447Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A person living in modern times who has attained spiritual enlightenment, showing kindness and understanding to others without the desire for fame or praise.",
+    "intermediate": "An individual who embodies the teachings of Buddha, but within a contemporary context, acting selflessly with profound wisdom and compassion.",
+    "expert": "A highly evolved being in modern society, having transcended personal desires and achieved spiritual liberation, characterized by skillful means, humility, and service to others, while maintaining anonymity and eschewing recognition."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that enlightenment can manifest in contemporary times, defying traditional notions of mysticism or otherworldliness.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

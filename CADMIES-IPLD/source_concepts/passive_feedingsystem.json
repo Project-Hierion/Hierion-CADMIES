@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "passive_feedingsystem",
+  "title": "Passive Feedingsystem",
+  "definition": "A feeding system that relies on passive flow rather than active pumping.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.583542Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.583542Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Vampire bats feed by sucking blood through tiny tubes, instead of using muscles to squirt blood out like a syringe.",
+    "intermediate": "The feeding system of vampire bats is passive, relying on capillary action and suction rather than muscular effort to draw blood from their hosts.",
+    "expert": "The feeding system of vampire bats is a passive suction-based mechanism that enables silent, efficient feeding, conserving energy and reducing the risk of detection or damage to microchannels."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Vampire bat feeding system as an example of passive, efficient, and stealthy predation",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

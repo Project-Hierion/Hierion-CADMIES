@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "telepathic_time_machine",
+  "title": "Telepathic Time Machine",
+  "definition": "A philosophical interpretation of great art as a telepathic connection to the moment of its conception, transcending time and creating an immortal experience shared between artist and viewer.",
+  "type": "Concept",
+  "domain": "Art & Aesthetics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.579389Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.579389Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Great art can make you feel like you're experiencing the exact moment when it was created, connecting you deeply with the artist and creating a timeless, profound feeling.",
+    "intermediate": "The essence of great art is its ability to create a portal to the precise instant of its conception within an artist's mind. This experience transcends time and space, providing a shared, immortal moment between artist and viewer.",
+    "expert": "Art at its peak is not just a representation but a telepathic time machine that transports the viewer into the very act of conception. This connection creates an eternal, composite experience that transcends individual identities, making great art more than just skill or analysis\u2014it's a shared, timeless moment between artist and viewer."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Great art is not merely a representation; it serves as a telepathic time machine, allowing the viewer to share in the artist's vision and experience a timeless, immortal connection.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

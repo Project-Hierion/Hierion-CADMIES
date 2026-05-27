@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "anatta_perspective",
+  "title": "Anatta Perspective",
+  "definition": "The Buddhist understanding of 'not-self,' emphasizing that an individual's identity is transient and composed of interdependent parts, rather than a permanent entity.",
+  "type": "Concept",
+  "domain": "Religion & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.575683Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.575683Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that there is no unchanging self within us; instead, we are made up of constantly changing thoughts, feelings, and experiences.",
+    "intermediate": "A Buddhist philosophy that emphasizes the impermanent, interdependent nature of self, challenging the concept of a permanent soul or identity.",
+    "expert": "Anatta represents the Buddha's profound insight into the transient and dependent nature of human existence, leading to a radical rejection of the Western conception of a permanent self."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The understanding that an individual's identity is not fixed or permanent, but constantly changing and interdependent",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

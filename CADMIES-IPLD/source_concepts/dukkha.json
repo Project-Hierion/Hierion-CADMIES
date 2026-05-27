@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dukkha",
+  "title": "Dukkha",
+  "definition": "A Buddhist concept representing unsatisfactoriness, suffering, or stress in life.",
+  "type": "Concept",
+  "domain": "Buddhism, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.573134Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.573134Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "anatta"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The feeling of dissatisfaction or unhappiness that comes from wanting things to be different than they are, even when you have the best senses possible.",
+    "intermediate": "A fundamental Buddhist concept describing the inherent unsatisfactoriness in life due to craving and aversion, which can persist despite enhanced sensory abilities.",
+    "expert": "In Buddhism, dukkha represents the fundamental dissatisfaction or suffering inherent in existence. The Buddha discovered that even with extraordinary perception, the sense of self still leads to craving and aversion, resulting in continued suffering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight lies in recognizing that enhanced senses do not solve the problem of dukkha; instead, it is essential to understand and transcend the sense of self through concentration and insight.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

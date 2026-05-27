@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "art_as_windows_into_minds",
+  "title": "Art As Windows Into Minds",
+  "definition": "The idea that art serves as a reflection of the artist's mind, offering a unique perspective or vision.",
+  "type": "Concept",
+  "domain": "Aesthetics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.577844Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.577844Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Art is like a window into the artist's thoughts and feelings. Each piece offers a glimpse into their unique way of seeing the world.",
+    "intermediate": "Art is not just a representation of reality, but also a manifestation of the artist's mental and philosophical viewpoint, expressed through various techniques and styles.",
+    "expert": "Art as windows into minds posits that each work of art serves as an expression of the artist's consciousness, offering insights into their metaphysics, aesthetics, and even cognitive processes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that art is not just a mirror of reality but also a window into the artist's mind, revealing their unique perspective and vision.",
+    "source_chunk": 41,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

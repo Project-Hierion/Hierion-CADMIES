@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neuroplastic_reconfiguration",
+  "title": "Neuroplastic Reconfiguration",
+  "definition": "The ability to restructure and adapt the brain through various means, including meditation, technology, and learning.",
+  "type": "Concept",
+  "domain": "Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.572150Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.572150Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The capacity for our brains to change and grow over time based on experiences and training, like becoming a chess grandmaster or using tech to see in the dark.",
+    "intermediate": "The process by which the brain can be rewired to develop new skills, perceptions, or cognitive abilities through various methods, such as meditation, drugs, technology, or intense practice.",
+    "expert": "The exploration of the brain's inherent ability to adapt and change in response to environmental stimuli, including self-imposed training regimes and technological interventions, and its philosophical implications on the nature of consciousness, identity, and control."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Exploring the boundaries of human potential through neuroplastic reconfiguration offers a unique blend of scientific advancement and spiritual enlightenment.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

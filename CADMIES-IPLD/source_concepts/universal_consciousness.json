@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_consciousness",
+  "title": "Universal Consciousness",
+  "definition": "The theory that consciousness is a singular, unified entity across space and time, present in all sentient beings.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.586954Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.586954Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that everything thinking might share the same kind of mind or consciousness, like parts of one big interconnected brain.",
+    "intermediate": "The hypothesis suggesting that a universal consciousness is present in all sentient beings, forming an interconnected and recurring mind across space and time.",
+    "expert": "A theory proposing the existence of a single, unified consciousness that recurs throughout space and time, found within every sentient being; it suggests that consciousness is a cosmic seed sown at the beginning of existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that all thinking beings are connected and share a common origin.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

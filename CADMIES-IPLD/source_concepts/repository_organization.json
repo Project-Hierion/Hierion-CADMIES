@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "repository_organization",
+  "title": "Repository Organization",
+  "definition": "The structure and methodology used to manage, store, and access concepts within the CADMIES concept repository.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.581645Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.581645Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The way concepts are stored, organized, and retrieved in the CADMIES concept repository, ensuring efficient knowledge management.",
+    "intermediate": "A system for managing the organization of concepts within the CADMIES repository, including file structure, versioning, and access controls.",
+    "expert": "An approach to organizing digital artifacts in a concept repository like CADMIES, considering factors such as scalability, discoverability, and integrity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The design of the internal structure and management system within CADMIES, enabling effective and efficient knowledge organization and retrieval.",
+    "source_chunk": 56,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

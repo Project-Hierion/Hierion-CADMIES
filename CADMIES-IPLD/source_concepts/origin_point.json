@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "origin_point",
+  "title": "Origin Point",
+  "definition": "The starting point or source of something, such as the beginning of a map, cosmic journey, or even existence itself.",
+  "type": "Concept",
+  "domain": "Cosmology & Cartography",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.586393Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.586393Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The place where it all began, the first step on an unfathomable journey through space and time.",
+    "intermediate": "A key location in a map or cosmic journey that signifies the starting point, possibly providing insights into the origins of life, the universe, or the map itself.",
+    "expert": "A profound concept representing the quest for understanding our origins, serving as a symbolic endpoint of exploration and a reminder of humanity's continuous search for answers to fundamental questions about existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The origin point is a powerful and thought-provoking idea that underscores the human desire to comprehend the beginnings of life, the universe, and the maps we create to navigate our cosmic journey.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

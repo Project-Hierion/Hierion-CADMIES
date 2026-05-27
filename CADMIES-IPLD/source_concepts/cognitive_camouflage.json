@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cognitive_camouflage",
+  "title": "Cognitive Camouflage",
+  "definition": "The ability to manipulate one's appearance or behavior to blend in with the environment or expectations of others.",
+  "type": "Concept",
+  "domain": "Psychology & Mythology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.580857Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.580857Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "trojan_cigarette"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A concept where a creature changes its appearance to hide in plain sight, like a Trojan Cigarette that blends into everyday objects.",
+    "intermediate": "The use of deception and disguise as a survival strategy, such as the vampire's ability to camouflage itself through object-level imitation.",
+    "expert": "Exploring the psychological mechanisms that allow for cognitive camouflage, its role in symbiotic relationships, and its implications for understanding human deception and adaptation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The line between predator and prey blurs as the predator adapts to coexist with its host, revealing unexpected complexities in their relationship.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

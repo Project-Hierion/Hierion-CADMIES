@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sincerity_in_communication",
+  "title": "Sincerity In Communication",
+  "definition": "The authentic and genuine expression of thoughts, feelings, or experiences without ulterior motives.",
+  "type": "Concept",
+  "domain": "Ethics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.568727Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.568727Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Speaking honestly and openly, without trying to deceive or manipulate others for personal gain.",
+    "intermediate": "The quality of being genuine in communication, characterized by honesty, candor, and a lack of self-interest.",
+    "expert": "A commitment to truthfulness, openness, and transparency in communication, emphasizing integrity, empathy, and mutual understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that sincere communication can foster deeper connections, trust, and personal growth in both the speaker and listener.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

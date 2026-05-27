@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "voluntary_predation",
+  "title": "Voluntary Predation",
+  "definition": "A unique class of predator-prey interaction, characterized by voluntary provisioning within an involuntary relationship.",
+  "type": "Concept",
+  "domain": "Ethology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.583028Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.583028Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In this relationship, the prey (host) offers food willingly to a predator. It's like a cat letting you pet it \u2014 it doesn't want to be petted, but it tolerates it.",
+    "intermediate": "This interaction goes beyond typical predator-prey relationships by acknowledging the inevitable feeding arrangement and setting terms through generosity rather than resistance.",
+    "expert": "The offering ritual modifies asymmetric biological relationships by demonstrating acceptance, resource sufficiency, and psychological stability. The predator responds with reduced feeding frequency or intensity, creating a stable relationship that structurally parallels peace-making rituals in human conflict."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Ritual can modify the dynamics of even the most asymmetric biological relationships, transforming predation into an iterated negotiation.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

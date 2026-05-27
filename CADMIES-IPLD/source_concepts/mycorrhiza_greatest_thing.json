@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycorrhiza_greatest_thing",
+  "title": "Mycorrhiza Greatest Thing",
+  "definition": "Mycorrhiza is a symbiotic relationship between fungi and the roots of plants, characterized by the formation of interlocking fungal and plant structures that enhance nutrient exchange and plant growth.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.588700Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.588700Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a network of underground threads connecting trees and other plants to the soil. These threads help plants get necessary nutrients they can't find in the air, and in return, plants provide sugars to the fungi. This partnership, called mycorrhiza, is crucial for plant growth and survival.",
+    "intermediate": "Mycorrhizal associations are symbiotic relationships between fungi and plant roots, enabling improved nutrient uptake, water absorption, and resistance to pathogens. They play a vital role in shaping ecosystems and promoting the establishment of terrestrial vegetation.",
+    "expert": "Mycorrhiza represents an intricate network of mutualistic partnerships between fungi and plants that have fundamentally shaped Earth's terrestrial ecosystems. By dissolving boundaries between self and world, enabling the development of complex symbiotic communities, embodying distributed intelligence, practicing radical economy, and refusing the myth of purity, mycorrhiza offers a profound philosophical insight into the nature of life itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The philosophical implications of mycorrhiza lie in its demonstration that identity is not a possession but a conversation, that the fundamental unit of life is not the organism but the relationship, and that complex, interdependent communities can thrive without the need for centralized control or hierarchies.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

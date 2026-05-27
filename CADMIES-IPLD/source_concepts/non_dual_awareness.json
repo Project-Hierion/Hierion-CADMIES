@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "non_dual_awareness",
+  "title": "Non Dual Awareness",
+  "definition": "The experience of transcending the perception of separation between subjects and objects, collapsing distance by dropping mental labels.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.591005Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.591005Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Perceiving oneself as the object (like the statue) instead of as a separate subject, eliminating the perceived distance between them.",
+    "intermediate": "The realization that 'I' and 'the Buddha' are not two distinct entities but occupy the same consciousness space when mental labels are dropped.",
+    "expert": "A philosophical concept describing a state of awareness where the subject-object dichotomy is transcended, resulting in an experience of unity and interconnectedness beyond time and space."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that 'I' am not separate from the object I perceive, but rather we occupy the same consciousness.",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

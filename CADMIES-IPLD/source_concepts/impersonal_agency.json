@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "impersonal_agency",
+  "title": "Impersonal Agency",
+  "definition": "The agency that operates after the ego is uprooted, characterized by compassion, wisdom, and spontaneous actions devoid of self-interest.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.570219Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.570219Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Actions driven by compassion and wisdom, rather than personal gain or preference.",
+    "intermediate": "Agency that emerges after the ego is uprooted, characterized by impersonal processes like compassion, wisdom, and purified kamma.",
+    "expert": "The agency that persists beyond the self, manifesting as spontaneous actions driven by compassion and wisdom rather than personal ambition or duty."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Agency without a self.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

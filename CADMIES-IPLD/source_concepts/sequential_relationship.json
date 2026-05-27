@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sequential_relationship",
+  "title": "Sequential Relationship",
+  "definition": "The careful delineation of the causal sequence and interdependence between the Noble Eightfold Path, neuroplasticity, enlightenment/awakening, and Nibb\u0101na.",
+  "type": "Concept",
+  "domain": "Philosophy, Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.574037Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.574037Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "neuroplasticity",
+      "nibbana"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Understanding the precise order in which events occur on the path to enlightenment and the relationships between them.",
+    "intermediate": "Exploring the causal connections and interdependencies between the Noble Eightfold Path, neuroplasticity, enlightenment/awakening, and Nibb\u0101na in the process of attaining spiritual realization.",
+    "expert": "Investigating the precise order of events and the complex causal relationships among the Noble Eightfold Path, neuroplasticity, enlightenment/awakening, and Nibb\u0101na as part of an ongoing philosophical inquiry into the nature of consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The understanding that the correct sequencing of events is crucial to grasping the full implications of the Buddha's teachings.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

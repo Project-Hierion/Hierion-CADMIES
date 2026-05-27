@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neurological_selflessness",
+  "title": "Neurological Selflessness",
+  "definition": "The alteration of brain structure and function due to long-term meditation, resulting in reduced self-centered processing.",
+  "type": "Concept",
+  "domain": "Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.571243Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.571243Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "default_mode_network"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Through consistent meditation, the brain's default pathways for thinking about 'self' are weakened, leading to less focus on personal narratives and biases.",
+    "intermediate": "Long-term meditation leads to changes in the brain, such as reduced activity in the Default Mode Network (DMN) and altered function of the Salience Network, resulting in decreased self-centered processing.",
+    "expert": "Neurological selflessness refers to the transformative effects of long-term meditation on the brain's structure and function, leading to a decrease in self-referential processing, reduced threat responses, increased global synchrony, and a shift from top-down control to more integrated, bottom-up processing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the neurological basis for the Buddhist concept of 'selflessness' through meditation, demonstrating the brain's incredible plasticity in response to intentional mental training.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

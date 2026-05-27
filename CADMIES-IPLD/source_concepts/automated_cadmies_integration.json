@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "automated_cadmies_integration",
+  "title": "Automated Cadmies Integration",
+  "definition": "The process of automating the transfer of concepts from external knowledge management systems (e.g., Obsidian) to the CADMIES concept repository.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.581367Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.581367Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A way to automatically move ideas and concepts stored in Obsidian into the CADMIES concept repository, avoiding manual copying.",
+    "intermediate": "A technique for integrating external knowledge management systems with the CADMIES system, ensuring consistency and ease of use.",
+    "expert": "An approach to automating the transfer of digital knowledge assets between various platforms, reducing human error and increasing efficiency in concept management."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to seamlessly integrate external knowledge repositories with CADMIES, enabling a more cohesive and efficient knowledge management system.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

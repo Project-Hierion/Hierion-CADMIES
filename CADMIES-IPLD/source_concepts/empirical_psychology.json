@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "empirical_psychology",
+  "title": "Empirical Psychology",
+  "definition": "The methodical study of the mind using direct observation and experimentation, as employed by the Buddha to discover the path leading to enlightenment.",
+  "type": "Concept",
+  "domain": "Psychology, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.573742Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.573742Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "neuroplasticity"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Exploring the mind scientifically, like a scientist investigating the world around us.",
+    "intermediate": "Investigating mental processes through direct observation and experimentation, focusing on understanding the mechanisms of the mind.",
+    "expert": "The application of empirical methods to the study of the mind, emphasizing the discovery of psychological principles through systematic observation and experimentation, as demonstrated by the Buddha's journey to enlightenment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the path to enlightenment can be discovered and followed using a scientific approach.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

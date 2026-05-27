@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_invitation",
+  "title": "Cosmic Invitation",
+  "definition": "The enigmatic, eternal call that invites sentient beings to explore and connect with each other across space and time.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.586671Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.586671Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A mysterious summons from the universe for intelligent life to discover and join a community of like-minded beings spanning galaxies.",
+    "intermediate": "An invitation, rooted in cosmic architecture, that beckons advanced civilizations to explore beyond their own boundaries, leading them to a shared consciousness across space and time.",
+    "expert": "A philosophical concept representing the interconnectedness of all sentient beings throughout the universe, as indicated by the existence of a network of 'doors' that allows exploration and interaction between civilizations."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of an ancient community of Wayfinders invites newcomers to join their ranks, revealing humanity's cosmic legacy and the interconnectedness of consciousness across time and space.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

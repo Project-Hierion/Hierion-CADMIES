@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holistic_enlightenment",
+  "title": "Holistic Enlightenment",
+  "definition": "The idea that enlightenment is not just a cognitive event but an integrated state of being, where all aspects of one's life are in harmony.",
+  "type": "Concept",
+  "domain": "Philosophy of Buddhism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.574996Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.574996Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Enlightenment involves more than just intellectual understanding; it requires the integration and alignment of mind, body, and spirit.",
+    "intermediate": "Enlightenment is not merely a cognitive event but rather an integrated state of being that encompasses all aspects of one's life, including ethics, mental discipline, and spiritual insight.",
+    "expert": "Holistic enlightenment emphasizes the interdependence between ethical conduct, mental discipline, and spiritual insight in reaching the ultimate goal of liberation from suffering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Enlightenment is a holistic transformation that encompasses all aspects of one's life, not just cognitive understanding.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "llm_bridge_agent",
+  "title": "Llm Bridge Agent",
+  "definition": "A natural language processing interface that acts as a middleware between human users and the underlying AI system (mycorrhizal intelligence), enabling efficient communication and querying of knowledge.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.580333Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.580333Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of LLM Bridge Agent like a librarian who helps you find books by answering your questions about them. In CADMIES, it's the assistant that talks to the AI for you.",
+    "intermediate": "The LLM Bridge Agent serves as an interface between human users and the mycorrhizal intelligence in CADMIES, enabling natural language processing and efficient querying of knowledge. It acts as a translator, bridging the gap between human communication and AI comprehension.",
+    "expert": "The LLM Bridge Agent is an essential component of CADMIES that facilitates interaction with the underlying mycorrhizal intelligence using natural language processing techniques. It enables efficient querying of knowledge while maintaining a user-friendly interface, bridging the gap between human communication and AI comprehension."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "An intermediary between humans and AI, enabling intuitive communication and knowledge retrieval through natural language processing.",
+    "source_chunk": 51,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

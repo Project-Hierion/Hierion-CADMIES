@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "extraterrestrial_artifact",
+  "title": "Extraterrestrial Artifact",
+  "definition": "An organic, intelligent, and purpose-built structure discovered on the moon, likely created by an extraterrestrial civilization.",
+  "type": "Concept",
+  "domain": "Astrobiology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.585843Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.585843Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like finding a mysterious, alien machine hidden under the moon's surface. It's not made of anything we know and seems to have been waiting for us.",
+    "intermediate": "An organic structure discovered on the moon that displays intelligent design, likely crafted by an advanced extraterrestrial civilization. Its purpose and origin remain a mystery.",
+    "expert": "The lunar artifact is a biological construct displaying intentional design, suggesting it was created by an extraterrestrial intelligence. Its discovery challenges our understanding of the universe's biology and technology, offering tantalizing insights into potential extraterrestrial life forms."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "An organic alien artifact that has been waiting for human contact, challenging our understanding of the cosmos and our place in it.",
+    "source_chunk": 75,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

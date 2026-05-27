@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressed_knowledge",
+  "title": "Content Addressed Knowledge",
+  "definition": "A system that stores, organizes, and retrieves information using content-based addresses rather than file names or databases.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.579804Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.579804Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library where every book has a unique key based on its contents. Instead of searching for books by their titles, you find them by what they're about.",
+    "intermediate": "Content-addressed knowledge systems use cryptographic hashes to create permanent identifiers (CIDs) for data blocks based on their content, allowing for efficient data storage and retrieval.",
+    "expert": "Content-addressed knowledge systems provide a method for organizing digital information in a decentralized manner, enabling unique identifiers that are deterministic and resistant to tampering. This allows for the creation of distributed knowledge networks where content is immutable, verifiable, and easily shared."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A novel approach to data storage and retrieval that prioritizes content over structure, ensuring the integrity and authenticity of information.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

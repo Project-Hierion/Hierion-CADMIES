@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "time_as_spatialization",
+  "title": "Time As Spatialization",
+  "definition": "The tendency in Western thought to view time as a linear, spatial construct rather than a dynamic, lived experience.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T19:17:13.590335Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T19:17:13.590335Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Time is often treated as something that can be measured and divided, like distance, instead of a constantly flowing, subjective phenomenon.",
+    "intermediate": "Aristotle's conceptualization of time as a line contributes to this view, despite the limitations it imposes on understanding the true nature of time.",
+    "expert": "Philosopher Henri Bergson argued that treating time as a spatial construct is a category error. In doing so, we oversimplify time and lose sight of its dynamic, lived qualities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Western thought's treatment of time as a linear, spatial construct can obscure the true nature of time as a flowing, subjective experience.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}
