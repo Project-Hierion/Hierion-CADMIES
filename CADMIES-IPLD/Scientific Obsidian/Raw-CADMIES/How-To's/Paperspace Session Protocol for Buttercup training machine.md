@@ -1,7 +1,7 @@
 ## Step 2: Run the startup script
 
 ```
-bash /notebooks/CADMIES/CADMIES-IPLD/startup.sh
+bash /notebooks/CADMIES/CADMIES-IPLD/scripts/startup.sh
 ```
 
 ## Step 3: Pull required models
