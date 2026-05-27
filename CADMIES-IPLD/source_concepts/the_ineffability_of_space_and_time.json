@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_ineffability_of_space_and_time",
+  "title": "The Ineffability Of Space And Time",
+  "definition": "The recognition that language and concepts cannot fully capture the raw, subjective experience of space and time.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.970049Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.970049Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "qualia"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Explaining something is not the same as experiencing it. For example, you can tell someone about a beautiful sunset, but they won't truly understand it until they see it themselves.",
+    "intermediate": "This insight stems from the Qualia Problem in philosophy of mind and the Sapir-Whorf Hypothesis (linguistic relativity). By labeling and categorizing space and time, we restrict our understanding to the limits of language, which cannot fully capture the richness and complexity of subjective experience.",
+    "expert": "The paradox here is that while concepts and language provide us with valuable tools for understanding and communicating about reality, they also impose limitations on our comprehension of the raw, unprocessed experiences of space and time. The Qualia Problem highlights this dichotomy between conceptual knowledge (knowledge gained through language and concepts) and acquaintance knowledge (direct, subjective experience)"
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ineffability of space and time underscores the limits of our linguistic and conceptual tools for understanding the subjective experiences of reality.",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

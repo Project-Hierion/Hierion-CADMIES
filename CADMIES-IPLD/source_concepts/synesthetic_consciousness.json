@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "synesthetic_consciousness",
+  "title": "Synesthetic Consciousness",
+  "definition": "The intentional blending and connection of senses in a non-neurological individual.",
+  "type": "Concept",
+  "domain": "Perception & Cognition",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.105471Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.105471Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagining tastes, colors, or emotions when hearing or seeing something. This is not an involuntary condition like synesthesia but can be cultivated through mindfulness and creative exercises.",
+    "intermediate": "The deliberate connection of senses in the human brain that results from practice, imagination, and art, creating new perceptual experiences beyond their original sensory domains.",
+    "expert": "A conscious exploration of the inherent interconnectedness between our senses, using cultural memory, metaphor, mindfulness, creative exercises, and an understanding of language's synesthetic roots to develop a heightened sense of perceptual integration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that everyone has latent synesthetic pathways in their brain, which can be activated and explored through various methods.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

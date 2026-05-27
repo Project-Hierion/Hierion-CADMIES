@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "host_self_replenishment",
+  "title": "Host Self Replenishment",
+  "definition": "The host's physiological adaptation to compensate for chronic blood loss and maintain a stable blood volume.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.951947Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.951947Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Over time, the host's body adapts to the repeated blood loss by increasing its own blood production, effectively becoming a renewable resource for the vampire.",
+    "intermediate": "The host's hematopoiesis (blood cell production) upregulates slightly to compensate for chronic blood loss, allowing the body to maintain a stable blood volume and replenish lost iron.",
+    "expert": "Host self-replenishment is a remarkable example of co-adaptation between predator and prey, where both species adapt to each other's needs over time, forming a symbiotic relationship."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The host's body learns to compensate for chronic blood loss, ensuring its survival despite the repeated feeding events.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

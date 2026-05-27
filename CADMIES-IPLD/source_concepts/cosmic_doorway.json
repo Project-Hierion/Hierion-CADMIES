@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_doorway",
+  "title": "Cosmic Doorway",
+  "definition": "A passage to other realms or dimensions, found at the center of a nebula.",
+  "type": "Concept",
+  "domain": "Physics & Astrobiology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.957760Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.957760Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A magical portal in space that takes you to places older than our own universe.",
+    "intermediate": "A stable wormhole or a gateway to another dimension, discovered within a nebula, believed to have existed since the dawn of consciousness in the universe.",
+    "expert": "An extraordinary discovery that reveals the existence of multiple dimensions and civilizations older than humanity, acting as a cosmic network connecting various galaxies, with our species serving as explorers or 'Wayfinders'."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cosmos is filled with ancient civilizations and hidden doorways to other realms.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

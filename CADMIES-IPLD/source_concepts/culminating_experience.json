@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "culminating_experience",
+  "title": "Culminating Experience",
+  "definition": "The night of enlightenment was the culmination of years of ethical and meditative training, where all aspects of the Eightfold Path were integrated into a single, supreme effort.",
+  "type": "Concept",
+  "domain": "Buddhism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.925250Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.925250Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the path as training for a peak athletic event. On the day of the Olympic final, you don't practice diet or basic strength; instead, you rely on the foundation they\u2019ve built. The night under the Bodhi Tree was the Buddha's 'Olympic final.' All aspects of his training were already complete, and he used his concentrated mind to reach enlightenment.",
+    "intermediate": "The culminating experience refers to the idea that the night of enlightenment was not the beginning of the Buddha's journey towards enlightenment but rather the final performance, where all aspects of his training - ethical conduct, mindfulness, and concentration - were integrated into a single, supreme effort.",
+    "expert": "The culminating experience emphasizes that the night of enlightenment was the result of years of ethical and meditative training, where all aspects of the Eightfold Path had been developed and integrated, allowing the Buddha to reach the ultimate goal of enlightenment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Recognizing the culminating experience helps highlight the importance of long-term dedication and the integration of all aspects of the path towards attaining enlightenment.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

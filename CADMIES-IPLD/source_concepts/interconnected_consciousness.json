@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interconnected_consciousness",
+  "title": "Interconnected Consciousness",
+  "definition": "The concept that all conscious entities are interconnected and share a common origin.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.958331Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.958331Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Everyone is part of the same 'mind', like leaves on a tree or waves in an ocean, connected and sharing the same roots.",
+    "intermediate": "The idea that consciousness has a common origin and evolutionary path across species, suggesting a shared essence among all conscious beings.",
+    "expert": "A philosophical perspective positing that consciousness evolves and propagates in a cosmic cycle, with each conscious entity being an extension or iteration of the same underlying cosmic mind."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is not filled with multiple independent minds, but rather one single consciousness expressed through various forms across time and space.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "somatic_hearing",
+  "title": "Somatic Hearing",
+  "definition": "The brain's ability to perceive rhythm, vibration, and pattern as a meaningful category of experience through the entire somatic self, without relying on auditory channels.",
+  "type": "Concept",
+  "domain": "Neuroscience, Perception",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.101150Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.101150Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Even when someone is deaf, they can still 'hear' through other parts of their body like feeling vibrations or seeing rhythmic movements.",
+    "intermediate": "The brain repurposes and amplifies data from various sensory sources (touch, vision, proprioception) to create a coherent model of sound and music when auditory channels are absent or non-functional.",
+    "expert": "The brain's innate ability to adapt and function in the face of sensory loss leads to an expansion of 'hearing' beyond the ear, creating a whole-body, synesthetic experience of rhythm and vibration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The human brain is a meaning-making machine that doesn't experience absence; it experiences what is present.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

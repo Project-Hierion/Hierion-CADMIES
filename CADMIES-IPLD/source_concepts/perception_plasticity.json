@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "perception_plasticity",
+  "title": "Perception Plasticity",
+  "definition": "The ability of the human brain to adapt, modify, and enhance its perceptions through training and technological interventions.",
+  "type": "Concept",
+  "domain": "Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.919139Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.919139Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like how we can learn new skills or languages, our brains are also capable of improving and changing the way we perceive the world around us. With practice and technology, it's possible to enhance our senses to levels similar to animals or even beyond.",
+    "intermediate": "The human brain is not a fixed entity; it is malleable and can be rewired through training and technological interventions to improve sensory perception. This includes learning to distinguish minute differences, sensory substitution, and potential enhancements to our senses beyond the normal human limits.",
+    "expert": "The brain's perceptual capacity is far more adaptable than previously thought. Through attentional training and technological interventions such as neural implants, it is possible to enhance human senses beyond their current limitations. This demonstrates the extreme plasticity of the human brain and offers insights into the potential for augmented perception."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights that while we can indeed train our senses to extraordinary levels, the Buddha's teachings emphasize that this doesn't address the fundamental problem of suffering. Enhanced perception does not lead to enlightenment; instead, one must refine the mind for penetrative insight.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

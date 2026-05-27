@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "art_as_a_window_and_proposal",
+  "title": "Art As A Window And Proposal",
+  "definition": "The idea that art is both a reflection of the artist's mind and a proposal for viewers to experience a new way of seeing the world.",
+  "type": "Concept",
+  "domain": "Aesthetics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.935805Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.935805Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Art is like a window into an artist's mind, but also a suggestion for how we can look at things differently.",
+    "intermediate": "Art functions as a mirror of the artist's cognitive and perceptual processes while simultaneously offering viewers a fresh perspective on the world.",
+    "expert": "Through the analysis of art, we can uncover shared ways of seeing that reveal the cultural and individual complexities underlying artistic expression."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Art is not just a reflection of reality, but also a tool for shaping our perception of it.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

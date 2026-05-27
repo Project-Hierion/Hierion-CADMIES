@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "radiant_influence",
+  "title": "Radiant Influence",
+  "definition": "The silent, powerful effect that a fully enlightened individual has on others, through their actions and presence.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.134070Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.134070Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "An enlightened person's impact on those around them can be profound and transformative, even if they don't actively try to change others.",
+    "intermediate": "A fully awakened individual's presence serves as a beacon of inspiration and guidance for others, promoting personal growth and understanding of the Dharma.",
+    "expert": "The silent yet powerful influence that a Buddha has on others, through their compassionate actions and equanimity, serving as a catalyst for spiritual awakening in those who are ready."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A fully enlightened individual can have a profound impact on others without actively trying to change them, acting as a silent guiding force for growth and self-realization.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

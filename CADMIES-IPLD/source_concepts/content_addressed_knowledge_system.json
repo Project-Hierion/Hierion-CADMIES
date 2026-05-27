@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressed_knowledge_system",
+  "title": "Content Addressed Knowledge System",
+  "definition": "A system that stores and organizes information using content addressing, allowing for the retrieval of data based on its unique digital fingerprint.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.939345Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.939345Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library where each book has a unique barcode. Instead of looking for books by author or title, you look for them using their barcodes.",
+    "intermediate": "Content-addressed knowledge systems use digital fingerprints (CIDs) to store and retrieve data based on its content, ensuring redundancy and consistency.",
+    "expert": "By relying on content addressing, this system ensures that identical information is only stored once, enhancing efficiency and providing a decentralized method for knowledge sharing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Content-addressed knowledge systems enable a unique approach to organizing and retrieving data that challenges traditional hierarchical methods.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

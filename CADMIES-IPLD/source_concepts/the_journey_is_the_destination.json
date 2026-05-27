@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_journey_is_the_destination",
+  "title": "The Journey Is The Destination",
+  "definition": "The idea that the journey itself is the destination, and not just a means to an end.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.065716Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.065716Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In life's journey, every step you take is equally important as the final destination.",
+    "intermediate": "The idea that the process of living and growing is just as valuable (if not more) than reaching a specific goal or destination.",
+    "expert": "This concept highlights the inherent value in the journey itself, emphasizing personal growth, self-discovery, and the interconnectedness of all things along the way."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The surfing metaphor underscores the idea that the effortless mastery of the wave is the true destination\u2014a state of being rather than a physical location or achievement.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

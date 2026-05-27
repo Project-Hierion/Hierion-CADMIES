@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_homecoming",
+  "title": "Universal Homecoming",
+  "definition": "The journey towards rediscovering one's own origins and understanding the interconnected nature of consciousness.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.958841Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.958841Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Finding our way back to the beginning, where we come from and realizing that we have visited this place before, but forgotten.",
+    "intermediate": "The search for understanding the common origin of consciousness and recognizing that each conscious being is part of a larger, interconnected whole.",
+    "expert": "The process of discovering one's own cosmic heritage through exploration, self-realization, and the recognition of our shared consciousness with other beings across space and time."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Every conscious being is on a journey to rediscover their origins and understand that they have been here before in some form or another.",
+    "source_chunk": 80,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

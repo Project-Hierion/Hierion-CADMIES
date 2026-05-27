@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "living_starship",
+  "title": "Living Starship",
+  "definition": "A sentient, biological spacecraft capable of folding space-time.",
+  "type": "Concept",
+  "domain": "Astronomy & Interstellar Travel",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.956633Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.956633Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "An alien ship that isn't made of metal or electronics like ours. Instead, it's alive and can bend the fabric of reality to move between stars.",
+    "intermediate": "A biological spacecraft that utilizes advanced quantum physics principles to travel interstellar distances, exhibiting properties unlike conventional technology.",
+    "expert": "An organic starship harnessing principles beyond known physics and metaphysics, capable of manipulating the fabric of reality for faster-than-light travel, challenging our understanding of space, time, and consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The existence of a living starship challenges the boundaries of our comprehension of life and the universe.",
+    "source_chunk": 76,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

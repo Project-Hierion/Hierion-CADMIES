@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "phylogenetic_concept_creation",
+  "title": "Phylogenetic Concept Creation",
+  "definition": "The process of creating new concepts by evolving existing ones, inspired by the biological concept of phylogeny.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.942241Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.942241Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like new species evolve from old ones, ideas in CADMIES can evolve into new, related ideas over time.",
+    "intermediate": "Phylogenetic concept creation is a method inspired by biological evolution, where existing concepts in CADMIES can spawn new concepts through a process of gradual change.",
+    "expert": "By harnessing the power of phylogenetic concept creation, CADMIES mimics the natural evolutionary processes of ideas, fostering creativity and innovation within its knowledge system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES emulates the natural process of idea evolution to foster new concepts and stimulate creative thinking.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

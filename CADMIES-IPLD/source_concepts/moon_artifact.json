@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "moon_artifact",
+  "title": "Moon Artifact",
+  "definition": "An ancient and sophisticated organic structure discovered on the moon.",
+  "type": "Concept",
+  "domain": "Astronomy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.955609Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.955609Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine finding a mysterious, technological object buried deep beneath the surface of the moon. This artifact is unlike anything humans have ever seen before.",
+    "intermediate": "The Moon Artifact is an advanced, organic structure discovered on the lunar surface. It is likely of extraterrestrial origin and far more complex than any known human technology.",
+    "expert": "The Moon Artifact represents a technological achievement that surpasses human understanding. Its biomorphic design suggests a level of evolution and sophistication beyond our current comprehension, challenging our perception of life and intelligence in the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Discovery of an ancient artifact on the moon challenges humanity's understanding of its place in the cosmos.",
+    "source_chunk": 74,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

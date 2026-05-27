@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "density_of_being",
+  "title": "Density Of Being",
+  "definition": "The emphasis on the concentration and richness of experiences over their number or duration.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.967837Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.967837Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Focusing on having deep, meaningful experiences rather than many shallow ones.",
+    "intermediate": "A perspective that values the quality and intensity of experiences over their quantity or length.",
+    "expert": "The philosophical concept that values the concentration and richness of experiences over their number or duration, challenging traditional notions of a meaningful life based on longevity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that having fewer but denser experiences can lead to a more fulfilling life.",
+    "source_chunk": 89,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

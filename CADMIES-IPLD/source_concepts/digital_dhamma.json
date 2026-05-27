@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_dhamma",
+  "title": "Digital Dhamma",
+  "definition": "The Noble Eightfold Path applied in the context of the digital age.",
+  "type": "Concept",
+  "domain": "Philosophy, Spirituality, Digital Culture",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.112798Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.112798Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A set of practices for navigating modern life with mindfulness and wisdom, based on ancient Buddhist teachings adapted to our digital world.",
+    "intermediate": "The application of the Noble Eightfold Path in contemporary society, which addresses issues such as online behavior, information consumption, and digital addiction, through the lens of impermanence, suffering, and selflessness.",
+    "expert": "A philosophical exploration of the Buddha's teachings applied to the challenges of the digital age, emphasizing the need for mindfulness in a world dominated by constant connection, social comparison, and the pursuit of validation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that the path to enlightenment is not exclusive to a specific time or place but can be adapted to address the unique challenges of modern life.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

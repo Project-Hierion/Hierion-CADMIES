@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "time_as_experience",
+  "title": "Time As Experience",
+  "definition": "The idea that time is not just a measurable, linear construct, but also a lived, subjective experience.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.969539Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.969539Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "qualia"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Time isn't just a line with hours and minutes like on a clock. It's also the way we feel moments passing\u2014like when time seems to move slowly or quickly.",
+    "intermediate": "The Western philosophical tradition has treated time as a spatial, measurable construct. However, Henri Bergson argued that there is an essential difference between Clock Time and Duration (lived time), which can't be captured by spatial metaphors or measurement devices.",
+    "expert": "This insight highlights the tension between our linguistic tools and our subjective experiences. Language forces us to treat time as a static noun, but in reality, it is a dynamic verb that can stretch, collapse, or even intersect with other dimensions (as in General Relativity). The paradox here lies in the fact that language confines our understanding of time, yet our experiences transcend the limitations of linguistic categories."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The subjective experience of time challenges the Western philosophical tradition's spatialization and objectification of time, revealing a more fluid, dynamic reality.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

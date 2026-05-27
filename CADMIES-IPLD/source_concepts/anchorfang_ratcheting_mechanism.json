@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "anchorfang_ratcheting_mechanism",
+  "title": "Anchorfang Ratcheting Mechanism",
+  "definition": "A structural scaffolding mechanism in vampire anatomy, consisting of outer fangs that clamp into neck meat with a ratchet-lock mechanism, providing a stable feeding platform.",
+  "type": "Concept",
+  "domain": "Biomimicry & Anatomy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.944744Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.944744Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "hematophagous_symbiosis_theory",
+      "predatory_patience_adaptation"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The outer teeth of a vampire are designed like vice grips, locking onto their victim's neck for stability during feeding.",
+    "intermediate": "Vampires use a ratcheting mechanism in their outer fangs to create a stable and secure hold on their hosts, allowing them to feed efficiently.",
+    "expert": "The anchorfang ratcheting mechanism is an example of evolutionary adaptation for efficient predation, utilizing a complex biomechanical structure that allows vampires to clamp onto their victims with minimal energy expenditure."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the anchorfang ratcheting mechanism provides insight into the adaptive strategies employed by predators in nature.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

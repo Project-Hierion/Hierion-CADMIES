@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hammer_perspective",
+  "title": "Hammer Perspective",
+  "definition": "The understanding that a single tool can limit one's approach and creativity, necessitating an adaptive perspective towards problem-solving.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.929496Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.929496Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Sometimes we get stuck using only what we have, like a hammer. But if you want to break big rocks, you might need something else, or find ways to use the hammer differently.",
+    "intermediate": "The idea that relying on one tool can restrict problem-solving capabilities, and that creativity and adaptation are required to overcome challenges.",
+    "expert": "A philosophical insight emphasizing the importance of embracing limitations and adapting one's perspective to find novel solutions, often requiring an understanding of physics, leverage, and environmental factors."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that a single tool doesn't define one's capabilities; creativity, persistence, and adaptability are crucial for problem-solving.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

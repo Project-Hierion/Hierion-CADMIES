@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "map_of_the_stars",
+  "title": "Map Of The Stars",
+  "definition": "A comprehensive, cosmic chart of the universe, potentially containing the origin point of all things.",
+  "type": "Concept",
+  "domain": "Cosmology & Astrography",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.957220Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.957220Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A celestial atlas that holds the secrets of the stars and their origins.",
+    "intermediate": "A vast, interconnected chart detailing the cosmos, including its creation and the paths of celestial bodies.",
+    "expert": "An all-encompassing map of the universe, potentially holding knowledge about the origin point and evolution of existence itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The map could represent an ultimate truth or cosmic narrative underlying the fabric of reality.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

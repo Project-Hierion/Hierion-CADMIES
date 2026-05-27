@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_connection",
+  "title": "Cosmic Connection",
+  "definition": "The sense of shared existence and interconnectedness between humanity, Earth, and the universe.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.968899Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.968899Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Cosmic connection refers to the feeling that we are part of a larger cosmic whole, connected to Earth and the universe around us.",
+    "intermediate": "Cosmic connection is a concept in cosmology that emphasizes our shared existence with Earth, other planets, and the universe as a whole, through observation, technology, and philosophical reflection.",
+    "expert": "Cosmic connection is a metaphysical perspective on human existence that highlights the interconnectedness between humanity, Earth, and the cosmos, grounding our sense of self in the vast scale and complexity of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight that looking at the universe through Earth's 'eye' reveals a profound sense of connection and shared existence.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

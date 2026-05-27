@@ -47,6 +47,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Aesthetic Time Machine",
+      "description": "The idea that great art functions as a 'telepathic time machine', allowing viewers to experience the moment of conception within the artist's mind.",
+      "termCode": "bafyreicmibc7sycxl63owmbyedytmlejgfkco5gugrpyjtaez7v7m6y3z4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#aesthetic_time_machine"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Agency In Transition",
       "description": "The ability to act and influence one's life despite feeling trapped in cycles, especially in relation to societal structures.",
       "termCode": "bafyreigfgynwyc5mo5n4zrh7a7xetncrmvbmli6m7spuofkfxxmz3tdqwa",
@@ -146,6 +157,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Anchorfang Ratcheting Mechanism",
+      "description": "A structural scaffolding mechanism in vampire anatomy, consisting of outer fangs that clamp into neck meat with a ratchet-lock mechanism, providing a stable feeding platform.",
+      "termCode": "bafyreieyk5re75aubkem6qprrysjjm7stf5ftswtkbip76n33syiw3iqhm",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#anchorfang_ratcheting_mechanism"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Antibiotic Resistance",
       "description": "Bacteria's ability to survive antibiotic exposure through evolutionary mechanisms.",
       "termCode": "bafyreibfpsdqmwac5ypepzv2pchksajresqxc6qigtigbnzlrn7j4t7fli",
@@ -165,6 +187,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#archetypal_pattern"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Art As A Window And Proposal",
+      "description": "The idea that art is both a reflection of the artist's mind and a proposal for viewers to experience a new way of seeing the world.",
+      "termCode": "bafyreihmmxc6y76tsbippyskxbsbq2j3fisufmr3qqyccoqv2vep36n4qe",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#art_as_a_window_and_proposal"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Art As Window Into The Mind",
+      "description": "The idea that art is a reflection of the artist's vision, thoughts, and mental processes, providing insights into their unique way of seeing the world.",
+      "termCode": "bafyreic6a425ml47bjt5brz3nyywxpuea5q456vjz7ldovxa2gmp5dfwfa",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#art_as_window_into_the_mind"
     },
     {
       "@type": "DefinedTerm",
@@ -264,6 +308,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#awakening_as_emergent_behavior"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Awakening Experience",
+      "description": "A profound shift in perception and understanding, leading to the realization of the self-illusion.",
+      "termCode": "bafyreicdbc5bisleizajmrckn3ix3cegc3exopf5cvsdfd6daf5ecinmku",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#awakening_experience"
     },
     {
       "@type": "DefinedTerm",
@@ -443,6 +498,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Bodhi Tree Enlightenment",
+      "description": "The profound, transformative realization under the Bodhi Tree that led to Buddha's Enlightenment and understanding of the Four Noble Truths.",
+      "termCode": "bafyreidtfolvyq7teeoohsr6fza27zs47uj3chvih3wke72bb2e27ydemu",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#bodhi_tree_enlightenment"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Bottle",
       "description": "A metaphor for one's manifestations or desires that are meant to be delivered by the universe.",
       "termCode": "bafyreicyc37mustkfiqkxq32onihq4ck66dt3zer3vyxb42fhjrvcvqmo4",
@@ -473,6 +539,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#boundless_peace"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Buddha Becoming",
+      "description": "The ongoing process of becoming enlightened or wise, recognizing the impermanence and interconnectedness of self and reality.",
+      "termCode": "bafyreibotyo4delbpi5idhgjvhupzerk6mzhnawe42pkeurxf25xlfsr3e",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#buddha_becoming"
     },
     {
       "@type": "DefinedTerm",
@@ -740,6 +817,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Complete Being",
+      "description": "The idea that a life lived fully in each moment is complete, regardless of its length.",
+      "termCode": "bafyreigvnxvostrdgg2mq2ih2jotsv7jwasrubx72q2cudksvlzi2dyroe",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#complete_being"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Complexity Paradigm Shift",
       "description": "The recognition and embracing of complexity as the underlying nature of the world, necessitating a change in how we approach understanding it.",
       "termCode": "bafyreibumzcy45xbvnhivz4xiy4ugr75dlgab6fxkntwoea2xgsqoduylq",
@@ -781,6 +869,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#Conditional-Interdependence"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Conditionality And Connection",
+      "description": "The realization that one's actions can change and influence the conditions of their environment, creating a ripple effect of positive impact on themselves and others.",
+      "termCode": "bafyreianr4gpgia6kkyfl3fxmubbi34647fq5p7erybxp2plfhibcwxgxe",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#conditionality_and_connection"
     },
     {
       "@type": "DefinedTerm",
@@ -828,6 +927,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Content Addressed Knowledge System",
+      "description": "A system that stores and organizes information using content addressing, allowing for the retrieval of data based on its unique digital fingerprint.",
+      "termCode": "bafyreigh6xjcvz3ltv2bcre33ww6jh3l7etl637e6b3gexfnlkyrb6y2zi",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#content_addressed_knowledge_system"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Content Conversion",
       "description": "The process of converting data from one format to another, such as PDF to Markdown, for improved organization and workflow integration.",
       "termCode": "bafyreie5owbkhwcgbvwyri6kpenjbyysnvbhjy4p7w4pahsknstvwpioyu",
@@ -836,6 +946,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#content_conversion"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Continuation Document",
+      "description": "A document that tracks all pending work in a collaborative project.",
+      "termCode": "bafyreidirybvet3hjvdopozjeielvoyna3qqrut3pqngowyjamofq26oe4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#continuation_document"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cookie Ritual",
+      "description": "A behavioral adaptation exhibited by the host in which they leave cookies as an offering for the vampire, formalizing the relationship between predator and prey.",
+      "termCode": "bafyreibnhwkrx575tebcv2rdi37gihpmxvnd7kspnmtzfa4b3mllaemn4i",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#cookie_ritual"
     },
     {
       "@type": "DefinedTerm",
@@ -872,6 +1004,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Cosmic Connection",
+      "description": "The sense of shared existence and interconnectedness between humanity, Earth, and the universe.",
+      "termCode": "bafyreibo2vstqsjffsi33nnepl4nvi3osi664o2ws5d4fk2cbfcro52ifq",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#cosmic_connection"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Cosmic Consciousness",
       "description": "The interconnected and self-aware intelligence that permeates the universe.",
       "termCode": "bafyreibj22m2lvvfxzndbpzzzcwfjdzr7urlguzivw6vxplffkxuvpgdhu",
@@ -894,6 +1037,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Cosmic Doorway",
+      "description": "A passage to other realms or dimensions, found at the center of a nebula.",
+      "termCode": "bafyreicestdd3k6sagfznvynt4a3xkdfwxizmgvfaqaqyidb7iegdsfocu",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#cosmic_doorway"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Cosmic Exhalation",
       "description": "A metaphor for cosmic processes of expansion, release, and energy flow, symbolizing the initial expansion of the universe, star life cycles, and fundamental fields.",
       "termCode": "bafyreievoq7vs4zr4e672gd63vrlwpy2zxdxgkrhhbjkt4pgtwmroo2fo4",
@@ -913,6 +1067,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#cosmic_game"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cosmic Hum",
+      "description": "A low-frequency, constant vibration perceived by Elian Voss in his titanium-alloy femur, which he discovers is a structured pattern of gravitational waves that functions as an interstellar navigation chart.",
+      "termCode": "bafyreifl5gvqlm47cwjzeg444my3vgudmxzu6aygponaqvkuk6646ulray",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#cosmic_hum"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cosmic Hum Auditory Sensitivity",
+      "description": "The ability of an individual, Elian Voss, to perceive the low-frequency vibrations in the universe known as the 'cosmic hum'.",
+      "termCode": "bafyreih53jts3bsi6c5ag3g2enrspzmbc4jg5xd57ycyvk4hamlndbekyy",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#cosmic_hum_auditory_sensitivity"
     },
     {
       "@type": "DefinedTerm",
@@ -1081,6 +1257,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Courageous Connection",
+      "description": "The drive of an enlightened individual to connect and communicate their insights, breaking the traditional solitary nature of Paccekabuddhas.",
+      "termCode": "bafyreicc4nth3apynxkaxhyfh2h57qrqb2dqzt4gwdgq2rvajbfvnd36xi",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#courageous_connection"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Craving Tanha Cycle",
       "description": "The self-perpetuating loop where an impermanent pleasant sensation (vedana) triggers craving (tanha) for its repetition, leading to temporary satisfaction followed by renewed dissatisfaction (dukkha). Modern consumer products like Coca-Cola are engineered to exploit this cycle \u2014 the carbonation tingle is a near-perfect vedana hook designed to guarantee repeat consumption.",
       "termCode": "bafyreihunjq4ppfuibmdbsqcda2bafuwuu47wbn2b6cb5jzj7qwgd5zdam",
@@ -1089,6 +1276,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#craving_tanha_cycle"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Creative Genius",
+      "description": "Nature's most unhinged creative force, capable of mimicry, innovation, and archiving local environments.",
+      "termCode": "bafyreiechz433mizj3wmr5cugf5guerl6eexpu5rlxsxlpdtlwhhm3yhhq",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#creative_genius"
     },
     {
       "@type": "DefinedTerm",
@@ -1133,6 +1331,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#crowded_street_transformation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Culminating Experience",
+      "description": "The night of enlightenment was the culmination of years of ethical and meditative training, where all aspects of the Eightfold Path were integrated into a single, supreme effort.",
+      "termCode": "bafyreiglljasttq22v2763my5snz5inl6wzqmcrjtd4tzqmksa6yrjn7me",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#culminating_experience"
     },
     {
       "@type": "DefinedTerm",
@@ -1188,6 +1397,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#default_mode_network"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Density Of Being",
+      "description": "The emphasis on the concentration and richness of experiences over their number or duration.",
+      "termCode": "bafyreibox4i4ssgluvvvv6w2yememavcfl5ibgouzzxrvncvrfdkluguru",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#density_of_being"
     },
     {
       "@type": "DefinedTerm",
@@ -1309,6 +1529,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#direct_experience_enlightenment"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Direct Practice",
+      "description": "A practice aimed at directly experiencing philosophical concepts, beyond theoretical understanding.",
+      "termCode": "bafyreiddnsdkax7coogg4alt4vbbwkuas44ylqxilvyvuhughnsbaqs7pm",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#direct_practice"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Distributed Intelligence",
+      "description": "Intelligence distributed across multiple entities or a network.",
+      "termCode": "bafyreif7xqdsnttqnrwganpoh2dqeiqwssekysnq3diyaqrx4bc5clft4a",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#distributed_intelligence"
     },
     {
       "@type": "DefinedTerm",
@@ -1532,6 +1774,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Emptiness As Self Realization",
+      "description": "The recognition that one's true nature is empty and luminous, leading to self-realization.",
+      "termCode": "bafyreiddf363wcaspycn7ueed3hh7kskjmzyzp6fa47nwtfug5d2aqjcxm",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#emptiness_as_self_realization"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Endocrine System",
       "description": "The system that produces hormones, chemical messengers that regulate metabolism, growth, reproduction, stress response, sleep cycles, and more.",
       "termCode": "bafyreib22bugu4og3iycbo6zk53c4auu7ckt6plcjsxfl77hi64iki44va",
@@ -1551,6 +1804,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#energetic_spectrum_and_time"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Enlightened Ordinary",
+      "description": "The attainment and embodiment of enlightenment in everyday, ordinary life.",
+      "termCode": "bafyreihq5wcc5gcrwnor2y3x7dfqnw3l2rup7t6xihtfjazfagfexdiwwu",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#enlightened_ordinary"
     },
     {
       "@type": "DefinedTerm",
@@ -1851,6 +2115,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Functional Versus Identification",
+      "description": "The distinction between maintaining functionality (being useful) versus retaining personal identity.",
+      "termCode": "bafyreigmoycnjsplxdlrbl3zptgki2fnbwetgvl4uyzpe7jllshul36xti",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#functional_versus_identification"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Fundamental Interconnectedness",
       "description": "The fundamental interconnectivity between the microscopic quantum realm and the macroscopic biological realm, suggesting that everything is an ever-changing, wiggly, and strange process.",
       "termCode": "bafyreiehmacnkows352nt6nzybszgez5tlmdvi63dgwitk757na7oybiua",
@@ -1914,6 +2189,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#game_theory"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Gardeners Of The Human Condition",
+      "description": "The recognition that every thought, word, and action shapes the world around us, making us constant, ongoing causes in the human condition.",
+      "termCode": "bafyreif5ufyrbt4d2smjgcqgm4hqb4s7wnk4yr6aqjrs3fq75zcvljmgp4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#gardeners_of_the_human_condition"
     },
     {
       "@type": "DefinedTerm",
@@ -2079,6 +2365,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#hamiltons_rule"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hammer Perspective",
+      "description": "The understanding that a single tool can limit one's approach and creativity, necessitating an adaptive perspective towards problem-solving.",
+      "termCode": "bafyreibxf7pjwhg2kzeo4lpyj5b6ity6fao4h462lfho2wwywtzgpav4h4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#hammer_perspective"
     },
     {
       "@type": "DefinedTerm",
@@ -2269,6 +2566,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Host Self Replenishment",
+      "description": "The host's physiological adaptation to compensate for chronic blood loss and maintain a stable blood volume.",
+      "termCode": "bafyreibbbqsfgwwyh6mg7rnzva2p4ic7r4bfdkcuhdhpogmggxvjrzz3ke",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#host_self_replenishment"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Human Chromosome 1 - Reference Sequence (GRCh38)",
       "description": "Chromosome 1 is the largest human chromosome, spanning approximately 248 million base pairs. It represents about 8% of total human DNA and contains over 2,000 protein-coding genes.",
       "termCode": "bafyreibqo6xzj7nb3gyky4run3sfddu3uogmeszu23okd5brizgftik5t4",
@@ -2335,6 +2643,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Icon As Window Effect",
+      "description": "The experience of feeling a direct connection or transmission from an object (such as a statue) that is considered sacred or symbolic, transcending the barrier between self and other.",
+      "termCode": "bafyreibq4vzgu3x3smdxwb6johf6k3v4junc3523yahkvyjgwy2kkxdhye",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#icon_as_window_effect"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Illusion Of Solidity",
       "description": "The idea that our perception of a solid, unchanging self is an illusion and that we are fundamentally wiggly and interconnected.",
       "termCode": "bafyreiequbripubgtwdjzj5wjosaoeprktd5l4nahvcvt4w7wgkqpmk76e",
@@ -2376,6 +2695,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#impermanent_awareness"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Incognito Buddha",
+      "description": "A fully enlightened individual who lives among ordinary people without being recognized as such.",
+      "termCode": "bafyreicevcrq7iz3hefkpbpek2nlqtuqzsptygaeufsv7l2dc4c5b4b57a",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#incognito_buddha"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Indian Miniature Vision",
+      "description": "A unique visual style in classical Indian painting, characterized by a flat, ornate surface and figures depicted from the side, rather than with Renaissance perspective.",
+      "termCode": "bafyreibpmej7a73e5l3chsni2sknxa6okolugcgknttfyiumvieni4pvh4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#indian_miniature_vision"
     },
     {
       "@type": "DefinedTerm",
@@ -2434,6 +2775,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Integrated Nonlinear Path",
+      "description": "The Eightfold Path is an interconnected, non-sequential system of ethics, mindfulness, and concentration that simultaneously develop and support each other towards enlightenment.",
+      "termCode": "bafyreibbtav4icznukf4bc6cxfjx6zmmxwowdxg65y23sbt4u5zteftrue",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#integrated_nonlinear_path"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Integrative Inquiry",
       "description": "A methodology in science that values the process of connecting different disciplines and fields to drive new discoveries.",
       "termCode": "bafyreihb5jzengpzyths3mifv2yztolknl4ax3prx73murzj6ur2bfpgbm",
@@ -2442,6 +2794,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#integrative_inquiry"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Intensity Of Being",
+      "description": "The emphasis on the quality and concentration of experience over the length of existence.",
+      "termCode": "bafyreibnpjhonnpmbhqne3uac765ufgbojwjuqfqfy2vw6rrau7k7rycau",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#intensity_of_being"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Interconnected Consciousness",
+      "description": "The concept that all conscious entities are interconnected and share a common origin.",
+      "termCode": "bafyreifvo7fq554boetuo6xma5yxrt3wzntevsh2irtzsv3bnjilzlh5ni",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#interconnected_consciousness"
     },
     {
       "@type": "DefinedTerm",
@@ -2621,6 +2995,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Letting Go",
+      "description": "The act of relinquishing control, identity, and ego-centric attachments to reach a state of awareness beyond the self.",
+      "termCode": "bafyreicjeft4oij7tnp24fx5ugse4g6l5hfkx3e7kycgetcvpqq5zjjyy4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#letting_go"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Life As Resonant Receptor",
       "description": "A unique pattern imprinted onto the cosmic trampoline by a conscious life, becoming a specific shape or frequency that can only be excited in a particular way after physical death.",
       "termCode": "bafyreie5iv3rdjck7kr7i3xdcc3jvl4bvrpzuzw6hlbxo6rbaaancapsma",
@@ -2629,6 +3014,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#life_as_resonant_receptor"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Living As An Organism",
+      "description": "The acknowledgement that, in the most literal and profound sense, an individual is an organism in a complex web of relationships, playing a crucial role in the ecosystem's health and dynamics.",
+      "termCode": "bafyreibm3rufqp5hgw52hzdgozq57ntfkocnz2doz4przms4gbkvoakgya",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#living_as_an_organism"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Living Starship",
+      "description": "A sentient, biological spacecraft capable of folding space-time.",
+      "termCode": "bafyreid4uvxdjpktr6znezw24bgvqnhhnp3e242aktabgbcg6tlm3i4bfe",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#living_starship"
     },
     {
       "@type": "DefinedTerm",
@@ -2676,6 +3083,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Long Term Investment",
+      "description": "The selfless cooperation among individuals for mutual long-term benefits.",
+      "termCode": "bafyreibfe476d6armrdkszvj5fbfeuupjfprej7lp2c55rdgmnpceyovyq",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#long_term_investment"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Macroscopic Pingle Wiggle",
       "description": "The phenomenon of initiating a cascading resonance wave by consciously wiggling a pencil, demonstrating the universe's inherent wigginess.",
       "termCode": "bafyreidkswofdf2mqmdcbbij3ibtgpkiwm4tq2jqb625k4hrvpqg63i46m",
@@ -2695,6 +3113,39 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#manifesto_in_motion"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Map As Prayer",
+      "description": "The metaphorical association of a map with prayers, representing the hope, faith, and journey towards the unknown.",
+      "termCode": "bafyreiacxf57ybsmsvja34b3dsonugbqr5pb7ulb7sjpibdyxajfleqo7i",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#map_as_prayer"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Map Ending",
+      "description": "The realization that a map, a representation of known territory, reaches its end when it encounters an unknown or uncharted entity.",
+      "termCode": "bafyreihkm56d4fvzo75zwkju4m4kcgcvsbmnd64h2mophtzk3wrgsh3pzy",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#map_ending"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Map Of The Stars",
+      "description": "A comprehensive, cosmic chart of the universe, potentially containing the origin point of all things.",
+      "termCode": "bafyreickawmvmgzptm7zygyqiy27lwljq3oyiiu4sutwti2qalyrgapefq",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#map_of_the_stars"
     },
     {
       "@type": "DefinedTerm",
@@ -2786,6 +3237,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Middle Way Of Practice",
+      "description": "A balanced approach to spiritual practice that emphasizes the temporary use of conceptual tools, while encouraging their eventual release and return to direct experience.",
+      "termCode": "bafyreifomufhtvs7fxeltwuueum227fc4jii7turu6a773xysjuduesmee",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#middle_way_of_practice"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Middle Way Philosophy",
       "description": "The practice of finding a balance between extremes, avoiding attachment to self or possessions, and seeking enlightenment through understanding the nature of reality.",
       "termCode": "bafyreig7blvyaxpwicfmsgt6w3auarstrgdygtpiopl2mae4ux57kv375m",
@@ -2863,6 +3325,28 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Moon Artifact",
+      "description": "An ancient and sophisticated organic structure discovered on the moon.",
+      "termCode": "bafyreifii3inlwcdgj37kj4ik32f5tcbuazwptzretc45bm4qvztexojhy",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#moon_artifact"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Moon Communication",
+      "description": "The first successful communication between humans and an extraterrestrial entity.",
+      "termCode": "bafyreie43hdfwgm47o52aug3lk4vmicdaxfvfl6zgankimht62vicxam6m",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#moon_communication"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Mycelial Consciousness",
       "description": "The recognition that every individual is part of a larger, interconnected whole, much like the mycelium in a forest.",
       "termCode": "bafyreibsbzklkbuwzanljd23xvk7b7eplajhnv77ip4izw6lmrak3whqhq",
@@ -2918,6 +3402,28 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Mycelium Thought Capability",
+      "description": "The ability of the Mycelium, a component of CADMIES, to not only retrieve but also generate and synthesize new concepts.",
+      "termCode": "bafyreiftc2ixvya2tmhbglafnt5vw6waizypbsi7zbg4kx2tojg22myql4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#mycelium_thought_capability"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mycorrhizal Cosmic Pattern",
+      "description": "The idea that mycorrhiza represents a fundamental pattern in the organization of complex systems, from local soil networks to cosmic structures.",
+      "termCode": "bafyreiejq3zc37qbombrm4ui74sjm5akk322uj4v23vcixdsh7fod3x6ie",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#mycorrhizal_cosmic_pattern"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Natural Selection",
       "description": "The differential survival and reproduction of individuals due to differences in heritable traits. Over generations, traits that enhance survival and reproduction become more common in the population, driving adaptive evolution.",
       "termCode": "bafyreihyn2pcairzjx2h3icpfmdonbwkyl6jzxfcf27sa65rj4gmwvfmby",
@@ -2962,6 +3468,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Nematocyst Tongue",
+      "description": "A specialized feeding surface on the tongue of a vampire bat, covered in microscopic spring-loaded cellular structures that penetrate the host's skin to access blood vessels.",
+      "termCode": "bafyreifobrs4g4j4hlw5r4r3iugscoqenko5ohkewc5rvms7gx2sq3bhjq",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#nematocyst_tongue"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Nervous System",
       "description": "A complex network of cells that coordinates the body's actions and transmits signals between different regions.",
       "termCode": "bafyreidsytahri2fvbayyriqrpzyhqtcjoyq2mhwzqmx7jblfhuo6vbaeu",
@@ -2995,6 +3512,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Neurological Selfless Rewiring",
+      "description": "The physical rewiring of the brain that occurs as a result of intentional mental training, leading to a reduced emphasis on self-referential thought and increased decentralized processing.",
+      "termCode": "bafyreihwxh6qcwkgwxqbfukjxwu2avg3hdersbckjfsgjmgkoxzjlg2jge",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#neurological_selfless_rewiring"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Neuron Doctrine",
       "description": "The concept that neurons are the functional units of the nervous system and communicate through electrochemical signals.",
       "termCode": "bafyreifcylqsywz3kzcwp4p57x557n5lkwprr5b67sstr5harfmvullinu",
@@ -3006,6 +3534,39 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Neuroplastic Awakening",
+      "description": "The process by which sustained mental training can physically rewire the brain and lead to a state of awakened consciousness, characterized by a shift in perception from a self-centric view to an impersonal one.",
+      "termCode": "bafyreicrcjfvuocpmdsmizcffvv2fbpd6osjr3vhldnr4s5luwgo6qxwae",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#neuroplastic_awakening"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Neuroplastic Enlightenment",
+      "description": "The transformation of the brain through consistent practice of the Eightfold Path leading to the realization of Nibb\u0101na.",
+      "termCode": "bafyreihbzbd6ymekblsuks4cbxmmvnr6yx4jssglfx6qq6yt7hfk2zva2u",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#neuroplastic_enlightenment"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Neuroplastic Selfhood",
+      "description": "The exploration and manipulation of human neuroplasticity to alter or question our perception of selfhood.",
+      "termCode": "bafyreiag2r6qb5nwh7gtldry2pkxtaqwccs55ayul453aqo3dm6rgh46ge",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#neuroplastic_selfhood"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Neuroplasticity",
       "description": "The brain's ability to reorganize itself by forming new neural connections throughout life.",
       "termCode": "bafyreigdxy672igw5kl26ipntqmujdpr7a2obnqg5l2zub5of5s3a2a6ea",
@@ -3014,6 +3575,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#neuroplasticity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Neuroplasticity And Enlightenment",
+      "description": "The idea that the reorganization of the human nervous system through meditation and mindfulness practices leads to a stable, functional state of enlightenment.",
+      "termCode": "bafyreiacrru4eownyfrqg2dplzuqzop744w7knea7gg5to5zkh7fi35cs4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#neuroplasticity_and_enlightenment"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Neuroplasticity Enlightenment",
+      "description": "The ability of the human brain to undergo profound change through consistent practice and mental re-training, leading to a state of enlightenment or freedom from the illusion of self.",
+      "termCode": "bafyreid2bselgoiqzh3lzzjvhpfqk3sib6ffdjkyp2nznrd2xamancj3ie",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#neuroplasticity_enlightenment"
     },
     {
       "@type": "DefinedTerm",
@@ -3061,6 +3644,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Nibbana",
+      "description": "The state of liberation from suffering in Buddhism, achieved through the realization of anatta and dependent origination.",
+      "termCode": "bafyreid4o377vwnbikyjxu5kmnzgmocfeh2hd46vnb5gkxhps3zc6q4lje",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#nibbana"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Nirvana As De-Achievement",
       "description": "The realization that Nirvana is not an achievement to be attained, but rather a state of being beyond the concepts of 'me' and 'achievement'.",
       "termCode": "bafyreih5whyhvtafncntcle5cdqefe5paseltfekmgsmcyaumeibueevgm",
@@ -3094,6 +3688,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Nirvanic Humanity",
+      "description": "The Buddha's unique state of enlightenment that maintained a profoundly human presence while transcending the afflictions and suffering caused by tanha (craving) and dukkha (suffering).",
+      "termCode": "bafyreifqypin2zsrd4f7buxzdyemphptezxcfj25jukhizlcuzn3cixslm",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#nirvanic_humanity"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Non-Attachment vs Detachment",
       "description": "The critical distinction between releasing dependency on an experience (non-attachment) versus coldly rejecting or avoiding it (detachment). Non-attachment allows genuine enjoyment without enslavement \u2014 you can love the Coke and let it go. Detachment, by contrast, is a form of aversion that still binds you to the object through rejection. Happiness that depends on a thing is fragile; happiness that doesn't depend on it is freedom.",
       "termCode": "bafyreidcweqi2ljhl4y4iskt5fggvitmbjtwalytck5ruagaeew2nawazm",
@@ -3124,6 +3729,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#non-dual_perception"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Non-Self Perspective",
+      "description": "The Buddha's understanding of the world and self as impermanent, non-continuous entities, not bound by personal pronouns.",
+      "termCode": "bafyreiat54uavkkot6nrarlsm7wbqz6zxvohauy6yowwbtkfksvviq24bu",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#non-self_perspective"
     },
     {
       "@type": "DefinedTerm",
@@ -3259,6 +3875,39 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "One Swing At A Time",
+      "description": "The concept of persistent and steady effort in problem-solving, even when progress seems slow.",
+      "termCode": "bafyreigw37uvm6slcmatn25vm5jakjj334hmsbozm66fj56fm75rby55um",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#one_swing_at_a_time"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ontological Generosity",
+      "description": "The capacity to create, sustain, and complexify other beings.",
+      "termCode": "bafyreia5gditwk6t5dgwo3yikseyedq6y6k2gl5f4xfly5cuvjz2p5nw3m",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#ontological_generosity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ontological Shift",
+      "description": "The dissolution of the illusory self-concept through a systematic deconstruction of subjective experiences.",
+      "termCode": "bafyreia4klvdgck26mvmckr32v457uehmxmv3bz3m46sd6onssed2eu4va",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#ontological_shift"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Ostree Consciousness Model",
       "description": "A speculative philosophical framework modeling human identity as an immutable base image with layered life experiences, analogous to the OSTree versioning system used in Fedora Silverblue. The core self is a read-only deployment; personality traits, memories, habits, and traumas are layered packages; major life changes are rebases; and personal growth is a continuous integration pipeline. The model proposes that consciousness maintains a deployment history \u2014 past versions of the self remain pinned and accessible, enabling metaphorical rollback to earlier states. Healing, in this framework, is not deleting trauma but rebasing to a deployment where the trauma package was never installed, then selectively merging learned wisdom. The body remembers \u2014 and with the right tools, it can be reminded of who it was before it learned to hurt.",
       "termCode": "bafyreigihfz272hntuiggin2hoj4z62g4kvgo4652oez3jd26ocqjo6cvm",
@@ -3325,6 +3974,83 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Passive Feeding Strategy",
+      "description": "A feeding strategy that relies on passive suction rather than active pumping, ensuring silent and efficient blood extraction.",
+      "termCode": "bafyreiadhhyijtma446du55o7kaj7yrtzcv7x4y6s3rh4ima3bnbn4ni6q",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#passive_feeding_strategy"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Path As State Of Being",
+      "description": "The Eightfold Path describes the state of being that a mind in enlightenment naturally exhibits, rather than a series of activities to be performed.",
+      "termCode": "bafyreibs4qrvu4tcpnr422ulzf2bij474ong56ep4kt4rdlcxmofr5ystq",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#path_as_state_of_being"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Path To Nibhana",
+      "description": "The prescribed set of behaviors and mental exercises that, when performed consistently, inevitably use the brain's plasticity to rewire it in such a way that it can perceive the unconditioned.",
+      "termCode": "bafyreihnptfsy7qccgj3tnkfgtfyqsb24k3wh2ixvwickd3qyuqciwch7u",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#path_to_nibhana"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Pending Cid Minting",
+      "description": "The process of minting CIDs for a collection of concepts.",
+      "termCode": "bafyreifo7vhqs4qtcnsnfc2ug4vfalprgrlfym25u3llgwkqcw2c7jejn4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#pending_cid_minting"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Perceived Reality",
+      "description": "The subjective interpretation and understanding of reality through artistic perspective.",
+      "termCode": "bafyreicn4vsev22y33hptlk2y2wh3vui5hovvpozf2cia5c7n3xdgz6uzu",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#perceived_reality"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Perception Plasticity",
+      "description": "The ability of the human brain to adapt, modify, and enhance its perceptions through training and technological interventions.",
+      "termCode": "bafyreieqzukdnsojv3y63f5ovwpkasrcwoxlm7crdi6lad3y6ixh23tcxi",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#perception_plasticity"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Perceptual Click",
+      "description": "The moment of profound insight when one understands that the self is an illusion created by conditioned responses, and that raw experiences can be observed without interpretation.",
+      "termCode": "bafyreicez2jlsdhydrucx6wfabhugueblkk2oezbfuvm35wjzwly3ef6ge",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#perceptual_click"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)",
       "description": "Intelligence is not fixed but is filtered through the operating system of perception. Different states of consciousness - whether induced by meditation, psychedelics, flow states, or neurodivergent cognition - change the perceptual OS, enabling different pattern recognition capabilities and revealing what was previously invisible to the observer.",
       "termCode": "bafyreid4prjqjlkij46nrj6n7dgiyuix4yf7mweyfto7ongxiezwt4gmui",
@@ -3344,6 +4070,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#Epistemology:Concept/PerceptualFramesAsIntelligenceMultipliers"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Perceptual Shift",
+      "description": "A fundamental change in how one perceives and understands reality.",
+      "termCode": "bafyreic43ixqm2eo4qpcwomrn53ux3grps666chhqh657zlwtcidwxftpu",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#perceptual_shift"
     },
     {
       "@type": "DefinedTerm",
@@ -3432,6 +4169,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#photosynthesis"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Phylogenetic Concept Creation",
+      "description": "The process of creating new concepts by evolving existing ones, inspired by the biological concept of phylogeny.",
+      "termCode": "bafyreibbgz72hkiaijrnrr2ucxleuxti7hrtfuaj5zl2seycqeknwe7mza",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#phylogenetic_concept_creation"
     },
     {
       "@type": "DefinedTerm",
@@ -3564,6 +4312,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#presence_over_questions"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Presence Within Creation",
+      "description": "The sensation of being inside an artwork at its inception, merging with the artist's vision and reality.",
+      "termCode": "bafyreigwnyybzq6oxlkccekclyio7qvgi4hs4a52bkqdz4qrpctfs3isv4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#presence_within_creation"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Present Moment Living",
+      "description": "The philosophical concept of focusing on and fully experiencing the current moment, without distraction or regret.",
+      "termCode": "bafyreib2b7bky4w5yciiqmlko3iaryrplisqmiaavnt2pubb6hjwvp4cmi",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#present_moment_living"
     },
     {
       "@type": "DefinedTerm",
@@ -3798,6 +4568,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Radical Economy",
+      "description": "A sustainable economic system without hoarding, waste, or inequality.",
+      "termCode": "bafyreianawualbm74fqf7phaaru44i4domsbvycy7ixofpuxj42ytkheay",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#radical_economy"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Radical Empiricism",
       "description": "The act of applying raw, unfiltered observation to both external and internal phenomena.",
       "termCode": "bafyreibwhfusz6ejwmohh53a5isnfqrvg4qcimop5zqutqqg3fibhaqkzy",
@@ -3985,6 +4766,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Salivary Chemistry",
+      "description": "The chemical composition of a vampire bat's saliva, containing anticoagulants, mild anesthetics, and vasodilators that facilitate blood flow during feeding.",
+      "termCode": "bafyreiau7mdqichfrgydu7ykbj2va53d4hcjrbvzsrnzl6yd7gym2mxlim",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#salivary_chemistry"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Scale Bridging Theory",
       "description": "A unified framework that links quantum fields with the biosphere, bridging scales from micro to macro.",
       "termCode": "bafyreiel3agc46xkx4sleszmvokktsylgdterglljp3a3qm23tezzp4mta",
@@ -4037,6 +4829,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#self_aware_mycelium"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Self Illusion",
+      "description": "The belief in a permanent, autonomous self that experiences and controls reality.",
+      "termCode": "bafyreiavszdeevw6emq2bq3djlmoqzjwqr5j4rtqb3eagrptls3ijzxblq",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#self_illusion"
     },
     {
       "@type": "DefinedTerm",
@@ -4147,6 +4950,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#sixth_mass_extinction"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Skillful Invisibility",
+      "description": "The ability of an enlightened individual to blend into the everyday world, offering assistance and peace without drawing attention.",
+      "termCode": "bafyreieoflv3x2z533ug6rcjxbzfdm5xlhee2hodoszertev3z7uynj7d4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#skillful_invisibility"
     },
     {
       "@type": "DefinedTerm",
@@ -4733,6 +5547,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "The Ineffability Of Space And Time",
+      "description": "The recognition that language and concepts cannot fully capture the raw, subjective experience of space and time.",
+      "termCode": "bafyreihdnwm5qio4sv7kchq6bfqy73ws6va6mvdchvx635cvqvu2ra7gn4",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#the_ineffability_of_space_and_time"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "The Journey Is The Destination",
       "description": "The idea that the journey itself is the destination, and not just a means to an end.",
       "termCode": "bafyreidawxnr36amgit6hxkrkiuqztlevvvqbicolancpddcbevn6smb7i",
@@ -4986,6 +5811,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Thermal Shock Method",
+      "description": "The process of using thermal shock to fracture rocks, involving heating the rock with fire or water and rapidly cooling it with a cold hammer head.",
+      "termCode": "bafyreih67dz46dzmzykt3o4eevd5c4eo5bboeyt34cdo6q742nwkpnmnni",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#thermal_shock_method"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Thermodynamics Laws",
       "description": "A set of four fundamental laws that govern energy, heat, and work in a system, formulated by Carnot, Clausius, Kelvin, and others.",
       "termCode": "bafyreigv37wxz72hqqib4gwr3perh2bufhv6rgwn3tlrxjkesltitpx5aq",
@@ -5005,6 +5841,28 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#thought-stream_as_weather"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Time As Experience",
+      "description": "The idea that time is not just a measurable, linear construct, but also a lived, subjective experience.",
+      "termCode": "bafyreifgm52jvp2bnvo2drqnq3cj6aqdvmaetb2csrrqi4dktl2ywsjcgy",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#time_as_experience"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Time Travel In Art",
+      "description": "The experience of inhabiting the moment of artistic creation or perception, transcending temporal boundaries.",
+      "termCode": "bafyreigzyiddavdn7bw3wr4ttnch3jxt4jh3j6wqf2t5ddpa7a7fevg64y",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#time_travel_in_art"
     },
     {
       "@type": "DefinedTerm",
@@ -5038,6 +5896,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#transparent_budgeting"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Two Arrows Theory",
+      "description": "The Buddha's central analogy describing physical sensation and mental suffering as two separate arrows, with the Second Arrow representing added mental distress.",
+      "termCode": "bafyreieq34ik362lzm7dohezsjaay2meujkxjqjyruwjsepokum2xsnz5u",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#two_arrows_theory"
     },
     {
       "@type": "DefinedTerm",
@@ -5206,6 +6075,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Universal Homecoming",
+      "description": "The journey towards rediscovering one's own origins and understanding the interconnected nature of consciousness.",
+      "termCode": "bafyreiaystzaxmcgrbnk3iuxfpyojwlq44rjlur77eip2nv2clbvw7qrfu",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#universal_homecoming"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Universal Hum",
       "description": "The fundamental, underlying vibration that permeates all of existence.",
       "termCode": "bafyreiftntshm4rk5d464fewebkeo2fjtocfoc3fcciballbrz2dzfvg44",
@@ -5305,6 +6185,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Vampire Concepts Drafting",
+      "description": "The process of creating draft JSON files for a collection of concepts.",
+      "termCode": "bafyreiew36ve7asritp6deoojl6jo6mw45meucs3yfhsq753p54kqksw7q",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#vampire_concepts_drafting"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Via Negativa Vs Via Positiva",
       "description": "Two distinct yet convergent paths to self-realization: subtracting (via negativa) or adding (via positiva), each leading to the dissolution of the ego.",
       "termCode": "bafyreiek3iuqnemksmkqs543aqgqe7654nhdjrpzp22bijvxar6qltfdpm",
@@ -5338,6 +6229,17 @@
     },
     {
       "@type": "DefinedTerm",
+      "name": "Voluntary Provisioning",
+      "description": "A unique form of predation in which a host actively offers itself as food to the predator, acknowledging the inevitable relationship and negotiating terms through generosity.",
+      "termCode": "bafyreieygo2mgegyhsucdfmvn7kv5qhjsmzmhjoumwqmrqmm3k75dixg2m",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#voluntary_provisioning"
+    },
+    {
+      "@type": "DefinedTerm",
       "name": "Volunteer Guardianship",
       "description": "A leadership model where key decision-makers are unpaid volunteers, selected based on reputation and commitment to the project's values.",
       "termCode": "bafyreibxef5ttmbzaiinpwxx6zvodsz6zvekigikrf6eti5rwqmy7tobma",
@@ -5357,6 +6259,17 @@
         "name": "CADMIES Mycelium"
       },
       "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#vr_ego"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Wayfinder Energy",
+      "description": "The cosmic energy that guides individuals to remember their past lives, acknowledge the universe's humor, and make a choice about continuing the cycle.",
+      "termCode": "bafyreihufnrs7x4jmj6hxdxxqsphks3lpqoaruwdkzxwnxhuhazgico5zq",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "CADMIES Mycelium"
+      },
+      "url": "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway/index.html#wayfinder_energy"
     },
     {
       "@type": "DefinedTerm",

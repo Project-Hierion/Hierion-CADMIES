@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_exhalation",
+  "title": "Cosmic Exhalation",
+  "definition": "A metaphor for cosmic processes of expansion, release, and energy flow, symbolizing the initial expansion of the universe, star life cycles, and fundamental fields.",
+  "type": "Concept",
+  "domain": "Physics, Cosmology, Poetry",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.070748Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.070748Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "quantum_entanglement"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The universe is likened to a breath; it expands, releases energy, and flows like an exhalation, as in the Big Bang or star life cycles.",
+    "intermediate": "Cosmic processes are metaphorically described as 'exhalations', encompassing the initial expansion of the universe, the life cycles of stars, and fundamental fields.",
+    "expert": "The concept of cosmic exhalation symbolizes the universe's inherent flow and energy release through various cosmic events, such as the Big Bang, star life cycles, and even the vibrations in quantum fields. The metaphor suggests a deeply interconnected universe where everything is part of an ongoing process."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is likened to an ever-evolving breath, with each event contributing to its rhythm and flow.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

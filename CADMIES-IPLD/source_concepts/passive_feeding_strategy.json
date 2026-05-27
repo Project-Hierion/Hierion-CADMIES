@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "passive_feeding_strategy",
+  "title": "Passive Feeding Strategy",
+  "definition": "A feeding strategy that relies on passive suction rather than active pumping, ensuring silent and efficient blood extraction.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.951411Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.951411Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Instead of using muscles to force its meal like a pump, Vampy relies on a quiet vacuum effect to draw blood from its host.",
+    "intermediate": "Vampy's passive feeding strategy involves the use of microscopic channels and negative pressure to extract blood without causing any noise or discomfort to the host.",
+    "expert": "The passive feeding strategy exhibited by Vampy is a testament to the organism's ability to adapt to its environment and exploit opportunities for minimal impact, allowing it to feed undetected and maintain a long-term relationship with its host."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Passive feeding allows vampires to feed silently and without causing distress to their hosts, enabling them to develop stable relationships over time.",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

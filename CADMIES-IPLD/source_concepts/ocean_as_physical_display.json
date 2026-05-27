@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ocean_as_physical_display",
+  "title": "Ocean As Physical Display",
+  "definition": "The ocean is a physical manifestation of cosmic forces, acting as a diaphragm, holographic interface, and sympathetic resonator for the universe's vibrations.",
+  "type": "Concept",
+  "domain": "Physics, Oceanography, Poetry",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.076247Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.076247Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The ocean is likened to a physical display of cosmic forces, showing us patterns created by these forces in the form of waves.",
+    "intermediate": "The ocean is conceptualized as a medium that interacts with and translates cosmic vibrations into physical waves.",
+    "expert": "The ocean serves as a physical display for the universe's vibrations, acting as a boundary where cosmic information is translated into patterns we can perceive. It resonates sympathetically with these universal rhythms and functions as a diaphragm and holographic interface."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ocean is seen as a physical manifestation of the universe's vibrations, acting as a gateway between the cosmic and tangible realms.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

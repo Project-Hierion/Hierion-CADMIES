@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "relentless_gentleness_and_solitude",
+  "title": "Relentless Gentleness And Solitude",
+  "definition": "The practice of maintaining a gentle, engaged solitude in the midst of daily life.",
+  "type": "Concept",
+  "domain": "Buddhism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.155146Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.155146Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Transforming ordinary tasks into moments of mindfulness and compassion, creating a sense of inner peace and presence in daily life.",
+    "intermediate": "Practicing a mindful, compassionate approach to daily life, viewing every interaction as an opportunity for self-transformation and cultivating inner peace.",
+    "expert": "The practice of relentless gentleness involves moment-to-moment awareness and mindfulness in daily activities, transforming them into opportunities for self-transformation and inner peace."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Transforming the ordinary tasks of daily life into moments of mindfulness, compassion, and self-transformation leads to a deeper sense of inner peace and presence.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

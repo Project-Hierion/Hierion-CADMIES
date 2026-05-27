@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agency_in_transition",
+  "title": "Agency In Transition",
+  "definition": "The ability to act and influence one's life despite feeling trapped in cycles, especially in relation to societal structures.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.131877Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.131877Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "dependent_origination"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's about finding the power within yourself to change your situation, even when it seems impossible or society doesn't understand you.",
+    "intermediate": "A state of self-awareness and personal growth where one can assert control over their life trajectory despite societal pressures or limitations.",
+    "expert": "The capacity to disrupt established patterns and create new ones, even when faced with resistance from societal norms or personal attachments. It embodies the Buddhist concept of self-awakening amidst social transformation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "In the face of societal expectations, one can still find a sense of agency that fosters personal growth and contributes to societal change.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

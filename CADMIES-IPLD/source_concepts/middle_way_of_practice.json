@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "middle_way_of_practice",
+  "title": "Middle Way Of Practice",
+  "definition": "A balanced approach to spiritual practice that emphasizes the temporary use of conceptual tools, while encouraging their eventual release and return to direct experience.",
+  "type": "Concept",
+  "domain": "Philosophy, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.911265Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.911265Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Using concepts and ideas as stepping stones on a path to enlightenment, but not getting stuck or attached to them.",
+    "intermediate": "A method of spiritual practice that encourages the use of tools like dialogue and contemplation while recognizing their temporary nature and encouraging their eventual release for deeper understanding.",
+    "expert": "An approach to spiritual practice emphasizing the temporary use of conceptual tools, like dialogue or identity, while encouraging their eventual release in favor of direct experience. This promotes a balanced, fluid understanding of self and reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Using ideas and concepts as tools to progress on a path, but recognizing when it's time to let go of them for deeper understanding.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

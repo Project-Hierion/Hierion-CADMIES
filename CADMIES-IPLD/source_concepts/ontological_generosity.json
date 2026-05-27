@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ontological_generosity",
+  "title": "Ontological Generosity",
+  "definition": "The capacity to create, sustain, and complexify other beings.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.963265Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.963265Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The ability of something to help others grow and thrive in a generous way.",
+    "intermediate": "A quality that allows for the creation, maintenance, and development of other entities, promoting interconnectedness and complexity.",
+    "expert": "A philosophical concept that describes the power to generate, sustain, and develop other beings, challenging traditional notions of identity and intelligence by emphasizing relationships over individual entities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycorrhiza fungi, through their symbiotic relationship with plants, exemplify ontological generosity by dissolving boundaries between self and world, co-authoring terrestrial life, embodying distributed intelligence, practicing radical economy, and refusing the myth of purity.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

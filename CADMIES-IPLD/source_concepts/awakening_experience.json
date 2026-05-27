@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "awakening_experience",
+  "title": "Awakening Experience",
+  "definition": "A profound shift in perception and understanding, leading to the realization of the self-illusion.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.913745Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.913745Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "An extraordinary moment when someone realizes that their sense of self is an illusion, often accompanied by feelings of peace and liberation.",
+    "intermediate": "A transformative experience in which the individual transcends the limitations of a dualistic worldview, resulting in non-dual awareness and selfless consciousness.",
+    "expert": "A phase transition in consciousness, characterized by a perceptual shift from a self-centered to an interconnected perspective, with profound implications for selfhood, morality, and the nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The moment when one understands that all phenomena are not-self (anatt\u0101), leading to the extinction of the illusion of the self.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

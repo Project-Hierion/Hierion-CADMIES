@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gardeners_of_the_human_condition",
+  "title": "Gardeners Of The Human Condition",
+  "definition": "The recognition that every thought, word, and action shapes the world around us, making us constant, ongoing causes in the human condition.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.934492Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.934492Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like how a gardener's actions affect the garden, our thoughts, words, and actions affect the people and world around us.",
+    "intermediate": "The understanding that every individual is a 'gardener' who cultivates conditions in society through their thoughts, words, and actions.",
+    "expert": "A conceptual shift recognizing that individuals are not separate from the world but constantly shape it, with moral implications emphasizing the responsibility to create positive conditions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that every individual is a constant cause in shaping the human condition.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

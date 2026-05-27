@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "time_travel_in_art",
+  "title": "Time Travel In Art",
+  "definition": "The experience of inhabiting the moment of artistic creation or perception, transcending temporal boundaries.",
+  "type": "Concept",
+  "domain": "Art History & Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.937586Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.937586Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Feeling like you're seeing a painting as it's being created or experiencing what an artist saw at the time of creation.",
+    "intermediate": "The sensation of stepping into the artistic process and viewing moments before they were captured on canvas or other medium.",
+    "expert": "A transformative experience that enables viewers to engage with the artistic process as it unfolds, transcending temporal boundaries and offering a glimpse into alternative realities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Art can provide a window into the past, offering viewers a unique opportunity to connect with the creative process in real-time.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

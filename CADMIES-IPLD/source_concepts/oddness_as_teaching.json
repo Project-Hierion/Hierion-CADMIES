@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "oddness_as_teaching",
+  "title": "Oddness As Teaching",
+  "definition": "The deliberate cultivation of a distinct and unconventional presence, serving as a gentle confrontation to others' assumptions about what it means to be human.",
+  "type": "Concept",
+  "domain": "Philosophy, Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.140626Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.140626Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Living in a way that challenges others' expectations and norms, offering an example of a different path or lifestyle.",
+    "intermediate": "The conscious practice of embodying qualities such as equanimity, contentment, and non-attachment, which may appear unusual to those who do not share these values.",
+    "expert": "A contemplative approach that involves intentionally embodying unconventional qualities as a form of teaching or exemplification of a different way of life."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight that one's unique and unconventional presence can serve as a powerful teaching tool for others, encouraging them to question their own assumptions and beliefs.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

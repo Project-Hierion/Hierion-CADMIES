@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neuroplasticity_enlightenment",
+  "title": "Neuroplasticity Enlightenment",
+  "definition": "The ability of the human brain to undergo profound change through consistent practice and mental re-training, leading to a state of enlightenment or freedom from the illusion of self.",
+  "type": "Concept",
+  "domain": "Neuroscience, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.919764Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.919764Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "neuroplasticity"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Neuroplasticity is like a brain workout that helps us think in new ways. In this context, it allows Siddhartha to change his brain's habits and overcome craving, fear, and the illusion of self, leading to enlightenment.",
+    "intermediate": "Neuroplasticity is the brain's ability to reorganize neural connections in response to experience. In Buddhist terms, it is the means by which Siddhartha, through Eightfold Path training, alters his neural pathways and achieves nirvana.",
+    "expert": "Neuroplasticity refers to the brain's capacity for structural change in response to experience. In this dialogue, it is presented as a mechanism by which Siddhartha transcends the self-centered nature of his brain, leading to the realization of the Buddha within him."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight is that neuroplasticity enables the transformation of a man into a Buddha by systematically quieting neural pathways associated with ego and craving, leaving only the universe awake in human form.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

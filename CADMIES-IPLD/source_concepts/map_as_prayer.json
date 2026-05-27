@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "map_as_prayer",
+  "title": "Map As Prayer",
+  "definition": "The metaphorical association of a map with prayers, representing the hope, faith, and journey towards the unknown.",
+  "type": "Concept",
+  "domain": "Exploration and Symbolism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.954958Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.954958Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like a prayer is a request for guidance or protection on a journey, a map can be seen as a guide that helps us navigate through uncharted territories.",
+    "intermediate": "The idea that a map serves as a symbolic representation of hope and faith, guiding us through the unknown like a prayer might guide us in life's journey.",
+    "expert": "The concept of 'map-as-prayer' highlights the parallel between exploration and spiritual journeys, both driven by curiosity and a search for meaning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Maps can serve as prayers, guiding us through uncharted territories just as faith guides us through life.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

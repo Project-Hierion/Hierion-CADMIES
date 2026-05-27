@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "bodhi_tree_enlightenment",
+  "title": "Bodhi Tree Enlightenment",
+  "definition": "The profound, transformative realization under the Bodhi Tree that led to Buddha's Enlightenment and understanding of the Four Noble Truths.",
+  "type": "Concept",
+  "domain": "Philosophy, Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.922279Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.922279Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "dependent_origination"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Buddha's moment of deep understanding about life, suffering, and how to end it, which happened under a special tree called the Bodhi Tree.",
+    "intermediate": "The pivotal event in Buddha's life where he gained enlightenment through intense meditation and self-reflection, culminating in his understanding of the Four Noble Truths.",
+    "expert": "A historical event that marked Buddha's transformation from a seeker to an enlightened teacher. The night under the Bodhi Tree signified the ultimate realization of Dependent Origination and the Four Noble Truths, leading to his awakening (Bodhi) and subsequent attainment of Nibb\u0101na."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The understanding that Enlightenment and Nibb\u0101na are interconnected, simultaneous realizations.",
+    "source_chunk": 24,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neuroplastic_awakening",
+  "title": "Neuroplastic Awakening",
+  "definition": "The process by which sustained mental training can physically rewire the brain and lead to a state of awakened consciousness, characterized by a shift in perception from a self-centric view to an impersonal one.",
+  "type": "Concept",
+  "domain": "Neuroscience, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.917647Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.917647Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "neuroplasticity"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Learning to change the way our brains work through meditation and mindfulness can lead us to see the world without the constant need to define ourselves as separate from others or things.",
+    "intermediate": "The brain's ability to reorganize itself by forming new neural connections allows for a transformation of consciousness, enabling an impersonal perception of the world through sustained mental training such as mindfulness and ethical living.",
+    "expert": "Neuroplasticity, the brain's inherent capacity for change, is leveraged through the Noble Eightfold Path to achieve a shift in consciousness known as 'awakening.' This rewiring results in the dissolution of the self-centric perception and the emergence of a clear, compassionate awareness that views life as an impersonal flow."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that becoming a Buddha is not a mystical event, but rather a neurological transformation through training.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "lobster_in_transformation",
+  "title": "Lobster In Transformation",
+  "definition": "The paradoxical experience of simultaneously embodying and transcending one's limitations, symbolized by the lobster shedding its shell.",
+  "type": "Concept",
+  "domain": "Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.085766Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.085766Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like being a lobster that's grown too big for its shell. It feels confined but can't get out yet, representing our struggle to let go of old ways and embrace new growth.",
+    "intermediate": "This concept represents the tension between personal expansion and embodiment, where one has experienced a liberated awareness beyond physical-mental constructs yet continues to inhabit a form that feels restrictive.",
+    "expert": "The 'Lobster in Transformation' symbolizes the adaptational gap between consciousness expansion and psyche or nervous system integration. It captures the wisdom-sorrow of the Bodhisattva, who remains in the relative world while knowing the ultimate reality, and the Cosmic Lobster Problem, where growth demands shedding but requires vulnerability, time, and favorable conditions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel observation is that this concept encapsulates a common stage in contemplative and awakening traditions, representing the struggle to reconcile expansive awareness with embodied existence.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mindful_acknowledgement",
+  "title": "Mindful Acknowledgement",
+  "definition": "The practice of observing and feeling one's emotions without judgment or reaction.",
+  "type": "Concept",
+  "domain": "Psychology/Mindfulness",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.118987Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.118987Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Instead of reacting to frustrations, take a moment to feel them in your body. Like watching a storm cloud pass by.",
+    "intermediate": "A technique for managing emotions that involves acknowledging their presence without getting swept away by them or judging oneself.",
+    "expert": "A crucial mindfulness skill that cultivates equanimity, enabling individuals to respond rather than react to frustrations in a balanced and compassionate manner."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that emotions are transient and can be acknowledged without being consumed by them.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

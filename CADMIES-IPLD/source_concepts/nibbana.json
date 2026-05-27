@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nibbana",
+  "title": "Nibbana",
+  "definition": "The state of liberation from suffering in Buddhism, achieved through the realization of anatta and dependent origination.",
+  "type": "Concept",
+  "domain": "Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.912338Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.912338Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "anatta",
+      "dependent_origination"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A state of ultimate peace and freedom that comes when one realizes there is no permanent self or soul. It's like achieving a profound understanding of life's interconnectedness, leading to the end of suffering.",
+    "intermediate": "The goal of Buddhist practice, Nibbana (also called Nirvana) is the state of liberation from suffering attained through the realization of anatta and dependent origination. It represents the ultimate peace and cessation of the cycle of rebirth.",
+    "expert": "Nibbana, also known as Nirvana, is the ultimate goal of Buddhist practice. Achieved through the understanding of anatta and dependent origination, it signifies liberation from suffering and the cessation of the cycle of rebirth."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "anatta",
+      "dependent_origination"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The state of liberation from suffering in Buddhism, achieved by realizing the interconnectedness and impermanence of all phenomena.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "letting_go",
+  "title": "Letting Go",
+  "definition": "The act of relinquishing control, identity, and ego-centric attachments to reach a state of awareness beyond the self.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.972471Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.972471Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Letting go means releasing your hold on things that define you, like your thoughts, beliefs, and identity. It's like letting go of a balloon, allowing it to float away, and being free yourself.",
+    "intermediate": "Letting go is the process of relinquishing attachments to personal identity, desires, and ego-driven constructs in order to attain a state of pure awareness or presence. It's associated with the Buddhist concept of sunyata, which emphasizes emptiness and interdependence.",
+    "expert": "Letting go signifies the relinquishment of self-centered attachments and identities in favor of an expanded state of awareness that transcends individuality. This process is considered a key aspect of various spiritual traditions, including Buddhism, where it represents the path to enlightenment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight is that letting go does not mean the complete annihilation or death of the self but rather a transformation towards a state of heightened awareness and interconnectedness.",
+    "source_chunk": 97,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

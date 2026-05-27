@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "path_to_nibhana",
+  "title": "Path To Nibhana",
+  "definition": "The prescribed set of behaviors and mental exercises that, when performed consistently, inevitably use the brain's plasticity to rewire it in such a way that it can perceive the unconditioned.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.920681Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.920681Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "neuroplasticity"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A step-by-step guide for training your mind, leading to a state of ultimate freedom and peace called Nibhana.",
+    "intermediate": "A series of mental exercises that leverage neuroplasticity to alter the brain, enabling direct perception of the unconditioned state known as Nibhana.",
+    "expert": "The Noble Eightfold Path is a sequence of mental actions discovered by the Buddha through trial and error. It operates via the mechanism of neuroplasticity, leading to enlightenment (the direct seeing/apprehension of Nibhana) which is the unconditioned state itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The path to Nibhana is not just a method but also the result of enlightenment, demonstrating the interplay between practice and realization.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

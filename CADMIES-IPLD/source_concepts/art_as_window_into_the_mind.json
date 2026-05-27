@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "art_as_window_into_the_mind",
+  "title": "Art As Window Into The Mind",
+  "definition": "The idea that art is a reflection of the artist's vision, thoughts, and mental processes, providing insights into their unique way of seeing the world.",
+  "type": "Concept",
+  "domain": "Aesthetics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.935106Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.935106Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Art is like a window to the artist's mind, offering glimpses into how they see the world and think about things.",
+    "intermediate": "Art can be understood as a visual representation of an artist's unique perspective or mental processes.",
+    "expert": "A philosophical exploration suggesting that art functions not just as a mirror of reality but also as a window into the artist's mind, revealing their way of seeing and thinking."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Art is a reflection of the artist\u2019s unique vision and mental processes.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

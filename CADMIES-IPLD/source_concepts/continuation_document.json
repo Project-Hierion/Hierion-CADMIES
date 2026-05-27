@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "continuation_document",
+  "title": "Continuation Document",
+  "definition": "A document that tracks all pending work in a collaborative project.",
+  "type": "Concept",
+  "domain": "Project Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.945715Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.945715Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a to-do list for ongoing tasks, keeping everyone on the same page.",
+    "intermediate": "A detailed record of all work items that have been started but not yet completed, ensuring efficient progress and avoiding duplication.",
+    "expert": "A living, evolving document that captures the current state of a collaborative project, serving as both an agenda for active tasks and an archive for reference."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The power of documentation in maintaining focus and productivity in collaborative work.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

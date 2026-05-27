@@ -2,7 +2,7 @@
 """
 File: generate_public_gateway.py
 Tool: CADMIES Public Mycelium Gateway Generator
-Version: 2.0.0
+Version: 2.0.1
 System: CADMIES / tools
 Status: ACTIVE
 
@@ -17,7 +17,14 @@ Usage:
     python tools/generate_public_gateway.py
 
 Output:
-    public_concepts_gateway/ — static site ready for GitHub Pages deployment
+    ../docs/ — static site served by GitHub Pages
+
+Version History:
+  v2.0.1 (2026-05-27): Fixed OUTPUT_DIR from public_concepts_gateway/ to ../docs/.
+      Updated SITE_URL to https://hieros-cadmies.github.io/CADMIES/.
+      Updated deploy message to reference /docs folder.
+  v2.0.0 (2026-05-15): Initial public gateway release with filterable concept cards,
+      interactive map, JSON-LD feed, and XML sitemap.
 """
 
 import json, sys
@@ -34,8 +41,8 @@ sys.path.insert(0, str(PROJECT_ROOT / "tools" / "core"))
 from cadmies_concept_reader import load_concept, load_all_concept_cids
 from paths import BLOCKS_DIR
 
-OUTPUT_DIR = PROJECT_ROOT / "public_concepts_gateway"
-SITE_URL = "https://hieros-cadmies.github.io/CADMIES/CADMIES-IPLD/public_concepts_gateway"
+OUTPUT_DIR = PROJECT_ROOT.parent / "docs"
+SITE_URL = "https://hieros-cadmies.github.io/CADMIES/"
 
 # Domain display names for the public site
 DOMAIN_DISPLAY = {
@@ -437,7 +444,7 @@ def build_sitemap(concepts):
 
 def main():
     print("=" * 60)
-    print("CADMIES PUBLIC MYCELIUM GATEWAY GENERATOR v2.0.0")
+    print("CADMIES PUBLIC MYCELIUM GATEWAY GENERATOR v2.0.1")
     print(f"Output: {OUTPUT_DIR}")
     print("=" * 60)
 
@@ -478,7 +485,7 @@ def main():
     print(f"   concepts.json — JSON-LD structured data feed")
     print(f"   sitemap.xml — search engine sitemap")
     print(f"   .nojekyll — bypass Jekyll processing")
-    print(f"\nDeploy: push to GitHub, set Pages source to /CADMIES-IPLD/public_concepts_gateway")
+    print(f"\nDeploy: push to GitHub, Pages serves from /docs folder")
 
 
 if __name__ == "__main__":

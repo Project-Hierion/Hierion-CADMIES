@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neuroplastic_selfhood",
+  "title": "Neuroplastic Selfhood",
+  "definition": "The exploration and manipulation of human neuroplasticity to alter or question our perception of selfhood.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.918504Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.918504Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "neuroplasticity"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Examining how we can change our brain's structure and function to modify the way we see ourselves in the world, like learning a new skill or using technology to enhance senses.",
+    "intermediate": "The study of altering the brain's neural connections to transform self-awareness, from enhancing cognitive abilities to questioning one's identity within the context of enlightenment or superhuman potential.",
+    "expert": "An examination of the philosophical and ethical implications of using neuroplasticity to manipulate selfhood, such as creating 'super-intelligence', extending sensory perception, or even constructing new faculties, while questioning the nature of the self itself through enlightenment and deconstructive practices."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential for transformative change in our understanding of selfhood through neuroplasticity, raising questions about the limits of human potential and the relationship between power, freedom, and identity.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

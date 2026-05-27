@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neuroplasticity_and_enlightenment",
+  "title": "Neuroplasticity And Enlightenment",
+  "definition": "The idea that the reorganization of the human nervous system through meditation and mindfulness practices leads to a stable, functional state of enlightenment.",
+  "type": "Concept",
+  "domain": "Neuroscience, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.916425Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.916425Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea that our brains can be physically changed through meditation and mindfulness practices, leading to a more peaceful and compassionate way of living.",
+    "intermediate": "A connection between ancient wisdom and modern neuroscience, proposing that the end state of spiritual development is a stable, functional reorganization of the human nervous system.",
+    "expert": "The insight that the end state of spiritual development, as described in ancient texts like the Buddha's teachings, corresponds to a specific, measurable reorganization of the human nervous system, as understood through modern neuroscience."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding that the end state of spiritual development, as described in ancient texts like the Buddha's teachings, can be explained and measured using modern neuroscientific concepts like neuroplasticity.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

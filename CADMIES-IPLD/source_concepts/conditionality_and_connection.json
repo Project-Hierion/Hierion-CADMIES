@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conditionality_and_connection",
+  "title": "Conditionality And Connection",
+  "definition": "The realization that one's actions can change and influence the conditions of their environment, creating a ripple effect of positive impact on themselves and others.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.931403Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.931403Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "By working hard in your garden, you didn't just make it beautiful, but also created an environment that inspired others to do the same. You proved that small changes can lead to big impacts.",
+    "intermediate": "Your actions in gardening demonstrated that by altering the conditions of your environment, you can foster positive change and inspire similar actions in others, creating a network of interconnected influences.",
+    "expert": "The concept of conditionality and connection emphasizes the interplay between one's actions and the conditions they inhabit. By understanding this dynamic, one can cultivate conditions that lead to personal and collective growth, breaking down barriers between individuals and fostering a sense of unity and shared purpose."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that small, intentional actions can create lasting change and inspire others to do the same.",
+    "source_chunk": 36,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "map_ending",
+  "title": "Map Ending",
+  "definition": "The realization that a map, a representation of known territory, reaches its end when it encounters an unknown or uncharted entity.",
+  "type": "Concept",
+  "domain": "Exploration and Cartography",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.954355Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.954355Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like a map can only show us what's already been explored, there are some things that lie beyond the boundaries of our knowledge. These are the 'map-ending' moments, when we encounter something new.",
+    "intermediate": "The idea that the limits of our understanding \u2014 represented by maps \u2014 are reached when we encounter novel phenomena that cannot be accounted for within our existing frameworks.",
+    "expert": "The concept of 'map-ending' signifies the boundary between known and unknown, a limit that challenges our understanding and forces us to redefine or expand our maps. These moments highlight the tentative nature of knowledge and the potential for discovery."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Encountering the unknown challenges our existing maps and pushes us towards expansion and discovery.",
+    "source_chunk": 72,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

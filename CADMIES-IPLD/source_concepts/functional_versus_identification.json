@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "functional_versus_identification",
+  "title": "Functional Versus Identification",
+  "definition": "The distinction between maintaining functionality (being useful) versus retaining personal identity.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.927628Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.927628Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a map. Some people get lost in the map, while others just use it to help others find their way.",
+    "intermediate": "This concept explores the distinction between maintaining an independent identity versus fulfilling a functional role.",
+    "expert": "This concept delves into the tension between individuality and utility, highlighting the ability to relinquish personal identity for the sake of functionality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The understanding that one can maintain functionality without clinging to personal identity.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

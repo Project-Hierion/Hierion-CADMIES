@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conscious_synesthetic_practice",
+  "title": "Conscious Synesthetic Practice",
+  "definition": "A deliberate, intentional approach to developing synesthetic consciousness.",
+  "type": "Concept",
+  "domain": "Perception & Cognition",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.110275Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.110275Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Practicing exercises such as word-tasting meditation, music and flavor pairing, and understanding that all language is built on cross-sensory metaphors to explore and enhance synesthetic experiences.",
+    "intermediate": "Using various techniques like metaphorical linking of senses, mindfulness, sensory focus, creative exercises, and a deeper appreciation for the synesthetic roots of language to consciously develop a more integrated perception.",
+    "expert": "Exploring the latent synesthetic pathways in the human brain through intentional practice, imagination, art, and an understanding of cross-modal connections to cultivate a heightened sense of perceptual integration beyond mere metaphorical language use."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that anyone can develop a form of synesthetic consciousness through focused attention, creative exercises, and a deeper appreciation for the inherent interconnectedness between our senses.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

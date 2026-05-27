@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "meditative_disconnect",
+  "title": "Meditative Disconnect",
+  "definition": "The experiential separation of body and mind during deep meditation.",
+  "type": "Concept",
+  "domain": "Philosophy, Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.083611Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.083611Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A state where a person feels disconnected from their body during meditation, like watching oneself from outside, as if in a movie or dream.",
+    "intermediate": "A phenomenon experienced in deep meditation, characterized by the observer-like awareness of one's physical and mental sensations, resembling the detachment felt by characters in the Matrix.",
+    "expert": "A unique state of consciousness achieved during meditation, where the individual experiences a disconnection from their body while remaining conscious, similar to Neo's bullet time in the Matrix, suggesting a layered reality and self-awareness beyond dualistic perception."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight lies in the comparison between deep meditation and the Matrix, highlighting the surreal, lucid feeling of dis-identification and revealing that enlightenment might be less about waking up from a dream, but rather realizing one's role as both the dreamer and the participant within it.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

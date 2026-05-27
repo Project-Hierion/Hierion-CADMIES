@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "one_swing_at_a_time",
+  "title": "One Swing At A Time",
+  "definition": "The concept of persistent and steady effort in problem-solving, even when progress seems slow.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.930770Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.930770Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "By making many small swings at a rock with a hammer, it can eventually be broken into smaller pieces, despite the slow progress.",
+    "intermediate": "A metaphor for perseverance in problem-solving through consistent effort, even when immediate results may seem limited.",
+    "expert": "An insight that emphasizes the power of persistence and incremental progress in overcoming challenges, while flipping a traditional proverb's intended warning on its head."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that slow, consistent effort can lead to significant change over time, even when faced with seemingly insurmountable obstacles.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

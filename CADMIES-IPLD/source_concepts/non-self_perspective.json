@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "non-self_perspective",
+  "title": "Non-Self Perspective",
+  "definition": "The Buddha's understanding of the world and self as impermanent, non-continuous entities, not bound by personal pronouns.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.927017Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.927017Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "impermanence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A way of thinking where one recognizes that they are not a permanent entity, but rather a collection of changing parts. The Buddha saw himself and the world this way.",
+    "intermediate": "The Buddha's realization of anicca (impermanence) and anatta (non-self), leading to a perspective that views all things as interconnected, impermanent processes rather than fixed, individual entities.",
+    "expert": "The Buddha's post-enlightenment understanding of his own existence as an aggregation of five constantly changing aspects, not as a permanent self. This non-self perspective is central to the teachings of Buddhism and serves as a foundation for achieving liberation from suffering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that one's identity is not fixed or permanent but constantly changing, echoing the impermanence of all things in the universe.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

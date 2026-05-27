@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fractal_cosmology",
+  "title": "Fractal Cosmology",
+  "definition": "The idea that fractals, self-similar patterns recurring at different scales, are the fundamental building blocks of the universe and its phenomena.",
+  "type": "Concept",
+  "domain": "Physics, Mathematics, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.078963Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.078963Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of fractals as repeating patterns found in nature, like branches or snowflakes. In Fractal Cosmology, these patterns are seen as the basic structure underlying the entire universe.",
+    "intermediate": "Fractal Cosmology posits that fractals, recursive and self-similar patterns, underlie the physical laws governing the universe, connecting phenomena from subatomic to cosmic scales.",
+    "expert": "Fractal Cosmology suggests that fractals serve as a universal language, expressing the fundamental principles of growth, flow, and distribution in the cosmos. This idea provides a unifying perspective across various scientific domains, linking quantum mechanics, general relativity, and biology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that fractals are the universe's DNA or the operating system governing its behavior.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

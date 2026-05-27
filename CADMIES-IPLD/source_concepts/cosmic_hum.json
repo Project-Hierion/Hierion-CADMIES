@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_hum",
+  "title": "Cosmic Hum",
+  "definition": "A low-frequency, constant vibration perceived by Elian Voss in his titanium-alloy femur, which he discovers is a structured pattern of gravitational waves that functions as an interstellar navigation chart.",
+  "type": "Concept",
+  "domain": "Physics, Astronomy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.953714Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.953714Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "gravitational_waves"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Elian Voss, a cartographer, experiences a mysterious vibration in his leg after a space accident. He discovers this is a hidden pattern of gravitational waves that forms a map leading to an uncharted ice-giant in the Kepler-1625 system.",
+    "intermediate": "Elian Voss perceives a low-frequency vibration in his titanium-alloy femur, which he determines is a structured pattern of gravitational waves. This pattern functions as an interstellar highway system, leading to the largest moon of a previously uncharted ice-giant in the Kepler-1625 system.",
+    "expert": "Elian Voss experiences a low-frequency vibration in his titanium-alloy femur due to an implant that detects gravitational waves. He discovers this is not just random noise, but a structured pattern that forms a navigational chart for interstellar travel, leading to the largest moon of an ice-giant in the Kepler-1625 system. This phenomenon challenges our understanding of the universe's silence and opens up new possibilities for space exploration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cosmic hum is a hidden navigational chart written in the geometry of spacetime itself, challenging the notion that the universe is silent.",
+    "source_chunk": 71,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

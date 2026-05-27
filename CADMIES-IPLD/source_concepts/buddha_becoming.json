@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "buddha_becoming",
+  "title": "Buddha Becoming",
+  "definition": "The ongoing process of becoming enlightened or wise, recognizing the impermanence and interconnectedness of self and reality.",
+  "type": "Concept",
+  "domain": "Philosophy, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.910480Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.910480Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A person who is on a path to becoming wiser or more enlightened, understanding that it's an ongoing process, not a fixed state.",
+    "intermediate": "An individual acknowledging their own spiritual evolution and growth, recognizing the impermanence of self and the journey towards wisdom.",
+    "expert": "A philosophical concept emphasizing the dynamic nature of enlightenment as a process, rather than a fixed state. It underscores the interconnectedness of self and reality, acknowledging the need for continual release and unfolding of clarity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that spiritual development is not a destination, but a continuous journey.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ontological_shift",
+  "title": "Ontological Shift",
+  "definition": "The dissolution of the illusory self-concept through a systematic deconstruction of subjective experiences.",
+  "type": "Concept",
+  "domain": "Philosophy, Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.915273Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.915273Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The process of realizing that 'I' and 'me' are just illusions created by our minds, much like the characters in a movie are illusory.",
+    "intermediate": "A systematic approach to dismantling the habit patterns of the mind that construct the illusion of an enduring self, through practices like mindfulness and meditation.",
+    "expert": "The philosophical exploration of the nature of consciousness and selfhood, proposing that the self is a temporary construction arising from momentary experiences, and can be deconstructed to reveal the impersonal nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding that the 'self' is an illusion created by conditioned responses, and that it can be deconstructed through mindfulness and meditation practices to reveal the true nature of reality.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

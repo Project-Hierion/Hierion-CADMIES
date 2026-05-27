@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "incognito_buddha",
+  "title": "Incognito Buddha",
+  "definition": "A fully enlightened individual who lives among ordinary people without being recognized as such.",
+  "type": "Concept",
+  "domain": "Religion & Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.906030Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.906030Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "An enlightened person walking among us, offering help and peace without being recognized as a Buddha.",
+    "intermediate": "A Bodhisattva who adopts the guise of an ordinary individual to serve others with compassion and wisdom, unrecognized by most.",
+    "expert": "The Mahayana Buddhist concept of the 'hidden Buddha' or Incognito Buddha: a fully enlightened being who intentionally lives among ordinary people in disguise, embodying compassionate action and silent presence to help others without being recognized as a Buddha."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that enlightenment is not about self-promotion or separation but about serving others and living with compassion in the midst of everyday life.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "aesthetic_time_machine",
+  "title": "Aesthetic Time Machine",
+  "definition": "The idea that great art functions as a 'telepathic time machine', allowing viewers to experience the moment of conception within the artist's mind.",
+  "type": "Concept",
+  "domain": "Aesthetics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.938604Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.938604Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Great art can make you feel like you are transported back to when the artwork was first created, sharing in the artist's vision and emotions.",
+    "intermediate": "Some exceptional works of art contain an intensity of the artist's presence that, upon viewing, can connect the viewer to the original act of creation, creating a sense of shared consciousness across time.",
+    "expert": "This philosophical concept explores how certain masterpieces function as portals to specific moments in the artist's mind, allowing viewers to access the unfiltered and immediate experience of the artwork's conception, transcending temporal boundaries and creating a composite being that encompasses the artist, the viewer, and the artwork."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that art, at its pinnacle, serves not as representation but as a conduit to a shared, transcendent experience across time.",
+    "source_chunk": 45,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

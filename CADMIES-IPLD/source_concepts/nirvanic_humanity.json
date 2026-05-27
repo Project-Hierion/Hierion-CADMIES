@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nirvanic_humanity",
+  "title": "Nirvanic Humanity",
+  "definition": "The Buddha's unique state of enlightenment that maintained a profoundly human presence while transcending the afflictions and suffering caused by tanha (craving) and dukkha (suffering).",
+  "type": "Concept",
+  "domain": "Philosophy, Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.901235Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.901235Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The Buddha's enlightened state allowed him to be human in a way that was compassionate, loving, and free from suffering, unlike the usual human experience.",
+    "intermediate": "Post-enlightenment, the Buddha exhibited a heightened form of humanity, one that transcended self-centered emotions and reactions to embody the divine abodes (loving-kindness, compassion, sympathetic joy, equanimity) and skillful means in his interactions.",
+    "expert": "The Buddha's nirvanic humanity represents a synthesis of human qualities with transcendence over selfishness, suffering, and delusion. It embodies the perfected form of human nature that arises from enlightenment, demonstrating compassionate wisdom in all actions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the Buddha was not an emotionless being but a complex individual who embodied a perfected version of human qualities, free from suffering and self-centered emotions.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

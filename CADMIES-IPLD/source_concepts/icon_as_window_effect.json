@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "icon_as_window_effect",
+  "title": "Icon As Window Effect",
+  "definition": "The experience of feeling a direct connection or transmission from an object (such as a statue) that is considered sacred or symbolic, transcending the barrier between self and other.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.971865Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.971865Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you feel like a statue speaks to you or shares its wisdom, it's not because of imagination\u2014it's a real connection that makes you feel less alone.",
+    "intermediate": "The Icon as Window Effect refers to the experience of feeling a direct transmission from an object (like a statue) that is considered sacred or symbolic. This effect transcends the barrier between self and other, allowing for a sense of unity and shared wisdom.",
+    "expert": "Icon as Window Effect represents the phenomenon where individuals feel a connection to objects of spiritual significance, such as statues. This experience transcends the barriers of time and space, fostering a sense of unity and shared consciousness that challenges traditional notions of self and other."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Icon as Window Effect illustrates the possibility of direct communication or transmission from sacred symbols, challenging our understanding of the boundaries between self and other.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

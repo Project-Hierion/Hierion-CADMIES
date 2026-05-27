@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "integrated_nonlinear_path",
+  "title": "Integrated Nonlinear Path",
+  "definition": "The Eightfold Path is an interconnected, non-sequential system of ethics, mindfulness, and concentration that simultaneously develop and support each other towards enlightenment.",
+  "type": "Concept",
+  "domain": "Buddhism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.924313Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.924313Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like training for a sport, the Eightfold Path is a holistic approach to ethical living, mindfulness, and concentration. All aspects of the path are interconnected and develop together towards enlightenment, rather than being sequential steps.",
+    "intermediate": "The Eightfold Path represents an integrated way of being, with each of its eight factors - Right View, Intention, Speech, Action, Livelihood, Effort, Mindfulness, and Concentration - interdependent and developing simultaneously towards enlightenment.",
+    "expert": "The Eightfold Path is not a linear checklist to be followed in a sequential manner. Instead, it represents an organic, interconnected system of ethical conduct, mental discipline, and wisdom that develops simultaneously and supports each other towards the ultimate goal of enlightenment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the Eightfold Path as an integrated non-linear system emphasizes its holistic nature and highlights the importance of all aspects working together in harmony towards the attainment of enlightenment.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

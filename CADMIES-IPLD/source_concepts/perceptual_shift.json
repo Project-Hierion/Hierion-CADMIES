@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "perceptual_shift",
+  "title": "Perceptual Shift",
+  "definition": "A fundamental change in how one perceives and understands reality.",
+  "type": "Concept",
+  "domain": "Cognitive Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.914655Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.914655Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Seeing the world in a completely new way, as if you have put on a different pair of glasses.",
+    "intermediate": "A profound reorganization of one's mental structures and processes that leads to a shift in perceptual, intellectual, or emotional perspective.",
+    "expert": "A deep transformation in cognitive functioning, characterized by the extinction of prior beliefs, the emergence of new insights, and the integration of previously separate aspects of consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that understanding can change in a way that fundamentally alters one's perception of reality.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

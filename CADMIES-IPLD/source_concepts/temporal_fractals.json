@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "temporal_fractals",
+  "title": "Temporal Fractals",
+  "definition": "The self-similar patterns that occur in the unfolding of events over time.",
+  "type": "Concept",
+  "domain": "Philosophy, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.123397Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.123397Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just as some shapes repeat themselves at different scales, certain events in our world seem to follow a pattern that repeats itself across vast spans of time, from daily weather patterns to the rise and fall of civilizations.",
+    "intermediate": "The idea that reality\u2019s self-similar, scale-invariant patterns may not only govern how things are arranged but also how they unfold over time, manifesting in natural processes, historical events, societal structures, metaphysical concepts, and personal experiences.",
+    "expert": "A fundamental pattern that might underlie the evolution of events across scales, from quantum to cosmic, providing a deeper understanding of the interconnectedness between the microcosm and macrocosm as well as the structure of change in various domains of human existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the universe exhibits recurring patterns not just in spatial arrangements but also in the temporal unfolding of events.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

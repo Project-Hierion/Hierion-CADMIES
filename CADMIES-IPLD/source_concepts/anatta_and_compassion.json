@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "anatta_and_compassion",
+  "title": "Anatta And Compassion",
+  "definition": "The understanding of anatt\u0101 (not-self) and its implications for compassionate communication in conventional reality.",
+  "type": "Concept",
+  "domain": "Buddhism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.147876Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.147876Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Recognizing that 'I' is not a fixed entity, but a temporary collection of experiences, and using this understanding to communicate with compassion instead of causing confusion.",
+    "intermediate": "Awakened beings use language as a tool while maintaining an understanding of the ultimate truth of no-self. This allows for communicating in conventional reality without adding unnecessary confusion.",
+    "expert": "The Fully Awakened One uses language strategically to communicate compassionately with others while abiding in the truth of not-self. This avoids fetishizing silence or clinging to a view of no-self as an identity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Recognizing and embracing the temporary and interdependent nature of self leads to compassionate communication that meets others where they are, without adding unnecessary confusion.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nematocyst_tongue",
+  "title": "Nematocyst Tongue",
+  "definition": "A specialized feeding surface on the tongue of a vampire bat, covered in microscopic spring-loaded cellular structures that penetrate the host's skin to access blood vessels.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.950263Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.950263Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a tongue covered in tiny needles that can shoot out and pierce your skin to draw blood. This is similar to the structure found on the tongue of a vampire bat.",
+    "intermediate": "The tongue of a vampire bat is not a smooth muscular organ but a specialized feeding surface covered in tens of thousands of nematocysts, which are microscopic, spring-loaded cellular structures that penetrate the host's skin to access blood vessels.",
+    "expert": "The structure of the vampire bat's tongue involves microscopic, spring-loaded cellular structures called nematocysts that discharge on contact with skin, penetrating into capillary beds. This is a unique adaptation for hematophagy (blood-feeding), allowing the bat to feed silently and efficiently."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A specialized tongue structure for silent and efficient blood-feeding",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

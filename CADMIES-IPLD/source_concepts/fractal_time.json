@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fractal_time",
+  "title": "Fractal Time",
+  "definition": "The idea that certain societal patterns and processes may repeat self-similarly across different time scales.",
+  "type": "Concept",
+  "domain": "Sociology, History, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.125517Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.125517Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A concept suggesting that some problems or trends (like unsafe texting while driving) can reoccur in similar ways over different generations, rather than being solved and forgotten once and for all.",
+    "intermediate": "The idea that certain societal patterns, such as public safety concerns about new technologies, may repeat self-similarly across different time scales due to recurring human behaviors and limited cultural memory.",
+    "expert": "The notion that certain complex systems, such as human societies, exhibit self-similar patterns of behavior and learning at different scales of time, reflecting the inherent recursive nature of these systems and the limits of human collective memory."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that societal issues can repeat in a fractal manner across generations, suggesting a cyclical but non-trivial relationship between past and present experiences.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

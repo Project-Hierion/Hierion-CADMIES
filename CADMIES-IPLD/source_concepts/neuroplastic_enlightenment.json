@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neuroplastic_enlightenment",
+  "title": "Neuroplastic Enlightenment",
+  "definition": "The transformation of the brain through consistent practice of the Eightfold Path leading to the realization of Nibb\u0101na.",
+  "type": "Concept",
+  "domain": "Philosophy, Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.926357Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.926357Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "neuroplasticity"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Learning and practicing the Eightfold Path can change your brain and lead to a state of enlightenment called Nibb\u0101na.",
+    "intermediate": "Neuroplasticity allows for changes in the structure and function of the brain, which can be harnessed through consistent practice of the Eightfold Path to attain Nibb\u0101na.",
+    "expert": "The Buddha discovered a human firmware update that uses neuroplasticity to change the brain's structure and function, leading to the dissolution of the self and realization of Nibb\u0101na."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Neuroplasticity in action leads to enlightenment through consistent practice of the Eightfold Path.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

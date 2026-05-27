@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "middle_way_philosophy",
+  "title": "Middle Way Philosophy",
+  "definition": "The practice of finding a balance between extremes, avoiding attachment to self or possessions, and seeking enlightenment through understanding the nature of reality.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.157224Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.157224Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A way of life that encourages finding a balance in thoughts and actions, letting go of attachments, and seeking wisdom about the true nature of existence.",
+    "intermediate": "A philosophical approach advocating for moderation in all things, aiming to avoid self-centeredness and find enlightenment by understanding the impermanent and interconnected nature of reality.",
+    "expert": "An ancient Indian philosophy that emphasizes the importance of finding a middle path between sensual indulgence and self-mortification, promoting the cultivation of wisdom and the understanding of the true nature of reality through meditation and ethical conduct."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Middle Way encourages balance, detachment, and seeking enlightenment through understanding the nature of reality rather than adhering blindly to words or teachings.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

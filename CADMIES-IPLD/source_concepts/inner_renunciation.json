@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "inner_renunciation",
+  "title": "Inner Renunciation",
+  "definition": "The act of relinquishing attachment to and identification with the world while remaining physically present.",
+  "type": "Concept",
+  "domain": "Philosophy, Buddhism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.136547Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.136547Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Learning to see family, possessions, and even yourself as transient phenomena rather than permanent possessions.",
+    "intermediate": "The practice of detaching oneself from the illusion of self and worldly attachments, while still engaging in daily life.",
+    "expert": "The radical act of breaking free from the internal hooks that bind one to a particular story of 'self' and 'other', allowing for unconditional peace and compassion."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Inner renunciation allows one to remain present in daily life while transcending attachment, leading to a state of enlightenment.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cookie_ritual",
+  "title": "Cookie Ritual",
+  "definition": "A behavioral adaptation exhibited by the host in which they leave cookies as an offering for the vampire, formalizing the relationship between predator and prey.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.952645Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.952645Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The host leaves cookies on the nightstand as a way of 'making peace' with the vampire, demonstrating their acceptance of the relationship and providing nourishment for the creature.",
+    "intermediate": "The cookie ritual represents a unique example of behavioral co-adaptation between predator and prey, where the host provides an offering to appease the vampire in exchange for minimal disturbance during feeding events.",
+    "expert": "The cookie ritual is a testament to the psychological dimension of predator-prey relationships, demonstrating how both parties can negotiate terms through behavioral adaptations that benefit both species."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cookie ritual symbolizes a unique form of co-existence between predator and prey, where the host offers an incentive for minimal disturbance during feeding events.",
+    "source_chunk": 69,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

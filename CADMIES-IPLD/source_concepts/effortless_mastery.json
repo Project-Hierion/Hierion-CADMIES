@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "effortless_mastery",
+  "title": "Effortless Mastery",
+  "definition": "The sublime paradox of achieving mastery through total surrender.",
+  "type": "Concept",
+  "domain": "Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.060558Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.060558Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Achieving mastery in something can come only through complete surrender and letting go of control.",
+    "intermediate": "The idea that effortless mastery can be attained through total surrender, which implies a deep understanding of the process and an ability to flow with it.",
+    "expert": "Effortless mastery is a philosophical concept that captures the paradoxical nature of achieving perfection by giving up all efforts\u2014a state often associated with enlightenment or spiritual realization."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The metaphor of surfing the perfect wave highlights the paradox between effort and surrender in achieving mastery, joy, and ultimate freedom.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

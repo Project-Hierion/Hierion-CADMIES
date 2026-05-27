@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "distributed_intelligence",
+  "title": "Distributed Intelligence",
+  "definition": "Intelligence distributed across multiple entities or a network.",
+  "type": "Concept",
+  "domain": "Cognitive Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.964946Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.964946Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A type of intelligence that is not limited to a single entity, but rather spread across many entities or a network.",
+    "intermediate": "Intelligence exhibited by a system or network where cognitive functions are distributed among multiple components.",
+    "expert": "An understanding of intelligence as a property that can be distributed across various entities, such as the mycorrhizal network's chemical signaling and resource-sharing mechanisms."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycorrhiza demonstrates distributed intelligence through its ability for plants to communicate and share resources via fungal networks, challenging traditional notions of where thinking happens and who is doing it.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

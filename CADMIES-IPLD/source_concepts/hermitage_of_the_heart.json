@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hermitage_of_the_heart",
+  "title": "Hermitage Of The Heart",
+  "definition": "The cultivation of an inner sanctuary or spiritual refuge, through the practice of mindfulness and unconditioned awareness.",
+  "type": "Concept",
+  "domain": "Philosophy, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T02:02:22.145606Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T02:02:22.145606Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Creating a peaceful, calm, and introspective space within oneself, through the practice of meditation and mindfulness.",
+    "intermediate": "The development of an inner refuge or sanctuary, accessed through continuous mindfulness and unconditioned awareness, regardless of external circumstances.",
+    "expert": "A spiritual practice involving the cultivation of an inner sanctuary or hermitage, achieved through the unifying of one's consciousness with unborn, unconditioned awareness (nibb\u0101na)."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight that one can create a personal spiritual refuge by continuously dwelling in the unborn, unconditioned awareness, regardless of external circumstances.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}

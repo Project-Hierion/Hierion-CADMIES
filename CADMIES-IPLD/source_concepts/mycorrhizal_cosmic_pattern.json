@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycorrhizal_cosmic_pattern",
+  "title": "Mycorrhizal Cosmic Pattern",
+  "definition": "The idea that mycorrhiza represents a fundamental pattern in the organization of complex systems, from local soil networks to cosmic structures.",
+  "type": "Concept",
+  "domain": "Biology, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-05-27T18:28:49.965782Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-05-27T18:28:49.965782Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Mycorrhizal network is the relationship between fungi and plant roots that helps plants absorb nutrients. This concept suggests that this pattern of interconnectedness can be found in various complex systems like the universe itself.",
+    "intermediate": "The mycorrhizal pattern refers to the branching, connecting, and distributing network between fungi and plant roots on Earth, which is proposed as a cosmic principle underlying the organization of complex structures across scales, from biological life to cosmic filaments.",
+    "expert": "Mycorrhizal Cosmic Pattern posits that the branching, interconnected structure of mycorrhiza is not just limited to terrestrial ecosystems but is a universal pattern found in various complex systems, including neural networks, cosmic filaments, and social networks. This insight challenges traditional hierarchies by highlighting the significance of relationships and interconnections over individual entities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that mycorrhiza represents a cosmic pattern offers a novel perspective on the organization of complex systems and challenges traditional notions of hierarchy by emphasizing the importance of connections and relationships.",
+    "source_chunk": 85,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.0"
+  }
+}
