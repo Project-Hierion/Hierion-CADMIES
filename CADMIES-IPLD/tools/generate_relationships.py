@@ -2,37 +2,27 @@
 """
 File: generate_relationships.py
 Tool: CADMIES Relationship Generator
-Version: 1.2.4
+Version: 1.2.5
 System: CADMIES / tools
 Status: ACTIVE
 
 Purpose: Feeds minted concepts to Mistral in small batches to propose
-         cross-reference relationships. Uses ultra-light prompts
-         (IDs + domains only) with one-shot examples for reliable JSON
-         structure on CPU inference (~40s per batch).
+         cross-reference relationships. Uses prompts with concept definitions
+         and domains so Mistral can make informed connections.
 
          Two-phase strategy:
            Phase 1: Intra-batch edges (15 concepts per batch)
            Phase 2: Cross-batch bridges (8 ambassadors per call)
-
-         No timeouts, no stop tokens — num_predict=256 is the only cap.
 
 Usage:
     python tools/generate_relationships.py           # Dry run — preview only
     python tools/generate_relationships.py --write   # Apply edges to blockstore
     python tools/generate_relationships.py --incremental  # Only sparse concepts
 
-Lessons Learned (2026-05-09):
-    - One-shot examples in prompts fix JSON structure issues
-    - "stop" token cuts off JSON → removed; num_predict is enough
-    - Mistral invents IDs/types → strict rules + example in prompt
-    - signal.alarm() conflicts with ollama.generate → removed
-    - Trailing commas before } or ] → stripped in call_mistral()
-
-Changelog (2026-05-21 — v1.2.4):
-    - Phase 47 fix: write step now validates target exists in full blockstore
-      index before appending edge. Prevents orphan edges from deleted/renamed
-      concepts. Skips with log message instead of silently creating ghost edges.
+Changelog (2026-05-28 — v1.2.5):
+    - build_intra_batch_prompt now includes domain and definition for each concept
+    - build_bridge_prompt already included domains; added definitions
+    - Reduced BATCH_SIZE from 15 to 10 for more focused proposals
 """
 
 import json
@@ -53,9 +43,9 @@ from cid_generator import CIDGenerator
 import dag_cbor
 
 # === CONFIG ===
-MODEL = "mistral:7b"
+MODEL = "codestral"
 DELAY = 2
-BATCH_SIZE = 15
+BATCH_SIZE = 10  # Smaller batches with richer context
 BRIDGE_BATCH_SIZE = 8
 VALID_RELATION_TYPES = ["builds_upon", "related_to", "specializes", "contradicts"]
 
@@ -77,6 +67,7 @@ def gather_concept_summaries():
         summaries[hid] = {
             'title': concept.get('title', hid.replace('_', ' ').title()),
             'domain': concept.get('domain', 'Unknown'),
+            'definition': concept.get('definition', '')[:300],
             'relationships': concept.get('relationships', {}),
         }
         cid_map[hid] = cid
@@ -84,37 +75,45 @@ def gather_concept_summaries():
 
 
 # ============================================================================
-# PROMPT BUILDERS — One-shot examples force correct JSON structure
+# PROMPT BUILDERS — Now with definitions and domains
 # ============================================================================
 
 def build_intra_batch_prompt(batch_ids, summaries):
-    """Send ONLY concept IDs — no domains, no titles, no brackets."""
-    ids_only = "\n".join(batch_ids)
-    
-    return f"""Propose relationships between these concept IDs.
+    """Send concept IDs WITH their domains and definitions so Mistral can reason."""
+    lines = []
+    for hid in batch_ids:
+        s = summaries.get(hid, {})
+        domain = s.get('domain', 'Unknown')
+        definition = s.get('definition', '')
+        lines.append(f"{hid} [{domain}]: {definition}")
+    concept_block = "\n".join(lines)
 
-{ids_only}
+    return f"""Propose relationships between these concepts. Each concept includes its domain and definition — use this context to find meaningful connections.
+
+{concept_block}
 
 CRITICAL RULES:
-- Use the EXACT IDs listed directly above this sentence as both keys and targets
+- Use the EXACT IDs listed above as both keys and targets
 - ONLY use types: builds_upon, related_to, specializes, contradicts
+- Look for concepts in the SAME domain that build on each other
+- Look for concepts across DIFFERENT domains that relate or contradict
 - Every ID listed above must appear as a key, even with empty array
+- Do NOT invent IDs that are not listed above
 
 Return ONLY this exact structure:
 {{"relationships": {{"concept_id": [{{"target": "other_id", "type": "builds_upon"}}], "other_id": []}}}}"""
 
 def build_bridge_prompt(ambassadors, summaries):
-    """
-    Build prompt for cross-batch bridges.
-    Same one-shot example pattern as intra-batch.
-    """
+    """Build prompt for cross-batch bridges with full context."""
     lines = []
     for hid in ambassadors:
-        s = summaries[hid]
-        lines.append(f"{hid} [{s['domain']}]")
+        s = summaries.get(hid, {})
+        domain = s.get('domain', 'Unknown')
+        definition = s.get('definition', '')
+        lines.append(f"{hid} [{domain}]: {definition}")
     concept_block = "\n".join(lines)
 
-    return f"""Find cross-domain connections between these concepts.
+    return f"""Find cross-domain connections between these concepts. Each concept includes its domain and definition.
 
 CRITICAL: Return EXACTLY this JSON structure — an OBJECT keyed by source ID,
 each containing an ARRAY of edge objects:
@@ -131,17 +130,11 @@ Do NOT invent new IDs or types. Include EVERY concept as a key, even if empty ar
 Return ONLY the JSON (no markdown, no commentary):"""
 
 # ============================================================================
-# MISTRAL INTERFACE — No timeout, no stop tokens, trailing comma fix
+# MISTRAL INTERFACE
 # ============================================================================
 
 def call_mistral(prompt, step_name):
-    """
-    Send prompt to Mistral and parse JSON response.
-    No timeout, no stop tokens — num_predict=512 is the only cap.
-    Robust JSON extraction handles prose, markdown fences, bare objects.
-    Trailing commas stripped before JSON parse (common Mistral quirk).
-    Failed JSON saved to tools/raw_*.txt for debugging.
-    """
+    """Send prompt to Mistral and parse JSON response."""
     import ollama
     import re
 
@@ -161,18 +154,16 @@ def call_mistral(prompt, step_name):
         raw = response["response"].strip()
         print(f"-> {len(raw)} chars", end=" ", flush=True)
 
-        # Robust JSON extraction — handles prose before/after fences
-        # Pattern 1: ```json ... ``` or ``` ... ``` fences anywhere in response
+        # Robust JSON extraction
         match = re.search(r'```(?:json)?\s*\n?(\{.*?\})\s*```', raw, re.DOTALL)
         if match:
             raw = match.group(1).strip()
         else:
-            # Pattern 2: Find the first { ... } object (handles prose-before-JSON with no fences)
             match = re.search(r'\{.*\}', raw, re.DOTALL)
             if match:
                 raw = match.group(0).strip()
 
-        # Fix trailing commas (Mistral JSON quirk)
+        # Fix trailing commas
         raw = raw.replace(", }", "}")
         raw = raw.replace(", ]", "]")
         raw = raw.replace(",}", "}")
@@ -202,10 +193,7 @@ def call_mistral(prompt, step_name):
 # ============================================================================
 
 def filter_valid_edges(relationships, valid_ids):
-    """
-    Keep only edges with valid targets, types, and structure.
-    Reports how many edges were filtered out (Mistral hallucinations).
-    """
+    """Keep only edges with valid targets, types, and structure."""
     filtered = defaultdict(list)
     filtered_out = 0
     for source, edges in relationships.items():
@@ -237,7 +225,7 @@ def filter_valid_edges(relationships, valid_ids):
 # ============================================================================
 
 def test_ollama():
-    """Quick connectivity test. Fails fast if Ollama is down."""
+    """Quick connectivity test."""
     import ollama
     try:
         response = ollama.generate(
@@ -260,7 +248,7 @@ def main():
     incremental = "--incremental" in sys.argv
 
     print("=" * 60)
-    print("CADMIES RELATIONSHIP GENERATOR v1.2.4")
+    print("CADMIES RELATIONSHIP GENERATOR v1.2.5")
     print(f"Model: {MODEL}  |  Batch: {BATCH_SIZE}  |  Delay: {DELAY}s")
     print(f"Mode: {'WRITE' if write_mode else 'DRY RUN (preview only)'}")
     print(f"Filter: {'INCREMENTAL (sparse only)' if incremental else 'FULL (all concepts)'}")
@@ -352,7 +340,7 @@ def main():
     if total_edges == 0:
         print("\nNo edges generated. Possible issues:")
         print("  - All proposed edges failed validation (check raw_*.txt)")
-        print("  - Try BATCH_SIZE=10 for more focused proposals")
+        print("  - Try adjusting BATCH_SIZE or prompt")
         return
 
     # Preview
@@ -393,7 +381,6 @@ def main():
             t = edge['type']
             target = edge['target']
 
-            # Phase 47 fix: validate target exists in full blockstore index
             if target not in cid_map:
                 print(f"  SKIP: target '{target}' not in blockstore (orphan prevented)")
                 skipped_orphans += 1
