@@ -1,7 +1,9 @@
+## Step 1: Start the machine
+
 ## Step 2: Run the startup script
 
 ```
-bash /notebooks/CADMIES/CADMIES-IPLD/scripts/startup.sh
+bash /notebooks/HIEROS/startup.sh
 ```
 
 ## Step 3: Pull required models
@@ -27,8 +29,7 @@ ollama run mistral:7b
 From scratch:
 
 ```
-cd /storage/HIEROS
-python hieros/train.py \
+cd /notebooks/HIEROS && python hieros/train.py \
   --configs atari100k s5_no_mlp s5_silu_act small_model_size additional_inputs \
   --max_hierarchy 2 \
   --subgoal_visualization True \
@@ -36,28 +37,27 @@ python hieros/train.py \
   --task atari_breakout \
   --tensorboard_logging True \
   --wandb_logging False \
-  --batch_size 16 \
-  --batch_length 64 \
-  --save_every 500 \
-  --logdir /storage/HIEROS/logs/atari_breakout-YYYYMMDD-HHMMSS
+  --batch_size 8 \
+  --batch_length 32 \
+  --save_every 500
 ```
 
 Resume from checkpoint:
 
 ```
-cd /storage/HIEROS
-python hieros/train.py \
-  --configs atari100k s5_no_mlp s5_silu_act small_model_size additional_inputs \
-  --max_hierarchy 2 \
-  --subgoal_visualization True \
-  --dynamics_model s5 \
-  --task atari_breakout \
-  --tensorboard_logging True \
-  --wandb_logging False \
-  --batch_size 16 \
-  --batch_length 64 \
-  --save_every 500 \
-  --from_checkpoint /storage/HIEROS/logs/atari_breakout-20260526-194833/checkpoint.ckpt
+cd /notebooks/HIEROS  
+python hieros/train.py  
+--configs atari100k s5_no_mlp s5_silu_act small_model_size additional_inputs  
+--max_hierarchy 2  
+--subgoal_visualization True  
+--dynamics_model s5  
+--task atari_breakout  
+--tensorboard_logging True  
+--wandb_logging False  
+--batch_size 16  
+--batch_length 64  
+--save_every 500  
+--from_checkpoint /notebooks/HIEROS/logs/atari_breakout-20260531-031943/checkpoint.ckpt
 ```
 
 ## Batch Size Settings by GPU
@@ -68,8 +68,6 @@ python hieros/train.py \
 |A6000|48GB|16|64|Paper default. 7+ FPS. Stable.|
 
 ## Retrieve Rollout Videos
-
-text
 
 # Find latest log directory
 ls -d /storage/HIEROS/logs/atari_breakout-*/
