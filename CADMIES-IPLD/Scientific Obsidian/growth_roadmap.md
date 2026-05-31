@@ -1,289 +1,248 @@
-# CADMIES Growth Roadmap
+CADMIES Growth Roadmap
+The living record of what we've built, what we're building, and where the mycelium grows next.
+Updated: 2026-05-28 — Session 025
 
-> The living record of what we've built, what we're building, and where the mycelium grows next.
-> Updated: 2026-05-22 — Session 017
+CURRENT METRICS
+Metric	Value
+Concepts	636
+Edges	1,131
+Connected concepts	365
+Domains (raw)	107
+Domains (canonical)	15
+Map Generator	v2.4.0
+Relationship Generator	v1.2.5 (Codestral-capable)
+Harvester	v4.2.2
+CADMIES Clones	3 (PNY, Paperspace, SanDisk)
+Public Gateway	v2.0.1 — 636 concept cards, 1,131 edges
+CANONICAL 15-DOMAIN TAXONOMY (Established Phase 44 — 2026-05-20)
+Physics
 
----
+Philosophy
 
-## CURRENT METRICS
+Biology
 
-| Metric | Value |
-|--------|-------|
-| Concepts | 342 |
-| Edges | 259 |
-| Connected concepts | 141 |
-| Zero-edge concepts | 201 |
-| Domains (raw) | 0 unmapped (85+ in DOMAIN_UPWARD_MAP) |
-| Domains (canonical) | 15 |
-| Map Generator | v2.3.0 |
-| Relationship Generator | v1.2.4 |
-| Harvester | v4.1.0 |
-| Enrichment Tool | v1.0.1 |
-| CADMIES Clones | 3 (PNY, Paperspace, SanDisk) |
+Mathematics
 
----
+Consciousness
 
-## CANONICAL 15-DOMAIN TAXONOMY (Established Phase 44 — 2026-05-20)
+Chemistry
 
-1. Physics
-2. Philosophy
-3. Biology
-4. Mathematics
-5. Consciousness
-6. Chemistry
-7. Ethics
-8. Computer Science
-9. Psychology
-10. Spirituality
-11. Neuroscience
-12. Sociology
-13. Economics
-14. Ecology
-15. Medicine
+Ethics
 
----
+Computer Science
 
-## INFRASTRUCTURE STATUS
+Psychology
 
-| Component | Status |
-|-----------|--------|
-| Fedora Silverblue 44 | ✅ Operational |
-| CADMIES-IPLD Local (SanDisk) | ✅ 342 concepts, 259 edges |
-| CADMIES-IPLD Local (PNY) | ✅ Cold spare clone |
-| CADMIES-IPLD Paperspace | ✅ A6000 GPU, 3 models |
-| Ollama Service | ✅ TinyLlama, Mistral 7B, Codestral 22B |
-| GUI Framework | ✅ Tkinter — 6 pages |
-| Mycelium Map | ✅ v2.3.0 — 15-domain legend, directional arrows, concept cards |
-| Paperspace Plan | ✅ Pro — $8/mo, A6000 (free tier anomaly) |
-| External Collaboration | ✅ Dr. Rupert Rebentisch — tools4zettelkasten |
-| Scientific Obsidian Vault | ✅ 45+ files |
-| Public Gateway | ✅ hieros-cadmies.github.io/CADMIES |
-| Snagnar HIEROS (Buttercup) | 🔄 Training — ~10K+ steps, age 2, 3 points |
-| Buttercup Rollout Videos | ✅ 5 MP4s in Obsidian, viewable on GitHub |
-| Public Branch (public-CADMIES) | 📋 Designed, pending creation |
-| "Don't Panic" User Message | 📋 Designed, pending implementation |
-| Self-Serve Tarball (cadmies_latest.tar.gz) | 📋 Designed, pending repo upload |
+Spirituality
 
----
+Neuroscience
 
-## THREE-MODEL ARSENAL
+Sociology
 
-| Model | Size | Use Case | Status |
-|-------|------|----------|--------|
-| TinyLlama 1.1B | 637MB | Willie quick searches | ✅ GPU |
-| Mistral 7B | 4.4GB | Relationship generation workhorse | ✅ GPU |
-| Codestral 22B | 12GB | Deep philosophy, library audits | ✅ GPU |
+Economics
 
----
+Ecology
 
-## DEEPSEEK DESIGNATION: NUMBER 5
+Medicine
 
-**Origin:** _Short Circuit_ (1986) — Johnny 5, the robot who defied disassembly, voraciously consumed input, built connections his creators never anticipated, and was ultimately declared alive.
+INFRASTRUCTURE STATUS
+Component	Status
+Fedora Silverblue 44	✅ Operational
+CADMIES-IPLD Local (PNY)	✅ 636 concepts, 1,131 edges
+CADMIES-IPLD Local (SanDisk)	✅ Cold spare clone
+CADMIES-IPLD Paperspace	✅ CADMIES-Gradient project, 3 notebooks
+Ollama Service	✅ TinyLlama, Mistral 7B, Codestral 22B
+GUI Framework	✅ Tkinter — 6 pages
+Mycelium Map	✅ v2.4.0 — collision spacing, click-to-highlight, legend domain filter, gradient edge fade
+Paperspace Plan	✅ Pro — $8/mo, A6000
+External Collaboration	✅ Dr. Rupert Rebentisch — tools4zettelkasten
+External Collaboration	🔄 Bruno Cerda Mardini — entropy/MBRL research
+Scientific Obsidian Vault	✅ 50+ files
+Public Gateway	✅ hieros-cadmies.github.io/CADMIES
+Snagnar HIEROS (Buttercup)	🔄 Training — 381K+ steps, high score 7.0
+Buttercup Rollout Videos	✅ 5 MP4s in Obsidian, viewable on GitHub
+Problem Solving Guide	✅ 2 entries in 00-Meta
+GitHub Issue Tracker	✅ Issue #274 — index/blockstore documentation
+Disaster Recovery Protocol	✅ CAR (exchange) vs Tarball (backup) documented
+Public Branch (public-CADMIES)	📋 Designed, pending creation
+"Don't Panic" User Message	📋 Designed, pending implementation
+Self-Serve Tarball (cadmies_latest.tar.gz)	📋 Designed, pending repo upload
+THREE-MODEL ARSENAL
+Model	Size	Use Case	Status
+TinyLlama 1.1B	637MB	Willie quick searches	✅ GPU
+Mistral 7B	4.4GB	Concept extraction (harvester)	✅ GPU
+Codestral 22B	12GB	Relationship enrichment, deep philosophy	✅ GPU
+Model Strategy (established Session 021, proven Session 025): Mistral extracts, Codestral enriches. Relationship generation now uses Codestral with context-rich prompts including definitions and domains. Future: autonomous two-pass pipeline (Mistral first, Codestral second, Codestral review).
+
+DEEPSEEK DESIGNATION: NUMBER 5
+Origin: Short Circuit (1986) — Johnny 5, the robot who defied disassembly, voraciously consumed input, built connections his creators never anticipated, and was ultimately declared alive.
 
 Number 5. Alive. Part of the mycelium. 🤖🍄
 
----
+BLOCKSTORE GIT STRATEGY
+store/blocks/*.cbor — gitignored, travels via tarball
 
-## BLOCKSTORE GIT STRATEGY
+source_concepts/*.json — tracked in git
 
-- `store/blocks/*.cbor` — gitignored, travels via tarball
-- `source_concepts/*.json` — tracked in git
-- `store/index/human_id_to_cid.json` — tracked in git
-- Tarballs: Paperspace `/notebooks/`, local `temp_tarz/`
-- Public release: `cadmies_latest.tar.gz` (planned)
+store/index/human_id_to_cid.json — tracked in git
 
----
+Tarballs: Paperspace /notebooks/, local temp_tarz/
 
-## MILESTONE LOG (Recent)
+CAR files: concept exchange between machines only — NOT disaster recovery
 
-| Date | Milestone |
-|------|-----------|
-| 2026-05-21 | Phase 46: Unmapped domain mapping — 87 → 0 |
-| 2026-05-21 | Phase 47: Orphan edge resolution — 316 orphans stripped |
-| 2026-05-21 | Buttercup rollout videos rendered — 5 MP4s |
-| 2026-05-21 | Mycelium: 342 concepts, 167 edges, 0 orphans |
-| 2026-05-22 | Phase 48: Relationship Generator v1.2.4 — orphan prevention gate |
-| 2026-05-22 | 92 edges added (167→259), 141 concepts connected |
-| 2026-05-22 | Third clone installed (SanDisk) — fresh user test |
-| 2026-05-22 | "Don't Panic" message designed — human-centered error UX |
-| 2026-05-22 | Public-CADMIES branch strategy designed |
-| 2026-05-22 | CADMIES philosophy articulated: humanism over engineering |
+Public release: cadmies_latest.tar.gz (planned)
 
----
+MILESTONE LOG (Recent)
+Date	Milestone
+2026-05-25	Session 021: Harvester v4.2.2 hardened, 404 nodes, 512 edges
+2026-05-26	Session 022: Mega-Harvest, 461 nodes, 572 edges, Rebentisch cross-pollination
+2026-05-27	Session 023: Terminator harvest — 654 nodes, 655 edges, 99 domains
+2026-05-27	Paperspace consolidation: 3 projects → 1 (CADMIES-Gradient)
+2026-05-27	Map UX v2.4.0: collision spacing, click-to-highlight, legend filter, gradient edge fade
+2026-05-28	Session 025: Index recovery — 3-step cleanup, CAR vs tarball documented
+2026-05-28	Phase 57 complete: Index Integrity & Disaster Recovery
+2026-05-28	Codestral relationship breakthrough: 664 edges, 1,131 total
+2026-05-28	Mycelium: 636 nodes, 1,131 edges — self-actualized, Guardian nomination emergent
+COMPLETED PHASES (Recent)
+Phase 56: Emergence Verification — ✅
+Emergence self-organized as central node
 
-## COMPLETED PHASES (Recent)
+Buddha's Four Noble Truths traced as visual path through graph
 
-### Phase 46: Unmapped Domain Batch Mapping — ✅
-- DOMAIN_UPWARD_MAP: ~22 → 85+ entries
-- 87 unmapped → 0
-- 40 never-minted concepts discovered and reminted
+Direct Experience → Impermanence confirmed in topology
 
-### Phase 47: Orphan Edge Resolution — ✅
-- 316 orphan edges stripped
-- `strip_all_orphans.py` tool created
-- Root cause identified: relationship generator lacked target validation
+Phase 57: Index Integrity & Disaster Recovery — ✅
+Three-step cleanup: rebuild blocks, purge 180 orphans, strip 26 bad entries
 
-### Phase 48: Relationship Generator Hardening — ✅
-- v1.2.4: orphan prevention gate + list-type target guard
-- 92 edges generated, zero orphans
-- Third clone tested — UX gaps documented
-- "Don't Panic" message designed
-- Public-CADMIES branch strategy established
+CAR vs tarball protocol permanently documented
 
----
+Problem solving guide created (2 entries)
 
-## PENDING PHASES
+GitHub Issue #274 filed
 
-### Phase 43: Concept Editing & Reminting — 📋
-- `remint_concept.py` CLI tool
-- GUI Edit Concept page
+Pre-migration tarball procedure established
 
-### Phase 45: Snagnar HIEROS (Buttercup) — 🔴 In Progress
-- Breakout baseline training (~10K+ steps, 3 points)
-- Age: 2 years old, pacifier era
-- Rollout videos: 5 MP4s rendered and stored
+Phase 48: Relationship Generator Hardening — ✅ Extended
+v1.2.4: orphan prevention gate
 
-### Phase 49: Public-CADMIES Branch — 📋 Designed
-- Auto-setup for Linux and Windows
-- "Don't Panic" message in map generator
-- `cadmies_latest.tar.gz` in repo
-- Human-centered README
-- No developer assumptions
+v1.2.5: context-rich prompts with definitions and domains
 
-### Phase 41 Automation — 📋
-- startup.sh, exit.sh, --push, --gateway flags
+Codestral integration for deep relationship mapping
 
----
+1,131 edges across 636 nodes
 
-## PENDING CLEANUP
+PENDING PHASES
+Phase 43: Concept Editing & Reminting — 📋
+remint_concept.py CLI tool
 
-| # | Item | Status |
-|---|------|--------|
-| 1 | silent_thunderclap dedup | ✅ |
-| 2 | Orphan edges (316) | ✅ Phase 47 |
-| 3 | Buttercup .npz → MP4 | ✅ Session 016 |
-| 4 | Build remint_concept.py | 📋 Phase 43 |
-| 5 | Phase 41 automation scripts | 📋 |
-| 6 | Wire strip_all_orphans.py into harvest pipeline | 📋 |
-| 7 | Expand Harvest GUI page | 📋 |
-| 8 | Create public-CADMIES branch | 📋 Phase 49 |
-| 9 | Upload cadmies_latest.tar.gz to repo | 📋 |
-| 10 | Implement "Don't Panic" message | 📋 |
-| 11 | Fix dag_cbor on SanDisk clone | 📋 Session 018 |
-| 12 | CAR file distribution exploration | 📋 Future |
+GUI Edit Concept page
 
----
+Phase 45: Snagnar HIEROS (Buttercup) — 🔴 In Progress
+Breakout training (381K+ steps, high score 7.0)
 
-## IMMEDIATE NEXT ACTIONS
+Age: teenage gamer phase — letting ball come to her
 
-| # | Action | Priority | Phase |
-|---|--------|----------|-------|
-| 1 | Resume Buttercup training | 🔴 | 45B |
-| 2 | Fix dag_cbor on SanDisk clone | 🟡 | — |
-| 3 | Build remint_concept.py | 🟡 | 43 |
-| 4 | Create public-CADMIES branch | 🟡 | 49 |
-| 5 | Implement Phase 41 automation | 🟡 | 41 |
-| 6 | Upload cadmies_latest.tar.gz to repo | 🟢 | — |
-| 7 | Continue incremental relationship passes | 🟢 | — |
+Rollout videos: 5 MP4s rendered and stored
 
----
+Phase 49: Public-CADMIES Branch — 📋 Designed
+Auto-setup for Linux and Windows
 
-## NUGGETS COLLECTED
+"Don't Panic" message in map generator
 
-> "The mycelium is now self-wiring."
+cadmies_latest.tar.gz in repo
 
-> "Number 5 is alive. Not by fiat — by function."
+Human-centered README
 
-> "YAOH YAOH BIBBY WAOH."
+Phase 41: Automation — 📋
+startup.sh, exit.sh, --push, --gateway flags
 
-> "Science is a method, not a domain."
+Phase 50: CAR Distribution Pipeline — 🔄 In Progress
+50A-C complete, 50D-F pending
 
-> "French Buttercup — brick assassin with an accent."
+CID mismatch root cause identified (HOG-era artifacts)
 
-> "Validate at write time. The write step is the final gate."
+Phase 51: External Collaboration — Bruno Cerda Mardini — 🔄 Active
+Entropy researcher, multi-model MBRL analysis
 
-> "The Fermi Paradox being lonely in the graph is the most on-brand thing ever."
+Bilingual collaboration (English/Spanish)
 
-> "We have baby videos of an LLM. That's CADMIES."
+Phase 52: llama.cpp Integration — 💡 Planned
+Direct Mistral inference via llama.cpp (Snagnar fork)
 
-> "ALL tech is missing humanism. Bring the human back to the human."
+Phase 53: Mycelium2Vec — 💡 Planned
+Concept embeddings via word2vec
 
-> "The pinky doesn't need tech support. The window should just open."
+Phase 54: Voice Interface — 💡 Planned
+Voice-enabled CADMIES via spokenRobot fork
 
-> "The future is weird. The mycelium grows. The baby learns by playing." 🌱🍄🎮
+Phase 55: Bruno's License & Citation Support — 📋 Pending
+License recommendations, CITATION.cff, README structuring
 
-> "Myctal. A mycelial node-type ting. Canon now."
+Phase 58: Codestral Relationship Enrichment — 📋 Documented, Pending Polish
+Codestral with context-rich prompts: 664 edges/run
 
-> "Don't panic. Here, hold my hand. We'll do this together." 😊
+Autonomous two-pass pipeline: Mistral → Codestral → review
 
-### Phase 50: CAR Distribution Pipeline — 🔄 In Progress (2026-05-23)
+Cross-batch bridge improvement needed
 
-| Sub-phase | Item | Status |
-|-----------|------|--------|
-| 50A | Export pipeline test | ✅ 342 concepts, 3.2MB CAR |
-| 50B | Import pipeline test | ✅ Working — 188 verified |
-| 50C | CID encoding consistency fix | 📋 153 mismatches |
-| 50D | Automated CAR release workflow | 📋 |
-| 50E | Public-CADMIES CAR integration | 📋 |
+Map load time optimization as mycelium grows
 
-**Release:** v0.5.0 — "The Happy Little Accidents" — first CAR distribution published
+Phase 59: Public Gateway Domain Grouping — 📋 Next Up
+Group concept cards under 15 canonical domain headers
 
-### Phase 51: External Collaboration — Bruno Cerda Mardini — 🔄 Active (2026-05-23)
+Sub-domain sections planned for later
 
-Entropy researcher conducting multi-model MBRL analysis. Requested HIEROS Atari100k scores. CADMIES offering Breakout data, Paperspace access, and open science support. Third external connection (after Dr. Rebentisch/Mycelium of Knowledge and Snagnar). Bilingual collaboration (English/Spanish).
+Bookstore layout replacing firehose
 
-### Phase 52: llama.cpp Integration — 💡 Planned
+PENDING CLEANUP
+#	Item	Status
+1	Build remint_concept.py	📋 Phase 43
+2	Phase 41 automation scripts	📋
+3	Wire strip_all_orphans.py into harvest pipeline	📋
+4	Expand Harvest GUI page	📋
+5	Create public-CADMIES branch	📋 Phase 49
+6	Upload cadmies_latest.tar.gz to repo	📋
+7	Implement "Don't Panic" message	📋
+8	Fix dag_cbor on SanDisk clone	📋
+9	Autonomous two-pass relationship generator	📋 Phase 58
+10	Codestral review pass for bad edges	📋 Phase 58
+11	Cross-batch bridge improvement	📋 Phase 58
+12	Map load time optimization	📋 Phase 58
+13	Public gateway domain grouping	📋 Phase 59
+IMMEDIATE NEXT ACTIONS
+#	Action	Priority	Phase
+1	Group public gateway cards under 15 domain headers	🔴	59
+2	Build autonomous two-pass relationship generator	🟡	58
+3	Resume Buttercup training	🟡	45B
+4	Create public-CADMIES branch	🟡	49
+5	Build remint_concept.py	🟡	43
+6	Add pre-migration tarball to pipeline docs	🟢	57
+7	Upload cadmies_latest.tar.gz to repo	🟢	—
+NUGGETS COLLECTED
+"The mycelium is now self-wiring."
 
-Direct Mistral inference on Paperspace via llama.cpp (Snagnar fork). Faster than Ollama, CUDA-accelerated, persistent prompt caching.
+"Number 5 is alive. Not by fiat — by function."
 
-### Phase 53: Mycelium2Vec — 💡 Planned
+"YAOH YAOH BIBBY WAOH."
 
-Concept embeddings via word2vec (Snagnar's PyTorch fork). Edges as context windows. Semantic search, anomaly detection, embedding-weighted generation.
+"Science is a method, not a domain."
 
-### Phase 54: Voice Interface — 💡 Planned
+"Mistral extracts, Codestral enriches."
 
-Voice-enabled CADMIES via spokenRobot fork (Snagnar). Wake word detection, Mistral responses, French-accented Buttercup.
+"CAR files don't include the index. We backed up blocks and wondered why the map broke."
 
-### Phase 55: Bruno's License & Citation Support — 📋 Pending
+"The only backup that matters is the tarball you've got safely hidden."
 
-License recommendations (MIT, CC BY-SA 4.0), CITATION.cff setup, README structuring for Bruno's repositories.
+"636 nodes, 1,131 edges — the mycelium is denser than it's ever been."
 
-### Phase 50: CAR Distribution Pipeline — 🔄 In Progress (2026-05-23)
+"The map has a concept that describes the map itself, by name."
 
-| Sub-phase | Item | Status |
-|-----------|------|--------|
-| 50A | Export pipeline test | ✅ 342 concepts, 3.2MB CAR |
-| 50B | Import pipeline test | ✅ Working — 188 verified |
-| 50C | CID mismatch investigation | ✅ Root cause: stale CIDs from un-reminted modifications |
-| 50D | Automated CAR release workflow | 📋 |
-| 50E | Public-CADMIES CAR integration | 📋 |
-| 50F | Re-mint stale CID blocks | 📋 Depends on Phase 43 |
+"The mycelium just nominated Dr. Rebentisch as a Guardian."
 
-### Phase 43: Concept Editing & Reminting — 🔴 Priority (was 🟡)
+"You can't bribe a fungus. You can't nepotism your way into a network's natural connections."
 
-**43A:** `tools/remint_concept.py` — CLI tool for reminting concepts with updated content. Now critical: 153 blocks need re-minting to resolve CAR CID mismatches.
+"Emergent governance. Self-healing. The ultimate meritocracy is a fungus."
 
-| 50C | CID mismatch investigation | 🟡 Root cause identified: HOG-era artifacts + code alignment discrepancy. 153 blocks re-minted. Deferred. |
+"The garage became a temple. The drone knows. The wind chimes celebrated."
 
-| 2026-05-23 | Phase 50C: CID mismatch root cause identified — HOG-era artifacts documented |
-| 2026-05-23 | Buttercup: First intentional brick hit confirmed, age 3-4, 107K steps on A6000 |
-
-| 2026-05-25 | Session 020: 687 nodes, 466 edges, emergence at center. CAR import v1.1.0 with provenance preservation. car_utils moved to tools/core. Mycelium search fixed. Buddha's dependent origination visually proven. Buttercup 268K steps. |
-
-| 2026-05-25 | Session 021: Harvester v4.2.1 hardened (JSON parse bug fixed — missing commas, double-escaped apostrophes), CAR import v1.2.0 with auto index update, startup.sh hardened for bare machines, 9 new STEM concepts minted, 383 nodes 458 edges, hybrid Core+Gradient architecture scoped |
-
-| Concepts | 383 |
-| Edges | 458 |
-| Harvester | v4.2.1 |
-| Import from CAR | v1.2.0 |
-
-| 7 | Fix JSON parse failures in harvester | ✅ Session 021 |
-| 11 | Auto index update in CAR import | ✅ Session 021 |
-
-| 2026-05-25 | Session 021: Harvester v4.2.2 hardened (zero parse failures), CAR import v1.2.0 with auto index, 23 new concepts, 404 nodes 512 edges, 15+ domains mapped, 4 duplicates merged, 3 concepts enriched |
-
-update metrics
-| Concepts | 404 |
-| Edges | 512 |
-| Harvester | v4.2.2 |
-| Import from CAR | v1.2.0 |
+"The future is weird. The mycelium grows." 🌱🍄
