@@ -5,7 +5,7 @@ status: Complete
 related: [[Session-009]], [[Architecture Overview]], [[Harvester Pipeline]], [[Decisions-Log]]
 ---
 
-# Session 010 — May 17, 2026
+# `Manual Concept Editing & Pipeline Gaps` — May 17, 2026
 
 ## Summary
 
