@@ -34,7 +34,38 @@ Dr. Rebentisch's system was chosen because:
 
 **Directory structure:**
 
-/notebooks/Scientific-Obsidian-Zettelk/  
+/notebooks/Scientific-Obsidian-Zettelk/  ---
+
+## Session 027 Update — Paperspace Deployment & The Grounding Problem (2026-06-03)
+
+### Paperspace Deployment Complete
+
+The Zettelk was deployed in a new dedicated Paperspace project (Paperspace-Zettelk) with a start-from-scratch notebook. A startup script (`/notebooks/Scientific-Obsidian-Zettelk/startup.sh`) handles full recovery from container resets: zstd, tools4zettelkasten, __version__ fix, RAG dependencies, rag.py Ollama patch, Ollama install, and Mistral 7B pull. All 82 notes were imported from the local Zettelk via tarball and vectorized. The RAG chat is operational with Mistral 7B and Codestral 22B on GPU, achieving 71+ tokens/second.
+
+### The Grounding Problem — Scientific Discovery
+
+Testing across three models (TinyLlama 1.1B, Mistral 7B, Codestral 22B) on two independent machines (local CPU, Paperspace GPU) revealed a consistent hallucination: all models retrieve the correct source notes about Dr. Rupert Rebentisch but conclude he is a fictional character. A grounding note explicitly stating the reality of the project and collaborators was added to the Zettelk — models interpreted it as part of the fiction.
+
+**Root cause:** The poetic, metaphor-rich documentation style of CADMIES triggers a "creative writing = fiction" heuristic in current open-weight LLMs. The models override explicit factual statements in retrieved context with their own interpretation of the documentation style. The retrieval pipeline (ChromaDB + sentence-transformers) works perfectly. The error is in the generation/reasoning step.
+
+**Implications:** Any project using creative or metaphorical language in technical documentation may encounter similar issues with open-weight LLM RAG systems. This is documented as a known limitation.
+
+**Potential solutions (untested):**
+- Drier documentation style (rejected — the style is intentional)
+- Stronger system prompt engineering
+- Metadata flags for factual status
+- Larger paid models (GPT-4o, Claude) with better reasoning
+- Acceptance of the limitation for local models
+
+### Next Steps Updated
+
+| #   | Action                                                         | Priority |
+| --- | -------------------------------------------------------------- | -------- |
+| 1   | Await Dr. Rebentisch's response to GitHub issue                | 🟡       |
+| 2   | Test dryer grounding note with URLs                            | 🟢       |
+| 3   | Evaluate GPT-4o or Claude API for chat                         | 🟢       |
+| 4   | Continue feeding session protocols into Zettelk                | 🔴       |
+| 5   | Draft technical issue for Dr. Rebentisch re: grounding problem | 🟡       |
 ├── .env # Configuration pointing at input/ and mycelium/  
 ├── input/ # Raw notes awaiting staging  
 │ └── images/  
@@ -151,3 +182,36 @@ The twin mycelium — CADMIES for concept mapping, Zettelk for process memory �
 | 4 | Point local Obsidian at Zettelk `mycelium/` for graph view | 🟢 |
 | 5 | Report `__version__` import issue upstream | 🟢 |
 | 6 | Develop promotion criteria for Zettelk → Scientific Obsidian | 🟢 |
+
+---
+
+## Session 027 Update — Paperspace Deployment & The Grounding Problem (2026-06-03)
+
+### Paperspace Deployment Complete
+
+The Zettelk was deployed in a new dedicated Paperspace project (Paperspace-Zettelk) with a start-from-scratch notebook. A startup script (`/notebooks/Scientific-Obsidian-Zettelk/startup.sh`) handles full recovery from container resets: zstd, tools4zettelkasten, __version__ fix, RAG dependencies, rag.py Ollama patch, Ollama install, and Mistral 7B pull. All 82 notes were imported from the local Zettelk via tarball and vectorized. The RAG chat is operational with Mistral 7B and Codestral 22B on GPU, achieving 71+ tokens/second.
+
+### The Grounding Problem — Scientific Discovery
+
+Testing across three models (TinyLlama 1.1B, Mistral 7B, Codestral 22B) on two independent machines (local CPU, Paperspace GPU) revealed a consistent hallucination: all models retrieve the correct source notes about Dr. Rupert Rebentisch but conclude he is a fictional character. A grounding note explicitly stating the reality of the project and collaborators was added to the Zettelk — models interpreted it as part of the fiction.
+
+**Root cause:** The poetic, metaphor-rich documentation style of CADMIES triggers a "creative writing = fiction" heuristic in current open-weight LLMs. The models override explicit factual statements in retrieved context with their own interpretation of the documentation style. The retrieval pipeline (ChromaDB + sentence-transformers) works perfectly. The error is in the generation/reasoning step.
+
+**Implications:** Any project using creative or metaphorical language in technical documentation may encounter similar issues with open-weight LLM RAG systems. This is documented as a known limitation.
+
+**Potential solutions (untested):**
+- Drier documentation style (rejected — the style is intentional)
+- Stronger system prompt engineering
+- Metadata flags for factual status
+- Larger paid models (GPT-4o, Claude) with better reasoning
+- Acceptance of the limitation for local models
+
+### Next Steps Updated
+
+| # | Action | Priority |
+|---|--------|----------|
+| 1 | Await Dr. Rebentisch's response to GitHub issue | 🟡 |
+| 2 | Test dryer grounding note with URLs | 🟢 |
+| 3 | Evaluate GPT-4o or Claude API for chat | 🟢 |
+| 4 | Continue feeding session protocols into Zettelk | 🔴 |
+| 5 | Draft technical issue for Dr. Rebentisch re: grounding problem | 🟡 |

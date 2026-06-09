@@ -6,27 +6,20 @@
 bash /notebooks/HIEROS/startup.sh
 ```
 
-## Step 3: Pull required models
+## Step: 3 Launch Training
 
+Resume from checkpoint for **Pong**:
 ```
-ollama pull mistral:7b
-```
-```
-ollama pull tinyllama:latest
-```
-```
-ollama pull codestral:22b
+cd /notebooks/HIEROS && python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_size additional_inputs --max_hierarchy 2 --subgoal_visualization True --dynamics_model s5 --task atari_pong --tensorboard_logging True --wandb_logging False --batch_size 8 --batch_length 32 --save_every 500 --from_checkpoint /notebooks/HIEROS/logs/atari_pong-20260608-030315/checkpoint.ckpt
 ```
 
-## Step 4: Chat directly with a model (optional)
+Resume from checkpoint for **Breakout**:
 
 ```
-ollama run mistral:7b
+cd /notebooks/HIEROS && python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_size additional_inputs --max_hierarchy 2 --subgoal_visualization True --dynamics_model s5 --task atari_breakout --tensorboard_logging True --wandb_logging False --batch_size 8 --batch_length 32 --save_every 500 --from_checkpoint /notebooks/HIEROS/logs/atari_breakout-20260605-011153/checkpoint.ckpt
 ```
 
-## Launch Training
-
-From scratch:
+From **scratch**:
 
 ```
 cd /notebooks/HIEROS && python hieros/train.py \
@@ -40,24 +33,6 @@ cd /notebooks/HIEROS && python hieros/train.py \
   --batch_size 8 \
   --batch_length 32 \
   --save_every 500
-```
-
-Resume from checkpoint:
-
-```
-cd /notebooks/HIEROS  
-python hieros/train.py  
---configs atari100k s5_no_mlp s5_silu_act small_model_size additional_inputs  
---max_hierarchy 2  
---subgoal_visualization True  
---dynamics_model s5  
---task atari_breakout  
---tensorboard_logging True  
---wandb_logging False  
---batch_size 16  
---batch_length 64  
---save_every 500  
---from_checkpoint /notebooks/HIEROS/logs/atari_breakout-20260531-031943/checkpoint.ckpt
 ```
 
 ## Batch Size Settings by GPU

@@ -87,3 +87,21 @@ HIEROS World Model → Latent States → Mapping Network → Mistral Fine-tuning
          └─────────── Philosophical queries ←──────────────────────┘
 
 Mistral asks "what does empty mean?" → Query goes to world model → World model simulates cup emptying → Latent state captured → Mistral receives grounded understanding.
+
+---
+
+## Reality Update — 2026-06-05
+
+### What Actually Happened vs The Plan
+
+**45A (Environment Setup):** Completed across three deployments — A4000 original, A6000 isolated redeploy, A4000 return. Significantly harder than estimated. Required custom atari.py wrapper, --no-deps dependency strategy, and dedicated project isolation. Documented in Phase 45A/B/C.
+
+**45B (Baseline Training):** 97,000+ steps completed across multiple sessions. However, a critical bug was discovered at step 97,508: the ball never spawns in our patched Breakout environment. The agent learned to predict an empty screen and hold the paddle still. Zero meaningful gameplay occurred. Training is scientifically valid as an environment test but produced no gameplay learning. Bug documented in Phase 45D.
+
+**45C-E:** Not yet attempted. Blocked by ball spawning bug. Original vision remains the target once environment is fixed.
+
+### Lessons
+- The 1-hour environment setup estimate was optimistic by approximately 20 hours
+- Custom environment wrappers introduce subtle bugs invisible to metrics
+- Rollout videos are essential — metrics alone showed a "healthy" agent that was actually playing an empty game
+- The plan was sound. The implementation was fragile. The vision survives.
