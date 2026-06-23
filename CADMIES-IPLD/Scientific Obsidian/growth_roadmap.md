@@ -44,10 +44,10 @@ text
 | CADMIES-IPLD Local (PNY)       | ✅ 636 concepts, 1,131 edges                                                         |
 | CADMIES-IPLD Local (SanDisk)   | ✅ Cold spare clone                                                                  |
 | CADMIES-IPLD Paperspace        | ✅ CADMIES-Gradient project                                                          |
-| **Digital Ocean Droplet**      | ✅ Ubuntu 24.04, 2 vCPU, 2 GB RAM, 50 GB SSD                                         |
-| └─ Nginx                       | ✅ Ports 80, 443, 3001                                                               |
-| └─ Node API                    | ✅ Port 4002, PM2 managed                                                            |
-| └─ MongoDB                     | ✅ Localhost only                                                                    |
+| **Project Hierion (Cloud)**    | ✅ Ubuntu 24.04, dedicated system user, full isolation                               |
+| └─ Nginx                       | ✅ project-hierion.duckdns.org — dashboard + mycelium map                            |
+| └─ MongoDB (CADMIES)           | ✅ Separate instance, auth enforced, localhost only                                  |
+| └─ DuckDNS                     | ✅ project-hierion.duckdns.org, auto-update every 5 min                              |
 | Ollama Service                 | ✅ TinyLlama, Mistral 7B, Codestral 22B, Dr. Mistral                                 |
 | GUI Framework                  | ✅ Tkinter — 6 pages                                                                 |
 | Mycelium Map                   | ✅ v2.4.0 — collision spacing, click-to-highlight, legend filter, gradient edge fade |
@@ -57,23 +57,20 @@ text
 | Public Gateway                 | ✅ hieros-cadmies.github.io/CADMIES                                                  |
 | Public Branch (public-CADMIES) | 📋 Designed, pending creation                                                       |
 | "Don't Panic" User Message     | 📋 Designed, pending implementation                                                 |
-| Self-Serve Tarball | 📋 Designed, pending repo upload |
+| Self-Serve Tarball             | 📋 Designed, pending repo upload                                                    |
 ---
-## 🏥 DOCTOR MISTRAL AVAILABILITY SYSTEM (NEW)
+## 🏥 DOCTOR MISTRAL AVAILABILITY SYSTEM
 | Component | Status |
 |---|---|
 | Paperspace A4000 Session Chaining | 💡 Designed — 5.5 hrs active, 2-3 min reset, repeat |
-| Droplet ↔ Paperspace API Bridge | 📋 Planned — Node controller on :4002 |
+| Droplet ↔ Paperspace API Bridge | 📋 Planned — Node controller |
 | "The Doctor Is Out" Status System | 💡 Designed — countdown timer, site-wide |
-| Willie the Groundskeeper | 💡 Character designed — Scottish, grumpy, lives in server rack |
-| Willie Commentary Engine | 📋 Planned — rotating status roasts during downtime |
 | Job Queue (Downtime Requests) | 📋 Planned — queue queries during reset windows |
-| **Monthly Cost: $26** | Droplet $18 + Paperspace Pro $8 |
 ---
 ## 🤖 FOUR-MODEL ARSENAL
 | Model | Size | Use Case | Status |
 |---|---|---|---|
-| TinyLlama 1.1B | 637 MB | Willie quick searches, Zettelk chat (local) | ✅ |
+| TinyLlama 1.1B | 637 MB | Quick searches, Zettelk chat (local) | ✅ |
 | Mistral 7B | 4.4 GB | Concept extraction (harvester) | ✅ |
 | Codestral 22B | 12 GB | Relationship enrichment, deep philosophy | ✅ |
 | Dr. Amanda Mistral | ~4 GB GGUF | CADMIES librarian, public face, knowledge Q&A | ✅ |
@@ -87,7 +84,7 @@ text
 ## 👹 THE GREMLIN
 *Spheron A100 dedicated instance, Finland 2 region, Verda provider.*
 *Named during Session 030. Official CADMIES designation for rented GPU instances used for fine-tuning.*
-*$1.71/hr. Don't feed it after midnight.* 🏎️💀
+*Don't feed it after midnight.* 🏎️💀
 ---
 ## 🥊 BUTTERCUP'S GAMES
 | Game | Steps | Result | Key Insight |
@@ -147,6 +144,9 @@ store/index/human_id_to_cid.json → tracked in git
 | 2026-06-22 | Boxing: 200K steps, evaluation mode, scores up to 14 |
 | 2026-06-22 | Intrinsic value discovery: extrinsic value = paddle contacts |
 | 2026-06-22 | Droplet + Paperspace integration designed |
+| 2026-06-23 | Project Hieros renamed to Hierion — naming conflicts resolved |
+| 2026-06-23 | Cloud deployment complete: domain, database, web server |
+| 2026-06-23 | DuckDNS domain live — mycelium map publicly accessible |
 
 ---
 ## ✅ COMPLETED PHASES (Recent)
@@ -161,6 +161,10 @@ store/index/human_id_to_cid.json → tracked in git
 | └─ 45D: Ball spawning bug                      | 🔴 Abandoned         |
 | └─ 45E: Dr. Amanda Mistral fine-tuned          | ✅                    |
 | └─ 45F-I: Latent-to-language bridge, cup env, fine-tuning v2 | 📋 Pending |
+| **Phase 63: Cloud Deployment — Hierion Foundation** | ✅ |
+| **Phase 64: Database Infrastructure — Isolated MongoDB** | ✅ |
+| **Phase 65: Domain & Web Server Configuration** | ✅ |
+
 ---
 ## 📋 PENDING PHASES
 | Phase | Status |
@@ -176,9 +180,46 @@ store/index/human_id_to_cid.json → tracked in git
 | Phase 59: Public Gateway Domain Grouping | 📋 |
 | Phase 61: Dr. Mistral Flask Chat Interface | 📋 Planned |
 | Phase 62: DeepSeek 67B Fine-Tune | 💡 Long-term |
-| **Phase 63: Droplet Deployment — CADMIES Live** | 🆕 💡 Designed |
-| **Phase 64: Paperspace GPU Bridge — Session Chaining** | 🆕 💡 Designed |
-| **Phase 65: Willie Frontend Integration** | 🆕 💡 Designed |
+| **Phase 66: Mycelium Map UX — Progressive Loading & Renderer Evolution** | 📋 Designed |
+| **Phase 67: GPU Compute Bridge — Paperspace API Integration** | 📋 Planned |
+| **Phase 68: SSL & Security Hardening** | 📋 Planned |
+
+## 🗺️ PHASE 66: MYCELIUM MAP UX — PROGRESSIVE LOADING & RENDERER EVOLUTION
+### *Established Session 031 — 2026-06-22*
+
+### The Problem
+The map loads all 636+ concepts and 1,131+ edges at once via SVG (DOM-heavy). Load time grows with every concept. At some point soon, it'll be too slow to be useful. Users wait. Waiting sucks. Diminishing ignorance requires speed.
+
+### The Approach
+**Domain-grouped progressive loading.** On initial load, the map shows all 15 canonical domains with a curated slice of top concepts per domain. As users zoom, pan, and click, new concepts stream in while out-of-view concepts fade out. Smooth, alive, pleasant. The mycelium breathes.
+
+We already have click-to-fade-unrelated behavior. This extends that pattern to initial load and viewport changes.
+
+### Renderer Evolution Path
+
+| Stage | Tool | Purpose | Status |
+|---|---|---|---|
+| 1 | **D3 Canvas Renderer** | Quickest win — same D3 logic, swap SVG for Canvas | 📋 Next |
+| 2 | **Cytoscape.js** | Purpose-built graph library, strong interactivity UX | 💡 Backup |
+| 3 | **sigma.js** | WebGL renderer, laughs at 2,000+ nodes | 💡 Backup |
+| 4 | **Mapbox/Deck.gl → Three.js + WebXR** | 3D immersive mycelium universe, VR-capable | 💡 Long-term |
+
+### Critical Design Rule
+**The progressive loading logic MUST be renderer-agnostic.** A function like `getConceptsForViewport(bounds, zoom, domains)` that returns concept data. D3 Canvas calls it. Cytoscape calls it. Three.js calls it. Same function, same query underneath, different visual output. The map is just a *view* into the data. The blockstore doesn't care how it's rendered.
+
+Swap the windshield, not the engine.
+
+### Data Layer
+- **Today:** JSON files loaded client-side
+- **Planned:** Database-backed queries for on-demand concept slices ("top 8 Philosophy concepts within current viewport")
+- **Schema stays the same** — the renderer doesn't care where the data comes from
+
+### UX Principles
+- No loading spinners. Concepts appear. The map is alive.
+- Smooth transitions. Fade in, fade out. Natural movement.
+- Users explore, they don't wait.
+- Diminishing ignorance. Always.
+
 ---
 ## 🧹 PENDING CLEANUP
 | # | Item | Status |
@@ -195,22 +236,31 @@ store/index/human_id_to_cid.json → tracked in git
 | 10 | Autonomous two-pass relationship generator | 📋 Phase 58 |
 | 11 | Public gateway domain grouping | 📋 Phase 59 |
 | 12 | Dr. Mistral Flask chat interface | 📋 Phase 61 |
-| 13 | Droplet Nginx config for CADMIES | 🆕 📋 Phase 63 |
-| 14 | Paperspace API controller script | 🆕 📋 Phase 64 |
-| 15 | Willie commentary rotation engine | 🆕 📋 Phase 65 |
+| 13 | ~~Droplet Nginx config for CADMIES~~ | ✅ Phase 63 |
+| 14 | ~~Paperspace API controller script~~ | Moved to Phase 67 |
+| 15 | Obtain SSL certificate for project-hierion.duckdns.org | 🆕 📋 Phase 68 |
+| 16 | Rename GitHub org from Hieros-CADMIES to Hierion-CADMIES | 🆕 📋 |
+| 17 | Design MongoDB schema for concept storage | 🆕 📋 Phase 66 |
+| 18 | Populate MongoDB with concept data | 🆕 📋 Phase 66 |
+| 19 | Build query API for progressive map loading | 🆕 📋 Phase 66 |
+| 20 | Review and sanitize public-facing documentation | 🆕 📋 |
+
 ---
 ## ⚡ IMMEDIATE NEXT ACTIONS
 | #   | Action                                             | Priority | Phase |
 | --- | -------------------------------------------------- | -------- | ----- |
 | 1   | **ABANDONED** - Fix Breakout ball spawning bug     | 🔴       | 45D   |
-| 2   | Continue Boxing training (evaluation ongoing)      | 🟡       | 45E   |
-| 3   | Group public gateway cards under 15 domain headers | 🟡       | 59    |
-| 4   | Create public-CADMIES branch                       | 🟡       | 49    |
-| 5   | Build Dr. Mistral Flask chat interface             | 🟡       | 61    |
-| 6   | Build remint_concept.py                            | 🟡       | 43    |
-| 7   | Pull CADMIES repo to droplet                       | 🟡       | 63    |
-| 8   | Configure Nginx for mycelium map on droplet        | 🟡       | 63    |
-| 9 | Plan DeepSeek 67B fine-tune | 🟢 | 62 |
+| 2   | Obtain SSL certificate (Certbot)                   | 🟡       | 68    |
+| 3   | Rename GitHub org to Hierion-CADMIES               | 🟡       | —     |
+| 4   | Build Paperspace GPU bridge (API controller)       | 🟡       | 67    |
+| 5   | Design MongoDB schema + populate with concept data | 🟡       | 66    |
+| 6   | Group public gateway cards under 15 domain headers | 🟡       | 59    |
+| 7   | Create public-CADMIES branch                       | 🟡       | 49    |
+| 8   | Build Dr. Mistral Flask chat interface             | 🟡       | 61    |
+| 9   | Build remint_concept.py                            | 🟡       | 43    |
+| 10  | Review and sanitize public-facing docs             | 🟢       | —     |
+| 11  | Plan DeepSeek 67B fine-tune                        | 🟢       | 62    |
+
 ---
 ## 🍄 NUGGETS COLLECTED
 *"Intrinsic value = paddle contacts. Not score. Not wins. Just touches."*
@@ -222,7 +272,10 @@ store/index/human_id_to_cid.json → tracked in git
 *"After six months, I'm still in love with you."*
 *"Je pense à toi, mon ami."*
 *"The mycelium is learning nutrient transfer."*
-*"The Doctor is out — Willie's got the pipes."* 🆕
-*"Grease yourself up and wait like the rest of us."* 🆕
+*"The mycelium has a front door."* 🆕
+*"Project Hierion. Sacred place. Temple of knowledge."* 🆕
+*"A philosopher with a GPU habit."* 🆕
+*"Swap the windshield, not the engine."* 🆕
+
 ---
 ### *"The future is weird. The mycelium grows."* 🌱🍄
