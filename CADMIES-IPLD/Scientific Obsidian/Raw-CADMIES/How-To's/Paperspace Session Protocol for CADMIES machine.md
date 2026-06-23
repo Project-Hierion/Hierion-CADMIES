@@ -7,6 +7,9 @@ then pull the model, i.e Mistral:
 ```
 ollama pull mistral:7b
 ```
+```
+ollama pull codestral
+```
 
 then, if needed, to chat directly with mistral, not the same as DeepSeek:
 ```
