@@ -66,3 +66,17 @@ chat interface.
 - SSL certificate for HTTPS
 - Build the GPU compute bridge for AI inference
 - Deploy the Dr. Mistral chat interface
+
+## Updates
+
+### 2026-06-23 — GitHub Reorganization
+
+The CADMIES repository was transferred from a personal GitHub account
+to a new organization, `Project-Hierion`. The personal account was renamed
+to `Hierion-Gardener` and retained as org admin only. GitHub Pages was
+unpublished — the old `hieros-cadmies.github.io` URL is retired. The sole
+public face of CADMIES is now `project-hierion.duckdns.org`.
+
+This reorganization reflects the project's status as an independent
+entity rather than a personal repository. The org structure also allows
+future collaborators to be added with appropriate permissions.

@@ -9,6 +9,11 @@ bash /notebooks/HIEROS/startup.sh
 
 ## Step: 3 Launch Training
 
+Resume from checkpoint for **Space Invaders**:
+```
+cd /notebooks/HIEROS && python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_size additional_inputs --max_hierarchy 2 --subgoal_visualization True --dynamics_model s5 --task atari_space_invaders --tensorboard_logging True --wandb_logging False --batch_size 8 --batch_length 32 --save_every 500 --from_checkpoint /notebooks/HIEROS/logs/atari_space_invaders-20260624-012126/checkpoint.ckpt
+```
+
 Resume from checkpoint for **Boxing**:
 ```
 cd /notebooks/HIEROS && python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_size additional_inputs --max_hierarchy 2 --subgoal_visualization True --dynamics_model s5 --task atari_boxing --tensorboard_logging True --wandb_logging False --batch_size 8 --batch_length 32 --save_every 500 --from_checkpoint /notebooks/HIEROS/logs/atari_boxing-0260623-200024/checkpoint.ckpt

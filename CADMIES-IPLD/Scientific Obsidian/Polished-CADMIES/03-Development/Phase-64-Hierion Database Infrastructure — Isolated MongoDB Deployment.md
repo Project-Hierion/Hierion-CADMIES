@@ -77,3 +77,15 @@ touched and experienced zero disruption.
 - Design MongoDB schema for concept storage and progressive loading
 - Populate database with concept data from the blockstore
 - Build the query API for the mycelium map
+
+## Updates
+
+### 2026-06-23 — Deployment Verified
+
+Database deployed on the cloud instance alongside the existing project's
+database with zero conflicts. Authentication enforced before any data
+was stored. The admin user and application user were created with
+least-privilege roles. Systemd service enabled — database restarts
+automatically on reboot. The existing project's database experienced
+no disruption and no crossover is possible at the OS, network, or
+application level.

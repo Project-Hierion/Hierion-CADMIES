@@ -69,3 +69,18 @@ designed and ready for implementation when the GPU compute bridge is built.
 - Obtain SSL certificate for HTTPS
 - Build the GPU compute bridge
 - Implement the Doctor Mistral status indicator on all pages
+
+## Updates
+
+### 2026-06-23 — Domain Live
+
+The domain `project-hierion.duckdns.org` is live and serving the CADMIES
+dashboard and mycelium map. The domain provider (DuckDNS) was selected
+for their commitment to privacy, community operation, and free access —
+values that align with the CADMIES project. An automatic IP update script
+runs every five minutes to maintain connectivity.
+
+The Doctor Mistral availability system was designed: chained GPU sessions
+(5.5 hours active, 2-3 minute reset) with a site-wide status indicator
+and countdown timer during resets. This turns a technical constraint into
+a transparent, user-friendly feature.
