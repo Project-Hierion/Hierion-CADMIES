@@ -1,56 +1,22 @@
 #!/usr/bin/env python3
-# ============================================================================
-# MODULE METADATA
-# ============================================================================
-__version__ = "1.0.0"
-__author__ = "Project Hieros - CADMIES-IPLD Research Group"
-__created__ = "2026-01-07"
-__status__ = "Public Release"
-__license__ = "AGPLv3 with Commons Clause"
-# ============================================================================
-
+#!/usr/bin/env python3
 """
-AGPLv3 with Commons Clause
-
-This software is free to use for:
-- Individual learning and research
-- Academic institutions
-- Non-profit organizations
-- Open source projects
-- Personal knowledge management
-
-This software may NOT be used for:
-- Commercial SaaS offerings without contributing back
-- Proprietary AI training without reciprocity
-- Commercial products that don't share improvements
-
-Commons Clause Condition:
-The license granted under the AGPLv3 is hereby limited to exclude the right
-to sell the Software, or products that include the Software, without the
-express permission of the copyright holders.
-
-For commercial licensing or permission, contact: hieroscadmies@proton.me
-
-Copyright (c) 2026 Project Hieros - CADMIES-IPLD Research Group
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published
-by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program. If not, see <https://www.gnu.org/licenses/>.
-
 File: cbor_reader.py
-Description: CBOR Reader for IPLD-based knowledge retrieval
+Tool: CADMIES CBOR Reader
 Version: 1.0.0
-System: CADMIES-IPLD Scientific Concept Tools
-Purpose: Diminishing human ignorance through accessible knowledge retrieval
+System: CADMIES / tools/core
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: Read and display knowledge concepts from the IPLD/DAG-CBOR blockstore.
+         Retrieve by CID or human_id. Content-addressed, verifiable, educational.
+
+Usage:
+    python tools/core/cbor_reader.py <cid_or_human_id>
+    python tools/core/cbor_reader.py --list
+    python tools/core/cbor_reader.py --list --verbose
+
+Dependencies: dag_cbor
 """
 
 import argparse
