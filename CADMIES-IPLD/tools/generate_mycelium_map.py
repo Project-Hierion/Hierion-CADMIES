@@ -4,34 +4,23 @@ File: generate_mycelium_map.py
 Tool: CADMIES Mycelium Map Generator
 Version: 3.0.0
 System: CADMIES-IPLD / tools
-Status: ACTIVE — Phase 66: Progressive loading, domain-ranked initial view, renderer-agnostic data
+Status: ACTIVE — Phase 66: Fractal succulent layout, pre-computed 3D positions, chunked loading
 
 Purpose: Dynamically generates mycelium_map.html and concepts_ranked.json from the live blockstore.
-         v3.0.0 introduces progressive loading: initial view shows top concepts per canonical domain
-         with cross-domain connectors prioritized. Remaining concepts lazy-load as users explore.
-         The ranked JSON file is renderer-agnostic — any future map renderer can consume it.
+         Concepts are positioned using a 3D fractal spiral (golden angle) grouped by domain.
+         High-scoring concepts sit at the tips (z=0), lower-scoring deeper in the structure.
+         Loading is chunked: top concepts first, deeper layers stream in progressively.
+         The ranked JSON file is renderer-agnostic with pre-computed x/y/z positions.
 
 Usage:
     python tools/generate_mycelium_map.py
 
 Output:
-    mycelium_map.html (project root) — progressive-loading interactive map
-    concepts_ranked.json (project root) — full ranked concept data for lazy loading
-
-Version History:
-  v3.0.0 (2026-06-24): Phase 66 — Progressive loading with domain-ranked initial view.
-      Concepts scored by edge count + cross-domain bonus. Top 5-8 per canonical domain
-      load initially (~100 nodes). Remaining concepts stream in on zoom/pan/click.
-      Separate concepts_ranked.json for renderer-agnostic data consumption.
-  v2.4.0 (2026-05-27): Map UX — node collision spacing, click-to-highlight, legend domain
-      filter with cross-domain ghosting, gradient edge fade.
-  v2.3.0: Canonical 15-domain legend, directional arrows, concept cards.
-  v2.2.0: Interactive legend, keyboard shortcuts, responsive design.
-  v2.1.0: Zoom buttons, concept search, hover tooltips.
-  v2.0.0: Initial D3/Cytoscape map generator.
+    mycelium_map.html (project root) — fractal succulent interactive map
+    concepts_ranked.json (project root) — full ranked concept data with 3D positions
 """
 
-import json, sys, webbrowser
+import json, sys, math, webbrowser
 from pathlib import Path
 from datetime import datetime, timezone
 from collections import Counter, defaultdict
@@ -49,11 +38,19 @@ from paths import BLOCKS_DIR
 OUTPUT_FILE = PROJECT_ROOT / "mycelium_map.html"
 RANKED_DATA_FILE = PROJECT_ROOT / "concepts_ranked.json"
 
-# How many concepts to load initially per domain (based on domain size)
-INITIAL_PER_DOMAIN_LARGE = 8    # Domains with 30+ concepts
-INITIAL_PER_DOMAIN_MEDIUM = 6   # Domains with 15-29 concepts
-INITIAL_PER_DOMAIN_SMALL = 4    # Domains with <15 concepts
-CROSS_DOMAIN_BONUS = 3          # Extra points per cross-domain edge
+# Fractal layout constants
+GOLDEN_ANGLE = 137.5  # degrees — nature's packing angle
+DOMAIN_RING_RADIUS = 1800  # base radius for domain ring
+SUBDOMAIN_RADIUS_STEP = 600  # how far subdomains extend from domain center
+CONCEPT_RADIUS_STEP = 300  # how far concepts extend from subdomain center
+Z_LAYER_DOMAIN = 0  # z for domain anchors (tips)
+Z_LAYER_CROSS = -30  # z for cross-domain connectors
+Z_LAYER_SUBDOMAIN = -60  # z for subdomains
+Z_LAYER_CONCEPT = -100  # z for deep concepts
+
+# How many concepts to load per chunk
+CHUNK_SIZE = 150
+INITIAL_CHUNKS = 1  # Load first 150 immediately, rest deferred
 
 # === CANONICAL TOP-LEVEL DOMAINS (Phase 44) ===
 CANONICAL_DOMAINS = [
@@ -217,7 +214,6 @@ def normalize_domain(domain):
         return domain
     if domain in DOMAIN_UPWARD_MAP:
         return DOMAIN_UPWARD_MAP[domain]
-    print(f"  NOTE: Unmapped domain '{domain}' — using default color. Consider adding to DOMAIN_UPWARD_MAP.")
     return domain
 
 EDGE_COLORS = {
@@ -236,16 +232,62 @@ def load_legacy_edges():
     with open(LEGACY_EDGES_FILE, "r") as f:
         return json.load(f)
 
-def gather_concepts():
-    """Load all concepts from blockstore and return (nodes, edges, domain_counts, ranked_data).
+def compute_fractal_positions(concept_scores, canonical_domain_concepts):
+    """Pre-compute x/y/z positions for every concept using golden-angle fractal spiral.
     
-    The ranked_data dict is renderer-agnostic — any future map renderer can consume it.
-    It contains every concept with its score, domain, edges, and whether it's in the initial load set.
+    Domains form a ring. Within each domain, concepts spiral outward from the domain center.
+    Score determines z-position: high score = closer to viewer (higher z).
+    Cross-domain connectors float between layers.
     """
+    positions = {}
+    num_domains = len([d for d in CANONICAL_DOMAINS if d in canonical_domain_concepts])
+    
+    # Position domain anchors in a ring
+    for i, domain in enumerate(CANONICAL_DOMAINS):
+        if domain not in canonical_domain_concepts:
+            continue
+        angle = (i / num_domains) * 2 * math.pi
+        domain_x = math.cos(angle) * DOMAIN_RING_RADIUS
+        domain_y = math.sin(angle) * DOMAIN_RING_RADIUS
+        domain_z = Z_LAYER_DOMAIN
+        
+        # Get concepts in this domain, sorted by score
+        domain_concepts = canonical_domain_concepts[domain]
+        ranked = sorted(domain_concepts, key=lambda h: concept_scores[h]["score"], reverse=True)
+        
+        # Spiral concepts outward from domain center
+        for j, hid in enumerate(ranked):
+            cs = concept_scores[hid]
+            cross_domains = len(cs["connected_domains"])
+            
+            # Cross-domain connectors get special z-position
+            if cross_domains >= 3:
+                z = Z_LAYER_CROSS
+            elif cross_domains >= 1:
+                z = Z_LAYER_SUBDOMAIN
+            else:
+                z = Z_LAYER_CONCEPT
+            
+            # Golden-angle spiral from domain center
+            spiral_angle = j * GOLDEN_ANGLE * (math.pi / 180.0)
+            spiral_radius = math.sqrt(j + 1) * CONCEPT_RADIUS_STEP
+            
+            x = domain_x + math.cos(spiral_angle) * spiral_radius
+            y = domain_y + math.sin(spiral_angle) * spiral_radius
+            
+            # Adjust z based on score within the layer — higher score = closer to viewer
+            score_factor = min(cs["score"] / 50.0, 1.0)  # normalize
+            z = z + (10 * score_factor)  # small boost for high-scoring concepts
+            
+            positions[hid] = {"x": x, "y": y, "z": z}
+    
+    return positions
+
+def gather_concepts():
+    """Load all concepts and return ranked data with fractal positions."""
     all_cids = load_all_concept_cids()
     print(f"Loading {len(all_cids)} concepts from blockstore...")
     
-    # First pass: load all concepts into memory
     concepts = {}
     skipped = 0
     for cid in all_cids:
@@ -256,23 +298,18 @@ def gather_concepts():
         hid = concept.get('human_id', '')
         concepts[hid] = concept
     
-    # Build node list, edge list, and domain tracking
-    nodes, node_ids = [], set()
+    node_ids = set()
     domain_counts = Counter()
     canonical_domain_concepts = defaultdict(list)
     
-    # Build full edge list from blockstore relationships
     all_edges = []
     for hid, concept in concepts.items():
         rels = concept.get('relationships', {})
         for rel_type in ["builds_upon", "related_to", "specializes", "contradicts"]:
             for target in rels.get(rel_type, []):
                 if isinstance(target, str):
-                    all_edges.append({
-                        "source": hid, "target": target, "type": rel_type,
-                    })
+                    all_edges.append({"source": hid, "target": target, "type": rel_type})
     
-    # Merge with legacy edges
     legacy_edges = load_legacy_edges()
     merged = {}
     for e in all_edges:
@@ -281,14 +318,12 @@ def gather_concepts():
         merged[(e["source"], e["target"], e["type"])] = e
     all_edges = list(merged.values())
     
-    # Build edge lookup: for each concept, what does it connect to?
     outgoing_edges = defaultdict(list)
     incoming_edges = defaultdict(list)
     for e in all_edges:
         outgoing_edges[e["source"]].append(e)
         incoming_edges[e["target"]].append(e)
     
-    # Compute edge counts and cross-domain status for every concept
     concept_scores = {}
     for hid, concept in concepts.items():
         raw_domain = concept.get('domain', 'Unknown')
@@ -298,7 +333,6 @@ def gather_concepts():
         in_edges = incoming_edges.get(hid, [])
         total_edges = len(out_edges) + len(in_edges)
         
-        # Count cross-domain edges
         cross_domain_count = 0
         connected_domains = set()
         for e in out_edges + in_edges:
@@ -309,8 +343,7 @@ def gather_concepts():
                     cross_domain_count += 1
                     connected_domains.add(other_domain)
         
-        # Score: edge count + cross-domain bonus
-        score = total_edges + (cross_domain_count * CROSS_DOMAIN_BONUS)
+        score = total_edges + (cross_domain_count * 3)
         
         concept_scores[hid] = {
             "human_id": hid,
@@ -327,33 +360,13 @@ def gather_concepts():
         canonical_domain_concepts[display_domain].append(hid)
         domain_counts[display_domain] += 1
     
-    # Determine initial load set: top N per canonical domain by score
-    initial_hids = set()
-    for domain in CANONICAL_DOMAINS:
-        domain_hids = canonical_domain_concepts.get(domain, [])
-        domain_size = len(domain_hids)
-        
-        if domain_size >= 30:
-            take = INITIAL_PER_DOMAIN_LARGE
-        elif domain_size >= 15:
-            take = INITIAL_PER_DOMAIN_MEDIUM
-        elif domain_size > 0:
-            take = INITIAL_PER_DOMAIN_SMALL
-        else:
-            continue
-        
-        # Sort by score descending, take top N
-        ranked = sorted(domain_hids, key=lambda h: concept_scores[h]["score"], reverse=True)
-        initial_hids.update(ranked[:take])
+    # Compute fractal positions
+    positions = compute_fractal_positions(concept_scores, canonical_domain_concepts)
     
-    # Ensure cross-domain connectors get priority — if a concept connects 3+ domains, always include it
-    for hid, score_data in concept_scores.items():
-        if len(score_data["connected_domains"]) >= 3:
-            initial_hids.add(hid)
-    
-    # Build node objects for ALL concepts (for the ranked JSON)
+    # Build node objects with positions, sorted by score descending for chunked loading
     all_nodes_data = []
     for hid, score_data in concept_scores.items():
+        pos = positions.get(hid, {"x": 0, "y": 0, "z": Z_LAYER_CONCEPT})
         all_nodes_data.append({
             "id": hid,
             "label": score_data["title"],
@@ -363,40 +376,43 @@ def gather_concepts():
             "score": score_data["score"],
             "edge_count": score_data["edge_count"],
             "cross_domain_edges": score_data["cross_domain_edges"],
-            "initial": hid in initial_hids,
+            "x": round(pos["x"], 1),
+            "y": round(pos["y"], 1),
+            "z": round(pos["z"], 1),
         })
         node_ids.add(hid)
     
-    # Filter edges: only edges where both ends exist as concepts
+    # Sort by score descending — highest scoring concepts load first
+    all_nodes_data.sort(key=lambda n: n["score"], reverse=True)
+    
     valid_edges = [e for e in all_edges if e["source"] in node_ids and e["target"] in node_ids]
     orphan = len(all_edges) - len(valid_edges)
     if orphan:
         print(f"  Filtered {orphan} orphan edge(s)")
     
     print(f"  {len(all_nodes_data)} nodes, {len(valid_edges)} edges, {skipped} skipped")
-    print(f"  Domains in data: {len(domain_counts)} (canonical with concepts: {len([d for d in CANONICAL_DOMAINS if d in domain_counts])})")
-    print(f"  Initial load: {len(initial_hids)} concepts (of {len(all_nodes_data)} total)")
+    print(f"  Domains in data: {len(domain_counts)}")
+    print(f"  Chunk size: {CHUNK_SIZE}, initial chunks: {INITIAL_CHUNKS}")
     
-    # Build ranked data for export (renderer-agnostic)
     ranked_data = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "total_concepts": len(all_nodes_data),
         "total_edges": len(valid_edges),
         "canonical_domains": CANONICAL_DOMAINS,
-        "initial_load_count": len(initial_hids),
+        "chunk_size": CHUNK_SIZE,
         "concepts": all_nodes_data,
         "edges": valid_edges,
     }
     
-    return all_nodes_data, valid_edges, domain_counts, ranked_data, initial_hids
+    return all_nodes_data, valid_edges, domain_counts, ranked_data
 
-def generate_html(nodes, edges, domain_counts, initial_hids):
-    """Generate the HTML map with progressive loading support."""
+def generate_html(nodes, edges, domain_counts):
+    """Generate the HTML map with fractal succulent layout and chunked loading."""
     
-    # Separate initial and lazy nodes
-    initial_nodes = [n for n in nodes if n["id"] in initial_hids]
+    # Initial chunk: top N concepts
+    initial_nodes = nodes[:CHUNK_SIZE * INITIAL_CHUNKS]
+    initial_ids = set(n["id"] for n in initial_nodes)
     
-    # Build inline JSON for initial load
     nodes_json = []
     for n in initial_nodes:
         escaped_id = n["id"].replace('"', '\\"')
@@ -404,13 +420,12 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
         escaped_def = n.get("definition", "").replace('"', '\\"')
         escaped_domain = n.get("domain", "").replace('"', '\\"')
         nodes_json.append(
-            '{{ data: {{ id: "{}", label: "{}", definition: "{}", domain: "{}", background_color: "{}" }} }}'.format(
-                escaped_id, escaped_label, escaped_def, escaped_domain, n["color"]
+            '{{ data: {{ id: "{}", label: "{}", definition: "{}", domain: "{}", background_color: "{}", x: {}, y: {}, z: {} }} }}'.format(
+                escaped_id, escaped_label, escaped_def, escaped_domain, n["color"], n["x"], n["y"], n["z"]
             )
         )
     
-    # Initial edges: only edges where both ends are in the initial set
-    initial_edges = [e for e in edges if e["source"] in initial_hids and e["target"] in initial_hids]
+    initial_edges = [e for e in edges if e["source"] in initial_ids and e["target"] in initial_ids]
     edges_json = []
     for e in initial_edges:
         escaped_source = e["source"].replace('"', '\\"')
@@ -421,7 +436,6 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
             )
         )
     
-    # Legend items
     legend_items = []
     for domain in CANONICAL_DOMAINS:
         if domain in domain_counts:
@@ -439,8 +453,8 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
         <div class="legend-item"><div class="line-sample" style="border-bottom:3px solid #EF4444"></div><span>→ contradicts</span></div>'''
     
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    info_text = 'CADMIES Mycelium Map | {} nodes ({} initial) | {} edges | {} | Click node for details | / to search | Esc to reset | Scroll to load more'.format(
-        len(nodes), len(initial_nodes), len(edges), timestamp
+    info_text = 'CADMIES Mycelium Map | {} concepts | {} edges | {} | Click for details | / to search | Esc to reset | Scroll to explore depth'.format(
+        len(nodes), len(edges), timestamp
     )
     
     html = '''<!DOCTYPE html>
@@ -450,19 +464,19 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
     <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #FFFFFF; overflow: hidden; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0a0a0f; overflow: hidden; }
         #cy { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
         #loading { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #0F172A; color: #FFFFFF; padding: 12px 24px; border-radius: 8px; font-size: 13px; z-index: 5000; display: none; font-family: monospace; }
         #info { position: absolute; bottom: 12px; left: 12px; background: #0F172A; color: #FFFFFF; padding: 8px 14px; border-radius: 8px; font-size: 11px; z-index: 100; pointer-events: none; font-family: monospace; }
         #searchBox { position: absolute; top: 20px; left: 20px; z-index: 1000; }
-        #searchInput { padding: 10px 14px; font-size: 13px; border: 1px solid #E2E8F0; border-radius: 8px; width: 220px; font-family: sans-serif; outline: none; }
+        #searchInput { padding: 10px 14px; font-size: 13px; border: 1px solid #334155; border-radius: 8px; width: 220px; font-family: sans-serif; outline: none; background: #0F172A; color: #FFFFFF; }
         #searchInput:focus { border-color: #4F46E5; box-shadow: 0 0 0 2px rgba(79,70,229,0.2); }
         .zoom-controls { position: absolute; bottom: 20px; right: 20px; display: flex; flex-direction: column; z-index: 1000; }
-        .zoom-btn { font-size: 20px; cursor: pointer; margin: 2px; padding: 8px 14px; border: 1px solid #E2E8F0; background: #0F172A; color: #FFFFFF; border-radius: 8px; font-family: monospace; transition: background 0.2s; }
+        .zoom-btn { font-size: 20px; cursor: pointer; margin: 2px; padding: 8px 14px; border: 1px solid #334155; background: #0F172A; color: #FFFFFF; border-radius: 8px; font-family: monospace; transition: background 0.2s; }
         .zoom-btn:hover { background: #1E1B4B; }
-        .legend-toggle { position: absolute; top: 20px; right: 20px; background: #0F172A; color: #FFFFFF; border-radius: 30px; padding: 10px 16px; font-family: monospace; font-size: 14px; cursor: pointer; z-index: 1000; border: 1px solid #E2E8F0; transition: all 0.2s ease; }
+        .legend-toggle { position: absolute; top: 20px; right: 20px; background: #0F172A; color: #FFFFFF; border-radius: 30px; padding: 10px 16px; font-family: monospace; font-size: 14px; cursor: pointer; z-index: 1000; border: 1px solid #334155; transition: all 0.2s ease; }
         .legend-toggle:hover { background: #1E1B4B; transform: scale(1.02); }
-        .legend-panel { position: absolute; top: 70px; right: 20px; background: #0F172A; color: #FFFFFF; border-radius: 12px; padding: 15px; font-family: monospace; font-size: 11px; border: 1px solid #E2E8F0; z-index: 999; min-width: 180px; transition: all 0.3s ease; opacity: 1; pointer-events: auto; }
+        .legend-panel { position: absolute; top: 70px; right: 20px; background: #0F172A; color: #FFFFFF; border-radius: 12px; padding: 15px; font-family: monospace; font-size: 11px; border: 1px solid #334155; z-index: 999; min-width: 180px; transition: all 0.3s ease; opacity: 1; pointer-events: auto; }
         .legend-panel.collapsed { opacity: 0; pointer-events: none; transform: translateX(20px); }
         .legend-panel h4 { margin: 0 0 10px 0; color: #FFFFFF; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
         .legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; }
@@ -481,7 +495,7 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
         .concept-card .card-relationships span { display: inline-block; margin-right: 8px; margin-bottom: 4px; }
         .concept-card .card-close { position: absolute; top: 8px; right: 12px; cursor: pointer; color: #64748B; font-size: 16px; }
         .concept-card .card-close:hover { color: #FFFFFF; }
-        .reset-btn { position: absolute; bottom: 55px; left: 20px; z-index: 1000; cursor: pointer; padding: 6px 12px; font-size: 11px; background: #0F172A; color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 6px; font-family: monospace; }
+        .reset-btn { position: absolute; bottom: 55px; left: 20px; z-index: 1000; cursor: pointer; padding: 6px 12px; font-size: 11px; background: #0F172A; color: #FFFFFF; border: 1px solid #334155; border-radius: 6px; font-family: monospace; }
         .reset-btn:hover { background: #1E1B4B; }
         .load-more-btn { position: absolute; bottom: 55px; left: 140px; z-index: 1000; cursor: pointer; padding: 6px 12px; font-size: 11px; background: #10B981; color: #FFFFFF; border: 1px solid #10B981; border-radius: 6px; font-family: monospace; }
         .load-more-btn:hover { background: #059669; }
@@ -489,7 +503,7 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
 </head>
 <body>
     <div id="cy"></div>
-    <div id="loading">Loading concepts...</div>
+    <div id="loading">Growing the mycelium...</div>
     <div id="info">''' + info_text + '''</div>
     <div class="node-tooltip" id="nodeTooltip"></div>
     <div class="concept-card" id="conceptCard">
@@ -523,33 +537,35 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
         // === LAZY DATA STORE ===
         var allRankedConcepts = null;
         var loadedHids = new Set();
-        var batchSize = 30;
-        var currentBatchIndex = 0;
-        var rankedList = [];
+        var chunkSize = ''' + str(CHUNK_SIZE) + ''';
+        var currentChunk = ''' + str(INITIAL_CHUNKS) + ''';
+        var totalConcepts = ''' + str(len(nodes)) + ''';
         
-        // Track which HIDs are initially loaded
-        var initialNodeIds = new Set(elements.nodes.map(function(n) { return n.data.id; }));
-        initialNodeIds.forEach(function(id) { loadedHids.add(id); });
+        elements.nodes.forEach(function(n) { loadedHids.add(n.data.id); });
         
-        // === CYTOSCAPE INIT ===
+        // === CYTOSCAPE INIT WITH PRESET LAYOUT ===
         var cy = cytoscape({
             container: document.getElementById('cy'),
             elements: elements,
             style: [
                 { selector: 'node', style: {
-                    'label': 'data(label)', 'background-color': 'data(background_color)',
-                    'width': 60, 'height': 60, 'font-size': '11px',
+                    'label': 'data(label)',
+                    'background-color': 'data(background_color)',
+                    'width': 60, 'height': 60,
+                    'font-size': '11px',
                     'text-valign': 'center', 'text-halign': 'center',
                     'color': '#FFFFFF', 'text-wrap': 'wrap',
                     'text-max-width': '54px', 'text-overflow-wrap': 'anywhere',
-                    'border-width': 2, 'border-color': '#E2E8F0'
+                    'border-width': 2, 'border-color': '#E2E8F0',
+                    'opacity': 0.9
                 }},
                 { selector: 'edge', style: {
                     'width': 2, 'line-color': '#475569',
                     'curve-style': 'bezier', 'label': 'data(label)',
                     'font-size': '8px', 'text-rotation': 'autorotate',
-                    'color': '#475569', 'text-background-color': '#FFFFFF',
-                    'text-background-opacity': 0.8, 'text-background-padding': '2px'
+                    'color': '#475569', 'text-background-color': '#0a0a0f',
+                    'text-background-opacity': 0.8, 'text-background-padding': '2px',
+                    'opacity': 0.5
                 }},
                 { selector: 'edge[label = "builds_upon"]', style: { 'line-color': '#10B981', 'width': 2, 'target-arrow-color': '#10B981', 'target-arrow-shape': 'triangle' }},
                 { selector: 'edge[label = "related_to"]', style: { 'line-color': '#F59E0B', 'width': 2 }},
@@ -557,19 +573,42 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
                 { selector: 'edge[label = "contradicts"]', style: { 'line-color': '#EF4444', 'width': 3, 'target-arrow-color': '#EF4444', 'target-arrow-shape': 'triangle' }}
             ],
             layout: {
-                name: 'cose',
-                idealEdgeLength: 120,
-                nodeRepulsion: 6000,
-                gravity: 0.15,
-                numIter: 2000,
+                name: 'preset',
+                positions: undefined,
+                zoom: 0.4,
+                pan: { x: 0, y: 0 },
+                fit: true,
                 animate: true,
-                animationDuration: 1500,
-                nodeOverlap: 20,
-                nodeDimensionsIncludeLabels: false
-            }
+                animationDuration: 2000
+            },
+            zoom: 0.4,
+            minZoom: 0.05,
+            maxZoom: 3.0
         });
 
-        // === LOAD RANKED DATA FROM JSON ===
+        // Apply z-based opacity — closer concepts are brighter
+        function applyDepthOpacity() {
+            var zoom = cy.zoom();
+            cy.nodes().forEach(function(n) {
+                var z = n.data('z') || -50;
+                // Opacity based on z: higher z = closer to viewer = more opaque
+                var baseOpacity = 0.3 + (0.7 * ((z + 100) / 100)); // z=-100 -> 0.3, z=0 -> 1.0
+                baseOpacity = Math.max(0.15, Math.min(1.0, baseOpacity));
+                // Zoom effect: zooming in reveals deeper layers
+                if (zoom > 0.5) {
+                    var zoomReveal = Math.min(1.0, (zoom - 0.4) * 1.5);
+                    baseOpacity = Math.max(baseOpacity, zoomReveal * 0.5);
+                }
+                n.style('opacity', baseOpacity);
+            });
+        }
+
+        cy.ready(function() {
+            setTimeout(applyDepthOpacity, 2200); // After initial layout animation
+        });
+        cy.on('zoom', applyDepthOpacity);
+
+        // === LOAD RANKED DATA ===
         function fetchRankedData() {
             if (allRankedConcepts) return Promise.resolve(allRankedConcepts);
             document.getElementById('loading').style.display = 'block';
@@ -577,13 +616,7 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
                 .then(function(r) { return r.json(); })
                 .then(function(data) {
                     allRankedConcepts = data;
-                    // Build ranked list of not-yet-loaded concepts, sorted by score
-                    rankedList = data.concepts
-                        .filter(function(c) { return !loadedHids.has(c.id); })
-                        .sort(function(a, b) { return b.score - a.score; });
                     document.getElementById('loading').style.display = 'none';
-                    console.log('Ranked data loaded: ' + data.total_concepts + ' concepts, ' + data.total_edges + ' edges');
-                    console.log('Initial load: ' + loadedHids.size + ' concepts, ' + rankedList.length + ' remaining');
                     return data;
                 })
                 .catch(function(err) {
@@ -592,53 +625,47 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
                 });
         }
 
-        // === PROGRESSIVE LOADING ===
+        // === LOAD MORE CONCEPTS ===
         function loadMoreConcepts() {
             if (!allRankedConcepts) {
                 fetchRankedData().then(function() { loadMoreConcepts(); });
                 return;
             }
             
-            if (currentBatchIndex >= rankedList.length) {
+            var startIdx = currentChunk * chunkSize;
+            if (startIdx >= allRankedConcepts.concepts.length) {
                 document.getElementById('loadMoreBtn').textContent = 'All Loaded';
                 document.getElementById('loadMoreBtn').style.opacity = '0.5';
                 return;
             }
             
-            document.getElementById('loading').style.display = 'block';
+            var endIdx = Math.min(startIdx + chunkSize, allRankedConcepts.concepts.length);
+            var batch = allRankedConcepts.concepts.slice(startIdx, endIdx);
+            currentChunk++;
             
-            var batch = rankedList.slice(currentBatchIndex, currentBatchIndex + batchSize);
-            currentBatchIndex += batchSize;
-            
-            // Add new nodes
-            var newNodes = batch.map(function(c) {
-                return {
+            var newElements = [];
+            var newNodeIds = new Set();
+            batch.forEach(function(c) {
+                newNodeIds.add(c.id);
+                newElements.push({
                     group: 'nodes',
-                    data: {
-                        id: c.id,
-                        label: c.label,
-                        definition: c.definition,
-                        domain: c.domain,
-                        background_color: c.color
-                    }
-                };
+                    data: { id: c.id, label: c.label, definition: c.definition, domain: c.domain, background_color: c.color, x: c.x, y: c.y, z: c.z },
+                    position: { x: c.x, y: c.y }
+                });
             });
             
-            // Find edges for these new nodes from the ranked data
-            var newEdges = [];
+            // Add edges connecting new nodes
             if (allRankedConcepts.edges) {
-                var newNodeIds = new Set(batch.map(function(c) { return c.id; }));
                 allRankedConcepts.edges.forEach(function(e) {
-                    if (newNodeIds.has(e.source) || newNodeIds.has(e.target)) {
-                        // Only add if target node exists (initial or already loaded)
-                        if (loadedHids.has(e.source) || loadedHids.has(e.target) || newNodeIds.has(e.source) && newNodeIds.has(e.target)) {
-                            newEdges.push({
+                    if ((newNodeIds.has(e.source) || loadedHids.has(e.source)) && 
+                        (newNodeIds.has(e.target) || loadedHids.has(e.target))) {
+                        var edgeExists = cy.edges().some(function(ex) {
+                            return ex.data('source') === e.source && ex.data('target') === e.target && ex.data('label') === e.type;
+                        });
+                        if (!edgeExists) {
+                            newElements.push({
                                 group: 'edges',
-                                data: {
-                                    source: e.source,
-                                    target: e.target,
-                                    label: e.type
-                                }
+                                data: { source: e.source, target: e.target, label: e.type }
                             });
                         }
                     }
@@ -646,65 +673,22 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
             }
             
             batch.forEach(function(c) { loadedHids.add(c.id); });
+            cy.add(newElements);
             
-            cy.add(newNodes.concat(newEdges));
+            // Apply depth to new nodes
+            applyDepthOpacity();
             
-            // Run a quick layout to position new nodes
-            cy.layout({
-                name: 'cose',
-                idealEdgeLength: 120,
-                nodeRepulsion: 6000,
-                gravity: 0.15,
-                numIter: 500,
-                animate: true,
-                animationDuration: 800,
-                nodeOverlap: 20,
-                fit: false,
-                randomize: false
-            }).run();
-            
-            document.getElementById('loading').style.display = 'none';
-            
-            var remaining = rankedList.length - currentBatchIndex;
-            document.getElementById('loadMoreBtn').textContent = 'Load More (' + remaining + ' left)';
-            
-            if (remaining <= 0) {
+            var remaining = allRankedConcepts.concepts.length - (currentChunk * chunkSize);
+            if (remaining > 0) {
+                document.getElementById('loadMoreBtn').textContent = 'Load More (' + remaining + ' left)';
+            } else {
                 document.getElementById('loadMoreBtn').textContent = 'All Loaded';
                 document.getElementById('loadMoreBtn').style.opacity = '0.5';
             }
-            
-            // Update info bar
-            document.getElementById('info').textContent = 'CADMIES Mycelium Map | ' + allRankedConcepts.total_concepts + ' nodes | ' + loadedHids.size + ' loaded | ' + allRankedConcepts.total_edges + ' edges | / to search | Esc to reset | Scroll to load more';
         }
 
-        // Auto-load on zoom/pan (loads more when user explores)
-        var lastAutoLoad = 0;
-        cy.on('viewport', function() {
-            var now = Date.now();
-            if (now - lastAutoLoad > 3000 && currentBatchIndex < rankedList.length && allRankedConcepts) {
-                lastAutoLoad = now;
-                // Load a smaller batch on auto
-                var origBatch = batchSize;
-                batchSize = 10;
-                loadMoreConcepts();
-                batchSize = origBatch;
-            }
-        });
-
-        // Fetch ranked data in background after initial render
         cy.ready(function() {
-            setTimeout(fetchRankedData, 500);
-        });
-
-        // Auto-size on zoom
-        cy.on('zoom', function() {
-            var zoom = cy.zoom();
-            var base = Math.max(40, 60 / Math.sqrt(zoom));
-            cy.style().selector('node').style({
-                'width': base, 'height': base,
-                'font-size': Math.max(7, base * 0.18) + 'px',
-                'text-max-width': (base * 0.85) + 'px'
-            }).update();
+            setTimeout(fetchRankedData, 1000);
         });
 
         // Search
@@ -713,19 +697,20 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
             var q = this.value.toLowerCase();
             cy.nodes().forEach(function(n) {
                 n.style({
-                    'opacity': (q === '' || n.data('label').toLowerCase().includes(q)) ? 1 : 0.15,
-                    'border-width': (q !== '' && n.data('label').toLowerCase().includes(q)) ? 3 : 2
+                    'opacity': (q === '' || n.data('label').toLowerCase().includes(q)) ? (0.3 + (0.7 * ((n.data('z') + 100) / 100))) : 0.05,
+                    'border-width': (q !== '' && n.data('label').toLowerCase().includes(q)) ? 4 : 2,
+                    'border-color': (q !== '' && n.data('label').toLowerCase().includes(q)) ? '#ffd700' : '#E2E8F0'
                 });
             });
-            if (q === '') { cy.elements().style('opacity', 1); }
+            if (q === '') { applyDepthOpacity(); }
         });
 
-        // Click node -> highlight neighborhood + show card
+        // Click node -> highlight + card
         cy.on('tap', 'node', function(evt) {
             var node = evt.target;
             var card = document.getElementById('conceptCard');
             document.getElementById('cardTitle').textContent = node.data('label');
-            document.getElementById('cardDomain').textContent = node.data('domain').replace(/_/g, ' ');
+            document.getElementById('cardDomain').textContent = (node.data('domain') || '').replace(/_/g, ' ');
             document.getElementById('cardDefinition').textContent = node.data('definition') || 'No definition available.';
 
             var rels = [];
@@ -734,33 +719,22 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
                 var dir = edge.source().id() === node.id() ? '→' : '←';
                 rels.push('<span>' + dir + ' <b>' + edge.data('label') + '</b> ' + other.data('label') + '</span>');
             });
-            document.getElementById('cardRelationships').innerHTML = rels.length > 0
-                ? rels.join('') : '<span>No relationships yet.</span>';
+            document.getElementById('cardRelationships').innerHTML = rels.length > 0 ? rels.join('') : '<span>No relationships yet.</span>';
 
             card.style.display = 'block';
             card.style.left = Math.min(evt.originalEvent.clientX + 20, window.innerWidth - 360) + 'px';
             card.style.top = Math.min(evt.originalEvent.clientY - 30, window.innerHeight - 300) + 'px';
 
-            // Fade non-connected, highlight neighborhood
-            cy.elements().style('opacity', 0.1);
+            cy.elements().style('opacity', 0.08);
             node.style('opacity', 1);
             var connectedEdges = node.connectedEdges();
             var connectedNodes = connectedEdges.connectedNodes();
             connectedEdges.style('opacity', 0.8);
             connectedNodes.style('opacity', 1);
-
-            // Gradient fade on edges: closer to clicked node = brighter
-            connectedEdges.forEach(function(edge) {
-                var sourceDist = edge.source().id() === node.id() ? 0 : 1;
-                edge.style('opacity', sourceDist === 0 ? 0.9 : 0.5);
-            });
         });
 
-        // Click background -> reset
         cy.on('tap', function(evt) {
-            if (evt.target === cy) {
-                resetView();
-            }
+            if (evt.target === cy) { resetView(); }
         });
 
         document.getElementById('cardClose').addEventListener('click', function() {
@@ -768,7 +742,7 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
         });
 
         function resetView() {
-            cy.elements().style('opacity', 1);
+            applyDepthOpacity();
             document.getElementById('conceptCard').style.display = 'none';
             cy.fit();
             cy.center();
@@ -778,7 +752,7 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
         var tooltip = document.getElementById('nodeTooltip');
         cy.on('mouseover', 'node', function(evt) {
             var n = evt.target;
-            tooltip.innerHTML = '<strong>' + n.data('label') + '</strong><br><small>' + (n.data('definition') || '') + '</small>';
+            tooltip.innerHTML = '<strong>' + n.data('label') + '</strong><br><small>z:' + (n.data('z')||0) + '</small><br><small>' + (n.data('definition') || '') + '</small>';
             tooltip.style.display = 'block';
             tooltip.style.left = (evt.originalEvent.clientX + 15) + 'px';
             tooltip.style.top = (evt.originalEvent.clientY + 15) + 'px';
@@ -787,9 +761,7 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
             tooltip.style.left = (evt.originalEvent.clientX + 15) + 'px';
             tooltip.style.top = (evt.originalEvent.clientY + 15) + 'px';
         });
-        cy.on('mouseout', 'node', function() {
-            tooltip.style.display = 'none';
-        });
+        cy.on('mouseout', 'node', function() { tooltip.style.display = 'none'; });
 
         // Legend domain filter
         document.querySelectorAll('.legend-item .color-box').forEach(function(box) {
@@ -799,17 +771,13 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
                     if (n.data('domain') === domainText) {
                         n.style({ 'opacity': 1, 'border-width': 3 });
                     } else {
-                        n.style({ 'opacity': 0.08, 'border-width': 1 });
+                        n.style({ 'opacity': 0.05, 'border-width': 1 });
                     }
                 });
                 cy.edges().forEach(function(e) {
                     var srcVisible = e.source().data('domain') === domainText;
                     var tgtVisible = e.target().data('domain') === domainText;
-                    if (srcVisible || tgtVisible) {
-                        e.style('opacity', 0.4);
-                    } else {
-                        e.style('opacity', 0.04);
-                    }
+                    e.style('opacity', (srcVisible || tgtVisible) ? 0.4 : 0.02);
                 });
             });
         });
@@ -824,15 +792,8 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
 
         // Keyboard shortcuts
         document.addEventListener('keydown', function(e) {
-            if (e.key === '/' && document.activeElement !== searchInput) {
-                e.preventDefault();
-                searchInput.focus();
-            }
-            if (e.key === 'Escape') {
-                resetView();
-                searchInput.value = '';
-                cy.elements().style('opacity', 1);
-            }
+            if (e.key === '/' && document.activeElement !== searchInput) { e.preventDefault(); searchInput.focus(); }
+            if (e.key === 'Escape') { resetView(); searchInput.value = ''; }
         });
 
         // Easter egg
@@ -842,10 +803,7 @@ def generate_html(nodes, edges, domain_counts, initial_hids):
                 keyBuffer.push(e.key.toLowerCase());
                 if (keyBuffer.length > 7) keyBuffer.shift();
                 if (keyBuffer.join('') === 'cadmies') {
-                    cy.style().selector('node').style({
-                        'background-color': '#ffd700', 'border-color': '#ff6600',
-                        'border-width': '3px', 'shape': 'ellipse'
-                    }).update();
+                    cy.style().selector('node').style({'background-color': '#ffd700', 'border-color': '#ff6600', 'border-width': '3px', 'shape': 'ellipse'}).update();
                     var msg = document.createElement('div');
                     msg.innerHTML = '<div style="text-align:center"><div style="font-size:20px;font-weight:bold">LET THE GOOD TIMES ROLL WITH CADMIES!</div><div style="font-size:12px;font-style:italic;color:#ffd700;margin-top:5px">homage to The Cars</div></div>';
                     msg.style.cssText = 'position:fixed;bottom:50px;left:50%;transform:translateX(-50%);background:linear-gradient(90deg,#ff6600,#ffd700);color:black;padding:12px 24px;border-radius:50px;z-index:9999;font-family:monospace;box-shadow:0 0 20px rgba(255,102,0,0.5);animation:fadeInOut 3s ease-in-out';
@@ -869,35 +827,29 @@ def main():
     print(f"Blockstore: {BLOCKS_DIR}")
     print(f"Output: {OUTPUT_FILE}")
     print(f"Ranked data: {RANKED_DATA_FILE}")
-    print(f"Canonical domains: {len(CANONICAL_DOMAINS)}")
     print("=" * 60)
     
-    nodes, edges, domain_counts, ranked_data, initial_hids = gather_concepts()
+    nodes, edges, domain_counts, ranked_data = gather_concepts()
     
     if not nodes:
         print("\nERROR: No concepts loaded.")
         sys.exit(1)
     
-    # Write ranked data JSON (renderer-agnostic)
     with open(RANKED_DATA_FILE, "w") as f:
         json.dump(ranked_data, f, indent=2)
     print(f"\nRanked data saved: {RANKED_DATA_FILE}")
     print(f"   {ranked_data['total_concepts']} concepts, {ranked_data['total_edges']} edges")
-    print(f"   Initial load: {ranked_data['initial_load_count']} concepts")
     
-    # Generate HTML
-    html = generate_html(nodes, edges, domain_counts, initial_hids)
+    html = generate_html(nodes, edges, domain_counts)
     with open(OUTPUT_FILE, "w") as f:
         f.write(html)
     print(f"\nMap generated: {OUTPUT_FILE}")
-    print(f"   {len(nodes)} total nodes, {len(edges)} total edges, {len(domain_counts)} domains in data")
-    legend_domains = [d for d in CANONICAL_DOMAINS if d in domain_counts]
-    print(f"   Legend: {len(legend_domains)} canonical domains shown")
-    print(f"   Phase 66: Progressive loading — {len(initial_hids)} concepts initial, {len(nodes) - len(initial_hids)} lazy-loaded")
-    print(f"   Features: zoom, search, tooltips, concept cards, directional arrows, interactive legend, keyboard shortcuts, node collision spacing, click-to-highlight, legend domain filter, progressive loading via 'Load More' button + auto-load on pan/zoom")
-    print(f"   Data layer: concepts_ranked.json — renderer-agnostic, consumable by any future map renderer")
+    print(f"   {len(nodes)} total nodes, {len(edges)} total edges")
+    print(f"   Layout: Fractal succulent — golden-angle spiral per domain")
+    print(f"   Depth layers: z=0 (domain anchors), z=-30 (cross-domain), z=-60 (subdomain), z=-100 (deep concepts)")
+    print(f"   Loading: {CHUNK_SIZE} concepts per chunk, {INITIAL_CHUNKS} chunk(s) initial")
+    print(f"   Data layer: concepts_ranked.json with pre-computed x/y/z positions")
     
-    # Update Tkinter page count
     tkinter_page = PROJECT_ROOT / "cadmies-gui" / "pages" / "tkinter_mycelium_map.py"
     if tkinter_page.exists():
         with open(tkinter_page, "r") as f:
@@ -909,7 +861,6 @@ def main():
     
     try:
         webbrowser.open(f"file://{OUTPUT_FILE}")
-        print(f"   Opened map in browser.")
     except:
         pass
 
