@@ -1,43 +1,32 @@
 #!/usr/bin/env python3
 """
 File: harvest_full_pipeline.py
-CLI: CADMIES Conversation Harvester (Full Pipeline)
+Tool: CADMIES Harvest Pipeline
 Version: 4.2.0
-System: CADMIES
-Status: ACTIVE — Three-tier difficulty levels, GPU-tier pipeline
-Dependencies: ollama, cadmies_concept_reader, cid_generator, scientific_validator,
-              provenance_manager, paths
+System: CADMIES / tools/harvest
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
 
 Purpose: End-to-end conversation harvesting pipeline. Chunks a conversation,
          queries the mycelium for context, extracts concepts + poetics + mantras
-         via Mistral (if available), saves to source_concepts/, presents
-         interactive review, validates, and mints approved concepts directly
-         into the IPLD blockstore.
+         via Mistral, saves to source_concepts/, presents interactive review,
+         validates, and mints approved concepts into the IPLD blockstore.
+         LLM-optional: falls back to manual import mode if Mistral is unavailable.
 
-         LLM-optional: If Mistral is unavailable, skips extraction and allows
-         manual import from source_concepts/ for review + minting. Only
-         unminted concepts (not in blockstore index) are shown.
-
-         Born from a washing machine. Powered by the Kerr Spacetime Gearbox.
-
-GPU REQUIREMENT: This pipeline makes multiple LLM calls per concept.
-Designed for GPU acceleration. Minimum ~6GB VRAM
-for Mistral 7B (GTX 1660/RTX 2060+). 12GB+ recommended for Codestral
-enrichment (RTX 3060 12GB/A4000+).
-For CPU-only use, see the manual import path (no --auto flag).
+Usage:
+    python tools/harvest/harvest_full_pipeline.py
+    python tools/harvest/harvest_full_pipeline.py --auto --with-relationships
+    python tools/harvest/harvest_full_pipeline.py --model=codestral
+    python tools/harvest/harvest_full_pipeline.py --batch
 
 Version History:
-  1.0.0 — Initial extraction pipeline (extract_concepts.py)
-  2.0.0 — Mycelium-aware extraction via Willie's search
-  3.0.0 — Poetic version and mantra extraction
-  4.0.0 — Full pipeline: extract → review → validate → mint, LLM-optional mode
-  4.0.1 — Hardened: apostrophe escaping, human_id lowercase enforcement,
-          builds_upon validation against minted IDs, robust markdown stripping
-  4.1.0 — Three-tier difficulty levels: beginner/intermediate/expert explanations
-          extracted separately. GPU requirement documented.
-  4.2.0 — Fixed mycelium search import (llm_mycelium_reader → cadmies_concept_reader).
-          Added apostrophe sanitization in extract_from_chunk().
-          Tightened poetic_version prompt to prevent full poems.
+  v4.2.0: Fixed mycelium search import (llm_mycelium_reader → cadmies_concept_reader).
+  v4.1.0: Three-tier difficulty levels: beginner/intermediate/expert.
+  v4.0.1: Hardened: apostrophe escaping, human_id lowercase, builds_upon validation.
+  v4.0.0: Full pipeline: extract → review → validate → mint, LLM-optional mode.
+  v3.0.0: Poetic version and mantra extraction.
+  v2.0.0: Mycelium-aware extraction via mycelium search.
+  v1.0.0: Initial extraction pipeline.
 """
 
 import json
@@ -47,7 +36,6 @@ import re
 from pathlib import Path
 from datetime import datetime, timezone
 
-# ========== DEDUPLICATION FUNCTION ==========
 def deduplicate_concepts(concept_list):
     """Remove duplicate concepts based on title similarity."""
     if not concept_list or len(concept_list) <= 1:
@@ -63,7 +51,6 @@ def deduplicate_concepts(concept_list):
     
     print(f"   Deduplication: {len(concept_list)} → {len(unique)} concepts")
     return unique
-# ============================================
 
 # === PATH SETUP ===
 HARVEST_DIR = Path(__file__).parent
@@ -73,12 +60,12 @@ PROJECT_ROOT = HARVEST_DIR.parent.parent
 CONVERSATION_FILE = HARVEST_DIR / "conversation.json"
 OUTPUT_FILE = HARVEST_DIR / "harvested_concepts.json"
 SOURCE_CONCEPTS_DIR = PROJECT_ROOT / "source_concepts"
-MODEL = "mistral:7b"  # Default — override with --model codestral or --model tinyllama:1.1b
+MODEL = "mistral:7b"
 CHUNK_SIZE = 750
 DELAY = 10
 RELEVANCE_THRESHOLD = 0.1
 DEFAULT_CERTAINTY = 0.8
-VALIDATION_LEVEL = "BASIC"  # Was "STANDARD" — proofs not required for harvested concepts
+VALIDATION_LEVEL = "BASIC"
 
 # === LLM DETECTION ===
 try:
@@ -159,51 +146,37 @@ CONVERSATION:
 {chunk}"""
 
 
-# ============================================================================
-# STEP 1: LOAD CONVERSATION
-# ============================================================================
-
 def load_conversation_robust(filepath):
     """Load conversation text from JSON, handling unescaped newlines and apostrophes."""
     with open(filepath, "r") as f:
         raw_text = f.read().strip()
 
-    # Try standard JSON first
     try:
         data = json.loads(raw_text)
         return data.get("content", raw_text)
     except json.JSONDecodeError:
         pass
 
-    # Robust: find "content": and extract everything until the final closing brace
     content_key = '"content":'
     key_pos = raw_text.find(content_key)
     if key_pos == -1:
         raise ValueError("Could not find 'content' key in JSON file")
 
-    # Start after the key
     value_start = key_pos + len(content_key)
     raw_value = raw_text[value_start:].strip()
 
-    # The content is everything until the LAST closing brace
     last_brace = raw_value.rfind('}')
     if last_brace != -1:
         raw_value = raw_value[:last_brace].strip()
 
-    # Strip wrapping quotes if present
     if raw_value.startswith('"') and raw_value.endswith('"'):
         raw_value = raw_value[1:-1]
 
-    # Escape unescaped apostrophes within the content string
     raw_value = re.sub(r"(?<!\\)'", r"\\'", raw_value)
 
     print("  (used robust loader)")
     return raw_value
 
-
-# ============================================================================
-# STEP 2: MYCELIUM CONTEXT
-# ============================================================================
 
 def get_mycelium_context(conversation_text):
     """Search mycelium for relevant existing concepts."""
@@ -235,19 +208,11 @@ def get_mycelium_context(conversation_text):
     return "\n".join(context_parts)
 
 
-# ============================================================================
-# STEP 3: CHUNK
-# ============================================================================
-
 def chunk_text(text, chunk_size=CHUNK_SIZE):
     """Split text into chunks of roughly chunk_size words."""
     words = text.split()
     return [" ".join(words[i:i + chunk_size]) for i in range(0, len(words), chunk_size)]
 
-
-# ============================================================================
-# STEP 4: EXTRACT (LLM)
-# ============================================================================
 
 def extract_from_chunk(chunk, mycelium_context, index, total):
     """Send chunk to Mistral, parse response."""
@@ -258,7 +223,6 @@ def extract_from_chunk(chunk, mycelium_context, index, total):
         response = ollama.generate(model=MODEL, prompt=prompt)
         raw = response["response"].strip()
 
-        # Robust markdown fence stripping
         while raw.startswith("```"):
             raw = raw.lstrip("`")
             if "\n" in raw:
@@ -267,8 +231,6 @@ def extract_from_chunk(chunk, mycelium_context, index, total):
             raw = raw.rstrip("`")
         raw = raw.strip()
 
-        
-        # Strip any prose before the first opening brace
         brace_pos = raw.find("{")
         if brace_pos > 0:
             raw = raw[brace_pos:]
@@ -289,10 +251,6 @@ def extract_from_chunk(chunk, mycelium_context, index, total):
         print(f"  ERROR: {e}")
         return {"concepts": [], "poetic_version": "", "mantra": ""}
 
-
-# ============================================================================
-# STEP 4b: MANUAL IMPORT (No LLM)
-# ============================================================================
 
 def import_from_source_concepts(source_dir, minted_ids=None):
     """Load unminted concept JSONs from source_concepts/ for review/minting."""
@@ -333,10 +291,6 @@ def import_from_source_concepts(source_dir, minted_ids=None):
 
     return concept_files, concepts_full, [], []
 
-
-# ============================================================================
-# STEP 5: TRANSFORM
-# ============================================================================
 
 def transform_to_concept(extracted, chunk_index, minted_ids=None):
     """Transform Mistral output to UniversalScientificConcept schema."""
@@ -433,10 +387,6 @@ def transform_to_concept(extracted, chunk_index, minted_ids=None):
     }
 
 
-# ============================================================================
-# STEP 6: SAVE
-# ============================================================================
-
 def save_concept_json(concept, source_dir):
     """Save concept to source_concepts/{human_id}.json."""
     source_dir.mkdir(parents=True, exist_ok=True)
@@ -451,10 +401,6 @@ def save_concept_json(concept, source_dir):
 
     return filepath
 
-
-# ============================================================================
-# STEP 7: MERGE
-# ============================================================================
 
 def merge_concepts(all_results):
     """Merge and deduplicate concepts across chunks."""
@@ -479,10 +425,6 @@ def merge_poetics(all_results):
             mantras.append(r["mantra"])
     return poetics, mantras
 
-
-# ============================================================================
-# STEP 8: REVIEW MENU
-# ============================================================================
 
 def display_review_menu(concept_files, concepts, poetics, mantras):
     """Interactive review menu."""
@@ -535,10 +477,6 @@ def display_review_menu(concept_files, concepts, poetics, mantras):
             print("  Unknown command.")
 
 
-# ============================================================================
-# STEP 9: VALIDATE
-# ============================================================================
-
 def validate_concept(concept):
     """Run scientific validator."""
     validator = ScientificValidator(VALIDATION_LEVEL)
@@ -549,10 +487,6 @@ def validate_concept(concept):
             print(f"    - {e}")
     return is_valid, errors
 
-
-# ============================================================================
-# STEPS 10–11: MINT
-# ============================================================================
 
 def mint_concept(concept, cid_gen, pm):
     """Generate CID, save to blockstore, create provenance. Return result dict."""
@@ -627,18 +561,14 @@ def mint_approved(indices, concepts, concept_files, poetics, mantras):
     print(f"\n{'='*60}")
     print(f"MINTING COMPLETE: {len(successes)} successful, {len(failures)} failed")
     if successes:
-        print("  These concepts are now live in the mycelium and queryable via Willie/Dashboard.")
+        print("  These concepts are now live in the mycelium.")
     print(f"{'='*60}")
 
     return results
 
 
-# ============================================================================
-# MAIN
-# ============================================================================
-
 def parse_args():
-    """Parse command-line flags for pro features."""
+    """Parse command-line flags."""
     args = {
         "model": MODEL,
         "auto": False,
@@ -666,7 +596,6 @@ def main():
     print("=" * 60)
     print("CADMIES HARVEST PIPELINE v4.2.0")
     print(f"Model: {MODEL}  |  Chunk Size: {CHUNK_SIZE} words  |  Auto: {args['auto']}  |  Batch: {args['batch']}  |  With-Relationships: {args['with_relationships']}")
-    print(f"Branch: main (HARDENED)")
     print(f"LLM: {'AVAILABLE' if LLM_AVAILABLE else 'UNAVAILABLE — manual mode'}")
     print(f"Mycelium: {'ENABLED' if MYCELIUM_AVAILABLE else 'DISABLED'}")
     print("=" * 60)
@@ -694,9 +623,6 @@ def main():
             print(f"\n{'='*60}")
             print(f"Processing: {conv_file.name}")
             print(f"{'='*60}")
-            import harvest.harvest_full_pipeline as hfp
-            hfp.CONVERSATION_FILE = conv_file
-            hfp.LLM_AVAILABLE = LLM_AVAILABLE
         print(f"\nBatch complete. {len(conv_files)} files processed.")
         sys.exit(0)
     
@@ -782,7 +708,6 @@ def main():
     print("\n🧹 Running deduplication on extracted concepts...")
     original_count = len(concepts_full)
     concepts_full = deduplicate_concepts(concepts_full)
-    print(f"   Deduplication: {original_count} → {len(concepts_full)} concepts")
 
     if args["auto"]:
         print("\nAUTO-APPROVE: Skipping review, approving all valid concepts.")
