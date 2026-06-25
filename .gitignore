@@ -1,6 +1,9 @@
 # ===========================================
-# SECURE .gitignore - NO PERSONAL INFORMATION
+# CADMIES .gitignore
 # ===========================================
+# Blocks sensitive files, system paths, and credentials.
+# Allows source code, documentation, and public data.
+# Adheres to GitHub community standards.
 
 # ========================
 # 1. BLOCK EVERYTHING FIRST
@@ -8,21 +11,34 @@
 *
 
 # ========================
-# 2. ALLOW ONLY SPECIFIC FILE TYPES
+# 2. ALLOW PROJECT FILES
 # ========================
 !*.py
 !*.md
 !*.json
 !*.sh
+!*.html
+!*.css
+!*.js
+!*.xml
+!*.car
+!*.txt
+!*.yml
+!*.yaml
+!*.toml
+!*.cfg
+!*.ini
 
 # ========================
-# 3. ALLOW FOLDERS
+# 3. ALLOW DIRECTORIES
 # ========================
 !*/
 !.gitignore
+!.gitattributes
+!.nojekyll
 
 # ========================
-# 4. BLOCK SENSITIVE PATTERN FILES
+# 4. BLOCK SENSITIVE PATTERNS
 # ========================
 *password*
 *secret*
@@ -59,7 +75,7 @@ passwords.txt
 tokens.yaml
 
 # ========================
-# 7. TEMPORARY/GENERATED FILES
+# 7. TEMPORARY / GENERATED FILES
 # ========================
 __pycache__/
 *.py[cod]
@@ -80,7 +96,7 @@ build/
 .coverage
 
 # ========================
-# 8. SYSTEM/IDE FILES
+# 8. SYSTEM / IDE FILES
 # ========================
 .DS_Store
 Thumbs.db
@@ -100,10 +116,12 @@ private-*
 *_internal.*
 
 # ========================
-# 10. BLOCK HIDDEN FILES (except .gitignore)
+# 10. BLOCK HIDDEN FILES (except allowed)
 # ========================
 .*
 !.gitignore
+!.gitattributes
+!.nojekyll
 
 # ========================
 # 11. SPECIFIC FILE ALLOWANCES
@@ -120,7 +138,7 @@ private-*
 !environment.yml
 
 # ========================
-# 12. DATA/ASSET FILES (blocked)
+# 12. DATA / ASSET FILES (blocked)
 # ========================
 *.csv
 *.xlsx
