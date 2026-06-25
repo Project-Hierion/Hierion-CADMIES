@@ -1,19 +1,24 @@
 #!/usr/bin/env python3
 """
 File: scientific_validator.py
-Author: CADMIES Research Group
-Created: 2025-12-24
+Tool: CADMIES Scientific Validator
 Version: 1.0.0
-System: CADMIES - Scientific Validation System
-Related_Docs: 
-  - IPLD Concept Specification
+System: CADMIES / tools/core
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
 
-CADMIES SCIENTIFIC VALIDATOR v1.0.0
-The quality gatekeeper for our knowledge garden.
+Purpose: Enforce scientific rigor before CID generation.
+         The quality gatekeeper for the knowledge garden.
+         No weak concepts enter the mycelium.
 
-Purpose: Enforce scientific rigor before CID generation
-Principle: No weak concepts enter the system
-Philosophy: "A garden grows strongest from quality seeds"
+Usage:
+    python tools/core/scientific_validator.py
+
+Validation Levels:
+    BASIC    — Required fields present
+    STANDARD — Field types and constraints
+    RIGOROUS — Scientific quality checks
+    STRICT   — Maximum scientific rigor
 """
 
 import json
@@ -31,7 +36,6 @@ class ScientificValidator:
     - STRICT: Maximum scientific rigor
     """
     
-    # Required fields per specification
     REQUIRED_FIELDS = [
         "schema_version",
         "human_id", 
@@ -46,7 +50,6 @@ class ScientificValidator:
         "difficulty_levels"
     ]
     
-    # Valid concept types
     VALID_TYPES = [
         "Law", "Theory", "Principle", "Observation", 
         "Method", "Concept", "CoreConcept", "Framework",
@@ -107,7 +110,6 @@ class ScientificValidator:
             "score": 0
         }
         
-        # Run all checks for this validation level
         for check_name in self.validation_rules["checks"]:
             check_method = getattr(self, f"_check_{check_name}", None)
             if check_method:
@@ -122,7 +124,6 @@ class ScientificValidator:
                     warnings.extend(check_result["warnings"])
                     validation_report["warnings"].extend(check_result["warnings"])
         
-        # Calculate validation score
         total_checks = len(validation_report["checks_passed"]) + len(validation_report["checks_failed"])
         if total_checks > 0:
             validation_report["score"] = len(validation_report["checks_passed"]) / total_checks * 100
@@ -186,7 +187,6 @@ class ScientificValidator:
         errors = []
         warnings = []
         
-        # Title constraints
         if "title" in concept:
             title = concept["title"]
             if len(title) == 0:
@@ -196,7 +196,6 @@ class ScientificValidator:
             elif len(title) < 5:
                 warnings.append("Title is very short (consider being more descriptive)")
         
-        # Definition constraints
         if "definition" in concept:
             definition = concept["definition"]
             if len(definition) < 10:
@@ -206,7 +205,6 @@ class ScientificValidator:
             elif len(definition) > 5000:
                 warnings.append("Definition is very long (consider splitting into multiple concepts)")
         
-        # Type validation
         if "type" in concept and concept["type"] not in self.VALID_TYPES:
             warnings.append(f"Type '{concept['type']}' not in standard types list: {self.VALID_TYPES}")
         
@@ -245,7 +243,6 @@ class ScientificValidator:
         if "proofs" in concept:
             proofs = concept["proofs"]
             for i, proof in enumerate(proofs):
-                # Check confidence score
                 confidence = proof.get("confidence")
                 if confidence is not None:
                     if confidence < 0.5:
@@ -255,16 +252,14 @@ class ScientificValidator:
                 else:
                     warnings.append(f"Proof {i+1} missing confidence score")
                 
-                # Check date
                 if "date" not in proof:
                     warnings.append(f"Proof {i+1} missing date")
                 
-                # Check reference
                 if "reference" not in proof:
                     warnings.append(f"Proof {i+1} missing reference/citation")
         
         return {
-            "valid": True,  # These are warnings, not errors
+            "valid": True,
             "warnings": warnings
         }
     
@@ -280,7 +275,6 @@ class ScientificValidator:
                 if field not in metadata:
                     warnings.append(f"Metadata missing '{field}' field")
             
-            # Check certainty score
             certainty = metadata.get("certainty_score")
             if certainty is not None:
                 if certainty < 0.5:
@@ -298,15 +292,12 @@ class ScientificValidator:
         if "definition" in concept:
             definition = concept["definition"]
             
-            # Check for complete sentences
             if not definition.endswith(('.', '!', '?')):
                 warnings.append("Definition doesn't end with proper punctuation")
             
-            # Check length for quality
             if len(definition) < 50:
                 warnings.append("Definition may be too brief for rigorous concept")
             
-            # Check for vague language
             vague_terms = ["something", "stuff", "things", "maybe", "perhaps", "possibly"]
             for term in vague_terms:
                 if term in definition.lower():
@@ -333,7 +324,7 @@ class ScientificValidator:
             "warnings": warnings
         }
 
-# Test and demonstration
+
 def test_validation():
     """Test the validator with sample concepts"""
     print("=" * 60)
@@ -341,10 +332,9 @@ def test_validation():
     print("Quality Gatekeeper for the Knowledge Garden")
     print("=" * 60)
     
-    # Create test concepts
     good_concept = {
         "schema_version": "1.0.0",
-        "human_id": "Physics:Law/TestLaw",
+        "human_id": "test_scientific_law",
         "title": "Test Scientific Law",
         "definition": "A test law for validation purposes with a complete sentence.",
         "type": "Law",
@@ -372,13 +362,11 @@ def test_validation():
     }
     
     bad_concept = {
-        "human_id": "Test:Bad/Concept",
-        "title": "Bad",  # Too short
-        "definition": "Short",  # Too short
-        # Missing many required fields
+        "human_id": "test_bad_concept",
+        "title": "Bad",
+        "definition": "Short",
     }
     
-    # Test with different validation levels
     for level in ["BASIC", "STANDARD", "RIGOROUS", "STRICT"]:
         print(f"\n{'='*40}")
         print(f"VALIDATION LEVEL: {level}")
