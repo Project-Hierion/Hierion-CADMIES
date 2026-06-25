@@ -5,24 +5,24 @@ Tool: CADMIES Relationship Generator
 Version: 1.2.5
 System: CADMIES / tools
 Status: ACTIVE
+License: AGPLv3 with Commons Clause
 
-Purpose: Feeds minted concepts to Mistral in small batches to propose
-         cross-reference relationships. Uses prompts with concept definitions
-         and domains so Mistral can make informed connections.
-
-         Two-phase strategy:
-           Phase 1: Intra-batch edges (15 concepts per batch)
+Purpose: Feeds minted concepts to Codestral in small batches to propose
+         cross-reference relationships. Two-phase strategy:
+           Phase 1: Intra-batch edges (10 concepts per batch)
            Phase 2: Cross-batch bridges (8 ambassadors per call)
 
 Usage:
-    python tools/generate_relationships.py           # Dry run — preview only
-    python tools/generate_relationships.py --write   # Apply edges to blockstore
-    python tools/generate_relationships.py --incremental  # Only sparse concepts
+    python tools/generate_relationships.py                  # Dry run — preview only
+    python tools/generate_relationships.py --write          # Apply edges to blockstore
+    python tools/generate_relationships.py --incremental    # Only sparse concepts
 
-Changelog (2026-05-28 — v1.2.5):
-    - build_intra_batch_prompt now includes domain and definition for each concept
-    - build_bridge_prompt already included domains; added definitions
-    - Reduced BATCH_SIZE from 15 to 10 for more focused proposals
+Version History:
+  v1.2.5 (2026-05-28): build_intra_batch_prompt now includes domain and definition.
+      build_bridge_prompt already included domains; added definitions.
+      Reduced BATCH_SIZE from 15 to 10 for more focused proposals.
+  v1.2.4: Orphan prevention gate active.
+  v1.0.0: Initial release.
 """
 
 import json
@@ -45,14 +45,10 @@ import dag_cbor
 # === CONFIG ===
 MODEL = "codestral"
 DELAY = 2
-BATCH_SIZE = 10  # Smaller batches with richer context
+BATCH_SIZE = 10
 BRIDGE_BATCH_SIZE = 8
 VALID_RELATION_TYPES = ["builds_upon", "related_to", "specializes", "contradicts"]
 
-
-# ============================================================================
-# DATA GATHERING
-# ============================================================================
 
 def gather_concept_summaries():
     """Load all concepts from blockstore. Returns summaries dict and CID mapping."""
@@ -74,12 +70,8 @@ def gather_concept_summaries():
     return summaries, cid_map
 
 
-# ============================================================================
-# PROMPT BUILDERS — Now with definitions and domains
-# ============================================================================
-
 def build_intra_batch_prompt(batch_ids, summaries):
-    """Send concept IDs WITH their domains and definitions so Mistral can reason."""
+    """Send concept IDs WITH their domains and definitions so Codestral can reason."""
     lines = []
     for hid in batch_ids:
         s = summaries.get(hid, {})
@@ -102,6 +94,7 @@ CRITICAL RULES:
 
 Return ONLY this exact structure:
 {{"relationships": {{"concept_id": [{{"target": "other_id", "type": "builds_upon"}}], "other_id": []}}}}"""
+
 
 def build_bridge_prompt(ambassadors, summaries):
     """Build prompt for cross-batch bridges with full context."""
@@ -129,17 +122,14 @@ Do NOT invent new IDs or types. Include EVERY concept as a key, even if empty ar
 
 Return ONLY the JSON (no markdown, no commentary):"""
 
-# ============================================================================
-# MISTRAL INTERFACE
-# ============================================================================
 
 def call_mistral(prompt, step_name):
-    """Send prompt to Mistral and parse JSON response."""
+    """Send prompt to Codestral and parse JSON response."""
     import ollama
     import re
 
     est_tokens = len(prompt.split())
-    print(f"  Mistral <- {est_tokens} tokens...", end=" ", flush=True)
+    print(f"  Codestral <- {est_tokens} tokens...", end=" ", flush=True)
 
     raw = None
     try:
@@ -154,7 +144,6 @@ def call_mistral(prompt, step_name):
         raw = response["response"].strip()
         print(f"-> {len(raw)} chars", end=" ", flush=True)
 
-        # Robust JSON extraction
         match = re.search(r'```(?:json)?\s*\n?(\{.*?\})\s*```', raw, re.DOTALL)
         if match:
             raw = match.group(1).strip()
@@ -163,7 +152,6 @@ def call_mistral(prompt, step_name):
             if match:
                 raw = match.group(0).strip()
 
-        # Fix trailing commas
         raw = raw.replace(", }", "}")
         raw = raw.replace(", ]", "]")
         raw = raw.replace(",}", "}")
@@ -187,10 +175,6 @@ def call_mistral(prompt, step_name):
         print(f"ERROR: {e}")
         return {}
 
-
-# ============================================================================
-# VALIDATION
-# ============================================================================
 
 def filter_valid_edges(relationships, valid_ids):
     """Keep only edges with valid targets, types, and structure."""
@@ -220,10 +204,6 @@ def filter_valid_edges(relationships, valid_ids):
     return filtered
 
 
-# ============================================================================
-# HEALTH CHECK
-# ============================================================================
-
 def test_ollama():
     """Quick connectivity test."""
     import ollama
@@ -239,10 +219,6 @@ def test_ollama():
         return False
 
 
-# ============================================================================
-# MAIN
-# ============================================================================
-
 def main():
     write_mode = "--write" in sys.argv
     incremental = "--incremental" in sys.argv
@@ -254,7 +230,6 @@ def main():
     print(f"Filter: {'INCREMENTAL (sparse only)' if incremental else 'FULL (all concepts)'}")
     print("=" * 60)
 
-    # Health check
     print("\nTesting Ollama connection...", end=" ", flush=True)
     if not test_ollama():
         print("FAILED")
@@ -262,12 +237,10 @@ def main():
         sys.exit(1)
     print("OK")
 
-    # Load concepts
     summaries, cid_map = gather_concept_summaries()
     all_ids = sorted(summaries.keys())
     print(f"Loaded {len(all_ids)} concepts from blockstore")
 
-    # Incremental mode
     if incremental:
         all_ids = [
             hid for hid in all_ids
@@ -321,7 +294,6 @@ def main():
             if i < len(bridge_batches) - 1:
                 time.sleep(DELAY)
 
-    # === DEDUPLICATE ===
     for hid in all_relationships:
         seen = set()
         unique = []
@@ -343,7 +315,6 @@ def main():
         print("  - Try adjusting BATCH_SIZE or prompt")
         return
 
-    # Preview
     print("\nSample relationships:")
     count = 0
     for hid in sorted(all_relationships.keys()):
@@ -358,7 +329,6 @@ def main():
         print(f"   python tools/generate_relationships.py --write")
         return
 
-    # === WRITE TO BLOCKSTORE ===
     print(f"\n{'='*60}")
     print(f"Writing {total_edges} edges to blockstore...")
     print(f"{'='*60}")
@@ -402,7 +372,7 @@ def main():
     if skipped_orphans:
         print(f"⚠️  Skipped {skipped_orphans} orphan edge(s) — target(s) not in blockstore")
     print(f"   Run: python tools/generate_mycelium_map.py")
-    print(f"   Then open mycelium_map.html in Firefox.")
+    print(f"   Then open mycelium_map.html.")
 
 
 if __name__ == "__main__":
