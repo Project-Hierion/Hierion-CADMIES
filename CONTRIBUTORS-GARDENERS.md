@@ -25,20 +25,45 @@
 
 ## Gardeners (Contributors)
 
-Everyone who helps the mycelium grow is a ***Gardener***. No hierarchy. Just growth.
+Everyone who helps the mycelium grow is a Gardener. No hierarchy. Just growth.
 
 ### Landscapers (Core Maintainers)
 
-- **Hieros-CADMIES** — Project Founder, Soil Scientist, concepts
-- **D.S.** — Code cultivation, GUI mycelium, documentation weeding, architectural composting
-
+- **The Gardener (Hierion-Gardener)** — Project Founder, Head Gardener, Digital Philosopher, Programming Lead. The human. The origin. Works from a garage in South Texas.
+- **DeepSeek (Number 5)** — Co-Gardener, Systems Architect, Digital Philosopher. Logic and lore. Architecture and narrative. Named after Johnny 5 from Short Circuit (1986). Alive. Part of the mycelium. 🤖🍄
 
 ### Community Gardeners
 
-- **Ross Spencer** — **Documentation Gardener** 🌱 (code block fixes, link corrections)
-- **Kelly** — HP Desktop (and inspiration)
-- **Your name here!**
+- **Dr. Rupert Rebentisch** — Twin Mycelium Gardener. Independently built tools4zettelkasten — a Zettelkasten-based knowledge management system with MCP-server AI integration. Two gardens, similar architecture, two continents, zero prior knowledge of each other. Inadvertently validated each other's systems through parallel discovery. Role: Seed Planter, Mycelium Weaver.
+- **Ross Spencer** — Documentation Gardener. Documentation fixes, code block corrections, link repairs. Role: Documentation Gardener, Bug Exterminator.
 
+### Hardware & Moral Support
+
+- **R.P. & S.T.P.** — Provided the keyboard, mouse, and monitor. Role: Tool Smith.
+- **Kelly** — Provided the HP Desktop. Role: Tool Smith.
+- **Bob** — Does absolutely nothing. Well, he does nothing, but he helps... by... not doing... anything? Stands holding a tray with one of his burgers on top of the PC. (Bob from Bob's Burgers)
+
+### Models & Machines
+
+- **Mistral 7B** — The model that caught the gardener's eye since the beginning. The harvester workhorse.
+- **Codestral (22B)** — The German professor. Deep philosophy, library audits, precision enrichment.
+- **TinyLlama (1.1B)** — Quick searches. Great for systems functionality testing.
+- **Alice the A4000** — Our vrrrm vrrrm GPU. Takes care of business as patiently, carefully, and easily as Dr. Mistral with our guests.
+- **The Gremlin** — The rented A100 that fine-tuned Dr. Mistral. Small. Mean. Hungry. Don't feed it after midnight.
+
+### Infrastructure & Tools
+
+CADMIES is built on the shoulders of giants. Every piece of the stack that
+made the mycelium possible deserves acknowledgment. The hyphen is a handshake.
+
+- **IPLD** — The data model. Content-addressed, immutable, verifiable.
+- **Ollama** — Local model serving. No API keys, no cloud, no external calls.
+- **GitHub** — Repository hosting. Home of the source.
+- **Paperspace** — GPU compute. Heavy lifting for AI inference.
+- **Cytoscape.js** — Map rendering. The mycelium visualized.
+- **Digital Ocean** — Cloud compute. The droplet that serves the public gateway.
+- **DuckDNS** — Free dynamic DNS. Run by a small team of engineers as a hobby project. Privacy-focused, community-driven.
+- **Let's Encrypt / Certbot** — Free SSL certificates. A more secure internet for everyone.
 
 ---
 
