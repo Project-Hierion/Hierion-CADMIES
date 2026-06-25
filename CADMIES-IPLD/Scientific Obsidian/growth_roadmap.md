@@ -7,6 +7,31 @@ session: 031
 # 🌱 CADMIES GROWTH ROADMAP
 ### *The living record of what we've built, what we're building, and where the mycelium grows next.*
 ---
+---
+The standard header format for all CADMIES scripts going forward:
+```text
+#!/usr/bin/env python3
+"""
+File: script_name.py
+Tool: CADMIES Tool Name
+Version: X.Y.Z
+System: CADMIES / tools (or tools/core, agents/code, etc.)
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: What this script does in one or two lines.
+
+Usage:
+    python path/to/script_name.py [options]
+
+Output:
+    What files or results it produces.
+
+Version History:
+  vX.Y.Z (YYYY-MM-DD): What changed.
+"""
+```
+---
 ## 📊 CURRENT METRICS
 | Metric | Value |
 |---|---|
