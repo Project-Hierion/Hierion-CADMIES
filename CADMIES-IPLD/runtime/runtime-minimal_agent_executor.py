@@ -1,8 +1,17 @@
-"""runtime-minimal_agent_executor.py
-Minimal Agent Executor v1.0.0
-Purpose: Execute AgentNode specifications by loading and running their implementations
-Dependencies: None (uses existing tools + stdlib)
-Air-Gapped: Yes
+#!/usr/bin/env python3
+"""
+File: runtime_minimal_agent_executor.py
+Tool: CADMIES Minimal Agent Executor
+Version: 1.0.0
+System: CADMIES / agents
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: Execute AgentNode specifications by loading and running their
+         implementations. Air-gapped compatible. Uses existing tools + stdlib.
+
+Usage:
+    python agents/runtime_minimal_agent_executor.py
 """
 
 import json
