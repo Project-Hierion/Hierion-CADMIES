@@ -2,26 +2,29 @@
 """
 File: generate_mycelium_map.py
 Tool: CADMIES Mycelium Map Generator
-Version: 2.4.0
+Version: 3.0.0
 System: CADMIES-IPLD / tools
-Status: ACTIVE — Phase 44: canonical 15-domain legend, directional arrows, concept cards
+Status: ACTIVE — Phase 66: Progressive loading, domain-ranked initial view, renderer-agnostic data
 
-Purpose: Dynamically generates mycelium_map.html from the live blockstore.
-         Enhanced features: zoom buttons, concept search, hover tooltips,
-         click-to-highlight connections (non-connected fade), interactive domain legend
-         with cross-domain ghosting, keyboard shortcuts, responsive design,
-         directional edge arrows, concept info cards on click, node collision spacing.
+Purpose: Dynamically generates mycelium_map.html and concepts_ranked.json from the live blockstore.
+         v3.0.0 introduces progressive loading: initial view shows top concepts per canonical domain
+         with cross-domain connectors prioritized. Remaining concepts lazy-load as users explore.
+         The ranked JSON file is renderer-agnostic — any future map renderer can consume it.
 
 Usage:
     python tools/generate_mycelium_map.py
 
 Output:
-    mycelium_map.html (project root) — open in any modern browser
+    mycelium_map.html (project root) — progressive-loading interactive map
+    concepts_ranked.json (project root) — full ranked concept data for lazy loading
 
 Version History:
-  v2.4.0 (2026-05-27): Map UX improvements — node collision spacing (nodeOverlap),
-      click-to-highlight with non-connected fade, legend domain filter with
-      cross-domain ghosting, gradient edge fade from clicked node.
+  v3.0.0 (2026-06-24): Phase 66 — Progressive loading with domain-ranked initial view.
+      Concepts scored by edge count + cross-domain bonus. Top 5-8 per canonical domain
+      load initially (~100 nodes). Remaining concepts stream in on zoom/pan/click.
+      Separate concepts_ranked.json for renderer-agnostic data consumption.
+  v2.4.0 (2026-05-27): Map UX — node collision spacing, click-to-highlight, legend domain
+      filter with cross-domain ghosting, gradient edge fade.
   v2.3.0: Canonical 15-domain legend, directional arrows, concept cards.
   v2.2.0: Interactive legend, keyboard shortcuts, responsive design.
   v2.1.0: Zoom buttons, concept search, hover tooltips.
@@ -31,7 +34,7 @@ Version History:
 import json, sys, webbrowser
 from pathlib import Path
 from datetime import datetime, timezone
-from collections import Counter
+from collections import Counter, defaultdict
 
 # === PATH SETUP ===
 TOOLS_DIR = Path(__file__).resolve().parent
@@ -44,6 +47,13 @@ from paths import BLOCKS_DIR
 
 # === CONFIG ===
 OUTPUT_FILE = PROJECT_ROOT / "mycelium_map.html"
+RANKED_DATA_FILE = PROJECT_ROOT / "concepts_ranked.json"
+
+# How many concepts to load initially per domain (based on domain size)
+INITIAL_PER_DOMAIN_LARGE = 8    # Domains with 30+ concepts
+INITIAL_PER_DOMAIN_MEDIUM = 6   # Domains with 15-29 concepts
+INITIAL_PER_DOMAIN_SMALL = 4    # Domains with <15 concepts
+CROSS_DOMAIN_BONUS = 3          # Extra points per cross-domain edge
 
 # === CANONICAL TOP-LEVEL DOMAINS (Phase 44) ===
 CANONICAL_DOMAINS = [
@@ -227,58 +237,213 @@ def load_legacy_edges():
         return json.load(f)
 
 def gather_concepts():
+    """Load all concepts from blockstore and return (nodes, edges, domain_counts, ranked_data).
+    
+    The ranked_data dict is renderer-agnostic — any future map renderer can consume it.
+    It contains every concept with its score, domain, edges, and whether it's in the initial load set.
+    """
     all_cids = load_all_concept_cids()
     print(f"Loading {len(all_cids)} concepts from blockstore...")
-    nodes, node_ids = [], set()
+    
+    # First pass: load all concepts into memory
+    concepts = {}
     skipped = 0
-    domain_counts = Counter()
     for cid in all_cids:
         concept = load_concept(cid)
         if 'error' in concept:
             skipped += 1
             continue
         hid = concept.get('human_id', '')
-        title = concept.get('title', hid.replace('_', ' ').title())
-        raw_domain = concept.get('domain', 'Unknown')
-        display_domain = normalize_domain(raw_domain)
-        definition = concept.get('definition', '')[:200]
-        domain_counts[display_domain] += 1
-        color = DOMAIN_COLORS.get(display_domain, DEFAULT_COLOR)
-        nodes.append({
-            "id": hid, "label": title, "color": color,
-            "domain": display_domain, "definition": definition,
-        })
-        node_ids.add(hid)
-    blockstore_edges = []
-    for cid in all_cids:
-        concept = load_concept(cid)
-        if 'error' in concept:
-            continue
-        hid = concept.get('human_id', '')
+        concepts[hid] = concept
+    
+    # Build node list, edge list, and domain tracking
+    nodes, node_ids = [], set()
+    domain_counts = Counter()
+    canonical_domain_concepts = defaultdict(list)
+    
+    # Build full edge list from blockstore relationships
+    all_edges = []
+    for hid, concept in concepts.items():
         rels = concept.get('relationships', {})
         for rel_type in ["builds_upon", "related_to", "specializes", "contradicts"]:
             for target in rels.get(rel_type, []):
                 if isinstance(target, str):
-                    blockstore_edges.append({
+                    all_edges.append({
                         "source": hid, "target": target, "type": rel_type,
                     })
+    
+    # Merge with legacy edges
     legacy_edges = load_legacy_edges()
     merged = {}
-    for e in blockstore_edges:
+    for e in all_edges:
         merged[(e["source"], e["target"], e["type"])] = e
     for e in legacy_edges:
         merged[(e["source"], e["target"], e["type"])] = e
     all_edges = list(merged.values())
+    
+    # Build edge lookup: for each concept, what does it connect to?
+    outgoing_edges = defaultdict(list)
+    incoming_edges = defaultdict(list)
+    for e in all_edges:
+        outgoing_edges[e["source"]].append(e)
+        incoming_edges[e["target"]].append(e)
+    
+    # Compute edge counts and cross-domain status for every concept
+    concept_scores = {}
+    for hid, concept in concepts.items():
+        raw_domain = concept.get('domain', 'Unknown')
+        display_domain = normalize_domain(raw_domain)
+        
+        out_edges = outgoing_edges.get(hid, [])
+        in_edges = incoming_edges.get(hid, [])
+        total_edges = len(out_edges) + len(in_edges)
+        
+        # Count cross-domain edges
+        cross_domain_count = 0
+        connected_domains = set()
+        for e in out_edges + in_edges:
+            other = e["target"] if e["source"] == hid else e["source"]
+            if other in concepts:
+                other_domain = normalize_domain(concepts[other].get('domain', 'Unknown'))
+                if other_domain != display_domain:
+                    cross_domain_count += 1
+                    connected_domains.add(other_domain)
+        
+        # Score: edge count + cross-domain bonus
+        score = total_edges + (cross_domain_count * CROSS_DOMAIN_BONUS)
+        
+        concept_scores[hid] = {
+            "human_id": hid,
+            "title": concept.get('title', hid.replace('_', ' ').title()),
+            "domain": display_domain,
+            "raw_domain": raw_domain,
+            "definition": concept.get('definition', '')[:200],
+            "edge_count": total_edges,
+            "cross_domain_edges": cross_domain_count,
+            "connected_domains": list(connected_domains),
+            "score": score,
+        }
+        
+        canonical_domain_concepts[display_domain].append(hid)
+        domain_counts[display_domain] += 1
+    
+    # Determine initial load set: top N per canonical domain by score
+    initial_hids = set()
+    for domain in CANONICAL_DOMAINS:
+        domain_hids = canonical_domain_concepts.get(domain, [])
+        domain_size = len(domain_hids)
+        
+        if domain_size >= 30:
+            take = INITIAL_PER_DOMAIN_LARGE
+        elif domain_size >= 15:
+            take = INITIAL_PER_DOMAIN_MEDIUM
+        elif domain_size > 0:
+            take = INITIAL_PER_DOMAIN_SMALL
+        else:
+            continue
+        
+        # Sort by score descending, take top N
+        ranked = sorted(domain_hids, key=lambda h: concept_scores[h]["score"], reverse=True)
+        initial_hids.update(ranked[:take])
+    
+    # Ensure cross-domain connectors get priority — if a concept connects 3+ domains, always include it
+    for hid, score_data in concept_scores.items():
+        if len(score_data["connected_domains"]) >= 3:
+            initial_hids.add(hid)
+    
+    # Build node objects for ALL concepts (for the ranked JSON)
+    all_nodes_data = []
+    for hid, score_data in concept_scores.items():
+        all_nodes_data.append({
+            "id": hid,
+            "label": score_data["title"],
+            "color": DOMAIN_COLORS.get(score_data["domain"], DEFAULT_COLOR),
+            "domain": score_data["domain"],
+            "definition": score_data["definition"],
+            "score": score_data["score"],
+            "edge_count": score_data["edge_count"],
+            "cross_domain_edges": score_data["cross_domain_edges"],
+            "initial": hid in initial_hids,
+        })
+        node_ids.add(hid)
+    
+    # Filter edges: only edges where both ends exist as concepts
     valid_edges = [e for e in all_edges if e["source"] in node_ids and e["target"] in node_ids]
     orphan = len(all_edges) - len(valid_edges)
     if orphan:
         print(f"  Filtered {orphan} orphan edge(s)")
-    print(f"  {len(nodes)} nodes, {len(valid_edges)} edges, {skipped} skipped")
-    print(f"  Domains in legend: {len(domain_counts)} (canonical: {len([d for d in domain_counts if d in CANONICAL_DOMAINS])})")
-    return nodes, valid_edges, domain_counts
+    
+    print(f"  {len(all_nodes_data)} nodes, {len(valid_edges)} edges, {skipped} skipped")
+    print(f"  Domains in data: {len(domain_counts)} (canonical with concepts: {len([d for d in CANONICAL_DOMAINS if d in domain_counts])})")
+    print(f"  Initial load: {len(initial_hids)} concepts (of {len(all_nodes_data)} total)")
+    
+    # Build ranked data for export (renderer-agnostic)
+    ranked_data = {
+        "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "total_concepts": len(all_nodes_data),
+        "total_edges": len(valid_edges),
+        "canonical_domains": CANONICAL_DOMAINS,
+        "initial_load_count": len(initial_hids),
+        "concepts": all_nodes_data,
+        "edges": valid_edges,
+    }
+    
+    return all_nodes_data, valid_edges, domain_counts, ranked_data, initial_hids
 
-def build_html_template():
-    return '''<!DOCTYPE html>
+def generate_html(nodes, edges, domain_counts, initial_hids):
+    """Generate the HTML map with progressive loading support."""
+    
+    # Separate initial and lazy nodes
+    initial_nodes = [n for n in nodes if n["id"] in initial_hids]
+    
+    # Build inline JSON for initial load
+    nodes_json = []
+    for n in initial_nodes:
+        escaped_id = n["id"].replace('"', '\\"')
+        escaped_label = n["label"].replace('"', '\\"')
+        escaped_def = n.get("definition", "").replace('"', '\\"')
+        escaped_domain = n.get("domain", "").replace('"', '\\"')
+        nodes_json.append(
+            '{{ data: {{ id: "{}", label: "{}", definition: "{}", domain: "{}", background_color: "{}" }} }}'.format(
+                escaped_id, escaped_label, escaped_def, escaped_domain, n["color"]
+            )
+        )
+    
+    # Initial edges: only edges where both ends are in the initial set
+    initial_edges = [e for e in edges if e["source"] in initial_hids and e["target"] in initial_hids]
+    edges_json = []
+    for e in initial_edges:
+        escaped_source = e["source"].replace('"', '\\"')
+        escaped_target = e["target"].replace('"', '\\"')
+        edges_json.append(
+            '{{ data: {{ source: "{}", target: "{}", label: "{}" }} }}'.format(
+                escaped_source, escaped_target, e["type"]
+            )
+        )
+    
+    # Legend items
+    legend_items = []
+    for domain in CANONICAL_DOMAINS:
+        if domain in domain_counts:
+            color = DOMAIN_COLORS.get(domain, DEFAULT_COLOR)
+            legend_items.append(
+                '<div class="legend-item"><div class="color-box" style="background:{}"></div><span>{}</span></div>'.format(
+                    color, domain.replace('_', ' ')
+                )
+            )
+    
+    edge_legend = '''
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #10B981"></div><span>→ builds_upon</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #F59E0B"></div><span>— related_to</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px dashed #8B5CF6"></div><span>→ specializes</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:3px solid #EF4444"></div><span>→ contradicts</span></div>'''
+    
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    info_text = 'CADMIES Mycelium Map | {} nodes ({} initial) | {} edges | {} | Click node for details | / to search | Esc to reset | Scroll to load more'.format(
+        len(nodes), len(initial_nodes), len(edges), timestamp
+    )
+    
+    html = '''<!DOCTYPE html>
 <html>
 <head>
     <title>CADMIES Mycelium Map</title>
@@ -287,6 +452,7 @@ def build_html_template():
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #FFFFFF; overflow: hidden; }
         #cy { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
+        #loading { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #0F172A; color: #FFFFFF; padding: 12px 24px; border-radius: 8px; font-size: 13px; z-index: 5000; display: none; font-family: monospace; }
         #info { position: absolute; bottom: 12px; left: 12px; background: #0F172A; color: #FFFFFF; padding: 8px 14px; border-radius: 8px; font-size: 11px; z-index: 100; pointer-events: none; font-family: monospace; }
         #searchBox { position: absolute; top: 20px; left: 20px; z-index: 1000; }
         #searchInput { padding: 10px 14px; font-size: 13px; border: 1px solid #E2E8F0; border-radius: 8px; width: 220px; font-family: sans-serif; outline: none; }
@@ -317,11 +483,14 @@ def build_html_template():
         .concept-card .card-close:hover { color: #FFFFFF; }
         .reset-btn { position: absolute; bottom: 55px; left: 20px; z-index: 1000; cursor: pointer; padding: 6px 12px; font-size: 11px; background: #0F172A; color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 6px; font-family: monospace; }
         .reset-btn:hover { background: #1E1B4B; }
+        .load-more-btn { position: absolute; bottom: 55px; left: 140px; z-index: 1000; cursor: pointer; padding: 6px 12px; font-size: 11px; background: #10B981; color: #FFFFFF; border: 1px solid #10B981; border-radius: 6px; font-family: monospace; }
+        .load-more-btn:hover { background: #059669; }
     </style>
 </head>
 <body>
     <div id="cy"></div>
-    <div id="info">__INFO_TEXT__</div>
+    <div id="loading">Loading concepts...</div>
+    <div id="info">''' + info_text + '''</div>
     <div class="node-tooltip" id="nodeTooltip"></div>
     <div class="concept-card" id="conceptCard">
         <span class="card-close" id="cardClose">x</span>
@@ -336,18 +505,33 @@ def build_html_template():
         <button class="zoom-btn" title="Zoom out" onclick="cy.zoom(cy.zoom() * 0.7); cy.center()">−</button>
     </div>
     <button class="reset-btn" onclick="resetView()">Reset View</button>
+    <button class="load-more-btn" id="loadMoreBtn" onclick="loadMoreConcepts()">Load More</button>
     <div class="legend-toggle" id="legendToggle">Legend</div>
     <div class="legend-panel collapsed" id="legendPanel">
         <span class="close-legend" id="closeLegend">x</span>
         <h4>Mycelium Legend</h4>
-        __LEGEND_ITEMS__
+        ''' + '\n'.join(legend_items) + '''
         <hr>
-        __EDGE_LEGEND__
+        ''' + edge_legend + '''
         <hr>
         <div class="legend-item"><span>Type 'cadmies' for easter egg</span></div>
     </div>
     <script>
-        var elements = { nodes: [__NODES_JSON__], edges: [__EDGES_JSON__] };
+        // === INITIAL DATA ===
+        var elements = { nodes: [''' + ',\n'.join(nodes_json) + '''], edges: [''' + ',\n'.join(edges_json) + '''] };
+        
+        // === LAZY DATA STORE ===
+        var allRankedConcepts = null;
+        var loadedHids = new Set();
+        var batchSize = 30;
+        var currentBatchIndex = 0;
+        var rankedList = [];
+        
+        // Track which HIDs are initially loaded
+        var initialNodeIds = new Set(elements.nodes.map(function(n) { return n.data.id; }));
+        initialNodeIds.forEach(function(id) { loadedHids.add(id); });
+        
+        // === CYTOSCAPE INIT ===
         var cy = cytoscape({
             container: document.getElementById('cy'),
             elements: elements,
@@ -383,6 +567,133 @@ def build_html_template():
                 nodeOverlap: 20,
                 nodeDimensionsIncludeLabels: false
             }
+        });
+
+        // === LOAD RANKED DATA FROM JSON ===
+        function fetchRankedData() {
+            if (allRankedConcepts) return Promise.resolve(allRankedConcepts);
+            document.getElementById('loading').style.display = 'block';
+            return fetch('concepts_ranked.json')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    allRankedConcepts = data;
+                    // Build ranked list of not-yet-loaded concepts, sorted by score
+                    rankedList = data.concepts
+                        .filter(function(c) { return !loadedHids.has(c.id); })
+                        .sort(function(a, b) { return b.score - a.score; });
+                    document.getElementById('loading').style.display = 'none';
+                    console.log('Ranked data loaded: ' + data.total_concepts + ' concepts, ' + data.total_edges + ' edges');
+                    console.log('Initial load: ' + loadedHids.size + ' concepts, ' + rankedList.length + ' remaining');
+                    return data;
+                })
+                .catch(function(err) {
+                    document.getElementById('loading').style.display = 'none';
+                    console.error('Failed to load ranked data:', err);
+                });
+        }
+
+        // === PROGRESSIVE LOADING ===
+        function loadMoreConcepts() {
+            if (!allRankedConcepts) {
+                fetchRankedData().then(function() { loadMoreConcepts(); });
+                return;
+            }
+            
+            if (currentBatchIndex >= rankedList.length) {
+                document.getElementById('loadMoreBtn').textContent = 'All Loaded';
+                document.getElementById('loadMoreBtn').style.opacity = '0.5';
+                return;
+            }
+            
+            document.getElementById('loading').style.display = 'block';
+            
+            var batch = rankedList.slice(currentBatchIndex, currentBatchIndex + batchSize);
+            currentBatchIndex += batchSize;
+            
+            // Add new nodes
+            var newNodes = batch.map(function(c) {
+                return {
+                    group: 'nodes',
+                    data: {
+                        id: c.id,
+                        label: c.label,
+                        definition: c.definition,
+                        domain: c.domain,
+                        background_color: c.color
+                    }
+                };
+            });
+            
+            // Find edges for these new nodes from the ranked data
+            var newEdges = [];
+            if (allRankedConcepts.edges) {
+                var newNodeIds = new Set(batch.map(function(c) { return c.id; }));
+                allRankedConcepts.edges.forEach(function(e) {
+                    if (newNodeIds.has(e.source) || newNodeIds.has(e.target)) {
+                        // Only add if target node exists (initial or already loaded)
+                        if (loadedHids.has(e.source) || loadedHids.has(e.target) || newNodeIds.has(e.source) && newNodeIds.has(e.target)) {
+                            newEdges.push({
+                                group: 'edges',
+                                data: {
+                                    source: e.source,
+                                    target: e.target,
+                                    label: e.type
+                                }
+                            });
+                        }
+                    }
+                });
+            }
+            
+            batch.forEach(function(c) { loadedHids.add(c.id); });
+            
+            cy.add(newNodes.concat(newEdges));
+            
+            // Run a quick layout to position new nodes
+            cy.layout({
+                name: 'cose',
+                idealEdgeLength: 120,
+                nodeRepulsion: 6000,
+                gravity: 0.15,
+                numIter: 500,
+                animate: true,
+                animationDuration: 800,
+                nodeOverlap: 20,
+                fit: false,
+                randomize: false
+            }).run();
+            
+            document.getElementById('loading').style.display = 'none';
+            
+            var remaining = rankedList.length - currentBatchIndex;
+            document.getElementById('loadMoreBtn').textContent = 'Load More (' + remaining + ' left)';
+            
+            if (remaining <= 0) {
+                document.getElementById('loadMoreBtn').textContent = 'All Loaded';
+                document.getElementById('loadMoreBtn').style.opacity = '0.5';
+            }
+            
+            // Update info bar
+            document.getElementById('info').textContent = 'CADMIES Mycelium Map | ' + allRankedConcepts.total_concepts + ' nodes | ' + loadedHids.size + ' loaded | ' + allRankedConcepts.total_edges + ' edges | / to search | Esc to reset | Scroll to load more';
+        }
+
+        // Auto-load on zoom/pan (loads more when user explores)
+        var lastAutoLoad = 0;
+        cy.on('viewport', function() {
+            var now = Date.now();
+            if (now - lastAutoLoad > 3000 && currentBatchIndex < rankedList.length && allRankedConcepts) {
+                lastAutoLoad = now;
+                // Load a smaller batch on auto
+                var origBatch = batchSize;
+                batchSize = 10;
+                loadMoreConcepts();
+                batchSize = origBatch;
+            }
+        });
+
+        // Fetch ranked data in background after initial render
+        cy.ready(function() {
+            setTimeout(fetchRankedData, 500);
         });
 
         // Auto-size on zoom
@@ -491,7 +802,6 @@ def build_html_template():
                         n.style({ 'opacity': 0.08, 'border-width': 1 });
                     }
                 });
-                // Ghost edges that connect to visible nodes
                 cy.edges().forEach(function(e) {
                     var srcVisible = e.source().data('domain') === domainText;
                     var tgtVisible = e.target().data('domain') === domainText;
@@ -551,74 +861,43 @@ def build_html_template():
     </script>
 </body>
 </html>'''
-
-def generate_html(nodes, edges, domain_counts):
-    template = build_html_template()
-    nodes_json = []
-    for n in nodes:
-        nodes_json.append(
-            '{{ data: {{ id: "{}", label: "{}", definition: "{}", domain: "{}", background_color: "{}" }} }}'.format(
-                n["id"].replace('"', '\\"'),
-                n["label"].replace('"', '\\"'),
-                n.get("definition", "").replace('"', '\\"'),
-                n.get("domain", "").replace('"', '\\"'),
-                n["color"]
-            )
-        )
-    template = template.replace('__NODES_JSON__', ',\n'.join(nodes_json))
-    edges_json = []
-    for e in edges:
-        edges_json.append(
-            '{{ data: {{ source: "{}", target: "{}", label: "{}" }} }}'.format(
-                e["source"].replace('"', '\\"'),
-                e["target"].replace('"', '\\"'),
-                e["type"]
-            )
-        )
-    template = template.replace('__EDGES_JSON__', ',\n'.join(edges_json) if edges_json else '')
-    legend_items = []
-    for domain in CANONICAL_DOMAINS:
-        if domain in domain_counts:
-            color = DOMAIN_COLORS.get(domain, DEFAULT_COLOR)
-            legend_items.append(
-                '<div class="legend-item"><div class="color-box" style="background:{}"></div><span>{}</span></div>'.format(
-                    color, domain.replace('_', ' ')
-                )
-            )
-    template = template.replace('__LEGEND_ITEMS__', '\n'.join(legend_items))
-    edge_legend = '''
-        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #10B981"></div><span>→ builds_upon</span></div>
-        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #F59E0B"></div><span>— related_to</span></div>
-        <div class="legend-item"><div class="line-sample" style="border-bottom:2px dashed #8B5CF6"></div><span>→ specializes</span></div>
-        <div class="legend-item"><div class="line-sample" style="border-bottom:3px solid #EF4444"></div><span>→ contradicts</span></div>'''
-    template = template.replace('__EDGE_LEGEND__', edge_legend)
-    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    info_text = 'CADMIES Mycelium Map | {} nodes | {} edges | {} | Click node for details | / to search | Esc to reset'.format(
-        len(nodes), len(edges), timestamp
-    )
-    template = template.replace('__INFO_TEXT__', info_text)
-    return template
+    return html
 
 def main():
     print("=" * 60)
-    print("CADMIES MYCELIUM MAP GENERATOR v2.4.0")
+    print("CADMIES MYCELIUM MAP GENERATOR v3.0.0")
     print(f"Blockstore: {BLOCKS_DIR}")
     print(f"Output: {OUTPUT_FILE}")
+    print(f"Ranked data: {RANKED_DATA_FILE}")
     print(f"Canonical domains: {len(CANONICAL_DOMAINS)}")
     print("=" * 60)
-    nodes, edges, domain_counts = gather_concepts()
+    
+    nodes, edges, domain_counts, ranked_data, initial_hids = gather_concepts()
+    
     if not nodes:
         print("\nERROR: No concepts loaded.")
         sys.exit(1)
-    html = generate_html(nodes, edges, domain_counts)
+    
+    # Write ranked data JSON (renderer-agnostic)
+    with open(RANKED_DATA_FILE, "w") as f:
+        json.dump(ranked_data, f, indent=2)
+    print(f"\nRanked data saved: {RANKED_DATA_FILE}")
+    print(f"   {ranked_data['total_concepts']} concepts, {ranked_data['total_edges']} edges")
+    print(f"   Initial load: {ranked_data['initial_load_count']} concepts")
+    
+    # Generate HTML
+    html = generate_html(nodes, edges, domain_counts, initial_hids)
     with open(OUTPUT_FILE, "w") as f:
         f.write(html)
     print(f"\nMap generated: {OUTPUT_FILE}")
-    print(f"   {len(nodes)} nodes, {len(edges)} relationships, {len(domain_counts)} domains in data")
+    print(f"   {len(nodes)} total nodes, {len(edges)} total edges, {len(domain_counts)} domains in data")
     legend_domains = [d for d in CANONICAL_DOMAINS if d in domain_counts]
     print(f"   Legend: {len(legend_domains)} canonical domains shown")
-    print(f"   Features: zoom, search, tooltips, concept cards, directional arrows, interactive legend, keyboard shortcuts, node collision spacing, click-to-highlight, legend domain filter")
-    print(f"   Phase 44: Canonical 15-domain allowlist with upward mapping")
+    print(f"   Phase 66: Progressive loading — {len(initial_hids)} concepts initial, {len(nodes) - len(initial_hids)} lazy-loaded")
+    print(f"   Features: zoom, search, tooltips, concept cards, directional arrows, interactive legend, keyboard shortcuts, node collision spacing, click-to-highlight, legend domain filter, progressive loading via 'Load More' button + auto-load on pan/zoom")
+    print(f"   Data layer: concepts_ranked.json — renderer-agnostic, consumable by any future map renderer")
+    
+    # Update Tkinter page count
     tkinter_page = PROJECT_ROOT / "cadmies-gui" / "pages" / "tkinter_mycelium_map.py"
     if tkinter_page.exists():
         with open(tkinter_page, "r") as f:
@@ -627,6 +906,7 @@ def main():
         with open(tkinter_page, "w") as f:
             f.write(content)
         print(f"   Updated Tkinter page count to {len(nodes)} concepts.")
+    
     try:
         webbrowser.open(f"file://{OUTPUT_FILE}")
         print(f"   Opened map in browser.")
