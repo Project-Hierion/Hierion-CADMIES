@@ -2,7 +2,7 @@
 """
 File: generate_public_gateway.py
 Tool: CADMIES Public Mycelium Gateway Generator
-Version: 2.0.1
+Version: 3.0.0
 System: CADMIES / tools
 Status: ACTIVE
 
@@ -17,12 +17,13 @@ Usage:
     python tools/generate_public_gateway.py
 
 Output:
-    ../docs/ — static site served by GitHub Pages
+    ../docs/ — static site served by web server
 
 Version History:
+  v3.0.0 (2026-06-24): Project renamed from Hieros to Hierion. Updated all
+      URLs and references to reflect new project identity and domain.
   v2.0.1 (2026-05-27): Fixed OUTPUT_DIR from public_concepts_gateway/ to ../docs/.
-      Updated SITE_URL to https://hieros-cadmies.github.io/CADMIES/.
-      Updated deploy message to reference /docs folder.
+      Updated SITE_URL. Updated deploy message to reference /docs folder.
   v2.0.0 (2026-05-15): Initial public gateway release with filterable concept cards,
       interactive map, JSON-LD feed, and XML sitemap.
 """
@@ -42,7 +43,7 @@ from cadmies_concept_reader import load_concept, load_all_concept_cids
 from paths import BLOCKS_DIR
 
 OUTPUT_DIR = PROJECT_ROOT.parent / "docs"
-SITE_URL = "https://hieros-cadmies.github.io/CADMIES/"
+SITE_URL = "https://project-hierion.duckdns.org"
 
 # Domain display names for the public site
 DOMAIN_DISPLAY = {
@@ -346,9 +347,9 @@ def build_index_page(concepts, domain_counts):
 <body>
     <header>
         <div class="container">
-            <h1>CADMIES Mycelium</h1>
+            <h1>CADMIES</h1>
             <p class="subtitle">A decentralized knowledge graph of interconnected scientific and philosophical concepts.<br>Content-addressed. Open-source. Forever.</p>
-            <a href="mycelium_map.html" class="map-link">Explore the Interactive Map</a>
+            <a href="mycelium_map.html" class="map-link">Explore the Interactive Mycelium Map</a>
             <div class="stats">
                 <div class="stat"><div class="stat-number">{len(concepts)}</div><div class="stat-label">Concepts</div></div>
                 <div class="stat"><div class="stat-number">{len(domain_counts)}</div><div class="stat-label">Domains</div></div>
@@ -374,7 +375,7 @@ def build_index_page(concepts, domain_counts):
         <div class="container">
             <p>CADMIES — Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem</p>
             <p>All concepts licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Each concept has a permanent CID (Content Identifier) — the hash proves nothing was altered.</p>
-            <p><a href="sitemap.xml">Sitemap</a> · <a href="concepts.json">JSON Feed</a> · <a href="https://github.com/Hieros-CADMIES/CADMIES">GitHub</a></p>
+            <p><a href="sitemap.xml">Sitemap</a> · <a href="concepts.json">JSON Feed</a> · <a href="https://github.com/Project-Hierion/Hierion-CADMIES">GitHub</a></p>
         </div>
     </footer>
     <script>
