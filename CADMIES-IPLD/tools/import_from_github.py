@@ -1,8 +1,19 @@
 #!/usr/bin/env python3
 """
-import_from_github.py v1.0.0
-Purpose: Download a CAR file from GitHub and import to CADMIES
-Usage: python tools/import_from_github.py --url <GitHub_CAR_url> [--keep]
+File: import_from_github.py
+Tool: CADMIES GitHub CAR Downloader
+Version: 1.0.0
+System: CADMIES / tools
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: Download a CAR file from a URL and import into CADMIES.
+         Handles download, import, and optional cleanup.
+
+Usage:
+    python tools/import_from_github.py --url <CAR_url>
+    python tools/import_from_github.py --url <CAR_url> --keep
+    python tools/import_from_github.py --url <CAR_url> --dry-run
 """
 
 import argparse
@@ -12,17 +23,9 @@ from pathlib import Path
 import urllib.request
 import urllib.error
 
-# ============================================================================
-# CONFIGURATION
-# ============================================================================
-
 PROJECT_ROOT = Path(__file__).parent.parent
 INCOMING_DIR = PROJECT_ROOT / "incoming_cars"
 
-
-# ============================================================================
-# FUNCTIONS
-# ============================================================================
 
 def ensure_incoming_dir():
     """Create incoming_cars directory if it doesn't exist."""
@@ -31,16 +34,7 @@ def ensure_incoming_dir():
 
 
 def download_file(url: str, destination: Path) -> bool:
-    """
-    Download a file from URL to destination.
-    
-    Args:
-        url: Source URL
-        destination: Where to save the file
-    
-    Returns:
-        True if successful, False otherwise
-    """
+    """Download a file from URL to destination."""
     try:
         print(f"🌐 Downloading from: {url}")
         urllib.request.urlretrieve(url, destination)
@@ -56,17 +50,7 @@ def download_file(url: str, destination: Path) -> bool:
 
 
 def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> bool:
-    """
-    Import a CAR file using import_from_car.py.
-    
-    Args:
-        car_path: Path to CAR file
-        dry_run: If True, preview without importing
-        verbose: Show detailed output
-    
-    Returns:
-        True if successful, False otherwise
-    """
+    """Import a CAR file using import_from_car.py."""
     import_script = PROJECT_ROOT / "tools" / "import_from_car.py"
     
     if not import_script.exists():
@@ -91,69 +75,40 @@ def import_car(car_path: Path, dry_run: bool = False, verbose: bool = False) -> 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Download CAR file from GitHub and import to CADMIES",
+        description="CADMIES GitHub CAR Downloader v1.0.0",
         epilog="""
 Examples:
-  # Download and import (CAR will be deleted after import)
-  python tools/import_from_github.py --url https://github.com/user/repo/releases/download/v1/file.car
-  
-  # Download, import, and keep the CAR file
+  python tools/import_from_github.py --url https://github.com/.../file.car
   python tools/import_from_github.py --url https://github.com/.../file.car --keep
-  
-  # Preview without importing
   python tools/import_from_github.py --url https://github.com/.../file.car --dry-run
         """,
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     
-    parser.add_argument(
-        '--url', '-u',
-        required=True,
-        help='GitHub URL of the CAR file to download'
-    )
-    
-    parser.add_argument(
-        '--keep',
-        action='store_true',
-        help='Keep the CAR file after import (default: delete after successful import)'
-    )
-    
-    parser.add_argument(
-        '--dry-run', '-n',
-        action='store_true',
-        help='Preview import without making changes'
-    )
-    
-    parser.add_argument(
-        '--verbose', '-v',
-        action='store_true',
-        help='Show detailed output'
-    )
+    parser.add_argument('--url', '-u', required=True, help='URL of the CAR file to download')
+    parser.add_argument('--keep', action='store_true', help='Keep the CAR file after import')
+    parser.add_argument('--dry-run', '-n', action='store_true', help='Preview import without making changes')
+    parser.add_argument('--verbose', '-v', action='store_true', help='Show detailed output')
     
     args = parser.parse_args()
     
-    # Ensure incoming directory exists
     ensure_incoming_dir()
     
-    # Extract filename from URL
     filename = args.url.split('/')[-1]
     if not filename.endswith('.car'):
         filename += '.car'
     
     car_path = INCOMING_DIR / filename
     
-    # Download the file
     if not download_file(args.url, car_path):
         sys.exit(1)
     
-    # Import the CAR file
     success = import_car(car_path, dry_run=args.dry_run, verbose=args.verbose)
     
     if not success:
         print("❌ Import failed")
         sys.exit(1)
     
-    # Cleanup unless --keep or --dry-run
     if not args.keep and not args.dry_run:
         car_path.unlink()
         print(f"🗑️  Deleted CAR file: {car_path}")
