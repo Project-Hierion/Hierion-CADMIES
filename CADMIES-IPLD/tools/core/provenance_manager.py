@@ -1,9 +1,19 @@
 #!/usr/bin/env python3
 """
-Provenance Manager v1.0.0
-Purpose: Create and query provenance records (timestamps, authorship, verification)
+File: provenance_manager.py
+Tool: CADMIES Provenance Manager
+Version: 1.0.0
+System: CADMIES / tools/core
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: Create and query provenance records (timestamps, authorship, verification).
+         Air-gapped compatible. No network required.
+
+Usage:
+    from provenance_manager import ProvenanceManager
+
 Dependencies: dag_cbor, multiformats
-Air-Gapped: Yes
 """
 
 import json
@@ -36,13 +46,11 @@ class ProvenanceManager:
             **kwargs
         }
         
-        # Generate CID for the provenance record
         cbor_bytes = dag_cbor.encode(record)
         digest = hashlib.sha256(cbor_bytes).digest()
         mh = multihash.wrap(digest, 'sha2-256')
         cid = CID('base32', 1, 'dag-cbor', mh)
         
-        # Store the block
         block_path = self.blocks_path / str(cid)
         with open(block_path, 'wb') as f:
             f.write(cbor_bytes)
@@ -57,20 +65,17 @@ class ProvenanceManager:
         """Find all provenance records referencing a concept CID"""
         results = []
         
-        # Scan all blocks for provenance records
         for block_file in self.blocks_path.glob("bafy*"):
             with open(block_file, 'rb') as f:
                 cbor_bytes = f.read()
             
             try:
                 record = dag_cbor.decode(cbor_bytes)
-                # Check if it's a provenance record (has concept_cid field)
                 if isinstance(record, dict) and record.get("concept_cid") == concept_cid:
                     results.append(record)
-            except:
+            except (ValueError, KeyError, TypeError):
                 continue
         
-        # Sort by timestamp
         results.sort(key=lambda x: x.get("timestamp", ""))
         return results
     
