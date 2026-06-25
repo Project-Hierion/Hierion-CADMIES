@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 """
-strip_all_orphans.py — Session 016
-Strip all edges pointing to non-existent targets.
-Creates a backup tarball of blocks/ before modifying anything.
+File: strip_all_orphans.py
+Tool: CADMIES Orphan Edge Stripper
+Version: 1.0.0
+System: CADMIES / tools
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: Strip all edges pointing to non-existent targets.
+         Creates a backup tarball of blocks/ before modifying anything.
+
 Usage:
     python tools/strip_all_orphans.py           # dry run
     python tools/strip_all_orphans.py --apply   # strip with backup
 """
+
 import json, sys, subprocess
 from pathlib import Path
 from collections import defaultdict
@@ -26,7 +34,6 @@ apply = "--apply" in sys.argv
 
 print(f"=== Strip All Orphan Edges {'— APPLY' if apply else '— DRY RUN'} ===\n")
 
-# Build valid targets
 all_cids = load_all_concept_cids()
 node_ids = set()
 source_cid_map = {}
@@ -37,7 +44,6 @@ for cid in all_cids:
         node_ids.add(hid)
         source_cid_map[hid] = cid
 
-# Collect all edges
 blockstore_edges = []
 for cid in all_cids:
     concept = load_concept(cid)
@@ -49,11 +55,9 @@ for cid in all_cids:
             if isinstance(target, str):
                 blockstore_edges.append({'source': hid, 'target': target, 'type': rel_type})
 
-# Find orphans
 orphans = [e for e in blockstore_edges if e['target'] not in node_ids]
 print(f'Orphan edges found: {len(orphans)}')
 
-# Show sample
 unique_targets = set(e['target'] for e in orphans)
 print(f'Unique missing targets: {len(unique_targets)}')
 print('Sample targets:')
@@ -65,7 +69,6 @@ if not apply:
     print(f'\nDry run. Add --apply to strip with backup.')
     sys.exit(0)
 
-# Create backup
 timestamp = datetime.now().strftime('%Y%m%dT%H%M%S')
 backup_name = f'blocks_pre_orphan_strip_{timestamp}.tar.gz'
 backup_path = BACKUP_DIR / backup_name
@@ -78,7 +81,6 @@ subprocess.run([
 ], check=True)
 print(f'Backup saved: {backup_path}')
 
-# Strip
 by_source = defaultdict(list)
 for e in orphans:
     by_source[e['source']].append(e)
