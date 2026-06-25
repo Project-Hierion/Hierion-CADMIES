@@ -1,16 +1,23 @@
 #!/usr/bin/env python3
 """
-CAR Utils v1.0.3 - Minimal CAR (Content Addressable Archive) reader/writer
-Purpose: Read/write CAR files without external dependencies
-Spec: https://ipld.io/specs/transport/car/carv1/
+File: car_utils.py
+Tool: CADMIES CAR Utilities
+Version: 1.0.3
+System: CADMIES / tools/core
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
 
-Changelog:
-  v1.0.3 (2026-05-25): Added read_car_index() to extract human_id -> CID mapping
-                       from consolidated index blocks in CADMIES CAR files.
-  v1.0.2 (2026-05-23): Fixed calculate_cid() to use hashlib.sha256 + multihash.wrap
-                       matching cid_generator.py and remint_existing_concepts.py.
-  v1.0.1 (2026-05-23): Fixed CID construction, added re-encode verification
-  v1.0.0: Initial release
+Purpose: Read/write CAR (Content Addressable Archive) files without external dependencies.
+         Spec: https://ipld.io/specs/transport/car/carv1/
+
+Usage:
+    from car_utils import write_car, read_car, read_car_index, calculate_cid
+
+Version History:
+  v1.0.3 (2026-05-25): Added read_car_index() to extract human_id -> CID mapping.
+  v1.0.2 (2026-05-23): Fixed calculate_cid() to use hashlib.sha256 + multihash.wrap.
+  v1.0.1 (2026-05-23): Fixed CID construction, added re-encode verification.
+  v1.0.0: Initial release.
 """
 
 import struct
@@ -20,16 +27,12 @@ from typing import Dict, List, Tuple, Optional, Union
 import dag_cbor
 from multiformats import CID, multihash
 
-# ============================================================================
-# CID HELPER FUNCTIONS
-# ============================================================================
 
 def calculate_cid(data: bytes) -> str:
     """Calculate CID string for given data.
     
     Uses hashlib.sha256 + multihash.wrap to match cid_generator.py
-    and remint_existing_concepts.py. Do not use multihash.digest() —
-    it produces different multihash byte structures on some inputs.
+    and remint_existing_concepts.py.
     """
     hash_bytes = hashlib.sha256(data).digest()
     mh = multihash.wrap(hash_bytes, "sha2-256")
@@ -58,10 +61,7 @@ def storage_bytes_to_cid_str(storage_bytes: Union[str, bytes]) -> str:
 
 
 def cids_equivalent(cid1: str, cid2: str) -> bool:
-    """
-    Check if two CIDs refer to the same content.
-    Handles CIDv0 vs CIDv1 differences.
-    """
+    """Check if two CIDs refer to the same content."""
     if cid1 == cid2:
         return True
     
@@ -69,13 +69,9 @@ def cids_equivalent(cid1: str, cid2: str) -> bool:
         obj1 = CID.decode(cid1)
         obj2 = CID.decode(cid2)
         return obj1.digest == obj2.digest
-    except:
+    except (ValueError, ImportError):
         return False
 
-
-# ============================================================================
-# CAR FORMAT FUNCTIONS
-# ============================================================================
 
 def write_car(blocks: Dict[bytes, bytes], roots: List[bytes], output_path: Path) -> None:
     """Write blocks to CAR file."""
@@ -139,14 +135,7 @@ def read_car(file_path: Path) -> Tuple[Dict[str, bytes], List[str]]:
 
 
 def read_car_index(file_path: Path) -> Dict[str, str]:
-    """Build human_id -> CID mapping from all concept blocks in a CAR file.
-    
-    Reads every block in the CAR, decodes it, and extracts the human_id
-    field from each concept block to build the index mapping.
-    
-    Returns:
-        Dict mapping human_id strings to CID strings.
-    """
+    """Build human_id -> CID mapping from all concept blocks in a CAR file."""
     blocks, roots = read_car(file_path)
     index = {}
     
@@ -156,7 +145,7 @@ def read_car_index(file_path: Path) -> Dict[str, str]:
             if isinstance(decoded, dict) and 'human_id' in decoded:
                 human_id = decoded['human_id']
                 index[human_id] = cid_str
-        except:
+        except (ValueError, TypeError):
             continue
     
     return index
@@ -193,10 +182,6 @@ def _read_varint(file_handle) -> int:
     return result
 
 
-# ============================================================================
-# CADMIES-SPECIFIC HELPER FUNCTIONS
-# ============================================================================
-
 def load_block_from_store(cid: str, blocks_dir: Path) -> Optional[bytes]:
     """Load a block from CADMIES blockstore by CID."""
     block_path = blocks_dir / f"{cid}.cbor"
@@ -217,30 +202,20 @@ def save_block_to_store(cid: str, block_data: bytes, blocks_dir: Path) -> bool:
 
 
 def verify_block_integrity(block_data: bytes, expected_cid: str) -> bool:
-    """Verify that block data matches its CID.
-    
-    Re-encodes the block via dag_cbor first to normalize any encoding
-    differences (key ordering, etc.), then computes CID from normalized bytes.
-    This handles stale filenames where the block was re-encoded but the
-    file kept its original CID name.
-    """
+    """Verify that block data matches its CID."""
     try:
         decoded = dag_cbor.decode(block_data)
         normalized = dag_cbor.encode(decoded)
         actual_cid = calculate_cid(normalized)
         return cids_equivalent(actual_cid, expected_cid)
-    except:
+    except (ValueError, TypeError):
         actual_cid = calculate_cid(block_data)
         return cids_equivalent(actual_cid, expected_cid)
 
 
-# ============================================================================
-# SELF-TEST
-# ============================================================================
-
 if __name__ == "__main__":
     print("=" * 60)
-    print("CAR Utils v1.0.3 - Self Test")
+    print("CADMIES CAR UTILS v1.0.3 - Self Test")
     print("=" * 60)
     
     print("\n1. Testing write/read roundtrip...")
