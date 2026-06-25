@@ -1,56 +1,24 @@
 #!/usr/bin/env python3
-# ============================================================================
-# MODULE METADATA
-# ============================================================================
-__version__ = "1.1.0"
-__author__ = "Project Hieros - CADMIES-IPLD Research Group"
-__created__ = "2026-01-05"
-__status__ = "Public Release"
-__license__ = "AGPLv3 with Commons Clause"
-# ============================================================================
-
 """
-AGPLv3 with Commons Clause
-
-This software is free to use for:
-- Individual learning and research
-- Academic institutions
-- Non-profit organizations
-- Open source projects
-- Personal knowledge management
-
-This software may NOT be used for:
-- Commercial SaaS offerings without contributing back
-- Proprietary AI training without reciprocity
-- Commercial products that don't share improvements
-
-Commons Clause Condition:
-The license granted under the AGPLv3 is hereby limited to exclude the right
-to sell the Software, or products that include the Software, without the
-express permission of the copyright holders.
-
-For commercial licensing or permission, contact: hieroscadmies@proton.me
-
-Copyright (c) 2026 Project Hieros - CADMIES-IPLD Research Group
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published
-by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program. If not, see <https://www.gnu.org/licenses/>.
-
 File: cid_generator.py
-Description: CID Generator for IPLD-based knowledge storage
+Tool: CADMIES CID Generator
 Version: 1.1.0
-System: CADMIES
-Purpose: Diminishing human ignorance through open, mycorrhizal knowledge systems.
+System: CADMIES / tools/core
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: Generates CIDs from structured knowledge concepts using IPLD/DAG-CBOR.
+         Provides deterministic content addressing for shared understanding.
+         Content-addressed, immutable, verifiable.
+
+Usage:
+    python tools/core/cid_generator.py
+    python tools/core/cid_generator.py --concept-file concept.json
+
+Version History:
+  v1.1.0 (2026-06-24): Project renamed from Hieros to Hierion. Updated author,
+      copyright, and contact information.
+  v1.0.0: Initial release — CIDv1, dag-cbor, SHA2-256.
 """
 
 import json
@@ -99,7 +67,7 @@ class CIDGenerator:
     
         if "metadata" in concept:
             metadata = concept["metadata"]
-            meta_required = ["creator", "certainty_score", "version"]  # created is now optional
+            meta_required = ["creator", "certainty_score", "version"]
             for field in meta_required:
                 if field not in metadata:
                     errors.append(f"Missing metadata field: {field}")
@@ -129,16 +97,13 @@ class CIDGenerator:
                     "bytes_size": 0
                 }
             
-            # Serialize to DAG-CBOR
             serialized = dag_cbor.encode(concept)
             bytes_size = len(serialized)
             
-            # Compute SHA2-256 hash
             hash_obj = hashlib.sha256(serialized)
             hash_bytes = hash_obj.digest()
             hash_preview = hash_bytes[:8].hex() + "..."
             
-            # Generate CID
             mh = multihash.wrap(hash_bytes, "sha2-256")
             cid = CID("base32", 1, "dag-cbor", mh)
             cid_str = str(cid)
@@ -181,14 +146,12 @@ class CIDGenerator:
             serialized = cid_result["serialized"]
             human_id = concept.get("human_id", "unknown")
             
-            # Save block
             block_path = BLOCKS_DIR / f"{cid}.cbor"
             block_path.parent.mkdir(parents=True, exist_ok=True)
             
             with open(block_path, "wb") as f:
                 f.write(serialized)
             
-            # Update index
             index_path = INDEX_DIR / "human_id_to_cid.json"
             index_path.parent.mkdir(parents=True, exist_ok=True)
             
@@ -199,7 +162,6 @@ class CIDGenerator:
             
             index[human_id] = cid
             
-            # Backup existing index to backups subdirectory
             if os.path.exists(index_path):
                 backup_dir = os.path.join(os.path.dirname(index_path), "backups")
                 os.makedirs(backup_dir, exist_ok=True)
@@ -208,11 +170,9 @@ class CIDGenerator:
                 import shutil
                 shutil.copy2(index_path, backup_path)
             
-            # Write updated index
             with open(index_path, "w") as f:
                 json.dump(index, f, indent=2)
             
-            # Log operation
             log_path = LOGS_DIR / "operations.jsonl"
             log_path.parent.mkdir(parents=True, exist_ok=True)
             
@@ -230,7 +190,6 @@ class CIDGenerator:
             with open(log_path, "a") as f:
                 f.write(json.dumps(log_entry) + "\n")
 
-            # Auto-create provenance record for this concept
             try:
                 pm = ProvenanceManager()
                 provenance_result = pm.create_provenance_record(
@@ -299,7 +258,7 @@ def create_sample_concept() -> Dict[str, Any]:
     """Create a sample knowledge concept for testing and education"""
     return {
         "schema_version": "1.0.0",
-        "human_id": "Physics:Law/ConservationOfEnergy",
+        "human_id": "conservation_of_energy",
         "title": "Law of Conservation of Energy",
         "definition": "Energy cannot be created or destroyed, only transformed from one form to another. This fundamental principle enables understanding of physical systems across scales.",
         "type": "ScientificLaw",
@@ -388,7 +347,6 @@ def read_concept_file(file_path: str) -> Dict[str, Any]:
     if "title" not in concept:
         raise ValueError("Knowledge concept missing required field: title")
     
-    # Check for explicit purpose/educational intent
     if "metadata" in concept and "purpose" in concept["metadata"]:
         purpose = concept["metadata"]["purpose"]
         if purpose not in ["educational", "research", "personal_knowledge"]:
@@ -400,17 +358,13 @@ def read_concept_file(file_path: str) -> Dict[str, Any]:
 def main():
     """Main function with command-line argument parsing"""
     parser = argparse.ArgumentParser(
-        description="IPLD CID Generator - Generate CIDs for knowledge concepts",
+        description="CID Generator - Generate CIDs for knowledge concepts",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-ETHICAL USE STATEMENT:
-This tool is for knowledge sharing and diminishing ignorance. 
-Commercial use requires contributing back to the commons.
-
 Examples:
-  %(prog)s                         # Process sample concept (educational)
+  %(prog)s                         # Process sample concept
   %(prog)s --concept-file knowledge.json  # Process external knowledge file
-  
+
 Requirements: dag-cbor, multiformats packages
 Install: pip install dag-cbor multiformats
         """
@@ -426,7 +380,7 @@ Install: pip install dag-cbor multiformats
     parser.add_argument(
         "--version",
         action="version",
-        version=f"IPLD CID Generator (AGPLv3 + Commons Clause)"
+        version=f"CID Generator v1.1.0"
     )
     
     parser.add_argument(
@@ -439,11 +393,10 @@ Install: pip install dag-cbor multiformats
     
     generator = CIDGenerator()
     
-    print("=" * 70)
-    print(f"IPLD CID GENERATOR v{__version__}")
-    print("Content-Addressed Knowledge Systems")
-    print("License: AGPLv3 with Commons Clause (see header)")
-    print("=" * 70)
+    print("=" * 60)
+    print("CADMIES CID GENERATOR v1.1.0")
+    print(f"License: AGPLv3 with Commons Clause")
+    print("=" * 60)
     
     concept = None
     source = "sample_concept"
@@ -462,7 +415,6 @@ Install: pip install dag-cbor multiformats
             if "human_id" in concept:
                 print(f"   Human ID: {concept['human_id']}")
             
-            # Ethical check
             if args.educational_only:
                 metadata = concept.get("metadata", {})
                 purpose = metadata.get("purpose", "")
@@ -491,7 +443,6 @@ Install: pip install dag-cbor multiformats
         print(f"   Purpose: {concept['metadata'].get('purpose', 'educational')}")
         print(f"   License: {concept['metadata'].get('license', 'CC BY-SA 4.0')}")
     
-    # Generate CID
     result = generator.generate_cid(concept)
     
     print(f"\n🧪 Processing: '{concept.get('title', 'Knowledge Concept')}'")
@@ -509,7 +460,6 @@ Install: pip install dag-cbor multiformats
             print(f"   • {error}")
         sys.exit(5)
     
-    # Save to blockstore
     if result["success"]:
         save_result = generator.save_to_blockstore(result, concept)
         
@@ -517,7 +467,7 @@ Install: pip install dag-cbor multiformats
             print(f"\n💾 Saved to knowledge store:")
             print(f"   Block: {save_result['block_path']}")
             print(f"   Index: Updated with '{save_result['human_id']}' → '{save_result['cid']}'")
-            print(f"   Log: Operation recorded (purpose: knowledge_sharing)")
+            print(f"   Log: Operation recorded")
         else:
             print(f"\n⚠️  Knowledge store save failed (CID still generated):")
             for error in save_result.get("errors", ["Unknown error"]):
@@ -529,9 +479,7 @@ Install: pip install dag-cbor multiformats
         print(f"   CID: {result['cid']}")
         print(f"   Size: {result['bytes_size']} bytes")
         print(f"   Source: {source}")
-        print(f"   Purpose: Knowledge sharing")
     
-    # Test determinism (trust verification)
     if result["success"]:
         deterministic = generator.test_determinism(concept)
         if not deterministic:
@@ -540,12 +488,6 @@ Install: pip install dag-cbor multiformats
     print(f"\n✅ Knowledge address generated successfully!")
     print("   This CID will always point to this exact understanding.")
     print("   Shared knowledge → shared understanding → diminished ignorance")
-    
-    # Reminder about ethical use
-    print(f"\n📜 REMINDER:")
-    print("   This tool is licensed under AGPLv3 with Commons Clause.")
-    print("   Commercial use requires contributing improvements back.")
-    print("   Knowledge should be free, not exploited.")
 
 if __name__ == "__main__":
     main()
