@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
 """
 File: enrich_concepts.py
-CLI: CADMIES Concept Enrichment Tool
+Tool: CADMIES Concept Enrichment Pipeline
 Version: 1.0.1
-System: CADMIES
-Status: ACTIVE — Phase 39: Concept Enrichment
-Dependencies: ollama, cid_generator, scientific_validator, provenance_manager
+System: CADMIES / tools
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
 
 Purpose: Enriches existing minted concepts with missing or weak fields.
          Detects gaps (missing type, subdomain, discoverer, identical difficulty
          levels, empty extra_fields), sends the concept to an LLM for enrichment,
          validates the result, and remints with a new CID superseding the old one.
 
-         Designed for GPU acceleration. Uses Mistral 7B by default,
-         Codestral 22B for deeper enrichment.
-
-GPU REQUIREMENT: Makes LLM calls per concept. Minimum ~6GB VRAM for Mistral 7B.
-12GB+ recommended for Codestral enrichment (RTX 3060 12GB/A4000+).
+Usage:
+    python tools/enrich_concepts.py                     # Enrich all concepts with gaps
+    python tools/enrich_concepts.py --concept=entropy   # Enrich single concept
+    python tools/enrich_concepts.py --model=codestral   # Use Codestral for deeper enrichment
+    python tools/enrich_concepts.py --dry-run           # Preview without reminting
 
 Version History:
-  1.0.0 — Initial enrichment pipeline: detect gaps, enrich, validate, remint
-  1.0.1 — Fixed supersedes chain and version increment bugs
+  v1.0.1: Fixed supersedes chain and version increment bugs.
+  v1.0.0: Initial enrichment pipeline — detect gaps, enrich, validate, remint.
 """
 
 import json
@@ -36,8 +36,8 @@ SOURCE_CONCEPTS_DIR = PROJECT_ROOT / "source_concepts"
 STORE_DIR = PROJECT_ROOT / "store"
 
 # === CONFIG ===
-MODEL = "mistral:7b"  # Default — override with --model codestral
-DELAY = 5  # Seconds between API calls
+MODEL = "mistral:7b"
+DELAY = 5
 DEFAULT_CERTAINTY = 0.8
 
 # === LLM DETECTION ===
@@ -100,23 +100,16 @@ Return this exact structure:
 }}"""
 
 
-# ============================================================================
-# GAP DETECTION
-# ============================================================================
-
 def detect_gaps(concept):
     """Analyze a concept and return list of fields that need enrichment."""
     gaps = []
 
-    # Check type — is it generic "Concept"?
     if concept.get("type", "Concept") == "Concept":
         gaps.append("type")
 
-    # Check subdomain — empty?
     if not concept.get("subdomain", ""):
         gaps.append("subdomain")
 
-    # Check difficulty levels — are beginner and intermediate identical?
     diff = concept.get("difficulty_levels", {})
     beginner = diff.get("beginner", "")
     intermediate = diff.get("intermediate", "")
@@ -126,7 +119,6 @@ def detect_gaps(concept):
     if not expert:
         gaps.append("difficulty_levels")
 
-    # Check extra_fields
     extra = concept.get("extra_fields", {})
     if not extra.get("discoverer"):
         gaps.append("discoverer")
@@ -143,10 +135,6 @@ def detect_gaps(concept):
 
     return gaps
 
-
-# ============================================================================
-# ENRICH
-# ============================================================================
 
 def enrich_concept(concept, model=MODEL):
     """Send a concept to the LLM for enrichment. Returns enriched fields dict."""
@@ -166,7 +154,6 @@ def enrich_concept(concept, model=MODEL):
         response = ollama.generate(model=model, prompt=prompt)
         raw = response["response"].strip()
         
-        # Strip markdown fences if present
         while raw.startswith("```"):
             raw = raw.lstrip("`")
             if "\n" in raw:
@@ -181,7 +168,6 @@ def enrich_concept(concept, model=MODEL):
         
     except json.JSONDecodeError:
         print(f"  ❌ {human_id}: JSON parse failed on enrichment response")
-        # Save raw output for debugging
         dump_path = TOOLS_DIR / f"enrich_failed_{human_id}.txt"
         with open(dump_path, "w") as f:
             f.write(raw)
@@ -192,21 +178,15 @@ def enrich_concept(concept, model=MODEL):
         return None
 
 
-# ============================================================================
-# MERGE
-# ============================================================================
-
 def merge_enrichment(concept, enriched):
     """Merge enriched fields into concept, overwriting only missing/weak fields."""
-    merged = json.loads(json.dumps(concept))  # Deep copy
+    merged = json.loads(json.dumps(concept))
     
-    # Type and subdomain
     if enriched.get("type") and concept.get("type", "Concept") == "Concept":
         merged["type"] = enriched["type"]
     if enriched.get("subdomain") and not concept.get("subdomain", ""):
         merged["subdomain"] = enriched["subdomain"]
     
-    # Difficulty levels — only overwrite if current ones are weak
     current_diff = concept.get("difficulty_levels", {})
     enriched_diff = enriched.get("difficulty_levels", {})
     if enriched_diff:
@@ -218,7 +198,6 @@ def merge_enrichment(concept, enriched):
         if enriched_diff.get("expert") and not current_diff.get("expert"):
             merged["difficulty_levels"]["expert"] = enriched_diff["expert"]
     
-    # Extra fields
     if "extra_fields" not in merged:
         merged["extra_fields"] = {}
     
@@ -236,7 +215,6 @@ def merge_enrichment(concept, enriched):
     if enriched.get("key_references") is not None and "key_references" not in extra:
         merged["extra_fields"]["key_references"] = enriched["key_references"]
     
-    # Preserve existing extra_fields that aren't being enriched
     for key, value in extra.items():
         if key not in merged["extra_fields"]:
             merged["extra_fields"][key] = value
@@ -244,15 +222,10 @@ def merge_enrichment(concept, enriched):
     return merged
 
 
-# ============================================================================
-# VALIDATE & REMINT
-# ============================================================================
-
 def validate_and_remint(concept, dry_run=False):
     """Validate enriched concept and remint to blockstore. Returns result dict."""
     human_id = concept.get("human_id", "unknown")
     
-    # Validate
     validator = ScientificValidator("BASIC")
     is_valid, errors, report = validator.validate(concept)
     if not is_valid:
@@ -265,7 +238,6 @@ def validate_and_remint(concept, dry_run=False):
         print(f"  📝 {human_id}: Dry run — would remint here")
         return {"success": True, "human_id": human_id, "dry_run": True}
     
-    # Get old CID BEFORE we overwrite anything
     old_cid = None
     index_path = STORE_DIR / "index" / "human_id_to_cid.json"
     if index_path.exists():
@@ -273,25 +245,19 @@ def validate_and_remint(concept, dry_run=False):
             index = json.load(f)
         old_cid = index.get(human_id)
     
-    # Increment version
     current_version = concept.get("metadata", {}).get("version", 1)
     concept["metadata"]["version"] = current_version + 1
+    concept["metadata"]["supersedes"] = old_cid
     
-    # Set supersedes
-    concept["metadata"]["supersedes"] = old_cid  # None if first enrichment, CID if reminting
-    
-    # Generate new CID
     cid_gen = CIDGenerator()
     cid_result = cid_gen.generate_cid(concept)
     if not cid_result["success"]:
         return {"success": False, "human_id": human_id, "error": "cid_failed"}
     
-    # Save to blockstore
     save_result = cid_gen.save_to_blockstore(cid_result, concept)
     if not save_result["success"]:
         return {"success": False, "human_id": human_id, "error": "blockstore_save_failed"}
     
-    # Update index
     if index_path.exists():
         with open(index_path, "r") as f:
             index = json.load(f)
@@ -299,7 +265,6 @@ def validate_and_remint(concept, dry_run=False):
         with open(index_path, "w") as f:
             json.dump(index, f, indent=2)
     
-    # Provenance
     try:
         pm = ProvenanceManager()
         pm.create_provenance_record(
@@ -324,10 +289,6 @@ def validate_and_remint(concept, dry_run=False):
     }
 
 
-# ============================================================================
-# LOAD CONCEPTS
-# ============================================================================
-
 def load_concept_by_human_id(human_id):
     """Load a concept JSON from source_concepts/ by human_id."""
     filepath = SOURCE_CONCEPTS_DIR / f"{human_id}.json"
@@ -350,18 +311,14 @@ def load_all_concepts():
     return sorted(index.keys())
 
 
-# ============================================================================
-# MAIN
-# ============================================================================
-
 def parse_args():
     """Parse command-line flags."""
     args = {
         "model": MODEL,
         "dry_run": False,
-        "concept": None,  # Single concept human_id
+        "concept": None,
         "all": False,
-        "gaps_only": True,  # Only enrich concepts with detected gaps
+        "gaps_only": True,
     }
     for arg in sys.argv[1:]:
         if arg.startswith("--model="):
@@ -382,7 +339,7 @@ def main():
     MODEL = args["model"]
     
     print("=" * 60)
-    print("CADMIES CONCEPT ENRICHMENT PIPELINE")
+    print("CADMIES CONCEPT ENRICHMENT PIPELINE v1.0.1")
     print(f"Model: {MODEL}")
     print(f"Dry Run: {args['dry_run']}")
     print(f"Gaps Only: {args['gaps_only']}")
@@ -393,7 +350,6 @@ def main():
         print("\nLLM unavailable. Cannot enrich concepts.")
         sys.exit(1)
     
-    # Load concepts to process
     if args["concept"]:
         human_ids = [args["concept"]]
     else:
@@ -414,28 +370,23 @@ def main():
             print(f"  ⚠️ Source concept not found: {human_id}.json")
             continue
         
-        # Enrich
         enriched = enrich_concept(concept, MODEL)
         if enriched is None:
             continue
         
-        # Merge
         merged = merge_enrichment(concept, enriched)
         
-        # Save enriched to source_concepts
         filepath = SOURCE_CONCEPTS_DIR / f"{human_id}.json"
         with open(filepath, "w") as f:
             json.dump(merged, f, indent=2)
         print(f"  💾 Saved enriched: {filepath}")
         
-        # Validate and remint
         result = validate_and_remint(merged, dry_run=args["dry_run"])
         results.append(result)
         
         if i < len(human_ids) - 1:
             time.sleep(DELAY)
     
-    # Summary
     successes = [r for r in results if r["success"]]
     failures = [r for r in results if not r["success"]]
     dry_runs = [r for r in results if r.get("dry_run")]
