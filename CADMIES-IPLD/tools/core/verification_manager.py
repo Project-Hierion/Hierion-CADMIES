@@ -1,8 +1,21 @@
 #!/usr/bin/env python3
 """
-Verification Manager v1.0.0
-Purpose: Manage verification statements on concepts
-Dependencies: provenance_manager.py, paths.py
+File: verification_manager.py
+Tool: CADMIES Verification Manager
+Version: 1.0.0
+System: CADMIES / tools/core
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: Manage verification statements on concepts.
+         Four-tier verification system (🔴🟡🟢💎).
+         Export verifications as CAR files for scientific exchange.
+
+Usage:
+    python tools/core/verification_manager.py --status <cid>
+    python tools/core/verification_manager.py --export-verification --concept-cid <cid> --verifier-key <key> --source <type> --output <path>
+
+Dependencies: provenance_manager.py, paths.py, car_utils.py
 """
 
 import sys
@@ -10,7 +23,6 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Optional, Any
 from datetime import datetime, timezone
 
-# Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
 from provenance_manager import ProvenanceManager
 from paths import PROJECT_ROOT, BLOCKS_DIR
@@ -28,7 +40,6 @@ VERIFICATION_LEVELS = {
 }
 
 
-# Initialize provenance manager
 pm = ProvenanceManager()
 
 
@@ -82,7 +93,6 @@ def calculate_verification_level(verification_chain: List[Dict]) -> int:
     if not verification_chain:
         return 0
     
-    # Count sources
     source_counts = {"self": 0, "orcid": 0, "institution": 0, "peer": 0}
     
     for v in verification_chain:
@@ -90,19 +100,15 @@ def calculate_verification_level(verification_chain: List[Dict]) -> int:
         if source in source_counts:
             source_counts[source] += 1
     
-    # Level 1: Only self-verifications
     if source_counts["self"] > 0 and sum(source_counts.values()) == source_counts["self"]:
         return 1
     
-    # Level 3: Highly verified
     if source_counts["orcid"] >= 2 or (source_counts["orcid"] >= 1 and source_counts["institution"] >= 1):
         return 3
     
-    # Level 2: At least one ORCID or institution
     if source_counts["orcid"] >= 1 or source_counts["institution"] >= 1:
         return 2
     
-    # Fallback to level 1 if only self-verifications but mixed with unknown
     if source_counts["self"] > 0:
         return 1
     
@@ -137,7 +143,7 @@ def cids_equivalent(cid1: str, cid2: str) -> bool:
         obj1 = CID.decode(cid1)
         obj2 = CID.decode(cid2)
         return obj1.digest == obj2.digest
-    except:
+    except (ValueError, ImportError):
         return False
 
 
@@ -150,13 +156,11 @@ def verify_block_integrity(block_data: bytes, expected_cid: str) -> bool:
 
 def load_block_from_store(cid: str) -> Optional[bytes]:
     """Load a block from CADMIES blockstore by CID."""
-    # Try with .cbor extension first
     block_path = BLOCKS_DIR / f"{cid}.cbor"
     if block_path.exists():
         with open(block_path, 'rb') as f:
             return f.read()
     
-    # Try without extension
     block_path = BLOCKS_DIR / cid
     if block_path.exists():
         with open(block_path, 'rb') as f:
@@ -192,7 +196,6 @@ def export_verification_as_car(concept_cid: str, verifier_key: str, statement_ty
     print("Export Verification as CAR")
     print("=" * 60)
     
-    # 1. Create verification block
     provenance_cid = add_verification_statement(
         verifier_key=verifier_key,
         concept_cid=concept_cid,
@@ -207,7 +210,6 @@ def export_verification_as_car(concept_cid: str, verifier_key: str, statement_ty
     
     print(f"✅ Created verification block: {provenance_cid}")
     
-    # 2. Load concept block
     concept_block = load_block_from_store(concept_cid)
     if not concept_block:
         print(f"❌ Concept block not found: {concept_cid}")
@@ -215,7 +217,6 @@ def export_verification_as_car(concept_cid: str, verifier_key: str, statement_ty
     
     print(f"✅ Loaded concept block ({len(concept_block)} bytes)")
     
-    # 3. Load verification block
     verification_block = load_block_from_store(provenance_cid)
     if not verification_block:
         print(f"❌ Verification block not found: {provenance_cid}")
@@ -223,18 +224,15 @@ def export_verification_as_car(concept_cid: str, verifier_key: str, statement_ty
     
     print(f"✅ Loaded verification block ({len(verification_block)} bytes)")
     
-    # 4. Build CAR file with both blocks
     try:
         sys.path.insert(0, str(Path(__file__).parent.parent))
         from car_utils import write_car
         
         blocks_for_car = {}
         
-        # Add concept block
         concept_bytes = ensure_bytes(concept_cid)
         blocks_for_car[concept_bytes] = concept_block
         
-        # Add verification block
         verification_bytes = ensure_bytes(provenance_cid)
         blocks_for_car[verification_bytes] = verification_block
         
@@ -256,14 +254,10 @@ def export_verification_as_car(concept_cid: str, verifier_key: str, statement_ty
         return False
 
 
-# ============================================================================
-# COMMAND LINE INTERFACE
-# ============================================================================
-
 if __name__ == "__main__":
     import argparse
     
-    parser = argparse.ArgumentParser(description="Verification Manager")
+    parser = argparse.ArgumentParser(description="CADMIES Verification Manager")
     parser.add_argument('--export-verification', action='store_true', help='Export verification as CAR')
     parser.add_argument('--concept-cid', help='CID of concept to verify')
     parser.add_argument('--verifier-key', help='Verifier key (ORCID, etc.)')
