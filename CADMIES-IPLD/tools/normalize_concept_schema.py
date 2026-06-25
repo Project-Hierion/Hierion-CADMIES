@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
 """
 File: normalize_concept_schema.py
-CLI: CADMIES Schema Normalizer
+Tool: CADMIES Schema Normalizer
 Version: 1.0.0
-System: CADMIES
+System: CADMIES / tools
 Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
 Purpose: Normalizes all source_concept JSONs to a unified superset schema.
          Preserves ALL existing data. Adds missing fields as null/empty.
          No LLM. No blockstore changes. Local-only.
 
+Usage:
+    python tools/normalize_concept_schema.py
+
 Version History:
-  1.0.0 — Initial normalizer: merge all fields, add missing, preserve everything
+  v1.0.0: Initial normalizer — merge all fields, add missing, preserve everything.
 """
 
 import json
@@ -21,7 +26,7 @@ from collections import OrderedDict
 PROJECT_ROOT = Path(__file__).parent.parent
 SOURCE_CONCEPTS_DIR = PROJECT_ROOT / "source_concepts"
 
-# === TARGET SCHEMA (superset of all known fields) ===
+# === TARGET SCHEMA ===
 
 TARGET_SCHEMA = OrderedDict([
     ("schema_version", "1.0.0"),
@@ -31,7 +36,7 @@ TARGET_SCHEMA = OrderedDict([
     ("type", "Concept"),
     ("domain", "Unknown"),
     ("subdomain", ""),
-    ("formula", None),  # Only for math/physics concepts, null otherwise
+    ("formula", None),
     ("proofs", [
         {
             "type": "",
@@ -88,24 +93,20 @@ def deep_merge(target, source):
     """Recursively merge source into target. Preserves target structure, adds source data."""
     if isinstance(target, dict) and isinstance(source, dict):
         result = OrderedDict()
-        # Keep all target keys
         for key, default_value in target.items():
             if key in source:
                 result[key] = deep_merge(default_value, source[key])
             else:
                 result[key] = default_value
-        # Add any source keys not in target
         for key, value in source.items():
             if key not in result:
                 result[key] = value
         return result
     elif isinstance(target, list) and isinstance(source, list):
-        # For lists, if target has a template and source has items, use source
         if source:
             return source
         return target
     else:
-        # For scalar values, use source if it exists and is not empty, else target default
         if source is not None and source != "" and source != []:
             return source
         return target
@@ -113,17 +114,12 @@ def deep_merge(target, source):
 
 def normalize_concept(concept):
     """Normalize a single concept to the target schema, preserving all data."""
-    # Start with target schema as template
-    normalized = json.loads(json.dumps(TARGET_SCHEMA))  # Deep copy
-    
-    # Merge existing data on top
+    normalized = json.loads(json.dumps(TARGET_SCHEMA))
     normalized = deep_merge(normalized, concept)
     
-    # Ensure human_id matches filename convention
     if not normalized.get("human_id"):
         normalized["human_id"] = normalized.get("title", "unknown").lower().replace(" ", "_")
     
-    # Ensure metadata.created exists if not set
     if not normalized["metadata"]["created"]:
         from datetime import datetime, timezone
         normalized["metadata"]["created"] = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
@@ -151,7 +147,6 @@ def main():
             original_human_id = concept.get("human_id", jf.stem)
             normalized = normalize_concept(concept)
             
-            # Write back
             with open(jf, "w") as f:
                 json.dump(normalized, f, indent=2)
             
