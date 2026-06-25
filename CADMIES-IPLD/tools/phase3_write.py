@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
-"""Phase 3: Write new edges to blockstore CBOR files."""
+"""
+File: phase3_write.py
+Tool: CADMIES Relationship Generator — Phase 3
+Version: 1.0.0
+System: CADMIES / tools
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: Write new edges to blockstore CBOR files.
+         Merges Phase 2 output into existing concept relationships.
+
+Usage:
+    python tools/phase3_write.py
+"""
+
 import json, sys
 from pathlib import Path
 
@@ -8,7 +22,7 @@ PROJECT_ROOT = TOOLS_DIR.parent
 sys.path.insert(0, str(PROJECT_ROOT / "agents" / "code"))
 sys.path.insert(0, str(PROJECT_ROOT / "tools" / "core"))
 
-from llm_mycelium_reader import load_concept, load_all_concept_cids
+from cadmies_concept_reader import load_concept, load_all_concept_cids
 from paths import BLOCKS_DIR
 import dag_cbor
 
@@ -17,7 +31,6 @@ EDGES_FILE = PROJECT_ROOT / "new_edges.json"
 with open(EDGES_FILE, 'r') as f:
     new_edges = json.load(f)
 
-# Build CID lookup
 all_cids = load_all_concept_cids()
 cid_map = {}
 for cid in all_cids:
