@@ -3,7 +3,7 @@
 File: cid_generator.py
 Tool: CADMIES CID Generator
 Version: 1.1.0
-System: CADMIES / tools/core
+System: CADMIES
 Status: ACTIVE
 License: AGPLv3 with Commons Clause
 
