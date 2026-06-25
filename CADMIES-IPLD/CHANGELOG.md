@@ -1,5 +1,24 @@
 # CADMIES Changelog
 
+## 2026-06-24 — Session 031 (Project Hierion)
+- **Project renamed:** Hieros → Hierion (ἱερόν — sacred place). All URLs, licenses, and documentation updated.
+- **GitHub:** Organization `Project-Hierion`, repository `Hierion-CADMIES`. Personal account `Hierion-Gardener`.
+- **Domain:** `project-hierion.duckdns.org` (replaces retired GitHub Pages site).
+- **Contact:** `project-hierion@proton.me` (replaces hieroscadmies@proton.me).
+- **generate_mycelium_map.py v3.0.0:** Phase 66 — Fractal succulent layout with golden-angle spiral. Pre-computed 3D positions (x/y/z). Chunked loading (150 concepts per batch). Depth-based opacity. Renderer-agnostic `concepts_ranked.json` data layer.
+- **generate_public_gateway.py v3.0.0:** Updated all URLs and references for Project Hierion rename.
+- **LICENSE:** Updated copyright holder to Project Hierion. Contact email updated.
+- **CONTRIBUTING.md:** Simplified. Roadmap moved to Scientific Obsidian. Credits updated.
+- **CONTRIBUTORS-GARDENERS.md:** Rewritten with full contributor list, roles, and infrastructure credits.
+- **README.md:** Fully updated with new URLs, metrics (636 concepts, 1,131 edges), and rename notice.
+- **Architecture Overview:** Written — public-facing, sanitized, no server details.
+- **Three-System Setup:** Upgraded from Two-System. Cloud compute instance added.
+- **Phase 63-65 complete:** Cloud deployment, isolated MongoDB, domain & web server.
+- **Phase 66 designed and implemented:** Mycelium Map UX — progressive loading, fractal layout.
+- **Droplet SOP:** Internal-only technical reference created.
+- **EU.org application submitted:** `hierion.eu.org` pending approval.
+- **Session 031 raw note:** Written.
+
 ## 2026-05-26 — Session 022
 - **generate_public_gateway.py v2.0.1:** Fixed OUTPUT_DIR from `public_concepts_gateway/` to `../docs/`. Updated SITE_URL. Deploy message corrected.
 - **harvest_full_pipeline.py v4.2.2:** Added prose-stripping before JSON parse (strip everything before first `{`). Reduced chunk size from 1000 to 750 words. Removed broken apostrophe escape regex. Added missing comma fix between JSON array elements. Mycelium search import fixed (`llm_mycelium_reader` → `cadmies_concept_reader`).
