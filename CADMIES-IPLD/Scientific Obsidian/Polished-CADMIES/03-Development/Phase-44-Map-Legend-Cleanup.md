@@ -6,6 +6,15 @@ related: [[Phase-45-Snagnar-HIEROS]], [[generate_mycelium_map.py]], [[Session-01
 ---
 
 # Phase 44: Map Legend Cleanup
+> **📢 June 2026 — Phase 44 Has Been Superseded by Phase 66**
+>
+> The map features described in this document (force-directed layout,
+> v2.3.0-v2.4.0) have been superseded by Phase 66: Fractal Succulent
+> Layout & Progressive Loading (v3.0.0). The canonical 15-domain
+> allowlist, upward mapping, directional arrows, and concept cards
+> are preserved in the new version. The force-directed layout has
+> been replaced with a golden-angle spiral preset layout. See
+> [[Phase-66]] for current map architecture.
 
 ## What Changed
 
