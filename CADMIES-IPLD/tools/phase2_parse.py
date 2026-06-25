@@ -1,4 +1,19 @@
 #!/usr/bin/env python3
+"""
+File: phase1_extract.py
+Tool: CADMIES Relationship Generator — Phase 1
+Version: 1.0.0
+System: CADMIES / tools
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: Send concept batches to Mistral, save raw responses.
+         No JSON parsing — just collect whatever Mistral returns.
+
+Usage:
+    python tools/phase1_extract.py
+"""
+
 import json, sys, re
 from pathlib import Path
 from collections import defaultdict
