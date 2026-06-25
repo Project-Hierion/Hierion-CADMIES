@@ -1,4 +1,18 @@
-"""Centralized path management for all CADMIES tools."""
+#!/usr/bin/env python3
+"""
+File: paths.py
+Tool: CADMIES Path Manager
+Version: 1.0.0
+System: CADMIES / tools/core
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
+
+Purpose: Centralized path management for all CADMIES tools.
+         Resolves project root and standard directories dynamically.
+
+Usage:
+    from paths import BLOCKS_DIR, INDEX_DIR, LOGS_DIR, ensure_dirs
+"""
 
 from pathlib import Path
 
