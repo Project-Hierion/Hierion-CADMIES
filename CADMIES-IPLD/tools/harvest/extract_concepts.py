@@ -1,12 +1,24 @@
 #!/usr/bin/env python3
 """
-Conversation Harvester v2.0 — Mycelium-Aware Extraction
-Chunks a conversation, queries the mycelium for relevant existing concepts,
-and feeds both to Mistral for philosophical concept extraction with
-automatic relationship mapping to the existing knowledge graph.
+File: harvest_full_pipeline.py
+Tool: CADMIES Conversation Harvester
+Version: 2.0.0
+System: CADMIES / tools/harvest
+Status: ACTIVE
+License: AGPLv3 with Commons Clause
 
-New in v2.0: Mycelium-aware — searches CADMIES before extracting so
-new concepts are born already linked to the mycelium.
+Purpose: Chunks a conversation, queries the mycelium for relevant existing
+         concepts, and feeds both to Mistral for philosophical concept
+         extraction with automatic relationship mapping to the existing
+         knowledge graph. Mycelium-aware — searches CADMIES before extracting
+         so new concepts are born already linked to the mycelium.
+
+Usage:
+    python tools/harvest/harvest_full_pipeline.py
+
+Version History:
+  v2.0.0: Mycelium-aware extraction — searches CADMIES before extracting.
+  v1.0.0: Initial harvester release.
 """
 
 import json
@@ -19,18 +31,17 @@ import ollama
 CONVERSATION_FILE = Path(__file__).parent / "conversation_01.json"
 OUTPUT_FILE = Path(__file__).parent / "harvested_concepts_01.json"
 MODEL = "mistral:7b"
-CHUNK_SIZE = 3000  # words per chunk
-DELAY = 2  # seconds between API calls
-RELEVANCE_THRESHOLD = 0.1  # minimum relevance score for mycelium concepts
+CHUNK_SIZE = 3000
+DELAY = 2
+RELEVANCE_THRESHOLD = 0.1
 
-# Import Willie's search logic
 sys.path.insert(0, str(Path(__file__).parent.parent / "agents" / "code"))
 try:
-    from llm_mycelium_reader import search_mycelium, load_all_concept_cids, load_concept
+    from cadmies_concept_reader import search_mycelium, load_all_concept_cids, load_concept
     MYCELIUM_AVAILABLE = True
 except ImportError:
     MYCELIUM_AVAILABLE = False
-    print("WARNING: Could not import Willie's search — running without mycelium awareness")
+    print("WARNING: Could not import mycelium search — running without mycelium awareness")
 
 EXTRACTION_PROMPT = """You are a philosophical concept extractor working with the CADMIES mycelium knowledge system.
 
@@ -108,7 +119,6 @@ def get_mycelium_context(conversation_text):
     all_cids = load_all_concept_cids()
     results = search_mycelium(conversation_text, all_cids)
 
-    # Filter by relevance threshold
     relevant = [r for r in results if r['relevance_score'] >= RELEVANCE_THRESHOLD]
 
     if not relevant:
@@ -117,7 +127,6 @@ def get_mycelium_context(conversation_text):
 
     print(f"  Found {len(relevant)} relevant concepts (threshold: {RELEVANCE_THRESHOLD}):")
 
-    # Build context string with full concept details
     context_parts = []
     for i, r in enumerate(relevant):
         cid = r['cid']
@@ -164,7 +173,6 @@ def extract_from_chunk(chunk, mycelium_context, index, total):
         response = ollama.generate(model=MODEL, prompt=prompt)
         raw = response["response"].strip()
 
-        # Strip markdown code fences
         if raw.startswith("```"):
             lines = raw.split("\n")
             raw = "\n".join(lines[1:]) if lines[0].startswith("```") else raw
@@ -198,7 +206,7 @@ def merge_and_deduplicate(all_concepts):
 
 def main():
     print("=" * 60)
-    print("CADMIES Conversation Harvester v2.0 (Mycelium-Aware)")
+    print("CADMIES CONVERSATION HARVESTER v2.0.0")
     print(f"Model: {MODEL}")
     print(f"Source: {CONVERSATION_FILE}")
     if MYCELIUM_AVAILABLE:
@@ -207,18 +215,14 @@ def main():
         print("Mycelium search: DISABLED")
     print("=" * 60)
 
-    # Load conversation
     text = load_conversation_robust(CONVERSATION_FILE)
     print(f"\nLoaded conversation: {len(text.split())} words")
 
-    # Search mycelium for relevant existing concepts
     mycelium_context = get_mycelium_context(text)
 
-    # Chunk
     chunks = chunk_text(text, CHUNK_SIZE)
     print(f"\nSplit into {len(chunks)} chunk(s) for extraction")
 
-    # Extract
     all_concepts = []
     for i, chunk in enumerate(chunks):
         concepts = extract_from_chunk(chunk, mycelium_context, i, len(chunks))
@@ -226,12 +230,10 @@ def main():
         if i < len(chunks) - 1:
             time.sleep(DELAY)
 
-    # Merge
     merged = merge_and_deduplicate(all_concepts)
     print(f"\n{'='*60}")
     print(f"Total unique NEW concepts extracted: {len(merged)}")
 
-    # Save
     output = {
         "source_file": str(CONVERSATION_FILE.name),
         "model": MODEL,
@@ -244,7 +246,6 @@ def main():
 
     print(f"Saved to: {OUTPUT_FILE}")
 
-    # Preview
     print("\n=== CONCEPT PREVIEW ===")
     for c in merged:
         name = c.get('name', 'UNNAMED')
