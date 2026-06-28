@@ -5,7 +5,7 @@
        ║                                                           ║
        ║                  🤝   WE WANT YOU!   🤝                   ║
        ║                                                           ║
-       ║    HIEROS-CADMIES wants YOU to help the mycelium grow!    ║
+       ║    Project Hierion wants YOU to help the mycelium grow!    ║
        ║                                                           ║
        ║                No resume. No credentials.                 ║
        ║                      Just your love.                      ║
