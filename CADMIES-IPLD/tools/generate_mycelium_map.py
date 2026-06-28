@@ -2,36 +2,28 @@
 """
 File: generate_mycelium_map.py
 Tool: CADMIES Mycelium Map Generator
-Version: 2.4.0
+Version: 2.5.0
 System: CADMIES-IPLD / tools
-Status: ACTIVE — Phase 44: canonical 15-domain legend, directional arrows, concept cards
+Status: ACTIVE — Progressive loading with background batch loading
 
 Purpose: Dynamically generates mycelium_map.html from the live blockstore.
-         Enhanced features: zoom buttons, concept search, hover tooltips,
-         click-to-highlight connections (non-connected fade), interactive domain legend
-         with cross-domain ghosting, keyboard shortcuts, responsive design,
-         directional edge arrows, concept info cards on click, node collision spacing.
+         v2.5.0 adds progressive loading: top 275 concepts load immediately,
+         remaining concepts load in background batches of 30.
+         All v2.4.0 features preserved: white background, force-directed layout,
+         click-to-highlight, concept cards, legend filter, directional arrows.
 
 Usage:
     python tools/generate_mycelium_map.py
 
 Output:
-    mycelium_map.html (project root) — open in any modern browser
-
-Version History:
-  v2.4.0 (2026-05-27): Map UX improvements — node collision spacing (nodeOverlap),
-      click-to-highlight with non-connected fade, legend domain filter with
-      cross-domain ghosting, gradient edge fade from clicked node.
-  v2.3.0: Canonical 15-domain legend, directional arrows, concept cards.
-  v2.2.0: Interactive legend, keyboard shortcuts, responsive design.
-  v2.1.0: Zoom buttons, concept search, hover tooltips.
-  v2.0.0: Initial D3/Cytoscape map generator.
+    mycelium_map.html (project root) — progressive-loading interactive map
+    concepts_ranked.json (project root) — full concept data for background loading
 """
 
 import json, sys, webbrowser
 from pathlib import Path
 from datetime import datetime, timezone
-from collections import Counter
+from collections import Counter, defaultdict
 
 # === PATH SETUP ===
 TOOLS_DIR = Path(__file__).resolve().parent
@@ -44,6 +36,9 @@ from paths import BLOCKS_DIR
 
 # === CONFIG ===
 OUTPUT_FILE = PROJECT_ROOT / "mycelium_map.html"
+RANKED_DATA_FILE = PROJECT_ROOT / "concepts_ranked.json"
+INITIAL_LOAD = 275
+BACKGROUND_BATCH = 30
 
 # === CANONICAL TOP-LEVEL DOMAINS (Phase 44) ===
 CANONICAL_DOMAINS = [
@@ -207,7 +202,6 @@ def normalize_domain(domain):
         return domain
     if domain in DOMAIN_UPWARD_MAP:
         return DOMAIN_UPWARD_MAP[domain]
-    print(f"  NOTE: Unmapped domain '{domain}' — using default color. Consider adding to DOMAIN_UPWARD_MAP.")
     return domain
 
 EDGE_COLORS = {
@@ -229,32 +223,65 @@ def load_legacy_edges():
 def gather_concepts():
     all_cids = load_all_concept_cids()
     print(f"Loading {len(all_cids)} concepts from blockstore...")
-    nodes, node_ids = [], set()
+    
+    concepts = {}
     skipped = 0
-    domain_counts = Counter()
     for cid in all_cids:
         concept = load_concept(cid)
         if 'error' in concept:
             skipped += 1
             continue
         hid = concept.get('human_id', '')
-        title = concept.get('title', hid.replace('_', ' ').title())
+        concepts[hid] = concept
+    
+    # Build edge counts
+    edge_counts = Counter()
+    outgoing_edges = defaultdict(list)
+    for hid, concept in concepts.items():
+        rels = concept.get('relationships', {})
+        for rel_type in ["builds_upon", "related_to", "specializes", "contradicts"]:
+            for target in rels.get(rel_type, []):
+                if isinstance(target, str):
+                    outgoing_edges[hid].append({"target": target, "type": rel_type})
+        edge_counts[hid] = len(outgoing_edges[hid])
+    
+    # Build all nodes, sorted by edge count
+    nodes, node_ids = [], set()
+    domain_counts = Counter()
+    all_nodes_data = []
+    
+    for hid, concept in concepts.items():
         raw_domain = concept.get('domain', 'Unknown')
         display_domain = normalize_domain(raw_domain)
+        title = concept.get('title', hid.replace('_', ' ').title())
         definition = concept.get('definition', '')[:200]
-        domain_counts[display_domain] += 1
         color = DOMAIN_COLORS.get(display_domain, DEFAULT_COLOR)
+        edge_count = edge_counts.get(hid, 0)
+        
         nodes.append({
             "id": hid, "label": title, "color": color,
             "domain": display_domain, "definition": definition,
+            "edge_count": edge_count,
         })
         node_ids.add(hid)
+        domain_counts[display_domain] += 1
+        
+        all_nodes_data.append({
+            "id": hid,
+            "label": title,
+            "color": color,
+            "domain": display_domain,
+            "definition": definition,
+            "edge_count": edge_count,
+        })
+    
+    # Sort by edge count descending
+    nodes.sort(key=lambda n: n["edge_count"], reverse=True)
+    all_nodes_data.sort(key=lambda n: n["edge_count"], reverse=True)
+    
+    # Build edges
     blockstore_edges = []
-    for cid in all_cids:
-        concept = load_concept(cid)
-        if 'error' in concept:
-            continue
-        hid = concept.get('human_id', '')
+    for hid, concept in concepts.items():
         rels = concept.get('relationships', {})
         for rel_type in ["builds_upon", "related_to", "specializes", "contradicts"]:
             for target in rels.get(rel_type, []):
@@ -262,6 +289,7 @@ def gather_concepts():
                     blockstore_edges.append({
                         "source": hid, "target": target, "type": rel_type,
                     })
+    
     legacy_edges = load_legacy_edges()
     merged = {}
     for e in blockstore_edges:
@@ -273,12 +301,71 @@ def gather_concepts():
     orphan = len(all_edges) - len(valid_edges)
     if orphan:
         print(f"  Filtered {orphan} orphan edge(s)")
+    
     print(f"  {len(nodes)} nodes, {len(valid_edges)} edges, {skipped} skipped")
-    print(f"  Domains in legend: {len(domain_counts)} (canonical: {len([d for d in domain_counts if d in CANONICAL_DOMAINS])})")
-    return nodes, valid_edges, domain_counts
+    print(f"  Initial load: {min(INITIAL_LOAD, len(nodes))} concepts, {len(nodes) - min(INITIAL_LOAD, len(nodes))} background")
+    
+    # Build ranked data for background loading
+    ranked_data = {
+        "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "total_concepts": len(all_nodes_data),
+        "total_edges": len(valid_edges),
+        "initial_load": INITIAL_LOAD,
+        "concepts": all_nodes_data,
+        "edges": valid_edges,
+    }
+    
+    return nodes, valid_edges, domain_counts, ranked_data
 
-def build_html_template():
-    return '''<!DOCTYPE html>
+def generate_html(nodes, edges, domain_counts):
+    initial_nodes = nodes[:INITIAL_LOAD]
+    initial_ids = set(n["id"] for n in initial_nodes)
+    
+    nodes_json = []
+    for n in initial_nodes:
+        nodes_json.append(
+            '{{ data: {{ id: "{}", label: "{}", definition: "{}", domain: "{}", background_color: "{}" }} }}'.format(
+                n["id"].replace('"', '\\"'),
+                n["label"].replace('"', '\\"'),
+                n.get("definition", "").replace('"', '\\"'),
+                n.get("domain", "").replace('"', '\\"'),
+                n["color"]
+            )
+        )
+    
+    initial_edges = [e for e in edges if e["source"] in initial_ids and e["target"] in initial_ids]
+    edges_json = []
+    for e in initial_edges:
+        edges_json.append(
+            '{{ data: {{ source: "{}", target: "{}", label: "{}" }} }}'.format(
+                e["source"].replace('"', '\\"'),
+                e["target"].replace('"', '\\"'),
+                e["type"]
+            )
+        )
+    
+    legend_items = []
+    for domain in CANONICAL_DOMAINS:
+        if domain in domain_counts:
+            color = DOMAIN_COLORS.get(domain, DEFAULT_COLOR)
+            legend_items.append(
+                '<div class="legend-item"><div class="color-box" style="background:{}"></div><span>{}</span></div>'.format(
+                    color, domain.replace('_', ' ')
+                )
+            )
+    
+    edge_legend = '''
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #10B981"></div><span>→ builds_upon</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #F59E0B"></div><span>— related_to</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px dashed #8B5CF6"></div><span>→ specializes</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:3px solid #EF4444"></div><span>→ contradicts</span></div>'''
+    
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    info_text = 'CADMIES Mycelium Map | {} nodes ({} initial, {} loading) | {} edges | {} | Click node for details | / to search | Esc to reset'.format(
+        len(nodes), len(initial_nodes), len(nodes) - len(initial_nodes), len(edges), timestamp
+    )
+    
+    html = '''<!DOCTYPE html>
 <html>
 <head>
     <title>CADMIES Mycelium Map</title>
@@ -287,6 +374,8 @@ def build_html_template():
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #FFFFFF; overflow: hidden; }
         #cy { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
+        #banner { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 5000; font-family: monospace; font-size: 13px; line-height: 1.4; white-space: pre; text-align: center; pointer-events: none; transition: opacity 1.5s ease; }
+        #banner.fade { opacity: 0; }
         #info { position: absolute; bottom: 12px; left: 12px; background: #0F172A; color: #FFFFFF; padding: 8px 14px; border-radius: 8px; font-size: 11px; z-index: 100; pointer-events: none; font-family: monospace; }
         #searchBox { position: absolute; top: 20px; left: 20px; z-index: 1000; }
         #searchInput { padding: 10px 14px; font-size: 13px; border: 1px solid #E2E8F0; border-radius: 8px; width: 220px; font-family: sans-serif; outline: none; }
@@ -317,11 +406,36 @@ def build_html_template():
         .concept-card .card-close:hover { color: #FFFFFF; }
         .reset-btn { position: absolute; bottom: 55px; left: 20px; z-index: 1000; cursor: pointer; padding: 6px 12px; font-size: 11px; background: #0F172A; color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 6px; font-family: monospace; }
         .reset-btn:hover { background: #1E1B4B; }
+        #loading { position: absolute; bottom: 55px; left: 140px; background: #0F172A; color: #FFFFFF; padding: 6px 12px; border-radius: 6px; font-size: 11px; z-index: 1000; font-family: monospace; display: none; }
     </style>
 </head>
 <body>
     <div id="cy"></div>
-    <div id="info">__INFO_TEXT__</div>
+    <div id="banner">                               🌱🌿🍄🌾🌸🌻
+   
+       ╔═══════════════════════════════════════════════════════════╗
+       ║                                                           ║
+       ║                  🤝   WE WANT YOU!   🤝                   ║
+       ║                                                           ║
+       ║     PROJECT HIERION wants YOU to help the mycelium grow!  ║
+       ║                                                           ║
+       ║                No resume. No credentials.                 ║
+       ║                      Just your love.                      ║
+       ║                                                           ║
+       ║        ╔═════════════════════════════════════════╗        ║
+       ║        ║  We need volunteers to make THIS map    ║        ║
+       ║        ║            page better!                 ║        ║
+       ║        ║                                         ║        ║
+       ║        ║  🌱  See CONTRIBUTING.md, email us,     ║        ║
+       ║        ║  or just get to work in the repo!! 😃   ║        ║
+       ║        ║                                         ║        ║
+       ║        ╚═════════════════════════════════════════╝        ║
+       ║                                                           ║
+       ╚═══════════════════════════════════════════════════════════╝
+  
+                              🧑🏽‍🌾🍄🌱🌿🌸🌻</div>
+    <div id="info">''' + info_text + '''</div>
+    <div id="loading">Loading more concepts...</div>
     <div class="node-tooltip" id="nodeTooltip"></div>
     <div class="concept-card" id="conceptCard">
         <span class="card-close" id="cardClose">x</span>
@@ -340,14 +454,24 @@ def build_html_template():
     <div class="legend-panel collapsed" id="legendPanel">
         <span class="close-legend" id="closeLegend">x</span>
         <h4>Mycelium Legend</h4>
-        __LEGEND_ITEMS__
+        ''' + '\n'.join(legend_items) + '''
         <hr>
-        __EDGE_LEGEND__
+        ''' + edge_legend + '''
         <hr>
         <div class="legend-item"><span>Type 'cadmies' for easter egg</span></div>
     </div>
     <script>
-        var elements = { nodes: [__NODES_JSON__], edges: [__EDGES_JSON__] };
+        var elements = { nodes: [''' + ',\n'.join(nodes_json) + '''], edges: [''' + ',\n'.join(edges_json) + '''] };
+        var INITIAL_LOAD = ''' + str(INITIAL_LOAD) + ''';
+        var BACKGROUND_BATCH = ''' + str(BACKGROUND_BATCH) + ''';
+        
+        var allRankedConcepts = null;
+        var loadedHids = new Set();
+        var backgroundIndex = INITIAL_LOAD;
+        var totalConcepts = ''' + str(len(nodes)) + ''';
+        
+        elements.nodes.forEach(function(n) { loadedHids.add(n.data.id); });
+        
         var cy = cytoscape({
             container: document.getElementById('cy'),
             elements: elements,
@@ -383,6 +507,16 @@ def build_html_template():
                 nodeOverlap: 20,
                 nodeDimensionsIncludeLabels: false
             }
+        });
+        
+        // Fade banner after map loads
+        cy.ready(function() {
+            setTimeout(function() {
+                document.getElementById('banner').classList.add('fade');
+                setTimeout(function() { document.getElementById('banner').style.display = 'none'; }, 1500);
+            }, 3000);
+            // Start background loading after layout settles
+            setTimeout(fetchRankedData, 5000);
         });
 
         // Auto-size on zoom
@@ -430,7 +564,6 @@ def build_html_template():
             card.style.left = Math.min(evt.originalEvent.clientX + 20, window.innerWidth - 360) + 'px';
             card.style.top = Math.min(evt.originalEvent.clientY - 30, window.innerHeight - 300) + 'px';
 
-            // Fade non-connected, highlight neighborhood
             cy.elements().style('opacity', 0.1);
             node.style('opacity', 1);
             var connectedEdges = node.connectedEdges();
@@ -438,18 +571,14 @@ def build_html_template():
             connectedEdges.style('opacity', 0.8);
             connectedNodes.style('opacity', 1);
 
-            // Gradient fade on edges: closer to clicked node = brighter
             connectedEdges.forEach(function(edge) {
                 var sourceDist = edge.source().id() === node.id() ? 0 : 1;
                 edge.style('opacity', sourceDist === 0 ? 0.9 : 0.5);
             });
         });
 
-        // Click background -> reset
         cy.on('tap', function(evt) {
-            if (evt.target === cy) {
-                resetView();
-            }
+            if (evt.target === cy) { resetView(); }
         });
 
         document.getElementById('cardClose').addEventListener('click', function() {
@@ -476,9 +605,7 @@ def build_html_template():
             tooltip.style.left = (evt.originalEvent.clientX + 15) + 'px';
             tooltip.style.top = (evt.originalEvent.clientY + 15) + 'px';
         });
-        cy.on('mouseout', 'node', function() {
-            tooltip.style.display = 'none';
-        });
+        cy.on('mouseout', 'node', function() { tooltip.style.display = 'none'; });
 
         // Legend domain filter
         document.querySelectorAll('.legend-item .color-box').forEach(function(box) {
@@ -491,7 +618,6 @@ def build_html_template():
                         n.style({ 'opacity': 0.08, 'border-width': 1 });
                     }
                 });
-                // Ghost edges that connect to visible nodes
                 cy.edges().forEach(function(e) {
                     var srcVisible = e.source().data('domain') === domainText;
                     var tgtVisible = e.target().data('domain') === domainText;
@@ -500,7 +626,7 @@ def build_html_template():
                     } else {
                         e.style('opacity', 0.04);
                     }
-                });
+                         });
             });
         });
 
@@ -524,6 +650,80 @@ def build_html_template():
                 cy.elements().style('opacity', 1);
             }
         });
+
+        // === BACKGROUND LOADING ===
+        function fetchRankedData() {
+            if (allRankedConcepts) return;
+            fetch('concepts_ranked.json')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    allRankedConcepts = data;
+                    loadNextBackgroundBatch();
+                })
+                .catch(function(err) {
+                    console.error('Failed to load ranked data:', err);
+                });
+        }
+
+        function loadNextBackgroundBatch() {
+            if (!allRankedConcepts) return;
+            if (backgroundIndex >= allRankedConcepts.concepts.length) return;
+            
+            var endIdx = Math.min(backgroundIndex + BACKGROUND_BATCH, allRankedConcepts.concepts.length);
+            var batch = allRankedConcepts.concepts.slice(backgroundIndex, endIdx);
+            backgroundIndex = endIdx;
+            
+            var newElements = [];
+            var newNodeIds = new Set();
+            batch.forEach(function(c) {
+                if (loadedHids.has(c.id)) return;
+                newNodeIds.add(c.id);
+                newElements.push({
+                    group: 'nodes',
+                    data: {
+                        id: c.id,
+                        label: c.label,
+                        definition: c.definition,
+                        domain: c.domain,
+                        background_color: c.color
+                    }
+                });
+            });
+            
+            // Add edges connecting new nodes to already-loaded nodes
+            if (allRankedConcepts.edges) {
+                allRankedConcepts.edges.forEach(function(e) {
+                    var srcLoaded = loadedHids.has(e.source) || newNodeIds.has(e.source);
+                    var tgtLoaded = loadedHids.has(e.target) || newNodeIds.has(e.target);
+                    if (srcLoaded && tgtLoaded) {
+                        var edgeExists = cy.edges().some(function(ex) {
+                            return ex.data('source') === e.source && ex.data('target') === e.target && ex.data('label') === e.type;
+                        });
+                        if (!edgeExists) {
+                            newElements.push({
+                                group: 'edges',
+                                data: { source: e.source, target: e.target, label: e.type }
+                            });
+                        }
+                    }
+                });
+            }
+            
+            batch.forEach(function(c) { loadedHids.add(c.id); });
+            cy.add(newElements);
+            
+            var remaining = allRankedConcepts.concepts.length - backgroundIndex;
+            var loaded = loadedHids.size;
+            document.getElementById('info').textContent = 'CADMIES Mycelium Map | ' + allRankedConcepts.total_concepts + ' nodes | ' + loaded + ' loaded | ' + allRankedConcepts.total_edges + ' edges | / to search | Esc to reset';
+            
+            if (remaining > 0) {
+                document.getElementById('loading').style.display = 'block';
+                document.getElementById('loading').textContent = 'Loading more concepts... (' + loaded + '/' + allRankedConcepts.total_concepts + ')';
+                setTimeout(loadNextBackgroundBatch, 800);
+            } else {
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
 
         // Easter egg
         var keyBuffer = [];
@@ -601,15 +801,22 @@ def generate_html(nodes, edges, domain_counts):
 
 def main():
     print("=" * 60)
-    print("CADMIES MYCELIUM MAP GENERATOR v2.4.0")
+    print("CADMIES MYCELIUM MAP GENERATOR v2.5.0")
     print(f"Blockstore: {BLOCKS_DIR}")
     print(f"Output: {OUTPUT_FILE}")
     print(f"Canonical domains: {len(CANONICAL_DOMAINS)}")
     print("=" * 60)
-    nodes, edges, domain_counts = gather_concepts()
+    nodes, edges, domain_counts, ranked_data = gather_concepts()
     if not nodes:
         print("\nERROR: No concepts loaded.")
         sys.exit(1)
+    
+    # Save ranked data for background loading
+    with open(RANKED_DATA_FILE, "w") as f:
+        json.dump(ranked_data, f, indent=2)
+    print(f"\nRanked data saved: {RANKED_DATA_FILE}")
+    print(f"   {ranked_data['total_concepts']} concepts, {ranked_data['total_edges']} edges")
+    
     html = generate_html(nodes, edges, domain_counts)
     with open(OUTPUT_FILE, "w") as f:
         f.write(html)
@@ -617,7 +824,8 @@ def main():
     print(f"   {len(nodes)} nodes, {len(edges)} relationships, {len(domain_counts)} domains in data")
     legend_domains = [d for d in CANONICAL_DOMAINS if d in domain_counts]
     print(f"   Legend: {len(legend_domains)} canonical domains shown")
-    print(f"   Features: zoom, search, tooltips, concept cards, directional arrows, interactive legend, keyboard shortcuts, node collision spacing, click-to-highlight, legend domain filter")
+    print(f"   Progressive loading: {min(INITIAL_LOAD, len(nodes))} initial, {len(nodes) - min(INITIAL_LOAD, len(nodes))} background")
+    print(f"   Features: zoom, search, tooltips, concept cards, directional arrows, interactive legend, keyboard shortcuts, node collision spacing, click-to-highlight, legend domain filter, background batch loading, volunteer banner")
     print(f"   Phase 44: Canonical 15-domain allowlist with upward mapping")
     tkinter_page = PROJECT_ROOT / "cadmies-gui" / "pages" / "tkinter_mycelium_map.py"
     if tkinter_page.exists():
