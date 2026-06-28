@@ -234,18 +234,16 @@ def gather_concepts():
         hid = concept.get('human_id', '')
         concepts[hid] = concept
     
-    # Build edge counts
     edge_counts = Counter()
-    outgoing_edges = defaultdict(list)
     for hid, concept in concepts.items():
         rels = concept.get('relationships', {})
+        count = 0
         for rel_type in ["builds_upon", "related_to", "specializes", "contradicts"]:
             for target in rels.get(rel_type, []):
                 if isinstance(target, str):
-                    outgoing_edges[hid].append({"target": target, "type": rel_type})
-        edge_counts[hid] = len(outgoing_edges[hid])
+                    count += 1
+        edge_counts[hid] = count
     
-    # Build all nodes, sorted by edge count
     nodes, node_ids = [], set()
     domain_counts = Counter()
     all_nodes_data = []
@@ -275,11 +273,9 @@ def gather_concepts():
             "edge_count": edge_count,
         })
     
-    # Sort by edge count descending
     nodes.sort(key=lambda n: n["edge_count"], reverse=True)
     all_nodes_data.sort(key=lambda n: n["edge_count"], reverse=True)
     
-    # Build edges
     blockstore_edges = []
     for hid, concept in concepts.items():
         rels = concept.get('relationships', {})
@@ -305,7 +301,6 @@ def gather_concepts():
     print(f"  {len(nodes)} nodes, {len(valid_edges)} edges, {skipped} skipped")
     print(f"  Initial load: {min(INITIAL_LOAD, len(nodes))} concepts, {len(nodes) - min(INITIAL_LOAD, len(nodes))} background")
     
-    # Build ranked data for background loading
     ranked_data = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "total_concepts": len(all_nodes_data),
@@ -626,7 +621,7 @@ def generate_html(nodes, edges, domain_counts):
                     } else {
                         e.style('opacity', 0.04);
                     }
-                         });
+                });
             });
         });
 
@@ -690,7 +685,6 @@ def generate_html(nodes, edges, domain_counts):
                 });
             });
             
-            // Add edges connecting new nodes to already-loaded nodes
             if (allRankedConcepts.edges) {
                 allRankedConcepts.edges.forEach(function(e) {
                     var srcLoaded = loadedHids.has(e.source) || newNodeIds.has(e.source);
@@ -751,53 +745,7 @@ def generate_html(nodes, edges, domain_counts):
     </script>
 </body>
 </html>'''
-
-def generate_html(nodes, edges, domain_counts):
-    template = build_html_template()
-    nodes_json = []
-    for n in nodes:
-        nodes_json.append(
-            '{{ data: {{ id: "{}", label: "{}", definition: "{}", domain: "{}", background_color: "{}" }} }}'.format(
-                n["id"].replace('"', '\\"'),
-                n["label"].replace('"', '\\"'),
-                n.get("definition", "").replace('"', '\\"'),
-                n.get("domain", "").replace('"', '\\"'),
-                n["color"]
-            )
-        )
-    template = template.replace('__NODES_JSON__', ',\n'.join(nodes_json))
-    edges_json = []
-    for e in edges:
-        edges_json.append(
-            '{{ data: {{ source: "{}", target: "{}", label: "{}" }} }}'.format(
-                e["source"].replace('"', '\\"'),
-                e["target"].replace('"', '\\"'),
-                e["type"]
-            )
-        )
-    template = template.replace('__EDGES_JSON__', ',\n'.join(edges_json) if edges_json else '')
-    legend_items = []
-    for domain in CANONICAL_DOMAINS:
-        if domain in domain_counts:
-            color = DOMAIN_COLORS.get(domain, DEFAULT_COLOR)
-            legend_items.append(
-                '<div class="legend-item"><div class="color-box" style="background:{}"></div><span>{}</span></div>'.format(
-                    color, domain.replace('_', ' ')
-                )
-            )
-    template = template.replace('__LEGEND_ITEMS__', '\n'.join(legend_items))
-    edge_legend = '''
-        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #10B981"></div><span>→ builds_upon</span></div>
-        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #F59E0B"></div><span>— related_to</span></div>
-        <div class="legend-item"><div class="line-sample" style="border-bottom:2px dashed #8B5CF6"></div><span>→ specializes</span></div>
-        <div class="legend-item"><div class="line-sample" style="border-bottom:3px solid #EF4444"></div><span>→ contradicts</span></div>'''
-    template = template.replace('__EDGE_LEGEND__', edge_legend)
-    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    info_text = 'CADMIES Mycelium Map | {} nodes | {} edges | {} | Click node for details | / to search | Esc to reset'.format(
-        len(nodes), len(edges), timestamp
-    )
-    template = template.replace('__INFO_TEXT__', info_text)
-    return template
+    return html
 
 def main():
     print("=" * 60)
@@ -811,7 +759,6 @@ def main():
         print("\nERROR: No concepts loaded.")
         sys.exit(1)
     
-    # Save ranked data for background loading
     with open(RANKED_DATA_FILE, "w") as f:
         json.dump(ranked_data, f, indent=2)
     print(f"\nRanked data saved: {RANKED_DATA_FILE}")
@@ -826,7 +773,6 @@ def main():
     print(f"   Legend: {len(legend_domains)} canonical domains shown")
     print(f"   Progressive loading: {min(INITIAL_LOAD, len(nodes))} initial, {len(nodes) - min(INITIAL_LOAD, len(nodes))} background")
     print(f"   Features: zoom, search, tooltips, concept cards, directional arrows, interactive legend, keyboard shortcuts, node collision spacing, click-to-highlight, legend domain filter, background batch loading, volunteer banner")
-    print(f"   Phase 44: Canonical 15-domain allowlist with upward mapping")
     tkinter_page = PROJECT_ROOT / "cadmies-gui" / "pages" / "tkinter_mycelium_map.py"
     if tkinter_page.exists():
         with open(tkinter_page, "r") as f:
