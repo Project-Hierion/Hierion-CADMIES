@@ -364,6 +364,7 @@ def generate_html(nodes, edges, domain_counts):
 <html>
 <head>
     <title>CADMIES Mycelium Map</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
     <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
