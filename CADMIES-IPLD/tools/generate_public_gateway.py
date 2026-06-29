@@ -204,13 +204,18 @@ def build_index_page(concepts, domain_counts):
     """Build the single-page public gateway."""
     cards = [build_card(c) for c in concepts]
 
-    # Domain filter buttons
-    domains_sorted = sorted(domain_counts.keys())
+    # Domain filter buttons — 15 canonical domains only
+    CANONICAL_DOMAINS = [
+        "Physics", "Philosophy", "Biology", "Mathematics", "Consciousness",
+        "Chemistry", "Ethics", "Computer Science", "Psychology", "Spirituality",
+        "Neuroscience", "Sociology", "Economics", "Ecology", "Medicine",
+    ]
     domain_filters = []
-    for d in domains_sorted:
-        count = domain_counts[d]
-        display = DOMAIN_DISPLAY.get(d, d.replace('_', ' '))
-        domain_filters.append(f'<button class="filter-btn" data-filter="{d}">{display} ({count})</button>')
+    for d in CANONICAL_DOMAINS:
+        count = domain_counts.get(d, 0)
+        if count > 0:
+            display = DOMAIN_DISPLAY.get(d, d)
+            domain_filters.append(f'<button class="filter-btn" data-filter="{d}">{display} ({count})</button>')
 
     total_edges = sum(
         sum(len(targets) for targets in c["relationships"].values())
