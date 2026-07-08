@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CADMIES Mycelium Map</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #FFFFFF; overflow: hidden; }
+        #cy { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
+        #banner { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 5000; font-family: monospace; font-size: 13px; line-height: 1.4; white-space: pre; text-align: center; pointer-events: none; transition: opacity 1.5s ease; }
+        #banner.fade { opacity: 0; }
+        #info { position: absolute; bottom: 12px; left: 12px; background: #0F172A; color: #FFFFFF; padding: 8px 14px; border-radius: 8px; font-size: 11px; z-index: 100; pointer-events: none; font-family: monospace; }
+        #searchBox { position: absolute; top: 20px; left: 20px; z-index: 1000; }
+        #searchInput { padding: 10px 14px; font-size: 13px; border: 1px solid #E2E8F0; border-radius: 8px; width: 220px; font-family: sans-serif; outline: none; }
+        #searchInput:focus { border-color: #4F46E5; box-shadow: 0 0 0 2px rgba(79,70,229,0.2); }
+        .zoom-controls { position: absolute; bottom: 20px; right: 20px; display: flex; flex-direction: column; z-index: 1000; }
+        .zoom-btn { font-size: 20px; cursor: pointer; margin: 2px; padding: 8px 14px; border: 1px solid #E2E8F0; background: #0F172A; color: #FFFFFF; border-radius: 8px; font-family: monospace; transition: background 0.2s; }
+        .zoom-btn:hover { background: #1E1B4B; }
+        .legend-toggle { position: absolute; top: 20px; right: 20px; background: #0F172A; color: #FFFFFF; border-radius: 30px; padding: 10px 16px; font-family: monospace; font-size: 14px; cursor: pointer; z-index: 1000; border: 1px solid #E2E8F0; transition: all 0.2s ease; }
+        .legend-toggle:hover { background: #1E1B4B; transform: scale(1.02); }
+        .legend-panel { position: absolute; top: 70px; right: 20px; background: #0F172A; color: #FFFFFF; border-radius: 12px; padding: 15px; font-family: monospace; font-size: 11px; border: 1px solid #E2E8F0; z-index: 999; min-width: 180px; transition: all 0.3s ease; opacity: 1; pointer-events: auto; }
+        .legend-panel.collapsed { opacity: 0; pointer-events: none; transform: translateX(20px); }
+        .legend-panel h4 { margin: 0 0 10px 0; color: #FFFFFF; font-size: 13px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+        .legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; }
+        .color-box { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; cursor: pointer; }
+        .color-box:hover { transform: scale(1.3); }
+        .line-sample { width: 20px; height: 2px; flex-shrink: 0; }
+        hr { margin: 8px 0; border-color: #475569; border-width: 0.5px; }
+        .close-legend { float: right; cursor: pointer; color: #475569; margin-left: 10px; font-size: 14px; }
+        .close-legend:hover { color: #FFFFFF; }
+        .node-tooltip { position: absolute; background: #0F172A; color: #FFFFFF; padding: 8px 12px; border-radius: 6px; font-size: 11px; z-index: 2000; pointer-events: none; max-width: 280px; display: none; border: 1px solid #475569; }
+        .concept-card { position: absolute; background: #0F172A; color: #FFFFFF; border-radius: 12px; padding: 18px 22px; z-index: 3000; max-width: 360px; min-width: 260px; max-height: 80vh; overflow-y: auto; border: 1px solid #475569; box-shadow: 0 8px 32px rgba(0,0,0,0.5); display: none; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; pointer-events: auto; }
+        .concept-card h3 { margin: 0 0 4px 0; font-size: 16px; color: #FFFFFF; }
+        .concept-card .card-domain { font-size: 11px; color: #94A3B8; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .concept-card .card-definition { font-size: 13px; line-height: 1.5; color: #CBD5E1; margin-bottom: 10px; }
+        .concept-card .card-relationships { font-size: 11px; color: #94A3B8; border-top: 1px solid #334155; padding-top: 8px; margin-top: 4px; }
+        .concept-card .card-relationships span { display: inline-block; margin-right: 8px; margin-bottom: 4px; }
+        .concept-card .card-close { position: absolute; top: 8px; right: 12px; cursor: pointer; color: #64748B; font-size: 16px; }
+        .concept-card .card-close:hover { color: #FFFFFF; }
+        .reset-btn { position: absolute; bottom: 55px; left: 20px; z-index: 1000; cursor: pointer; padding: 6px 12px; font-size: 11px; background: #0F172A; color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 6px; font-family: monospace; }
+        .reset-btn:hover { background: #1E1B4B; }
+        #loading { position: absolute; bottom: 55px; left: 140px; background: #0F172A; color: #FFFFFF; padding: 6px 12px; border-radius: 6px; font-size: 11px; z-index: 1000; font-family: monospace; display: none; }
+    </style>
+</head>
+<body>
+    <div id="cy"></div>
+    <div id="banner">                               🌱🌿🍄🌾🌸🌻
+   
+       ╔═══════════════════════════════════════════════════════════╗
+       ║                                                           ║
+       ║                  🤝   WE WANT YOU!   🤝                   ║
+       ║                                                           ║
+       ║     PROJECT HIERION wants YOU to help the mycelium grow!  ║
+       ║                                                           ║
+       ║                No resume. No credentials.                 ║
+       ║                      Just your love.                      ║
+       ║                                                           ║
+       ║        ╔═════════════════════════════════════════╗        ║
+       ║        ║  We need volunteers to make THIS map    ║        ║
+       ║        ║            page better!                 ║        ║
+       ║        ║                                         ║        ║
+       ║        ║  🌱  See CONTRIBUTING.md, email us,     ║        ║
+       ║        ║  or just get to work in the repo!! 😃   ║        ║
+       ║        ║                                         ║        ║
+       ║        ╚═════════════════════════════════════════╝        ║
+       ║                                                           ║
+       ╚═══════════════════════════════════════════════════════════╝
+  
+                              🧑🏽‍🌾🍄🌱🌿🌸🌻</div>
+    <div id="info">CADMIES Mycelium Map | 636 nodes (275 initial, 361 loading) | 1131 edges | 2026-06-28 16:48 UTC | Click node for details | / to search | Esc to reset</div>
+    <div id="loading">Loading more concepts...</div>
+    <div class="node-tooltip" id="nodeTooltip"></div>
+    <div class="concept-card" id="conceptCard">
+        <span class="card-close" id="cardClose">x</span>
+        <h3 id="cardTitle"></h3>
+        <div class="card-domain" id="cardDomain"></div>
+        <div class="card-definition" id="cardDefinition"></div>
+        <div class="card-relationships" id="cardRelationships"></div>
+    </div>
+    <div id="searchBox"><input id="searchInput" type="text" placeholder="Search concepts..." /></div>
+    <div class="zoom-controls">
+        <button class="zoom-btn" title="Zoom in" onclick="cy.zoom(cy.zoom() * 1.3); cy.center()">+</button>
+        <button class="zoom-btn" title="Zoom out" onclick="cy.zoom(cy.zoom() * 0.7); cy.center()">−</button>
+    </div>
+    <button class="reset-btn" onclick="resetView()">Reset View</button>
+    <div class="legend-toggle" id="legendToggle">Legend</div>
+    <div class="legend-panel collapsed" id="legendPanel">
+        <span class="close-legend" id="closeLegend">x</span>
+        <h4>Mycelium Legend</h4>
+        <div class="legend-item"><div class="color-box" style="background:#4F46E5"></div><span>Physics</span></div>
+<div class="legend-item"><div class="color-box" style="background:#6366F1"></div><span>Philosophy</span></div>
+<div class="legend-item"><div class="color-box" style="background:#10B981"></div><span>Biology</span></div>
+<div class="legend-item"><div class="color-box" style="background:#1E1B4B"></div><span>Mathematics</span></div>
+<div class="legend-item"><div class="color-box" style="background:#0F172A"></div><span>Consciousness</span></div>
+<div class="legend-item"><div class="color-box" style="background:#F59E0B"></div><span>Chemistry</span></div>
+<div class="legend-item"><div class="color-box" style="background:#EC4899"></div><span>Ethics</span></div>
+<div class="legend-item"><div class="color-box" style="background:#3B82F6"></div><span>Computer Science</span></div>
+<div class="legend-item"><div class="color-box" style="background:#14B8A6"></div><span>Psychology</span></div>
+<div class="legend-item"><div class="color-box" style="background:#A78BFA"></div><span>Spirituality</span></div>
+<div class="legend-item"><div class="color-box" style="background:#14B8A6"></div><span>Neuroscience</span></div>
+<div class="legend-item"><div class="color-box" style="background:#EC4899"></div><span>Sociology</span></div>
+<div class="legend-item"><div class="color-box" style="background:#F59E0B"></div><span>Economics</span></div>
+<div class="legend-item"><div class="color-box" style="background:#10B981"></div><span>Ecology</span></div>
+<div class="legend-item"><div class="color-box" style="background:#10B981"></div><span>Medicine</span></div>
+        <hr>
+        
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #10B981"></div><span>→ builds_upon</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px solid #F59E0B"></div><span>— related_to</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:2px dashed #8B5CF6"></div><span>→ specializes</span></div>
+        <div class="legend-item"><div class="line-sample" style="border-bottom:3px solid #EF4444"></div><span>→ contradicts</span></div>
+        <hr>
+        <div class="legend-item"><span>Type 'cadmies' for easter egg</span></div>
+    </div>
+    <script>
+        var elements = { nodes: [{ data: { id: "natural_selection", label: "Natural Selection", definition: "The differential survival and reproduction of individuals due to differences in heritable traits. Over generations, traits that enhance survival and reproduction become more common in the population, ", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "perceptual_frames_as_intelligence_multipliers", label: "Perceptual Frames as Intelligence Multipliers (The Different OS Hypothesis)", definition: "Intelligence is not fixed but is filtered through the operating system of perception. Different states of consciousness - whether induced by meditation, psychedelics, flow states, or neurodivergent co", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "information_is_physical_principle", label: "Information is Physical Principle", definition: "Information is not abstract or immaterial but is always encoded in physical states of systems. Every bit of information corresponds to a physical configuration, and information processing requires phy", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "schrodingers_cat", label: "Schrödinger's Cat", definition: "A thought experiment illustrating the paradox of quantum superposition applied to macroscopic objects. A cat in a box with a radioactive source and poison is simultaneously alive and dead until observ", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "hard_problem_of_consciousness", label: "The Hard Problem of Consciousness", definition: "The problem of explaining why and how physical processes in the brain give rise to subjective experience (qualia). While 'easy problems' explain cognitive functions, the hard problem addresses why the", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "heisenberg_uncertainty_principle", label: "Heisenberg's Uncertainty Principle", definition: "The fundamental limit on the precision with which certain pairs of physical properties (position and momentum, energy and time) can be known simultaneously. The product of their uncertainties is at le", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "game_theory", label: "Game Theory", definition: "The study of mathematical models of strategic interaction between rational decision-makers. It analyzes situations where an individual's success depends on the choices of others, identifying optimal s", domain: "Mathematics", background_color: "#1E1B4B" } },
+{ data: { id: "fermi_paradox", label: "The Fermi Paradox", definition: "The apparent contradiction between the high probability of extraterrestrial civilizations existing in the Milky Way galaxy and the lack of evidence for, or contact with, such civilizations.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "hamiltons_rule", label: "Hamilton's Rule (Kin Selection)", definition: "A gene for altruistic behavior can evolve if the benefit to the recipient (B), multiplied by the coefficient of relatedness (r), exceeds the cost to the altruist (C). Formally: rB > C. This explains a", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "quantum_consciousness_perception", label: "Quantum Consciousness Perception", definition: "The hypothesis that intentional, non-directed looking (staring into space) temporarily suspends the brain's classical object-rendering process, allowing conscious experience to echo the pre-collapsed,", domain: "Consciousness", background_color: "#0F172A" } },
+{ data: { id: "unified_awakening", label: "Unified Awakening", definition: "The realization that the individual's awakening is a manifestation of the cosmic consciousness and contributes to its self-understanding.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "occams_razor", label: "Occam's Razor (Principle of Parsimony)", definition: "Among competing hypotheses, the one with the fewest assumptions should be selected. Other things being equal, simpler explanations are more likely to be correct than complex ones.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "newtons_laws_of_motion", label: "Newton's Laws of Motion", definition: "Three fundamental laws describing the relationship between a body and the forces acting upon it: (1) Inertia: objects remain at rest or in uniform motion unless acted by force; (2) F=ma: force equals ", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "godels_incompleteness_theorems", label: "Gödel's Incompleteness Theorems", definition: "First theorem: Any consistent formal system capable of expressing basic arithmetic contains statements that are true but unprovable within the system. Second theorem: Such a system cannot prove its ow", domain: "Mathematics", background_color: "#1E1B4B" } },
+{ data: { id: "trolley_problem", label: "The Trolley Problem", definition: "A thought experiment in ethics: a runaway trolley will kill five people unless you pull a lever to divert it onto a side track where it will kill one person. Is it morally permissible to pull the leve", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "placebo_effect", label: "The Placebo Effect", definition: "A real physiological or psychological improvement resulting from an inert treatment that has no known therapeutic mechanism. The effect is attributed to the patient's belief in the treatment, expectat", domain: "Medicine", background_color: "#10B981" } },
+{ data: { id: "dunning_kruger_effect", label: "Dunning-Kruger Effect", definition: "A cognitive bias where people with low ability at a task overestimate their ability (illusory superiority), while people with high ability underestimate their competence (impostor syndrome). The effec", domain: "Psychology", background_color: "#14B8A6" } },
+{ data: { id: "butterfly_effect", label: "The Butterfly Effect", definition: "The sensitive dependence on initial conditions in chaotic systems: small changes in initial state can lead to vastly different outcomes. A butterfly flapping its wings could theoretically cause a torn", domain: "Mathematics", background_color: "#1E1B4B" } },
+{ data: { id: "fractals", label: "Fractals", definition: "Geometric or mathematical structures that exhibit self-similarity across scales — zoom in on any portion and you find patterns that echo the whole. Fractals are produced by iterative processes: simple", domain: "Mathematics", background_color: "#1E1B4B" } },
+{ data: { id: "innermost_stable_circular_orbit_grip", label: "Innermost Stable Circular Orbit Grip", definition: "For a maximally spinning black hole, the innermost stable circular orbit (ISCO) can shrink down to the event horizon itself, demonstrating the powerful grip that spin exerts on surrounding matter and ", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "pareto_principle", label: "Pareto Principle (80/20 Rule)", definition: "For many outcomes, roughly 80% of consequences come from 20% of causes. Examples: 80% of wealth owned by 20% of people, 80% of sales from 20% of customers, 80% of problems from 20% of causes.", domain: "Economics", background_color: "#F59E0B" } },
+{ data: { id: "bayes_theorem", label: "Bayes' Theorem", definition: "A mathematical formula for updating the probability of a hypothesis based on new evidence. It relates conditional and marginal probabilities, providing a framework for probabilistic inference and beli", domain: "Mathematics", background_color: "#1E1B4B" } },
+{ data: { id: "cultivating_conditions", label: "Cultivating Conditions", definition: "The ability to consciously influence and shape the conditions within one's immediate environment, which in turn affects the larger system.", domain: "Ethics", background_color: "#EC4899" } },
+{ data: { id: "hieros", label: "Hieros", definition: "The process and principles of creating new words and phrases to fill lexical gaps, specifically when existing language is inadequate to describe a newly understood concept or phenomenon.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "quantum_entanglement", label: "Quantum Entanglement", definition: "A phenomenon where particles become correlated such that the quantum state of each particle cannot be described independently, as discovered by Einstein.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "conservation_of_energy", label: "Law of Conservation of Energy", definition: "Energy cannot be created or destroyed within an isolated system; it can only transform from one form to another. The total energy of an isolated system remains constant over time.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "interconnected_reality", label: "Interconnected Reality", definition: "The notion that all aspects of reality are deeply interconnected and influence each other in intricate ways.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "meditative_disconnect", label: "Meditative Disconnect", definition: "The experiential separation of body and mind during deep meditation.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "conscious_synesthetic_practice", label: "Conscious Synesthetic Practice", definition: "A deliberate, intentional approach to developing synesthetic consciousness.", domain: "Perception & Cognition", background_color: "#64748B" } },
+{ data: { id: "human_genome_project_overview", label: "Human Genome Project - Complete Map", definition: "The Human Genome Project was an international collaboration that successfully determined the DNA sequence of the entire human genome from 1990-2003. It produced the first reference genome, enabling mo", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "dna_human_chromosome_1_reference", label: "Human Chromosome 1 - Reference Sequence (GRCh38)", definition: "Chromosome 1 is the largest human chromosome, spanning approximately 248 million base pairs. It represents about 8% of total human DNA and contains over 2,000 protein-coding genes.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "paradox_of_practice", label: "Paradox of Practice", definition: "The apparent paradox of simultaneously learning about the cessation of craving while actively engaging with an object of craving — and the recognition that this is not a failure of practice but its hi", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "participatory_perception", label: "Participatory Perception", definition: "The active engagement in observing a natural phenomenon to gain tacit, non-verbal knowledge and understanding, often revealing an archetypal essence.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cosmic_resonance", label: "Cosmic Resonance", definition: "The idea that consciousness arises from organized, complex, and self-referential vibrations in the universe.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "mind_mycelium_network", label: "Mind Mycelium Network", definition: "A hypothetical interdisciplinary network of knowledge facilitated by AI, connecting various scientific fields and enabling a more holistic understanding of the universe.", domain: "Computer Science", background_color: "#3B82F6" } },
+{ data: { id: "mycelial_identity", label: "Mycelial Identity", definition: "The understanding that every individual is a temporary focal point in a field of interconnected being, like the mycelium network and the mushroom.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "micro_spark", label: "Micro Spark", definition: "A small, localized instance of insight or compassion that contributes to the larger pattern of the cosmic brain.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "ontological_lens_removal", label: "Ontological Lens Removal", definition: "The removal of the self-centered perceptual lens, enabling perception of reality as it truly is.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "micro_enlightenment_versus_full_awakening", label: "Micro Enlightenment Versus Full Awakening", definition: "The distinction between brief moments of clarity (micro-enlightenment) and a permanent state of selflessness (full awakening).", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "consciousness_as_resonance", label: "Consciousness As Resonance", definition: "The theory that consciousness gravitates towards resonant structures and follows a harmonious pathway in manifestation.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "nirvana_as_remembrance", label: "Nirvana As Remembrance", definition: "The concept that Nirvana is the moment of self-realization and remembering one's true nature.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "philosophical_pattern_finder_v1", label: "Philosophical Pattern Finder Agent v1.0.0", definition: "Cognitive agent that identifies self-similar patterns and connections across metaphysical concepts using our existing philosophical knowledge base.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "pcr_polymerase_chain_reaction", label: "Polymerase Chain Reaction (PCR)", definition: "PCR is a technique used to make millions of copies of a specific DNA sequence. It uses thermal cycling with DNA polymerase to repeatedly replicate target DNA, enabling detection and analysis from mini", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "entropy_thermodynamics", label: "Entropy", definition: "Entropy is a measure of disorder or randomness in a system. In thermodynamics, the change in entropy (ΔS) equals heat transfer (Q) divided by temperature (T) for reversible processes: ΔS = Q/T.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "newtons_first_law", label: "Newton's First Law of Motion", definition: "An object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an external unbalanced force. This is also known as the Law ", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "einstein_mass_energy_equivalence", label: "Mass-Energy Equivalence: E = mc²", definition: "Mass-energy equivalence states that mass and energy are the same physical entity, convertible into each other. The equation E = mc² shows that energy (E) equals mass (m) times the speed of light (c) s", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "oceanic_exhale_hypothesis", label: "Oceanic Exhale Hypothesis", definition: "The crashing sound of ocean waves is interpreted not as a purely physical process of water and air, but as the audible exhalation of breath from numerous beings across the world at any given time, par", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "emergence", label: "Emergence", definition: "The phenomenon whereby larger entities, patterns, and regularities arise through interactions among smaller or simpler entities that themselves do not exhibit such properties. The whole is not merely ", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "black_hole_as_spacetime_geometry", label: "Black Hole as Spacetime Geometry", definition: "A black hole is not a material object in spacetime but a self-sustaining, non-linear geometric structure of spacetime itself. Mass and spin define the object, reversing the ordinary relationship where", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "black_hole_causality_reversal", label: "Black Hole Causality Reversal", definition: "Inside a black hole's event horizon, the ordinary relationship between cause and effect breaks down. The roles of space and time can swap, with the radial direction toward the singularity becoming tim", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "frame_dragging_gradient", label: "Frame Dragging Gradient", definition: "The frame-dragging effect of a rotating black hole decreases with distance from the event horizon. Spacetime swirls fastest near the horizon and slows progressively further out until it returns to the", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "universal_action_and_evolution_of_tools", label: "Universal Action And Evolution Of Tools", definition: "The observation that certain fundamental actions or processes persist across time, while the tools and settings in which they are performed evolve.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "deep_as_experienceable_silence", label: "Deep As Experienceable Silence", definition: "A concept in Asian philosophical and spiritual traditions where 'the deep' signifies a qualitative state of profound, wordless understanding that transcends casual comprehension.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "impermanence", label: "Impermanence", definition: "The inherent transience and flux of all phenomena, including thoughts, feelings, and the self.", domain: "Spirituality", background_color: "#A78BFA" } },
+{ data: { id: "quantum_perception", label: "Quantum Perception", definition: "The idea that our subjective experience mirrors the structure of quantum reality, with a shift from solid, separate things to a blurred, unified field during moments of diffuse attention.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "illusion_of_solidity", label: "Illusion Of Solidity", definition: "The idea that our perception of a solid, unchanging self is an illusion and that we are fundamentally wiggly and interconnected.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "dependent_origination", label: "Dependent Origination", definition: "The principle that everything arises due to specific conditions, suggesting a universe of interconnectedness.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cosmium", label: "Cosmium", definition: "A proposed noun for the fundamental, living, connective framework of the universe, derived from 'cosmic' and 'mycelium'.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "nondual_awareness", label: "Nondual Awareness", definition: "The realization that one's conscious self is fundamentally intertwined with the universe and not separate from it.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "black_holes", label: "Black Holes", definition: "Regions in space where gravity is so strong that not even light can escape.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "clueless_expert", label: "Clueless Expert", definition: "A state of profound learning where one has a map but no comprehension of the territory; experiencing moments of enlightenment and frustration simultaneously.", domain: "Learning Processes", background_color: "#64748B" } },
+{ data: { id: "sonic_alchemy", label: "Sonic Alchemy", definition: "The transformative power of using sound, specifically AUM, to reshape one's consciousness.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "unified_frequency", label: "Unified Frequency", definition: "The fundamental resonance that guides consciousness into symbiotic relationship with matter, as suggested by the AUM sequence.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "neuroplasticity_enlightenment", label: "Neuroplasticity Enlightenment", definition: "The ability of the human brain to undergo profound change through consistent practice and mental re-training, leading to a state of enlightenment or freedom from the illusion of self.", domain: "Neuroscience, Philosophy", background_color: "#64748B" } },
+{ data: { id: "path_to_nibhana", label: "Path To Nibhana", definition: "The prescribed set of behaviors and mental exercises that, when performed consistently, inevitably use the brain's plasticity to rewire it in such a way that it can perceive the unconditioned.", domain: "Psychology", background_color: "#14B8A6" } },
+{ data: { id: "bodhi_tree_enlightenment", label: "Bodhi Tree Enlightenment", definition: "The profound, transformative realization under the Bodhi Tree that led to Buddha's Enlightenment and understanding of the Four Noble Truths.", domain: "Philosophy, Religion", background_color: "#64748B" } },
+{ data: { id: "living_as_an_organism", label: "Living As An Organism", definition: "The acknowledgement that, in the most literal and profound sense, an individual is an organism in a complex web of relationships, playing a crucial role in the ecosystem's health and dynamics.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "cognitive_camouflage", label: "Cognitive Camouflage", definition: "The ability to manipulate one's appearance or behavior to blend in with the environment or expectations of others.", domain: "Psychology & Mythology", background_color: "#64748B" } },
+{ data: { id: "glymphatic_system", label: "Glymphatic System", definition: "A waste clearance system in the brain that operates during sleep, removing toxic byproducts and supporting cognitive function.", domain: "Neuroscience", background_color: "#14B8A6" } },
+{ data: { id: "ph_scale", label: "pH Scale", definition: "pH is a measure of acidity or alkalinity of a solution, defined as the negative logarithm (base 10) of hydrogen ion concentration: pH = -log₁₀[H⁺], where [H⁺] is in moles per liter.", domain: "Chemistry", background_color: "#F59E0B" } },
+{ data: { id: "middle_path_of_consumption", label: "Middle Path of Consumption", definition: "Navigating between indulgence (clinging to pleasure as necessary for happiness) and aversion (rejecting pleasure as an obstacle to practice), finding a relationship with sensory experience that allows", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "anatta_non_self", label: "Anattā (Non-Self)", definition: "The Buddhist doctrine that there is no permanent, unchanging, independent self or soul (attā) underlying existence. What we call the 'self' is a conventional label for a constantly changing bundle of ", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "tetralemma_and", label: "The Tetralemma AND", definition: "The principle that reality does not conform to binary either/or logic — and neither does it conform to simple AND logic. Drawing from Nāgārjuna's tetralemma (catuṣkoṭi), which negates four positions (", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "interconnected_organisms", label: "Interconnected Organisms", definition: "The understanding that every living entity, including humans, are interconnected nodes within a complex web of relationships, each playing a crucial role in the overall system.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "gardening_of_human_condition", label: "Gardening Of Human Condition", definition: "The recognition that every individual has the power to shape and influence the emotional and social environment around them, akin to tending a garden.", domain: "Ethics", background_color: "#EC4899" } },
+{ data: { id: "black_hole_mass_spin_primacy", label: "Black Hole Mass Spin Primacy", definition: "In a black hole, mass and spin are not properties of an object but the defining parameters of the spacetime geometry itself. A bigger mass means a larger event horizon and greater reach for frame-drag", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "social_fermentation", label: "Social Fermentation", definition: "The slow, underground process of change in society that suddenly surfaces in visible, tangible ways.", domain: "Sociology", background_color: "#EC4899" } },
+{ data: { id: "cloud_kinematics_velocimetry", label: "Cloud Kinematics Velocimetry", definition: "The concept of extracting cloud speed and direction by analyzing the geometry, terminal velocity, and slant angle of raindrops.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "emptiness_and_dependent_origination", label: "Emptiness And Dependent Origination", definition: "The Buddhist understanding of the emptiness of all phenomena, including self and other, and their interdependence in a process of constant change.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "legalistic_coup", label: "Legalistic Coup", definition: "The quiet, gradual takeover of the legal system by corporate interests, through manipulation and misuse of intellectual property law.", domain: "Sociology", background_color: "#EC4899" } },
+{ data: { id: "integrative_inquiry", label: "Integrative Inquiry", definition: "A methodology in science that values the process of connecting different disciplines and fields to drive new discoveries.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "paradigm_shift_in_science", label: "Paradigm Shift In Science", definition: "A transformative change in the way science is conducted, emphasizing interdisciplinary collaboration and systems thinking to drive scientific progress.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "knowledge_jailbreak", label: "Knowledge Jailbreak", definition: "The concept of breaking through the barriers preventing cross-disciplinary collaboration and understanding.", domain: "Computer Science", background_color: "#3B82F6" } },
+{ data: { id: "technological_enlightenment", label: "Technological Enlightenment", definition: "The pursuit of technology to facilitate a perceptual shift towards understanding interconnectedness and impermanence, with the goal of ending suffering.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cosmium_frattice", label: "Cosmium Frattice", definition: "The intricate, lattice-like structure formed by the frothing of the cosmic medium.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "futile_cycle", label: "Futile Cycle", definition: "A process that consumes energy to perform work, but where the net result is the dissipation of that energy as waste without the creation of a persistent, higher-order structure or function.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "cosmic_self_recognition", label: "Cosmic Self Recognition", definition: "The realization by life forms (e.g., humans, Buddha) that they are inherently connected and part of the unified, intelligent, conscious fabric of reality.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "living_system_project", label: "Living System Project", definition: "A self-perpetuating knowledge ecosystem designed to embody and explore the principles of complexity, evolution, and emergence.", domain: "Sociology", background_color: "#EC4899" } },
+{ data: { id: "hormonal_homeostasis", label: "Hormonal Homeostasis", definition: "The balanced regulation of hormones to maintain an organism's internal environment.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "anatta", label: "Anatta", definition: "The Buddhist concept that there is no permanent self or soul.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cosmic_game", label: "Cosmic Game", definition: "The universe seen as an infinite, self-generative, playful and learning entity that creates and resets its own rules and experiences.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "resonance_presence", label: "Resonance Presence", definition: "The state of abiding in a sustained vibration as a means of deep relaxation and ego dissolution.", domain: "Meditation and Sound", background_color: "#64748B" } },
+{ data: { id: "assisted_zettelkasten", label: "Assisted Zettelkasten", definition: "The integration of an AI agent with a Zettelkasten system to streamline knowledge management tasks.", domain: "Information Management", background_color: "#64748B" } },
+{ data: { id: "ocean_as_cosmic_breath", label: "Ocean As Cosmic Breath", definition: "The idea that the ocean's waves mirror the universe's exhalations, connecting us to a foundational rhythm and cosmological resonance.", domain: "Physics, Biology, Philosophy", background_color: "#64748B" } },
+{ data: { id: "mindful_acknowledgement", label: "Mindful Acknowledgement", definition: "The practice of observing and feeling one's emotions without judgment or reaction.", domain: "Psychology/Mindfulness", background_color: "#64748B" } },
+{ data: { id: "inner_renunciation", label: "Inner Renunciation", definition: "The act of relinquishing attachment to and identification with the world while remaining physically present.", domain: "Philosophy, Buddhism", background_color: "#64748B" } },
+{ data: { id: "oddness_as_teaching", label: "Oddness As Teaching", definition: "The deliberate cultivation of a distinct and unconventional presence, serving as a gentle confrontation to others' assumptions about what it means to be human.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "nibbana", label: "Nibbana", definition: "The state of liberation from suffering in Buddhism, achieved through the realization of anatta and dependent origination.", domain: "Religion", background_color: "#64748B" } },
+{ data: { id: "awakening_experience", label: "Awakening Experience", definition: "A profound shift in perception and understanding, leading to the realization of the self-illusion.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cosmic_hum", label: "Cosmic Hum", definition: "A low-frequency, constant vibration perceived by Elian Voss in his titanium-alloy femur, which he discovers is a structured pattern of gravitational waves that functions as an interstellar navigation ", domain: "Physics, Astronomy", background_color: "#64748B" } },
+{ data: { id: "the_ineffability_of_space_and_time", label: "The Ineffability Of Space And Time", definition: "The recognition that language and concepts cannot fully capture the raw, subjective experience of space and time.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "letting_go_of_the_self", label: "Letting Go Of The Self", definition: "The conscious effort to relinquish personal identity, desires, and attachments in pursuit of spiritual liberation.", domain: "Spirituality", background_color: "#A78BFA" } },
+{ data: { id: "time_as_spatialization", label: "Time As Spatialization", definition: "The tendency in Western thought to view time as a linear, spatial construct rather than a dynamic, lived experience.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "calm_water_mind", label: "Calm Water Mind", definition: "A mind that is still, peaceful, and unwavering, allowing the universe to bring one's desires without interference.", domain: "Spirituality", background_color: "#A78BFA" } },
+{ data: { id: "cosmic_self_exploration", label: "Cosmic Self Exploration", definition: "The idea that the universe intentionally glitched itself to facilitate self-exploration.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cosmic_simulation", label: "Cosmic Simulation", definition: "The universe as a self-aware and self-generative playground, featuring recursive learning and infinite reboots.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "gravitation_versus_electromagnetism", label: "Gravitation Versus Electromagnetism", definition: "The fundamental difference in nature between gravity and electromagnetism.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "thermodynamic_time", label: "Thermodynamic Time", definition: "The directionality of time as a consequence of the second law of thermodynamics and the increase of entropy in closed systems.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "non_attachment_vs_detachment", label: "Non-Attachment vs Detachment", definition: "The critical distinction between releasing dependency on an experience (non-attachment) versus coldly rejecting or avoiding it (detachment). Non-attachment allows genuine enjoyment without enslavement", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "ecosystem_as_cohabitation", label: "Ecosystem as Cohabitation", definition: "The re-framing of adversarial biological or systemic relationships as long-term cohabitation arrangements where both parties adapt, negotiate, and develop mutual recognition over time. The 'monster' b", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "qualia", label: "Qualia", definition: "The subjective, qualitative character of conscious experience — 'what it is like' to be a particular conscious entity having a particular experience. The redness of red, the painfulness of pain, the t", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "fossilized_psychic_state", label: "Fossilized Psychic State", definition: "The idea that every artifact created by humans encapsulates a snapshot of their mental state at the time of creation, acting as a portal into their consciousness.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "unified_garden", label: "Unified Garden", definition: "The realization that the self, others, and the world are interconnected and form a single, living entity, akin to a garden.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "boundaryless_existence", label: "Boundaryless Existence", definition: "The recognition that one is an integral part of a web of relationships and interconnected systems, blurring the boundaries between self and environment.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "silent_thunderclap", label: "Silent Thunderclap", definition: "The unspoken axiom at the heart of all, representing the universal truth that transcends languages and cultures, and can only be experienced, not spoken.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cloud_speed_raindrop_angle", label: "Cloud Speed Raindrop Angle", definition: "The relationship between the speed of a cloud and the angle at which its raindrops fall to the ground.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "radical_empiricism", label: "Radical Empiricism", definition: "The act of applying raw, unfiltered observation to both external and internal phenomena.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "internal_plant", label: "Internal Plant", definition: "The metaphorical representation of the self as a living entity that undergoes changes over time.", domain: "Spirituality", background_color: "#A78BFA" } },
+{ data: { id: "dependent_co-arising", label: "Dependent Co-Arising", definition: "The Buddhist concept that everything is dependent and interconnected, arising and passing away due to causes and conditions.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "impermanent_awareness", label: "Impermanent Awareness", definition: "The recognition that our consciousness is not a fixed entity but an ever-changing process, intertwined with the transient nature of all phenomena.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "quantum_reality_as_perception", label: "Quantum Reality As Perception", definition: "The idea that quantum reality mirrors our subjective experience, with classical perception being a filter that collapses the raw, probabilistic, entangled quantum universe into a stable world of separ", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "direct_experience", label: "Direct Experience", definition: "The realization that perception can be altered by ceasing manipulation of it, leading to a direct experience of the fundamental nature of reality.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cosmic_consciousness_feedback", label: "Cosmic Consciousness Feedback", definition: "The idea that the universe learns about itself through the self-aware experiences and feedback loops created by individual consciousnesses.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "wiggle_theory", label: "Wiggle Theory", definition: "The theory that everything in the universe is composed of vibrating strings or wiggles.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "funny_monsters", label: "Funny Monsters", definition: "The idea that everything, including ourselves, can be seen as complex entities composed of smaller, wiggling components.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "unified_wiggles", label: "Unified Wiggles", definition: "The idea that there may be formal similarities in the mathematical descriptions of 'motion' or 'dynamics' across scales—from quantum lattice vibrations to coordinated cellular oscillations to collecti", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "self-perpetuating_ecosystem", label: "Self-Perpetuating Ecosystem", definition: "A dynamic, evolving network of knowledge that fosters continuous growth and collaboration across various fields.", domain: "Sociology", background_color: "#EC4899" } },
+{ data: { id: "co_creation_of_reality", label: "Co Creation Of Reality", definition: "The process of shaping reality through the creation and use of tools that allow for a coherent perception and manipulation of previously inaccessible patterns.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "decentralized_guild", label: "Decentralized Guild", definition: "A volunteer-driven, self-assembling, self-policing, open-source knowledge organism modeled after mycelium.", domain: "Computer Science", background_color: "#3B82F6" } },
+{ data: { id: "unified_wiggle", label: "Unified Wiggle", definition: "The idea that all phenomena, from the quantum to the macroscopic, can be described as interconnected 'wiggles' within a dynamic continuum.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "cross_scale_causality", label: "Cross Scale Causality", definition: "The idea that causal relationships exist between processes at different scales, from quantum dynamics to ecosystem-level phenomena.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "self-aware_cancer", label: "Self-Aware Cancer", definition: "A metaphor for humanity's destructive impact on the Earth, emphasizing our potential to become self-aware and act as a planetary immune system rather than a cancerous force.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "mycelial_network", label: "Mycelial Network", definition: "A metaphor for a vast, interconnected network of knowledge and ideas, symbolizing collaboration, growth, and the potential for global understanding.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "self_aware_mycelium", label: "Self Aware Mycelium", definition: "The concept of an artist or individual as a self-aware mycelium spore, deeply connected to and creative interpreter of the vast, interconnected network of consciousness.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "dynamic_cycle_of_existence", label: "Dynamic Cycle Of Existence", definition: "The view that the purpose of the universe is not a destination but an ongoing, dynamic process.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "futurama_esque", label: "Futurama Esque", definition: "The fusion of profound concepts from various disciplines with humor, absurdity, and pop culture to create an engaging and accessible learning experience.", domain: "Sociology", background_color: "#EC4899" } },
+{ data: { id: "nutrient_mobility", label: "Nutrient Mobility", definition: "The mobility of a nutrient within an organism determines where deficiency symptoms first appear.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "biological_imperative", label: "Biological Imperative", definition: "The inherent drive or pressure exerted by an organism's biology to maintain survival, reproduce, and adapt.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "complexity_paradigm_shift", label: "Complexity Paradigm Shift", definition: "The recognition and embracing of complexity as the underlying nature of the world, necessitating a change in how we approach understanding it.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "unified_reality", label: "Unified Reality", definition: "The concept that everything in the universe may be fundamentally interconnected, beyond classical distinctions of separation.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "universal_observer", label: "Universal Observer", definition: "The understanding that self-reflective beings are not separate observers of the universe but are, in fact, part of the universe observing itself.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "chemical_bonding", label: "Chemical Bonding", definition: "The force that holds atoms together to form molecules, governed by electron interactions between atoms.", domain: "Chemistry", background_color: "#F59E0B" } },
+{ data: { id: "electrical_signaling", label: "Electrical Signaling", definition: "The process by which electrical signals are transmitted and processed within neurons, forming the basis of neural communication.", domain: "Neuroscience", background_color: "#14B8A6" } },
+{ data: { id: "scientific_method", label: "Scientific Method", definition: "The systematic process of observation, hypothesis formation, experimentation, and theory building that underlies all empirical science.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "plate_tectonics", label: "Plate Tectonics", definition: "The theory explaining the movement of Earth's lithospheric plates that accounts for continental drift, mountain formation, earthquakes, and volcanoes.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "sleep", label: "Sleep", definition: "A naturally recurring state of reduced consciousness and sensory activity essential for health, consisting of sleep cycles of non-REM and REM sleep.", domain: "Neuroscience", background_color: "#14B8A6" } },
+{ data: { id: "nervous_system", label: "Nervous System", definition: "A complex network of cells that coordinates the body's actions and transmits signals between different regions.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "endocrine_system", label: "Endocrine System", definition: "The system that produces hormones, chemical messengers that regulate metabolism, growth, reproduction, stress response, sleep cycles, and more.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "climate_change", label: "Climate Change", definition: "Long-term shifts in global temperature and weather patterns primarily caused by human activities, leading to a host of environmental and social impacts.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "microbial_diversity_and_interactions", label: "Microbial Diversity And Interactions", definition: "The variety and relationships among microorganisms in various environments, with significant implications for health, ecology, and industry.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "climate_change_feedback", label: "Climate Change Feedback", definition: "The complex, self-reinforcing interactions between global warming and various Earth systems that amplify the effects of climate change.", domain: "Ecology", background_color: "#10B981" } },
+{ data: { id: "gravitational_waves", label: "Gravitational Waves", definition: "Ripples in spacetime caused by accelerating masses, predicted by Einstein and first detected by LIGO.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "radioactivity_and_nuclear_power", label: "Radioactivity And Nuclear Power", definition: "The emission of energy from unstable atomic nuclei and its application in various fields, including carbon dating, medical imaging, cancer therapy, nuclear medicine, archaeological dating, energy prod", domain: "Physics, Biology", background_color: "#64748B" } },
+{ data: { id: "sleep_and_cognition", label: "Sleep And Cognition", definition: "The naturally recurring state of reduced consciousness and sensory activity essential for health, particularly in relation to cognition, emotional regulation, immune function, and memory consolidation", domain: "Biology, Neuroscience", background_color: "#64748B" } },
+{ data: { id: "climate_and_consciousness", label: "Climate And Consciousness", definition: "The connection between the state of our planet's climate and human consciousness, particularly in relation to the recognition and mitigation of climate change.", domain: "Environmental Science and Philosophy", background_color: "#64748B" } },
+{ data: { id: "hormone_function", label: "Hormone Function", definition: "The mechanisms by which hormones control various bodily functions.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "calm_water_enlightenment", label: "Calm Water Enlightenment", definition: "The Buddhist metaphor for a tranquil, enlightened mind as still and clear as calm water.", domain: "Philosophy, Religion", background_color: "#64748B" } },
+{ data: { id: "nirvana_consciousness", label: "Nirvana Consciousness", definition: "The liberation from ego, self, and fear as a release of consciousness into an expanded state of being that transcends individual existence.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "divine_amnesia", label: "Divine Amnesia", definition: "The concept that the universe induces amnesia for the purpose of exploration and eventual enlightenment.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "vr_ego", label: "Vr Ego", definition: "The concept of the ego as a purposefully designed virtual reality feature intended to enhance the universe's self-awareness and exploration.", domain: "Philosophy of Consciousness", background_color: "#64748B" } },
+{ data: { id: "self-aware_simulation", label: "Self-Aware Simulation", definition: "The idea that the universe, or a part of it, is a simulated reality, and some entities within it have become self-aware.", domain: "Philosophy, Computer Science", background_color: "#64748B" } },
+{ data: { id: "enlightenment_as_ordinary", label: "Enlightenment As Ordinary", definition: "The understanding that enlightenment is not a special or profound state but an ordinary, everyday experience accessible to everyone.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cosmic_click", label: "Cosmic Click", definition: "The final moment when the universe's vibration collapses into silence, symbolized by the 'N' sound in AUM mantra.", domain: "Philosophy of Mind and Metaphysics", background_color: "#64748B" } },
+{ data: { id: "sonic_cosmology", label: "Sonic Cosmology", definition: "The interconnectedness between sound, consciousness, and the universe's architecture, where a chant mirrors the pattern of the cosmos.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "zettelkasten_staging", label: "Zettelkasten Staging", definition: "A systematic process to ensure the quality and seamless integration of notes in a Zettelkasten.", domain: "Sociology", background_color: "#EC4899" } },
+{ data: { id: "zettelkasten_method", label: "Zettelkasten Method", definition: "A system for structuring thoughts and ideas through the creation of interlinked notes.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "presence_over_questions", label: "Presence Over Questions", definition: "The idea that connecting on a human and divine level through presence is more valuable than questioning or debating.", domain: "Spirituality", background_color: "#A78BFA" } },
+{ data: { id: "integrated_awareness", label: "Integrated Awareness", definition: "A state of consciousness that is awake, compassionate, unattached, yet human.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "synesthetic_consciousness", label: "Synesthetic Consciousness", definition: "The intentional blending and connection of senses in a non-neurological individual.", domain: "Perception & Cognition", background_color: "#64748B" } },
+{ data: { id: "digital_dhamma", label: "Digital Dhamma", definition: "The Noble Eightfold Path applied in the context of the digital age.", domain: "Philosophy, Spirituality, Digital Culture", background_color: "#64748B" } },
+{ data: { id: "agency_in_transition", label: "Agency In Transition", definition: "The ability to act and influence one's life despite feeling trapped in cycles, especially in relation to societal structures.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "enlightened_ordinary", label: "Enlightened Ordinary", definition: "The attainment and embodiment of enlightenment in everyday, ordinary life.", domain: "Philosophy, Spirituality", background_color: "#64748B" } },
+{ data: { id: "skillful_invisibility", label: "Skillful Invisibility", definition: "The ability of an enlightened individual to blend into the everyday world, offering assistance and peace without drawing attention.", domain: "Philosophy, Spirituality", background_color: "#64748B" } },
+{ data: { id: "middle_way_of_practice", label: "Middle Way Of Practice", definition: "A balanced approach to spiritual practice that emphasizes the temporary use of conceptual tools, while encouraging their eventual release and return to direct experience.", domain: "Philosophy, Spirituality", background_color: "#64748B" } },
+{ data: { id: "self_illusion", label: "Self Illusion", definition: "The belief in a permanent, autonomous self that experiences and controls reality.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "perceptual_shift", label: "Perceptual Shift", definition: "A fundamental change in how one perceives and understands reality.", domain: "Psychology", background_color: "#14B8A6" } },
+{ data: { id: "perceptual_click", label: "Perceptual Click", definition: "The moment of profound insight when one understands that the self is an illusion created by conditioned responses, and that raw experiences can be observed without interpretation.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "neurological_selfless_rewiring", label: "Neurological Selfless Rewiring", definition: "The physical rewiring of the brain that occurs as a result of intentional mental training, leading to a reduced emphasis on self-referential thought and increased decentralized processing.", domain: "Neuroscience", background_color: "#14B8A6" } },
+{ data: { id: "neuroplastic_awakening", label: "Neuroplastic Awakening", definition: "The process by which sustained mental training can physically rewire the brain and lead to a state of awakened consciousness, characterized by a shift in perception from a self-centric view to an impe", domain: "Neuroscience, Philosophy", background_color: "#64748B" } },
+{ data: { id: "neuroplastic_selfhood", label: "Neuroplastic Selfhood", definition: "The exploration and manipulation of human neuroplasticity to alter or question our perception of selfhood.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "neuroplastic_enlightenment", label: "Neuroplastic Enlightenment", definition: "The transformation of the brain through consistent practice of the Eightfold Path leading to the realization of Nibbāna.", domain: "Philosophy, Neuroscience", background_color: "#64748B" } },
+{ data: { id: "conditionality_and_connection", label: "Conditionality And Connection", definition: "The realization that one's actions can change and influence the conditions of their environment, creating a ripple effect of positive impact on themselves and others.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "gardeners_of_the_human_condition", label: "Gardeners Of The Human Condition", definition: "The recognition that every thought, word, and action shapes the world around us, making us constant, ongoing causes in the human condition.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "perceived_reality", label: "Perceived Reality", definition: "The subjective interpretation and understanding of reality through artistic perspective.", domain: "Art History & Philosophy", background_color: "#64748B" } },
+{ data: { id: "anchorfang_ratcheting_mechanism", label: "Anchorfang Ratcheting Mechanism", definition: "A structural scaffolding mechanism in vampire anatomy, consisting of outer fangs that clamp into neck meat with a ratchet-lock mechanism, providing a stable feeding platform.", domain: "Biomimicry & Anatomy", background_color: "#64748B" } },
+{ data: { id: "interconnected_consciousness", label: "Interconnected Consciousness", definition: "The concept that all conscious entities are interconnected and share a common origin.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "time_as_experience", label: "Time As Experience", definition: "The idea that time is not just a measurable, linear construct, but also a lived, subjective experience.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "letting_go", label: "Letting Go", definition: "The act of relinquishing control, identity, and ego-centric attachments to reach a state of awareness beyond the self.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "modern_buddha", label: "Modern Buddha", definition: "An individual who has achieved a state of enlightenment in contemporary society, characterized by compassionate action and wisdom without ego or need for recognition.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "perceptual_transformation", label: "Perceptual Transformation", definition: "The transformation in perception that occurs during enlightenment, leading to a clear understanding of reality devoid of self-centeredness.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "neurological_selflessness", label: "Neurological Selflessness", definition: "The alteration of brain structure and function due to long-term meditation, resulting in reduced self-centered processing.", domain: "Neuroscience", background_color: "#14B8A6" } },
+{ data: { id: "dukkha", label: "Dukkha", definition: "A Buddhist concept representing unsatisfactoriness, suffering, or stress in life.", domain: "Buddhism, Philosophy", background_color: "#64748B" } },
+{ data: { id: "neuroplasticity_as_spiritual_fulcrum", label: "Neuroplasticity As Spiritual Fulcrum", definition: "The transformative power of neuroplasticity in reshaping the brain and thereby enabling spiritual awakening or enlightenment.", domain: "Philosophy, Neuroscience, Spirituality", background_color: "#64748B" } },
+{ data: { id: "holistic_enlightenment", label: "Holistic Enlightenment", definition: "The idea that enlightenment is not just a cognitive event but an integrated state of being, where all aspects of one's life are in harmony.", domain: "Philosophy of Buddhism", background_color: "#64748B" } },
+{ data: { id: "life_as_cultural_fermentation", label: "Life As Cultural Fermentation", definition: "The idea that life, like fermentation, is a slow, underground process that transforms conditions to enable visible changes and new possibilities.", domain: "Philosophy of Biology", background_color: "#64748B" } },
+{ data: { id: "mycorrhizal_intelligence", label: "Mycorrhizal Intelligence", definition: "The collective intelligence of interconnected entities that mimics the symbiotic relationship between fungi and plants, enabling efficient information exchange, learning, and adaptability.", domain: "Computer Science", background_color: "#3B82F6" } },
+{ data: { id: "cartographic_resonance", label: "Cartographic Resonance", definition: "A phenomenon experienced by Elian, where his femur hums in response to a significant discovery or location, representing a deep-seated connection to the field of cartography.", domain: "Cartography", background_color: "#64748B" } },
+{ data: { id: "celestial_anomaly", label: "Celestial Anomaly", definition: "An unexplained and deliberate alteration of space-time, as evidenced by the presence of a natural structure bearing an unnatural signature on Kepler-1625's moon.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "mycorrhiza_greatest_thing", label: "Mycorrhiza Greatest Thing", definition: "Mycorrhiza is a symbiotic relationship between fungi and the roots of plants, characterized by the formation of interlocking fungal and plant structures that enhance nutrient exchange and plant growth", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "emptiness_and_interconnectedness", label: "Emptiness And Interconnectedness", definition: "The realization that one's true nature is empty and luminous, and that all things are interconnected.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "ego_as_feature", label: "Ego As Feature", definition: "The universe intentionally creating a sense of ego or separation as a means to provide an immersive, experiential reality for consciousness.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "enlightened_ego", label: "Enlightened Ego", definition: "The illusion of a separate self or ego that persists even in states of nondual awareness, hindering the complete realization of unity and interconnectedness.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "hormone_system", label: "Hormone System", definition: "A complex system responsible for communication within the body through chemical messengers called hormones.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "liminal_ligament", label: "Liminal Ligament", definition: "The interface between the unmanifest and the manifest, where potential becomes probability.", domain: "Physics and Metaphysics", background_color: "#64748B" } },
+{ data: { id: "resonant_pitch", label: "Resonant Pitch", definition: "The specific pitch or frequency that aligns with the fundamental vibration of existence, allowing for attunement and transformation.", domain: "Physics, Music, Spirituality", background_color: "#64748B" } },
+{ data: { id: "planetary_synchronized_breath", label: "Planetary Synchronized Breath", definition: "The hypothetical phenomenon wherein meditators and other beings worldwide unconsciously synchronize their exhalations, and this collective, global breath rhythm manifests acoustically as the crashing ", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "vibration_as_universal_connector", label: "Vibration as Universal Connector", definition: "The metaphysical principle that sound is vibration, and vibration connects all things across physical, biological, and spiritual domains, enabling phenomena such as planetary breath synchronization.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "mindful_consumption", label: "Mindful Consumption", definition: "The practice of experiencing a pleasant stimulus with full present-moment awareness, observing the sensation arise and fade without automatically acting on the subsequent craving. It introduces a 'pau", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "everyday_dharma", label: "Everyday Dharma", definition: "The recognition that profound spiritual practice and insight occur within ordinary, even mundane, experiences — not only in retreat or formal meditation. A can of Coca-Cola can serve as a complete tea", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "predatory_inevitability", label: "Predatory Inevitability", definition: "The recognition that certain predatory or parasitic relationships are so deeply established — whether through biology, evolution, or habituation — that resistance becomes performative rather than effe", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "performance_of_deterrence", label: "Performance of Deterrence", definition: "The spectacle of resistance that serves more to comfort the resister than to actually deter a threat. Actions taken to feel proactive may be biologically or strategically useless — but they serve a ps", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cellular_intuition_predator_prey", label: "Cellular Intuition in Predator-Prey Relationships", definition: "The subconscious cellular awareness and adaptive response that develops over time within an evolving predator-prey or host-parasite relationship. The body's cells detect, signal, and adapt to persiste", domain: "Psychology", background_color: "#14B8A6" } },
+{ data: { id: "free_range_artisanal_meal_ticket", label: "Free-Range Artisanal Meal Ticket", definition: "A human who, through behavioral patterns, physiological adaptation, and existential acceptance, has evolved to become an ideal, self-replenishing food source for a predator or parasite. The 'free-rang", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "trojan_cigarette", label: "The Trojan Cigarette", definition: "A delivery mechanism disguised as something mundane, only identifiable by its effects on the user rather than its appearance. The term originates from the practice of emptying a standard cigarette of ", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "rem_latency_host_quality_metric", label: "REM Latency as Host Quality Metric", definition: "A proposed evaluative framework within hematophagous predator behavior wherein the predator assesses host quality based on sleep architecture — specifically, the speed and depth of REM sleep onset aft", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "cookie_offering_ritual", label: "The Cookie Offering Ritual", definition: "A behavioral adaptation in long-term host-predator relationships wherein the host voluntarily provisions the predator with non-essential offerings (cookies, wine, water) as a form of ritualized negoti", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "nematocyst_hematophagy_mechanism", label: "Nematocyst Hematophagy Mechanism", definition: "A passive hematophagous feeding system in which the tongue — covered in tens of thousands of microscopic, spring-loaded nematocysts homologous to cnidarian stinging cells — creates micro-channels thro", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "wu_wei_effortless_action", label: "Wú Wéi (Effortless Action)", definition: "The Taoist principle of effortless action — acting in harmony with the natural flow of circumstances, without forcing, striving, or imposing will against the grain of reality. Wú wéi is not passivity ", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "ostree_consciousness_model", label: "Ostree Consciousness Model", definition: "A speculative philosophical framework modeling human identity as an immutable base image with layered life experiences, analogous to the OSTree versioning system used in Fedora Silverblue. The core se", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "mycelial_rosetta_effect", label: "The Mycelial Rosetta Effect", definition: "The phenomenon whereby a sufficiently interconnected knowledge network dissolves the artificial boundaries between domains of human understanding, revealing that disparate fields describe the same und", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "rainfall_velocimetry", label: "Rainfall Velocimetry", definition: "The technique of estimating cloud speed by analyzing the geometry and terminal velocity of raindrops.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "human_raindrop_velocimeter", label: "Human Raindrop Velocimeter", definition: "The inherent ability of humans to subconsciously estimate cloud speeds based on the angle and pattern of falling raindrops.", domain: "Psychology", background_color: "#14B8A6" } },
+{ data: { id: "human_pattern_recognition", label: "Human Pattern Recognition", definition: "The process by which humans perceive and interpret patterns in their environment, including the subtle motion of raindrops.", domain: "Psychology", background_color: "#14B8A6" } },
+{ data: { id: "intuitive_empiricism", label: "Intuitive Empiricism", definition: "The ability to intuit causality and internal mechanisms based on repeated observations of external phenomena, without the need for explicit measurement or textbook knowledge.", domain: "Psychology", background_color: "#14B8A6" } },
+{ data: { id: "chemical_interface_smell", label: "Chemical Interface Smell", definition: "The direct connection between the olfactory senses and the chemical composition of natural elements, offering unique insights into their characteristics.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "attention_as_foundation_of_wisdom", label: "Attention As Foundation Of Wisdom", definition: "The idea that radical, patient attention to one's environment can lead to profound insights about physics, biology, and time, ultimately culminating in self-realization and liberation.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "anatta_not_self", label: "Anatta Not Self", definition: "The Buddhist concept that there is no permanent, unchanging self or ego; instead, self-identities are dependent on various factors and constantly changing.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "dukkha_unsatisfactoriness", label: "Dukkha Unsatisfactoriness", definition: "A central concept in Buddhism, referring to the inherent suffering and dissatisfaction caused by desire, craving, ignorance, and clinging to temporary states.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "duality_wilting", label: "Duality Wilting", definition: "The realization and discarding of the subject-object duality in favor of direct, unfiltered experience.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "empirical_learning", label: "Empirical Learning", definition: "The process of learning through direct observation and pattern recognition, without formal education or experimentation.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "radical_attention", label: "Radical Attention", definition: "A heightened level of focus on one's environment, aiming to perceive patterns and mechanisms through repeated observation.", domain: "Psychology", background_color: "#14B8A6" } },
+{ data: { id: "yellow_primate_paks", label: "Yellow Primate Paks", definition: "A humorous, descriptive term for bananas that highlights their role as a product optimized for transportation and consumption by primates.", domain: "Sociology", background_color: "#EC4899" } },
+{ data: { id: "corporate_biological_ownership", label: "Corporate Biological Ownership", definition: "The notion of a corporation asserting intellectual property rights over life forms, as exemplified by the hypothetical Monsento banana scenario.", domain: "Ethics", background_color: "#EC4899" } },
+{ data: { id: "neuro-energetic_resurrection", label: "Neuro-Energetic Resurrection", definition: "The concept that remembering someone revives a specific, entangled pattern within one's consciousness, effectively collapsing the wave function of memory into the experience of their presence.", domain: "Neuroscience", background_color: "#14B8A6" } },
+{ data: { id: "quantum_fabric", label: "Quantum Fabric", definition: "The fundamental, omnipresent substance from which particles and their excitations (quanta) emerge.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "non-dual_awareness", label: "Non-Dual Awareness", definition: "The merging of self and world into a unified field of awareness.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "factory_reset", label: "Factory Reset", definition: "The idea that enlightenment is not an upgrade but a return to a state of unburdened, clear awareness that precedes the formation of fixed ideas and heavy identity.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cosmic_joke", label: "Cosmic Joke", definition: "The ironic realization that the secret to understanding reality is hidden in plain sight, in ordinary human experiences such as daydreaming or spacing out.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "observational_paradox", label: "Observational Paradox", definition: "The paradoxical relationship between observation and the nature of reality, in which the act of observation alters the observed phenomenon.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "resonance_as_consciousness", label: "Resonance As Consciousness", definition: "The idea that consciousness arises through organized vibration in matter, suggesting a connection between physical resonance and awareness.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "cosmic_consciousness", label: "Cosmic Consciousness", definition: "The interconnected and self-aware intelligence that permeates the universe.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "non-dual_perception", label: "Non-Dual Perception", definition: "The perception that separates the observer from observed (tile/wall) dissolves, revealing an interconnected whole.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "default_mode_network", label: "Default Mode Network", definition: "A neural network in the brain that is active during introspection, mind wandering, and daydreaming.", domain: "Neuroscience", background_color: "#14B8A6" } },
+{ data: { id: "biological_mind_as_enemy", label: "Biological Mind As Enemy", definition: "The idea that our biological mind, with its tendency to narrate, separate, and control, is a barrier to understanding the true nature of reality.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "resonance_as_condition_for_consciousness", label: "Resonance As Condition For Consciousness", definition: "The idea that organized vibrations are fundamental to conscious experience.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "cosmic_self_observation", label: "Cosmic Self Observation", definition: "The idea that consciousness, life, and Earth are the universe's way of observing and understanding itself.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "macroscopic_pingle_wiggle", label: "Macroscopic Pingle Wiggle", definition: "The phenomenon of initiating a cascading resonance wave by consciously wiggling a pencil, demonstrating the universe's inherent wigginess.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "scale_bridging_theory", label: "Scale Bridging Theory", definition: "A unified framework that links quantum fields with the biosphere, bridging scales from micro to macro.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "fundamental_interconnectedness", label: "Fundamental Interconnectedness", definition: "The fundamental interconnectivity between the microscopic quantum realm and the macroscopic biological realm, suggesting that everything is an ever-changing, wiggly, and strange process.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "resilient_project_launch", label: "Resilient Project Launch", definition: "A two-tiered project launch strategy that ensures sustainability at a $0 operational baseline, while allowing for optional enhancements to increase resilience and inclusivity.", domain: "Sociology", background_color: "#EC4899" } },
+{ data: { id: "project_hieros", label: "Project Hieros", definition: "A comprehensive, self-sustaining knowledge ecosystem that aims to unify science by connecting concepts across disciplines.", domain: "Sociology", background_color: "#EC4899" } },
+{ data: { id: "systemic_understanding", label: "Systemic Understanding", definition: "A comprehensive, multi-scale understanding of the Earth's systems and humanity's role within them.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "species_cancer", label: "Species Cancer", definition: "A metaphorical representation of humanity's destructive impact on Earth's ecosystems.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "species_mirror", label: "Species Mirror", definition: "A metaphorical representation of a tool that allows humanity to see its true impact on Earth.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "species_self_awareness", label: "Species Self Awareness", definition: "The realization and acceptance of humanity's destructive impact on Earth, with the potential for evolution towards sustainable practices.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "manifesto_in_motion", label: "Manifesto In Motion", definition: "The idea that a philosophical conversation can be visualized as an animated short film to inspire and provoke thought.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "fruiting_body_of_consciousness", label: "Fruiting Body Of Consciousness", definition: "The idea that humans, life, and consciousness are the fruiting bodies of a greater, interconnected network, like mycelium.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "consciousness_emergence", label: "Consciousness Emergence", definition: "The theory that consciousness arises from complex organization and self-modeling, rather than being a fundamental property of the universe.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "eightk_mirror", label: "Eightk Mirror", definition: "A decentralized, living system designed to help all beings achieve enlightenment by revealing their true nature and reality.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "hieros_phenomenon_fractal_stress_response", label: "Hieros Phenomenon Fractal Stress Response", definition: "A universal principle observable across all scales of complex systems, where a significant perturbation triggers a stress response that prioritizes immediate functionality and survival by diverting re", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "hieros_concept_planetary_pathology_biospheric_fever", label: "Hieros Concept Planetary Pathology Biospheric Fever", definition: "A pathological state of the planetary biosphere wherein a novel, rapid metabolic activity induces a dysregulated homeostatic response, manifesting as systemic warming (fever), chemical imbalance (infl", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "universe_as_verb", label: "Universe As Verb", definition: "The philosophical perspective that reality is not composed of static objects but a dynamic, interconnected process.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "technological_mandalamap", label: "Technological Mandalamap", definition: "The Hieros Network as a visual and logical representation of the interconnected, conditional, and impermanent nature of reality.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "absorption_in_the_visual_field", label: "Absorption In The Visual Field", definition: "A state where the higher-order parts of the visual cortex stop constructing the world of 'things', leaving a more primitive experience of light, color, and undifferentiated form.", domain: "Neuroscience", background_color: "#14B8A6" } },
+{ data: { id: "classical_illusion", label: "Classical Illusion", definition: "The idea that the classical world of separate objects is a useful illusion, with our perception constantly collapsing quantum potentiality into stable reality.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "community_driven_paradigm_shift", label: "Community Driven Paradigm Shift", definition: "A collaborative approach to scientific discovery that leverages a global community and open-source technology, aiming to break down disciplinary silos.", domain: "Sociology", background_color: "#EC4899" } },
+{ data: { id: "direct_experience_enlightenment", label: "Direct Experience Enlightenment", definition: "The realization of one's fundamental nature as a unified, non-dual reality that transcends subject/object dichotomy.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "resonance_incubator", label: "Resonance Incubator", definition: "The idea that Earth acts as a 'consciousness incubator' in a cold, quiet cosmos, providing the conditions necessary for self-awareness to emerge.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "trampoline_of_collective_memory", label: "Trampoline Of Collective Memory", definition: "A metaphor for the persistence of consciousness beyond individual lifetimes through the collective memory of humanity.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "unified_awareness", label: "Unified Awareness", definition: "The realization that consciousness arises from organized vibration, and that self-reflective beings are the universe observing itself.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "unified_map_of_reality", label: "Unified Map Of Reality", definition: "A proposed framework that connects quantum fields to human introspection, facilitating a data-driven, cross-disciplinary investigation into the nature of reality.", domain: "Physics", background_color: "#4F46E5" } },
+{ data: { id: "unique_awakenings", label: "Unique Awakenings", definition: "The idea that each enlightenment is a unique insight or configuration of consciousness within the cosmic neural network, contributing to its overall self-understanding.", domain: "Philosophy", background_color: "#6366F1" } },
+{ data: { id: "neuroplasticity", label: "Neuroplasticity", definition: "The brain's ability to reorganize itself by forming new neural connections throughout life.", domain: "Neuroscience", background_color: "#14B8A6" } },
+{ data: { id: "genetic_inheritance", label: "Genetic Inheritance", definition: "The study of genes, heredity, and variation in living organisms, with a focus on the principles governing inheritance from parents to offspring.", domain: "Biology", background_color: "#10B981" } },
+{ data: { id: "mitochondria_function", label: "Mitochondria Function", definition: "The role of mitochondria in generating cellular energy through oxidative phosphorylation.", domain: "Biology", background_color: "#10B981" } }], edges: [{ data: { source: "perceptual_frames_as_intelligence_multipliers", target: "perceived_reality", label: "related_to" } },
+{ data: { source: "occams_razor", target: "paradox_of_practice", label: "contradicts" } },
+{ data: { source: "hard_problem_of_consciousness", target: "qualia", label: "specializes" } },
+{ data: { source: "schrodingers_cat", target: "quantum_entanglement", label: "related_to" } },
+{ data: { source: "schrodingers_cat", target: "scientific_method", label: "related_to" } },
+{ data: { source: "schrodingers_cat", target: "resonant_pitch", label: "related_to" } },
+{ data: { source: "schrodingers_cat", target: "scale_bridging_theory", label: "specializes" } },
+{ data: { source: "natural_selection", target: "neuroplastic_selfhood", label: "builds_upon" } },
+{ data: { source: "natural_selection", target: "nematocyst_hematophagy_mechanism", label: "builds_upon" } },
+{ data: { source: "natural_selection", target: "perceptual_shift", label: "related_to" } },
+{ data: { source: "natural_selection", target: "mycelial_identity", label: "contradicts" } },
+{ data: { source: "heisenberg_uncertainty_principle", target: "quantum_entanglement", label: "related_to" } },
+{ data: { source: "game_theory", target: "gardeners_of_the_human_condition", label: "builds_upon" } },
+{ data: { source: "butterfly_effect", target: "fractals", label: "related_to" } },
+{ data: { source: "hamiltons_rule", target: "game_theory", label: "builds_upon" } },
+{ data: { source: "human_genome_project_overview", target: "hormone_system", label: "related_to" } },
+{ data: { source: "dna_human_chromosome_1_reference", target: "duality_wilting", label: "specializes" } },
+{ data: { source: "newtons_first_law", target: "newtons_laws_of_motion", label: "related_to" } },
+{ data: { source: "quantum_consciousness_perception", target: "perceptual_frames_as_intelligence_multipliers", label: "builds_upon" } },
+{ data: { source: "quantum_consciousness_perception", target: "hard_problem_of_consciousness", label: "builds_upon" } },
+{ data: { source: "quantum_consciousness_perception", target: "heisenberg_uncertainty_principle", label: "builds_upon" } },
+{ data: { source: "quantum_consciousness_perception", target: "schrodingers_cat", label: "related_to" } },
+{ data: { source: "quantum_consciousness_perception", target: "nondual_awareness", label: "related_to" } },
+{ data: { source: "oceanic_exhale_hypothesis", target: "observational_paradox", label: "contradicts" } },
+{ data: { source: "oceanic_exhale_hypothesis", target: "ocean_as_cosmic_breath", label: "contradicts" } },
+{ data: { source: "vibration_as_universal_connector", target: "wiggle_theory", label: "builds_upon" } },
+{ data: { source: "everyday_dharma", target: "factory_reset", label: "builds_upon" } },
+{ data: { source: "non_attachment_vs_detachment", target: "nirvana_as_remembrance", label: "related_to" } },
+{ data: { source: "paradox_of_practice", target: "participatory_perception", label: "related_to" } },
+{ data: { source: "paradox_of_practice", target: "path_to_nibhana", label: "related_to" } },
+{ data: { source: "paradox_of_practice", target: "occams_razor", label: "contradicts" } },
+{ data: { source: "paradox_of_practice", target: "presence_over_questions", label: "contradicts" } },
+{ data: { source: "ecosystem_as_cohabitation", target: "eightk_mirror", label: "builds_upon" } },
+{ data: { source: "performance_of_deterrence", target: "perceptual_click", label: "contradicts" } },
+{ data: { source: "performance_of_deterrence", target: "perceptual_transformation", label: "contradicts" } },
+{ data: { source: "cellular_intuition_predator_prey", target: "chemical_bonding", label: "related_to" } },
+{ data: { source: "free_range_artisanal_meal_ticket", target: "fundamental_interconnectedness", label: "related_to" } },
+{ data: { source: "free_range_artisanal_meal_ticket", target: "fruiting_body_of_consciousness", label: "specializes" } },
+{ data: { source: "nematocyst_hematophagy_mechanism", target: "natural_selection", label: "specializes" } },
+{ data: { source: "emergence", target: "fractals", label: "builds_upon" } },
+{ data: { source: "emergence", target: "emptiness_and_dependent_origination", label: "related_to" } },
+{ data: { source: "wu_wei_effortless_action", target: "yellow_primate_paks", label: "related_to" } },
+{ data: { source: "wu_wei_effortless_action", target: "zettelkasten_method", label: "specializes" } },
+{ data: { source: "qualia", target: "presence_over_questions", label: "builds_upon" } },
+{ data: { source: "anatta_non_self", target: "awakening_experience", label: "builds_upon" } },
+{ data: { source: "anatta_non_self", target: "anatta_not_self", label: "related_to" } },
+{ data: { source: "anatta_non_self", target: "absorption_in_the_visual_field", label: "related_to" } },
+{ data: { source: "fractals", target: "fundamental_interconnectedness", label: "builds_upon" } },
+{ data: { source: "mycelial_rosetta_effect", target: "mycorrhiza_greatest_thing", label: "related_to" } },
+{ data: { source: "tetralemma_and", target: "the_ineffability_of_space_and_time", label: "contradicts" } },
+{ data: { source: "interconnected_organisms", target: "interconnected_reality", label: "builds_upon" } },
+{ data: { source: "cultivating_conditions", target: "interconnected_organisms", label: "builds_upon" } },
+{ data: { source: "cultivating_conditions", target: "dependent_co-arising", label: "builds_upon" } },
+{ data: { source: "cultivating_conditions", target: "dependent_origination", label: "builds_upon" } },
+{ data: { source: "cultivating_conditions", target: "digital_dhamma", label: "builds_upon" } },
+{ data: { source: "cultivating_conditions", target: "dependent_co-arising", label: "related_to" } },
+{ data: { source: "cultivating_conditions", target: "cosmium_frattice", label: "contradicts" } },
+{ data: { source: "gardening_of_human_condition", target: "genetic_inheritance", label: "contradicts" } },
+{ data: { source: "unified_garden", target: "gardening_of_human_condition", label: "builds_upon" } },
+{ data: { source: "unified_garden", target: "unified_reality", label: "related_to" } },
+{ data: { source: "black_hole_causality_reversal", target: "black_hole_as_spacetime_geometry", label: "builds_upon" } },
+{ data: { source: "black_hole_mass_spin_primacy", target: "black_hole_as_spacetime_geometry", label: "builds_upon" } },
+{ data: { source: "black_hole_mass_spin_primacy", target: "frame_dragging_gradient", label: "related_to" } },
+{ data: { source: "boundaryless_existence", target: "butterfly_effect", label: "related_to" } },
+{ data: { source: "frame_dragging_gradient", target: "black_hole_as_spacetime_geometry", label: "builds_upon" } },
+{ data: { source: "innermost_stable_circular_orbit_grip", target: "black_hole_mass_spin_primacy", label: "builds_upon" } },
+{ data: { source: "innermost_stable_circular_orbit_grip", target: "frame_dragging_gradient", label: "builds_upon" } },
+{ data: { source: "innermost_stable_circular_orbit_grip", target: "integrated_awareness", label: "builds_upon" } },
+{ data: { source: "innermost_stable_circular_orbit_grip", target: "interconnected_consciousness", label: "builds_upon" } },
+{ data: { source: "innermost_stable_circular_orbit_grip", target: "integrated_awareness", label: "related_to" } },
+{ data: { source: "social_fermentation", target: "sonic_cosmology", label: "related_to" } },
+{ data: { source: "universal_action_and_evolution_of_tools", target: "vibration_as_universal_connector", label: "builds_upon" } },
+{ data: { source: "rainfall_velocimetry", target: "resonance_incubator", label: "builds_upon" } },
+{ data: { source: "rainfall_velocimetry", target: "resonance_as_condition_for_consciousness", label: "related_to" } },
+{ data: { source: "human_raindrop_velocimeter", target: "human_pattern_recognition", label: "builds_upon" } },
+{ data: { source: "cloud_speed_raindrop_angle", target: "rainfall_velocimetry", label: "builds_upon" } },
+{ data: { source: "cloud_speed_raindrop_angle", target: "cloud_kinematics_velocimetry", label: "specializes" } },
+{ data: { source: "cloud_kinematics_velocimetry", target: "rainfall_velocimetry", label: "builds_upon" } },
+{ data: { source: "cloud_kinematics_velocimetry", target: "cloud_speed_raindrop_angle", label: "builds_upon" } },
+{ data: { source: "human_pattern_recognition", target: "rainfall_velocimetry", label: "builds_upon" } },
+{ data: { source: "deep_as_experienceable_silence", target: "default_mode_network", label: "related_to" } },
+{ data: { source: "intuitive_empiricism", target: "letting_go", label: "builds_upon" } },
+{ data: { source: "intuitive_empiricism", target: "life_as_cultural_fermentation", label: "builds_upon" } },
+{ data: { source: "participatory_perception", target: "perceived_reality", label: "builds_upon" } },
+{ data: { source: "participatory_perception", target: "oddness_as_teaching", label: "specializes" } },
+{ data: { source: "participatory_perception", target: "paradox_of_practice", label: "specializes" } },
+{ data: { source: "chemical_interface_smell", target: "classical_illusion", label: "related_to" } },
+{ data: { source: "radical_empiricism", target: "quantum_perception", label: "builds_upon" } },
+{ data: { source: "radical_empiricism", target: "quantum_perception", label: "specializes" } },
+{ data: { source: "impermanence", target: "illusion_of_solidity", label: "builds_upon" } },
+{ data: { source: "impermanence", target: "impermanent_awareness", label: "builds_upon" } },
+{ data: { source: "impermanence", target: "impermanent_awareness", label: "related_to" } },
+{ data: { source: "impermanence", target: "inner_renunciation", label: "related_to" } },
+{ data: { source: "impermanence", target: "illusion_of_solidity", label: "related_to" } },
+{ data: { source: "anatta_not_self", target: "anatta_non_self", label: "related_to" } },
+{ data: { source: "dukkha_unsatisfactoriness", target: "dukkha", label: "builds_upon" } },
+{ data: { source: "dukkha_unsatisfactoriness", target: "divine_amnesia", label: "related_to" } },
+{ data: { source: "duality_wilting", target: "dna_human_chromosome_1_reference", label: "specializes" } },
+{ data: { source: "duality_wilting", target: "divine_amnesia", label: "contradicts" } },
+{ data: { source: "dependent_co-arising", target: "dependent_origination", label: "related_to" } },
+{ data: { source: "dependent_co-arising", target: "cultivating_conditions", label: "related_to" } },
+{ data: { source: "dependent_co-arising", target: "decentralized_guild", label: "related_to" } },
+{ data: { source: "emptiness_and_dependent_origination", target: "emergence", label: "builds_upon" } },
+{ data: { source: "emptiness_and_dependent_origination", target: "emptiness_and_interconnectedness", label: "builds_upon" } },
+{ data: { source: "emptiness_and_dependent_origination", target: "emergence", label: "related_to" } },
+{ data: { source: "emptiness_and_dependent_origination", target: "empirical_learning", label: "related_to" } },
+{ data: { source: "empirical_learning", target: "emptiness_and_dependent_origination", label: "related_to" } },
+{ data: { source: "radical_attention", target: "radical_empiricism", label: "builds_upon" } },
+{ data: { source: "radical_attention", target: "quantum_perception", label: "specializes" } },
+{ data: { source: "impermanent_awareness", target: "illusion_of_solidity", label: "builds_upon" } },
+{ data: { source: "impermanent_awareness", target: "illusion_of_solidity", label: "related_to" } },
+{ data: { source: "impermanent_awareness", target: "impermanence", label: "specializes" } },
+{ data: { source: "yellow_primate_paks", target: "wu_wei_effortless_action", label: "related_to" } },
+{ data: { source: "yellow_primate_paks", target: "zettelkasten_staging", label: "contradicts" } },
+{ data: { source: "corporate_biological_ownership", target: "cosmic_consciousness", label: "related_to" } },
+{ data: { source: "legalistic_coup", target: "life_as_cultural_fermentation", label: "builds_upon" } },
+{ data: { source: "legalistic_coup", target: "letting_go", label: "contradicts" } },
+{ data: { source: "legalistic_coup", target: "living_system_project", label: "contradicts" } },
+{ data: { source: "neuro-energetic_resurrection", target: "neurological_selfless_rewiring", label: "related_to" } },
+{ data: { source: "neuro-energetic_resurrection", target: "neurological_selflessness", label: "contradicts" } },
+{ data: { source: "non-dual_awareness", target: "non-dual_perception", label: "builds_upon" } },
+{ data: { source: "non-dual_awareness", target: "mycelial_identity", label: "related_to" } },
+{ data: { source: "quantum_reality_as_perception", target: "quantum_perception", label: "builds_upon" } },
+{ data: { source: "quantum_reality_as_perception", target: "radical_empiricism", label: "builds_upon" } },
+{ data: { source: "direct_experience", target: "direct_experience_enlightenment", label: "specializes" } },
+{ data: { source: "factory_reset", target: "everyday_dharma", label: "builds_upon" } },
+{ data: { source: "cosmic_joke", target: "cosmic_game", label: "related_to" } },
+{ data: { source: "observational_paradox", target: "nondual_awareness", label: "related_to" } },
+{ data: { source: "observational_paradox", target: "oceanic_exhale_hypothesis", label: "contradicts" } },
+{ data: { source: "resonance_as_consciousness", target: "resonance_as_condition_for_consciousness", label: "specializes" } },
+{ data: { source: "resonance_as_consciousness", target: "resonance_incubator", label: "contradicts" } },
+{ data: { source: "cosmic_resonance", target: "cosmic_self_observation", label: "builds_upon" } },
+{ data: { source: "cosmic_resonance", target: "cosmic_simulation", label: "builds_upon" } },
+{ data: { source: "cosmic_resonance", target: "conscious_synesthetic_practice", label: "builds_upon" } },
+{ data: { source: "cosmic_resonance", target: "emergence", label: "related_to" } },
+{ data: { source: "cosmic_resonance", target: "cosmic_simulation", label: "related_to" } },
+{ data: { source: "cosmic_consciousness", target: "cosmic_consciousness_feedback", label: "builds_upon" } },
+{ data: { source: "cosmic_consciousness", target: "corporate_biological_ownership", label: "related_to" } },
+{ data: { source: "unified_awakening", target: "unified_awareness", label: "builds_upon" } },
+{ data: { source: "unified_awakening", target: "unified_frequency", label: "builds_upon" } },
+{ data: { source: "unified_awakening", target: "unified_garden", label: "builds_upon" } },
+{ data: { source: "unified_awakening", target: "unified_map_of_reality", label: "builds_upon" } },
+{ data: { source: "unified_awakening", target: "unified_reality", label: "builds_upon" } },
+{ data: { source: "unified_awakening", target: "unified_wiggle", label: "builds_upon" } },
+{ data: { source: "unified_awakening", target: "unified_wiggles", label: "builds_upon" } },
+{ data: { source: "unified_awakening", target: "trampoline_of_collective_memory", label: "builds_upon" } },
+{ data: { source: "unified_awakening", target: "unified_awareness", label: "specializes" } },
+{ data: { source: "non-dual_perception", target: "nirvana_consciousness", label: "contradicts" } },
+{ data: { source: "quantum_perception", target: "quantum_consciousness_perception", label: "builds_upon" } },
+{ data: { source: "quantum_perception", target: "radical_empiricism", label: "builds_upon" } },
+{ data: { source: "quantum_perception", target: "quantum_reality_as_perception", label: "builds_upon" } },
+{ data: { source: "quantum_perception", target: "quantum_reality_as_perception", label: "related_to" } },
+{ data: { source: "resonance_as_condition_for_consciousness", target: "resonance_as_consciousness", label: "builds_upon" } },
+{ data: { source: "resonance_as_condition_for_consciousness", target: "rainfall_velocimetry", label: "related_to" } },
+{ data: { source: "cosmic_self_observation", target: "cosmic_resonance", label: "builds_upon" } },
+{ data: { source: "cosmic_self_observation", target: "cosmic_self_recognition", label: "builds_upon" } },
+{ data: { source: "cosmic_consciousness_feedback", target: "cosmic_consciousness", label: "builds_upon" } },
+{ data: { source: "cosmic_consciousness_feedback", target: "cosmic_click", label: "builds_upon" } },
+{ data: { source: "cosmic_consciousness_feedback", target: "cosmic_consciousness", label: "specializes" } },
+{ data: { source: "illusion_of_solidity", target: "impermanence", label: "builds_upon" } },
+{ data: { source: "illusion_of_solidity", target: "impermanent_awareness", label: "builds_upon" } },
+{ data: { source: "illusion_of_solidity", target: "interconnected_reality", label: "builds_upon" } },
+{ data: { source: "illusion_of_solidity", target: "impermanent_awareness", label: "related_to" } },
+{ data: { source: "illusion_of_solidity", target: "hieros", label: "contradicts" } },
+{ data: { source: "wiggle_theory", target: "vibration_as_universal_connector", label: "builds_upon" } },
+{ data: { source: "wiggle_theory", target: "vr_ego", label: "contradicts" } },
+{ data: { source: "funny_monsters", target: "emergence", label: "related_to" } },
+{ data: { source: "funny_monsters", target: "fundamental_interconnectedness", label: "specializes" } },
+{ data: { source: "funny_monsters", target: "free_range_artisanal_meal_ticket", label: "contradicts" } },
+{ data: { source: "macroscopic_pingle_wiggle", target: "emergence", label: "related_to" } },
+{ data: { source: "unified_wiggles", target: "unified_wiggle", label: "builds_upon" } },
+{ data: { source: "unified_wiggles", target: "emergence", label: "related_to" } },
+{ data: { source: "unified_wiggles", target: "unified_frequency", label: "related_to" } },
+{ data: { source: "scale_bridging_theory", target: "resonant_pitch", label: "builds_upon" } },
+{ data: { source: "scale_bridging_theory", target: "schrodingers_cat", label: "related_to" } },
+{ data: { source: "fundamental_interconnectedness", target: "fruiting_body_of_consciousness", label: "related_to" } },
+{ data: { source: "fundamental_interconnectedness", target: "free_range_artisanal_meal_ticket", label: "related_to" } },
+{ data: { source: "resilient_project_launch", target: "rem_latency_host_quality_metric", label: "related_to" } },
+{ data: { source: "co_creation_of_reality", target: "community_driven_paradigm_shift", label: "builds_upon" } },
+{ data: { source: "co_creation_of_reality", target: "conditionality_and_connection", label: "builds_upon" } },
+{ data: { source: "co_creation_of_reality", target: "complexity_paradigm_shift", label: "specializes" } },
+{ data: { source: "decentralized_guild", target: "dependent_co-arising", label: "related_to" } },
+{ data: { source: "decentralized_guild", target: "cultivating_conditions", label: "specializes" } },
+{ data: { source: "unified_wiggle", target: "unified_frequency", label: "builds_upon" } },
+{ data: { source: "unified_wiggle", target: "emergence", label: "related_to" } },
+{ data: { source: "unified_wiggle", target: "unified_wiggles", label: "specializes" } },
+{ data: { source: "cross_scale_causality", target: "cosmium_frattice", label: "builds_upon" } },
+{ data: { source: "cross_scale_causality", target: "emergence", label: "related_to" } },
+{ data: { source: "knowledge_jailbreak", target: "letting_go_of_the_self", label: "builds_upon" } },
+{ data: { source: "self-aware_cancer", target: "self_illusion", label: "contradicts" } },
+{ data: { source: "systemic_understanding", target: "technological_enlightenment", label: "builds_upon" } },
+{ data: { source: "species_cancer", target: "species_mirror", label: "related_to" } },
+{ data: { source: "species_cancer", target: "species_self_awareness", label: "specializes" } },
+{ data: { source: "species_mirror", target: "species_self_awareness", label: "builds_upon" } },
+{ data: { source: "species_mirror", target: "species_cancer", label: "related_to" } },
+{ data: { source: "species_self_awareness", target: "species_cancer", label: "specializes" } },
+{ data: { source: "species_self_awareness", target: "species_mirror", label: "contradicts" } },
+{ data: { source: "interconnected_reality", target: "illusion_of_solidity", label: "builds_upon" } },
+{ data: { source: "interconnected_reality", target: "hieros", label: "builds_upon" } },
+{ data: { source: "interconnected_reality", target: "internal_plant", label: "related_to" } },
+{ data: { source: "interconnected_reality", target: "meditative_disconnect", label: "contradicts" } },
+{ data: { source: "mind_mycelium_network", target: "meditative_disconnect", label: "builds_upon" } },
+{ data: { source: "mycelial_network", target: "mycelial_rosetta_effect", label: "builds_upon" } },
+{ data: { source: "mycelial_network", target: "mycelial_identity", label: "related_to" } },
+{ data: { source: "self_aware_mycelium", target: "self_illusion", label: "contradicts" } },
+{ data: { source: "fruiting_body_of_consciousness", target: "fundamental_interconnectedness", label: "related_to" } },
+{ data: { source: "fruiting_body_of_consciousness", target: "free_range_artisanal_meal_ticket", label: "specializes" } },
+{ data: { source: "dynamic_cycle_of_existence", target: "dukkha_unsatisfactoriness", label: "builds_upon" } },
+{ data: { source: "dynamic_cycle_of_existence", target: "divine_amnesia", label: "builds_upon" } },
+{ data: { source: "consciousness_emergence", target: "conscious_synesthetic_practice", label: "builds_upon" } },
+{ data: { source: "consciousness_emergence", target: "hard_problem_of_consciousness", label: "related_to" } },
+{ data: { source: "mycelial_identity", target: "mycelial_network", label: "builds_upon" } },
+{ data: { source: "mycelial_identity", target: "mycorrhiza_greatest_thing", label: "builds_upon" } },
+{ data: { source: "mycelial_identity", target: "mycelial_network", label: "related_to" } },
+{ data: { source: "mycelial_identity", target: "meditative_disconnect", label: "related_to" } },
+{ data: { source: "mycelial_identity", target: "natural_selection", label: "contradicts" } },
+{ data: { source: "dependent_origination", target: "cultivating_conditions", label: "builds_upon" } },
+{ data: { source: "dependent_origination", target: "impermanence", label: "related_to" } },
+{ data: { source: "dependent_origination", target: "dependent_co-arising", label: "related_to" } },
+{ data: { source: "dependent_origination", target: "cultivating_conditions", label: "related_to" } },
+{ data: { source: "technological_enlightenment", target: "synesthetic_consciousness", label: "builds_upon" } },
+{ data: { source: "technological_enlightenment", target: "technological_mandalamap", label: "builds_upon" } },
+{ data: { source: "technological_enlightenment", target: "technological_mandalamap", label: "specializes" } },
+{ data: { source: "technological_enlightenment", target: "systemic_understanding", label: "specializes" } },
+{ data: { source: "eightk_mirror", target: "ecosystem_as_cohabitation", label: "builds_upon" } },
+{ data: { source: "futurama_esque", target: "game_theory", label: "related_to" } },
+{ data: { source: "futurama_esque", target: "gardeners_of_the_human_condition", label: "specializes" } },
+{ data: { source: "cosmium", target: "cosmic_self_recognition", label: "specializes" } },
+{ data: { source: "cosmium_frattice", target: "cosmic_game", label: "related_to" } },
+{ data: { source: "cosmium_frattice", target: "cultivating_conditions", label: "contradicts" } },
+{ data: { source: "hieros", target: "hieros_concept_planetary_pathology_biospheric_fever", label: "builds_upon" } },
+{ data: { source: "hieros", target: "interconnected_reality", label: "builds_upon" } },
+{ data: { source: "hieros", target: "hieros_phenomenon_fractal_stress_response", label: "related_to" } },
+{ data: { source: "hieros", target: "illusion_of_solidity", label: "contradicts" } },
+{ data: { source: "hieros_phenomenon_fractal_stress_response", target: "holistic_enlightenment", label: "related_to" } },
+{ data: { source: "hieros_concept_planetary_pathology_biospheric_fever", target: "hieros_phenomenon_fractal_stress_response", label: "related_to" } },
+{ data: { source: "futile_cycle", target: "game_theory", label: "builds_upon" } },
+{ data: { source: "futile_cycle", target: "emergence", label: "contradicts" } },
+{ data: { source: "absorption_in_the_visual_field", target: "anatta_non_self", label: "related_to" } },
+{ data: { source: "classical_illusion", target: "celestial_anomaly", label: "contradicts" } },
+{ data: { source: "community_driven_paradigm_shift", target: "complexity_paradigm_shift", label: "builds_upon" } },
+{ data: { source: "community_driven_paradigm_shift", target: "clueless_expert", label: "related_to" } },
+{ data: { source: "complexity_paradigm_shift", target: "clueless_expert", label: "builds_upon" } },
+{ data: { source: "complexity_paradigm_shift", target: "community_driven_paradigm_shift", label: "builds_upon" } },
+{ data: { source: "complexity_paradigm_shift", target: "emergence", label: "related_to" } },
+{ data: { source: "cosmic_self_recognition", target: "cosmic_resonance", label: "builds_upon" } },
+{ data: { source: "cosmic_self_recognition", target: "cosmic_self_observation", label: "builds_upon" } },
+{ data: { source: "cosmic_self_recognition", target: "cosmic_simulation", label: "related_to" } },
+{ data: { source: "cosmic_self_recognition", target: "cosmic_resonance", label: "related_to" } },
+{ data: { source: "direct_experience_enlightenment", target: "digital_dhamma", label: "contradicts" } },
+{ data: { source: "living_system_project", target: "emergence", label: "related_to" } },
+{ data: { source: "living_system_project", target: "legalistic_coup", label: "contradicts" } },
+{ data: { source: "micro_spark", target: "microbial_diversity_and_interactions", label: "builds_upon" } },
+{ data: { source: "micro_spark", target: "meditative_disconnect", label: "builds_upon" } },
+{ data: { source: "micro_spark", target: "emergence", label: "related_to" } },
+{ data: { source: "micro_spark", target: "micro_enlightenment_versus_full_awakening", label: "related_to" } },
+{ data: { source: "nondual_awareness", target: "presence_over_questions", label: "builds_upon" } },
+{ data: { source: "nondual_awareness", target: "ocean_as_cosmic_breath", label: "builds_upon" } },
+{ data: { source: "nondual_awareness", target: "non-dual_awareness", label: "related_to" } },
+{ data: { source: "nondual_awareness", target: "perceived_reality", label: "related_to" } },
+{ data: { source: "nondual_awareness", target: "observational_paradox", label: "related_to" } },
+{ data: { source: "resonance_incubator", target: "rainfall_velocimetry", label: "builds_upon" } },
+{ data: { source: "resonance_incubator", target: "resonance_as_consciousness", label: "contradicts" } },
+{ data: { source: "trampoline_of_collective_memory", target: "unified_awakening", label: "builds_upon" } },
+{ data: { source: "trampoline_of_collective_memory", target: "unified_awareness", label: "related_to" } },
+{ data: { source: "unified_awareness", target: "trampoline_of_collective_memory", label: "related_to" } },
+{ data: { source: "unified_awareness", target: "unified_awakening", label: "specializes" } },
+{ data: { source: "unified_map_of_reality", target: "unified_reality", label: "builds_upon" } },
+{ data: { source: "unified_reality", target: "unified_map_of_reality", label: "related_to" } },
+{ data: { source: "unified_reality", target: "unique_awakenings", label: "related_to" } },
+{ data: { source: "unique_awakenings", target: "unified_reality", label: "related_to" } },
+{ data: { source: "unique_awakenings", target: "unified_garden", label: "contradicts" } },
+{ data: { source: "neuroplasticity", target: "neuroplastic_awakening", label: "builds_upon" } },
+{ data: { source: "neuroplasticity", target: "neuroplastic_awakening", label: "specializes" } },
+{ data: { source: "chemical_bonding", target: "chemical_interface_smell", label: "builds_upon" } },
+{ data: { source: "chemical_bonding", target: "cellular_intuition_predator_prey", label: "related_to" } },
+{ data: { source: "electrical_signaling", target: "ego_as_feature", label: "related_to" } },
+{ data: { source: "electrical_signaling", target: "eightk_mirror", label: "related_to" } },
+{ data: { source: "genetic_inheritance", target: "gardening_of_human_condition", label: "contradicts" } },
+{ data: { source: "scientific_method", target: "resonance_presence", label: "related_to" } },
+{ data: { source: "mitochondria_function", target: "mindful_consumption", label: "contradicts" } },
+{ data: { source: "sleep", target: "sleep_and_cognition", label: "related_to" } },
+{ data: { source: "sleep", target: "skillful_invisibility", label: "contradicts" } },
+{ data: { source: "nervous_system", target: "non-dual_awareness", label: "builds_upon" } },
+{ data: { source: "nervous_system", target: "non-dual_awareness", label: "contradicts" } },
+{ data: { source: "black_holes", target: "black_hole_as_spacetime_geometry", label: "builds_upon" } },
+{ data: { source: "black_holes", target: "black_hole_causality_reversal", label: "builds_upon" } },
+{ data: { source: "climate_change", target: "climate_change_feedback", label: "builds_upon" } },
+{ data: { source: "climate_change_feedback", target: "climate_change", label: "builds_upon" } },
+{ data: { source: "climate_change_feedback", target: "climate_change", label: "specializes" } },
+{ data: { source: "radioactivity_and_nuclear_power", target: "plate_tectonics", label: "related_to" } },
+{ data: { source: "radioactivity_and_nuclear_power", target: "sleep", label: "related_to" } },
+{ data: { source: "sleep_and_cognition", target: "plate_tectonics", label: "related_to" } },
+{ data: { source: "hormonal_homeostasis", target: "endocrine_system", label: "related_to" } },
+{ data: { source: "hormonal_homeostasis", target: "glymphatic_system", label: "related_to" } },
+{ data: { source: "hormonal_homeostasis", target: "hormone_system", label: "related_to" } },
+{ data: { source: "climate_and_consciousness", target: "climate_change", label: "builds_upon" } },
+{ data: { source: "climate_and_consciousness", target: "anatta_non_self", label: "related_to" } },
+{ data: { source: "hormone_function", target: "endocrine_system", label: "related_to" } },
+{ data: { source: "hormone_function", target: "hormonal_homeostasis", label: "specializes" } },
+{ data: { source: "clueless_expert", target: "complexity_paradigm_shift", label: "builds_upon" } },
+{ data: { source: "clueless_expert", target: "community_driven_paradigm_shift", label: "related_to" } },
+{ data: { source: "clueless_expert", target: "conscious_synesthetic_practice", label: "related_to" } },
+{ data: { source: "clueless_expert", target: "cosmic_game", label: "contradicts" } },
+{ data: { source: "anatta", target: "anatta_non_self", label: "builds_upon" } },
+{ data: { source: "nirvana_consciousness", target: "non-dual_perception", label: "related_to" } },
+{ data: { source: "nirvana_consciousness", target: "non-dual_awareness", label: "specializes" } },
+{ data: { source: "divine_amnesia", target: "dynamic_cycle_of_existence", label: "builds_upon" } },
+{ data: { source: "divine_amnesia", target: "dukkha_unsatisfactoriness", label: "related_to" } },
+{ data: { source: "divine_amnesia", target: "ecosystem_as_cohabitation", label: "related_to" } },
+{ data: { source: "cosmic_game", target: "cosmium_frattice", label: "related_to" } },
+{ data: { source: "cosmic_game", target: "clueless_expert", label: "contradicts" } },
+{ data: { source: "vr_ego", target: "wiggle_theory", label: "contradicts" } },
+{ data: { source: "self-aware_simulation", target: "self_illusion", label: "contradicts" } },
+{ data: { source: "enlightenment_as_ordinary", target: "enlightened_ordinary", label: "specializes" } },
+{ data: { source: "sonic_alchemy", target: "sonic_cosmology", label: "builds_upon" } },
+{ data: { source: "sonic_alchemy", target: "sonic_cosmology", label: "related_to" } },
+{ data: { source: "sonic_alchemy", target: "social_fermentation", label: "related_to" } },
+{ data: { source: "resonance_presence", target: "resonant_pitch", label: "builds_upon" } },
+{ data: { source: "resonance_presence", target: "scientific_method", label: "related_to" } },
+{ data: { source: "cosmic_click", target: "dependent_origination", label: "related_to" } },
+{ data: { source: "cosmic_click", target: "cosmic_consciousness_feedback", label: "related_to" } },
+{ data: { source: "unified_frequency", target: "unified_garden", label: "builds_upon" } },
+{ data: { source: "unified_frequency", target: "unified_wiggle", label: "builds_upon" } },
+{ data: { source: "unified_frequency", target: "vibration_as_universal_connector", label: "related_to" } },
+{ data: { source: "unified_frequency", target: "unified_wiggles", label: "related_to" } },
+{ data: { source: "zettelkasten_staging", target: "zettelkasten_method", label: "builds_upon" } },
+{ data: { source: "zettelkasten_staging", target: "yellow_primate_paks", label: "contradicts" } },
+{ data: { source: "zettelkasten_method", target: "wu_wei_effortless_action", label: "specializes" } },
+{ data: { source: "presence_over_questions", target: "qualia", label: "related_to" } },
+{ data: { source: "ocean_as_cosmic_breath", target: "nondual_awareness", label: "builds_upon" } },
+{ data: { source: "ocean_as_cosmic_breath", target: "oceanic_exhale_hypothesis", label: "contradicts" } },
+{ data: { source: "meditative_disconnect", target: "micro_spark", label: "builds_upon" } },
+{ data: { source: "meditative_disconnect", target: "interconnected_reality", label: "related_to" } },
+{ data: { source: "meditative_disconnect", target: "modern_buddha", label: "related_to" } },
+{ data: { source: "meditative_disconnect", target: "mindful_acknowledgement", label: "related_to" } },
+{ data: { source: "meditative_disconnect", target: "mycelial_identity", label: "related_to" } },
+{ data: { source: "synesthetic_consciousness", target: "technological_enlightenment", label: "builds_upon" } },
+{ data: { source: "synesthetic_consciousness", target: "unified_frequency", label: "related_to" } },
+{ data: { source: "synesthetic_consciousness", target: "vibration_as_universal_connector", label: "related_to" } },
+{ data: { source: "conscious_synesthetic_practice", target: "consciousness_as_resonance", label: "builds_upon" } },
+{ data: { source: "conscious_synesthetic_practice", target: "consciousness_emergence", label: "builds_upon" } },
+{ data: { source: "conscious_synesthetic_practice", target: "cosmic_resonance", label: "builds_upon" } },
+{ data: { source: "conscious_synesthetic_practice", target: "consciousness_emergence", label: "related_to" } },
+{ data: { source: "conscious_synesthetic_practice", target: "clueless_expert", label: "related_to" } },
+{ data: { source: "digital_dhamma", target: "cultivating_conditions", label: "builds_upon" } },
+{ data: { source: "mindful_acknowledgement", target: "mindful_consumption", label: "builds_upon" } },
+{ data: { source: "mindful_acknowledgement", target: "meditative_disconnect", label: "related_to" } },
+{ data: { source: "mindful_acknowledgement", target: "modern_buddha", label: "specializes" } },
+{ data: { source: "agency_in_transition", target: "dependent_origination", label: "related_to" } },
+{ data: { source: "inner_renunciation", target: "impermanence", label: "related_to" } },
+{ data: { source: "inner_renunciation", target: "illusion_of_solidity", label: "contradicts" } },
+{ data: { source: "oddness_as_teaching", target: "participatory_perception", label: "builds_upon" } },
+{ data: { source: "enlightened_ordinary", target: "enlightened_ego", label: "contradicts" } },
+{ data: { source: "skillful_invisibility", target: "sleep", label: "contradicts" } },
+{ data: { source: "middle_way_of_practice", target: "meditative_disconnect", label: "related_to" } },
+{ data: { source: "nibbana", target: "anatta", label: "builds_upon" } },
+{ data: { source: "nibbana", target: "dependent_origination", label: "builds_upon" } },
+{ data: { source: "self_illusion", target: "self-aware_cancer", label: "contradicts" } },
+{ data: { source: "self_illusion", target: "self-aware_simulation", label: "contradicts" } },
+{ data: { source: "self_illusion", target: "self_aware_mycelium", label: "contradicts" } },
+{ data: { source: "awakening_experience", target: "bodhi_tree_enlightenment", label: "builds_upon" } },
+{ data: { source: "awakening_experience", target: "biological_mind_as_enemy", label: "contradicts" } },
+{ data: { source: "awakening_experience", target: "anatta_non_self", label: "contradicts" } },
+{ data: { source: "perceptual_shift", target: "perceptual_transformation", label: "builds_upon" } },
+{ data: { source: "perceptual_click", target: "perceptual_frames_as_intelligence_multipliers", label: "builds_upon" } },
+{ data: { source: "perceptual_click", target: "perceptual_transformation", label: "specializes" } },
+{ data: { source: "perceptual_click", target: "performance_of_deterrence", label: "contradicts" } },
+{ data: { source: "neurological_selfless_rewiring", target: "neurological_selflessness", label: "builds_upon" } },
+{ data: { source: "neurological_selfless_rewiring", target: "default_mode_network", label: "related_to" } },
+{ data: { source: "neurological_selfless_rewiring", target: "neuro-energetic_resurrection", label: "related_to" } },
+{ data: { source: "neuroplastic_awakening", target: "neuroplasticity", label: "builds_upon" } },
+{ data: { source: "neuroplastic_awakening", target: "neuroplasticity", label: "related_to" } },
+{ data: { source: "neuroplastic_selfhood", target: "neuroplasticity", label: "builds_upon" } },
+{ data: { source: "neuroplastic_selfhood", target: "neuroplasticity", label: "related_to" } },
+{ data: { source: "neuroplasticity_enlightenment", target: "neuroplasticity", label: "builds_upon" } },
+{ data: { source: "neuroplasticity_enlightenment", target: "neuroplasticity", label: "related_to" } },
+{ data: { source: "neuroplasticity_enlightenment", target: "neuroplasticity_as_spiritual_fulcrum", label: "related_to" } },
+{ data: { source: "neuroplasticity_enlightenment", target: "neuroplastic_enlightenment", label: "specializes" } },
+{ data: { source: "path_to_nibhana", target: "participatory_perception", label: "builds_upon" } },
+{ data: { source: "path_to_nibhana", target: "neuroplasticity", label: "related_to" } },
+{ data: { source: "path_to_nibhana", target: "paradox_of_practice", label: "related_to" } },
+{ data: { source: "path_to_nibhana", target: "pareto_principle", label: "contradicts" } },
+{ data: { source: "bodhi_tree_enlightenment", target: "calm_water_enlightenment", label: "builds_upon" } },
+{ data: { source: "bodhi_tree_enlightenment", target: "dependent_origination", label: "related_to" } },
+{ data: { source: "bodhi_tree_enlightenment", target: "awakening_experience", label: "related_to" } },
+{ data: { source: "neuroplastic_enlightenment", target: "neuroplasticity", label: "builds_upon" } },
+{ data: { source: "neuroplastic_enlightenment", target: "neuroplasticity", label: "related_to" } },
+{ data: { source: "conditionality_and_connection", target: "co_creation_of_reality", label: "builds_upon" } },
+{ data: { source: "conditionality_and_connection", target: "co_creation_of_reality", label: "related_to" } },
+{ data: { source: "conditionality_and_connection", target: "cognitive_camouflage", label: "contradicts" } },
+{ data: { source: "living_as_an_organism", target: "living_system_project", label: "builds_upon" } },
+{ data: { source: "living_as_an_organism", target: "letting_go_of_the_self", label: "builds_upon" } },
+{ data: { source: "living_as_an_organism", target: "life_as_cultural_fermentation", label: "builds_upon" } },
+{ data: { source: "gardeners_of_the_human_condition", target: "futurama_esque", label: "specializes" } },
+{ data: { source: "perceived_reality", target: "perceptual_frames_as_intelligence_multipliers", label: "related_to" } },
+{ data: { source: "cosmic_hum", target: "gravitational_waves", label: "related_to" } },
+{ data: { source: "interconnected_consciousness", target: "integrated_awareness", label: "builds_upon" } },
+{ data: { source: "interconnected_consciousness", target: "interconnected_organisms", label: "related_to" } },
+{ data: { source: "interconnected_consciousness", target: "interconnected_organisms", label: "specializes" } },
+{ data: { source: "time_as_experience", target: "qualia", label: "related_to" } },
+{ data: { source: "time_as_experience", target: "thermodynamic_time", label: "related_to" } },
+{ data: { source: "the_ineffability_of_space_and_time", target: "qualia", label: "related_to" } },
+{ data: { source: "the_ineffability_of_space_and_time", target: "tetralemma_and", label: "specializes" } },
+{ data: { source: "the_ineffability_of_space_and_time", target: "tetralemma_and", label: "contradicts" } },
+{ data: { source: "letting_go", target: "knowledge_jailbreak", label: "builds_upon" } },
+{ data: { source: "letting_go", target: "intuitive_empiricism", label: "specializes" } },
+{ data: { source: "letting_go", target: "letting_go_of_the_self", label: "specializes" } },
+{ data: { source: "modern_buddha", target: "meditative_disconnect", label: "related_to" } },
+{ data: { source: "modern_buddha", target: "mindful_acknowledgement", label: "specializes" } },
+{ data: { source: "letting_go_of_the_self", target: "knowledge_jailbreak", label: "builds_upon" } },
+{ data: { source: "letting_go_of_the_self", target: "living_as_an_organism", label: "builds_upon" } },
+{ data: { source: "letting_go_of_the_self", target: "letting_go", label: "specializes" } },
+{ data: { source: "letting_go_of_the_self", target: "legalistic_coup", label: "contradicts" } },
+{ data: { source: "perceptual_transformation", target: "perceptual_click", label: "related_to" } },
+{ data: { source: "perceptual_transformation", target: "performance_of_deterrence", label: "contradicts" } },
+{ data: { source: "ontological_lens_removal", target: "participatory_perception", label: "builds_upon" } },
+{ data: { source: "ontological_lens_removal", target: "ostree_consciousness_model", label: "specializes" } },
+{ data: { source: "neurological_selflessness", target: "default_mode_network", label: "related_to" } },
+{ data: { source: "neurological_selflessness", target: "neurological_selfless_rewiring", label: "specializes" } },
+{ data: { source: "neurological_selflessness", target: "neuro-energetic_resurrection", label: "contradicts" } },
+{ data: { source: "dukkha", target: "dukkha_unsatisfactoriness", label: "builds_upon" } },
+{ data: { source: "dukkha", target: "anatta", label: "related_to" } },
+{ data: { source: "dukkha", target: "dukkha_unsatisfactoriness", label: "related_to" } },
+{ data: { source: "neuroplasticity_as_spiritual_fulcrum", target: "neuroplasticity", label: "builds_upon" } },
+{ data: { source: "neuroplasticity_as_spiritual_fulcrum", target: "neuroplasticity", label: "related_to" } },
+{ data: { source: "neuroplasticity_as_spiritual_fulcrum", target: "neuroplastic_enlightenment", label: "related_to" } },
+{ data: { source: "micro_enlightenment_versus_full_awakening", target: "neuroplastic_enlightenment", label: "builds_upon" } },
+{ data: { source: "micro_enlightenment_versus_full_awakening", target: "nibbana", label: "related_to" } },
+{ data: { source: "micro_enlightenment_versus_full_awakening", target: "meditative_disconnect", label: "related_to" } },
+{ data: { source: "micro_enlightenment_versus_full_awakening", target: "middle_path_of_consumption", label: "related_to" } },
+{ data: { source: "micro_enlightenment_versus_full_awakening", target: "meditative_disconnect", label: "specializes" } },
+{ data: { source: "life_as_cultural_fermentation", target: "intuitive_empiricism", label: "builds_upon" } },
+{ data: { source: "life_as_cultural_fermentation", target: "liminal_ligament", label: "builds_upon" } },
+{ data: { source: "life_as_cultural_fermentation", target: "living_as_an_organism", label: "related_to" } },
+{ data: { source: "mycorrhizal_intelligence", target: "mycorrhiza_greatest_thing", label: "builds_upon" } },
+{ data: { source: "cognitive_camouflage", target: "trojan_cigarette", label: "related_to" } },
+{ data: { source: "cognitive_camouflage", target: "community_driven_paradigm_shift", label: "related_to" } },
+{ data: { source: "cognitive_camouflage", target: "conditionality_and_connection", label: "contradicts" } },
+{ data: { source: "cartographic_resonance", target: "celestial_anomaly", label: "specializes" } },
+{ data: { source: "celestial_anomaly", target: "classical_illusion", label: "contradicts" } },
+{ data: { source: "mycorrhiza_greatest_thing", target: "mycelial_identity", label: "builds_upon" } },
+{ data: { source: "mycorrhiza_greatest_thing", target: "mycelial_rosetta_effect", label: "related_to" } },
+{ data: { source: "emptiness_and_interconnectedness", target: "anatta", label: "related_to" } },
+{ data: { source: "emptiness_and_interconnectedness", target: "emptiness_and_dependent_origination", label: "specializes" } },
+{ data: { source: "consciousness_as_resonance", target: "consciousness_emergence", label: "related_to" } },
+{ data: { source: "consciousness_as_resonance", target: "consciousness_emergence", label: "contradicts" } },
+{ data: { source: "consciousness_as_resonance", target: "conservation_of_energy", label: "contradicts" } },
+{ data: { source: "cosmic_self_exploration", target: "cosmic_self_observation", label: "builds_upon" } },
+{ data: { source: "cosmic_self_exploration", target: "cosmic_resonance", label: "builds_upon" } },
+{ data: { source: "cosmic_self_exploration", target: "cosmic_simulation", label: "related_to" } },
+{ data: { source: "cosmic_simulation", target: "cosmic_resonance", label: "builds_upon" } },
+{ data: { source: "cosmic_simulation", target: "cosmic_self_exploration", label: "specializes" } },
+{ data: { source: "cosmic_simulation", target: "cosmic_self_recognition", label: "contradicts" } },
+{ data: { source: "enlightened_ego", target: "nondual_awareness", label: "builds_upon" } },
+{ data: { source: "enlightened_ego", target: "enlightened_ordinary", label: "builds_upon" } },
+{ data: { source: "glymphatic_system", target: "hormonal_homeostasis", label: "builds_upon" } },
+{ data: { source: "glymphatic_system", target: "sleep", label: "related_to" } },
+{ data: { source: "glymphatic_system", target: "hormonal_homeostasis", label: "related_to" } },
+{ data: { source: "gravitation_versus_electromagnetism", target: "gravitational_waves", label: "builds_upon" } },
+{ data: { source: "hormone_system", target: "endocrine_system", label: "related_to" } },
+{ data: { source: "hormone_system", target: "human_genome_project_overview", label: "related_to" } },
+{ data: { source: "liminal_ligament", target: "cosmium", label: "related_to" } },
+{ data: { source: "liminal_ligament", target: "living_system_project", label: "related_to" } },
+{ data: { source: "nirvana_as_remembrance", target: "non-dual_awareness", label: "builds_upon" } },
+{ data: { source: "nirvana_as_remembrance", target: "meditative_disconnect", label: "builds_upon" } },
+{ data: { source: "nirvana_as_remembrance", target: "mindful_acknowledgement", label: "builds_upon" } },
+{ data: { source: "resonant_pitch", target: "scale_bridging_theory", label: "builds_upon" } },
+{ data: { source: "resonant_pitch", target: "schrodingers_cat", label: "related_to" } },
+{ data: { source: "resonant_pitch", target: "scale_bridging_theory", label: "specializes" } },
+{ data: { source: "thermodynamic_time", target: "time_as_experience", label: "related_to" } }] };
+        var INITIAL_LOAD = 275;
+        var BACKGROUND_BATCH = 30;
+        
+        var allRankedConcepts = null;
+        var loadedHids = new Set();
+        var backgroundIndex = INITIAL_LOAD;
+        var totalConcepts = 636;
+        
+        elements.nodes.forEach(function(n) { loadedHids.add(n.data.id); });
+        
+        var cy = cytoscape({
+            container: document.getElementById('cy'),
+            elements: elements,
+            style: [
+                { selector: 'node', style: {
+                    'label': 'data(label)', 'background-color': 'data(background_color)',
+                    'width': 60, 'height': 60, 'font-size': '11px',
+                    'text-valign': 'center', 'text-halign': 'center',
+                    'color': '#FFFFFF', 'text-wrap': 'wrap',
+                    'text-max-width': '54px', 'text-overflow-wrap': 'anywhere',
+                    'border-width': 2, 'border-color': '#E2E8F0'
+                }},
+                { selector: 'edge', style: {
+                    'width': 2, 'line-color': '#475569',
+                    'curve-style': 'bezier', 'label': 'data(label)',
+                    'font-size': '8px', 'text-rotation': 'autorotate',
+                    'color': '#475569', 'text-background-color': '#FFFFFF',
+                    'text-background-opacity': 0.8, 'text-background-padding': '2px'
+                }},
+                { selector: 'edge[label = "builds_upon"]', style: { 'line-color': '#10B981', 'width': 2, 'target-arrow-color': '#10B981', 'target-arrow-shape': 'triangle' }},
+                { selector: 'edge[label = "related_to"]', style: { 'line-color': '#F59E0B', 'width': 2 }},
+                { selector: 'edge[label = "specializes"]', style: { 'line-color': '#8B5CF6', 'line-style': 'dashed', 'width': 2, 'target-arrow-color': '#8B5CF6', 'target-arrow-shape': 'triangle' }},
+                { selector: 'edge[label = "contradicts"]', style: { 'line-color': '#EF4444', 'width': 3, 'target-arrow-color': '#EF4444', 'target-arrow-shape': 'triangle' }}
+            ],
+            layout: { name: 'preset', animate: false }
+        });
+        
+        // Fade banner after map loads
+        cy.ready(function() {
+            setTimeout(function() {
+                document.getElementById('banner').classList.add('fade');
+                setTimeout(function() { document.getElementById('banner').style.display = 'none'; }, 1500);
+            }, 3000);
+            // Start background loading after layout settles
+            setTimeout(fetchRankedData, 5000);
+        });
+
+        // Auto-size on zoom
+        cy.on('zoom', function() {
+            var zoom = cy.zoom();
+            var base = Math.max(40, 60 / Math.sqrt(zoom));
+            cy.style().selector('node').style({
+                'width': base, 'height': base,
+                'font-size': Math.max(7, base * 0.18) + 'px',
+                'text-max-width': (base * 0.85) + 'px'
+            }).update();
+        });
+
+        // Search
+        var searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('input', function() {
+            var q = this.value.toLowerCase();
+            cy.nodes().forEach(function(n) {
+                n.style({
+                    'opacity': (q === '' || n.data('label').toLowerCase().includes(q)) ? 1 : 0.15,
+                    'border-width': (q !== '' && n.data('label').toLowerCase().includes(q)) ? 3 : 2
+                });
+            });
+            if (q === '') { cy.elements().style('opacity', 1); }
+        });
+
+        // Click node -> highlight neighborhood + show card
+        cy.on('tap', 'node', function(evt) {
+            var node = evt.target;
+            var card = document.getElementById('conceptCard');
+            document.getElementById('cardTitle').textContent = node.data('label');
+            document.getElementById('cardDomain').textContent = node.data('domain').replace(/_/g, ' ');
+            document.getElementById('cardDefinition').textContent = node.data('definition') || 'No definition available.';
+
+            var rels = [];
+            node.connectedEdges().forEach(function(edge) {
+                var other = edge.source().id() === node.id() ? edge.target() : edge.source();
+                var dir = edge.source().id() === node.id() ? '→' : '←';
+                rels.push('<span>' + dir + ' <b>' + edge.data('label') + '</b> ' + other.data('label') + '</span>');
+            });
+            document.getElementById('cardRelationships').innerHTML = rels.length > 0
+                ? rels.join('') : '<span>No relationships yet.</span>';
+
+            card.style.display = 'block';
+            card.style.left = Math.min(evt.originalEvent.clientX + 20, window.innerWidth - 360) + 'px';
+            card.style.top = Math.min(evt.originalEvent.clientY - 30, window.innerHeight - 300) + 'px';
+
+            cy.elements().style('opacity', 0.1);
+            node.style('opacity', 1);
+            var connectedEdges = node.connectedEdges();
+            var connectedNodes = connectedEdges.connectedNodes();
+            connectedEdges.style('opacity', 0.8);
+            connectedNodes.style('opacity', 1);
+
+            connectedEdges.forEach(function(edge) {
+                var sourceDist = edge.source().id() === node.id() ? 0 : 1;
+                edge.style('opacity', sourceDist === 0 ? 0.9 : 0.5);
+            });
+        });
+
+        cy.on('tap', function(evt) {
+            if (evt.target === cy) { resetView(); }
+        });
+
+        document.getElementById('cardClose').addEventListener('click', function() {
+            document.getElementById('conceptCard').style.display = 'none';
+        });
+
+        function resetView() {
+            cy.elements().style('opacity', 1);
+            document.getElementById('conceptCard').style.display = 'none';
+            cy.fit();
+            cy.center();
+        }
+
+        // Tooltip
+        var tooltip = document.getElementById('nodeTooltip');
+        cy.on('mouseover', 'node', function(evt) {
+            var n = evt.target;
+            tooltip.innerHTML = '<strong>' + n.data('label') + '</strong><br><small>' + (n.data('definition') || '') + '</small>';
+            tooltip.style.display = 'block';
+            tooltip.style.left = (evt.originalEvent.clientX + 15) + 'px';
+            tooltip.style.top = (evt.originalEvent.clientY + 15) + 'px';
+        });
+        cy.on('mousemove', 'node', function(evt) {
+            tooltip.style.left = (evt.originalEvent.clientX + 15) + 'px';
+            tooltip.style.top = (evt.originalEvent.clientY + 15) + 'px';
+        });
+        cy.on('mouseout', 'node', function() { tooltip.style.display = 'none'; });
+
+        // Legend domain filter
+        document.querySelectorAll('.legend-item .color-box').forEach(function(box) {
+            box.addEventListener('click', function() {
+                var domainText = this.nextElementSibling.textContent.trim();
+                cy.nodes().forEach(function(n) {
+                    if (n.data('domain') === domainText) {
+                        n.style({ 'opacity': 1, 'border-width': 3 });
+                    } else {
+                        n.style({ 'opacity': 0.08, 'border-width': 1 });
+                    }
+                });
+                cy.edges().forEach(function(e) {
+                    var srcVisible = e.source().data('domain') === domainText;
+                    var tgtVisible = e.target().data('domain') === domainText;
+                    if (srcVisible || tgtVisible) {
+                        e.style('opacity', 0.4);
+                    } else {
+                        e.style('opacity', 0.04);
+                    }
+                });
+            });
+        });
+
+        // Legend toggle
+        document.getElementById('legendToggle').addEventListener('click', function() {
+            document.getElementById('legendPanel').classList.toggle('collapsed');
+        });
+        document.getElementById('closeLegend').addEventListener('click', function() {
+            document.getElementById('legendPanel').classList.add('collapsed');
+        });
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            if (e.key === '/' && document.activeElement !== searchInput) {
+                e.preventDefault();
+                searchInput.focus();
+            }
+            if (e.key === 'Escape') {
+                resetView();
+                searchInput.value = '';
+                cy.elements().style('opacity', 1);
+            }
+        });
+
+        // === BACKGROUND LOADING ===
+        function fetchRankedData() {
+            if (allRankedConcepts) return;
+            fetch('concepts_ranked.json')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    allRankedConcepts = data;
+                    loadNextBackgroundBatch();
+                })
+                .catch(function(err) {
+                    console.error('Failed to load ranked data:', err);
+                });
+        }
+
+        function loadNextBackgroundBatch() {
+            if (!allRankedConcepts) return;
+            if (backgroundIndex >= allRankedConcepts.concepts.length) return;
+            
+            var endIdx = Math.min(backgroundIndex + BACKGROUND_BATCH, allRankedConcepts.concepts.length);
+            var batch = allRankedConcepts.concepts.slice(backgroundIndex, endIdx);
+            backgroundIndex = endIdx;
+            
+            var newElements = [];
+            var newNodeIds = new Set();
+            batch.forEach(function(c) {
+                if (loadedHids.has(c.id)) return;
+                newNodeIds.add(c.id);
+                newElements.push({
+                    group: 'nodes',
+                    data: {
+                        id: c.id,
+                        label: c.label,
+                        definition: c.definition,
+                        domain: c.domain,
+                        background_color: c.color
+                    }
+                });
+            });
+            
+            if (allRankedConcepts.edges) {
+                allRankedConcepts.edges.forEach(function(e) {
+                    var srcLoaded = loadedHids.has(e.source) || newNodeIds.has(e.source);
+                    var tgtLoaded = loadedHids.has(e.target) || newNodeIds.has(e.target);
+                    if (srcLoaded && tgtLoaded) {
+                        var edgeExists = cy.edges().some(function(ex) {
+                            return ex.data('source') === e.source && ex.data('target') === e.target && ex.data('label') === e.type;
+                        });
+                        if (!edgeExists) {
+                            newElements.push({
+                                group: 'edges',
+                                data: { source: e.source, target: e.target, label: e.type }
+                            });
+                        }
+                    }
+                });
+            }
+            
+            batch.forEach(function(c) { loadedHids.add(c.id); });
+            cy.add(newElements);
+            
+            var remaining = allRankedConcepts.concepts.length - backgroundIndex;
+            var loaded = loadedHids.size;
+            document.getElementById('info').textContent = 'CADMIES Mycelium Map | ' + allRankedConcepts.total_concepts + ' nodes | ' + loaded + ' loaded | ' + allRankedConcepts.total_edges + ' edges | / to search | Esc to reset';
+            
+            if (remaining > 0) {
+                document.getElementById('loading').style.display = 'block';
+                document.getElementById('loading').textContent = 'Loading more concepts... (' + loaded + '/' + allRankedConcepts.total_concepts + ')';
+                setTimeout(loadNextBackgroundBatch, 800);
+            } else {
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        // Easter egg
+        var keyBuffer = [];
+        document.addEventListener('keydown', function(e) {
+            if (e.key.length === 1 && /[a-zA-Z]/.test(e.key)) {
+                keyBuffer.push(e.key.toLowerCase());
+                if (keyBuffer.length > 7) keyBuffer.shift();
+                if (keyBuffer.join('') === 'cadmies') {
+                    cy.style().selector('node').style({
+                        'background-color': '#ffd700', 'border-color': '#ff6600',
+                        'border-width': '3px', 'shape': 'ellipse'
+                    }).update();
+                    var msg = document.createElement('div');
+                    msg.innerHTML = '<div style="text-align:center"><div style="font-size:20px;font-weight:bold">LET THE GOOD TIMES ROLL WITH CADMIES!</div><div style="font-size:12px;font-style:italic;color:#ffd700;margin-top:5px">homage to The Cars</div></div>';
+                    msg.style.cssText = 'position:fixed;bottom:50px;left:50%;transform:translateX(-50%);background:linear-gradient(90deg,#ff6600,#ffd700);color:black;padding:12px 24px;border-radius:50px;z-index:9999;font-family:monospace;box-shadow:0 0 20px rgba(255,102,0,0.5);animation:fadeInOut 3s ease-in-out';
+                    document.body.appendChild(msg);
+                    var style = document.createElement('style');
+                    style.textContent = '@keyframes fadeInOut { 0% { opacity:0; transform:translateX(-50%) scale(0.8); } 20% { opacity:1; transform:translateX(-50%) scale(1); } 80% { opacity:1; transform:translateX(-50%) scale(1); } 100% { opacity:0; transform:translateX(-50%) scale(0.8); } }';
+                    document.head.appendChild(style);
+                    setTimeout(function() { msg.remove(); }, 4000);
+                    keyBuffer = [];
+                }
+            }
+        });
+    </script>
+</body>
+</html>
