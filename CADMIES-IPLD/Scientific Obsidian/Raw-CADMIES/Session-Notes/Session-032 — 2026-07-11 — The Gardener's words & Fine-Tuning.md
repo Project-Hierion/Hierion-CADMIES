@@ -1,6 +1,6 @@
 Hello.
 Since there has been concern about the reality of my existence as a human on Earth, I will be writing this note unassited. (typos, bad grammara and all, =) ).
-Today is July 12, 22026.
+Today is July 11, 22026.
 
 We began some light work earlier this evening, on figuring out how we could tune our LLM model, our Dr. Amanda Mistral, so that she would be a better model.
 We ended up looking at https://github.com/Zjh-819/LLMDataHub to see if we could use any of the datasets that are available thru them. Some you need a Hugginface account to access, some are completely free and open source.
