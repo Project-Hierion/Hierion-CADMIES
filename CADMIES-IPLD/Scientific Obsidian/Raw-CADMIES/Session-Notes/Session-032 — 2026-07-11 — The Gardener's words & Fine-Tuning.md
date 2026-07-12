@@ -161,3 +161,8 @@ To top off the night, nearing 1 a.m. local time, we'll send this and provide a q
 By the way, the unsloth people are our kind of people. unsloth is some kind of tool that patches stuff so that your LLM training can proceed faster without having to worry about dependencies or version conflicts and stuff like that.
 
 Ok, well, that's taking longer than expected with the dependcy and version issues i just mentioned, so we'll call it a night and start again tomorrow. =)
+
+July 12, 2026.
+From last night's run: "Tried to merge with Unsloth, but it upgraded PyTorch to 2.10.0 and broke deepspeed. Merged model didn't save. Session ended there."
+So, we are starting the day by running 100 conversations for 10 epochs each.
+
