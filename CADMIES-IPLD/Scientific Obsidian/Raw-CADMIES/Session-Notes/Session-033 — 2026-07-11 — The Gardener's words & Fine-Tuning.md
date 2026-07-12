@@ -165,4 +165,27 @@ Ok, well, that's taking longer than expected with the dependcy and version issue
 July 12, 2026.
 From last night's run: "Tried to merge with Unsloth, but it upgraded PyTorch to 2.10.0 and broke deepspeed. Merged model didn't save. Session ended there."
 So, we are starting the day by running 100 conversations for 10 epochs each.
+Training results:
+```text
+Clean run. Here's the breakdown:
+
+Metric	Value
+Conversations	100
+Total characters	636,016
+Epochs	10
+Steps	1,000
+Training time	52 minutes 28 seconds
+Start loss	1.067
+Final loss	0.0064
+LoRA params	41.9M (1.11%)
+Loss dropped from 1.07 to 0.0064 — that's 99.4% reduction. The model basically memorized these 100 conversations. The adapter is saved to /notebooks/fine-tuning-mistral/domain-output/.
+
+Now the question is: do we fight with the merge/GGUF export again, or do we switch to the bigger GPU first and train on a much larger set?
+```
+
+While that training was running, we decided on using some available credits to run a bigger GPU to process more conversations, faster, for faster and better tuning.
+Standby for how that goes.
+Bigger GPUs are unavailable. We decided on running 100 conversations for 10 epochs, when done it will save. Then we'll repeat with a new set of conversations. We'll repeat until oour 6-hour session with the GPU is up. 
+We will then compile the GGUF file. 
+After which we will have a finely-cnversational-tuned Dr. Amanda Mistral so that her responses can be and flow more like a natural conversation between two people.
 
