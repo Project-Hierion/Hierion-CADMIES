@@ -221,7 +221,7 @@ Conversational flow noticeably improved — longer responses, better sentence st
 ```
 
 Prior to starting tuning, at some point in between, and at the end, we queried Dr. Amanda mistral the same thing.
-The query "introduce yourself and CADMIES.
+The query" "introduce yourself and CADMIES".
 Here is how she answered at each of those stages of fine-tuning:
 ```
 Pre-training (base Mistral):
