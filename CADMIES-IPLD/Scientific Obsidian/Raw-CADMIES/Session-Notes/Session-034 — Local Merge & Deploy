@@ -1,0 +1,38 @@
+---
+session: 034
+date: 2026-07-13
+status: Raw
+---
+
+# Session 034 — Local Merge & Deploy
+
+## What Happened
+- Downloaded trained LoRA adapter (161 MB safetensors) from cloud GPU
+- Built llama.cpp tools locally for GGUF merge pipeline
+- Converted adapter to GGUF format (168 MB)
+- Merged adapter with base model GGUF → 14 GB FP16 merged model
+- Quantized to Q4_K_M → 4 GB deployable model
+- Deployed to local Ollama, tested successfully
+- Cleaned up cloud storage (freed ~17 GB, under 15 GB quota)
+- Archived Buttercup training project for later download
+
+## Key Discoveries
+- The cloud GGUF WAS the Phase 45E fine-tune all along — metadata name was misleading
+- 1,000 conversations trained + 895 CADMIES pairs = fully realized personality
+- merge_and_unload path broken by deepspeed/torch version conflict
+- llama.cpp export-lora tool bypasses all Python dependency issues
+- bitsandbytes 0.41.1 required (0.41.2 has load_state_dict bug)
+- CPU inference on 7B model is slow but functional for testing
+
+## Tools Built
+- llama.cpp with llama-export-lora and llama-quantize
+- Incremental training script with manual safetensors loading
+- Domain filtering script (philosophy, science, religion keywords)
+
+## Soundtrack
+- Hannibal S1E1-E3 (background viewing)
+- Pine Vinyl — Cloreen (during quantization)
+
+## Vibes
+- The GGUF is a spore. One brain, infinite copies, zero dependencies.
+- Dr. Mistral placed Buddha 260,000 miles from Earth. She's not really all that wrong.
