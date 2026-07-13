@@ -1,10 +1,10 @@
----
-session: 034
-date: 2026-07-13
-status: Raw
----
+⚠️ RAW NOTE — Work in progress. May contain half-formed ideas, typos, 
+  unfiltered thoughts, and coded messages for fellow gardeners.
+  For polished documentation, check Polished CADMIES or promote this note.
 
 # Session 034 — Local Merge & Deploy
+
+related: [[Phase-45E]], [[Phase-45F]], [[Session-033]]
 
 ## What Happened
 - Downloaded trained LoRA adapter (161 MB safetensors) from cloud GPU
