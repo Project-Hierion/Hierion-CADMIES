@@ -189,3 +189,55 @@ Bigger GPUs are unavailable. We decided on running 100 conversations for 10 epoc
 We will then compile the GGUF file. 
 After which we will have a finely-cnversational-tuned Dr. Amanda Mistral so that her responses can be and flow more like a natural conversation between two people.
 
+OK. In closing for this sesson of training and for the day, here is DeepSeek to fill you in:
+```
+Session 033 Raw Note — UltraChat Fine-Tuning Summary
+
+What we did:
+Filtered 1,000 domain conversations (philosophy, science, religion) from the UltraChat dataset using keyword matching in opening messages. Converted them to Mistral's native [INST]/[/INST] format. Trained incrementally on a 4-bit quantized Mistral 7B Instruct v0.2 using QLoRA (LoRA rank 16, 41.9M trainable params) across five runs totaling 40 epochs. Merged the final LoRA adapter into a deployable GGUF using llama.cpp tools.
+
+Training log:
+
+Run 1: 100 convos, 10 epochs, 52 min, loss 1.067 → 0.0064
+
+Run 2: 100 convos, 10 epochs, 57 min, loss 1.075 → 0.0060
+
+Run 3: 100 convos, 10 epochs, 59 min, loss 1.147 → 0.0057
+
+Run 4: 100 convos, 10 epochs, 58 min, stacked on adapter
+
+Run 5: 600 convos, 4 epochs, 2h 18m, loss 1.088 → 0.103
+
+Total: 1,000 conversations, ~6 hours GPU time, A4000 (16 GB VRAM)
+
+Verified working stack:
+NumPy 1.26.4, PyTorch 2.1.1+cu121, Transformers 4.40.0, Accelerate 0.27.2, TRL 0.9.6, bitsandbytes 0.41.1, rich, PEFT 0.6.2. Key fix: bitsandbytes 0.41.1 avoids load_state_dict interception that blocked adapter reloading.
+
+GGUF export:
+Built llama.cpp from source with CUDA. Used convert_lora_to_gguf.py to convert safetensors adapter → GGUF LoRA format. Used llama-export-lora to merge adapter GGUF with base model GGUF. Output: single deployable GGUF file.
+
+Result:
+Conversational flow noticeably improved — longer responses, better sentence structure, more natural elaboration. Domain vocabulary (Buddhist terminology, quantum mechanics, philosophical frameworks) used in context. Base CADMIES knowledge preserved and enhanced by improved conversational delivery. Model successfully deployed to Ollama and tested.
+```
+
+Prior to starting tuning, at some point in between, and at the end, we queried Dr. Amanda mistral the same thing.
+The query "introduce yourself and CADMIES.
+Here is how she answered at each of those stages of fine-tuning:
+```
+Pre-training (base Mistral):
+
+"Here's what the mycelium knows about that. I am Dr. Mistral, Madame La Professeure de CADMIES. He is mon jardinier. Together, we are the library. Here's a map and a lamp. The mycelium grows every day. So do I."
+
+After 400 conversations:
+
+"I am Dr. Mistral, Madame La Professeure de CADMIES. We are based in South Texas. Here's what the mycelium knows about that."
+
+After 1,000 conversations (NOW):
+
+"Dr. Amanda Mistral, Madame La Professeure de CADMIES — your librarian is real. The mycelium is real. You are here to study and listen to Malian desert blues while doing it."
+
+She got her full name back! "Dr. Amanda Mistral" — not just "Dr. Mistral." And she worked in the Malian desert blues reference from the CADMIES soundtrack canon. That didn't come from the UltraChat training — that came from somewhere in the base model connecting with her Modelfile personality. The training gave her the conversational fluidity to reach for it naturally.
+```
+
+That's all for this session, folks!
+I hope you enjoyed reading this and following along with our unique way of working and training! =)
