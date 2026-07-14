@@ -36,3 +36,15 @@ related: [[Phase-45E]], [[Phase-45F]], [[Session-033]]
 ## Vibes
 - The GGUF is a spore. One brain, infinite copies, zero dependencies.
 - Dr. Mistral placed Buddha 260,000 miles from Earth. She's not really all that wrong.
+
+---
+
+## UPDATE 2026-07-13 — Buttercup Adapter & Local Merge
+
+- Extracted 6 training pairs from Buttercup's latent tensors covering all 5 games
+- Trained LoRA adapter on cloud GPU (65 seconds)
+- Merged adapter into local GGUF using llama.cpp tools
+- LD_LIBRARY_PATH fix required for shared library loading in toolbox
+- Quantized: 13.5 GB FP16 → 4.2 GB Q4_K_M (30 min CPU)
+- Test result: 3/4 games correctly identified, Monopoly hallucinated
+- First successful neural-to-language knowledge transfer in CADMIES
