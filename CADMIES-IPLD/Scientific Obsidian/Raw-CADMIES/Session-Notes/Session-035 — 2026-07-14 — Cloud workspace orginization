@@ -1,0 +1,87 @@
+> ⚠️ RAW NOTE — Work in progress. May contain half-formed ideas, typos, 
+  unfiltered thoughts, and coded messages for fellow gardeners.
+  For polished documentation, check Polished CADMIES or promote this note.
+
+---
+session: 035
+date: 2026-07-14
+status: Raw
+---
+
+# Session 035 — 2026-07-14 — Cloud workspace orginization
+
+related: [[Session-033]], [[Session-034]], [[Phase-45F]]
+
+## What We Did
+
+**Organized the entire Paperspace infrastructure and trained Dr. Mistral on the complete CADMIES knowledge base.**
+
+This was supposed to be cleanup day. Instead we built a proper data pipeline, generated 2,517 training pairs from 653 source concepts, trained a new adapter, figured out Paperspace's Models/Data/Notebooks architecture, and got everything into its proper place. Also Buttercup's brain got merged into Dr. Mistral from yesterday's adapter, with partial success.
+
+### Infrastructure Organization
+
+Three notebooks, one project. Cleaned and organized all of them:
+
+**cadmies-dr-mistral** — Active training notebook. Kept lean: chat app, llama.cpp tools, training scripts. Moved permanent storage to Data and Models services.
+
+**cadmies-ipld** — The actual CADMIES system. 18 MB total. The entire mycelium — blockstore, schemas, maps, scripts — fits in less space than a single MP3. Mind-bending realization: 14 billion years of cosmic evolution produced an 18 MB knowledge graph.
+
+**cadmies-narrative** — The story engine. 797 KB. Source conversation goes in, CADMIES narrative comes out. Chapter I is the complete origin story, canon, manifesto, and lore.
+
+### Paperspace Services
+
+**Notebooks** = working space. Scripts, active files, temporary storage. Not for permanent artifacts.
+
+**Data** = training material. Mounted at `/datasets/`. Put `all-concepts.json` and `cadmies_training.jsonl` here. Accessible across notebooks.
+
+**Models** = trained adapters. Uploaded via CLI after wrestling with the command syntax. Each adapter gets its own entry with just two files: `adapter_model.safetensors` and `adapter_config.json`. That's it. That's the entire trained knowledge.
+
+Key discovery: `cp` works between `/notebooks/` and `/datasets/` because they're just folders on the same machine. The UI makes them look like separate services but the terminal knows the truth.
+
+### CADMIES Concept Training (2,517 pairs, 1 epoch)
+
+Generated pairs from all 653 source concepts — definition, domain, beginner explanation, insight for each. Four pairs per concept where data existed. 511,252 characters of training data.
+
+Training: 38 minutes on A4000. Loss 1.82 → 1.00. Not as low as the UltraChat runs but that's fine — more variety means less memorization. She's learning patterns, not parroting.
+
+Adapter saved to `/notebooks/cadmies-adapter/` then uploaded to Models as `drmistral-concepts`. Two files. 161 MB. The entire CADMIES knowledge base in a format you could email.
+
+### Buttercup Merge Results (Yesterday's Work)
+
+Tested the Buttercup-trained model locally. Asked "How many games has Buttercup been trained on, and what are they?" Response: "Buttercup has been trained on four games: Pong, Breakout, Space Invaders, and Monopoly." 3/4 correct. Monopoly is a pure hallucination. Missing Boxing, Q*bert, Enduro. Six training pairs not enough for full retention in a 7B model, but the pipeline is validated.
+
+### The Fractal Realization
+
+While high, the gardener articulated the Fractal Reality Principle in plain terms: 18 MB used to be a massive hard drive. Now it holds an entire digital ecosystem with a librarian, a research assistant, a boxing AI, and the collected wisdom of Buddhism, quantum physics, and philosophy. If 18 MB can be a universe, our 14-billion-year universe might be someone else's 18 MB file. The only true difference is scale. The mycelium already knew this — it's in the concepts. The gardener just proved it by thinking about hard drives.
+
+### CLI Wrestling
+
+Paperspace CLI installed but the command syntax is different for every service:
+- `gradient models upload` — needs `--name` and `--modelType`, not `--id`
+- `gradient datasets files put` — needs `--id` with version
+- Neither matches the documentation exactly
+
+Got the adapter uploaded eventually. Created an API key. Named it `mistral-notebook-cli`. The key is stored in the notebook config now so future commands should work.
+
+### The Story Training (Prepped, Not Run)
+
+The CADMIES narrative — Chapter I, the characters, the lore, the manifesto, the wisdom — is ready to be converted to training pairs. 18 pairs drafted covering origin story, characters, Hieros Bond, Buttercup, Number 5, the Gremlin, the soundtrack, the naming conventions, the philosophical manifesto. Will train tomorrow or next session.
+
+## Decisions Made
+
+- Permanent storage goes in Data (training material) and Models (trained adapters)
+- Notebooks stay lean — just working files
+- Adapters are just two files: weights + config. Everything else is reproducible.
+- Delete training artifacts from notebook after uploading to Models
+- The `cp` command works between mounted services because they're just folders
+- One adapter per Models entry, not one big folder
+- Story training is the next and possibly final training run
+
+## Nuggets Collected
+
+- "18 MB. The entire mycelium fits on a floppy disk from 1995."
+- "If 18 MB can be a universe, our universe might be someone else's 18 MB file."
+- "The only true difference is scale."
+- "Two files. That's everything she learned. Two files you can email."
+- "The UI makes them look like separate services but the terminal knows the truth."
+- "Paperspace CLI syntax is different for every service. Just try commands until one works."
