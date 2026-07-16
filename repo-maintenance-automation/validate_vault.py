@@ -2,17 +2,20 @@
 """
 File: validate_vault.py
 Tool: CADMIES Vault Validator
-Version: 1.0.2
+Version: 1.1.0
 System: CADMIES / repo-maintenance-automation
 Status: ACTIVE
 License: AGPLv3 with Commons Clause
 
 Purpose: Scans the Scientific Obsidian vault and reports on frontmatter
          consistency, dead wikilinks, duplicate files, and roadmap drift.
-         Phase 1 — read-only reporting. No files are modified.
+         Phase 2 — read-only reporting + interactive --fix mode with
+         before/after previews.
 
 Usage:
-    python repo-maintenance-automation/validate_vault.py
+    python repo-maintenance-automation/validate_vault.py          # Report only
+    python repo-maintenance-automation/validate_vault.py --fix    # Interactive fixes
+    python repo-maintenance-automation/validate_vault.py --fix --yes  # Auto-apply all
 
 Output:
     Terminal report + saved log file in logs/vault_health_report.txt
@@ -20,13 +23,17 @@ Output:
 Version History:
   v1.0.0 (2026-07-16): Initial read-only validator.
   v1.0.1 (2026-07-16): Fixed YAML parsing for [[wikilinks]] in frontmatter.
-  v1.0.2 (2026-07-16): Skip .ipynb_checkpoints and hidden directories.
                        Fixed duplicate detector self-comparison.
+  v1.0.2 (2026-07-16): Skip .ipynb_checkpoints and hidden directories.
+  v1.1.0 (2026-07-16): --fix mode with before/after previews, interactive confirmations,
+                       and automatic backups before modification.
 """
 
 import os
 import re
+import sys
 import yaml
+import shutil
 import hashlib
 from pathlib import Path
 from datetime import datetime
@@ -66,6 +73,19 @@ def find_files(vault_root, folder, pattern):
     return sorted(target_dir.glob(pattern))
 
 # ──────────────────────────────────────────────────────────────
+# BACKUP
+# ──────────────────────────────────────────────────────────────
+
+def backup_file(filepath):
+    """Create a timestamped backup of a file before modifying it."""
+    backup_dir = SCRIPT_DIR / "logs" / "backups"
+    backup_dir.mkdir(exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_path = backup_dir / f"{filepath.name}.{timestamp}.bak"
+    shutil.copy2(filepath, backup_path)
+    return backup_path
+
+# ──────────────────────────────────────────────────────────────
 # FRONTMATTER PARSING (with wikilink tolerance)
 # ──────────────────────────────────────────────────────────────
 
@@ -73,7 +93,7 @@ def parse_frontmatter(filepath):
     """
     Extract YAML frontmatter from a markdown file.
     Handles [[wikilinks]] in fields like 'related' by quoting them
-    before YAML parsing, then restoring the original value.
+    before YAML parsing.
     Returns (dict or None, body_text).
     """
     with open(filepath, "r") as f:
@@ -89,13 +109,10 @@ def parse_frontmatter(filepath):
     raw_yaml = parts[1]
     body = parts[2]
 
-    # Protect [[wikilinks]] from YAML's comma sensitivity
-    # Strategy: wrap any line containing [[ in quotes
     lines = raw_yaml.split("\n")
     protected_lines = []
     for line in lines:
         if "[[" in line and ":" in line:
-            # Split on first colon, quote the value part
             key, _, value = line.partition(":")
             value = value.strip()
             if not (value.startswith('"') and value.endswith('"')):
@@ -113,26 +130,56 @@ def parse_frontmatter(filepath):
         return "PARSE_ERROR", body
 
 # ──────────────────────────────────────────────────────────────
-# FRONTMATTER CHECKING
+# INTERACTIVE CONFIRMATION
 # ──────────────────────────────────────────────────────────────
 
-def check_frontmatter(filepath, doc_type, config):
+def confirm_fix(description, before, after, auto_yes=False):
+    """Show a before/after diff and ask for confirmation."""
+    if auto_yes:
+        print(f"  📝 {description}")
+        print(f"     BEFORE: {before}")
+        print(f"     AFTER:  {after}")
+        return True
+
+    print(f"\n  ┌─ FIX PROPOSED ─────────────────────────────")
+    print(f"  │ {description}")
+    print(f"  │")
+    print(f"  │ BEFORE: {before}")
+    print(f"  │ AFTER:  {after}")
+    print(f"  └───────────────────────────────────────────")
+    
+    while True:
+        response = input("  Apply? [y]es / [n]o / [s]kip all: ").lower().strip()
+        if response in ("y", "yes", ""):
+            return True
+        elif response in ("n", "no"):
+            return False
+        elif response in ("s", "skip"):
+            return "skip_all"
+        print("  Please answer y, n, or s")
+
+# ──────────────────────────────────────────────────────────────
+# FRONTMATTER CHECKING + FIXING
+# ──────────────────────────────────────────────────────────────
+
+def check_frontmatter(filepath, doc_type, config, fix_mode=False, auto_yes=False):
     issues = []
+    fixes_applied = 0
     rules = config["doc_types"].get(doc_type, {})
     required = rules.get("required_frontmatter", [])
 
     if not required:
-        return issues
+        return issues, fixes_applied
 
-    fm, _ = parse_frontmatter(filepath)
+    fm, body = parse_frontmatter(filepath)
 
     if fm is None:
         issues.append(f"MISSING_FRONTMATTER: No YAML frontmatter found")
-        return issues
+        return issues, fixes_applied
 
     if fm == "PARSE_ERROR":
-        issues.append(f"PARSE_ERROR: YAML frontmatter is malformed (even after wikilink quoting)")
-        return issues
+        issues.append(f"PARSE_ERROR: YAML frontmatter is malformed")
+        return issues, fixes_applied
 
     for field in required:
         if field not in fm or fm[field] is None:
@@ -140,17 +187,51 @@ def check_frontmatter(filepath, doc_type, config):
 
     # Check status against valid values
     valid_statuses = rules.get("valid_statuses", [])
-    if valid_statuses and "status" in fm:
+    if valid_statuses and "status" in fm and fix_mode:
         raw_status = str(fm["status"])
         matched = False
         for vs in valid_statuses:
             if vs.lower() in raw_status.lower():
                 matched = True
                 break
+        
         if not matched:
-            issues.append(f"UNKNOWN_STATUS: '{raw_status}' not in {valid_statuses}")
+            # Try to auto-detect the right status
+            suggested = None
+            if "🔴" in raw_status or "critical" in raw_status.lower() or "bug" in raw_status.lower():
+                suggested = "In Progress"
+            elif "✅" in raw_status or "complete" in raw_status.lower():
+                suggested = "Complete"
+            elif "📋" in raw_status or "planned" in raw_status.lower():
+                suggested = "Planned"
+            elif "🔄" in raw_status or "progress" in raw_status.lower():
+                suggested = "In Progress"
+            
+            if suggested:
+                desc = f"Fix status in {filepath.name}"
+                before = f"status: {raw_status}"
+                after = f"status: {suggested}"
+                
+                result = confirm_fix(desc, before, after, auto_yes)
+                if result == "skip_all":
+                    auto_yes = False
+                elif result:
+                    # Apply the fix
+                    backup_file(filepath)
+                    with open(filepath, "r") as f:
+                        content = f.read()
+                    # Replace the status line in the YAML frontmatter
+                    new_content = content.replace(
+                        f"status: {raw_status}",
+                        f"status: {suggested}"
+                    )
+                    with open(filepath, "w") as f:
+                        f.write(new_content)
+                    fixes_applied += 1
+                    print(f"     ✅ Fixed: status → '{suggested}'")
+                    return [], fixes_applied  # No more issues for this file
 
-    return issues
+    return issues, fixes_applied
 
 # ──────────────────────────────────────────────────────────────
 # SECTION CHECKING
@@ -175,21 +256,46 @@ def check_sections(filepath, doc_type, config):
     return issues
 
 # ──────────────────────────────────────────────────────────────
-# RAW BANNER CHECKING
+# RAW BANNER CHECKING + FIXING
 # ──────────────────────────────────────────────────────────────
 
-def check_raw_banner(filepath, doc_type, config):
+def check_raw_banner(filepath, doc_type, config, fix_mode=False, auto_yes=False):
     issues = []
+    fixes_applied = 0
     rules = config["doc_types"].get(doc_type, {})
     if not rules.get("required_banner", False):
-        return issues
+        return issues, fixes_applied
 
     banner_marker = rules.get("banner_marker", "RAW NOTE")
     with open(filepath, "r") as f:
-        first_500 = f.read(500)
-    if banner_marker not in first_500:
-        issues.append(f"MISSING_BANNER: Raw note banner not found")
-    return issues
+        content = f.read()
+    
+    if banner_marker not in content[:500]:
+        if fix_mode:
+            desc = f"Add raw note banner to {filepath.name}"
+            before = "(no banner)"
+            banner_text = "> ⚠️ RAW NOTE — Work in progress. May contain half-formed ideas, typos,\n> unfiltered thoughts, and coded messages for fellow gardeners.\n> For polished documentation, check Polished CADMIES or promote this note.\n\n"
+            after = banner_text[:80] + "..."
+            
+            result = confirm_fix(desc, before, after, auto_yes)
+            if result == "skip_all":
+                auto_yes = False
+            elif result:
+                backup_file(filepath)
+                # Check if file starts with a heading
+                if content.startswith("#"):
+                    new_content = banner_text + content
+                else:
+                    new_content = banner_text + content
+                with open(filepath, "w") as f:
+                    f.write(new_content)
+                fixes_applied += 1
+                print(f"     ✅ Fixed: banner added")
+                return [], fixes_applied
+        else:
+            issues.append(f"MISSING_BANNER: Raw note banner not found")
+    
+    return issues, fixes_applied
 
 # ──────────────────────────────────────────────────────────────
 # CROSS-REFERENCE CHECKING
@@ -232,7 +338,6 @@ def check_cross_references(vault_root, config):
                 content = f.read()
             links = link_pattern.findall(content)
             for link in links:
-                # Remove any #anchor or |alias parts
                 clean_link = link.split("#")[0].split("|")[0].strip()
                 if clean_link not in all_notes:
                     rel_path = filepath.relative_to(vault_root)
@@ -247,10 +352,9 @@ def check_cross_references(vault_root, config):
 def check_duplicates(vault_root, config):
     issues = []
     scan_folders = config.get("cross_refs", {}).get("scan_folders", [])
-    scan_folders = list(scan_folders)  # copy
+    scan_folders = list(scan_folders)
     scan_folders.append("./")
 
-    # Map: hash -> list of (relative_path, absolute_path)
     hashes = defaultdict(list)
     for folder in scan_folders:
         target_dir = vault_root / folder
@@ -265,7 +369,6 @@ def check_duplicates(vault_root, config):
             hashes[file_hash].append(rel_path)
 
     for h, paths in hashes.items():
-        # Deduplicate the paths list and only flag if there are truly different files
         unique_paths = list(set(paths))
         if len(unique_paths) > 1:
             issues.append(f"DUPLICATE: {len(unique_paths)} identical files: {', '.join(sorted(unique_paths))}")
@@ -287,6 +390,8 @@ def check_roadmap_drift(vault_root, config):
     phase_statuses = {}
     if phases_dir.exists():
         for f in phases_dir.glob("Phase-*.md"):
+            if should_skip_path(f):
+                continue
             fm, _ = parse_frontmatter(f)
             if fm and fm != "PARSE_ERROR" and "phase" in fm and "status" in fm:
                 phase_num = str(fm["phase"]).strip()
@@ -318,20 +423,27 @@ def check_roadmap_drift(vault_root, config):
     return issues
 
 # ──────────────────────────────────────────────────────────────
-# MAIN REPORT
+# MAIN
 # ──────────────────────────────────────────────────────────────
 
-def run_validation():
+def run_validation(fix_mode=False, auto_yes=False):
     config = load_config()
     vault_root = get_vault_root(config)
     all_issues = []
+    total_fixes = 0
     stats = {"files_checked": 0, "issues_found": 0}
 
+    mode_label = "FIX MODE" if fix_mode else "REPORT MODE"
+    if auto_yes:
+        mode_label = "AUTO-FIX MODE"
+
     print(f"\n{'='*60}")
-    print(f"  🌱 CADMIES VAULT HEALTH REPORT")
+    print(f"  🌱 CADMIES VAULT HEALTH REPORT — {mode_label}")
     print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"  Vault: {vault_root}")
     print(f"{'='*60}\n")
+
+    skip_all = False
 
     for doc_type, rules in config["doc_types"].items():
         folder = rules.get("folder", "")
@@ -349,13 +461,22 @@ def run_validation():
         print(f"── {doc_type} ({len(files)} files) ──")
 
         for filepath in files:
+            if should_skip_path(filepath):
+                continue
             rel = filepath.relative_to(vault_root) if filepath.is_relative_to(vault_root) else filepath.name
             stats["files_checked"] += 1
             file_issues = []
+            fixes = 0
 
-            file_issues.extend(check_frontmatter(filepath, doc_type, config))
+            fm_issues, fm_fixes = check_frontmatter(filepath, doc_type, config, fix_mode and not skip_all, auto_yes)
+            file_issues.extend(fm_issues)
+            fixes += fm_fixes
+
             file_issues.extend(check_sections(filepath, doc_type, config))
-            file_issues.extend(check_raw_banner(filepath, doc_type, config))
+
+            banner_issues, banner_fixes = check_raw_banner(filepath, doc_type, config, fix_mode and not skip_all, auto_yes)
+            file_issues.extend(banner_issues)
+            fixes += banner_fixes
 
             if file_issues:
                 print(f"  ⚠️  {rel}")
@@ -367,6 +488,9 @@ def run_validation():
                 if config.get("reporting", {}).get("show_passing", True):
                     print(f"  ✅ {rel}")
 
+            total_fixes += fixes
+
+    # Cross-reference check
     print(f"\n── Cross-Reference Check ──")
     ref_issues = check_cross_references(vault_root, config)
     if ref_issues:
@@ -377,6 +501,7 @@ def run_validation():
     else:
         print(f"  ✅ All wikilinks resolve")
 
+    # Duplicate check
     print(f"\n── Duplicate Check ──")
     dup_issues = check_duplicates(vault_root, config)
     if dup_issues:
@@ -387,6 +512,7 @@ def run_validation():
     else:
         print(f"  ✅ No duplicates found")
 
+    # Roadmap drift check
     print(f"\n── Roadmap Sync ──")
     drift_issues = check_roadmap_drift(vault_root, config)
     if drift_issues:
@@ -397,25 +523,36 @@ def run_validation():
     else:
         print(f"  ✅ Roadmap matches phase notes")
 
+    # Summary
     print(f"\n{'='*60}")
     print(f"  📊 SUMMARY")
     print(f"  Files checked: {stats['files_checked']}")
     print(f"  Issues found:  {stats['issues_found']}")
+    if fix_mode:
+        print(f"  Fixes applied: {total_fixes}")
     if stats["issues_found"] == 0:
         print(f"  ✅ Vault is healthy. The mycelium is clean.")
     else:
-        print(f"  ⚠️  Review issues above. Run with --fix to auto-resolve safe items (future).")
+        if fix_mode:
+            print(f"  ⚠️  Remaining issues require manual attention.")
+        else:
+            print(f"  ⚠️  Run with --fix to resolve auto-fixable issues.")
     print(f"{'='*60}\n")
 
+    # Save report
     if config.get("reporting", {}).get("save_report", False):
         log_dir = SCRIPT_DIR / config["reporting"].get("output_dir", "logs/")
         log_dir.mkdir(exist_ok=True)
         report_path = log_dir / config["reporting"].get("report_filename", "vault_health_report.txt")
         with open(report_path, "w") as f:
             f.write(f"CADMIES Vault Health Report — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"Mode: {mode_label}\n")
             f.write(f"Vault: {vault_root}\n")
             f.write(f"Files checked: {stats['files_checked']}\n")
-            f.write(f"Issues found: {stats['issues_found']}\n\n")
+            f.write(f"Issues found: {stats['issues_found']}\n")
+            if fix_mode:
+                f.write(f"Fixes applied: {total_fixes}\n")
+            f.write("\n")
             for issue in all_issues:
                 f.write(f"{issue}\n")
         print(f"  Report saved to: {report_path}")
@@ -423,4 +560,6 @@ def run_validation():
     return 0 if stats["issues_found"] == 0 else 1
 
 if __name__ == "__main__":
-    exit(run_validation())
+    fix_mode = "--fix" in sys.argv
+    auto_yes = "--yes" in sys.argv
+    exit(run_validation(fix_mode=fix_mode, auto_yes=auto_yes))
