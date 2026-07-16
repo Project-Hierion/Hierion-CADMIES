@@ -2,7 +2,7 @@
 """
 File: validate_vault.py
 Tool: CADMIES Vault Validator
-Version: 1.0.1
+Version: 1.0.2
 System: CADMIES / repo-maintenance-automation
 Status: ACTIVE
 License: AGPLv3 with Commons Clause
@@ -20,6 +20,7 @@ Output:
 Version History:
   v1.0.0 (2026-07-16): Initial read-only validator.
   v1.0.1 (2026-07-16): Fixed YAML parsing for [[wikilinks]] in frontmatter.
+  v1.0.2 (2026-07-16): Skip .ipynb_checkpoints and hidden directories.
                        Fixed duplicate detector self-comparison.
 """
 
@@ -49,6 +50,14 @@ def load_config():
 def get_vault_root(config):
     vault_rel = config.get("vault_root", "../CADMIES-IPLD/Scientific Obsidian")
     return (SCRIPT_DIR / vault_rel).resolve()
+
+def should_skip_path(filepath):
+    """Skip hidden directories and Jupyter checkpoint files."""
+    parts = str(filepath).split("/")
+    for part in parts:
+        if part.startswith(".") or part == ".ipynb_checkpoints":
+            return True
+    return False
 
 def find_files(vault_root, folder, pattern):
     target_dir = vault_root / folder
@@ -197,6 +206,8 @@ def check_cross_references(vault_root, config):
         target_dir = vault_root / folder
         if target_dir.exists():
             for f in target_dir.rglob("*.md"):
+                if should_skip_path(f):
+                    continue
                 all_notes.add(f.stem)
 
     # Also add vault root and meta files
@@ -205,6 +216,8 @@ def check_cross_references(vault_root, config):
     meta_dir = vault_root / "00-Meta"
     if meta_dir.exists():
         for f in meta_dir.rglob("*.md"):
+            if should_skip_path(f):
+                continue
             all_notes.add(f.stem)
 
     # Scan each file for wikilinks
@@ -213,6 +226,8 @@ def check_cross_references(vault_root, config):
         if not target_dir.exists():
             continue
         for filepath in target_dir.rglob("*.md"):
+            if should_skip_path(filepath):
+                continue
             with open(filepath, "r") as f:
                 content = f.read()
             links = link_pattern.findall(content)
@@ -242,6 +257,8 @@ def check_duplicates(vault_root, config):
         if not target_dir.exists():
             continue
         for filepath in target_dir.rglob("*.md"):
+            if should_skip_path(filepath):
+                continue
             with open(filepath, "rb") as f:
                 file_hash = hashlib.md5(f.read()).hexdigest()
             rel_path = str(filepath.relative_to(vault_root))
