@@ -1,0 +1,115 @@
+# ============================================================================
+# CADMIES Vault Automation — Configuration
+# ============================================================================
+# Defines rules for document types, required fields, folder structure,
+# and validation behavior. Update this when standards evolve.
+# ============================================================================
+
+vault_root: "../CADMIES-IPLD/Scientific Obsidian"
+
+doc_types:
+
+  polished_phase:
+    folder: "Polished-CADMIES/03-Development/"
+    name_pattern: "Phase-*.md"
+    required_frontmatter:
+      - phase
+      - date
+      - status
+      - related
+    required_sections:
+      - "What Changed"
+      - "Why"
+    optional_sections:
+      - "Changes Made"
+      - "Testing"
+      - "Results"
+      - "Analysis"
+      - "Conclusion"
+      - "Next Steps"
+    valid_statuses:
+      - "Complete"
+      - "In Progress"
+      - "Designed"
+      - "Planned"
+      - "Abandoned"
+      - "Active"
+
+  polished_system:
+    folder: "Polished-CADMIES/01-System/"
+    name_pattern: "*.md"
+    required_frontmatter:
+      - system
+      - date
+      - status
+      - related
+
+  polished_pipeline:
+    folder: "Polished-CADMIES/02-Pipeline/"
+    name_pattern: "*.md"
+    required_frontmatter:
+      - pipeline
+      - date
+      - status
+      - related
+
+  polished_collaboration:
+    folder: "Polished-CADMIES/05-Collaboration/"
+    name_pattern: "*.md"
+    required_frontmatter:
+      - collaboration
+      - date
+      - status
+      - related
+
+  raw_session:
+    folder: "Raw-CADMIES/Session-Notes/"
+    name_pattern: "Session-*.md"
+    required_banner: true
+    banner_marker: "RAW NOTE"
+
+  raw_howto:
+    folder: "Raw-CADMIES/How-To's/"
+    name_pattern: "*.md"
+
+  raw_ideas:
+    folder: "Raw-CADMIES/Ideas/"
+    name_pattern: "*.md"
+
+  raw_scratchpad:
+    folder: "Raw-CADMIES/Scratchpad/"
+    name_pattern: "*.md"
+
+  meta:
+    folder: "00-Meta/"
+    name_pattern: "*.md"
+
+  roadmap:
+    folder: "./"
+    filename: "growth_roadmap.md"
+    required_frontmatter:
+      - phase
+      - date
+      - status
+      - session
+
+cross_refs:
+  scan_folders:
+    - "Polished-CADMIES/"
+    - "Raw-CADMIES/Session-Notes/"
+    - "00-Meta/"
+  link_pattern: "\\[\\[([^\\]]+)\\]\\]"
+
+roadmap_sync:
+  source: "growth_roadmap.md"
+
+privacy:
+  local_only_patterns:
+    - "*Buttercup*"
+    - "*private*"
+    - "*internal*"
+
+reporting:
+  output_dir: "logs/"
+  save_report: true
+  report_filename: "vault_health_report.txt"

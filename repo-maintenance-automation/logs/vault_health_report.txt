@@ -1,0 +1,141 @@
+CADMIES Vault Health Report — 2026-07-16 21:30:53
+Vault: /workspaces/Hierion-CADMIES/CADMIES-IPLD/Scientific Obsidian
+Files checked: 83
+Issues found: 136
+
+Polished-CADMIES/03-Development/Phase-35-Results.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-35-Results.md: MISSING_SECTION: 'Why' section not found
+Polished-CADMIES/03-Development/Phase-37-Scientific-Obsidian.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-37-Scientific-Obsidian.md: MISSING_SECTION: 'Why' section not found
+Polished-CADMIES/03-Development/Phase-39-Concept-Enrichment.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-39-Concept-Enrichment.md: MISSING_SECTION: 'Why' section not found
+Polished-CADMIES/03-Development/Phase-40-Hieros-Origin-Harvest.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-40-Hieros-Origin-Harvest.md: MISSING_SECTION: 'Why' section not found
+Polished-CADMIES/03-Development/Phase-41-Paperspace-GitHub Continuous Sync.md: MISSING_FIELD: 'phase' is required but missing
+Polished-CADMIES/03-Development/Phase-41-Paperspace-GitHub Continuous Sync.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-41-Paperspace-GitHub Continuous Sync.md: MISSING_SECTION: 'Why' section not found
+Polished-CADMIES/03-Development/Phase-45 v2.0-Teaching Mistral via Snagnar HIEROS — Revised Plan.md: MISSING_SECTION: 'Why' section not found
+Polished-CADMIES/03-Development/Phase-45A-Snagnar-HIEROS-Integration.md: MISSING_FIELD: 'phase' is required but missing
+Polished-CADMIES/03-Development/Phase-45A-Snagnar-HIEROS-Integration.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-45A-Snagnar-HIEROS-Integration.md: MISSING_SECTION: 'Why' section not found
+Polished-CADMIES/03-Development/Phase-45D-Ball Spawning Bug — Environment Debug.md: UNKNOWN_STATUS: '🔴 Critical Bug Discovered — Ball not spawning in Breakout environment' not in ['Complete', 'In Progress', 'Designed', 'Planned', 'Abandoned', 'Active']
+Polished-CADMIES/03-Development/Phase-45D-Ball Spawning Bug — Environment Debug.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-45E-Test Results-Dr. Amanda Mistral Fine-Tuning.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-45E-Test Results-Dr. Amanda Mistral Fine-Tuning.md: MISSING_SECTION: 'Why' section not found
+Polished-CADMIES/03-Development/Phase-49-Public-Branch.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-51-External-Collaboration-Bruno-Cerda-Mardini.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-51-External-Collaboration-Bruno-Cerda-Mardini.md: MISSING_SECTION: 'Why' section not found
+Polished-CADMIES/03-Development/Phase-52-llama-cpp-Integration.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-56-Emergence-Verification.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md: MISSING_FRONTMATTER: No YAML frontmatter found
+Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md: MISSING_SECTION: 'What Changed' section not found
+Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md: MISSING_SECTION: 'Why' section not found
+Polished-CADMIES/02-Pipeline/Harvester Pipeline (Superceded by Workflows).md: MISSING_FIELD: 'pipeline' is required but missing
+Polished-CADMIES/02-Pipeline/Harvester Pipeline (Superceded by Workflows).md: MISSING_FIELD: 'date' is required but missing
+Raw-CADMIES/Session-Notes/Session-033 — 2026-07-11 — The Gardener's words & Fine-Tuning.md: MISSING_BANNER: Raw note banner not found
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Workflows-Documentation.md -> [[Pipeline-Workflows]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Workflows-Documentation.md -> [[Note-Taking-Protocol]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Harvester Pipeline (Superceded by Workflows).md -> [[Relationship Generator]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Harvester Pipeline (Superceded by Workflows).md -> [[Mycelium Map]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Harvester Pipeline (Superceded by Workflows).md -> [[bayes_theorem]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Harvester Pipeline (Superceded by Workflows).md -> [[Relationship Generator]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Workflows-Pipeline.md -> [[Phase-66]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Workflows-Pipeline.md -> [[Phase-63]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Workflows-Pipeline.md -> [[Phase-64]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Workflows-Pipeline.md -> [[Phase-65]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Workflows-Pipeline.md -> [[Session-031]] (target not found)
+DEAD_LINK: Polished-CADMIES/02-Pipeline/Workflows-Pipeline.md -> [[Session-032]] (target not found)
+DEAD_LINK: Polished-CADMIES/01-System/Three-Model Arsenal.md -> [[Harvester Pipeline]] (target not found)
+DEAD_LINK: Polished-CADMIES/01-System/Two-System Setup.md -> [[Paperspace Session Protocol]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-40-Hieros-Origin-Harvest.md -> [[Harvester Pipeline]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-64-Hierion Database Infrastructure — Isolated MongoDB Deployment.md -> [[Phase-63]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-64-Hierion Database Infrastructure — Isolated MongoDB Deployment.md -> [[Phase-65]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-64-Hierion Database Infrastructure — Isolated MongoDB Deployment.md -> [[Session-031]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-47-Orphan-Edge-Resolution.md -> [[Phase-38-Ferdinand-Easter-Egg]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-47-Orphan-Edge-Resolution.md -> [[generate_mycelium_map.py]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-60-Scientific-Obsidian-Zettelk.md -> [[Dr-Rebentisch-Twin-Mycelium]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-60-Scientific-Obsidian-Zettelk.md -> [[Session-026]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45E-Dr. Amanda Mistral — Fine-Tuning the Librarian.md -> [[Phase-45D-Ball-Spawning-Bug]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45E-Dr. Amanda Mistral — Fine-Tuning the Librarian.md -> [[Phase-45-v2.0]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45E-Dr. Amanda Mistral — Fine-Tuning the Librarian.md -> [[Session-030]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45E-Dr. Amanda Mistral — Fine-Tuning the Librarian.md -> [[Session-031]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-41-Paperspace-GitHub Continuous Sync.md -> [[Polished-CADMIES/03-Development/Session-010|Session-010]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-41-Paperspace-GitHub Continuous Sync.md -> [[Harvester Pipeline]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-56-Emergence-Verification.md -> [[Phase-44-Canonical-Domains]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-56-Emergence-Verification.md -> [[Buddhist-Philosophy]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45 v2.0-Teaching Mistral via Snagnar HIEROS — Revised Plan.md -> [[Phase-45A]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45 v2.0-Teaching Mistral via Snagnar HIEROS — Revised Plan.md -> [[Phase-45B]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45 v2.0-Teaching Mistral via Snagnar HIEROS — Revised Plan.md -> [[Phase-45C]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45 v2.0-Teaching Mistral via Snagnar HIEROS — Revised Plan.md -> [[Phase-45D]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45 v2.0-Teaching Mistral via Snagnar HIEROS — Revised Plan.md -> [[Session-028]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-35-Results.md -> [[Harvester Pipeline]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Decisions-Log.md -> [[linked-note]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-52-llama-cpp-Integration.md -> [[Phase-45-Snagnar-HIEROS]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-52-llama-cpp-Integration.md -> [[Codestral-Audit-001]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45E-Test Results-Dr. Amanda Mistral Fine-Tuning.md -> [[Phase-45E-Mistral-Fine-Tuning]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45E-Test Results-Dr. Amanda Mistral Fine-Tuning.md -> [[Session-030]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-46-Unmapped-Domain-Mapping.md -> [[Phase-45-Snagnar-HIEROS]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-46-Unmapped-Domain-Mapping.md -> [[generate_mycelium_map.py]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-51-External-Collaboration-Bruno-Cerda-Mardini.md -> [[Phase-45-Snagnar-HIEROS]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-44-Map-Legend-Cleanup.md -> [[Phase-45-Snagnar-HIEROS]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-44-Map-Legend-Cleanup.md -> [[generate_mycelium_map.py]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-44-Map-Legend-Cleanup.md -> [[Phase-66]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-65-Hierion Domain & Web Server Configuration.md -> [[Phase-63]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-65-Hierion Domain & Web Server Configuration.md -> [[Phase-64]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-65-Hierion Domain & Web Server Configuration.md -> [[Session-031]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45B-Snagnar-HIEROS-Integration.md -> [[Session-014]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45B-Snagnar-HIEROS-Integration.md -> [[generate_mycelium_map.py]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-37-Scientific-Obsidian.md -> [[Dr-Rebentisch-Twin-Mycelium]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-63-Cloud Deployment — Project Hierion Foundation.md -> [[Phase-64]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-63-Cloud Deployment — Project Hierion Foundation.md -> [[Phase-65]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-63-Cloud Deployment — Project Hierion Foundation.md -> [[Session-031]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45C-Snagnar HIEROS — Isolated Redeployment.md -> [[Session-014]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-35-Difficulty-Levels.md -> [[Harvester Pipeline]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-35-Difficulty-Levels.md -> [[bayes_theorem]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-48-Relationship-Generator-Hardening.md -> [[generate_relationships.py]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-48-Relationship-Generator-Hardening.md -> [[Session-017]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45A-Snagnar-HIEROS-Integration.md -> [[Phase-45-Snagnar-HIEROS]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45A-Snagnar-HIEROS-Integration.md -> [[Paperspace-Session-Protocol]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45D-Ball Spawning Bug — Environment Debug.md -> [[Phase-45C-Snagnar-HIEROS-Isolated-Redeployment]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45D-Ball Spawning Bug — Environment Debug.md -> [[Session-014]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45D-Ball Spawning Bug — Environment Debug.md -> [[Session-025]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45D-Ball Spawning Bug — Environment Debug.md -> [[Session-027]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-39-Concept-Enrichment.md -> [[Harvester Pipeline]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-39-Concept-Enrichment.md -> [[bayes_theorem]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md -> [[Session-023]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md -> [[Session-025]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md -> [[Phase-48]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md -> [[CADMIES-Pipeline-Workflows]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md -> [[problem_solving_guide]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-029 — 2026-06-05 — Phase 45 v2.0 Planning.md -> [[Session-028]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-029 — 2026-06-05 — Phase 45 v2.0 Planning.md -> [[Phase-45D]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-029 — 2026-06-05 — Phase 45 v2.0 Planning.md -> [[Phase-45-v2.0]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-027 — 2026-06-02 — The Paperspace Zettelk.md -> [[Session-026]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-027 — 2026-06-02 — The Paperspace Zettelk.md -> [[Dr-Rebentisch-Twin-Mycelium]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-028 — 2026-06-05 — Breakout's Ball Doesn't Fall.md -> [[Session-014]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-028 — 2026-06-05 — Breakout's Ball Doesn't Fall.md -> [[Session-025]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-028 — 2026-06-05 — Breakout's Ball Doesn't Fall.md -> [[Session-027]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-028 — 2026-06-05 — Breakout's Ball Doesn't Fall.md -> [[Phase-45D]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-025 — 2026-05-30 — Buttercup 3rd time (related to Session014).md -> [[Session-014]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-025 — 2026-05-30 — Buttercup 3rd time (related to Session014).md -> [[Phase-45C-Snagnar-HIEROS-Isolated-Redeploy]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-026 — 2026-05-31 — The Zettelk is Born.md -> [[Session-025]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-026 — 2026-05-31 — The Zettelk is Born.md -> [[Dr-Rebentisch-Twin-Mycelium]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-030 — 2026-06-08 — The Gremlin Feasts.md -> [[Session-029]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-030 — 2026-06-08 — The Gremlin Feasts.md -> [[Phase-45D]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-030 — 2026-06-08 — The Gremlin Feasts.md -> [[Phase-45E]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-030 — 2026-06-08 — The Gremlin Feasts.md -> [[Session-031]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-031 — 2026-06-23 — The Mycelium Gets a New Home.md -> [[Session-030]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-031 — 2026-06-23 — The Mycelium Gets a New Home.md -> [[Phase-63]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-031 — 2026-06-23 — The Mycelium Gets a New Home.md -> [[Phase-64]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-031 — 2026-06-23 — The Mycelium Gets a New Home.md -> [[Phase-65]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-031 — 2026-06-23 — The Mycelium Gets a New Home.md -> [[Phase-66]] (target not found)
+DEAD_LINK: 00-Meta/CADMIES-Canon.md -> [[Dr-Rebentisch-Twin-Mycelium]] (target not found)
+DEAD_LINK: 00-Meta/CADMIES-Canon.md -> [[Phase-45E]] (target not found)
+DEAD_LINK: 00-Meta/Note-Taking Protocol.md -> [[double brackets]] (target not found)
+DEAD_LINK: 00-Meta/Note-Taking Protocol.md -> [[note-one]] (target not found)
+DEAD_LINK: 00-Meta/Note-Taking Protocol.md -> [[note-two]] (target not found)
+DEAD_LINK: 00-Meta/Note-Taking Protocol.md -> [[Session-005]] (target not found)
+DEAD_LINK: 00-Meta/Note-Taking Protocol.md -> [[Harvester Pipeline]] (target not found)
+DEAD_LINK: 00-Meta/Note-Taking Protocol.md -> [[Dr-Rebentisch]] (target not found)
+DEAD_LINK: 00-Meta/Note-Taking Protocol.md -> [[bayes_theorem]] (target not found)
+ROADMAP_DRIFT: Phase 43 — roadmap shows 📋, note says '🔄 In Progress — Critical path'
