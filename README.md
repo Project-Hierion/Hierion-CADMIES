@@ -4,7 +4,7 @@
 
 A philosophical and technical framework for content-addressed, scientifically-validated knowledge storage and sharing. 174 interconnected concepts. 175+ cross-domain relationships. 52 domains. One digital mycelium. Infinite connections.
 
-🌍 **Public Gateway:** [hieros-cadmies.github.io/CADMIES/](https://hieros-cadmies.github.io/CADMIES/)
+🌍 **Public Gateway:** [https://project-hierion.duckdns.org/](https://project-hierion.duckdns.org/)
 
 ---
 
