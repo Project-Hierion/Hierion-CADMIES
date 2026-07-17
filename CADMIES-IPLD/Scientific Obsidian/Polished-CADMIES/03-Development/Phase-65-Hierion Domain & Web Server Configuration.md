@@ -51,12 +51,12 @@ user-friendly feature.
 
 | Test | Result |
 |---|---|
-| Domain resolves to cloud instance | ✅ |
-| Dashboard loads | ✅ |
-| Mycelium map loads and is interactive | ✅ |
-| Concept data accessible | ✅ |
-| Automatic IP update running | ✅ |
-| Existing project web config unaffected | ✅ |
+| Domain resolves to cloud instance |  |
+| Dashboard loads |  |
+| Mycelium map loads and is interactive |  |
+| Concept data accessible |  |
+| Automatic IP update running |  |
+| Existing project web config unaffected |  |
 
 ## Conclusion
 

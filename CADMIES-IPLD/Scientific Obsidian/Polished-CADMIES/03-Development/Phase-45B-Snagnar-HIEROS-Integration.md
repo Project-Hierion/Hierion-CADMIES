@@ -1,7 +1,7 @@
 ---
 phase: 45
 date: 2026-05-21
-status: 🔴 In Progress — Breakout baseline training active
+status: In Progress — Breakout baseline training active
 related: [[Phase-44-Map-Legend-Cleanup]], [[Session-014 — 2026-05-20 — Buttercup setup]], [[generate_mycelium_map.py]], Snagnar/HIEROS
 ---
 
@@ -201,7 +201,7 @@ The primary remaining tasks are:
 
 | #   | Action                                                 | Phase | Priority |
 | --- | ------------------------------------------------------ | ----- | -------- |
-| 1   | Continue Breakout training from checkpoint             | 45B   | 🔴       |
+| 1   | Continue Breakout training from checkpoint             | 45B   |        |
 | 2   | Build dual-checkpoint rotation script                  | 45B   | 🟡       |
 | 3   | Convert .npz rollout files to MP4                      | 45B   | 🟡       |
 | 4   | Extract latent states from trained model               | 45C   | 🟡       |

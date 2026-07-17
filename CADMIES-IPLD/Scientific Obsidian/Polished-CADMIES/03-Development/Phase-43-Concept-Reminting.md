@@ -1,7 +1,7 @@
 ---
 phase: 43
 date: 2026-05-25
-status: 🔄 In Progress — Critical path
+status: In Progress — Critical path
 related: [[Phase-50-CAR-Distribution-Pipeline]], [[Session-020]]
 ---
 

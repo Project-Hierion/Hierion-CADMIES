@@ -1,7 +1,7 @@
 ---
 phase: 45 v2.0
 date: 2026-06-05
-status: 🔄 In Progress — v2.0 Plan
+status: In Progress — v2.0 Plan
 related: [[Phase-45A-Snagnar-HIEROS-Integration]], [[Phase-45B-Snagnar-HIEROS-Integration]], [[Phase-45C-Snagnar HIEROS — Isolated Redeployment]], [[Phase-45D-Ball Spawning Bug — Environment Debug]], [[Session-028 — 2026-06-05 — Breakout's Ball Doesn't Fall]]
 ---
 
@@ -21,7 +21,7 @@ The original Phase 45 plan (Session 012, May 20, 2026) has been updated based on
 
 ## Completed Phases
 
-### 45A: Environment Setup — ✅ Complete
+### 45A: Environment Setup —  Complete
 
 Three successful deployments across two GPU types (A4000, A6000). Key discoveries:
 - HIEROS requires a dedicated Paperspace project with a single notebook
@@ -32,7 +32,7 @@ Three successful deployments across two GPU types (A4000, A6000). Key discoverie
 
 Documented in: Phase 45A, Phase 45B, Phase 45C
 
-### 45B: Baseline Training — 🔄 In Progress (Blocked by Bug)
+### 45B: Baseline Training —  In Progress (Blocked by Bug)
 
 97,508 environment steps accumulated across multiple sessions. However, a critical bug was discovered: the ball never spawns in our patched Breakout environment. The agent learned to predict an empty screen (image loss 0.03) and hold the paddle still (entropy 0.05). Zero meaningful gameplay occurred.
 
@@ -46,7 +46,7 @@ Documented in: Phase 45D
 
 ## Revised Phase Sequence
 
-### 45D: Environment Debug — 🔴 Active
+### 45D: Environment Debug —  Active
 
 **Goal:** Fix the ball spawning bug in atari.py wrapper.
 
@@ -56,7 +56,7 @@ Documented in: Phase 45D
 3. Verify FIRE action mapping, screen rendering, ROM loading
 4. Fix and verify with rollout videos (not just metrics)
 
-### 45E: Baseline Training (Real) — 📋 Pending
+### 45E: Baseline Training (Real) —  Pending
 
 **Goal:** Train HIEROS on Breakout with actual ball spawning.
 
@@ -70,7 +70,7 @@ python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_siz
 - Agent demonstrates intentional paddle-ball interaction
 - Actor entropy stays above 0.1 (avoid policy collapse)
 
-### 45F: Latent State Extraction — 📋 Pending
+### 45F: Latent State Extraction —  Pending
 
 **Goal:** Extract and analyze latent states at each hierarchy level.
 
@@ -80,7 +80,7 @@ python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_siz
 3. Map: Subactor-0 (pixels) → Subactor-1 (objects) → Subactor-2 (causal events, if max_hierarchy=3)
 4. Confirm hierarchy performs conceptual abstraction
 
-### 45G: Custom Cup Environment — 📋 Pending
+### 45G: Custom Cup Environment —  Pending
 
 **Goal:** Replace Breakout with a minimal physics scene for philosophical grounding.
 
@@ -89,7 +89,7 @@ python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_siz
 - Agent actions: push, nudge, strike
 - Target concepts: emptiness, breakage, causality, object permanence
 
-### 45H: Latent → Language Bridge — 📋 Pending
+### 45H: Latent → Language Bridge —  Pending
 
 **Goal:** Connect world model latent states to Mistral for grounded philosophical understanding.
 
@@ -97,7 +97,7 @@ python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_siz
 2. Train mapping network: latent_vector → natural language description
 3. Feed grounded representations as training pairs to Mistral
 
-### 45I: Mistral Fine-Tuning — 📋 Pending
+### 45I: Mistral Fine-Tuning —  Pending
 
 **Goal:** Permanently encode grounded knowledge into Mistral's weights.
 

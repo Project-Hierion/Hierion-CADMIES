@@ -57,7 +57,7 @@ Built and deployed a two-pass concept enrichment system that brings all 174+ CAD
 
 ### Enrichment Prompt
 
-Designed with input from Codestral 22B. Key rules enforced:
+status: Designed with input from Codestral 22B. Key rules enforced:
 - Return enriched fields as valid JSON only — no markdown fences, no commentary
 - If a field is already well-populated, return it EXACTLY as-is
 - Do not hallucinate references — only include verifiable works

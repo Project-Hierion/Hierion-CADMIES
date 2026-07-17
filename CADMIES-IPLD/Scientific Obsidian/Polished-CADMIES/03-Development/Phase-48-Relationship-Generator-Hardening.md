@@ -1,7 +1,7 @@
 ---
 phase: 48
 date: 2026-05-22
-status: ✅ Complete
+status: Complete
 related: [[Phase-47-Orphan-Edge-Resolution]], [[generate_relationships.py]], [[Session-017-Install-Wrap]]
 ---
 
@@ -89,11 +89,11 @@ The public branch will include `cadmies_latest.tar.gz` as a permanent self-ser
 
 |Step|Expected|Actual|Action|
 |---|---|---|---|
-|`git clone`|Success|✅ Clean clone, 2732 objects|—|
+|`git clone`|Success| Clean clone, 2732 objects|—|
 |Map generator|342 nodes|❌ 0 nodes, 342 skipped|dag_cbor missing|
-|Extract tarball|Blocks loaded|✅ 1460 blocks on disk|—|
+|Extract tarball|Blocks loaded| 1460 blocks on disk|—|
 |Map generator (after tar)|342 nodes|❌ 0 nodes (still)|dag_cbor still missing|
-|Install dag_cbor|Blocks readable|📋 Pending|Setup script needed|
+|Install dag_cbor|Blocks readable| Pending|Setup script needed|
 
 ### Combined Results
 

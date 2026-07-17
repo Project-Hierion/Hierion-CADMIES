@@ -45,14 +45,14 @@ principle of isolation demanded a separate instance.
 
 | Test | Result |
 |---|---|
-| Database starts via systemd | ✅ |
-| Authentication required for connections | ✅ |
-| Admin user can manage database | ✅ |
-| App user can read/write CADMIES database only | ✅ |
-| Bound to localhost (not internet-accessible) | ✅ |
-| Existing project database unaffected | ✅ |
-| Survives system reboot | ✅ (systemd enabled) |
-| Separate OS user — no crossover | ✅ |
+| Database starts via systemd |  |
+| Authentication required for connections |  |
+| Admin user can manage database |  |
+| App user can read/write CADMIES database only |  |
+| Bound to localhost (not internet-accessible) |  |
+| Existing project database unaffected |  |
+| Survives system reboot |  (systemd enabled) |
+| Separate OS user — no crossover |  |
 
 ## Security Measures
 

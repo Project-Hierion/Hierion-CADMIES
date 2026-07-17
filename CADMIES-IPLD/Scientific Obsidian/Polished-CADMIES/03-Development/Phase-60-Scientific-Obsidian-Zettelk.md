@@ -1,7 +1,7 @@
 ---
 phase: 60
 date: 2026-05-31
-status: ✅ Complete — Zettelk operational on Paperspace and local
+status: Complete — Zettelk operational on Paperspace and local
 related: [[Phase-37-Scientific-Obsidian]], [[Dr. Rebentisch — Twin Mycelium]], [[Session-026 — 2026-05-31 — The Zettelk is Born]]
 ---
 
@@ -64,7 +64,7 @@ Testing across three models (TinyLlama 1.1B, Mistral 7B, Codestral 22B) on two i
 | 1   | Await Dr. Rebentisch's response to GitHub issue                | 🟡       |
 | 2   | Test dryer grounding note with URLs                            | 🟢       |
 | 3   | Evaluate GPT-4o or Claude API for chat                         | 🟢       |
-| 4   | Continue feeding session protocols into Zettelk                | 🔴       |
+| 4   | Continue feeding session protocols into Zettelk                |        |
 | 5   | Draft technical issue for Dr. Rebentisch re: grounding problem | 🟡       |
 ├── .env # Configuration pointing at input/ and mycelium/  
 ├── input/ # Raw notes awaiting staging  
@@ -176,7 +176,7 @@ The twin mycelium — CADMIES for concept mapping, Zettelk for process memory �
 
 | # | Action | Priority |
 |---|--------|----------|
-| 1 | Feed session protocols and roadmaps into Zettelk | 🔴 |
+| 1 | Feed session protocols and roadmaps into Zettelk |  |
 | 2 | Get Paperspace port forwarding working for Flask GUI | 🟡 |
 | 3 | Post Twin Mycelium Integration Proposal to Dr. Rebentisch | 🟡 |
 | 4 | Point local Obsidian at Zettelk `mycelium/` for graph view | 🟢 |
@@ -213,5 +213,5 @@ Testing across three models (TinyLlama 1.1B, Mistral 7B, Codestral 22B) on two i
 | 1 | Await Dr. Rebentisch's response to GitHub issue | 🟡 |
 | 2 | Test dryer grounding note with URLs | 🟢 |
 | 3 | Evaluate GPT-4o or Claude API for chat | 🟢 |
-| 4 | Continue feeding session protocols into Zettelk | 🔴 |
+| 4 | Continue feeding session protocols into Zettelk |  |
 | 5 | Draft technical issue for Dr. Rebentisch re: grounding problem | 🟡 |

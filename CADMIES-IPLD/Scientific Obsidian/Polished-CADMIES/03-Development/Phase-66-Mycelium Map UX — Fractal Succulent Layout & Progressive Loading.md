@@ -69,10 +69,10 @@ not the engine.
 
 | Stage | Tool | Purpose | Status |
 |---|---|---|---|
-| 1 | Cytoscape.js with preset layout | Current implementation — fractal succulent | ✅ Complete |
-| 2 | D3 Canvas Renderer | Quicker rendering, lighter DOM | 💡 Backup |
-| 3 | sigma.js | WebGL renderer for 2,000+ nodes | 💡 Backup |
-| 4 | Three.js + WebXR | 3D immersive mycelium universe, VR-capable | 💡 Long-term |
+| 1 | Cytoscape.js with preset layout | Current implementation — fractal succulent |  Complete |
+| 2 | D3 Canvas Renderer | Quicker rendering, lighter DOM |  Backup |
+| 3 | sigma.js | WebGL renderer for 2,000+ nodes |  Backup |
+| 4 | Three.js + WebXR | 3D immersive mycelium universe, VR-capable |  Long-term |
 
 ## Testing
 
@@ -111,16 +111,16 @@ Phase 66: Progressive loading — 126 concepts initial, 510 lazy-loaded
 
 | Feature | Expected Behavior | Observed |
 |---|---|---|
-| Initial load | ~126 concepts, fast render | ✅ |
-| Fractal impression | Visible domain clusters at zoom-out | ✅ |
-| Depth-based opacity | Closer concepts brighter, deeper faded | ✅ |
-| Load More button | Pulls next 150 concepts | ✅ |
-| No jitter on load | New nodes at preset positions | ✅ |
-| Preset layout | No force simulation drift | ✅ |
-| Orphan visibility | Concepts with no edges visible at bottom | ✅ |
-| Dark background | Depth effect visible | ✅ |
-| Edge rendering | 1,131 edges visible at 0.7 opacity | ✅ |
-| concepts_ranked.json | Contains all 636 concepts with x/y/z | ✅ |
+| Initial load | ~126 concepts, fast render |  |
+| Fractal impression | Visible domain clusters at zoom-out |  |
+| Depth-based opacity | Closer concepts brighter, deeper faded |  |
+| Load More button | Pulls next 150 concepts |  |
+| No jitter on load | New nodes at preset positions |  |
+| Preset layout | No force simulation drift |  |
+| Orphan visibility | Concepts with no edges visible at bottom |  |
+| Dark background | Depth effect visible |  |
+| Edge rendering | 1,131 edges visible at 0.7 opacity |  |
+| concepts_ranked.json | Contains all 636 concepts with x/y/z |  |
 
 ### Issues Encountered
 

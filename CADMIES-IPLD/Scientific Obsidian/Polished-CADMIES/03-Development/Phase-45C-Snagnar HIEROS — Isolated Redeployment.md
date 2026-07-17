@@ -1,7 +1,7 @@
 ---
 phase: 45C
 date: 2026-05-30
-status: 🔴 In Progress — Breakout baseline training active on A6000
+status: In Progress — Breakout baseline training active on A6000
 related: [[Phase-45A-Snagnar-HIEROS-Integration]], [[Phase-45B-Snagnar-HIEROS-Integration]], [[Session-014 — 2026-05-20 — Buttercup setup]]
 ---
 
@@ -181,7 +181,7 @@ The primary remaining tasks from Phase 45B carry forward:
 
 | #   | Action                                                 | Phase | Priority |
 | --- | ------------------------------------------------------ | ----- | -------- |
-| 1   | Continue Breakout training, monitor for first checkpoint | 45C   | 🔴       |
+| 1   | Continue Breakout training, monitor for first checkpoint | 45C   |        |
 | 2   | Evaluate batch size increase for A6000 headroom         | 45C   | 🟡       |
 | 3   | Build dual-checkpoint rotation script                   | 45C   | 🟡       |
 | 4   | Convert .npz rollout files to MP4 (when available)      | 45C   | 🟡       |

@@ -75,8 +75,8 @@ The agent did not learn to play Breakout. It learned to exist in an empty enviro
 
 | #   | Action                                                              | Priority |
 | --- | ------------------------------------------------------------------- | -------- |
-| 1   | Debug ball spawning in atari.py wrapper                             | 🔴       |
-| 2   | Test with Pong or Space Invaders to isolate Breakout-specific issue | 🔴       |
+| 1   | Debug ball spawning in atari.py wrapper                             |        |
+| 2   | Test with Pong or Space Invaders to isolate Breakout-specific issue |        |
 | 3   | Compare wrapper against original `gym.envs.atari` implementation    | 🟡       |
-| 4   | Fix and restart Breakout training from scratch                      | 🔴       |
+| 4   | Fix and restart Breakout training from scratch                      |        |
 | 5   | Document fix for all future deployments                             | 🟡       |

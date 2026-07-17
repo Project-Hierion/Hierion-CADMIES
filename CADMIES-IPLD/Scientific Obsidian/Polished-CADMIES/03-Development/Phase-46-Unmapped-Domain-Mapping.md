@@ -1,7 +1,7 @@
 ---
 phase: 46
 date: 2026-05-21
-status: ✅ Complete
+status: Complete
 related: [[Phase-44-Map-Legend-Cleanup]], , [[generate_mycelium_map.py]], [[Session-015]]
 ---
 

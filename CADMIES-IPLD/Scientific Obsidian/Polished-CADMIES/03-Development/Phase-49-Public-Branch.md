@@ -1,7 +1,7 @@
 ---
 phase: 49
 date: 2026-05-24
-status: 📋 Designed — pending implementation
+status: Designed — pending implementation
 related: [[Phase-50-CAR-Distribution-Pipeline]], [[Phase-47-Orphan-Edge-Resolution]], [[Session-018]], [[Session-019]]
 ---
 # Phase 49: Public-CADMIES Branch

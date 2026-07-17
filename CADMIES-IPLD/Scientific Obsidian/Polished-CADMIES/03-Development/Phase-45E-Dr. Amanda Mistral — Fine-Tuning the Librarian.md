@@ -1,7 +1,7 @@
 ---
 phase: 45E
 date: 2026-06-08
-status: ✅ Complete — Dr. Amanda Mistral fine-tuned on A100
+status: Complete — Dr. Amanda Mistral fine-tuned on A100
 related: , , [[Session-030 — 2026-06-08 — The Gremlin Feasts]], [[Session-031 — 2026-06-23 — The Mycelium Gets a New Home]]
 ---
 
@@ -91,14 +91,14 @@ A version mismatch between `trl` and `transformers` caused a persistent `Picklin
 
 | Test | Result |
 |------|--------|
-| Round 1 training (121 pairs, 200 steps) | ✅ Loss 4.8 → 0.085 |
-| Round 2 training (137 pairs, 200 steps) | ✅ Loss 4.75 → 0.09 |
-| Round 3 training (237 pairs, 300 steps) | ✅ Loss 4.46 → 0.085 |
-| Round 4 training (889 pairs, 500 steps) | ✅ Loss 3.66 → 0.104 |
-| Round 5 final training (895 pairs, 1000 steps) | ✅ Loss 2.59 → 0.074 |
-| GGUF export (Q4_K_M) | ✅ Complete |
-| Latent extraction from checkpoint | ✅ 685 tensors, 205 MB |
-| Dr. Mistral identity test ("Who are you?") | ✅ Responds in character |
+| Round 1 training (121 pairs, 200 steps) |  Loss 4.8 → 0.085 |
+| Round 2 training (137 pairs, 200 steps) |  Loss 4.75 → 0.09 |
+| Round 3 training (237 pairs, 300 steps) |  Loss 4.46 → 0.085 |
+| Round 4 training (889 pairs, 500 steps) |  Loss 3.66 → 0.104 |
+| Round 5 final training (895 pairs, 1000 steps) |  Loss 2.59 → 0.074 |
+| GGUF export (Q4_K_M) |  Complete |
+| Latent extraction from checkpoint |  685 tensors, 205 MB |
+| Dr. Mistral identity test ("Who are you?") |  Responds in character |
 
 ## Results
 
@@ -144,8 +144,8 @@ Not the path we planned. The path we walked. The Gremlin earned its name. The ga
 
 | #   | Action                                                    | Priority |
 | --- | --------------------------------------------------------- | -------- |
-| 1   | Load Dr. Mistral into Ollama locally and test extensively | 🔴       |
-| 2   | Write Session 031 raw note (the Gremlin run)              | 🔴       |
+| 1   | Load Dr. Mistral into Ollama locally and test extensively |        |
+| 2   | Write Session 031 raw note (the Gremlin run)              |        |
 | 3   | Commit all documentation to Scientific Obsidian           | 🟡       |
 | 4   | Return to Phase 45D ball spawning bug                     | 🟡       |
 | 5   | Plan grounded fine-tuning v2 after bug fix                | 🟢       |

@@ -47,12 +47,12 @@ entity.
 
 | Test | Result |
 |---|---|
-| Domain resolves to cloud instance | ✅ |
-| Dashboard loads at root URL | ✅ |
-| Mycelium map loads at /mycelium-map | ✅ |
-| Existing project unaffected | ✅ |
-| Git pull updates live site | ✅ (symlink) |
-| Web server user can traverse home path | ✅ (group membership) |
+| Domain resolves to cloud instance |  |
+| Dashboard loads at root URL |  |
+| Mycelium map loads at /mycelium-map |  |
+| Existing project unaffected |  |
+| Git pull updates live site |  (symlink) |
+| Web server user can traverse home path |  (group membership) |
 
 ## Conclusion
 

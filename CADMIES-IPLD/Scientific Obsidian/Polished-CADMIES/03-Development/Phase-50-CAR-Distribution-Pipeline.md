@@ -1,7 +1,7 @@
 ---
 phase: 50
 date: 2026-05-23
-status: 🔄 In Progress
+status: In Progress
 related: [[Phase-47-Orphan-Edge-Resolution]], [[Phase-48-Relationship-Generator-Hardening]], [[Phase-43-Concept-Reminting]], [[Session-018]], [[Session-019]]
 ---
 
@@ -90,9 +90,9 @@ text
 ### CAR Export/Import
 | Environment | Export | Import | Verification |
 |-------------|--------|--------|--------------|
-| Paperspace A4000 | ✅ 342 concepts, 3.2MB | — | — |
-| PNY clone (dev) | — | ✅ 188 verified | ⚠️ 153 mismatches (HOG-era) |
-| SanDisk clone (user) | — | ✅ Imported with conflicts | ⚠️ Conflicts documented, resolution designed |
+| Paperspace A4000 |  342 concepts, 3.2MB | — | — |
+| PNY clone (dev) | — |  188 verified | ⚠️ 153 mismatches (HOG-era) |
+| SanDisk clone (user) | — |  Imported with conflicts | ⚠️ Conflicts documented, resolution designed |
 ### Remint
 | Metric | Before | After |
 |--------|--------|-------|
@@ -153,7 +153,7 @@ The CAR import pipeline was hardened and a critical CID alignment bug was resolv
 - `extra_fields.original_car_cid` — the CID from the CAR file
     
 - `extra_fields.import_date` — ISO timestamp of import  
-    The import summary now shows `🔄 Reminted on import` count.
+    The import summary now shows ` Reminted on import` count.
     
 
 **103 blocks successfully reminted on import.** Zero invalid. Full provenance preserved.
@@ -207,5 +207,5 @@ User-to-user CAR imports are technically possible but strongly discouraged. CID 
 **Testing:** After importing a CAR with 287 blocks, the index correctly reflected all 687 entries without manual intervention. The summary now shows `📑 Index entries updated` count instead of the old conflict/skip breakdown.
 
 **Next Steps (Updated):**
-- **50F (Complete):** Automatic index update in `import_from_car.py` v1.2.0 ✅
+- **50F (Complete):** Automatic index update in `import_from_car.py` v1.2.0 
 - **50G:** Harmonize `car_utils.calculate_cid()` with `cid_generator.py`
