@@ -171,7 +171,7 @@ and the design of Dr. Mistral's persona framework.
 
 ### Dr. Rupert Rebentisch — tools4zettelkasten
 **Repository:** https://github.com/rupert-rebentisch/tools4zettelkasten
-**Contribution:** Independently developed a Zettelkasten-based knowledge management system with MCP-server AI integration. Two gardens, similar architecture, two continents, zero prior knowledge of each other. The mycelium recognized itself across the Atlantic. Active collaboration in progress.
+**Contribution:** Independently developed a Zettelkasten-based knowledge management system with MCP-server AI integration. Two gardens, similar architecture, two continents, zero prior knowledge of each other. The mycelium recognized itself across the Atlantic. Collaboration pending.
 
 ---
 
