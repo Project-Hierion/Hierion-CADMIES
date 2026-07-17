@@ -1,11 +1,11 @@
 ---
-phase: 67
+phase: 69
 date: 2026-07-16
 status: Complete
 related: [[Session-037 — 2026-07-16 — The Mycelium Cleans Itself]], [[Architecture Overview]], [[Workflows-Pipeline]], [[Note-Taking Protocol]]
 ---
 
-# Phase 67: Repo Maintenance Automation
+# Phase 69: Repo Maintenance Automation
 
 ## What Changed
 
@@ -25,7 +25,7 @@ Scientific rigor requires consistency. A PhD reading the vault should see unifor
 - **Frontmatter checking:** Validates YAML headers, required fields (`phase`, `date`, `status`, `related`), and valid status values
 - **Section checking:** Ensures polished phase notes have "What Changed" and "Why" sections
 - **Raw banner checking:** Verifies raw session notes have the required ⚠️ RAW NOTE banner
-- **Cross-reference checking:** Finds all `[[wikilinks]]` and verifies target files exist using fuzzy filename matching
+- **Cross-reference checking:** Finds all ``\[\[wikilinks\]\]`` and verifies target files exist using fuzzy filename matching
 - **Duplicate detection:** Identifies files with identical content via MD5 hashing
 - **Roadmap drift detection:** Compares phase note status against the growth roadmap
 - **Missing extension detection:** Finds markdown files without `.md` suffix
@@ -87,9 +87,9 @@ Scientific rigor requires consistency. A PhD reading the vault should see unifor
 
 ## Analysis
 
-The primary challenge was not technical complexity but edge-case handling. The YAML parser initially failed on `[[wikilinks]]` containing commas in the `related:` field. The duplicate detector compared files against themselves. The `&` character in filenames was encoded as `&amp;` by sed during batch replacements. Each edge case was discovered through testing and patched incrementally.
+The primary challenge was not technical complexity but edge-case handling. The YAML parser initially failed on ``\[\[wikilinks\]\]`` containing commas in the `related:` field. The duplicate detector compared files against themselves. The `&` character in filenames was encoded as `&amp;` by sed during batch replacements. Each edge case was discovered through testing and patched incrementally.
 
-The fuzzy filename matching approach proved highly effective. When a wikilink like `[[Session-014]]` pointed to a file named `Session-014 — 2026-05-20 — Buttercup setup.md`, the matcher correctly identified the target by finding files that start with or contain the link text. This resolved 72 dead links automatically.
+The fuzzy filename matching approach proved highly effective. When a wikilink like `[[Session-014 — 2026-05-20 — Buttercup setup]]` pointed to a file named `Session-014 — 2026-05-20 — Buttercup setup.md`, the matcher correctly identified the target by finding files that start with or contain the link text. This resolved 72 dead links automatically.
 
 The decision to make `--fix` mode interactive with before/after previews was critical for building trust. The gardener could see exactly what would change before approving each fix. Combined with automatic backups, this eliminated the risk of automated corruption.
 
@@ -97,6 +97,6 @@ The GitHub Action closes the loop: every push to main triggers validation, and t
 
 ## Conclusion
 
-Phase 67 transforms documentation maintenance from a manual, error-prone chore into an automated, verifiable process. The vault validator catches structural issues immediately, fixes what it can automatically, and reports what requires human attention. The GitHub Action ensures continuous enforcement without adding steps to the development workflow.
+Phase 69 transforms documentation maintenance from a manual, error-prone chore into an automated, verifiable process. The vault validator catches structural issues immediately, fixes what it can automatically, and reports what requires human attention. The GitHub Action ensures continuous enforcement without adding steps to the development workflow.
 
 The system is extensible by design. New document types can be added to `config.yaml`. New validation checks can be added to the validator. The `--fix` mode can be extended to handle additional issue types. The foundation is solid.
