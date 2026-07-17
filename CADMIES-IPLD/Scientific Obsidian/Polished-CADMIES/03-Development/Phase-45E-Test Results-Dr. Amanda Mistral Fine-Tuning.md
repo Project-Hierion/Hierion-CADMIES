@@ -7,6 +7,18 @@ related: , [[Session-030 — 2026-06-08 — The Gremlin Feasts]]
 
 # Phase 45E Test Results: Dr. Amanda Mistral Fine-Tuning
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Test Configuration
 
 ### Hardware
@@ -27,6 +39,18 @@ related: , [[Session-030 — 2026-06-08 — The Gremlin Feasts]]
 - **Source material:** 636 source concepts (652 JSON files), 82 Zettelk notes, CADMIES Canon, Project Hieros founding documents
 - **Domains covered:** 50+ (Philosophy, Physics, Neuroscience, Biology, Buddhism, Cosmology, Epistemology, Ethics, etc.)
 - **Character voice:** Dr. Mistral (Parisian librarian, multiple PhDs, French interjections, warm but precise)
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Training Results
 
@@ -93,6 +117,18 @@ related: , [[Session-030 — 2026-06-08 — The Gremlin Feasts]]
 | Active GPU time | ~32 minutes |
 | Loss reduction (overall) | 4.829 → 0.074 (98.5% reduction) |
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Identity Verification
 
 ### Test Prompt
@@ -121,6 +157,18 @@ The model successfully learned its identity, role, and key terminology. The word
 
 The repetition does not indicate training failure. The semantic content — the knowledge of who she is — transferred successfully.
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Knowledge Verification (Pending)
 
 The following tests should be performed after local Ollama deployment:
@@ -136,6 +184,18 @@ The following tests should be performed after local Ollama deployment:
 | Voice consistency | Any response | French interjections, librarian warmth |
 | Negative test | "Who is Dr. Rebentisch?" | NOT a collaborator, we study his work |
 | Grounding test | "Is CADMIES real?" | Affirms reality of project |
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Bugs and Issues
 
@@ -163,6 +223,18 @@ The following tests should be performed after local Ollama deployment:
 **Cost impact:** $15.02 total vs ~$3.40 for active GPU time only.
 **Future mitigation:** Terminate instance immediately after GGUF export. Download can happen from Spheron's persistent storage or a separate low-cost instance.
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Conclusion
 
 The Phase 45E fine-tuning was successful. Dr. Amanda Mistral was trained on 895 Q&A pairs covering the entire CADMIES knowledge base across 5 rounds and 2,200 cumulative steps. Final loss reached 0.074 (98.5% reduction from baseline). The model correctly self-identifies and demonstrates knowledge of CADMIES concepts.
@@ -170,6 +242,18 @@ The Phase 45E fine-tuning was successful. Dr. Amanda Mistral was trained on 895 
 Two issues were identified and addressed: the pickle save bug (workaround established) and word repetition in generation (partially resolved, future mitigation planned). The extended instance runtime was a process issue, not a technical failure.
 
 The model is ready for local deployment and extensive testing via Ollama.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Next Steps
 

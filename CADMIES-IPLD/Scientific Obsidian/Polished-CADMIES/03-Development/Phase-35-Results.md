@@ -7,9 +7,33 @@ related: [[Phase-35-Difficulty-Levels]], [[Harvester Pipeline (Superceded by Wor
 
 # Phase 35 Results: Three-Tier Difficulty Levels
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Summary
 
 Phase 35 was tested on Paperspace A4000 with Mistral 7B using harvester v4.1.0. The extraction prompt was updated to request three distinct explanation tiers per concept. The test confirmed that all three levels — beginner, intermediate, and expert — now contain genuinely different content tailored to different audiences.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Test Configuration
 
@@ -18,6 +42,18 @@ Phase 35 was tested on Paperspace A4000 with Mistral 7B using harvester v4.1.0. 
 - **Harvester Version:** 4.1.0
 - **Command:** `python harvest/harvest_full_pipeline.py --auto --with-relationships`
 - **Conversation:** 4 chunks, ~3,700 words
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Results
 
@@ -42,6 +78,18 @@ Phase 35 was tested on Paperspace A4000 with Mistral 7B using harvester v4.1.0. 
 | 4 | physics_beyond_materialism | Physics & Philosophy | bafyreihn75q4lfjocnhngtzenomwndathmefldz77o5ctqvmlkf4fkwutq |
 | 5 | trampoline_of_collective_memory | Metaphysics & Philosophy | bafyreigyjsliqvyaahthxj56pl3miv67ftvaz3tuvxgwwtokh72lglzmq4 |
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Three-Tier Analysis
 
 ### quantum_entanglement_of_memory
@@ -62,6 +110,18 @@ Phase 35 was tested on Paperspace A4000 with Mistral 7B using harvester v4.1.0. 
 - **Intermediate:** "An interpretation of quantum physics and conservation laws proposing the universe as a vast web of patterns interconnected by energy, with transitions between active and dormant states as 'birth' and 'death'."
 - **Expert:** "A philosophical extrapolation of certain physical principles (conservation of energy, quantum potential) proposing the universe as a vibrating network where consciousness patterns can change forms but never truly disappear."
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Analysis
 
 The three tiers are now meaningfully distinct across all five concepts:
@@ -71,6 +131,18 @@ The three tiers are now meaningfully distinct across all five concepts:
 - **Expert tier** explores philosophical implications, edge cases, and novel connections. Example: "consciousness patterns can change forms but never truly disappear."
 
 The fallback chain was not triggered — Mistral provided all three fields as requested, confirming the prompt changes are effective.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Issues Encountered
 
@@ -82,9 +154,33 @@ A pre-existing bug was discovered during testing: `scientific_validator.py` cont
 
 The map generator and relationship generator both failed with `ModuleNotFoundError: No module named 'llm_mycelium_reader'`. These scripts are in the `tools/` directory and lack the `sys.path.insert` that the harvester uses. This is a pre-existing issue, not caused by Phase 35 changes.
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Conclusion
 
 Phase 35 is **complete and confirmed working.** The harvester v4.1.0 successfully extracts three distinct difficulty levels per concept. The beginner/intermediate/expert tiers are tailored to their respective audiences and no longer contain duplicated content. The prompt changes are effective and the fallback chain provides backward compatibility.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Next Steps
 

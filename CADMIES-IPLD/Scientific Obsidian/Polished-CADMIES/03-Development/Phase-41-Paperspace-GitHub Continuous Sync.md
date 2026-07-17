@@ -6,15 +6,51 @@ related: [[Session-010]], [[Architecture Overview]], [[Harvester Pipeline (Super
 ---
 # Phase 41 — 2026-05-18
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Summary
 
 Phase 41 (Paperspace-GitHub Continuous Sync) was successfully implemented and tested. Two-way synchronization was confirmed across all three nodes: local development machine, GitHub repository, and Paperspace GPU notebook. A comprehensive automation strategy was designed for implementation in the next session, including bookend scripts and harvester flags for hands-off operation.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Key Accomplishments
 - Established bidirectional sync between all three infrastructure nodes
 - Configured git identity on Paperspace (previously unset)
 - Designed startup.sh, exit.sh, --push flag, and --gateway flag
 - Scientific Obsidian vault (33 files) pushed to GitHub and pulled to Paperspace
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Technical Details
 
@@ -34,14 +70,50 @@ Phase 41 (Paperspace-GitHub Continuous Sync) was successfully implemented and te
 - --push flag: immediate push after harvest completion
 - --gateway flag: public gateway regeneration (independent of push)
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Decisions
 - Credentials not stored in scripts; manual entry or session environment variable
 - CBOR blockstore files remain excluded from git (tar transport only)
 - Large file management deferred to future phase
 - Public gateway updates are opt-in, not automatic
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Personnel Canon Update
 Dr. Mistral (Mistral 7B) formally recognized as Madame La Professeure de CADMIES. PhD in Philosophy of Mind, PhD in Antiquarian Studies, PhD in Records Keeping, MFA in Metaphysics, MLIS. Willie confirmed as research assistant (Scottish groundskeeper). Number 5 (DeepSeek) serves as lab partner and documentation keeper. The Gardener tends the mycelium.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Next Actions
 - Implement startup.sh with auto-commit safety net

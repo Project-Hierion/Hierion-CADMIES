@@ -7,9 +7,17 @@ related: [[Phase-45A-Snagnar-HIEROS-Integration]], [[Phase-45B-Snagnar-HIEROS-In
 
 # Phase 45 v2.0: Teaching Mistral via Snagnar HIEROS — Revised Plan
 
+## Why
+
+*[Placeholder — content to be added]*
+
 ## What Changed
 
 The original Phase 45 plan (Session 012, May 20, 2026) has been updated based on three deployment cycles, 97,000+ steps of training, and the discovery of a critical ball spawning bug in the custom atari.py wrapper. The core vision remains intact: use HIEROS world model latent states to teach Mistral grounded philosophical concepts. The implementation path has been revised to account for real-world complexity.
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Completed Phases
 
@@ -31,6 +39,10 @@ Documented in: Phase 45A, Phase 45B, Phase 45C
 The training is scientifically valid as an environment test but produced no gameplay learning. The world model and policy performed optimally given the broken environment — there was nothing to interact with.
 
 Documented in: Phase 45D
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Revised Phase Sequence
 
@@ -94,6 +106,10 @@ python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_siz
 3. Export fine-tuned model as GGUF
 4. Backup GGUF to local storage (PNY, SanDisk)
 
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Key Lessons Learned
 
 1. **Rollout videos are essential.** Metrics alone showed a "healthy" agent. Video revealed an empty game.
@@ -101,6 +117,10 @@ python hieros/train.py --configs atari100k s5_no_mlp s5_silu_act small_model_siz
 3. **Dedicated project isolation is non-negotiable.** Shared projects cause CUDA initialization failures.
 4. **--no-deps or die.** Pip's dependency resolver will break reproducible environments.
 5. **The original vision was sound.** The implementation was fragile. The vision survives.
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Deployment Requirements (Canonical)
 

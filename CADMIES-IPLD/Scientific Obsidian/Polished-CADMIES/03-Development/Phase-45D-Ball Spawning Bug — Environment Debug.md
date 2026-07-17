@@ -7,6 +7,10 @@ related: , [[Session-014 — 2026-05-20 — Buttercup setup]], [[Session-025A �
 
 # Phase 45D: Ball Spawning Bug — Environment Debug
 
+## What Changed
+
+*[Placeholder — content to be added]*
+
 ## What Was Discovered
 
 At step 97,508 of Breakout training on A4000, a rollout video revealed that the ball never appears in the game environment. Frame analysis of 100 consecutive frames from a replay file confirmed zero white pixels above a threshold of 200 — the ball does not exist. The agent (Buttercup) has been training for ~97,000 steps against a broken environment where no ball ever spawns.
@@ -17,6 +21,10 @@ This explains all previously observed anomalies:
 - **Image loss at 0.03** — agent perfectly predicted a static, unchanging environment
 - **"Staring at the ball" behavior from earlier runs** — there was no ball to stare at
 
+## What Changed
+
+*[Placeholder — content to be added]*
+
 ## Why
 
 The custom atari.py wrapper (`/notebooks/HIEROS/embodied/envs/atari.py`) was rewritten to use `ale-py`'s `ALEInterface` directly, bypassing the deprecated `gym.envs.atari` module. The wrapper handles ROM loading, action mapping, screen capture, environment step, reset, lives tracking, and game over detection. One of these methods is failing to spawn or render the ball specifically for Breakout.
@@ -26,6 +34,10 @@ The bug may be related to:
 2. The screen capture method (`getScreenRGB()`) not rendering the ball sprite
 3. The ROM loading or action set initialization omitting the ball spawn logic
 4. The screen dimension swap fix (height/width assignment) having an unintended side effect
+
+## What Changed
+
+*[Placeholder — content to be added]*
 
 ## Testing Performed
 
@@ -41,6 +53,10 @@ Frame analysis on replay file `20260605T194717F543309-...npz`:
 
 Total frames: 1,024. A standard Breakout ball is rendered in white (pixel value ~200-255). The complete absence of white pixels across sampled frames confirms the ball is never rendered.
 
+## What Changed
+
+*[Placeholder — content to be added]*
+
 ## Impact
 
 All Breakout training runs using the patched atari.py wrapper are affected:
@@ -50,6 +66,10 @@ All Breakout training runs using the patched atari.py wrapper are affected:
 - Current run (A4000, 97,508 steps)
 
 The agent did not learn to play Breakout. It learned to exist in an empty environment. The world model learned to predict static frames. The policy learned that no action produces reward. The training is scientifically valid as an environment test but produced no gameplay learning.
+
+## What Changed
+
+*[Placeholder — content to be added]*
 
 ## Next Steps
 

@@ -7,9 +7,33 @@ related: [[Note-Taking Protocol]], [[Architecture Overview]], [[Session-006]], [
 
 # Phase 37: Scientific Obsidian — The CADMIES Knowledge Vault
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## What It Is
 
 Scientific Obsidian is the CADMIES scientific documentation system — an Obsidian.md vault serving as the formal lab notebook, decision log, and architectural record for the entire project. It lives alongside the code repository and will eventually be integrated into the public GitHub repo under `/docs/vault/`.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## The Metaphor (CADMIES Canon)
 
@@ -18,6 +42,18 @@ Scientific Obsidian is the CADMIES scientific documentation system — an Obsidi
 - **CADMIES Mycelium** — the living knowledge network growing THROUGH the obsidian shelves. Concepts, edges, Willie, the harvester, the gardener, Number 5. It's the life that weaves through it.
 
 Three layers, one system: the fortress holds the library, the library holds the records, the mycelium holds the living knowledge.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Vault Structure
 
@@ -35,6 +71,18 @@ CADMIES-Vault/
 │ ├── 04-Concepts/  
 │ └── 05-Collaboration/  
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Methodology
 
 - Influenced by Dr. Rupert Rebentisch's zettelkasten methodology (tools4zettelkasten) and the Luhmann/Ahrens/Forte tradition of atomic, densely-linked knowledge management
@@ -43,6 +91,18 @@ CADMIES-Vault/
 - Two layers: Raw CADMIES (primary workspace, mistakes welcome) and Polished CADMIES (structured, PhD-ready)
 - Promotion criteria: clear title, structured content, linked evidence, appropriate subfolder
 - Credit where credit is due — all influences and collaborators documented
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Current Status
 
@@ -52,6 +112,18 @@ CADMIES-Vault/
 |------|----------|--------|
 | Note-Taking Protocol | 00-Meta/ | Complete |
 | Architecture Overview | 01-System
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Methodology
 
 - Influenced by Dr. Rupert Rebentisch's zettelkasten methodology (tools4zettelkasten) and the Luhmann/Ahrens/Forte tradition of atomic, densely-linked knowledge management
@@ -60,6 +132,18 @@ CADMIES-Vault/
 - Two layers: Raw CADMIES (primary workspace, mistakes welcome) and Polished CADMIES (structured, PhD-ready)
 - Promotion criteria: clear title, structured content, linked evidence, appropriate subfolder
 - Credit where credit is due — all influences and collaborators documented
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Current Status
 
@@ -91,6 +175,18 @@ CADMIES-Vault/
 | CADMIES Canon | 01-System/ | Low |
 | Session 001-005 backfill | Raw CADMIES/Session-Notes/ | Low |
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Key Design Decisions
 
 1. **Public by default.** The vault is open notebook science. Mistakes and all.
@@ -99,11 +195,35 @@ CADMIES-Vault/
 4. **No `---` dividers in body text.** Uses `***` to avoid YAML parser conflicts.
 5. **Vault will join the repo** under `/docs/vault/` with `.obsidian/` workspace folder gitignored.
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Soundtrack
 
 The vault captures not just decisions and results, but the human context. Session soundtracks are documented in raw session notes. Notable additions so far:
 
 - Tears for Fears, The Ink Spots, The White Stripes, The Wallflowers, Weezer, Jet, The Blur, Franz Ferdinand, The Rolling Stones, Dire Straits, The Hollies, The Beatles, Violent Femmes
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Nuggets Logged
 
@@ -111,6 +231,18 @@ The vault captures not just decisions and results, but the human context. Sessio
 - "Scientific Obsidian is the glass that remembers."
 - "It's the life that weaves through it."
 - "We are the Sultans of Knowledge" (homage to Dire Straits)
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Next Actions
 

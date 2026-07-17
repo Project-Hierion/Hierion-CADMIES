@@ -2,7 +2,7 @@
 phase: 45G
 date: 2026-07-15
 status: ✅ Complete — Spiritual Knowledge & Helpfulness Training
-related: [[Phase-45E-Mistral-Fine-Tuning]], [[Phase-45F-Dr. Amanda Mistral — Conversational Fine-Tuning]], [[Session-036 — 2026-07-15 — Dr. Mistral Earns Her PhDs]]
+related: [[Phase-45E-Dr. Amanda Mistral — Fine-Tuning the Librarian]], [[Phase-45F-Dr. Amanda Mistral — Conversational Fine-Tuning]], [[Session-036 — 2026-07-15 — Dr. Mistral Earns Her PhDs]]
 ---
 
 # Phase 45G: Dr. Amanda Mistral — Spiritual Knowledge & Helpfulness

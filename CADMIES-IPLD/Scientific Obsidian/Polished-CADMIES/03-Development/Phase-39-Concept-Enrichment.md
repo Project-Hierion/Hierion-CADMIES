@@ -7,9 +7,33 @@ related: [[Harvester Pipeline (Superceded by Workflows)]], [[Phase-35-Difficulty
 
 # Phase 39: Concept Enrichment Pipeline
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Summary
 
 Built and deployed a two-pass concept enrichment system that brings all 174+ CADMIES concepts to a unified, complete schema. Pass 1 normalizes JSON structure across all concepts. Pass 2 uses Mistral 7B to fill missing or weak fields with scholarly content. The pipeline preserves all existing data, validates every enrichment, and maintains provenance through version increments and supersedes chains.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Architecture
 
@@ -40,6 +64,18 @@ Designed with input from Codestral 22B. Key rules enforced:
 - Use specific types (PhilosophicalConcept, MathematicalTheorem, etc.) not generic "Concept"
 - For concepts from conversations (not historical discoveries), use "Unknown" for discoverer and null for discovery_year
 - Provide three distinct difficulty tiers if current ones are weak or identical
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Test Results
 
@@ -75,6 +111,18 @@ Designed with input from Codestral 22B. Key rules enforced:
 
 Both saved to `tools/enrich_failed_*.txt` for manual review.
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Bugs Fixed During Development
 
 ### v1.0.0 → v1.0.1
@@ -82,12 +130,36 @@ Both saved to `tools/enrich_failed_*.txt` for manual review.
 1. **Version not incrementing.** `concept["metadata"]["version"]` was being set to the current value + 1, but the current value wasn't being read correctly. Fixed by reading `current_version` before modification.
 2. **Supersedes chain not tracking.** Old CID was being read from the source_concepts file AFTER it was overwritten with the enriched version. Fixed by reading old CID from the index BEFORE saving.
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Design Decisions
 
 1. **Two-pass over one-pass.** Separating normalization (structure) from enrichment (content) keeps each tool focused and testable independently.
 2. **Mistral over Codestral for batch.** Mistral's speed (5s per concept) made the 174-concept batch feasible. Codestral available for individual deep enrichment via `--model=codestral`.
 3. **Conservative merge.** Enrichment only overwrites fields that are missing, empty, or demonstrably weak (identical beginner/intermediate). Existing quality content is always preserved.
 4. **Gap detection over blind enrichment.** The script only calls the LLM when gaps are detected. Already-complete concepts (bayes_theorem, dunning_kruger_effect, game_theory, etc.) are skipped automatically.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## CLI Flags
 
@@ -98,6 +170,18 @@ Both saved to `tools/enrich_failed_*.txt` for manual review.
 | `--model=codestral` | Use Codestral 22B instead of Mistral 7B |
 | `--all` | Enrich all concepts even if no gaps detected |
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Integration
 
 The enrichment pipeline integrates with existing CADMIES infrastructure:
@@ -107,6 +191,18 @@ The enrichment pipeline integrates with existing CADMIES infrastructure:
 - **Provenance Manager:** Records enrichment event with model, version, and supersedes info
 - **Blockstore Index:** Updated with new CIDs after remint
 - **Harvester Pipeline:** Future harvests will flow through Normalize → Enrich after minting
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Next Steps
 

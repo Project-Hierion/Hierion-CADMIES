@@ -7,11 +7,35 @@ related: , [[Phase-50-CAR-Distribution-Pipeline]], [[Session-018]]
 
 # Phase 51: External Collaboration — Bruno Cerda Mardini
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## What Happened
 
 Bruno Cerda Mardini, a researcher working on multiscale entropy and model-based reinforcement learning analysis, opened a GitHub issue on the Snagnar/Hieros repository requesting final scores for HIEROS across the Atari100k benchmark. The CADMIES project responded, offering Breakout training data, additional compute resources via Paperspace, and assistance with open-source licensing for his own repositories.
 
 This marks the third external connection in the CADMIES mycelial network, following Dr. Rupert Rebentisch (Mycelium of Knowledge blog) and Paul Mattes/Snagnar (HIEROS creator). The connection was initiated by the external party — Bruno's research roots found CADMIES while searching for HIEROS benchmark data.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Who Is Bruno Cerda Mardini
 
@@ -25,6 +49,18 @@ This marks the third external connection in the CADMIES mycelial network, follow
 - `Multiscale_Entropy_id` — C implementations of multiscale entropy algorithms with Python bindings
 - `urban_perception` — PyTorch implementation for urban space perception scoring
 - Multiple model analysis projects comparing MBRL architectures
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## What Was Offered
 
@@ -45,11 +81,35 @@ This marks the third external connection in the CADMIES mycelial network, follow
 - `CITATION.cff` file setup assistance
 - Bilingual documentation support
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## CADMIES Position
 
 CADMIES is approximately 5% through the Atari100k Breakout benchmark (13,000 of 100,000 environment steps). The training agent (Buttercup, a Baby Mistral model) is scoring 0-3 points per rollout — early-stage behavior consistent with a model still learning basic dynamics. Full 3-seed × 26-game benchmark data is not available.
 
 The offer emphasizes transparency about current limitations while providing pathways for Bruno to obtain the data he needs, either through our continued training or through direct access to the training infrastructure.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Snagnar Profile Analysis
 
@@ -65,6 +125,18 @@ The collaboration inquiry triggered a deeper analysis of Paul Mattes' (Snagnar's
 - `word2vec-pytorch` (fork) — Blueprint for Mycelium2Vec concept embeddings
 - `spokenRobot` — Voice assistant with offline keyword detection, potential voice interface for CADMIES
 - `Director` (fork) — Danijar Hafner's hierarchical planning, precursor to HIEROS
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Next Steps
 

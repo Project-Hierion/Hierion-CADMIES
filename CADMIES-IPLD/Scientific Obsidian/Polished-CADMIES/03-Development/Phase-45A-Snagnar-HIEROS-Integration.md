@@ -7,9 +7,33 @@ related:[[Session-011]], , [[Architecture Overview]],
 
 # Session: 012 — 2026-05-20
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Summary
 
 A deep-dive analysis session. The complete Snagnar HIEROS codebase was mapped and understood, Phase 45 was formalized and added to the roadmap, and a concrete Paperspace session plan was drafted for teaching Mistral grounded philosophical concepts via world model interaction.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Key Outcomes
 
@@ -106,6 +130,18 @@ Confirmed session numbering continuity: Session 009 (May 16), Session 010 (May 1
 
 New conversation guideline: DeepSeek must consult Scientific Obsidian vault and roadmap at session start rather than relying solely on conversation memory. The vault is the source of truth for phase tracking, decisions, and next actions.
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Decisions Made
 
 - Breakout selected as baseline Atari game (simple physics, clear object causality)
@@ -123,6 +159,18 @@ New conversation guideline: DeepSeek must consult Scientific Obsidian vault and 
 - Phase 45 attribution: Snagnar (Paul Mattes) in the phase title, following the Dr. Rebentisch precedent
     
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Nuggets Collected
 
 - "The S5 state IS the deterministic state — that's the causal backbone."
@@ -135,6 +183,18 @@ New conversation guideline: DeepSeek must consult Scientific Obsidian vault and 
     
 - "Three hierarchy levels → beginner, intermediate, expert concept tiers. The architecture already maps."
     
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Next Actions
 

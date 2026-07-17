@@ -1,13 +1,15 @@
+---
 phase: 57
 date: 2026-05-28
 status: Complete
 related: [[Session-023-The Terminator, Infrastructure Consolidation & Map UX Planning]], [[Session-025A — 2026-05-28 — Index Recovery, Codestral Breakthrough]], [[Phase-48-Relationship-Generator-Hardening]], , [[problem_solving_guide]]
+---
 
-Phase 57: Index Integrity & Disaster Recovery
-What Changed
+# Phase 57: Index Integrity & Disaster Recovery
+## What Changed
 Recovered the CADMIES mycelium from a critical index/blockstore mismatch caused by the Session 023 Paperspace workspace consolidation. Established clear backup protocols distinguishing CAR files (concept exchange) from tarballs (disaster recovery). Cleaned 180 orphan blocks and 26 bad-format index entries. Created permanent documentation in the problem solving guide and GitHub Issue #274.
 
-Why
+## Why
 During the Session 023 consolidation, three separate Paperspace projects were merged into a single CADMIES-Gradient structure. The git clone brought code but not blocks (gitignored). The index survived or was restored from backup, but pointed to CIDs whose .cbor files no longer existed on disk. The map and relationship generators loaded only 115 of 661 concepts.
 
 A contributing factor: CAR files had been used as complete backups under the assumption they included the index. CAR exports only package blocks from store/blocks/. The human_id_to_cid.json index lives outside the blockstore and is never included. When restoring from CAR alone, blocks land on disk but the index must be rebuilt separately — and if rebuilt from a contaminated source, the mismatch persists.

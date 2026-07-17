@@ -7,9 +7,33 @@ related: [[Harvester Pipeline (Superceded by Workflows)]], [[Phase-35-Results]],
 
 # Phase 40: Hieros Origin Harvest
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Summary
 
 A 7900-line conversation containing Hieros' initial project vision was accidentally discovered and processed through the harvest pipeline (v4.1.0) with Mistral 7B. The result was the single largest concept extraction in CADMIES history: 103 new concepts with 100% validation, zero failures.
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Test Configuration
 
@@ -19,6 +43,18 @@ A 7900-line conversation containing Hieros' initial project vision was accidenta
 - **Command:** `python harvest/harvest_full_pipeline.py --auto --with-relationships`
 - **Input:** 7900-line founding document conversation
 - **Average Concept Size:** ~25KB per concept
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Results
 
@@ -30,6 +66,18 @@ A 7900-line conversation containing Hieros' initial project vision was accidenta
 | Already Minted (Skipped) | TBD |
 | Average Concept Size | ~25,000 bytes |
 | Total Data Minted | ~2.6 MB |
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Concept Clusters
 
@@ -150,6 +198,18 @@ Hard physics concepts emerging from the philosophical framework.
 | `the_mirror_universe` | Universe reflecting itself |
 | `interconnected_pattern_recognition` | Finding patterns through connection |
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Analysis
 
 ### Scale
@@ -168,12 +228,36 @@ The emergence of the Hieros meta-cluster marks a significant milestone: CADMIES 
 
 What began as a metaphor (Cosmium Angelo = the conceptual fortress) has expanded into a full framework with physics, structure, and cosmology. This demonstrates the mycelium's ability to grow metaphors into full conceptual systems.
 
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
+
 ## Issues
 
 - Map generator still broken (import path)
 - Relationship generator still broken (import path)
 - 103 new concepts need enrichment pass (Phase 39) to fill scholarly fields
 - Blockstore needs tar sync back to local (massive update)
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Next Actions
 
@@ -183,6 +267,18 @@ What began as a metaphor (Cosmium Angelo = the conceptual fortress) has expanded
 - Run enrichment on 103 new concepts
 - Update public gateway with 277 concepts
 - Update all documentation with new concept counts
+
+## Why
+
+*[Placeholder — content to be added]*
+
+## What Changed
+
+*[Placeholder — content to be added]*
+
+## Why
+
+*[Placeholder — content to be added]*
 
 ## Significance
 
