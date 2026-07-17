@@ -2,7 +2,7 @@
 """
 File: validate_vault.py
 Tool: CADMIES Vault Validator
-Version: 1.2.1
+Version: 1.3.0
 System: CADMIES / repo-maintenance-automation
 Status: ACTIVE
 License: AGPLv3 with Commons Clause
@@ -25,6 +25,7 @@ Version History:
   v1.1.0 (2026-07-16): --fix mode with before/after previews, interactive confirmations.
   v1.2.0 (2026-07-16): --fix mode now handles dead wikilinks via fuzzy filename matching.
   v1.2.1 (2026-07-16): Added check for markdown files missing .md extension.
+  v1.3.0 (2026-07-16): --fix mode now handles roadmap drift automatically.
 """
 
 import os
@@ -349,7 +350,7 @@ def check_duplicates(vault_root, config):
             issues.append(f"DUPLICATE: {len(unique_paths)} identical files: {', '.join(sorted(unique_paths))}")
     return issues
 
-def check_roadmap_drift(vault_root, config):
+def check_roadmap_drift(vault_root, config, fix_mode=False, auto_yes=False):
     issues = []
     roadmap_path = vault_root / "growth_roadmap.md"
     if not roadmap_path.exists():
@@ -383,7 +384,7 @@ def check_roadmap_drift(vault_root, config):
             note_status_lower = note_status.lower().replace("✅", "").replace("🔄", "").strip()
             if expected and not any(e in note_status_lower for e in expected):
                 issues.append(f"ROADMAP_DRIFT: Phase {phase_num} — roadmap shows {roadmap_status_symbol}, note says '{note_status}'")
-    return issues
+    return issues, phase_statuses
 
 
 def check_missing_extensions(vault_root, config):
@@ -498,12 +499,46 @@ def run_validation(fix_mode=False, auto_yes=False):
         print(f"  ✅ No duplicates found")
 
     print(f"\n── Roadmap Sync ──")
-    drift_issues = check_roadmap_drift(vault_root, config)
+    drift_issues, phase_statuses = check_roadmap_drift(vault_root, config, fix_mode and not skip_all, auto_yes)
     if drift_issues:
         for issue in drift_issues:
             print(f"  🗺️  {issue}")
             stats["issues_found"] += 1
         all_issues.extend(drift_issues)
+        
+        # Auto-fix roadmap drift
+        if fix_mode and not skip_all:
+            from pathlib import Path
+            roadmap_path = vault_root / "growth_roadmap.md"
+            for phase_num, note_status in phase_statuses.items():
+                status_lower = note_status.lower()
+                if "complete" in status_lower:
+                    symbol = "✅"
+                elif "progress" in status_lower:
+                    symbol = "🔄"
+                elif "designed" in status_lower or "planned" in status_lower or "postponed" in status_lower:
+                    symbol = "📋"
+                elif "abandoned" in status_lower:
+                    symbol = "🔴"
+                else:
+                    continue
+                desc = f"Update roadmap: Phase {phase_num} status"
+                before = f"Phase {phase_num} roadmap entry"
+                after = f"Phase {phase_num} → {symbol}"
+                result = confirm_fix(desc, before, after, auto_yes)
+                if result == "skip_all":
+                    skip_all = True
+                    auto_yes = False
+                elif result:
+                    backup_file(roadmap_path)
+                    with open(roadmap_path, "r") as f:
+                        roadmap = f.read()
+                    pattern = rf"(\\|\\s*\\*\\*Phase {re.escape(phase_num)}:.*?\\|\\s*)[✅📋🔄💡🔴](\\s*\\|)"
+                    roadmap = re.sub(pattern, f"\\\\g<1>{symbol}\\\\g<2>", roadmap)
+                    with open(roadmap_path, "w") as f:
+                        f.write(roadmap)
+                    total_fixes += 1
+                    print(f"     ✅ Fixed: Phase {phase_num} roadmap → {symbol}")
     else:
         print(f"  ✅ Roadmap matches phase notes")
 
