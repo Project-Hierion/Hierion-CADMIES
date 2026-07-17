@@ -727,11 +727,11 @@ def main():
 
     print("\nDone. The mycelium grows. 🌱")
     
-    map_gen = PROJECT_ROOT / "tools" / "generate_mycelium_map.py"
-    if map_gen.exists():
-        print("\nRegenerating mycelium map...")
-        import subprocess
-        subprocess.run([sys.executable, str(map_gen)], cwd=str(PROJECT_ROOT))
+    # map_gen = PROJECT_ROOT / "tools" / "generate_mycelium_map.py"
+    # if map_gen.exists():
+    #    print("\nRegenerating mycelium map...")
+    #    import subprocess
+    #    subprocess.run([sys.executable, str(map_gen)], cwd=str(PROJECT_ROOT))
     
     if args["with_relationships"]:
         rel_gen = PROJECT_ROOT / "tools" / "generate_relationships.py"
