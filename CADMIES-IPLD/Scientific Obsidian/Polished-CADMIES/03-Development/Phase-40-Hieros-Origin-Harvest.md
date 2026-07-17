@@ -2,7 +2,7 @@
 phase: 40
 date: 2026-05-15
 status: Complete — 103 concepts minted from founding document
-related: [[Harvester Pipeline (Superceded by Workflows)]], [[Phase-35-Results]], [[Session-008]], [[Session-008-Bonus-Hieros-Origin-Harvest]], [[Architecture Overview]]
+related: [[Harvester Pipeline (Superceded by Workflows)]], [[Phase-35-Results]], [[Session-008]], [[Session-008 — Bonus - Hieros Origin Harvest]], [[Architecture Overview]]
 ---
 
 # Phase 40: Hieros Origin Harvest

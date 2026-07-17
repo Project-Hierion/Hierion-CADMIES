@@ -2,7 +2,7 @@
 phase: 48
 date: 2026-05-22
 status: Complete
-related: [[Phase-47-Orphan-Edge-Resolution]], [[generate_relationships.py]], [[Session-017-Install-Wrap]]
+related: [[Phase-47-Orphan-Edge-Resolution]], [[generate_relationships.py]], [[Session-017 — Install Wrap]]
 ---
 
 # Phase 48: Relationship Generator Hardening

@@ -1,3 +1,4 @@
+<!-- TEMPLATE: wikilinks in this file are teaching examples -->
 > ⚠️ RAW NOTE — Work in progress. May contain half-formed ideas, typos, 
 > unfiltered thoughts, and coded messages for fellow gardeners.
 > For polished documentation, check Polished CADMIES or promote this note.
