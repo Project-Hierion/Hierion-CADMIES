@@ -1,8 +1,9 @@
-CADMIES Vault Health Report — 2026-07-17 01:18:34
-Mode: REPORT MODE
+CADMIES Vault Health Report — 2026-07-17 01:27:33
+Mode: AUTO-FIX MODE
 Vault: /workspaces/Hierion-CADMIES/CADMIES-IPLD/Scientific Obsidian
-Files checked: 83
-Issues found: 29
+Files checked: 90
+Issues found: 28
+Fixes applied: 21
 
 Polished-CADMIES/03-Development/Phase-35-Results.md: MISSING_SECTION: 'What Changed' section not found
 Polished-CADMIES/03-Development/Phase-35-Results.md: MISSING_SECTION: 'Why' section not found
@@ -28,8 +29,7 @@ Polished-CADMIES/03-Development/Phase-56-Emergence-Verification.md: MISSING_SECT
 Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md: MISSING_FRONTMATTER: No YAML frontmatter found
 Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md: MISSING_SECTION: 'What Changed' section not found
 Polished-CADMIES/03-Development/Phase-57-Index Integrity & Disaster Recovery.md: MISSING_SECTION: 'Why' section not found
-DEAD_LINK: Polished-CADMIES/02-Pipeline/Harvester Pipeline (Superceded by Workflows).md -> [[Phase-66-Mycelium Map UX — Fractal Succulent Layout & Progressive Loading]] (target not found)
-DEAD_LINK: Polished-CADMIES/02-Pipeline/Workflows-Pipeline.md -> [[Phase-66-Mycelium Map UX — Fractal Succulent Layout & Progressive Loading]] (target not found)
-DEAD_LINK: Polished-CADMIES/02-Pipeline/Workflows-Pipeline.md -> [[Session-032 — 2026-06-24 — The Mycelium Becomes a Succulent]] (target not found)
-DEAD_LINK: Polished-CADMIES/03-Development/Phase-44-Map-Legend-Cleanup.md -> [[Phase-66-Mycelium Map UX — Fractal Succulent Layout & Progressive Loading]] (target not found)
-DEAD_LINK: Raw-CADMIES/Session-Notes/Session-031 — 2026-06-23 — The Mycelium Gets a New Home.md -> [[Phase-66-Mycelium Map UX — Fractal Succulent Layout & Progressive Loading]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45F-Dr. Amanda Mistral — Conversational Fine-Tuning.md -> [[Phase-45E-Mistral-Fine-Tuning]] (target not found)
+DEAD_LINK: Polished-CADMIES/03-Development/Phase-45G-Dr. Amanda Mistral — Spiritual Knowledge & Helpfulness.md -> [[Phase-45E-Mistral-Fine-Tuning]] (target not found)
+DEAD_LINK: Raw-CADMIES/Session-Notes/Session-034 — Local Merge & Deploy.md -> [[Phase-45E]] (target not found)
+ROADMAP_DRIFT: Phase 66 — roadmap shows 📋, note says 'Complete'

@@ -4,7 +4,7 @@
 
 # Session 032 — 2026-06-24 — The Mycelium Becomes a Succulent
 
-related: [[Session-031]], [[Phase-66]], [[Session-033]]
+related: [[Session-031 — 2026-06-23 — The Mycelium Gets a New Home]], [[Phase-66-Mycelium Map UX — Fractal Succulent Layout & Progressive Loading]], [[Session-033 — 2026-07-11 — The Gardener's words & Fine-Tuning]]
 
 ## What We Did
 

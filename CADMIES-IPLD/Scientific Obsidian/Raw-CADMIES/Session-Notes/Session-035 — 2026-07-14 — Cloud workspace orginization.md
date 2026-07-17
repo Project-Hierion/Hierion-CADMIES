@@ -10,7 +10,7 @@ status: Raw
 
 # Session 035 — 2026-07-14 — Cloud workspace orginization
 
-related: [[Session-033]], [[Session-034]], [[Phase-45F]]
+related: [[Session-033 — 2026-07-11 — The Gardener's words & Fine-Tuning]], [[Session-034 — Local Merge & Deploy]], [[Phase-45F-Dr. Amanda Mistral — Conversational Fine-Tuning]]
 
 ## What We Did
 

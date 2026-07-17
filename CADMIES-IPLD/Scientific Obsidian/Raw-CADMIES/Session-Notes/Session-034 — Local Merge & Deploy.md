@@ -4,7 +4,7 @@
 
 # Session 034 — Local Merge & Deploy
 
-related: [[Phase-45E]], [[Phase-45F]], [[Session-033]]
+related: [[Phase-45E]], [[Phase-45F-Dr. Amanda Mistral — Conversational Fine-Tuning]], [[Session-033 — 2026-07-11 — The Gardener's words & Fine-Tuning]]
 
 ## What Happened
 - Downloaded trained LoRA adapter (161 MB safetensors) from cloud GPU

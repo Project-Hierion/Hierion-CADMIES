@@ -2,7 +2,7 @@
 phase: 66
 date: 2026-06-24
 status: Complete
-related: [[Phase-44]], [[Phase-63]], [[Phase-64]], [[Phase-65]], [[Session-032]], [[generate_mycelium_map.py]]
+related: [[Phase-44-Map-Legend-Cleanup]], [[Phase-63-Cloud Deployment — Project Hierion Foundation]], [[Phase-64-Hierion Database Infrastructure — Isolated MongoDB Deployment]], [[Phase-65-Hierion Domain & Web Server Configuration]], [[Session-032 — 2026-06-24 — The Mycelium Becomes a Succulent]], [[generate_mycelium_map.py]]
 ---
 
 # Phase 66: Mycelium Map UX — Fractal Succulent Layout & Progressive Loading
