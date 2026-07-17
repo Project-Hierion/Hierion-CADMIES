@@ -1,0 +1,36 @@
+name: Vault Health Check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'CADMIES-IPLD/Scientific Obsidian/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'CADMIES-IPLD/Scientific Obsidian/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pyyaml
+      
+      - name: Run vault validator
+        run: python repo-maintenance-automation/validate_vault.py
+      
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vault-health-report
+          path: repo-maintenance-automation/logs/vault_health_report.txt
