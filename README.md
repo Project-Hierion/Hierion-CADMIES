@@ -6,6 +6,8 @@ A philosophical and technical framework for content-addressed, scientifically-va
 
 🌍 **Public Gateway:** [https://project-hierion.duckdns.org/](https://project-hierion.duckdns.org/)
 
+![Vault Health](https://github.com/Project-Hierion/Hierion-CADMIES/actions/workflows/vault-check.yml/badge.svg)
+
 ---
 
 ## Quick Start
