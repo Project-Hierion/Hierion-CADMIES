@@ -5,7 +5,7 @@ status: Active
 related: [[Three-Model Arsenal]], [[Two-System Setup]], [[Workflows-Pipeline]]
 ---
 
-# Architecture Overview
+Architecture Overview
 
 ## What Is CADMIES?
 
