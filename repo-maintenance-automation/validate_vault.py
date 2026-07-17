@@ -2,7 +2,7 @@
 """
 File: validate_vault.py
 Tool: CADMIES Vault Validator
-Version: 1.2.0
+Version: 1.2.1
 System: CADMIES / repo-maintenance-automation
 Status: ACTIVE
 License: AGPLv3 with Commons Clause
@@ -24,6 +24,7 @@ Version History:
   v1.0.2 (2026-07-16): Skip .ipynb_checkpoints and hidden directories.
   v1.1.0 (2026-07-16): --fix mode with before/after previews, interactive confirmations.
   v1.2.0 (2026-07-16): --fix mode now handles dead wikilinks via fuzzy filename matching.
+  v1.2.1 (2026-07-16): Added check for markdown files missing .md extension.
 """
 
 import os
@@ -384,6 +385,32 @@ def check_roadmap_drift(vault_root, config):
                 issues.append(f"ROADMAP_DRIFT: Phase {phase_num} — roadmap shows {roadmap_status_symbol}, note says '{note_status}'")
     return issues
 
+
+def check_missing_extensions(vault_root, config):
+    """Find markdown files missing the .md extension."""
+    issues = []
+    scan_folders = config.get("cross_refs", {}).get("scan_folders", [])
+    scan_folders = list(scan_folders)
+    scan_folders.append("./")
+    for folder in scan_folders:
+        target_dir = vault_root / folder
+        if not target_dir.exists():
+            continue
+        for filepath in target_dir.rglob("*"):
+            if should_skip_path(filepath):
+                continue
+            if filepath.is_file() and not filepath.suffix:
+                # Check if it looks like markdown (starts with # or has frontmatter)
+                try:
+                    with open(filepath, "r") as f:
+                        first_line = f.readline()
+                    if first_line.startswith("#") or first_line.startswith("---"):
+                        rel_path = filepath.relative_to(vault_root)
+                        issues.append(f"MISSING_EXTENSION: {rel_path} (add .md)")
+                except:
+                    pass
+    return issues
+
 def run_validation(fix_mode=False, auto_yes=False):
     config = load_config()
     vault_root = get_vault_root(config)
@@ -449,6 +476,16 @@ def run_validation(fix_mode=False, auto_yes=False):
         all_issues.extend(ref_issues)
     else:
         print(f"  ✅ All wikilinks resolve")
+
+    print(f"\n── Missing Extensions ──")
+    ext_issues = check_missing_extensions(vault_root, config)
+    if ext_issues:
+        for issue in ext_issues:
+            print(f"  📄 {issue}")
+            stats["issues_found"] += 1
+        all_issues.extend(ext_issues)
+    else:
+        print(f"  ✅ All markdown files have .md extension")
 
     print(f"\n── Duplicate Check ──")
     dup_issues = check_duplicates(vault_root, config)
