@@ -1,5 +1,7 @@
 ---
 phase: 19, 33, 35
+pipeline: harvest-pipeline
+date: 2026-05-15
 status: Active
 related: [[Phase-35-Difficulty-Levels]], [[Relationship Generator]], [[Mycelium Map]]
 ---
