@@ -26,7 +26,6 @@ doc_types:
       - "Results"
       - "Analysis"
       - "Conclusion"
-      - "Next Steps"
     valid_statuses:
       - "Complete"
       - "In Progress"
