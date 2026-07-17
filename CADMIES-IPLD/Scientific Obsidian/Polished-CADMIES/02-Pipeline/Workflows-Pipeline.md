@@ -2,7 +2,7 @@
 pipeline: CADMIES End-to-End Workflows
 date: 2026-06-25
 status: Living document
-related: [[Phase-66]], [[Phase-63-Cloud Deployment — Project Hierion Foundation]], [[Phase-64-Hierion Database Infrastructure — Isolated MongoDB Deployment]], [[Phase-65-Hierion Domain & Web Server Configuration]], [[Session-031 — 2026-06-23 — The Mycelium Gets a New Home]], [[Session-032]]
+related: [[Phase-66-Mycelium Map UX — Fractal Succulent Layout & Progressive Loading]], [[Phase-63-Cloud Deployment — Project Hierion Foundation]], [[Phase-64-Hierion Database Infrastructure — Isolated MongoDB Deployment]], [[Phase-65-Hierion Domain & Web Server Configuration]], [[Session-031 — 2026-06-23 — The Mycelium Gets a New Home]], [[Session-032 — 2026-06-24 — The Mycelium Becomes a Succulent]]
 ---
 
 # CADMIES Pipeline Workflows

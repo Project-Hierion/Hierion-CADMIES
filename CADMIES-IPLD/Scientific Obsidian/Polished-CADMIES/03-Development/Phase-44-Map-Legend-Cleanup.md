@@ -2,7 +2,7 @@
 phase: 44
 date: 2026-05-20
 status: Complete
-related: [[Phase-45-Snagnar-HIEROS]], [[generate_mycelium_map.py]], [[Session-012]], [[Session-013]]
+related: , [[generate_mycelium_map.py]], [[Session-012]], [[Session-013]]
 ---
 
 # Phase 44: Map Legend Cleanup
@@ -14,7 +14,7 @@ related: [[Phase-45-Snagnar-HIEROS]], [[generate_mycelium_map.py]], [[Session-01
 > allowlist, upward mapping, directional arrows, and concept cards
 > are preserved in the new version. The force-directed layout has
 > been replaced with a golden-angle spiral preset layout. See
-> [[Phase-66]] for current map architecture.
+> [[Phase-66-Mycelium Map UX — Fractal Succulent Layout & Progressive Loading]] for current map architecture.
 
 ## What Changed
 

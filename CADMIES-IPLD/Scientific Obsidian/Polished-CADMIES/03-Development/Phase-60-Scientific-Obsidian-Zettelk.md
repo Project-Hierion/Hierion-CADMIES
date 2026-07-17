@@ -2,7 +2,7 @@
 phase: 60
 date: 2026-05-31
 status: ✅ Complete — Zettelk operational on Paperspace and local
-related: [[Phase-37-Scientific-Obsidian]], [[Dr-Rebentisch-Twin-Mycelium]], [[Session-026 — 2026-05-31 — The Zettelk is Born]]
+related: [[Phase-37-Scientific-Obsidian]], [[Dr. Rebentisch — Twin Mycelium]], [[Session-026 — 2026-05-31 — The Zettelk is Born]]
 ---
 
 # Phase 60: Scientific-Obsidian-Zettelk — Process Memory Infrastructure

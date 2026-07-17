@@ -2,7 +2,7 @@
 phase: 41
 date: 2026-05-18
 status: Complete
-related: [[Polished-CADMIES/03-Development/Session-010|Session-010]], [[Architecture Overview]], [[Harvester Pipeline (Superceded by Workflows)]], [[Decisions-Log]]
+related: [[Session-010]], [[Architecture Overview]], [[Harvester Pipeline (Superceded by Workflows)]], [[Decisions-Log]]
 ---
 # Phase 41 — 2026-05-18
 

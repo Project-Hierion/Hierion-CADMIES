@@ -2,7 +2,7 @@
 pipeline: CADMIES Documentation Workflow
 date: 2026-05-26
 status: Living document
-related: [[Pipeline-Workflows]], [[Phase-37-Scientific-Obsidian]], [[Note-Taking-Protocol]]
+related: , [[Phase-37-Scientific-Obsidian]], 
 ---
 # CADMIES Documentation Workflow
 ## What This Covers

@@ -3,7 +3,7 @@ phase: 19, 33, 35
 pipeline: harvest-pipeline
 date: 2026-05-15
 status: Active
-related: [[Phase-35-Difficulty-Levels]], [[Relationship Generator]], [[Mycelium Map]]
+related: [[Phase-35-Difficulty-Levels]], , [[Phase-66-Mycelium Map UX — Fractal Succulent Layout & Progressive Loading]]
 ---
 
 # Harvester Pipeline
@@ -106,4 +106,4 @@ The CADMIES Conversation Harvester is the primary concept extraction engine. It 
 
 - [[bayes_theorem]] — early concept template showing the full schema the harvester is working toward
 - [[Phase-35-Difficulty-Levels]] — the fix that brought three-tier explanations online
-- [[Relationship Generator]] — the next link in the chain after harvesting
+-  — the next link in the chain after harvesting

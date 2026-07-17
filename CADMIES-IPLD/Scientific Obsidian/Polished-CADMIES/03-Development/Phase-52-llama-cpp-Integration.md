@@ -2,7 +2,7 @@
 phase: 52
 date: 2026-05-25
 status: 📋 Designed — pending implementation
-related: [[Phase-45-Snagnar-HIEROS]], [[Session-020]], [[Codestral-Audit-001]]
+related: , [[Session-020]], 
 ---
 
 # Phase 52: llama.cpp Integration

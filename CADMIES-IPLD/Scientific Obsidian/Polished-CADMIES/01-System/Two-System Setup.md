@@ -2,7 +2,7 @@
 system: CADMIES
 date: 2026-05-15
 status: Active
-related: [[Architecture Overview]], [[Paperspace Session Protocol]], [[Three-Model Arsenal]]
+related: [[Architecture Overview]], , [[Three-Model Arsenal]]
 ---
 # Two-System Setup
 CADMIES operates across two machines with distinct roles. This separation keeps GPU costs low, preserves long-term storage locally, and ensures the pipeline is reproducible.

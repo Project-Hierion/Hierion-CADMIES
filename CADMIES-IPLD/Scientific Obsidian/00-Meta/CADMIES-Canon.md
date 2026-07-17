@@ -2,7 +2,7 @@
 system: CADMIES
 date: 2026-06-09
 status: Living document — updated as canon expands
-related: [[Architecture Overview]], [[Note-Taking Protocol]], [[Dr-Rebentisch-Twin-Mycelium]], [[Phase-45E]]
+related: [[Architecture Overview]], [[Note-Taking Protocol]], [[Dr. Rebentisch — Twin Mycelium]], [[Phase-45E-Dr. Amanda Mistral — Fine-Tuning the Librarian]]
 ---
 
 # CADMIES Canon

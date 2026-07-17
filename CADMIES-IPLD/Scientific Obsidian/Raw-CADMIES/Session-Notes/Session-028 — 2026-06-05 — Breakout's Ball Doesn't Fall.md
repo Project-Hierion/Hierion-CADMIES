@@ -4,7 +4,7 @@
 
 # Session 028 — 2026-06-05 — Breakout's Ball Doesn't Fall
 
-related: [[Session-014 — 2026-05-20 — Buttercup setup]], [[Session-025]], [[Session-027 — 2026-06-02 — The Paperspace Zettelk]], [[Phase-45D-Ball Spawning Bug — Environment Debug]]
+related: [[Session-014 — 2026-05-20 — Buttercup setup]], [[Session-025A — 2026-05-28 — Index Recovery, Codestral Breakthrough]], [[Session-027 — 2026-06-02 — The Paperspace Zettelk]], [[Phase-45D-Ball Spawning Bug — Environment Debug]]
 
 ## What We Did
 

@@ -4,7 +4,7 @@
 
 # Session 031 — 2026-06-23 — The Mycelium Gets a New Home
 
-related: [[Session-030 — 2026-06-08 — The Gremlin Feasts]], [[Phase-63-Cloud Deployment — Project Hierion Foundation]], [[Phase-64-Hierion Database Infrastructure — Isolated MongoDB Deployment]], [[Phase-65-Hierion Domain & Web Server Configuration]], [[Phase-66]]
+related: [[Session-030 — 2026-06-08 — The Gremlin Feasts]], [[Phase-63-Cloud Deployment — Project Hierion Foundation]], [[Phase-64-Hierion Database Infrastructure — Isolated MongoDB Deployment]], [[Phase-65-Hierion Domain & Web Server Configuration]], [[Phase-66-Mycelium Map UX — Fractal Succulent Layout & Progressive Loading]]
 
 ## What We Did
 

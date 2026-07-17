@@ -73,7 +73,7 @@ The vault is a graph, not a hierarchy. Link aggressively:
 - `[[Phase-35-Difficulty-Levels]]` — links to phase documentation
 - `[[Session-005]]` — links to a session summary
 - `[[Harvester Pipeline (Superceded by Workflows)]]` — links to the pipeline tool note
-- `[[Dr-Rebentisch]]` — links to a person/collaborator note
+- `[[Dr. Rebentisch — Twin Mycelium]]` — links to a person/collaborator note
 - `[[bayes_theorem]]` — links to a concept (mirrors the mycelium)
 Red links (notes that don't exist yet) are **planted spores**. They mark where future notes should grow. Don't delete them — let them fruit.
 ---

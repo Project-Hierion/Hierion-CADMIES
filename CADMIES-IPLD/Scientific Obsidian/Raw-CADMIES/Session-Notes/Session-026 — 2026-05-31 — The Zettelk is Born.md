@@ -4,7 +4,7 @@
 
 # Session 026 — 2026-05-31 — The Zettelk is Born
 
-related: [[Session-025]], [[Dr-Rebentisch-Twin-Mycelium]], [[Phase-37-Scientific-Obsidian]]
+related: [[Session-025A — 2026-05-28 — Index Recovery, Codestral Breakthrough]], [[Dr. Rebentisch — Twin Mycelium]], [[Phase-37-Scientific-Obsidian]]
 
 ## What We Did
 

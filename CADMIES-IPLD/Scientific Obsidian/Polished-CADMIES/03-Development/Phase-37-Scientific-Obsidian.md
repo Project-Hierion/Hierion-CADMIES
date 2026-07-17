@@ -2,7 +2,7 @@
 phase: 37
 date: 2026-05-15
 status: Active — Vault operational, backfilling in progress
-related: [[Note-Taking Protocol]], [[Architecture Overview]], [[Session-006]], [[Session-007]], [[Dr-Rebentisch-Twin-Mycelium]]
+related: [[Note-Taking Protocol]], [[Architecture Overview]], [[Session-006]], [[Session-007]], [[Dr. Rebentisch — Twin Mycelium]]
 ---
 
 # Phase 37: Scientific Obsidian — The CADMIES Knowledge Vault
