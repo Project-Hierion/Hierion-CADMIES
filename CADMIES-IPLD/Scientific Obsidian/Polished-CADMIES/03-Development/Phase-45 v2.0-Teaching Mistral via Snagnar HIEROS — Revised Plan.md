@@ -2,7 +2,7 @@
 phase: 45 v2.0
 date: 2026-06-05
 status: 🔄 In Progress — v2.0 Plan
-related: [[Phase-45A]], [[Phase-45B]], [[Phase-45C]], [[Phase-45D]], [[Session-028]]
+related: [[Phase-45A-Snagnar-HIEROS-Integration]], [[Phase-45B-Snagnar-HIEROS-Integration]], [[Phase-45C-Snagnar HIEROS — Isolated Redeployment]], [[Phase-45D-Ball Spawning Bug — Environment Debug]], [[Session-028 — 2026-06-05 — Breakout's Ball Doesn't Fall]]
 ---
 
 # Phase 45 v2.0: Teaching Mistral via Snagnar HIEROS — Revised Plan

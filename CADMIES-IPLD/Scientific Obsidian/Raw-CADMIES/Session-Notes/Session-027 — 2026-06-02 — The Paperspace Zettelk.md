@@ -4,7 +4,7 @@
 
 # Session 027 — 2026-06-02
 
-related: [[Session-026]], [[Phase-60-Scientific-Obsidian-Zettelk]], [[Dr-Rebentisch-Twin-Mycelium]]
+related: [[Session-026 — 2026-05-31 — The Zettelk is Born]], [[Phase-60-Scientific-Obsidian-Zettelk]], [[Dr-Rebentisch-Twin-Mycelium]]
 
 ## What We Did
 

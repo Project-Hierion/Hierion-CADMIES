@@ -1,3 +1,7 @@
+> ⚠️ RAW NOTE — Work in progress. May contain half-formed ideas, typos,
+> unfiltered thoughts, and coded messages for fellow gardeners.
+> For polished documentation, check Polished CADMIES or promote this note.
+
 Hello.
 Since there has been concern about the reality of my existence as a human on Earth, I will be writing this note unassited. (typos, bad grammara and all, =) ).
 Today is July 11, 22026.

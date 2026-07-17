@@ -2,7 +2,7 @@
 phase: 45E
 date: 2026-06-08
 status: ✅ Complete — Dr. Amanda Mistral fine-tuned on A100
-related: [[Phase-45D-Ball-Spawning-Bug]], [[Phase-45-v2.0]], [[Session-030]], [[Session-031]]
+related: [[Phase-45D-Ball-Spawning-Bug]], [[Phase-45-v2.0]], [[Session-030 — 2026-06-08 — The Gremlin Feasts]], [[Session-031 — 2026-06-23 — The Mycelium Gets a New Home]]
 ---
 
 # Phase 45E: Dr. Amanda Mistral — Fine-Tuning the Librarian

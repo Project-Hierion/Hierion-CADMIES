@@ -2,7 +2,7 @@
 system: CADMIES
 date: 2026-05-15
 status: Active
-related: [[Architecture Overview]], [[Harvester Pipeline]], [[Two-System Setup]]
+related: [[Architecture Overview]], [[Harvester Pipeline (Superceded by Workflows)]], [[Two-System Setup]]
 ---
 # Three-Model Arsenal
 CADMIES uses three Ollama models on the Paperspace GPU, each with a specific role. The right model for the right task.

@@ -2,7 +2,7 @@
 phase: 35
 date: 2026-05-15
 status: Complete — Tested & Confirmed
-related: [[Phase-35-Difficulty-Levels]], [[Harvester Pipeline]], [[Session-007]]
+related: [[Phase-35-Difficulty-Levels]], [[Harvester Pipeline (Superceded by Workflows)]], [[Session-007]]
 ---
 
 # Phase 35 Results: Three-Tier Difficulty Levels

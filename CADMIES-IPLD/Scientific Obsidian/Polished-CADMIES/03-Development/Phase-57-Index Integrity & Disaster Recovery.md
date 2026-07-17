@@ -1,7 +1,7 @@
 phase: 57
 date: 2026-05-28
 status: Complete
-related: [[Session-023]], [[Session-025]], [[Phase-48]], [[CADMIES-Pipeline-Workflows]], [[problem_solving_guide]]
+related: [[Session-023-The Terminator, Infrastructure Consolidation & Map UX Planning]], [[Session-025]], [[Phase-48-Relationship-Generator-Hardening]], [[CADMIES-Pipeline-Workflows]], [[problem_solving_guide]]
 
 Phase 57: Index Integrity & Disaster Recovery
 What Changed

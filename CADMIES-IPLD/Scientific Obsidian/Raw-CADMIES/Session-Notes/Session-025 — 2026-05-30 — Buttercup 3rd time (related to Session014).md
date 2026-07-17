@@ -4,7 +4,7 @@
 
 # Session 025 — 2026-05-30/31 — The Third Time's the Charm
 
-related: [[Session-014]], [[Phase-45C-Snagnar-HIEROS-Isolated-Redeploy]]
+related: [[Session-014 — 2026-05-20 — Buttercup setup]], [[Phase-45C-Snagnar-HIEROS-Isolated-Redeploy]]
 
 ## What We Did
 

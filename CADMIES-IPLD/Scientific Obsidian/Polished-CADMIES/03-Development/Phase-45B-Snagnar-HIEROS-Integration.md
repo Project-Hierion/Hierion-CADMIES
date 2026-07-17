@@ -2,7 +2,7 @@
 phase: 45
 date: 2026-05-21
 status: 🔴 In Progress — Breakout baseline training active
-related: [[Phase-44-Map-Legend-Cleanup]], [[Session-014]], [[generate_mycelium_map.py]], Snagnar/HIEROS
+related: [[Phase-44-Map-Legend-Cleanup]], [[Session-014 — 2026-05-20 — Buttercup setup]], [[generate_mycelium_map.py]], Snagnar/HIEROS
 ---
 
 # Phase 45: Snagnar (Paul Mattes) HIEROS World Model Integration

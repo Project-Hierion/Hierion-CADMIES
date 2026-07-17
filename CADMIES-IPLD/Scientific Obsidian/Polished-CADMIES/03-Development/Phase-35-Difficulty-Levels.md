@@ -2,7 +2,7 @@
 phase: 35
 date: 2026-05-14
 status: Complete
-related: [[Harvester Pipeline]], [[bayes_theorem]], [[Session-006]]
+related: [[Harvester Pipeline (Superceded by Workflows)]], [[bayes_theorem]], [[Session-006]]
 ---
 
 # Phase 35: Three-Tier Difficulty Levels

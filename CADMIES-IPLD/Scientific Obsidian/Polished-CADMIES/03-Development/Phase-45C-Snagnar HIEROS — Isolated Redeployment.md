@@ -2,7 +2,7 @@
 phase: 45C
 date: 2026-05-30
 status: 🔴 In Progress — Breakout baseline training active on A6000
-related: [[Phase-45A-Snagnar-HIEROS-Integration]], [[Phase-45B-Snagnar-HIEROS-Integration]], [[Session-014]]
+related: [[Phase-45A-Snagnar-HIEROS-Integration]], [[Phase-45B-Snagnar-HIEROS-Integration]], [[Session-014 — 2026-05-20 — Buttercup setup]]
 ---
 
 # Phase 45C: Snagnar HIEROS — Isolated Redeployment with Hardened Scripts

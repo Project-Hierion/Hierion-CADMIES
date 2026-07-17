@@ -4,7 +4,7 @@
 
 # Session 030 — 2026-06-08/09 — The Gremlin Feasts
 
-related: [[Session-029]], [[Phase-45D]], [[Phase-45E]], [[Session-031]]
+related: [[Session-029 — 2026-06-05 — Phase 45 v2.0 Planning]], [[Phase-45D-Ball Spawning Bug — Environment Debug]], [[Phase-45E]], [[Session-031 — 2026-06-23 — The Mycelium Gets a New Home]]
 
 ## What We Did
 

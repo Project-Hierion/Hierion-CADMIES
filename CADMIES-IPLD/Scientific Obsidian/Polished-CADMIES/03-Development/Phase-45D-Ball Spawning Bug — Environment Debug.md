@@ -2,7 +2,7 @@
 phase: 45D
 date: 2026-06-05
 status: In Progress
-related: [[Phase-45C-Snagnar-HIEROS-Isolated-Redeployment]], [[Session-014]], [[Session-025]], [[Session-027]]
+related: [[Phase-45C-Snagnar-HIEROS-Isolated-Redeployment]], [[Session-014 — 2026-05-20 — Buttercup setup]], [[Session-025]], [[Session-027 — 2026-06-02 — The Paperspace Zettelk]]
 ---
 
 # Phase 45D: Ball Spawning Bug — Environment Debug

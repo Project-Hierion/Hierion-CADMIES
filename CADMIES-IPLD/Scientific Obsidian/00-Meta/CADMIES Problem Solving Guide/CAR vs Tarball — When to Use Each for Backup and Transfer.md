@@ -1,3 +1,17 @@
+---
+type: problem-solving
+date: 2026-05-28
+status: Resolved
+related: [[Problem: Map Generator Only Loads a Fraction of Indexed Concepts]]
+---
+
+---
+type: problem-solving
+date: 2026-05-28
+status: Resolved
+related: [[Problem: Map Generator Only Loads a Fraction of Indexed Concepts]]
+---
+
 CAR vs Tarball — When to Use Each for Backup and Transfer
 
 Date encountered: 2026-05-27 through 2026-05-28 (post-Session-023 work)

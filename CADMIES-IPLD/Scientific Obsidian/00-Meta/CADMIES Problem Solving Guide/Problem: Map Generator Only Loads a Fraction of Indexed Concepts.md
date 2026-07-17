@@ -1,3 +1,10 @@
+---
+type: problem-solving
+date: 2026-05-27
+status: Resolved
+related: [[CAR vs Tarball — When to Use Each for Backup and Transfer]]
+---
+
 Problem: Map Generator Only Loads a Fraction of Indexed Concepts
 Date encountered: 2026-05-27 (post-Session-023 work)
 Severity: Critical — mycelium map shows 115 nodes instead of 661
