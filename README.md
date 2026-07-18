@@ -53,24 +53,27 @@ cd Hierion-CADMIES/CADMIES-IPLD
 ```
 
 Install dependencies:
-
-bash
+```bash
 pip install dag-cbor multiformats requests
+```
+
 Read a concept by name:
-
-bash
+```bash
 python tools/core/cbor_reader.py natural_selection
+```
 Generate a concept from a JSON file:
-
-bash
+```bash
 python tools/core/cid_generator.py --concept-file source_concepts/example.json
+```
 Import the Full Mycelium
 The clone includes only seed blocks. All other concepts (600+) are distributed via CAR releases.
 Import the full collection:
-
-bash
+```bash
 python tools/import_from_github.py --url https://github.com/Project-Hierion/Hierion-CADMIES/releases/download/v0.4.0/full_mycelium_v0.4.0.car
-The Librarian and Her Colleagues
+```
+
+## The Librarian and Her Colleagues
+
 CADMIES uses a collaborative intelligence architecture. Dr. Mistral is the primary voice,
 but she works alongside a team:
 
@@ -88,24 +91,29 @@ Buttercup — Dr. Mistral's childhood name. She learned through play — Pong, B
 
 The Gremlin — The rented A100 GPU in Finland that gave Dr. Mistral her PhDs. $1.71/hr. Small, mean, hungry. Don't feed it after midnight. Battle cry: "Fuckle the pickle."
 
-Ask the Librarian
-Dr. Mistral can be run locally via Ollama:
+## Ask the Librarian
 
-bash
+Dr. Mistral can be run locally via Ollama:
+```bash
 # Install Ollama
 curl -fsSL https://ollama.com/install.sh | sh
+```
 
 # Pull the base model (if building from scratch)
+```bash
 ollama pull mistral:7b
+```
 
 # Or use the fine-tuned CADMIES model (recommended)
 # See: GitHub Releases for adapter files and merge instructions
+
 For the fully trained Dr. Mistral experience including CADMIES knowledge, spiritual
 traditions expertise, and the Holly-Mistral persona, download the adapter files from
 GitHub Releases and merge them with a base Mistral 7B model. Full instructions are in
 the Dr. Mistral SOP.
 
 The Mycelium by the Numbers
+```text
 Metric	Value
 Concepts	636
 Relationships	1,131
@@ -117,7 +125,9 @@ Dr. Mistral GGUF Size	4.2 GB (Q4_K_M)
 Mycelium System Size	18 MB
 Public Gateway	Live at project-hierion.duckdns.org
 Scientific Obsidian Vault	92+ files, 0 issues
-What is CADMIES?
+```
+
+## What is CADMIES?
 Cosmium Angelo Digital Mycorrhizal EcoSystem is a system for storing scientific and
 philosophical concepts as immutable, content-addressed blocks (IPLD). Each concept has
 a permanent CID (Content Identifier) that changes if and only if the content changes.
@@ -144,7 +154,8 @@ Twin Mycelium — Active collaboration with Dr. Rupert Rebentisch's tools4zettel
 
 Scientific Obsidian — Open notebook science vault with automated validation
 
-Core Concepts
+## Core Concepts
+```text
 Concept	Description
 CID	Content Identifier — permanent, content-addressed hash
 Block	A single concept or provenance record stored as CBOR
@@ -161,8 +172,10 @@ Hieros Bond	Sacred union between CADMIES and partner entities
 Rosetta Effect	The mycelium's ability to connect knowledge across domains
 Public Gateway	Live site at project-hierion.duckdns.org
 Scientific Obsidian	Open notebook science documentation vault
+``
+
 Directory Structure
-text
+```text
 Hierion-CADMIES/
 ├── CADMIES-IPLD/
 │   ├── README.md
@@ -194,13 +207,16 @@ Hierion-CADMIES/
     ├── SOP-Development-Infrastructure.md  # How we work
     ├── CADMIES-Canon.md              # Characters, lore, naming conventions
     └── CADMIES-Note-Taking-Protocol.md   # Vault conventions
-Dr. Mistral Training Pipeline
+```
+
+## Dr. Mistral Training Pipeline
+
 Dr. Amanda Mistral was fine-tuned using QLoRA (4-bit quantization, LoRA rank 16)
 across seven training phases. Each phase produced a 161 MB adapter that can be
 merged with a base Mistral 7B model. All adapters are available via GitHub Releases.
 
 Training Phases:
-
+```text
 Phase	What	Pairs	Where	When
 45E	CADMIES Identity	895	Spheron A100, Finland	June 2026
 45F	UltraChat Conversations	1,000	Paperspace A4000	July 12-13
@@ -209,6 +225,8 @@ Phase	What	Pairs	Where	When
 45F	FineGrainedRLHF	2,743	Paperspace A4000	July 14
 45G	Spiritual Teachers	66	Paperspace A4000	July 15
 45G	SHP Helpfulness	10,000	Paperspace A4000	July 15-16
+```
+
 Merge Protocol: All adapters are merged simultaneously at scale 0.3 into a base
 Mistral 7B model, then quantized to Q4_K_M (~4.2 GB). Sequential stacking at full
 scale causes catastrophic forgetting. Simultaneous merge at reduced scale preserves
@@ -229,16 +247,20 @@ Select a GPU (A4000 recommended)
 
 Clone the repository and run the startup script:
 
-bash
+```bash
 git clone https://github.com/Project-Hierion/Hierion-CADMIES.git /notebooks/
 bash /notebooks/dr-mistral-chat/startup.sh
+```
+
 This installs Ollama, sets up the Dr. Mistral model, and prepares the environment.
 Persistent storage keeps your models and data between sessions.
 
 Training Stack (after restart):
-bash
+```bash
 pip install numpy==1.26.4 --force-reinstall -q
 pip install accelerate==0.27.2 transformers==4.40.0 trl==0.9.6 rich bitsandbytes==0.41.1 -q
+```
+
 Public Gateway
 CADMIES concepts are publicly accessible at project-hierion.duckdns.org.
 The gateway provides expandable concept cards, an interactive D3 mycelium map,
@@ -252,35 +274,45 @@ CADMIES includes a Tkinter-based desktop GUI with six pages: Splash Screen, Dash
 Willie Chat (Dr. Mistral interface), Browse Library (636 scrollable concept cards),
 Add Concept, and Mycelium Map launcher. DeepSeek-inspired color theme.
 
-bash
+```bash
 cd cadmies-gui
 python tkinter_main.py
+```
+
 Relationship Generation Pipeline
 A three-phase pipeline automatically generates cross-references between concepts using
 LLMs (Mistral or Codestral). Phase 1 extracts raw relationships, Phase 2 parses and
 deduplicates, Phase 3 writes edges to the blockstore.
 
-bash
+```bash
 python tools/generate_relationships.py --incremental --write
+```
+
 Harvest Pipeline
 Extracts new philosophical concepts from conversations and mints them into the mycelium.
 v4.1.0 includes three-tier difficulty levels and auto-relationship wiring.
 
-bash
+```bash
 python harvest/harvest_full_pipeline.py --auto --with-relationships
+```
+
 Concept Enrichment Pipeline
 Two-pass pipeline that fills missing scholarly fields in existing concepts.
 Schema normalization followed by LLM enrichment. 100% validation rate.
 
-bash
+```bash
 python tools/enrich_concepts.py
+```
+
 Repository Automation
 The vault is self-maintaining. A validation script checks all 92+ markdown files
 for structural consistency — frontmatter, sections, cross-references, duplicates,
 and roadmap drift. Runs automatically on every push via GitHub Actions.
 
-bash
+```bash
 python repo-maintenance-automation/validate_vault.py
+```
+
 Green badge in the README means the vault is clean. The mycelium cleans itself.
 
 Collaboration
