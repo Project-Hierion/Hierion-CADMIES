@@ -11,6 +11,9 @@ session: 031
 | 2026-07-19 | Matadisco discovered — IPFS Foundation's decentralized data discovery network built on ATProto. Architecture mirrors CADMIES (content-addressed, open, interoperable). Plan: contribute CADMIES as a data source, build a producer to publish concept metadata to the network. |
 
 ---
+| 2026-07-19 | LLMDataHub → Matadisco nutrient transfer planned. LLMDataHub is an abandoned (5+ years unmaintained) repository of curated LLM training datasets. We've forked it and plan to republish its datasets as Matadisco records — turning a dead, siloed repo into discoverable, decentralized knowledge. This serves double duty: training material for Dr. Mistral and a real-world test of Matadisco as a data discovery network. The mycelium reclaims nutrients from fallen logs. |
+
+---
 The standard header format for all CADMIES scripts going forward:
 ```text
 #!/usr/bin/env python3
