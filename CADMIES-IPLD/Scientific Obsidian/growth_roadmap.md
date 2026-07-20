@@ -7,6 +7,9 @@ session: 031
 # 🌱 CADMIES GROWTH ROADMAP
 ### *The living record of what we've built, what we're building, and where the mycelium grows next.*
 ---
+
+| 2026-07-19 | Matadisco discovered — IPFS Foundation's decentralized data discovery network built on ATProto. Architecture mirrors CADMIES (content-addressed, open, interoperable). Plan: contribute CADMIES as a data source, build a producer to publish concept metadata to the network. |
+
 ---
 The standard header format for all CADMIES scripts going forward:
 ```text
