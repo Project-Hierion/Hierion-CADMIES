@@ -94,6 +94,7 @@ doc_types:
 
 cross_refs:
   scan_folders:
+    - "Raw-CADMIES/Narrative/"
     - "Polished-CADMIES/"
     - "Raw-CADMIES/Session-Notes/"
     - "00-Meta/"
