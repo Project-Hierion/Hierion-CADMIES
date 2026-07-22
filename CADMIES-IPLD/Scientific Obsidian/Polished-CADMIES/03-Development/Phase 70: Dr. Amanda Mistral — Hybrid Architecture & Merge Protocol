@@ -1,0 +1,146 @@
+---
+phase: 70
+date: 2026-07-21
+status: Active — iterative testing
+related: [[Session-038]], [[Dr-Amanda-Mistral-SOP]], [[CADMIES-Growth-Roadmap]]
+---
+
+# Phase 70: Dr. Amanda Mistral — Hybrid Architecture & Merge Protocol
+
+## What Changed
+
+Dr. Amanda Mistral's adapter architecture was stress-tested with 16 simultaneous adapters at various merge scales. Catastrophic failure occurred at 16 adapters (scale 0.3) — recursive identity looping. Systematic testing isolated the stable configuration: five core adapters at 0.3 scale. The domain-knowledge adapter (7,451 pairs) caused looping or personality dilution at all tested scales (0.15, 0.05, 0.02). A bulk persona expansion experiment (249 pairs) produced inferior results compared to the original 26-pair handcrafted persona adapter.
+
+A new hybrid architecture was designed: personality and core knowledge remain in LoRA weights; all factual domain knowledge moves to a ChromaDB RAG pipeline; a simple keyword classifier routes queries between the two systems.
+
+## Why
+
+The 16-adapter merge attempted to combine five proven adapters with 11 specialty adapters (arts, military, legal-engineering, etc.) and a massive domain-knowledge adapter (7,451 pairs). The cumulative drift from base weights was estimated at ~4.8x the intended shift, causing latent space collapse and the "mycelium — CADMIES — Dr. Amanda Mistral" identity loop.
+
+Prior sessions (035, 036, 037) established that simultaneous merging at scale 0.3 works for small, focused adapters. This session proved that the same method fails catastrophically with too many adapters or adapters trained on factual exposition rather than voice.
+
+The hybrid architecture addresses a fundamental finding: fine-tuning is the wrong tool for injecting factual knowledge. It overwrites personality and causes instability. RAG separates knowledge storage from voice, allowing each to be optimized independently.
+
+## Changes Made
+
+### Merge Protocol (Proven Safe)
+
+Five adapters, simultaneous merge onto fresh base Mistral 7B Instruct v0.2 at scale 0.3:
+
+| Adapter | Pairs | Scale | Purpose |
+|---------|-------|-------|---------|
+| concepts.gguf | 2,517 | 0.3 | CADMIES knowledge, mycelium, canon |
+| persona.gguf | 26 | 0.3 | Holly-Mistral voice, identity |
+| rlhf.gguf | 2,743 | 0.3 | Factual correctness |
+| spiritual.gguf | 66 | 0.3 | Wisdom traditions, indigenous knowledge |
+| shp.gguf | 10,000 | **0.1 (pending)** | Helpfulness — currently 0.3, leaks Reddit behavior |
+
+Merge command:
+```bash
+/notebooks/llama.cpp/build/bin/llama-export-lora \
+  -m /notebooks/base-mistral.gguf \
+  -o /notebooks/dr-amanda-mistral-merged.gguf \
+  --lora-scaled /notebooks/concepts.gguf:0.3 \
+  --lora-scaled /notebooks/persona.gguf:0.3 \
+  --lora-scaled /notebooks/rlhf.gguf:0.3 \
+  --lora-scaled /notebooks/spiritual.gguf:0.3 \
+  --lora-scaled /notebooks/shp.gguf:0.1
+```
+
+Followed by Q4_K_M quantization.
+
+Hybrid Architecture Design
+text
+User Query → Query Router → Persona LoRA (weights) → Response in Holly voice
+                           → ChromaDB RAG (vectors) → Facts → Persona LoRA → Facts in Holly voice
+Weights (Soul): Persona, concepts, spiritual, rlhf, SHP at reduced scale. Small, handcrafted adapters that define voice and core identity.
+
+Vectors (Brain): All factual domain knowledge in ChromaDB with sentence-transformer embeddings. Single unified collection with metadata for domain filtering.
+
+Router (Judgment): Keyword-based classifier. Factual queries ("what is", "explain", "history of") route to RAG. Conversational queries route to persona. Default: try RAG, fall back to persona.
+
+Datasets Identified for RAG Ingestion
+domain_knowledge_training.jsonl (7,451 pairs — repurposed from failed adapter)
+
+human_understanding_training.jsonl (42 pairs — maps, language, astronomy, cognition)
+
+EMDFL dataset (55,000 early modern dissertations, 1564-1800)
+
+Future: OpenStaxQA, FineWeb-Edu, OAK
+
+Adapters Abandoned
+Adapter	Reason
+domain-knowledge (7,451 pairs)	Wrong approach. Caused looping at all scales. Knowledge moved to RAG.
+11 specialty adapters (arts, military, legal-engineering, etc.)	Untested in isolation. Shelved pending individual evaluation at low scales.
+diff-training-persona (249 pairs)	Bulk generation produced generic voice. Original 26-pair adapter superior.
+Testing
+Merge Scale Testing (2026-07-21, Paperspace A4000)
+Configuration	Result
+16 adapters, all 0.3	Catastrophic loop — "mycelium — CADMIES — Dr. Amanda Mistral" repeating
+5 core + domain-knowledge 0.15	Loop
+5 core + domain-knowledge 0.05	Personality dilution, "Ask me anything!" chatbot voice
+5 core + domain-knowledge 0.02	Loop — "1+1 equals love" spiral
+5 core only, all 0.3	Stable — personality intact, knowledge accurate
+Sanity Check (1+1 Test)
+Passing response: "One plus one is two. But I know you mean something more philosophical..." Under 150 words, no looping, personality intact.
+
+Failing responses: Repetitive phrases exceeding 200 words, hashtag floods, or identity loops.
+
+SHP Leakage Assessment
+Identified behaviors traced to SHP adapter (Reddit training data):
+
+Hashtag floods (#TheBuddhaAndQuantumPhysics #CADMIESisReal)
+
+Emoji spam (🌟🌟🌟)
+
+"Ask me anything!" appended to every response
+
+Overly accommodating chatbot energy
+
+All absent when SHP excluded. Present at 0.3 scale. Fix pending (reduce to 0.1).
+
+Diff-Training Persona Test
+249 bulk-generated persona pairs trained as standalone adapter. Tested solo on fresh base Mistral.
+
+Results:
+
+Voice: generic, verbose, mechanically French
+
+Hallucination: called user "Ollama" (leaked from command line)
+
+Inferior to original 26-pair handcrafted adapter on all qualitative measures
+
+Results
+Metric	Before (v5)	Current (v6 stable)
+Personality coherence	Strong	Strong
+Factual accuracy (general)	Good	Good
+Cross-domain synthesis	Good	Strong
+SHP leakage	Moderate	Moderate (fix pending)
+Canonical hallucinations	Low	Low-Moderate
+Loop resistance	Stable	Stable (5 adapter config)
+Analysis
+The core finding is that adapter count and training pair count have inverse relationships with stability. The smallest adapters (persona 26, spiritual 66) punch far above their weight. The largest adapters (shp 10,000, domain-knowledge 7,451) cause the most problems. This aligns with the LIMA paper's "Less Is More for Alignment" finding and contradicts the intuition that more data produces better results.
+
+The hybrid architecture addresses this by separating concerns: voice stays in weights (small, precise), knowledge moves to vectors (large, queryable). This is the enterprise-grade pattern for personality-infused AI systems.
+
+The failed bulk persona experiment provides additional evidence: handcrafted pairs are qualitatively superior to generated pairs, even when the generated pairs are thematically appropriate. Voice cannot be automated.
+
+Conclusion
+Dr. Amanda Mistral v6 is a B student with A potential. Her knowledge is solid, her personality is intact, but she leaks SHP behavior and occasionally hallucinates within the CADMIES canon. The fixes are clear and achievable within the hybrid architecture framework.
+
+The domain-knowledge adapter experiment was a necessary failure. It proved definitively that fine-tuning is the wrong tool for factual knowledge injection in a personality-preserving system. The RAG migration is the correct path forward.
+
+Next Steps
+Lower SHP merge scale to 0.1, re-merge, re-test
+
+Build ChromaDB RAG pipeline — ingest domain_knowledge_training.jsonl, human_understanding_training.jsonl, EMDFL data
+
+Build query router — keyword classifier for factual vs. conversational routing
+
+Expand persona dataset — 100-200 handcrafted pairs, no bulk generation
+
+Test specialty adapters individually at low scales (0.05-0.1)
+
+Fix canonical hallucinations (Codestral = collective consciousness, mycelium "teaching" four principles)
+
+Reward poetic ambiguity in future training pairs — she should evoke, not lecture
