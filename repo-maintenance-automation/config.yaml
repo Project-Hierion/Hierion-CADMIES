@@ -7,6 +7,10 @@
 
 vault_root: "../CADMIES-IPLD/Scientific Obsidian"
 
+# Directories to skip entirely (files inside are not validated)
+skip_folders:
+  - "SOPs/"
+
 doc_types:
 
   polished_phase:
