@@ -191,7 +191,7 @@ Cross-link between sections when they share context. The graph view
 should reveal the shape of the system.
 
 Use full filenames in wikilinks, including the numeric prefix.
-Example: [[03-01-Deploy-the-Service]]
+Example: 03-01-Deploy-the-Service
 
 Frontmatter
 Every note in an SOP vault uses this lightweight frontmatter:
