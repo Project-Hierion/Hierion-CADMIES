@@ -65,7 +65,7 @@ The terminal for structure, Obsidian for content. Heredoc broke on code blocks, 
 What Broke
 Heredoc approach failed on files with backticks and special chars — switched to paste-into-Obsidian
 
-Placeholder links to directories ([[03-Procedures]]) were dead — folders aren't notes, need index notes or direct file links
+Placeholder links to directories 03-Procedures were dead — folders aren't notes, need index notes or direct file links
 
 Decisions Made
 One vault, one SOP — no multi-topic vaults
