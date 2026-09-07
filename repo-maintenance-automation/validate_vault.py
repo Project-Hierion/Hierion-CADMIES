@@ -2,7 +2,7 @@
 """
 File: validate_vault.py
 Tool: CADMIES Vault Validator
-Version: 1.3.0
+Version: 1.3.1
 System: CADMIES / repo-maintenance-automation
 Status: ACTIVE
 License: AGPLv3 with Commons Clause
@@ -26,6 +26,7 @@ Version History:
   v1.2.0 (2026-07-16): --fix mode now handles dead wikilinks via fuzzy filename matching.
   v1.2.1 (2026-07-16): Added check for markdown files missing .md extension.
   v1.3.0 (2026-07-16): --fix mode now handles roadmap drift automatically.
+  v1.3.1 (2026-09-06): Honor config skip_folders list — directories excluded from all checks.
 """
 
 import os
@@ -49,11 +50,17 @@ def get_vault_root(config):
     vault_rel = config.get("vault_root", "../CADMIES-IPLD/Scientific Obsidian")
     return (SCRIPT_DIR / vault_rel).resolve()
 
-def should_skip_path(filepath):
+def should_skip_path(filepath, config=None):
     parts = str(filepath).split("/")
     for part in parts:
         if part.startswith(".") or part == ".ipynb_checkpoints":
             return True
+    # Honor config skip_folders if provided
+    if config:
+        skip_folders = config.get("skip_folders", [])
+        for skip in skip_folders:
+            if skip in str(filepath):
+                return True
     return False
 
 def find_files(vault_root, folder, pattern):
@@ -229,15 +236,17 @@ def build_note_index(vault_root, config):
         target_dir = vault_root / folder
         if target_dir.exists():
             for f in target_dir.rglob("*.md"):
-                if should_skip_path(f):
+                if should_skip_path(f, config):
                     continue
                 note_index[f.stem] = str(f.relative_to(vault_root))
     for f in vault_root.glob("*.md"):
+        if should_skip_path(f, config):
+            continue
         note_index[f.stem] = f.name
     meta_dir = vault_root / "00-Meta"
     if meta_dir.exists():
         for f in meta_dir.rglob("*.md"):
-            if should_skip_path(f):
+            if should_skip_path(f, config):
                 continue
             note_index[f.stem] = str(f.relative_to(vault_root))
     return note_index
@@ -273,7 +282,7 @@ def check_and_fix_cross_references(vault_root, config, fix_mode=False, auto_yes=
         if not target_dir.exists():
             continue
         for filepath in target_dir.rglob("*.md"):
-            if should_skip_path(filepath):
+            if should_skip_path(filepath, config):
                 continue
             with open(filepath, "r") as f:
                 content = f.read()
@@ -338,7 +347,7 @@ def check_duplicates(vault_root, config):
         if not target_dir.exists():
             continue
         for filepath in target_dir.rglob("*.md"):
-            if should_skip_path(filepath):
+            if should_skip_path(filepath, config):
                 continue
             with open(filepath, "rb") as f:
                 file_hash = hashlib.md5(f.read()).hexdigest()
@@ -360,7 +369,7 @@ def check_roadmap_drift(vault_root, config, fix_mode=False, auto_yes=False):
     phase_statuses = {}
     if phases_dir.exists():
         for f in phases_dir.glob("Phase-*.md"):
-            if should_skip_path(f):
+            if should_skip_path(f, config):
                 continue
             fm, _ = parse_frontmatter(f)
             if fm and fm != "PARSE_ERROR" and "phase" in fm and "status" in fm:
@@ -398,7 +407,7 @@ def check_missing_extensions(vault_root, config):
         if not target_dir.exists():
             continue
         for filepath in target_dir.rglob("*"):
-            if should_skip_path(filepath):
+            if should_skip_path(filepath, config):
                 continue
             if filepath.is_file() and not filepath.suffix:
                 # Check if it looks like markdown (starts with # or has frontmatter)
@@ -443,7 +452,7 @@ def run_validation(fix_mode=False, auto_yes=False):
             continue
         print(f"── {doc_type} ({len(files)} files) ──")
         for filepath in files:
-            if should_skip_path(filepath):
+            if should_skip_path(filepath, config):
                 continue
             rel = filepath.relative_to(vault_root) if filepath.is_relative_to(vault_root) else filepath.name
             stats["files_checked"] += 1
