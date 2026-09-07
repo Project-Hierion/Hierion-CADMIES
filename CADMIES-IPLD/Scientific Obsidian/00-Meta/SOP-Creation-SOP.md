@@ -1,6 +1,6 @@
 ---
 type: protocol
-version: 0.1.0
+version: 0.2.0
 date: 2026-09-06
 status: DRAFT
 related: [[Note-Taking Protocol]], [[CADMIES-Canon]], [[NASA-level standards reference]]
@@ -15,8 +15,8 @@ local Obsidian vaults. One vault equals one SOP. The vault is the document.
 Links are the navigation. The graph view is the map.
 
 This SOP lives in the Scientific Obsidian repo because it governs how all
-other SOPs are made. Operational SOPs built from this standard stay local
-and private.
+other SOPs are made. Operational and scientific SOPs built from this
+standard stay local and private.
 
 ## Audience
 
@@ -39,70 +39,167 @@ The SOP must carry a person from zero to operational without outside help.
    explained. Every dependency is named.
 6. **Local and private by default.** SOP vaults stay off the public repo.
    They may contain paths, internal names, and operational details.
+7. **No credentials in vaults.** SOPs document what exists, where it
+   lives, and what it is for — never actual passwords, keys, tokens, or
+   secret values. Credentials stay in a password manager or on the
+   server itself.
 
-## Vault Structure
+## SOP Types
 
-Every SOP vault uses this base layout:
+There are two types of SOP vaults. They share the same core principles,
+but their structures differ because their purposes differ.
+
+### Operational SOPs
+
+**Purpose:** How to run and maintain a system. Execution-focused.
+
+**Characteristics:**
+
+- Procedures are the spine of the vault
+- Linear flow: do this, then this, then this
+- References support the procedures
+- Troubleshooting is backup for when things break
+- The answer to "how do I do X?" should be obvious within seconds
+
+**Example vaults:**
+
+- Dr-Mistral-Paperspace-Operations-SOP
+- CADMIES-Droplet-Operations-SOP
+
+### Scientific SOPs
+
+**Purpose:** How to train, test, validate, and iterate on a model or
+experiment. Evidence-focused.
+
+**Characteristics:**
+
+- Knowledge and evidence are the spine of the vault
+- Experiments and findings come before procedures
+- Procedures support the knowledge — they show how to apply what was
+  learned
+- Failure modes and empirical results are first-class citizens
+- The answer to "why do we do it this way?" should be obvious
+
+**Example vaults:**
+
+- Dr-Mistral-Training-SOP
+
+### Choosing a Type
+
+Ask: "Is this SOP about running something, or about discovering and
+validating something?"
+
+- Running and maintaining → Operational
+- Training, testing, experimenting → Scientific
+
+When in doubt, default to Operational. Scientific structure only earns
+its complexity when there is real experimental evidence to preserve.
+
+## Directory Structure
+
+SOP vaults live in the SOPs directory, organized by type:
+
 ```text
-Vault-Root/
-├── SOP Landing.md # Front door — title, purpose, how to use, map
-├── 01-Overview.md # Scope, terminology, system context
-├── 02-Prerequisites.md # Everything needed before starting
-├── 03-Procedures/ # Step-by-step work, split by task
-│ ├── 03-01-Task-Name.md
-│ ├── 03-02-Task-Name.md
-│ └── 03-03-Task-Name.md
-├── 04-References/ # Commands, configs, dependencies, schemas
-│ ├── 04-01-Command-Reference.md
-│ ├── 04-02-Configuration.md
-│ └── 04-03-Dependencies.md
-├── 05-Troubleshooting/ # Known failure modes and fixes
-│ ├── 05-01-Symptom-Name.md
-│ └── 05-02-Symptom-Name.md
-└── 06-Appendices/ # Glossaries, checklists, deeper dives
-├── 06-01-Glossary.md
-└── 06-02-Checklist.md
+SOPs/
+├── Operational SOPs/
+│   ├── Dr-Mistral-Paperspace-Operations-SOP/
+│   └── CADMIES-Droplet-Operations-SOP/
+└── Scientific SOPs/
+    └── Dr-Mistral-Training-SOP/
 ```
 
+Operational Vault Structure
+
+Vault-Root/
+├── SOP Landing.md              # Front door — title, purpose, how to use, map
+├── 01-Overview.md              # Scope, terminology, system context
+├── 02-Prerequisites.md         # Everything needed before starting
+├── 03-Procedures/              # Step-by-step work, split by task
+│   ├── 03-01-Task-Name.md
+│   ├── 03-02-Task-Name.md
+│   └── 03-03-Task-Name.md
+├── 04-References/              # Commands, configs, dependencies
+│   ├── 04-01-Command-Reference.md
+│   ├── 04-02-Configuration.md
+│   └── 04-03-Dependencies.md
+├── 05-Troubleshooting/         # Known failure modes and fixes
+│   ├── 05-01-Symptom-Name.md
+│   └── 05-02-Symptom-Name.md
+└── 06-Appendices/              # Glossaries, checklists, history
+    ├── 06-01-Glossary.md
+    └── 06-02-Checklist.md
+
+Scientific Vault Structure
+
+Vault-Root/
+├── SOP Landing.md              # Front door — title, purpose, how to use, map
+├── 01-Overview.md              # Training/experiment philosophy, approach
+├── 02-Knowledge-Base.md        # What we learned — the critical findings
+├── 03-Prerequisites.md         # Environment, hardware, dependencies
+├── 04-Procedures/              # How to apply the knowledge
+│   ├── 04-01-Setup.md
+│   ├── 04-02-Train.md
+│   ├── 04-03-Validate.md
+│   └── 04-04-Evaluate.md
+├── 05-References/              # Specs, formats, scripts, dependencies
+│   ├── 05-01-Adapter-Specs.md
+│   ├── 05-02-Data-Format.md
+│   └── 05-03-Scripts.md
+├── 06-Experiments/             # The evidence — test results and findings
+│   ├── 06-01-Experiment-Name.md
+│   └── 06-02-Findings.md
+├── 07-Troubleshooting/         # Failure modes discovered through experiment
+│   ├── 07-01-Failure-Mode.md
+│   └── 07-02-Failure-Mode.md
+└── 08-Appendices/              # Checklists, estimates, history
+    ├── 08-01-Checklist.md
+    └── 08-02-Version-History.md
 
 Folders and files are numbered so order is obvious in the file tree.
 Numbers also make wikilinks easier to scan.
 
-## The Landing Note
-
+The Landing Note
 The landing note is the most important file in the vault. It contains:
 
-- The SOP title and one-sentence description
-- What the system is and what it does
-- How to use the vault (read order, graph view, search)
-- A map of the vault's sections
-- Status and version information
+The SOP title and one-sentence description
+
+What the system or experiment is and what it does
+
+How to use the vault (read order, graph view, search)
+
+A map of the vault's sections
+
+Status and version information
 
 The landing note links to every section. Every section links back to it.
 The landing note is the hub. The graph should look like a wheel with
 spokes, plus cross-links between spokes where topics touch.
 
-## Linking Rules
+Linking Rules
+Link aggressively. If a note mentions a dependency, link to the
+dependency note. If a procedure references a command, link to the
+command reference.
 
-- Link aggressively. If a note mentions a dependency, link to the
-  dependency note. If a procedure references a command, link to the
-  command reference.
-- Every note links back to the landing note.
-- Every procedure links to its prerequisites and to related
-  troubleshooting notes.
-- Cross-link between sections when they share context. The graph view
-  should reveal the shape of the system.
-- Use full filenames in wikilinks, including the numeric prefix.
-  Example: `[[03-01-Deploy-the-Service]]`
+Every note links back to the landing note.
 
-## Frontmatter
+Every procedure links to its prerequisites and to related
+troubleshooting notes.
 
+Every experiment note links to the findings it produced.
+
+Cross-link between sections when they share context. The graph view
+should reveal the shape of the system.
+
+Use full filenames in wikilinks, including the numeric prefix.
+Example: [[03-01-Deploy-the-Service]]
+
+Frontmatter
 Every note in an SOP vault uses this lightweight frontmatter:
 
 ```text
 ---
 sop: [SOP name]
-section: [Landing | Overview | Prerequisites | Procedures | References | Troubleshooting | Appendices]
+section: [Landing | Overview | Knowledge Base | Prerequisites | Procedures | References | Experiments | Troubleshooting | Appendices]
 date: YYYY-MM-DD
 status: [DRAFT | ACTIVE | DEPRECATED]
 related: [[note-one]], [[note-two]]
@@ -112,6 +209,18 @@ related: [[note-one]], [[note-two]]
 The sop field ties every note back to its vault. The section field
 keeps the graph organized. Local SOP vaults are not validated by the
 repo automation, but the fields stay consistent anyway.
+
+Security Markers
+Sensitive values are never documented in SOP vaults. When a note must
+reference something sensitive, use a warning callout that describes
+what exists and where it lives — never the value itself.
+
+> [!warning] SECURITY-SENSITIVE: [What it is]
+> Never share this. Never commit it to a repo. The value lives in
+> [password manager / server location] — not in this vault.
+
+This makes sensitive references impossible to miss when reading, and
+easy to identify if a vault ever needs to be shared or redacted.
 
 Writing Standard
 Write like you are explaining the system to a smart person who has never
@@ -133,30 +242,38 @@ No emojis. No fluff. Facts over decoration. If a step needs a diagram,
 use ASCII art or a link to an image file in the vault.
 
 Building an SOP Vault: Step by Step
-Step 1: Define the scope
+
+Step 1: Define the scope and type
 Before creating any files, write down:
 
-What system or procedure this SOP covers
+What system, procedure, or experiment this SOP covers
 
 What the reader will be able to do after using it
 
 What is explicitly out of scope
 
+Whether this is an Operational or Scientific SOP
+
 If the scope takes more than a paragraph, split it into multiple SOPs.
 
 Step 2: Create the vault
-Create a new Obsidian vault. Name it after the SOP.
-Example: Ollama-Service-Operations
+Create a new Obsidian vault in the correct directory:
+
+Operational → SOPs/Operational SOPs/
+
+Scientific → SOPs/Scientific SOPs/
+
+Name it after the SOP. Example: Dr-Mistral-Training-SOP
 
 Step 3: Build the landing note
 Create SOP Landing.md. Write the title, description, and how-to-use
-section. List the six sections. Leave the map links for now — add them
-as the sections are built.
+section. List the sections. Leave the map links for now — add them as
+the sections are built.
 
 Step 4: Build the skeleton
-Create empty notes for every section, following the vault structure
-above. Fill in frontmatter. Link every section note back to the
-landing note.
+Create empty notes for every section, following the correct structure
+for the SOP type. Fill in frontmatter. Link every section note back to
+the landing note.
 
 Step 5: Fill in Overview and Prerequisites
 Define the scope, terms, and context. List everything a person needs
@@ -197,7 +314,9 @@ Every dependency is named and linked
 
 Every troubleshooting entry has symptom, cause, fix
 
-Glossary covers every non-obvious term
+No credentials or sensitive values in the vault
+
+Glossary covers every non-obvious term (if glossary exists)
 
 Graph view shows no orphan notes
 
