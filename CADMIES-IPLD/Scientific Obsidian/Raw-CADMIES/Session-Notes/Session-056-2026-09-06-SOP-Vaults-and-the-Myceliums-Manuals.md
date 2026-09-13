@@ -1,7 +1,6 @@
-
->⚠️ RAW NOTE — Work in progress. May contain half-formed ideas, typos,
->unfiltered thoughts, and coded messages for fellow gardeners.
->For polished documentation, check Polished CADMIES or promote this note.
+> ⚠️ RAW NOTE — Work in progress. May contain half-formed ideas, typos,  
+> unfiltered thoughts, and coded messages for fellow gardeners.  
+> For polished documentation, check Polished CADMIES or promote this note.
 
 # Session 056 — 2026-09-06 — SOP Vaults and the Mycelium's Manuals
 
