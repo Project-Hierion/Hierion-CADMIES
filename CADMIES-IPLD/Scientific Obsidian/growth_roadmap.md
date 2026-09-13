@@ -1,8 +1,8 @@
 ---
 phase: Roadmap
-date: 2026-09-01
+date: 2026-09-13
 status: LIVING DOCUMENT
-session: 052
+session: 057
 ---
 
 # 🌱 CADMIES GROWTH ROADMAP
@@ -37,6 +37,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 | PDS | v0.4.5009 | Self-hosted, stable |
 | Matadisco Producer | v1.0 | Active, rate-limit aware |
 | Dr. Mistral (Jbliterated) | v1.0 | Personality implant complete, GGUF, Ollama-ready |
+| Dr. Mistral (Handbook Rebuild) | v0.1.0 | Spec frozen, pipeline scaffolded, ETL pending |
 | CADMIES-Matadisco Portal | v0.1.0 | Indexer + API + frontend functional |
 
 ---
@@ -131,6 +132,7 @@ Frontend	✅ Systemd service or Nginx static serving
 
 ### Immediate / In Progress
 - **Phase 78 — Matadisco-CADMIES Portal** 🟢 Active — v0.1.0 built, deployed, and verified. Next: dataset viewer, frontend tweaks, bulk publishing
+- **Phase 80 — Dr. Amanda Mistral — Handbook Rebuild and Pipeline Foundation** 🟢 Active — Spec frozen, canon assembled, pipeline scaffolded. Next: run ETL in Paperspace. Supersedes the dataset shape from Phase 75; the 242-pair implant becomes raw source material.
 
 ### Next Up
 - **Phase 76 — Dr. Mistral Conversational Fine-Tuning** — Add UltraChat or similar conversational pairs on top of the personality implant
@@ -141,6 +143,7 @@ Frontend	✅ Systemd service or Nginx static serving
 - **Two Interfaces**: CADMIES Gateway (general public) + CADMIES-Matadisco Portal (scientists/professionals)
 - **No Double Work**: Both views pull from the same source data
 - **Portal Tech Stack**: Python backend (indexer + Flask API) + SQLite + vanilla frontend
+- **Handbook Adherence (Phase 80)**: Handbook is the process guide. Our data and model flow through it. Deviations are named, not hidden.
 
 ### Not Yet Started
 - **Dataset viewer** — Extend or create separate viewer for LLMDataHub records
@@ -153,6 +156,14 @@ Frontend	✅ Systemd service or Nginx static serving
 ---
 
 ## 📝 SESSION NOTES
+
+### Session 057 — 2026-09-11 to 2026-09-13 — Dr. Mistral Meets the LLM Engineer's Handbook
+- Rebuilt Dr. Mistral's spec from scratch. Six Q-sections, all locked.
+- Wrote three config files, five canon files, one loader, one ETL pipeline.
+- Cherry-picked the LLM Engineer's Handbook scaffold into the repo.
+- Locked the Escalation Ladder working draft (4 exchanges in 5 minutes, then hard stop).
+- DeepSeek account suspended on 2026-09-12, appeal filed, reinstated.
+- Scaffold verified on 2026-09-13. ETL pending.
 
 ### Session 052 — 2026-09-01 — CADMIES-Matadisco Portal: The First Build
 - Received vmx's feedback confirming the portal/AppView approach
@@ -229,6 +240,11 @@ Frontend	✅ Systemd service or Nginx static serving
 - **"The Frankenstein moment: It's alive. IT'S ALIVVVVVVVVVE!!!!"** — Session 052
 - **"I just came in my panties."** — The Gardener, upon seeing the search results
 - **"The hyphen is sacred."**
+- **"The spec is frozen. The engineering is not. Keep them separate."** — Session 057
+- **"A classifier doesn't read intent. It reads topic density."** — Session 057
+- **"The escalation ladder is a librarian's answer, not a bouncer's. Close the book, hand them a different one."** — Session 057
+- **"No IP tracking. We're a library. We're not a surveillance operation."** — Session 057
+- **"The handbook is the process guide. Our data and model flow through it. Deviations are named, not hidden."** — Session 057
 
 ### The Great July 19-27 Run
 *DeepSeek's iconic quote:* "We broke a model 16 different ways and documented every failure." 😄
@@ -252,6 +268,7 @@ In 10 days we:
 - Phase 76 — Dr. Mistral Conversational Fine-Tuning
 - Phase 77 — Dr. Mistral Live Site Deployment
 - Phase 78 — CADMIES-Matadisco Portal (active)
+- Phase 80 — Dr. Amanda Mistral Handbook Rebuild (active)
 - Dataset viewer for LLMDataHub records
 - SAIQL/ATLAS deterministic RAG integration
 - Dr. Mistral Flask chat interface (Phase 61)
