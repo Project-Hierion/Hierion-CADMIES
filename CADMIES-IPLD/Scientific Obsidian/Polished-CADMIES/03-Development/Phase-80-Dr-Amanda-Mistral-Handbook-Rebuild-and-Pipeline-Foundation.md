@@ -2,7 +2,7 @@
 phase: 80
 date: 2026-09-11
 status: Active — Dr. Mistral rebuilt on the LLM Engineer's Handbook
-related: [[Phase-75-Dr-Amanda-Mistral-Personality-Implant-on-Jbliterated-Base]], [[Session-057-2026-09-11-Dr-Mistral-Meets-the-LLM-Engineers-Handbook]]
+related: [[Phase-75-Dr-Amanda-Mistral-Personality-Implant-on-Jbliterated-Base]]
 ---
 
 # Phase 80: Dr. Amanda Mistral — Handbook Rebuild and Pipeline Foundation
