@@ -1,11 +1,11 @@
 ---
-phase: 80
+phase: 80A
 date: 2026-09-11
 status: Active — Dr. Mistral rebuilt on the LLM Engineer's Handbook
 related: [[Phase-75-Dr-Amanda-Mistral-Personality-Implant-on-Jbliterated-Base]]
 ---
 
-# Phase 80: Dr. Amanda Mistral — Handbook Rebuild and Pipeline Foundation
+# Phase 80A: Dr. Amanda Mistral — Handbook Rebuild and Pipeline Foundation
 
 ## What Changed
 
@@ -19,15 +19,15 @@ Phase 75 produced a working implant — a LoRA adapter, a GGUF, an Ollama model.
 
 The decision was made to rebuild clean, following a proven external process. The LLM Engineer's Handbook was selected because it is a step-by-step end-to-end framework for training a persona into an open-source LLM. Its pipeline structure matches what we need: collect raw data, generate instruct pairs, generate preference pairs, SFT, DPO, evaluate, deploy. The handbook does not build a fictional character — it builds a digital twin of a real person's writing style — but the pipeline shape is identical. We substituted our data and our model for the handbook's.
 
-A secondary reason: to stop improvising. Phase 75 was built on ad hoc decisions. Phase 80 is built on a documented, external process. When we deviate from the handbook, we name the deviation. When we follow it, we know why.
+A secondary reason: to stop improvising. Phase 75 was built on ad hoc decisions. Phase 80A is built on a documented, external process. When we deviate from the handbook, we name the deviation. When we follow it, we know why.
 
-## Background: From Phase 75 to Phase 80
+## Background: From Phase 75 to Phase 80A
 
 Phase 75 was the personality implant on Apollo Raines' Jbliterated Mistral 7B. A 242-pair curated dataset, 4 epochs of QLoRA training, loss 1.54 → 0.46. The adapter converted to GGUF, merged, quantized to Q8_0, deployed to Ollama. She responded as Dr. Mistral — warm, philosophical, anchored. Identity test passed.
 
 But the dataset shape was improvised. The categories were self-defined. The pair structure was hand-crafted without a formal spec. There was no mechanism for generating more pairs. There was no mechanism for evaluating whether the pairs were correct. There was no mechanism for correcting failures after they were observed.
 
-Phase 80 replaces all of that with structured data. The spec is a config file. The canon is a corpus. The pipeline is a chain. Every downstream artifact — instruct pairs, preference pairs, trained adapter, eval scores — traces back to a source document.
+Phase 80A replaces all of that with structured data. The spec is a config file. The canon is a corpus. The pipeline is a chain. Every downstream artifact — instruct pairs, preference pairs, trained adapter, eval scores — traces back to a source document.
 
 ## Changes Made
 
@@ -179,7 +179,7 @@ The escalation ladder is incomplete. It has shape but not edges. Those edges are
 
 ## Conclusion
 
-Phase 80 is the foundation for a rebuilt Dr. Amanda Mistral. The spec is frozen. The canon is assembled. The pipeline scaffold is in place. The loader is written. The ETL is the next step, to be executed in Paperspace.
+Phase 80A is the foundation for a rebuilt Dr. Amanda Mistral. The spec is frozen. The canon is assembled. The pipeline scaffold is in place. The loader is written. The ETL is the next step, to be executed in Paperspace.
 
 The 242-pair implant from Phase 75 is no longer a trained artifact. It is raw source material, to be processed through the handbook's pipeline alongside the five canon files. The previous personality is not discarded — it is re-entered as input. Whether it survives the pipeline in recognizable form is the question the next phase answers.
 
