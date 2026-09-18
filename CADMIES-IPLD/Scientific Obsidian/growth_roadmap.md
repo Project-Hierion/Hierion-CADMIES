@@ -1,8 +1,8 @@
 ---
 phase: Roadmap
-date: 2026-09-13
+date: 2026-09-18
 status: LIVING DOCUMENT
-session: 057
+session: 058
 ---
 
 # 🌱 CADMIES GROWTH ROADMAP
@@ -37,37 +37,8 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 | PDS | v0.4.5009 | Self-hosted, stable |
 | Matadisco Producer | v1.0 | Active, rate-limit aware |
 | Dr. Mistral (Jbliterated) | v1.0 | Personality implant complete, GGUF, Ollama-ready |
-| Dr. Mistral (Handbook Rebuild) | v0.1.0 | Spec frozen, pipeline scaffolded, ETL pending |
+| Dr. Mistral (Handbook Rebuild) | v0.2.0 | Pipeline executed end to end. SFT + DPO adapters trained, Q8 GGUF deployed to Ollama. Eval next. |
 | CADMIES-Matadisco Portal | v0.1.0 | Indexer + API + frontend functional |
-
----
-
-Roadmap entry:
-
-Phase 79 — LLMDataHub Dataset Publishing Pipeline (Planned)
-
-Automate publication of LLMDataHub dataset records to Matadisco and index them in the CADMIES-Matadisco Portal.
-
-Tasks:
-
-Finalize license audit for all datasets
-
-Publish dataset records via GitHub Actions (scheduled)
-
-Extend portal to display dataset records
-
-Index dataset records in the portal database
-
-Status: Planned
-
-What can be automated:
-
-Step	Automation
-License audit	⚠️ Manual (requires human judgment)
-Publishing records	✅ GitHub Actions (scheduled)
-Indexing records	✅ Cron job on droplet
-API server	✅ Systemd service (runs forever)
-Frontend	✅ Systemd service or Nginx static serving
 
 ---
 
@@ -115,6 +86,10 @@ Frontend	✅ Systemd service or Nginx static serving
 ### Dr. Mistral Personality Implant
 - **Phase 75 — Dr. Amanda Mistral — Personality Implant on Jbliterated Base** ✅ Complete (2026-08-30)
 
+### Dr. Mistral Handbook Rebuild
+- **Phase 80A — Dr. Amanda Mistral — Handbook Rebuild and Pipeline Foundation** ✅ Complete (2026-09-14) — Spec frozen, canon assembled, handbook scaffold cherry-picked, ETL and feature engineering executed end to end. Supersedes the Phase 75 artifact shape; the 242-pair implant becomes raw source material.
+- **Phase 80B — Dr. Amanda Mistral — LLM Engineer's Handbook Pipeline Execution and Deployment** ✅ Complete (2026-09-16) — Steps 5–9 executed. 236 SFT pairs, 201 DPO triples, SFT adapter (loss 1.839→1.375), DPO adapter (rewards accuracy 0.81→0.96), merged Q8_0 GGUF (7.17 GB), running in Ollama. Eval (Step 10) and deploy+monitor (Step 11) next.
+
 ### Matadisco Integration
 - Phase 73A — Matadisco Integration Blueprint
 - Phase 73B — PDS Self-Hosting & Caddy Configuration
@@ -131,12 +106,13 @@ Frontend	✅ Systemd service or Nginx static serving
 ## 📋 PENDING PHASES
 
 ### Immediate / In Progress
-- **Phase 78 — Matadisco-CADMIES Portal** 🟢 Active — v0.1.0 built, deployed, and verified. Next: dataset viewer, frontend tweaks, bulk publishing
-- **Phase 80 — Dr. Amanda Mistral — Handbook Rebuild and Pipeline Foundation** 🟢 Active — Spec frozen, canon assembled, pipeline scaffolded. Next: run ETL in Paperspace. Supersedes the dataset shape from Phase 75; the 242-pair implant becomes raw source material.
+- **Phase 80C — Dr. Mistral Evaluation (Step 10)** 🟡 Next — Design and run eval probes. Score base vs SFT vs SFT+DPO. Review pair files against drift zones. Fix carried-forward issues (final_loss logging, HF_ENDPOINT in startup.sh). Regenerate pairs where drift is found.
+- **Phase 78 — Matadisco-CADMIES Portal** 🟢 Active — v0.1.0 built, deployed, verified. Next: dataset viewer, frontend tweaks, bulk publishing.
 
 ### Next Up
-- **Phase 76 — Dr. Mistral Conversational Fine-Tuning** — Add UltraChat or similar conversational pairs on top of the personality implant
-- **Phase 77 — Dr. Mistral Live Site Deployment** — Integrate Dr. Mistral into the Flask app on the live site
+- **Phase 80D — Dr. Mistral Deploy + Monitor (Step 11)** — Inference loop, drift capture, feedback into pair generation.
+- **Phase 76 — Dr. Mistral Conversational Fine-Tuning** — Add UltraChat or similar conversational pairs on top of the handbook rebuild.
+- **Phase 77 — Dr. Mistral Live Site Deployment** — Integrate Dr. Mistral into the Flask app on the live site.
 
 ### Architecture Decisions
 - **One Source of Truth**: Concepts JSON and edges JSON are canonical
@@ -144,11 +120,12 @@ Frontend	✅ Systemd service or Nginx static serving
 - **No Double Work**: Both views pull from the same source data
 - **Portal Tech Stack**: Python backend (indexer + Flask API) + SQLite + vanilla frontend
 - **Handbook Adherence (Phase 80)**: Handbook is the process guide. Our data and model flow through it. Deviations are named, not hidden.
+- **Pairs Generated Outside Pipeline (D12)**: Steps 5 and 6 output produced by Claude in chat, not via ZenML steps. Handbook's OpenAI-calling steps exist but were never executed.
 
 ### Not Yet Started
-- **Dataset viewer** — Extend or create separate viewer for LLMDataHub records
-- **Full License Audit** — Complete audit of LLMDataHub datasets
-- **Bulk Publishing** — All 636 concepts + audited datasets
+- Dataset viewer — Extend or create separate viewer for LLMDataHub records
+- Full License Audit — Complete audit of LLMDataHub datasets
+- Bulk Publishing — All 636 concepts + audited datasets
 - RAG Pipeline (ChromaDB, embeddings, query router)
 - Agent Architecture (President Model, Willie, Codestral, Number 5)
 - Public gateway subdomain tier
@@ -156,6 +133,15 @@ Frontend	✅ Systemd service or Nginx static serving
 ---
 
 ## 📝 SESSION NOTES
+
+### Session 058 — 2026-09-15 to 2026-09-16 — Dr. Mistral Rebuild: Pipeline End to End
+- Executed Steps 5–9 of the LLM Engineer's Handbook pipeline on Paperspace.
+- Generated 236 instruct pairs, 201 preference triples (199 after conversion).
+- Ran SFT (QLoRA r=16, 12m 16s, loss 1.839→1.375) and DPO (QLoRA r=8, 3m 47s, loss 0.66→0.61, rewards acc 0.81→0.96).
+- Merged to Q8_0 GGUF (7.17 GB), deployed to Ollama.
+- Named deviations D12–D17: pairs outside pipeline, SentencePiece, tokenizer.model, config_path mechanism, dependency install order, HF_ENDPOINT unset.
+- Modelfile voice pivot: "You are..." beats "I am..." for Ollama's system-prompt injection.
+- 7 inference tests. Persona lands on clean exchanges, drifts under long context.
 
 ### Session 057 — 2026-09-11 to 2026-09-13 — Dr. Mistral Meets the LLM Engineer's Handbook
 - Rebuilt Dr. Mistral's spec from scratch. Six Q-sections, all locked.
@@ -245,6 +231,9 @@ Frontend	✅ Systemd service or Nginx static serving
 - **"The escalation ladder is a librarian's answer, not a bouncer's. Close the book, hand them a different one."** — Session 057
 - **"No IP tracking. We're a library. We're not a surveillance operation."** — Session 057
 - **"The handbook is the process guide. Our data and model flow through it. Deviations are named, not hidden."** — Session 057
+- **"Training worked. What's broken is inference setup, not training."** — Session 058
+- **"She knows the facts. Every canon detail landed. The voice drifts but the knowledge holds."** — Session 058
+- **"The pipeline is the pipeline. The character is the character. We have a pipeline. We have a first-pass character. The rest is iteration."** — Phase 80B
 
 ### The Great July 19-27 Run
 *DeepSeek's iconic quote:* "We broke a model 16 different ways and documented every failure." 😄
@@ -268,7 +257,8 @@ In 10 days we:
 - Phase 76 — Dr. Mistral Conversational Fine-Tuning
 - Phase 77 — Dr. Mistral Live Site Deployment
 - Phase 78 — CADMIES-Matadisco Portal (active)
-- Phase 80 — Dr. Amanda Mistral Handbook Rebuild (active)
+- Phase 80C — Dr. Mistral Evaluation (next)
+- Phase 80D — Dr. Mistral Deploy + Monitor
 - Dataset viewer for LLMDataHub records
 - SAIQL/ATLAS deterministic RAG integration
 - Dr. Mistral Flask chat interface (Phase 61)
