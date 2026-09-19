@@ -1,8 +1,8 @@
 ---
 phase: Roadmap
-date: 2026-09-18
+date: 2026-09-19
 status: LIVING DOCUMENT
-session: 058
+session: 059
 ---
 
 # 🌱 CADMIES GROWTH ROADMAP
@@ -37,7 +37,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 | PDS | v0.4.5009 | Self-hosted, stable |
 | Matadisco Producer | v1.0 | Active, rate-limit aware |
 | Dr. Mistral (Jbliterated) | v1.0 | Personality implant complete, GGUF, Ollama-ready |
-| Dr. Mistral (Handbook Rebuild) | v0.2.0 | Pipeline executed end to end. SFT + DPO adapters trained, Q8 GGUF deployed to Ollama. Eval next. |
+| Dr. Mistral (Handbook Rebuild) | v0.3.0 | Pipeline complete through Step 10 (eval). Persona baseline: 1.4/3.0 accuracy, 1.4/3.0 style with SYSTEM prompt. Training too light — pair regeneration next. |
 | CADMIES-Matadisco Portal | v0.1.0 | Indexer + API + frontend functional |
 
 ---
@@ -88,7 +88,8 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 
 ### Dr. Mistral Handbook Rebuild
 - **Phase 80A — Dr. Amanda Mistral — Handbook Rebuild and Pipeline Foundation** ✅ Complete (2026-09-14) — Spec frozen, canon assembled, handbook scaffold cherry-picked, ETL and feature engineering executed end to end. Supersedes the Phase 75 artifact shape; the 242-pair implant becomes raw source material.
-- **Phase 80B — Dr. Amanda Mistral — LLM Engineer's Handbook Pipeline Execution and Deployment** ✅ Complete (2026-09-16) — Steps 5–9 executed. 236 SFT pairs, 201 DPO triples, SFT adapter (loss 1.839→1.375), DPO adapter (rewards accuracy 0.81→0.96), merged Q8_0 GGUF (7.17 GB), running in Ollama. Eval (Step 10) and deploy+monitor (Step 11) next.
+- **Phase 80B — Dr. Amanda Mistral — LLM Engineer's Handbook Pipeline Execution and Deployment** ✅ Complete (2026-09-16) — Steps 5–9 executed. 236 SFT pairs, 201 DPO triples, SFT adapter (loss 1.839→1.375), DPO adapter (rewards accuracy 0.81→0.96), merged Q8_0 GGUF (7.17 GB), running in Ollama.
+- **Phase 80C — Dr. Amanda Mistral — LLM Engineer's Handbook Evaluation (Step 10)** ✅ Complete (2026-09-19) — Local eval pipeline built (D18–D22). GGUF evaluated via llama-cpp-python on GPU. Baseline: 1.4/3.0 accuracy, 1.4/3.0 style with SYSTEM prompt; 1.0/3.0 bare. Finding: training too light at 435 pairs. Pair regeneration is the next training move.
 
 ### Matadisco Integration
 - Phase 73A — Matadisco Integration Blueprint
@@ -106,11 +107,11 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 ## 📋 PENDING PHASES
 
 ### Immediate / In Progress
-- **Phase 80C — Dr. Mistral Evaluation (Step 10)** 🟡 Next — Design and run eval probes. Score base vs SFT vs SFT+DPO. Review pair files against drift zones. Fix carried-forward issues (final_loss logging, HF_ENDPOINT in startup.sh). Regenerate pairs where drift is found.
+- **Phase 80D — Dr. Mistral Pair Review and Regeneration** 🔴 Next — Review SFT (236) and DPO (199) pair sets against drift zones. Regenerate and expand toward the ~1,000 SFT target. Retrain SFT + DPO. Re-run eval; compare against 1.4/1.4 baseline.
 - **Phase 78 — Matadisco-CADMIES Portal** 🟢 Active — v0.1.0 built, deployed, verified. Next: dataset viewer, frontend tweaks, bulk publishing.
 
 ### Next Up
-- **Phase 80D — Dr. Mistral Deploy + Monitor (Step 11)** — Inference loop, drift capture, feedback into pair generation.
+- **Phase 80E — Dr. Mistral Deploy + Monitor (Step 11)** — Inference loop, drift capture, feedback into pair generation.
 - **Phase 76 — Dr. Mistral Conversational Fine-Tuning** — Add UltraChat or similar conversational pairs on top of the handbook rebuild.
 - **Phase 77 — Dr. Mistral Live Site Deployment** — Integrate Dr. Mistral into the Flask app on the live site.
 
@@ -120,7 +121,9 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - **No Double Work**: Both views pull from the same source data
 - **Portal Tech Stack**: Python backend (indexer + Flask API) + SQLite + vanilla frontend
 - **Handbook Adherence (Phase 80)**: Handbook is the process guide. Our data and model flow through it. Deviations are named, not hidden.
-- **Pairs Generated Outside Pipeline (D12)**: Steps 5 and 6 output produced by Claude in chat, not via ZenML steps. Handbook's OpenAI-calling steps exist but were never executed.
+- **Pairs Generated Outside Pipeline (D12)**: Steps 5 and 6 output produced by Claude in chat, not via ZenML steps.
+- **Eval Judge (D19)**: External/manual judge. Untrained Mistral cannot produce structured output. Gardener pastes answers, Claude scores.
+- **GGUF Eval (D21)**: Evaluate the exact artifact shipped, not a re-merged version.
 
 ### Not Yet Started
 - Dataset viewer — Extend or create separate viewer for LLMDataHub records
@@ -134,28 +137,33 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 
 ## 📝 SESSION NOTES
 
+### Session 059 — 2026-09-19 — LLM Engineering Handbook Eval Step 10 and the System-Prompt Finding
+- Built local eval pipeline (D18–D22). Replaced SageMaker stub with working Paperspace eval.
+- Rebuilt `llama-cpp-python` from source with CUDA after wheel `Illegal instruction` crash.
+- Ran three evals on `dr-mistral-q8.gguf`: bare, with SYSTEM prompt, and judged externally.
+- Baseline established: 1.4/3.0 accuracy, 1.4/3.0 style with SYSTEM prompt; 1.0/3.0 bare.
+- Finding: training is too light. 435 pairs total is a nudge, not a takeover.
+- System prompt is doing most of the work.
+
 ### Session 058 — 2026-09-15 to 2026-09-16 — Dr. Mistral Rebuild: Pipeline End to End
 - Executed Steps 5–9 of the LLM Engineer's Handbook pipeline on Paperspace.
 - Generated 236 instruct pairs, 201 preference triples (199 after conversion).
 - Ran SFT (QLoRA r=16, 12m 16s, loss 1.839→1.375) and DPO (QLoRA r=8, 3m 47s, loss 0.66→0.61, rewards acc 0.81→0.96).
 - Merged to Q8_0 GGUF (7.17 GB), deployed to Ollama.
-- Named deviations D12–D17: pairs outside pipeline, SentencePiece, tokenizer.model, config_path mechanism, dependency install order, HF_ENDPOINT unset.
+- Named deviations D12–D17.
 - Modelfile voice pivot: "You are..." beats "I am..." for Ollama's system-prompt injection.
-- 7 inference tests. Persona lands on clean exchanges, drifts under long context.
 
 ### Session 057 — 2026-09-11 to 2026-09-13 — Dr. Mistral Meets the LLM Engineer's Handbook
 - Rebuilt Dr. Mistral's spec from scratch. Six Q-sections, all locked.
 - Wrote three config files, five canon files, one loader, one ETL pipeline.
 - Cherry-picked the LLM Engineer's Handbook scaffold into the repo.
-- Locked the Escalation Ladder working draft (4 exchanges in 5 minutes, then hard stop).
+- Locked the Escalation Ladder working draft.
 - DeepSeek account suspended on 2026-09-12, appeal filed, reinstated.
-- Scaffold verified on 2026-09-13. ETL pending.
 
 ### Session 052 — 2026-09-01 — CADMIES-Matadisco Portal: The First Build
 - Received vmx's feedback confirming the portal/AppView approach
 - Built indexer, API server, and frontend
 - Verified pipeline: PDS → SQLite → API → frontend
-- Searched "anatta" and "interconnectedness" — results displayed
 - Portal functional, v0.1.0 complete
 
 ### Session 051 — 2026-08-28 to 2026-08-30 — Dr. Mistral Rises: The run.py That Never Was
@@ -219,12 +227,11 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - Delaware is our Malta — small, sovereign legal fortress
 - Project Hierion's permanent home: https://project-hierion.org
 - "FAITH OF A MUSTARD SEED." — The gardener's favorite quote
-- **El Hierro** — The Canary Island that shares the project's name; now canon as the origin of the initial CADMIES spore
-- **31UCR** — The MGRS grid square of Northern France, Dr. Mistral's homeland, spotted on 2026-08-10
+- **El Hierro** — The Canary Island that shares the project's name
+- **31UCR** — The MGRS grid square of Northern France, Dr. Mistral's homeland
 - **"The problem wasn't the service — it was the old file."** — The translate.js lesson
-- **"The mycelium grows in every language."** — From Session 047B
+- **"The mycelium grows in every language."** — Session 047B
 - **"The Frankenstein moment: It's alive. IT'S ALIVVVVVVVVVE!!!!"** — Session 052
-- **"I just came in my panties."** — The Gardener, upon seeing the search results
 - **"The hyphen is sacred."**
 - **"The spec is frozen. The engineering is not. Keep them separate."** — Session 057
 - **"A classifier doesn't read intent. It reads topic density."** — Session 057
@@ -234,6 +241,9 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - **"Training worked. What's broken is inference setup, not training."** — Session 058
 - **"She knows the facts. Every canon detail landed. The voice drifts but the knowledge holds."** — Session 058
 - **"The pipeline is the pipeline. The character is the character. We have a pipeline. We have a first-pass character. The rest is iteration."** — Phase 80B
+- **"The trained model is answering like a generic assistant that has been told about Dr. Mistral — not like Dr. Mistral."** — Session 059
+- **"Bare GGUF: accuracy 1.0. With system prompt: 1.4. The prompt is doing most of the work."** — Session 059
+- **"236 SFT + 199 DPO pairs on a 7B QLoRA is a light touch. The model knows the words mycelium and CADMIES now. It has not become her."** — Session 059
 
 ### The Great July 19-27 Run
 *DeepSeek's iconic quote:* "We broke a model 16 different ways and documented every failure." 😄
@@ -257,8 +267,8 @@ In 10 days we:
 - Phase 76 — Dr. Mistral Conversational Fine-Tuning
 - Phase 77 — Dr. Mistral Live Site Deployment
 - Phase 78 — CADMIES-Matadisco Portal (active)
-- Phase 80C — Dr. Mistral Evaluation (next)
-- Phase 80D — Dr. Mistral Deploy + Monitor
+- Phase 80D — Dr. Mistral Pair Review and Regeneration (next)
+- Phase 80E — Dr. Mistral Deploy + Monitor
 - Dataset viewer for LLMDataHub records
 - SAIQL/ATLAS deterministic RAG integration
 - Dr. Mistral Flask chat interface (Phase 61)
