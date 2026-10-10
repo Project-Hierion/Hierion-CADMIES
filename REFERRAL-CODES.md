@@ -18,7 +18,7 @@ We use a handful of cloud and infrastructure services to keep Project Hierion ru
 
 **Why we use it:** The top GPUs at one ridicously low price. Thed Droplet can host multiple sites and projects. One tiny droplet runs the entire public gateway.
 
-**The Deal:** Invite someone to DigitalOcean. Once they spend and pay their first $25, you'll also receive $25 in credit.
+**The Deal:** Invite someone to DigitalOcean. Once they spend and pay their first $25USD, you'll also receive $25USD in credit.
 
 **Hierion's Referral - Click The Button:** [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=fd70c6e2650a&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
@@ -30,7 +30,7 @@ We use a handful of cloud and infrastructure services to keep Project Hierion ru
 
 **Why we use it:** ULTIMATE PRIVACY. No data collection. ULTIMATE ENCRYPTION.
 
-**The Deal:** Sign up. We both save $20/month!!
+**The Deal:** Sign up. We both save $20USD/month. 5 referrals and your bill is $0
 
 **Hierion's Referral Link:** [Cape Wireless ](https://cape.co/get-cape?referral=ZCWW60AA)
 
@@ -48,20 +48,24 @@ We use a handful of cloud and infrastructure services to keep Project Hierion ru
 
 ---
 
+### Proton Mail
+
+**What it is:** Encrypted email, calendar, and drive — privacy-first by default.
+
+**Why we use it:** End-to-end encryption, no ads, no tracking, and Swiss privacy laws. A natural fit for Hierion's privacy-first ethos.
+
+**The Deal:** Sign up for a paid plan and we both get $20USD in credits.
+
+**Hierion's Referral Link:** [Proton Mail](https://pr.tn/ref/08MFKQM4)
+
+---
+
 ## 📖 Usage Guidelines
 
 - These links are here for your benefit. Use them if they help you.
 - If you use a code and run into issues, let us know — we'll help if we can.
 - If you'd prefer to sign up directly, no hard feelings. The mycelium doesn't judge.
 - If you have a code you'd like to share, share it here. No spam, please.
-
----
-
-## Version History
-
-| Date | Version | Changes |
-|------|---------|---------|
-| 2026-08-04 | 1.0 | Initial referral codes page |
 
 ---
 
