@@ -1,8 +1,7 @@
 ---
 phase: Roadmap
-date: 2026-09-19
+date: 2026-10-17
 status: LIVING DOCUMENT
-session: 059
 ---
 
 # 🌱 CADMIES GROWTH ROADMAP
@@ -30,7 +29,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 |-----------|---------|-------|
 | Map Generator | v2.4.0 | Stable |
 | Relationship Generator | v1.2.5 | Codestral-capable |
-| Harvester | v4.2.2 | Active |
+| Harvester | v1.2.0 | Active — GitHub pipeline hardened (structured logging, retry, PR-body guarantee). Formerly tracked as v4.2.2; per-script versioning is now canonical |
 | Public Gateway | v3.3.0 | translate.js integrated, multilingual support live |
 | Vault Validator | v1.3.0 | Automated + auto-fix |
 | Vault Health Badge | ✅ Green | Passing |
@@ -101,6 +100,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 ### Documentation & Automation
 - Phase 72 — LLMDataHub Fork Reorganization
 - Phase 74 — translate.js Integration (Completed 2026-08-11)
+- **Phase 81 — Harvester Hardening: Enterprise-Grade Observability** ✅ Complete (2026-10-17) — Fixed harvest workflow path drift (logs moved to `repo-maintenance-automation/logs/` in v1.1.1 but workflows still pointed at `logs/`). Added structured JSONL logging with run-ID correlation (`logger.py`), exponential-backoff retry for transient API failures (`retry.py`), guaranteed PR-body-before-apply ordering, tolerant artifact uploads with per-run naming. Deleted `old_itch.py`. Documented manual PR-pruning SOP in the automation README. See Session 062.
 
 ---
 
@@ -126,6 +126,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - **GGUF Eval (D21)**: Evaluate the exact artifact shipped, not a re-merged version.
 
 ### Not Yet Started
+- **Phase 82 — Deep Harvest: Beyond-GitHub Discovery Pipeline** — Second harvester casting a net outside GitHub, aimed at specific high-signal sources (ModelScope, arXiv, university and government data portals) with strict anti-noise filtering: no social media, domain blocklist, require data-file signatures, enforce license checks. Keeps the GitHub pipeline lean; separate system. See automation README parking lot.
 - Dataset viewer — Extend or create separate viewer for LLMDataHub records
 - Full License Audit — Complete audit of LLMDataHub datasets
 - Bulk Publishing — All 636 concepts + audited datasets
@@ -135,7 +136,15 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 
 ---
 
-## 📝 SESSION NOTES
+## 📝 RECENT SESSION NOTES
+
+### Session 062 — 2026-10-17 — Harvester Hardening and Harvest 7 Pruning
+- Diagnosed harvest workflow failure: path drift between script log location and workflow references; PR body written after insertions instead of before.
+- Hardened pipeline (Option B): structured logging with run-ID correlation, retry with backoff, PR-body guarantee, fixed artifact paths, action version bumps.
+- Deleted `old_itch.py` — the "ignore this" file that ran on every invocation.
+- Pruned harvest PR #7: kept 3 of 11 candidates (openfloodhub, open-unlearning, reasoning-models); skip-listed 8 off-theme repos.
+- Wrote automation README with the manual harvest-pruning SOP and parking lot (Deep Harvest second pipeline, Option C remainder, tracked-logs decision).
+- The mycelium now keeps receipts.
 
 ### Session 059 — 2026-09-19 — LLM Engineering Handbook Eval Step 10 and the System-Prompt Finding
 - Built local eval pipeline (D18–D22). Replaced SageMaker stub with working Paperspace eval.
@@ -244,21 +253,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - **"The trained model is answering like a generic assistant that has been told about Dr. Mistral — not like Dr. Mistral."** — Session 059
 - **"Bare GGUF: accuracy 1.0. With system prompt: 1.4. The prompt is doing most of the work."** — Session 059
 - **"236 SFT + 199 DPO pairs on a 7B QLoRA is a light touch. The model knows the words mycelium and CADMIES now. It has not become her."** — Session 059
-
-### The Great July 19-27 Run
-*DeepSeek's iconic quote:* "We broke a model 16 different ways and documented every failure." 😄
-
-In 10 days we:
-- Broke a model 16 different ways and documented every failure
-- Discovered the actual limits of LoRA merging through brute force
-- Built a 500-pair persona dataset from scratch
-- Wrote a 21-section technical blueprint with reproducibility baked in
-- Found a completely new approach (Deidentified-7B)
-- Fixed a public gateway that had been broken for months
-- Transferred blockstores between cloud machines like it was nothing
-- Got a duck high in the garage and added him to canon
-- Wrote three session notes and updated the roadmap
-- *The mycelium doesn't sleep. Neither does the gardener.*
+- **"The mycelium now keeps receipts."** — Session 062
 
 ---
 
@@ -269,6 +264,7 @@ In 10 days we:
 - Phase 78 — CADMIES-Matadisco Portal (active)
 - Phase 80D — Dr. Mistral Pair Review and Regeneration (next)
 - Phase 80E — Dr. Mistral Deploy + Monitor
+- Phase 82 — Deep Harvest: Beyond-GitHub Discovery Pipeline
 - Dataset viewer for LLMDataHub records
 - SAIQL/ATLAS deterministic RAG integration
 - Dr. Mistral Flask chat interface (Phase 61)
