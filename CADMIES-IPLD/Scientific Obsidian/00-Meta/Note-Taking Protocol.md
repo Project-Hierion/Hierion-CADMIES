@@ -1,7 +1,7 @@
 ---
 type: protocol
-version: 1.2.0
-date: 2026-07-29
+version: 1.3.0
+date: 2026-10-17
 status: Living document — updated as conventions evolve
 related: [[NASA-level standards reference]], [[CADMIES-Canon]], [[Architecture Overview]]
 ---
@@ -11,6 +11,8 @@ related: [[NASA-level standards reference]], [[CADMIES-Canon]], [[Architecture O
 ## Purpose
 
 This protocol governs how notes are created, formatted, linked, and promoted within the Scientific Obsidian vault. It ensures consistency across Raw CADMIES and Polished CADMIES, making the vault navigable for gardeners, collaborators, and PhDs alike. Standards are informed by NASA-level scientific documentation practices where applicable.
+
+**Core Philosophy:** The vault is a living memory. If it isn't written down, it didn't happen. If it's written down vaguely, it's useless later.
 
 ---
 
@@ -51,12 +53,15 @@ Format: `Session-XXX-YYYY-MM-DD-Description-With-Hyphens.md`
 Examples:
 - `Session-037-2026-07-16-The-Mycelium-Cleans-Itself.md`
 - `Session-041-2026-07-28-LLMDataHub-Fork-Reorganization.md`
+- `Session-061-2026-10-17-Building-The-Gardeners-Wall-Blog.md`
 
 Rules:
 - Starts with `Session-` followed by the session number
 - Date in YYYY-MM-DD format, separated by hyphens
 - Description uses hyphens between all words
 - No dots, no ampersands, no em-dashes
+- Use `and` not `&`
+- Use `Dr` not `Dr.`
 
 ### General Rules
 
@@ -75,14 +80,40 @@ Every note in Raw CADMIES begins with a banner:
 > unfiltered thoughts, and coded messages for fellow gardeners.
 > For polished documentation, check Polished CADMIES or promote this note.
 
+**The Field Notes Style (Casual Friday)**
+
+Raw notes are **narrative-driven records**, not rigid forms. The goal is to capture the *story* of the day so that six months from now, you remember exactly what happened, why it broke, and how you fixed it.
+
+**Golden Rule:** **Cover Everything.** If we touched it, broke it, fixed it, or argued about it, it goes in the note. If you forget a detail today, you'll regret it next month.
+
+**Structure (Loose, Narrative-First):**
+
+1.  **What We Did (The Story):** Write chronologically. Don't just say "Fixed bug." Tell the story: *"Spent 45 mins debugging why the blog wasn't loading. Turns out the nginx config had a typo: `hirerion` instead of `hierion`. Fixed it, reloaded, live."* Include commands, error messages, and the "aha!" moments.
+2.  **The Breakdown (What Failed):** What failed? What was confusing? What took way too long? Be specific. *"The deploy key didn't work because the SSH config had the wrong path. Wasted 20 mins before realizing the typo."*
+3.  **Decisions & Why:** What did we decide? Why? *"Decided to use a 30-min cron pull instead of instant webhook. Reason: simple, safe, gives us a grace window to edit mistakes before they go live."*
+4.  **Nuggets & Vibes:** The funny moments, the weird insights, the "aha!" moments. *"Realized the mycelium philosophy applies to git branches too: they grow, connect, and sometimes need pruning."*
+5.  **Next Steps (Optional):** Only if there's a clear, actionable task left hanging. Otherwise, skip it.
+
+**Tone Guidelines:**
+-   **Honest:** Admit when you messed up. *"I forgot to set the password for the cadmies user and got stuck for an hour."*
+-   **Specific:** Names, commands, timestamps, error messages.
+-   **Human:** It's okay to say "this sucked" or "that was cool."
+-   **No Fluff:** Cut the corporate speak. Get straight to the point.
+
+**Example Snippet (Good):**
+> "We spent the afternoon building the blog. Started with a private repo, added a deploy key, then realized the droplet didn't have Hugo installed. Installed it, built the site, but Nginx was serving the default page because the server_name was misspelled. Fixed the typo, reloaded, SSL issued. Finally live! The vibe was 'frustrated but triumphant.'"
+
+**Example Snippet (Bad - Too Rigid):**
+> "**What We Did:** Built blog. **What Broke:** Nginx. **Fix:** Typo. **Next Steps:** None."
+
 **Rules for Raw:**
 
-- Write freely. Grammar optional. Structure optional. Vibes mandatory.
-- Date your entries. Even a quick `2026-05-14` at the top helps trace idea lineage.
-- Use `[[double brackets]]` to link to related concepts, phases, sessions, or people — even if the target note doesn't exist yet. Red links are future spores.
-- Tag generously but loosely. `#idea`, `#question`, `#breakthrough`, `#bug`, `#wtf`
-- No pressure to organize. The mycelium finds connections organically.
-- Session notes must include the standard session template sections.
+-   Write freely. Grammar optional. Structure optional. Vibes mandatory.
+-   Date your entries. Even a quick `2026-05-14` at the top helps trace idea lineage.
+-   Use `[[double brackets]]` to link to related concepts, phases, sessions, or people — even if the target note doesn't exist yet. Red links are future spores.
+-   Tag generously but loosely. `#idea`, `#question`, `#breakthrough`, `#bug`, `#wtf`
+-   No pressure to organize. The mycelium finds connections organically.
+-   Session notes must include the standard session template sections (but follow the Field Notes style above).
 
 ---
 
@@ -117,11 +148,9 @@ Status values are standardized. Use plain text: Complete, In Progress, Designed,
 
 A blank line must separate the YAML frontmatter closing --- from the content.
 
-YAML Frontmatter Rule
-Polished notes use YAML frontmatter (the --- block at the top). The only --- in any note is the YAML block. For section dividers in the body, use *** (three asterisks). All frontmatter fields use lowercase keys. Required fields vary by document type — see repo-maintenance-automation/config.yaml for the authoritative list.
+YAML Frontmatter Rule Polished notes use YAML frontmatter (the --- block at the top). The only --- in any note is the YAML block. For section dividers in the body, use *** (three asterisks). All frontmatter fields use lowercase keys. Required fields vary by document type — see repo-maintenance-automation/config.yaml for the authoritative list.
 
-Promotion Criteria: Raw → Polished
-A note is ready for promotion when:
+Promotion Criteria: Raw → Polished A note is ready for promotion when:
 
 It has a clear title that describes its content.
 
@@ -137,8 +166,7 @@ All wikilinks resolve to actual files. Dead links must be fixed or removed befor
 
 Promotion is optional. Not every raw note needs to become polished. Some spores stay in the scrawl forever.
 
-Linking Philosophy
-The vault is a graph, not a hierarchy. Link aggressively:
+Linking Philosophy The vault is a graph, not a hierarchy. Link aggressively:
 
 [[Phase-35-Difficulty-Levels]] — links to phase documentation
 
@@ -152,8 +180,7 @@ Red links (notes that don't exist yet) are planted spores. They mark where futur
 
 Script files, concept IDs, and other non-note references should use backtick code formatting, not wikilinks.
 
-Automation & Validation
-The vault is monitored by an automated validation system at repo-maintenance-automation/.
+Automation & Validation The vault is monitored by an automated validation system at repo-maintenance-automation/.
 
 validate_vault.py — scans all notes for frontmatter consistency, dead wikilinks, missing sections, duplicate files, roadmap drift, and missing file extensions.
 
@@ -171,46 +198,38 @@ Backups: Every automated fix creates a timestamped backup.
 
 Configuration: config.yaml defines required fields and sections. Update it when standards evolve.
 
-Session Summary Template
-Create one note per development session in Raw-CADMIES/Session-Notes/.
+Session Summary Template Create one note per development session in Raw-CADMIES/Session-Notes/.
 
-# Session XXX — YYYY-MM-DD — Brief Description
-
-## Soundtrack
+Session XXX — YYYY-MM-DD — Brief Description
+Soundtrack
 (If the gardener says they're playing music or a video or movie)
 
-## What We Did
+What We Did
+(Write a narrative story of the day's work. Cover everything. Be specific.)
 
-## What Worked
+The Breakdown
+(What failed? What was confusing?)
 
-## What Broke
+Decisions & Why
+(What did we decide and why?)
 
-## Decisions Made
+Nuggets & Vibes
+(Funny moments, weird insights, quotes)
 
-## Nuggets Collected
+Next Steps (Optional)
+(Only if there's a clear, actionable task left hanging)
 
-Tags
-Tag	Usage
-#idea	A new concept, approach, or possibility
-#question	Something that needs answering
-#breakthrough	A significant insight or discovery
-#bug	Something broken that needs fixing
-#decision	An architectural or design choice
-#phase-XX	Relates to a specific roadmap phase
-#harvester, #map, #gateway	Tool-specific notes
-#collaboration	Cross-mycelium or external partnership
-Collaboration Notes
-All external collaboration documentation lives in Polished-CADMIES/05-Collaboration/. Each collaborator gets a note with: who they are, what they built, how their work intersects with CADMIES, links to their work, and collaboration status.
+Tags Tag Usage #idea A new concept, approach, or possibility #question Something that needs answering #breakthrough A significant insight or discovery #bug Something broken that needs fixing #decision An architectural or design choice #phase-XX Relates to a specific roadmap phase #harvester, #map, #gateway Tool-specific notes #collaboration Cross-mycelium or external partnership
 
-Classification & Privacy
-Polished notes are safe for public viewing. No personal information beyond first initial.
+Collaboration Notes All external collaboration documentation lives in Polished-CADMIES/05-Collaboration/. Each collaborator gets a note with: who they are, what they built, how their work intersects with CADMIES, links to their work, and collaboration status.
+
+Classification & Privacy Polished notes are safe for public viewing. No personal information beyond first initial.
 
 Raw notes may contain local paths, unfiltered thoughts, and personal references. Not for public distribution.
 
 Sensitive files are excluded from GitHub via .gitignore.
 
-Credit & Attribution
-All influences are documented. Link to sources.
+Credit & Attribution All influences are documented. Link to sources.
 
 NASA-level scientific documentation standards inform the structure and rigor of polished phase notes.
 
@@ -218,25 +237,24 @@ The Naming Protocol uses hyphens to denote partnership: CADMIES-Mistral, CADMIES
 
 CADMIES is CC BY-SA 4.0. All vault content inherits this license.
 
-Evolution
-This protocol is version 1.2.0. It will change as we learn what works. The Casual Friday approach applies: start lenient, increase rigor organically. The mycelium teaches us how to document it.
+Evolution This protocol is version 1.3.0. It will change as we learn what works. The Casual Friday approach applies: start lenient, increase rigor organically. The mycelium teaches us how to document it.
 
-What Changed (v1.1.0 → v1.2.0)
-Changed:
+What Changed (v1.2.0 → v1.3.0) Changed:
 
-File naming: hyphens only. Spaces, em-dashes, dots, and ampersands are no longer permitted in filenames. All filenames use hyphens between all words. This enforces machine-readability and scientific rigor. (Session 041 cleanup)
-
-Phase note format: Phase-XX-Description-With-Hyphens.md — no Dr., no &, no —
-
-Session note format: Session-XXX-YYYY-MM-DD-Description-With-Hyphens.md — date now separated by hyphens, not em-dashes
-
-Updated examples throughout to reflect current filenames
-
-Removed "Next Steps" from session template (was already removed in v1.1.0 but still appeared)
-
-Clarified that Dr is used without a dot, and replaces &
-
-Why:
-During the Session 041 filename uniformity work, we discovered that em-dashes, dots, and ampersands in filenames cause cascading link breakage across the vault. Hyphens-only filenames are machine-parseable, command-line safe, and eliminate entire categories of dead links. The standard is now simple and enforceable: hyphens only.
+Added Field Notes Style guidelines to Raw CADMIES: Shifted from rigid templates to narrative-driven recording. Emphasized "Cover Everything" and "Storytelling" over form-filling.
+Updated Session Summary Template to reflect the narrative approach.
+Clarified tone guidelines: Honest, Specific, Human.
+Added examples of Good vs. Bad snippets to illustrate the difference.
+Why: During Session 061 (Building The Gardener's Wall), we realized that rigid templates were causing notes to feel sterile and incomplete. The goal is a comprehensive memory bank, not a checklist. By encouraging narrative storytelling with specific technical details, we ensure that future gardeners (and future models) can reconstruct the exact context of past decisions and failures.
 
 "The fortress holds the library. The library holds the records. The mycelium holds the knowledge. Scientific Obsidian is the glass that remembers."
+
+
+---
+
+### Key Changes in v1.3.0:
+1.  **Field Notes Style Section:** Explicitly defines the "Casual Friday" vibe.
+2.  **Narrative-First Structure:** Replaces rigid "What Worked/Broke" lists with a storytelling approach that still captures the same data.
+3.  **"Cover Everything" Rule:** Makes it a golden rule to ensure no technical detail is lost.
+4.  **Updated Examples:** Added "Good" vs. "Bad" snippets to illustrate the difference between a rigid form and a useful field note.
+5.  **Session Template Update:** Modified the template header to guide writers toward the narrative style.
