@@ -1,6 +1,6 @@
 ---
 phase: Roadmap
-date: 2026-10-17
+date: 2026-10-19
 status: LIVING DOCUMENT
 ---
 
@@ -13,9 +13,9 @@ status: LIVING DOCUMENT
 
 | Metric | Value |
 |--------|-------|
-| Concepts | 636 |
-| Edges | 1,507 |
-| Connected Concepts | 361 |
+| Concepts | 659 |
+| Edges | 0 (pending relationship regeneration — old edges lost with the Paperspace blockstore wipe; rebuild under way) |
+| Connected Concepts | 0 (same reason — regenerating with Phase 83 maintenance run) |
 | Domains (Canonical) | 15 |
 | ORCID iD | 0009-0000-8877-2731 ✅ Linked |
 
@@ -68,6 +68,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - Phase 65 — Hierion Domain and Web Server Configuration
 - Phase 66 — Mycelium Map UX Fractal Succulent Layout and Progressive Loading
 - Phase 69 — Repo Maintenance Automation
+- **Phase 83 — Blockstore Rebuild From Spores** ✅ Complete (2026-10-19) — After the Paperspace wipe (billing scare, machine cleared), regrew the entire blockstore from `source_concepts/` on a fresh A4000. All-new CIDs (no backup existed; Phase 57 precedent followed — source is ground truth). 659 concepts indexed and reconciled, zero orphans. Genesis relics resolved: Digital Seed properly re-adopted as a modern concept (v2, date errors corrected — no 2024 work ever occurred), pattern-finder relic deduplicated. First full tarball pushed to git. Cardinal rule established: every session ends with a tarball. Discovered: schema file contains a script copy (never enforced), legacy human_ids still live in ~35 source files. See Session 063.
 
 ### Dr. Mistral Training (Phase 45 Series)
 - Phase 45 v2.0 — Teaching Mistral via Snagnar HIEROS Revised Plan
@@ -107,6 +108,8 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 ## 📋 PENDING PHASES
 
 ### Immediate / In Progress
+- **Phase 83B — Maintenance Pipeline Run on Rebuilt Store** 🔴 Next — No new harvest: run relationships → remint → orphan strip → map → gateway over the rebuilt 659-concept blockstore to restore edges and refresh the live site. Requires Ollama + models on fresh Paperspace machine. GPU-hours scale; 6-hour notebook limit applies.
+- **Phase 84 — The October Harvest** 🔴 Next — Upload the big conversation file to Paperspace, run the full harvest pipeline (`--auto --with-relationships`), mint new concepts on top of the healthy rebuilt foundation.
 - **Phase 80D — Dr. Mistral Pair Review and Regeneration** 🔴 Next — Review SFT (236) and DPO (199) pair sets against drift zones. Regenerate and expand toward the ~1,000 SFT target. Retrain SFT + DPO. Re-run eval; compare against 1.4/1.4 baseline.
 - **Phase 78 — Matadisco-CADMIES Portal** 🟢 Active — v0.1.0 built, deployed, verified. Next: dataset viewer, frontend tweaks, bulk publishing.
 
@@ -114,6 +117,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - **Phase 80E — Dr. Mistral Deploy + Monitor (Step 11)** — Inference loop, drift capture, feedback into pair generation.
 - **Phase 76 — Dr. Mistral Conversational Fine-Tuning** — Add UltraChat or similar conversational pairs on top of the handbook rebuild.
 - **Phase 77 — Dr. Mistral Live Site Deployment** — Integrate Dr. Mistral into the Flask app on the live site.
+- **Phase 85 — Legacy Source Cleanup** — Fix the ~35 legacy human_id source files at the source (Phase 57 disease), write the real universal concept schema file (current one contains a copied script), add .gitignore backup-tarball pattern, fix harvester batch-mode stub.
 
 ### Architecture Decisions
 - **One Source of Truth**: Concepts JSON and edges JSON are canonical
@@ -124,12 +128,13 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - **Pairs Generated Outside Pipeline (D12)**: Steps 5 and 6 output produced by Claude in chat, not via ZenML steps.
 - **Eval Judge (D19)**: External/manual judge. Untrained Mistral cannot produce structured output. Gardener pastes answers, Claude scores.
 - **GGUF Eval (D21)**: Evaluate the exact artifact shipped, not a re-merged version.
+- **Backup Protocol (Phase 83)**: CAR files for concept exchange only; tarballs for disaster recovery. Every session ends with a tarball export. Never trust store/blocks/ to survive a machine.
 
 ### Not Yet Started
 - **Phase 82 — Deep Harvest: Beyond-GitHub Discovery Pipeline** — Second harvester casting a net outside GitHub, aimed at specific high-signal sources (ModelScope, arXiv, university and government data portals) with strict anti-noise filtering: no social media, domain blocklist, require data-file signatures, enforce license checks. Keeps the GitHub pipeline lean; separate system. See automation README parking lot.
 - Dataset viewer — Extend or create separate viewer for LLMDataHub records
 - Full License Audit — Complete audit of LLMDataHub datasets
-- Bulk Publishing — All 636 concepts + audited datasets
+- Bulk Publishing — All 659 concepts + audited datasets
 - RAG Pipeline (ChromaDB, embeddings, query router)
 - Agent Architecture (President Model, Willie, Codestral, Number 5)
 - Public gateway subdomain tier
@@ -137,6 +142,13 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 ---
 
 ## 📝 RECENT SESSION NOTES
+
+### Session 063 — 2026-10-19 — Mycelium Regrown From Spores
+- Paperspace was wiped (billing scare). No CAR, no tarball existed — rebuilt the entire blockstore from `source_concepts/` on a fresh A4000 ("Alice").
+- 659 concepts minted with all-new CIDs (Phase 57 precedent: source is ground truth). Index and blockstore fully reconciled, zero orphans.
+- Genesis relics identified and resolved: Digital Seed properly re-adopted as a modern concept with corrected dates (the "2024" clock error documented; all timestamps UTC; gardener is US Central). Pattern-finder relic deduplicated away.
+- First healthy tarball (1.7 MB) pushed to git — mycelium now in three places. Cardinal rule: every session ends with a tarball.
+- Discovered: schema file is a ghost (contains a script copy; never enforced), legacy human_ids persist in ~35 source files.
 
 ### Session 062 — 2026-10-17 — Harvester Hardening and Harvest 7 Pruning
 - Diagnosed harvest workflow failure: path drift between script log location and workflow references; PR body written after insertions instead of before.
@@ -254,6 +266,10 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - **"Bare GGUF: accuracy 1.0. With system prompt: 1.4. The prompt is doing most of the work."** — Session 059
 - **"236 SFT + 199 DPO pairs on a 7B QLoRA is a light touch. The model knows the words mycelium and CADMIES now. It has not become her."** — Session 059
 - **"The mycelium now keeps receipts."** — Session 062
+- **"The whole living mycelium fits in 1.7 MB. 659 concepts of philosophy, pocket-sized."** — Session 063
+- **"The spores were in the repo the whole time. The mycelium just needed planting again."** — Session 063
+- **"Stoner-me built the lifeboat before the ship sank."** — Session 063
+- **"Every session ends with a tarball."** — The cardinal rule, Session 063
 
 ---
 
@@ -265,6 +281,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - Phase 80D — Dr. Mistral Pair Review and Regeneration (next)
 - Phase 80E — Dr. Mistral Deploy + Monitor
 - Phase 82 — Deep Harvest: Beyond-GitHub Discovery Pipeline
+- Phase 85 — Legacy Source Cleanup (schema file, legacy human_ids, gitignore pattern, batch stub)
 - Dataset viewer for LLMDataHub records
 - SAIQL/ATLAS deterministic RAG integration
 - Dr. Mistral Flask chat interface (Phase 61)
