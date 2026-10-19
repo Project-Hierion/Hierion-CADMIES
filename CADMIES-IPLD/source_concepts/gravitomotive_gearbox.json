@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "human_id": "Gravitomotive Gearbox",
+  "human_id": "gravitomotive_gearbox",
   "title": "Gravitomotive Gearbox",
   "definition": "A theoretical model that describes the relationship between a black hole singularity and its event horizon, comparing their rotational dynamics to a mechanical gearbox.",
   "type": "TheoreticalConcept",

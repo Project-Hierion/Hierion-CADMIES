@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_seed",
+  "title": "Digital Seed",
+  "definition": "The founding concept of the CADMIES mycelium: a single content-addressed unit of knowledge, planted to grow an interconnected ecosystem of understanding. Every concept in the library descends from this original encoding.",
+  "type": "CoreConcept",
+  "domain": "Hierion",
+  "subdomain": "Genesis",
+  "proofs": [
+    {
+      "type": "genesis_relic",
+      "description": "Re-minted from the original Hieros-era genesis block (CID bafyreifek2pbsi22...), the first block ever created in the mycelium",
+      "confidence": 1.0,
+      "date": "2025-10-01",
+      "reference": "CADMIES Genesis Re-Seed, session of 2026-10-19 (UTC)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-19T03:07:00.000000Z",
+    "creator": "CADMIES_Genesis_ReSeed",
+    "certainty_score": 1.0,
+    "version": 2,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": "Hieros:CoreConcept/DigitalSeed",
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The first seed planted in the garden of knowledge. Everything else grew from here.",
+    "intermediate": "A digital seed is a unit of knowledge encoded so its address derives from its content — the same idea always lands at the same place, no matter who plants it or when.",
+    "expert": "Content-addressed genesis: the seed's meaning persists independent of its CID. The original block was lost with its blockstore, yet the concept survived through its source and lore — proof that knowledge, not its address, is what the mycelium preserves."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "origin": "genesis",
+    "original_mint_date": "2025-10-01",
+    "original_block_cid": "bafyreifek2pbsi22avbimu2copeczblrmqpl6sntdftqfq5maernycn75u",
+    "date_correction_note": "Original block carried '2024-10-01' due to a known system clock error on early machines. Actual first work occurred 2025. All dates in this entry are corrected accordingly.",
+    "timezone_note": "All timestamps UTC (Zulu). Gardener local time is US Central (UTC-5/-6); apparent off-by-one-day discrepancies are timezone artifacts.",
+    "note": "Founder concept. Lore-grounded: every CADMIES session note references the mycelium this seed began."
+  }
+}
