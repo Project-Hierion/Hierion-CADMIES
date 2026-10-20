@@ -1,0 +1,38 @@
+{
+    "relationships": {
+        "black_hole": [
+            {"target": "black_hole_properties", "type": "builds_upon"},
+            {"target": "black_hole_formation", "type": "builds_upon"},
+            {"target": "black_hole_evolution", "type": "builds_upon"}
+        ],
+        "black_hole_evaporation": [
+            {"target": "black_hole", "type": "specializes"},
+            {"target": "black_hole_properties", "type": "related_to"}
+        ],
+        "black_hole_evolution": [
+            {"target": "black_hole_formation", "type": "builds_upon"},
+            {"target": "black_hole", "type": "specializes"}
+        ],
+        "black_hole_formation": [
+            {"target": "black_hole", "type": "specializes"},
+            {"target": "black_hole_properties", "type": "related_to"}
+        ],
+        "black_hole_properties": [
+            {"target": "black_hole", "type": "specializes"}
+        ],
+        "bodhi_rebase": [
+            {"target": "bodhi_tree_enlightenment", "type": "builds_upon"},
+            {"target": "buddha_becoming", "type": "related_to"}
+        ],
+        "bodhi_tree_enlightenment": [
+            {"target": "buddha_becoming", "type": "specializes"},
+            {"target": "boundless_peace", "type": "related_to"}
+        ],
+        "bottle": [
+            {"target": "buddha_becoming", "type": "related_to"}
+        ],
+        "boundless_peace": [
+            {"target": "bodhi_tree_enlightenment", "type": "contradicts"}
+        ],
+        "buddha_becoming": [
+            {"target": "bodhi_rebase", "type": "related_to"}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CADMIES — Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem</title>
-    <meta name="description" content="A decentralized knowledge graph of 636 interconnected scientific and philosophical concepts. Content-addressed. Open-source. Forever." />
+    <meta name="description" content="A decentralized knowledge graph of 234 interconnected scientific and philosophical concepts. Content-addressed. Open-source. Forever." />
     <link rel="icon" type="image/png" href="favicon.png" />
 
     <link rel="stylesheet" href="splash.css" />
@@ -114,15 +114,15 @@
 
                 <div class="stats-grid" id="stats-grid">
                     <div class="stat-card" data-stat="concepts">
-                        <div class="stat-number" id="stat-concepts">636</div>
+                        <div class="stat-number" id="stat-concepts">234</div>
                         <div class="stat-label">Concepts</div>
                     </div>
                     <div class="stat-card" data-stat="domains">
-                        <div class="stat-number" id="stat-domains">108</div>
+                        <div class="stat-number" id="stat-domains">44</div>
                         <div class="stat-label">Domains</div>
                     </div>
                     <div class="stat-card" data-stat="relationships">
-                        <div class="stat-number" id="stat-relationships">1507</div>
+                        <div class="stat-number" id="stat-relationships">222</div>
                         <div class="stat-label">Relationships</div>
                     </div>
                     <div class="stat-card" data-stat="license">
@@ -241,8 +241,8 @@
                 <div class="browse-controls">
                     <input type="text" id="browse-search" placeholder="Search concepts..." />
                     <div class="domain-filters" id="browse-filters">
-                        <button class="filter-btn active" data-filter="all">All (636)</button>
-                        <button class="filter-btn" data-filter="Physics">Physics (112)</button><button class="filter-btn" data-filter="Philosophy">Philosophy (219)</button><button class="filter-btn" data-filter="Biology">Biology (54)</button><button class="filter-btn" data-filter="Mathematics">Mathematics (5)</button><button class="filter-btn" data-filter="Consciousness">Consciousness Studies (2)</button><button class="filter-btn" data-filter="Chemistry">Chemistry (5)</button><button class="filter-btn" data-filter="Ethics">Ethics (6)</button><button class="filter-btn" data-filter="Computer Science">Computer Science (20)</button><button class="filter-btn" data-filter="Psychology">Psychology (18)</button><button class="filter-btn" data-filter="Spirituality">Spirituality (15)</button><button class="filter-btn" data-filter="Neuroscience">Neuroscience (19)</button><button class="filter-btn" data-filter="Sociology">Sociology (20)</button><button class="filter-btn" data-filter="Economics">Economics (4)</button><button class="filter-btn" data-filter="Ecology">Ecology (3)</button><button class="filter-btn" data-filter="Medicine">Medicine (3)</button>
+                        <button class="filter-btn active" data-filter="all">All (234)</button>
+                        <button class="filter-btn" data-filter="Physics">Physics (37)</button><button class="filter-btn" data-filter="Philosophy">Philosophy (88)</button><button class="filter-btn" data-filter="Biology">Biology (20)</button><button class="filter-btn" data-filter="Consciousness">Consciousness Studies (1)</button><button class="filter-btn" data-filter="Chemistry">Chemistry (2)</button><button class="filter-btn" data-filter="Ethics">Ethics (1)</button><button class="filter-btn" data-filter="Computer Science">Computer Science (9)</button><button class="filter-btn" data-filter="Psychology">Psychology (9)</button><button class="filter-btn" data-filter="Spirituality">Spirituality (3)</button><button class="filter-btn" data-filter="Neuroscience">Neuroscience (7)</button><button class="filter-btn" data-filter="Sociology">Sociology (11)</button><button class="filter-btn" data-filter="Economics">Economics (2)</button><button class="filter-btn" data-filter="Ecology">Ecology (2)</button>
                     </div>
                 </div>
                 <div class="concept-grid" id="browse-grid">
@@ -363,16 +363,181 @@
 
     </div>
 
-    <!-- translate.js library first -->
+    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/xnx3/translate/translate.js/translate.js"></script>
     <script>
-        // Initialize translate.js immediately after library loads
-        translate.language.setLocal('english');
-        translate.execute();
+        document.addEventListener('DOMContentLoaded', function() {
+            translate.language.setLocal('english');
+            translate.execute();
+        });
+
+        let translationActive = false;
+        let currentLanguage = '';
+        const dropdown = document.getElementById('translate-select');
+
+        function toggleTranslate() {
+            if (typeof translate === 'undefined') {
+                console.warn('translate.js not loaded yet');
+                return;
+            }
+            if (dropdown.classList.contains('visible')) {
+                dropdown.classList.remove('visible');
+            } else {
+                dropdown.classList.add('visible');
+                if (dropdown.options.length <= 1) {
+                    populateLanguages();
+                }
+                if (!currentLanguage) {
+                    dropdown.value = '';
+                }
+            }
+        }
+
+        function populateLanguages() {
+            const languages = [
+                { code: 'en', name: 'English' },
+                { code: 'es', name: 'Español' },
+                { code: 'fr', name: 'Français' },
+                { code: 'de', name: 'Deutsch' },
+                { code: 'it', name: 'Italiano' },
+                { code: 'pt', name: 'Português' },
+                { code: 'ru', name: 'Русский' },
+                { code: 'ja', name: '日本語' },
+                { code: 'ko', name: '한국어' },
+                { code: 'zh-cn', name: '简体中文' },
+                { code: 'zh-tw', name: '繁體中文' },
+                { code: 'ar', name: 'العربية' },
+                { code: 'hi', name: 'हिन्दी' },
+                { code: 'bn', name: 'বাংলা' },
+                { code: 'pa', name: 'ਪੰਜਾਬੀ' },
+                { code: 'ta', name: 'தமிழ்' },
+                { code: 'te', name: 'తెలుగు' },
+                { code: 'ml', name: 'മലയാളം' },
+                { code: 'kn', name: 'ಕನ್ನಡ' },
+                { code: 'mr', name: 'मराठी' },
+                { code: 'gu', name: 'ગુજરાતી' },
+                { code: 'or', name: 'ଓଡ଼ିଆ' },
+                { code: 'as', name: 'অসমীয়া' },
+                { code: 'mai', name: 'मैथिली' },
+                { code: 'sat', name: 'ᱥᱟᱱᱛᱟᱲᱤ' },
+                { code: 'th', name: 'ไทย' },
+                { code: 'lo', name: 'ລາວ' },
+                { code: 'my', name: 'မြန်မာ' },
+                { code: 'km', name: 'ខ្មែរ' },
+                { code: 'vi', name: 'Tiếng Việt' },
+                { code: 'id', name: 'Bahasa Indonesia' },
+                { code: 'ms', name: 'Bahasa Melayu' },
+                { code: 'tl', name: 'Tagalog' },
+                { code: 'pl', name: 'Polski' },
+                { code: 'uk', name: 'Українська' },
+                { code: 'ro', name: 'Română' },
+                { code: 'nl', name: 'Nederlands' },
+                { code: 'sv', name: 'Svenska' },
+                { code: 'no', name: 'Norsk' },
+                { code: 'da', name: 'Dansk' },
+                { code: 'fi', name: 'Suomi' },
+                { code: 'el', name: 'Ελληνικά' },
+                { code: 'tr', name: 'Türkçe' },
+                { code: 'he', name: 'עברית' },
+                { code: 'fa', name: 'فارسی' },
+                { code: 'ur', name: 'اردو' }
+            ];
+            dropdown.innerHTML = '<option value="">Select Language</option>';
+            languages.forEach(function(lang) {
+                const option = document.createElement('option');
+                option.value = lang.code;
+                option.textContent = lang.name;
+                dropdown.appendChild(option);
+            });
+        }
+
+        function getTranslateLangName(code) {
+            const map = {
+                'en': 'english', 'es': 'spanish', 'fr': 'french', 'de': 'deutsch',
+                'it': 'italian', 'pt': 'portuguese', 'ru': 'russian', 'ja': 'japanese',
+                'ko': 'korean', 'zh-cn': 'chinese_simplified', 'zh-tw': 'chinese_traditional',
+                'ar': 'arabic', 'hi': 'hindi', 'bn': 'bengali', 'pa': 'punjabi',
+                'ta': 'tamil', 'te': 'telugu', 'ml': 'malayalam', 'kn': 'kannada',
+                'mr': 'marathi', 'gu': 'gujarati', 'or': 'oriya', 'as': 'assamese',
+                'mai': 'maithili', 'sat': 'santali', 'th': 'thai', 'lo': 'lao',
+                'my': 'burmese', 'km': 'khmer', 'vi': 'vietnamese', 'id': 'indonesian',
+                'ms': 'malay', 'tl': 'tagalog', 'pl': 'polish', 'uk': 'ukrainian',
+                'ro': 'romanian', 'nl': 'dutch', 'sv': 'swedish', 'no': 'norwegian',
+                'da': 'danish', 'fi': 'finnish', 'el': 'greek', 'tr': 'turkish',
+                'he': 'hebrew', 'fa': 'persian', 'ur': 'urdu'
+            };
+            return map[code] || code;
+        }
+
+        function handleLanguageChange(langCode) {
+            if (!langCode) return;
+            currentLanguage = langCode;
+            translationActive = true;
+            const langName = getTranslateLangName(langCode);
+            if (typeof translate !== 'undefined') {
+                translate.changeLanguage(langName);
+            }
+            dropdown.classList.remove('visible');
+            try {
+                localStorage.setItem('translateLanguage', langCode);
+                localStorage.setItem('translateActive', 'true');
+            } catch(e) {}
+            document.dispatchEvent(new CustomEvent('translateLanguageChange', {
+                detail: { language: langCode }
+            }));
+        }
+
+        function checkSavedLanguage() {
+            try {
+                const savedLang = localStorage.getItem('translateLanguage');
+                const savedActive = localStorage.getItem('translateActive');
+                if (savedLang && savedActive === 'true') {
+                    currentLanguage = savedLang;
+                    translationActive = true;
+                    setTimeout(function() {
+                        if (typeof translate !== 'undefined') {
+                            const langName = getTranslateLangName(savedLang);
+                            translate.changeLanguage(langName);
+                        }
+                    }, 500);
+                }
+            } catch(e) {}
+        }
+
+        function resetTranslation() {
+            if (typeof translate !== 'undefined' && translate.reset) {
+                translate.reset();
+            } else {
+                location.reload();
+            }
+            translationActive = false;
+            currentLanguage = '';
+            dropdown.value = '';
+            try {
+                localStorage.setItem('translateActive', 'false');
+                localStorage.removeItem('translateLanguage');
+            } catch(e) {}
+        }
+
+        setTimeout(checkSavedLanguage, 1000);
+
+        document.addEventListener('translateLanguageChange', function(e) {
+            if (e.detail && e.detail.language) {
+                currentLanguage = e.detail.language;
+                translationActive = true;
+                try {
+                    localStorage.setItem('translateLanguage', e.detail.language);
+                    localStorage.setItem('translateActive', 'true');
+                } catch(e) {}
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            const controls = document.querySelector('.translate-controls');
+            if (controls && !controls.contains(e.target)) {
+                dropdown.classList.remove('visible');
+            }
+        });
     </script>
-
-    <!-- app.js after translate.js -->
-    <script src="app.js"></script>
-
 </body>
 </html>

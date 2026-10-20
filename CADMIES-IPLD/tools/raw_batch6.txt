@@ -1,0 +1,36 @@
+{
+    "relationships": {
+        "dukkha_unsatisfactoriness": [
+            {"target": "egoless_awareness", "type": "builds_upon"},
+            {"target": "embodied_awakening", "type": "related_to"}
+        ],
+        "dynamic_process_of_connection": [
+            {"target": "emergence", "type": "specializes"},
+            {"target": "emergent_phenomena_unification", "type": "related_to"}
+        ],
+        "egoless_awareness": [
+            {"target": "dukkha_unsatisfactoriness", "type": "builds_upon"},
+            {"target": "embodied_awakening", "type": "related_to"}
+        ],
+        "elastic_rebound": [
+            {"target": "emergence", "type": "contradicts"}
+        ],
+        "electrical_signaling": [
+            {"target": "emergence", "type": "builds_upon"},
+            {"target": "embodied_awakening", "type": "related_to"}
+        ],
+        "electromagnetic_spectrum": [
+            {"target": "elastic_rebound", "type": "contradicts"}
+        ],
+        "embodied_awakening": [
+            {"target": "dukkha_unsatisfactoriness", "type": "related_to"},
+            {"target": "egoless_awareness", "type": "related_to"},
+            {"target": "electrical_signaling", "type": "related_to"}
+        ],
+        "emergence": [
+            {"target": "dynamic_process_of_connection", "type": "specializes"},
+            {"target": "electrical_signaling", "type": "builds_upon"},
+            {"target": "elastic_rebound", "type": "contradicts"}
+        ],
+        "emergent_phenomena_unification": [
+            {"target": "dynamic_process_of_connection", "type": "related_to"}
