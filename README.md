@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/cadmies_banner.png" alt="CADMIES — Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem" width="720">
+  <img src="assets/cadmies-banner.png" alt="CADMIES — Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem" width="720">
 </div>
 
 <h1 align="center">CADMIES-IPLD</h1>
