@@ -2,7 +2,7 @@
 > unfiltered thoughts, and coded messages for fellow gardeners.
 > For polished documentation, check Polished CADMIES or promote this note.
 
-# Session 063 — 2026-10-29 (≈02:52Z) — Droplet Dev Environment and Double Harvest Pruning
+# Session 065 — 2026-10-29 (≈02:52Z) — Droplet Dev Environment and Double Harvest Pruning
 
 ## NEW DOCUMENTATION CONVENTION (effective this note, onward)
 All documentation now carries Zulu time (UTC) timestamps. Local time is
