@@ -2,8 +2,8 @@
   <img src="assets/cadmies_banner.png" alt="CADMIES — Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem" width="720">
 </div>
 
-<h1 align="center">Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem</h1>
-----------------------------------
+<h1 align="center">CADMIES-IPLD</h1>
+
 <p align="center">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Project-Hierion/Hierion-CADMIES"> 
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Project-Hierion/Hierion-CADMIES"> 
