@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_namespace",
+  "title": "Data Namespace",
+  "definition": "A unique identifier that organizes and separates data within a decentralized network.",
+  "type": "Concept",
+  "domain": "Data Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.288894Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.288894Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A way to keep different data organized and separate within a large network, like labeling each data set with a unique name or ID.",
+    "intermediate": "A unique identifier used within a decentralized network to organize and separate data, allowing for flexible experimentation and evolution of data structures.",
+    "expert": "A system for organizing data within a decentralized network using unique identifiers, allowing for distinct data spaces and enabling evolution and experimentation within those spaces."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Data namespaces promote a decentralized ecosystem by allowing for flexibility, experimentation, and evolution of data structures.",
+    "source_chunk": 116,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_knowledge_construction_phases",
+  "title": "Cadmies Knowledge Construction Phases",
+  "definition": "A systematic approach to knowledge construction, breaking down the process into distinct phases (Harvest, Relationships, Map, Gateway) that build upon each other to create a reliable and efficient pipeline.",
+  "type": "Concept",
+  "domain": "Knowledge Construction",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.042673Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.042673Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like baking a cake: you mix the ingredients (Harvest), shape it (Relationships), bake it (Map), and serve it (Gateway). Each step builds on the previous one to create something delicious (knowledge).",
+    "intermediate": "CADMIES Knowledge Construction Phases is a systematic approach to knowledge construction, breaking down the process into distinct phases: Harvest, Relationships, Map, and Gateway. Each phase builds upon the previous one to create a reliable and efficient pipeline.",
+    "expert": "CADMIES Knowledge Construction Phases is a philosophical concept that outlines a systematic approach to knowledge construction, breaking it down into distinct phases (Harvest, Relationships, Map, Gateway) that build upon each other to create a reliable and efficient pipeline. This ensures the construction of high-quality, scientifically rigorous knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A systematic approach to knowledge construction, breaking down the process into distinct phases that build upon each other to create a reliable and efficient pipeline.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

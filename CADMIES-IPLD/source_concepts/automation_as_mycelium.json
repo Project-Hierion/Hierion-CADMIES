@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "automation_as_mycelium",
+  "title": "Automation As Mycelium",
+  "definition": "The concept of automation as a network of interconnected tools and processes that sustain and support the growth of a project or organization.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.055049Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.055049Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A network of automated tools that work together to help a project grow and thrive, like the roots of a forest.",
+    "intermediate": "A metaphorical view of automation as a living organism that supports and sustains a project, providing essential services and resources.",
+    "expert": "A philosophical perspective that sees automation as an integral part of the project ecosystem, with its own identity and purpose."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel realization that automation should be seen as an extension of the project, with its own life and purpose within the ecosystem.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

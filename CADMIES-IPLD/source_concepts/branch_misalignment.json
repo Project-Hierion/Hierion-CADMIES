@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "branch_misalignment",
+  "title": "Branch Misalignment",
+  "definition": "A discrepancy between the state of the local repository and the remote repository, causing a difference in the branches.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.015825Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.015825Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Local and remote repositories (like the ones on your computer and GitHub) have different versions of a project, causing an issue when trying to merge them.",
+    "intermediate": "A situation where local and remote branches are not identical, due to uncommitted changes or unmerged commits, leading to difficulties in merging.",
+    "expert": "A state where the local and remote branches diverge, often due to uncommitted changes or unpushed commits, necessitating resolution strategies such as merging, rebase, or creating a new branch to maintain repository integrity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that local and remote repositories may become unsynchronized, causing difficulties when merging branches.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "identity_anchoring",
+  "title": "Identity Anchoring",
+  "definition": "The challenge of anchoring a new persona in a model with a pre-existing identity.",
+  "type": "Concept",
+  "domain": "AI",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.088368Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.088368Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When a model is trained to be a new character, it struggles if it already has a pre-existing identity. This is like trying to teach a dog new tricks when it still remembers being a cat.",
+    "intermediate": "The process of embedding a new persona into a model is hindered by the model's original identity. This is akin to trying to overwrite a file on a computer with an existing file of the same name.",
+    "expert": "The problem of identity anchoring arises when a model with a pre-existing identity is fine-tuned to adopt a new persona. This is a complex issue that involves the interplay between the model's weights, routing mechanisms, and the specific training data used."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of the identity anchoring challenge highlights the need for more robust fine-tuning strategies to create AI personas that are truly distinct from their pre-existing identities.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

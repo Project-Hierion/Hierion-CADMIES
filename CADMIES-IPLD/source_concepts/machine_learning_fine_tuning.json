@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "machine_learning_fine_tuning",
+  "title": "Machine Learning Fine Tuning",
+  "definition": "The process of adapting a pre-trained language model to a specific task or dataset by further training it on relevant data.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.092078Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.092078Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine training a chatbot on a specific set of questions and answers, so it becomes an expert on that topic.",
+    "intermediate": "Fine-tuning is a method in machine learning where a model pre-trained on a large dataset is further trained on a smaller, task-specific dataset to improve its performance on that task.",
+    "expert": "Fine-tuning is a technique used to leverage the transfer learning capabilities of deep learning models. It allows for adaptation of the model's parameters to new tasks, datasets, or domains, while preserving the learned knowledge from the pre-training phase."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight here is the strategic pivot to fine-tune Mistral directly on the CADMIES text knowledge base, serving as an end-to-end validation of the fine-tuning pipeline.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

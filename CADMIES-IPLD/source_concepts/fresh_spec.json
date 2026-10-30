@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fresh_spec",
+  "title": "Fresh Spec",
+  "definition": "A new, tailored machine learning model specification document based on the insights from a postmortem analysis.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.348216Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.348216Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A custom-built recipe for a machine learning model, using the lessons learned from a failed model to make it better.",
+    "intermediate": "A revised machine learning model specification that incorporates the insights from a postmortem analysis, aiming to address the shortcomings of the previous model.",
+    "expert": "A carefully crafted model specification that takes into account the insights gained from a postmortem analysis. It ensures that every field is justified by either something the postmortem flagged as missing or something that demonstrably worked and should be preserved, with a focus on voice_negative and drift_zones."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A fresh specification is the key to correcting the mistakes of a failed model and creating a better one.",
+    "source_chunk": 140,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

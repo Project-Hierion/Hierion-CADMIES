@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_discovery_network",
+  "title": "Data Discovery Network",
+  "definition": "A network that enables the discovery of datasets by publishing lightweight records that point to the data.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.032629Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.032629Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital library that helps you find the books you need. A data discovery network is similar, but for data. It makes it easier to find and use datasets.",
+    "intermediate": "A data discovery network is a decentralized system that facilitates the discovery of data. It works by publishing lightweight records that contain a resource URI and optional metadata, such as tags and a timestamp.",
+    "expert": "A data discovery network is a novel approach to data discovery that leverages the principles of decentralization and the AT Protocol. It allows for the publication of lightweight records that contain minimal metadata, such as a resource URI and a timestamp, while also enabling the inclusion of optional metadata such as tags and custom data. This design offers advantages over traditional data discovery methods, such as increased decentralization, scalability, and flexibility. However, it also presents challenges related to data quality, interoperability, and privacy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the potential of data discovery networks as a method for making datasets more discoverable and accessible, particularly in the context of decentralized networks and the AT Protocol.",
+    "source_chunk": 70,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

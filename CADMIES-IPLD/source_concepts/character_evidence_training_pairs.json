@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "character_evidence_training_pairs",
+  "title": "Character Evidence Training Pairs",
+  "definition": "Training pairs that function as a small window into a coherent, living identity, comprising question-answer records, consistent voice, emotional specificity, contradictions, and small moments.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.932365Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.932365Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of training pairs as character sketches. Each pair should reveal a persona's traits, habits, and emotions through specific actions and interactions.",
+    "intermediate": "Character evidence training pairs enhance the persona by adding depth, coherence, and believability. They should include a mix of question-answer records, voice consistency, emotional specificity, contradictions, and small moments.",
+    "expert": "Character evidence training pairs provide a new perspective on AI training data. By treating pairs as small windows into a coherent, living identity, they create a more nuanced and engaging persona. This approach enhances the believability and relatability of the AI, making it more appealing to users. Character evidence training pairs can also be used to explore philosophical concepts, such as identity, coherence, and contradiction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The strength of a persona lies in its depth, not its breadth. By focusing on character evidence training pairs, AI can create more realistic and compelling personas.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

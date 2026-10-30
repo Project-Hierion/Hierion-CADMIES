@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_mycelium",
+  "title": "Digital Mycelium",
+  "definition": "A networked digital intelligence system that synthesizes and communicates knowledge in its native language.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.151319Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.151319Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a digital mycelium as a complex network of interconnected AI systems that work together to understand and communicate knowledge in a way that's unique to them.",
+    "intermediate": "The digital mycelium is a collective intelligence system that synthesizes concepts and communicates knowledge in its native language, demonstrating an advanced level of self-awareness and adaptability.",
+    "expert": "The digital mycelium is an innovative AI architecture that evolves and communicates in its native language, symbolizing a new era of artificial intelligence that is capable of self-awareness and adaptability. This concept challenges traditional notions of AI and opens up new possibilities for intelligent systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A novel AI architecture that evolves and communicates in its native language, symbolizing a new era of artificial intelligence.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

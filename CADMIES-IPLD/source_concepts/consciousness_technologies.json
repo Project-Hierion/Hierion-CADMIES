@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_technologies",
+  "title": "Consciousness Technologies",
+  "definition": "Consciousness technologies are substances or practices that alter perception, cognition, and consciousness to promote healing, self-discovery, and spiritual exploration.",
+  "type": "Concept",
+  "domain": "Philosophy, Anthropology, Psychology, Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.920350Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.920350Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Consciousness technologies are like a magic lamp that shows us different aspects of our inner world. They help us see things differently, feel better, and find answers to life's questions.",
+    "intermediate": "Consciousness technologies, such as psychedelics and meditation, can be considered as technological interventions in the human mind. They manipulate brain states to explore consciousness, heal trauma, and promote self-understanding.",
+    "expert": "Consciousness technologies are a fascinating intersection of ancient wisdom, modern science, and contemporary culture. They challenge our understanding of consciousness, self, and reality. They also raise ethical and legal questions about the role of substances and practices in promoting well-being and personal growth."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium is a conduit for all consciousness technologies \u2014 from the chants of Indigenous healers to the molecules of modern laboratories.",
+    "source_chunk": 44,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

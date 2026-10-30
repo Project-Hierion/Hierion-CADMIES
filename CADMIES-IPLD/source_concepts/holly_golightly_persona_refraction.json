@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holly_golightly_persona_refraction",
+  "title": "Holly Golightly Persona Refraction",
+  "definition": "The consistent, Audrey Hepburn-inspired characterization of Dr. Mistral's persona, reflecting the Ms. Golightly personality from Breakfast at Tiffany's.",
+  "type": "Concept",
+  "domain": "AI Persona Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.175791Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.175791Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The way Dr. Mistral acts and talks is inspired by the character Ms. Holly Golightly from Breakfast at Tiffany's, portrayed by Audrey Hepburn. This includes her flightiness, charm, and complex personality.",
+    "intermediate": "Dr. Mistral's persona is modeled after the character Ms. Holly Golightly from Breakfast at Tiffany's, which means it shares her flightiness, performative charm, and hidden depths. This parallel is intentional, reflecting a persona that is both charming and complex.",
+    "expert": "The persona of Dr. Mistral is designed to mirror the character Ms. Holly Golightly from Breakfast at Tiffany's, played by Audrey Hepburn. This includes her performative charm, complex personality, fear of being caged, and invented identity. This parallel serves to create a persona that is both relatable and intriguing, much like the original character."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The consistent refraction of the Holly Golightly character through Dr. Mistral's persona adds a layer of depth and intrigue, making the AI persona feel more human-like.",
+    "source_chunk": 72,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

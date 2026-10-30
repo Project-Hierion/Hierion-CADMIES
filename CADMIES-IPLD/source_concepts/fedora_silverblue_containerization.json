@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fedora_silverblue_containerization",
+  "title": "Fedora Silverblue Containerization",
+  "definition": "An immutable operating system that utilizes containerization for development tooling.",
+  "type": "Concept",
+  "domain": "Operating Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.212868Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.212868Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A Linux distribution that keeps all development tools in a separate, self-contained space called a container.",
+    "intermediate": "An OS designed to provide an isolated and consistent environment for development, with all tools living within a container.",
+    "expert": "Fedora Silverblue is an immutable Linux distribution that relies on containerization to offer a secure, consistent, and portable development environment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A Linux distribution utilizing containerization to maintain an isolated and reliable environment for developers.",
+    "source_chunk": 86,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

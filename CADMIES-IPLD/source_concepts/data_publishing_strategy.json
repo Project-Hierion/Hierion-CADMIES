@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_publishing_strategy",
+  "title": "Data Publishing Strategy",
+  "definition": "The systematic approach for selecting, preparing, and publishing data in a knowledge system, including licensing criteria and tagging strategies.",
+  "type": "Concept",
+  "domain": "Data Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.041291Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.041291Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a roadmap for choosing which data to publish, what details to include, and who to give credit to. We only publish data that's legit and has a clear open license.",
+    "intermediate": "The data publishing strategy involves selecting data based on license clarity, tagging it appropriately, and ensuring full credit is given to the original authors. It's about balancing the need for high-quality data with the importance of attribution and ethical use.",
+    "expert": "The data publishing strategy is a reflection of the broader ethical and philosophical considerations surrounding knowledge production and dissemination. It's a delicate balance between quality, attribution, and ethical use. This concept connects to broader debates in open science, intellectual property, and data justice. Edge cases include gray areas in licensing and questions of ownership and authorship."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A clear and ethical data publishing strategy is essential for maintaining the integrity and value of a knowledge system.",
+    "source_chunk": 74,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

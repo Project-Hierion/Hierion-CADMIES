@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_connection",
+  "title": "Philosophical Connection",
+  "definition": "The concept of connection as a fundamental element of existence, understanding, and relationship.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.922608Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.922608Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Connection is like the roots of a tree \u2014 spreading out, connecting to everything, making us part of something bigger than ourselves.",
+    "intermediate": "Philosophical connection is the concept that every object and person is part of a broader network of interconnectedness. This idea is explored in various philosophical traditions such as intersubjectivity and relational ontology.",
+    "expert": "The philosophical concept of connection is a metaphysical exploration of interdependence and interconnectedness. It is connected to fields like quantum physics, complexity theory, and network theory. The insight is that the world is a web of connections, not a collection of isolated objects."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The world is a web of connections, not a collection of isolated objects.",
+    "source_chunk": 45,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

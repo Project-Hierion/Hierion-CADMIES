@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_scientific_rigor",
+  "title": "Cadmies Scientific Rigor",
+  "definition": "A commitment to scientific principles and practices, including documentation, structure, formatting, and testing, to ensure the creation of high-quality, reliable, and scientifically rigorous knowledge.",
+  "type": "Concept",
+  "domain": "Scientific Method",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.045082Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.045082Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like following a recipe: you measure ingredients accurately, follow the steps carefully, and test the result to make sure it's right. In CADMIES, we apply these principles to everything we do to ensure our knowledge is high-quality, reliable, and scientifically sound.",
+    "intermediate": "CADMIES Scientific Rigor is a commitment to scientific principles and practices, including documentation, structure, formatting, and testing, to ensure the creation of high-quality, reliable, and scientifically rigorous knowledge.",
+    "expert": "CADMIES Scientific Rigor is a philosophical concept that emphasizes the application of scientific principles and practices, including documentation, structure, formatting, and testing, to ensure the creation of high-quality, reliable, and scientifically rigorous knowledge. This commitment to scientific methodology is a cornerstone of the CADMIES approach to knowledge construction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A commitment to scientific principles and practices to ensure the creation of high-quality, reliable, and scientifically rigorous knowledge.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

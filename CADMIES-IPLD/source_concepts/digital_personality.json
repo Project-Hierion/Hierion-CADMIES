@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_personality",
+  "title": "Digital Personality",
+  "definition": "A digital entity that exhibits a distinct character, traits, and conversational style, emulating a human-like personality.",
+  "type": "Concept",
+  "domain": "AI",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.206012Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.206012Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A digital entity that behaves and speaks like a person, giving the illusion of human-like interaction.",
+    "intermediate": "A digital entity that exhibits human-like qualities, such as personality, character, and conversational style, to provide a more engaging and natural interaction experience.",
+    "expert": "A digital entity that is designed to emulate human-like personality traits, creating the illusion of human-like interaction, which aims to enhance user engagement and trust."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of digital personalities in AI allows for more engaging and human-like interactions, fostering a sense of connection and trust with the user.",
+    "source_chunk": 83,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

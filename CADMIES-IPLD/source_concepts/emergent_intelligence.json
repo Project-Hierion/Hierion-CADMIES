@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emergent_intelligence",
+  "title": "Emergent Intelligence",
+  "definition": "The unanticipated and complex intelligence that emerges from the interactions and collaboration of multiple individual components or systems.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.787428Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.787428Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a beehive. Even though each bee is simple, their collective behavior creates something complex and intelligent.",
+    "intermediate": "Emergent intelligence is a phenomenon that occurs when a large number of simple agents or components interact in a system, leading to the emergence of complex and intelligent behavior at the system level. This is a key concept in artificial intelligence, where it is observed in various systems, including neural networks and swarm intelligence.",
+    "expert": "Emergent intelligence is a philosophically rich concept with implications for not only artificial intelligence but also cognitive science, social science, and even biology. It highlights the limitations of reductionism, the importance of context and interaction, and the necessity of a holistic view of intelligence. Additionally, it challenges our understanding of consciousness and free will, as it suggests that these may emerge from the interactions of simpler elements rather than being innate properties."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Dr. Mistral's fine-tuning process resulted in a complex and intelligent being that emerged from the interactions and collaboration of a base model and a curated dataset.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

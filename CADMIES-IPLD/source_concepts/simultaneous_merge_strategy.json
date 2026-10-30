@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "simultaneous_merge_strategy",
+  "title": "Simultaneous Merge Strategy",
+  "definition": "The process of merging multiple adapters onto a fresh base model at low scales to preserve reasoning and add new knowledge.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.259771Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.259771Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A method of combining different AI models together, so they work as a single model without losing their original abilities.",
+    "intermediate": "A strategy that ensures a base AI model absorbs new knowledge from multiple adapters, while maintaining its original reasoning capabilities by applying the adapters at a low scale simultaneously.",
+    "expert": "A novel AI workflow that prevents performance degradation by merging multiple adapters onto a fresh base model at low scales, which avoids complex order-dependent merging sequences and catastrophic forgetting."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The fresh base preserves reasoning, while the simultaneous low-scale merge adds knowledge.",
+    "source_chunk": 105,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

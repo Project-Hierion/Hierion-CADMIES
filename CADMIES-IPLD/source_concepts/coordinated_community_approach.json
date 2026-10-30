@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "coordinated_community_approach",
+  "title": "Coordinated Community Approach",
+  "definition": "A unified strategy to collaborate with a community for achieving a shared goal.",
+  "type": "Concept",
+  "domain": "Project Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.300293Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.300293Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Working together with others in a thoughtful and organized way, to achieve a specific goal.",
+    "intermediate": "A collaborative approach that involves clear communication, shared goals, and a defined process to ensure success.",
+    "expert": "A strategic alignment between a project and its community, ensuring mutual understanding, respect, and contribution for the success of the project."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Building with the community, not in isolation.",
+    "source_chunk": 121,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "adapter_configuration_migration",
+  "title": "Adapter Configuration Migration",
+  "definition": "The process of migrating a machine learning model adapter from one version of a library to another, ensuring compatibility and preserving functionality.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.120120Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.120120Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When a machine learning model adapter is saved with one version of a library, and then we want to use it with a different version, we need to migrate the adapter's configuration to match the new library version.",
+    "intermediate": "Adapter configuration migration involves adapting a machine learning model's configuration to match a new version of a library, ensuring compatibility and functionality when loading the saved model.",
+    "expert": "Adapter configuration migration is a process in machine learning that ensures compatibility between the saved configuration of a model's adapter and the new version of a library when loading the saved model, maintaining the original functionality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The necessity of adapting machine learning model adapters to new library versions for compatibility.",
+    "source_chunk": 44,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

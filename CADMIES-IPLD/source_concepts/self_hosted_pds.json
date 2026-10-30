@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "self_hosted_pds",
+  "title": "Self Hosted Pds",
+  "definition": "The decision to self-host a Personal Data Store (PDS) for the Project Hierion, aligned with open-source values and ensuring full control.",
+  "type": "Concept",
+  "domain": "Infrastructure",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.296416Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.296416Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Using our own server instead of relying on a third-party service like bsky.social for the Project Hierion's PDS.",
+    "intermediate": "Choosing self-hosting a PDS over using a third-party service like bsky.social for increased control and open-source alignment.",
+    "expert": "The conscious decision to self-host a Personal Data Store (PDS) for the Project Hierion to ensure independence, control, and adherence to open-source values, with potential cost and setup considerations."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Self-hosting for independence and control in an open-source project.",
+    "source_chunk": 119,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

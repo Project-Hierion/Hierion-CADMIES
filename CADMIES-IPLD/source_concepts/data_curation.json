@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_curation",
+  "title": "Data Curation",
+  "definition": "The process of collecting, organizing, and managing data to ensure its quality, relevance, and applicability for specific purposes.",
+  "type": "Concept",
+  "domain": "Data Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.342877Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.342877Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Collecting and cleaning data like sorting and dusting your toys before playing with them. This ensures that the data is useful and doesn't have any errors or inconsistencies.",
+    "intermediate": "The process of acquiring, cleaning, and organizing data to ensure its quality, relevance, and applicability for machine learning tasks. This may involve tasks such as preprocessing, feature engineering, and labeling.",
+    "expert": "Data curation is a crucial step in the machine learning process, as it ensures that the data used for training and evaluation is of high quality, relevant, and well-structured. This can involve tasks such as data cleaning, normalization, and balancing, as well as the creation of custom datasets for specific purposes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Data curation is essential for ensuring the quality and applicability of the data used in machine learning tasks, which directly impacts the performance and reliability of the resulting models.",
+    "source_chunk": 138,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

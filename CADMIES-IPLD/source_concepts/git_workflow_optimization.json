@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "git_workflow_optimization",
+  "title": "Git Workflow Optimization",
+  "definition": "The process of streamlining and simplifying the use of Git in a development environment to increase efficiency and minimize errors.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.733761Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.733761Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're baking a cake. Git workflow optimization is like following a recipe that helps you bake the cake (code) more easily and perfectly (error-free), while keeping your kitchen (workspace) clean and organized.",
+    "intermediate": "Git workflow optimization involves techniques such as branching, merging, and pulling to manage multiple versions of a project simultaneously, and to integrate changes from one branch to another. This helps to avoid conflicts and to keep the main branch stable.",
+    "expert": "Git workflow optimization also involves understanding the underlying mechanisms of Git, such as the index and the object database. It can extend to the philosophy of distributed version control systems, and to the relationship between version control and other software development practices, such as continuous integration and continuous delivery."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation shows the importance of setting up a Git user identity and using Git commands in the correct order to optimize the workflow for merging and deleting branches.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

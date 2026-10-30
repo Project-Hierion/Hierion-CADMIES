@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "postmortem_analysis",
+  "title": "Postmortem Analysis",
+  "definition": "A thorough examination of a failed model's performance to identify and address its shortcomings for future improvements.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.345748Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.345748Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a 'lessons learned' document after a project fails. It outlines what went wrong, what was missing, and what should be improved for the next attempt.",
+    "intermediate": "A process of investigating a failed model to understand the reasons behind its failure, focusing on the Spec, pair generation, filtering, training, and evaluation stages.",
+    "expert": "A systematic method of evaluating a failed model, identifying the root cause of its failure, and using that insight to improve future models. It involves categorizing failures into Spec-level, Pair-level, Filter-level, Training-level, Evaluation-level, and identifying what worked and what was missing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Identifying the root cause of a model's failure is the most valuable information for improving the next iteration.",
+    "source_chunk": 139,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

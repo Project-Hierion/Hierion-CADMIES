@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "incremental_training_effectiveness",
+  "title": "Incremental Training Effectiveness",
+  "definition": "The observation that small-batch incremental training yields similar results to a large-batch training process.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.770747Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.770747Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as learning a language. Small, regular lessons can be just as effective as cramming everything into one big session.",
+    "intermediate": "In the context of training neural networks, this concept refers to the idea that training a model in small batches over multiple iterations can yield comparable results to training on all data at once.",
+    "expert": "This observation has implications for resource management in large-scale training. Incremental training can be more efficient, as it allows for parallel processing and requires less memory. Additionally, it can help to avoid overfitting, especially when dealing with noisy or incomplete data."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Small-batch incremental training can be an effective and resource-friendly approach to model training.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

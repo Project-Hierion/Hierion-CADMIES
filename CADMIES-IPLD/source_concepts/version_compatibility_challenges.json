@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "version_compatibility_challenges",
+  "title": "Version Compatibility Challenges",
+  "definition": "The concept of challenges that arise when using different versions of a software package due to breaking changes.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.793834Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.793834Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have an old toy that you love, but you can't play with it anymore because the new game it's supposed to work with has changed. That's a simple way to understand version compatibility challenges.",
+    "intermediate": "Version compatibility challenges occur when a software package is updated, and the new version isn't compatible with existing dependencies or data structures. This can lead to errors or unexpected behavior.",
+    "expert": "Version compatibility challenges are a significant problem in software development. They can result from both intentional and unintentional breaking changes. Understanding the underlying causes of these challenges can help developers anticipate and address them. Additionally, these challenges can have philosophical implications for the design of software systems, as they highlight the tension between the need for flexibility and the need for stability."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The bnb version mismatch between training and current installation is a classic example of version compatibility challenges.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

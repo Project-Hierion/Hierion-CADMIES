@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_automation",
+  "title": "Mycelial Automation",
+  "definition": "An immune-system-like system for maintaining and cleaning a knowledge base.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.240576Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.240576Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a self-healing garden where every file is a plant. The mycelial automation is like the roots that check each plant's health, fix issues, and keep the garden organized.",
+    "intermediate": "Mycelial automation is a tool that ensures the consistency, accuracy, and organization of a large knowledge base by scanning and fixing various issues, such as dead links, missing files, or inconsistent frontmatter.",
+    "expert": "Mycelial automation represents an innovative approach to maintaining and cleaning a knowledge base, analogous to the self-healing properties of mycelium in a forest ecosystem. It is designed to ensure the integrity, efficiency, and accessibility of the knowledge base, acting as a kind of immune system for digital information."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mycelial automation is an immune system for digital knowledge, ensuring its health and integrity.",
+    "source_chunk": 97,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

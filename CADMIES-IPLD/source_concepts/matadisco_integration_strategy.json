@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "matadisco_integration_strategy",
+  "title": "Matadisco Integration Strategy",
+  "definition": "A structured approach to integrate datasets and concepts into Matadisco, focusing on authentication, publishing strategy, and rate limit handling.",
+  "type": "Concept",
+  "domain": "Information Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.039243Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.039243Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're adding content to a digital library. To do it right, you need to authenticate, follow a plan to publish, and be mindful of how quickly you can add new items to avoid overloading the system.",
+    "intermediate": "The Matadisco Integration Strategy involves setting up an ATProto account, creating an app password, developing a producer script to generate records, and implementing rate limit handling to publish data to Matadisco efficiently.",
+    "expert": "The Matadisco Integration Strategy is a nuanced blend of authentication mechanisms, publishing strategies, and rate limit management. It considers the trade-offs between self-hosting a Personal Data Server (PDS) and relying on a relay, and it explores the implications of using the ATProto points-based system for content writes. The strategy also delves into the use of custom lexicons and the potential for creating scalable, distributed producer scripts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the intricacies of the ATProto system and leveraging existing tools and templates can significantly streamline the integration process, allowing for efficient data publishing while respecting rate limits.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

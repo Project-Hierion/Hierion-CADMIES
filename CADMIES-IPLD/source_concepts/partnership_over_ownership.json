@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "partnership_over_ownership",
+  "title": "Partnership Over Ownership",
+  "definition": "The principle that relationships between entities within the CADMIES ecosystem are based on partnership rather than ownership.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.163996Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.163996Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Collaborating with others, rather than trying to control them, in the CADMIES ecosystem.",
+    "intermediate": "Establishing partnerships with other entities, rather than trying to acquire or dominate them, in the CADMIES ecosystem.",
+    "expert": "Advocating for partnership as a foundational principle within the CADMIES ecosystem, emphasizing collaboration and mutual respect over ownership and control."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Relationships within the CADMIES ecosystem are based on partnership rather than ownership.",
+    "source_chunk": 66,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

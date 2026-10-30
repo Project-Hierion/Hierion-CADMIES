@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_data_discovery_network",
+  "title": "Decentralized Data Discovery Network",
+  "definition": "A network that enables decentralized publication and discovery of data, built on the AT Protocol.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.261760Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.261760Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A system that allows anyone to publish lightweight records pointing to their data, making it discoverable in a decentralized manner, similar to a library catalog.",
+    "intermediate": "A network utilizing the AT Protocol for decentralized data publication and discovery, consisting of lightweight records linking to datasets with optional tags.",
+    "expert": "A data network based on AT Protocol, empowering users to publish records that link to their datasets, fostering a decentralized card catalog for data, primarily dominated by geospatial/satellite imagery publishers but open to non-geo contributions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Decentralizing data discovery, enabling anyone to publish lightweight records that point to datasets, fostering a decentralized card catalog for data.",
+    "source_chunk": 106,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

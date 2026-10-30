@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelium_learning",
+  "title": "Mycelium Learning",
+  "definition": "The process by which the mycelium, the root-like structure of fungi, learns and adapts, particularly in the context of CADMIES.",
+  "type": "Concept",
+  "domain": "Biology, Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.225921Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.225921Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The way the root-like structure of fungi, like mushrooms, is learning and adapting in CADMIES, much like how a real-world mushroom learns to find food.",
+    "intermediate": "The process by which the mycelium in CADMIES, the root-like structure of fungi used in the system, learns and adapts through interaction with datasets and AI models, exhibiting a form of machine learning.",
+    "expert": "The philosophical concept of the mycelium in CADMIES, a system using the root-like structure of fungi, learning and adapting through its interaction with datasets and AI models, shedding light on the intersection of biology, artificial intelligence, and machine learning, and offering insights into the nature of learning and intelligence itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium in CADMIES is not just a tool, but a learner, evoking a profound connection between technology and nature.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

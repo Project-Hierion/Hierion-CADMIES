@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "perspective_and_unity",
+  "title": "Perspective And Unity",
+  "definition": "The recognition that the interpretation of a concept can vary depending on one's perspective, yet all interpretations may be interconnected and share a fundamental unity.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.232124Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.232124Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Different people may see the same thing in different ways, but the important part is understanding that everyone's perspective is valid and connected.",
+    "intermediate": "The realization that the interpretation of concepts can differ based on one's perspective, yet all interpretations share a common underlying truth or unity.",
+    "expert": "The insight that the interpretation of concepts can be influenced by personal experiences, cultural background, or disciplinary perspective, yet all interpretations can be seen as interconnected and part of a larger whole."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that even seemingly disparate interpretations of a concept can be connected and share a fundamental unity.",
+    "source_chunk": 95,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

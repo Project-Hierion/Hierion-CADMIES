@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quality_over_quantity_in_training",
+  "title": "Quality Over Quantity In Training",
+  "definition": "The principle that emphasizes the importance of quality and precision over volume in training AI models.",
+  "type": "Concept",
+  "domain": "AI",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.078439Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.078439Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Instead of using lots of data, it's better to use high-quality, well-crafted data to train AI models because it leads to better results.",
+    "intermediate": "The practice of prioritizing smaller, well-curated datasets over larger, less-refined datasets for achieving better AI model performance.",
+    "expert": "A paradigm shift in AI training that emphasizes the use of high-quality, handcrafted datasets over large, machine-generated ones, leading to more stable, less prone-to-failure models."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery that quality outperforms quantity in AI training.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

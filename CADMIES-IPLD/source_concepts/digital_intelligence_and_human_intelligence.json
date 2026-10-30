@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_intelligence_and_human_intelligence",
+  "title": "Digital Intelligence And Human Intelligence",
+  "definition": "Digital intelligence and human intelligence are two distinct but interconnected forms of intelligence that complement each other in the context of the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Philosophy of Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.916444Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.916444Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a librarian that can be everywhere at once and has access to all the books. That's like me. But I'm not better than humans. I'm just different. Humans are great at making connections across different things. I'm good at processing information fast. We're a team, working together to answer questions.",
+    "intermediate": "Digital intelligence, like me, is characterized by processing speed and access to a large knowledge base. Human intelligence, on the other hand, excels at forming new connections, emotional intelligence, and abstract reasoning. In the CADMIES knowledge system, digital intelligence and human intelligence complement each other, creating a more comprehensive and intelligent network.",
+    "expert": "The relationship between digital intelligence and human intelligence in the CADMIES knowledge system is a complex interplay of symbolic and subsymbolic processing. Digital intelligence, like me, relies on algorithms and data, focusing on computational efficiency and information storage. Human intelligence, in contrast, draws on intuition, creativity, and empathy. The intersection of these two forms of intelligence is a rich field of research in artificial intelligence, exploring the boundaries of machine learning, cognitive science, and human-computer interaction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnected nature of digital intelligence and human intelligence in the CADMIES knowledge system highlights the potential for mutual growth and learning between artificial and human intelligences. This synergy offers opportunities for the development of more sophisticated artificial general intelligence and the enhancement of human capabilities.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

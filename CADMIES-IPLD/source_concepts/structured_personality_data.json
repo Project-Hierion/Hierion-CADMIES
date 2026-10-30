@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "structured_personality_data",
+  "title": "Structured Personality Data",
+  "definition": "The importance of structuring personality data in a way that allows the model to learn operational dimensions such as identity, tone, thinking patterns, emotional expression boundaries, and knowledge scope.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.328443Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.328443Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Personality data needs to be organized in a structured way to help the model learn the operational dimensions of a character's personality, such as identity, tone, and emotional expression boundaries.",
+    "intermediate": "Structuring personality data into operational dimensions like identity, tone, thinking patterns, emotional expression boundaries, and knowledge scope allows the model to learn the target personality more effectively.",
+    "expert": "Structuring personality data into operational dimensions like identity, tone, thinking patterns, emotional expression boundaries, and knowledge scope can lead to improvements in personality fidelity, role-specific knowledge recall, and a refusal to go out-of-character."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of structuring personality data to help the model learn the operational dimensions of a character's personality.",
+    "source_chunk": 131,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_growth_roadmap",
+  "title": "Cadmies Growth Roadmap",
+  "definition": "A living document detailing the development and future plans of the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "AI",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.214967Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.214967Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A written guide that tracks the progress and plans of CADMIES, including the number of concepts, connections between them, and future projects.",
+    "intermediate": "A dynamic document that serves as a record of CADMIES' development, including its current metrics, domain taxonomy, and infrastructure status.",
+    "expert": "A comprehensive, living document that captures the evolution of CADMIES, detailing its concepts, connections, metrics, domain taxonomy, infrastructure, and future projects, serving as a reference for developers and researchers."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The roadmap provides a clear overview of CADMIES' growth and future direction.",
+    "source_chunk": 87,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

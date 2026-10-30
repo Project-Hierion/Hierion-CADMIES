@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "open_data_publishing",
+  "title": "Open Data Publishing",
+  "definition": "The process of making data freely available to anyone to use, reuse, and redistribute, without legal, technological, or social restrictions.",
+  "type": "Concept",
+  "domain": "Data Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.310582Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.310582Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The act of making data easily accessible to everyone, so that they can use it freely for their own purposes.",
+    "intermediate": "A process that involves making data readily available, licensed under terms that allow anyone to use, reuse, and redistribute it, fostering collaboration and innovation.",
+    "expert": "A paradigm for data sharing that emphasizes the importance of openness, accessibility, and reproducibility, enabling data-driven research, innovation, and decision-making by fostering collaboration and open science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Open data publishing fosters collaboration, innovation, and open science by enabling data-driven research, innovation, and decision-making.",
+    "source_chunk": 126,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

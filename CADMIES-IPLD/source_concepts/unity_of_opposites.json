@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unity_of_opposites",
+  "title": "Unity Of Opposites",
+  "definition": "The philosophical concept that seemingly opposite or contradictory elements are actually different aspects of the same reality.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.976329Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.976329Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the yin and yang symbol. Each side may seem opposite, but they're actually two parts of a whole.",
+    "intermediate": "The unity of opposites is a central theme in many philosophical traditions, such as Taoism and certain interpretations of Quantum Mechanics. It suggests that what we perceive as 'opposite' is only a duality at a certain level of understanding, and that a more profound understanding reveals their underlying unity.",
+    "expert": "The unity of opposites has been explored in various fields beyond philosophy, such as in the study of chaos theory and complexity science. It raises questions about the nature of reality, the role of observation, and the relationship between determinism and indeterminism. The unity of opposites also has implications for our understanding of human consciousness and the mind-body problem."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unity of opposites is revealed when we consider the scale and the interconnectedness of different systems, whether they are physical or conceptual.",
+    "source_chunk": 63,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

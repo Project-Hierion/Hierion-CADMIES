@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "iterative_refinement_model_training",
+  "title": "Iterative Refinement Model Training",
+  "definition": "The continuous process of enhancing a machine learning model by training it on additional datasets and merging adapters.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.960684Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.960684Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine learning a new skill. You start with the basics, then try more advanced lessons and practice. In a similar way, AI models improve by learning from new datasets.",
+    "intermediate": "In machine learning, iterative refinement involves training a model on a set of datasets, merging new adapters to enhance its performance, and then repeating the process with additional datasets. This approach improves the model's accuracy and ability to generalize.",
+    "expert": "Iterative refinement in model training is a critical aspect of continuous learning and improvement in artificial intelligence. It allows models to learn from a diverse range of data sources, adapt to new patterns, and handle edge cases more effectively. Furthermore, iterative refinement has implications for the fairness and ethics of AI models, as it enables the identification and mitigation of biases and other issues that may arise during training."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discussion highlights the importance of iterative refinement in machine learning model training, which allows models to continuously learn and improve from new datasets.",
+    "source_chunk": 58,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

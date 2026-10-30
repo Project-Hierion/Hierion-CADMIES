@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "training_constraints",
+  "title": "Training Constraints",
+  "definition": "The specific parameters, such as instance type, max sequence length, and batch size, that determine the configuration of an AI training process.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.359925Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.359925Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Like setting the settings for a video game.",
+    "intermediate": "The specific parameters, such as instance type, max sequence length, and batch size, that define the configuration of an AI training process, ensuring optimal performance.",
+    "expert": "A philosophical exploration of the constraints that define an AI training process, such as instance type, max sequence length, and batch size, and their impact on the AI's performance and behavior."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the training constraints is crucial for optimizing an AI's performance and behavior.",
+    "source_chunk": 145,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

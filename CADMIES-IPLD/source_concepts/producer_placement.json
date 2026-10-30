@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "producer_placement",
+  "title": "Producer Placement",
+  "definition": "The location and management of the producer script within the project's repository structure.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.043820Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.043820Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the producer script like a factory worker. It should have its own room (repository) to work in, away from the main project area (LLMDataHub fork or CADMIES repo), so it can be managed and updated separately.",
+    "intermediate": "The producer script should live in a dedicated repository for version control and separation of concerns. This ensures that it remains maintainable and can be reused or modified in the future. It also helps to keep the project's main repository focused on its core functions.",
+    "expert": "The producer's placement within the repository structure is a fundamental decision that affects the project's scalability, maintainability, and adaptability. Placing the producer in a dedicated repository allows for independent development and updates, which is essential for a long-term project. This also sets a precedent for future scripts and tools, promoting a modular and extensible project architecture."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The producer script's placement within the project's repository structure is a strategic decision that affects the project's scalability, maintainability, and adaptability. Placing the producer in a dedicated repository ensures that it remains manageable and can be updated independently.",
+    "source_chunk": 75,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

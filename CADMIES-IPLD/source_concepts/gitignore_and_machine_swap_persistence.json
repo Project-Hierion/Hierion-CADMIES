@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gitignore_and_machine_swap_persistence",
+  "title": "Gitignore And Machine Swap Persistence",
+  "definition": "The loss of block files in a Git-versioned notebook system due to gitignoring files and machine swaps, demonstrating the importance of proper persistence habits.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.030692Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.030692Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When using a Git-versioned notebook system, if you don't include certain files in your version control (known as gitignoring them), they can get lost during machine swaps, resulting in data loss.",
+    "intermediate": "In Git-versioned notebook systems, some files might be intentionally excluded from version control using gitignore. If these files are essential for data persistence, such as block files in a Paperspace session, their loss can occur during machine swaps, leading to data loss.",
+    "expert": "In Git-versioned notebook systems, Gitignore is used to exclude files from version control. If these files are crucial for data persistence, such as block files in a Paperspace session, their exclusion can lead to data loss during machine swaps. This situation demonstrates the importance of understanding Gitignore's implications for data persistence in Git-versioned notebook systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Proper persistence habits are critical in Git-versioned notebook systems to prevent data loss during machine swaps.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

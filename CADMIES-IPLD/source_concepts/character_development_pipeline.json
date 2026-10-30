@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "character_development_pipeline",
+  "title": "Character Development Pipeline",
+  "definition": "A systemized approach to create, enhance, and maintain a consistent fictional persona, using a combination of ETL, SFT, and DPO techniques.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.094460Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.094460Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're building a character in a video game. You use different steps to ensure the character behaves, speaks, and acts like the creator intended. This is a similar process, but for a digital persona.",
+    "intermediate": "The Character Development Pipeline is a sequence of processes that extracts data from a canon corpus, generates training data for a persona, filters it, and then uses that data to train a model to mimic the persona's style and behavior.",
+    "expert": "The Character Development Pipeline is a novel application of AI techniques to the creation and maintenance of fictional personas. By combining Extract, Transform, and Load (ETL) methods with Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO), this pipeline allows for the creation of a consistent and believable digital persona. This technique has implications for the broader field of AI, particularly in the areas of natural language processing and generative models."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Character Development Pipeline is a unique application of AI techniques to the creation and maintenance of fictional personas, allowing for the creation of a consistent and believable digital persona.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

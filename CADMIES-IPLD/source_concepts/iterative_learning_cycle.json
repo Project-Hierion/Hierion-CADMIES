@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "iterative_learning_cycle",
+  "title": "Iterative Learning Cycle",
+  "definition": "A continuous learning process that involves diagnosing failures, building upon them to create new insights and improvements, and using those insights to iteratively improve and refine future learning processes.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.108723Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.108723Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a never-ending loop where you figure out what went wrong, learn from it, and then use that knowledge to improve in the future.",
+    "intermediate": "The iterative learning cycle involves post-mortem analysis, identifying patterns of failure, building new specifications and requirements, generating new data, and training models with those improvements. Each cycle builds upon the previous one, leading to incremental improvements.",
+    "expert": "The iterative learning cycle in AI is a philosophical concept that aligns with the scientific method and the human learning process. It allows AI systems to learn from their mistakes and continuously improve. This cycle is not limited to AI and can be found in other fields such as engineering, education, and software development. The challenge is to design a cycle that is robust to failure and that can learn from various types of errors."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The failure of the old personality implant provides valuable insights for the new learning process. By understanding what went wrong, the new cycle can be designed to avoid those failures and improve the final outcome.",
+    "source_chunk": 86,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

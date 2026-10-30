@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "matadisco_integration",
+  "title": "Matadisco Integration",
+  "definition": "The concept of integrating data publishing into the Matadisco decentralized data discovery network, facilitating discovery and accessibility of datasets and concepts.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.059677Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.059677Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine adding your data to a digital library that everyone can find and use, without needing a middleman. That's what Matadisco integration is about.",
+    "intermediate": "Matadisco integration is the process of publishing data records to the Matadisco network, allowing for decentralized data discovery and accessibility. It involves creating and sending structured data records to the Matadisco network, which then becomes searchable and discoverable.",
+    "expert": "Matadisco integration is a novel approach to data publishing that leverages the decentralized architecture of the AT Protocol. It not only facilitates data discovery but also ensures data integrity and accessibility. Moreover, it contributes to the growth of the Matadisco ecosystem, expanding its content beyond geospatial data. This concept has implications for data sovereignty, privacy, and the future of data publishing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of data publishing into the Matadisco network allows for decentralized data discovery and accessibility, contributing to the growth of the Matadisco ecosystem.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "repository_structure",
+  "title": "Repository Structure",
+  "definition": "The organization of files and directories within a software project or repository.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.312509Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.312509Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The way that files and folders are arranged within a project, making it easier for users to find and understand the project's contents.",
+    "intermediate": "The organization of files and directories within a repository, which helps to maintain a clear and structured system, making it easier for developers to work and for users to understand the project.",
+    "expert": "A well-organized structure of files and directories within a repository, which not only makes it easier for developers to work but also contributes to the project's maintainability, scalability, and reusability, while making it easier for users to understand the project and its contents."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A well-structured repository organization contributes to a project's maintainability, scalability, and reusability, while making it easier for users to understand the project and its contents.",
+    "source_chunk": 127,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

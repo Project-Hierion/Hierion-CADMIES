@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "block_integrity_in_distributed_systems",
+  "title": "Block Integrity In Distributed Systems",
+  "definition": "The concept of ensuring the integrity and consistency of data blocks in a distributed system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.735921Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.735921Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're playing a game of telephone, but the messages are written on slips of paper. Block integrity ensures that the final message you receive is the same as the original one, even though it's passed through many hands. No paper got lost or altered along the way.",
+    "intermediate": "Block integrity in a distributed system ensures that data is transferred and stored accurately and consistently. This is crucial in scenarios where data needs to be synchronized across multiple devices or nodes.",
+    "expert": "Block integrity refers to the cryptographic techniques used to verify that a data block has not been altered or tampered with during transmission or storage in a distributed system. This is essential for maintaining data integrity and consistency in a decentralized network, and has implications for areas such as security, fault tolerance, and consensus algorithms."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The issue of missing block files in the git pull, which led to skipped concepts during the map generation process, highlights the importance of block integrity in a distributed system.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

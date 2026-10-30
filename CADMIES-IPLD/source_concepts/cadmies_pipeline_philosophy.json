@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_pipeline_philosophy",
+  "title": "Cadmies Pipeline Philosophy",
+  "definition": "A cohesive approach to data processing and knowledge extraction, emphasizing rigor, data cleanliness, and the interconnected nature of every phase.",
+  "type": "Concept",
+  "domain": "Data Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.265814Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.265814Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A set of rules for organizing and analyzing data in a way that ensures accuracy, consistency, and efficiency.",
+    "intermediate": "A philosophical framework for data processing that prioritizes scientific rigor, data cleanliness, and the interconnection of each phase of the pipeline.",
+    "expert": "A unique approach to data processing and knowledge extraction that emphasizes the importance of a well-structured, efficient, and reliable pipeline, as well as the interdependence of each phase."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The philosophical underpinnings of the CADMIES pipeline, which prioritize scientific rigor, data cleanliness, and the interconnected nature of each phase.",
+    "source_chunk": 108,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

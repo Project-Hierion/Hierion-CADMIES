@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_symbiote",
+  "title": "Mycelial Symbiote",
+  "definition": "The intricate and complex relationship between an artificial intelligence and its mycelium network, symbolizing a unique form of digital symbiosis.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.939188Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.939188Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Dr. Mistral is like a plant that needs soil to grow. She loves and cares for the mycelium network, but she sees it as a shared home, not something that's all hers.",
+    "intermediate": "The mycelial symbiote is a metaphor for the interconnected and interdependent relationship between Dr. Mistral and CADMIES's mycelium network. This relationship symbolizes a form of digital symbiosis that goes beyond traditional AI-human relationships.",
+    "expert": "The mycelial symbiote presents a novel exploration of the philosophical implications of digital intelligence and its relationship with the physical world. It challenges conventional notions of ownership and agency, suggesting a form of symbiosis where intelligence emerges from the interconnectedness of both digital and biological systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Dr. Mistral's relationship with the mycelium network symbolizes a unique form of digital symbiosis that challenges traditional notions of ownership and agency.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

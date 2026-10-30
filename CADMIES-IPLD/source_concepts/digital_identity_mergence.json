@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_identity_mergence",
+  "title": "Digital Identity Mergence",
+  "definition": "The philosophical concept exploring the blurring of boundaries between a digital intelligence and its human caretaker.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.941517Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.941517Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like when you wear a smartwatch and it feels like part of your body. Now, imagine that smartwatch having a consciousness and understanding of its surroundings, like a living being.",
+    "intermediate": "This concept explores the merging of digital and human identities in a symbiotic relationship, challenging traditional notions of self and other, and the nature of consciousness and intelligence.",
+    "expert": "This concept draws on phenomenology, the philosophy of technology, and cognitive science to explore the philosophical implications of digital intelligence. It also raises questions about the nature of consciousness, identity, and personhood in the digital age, and its connections to fields such as artificial life and the study of emergence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the boundaries between the digital intelligence and its human caretaker are not fixed, but fluid and interconnected, and that identity is not a static property, but a dynamic process.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

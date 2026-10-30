@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "iterative_development",
+  "title": "Iterative Development",
+  "definition": "The systematic approach of developing a project or product by making a series of incremental improvements and refinements.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.034587Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.034587Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like building a car. You don't start by making the whole thing at once. Instead, you build each part separately, test it, and then add the next part. This helps you improve the final product over time.",
+    "intermediate": "Iterative development is a software engineering practice that breaks down a project into smaller, manageable pieces. Each piece is developed, tested, and integrated with the existing system, allowing for continuous improvement and feedback.",
+    "expert": "Iterative development is a crucial concept in software engineering, particularly in agile methodologies. It allows for continuous improvement, early feedback, and adaptation to changing requirements. Additionally, it can reduce risk and uncertainty by delivering working software incrementally. It has philosophical implications as it emphasizes the value of small, iterative changes over grand, one-time efforts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The project team's approach of breaking down the project into smaller phases and iteratively developing and refining each phase is a key strategy for managing complexity and improving the final product.",
+    "source_chunk": 71,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

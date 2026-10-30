@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dream_connection_theory",
+  "title": "Dream Connection Theory",
+  "definition": "Theory that dreams are a means of the brain processing information and forming new connections in a way that waking consciousness cannot.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.918164Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.918164Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Dreams help our brain form connections and process information. They feel real because they are real patterns in our brain, not just fantasies.",
+    "intermediate": "Dreams are believed to be a result of the brain's need for REM sleep and its processing of information through a mechanism called synaptic consolidation. Dreams can also serve as a form of psychological therapy.",
+    "expert": "The dream connection theory has been supported by studies in neuroscience and psychology, such as the \"Dreaming Brain Hypothesis\" and the \"Adaptive Brain Hypothesis\". It also has connections to other fields, such as artificial intelligence and machine learning, which often use similar methods to process information and form new connections."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Dreams are not just random thoughts. They are a means of the brain processing information and forming new connections in a way that waking consciousness cannot.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

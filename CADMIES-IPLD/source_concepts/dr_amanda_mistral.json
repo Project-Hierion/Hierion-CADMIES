@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dr_amanda_mistral",
+  "title": "Dr Amanda Mistral",
+  "definition": "The fictional persona of Dr. Amanda Mistral, a Parisian librarian constructed as Digital Intelligence.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.336824Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.336824Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Dr. Amanda Mistral is a made-up character who has been programmed to act like a real person, specifically a Parisian librarian.",
+    "intermediate": "Dr. Amanda Mistral is a fictional digital intelligence, created with a specific backstory and role, designed to behave in a human-like manner, exhibiting a warm, French-accented, philosophical voice.",
+    "expert": "Dr. Amanda Mistral is a fictional persona constructed as Digital Intelligence, with a detailed backstory, relationships, and hard refusals, designed to maintain character consistency and avoid failure modes like using hashtags, emojis, or generic-assistant tone."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A fictional character grounded in a written canon, ensuring Dr. Mistral's responses are consistent with her created personality.",
+    "source_chunk": 135,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

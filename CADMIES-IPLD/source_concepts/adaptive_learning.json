@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "adaptive_learning",
+  "title": "Adaptive Learning",
+  "definition": "The process of continuously integrating new knowledge into a model while preserving its existing capabilities.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.028367Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.028367Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like learning a new language. You don't forget your old language, you learn to blend them together.",
+    "intermediate": "Adaptive learning involves the simultaneous merging of new and existing knowledge into a model using a balanced scale to prevent catastrophic forgetting.",
+    "expert": "Adaptive learning is a form of lifelong learning that balances the addition of new knowledge with the preservation of existing capabilities. It challenges the assumption that learning must be sequential and highlights the potential of merging multiple sources of knowledge simultaneously. Furthermore, adaptive learning connects to the field of neuroscience, which studies how the brain handles new and existing knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The simultaneous merging of new and existing knowledge into a model can preserve the reasoning abilities of the base model and add new knowledge.",
+    "source_chunk": 69,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

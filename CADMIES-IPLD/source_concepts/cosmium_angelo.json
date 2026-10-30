@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmium_angelo",
+  "title": "Cosmium Angelo",
+  "definition": "A decentralized protocol designed to unify human knowledge, addressing the fragmentation of knowledge and enhancing its accessibility and usability.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.139613Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.139613Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Cosmium Angelo is a computer program that helps people find and understand information easier by putting it all in one place and making it easier to search.",
+    "intermediate": "Cosmium Angelo is a network-based protocol designed to integrate diverse human knowledge repositories and facilitate their search, access, and utilization, addressing the issue of knowledge fragmentation and the inadequacy of current scholarly attribution systems.",
+    "expert": "Cosmium Angelo is a groundbreaking decentralized protocol designed to unify human knowledge, bridging the gap between disparate knowledge silos and improving accessibility, usability, and interoperability. Its development addresses the challenges posed by the fragmentation of human knowledge and the limitations of current attribution systems, offering a novel solution to the complex problem of knowledge organization in the digital age."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unification of human knowledge through Cosmium Angelo represents a transformative leap towards a more informed, collaborative, and equitable world.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

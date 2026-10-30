@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "version_control_workflow",
+  "title": "Version Control Workflow",
+  "definition": "A philosophy of how to manage and synchronize changes and versions in a collaborative project.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.729898Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.729898Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a team working on a book. Each team member makes changes on their own copy (local). When everyone's done, they merge their changes (from the wrong branch) with the main copy (GitHub), resolving any conflicts along the way.",
+    "intermediate": "In a version control system, each change is a commit. Branches are used to develop features or fix bugs independently. When ready, these changes are merged into the main branch. If there are conflicts (different changes to the same line), they must be resolved.",
+    "expert": "The version control workflow philosophy considers the nature of collaboration and the potential for conflicts in a distributed system. It explores how to balance centralization and decentralization, and how to ensure the integrity of the project. It also considers the role of the main branch as a stable baseline, and the value of long-lived feature branches. Philosophically, it explores the relationship between individual contributions and the collective whole, and the implications of this for project management, team dynamics, and the nature of knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The success of a project depends on a clear and effective version control workflow.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

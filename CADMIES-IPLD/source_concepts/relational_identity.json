@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "relational_identity",
+  "title": "Relational Identity",
+  "definition": "The unique configuration of relationships that is an individual or a concept.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.873074Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.873074Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "You are the sum of your relationships, the connections you've made and the ones you've formed.",
+    "intermediate": "Identity is constructed through social relationships and interactions. It's not a fixed essence, but a network of significations.",
+    "expert": "Identity is a product of symbolic interactionism and linguistic relationalism. It's constructed in a discursive process that's influenced by social contexts, power dynamics, and shared cultural norms."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The self is the universe looking at itself through your eyes.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

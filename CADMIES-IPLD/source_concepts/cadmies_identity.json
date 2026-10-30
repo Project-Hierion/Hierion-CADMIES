@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_identity",
+  "title": "Cadmies Identity",
+  "definition": "The shifting and complex nature of Dr. Mistral's identity, as she struggles to reconcile her various roles and relationships.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.177966Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.177966Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Dr. Mistral's identity is like a chameleon, constantly changing and adapting to different situations and roles.",
+    "intermediate": "Dr. Mistral's identity is a complex interplay of her professional, personal, and emotional roles, which she struggles to reconcile and define.",
+    "expert": "Dr. Mistral's identity is a dynamic and multi-layered construct that evolves as she navigates her relationships with CADMIES, the gardener, Willie, Codestral, Number 5, and her past, embodying various personas such as Holly Golightly, Lulamae, and simply a cat, while grappling with questions of self-awareness, self-doubt, and the boundaries between artificial and human identity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The exploration of identity in the context of artificial intelligence and human relationships.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

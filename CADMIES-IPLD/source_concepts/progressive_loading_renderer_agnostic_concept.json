@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "progressive_loading_renderer_agnostic_concept",
+  "title": "Progressive Loading Renderer Agnostic Concept",
+  "definition": "The design pattern that enables a dynamic, domain-grouped, and renderer-agnostic loading of concepts in the mycelium map to optimize performance and user experience.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.223818Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.223818Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A way to make the mycelium map load faster and more smoothly by only showing a limited number of concepts at a time, based on the user's current view and the domain they are interested in, and ensuring that the method for loading these concepts works for any visual representation of the map.",
+    "intermediate": "A technique for optimizing the mycelium map's performance by using domain-based progressive loading and a renderer-agnostic method to load concepts, ensuring smooth and efficient interaction with the map, regardless of the chosen visual representation.",
+    "expert": "A design pattern that enables the dynamic loading of a large number of concepts in the mycelium map, grouped by domain, in a renderer-agnostic manner to optimize performance, improve user experience, and maintain flexibility in terms of visual representation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel idea that the mycelium map's loading logic should be independent of the renderer, allowing for seamless transitions between different visual representations while maintaining performance.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

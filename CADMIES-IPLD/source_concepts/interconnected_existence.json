@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interconnected_existence",
+  "title": "Interconnected Existence",
+  "definition": "The belief that all things are intrinsically connected and interdependent, rejecting the notion of separate observers in a dead universe.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.153275Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.153275Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine every living thing and every object as part of a single, interconnected web. This concept suggests that everything is connected and that there is no such thing as an isolated observer.",
+    "intermediate": "The interconnected existence perspective posits that everything in the universe is intrinsically connected and interdependent, rejecting the notion of separate observers in a dead universe.",
+    "expert": "The interconnected existence theory challenges traditional notions of a disconnected universe by proposing that all things are intrinsically connected and interdependent. This perspective has profound implications for our understanding of reality, consciousness, and the nature of existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A revolutionary perspective that challenges traditional notions of a disconnected universe by proposing that all things are intrinsically connected and interdependent.",
+    "source_chunk": 61,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

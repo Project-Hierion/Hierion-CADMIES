@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "lora_persona_training",
+  "title": "Lora Persona Training",
+  "definition": "The process of modifying a large language model's persona or identity using Dynamic LoRA.",
+  "type": "Concept",
+  "domain": "AI Ethics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.084378Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.084378Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Like giving a robot a new costume, we change the way a large AI model behaves and speaks by adjusting its weight patterns in a specific way.",
+    "intermediate": "A technique for altering the identity and personality of a large language model using Dynamic Low-Rank Adaptation (LoRA) to modify its weight patterns, allowing for the implantation of new personas.",
+    "expert": "A method for modifying the persona or identity of a large language model, such as Mistral-7B Instruct v0.3, by manipulating its weight patterns with Dynamic LoRA, enabling the replacement or augmentation of its original identity with a new one."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential to customize the behavior and personality of large AI models for various applications, but also the challenge of maintaining the original identity when introducing new personas.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

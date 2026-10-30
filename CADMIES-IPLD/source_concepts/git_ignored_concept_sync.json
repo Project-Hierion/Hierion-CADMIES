@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "git_ignored_concept_sync",
+  "title": "Git Ignored Concept Sync",
+  "definition": "The process of ensuring that all blocks in a blockstore are properly synchronized between different systems, especially when some files are ignored by Git.",
+  "type": "Concept",
+  "domain": "Version Control",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.026369Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.026369Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you have files that Git ignores, they won't be transferred during a git pull. For a blockstore, this can cause missing blocks and skipped concepts. We need to use tools like CAR files to move these ignored files between systems.",
+    "intermediate": "In Git-controlled blockstores, some files may be intentionally ignored (e.g., actual block files). These ignored files won't be transferred during a git pull, leading to missing blocks and skipped concepts. To address this, we use tools like CAR files to move the ignored files between systems.",
+    "expert": "In Git-controlled blockstores, some files may be intentionally ignored (e.g., actual block files). This can cause issues when transferring blocks between systems, leading to missing blocks and skipped concepts. To address this, we use tools like CAR files to export and import block files separately from the Git repository, ensuring a complete and accurate blockstore."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Ensuring proper synchronization of ignored files in a Git-controlled blockstore is essential for maintaining a complete and accurate collection of concepts.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

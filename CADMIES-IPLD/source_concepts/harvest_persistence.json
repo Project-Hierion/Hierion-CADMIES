@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "harvest_persistence",
+  "title": "Harvest Persistence",
+  "definition": "The need to ensure the persistence of data generated during the harvesting process in the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.739007Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.739007Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of harvesting as a garden. After you pick the fruits, you need to make sure you store them well so they last. In this context, that means saving the data from the harvesting process to keep it accessible and usable.",
+    "intermediate": "Harvesting in the CADMIES system generates valuable data, such as block files and conversation.json files. To ensure this data is retained, it needs to be exported to a CAR file immediately after harvesting. This persistence ensures data availability across different Paperspace sessions.",
+    "expert": "The harvesting process in the CADMIES system generates data that is critical for the system's functionality and growth. However, this data is susceptible to loss due to various factors, such as machine recycling and the gitignore setting. Ensuring data persistence is essential to maintain the system's integrity and continuity. This concept also highlights the importance of data management in computer systems and the need to consider data persistence during system design and operation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Data generated during the harvesting process needs to be persisted to ensure its availability and usability in the CADMIES knowledge system.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

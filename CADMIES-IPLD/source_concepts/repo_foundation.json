@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "repo_foundation",
+  "title": "Repo Foundation",
+  "definition": "The essential structure and setup of a repository, serving as the foundation for all project-related work.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.304415Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.304415Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The foundation is the base structure of a project repository, which contains all the necessary files and directories for the project to run and be organized.",
+    "intermediate": "A repository foundation refers to the initial setup and structure of a project repository, including essential files and directories such as documentation, Python environment setup, and initial scripts.",
+    "expert": "The repo foundation represents the minimal essential structure required for a project repository, encapsulating core elements like documentation, Python environment setup, and initial scripts, providing a stable foundation for ongoing development and collaboration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A robust foundation ensures a smooth, organized, and efficient workflow for collaborators and maintainers.",
+    "source_chunk": 123,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

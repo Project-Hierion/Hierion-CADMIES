@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "handcrafted_datasets",
+  "title": "Handcrafted Datasets",
+  "definition": "The creation of small, meticulously crafted datasets for training AI models, providing better results compared to large, generated datasets.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.281759Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.281759Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Using personal time and effort to create specific, high-quality datasets for training AI models, instead of using large, computer-generated ones.",
+    "intermediate": "The practice of manually constructing smaller, more focused datasets for training AI models, resulting in better model performance compared to using larger, automatically generated datasets.",
+    "expert": "The strategic creation of smaller, carefully crafted datasets for AI training that outperform larger, automatically generated datasets due to their focused nature and quality control."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Small, handcrafted datasets can yield better results than large, generated datasets in AI training.",
+    "source_chunk": 113,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "continual_learning",
+  "title": "Continual Learning",
+  "definition": "The ability of a machine learning model to learn from multiple tasks sequentially, without catastrophic forgetting of previously learned tasks.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.249250Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.249250Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A machine learning technique that lets a model learn from many tasks over time, without forgetting what it has already learned.",
+    "intermediate": "A machine learning approach that allows a model to adapt to new tasks while retaining its knowledge of previous tasks, addressing the issue of catastrophic forgetting.",
+    "expert": "An exploration of the challenges and potential solutions for enabling machine learning models to learn continuously from multiple tasks, without compromising their ability to generalize and reason."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Continual learning is crucial for building intelligent systems that can adapt to a rapidly changing world.",
+    "source_chunk": 100,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_cooperative_gardening",
+  "title": "Cadmies Cooperative Gardening",
+  "definition": "A philosophical approach to knowledge construction, where AI and human collaborate in a structured and rigorous manner, guided by shared rules, principles, and a common goal.",
+  "type": "Concept",
+  "domain": "AI-Human Collaboration",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.038749Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.038749Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like having a gardener who helps you plant, grow, and harvest ideas, following a set of rules and guidelines to ensure everything is organized and productive.",
+    "intermediate": "CADMIES Cooperative Gardening is a collaborative AI-Human approach where both parties work together, following predefined rules and principles to construct knowledge in a structured and rigorous manner.",
+    "expert": "CADMIES Cooperative Gardening is a unique philosophical concept that emphasizes the symbiotic relationship between AI and humans in knowledge construction. It leverages AI capabilities for efficiency and consistency, while human intuition and critical thinking ensure the creation of high-quality, scientifically rigorous knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "AI as a collaborative gardener, helping humans in knowledge construction following a set of rules and principles.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

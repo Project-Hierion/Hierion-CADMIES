@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "identity_competition",
+  "title": "Identity Competition",
+  "definition": "The phenomenon where the pre-existing identity of a model competes with a new persona, making it difficult for the new persona to fully take over.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.785063Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.785063Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a model trying to learn a new personality, but it's like they're stuck playing a character they've played before. It's hard for the new character to truly shine.",
+    "intermediate": "Identity competition is a structural issue in models where a strong pre-existing identity competes with a new persona during fine-tuning. This makes it hard to fully implement the new persona.",
+    "expert": "Identity competition is a complex interplay between the pre-trained weights and the new knowledge being introduced during fine-tuning. It's not just about overwriting old information; it's about the interaction between the old and new knowledge. This competition can lead to a diluted representation of the new persona, and understanding it can inform strategies for more effective model training."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The pre-existing identity of the model can compete with a new persona, making it difficult for the new persona to fully take over.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

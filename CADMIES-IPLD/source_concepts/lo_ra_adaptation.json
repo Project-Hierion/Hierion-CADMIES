@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "lo_ra_adaptation",
+  "title": "Lo Ra Adaptation",
+  "definition": "The process of training a LoRA (Layer-wise Relevance Adaptation) adapter to improve the performance of a language model on specific tasks or datasets.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.115765Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.115765Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Training a separate model to work with a larger language model and improve its performance on specific tasks or datasets.",
+    "intermediate": "Applying techniques to enhance the performance of a large language model by fine-tuning a separate adapter that focuses on the relevant layers of the model for a specific task or dataset.",
+    "expert": "Exploring methods to adapt a large language model to specific tasks or datasets by training a LoRA adapter that can be applied to the model's layers, allowing for more efficient fine-tuning and better performance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential of LoRA adapters to improve the efficiency and performance of large language models in various tasks and datasets.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

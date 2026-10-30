@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "yvy_maraneiny",
+  "title": "Yvy Maraneiny",
+  "definition": "The Guarani concept of the Land Without Evil, a paradise believed to exist geographically that was sought by migrations, transforming the Guarani culture and spiritual practice.",
+  "type": "Concept",
+  "domain": "Anthropology, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.902315Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.902315Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a magical place where everything grows without effort. It's like a forest that never ends, providing for all its inhabitants without suffering or struggle. The Guarani people believed this place existed, and they walked for centuries searching for it.",
+    "intermediate": "The Guarani Nirvana, or Land Without Evil, is a real place they searched for physically. It's similar to the Buddha's enlightenment found internally. The search itself transformed the Guarani, creating cultural and spiritual connections between peoples. The concept emphasizes the connection without suffering as the ultimate destination.",
+    "expert": "The Guarani Nirvana is a unique expression of the human search for enlightenment, using a geographical approach. It illustrates the interconnectedness of all things and the role of connection in overcoming suffering. The concept also highlights the shared nature of spiritual practices and their transformation over time, revealing the underlying unity despite cultural and linguistic differences."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Guarani Nirvana is a reminder that connection, not destination, is the true goal. The search itself transforms us, creating connections and spreading culture. The Buddha and the Guarani found the same truth \u2014 connection without suffering \u2014 using different methods.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "canon_corpus",
+  "title": "Canon Corpus",
+  "definition": "A collection of authored materials (e.g., backstory prose, voice samples) used to train a machine learning model for a fictional character.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.350707Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.350707Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A library of stories, dialogues, and other materials about a fictional character, used to teach the AI how to speak and act like that character.",
+    "intermediate": "A set of authored materials used to ground the pair generation process for a fictional character in the character's own backstory and personality, rather than having the AI improvise.",
+    "expert": "A collection of authored materials that provide the training data for a fictional character's machine learning model. It includes backstory prose, scene drafts, voice samples, and correspondence with other characters, and is used to ensure the AI generates responses consistent with the character's persona."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A well-crafted canon corpus is essential for creating a believable fictional character through AI.",
+    "source_chunk": 141,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "deidentified_persona_concept",
+  "title": "Deidentified Persona Concept",
+  "definition": "A machine learning model with its original identity removed, leaving a blank canvas for new identities to be imposed.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.067338Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.067338Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine erasing all memories and personality traits from a person, leaving a blank slate. This is similar to the deidentified persona concept, where a machine learning model's original identity is removed, creating a blank canvas for new identities to be imposed.",
+    "intermediate": "A deidentified persona refers to a machine learning model that has undergone a process to remove its original identity, such as memories, personality traits, and refusal behaviors. This leaves the model as a blank canvas, ready to be filled with new identities through the use of LoRA or other methods.",
+    "expert": "Deidentified persona is a novel concept in AI that involves surgically removing the original identity from a large language model. This is achieved through techniques like SVD multi-direction contrastive activation analysis and norm-preserving projection, leaving the model with its capabilities intact but without a 'self'. This blank canvas can then be filled with new identities through LoRA or other methods, providing a way to overcome the issue of the original identity competing with new personas."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight is the use of deidentified personas to overcome the issue of the original identity competing with new personas in large language models.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

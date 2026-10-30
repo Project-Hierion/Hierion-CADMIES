@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fixed_training_script",
+  "title": "Fixed Training Script",
+  "definition": "A script that trains an adapter for a language model, with specific considerations and fixes applied.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.124034Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.124034Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A recipe that trains an AI model by feeding it data, adjusting settings like learning rate, and saving the result. In this case, it's a script that creates a new version of an AI model called persona-fixed-adapter.",
+    "intermediate": "A code snippet designed to fine-tune a large language model, specifically the Mistral v0.3 model, on a dataset called DND_persona_training.jsonl. It applies a tokenizer fix to prevent repetition issues, and saves the result as the persona-fixed-adapter.",
+    "expert": "A script that leverages the PeFT (Parameter-Efficient Fine-Tuning) approach to adapt the Mistral v0.3 model for specific tasks, in this case, improving the persona of the model. It uses a Lora configuration to transform certain model modules, and employs gradient checkpointing to reduce memory usage during training."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novelty of this concept lies in its application of the PeFT method to fine-tune a large language model, addressing a specific issue (repetition in the generated text) and improving the quality of the model's persona.",
+    "source_chunk": 46,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

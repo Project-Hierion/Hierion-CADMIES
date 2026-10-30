@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "continual_learning_and_adapter_stacking",
+  "title": "Continual Learning And Adapter Stacking",
+  "definition": "The art of training and fine-tuning machine learning models to continuously learn and adapt to new tasks without forgetting previously learned information, especially in the context of stacking or merging multiple adapters.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.002958Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.002958Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine learning a new language. You can learn many, but practicing each one too often might make you forget the others. Continual learning is like learning many languages, remembering them all, and being able to use the right one at the right time.",
+    "intermediate": "Continual learning in machine learning involves training models to learn multiple tasks sequentially without losing the performance on previously learned tasks. Adapter stacking is a technique that involves merging or stacking multiple adapters to enhance the model's capabilities, but it's crucial to manage the 'catastrophic forgetting' problem to prevent previous knowledge from being destroyed.",
+    "expert": "Continual learning and adapter stacking are crucial in building sophisticated and versatile machine learning models. They challenge the traditional one-size-fits-all approach by enabling models to learn and adapt to new tasks while preserving previously learned knowledge. However, managing the 'catastrophic forgetting' problem is a complex and ongoing research area. Tools like llama.cpp offer solutions, but they require careful consideration of trade-offs between flexibility, performance, and efficiency."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Continual learning and adapter stacking are essential techniques for building versatile and adaptable machine learning models, but managing the 'catastrophic forgetting' problem is a critical challenge that requires ongoing research and practical solutions.",
+    "source_chunk": 66,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

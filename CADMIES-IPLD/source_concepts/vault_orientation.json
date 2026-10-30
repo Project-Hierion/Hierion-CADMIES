@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vault_orientation",
+  "title": "Vault Orientation",
+  "definition": "The practice of consulting the CADMIES knowledge system before beginning work to ensure alignment with the project's history, roadmap, and guidelines.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.271565Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.271565Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Starting every session by checking the project's notes, roadmap, and rules to stay updated and work effectively.",
+    "intermediate": "Consulting the CADMIES knowledge system for project context, decisions, and automation details to maintain consistency and alignment.",
+    "expert": "Establishing a disciplined approach to orient before building, ensuring the project's continuity, integrity, and adaptability by leveraging the CADMIES system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of consulting the CADMIES knowledge system before beginning work to maintain project consistency and alignment.",
+    "source_chunk": 111,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

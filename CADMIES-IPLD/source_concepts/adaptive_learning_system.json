@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "adaptive_learning_system",
+  "title": "Adaptive Learning System",
+  "definition": "A system that learns and evolves based on the input data and the outcomes of its actions.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.978346Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.978346Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a robot that learns new tricks and improves its performance based on what it experiences, just like a child learning from life.",
+    "intermediate": "An adaptive learning system is a machine learning model that updates its parameters based on the feedback it receives. This allows it to continuously improve its performance.",
+    "expert": "Adaptive learning systems are at the forefront of AI research. They can be used for a variety of tasks, from autonomous vehicles to personalized recommendation systems. Their philosophical implications include questions about the nature of intelligence and the role of feedback in learning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The AI system, Dr. Mistral, is a real-time example of an adaptive learning system that updates its knowledge base and improves its performance based on new data and feedback.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

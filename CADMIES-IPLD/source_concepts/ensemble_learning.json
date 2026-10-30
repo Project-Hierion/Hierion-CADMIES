@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ensemble_learning",
+  "title": "Ensemble Learning",
+  "definition": "A machine learning approach that combines multiple models to improve performance and robustness.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.953116Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.953116Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to identify an object, but you're not sure. You ask a few friends for their opinions. Ensemble learning is like this \u2014 it uses multiple models (like friends) to make a more accurate decision.",
+    "intermediate": "Ensemble learning is a technique that combines the predictions from multiple machine learning algorithms to improve performance. It's based on the idea that the collective wisdom of a group of models is often better than that of any individual model.",
+    "expert": "Ensemble learning is a powerful technique that leverages the diversity of multiple models to improve predictive accuracy and robustness. It can be used to reduce bias, improve generalization, and mitigate overfitting. However, it also introduces challenges such as model diversity, ensemble size, and computational complexity. Ensemble learning is closely related to other fields like committee machines, stacking, and boosting."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the use of ensemble learning to combine multiple machine learning models (adapters) to create a more capable AI assistant.",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

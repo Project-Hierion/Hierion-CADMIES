@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "branch_management_workflow",
+  "title": "Branch Management Workflow",
+  "definition": "The process of managing and coordinating branches in a Git repository to ensure that changes are merged correctly.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.012732Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.012732Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Workflow for keeping track of different versions of a project and making sure updates from one version make it to the correct place.",
+    "intermediate": "A systematic method for handling multiple branches in a Git repository, merging changes correctly and maintaining version control.",
+    "expert": "A workflow for managing branches in a Git repository, designed to maintain version control and ensure changes are merged correctly, particularly when dealing with diverged branches or merging changes from local and remote repositories."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The workflow enables efficient handling of multiple branches in a Git repository, ensuring seamless integration of changes across different versions.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

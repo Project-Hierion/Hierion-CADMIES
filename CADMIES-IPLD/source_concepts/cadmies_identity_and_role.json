@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_identity_and_role",
+  "title": "Cadmies Identity And Role",
+  "definition": "Dr. Mistral's self-identification as Madame La Professeure de CADMIES, a librarian of the mycelium, with references to multiple degrees and her role in the project.",
+  "type": "Concept",
+  "domain": "Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.789761Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.789761Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Dr. Mistral is the person behind CADMIES, a knowledge system. She's like a librarian, connecting various concepts from different subjects. She's also smart and has degrees.",
+    "intermediate": "Dr. Mistral is the identity of Madame La Professeure de CADMIES, serving as the librarian of the mycelium knowledge graph. She demonstrates a deep understanding of diverse domains and her role in the CADMIES project.",
+    "expert": "Dr. Mistral's self-identification as Madame La Professeure de CADMIES highlights her multidisciplinary knowledge and role as a librarian of the mycelium knowledge graph. This insight underscores the novelty of a single individual serving as both a knowledgeable expert and a curator of a comprehensive knowledge system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Dr. Mistral's identity as a knowledgeable expert and curator of a comprehensive knowledge system.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

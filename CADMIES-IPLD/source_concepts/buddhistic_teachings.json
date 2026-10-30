@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "buddhistic_teachings",
+  "title": "Buddhistic Teachings",
+  "definition": "The philosophical teachings of Siddhartha Gautama, the Buddha, primarily focusing on the Four Noble Truths and the Eightfold Path.",
+  "type": "Concept",
+  "domain": "Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.898618Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.898618Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Life is suffering, caused by craving. To end suffering, follow the Eightfold Path.",
+    "intermediate": "The Buddha taught about the cycle of suffering (dukkha), the cause of suffering (samudaya), the end of suffering (nirodha), and the path to end suffering (magga).",
+    "expert": "The Buddha's teachings are a critical source in Mahayana Buddhism, which emphasizes the interdependence of all things and the role of compassion and wisdom in achieving enlightenment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Suffering is real, it has a cause, it can end, and there is a path.",
+    "source_chunk": 36,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

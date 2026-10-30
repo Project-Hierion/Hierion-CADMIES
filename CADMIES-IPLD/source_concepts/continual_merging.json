@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "continual_merging",
+  "title": "Continual Merging",
+  "definition": "A technique that involves merging updates from different tasks into a single model over time to minimize forgetting and maintain performance.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.004163Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.004163Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of continual merging like learning new things. Instead of forgetting old things, you just add new things to what you already know, making your learning stronger.",
+    "intermediate": "Continual merging is a strategy that combines the benefits of fine-tuning a model on multiple tasks without suffering from catastrophic forgetting. It's a method that learns new parameters to merge multiple LoRAs, retaining much of the original performance while reducing storage needs.",
+    "expert": "Continual merging is a research area focusing on minimizing forgetting in neural networks when learning new tasks. This is achieved by merging the updates from new tasks into the existing model, using strategies like orthogonal basis initialization and time-aware scaling. This technique has philosophical implications for lifelong learning and the flexibility of AI models."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight from the conversation is the recognition of continual merging as a more effective strategy for sequentially applying knowledge from multiple tasks than simply stacking adapters.",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

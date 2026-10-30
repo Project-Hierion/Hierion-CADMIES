@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "drift_monitoring",
+  "title": "Drift Monitoring",
+  "definition": "The process of identifying and addressing deviations in a model's output or behavior due to changes in input data or the environment, to ensure the model remains effective and aligned with its intended purpose.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.341047Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.341047Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Ensuring that a robot keeps doing the right things as the world around it changes. For example, if a robot is programmed to recognize apples, it should still recognize apples even if they start to look different over time.",
+    "intermediate": "Monitoring the performance of a machine learning model and identifying when its output deviates from the expected results due to changes in input data or the environment. This information is then used to retrain the model or adjust its parameters to maintain its effectiveness.",
+    "expert": "Drift monitoring is a crucial aspect of maintaining a machine learning model's performance over time. By continuously evaluating the model's output and identifying deviations, it is possible to address these issues and ensure the model remains aligned with its intended purpose, even as the input data and environment evolve."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Drift monitoring helps maintain the effectiveness of a machine learning model by identifying and addressing changes in the input data or environment that could negatively impact its performance.",
+    "source_chunk": 137,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

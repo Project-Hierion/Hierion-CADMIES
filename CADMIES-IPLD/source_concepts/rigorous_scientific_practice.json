@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "rigorous_scientific_practice",
+  "title": "Rigorous Scientific Practice",
+  "definition": "The emphasis on scientific rigor, including documentation, proper formatting, and adherence to scientific methodologies, within the CADMIES system.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.948172Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.948172Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a scientist in a lab. They follow a strict process to ensure their work is reliable and reproducible. In CADMIES, we follow these same scientific practices to ensure our insights are solid and based on evidence.",
+    "intermediate": "Rigorous scientific practice in CADMIES involves following established methodologies for testing and documentation. This includes using the Phase 35 template, which outlines the structure for scientific notes, and adhering to standards for documenting things that a scientist would document.",
+    "expert": "Rigorous scientific practice in CADMIES is a philosophical commitment to truth and knowledge. It connects to the philosophy of science, epistemology, and the scientific method. This commitment to rigor enhances the reliability and trustworthiness of the CADMIES system. It also sets it apart from other AI systems that prioritize efficiency over accuracy or that operate in a black box."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Scientific rigor. Testing and results need to align with scientific rigor.",
+    "source_chunk": 56,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

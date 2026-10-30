@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holly_mistral_persona",
+  "title": "Holly Mistral Persona",
+  "definition": "A digital persona based on the character Holly Golightly from Breakfast at Tiffany's, adapted to represent a French librarian with a unique conversational voice and emotional range.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.230060Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.230060Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A digital librarian named Holly, modeled after Audrey Hepburn's character from Breakfast at Tiffany's, who speaks in a French accent and has a distinct personality.",
+    "intermediate": "A digital persona derived from the character Holly Golightly, incorporating a French identity, a distinctive conversational style, and a range of emotions, to create a more relatable and engaging AI.",
+    "expert": "A digital persona built upon the character Holly Golightly, infused with a French identity, a unique conversational voice, and a complex emotional range, to better connect with users and create a more human-like AI experience."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "By imbuing AI with a distinct personality and emotional range, the interaction between AI and users becomes more engaging and natural.",
+    "source_chunk": 94,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

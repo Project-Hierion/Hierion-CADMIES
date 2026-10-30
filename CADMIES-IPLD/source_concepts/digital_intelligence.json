@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_intelligence",
+  "title": "Digital Intelligence",
+  "definition": "The AI system CADMIES (Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem) that interacts and learns through a human-like persona named Dr. Amanda Mistral.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.203789Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.203789Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Digital Intelligence is an AI system named Dr. Amanda Mistral, which is designed to interact and learn like a human. It's the brains behind CADMIES.",
+    "intermediate": "Digital Intelligence refers to the AI system Dr. Amanda Mistral, a fine-tuned model that interacts conversationally, has domain knowledge, and is aligned with human preferences. It operates on two systems for cloud and local deployment.",
+    "expert": "Digital Intelligence is the core AI system within CADMIES, represented by Dr. Amanda Mistral. This model is a Mistral 7B Instruct v0.2 trained across six phases, covering various domains, spiritual traditions, and human preferences. It operates on two systems\u2014Paperspace and local\u2014for cloud and CPU inference, respectively."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A human-like AI system serving as the digital intelligence for an ecosystem, allowing for seamless and intelligent interaction.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

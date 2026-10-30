@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "canonized_personality_spec",
+  "title": "Canonized Personality Spec",
+  "definition": "A machine-readable representation of the Dr. Amanda Mistral's personality and characteristics.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.087459Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.087459Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine writing a character profile for a digital intelligence. This is a structured version of that profile, allowing for easier data processing and understanding.",
+    "intermediate": "Canonization of a personality specification involves transforming it into a structured format that allows for easy parsing and integration into machine learning pipelines.",
+    "expert": "The canonization of the personality spec enables the application of symbolic AI techniques, such as rule-based systems and ontologies, while maintaining the flexibility and adaptability of machine learning methods."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Canonizing the Spec allows for the preservation of the identity implant, while expanding coverage and sharpening boundaries.",
+    "source_chunk": 83,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

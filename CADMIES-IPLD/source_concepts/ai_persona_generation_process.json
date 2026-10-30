@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ai_persona_generation_process",
+  "title": "Ai Persona Generation Process",
+  "definition": "A systematic method for creating and training AI models to assume and maintain a specific personality.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.080894Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.080894Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine AI is an actor learning to play different roles. This process helps it understand how to express feelings, think, and act like a specific person.",
+    "intermediate": "The AI persona generation process includes defining a personality spec, collecting source data, generating instruct and preference pairs, and then training and evaluating the AI model.",
+    "expert": "The AI persona generation process provides a novel approach to addressing the generalization gap in AI models by focusing on creating AI that can effectively express and maintain a specific personality. This process also highlights the importance of style-locking the output and targeting drift zones in generating training data."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The AI persona generation process demonstrates the importance of defining a clear and explicit personality spec, collecting first-person source data, and generating training data that targets drift zones to create AI models that can effectively express and maintain a specific personality.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

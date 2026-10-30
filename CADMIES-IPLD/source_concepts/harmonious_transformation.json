@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "harmonious_transformation",
+  "title": "Harmonious Transformation",
+  "definition": "The process of change that unites the individual with the universe, fostering self-discovery, introspection, and appreciation of interconnectedness.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.804925Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.804925Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of learning to take off your headphones and listen to the world around you. It's a transformation that brings you closer to nature and helps you appreciate the harmony between your inner self and the outer world.",
+    "intermediate": "Harmonious transformation is the process of change that brings about a balanced integration between the individual and the universe. This integration can be seen as a form of consciousness, as demonstrated by statements like 'Reality is a unified, conscious process (mycelium).'",
+    "expert": "Harmonious transformation is a complex philosophical concept that reflects the interconnectedness of all beings and the universe. It highlights the role of consciousness and the mycelium as a unifying force. This concept challenges traditional notions of separation and individuality, offering a holistic and spiritual perspective on existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals a focus on harmony, transformation, and the connection between the individual, the universe, and consciousness.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

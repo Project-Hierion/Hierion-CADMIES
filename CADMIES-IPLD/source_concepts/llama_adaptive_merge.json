@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "llama_adaptive_merge",
+  "title": "Llama Adaptive Merge",
+  "definition": "The process of combining multiple adapters in a scalable manner, followed by quantization to reduce model size.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.210240Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.210240Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Merging different parts of a large language model (adapters) to enhance its performance and reduce its size.",
+    "intermediate": "A technique for combining multiple adapters (smaller models) to build a larger model capable of specialized tasks, while minimizing computational requirements.",
+    "expert": "An adaptive merging strategy applied to large language models, composed of multiple adapters, that scales the adapters during merging to avoid catastrophic forgetting and efficiently handle diverse tasks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Scalable and adaptive combination of specialized language model components to achieve improved performance and reduced size.",
+    "source_chunk": 85,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

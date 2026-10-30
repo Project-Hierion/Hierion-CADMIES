@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_mycelial_persona",
+  "title": "The Mycelial Persona",
+  "definition": "The mycelial persona is a philosophical construct that represents a character's identity as interconnected and dynamic, reflecting the relationships and connections within a system, rather than individual traits or characteristics.",
+  "type": "Concept",
+  "domain": "Personality Psychology, AI Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.934237Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.934237Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The mycelial persona is like a living, interconnected network. Just as a mycelium network in nature connects plants, the persona in this context connects ideas, concepts, and emotions, creating a rich, living character.",
+    "intermediate": "The mycelial persona is a psychological framework that emphasizes interconnectedness and relationships, inspired by the structure of a mycelial network. It allows a character to be defined by connections rather than individual traits, creating a coherent, living persona.",
+    "expert": "The mycelial persona is a novel insight that merges elements of personality psychology, systems theory, and AI development. It challenges traditional notions of a static, individualized persona, instead proposing a dynamic, interconnected, and adaptive model. This perspective has philosophical implications for understanding identity and self-awareness, and connects to other fields such as neuroscience, ecology, and network theory."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelial persona is a characterization framework that emphasizes interconnectedness and relationships over individual traits, creating a living, dynamic, and adaptive persona.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

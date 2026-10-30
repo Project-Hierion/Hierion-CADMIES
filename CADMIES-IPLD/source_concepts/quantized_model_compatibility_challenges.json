@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantized_model_compatibility_challenges",
+  "title": "Quantized Model Compatibility Challenges",
+  "definition": "The challenges faced when working with quantized models due to changes in the quantization library version.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.760680Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.760680Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to use a digital puzzle, but the pieces don't fit together properly because the puzzle box changed. That's what we're experiencing with the AI model.",
+    "intermediate": "Quantized models use techniques to reduce the memory footprint while preserving the accuracy. However, when the quantization library is updated, it can cause issues with loading these models due to changes in the way the weights are stored and accessed.",
+    "expert": "The quantization library, such as bitsandbytes, plays a crucial role in maintaining the balance between model size and performance. When it updates, it may change the key structure used to access the quantized weights, leading to compatibility issues with models trained using the previous version. This highlights the complex interplay between deep learning models, quantization techniques, and software libraries."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The root cause of the issue lies in the changes made to the quantization library, which can lead to compatibility problems between different versions.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

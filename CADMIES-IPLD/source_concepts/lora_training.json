@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "lora_training",
+  "title": "Lora Training",
+  "definition": "A method for improving the efficiency and performance of large language models during fine-tuning by adding layers of Lightweight Attention (LoRA) to the model.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.100608Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.100608Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A technique for making a computer model work better and faster by adding extra layers to help it understand the task more easily, like giving a student a study guide.",
+    "intermediate": "A training approach for large language models that enhances their performance by incorporating additional layers known as Lightweight Attention (LoRA).",
+    "expert": "A method for improving the efficiency and performance of large language models during fine-tuning by adding layers of Lightweight Attention (LoRA), which allows the model to better learn the nuances of the specific task or domain."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The application of Lightweight Attention (LoRA) layers to improve the efficiency and performance of large language models during fine-tuning.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

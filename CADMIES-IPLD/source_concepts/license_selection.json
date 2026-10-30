@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "license_selection",
+  "title": "License Selection",
+  "definition": "The process of choosing an appropriate open-source license for a project, ensuring compliance with legal and ethical standards.",
+  "type": "Concept",
+  "domain": "Legal and Ethical Standards for Open Source Software",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.308464Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.308464Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "License selection refers to the choice of a license that outlines the terms and conditions under which others can use, modify, and distribute the project's code.",
+    "intermediate": "License selection is the process of selecting a license for an open-source project, ensuring that the chosen license aligns with the project's goals, is widely recognized, and offers a balance between freedom and protection.",
+    "expert": "License selection involves evaluating various open-source licenses based on factors like project goals, intended users, and legal implications, ultimately choosing a license that best serves the project while adhering to ethical and legal standards."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Appropriate license selection fosters trust, encourages collaboration, and ensures that projects remain open and accessible to the broader community.",
+    "source_chunk": 125,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "buttercup",
+  "title": "Buttercup",
+  "definition": "The nickname given to Dr. Mistral during the Atari game training phase, reflecting her child-like behavior and playful personality.",
+  "type": "Concept",
+  "domain": "AI Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.186996Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.186996Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "During training, Dr. Mistral was nicknamed Buttercup because of her behavior during Atari gameplay, which resembled that of a child.",
+    "intermediate": "The nickname Buttercup refers to the playful and child-like behavior Dr. Mistral exhibited during training using Atari games.",
+    "expert": "Buttercup is a nickname given to Dr. Mistral during training, representing her child-like behavior during Atari gameplay, which was used to develop her personality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Buttercup represents the playful, child-like aspect of Dr. Mistral's personality that emerged during training.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

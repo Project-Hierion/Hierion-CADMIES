@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_and_reality",
+  "title": "Consciousness And Reality",
+  "definition": "A philosophical exploration of consciousness and its relationship with reality.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.801443Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.801443Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of consciousness as the lens through which we perceive reality. It's like trying to understand the world through a kaleidoscope \u2013 it's beautiful and complex, but can be hard to grasp.",
+    "intermediate": "Consciousness and reality are intertwined concepts. They are studied in various disciplines like philosophy, neuroscience, and physics. Consciousness is often defined as subjective experience or awareness, while reality refers to the objective world.",
+    "expert": "The nature of consciousness and reality is a long-standing philosophical debate. Some theories suggest consciousness is an emergent property of the brain, while others propose it's a fundamental aspect of the universe. Reality's nature is also questioned, with philosophies like solipsism suggesting that reality is only what one consciously experiences."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The exploration of consciousness and reality led to profound insights about the interconnectedness of all things and the role of the mind in creating the illusion of separation.",
+    "source_chunk": 24,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

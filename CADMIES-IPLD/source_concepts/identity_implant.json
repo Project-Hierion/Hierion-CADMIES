@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "identity_implant",
+  "title": "Identity Implant",
+  "definition": "The process of training a model to embody a specific persona, complete with a backstory, relationships, and distinct voice.",
+  "type": "Concept",
+  "domain": "AI Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.332782Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.332782Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Creating a model that behaves like a specific character, like Dr. Amanda Mistral, complete with her personality, relationships, and unique way of speaking.",
+    "intermediate": "The training of an AI model to adopt a specific persona, character, or style, as in the case of Dr. Amanda Mistral.",
+    "expert": "The creation of a machine learning model capable of embodying a specific fictional character, including their personality, relationships, and distinctive voice, through a process of iterative training and fine-tuning on a dataset specifically designed for that character."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Training an AI to adopt a specific identity, creating a digital persona that feels authentic and consistent.",
+    "source_chunk": 133,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

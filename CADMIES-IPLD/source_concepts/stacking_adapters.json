@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "stacking_adapters",
+  "title": "Stacking Adapters",
+  "definition": "The practice of combining multiple LoRA adapters to enhance a base model's performance on specific tasks.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.251768Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.251768Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A technique used to improve a machine learning model's performance on specific tasks by combining multiple specialized adapters.",
+    "intermediate": "A machine learning approach that involves combining multiple LoRA adapters to address the challenge of catastrophic forgetting and improve a model's performance on various tasks.",
+    "expert": "A philosophical examination of the potential and pitfalls of stacking multiple LoRA adapters to enhance a base model's performance, considering the challenges of catastrophic forgetting and base model reasoning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Stacking adapters is a promising technique for improving machine learning models, but it requires careful consideration of the trade-offs between flexibility and performance.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

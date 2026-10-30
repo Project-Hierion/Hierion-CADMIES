@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "version_control_flow",
+  "title": "Version Control Flow",
+  "definition": "A conceptual framework outlining the sequence and interaction of changes in a distributed version control system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.731685Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.731685Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're cooking a meal with your friends. First, you need to get everyone's recipes (push from PNY). Then, everyone adds their part of the meal (pull to Paperspace). Finally, you all combine it all together and serve (merge Session 020 work).",
+    "intermediate": "Version control flow involves committing changes locally, pushing them to a remote repository, and then merging or pulling those changes into the main branch. This allows for collaboration and ensures all work is synchronized.",
+    "expert": "The version control flow discussed highlights the importance of structured change management in collaborative, distributed systems. It's a practical application of principles from distributed systems theory and software engineering, with implications for consensus algorithms, fault tolerance, and scalability."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful execution of version control flow in a distributed system ensures that all changes are properly incorporated and synchronized, avoiding confusion, conflicts, and data loss.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "adaptive_training",
+  "title": "Adaptive Training",
+  "definition": "The process of fine-tuning a language model using a sequence of steps, including SFT (Scaled Factorized Training) and DPO (Deep Parameter Optimization), to improve its performance on specific tasks or domains.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.353018Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.353018Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Training a computer model in stages to make it better at understanding and generating human-like text, especially in specific contexts.",
+    "intermediate": "Applying a combination of Scaled Factorized Training and Deep Parameter Optimization to improve a language model's performance on specific tasks or domains, such as chat conversations or non-chat outputs.",
+    "expert": "Utilizing a multi-stage training process that combines Scaled Factorized Training and Deep Parameter Optimization to enhance a language model's understanding of specific tasks or domains, while simultaneously addressing issues from the previous implementation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Developing an adaptive training methodology to improve the performance of language models, tailoring them to specific tasks or domains.",
+    "source_chunk": 142,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

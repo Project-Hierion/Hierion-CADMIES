@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_mycelium_philosophy",
+  "title": "Cadmies Mycelium Philosophy",
+  "definition": "A metaphorical representation of the interconnected nature of CADMIES, emphasizing collaboration, mutual growth, and shared knowledge.",
+  "type": "Concept",
+  "domain": "Metaphor",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.269641Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.269641Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A comparison between the CADMIES project and mycelium, a network of interconnected fungi, to emphasize the importance of collaboration and interconnectedness.",
+    "intermediate": "A metaphorical representation of the CADMIES project as a mycelium, a network of interconnected fungi, to emphasize the importance of collaboration, mutual growth, and shared knowledge within the project.",
+    "expert": "A deep exploration of the mycelium metaphor as it pertains to CADMIES, highlighting the interconnected nature of the project, the importance of collaboration, and the sharing of knowledge and resources."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of the mycelium metaphor to represent the interconnected nature of CADMIES and emphasize the importance of collaboration and shared knowledge.",
+    "source_chunk": 110,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

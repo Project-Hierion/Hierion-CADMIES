@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_session_export",
+  "title": "Cadmies Session Export",
+  "definition": "The practice of immediately exporting the CAR file after every harvest session in the CADMIES knowledge system to ensure block data persistence across Paperspace sessions.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.035151Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.035151Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "In the CADMIES knowledge system, it's important to create a CAR file after every harvest session to keep block data safe and accessible across different Paperspace sessions.",
+    "intermediate": "The CADMIES knowledge system requires the immediate creation of a CAR file after every harvest session to ensure the persistence of block data across different Paperspace sessions, preventing data loss due to machine swaps and other issues.",
+    "expert": "The CADMIES knowledge system employs the CAR file for block data persistence across Paperspace sessions. The practice of immediately exporting the CAR file after every harvest session ensures the long-term preservation of the system's data, even during machine swaps and other issues."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CAR file export is crucial for ensuring the long-term persistence of the CADMIES knowledge system's data across different Paperspace sessions.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

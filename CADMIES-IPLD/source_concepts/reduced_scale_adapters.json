@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "reduced_scale_adapters",
+  "title": "Reduced Scale Adapters",
+  "definition": "The practice of reducing the scale of specialized adapters in an AI model to improve its stability and performance.",
+  "type": "Concept",
+  "domain": "AI",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.082453Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.082453Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Reducing the size of specialized parts of an AI model makes it more stable and efficient.",
+    "intermediate": "The strategy of scaling down the size of specific adapters within an AI model to minimize the impact of any potential failures and improve overall performance.",
+    "expert": "A method of optimizing AI models by decreasing the size of specialized adapters to increase stability, reduce the risk of catastrophic failure, and improve performance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The observation that reducing the scale of adapters improves the stability and performance of AI models.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_network_collaboration",
+  "title": "Knowledge Network Collaboration",
+  "definition": "The concept of collaborative knowledge sharing and production within a network, as exemplified by Project Hierion's relationship with the Matadisco decentralized data discovery network.",
+  "type": "Concept",
+  "domain": "Collaboration",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.057532Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.057532Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a group of people sharing knowledge with each other, just like how Project Hierion is working with the Matadisco network to publish data and concepts.",
+    "intermediate": "In the context of decentralized data discovery networks, knowledge network collaboration refers to the process of sharing and producing knowledge collectively, with each node contributing unique data and insights.",
+    "expert": "Knowledge network collaboration is a complex process that blends principles from network theory, organizational dynamics, and knowledge management. It involves establishing trust, managing conflicts, and balancing the needs of individual nodes with the benefits of collective knowledge sharing. This process has implications for data sovereignty, privacy, and the distribution of power within the network."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Project Hierion's collaborative knowledge sharing with the Matadisco network highlights the benefits and challenges of network collaboration, particularly in the context of data discovery and knowledge production.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressed_knowledge_graph",
+  "title": "Content Addressed Knowledge Graph",
+  "definition": "A decentralized, open-source network for storing, sharing, and discovering knowledge, structured as a graph where nodes represent concepts and edges represent relationships.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.246987Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.246987Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A digital library where every idea is given a unique address, like a digital fingerprint. This allows for easy organization, sharing, and discovery of knowledge.",
+    "intermediate": "A knowledge graph that uses content-addressing to ensure decentralization and openness, with each concept represented as a node and relationships between concepts represented as edges.",
+    "expert": "A philosophical exploration of knowledge representation and organization, leveraging content-addressing for decentralization and openness, creating a network of interconnected concepts and relationships that evolves with the collective intelligence of its users."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Decentralized, open-source knowledge networks allow for the democratization of knowledge, enabling collaborative intelligence and continuous learning.",
+    "source_chunk": 99,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

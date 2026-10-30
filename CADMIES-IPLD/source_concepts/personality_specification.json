@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "personality_specification",
+  "title": "Personality Specification",
+  "definition": "A canonical artifact that encapsulates the identity, tone, thinking patterns, emotional expression bounds, knowledge scope, and hard refusals of a given personality.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.330561Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.330561Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A detailed blueprint that describes the characteristics and personality traits of a virtual agent, helping it to behave consistently and convincingly.",
+    "intermediate": "A structured document containing specific details about a persona's identity, tone, reasoning, emotional expression, knowledge scope, and hard refusals. It serves as a reference for generating consistent and style-locked responses from an AI model.",
+    "expert": "A comprehensive character profile that serves as the foundation for creating an AI model that emulates a specific personality. The Personality Spec includes details about the persona's identity, tone, thinking patterns, emotional expression, knowledge scope, and hard refusals. It is used to ensure the AI's responses are consistent, style-locked, and adhere to the desired personality while avoiding errors and deviations."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The critical role of a well-defined and detailed personality specification in creating an AI that can generate responses in the style of a specific persona.",
+    "source_chunk": 132,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

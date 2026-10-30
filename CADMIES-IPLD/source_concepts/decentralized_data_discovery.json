@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_data_discovery",
+  "title": "Decentralized Data Discovery",
+  "definition": "The concept of enabling data discovery in a decentralized, open network that separates data storage from data discovery.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.980295Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.980295Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a system that helps you find data, like books in a library, but this time, it's not just one library. It's many libraries, all connected, and you can contribute to it too.",
+    "intermediate": "Decentralized Data Discovery is a system that leverages an open social protocol to enable data discovery separately from data storage. It facilitates community contributions and ensures data findability, independence from government portals, and the prevention of data loss due to centralization.",
+    "expert": "Decentralized Data Discovery is a novel approach that combines the principles of decentralization with data discovery, separation of concerns, and open standards. It builds on the AT Protocol, an open social protocol, and the Matadisco record schema. Its philosophical implications revolve around data ownership, privacy, and control. It challenges the status quo of data discovery and provides a framework for a more open, transparent, and democratic data ecosystem."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Matadisco demonstrates a decentralized data discovery system that separates data storage from data discovery, allowing for community contributions and ensuring data findability.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "version_mismatch",
+  "title": "Version Mismatch",
+  "definition": "A situation where the installed version and saved version of a software library or package differ, leading to compatibility issues.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.117991Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.117991Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you save a file using one version of a software library, and then try to load it with a different version, you might encounter errors because the library's structure or features have changed.",
+    "intermediate": "Version mismatch refers to the discrepancy between the version of a library at the time of saving a model or configuration and the version currently installed, leading to incompatibilities.",
+    "expert": "Version mismatch is a common issue in software development where the version of a library changes between saving and loading a model, causing errors due to differences in library structure, features, or functionality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the importance of ensuring compatibility between saved and installed versions of libraries.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

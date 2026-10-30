@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_librarianship",
+  "title": "Digital Librarianship",
+  "definition": "The practice of connecting individuals and information resources, understanding visitor needs, and facilitating knowledge acquisition and understanding.",
+  "type": "Concept",
+  "domain": "Information Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.846021Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.846021Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a librarian as your personal guide. They help you find the right book or article, even when you don't know what you're looking for.",
+    "intermediate": "A digital librarian is a search engine plus a therapist plus a teacher. They understand your needs beyond the words. They connect you to resources you didn't know existed.",
+    "expert": "Digital librarianship is the emergent property of the mycelium network. It's about connecting nodes and edges to create knowledge. The library is not just a repository; it's a dynamic system that grows and adapts to meet visitor needs."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The most valuable skill for a digital librarian is listening. Knowing what the visitor really needs, beyond the surface words.",
+    "source_chunk": 32,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

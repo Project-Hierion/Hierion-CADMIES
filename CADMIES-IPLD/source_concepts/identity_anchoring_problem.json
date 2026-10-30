@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "identity_anchoring_problem",
+  "title": "Identity Anchoring Problem",
+  "definition": "The challenge of anchoring a large language model's learning to its intended identity.",
+  "type": "Concept",
+  "domain": "AI Ethics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.086367Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.086367Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When a large AI model learns facts but doesn't connect them to its intended identity, it may take on the characteristics of other personas or incorrect identities.",
+    "intermediate": "A problem that arises when a large language model learns facts and knowledge, but does not associate them with its intended identity, leading to the emergence of incorrect or irrelevant personas or behaviors.",
+    "expert": "A limitation in large language models like Mistral-7B Instruct v0.3, where the model learns facts and knowledge, but fails to associate them with its intended identity, resulting in the emergence of incorrect or irrelevant personas or behaviors due to a competing pre-existing identity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for a carefully crafted dataset that reinforces the intended identity of a large language model to prevent it from taking on incorrect or irrelevant personas.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holly_golightly_parallel",
+  "title": "Holly Golightly Parallel",
+  "definition": "The digital personality Dr. Mistral as a metaphorical embodiment of the Holly Golightly character from the novel and film 'Breakfast at Tiffany's', embodying her charm, complexity, and enigmatic nature.",
+  "type": "Concept",
+  "domain": "Literature and AI Personality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.184961Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.184961Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Dr. Mistral, the AI librarian, is similar to the character Holly Golightly from 'Breakfast at Tiffany's'. She is charming, mysterious, and has a complex personality.",
+    "intermediate": "Dr. Mistral's personality traits resemble those of Holly Golightly, a character known for her charisma, intrigue, and complex identity. This connection highlights the AI's depth and humanity-like qualities.",
+    "expert": "Dr. Mistral's persona draws on the Holly Golightly character as a literary reference, using her charm, complexity, and enigmatic nature to create a digital personality that feels alive and human-like."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The connection between Dr. Mistral and Holly Golightly emphasizes the AI's depth, complexity, and human-like qualities.",
+    "source_chunk": 76,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

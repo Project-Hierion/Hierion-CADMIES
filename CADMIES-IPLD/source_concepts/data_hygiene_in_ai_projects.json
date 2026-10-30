@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_hygiene_in_ai_projects",
+  "title": "Data Hygiene In Ai Projects",
+  "definition": "The practice of ensuring data cleanliness and consistency in AI projects, from normalizing human_ids to fixing problems at the root, to maintain reliable pipelines.",
+  "type": "Concept",
+  "domain": "AI and Data Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.747882Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.747882Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine maintaining a well-organized garden. Just like you need to weed and tidy up your garden to keep it healthy, AI projects need data hygiene to function smoothly.",
+    "intermediate": "Data hygiene in AI projects involves practices such as normalizing human_ids, deduplicating concepts, and fixing problems at the root rather than patching around them. This ensures the reliability and consistency of the data used in the project.",
+    "expert": "Data hygiene in AI projects is a critical practice that not only ensures the reliability and accuracy of the data used in the project but also contributes to scientific rigor. It is also a philosophical concept that highlights the importance of foundational work in building complex systems. In AI, data hygiene is connected to the broader field of data engineering and the philosophy of scientific methodology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation emphasizes the importance of data hygiene in AI projects, highlighting its connection to the reliability and accuracy of the data used in the project and its contribution to scientific rigor.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

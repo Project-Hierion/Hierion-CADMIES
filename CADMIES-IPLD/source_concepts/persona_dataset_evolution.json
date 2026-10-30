@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "persona_dataset_evolution",
+  "title": "Persona Dataset Evolution",
+  "definition": "The process of creating, modifying, and expanding a dataset for a specific persona or character.",
+  "type": "Concept",
+  "domain": "AI",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.133211Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.133211Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The process of developing and updating a dataset to train an AI model to mimic the personality of a specific character, such as a space captain.",
+    "intermediate": "The evolution of a persona dataset involves collecting, organizing, and refining data to accurately represent a character's voice, lore, and style, enabling an AI model to mimic their persona.",
+    "expert": "Persona dataset evolution is the continuous refinement and expansion of AI training data to capture the intricacies of a character's identity, allowing for a more convincing and nuanced AI-generated persona."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The evolution of persona datasets is crucial for developing more lifelike and engaging AI-generated characters.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

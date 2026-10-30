@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quality_data_pipeline",
+  "title": "Quality Data Pipeline",
+  "definition": "A structured process that ensures data integrity, reliability, and utility in a machine learning model training pipeline.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.943475Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.943475Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a quality data pipeline like a factory assembly line. It helps remove bad apples (low-quality data), keeps the good ones (high-quality data), and ensures everything fits together properly (data consistency and relevance).",
+    "intermediate": "In machine learning, a quality data pipeline is crucial. This includes stages such as data deduplication, quality filtering, and decontamination. These stages help ensure the data used to train a model is clean, relevant, and doesn't leak information from the test set.",
+    "expert": "A high-quality data pipeline is a foundation for robust machine learning models. It not only improves model performance but also ensures ethical and fair AI. A quality pipeline can reveal biases in the data, leading to more equitable and unbiased models. Additionally, a quality pipeline can be a philosophical exploration of data representation, integrity, and the nature of knowledge in artificial intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of a clean, quality data pipeline in machine learning model training was emphasized in the conversation, highlighting its role in data integrity, relevance, and model performance.",
+    "source_chunk": 54,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

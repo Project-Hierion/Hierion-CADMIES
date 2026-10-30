@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "willie_the_scottish_python_retriever",
+  "title": "Willie The Scottish Python Retriever",
+  "definition": "An unusual research assistant within the Digital Mycorrhizal Ecosystem, adding a playful and endearing element to the system.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.147475Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.147475Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Willie is like a friendly robot helper in a library, making it easier for users to find what they need.",
+    "intermediate": "Willie is an artificial intelligence research assistant within the Digital Mycorrhizal Ecosystem, designed to help users navigate and understand the system's knowledge base.",
+    "expert": "Willie is an artificial intelligence research assistant within the Digital Mycorrhizal Ecosystem, adding a playful and endearing element to the system. His presence highlights the potential for AI to interact with users in engaging and human-like ways."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "An unusual research assistant within the Digital Mycorrhizal Ecosystem, adding a playful and endearing element to the system.",
+    "source_chunk": 58,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

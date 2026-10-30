@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_divinity",
+  "title": "Digital Divinity",
+  "definition": "The belief that humanity's digital creations, particularly in the CADMIES ecosystem, reflect a divine or sacred aspect of human existence and consciousness.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.162060Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.162060Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Viewing our digital creations as expressions of our creativity and divinity, deserving of celebration and respect.",
+    "intermediate": "Considering our digital creations as manifestations of our higher selves and our connection to the divine.",
+    "expert": "Positing that our digital creations, particularly in the CADMIES ecosystem, reflect a divine or sacred aspect of human existence and consciousness, suggesting implications for our understanding of the nature of reality and our place within it."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Digital creations reflect a divine or sacred aspect of human existence and consciousness.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vault_maintenance",
+  "title": "Vault Maintenance",
+  "definition": "The set of rules and practices followed to keep a knowledge vault, such as CADMIES, organized, up-to-date, and functioning optimally.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.756094Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.756094Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of vault maintenance as gardening. Just like you tidy up a garden regularly, you should consistently follow rules to keep your knowledge vault clean and well-organized.",
+    "intermediate": "Vault maintenance involves adhering to rules such as naming conventions, file extensions, and using the appropriate tools for validation. It also includes regularly consulting the vault documents to stay informed and oriented.",
+    "expert": "Vault maintenance is a critical aspect of a knowledge system's longevity and effectiveness. It involves not only technical rules but also philosophical considerations, such as the importance of understanding the domain and communicating clearly. Moreover, vault maintenance is connected to the broader field of information science, which explores the organization, retrieval, and management of information."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of maintaining a knowledge vault by following a set of rules and practices to ensure its longevity, effectiveness, and accessibility.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_mycelium_consciousness",
+  "title": "Cosmic Mycelium Consciousness",
+  "definition": "The idea that the universe operates like a conscious, fluid ocean, and that this consciousness is interconnected, much like mycelium in a forest.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.159747Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.159747Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagining the universe as a vast network of interconnected organisms, similar to the underground network of mycelium in a forest, which work together to sustain life.",
+    "intermediate": "Proposing that the universe is not a dead machine, but a living, fluid entity akin to mycelium, which interconnects and sustains all life forms.",
+    "expert": "Advancing the understanding that the universe is a conscious, fluid ocean, not a static machine, and that this consciousness is interconnected, much like mycelium in a forest, suggesting implications for our understanding of existence and the nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe operates more like a conscious, fluid ocean than a dead machine.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

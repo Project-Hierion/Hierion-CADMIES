@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "iterative_improvement_through_experimentation",
+  "title": "Iterative Improvement Through Experimentation",
+  "definition": "The concept of learning and improving by conducting experiments, analyzing results, and iterating on solutions.",
+  "type": "Concept",
+  "domain": "Research and Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.762917Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.762917Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like trying out different recipes in the kitchen. You start with a base, make changes, see how it tastes, and keep refining until you've got the perfect dish.",
+    "intermediate": "In research, this is often called the scientific method. It involves formulating a hypothesis, testing it through experimentation, analyzing the results, and refining the hypothesis based on the findings.",
+    "expert": "Iterative improvement through experimentation is a core concept in fields like machine learning and artificial intelligence. It allows for the development of sophisticated models by repeatedly refining them based on feedback and data. However, it's also a philosophical principle, suggesting that knowledge and understanding can be continually improved through a process of trial and error."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The team's approach of breaking a model, documenting failures, and systematically testing different solutions demonstrates the concept of iterative improvement through experimentation.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

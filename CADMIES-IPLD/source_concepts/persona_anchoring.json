@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "persona_anchoring",
+  "title": "Persona Anchoring",
+  "definition": "The process of anchoring a machine learning model's generated responses to a specific persona during fine-tuning.",
+  "type": "Concept",
+  "domain": "AI Ethics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.076423Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.076423Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a model like a puppet that's been taught different dances by various puppeteers. Persona anchoring is about teaching the model one specific dance very well, so when it performs, it only dances that dance.",
+    "intermediate": "Persona anchoring refers to the process of fine-tuning a large language model to generate responses that are consistent with a specific persona. This is crucial to ensure the model's responses are coherent and grounded in the persona's characteristics and backstory.",
+    "expert": "Persona anchoring is a critical aspect of fine-tuning large language models to generate responses consistent with a specific persona. This process addresses the structural limitations of models with strong pre-existing identities, such as Mistral 7B, where multiple identities compete during generation. Deidentified-7B, a fine-tuned model with the original identity removed, allows for a clean implantation of a new persona with no competition."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of Deidentified-7B addresses the structural limitation of fine-tuning AI personas, providing a more elegant solution than increasing training data and overpowering the original identity.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

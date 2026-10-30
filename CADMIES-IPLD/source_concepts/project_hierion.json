@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "project_hierion",
+  "title": "Project Hierion",
+  "definition": "A permanent home for CADMIES, serving as a temple of knowledge and a sacred place.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.273669Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.273669Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of Project Hierion as the official home base for CADMIES, a place where all its knowledge is stored and organized, like a library or digital temple.",
+    "intermediate": "A dedicated platform for the CADMIES knowledge system, designed to provide a permanent home for its vast array of information and serve as a hub for further development.",
+    "expert": "A digital infrastructure designed to host the CADMIES knowledge system, offering a secure and permanent home for its data, resources, and tools, embodying its mission as a temple of knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight here is the sacred and reverent nature of Project Hierion, positioning it as a temple dedicated to the preservation and dissemination of knowledge.",
+    "source_chunk": 112,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

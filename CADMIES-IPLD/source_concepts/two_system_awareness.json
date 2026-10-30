@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "two_system_awareness",
+  "title": "Two System Awareness",
+  "definition": "The ability to effectively work across local and cloud systems, understanding their differences and utilizing them appropriately.",
+  "type": "Concept",
+  "domain": "Computing",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.197686Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.197686Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Working efficiently on both local and cloud systems, knowing which tasks belong where.",
+    "intermediate": "Awareness of the differences between local and cloud computing environments and the ability to choose the optimal one for each task.",
+    "expert": "Understanding the unique capabilities and constraints of both local and cloud systems, and using this knowledge to optimize workflows, improve performance, and maintain data security."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of recognizing the strengths and weaknesses of local and cloud systems, and leveraging them strategically.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

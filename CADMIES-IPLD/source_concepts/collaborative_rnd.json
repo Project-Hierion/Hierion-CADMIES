@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "collaborative_rnd",
+  "title": "Collaborative Rnd",
+  "definition": "A model of collaborative research and development where participants contribute their share of testing for a system while building their own system for similar purposes.",
+  "type": "Concept",
+  "domain": "Research and Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.052270Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.052270Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two teams working on the same project. One builds a car, and the other helps test it and learns from it to improve their own cars. That's collaborative research and development.",
+    "intermediate": "Collaborative research and development (CR&D) is a model where individuals or organizations collaborate to conduct research and development. In this context, participants are contributing test data and R&D to a system, using guidance from the system's creators, and simultaneously building their own system for similar purposes.",
+    "expert": "Collaborative research and development has been a popular model in various fields, including technology and science. It offers advantages such as increased efficiency, knowledge sharing, and the ability to solve complex problems. In our context, it provides an opportunity for us to stress-test a system with real use cases and learn from it, while also allowing us to develop our own system for similar purposes. This model also has implications for open-source software and the sharing of knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Leveraging collaborative research and development to stress-test a system with real use cases and simultaneously build our own system for similar purposes.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

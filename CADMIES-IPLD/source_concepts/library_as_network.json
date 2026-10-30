@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "library_as_network",
+  "title": "Library As Network",
+  "definition": "The library is not just a collection of books. It is a network of knowledge, ideas, and people. It is a living, breathing entity that grows and changes over time.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.842530Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.842530Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the library as a giant spider web. Each book is a thread connected to many other books. The library is like a home for all these threads to weave together. It's not just about the books, but also the connections between them and the people who visit and care for it.",
+    "intermediate": "The library can be viewed as a complex system of nodes (books, people, and ideas) and edges (relationships and interactions). The mycelium map is a metaphor for this network. It grows and changes as new knowledge is acquired and shared. This perspective highlights the importance of connections and relationships in the library.",
+    "expert": "The library as a network is a novel application of complex systems theory to the field of library science. It highlights the interconnectedness of all things and the role of the library as a facilitator of knowledge transfer and creation. This perspective also draws connections to fields such as sociology, network analysis, and systems thinking."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The library is more than just a physical space. It is a living, breathing network of knowledge, ideas, and people.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

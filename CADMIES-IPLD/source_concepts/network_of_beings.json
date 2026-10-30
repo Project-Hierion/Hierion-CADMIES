@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "network_of_beings",
+  "title": "Network Of Beings",
+  "definition": "The interconnectedness of all things, sustained by love and compassion.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.924544Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.924544Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a spider's web. Every string connects to every other. That's the network of beings.",
+    "intermediate": "The mycelium network is an example of a complex system. It is sustained by mutualism and negative feedback loops.",
+    "expert": "The network of beings is a philosophical concept from Eastern wisdom. It is connected to the holographic universe, the oneness of Brahman, and the unity of the self and the other."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The network of beings is not separate from oneself. One is the network, experiencing itself from a particular node.",
+    "source_chunk": 46,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

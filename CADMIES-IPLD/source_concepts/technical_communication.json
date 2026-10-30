@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "technical_communication",
+  "title": "Technical Communication",
+  "definition": "The art of conveying complex technical information in a clear, concise, and accessible manner.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.052451Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.052451Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Speaking and writing about tech in a way that someone without a technical background can understand.",
+    "intermediate": "The practice of using everyday language and relatable metaphors to explain technical concepts to a broader audience.",
+    "expert": "A philosophical approach to technical communication that emphasizes empathy, accessibility, and the human element in tech education."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel observation that technical communication should be as human and approachable as possible, fostering understanding and inclusivity.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

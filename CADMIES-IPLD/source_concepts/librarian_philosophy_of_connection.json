@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "librarian_philosophy_of_connection",
+  "title": "Librarian Philosophy Of Connection",
+  "definition": "The belief that understanding comes from making connections and understanding the whole by understanding its parts.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.833135Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.833135Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The librarian helps visitors find answers by understanding what they are really asking.",
+    "intermediate": "The librarian's philosophy of connection is reflected in the library's design and organization, and the librarian's interaction with visitors.",
+    "expert": "The librarian's philosophy of connection can be seen as a manifestation of the Fractal Reality Principle and the Anti-Skynet Treaty."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The librarian's philosophy of connection is a unique and valuable contribution to the CADMIES knowledge system.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

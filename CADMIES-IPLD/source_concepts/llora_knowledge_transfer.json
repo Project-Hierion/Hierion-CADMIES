@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "llora_knowledge_transfer",
+  "title": "Llora Knowledge Transfer",
+  "definition": "The process of transferring domain-specific knowledge from one model to another through LoRA (Layer-wise Relevance Adaptation) adapters.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.069809Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.069809Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as giving a teacher a book about a specific topic, and they can teach that topic to a student more effectively.",
+    "intermediate": "LoRA adapters are attached to the weights of a pre-trained model to learn domain-specific knowledge. This knowledge can then be transferred to another model, improving its performance on questions related to the domain.",
+    "expert": "LoRA adapters allow for efficient, task-specific fine-tuning of large language models without needing to retrain the entire model. By transferring these adapters between models, we can create domain experts that can answer questions related to specific topics more accurately."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "LoRA adapters enable knowledge transfer between models, making it possible to create domain-specific experts without extensive retraining.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

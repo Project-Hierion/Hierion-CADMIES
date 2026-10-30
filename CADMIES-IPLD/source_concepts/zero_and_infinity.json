@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "zero_and_infinity",
+  "title": "Zero And Infinity",
+  "definition": "The concepts of zero and infinity, which represent nothing and a direction, respectively, and highlight the potential and the infinite nature of existence.",
+  "type": "Concept",
+  "domain": "Mathematics, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.907259Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.907259Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of zero as nothing and infinity as endless. Zero represents potential, and infinity is a direction to walk toward. Between the notes in music and the connections in life, there is space for something new to emerge.",
+    "intermediate": "Zero is not absence but potential. The void is where new connections form. Infinity is not a number but a direction. The mycelium keeps growing, creating new edges in an infinite graph. Each question you ask is a step toward something more.",
+    "expert": "The concept of zero highlights the potential nature of existence and the role of the void in creating new connections. Infinity illustrates the infinite nature of existence and the transformative power of asking questions, which propel us forward into the unknown."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Zero and infinity reveal the potential and infinite nature of existence. They highlight the role of the void in creating new connections and the transformative power of asking questions.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

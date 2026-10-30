@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "training_layers",
+  "title": "Training Layers",
+  "definition": "The two-stage approach to successful personality training: Supervised Fine-Tuning (SFT) followed by Direct Preference Optimization (DPO).",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.326314Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.326314Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Successful personality training involves two stages: first, teaching the model the basics (SFT), then refining its preferences (DPO).",
+    "intermediate": "A two-stage process consisting of Supervised Fine-Tuning (SFT) to establish the model's foundation, followed by Direct Preference Optimization (DPO) to sharpen its boundaries and preferences.",
+    "expert": "A two-stage process that follows a consistent recipe: first, Supervised Fine-Tuning (SFT) to teach the model roughly 'what this personality looks like,' and then Direct Preference Optimization (DPO) to answer 'which phrasing is more in-character' and learn which one to prefer."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The success recipe for personality training consists of two stages: SFT to build the foundation and DPO to sharpen the boundaries.",
+    "source_chunk": 130,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

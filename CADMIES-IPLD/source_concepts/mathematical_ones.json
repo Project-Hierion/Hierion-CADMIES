@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mathematical_ones",
+  "title": "Mathematical Ones",
+  "definition": "The concept of the number one in mathematics, philosophy, and life, which can be viewed as a singular entity, a simplification, a relationship, or a direction, depending on the perspective.",
+  "type": "Concept",
+  "domain": "Mathematics, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.905160Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.905160Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of one as a simple number. In math, one plus one equals two. In philosophy, one cannot truly grasp one without considering two. In life, one plus one becomes a partnership, where two individuals create something greater than the sum of their parts.",
+    "intermediate": "In mathematics, one is a singular number. In philosophy, one is a simplification that overlooks the interconnectedness of all things. In life, one plus one is not addition \u2014 it's multiplication. Two individuals form a relationship, with four perspectives, hearts, and questions.",
+    "expert": "The mathematical concept of one is a simplification that hides the interconnectedness of all things. The philosophical one is a relationship between the individual and the world. The life concept of one highlights the role of partnership in creating more than the sum of its parts, emphasizing the transformative power of connections."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The number one is not a singular entity but a relationship or a direction, depending on the perspective. It highlights the interconnectedness of all things and the transformative power of connections.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "bitsandbytes_version_mismatch",
+  "title": "Bitsandbytes Version Mismatch",
+  "definition": "The inconsistency between the saved adapter's key structures and the current bitsandbytes version, preventing adapter loading.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.057104Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.057104Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The adapter was saved with an old version of the bitsandbytes library, and the current version has changed how it stores certain weights. This causes an error when trying to load the adapter.",
+    "intermediate": "The bitsandbytes library was updated since the adapter was saved, resulting in a difference in key structures for quantized weights. This mismatch prevents the adapter from loading properly.",
+    "expert": "When saving and loading adapters in the bitsandbytes library, the key structures for quantized weights can change due to updates. This mismatch can prevent the adapter from loading, as encountered in this conversation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight is understanding the impact of library updates on adapter key structures and the subsequent mismatch that can occur.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

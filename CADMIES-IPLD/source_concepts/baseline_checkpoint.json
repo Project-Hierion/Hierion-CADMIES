@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "baseline_checkpoint",
+  "title": "Baseline Checkpoint",
+  "definition": "The initial model trained on a specific dataset, serving as a reference point for further improvements or expansions.",
+  "type": "Concept",
+  "domain": "AI Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.334777Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.334777Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A model that has already been trained and serves as a starting point for further improvements or adjustments.",
+    "intermediate": "The initial trained model that serves as a reference for evaluating the performance of subsequent models or iterations.",
+    "expert": "The trained model that serves as a benchmark for evaluating the performance of subsequent models or iterations, especially when making improvements or adjustments to the model or its training data."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Using a pre-trained model as a reference to measure the improvements or advancements in subsequent models or iterations.",
+    "source_chunk": 134,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

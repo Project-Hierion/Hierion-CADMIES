@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "grounded_latent_to_language_bridge",
+  "title": "Grounded Latent To Language Bridge",
+  "definition": "The process of converting low-level representations (latents) into understandable language, grounded in a specific context or dataset.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.096373Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.096373Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine translating the internal thoughts of an AI model into words that we can understand, based on the data it has learned from.",
+    "intermediate": "The grounded latent-to-language bridge is a method used to convert the low-level representations (latents) of a deep learning model into meaningful language, grounded in the context of the data it has been trained on.",
+    "expert": "The grounded latent-to-language bridge is a critical component in the understanding and interpretation of deep learning models, as it allows us to uncover the underlying meaning and patterns learned from vast amounts of data."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight here is the concept of the grounded latent-to-language bridge (Phase 45H), which can be revisited later as an enhancement.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

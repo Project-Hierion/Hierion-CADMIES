@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "small_handcrafted_datasets",
+  "title": "Small Handcrafted Datasets",
+  "definition": "Smaller, carefully curated datasets that outperform larger, generated datasets.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.064901Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.064901Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Smaller, carefully made datasets that perform better than larger, automatically generated ones.",
+    "intermediate": "Smaller, carefully curated datasets that yield better results than larger, generated datasets.",
+    "expert": "Smaller, carefully curated datasets that demonstrate superior performance compared to larger, automatically generated datasets."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The confirmation that smaller, handcrafted datasets outperform larger, generated ones.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

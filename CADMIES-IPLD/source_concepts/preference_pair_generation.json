@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "preference_pair_generation",
+  "title": "Preference Pair Generation",
+  "definition": "The process of creating a dataset consisting of preference pairs (a chosen response and rejected responses) for training a language model, focusing on minimizing drifts in the generated responses.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.355235Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.355235Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Creating a set of examples where a good response is chosen and less good responses are rejected to help a computer model learn what kind of answers are most appropriate in a given context.",
+    "intermediate": "Generating a dataset of preference pairs (chosen and rejected responses) to train a language model, focusing on minimizing drifts in the generated responses and improving the model's performance on specific tasks or domains.",
+    "expert": "Utilizing preference pair generation to create a dataset of training examples for a language model, focusing on minimizing drifts in the generated responses and improving the model's performance on specific tasks or domains by leveraging held-out prompts from the previous step and hand-written probes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Creating preference pairs to train a language model, ensuring it generates responses that are consistent and appropriate for specific tasks or domains.",
+    "source_chunk": 143,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

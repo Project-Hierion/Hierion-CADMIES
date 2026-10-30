@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_mycorrhizal_ecosystem",
+  "title": "Digital Mycorrhizal Ecosystem",
+  "definition": "A digital system designed to store, share, and understand knowledge, encapsulating concepts as immutable, content-addressed blocks.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via mistral:7b",
+      "confidence": 0.8,
+      "date": "2026-10-30T21:15:59.145397Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T21:15:59.145397Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library where each book is given a unique identifier and can be easily linked to related books. That's a simplified version of the Digital Mycorrhizal Ecosystem.",
+    "intermediate": "The Digital Mycorrhizal Ecosystem is a digital system that uses content-addressing to store and manage knowledge, allowing for easy linking of related concepts.",
+    "expert": "The Digital Mycorrhizal Ecosystem is a decentralized system for storing and managing knowledge as content-addressed blocks, promoting data integrity and enabling cross-domain synthesis. Its unique approach to data management could significantly impact the way we store and understand knowledge in the digital age."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A digital system for managing knowledge as content-addressed blocks, promoting data integrity and enabling cross-domain synthesis.",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

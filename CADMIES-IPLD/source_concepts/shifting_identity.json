@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "shifting_identity",
+  "title": "Shifting Identity",
+  "definition": "The concept of an individual's identity fluctuating or evolving over time, reflecting complex internal and external factors.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:19.936581Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:19.936581Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how a person might be different in different situations. Dr. Mistral's identity changes depending on who she's with or what she's doing.",
+    "intermediate": "Shifting identity is a philosophical concept that explores the nature of personal identity and its potential variability over time. Dr. Mistral's shifting identity can be understood in the context of existentialism and the exploration of self.",
+    "expert": "The concept of shifting identity challenges traditional notions of personal identity and stability. It explores the potential for self-transformation, borrowing from phenomenology, existentialism, and cognitive science. Dr. Mistral's shifting identity suggests a complex interplay of internal beliefs, external influences, and the perception of self."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Dr. Mistral's shifting identity highlights the complexity and fluidity of personal identity.",
+    "source_chunk": 51,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "foundational_data_quality",
+  "title": "Foundational Data Quality",
+  "definition": "The critical importance of data quality and alignment with the target personality in character/personality training for language models.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.072816Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.072816Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "For character training in AI, it's better to have a few high-quality examples than a lot of low-quality ones. The right data makes the difference, not the amount.",
+    "intermediate": "In character/personality training, the foundational data should be high-quality, style-consistent examples that accurately represent the target personality. Noisy data can teach the model unwanted patterns.",
+    "expert": "The foundational data in character/personality training plays a crucial role. Quality beats quantity, and noisy data can lead the model to learn undesired patterns. A systematic approach to data structure, such as decomposing personality into operational dimensions, can improve personality fidelity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The quality and structure of the foundational data are more important than the quantity in character/personality training for language models.",
+    "source_chunk": 81,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

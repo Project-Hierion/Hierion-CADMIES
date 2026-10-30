@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "role_based_personality_training",
+  "title": "Role Based Personality Training",
+  "definition": "A two-stage approach to train language models to mimic specific roles or personalities: Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO).",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-30T23:03:20.065926Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-30T23:03:20.065926Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine training a model to act like a book or movie character. Quality of conversations matters more than quantity. Focus on teaching the model the character's style, vocabulary, and reactions.",
+    "intermediate": "Role-based personality training involves SFT for establishing the basic 'syntax' of the personality and DPO for refining preferences. SFT data should be consistent dialogues reflecting the target personality, while DPO data is paired preferences.",
+    "expert": "The effectiveness of role-based personality training relies on the two-stage SFT-DPO approach. SFT requires high-quality, consistent data to understand the basic 'grammar' of the personality. DPO addresses 'drifting' by comparing paired responses and learning which is more aligned with the target personality. A well-structured personality definition significantly improves training."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful method for role-based personality training is a two-stage approach: Supervised Fine-Tuning (SFT) for foundation and Direct Preference Optimization (DPO) for refinement. Data quality and structure are crucial for both stages.",
+    "source_chunk": 80,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}
