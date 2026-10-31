@@ -1,6 +1,6 @@
 ---
 phase: Roadmap
-date: 2026-10-20
+date: 2026-10-30
 status: LIVING DOCUMENT
 ---
 
@@ -16,6 +16,7 @@ status: LIVING DOCUMENT
 | Concepts | 650 |
 | Edges | 686 |
 | Connected Concepts | 392 |
+| Draft Concepts (unminted) | ~210 |
 | Domains (Canonical) | 15 |
 | ORCID iD | 0009-0000-8877-2731 ✅ Linked |
 
@@ -30,6 +31,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 | Map Generator | v2.4.1 | Stable |
 | Relationship Generator | v1.2.7 | Codestral-capable |
 | Harvester | v1.2.0 | Active — GitHub pipeline hardened (structured logging, retry, PR-body guarantee). Formerly tracked as v4.2.2; per-script versioning is now canonical |
+| Concept Harvester (pipeline) | v4.2.1 | Codestral:22b now the canonical extraction model (Bake-off verdict, 2026-10-30) |
 | Public Gateway | v3.3.0 | translate.js integrated, multilingual support live |
 | Vault Validator | v1.3.0 | Automated + auto-fix |
 | Vault Health Badge | ✅ Green | Passing |
@@ -69,7 +71,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - Phase 66 — Mycelium Map UX Fractal Succulent Layout and Progressive Loading
 - Phase 69 — Repo Maintenance Automation
 - **Phase 83 — Blockstore Rebuild From Spores** ✅ Complete (2026-10-19) — After the Paperspace wipe (billing scare, machine cleared), regrew the entire blockstore from `source_concepts/` on a fresh A4000. All-new CIDs (no backup existed; Phase 57 precedent followed — source is ground truth). 659 concepts indexed and reconciled, zero orphans. Genesis relics resolved: Digital Seed properly re-adopted as a modern concept (v2, date errors corrected — no 2024 work ever occurred), pattern-finder relic deduplicated. First full tarball pushed to git. Cardinal rule established: every session ends with a tarball. Discovered: schema file contains a script copy (never enforced), legacy human_ids still live in ~35 source files. See Session 063.
-- **Phase 83B — Split-Brain Recovery and Full Pipeline Rebuild** ✅ Complete (2026-10-20) — Discovered the Oct 19 git reset had reverted the index to stale CIDs: 659 entries, only 234 with matching blocks (split-brain — tools disagreed on reality: map said 659, relationship gen said 234, harvester said 651 minted). Rebuilt via the pipeline itself: index backed up and emptied, broken legacy conversation.json (merge-conflict wreckage, 5 months old) deleted to unlock manual import mode, 650 concepts re-minted from source_concepts with fresh CIDs (0 validation failures, 9 known duplicates excluded), full codestral relationship pass (574 edges across 392 concepts), map regenerated (650 nodes / 686 edges / 0 skipped), gateway regenerated, all pushed. Recovery tarball `cadmies_rebuild_2026-10-20b.tar.gz` (3.5 MB) force-added to git. Contributing bugs documented: harvester manual mode has no flag (mode decided solely by conversation.json existence), `--conv=` is parsed but never used in the mode check. See Session 064.
+- **Phase 83B — Split-Brain Recovery and Full Pipeline Rebuild** ✅ Complete (2026-10-20) — Discovered the Oct 19 git reset had reverted the index to stale CIDs: 659 entries, only 234 with matching blocks (split-brain — tools disagreed on reality: map said 659, relationship gen said 234, harvester said 651 minted). Rebuilt via the pipeline itself: index backed up and emptied, broken legacy conversation.json (merge-conflict wreckage, 5 months old) deleted to unlock manual import mode, 650 concepts re-minted from source_concepts with fresh CIDs (0 validation failures, 9 known duplicates excluded), full codestral relationship pass (574 edges across 392 concepts), map regenerated (650 nodes / 686 edges / 0 skipped), gateway regenerated, all pushed. Recovery tarball `cadmies_rebuild_2026-10-20b.tar.gz` (3.5 MB) force-added to git. Contributing bugs documented: harvester manual mode has no flag (mode decided solely on conversation.json existence), `--conv=` is parsed but never used in the mode check. See Session 064.
 
 ### Dr. Mistral Training (Phase 45 Series)
 - Phase 45 v2.0 — Teaching Mistral via Snagnar HIEROS Revised Plan
@@ -109,7 +111,7 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 ## 📋 PENDING PHASES
 
 ### Immediate / In Progress
-- **Phase 84 — The October Harvest** 🔴 Next — Upload the big conversation file to Paperspace, run the full harvest pipeline (`--auto --with-relationships`), mint new concepts on top of the healthy rebuilt foundation (650 concepts, 650/650 index-block reconciliation, 686 edges).
+- **Phase 84 — The October Harvest** 🟡 In Progress — Extraction done, curation pending. Ran twin dry-runs on the rebuilt foundation (mistral:7b → 144 concepts, codestral:22b → 88 concepts from the same 82,716-word conversation). Codestral adopted as the concept harvester's LLM going forward — cleaner abstractions, fewer hallucinations. Zero mints: both runs ended at review, drafts pushed to git as ~210 spores in source_concepts/. Crown jewel: `cosmic_codebreaker` — the cross-scale pattern terminology the gardener had been searching for. NEXT: manual curation pass over all drafts (edit/enrich/prune), then mint the survivors with relationships, regenerate map + gateway. See Session 066.
 - **Phase 80D — Dr. Mistral Pair Review and Regeneration** 🔴 Next — Review SFT (236) and DPO (199) pair sets against drift zones. Regenerate and expand toward the ~1,000 SFT target. Retrain SFT + DPO. Re-run eval; compare against 1.4/1.4 baseline.
 - **Phase 78 — Matadisco-CADMIES Portal** 🟢 Active — v0.1.0 built, deployed, verified. Next: dataset viewer, frontend tweaks, bulk publishing.
 
@@ -117,10 +119,16 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - **Phase 80E — Dr. Mistral Deploy + Monitor (Step 11)** — Inference loop, drift capture, feedback into pair generation.
 - **Phase 76 — Dr. Mistral Conversational Fine-Tuning** — Add UltraChat or similar conversational pairs on top of the handbook rebuild.
 - **Phase 77 — Dr. Mistral Live Site Deployment** — Integrate Dr. Mistral into the Flask app on the live site.
+- **Phase 86 — Scientific Obsidian Public Page** — Create a page on project-hierion.org for public viewing of the Scientific Obsidian vault (notes, session history, phase docs) via the site instead of only through GitHub. Static rendering or generated mirror; keeps the vault readable for non-git humans.
+- **Site Navigation — Main Page Links** — Add links to the Scientific Obsidian page and the blog page on the main page of project-hierion.org so visitors can find both.
 - **Phase 85 — Legacy Source Cleanup** — Fix the ~35 legacy human_id source files at the source (Phase 57 disease), write the real universal concept schema file (current one contains a copied script), add .gitignore backup-tarball pattern, fix harvester batch-mode stub, fix `--conv=` unused flag and missing manual-mode flag.
 
 ### Pipeline Guardrails (from Phase 83B lessons)
-- **Index↔blocks consistency check** — run before any relationship/remint pass; the split-brain failure mode cost a full rebuild
+- **Pre-flight index↔blocks consistency check** 🔴 TOP PRIORITY — formalize the Phase 83B lesson: run before any harvest, remint, or relationship pass; refuse to proceed on mismatch. The split-brain cost a full rebuild; this is the interlock.
+- **Semantic deduplication** 🔴 HIGH — current dedup is exact-title-match only; October Harvest produced 5-6 near-duplicate clusters ("iterative learning" family, "mycelium" family). Embedding-based or similarity-based dedup collapses these automatically (aligns with planned ChromaDB/RAG work).
+- **Complete run provenance** 🟡 APPROVED FOR IMPLEMENTATION — pin the exact model (name + version/digest) per harvest run, log run parameters (chunk size, thresholds, prompt version), stamp every minted concept with the full run ID so a harvest is a reproducible experiment, not a lucky dip. Extends the existing proofs array.
+- **Harvester evaluation set** 🟢 NOTED — build a labeled benchmark (~20 chunks with hand-written ideal extractions) to score extractor changes and model swaps quantitatively. The Oct 30 bake-off was decided on judgment; future ones should be measured. Long-term "CERN-style" rigor item.
+- **Automated quality gates** 🟢 NOTED — score extracted concepts (canonical-domain check, semantic overlap vs existing mycelium, definition substance) and quarantine weak ones to a review pile instead of burdening the gardener with 144-item menus.
 - **tools/bulk_mint_from_sources.py** — first-class bulk-mint tool so rebuilds don't rely on "empty the index, run the harvester" folklore
 - **Orphan-block sweep** — store/blocks/ holds ~1,900 stray files from pre-rebuild mints (harmless, but bloated; inflates recovery tarballs)
 - **Raw-file cleanup step** — strip accumulated `tools/raw_batch*.txt` dumps after relationship runs
@@ -150,6 +158,14 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 ---
 
 ## 📝 RECENT SESSION NOTES
+
+### Session 066 — 2026-10-30 — The October Harvest Bake-Off
+- Twin dry-run harvests of an 82,716-word conversation (Great Gatsby-sized) on the rebuilt foundation: mistral:7b extracted 144 concepts, codestral:22b extracted 88 from the same source.
+- Verdict: Codestral is leaner and sharper (better abstractions, better difficulty levels, fewer hallucinations — one Mistral draft literally invented "LoRA = Layer-wise Relevance Adaptation"); adopted as the concept harvester's canonical LLM going forward.
+- Both runs ended at the review menu — zero mints, by design. ~210 draft spores pushed to git in source_concepts/. Code/logistics contamination confirmed (git workflow "concepts" etc.) and will be pruned in the manual curation pass.
+- Crown jewel of the harvest: **cosmic_codebreaker** — the cross-scale pattern-recognition terminology the gardener had been missing for a year.
+- Known extraction debt confirmed live: ~44 raw_failed_chunk dumps (parse failures), heavy near-duplicate clustering, off-taxonomy domains.
+- CERN-style hardening assessment drafted: consistency check (top priority), semantic dedup, full run provenance (approved to implement), harvester eval set, quality gates (both noted for later).
 
 ### Session 064 — 2026-10-20 — The Split-Brain Rebuild
 - The Oct 19 git reset had silently reverted the index to stale CIDs: 659 entries, only 234 with matching blocks. Three tools, three realities (map: 659, relationship gen: 234, harvester: 651 minted).
@@ -288,6 +304,9 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - **"Three tools, three realities. The index lied and everything believed it."** — Session 064
 - **"The index is the mycelium's brainstem. When it lies, everything lies."** — Session 064
 - **"Two full rebuilds in 36 hours and not one concept lost. Trust the spores."** — Session 064
+- **"The gardener searched for the term for a year. The harvester found it in 111 chunks."** — Session 066
+- **"Mistral read The Great Gatsby over lunch at a Parisian café. Codestral took it to the archive and annotated it."** — the bake-off, Session 066
+- **"Bob Ross with seven arms and ten easels."** — the operating model
 
 ---
 
@@ -300,7 +319,9 @@ Neuroscience • Sociology • Economics • Ecology • Medicine
 - Phase 80E — Dr. Mistral Deploy + Monitor
 - Phase 82 — Deep Harvest: Beyond-GitHub Discovery Pipeline
 - Phase 85 — Legacy Source Cleanup (schema file, legacy human_ids, gitignore pattern, batch stub, --conv= fix)
-- Pipeline guardrails (index consistency check, bulk-mint tool, orphan-block sweep, raw-file cleanup, droplet cron)
+- Phase 86 — Scientific Obsidian Public Page on project-hierion.org (+ main-page nav links to it and the blog)
+- Pipeline guardrails (pre-flight consistency check, semantic dedup, run provenance, bulk-mint tool, orphan-block sweep, raw-file cleanup, droplet cron)
+- Harvester evaluation set + automated quality gates (CERN-style rigor)
 - Dataset viewer for LLMDataHub records
 - SAIQL/ATLAS deterministic RAG integration
 - Dr. Mistral Flask chat interface (Phase 61)
