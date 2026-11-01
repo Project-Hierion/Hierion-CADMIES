@@ -94,7 +94,6 @@ doc_types:
       - phase
       - date
       - status
-      - session
 
 cross_refs:
   scan_folders:
