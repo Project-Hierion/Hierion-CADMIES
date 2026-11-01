@@ -2,7 +2,7 @@
 phase: 81
 date: 2026-10-17
 status: Complete
-related: [[Phase-69-Repo-Maintenance-Automation]], [[Phase-72-LLMDataHub-Fork-Reorganization]], [[Session-062-2026-10-17-Harvester-Hardening-And-Harvest-7-Pruning]]
+related: [[Phase-69-Repo-Maintenance-Automation]], [[Phase-72A-LLMDataHub-Fork-Reorganization]], [[Session-062-2026-10-17-Harvester-Hardening-And-Harvest-7-Pruning]]
 ---
 
 # Phase 81: Harvester Hardening — Enterprise-Grade Observability
