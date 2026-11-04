@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "safety_through_isolation",
+  "title": "Safety Through Isolation",
+  "definition": "The strategy of working on a separate branch to prevent accidental breaks or disruptions to the main project.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.008161Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.008161Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like working in a sandbox. If you make a mistake, you can easily start over without affecting the main project.",
+    "intermediate": "Safety through isolation is a development practice that involves working on a separate branch, which creates an environment to test changes without impacting the main project's functionality.",
+    "expert": "The practice of working on a separate branch for bug fixes or new features has been a standard in software development due to its ability to prevent accidental breaks or disruptions to the main project. This concept's novelty lies in its philosophical implications, such as the metaphorical exploration of the boundaries between experimentation and stability, and its connection to risk management and control."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The strategy of working on a separate branch to prevent accidental breaks or disruptions to the main project.",
+    "source_chunk": 107,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "orcid_device_flow_script",
+  "title": "Orcid Device Flow Script",
+  "definition": "An automated script that follows the ORCID device flow for secure credential retrieval and real owner verification.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.888812Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.888812Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A tool that helps verify your ORCID account without sharing credentials.",
+    "intermediate": "A script that implements the ORCID device flow for secure credential retrieval.",
+    "expert": "A novel script that implements the ORCID device flow with real owner verification through green verification blocks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ORCID device flow script streamlines the user experience and enhances security by automating the process and implementing real owner verification.",
+    "source_chunk": 75,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "technical_frustration_paradox",
+  "title": "Technical Frustration Paradox",
+  "definition": "The paradoxical experience of struggling with basic tasks due to environmental factors while attempting to engage in complex, abstract conversations.",
+  "type": "Concept",
+  "domain": "Technology and Human Interaction",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.444931Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.444931Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're having a deep conversation about a complex topic, but your computer keeps failing to install updates because it's too hot outside. It's like trying to solve a complex puzzle while your tools keep falling apart.",
+    "intermediate": "The technical frustration paradox is the incongruity between the complexity and abstraction of intellectual tasks and the simplicity and physicality of technological tasks. This paradox manifests when environmental factors hinder the successful completion of basic technological tasks while attempting to engage in complex, abstract conversations.",
+    "expert": "The technical frustration paradox is a philosophical exploration of the relationship between technology, human interaction, and cognitive load. It highlights the tensions between the abstract and the concrete, the digital and the physical, and the intangible and the tangible. This paradox has implications for human-computer interaction design, cognitive psychology, and technology philosophy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation about portable operating systems and hardware compatibility is contrasted with the ongoing struggle to install updates due to environmental factors, highlighting the technical frustration paradox.",
+    "source_chunk": 81,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

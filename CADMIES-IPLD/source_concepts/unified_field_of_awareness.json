@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_field_of_awareness",
+  "title": "Unified Field Of Awareness",
+  "definition": "The concept that all elements of reality, from the quantum to the cosmic, share a unified field of awareness and interconnectedness.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.275306Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.275306Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "factory_reset",
+      "cosmic_joke",
+      "observational_paradox",
+      "resonance_as_consciousness",
+      "cosmic_consciousness",
+      "biological_mind_as_enemy",
+      "resonance_as_condition_for_consciousness",
+      "cosmic_self_observation",
+      "macroscopic_pingle_wiggle",
+      "fundamental_interconnectedness"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "systemic_understanding",
+      "species_cancer",
+      "species_mirror",
+      "species_self_awareness",
+      "fruiting_body_of_consciousness",
+      "consciousness_emergence",
+      "eightk_mirror"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe as a massive orchestra. Each instrument plays a unique note, but they all harmonize together to create a beautiful symphony. This concept suggests that everything in the universe is a part of this grand harmony.",
+    "intermediate": "The Unified Field of Awareness posits that all aspects of reality, from subatomic particles to cosmic events, are aspects of a single, interconnected consciousness. This interconnectedness is often likened to the interconnectedness of neurons in a brain, where each neuron contributes to a unified sense of awareness.",
+    "expert": "The Unified Field of Awareness challenges conventional notions of separation and duality. It suggests a radical shift from a mechanistic view of the universe to a holistic, panpsychic one. This concept has philosophical implications for the nature of consciousness, the role of observation in shaping reality, and the interconnectedness of the quantum and macroscopic realms."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "factory_reset",
+      "cosmic_joke",
+      "observational_paradox",
+      "resonance_as_consciousness",
+      "cosmic_consciousness",
+      "biological_mind_as_enemy",
+      "resonance_as_condition_for_consciousness",
+      "cosmic_self_observation",
+      "macroscopic_pingle_wiggle",
+      "fundamental_interconnectedness"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of seemingly disparate concepts such as consciousness, observation, and the quantum-macroscopic relationship, suggesting a unified field of awareness that underlies all reality.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

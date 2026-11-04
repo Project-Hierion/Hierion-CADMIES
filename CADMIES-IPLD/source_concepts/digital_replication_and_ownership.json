@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_replication_and_ownership",
+  "title": "Digital Replication And Ownership",
+  "definition": "The exploration of the legal implications of digital replication and its relationship to ownership of original works.",
+  "type": "Concept",
+  "domain": "Law and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.411923Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.411923Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine copying a song from a vinyl record to a CD. The CD is a copy, and the original vinyl record still exists. Now, imagine doing the same with digital files. The law treats digital copies differently, but why? This conversation shows that the physical processes of making copies are similar in both cases.",
+    "intermediate": "This conversation highlights the conceptual overlap between physical and digital copying. A printing press mechanically reproduces a master pattern onto paper, which is identical to a computer reading a file from a hard drive and writing it to another. The law's distinction between digital 'copy' and 'publication' is based on who has a license, not on the physical process.",
+    "expert": "This conversation challenges the legal framework's assumption that a digital copy is fundamentally different from a physical copy. The concept of 'fixation' in a 'material object' is explored, with the argument that a single bit could be considered a 'fixation' if it can be perceived, performed, or experienced. This has philosophical implications for the nature of digital works and the legal concept of 'ownership'."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The physical process of copying is identical in both digital and physical media. The law's distinction is based on who has a license, not the physical process. This raises questions about the nature of digital works and the legal concept of 'ownership'.",
+    "source_chunk": 158,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "harvester_pipeline_architecture",
+  "title": "Harvester Pipeline Architecture",
+  "definition": "The design and structure of the CADMIES Conversation Harvester pipeline that transforms raw conversations into structured, validated, and minted concepts.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence, Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.868159Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.868159Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a pipeline as a factory line that takes raw conversations, processes them, and turns them into useful concepts, similar to how a seedling grows into a tree.",
+    "intermediate": "The Harvester Pipeline is a sequence of steps that leverages GPU processing and LLM models to extract, transform, and validate concepts from raw conversations. It's designed with a two-pass architecture to keep the extraction prompt focused and separate enrichment phases.",
+    "expert": "The Harvester Pipeline architecture is innovative due to its two-pass design, which allows for independent extraction and enrichment phases. It also introduces the concept of three-tier difficulty levels to cater to various learning styles. This architecture is influenced by Dr. Rebentisch's methodology but introduces unique features such as GPU requirement, LLM-optional mode, and mycelium awareness."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Harvester Pipeline's two-pass architecture and the introduction of three-tier difficulty levels are significant design decisions that improve the extraction and enrichment process.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_symmetry_and_asymmetry",
+  "title": "Cosmic Symmetry And Asymmetry",
+  "definition": "The concept that the universe exhibits both symmetry and asymmetry on various scales, due to factors such as rotation and motion.",
+  "type": "Concept",
+  "domain": "Astronomy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.313023Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.313023Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how our solar system and the universe are like a spinning pizza dough ball. Sometimes, things are flat and symmetrical, but other times, they're lumpy, squished, and asymmetrical. This is because of things spinning and moving.",
+    "intermediate": "The universe demonstrates both symmetry and asymmetry due to the rotation and movement of celestial bodies. For example, planets orbit in a flat plane (ecliptic) due to their formation from a spinning disk of gas and dust. The heliosphere, shaped by the Sun's spin and motion through the galaxy, also exhibits asymmetry.",
+    "expert": "Cosmic symmetry and asymmetry stem from the interplay of rotation and motion on various scales. The universe's flatness on large scales can be explained by the cosmological principle (homogeneity and isotropy), while local symmetries (like planets orbiting in a flat plane) arise from conservation of angular momentum. Asymmetries, such as the heliosphere's shape, are the result of complex interactions between rotation, motion, magnetic fields, and external forces."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed that the asymmetrical shape of the heliosphere can be explained by applying the principles of symmetry and asymmetry that govern planetary orbits on a larger scale.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

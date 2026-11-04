@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_governance",
+  "title": "Community Governance",
+  "definition": "A governance model that leverages the collective power and intelligence of a community, where decision-making is based on consensus and trust, rather than legal entities or hierarchical structures.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.351946Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.351946Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a neighborhood where everyone makes decisions together, and if someone does something wrong, they're shunned by the community. This is a simple way to make sure rules are followed.",
+    "intermediate": "Community governance involves a consensus-based decision-making process, with all active participants having a say. It's enforced by social norms and community shunning, rather than legal entities or hierarchies.",
+    "expert": "Community governance models challenge traditional top-down approaches, providing a more democratic and decentralized alternative. They leverage the wisdom of crowds and the network effect, making them resilient to manipulation and capable of adapting to changing circumstances. They also have the potential to be more inclusive and equitable, as they don't rely on formal power structures."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Community governance can be a stronger and more adaptable alternative to legal entities, leveraging social norms and collective intelligence to make decisions and prevent violations.",
+    "source_chunk": 56,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

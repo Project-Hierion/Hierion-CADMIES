@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cryptographic_authorship",
+  "title": "Cryptographic Authorship",
+  "definition": "The process of using cryptographic hashes, like CIDs, to verify the authenticity and integrity of digital content, specifically concepts, by ensuring that the exact same content always produces the same hash.",
+  "type": "Concept",
+  "domain": "Cryptography, Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.760356Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.760356Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "craving_tanha_cycle"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine sending a special key to someone's house. If the key fits the lock, it means the house belongs to you. Cryptographic authorship is like this. The user creates a concept, and the system confirms its authenticity using a special code that only matches if the concept is exactly as it was created.",
+    "intermediate": "Cryptographic authorship is the method used to verify the integrity and authenticity of digital content by using cryptographic hashes, like Content-addressed IDs (CIDs). When a user creates a concept, the system generates a unique CID for it. If another system generates the same CID for the same concept, it means that the content is authentic and has not been tampered with.",
+    "expert": "Cryptographic authorship in the context of digital content involves the use of cryptographic hashes to ensure the authenticity and integrity of the content. Content-addressed IDs (CIDs) are a form of hash function that provides a unique and deterministic identifier for the content, making it possible to verify that the content has not been altered. This concept has profound implications for the decentralization of data and information, as it allows for peer-to-peer sharing and verification of content without the need for a central authority. It also has connections to other fields such as blockchain technology and the InterPlanetary File System (IPFS)."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Cryptographic authorship using CIDs allows for peer-to-peer sharing and verification of content without the need for a central authority, ensuring the authenticity and integrity of the content.",
+    "source_chunk": 32,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

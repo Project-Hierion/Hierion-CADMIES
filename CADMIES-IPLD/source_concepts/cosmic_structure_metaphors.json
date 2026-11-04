@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_structure_metaphors",
+  "title": "Cosmic Structure Metaphors",
+  "definition": "A collection of metaphors used to describe the visual and textural qualities of the cosmic web.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.167729Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.167729Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the cosmic web as something like a beautiful, delicate fabric, a sparkling network, or a gorgeous marble pattern.",
+    "intermediate": "The cosmic web is often compared to silks, mycelium, veins, or marbling to evoke its appearance. These metaphors highlight its delicate, luminous, and intricate nature.",
+    "expert": "Cosmic structure metaphors serve to elicit emotional and sensory responses, enhancing our understanding and appreciation of the cosmos. They are also useful in science fiction and art for creating vivid, memorable images of space. However, they should be used cautiously, as they can mislead if taken literally, suggesting a material or physical structure that may not exist."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful use of metaphor to describe complex and abstract phenomena can deepen our understanding and appreciation of the world.",
+    "source_chunk": 98,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

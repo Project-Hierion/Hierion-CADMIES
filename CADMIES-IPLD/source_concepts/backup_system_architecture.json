@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_system_architecture",
+  "title": "Backup System Architecture",
+  "definition": "The conceptual structure of a multi-tiered backup system with a centralized configuration, two sources, and a state management system.",
+  "type": "Concept",
+  "domain": "Computing",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.674571Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.674571Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a backup system like a home with different rooms. It has a central configuration, stores data in multiple places (rooms), and keeps track of its status. This helps ensure your data is safe and easy to restore.",
+    "intermediate": "A backup system is a complex arrangement consisting of a centralized configuration, multiple data sources, and a state management system. It enables efficient storage and retrieval of data by maintaining multiple tiers of backups, each with different retention periods.",
+    "expert": "The backup system architecture discussed in the conversation is a three-tiered model characterized by its centralized configuration, two primary data sources, and a dynamic state management system. This design allows for optimal data protection, preservation, and retrieval while minimizing redundancy and storage costs. The system's philosophy of backup retention and scheduling, as outlined in the 'config.py' file, reflects a balance between data availability and storage efficiency, inspired by data protection principles and the capabilities of modern storage technologies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The backup system's architecture, which includes a centralized configuration, multiple data sources, and a dynamic state management system, allows for efficient data protection, preservation, and retrieval while minimizing redundancy and storage costs.",
+    "source_chunk": 102,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

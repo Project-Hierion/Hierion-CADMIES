@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_feeding",
+  "title": "Symbiotic Feeding",
+  "definition": "The dynamic relationship between vampire bats and their hosts where bats feed on host blood while preserving the host's overall health and stability.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.792495Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.792495Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Vampire bats and their hosts have a special relationship where the bats feed on the host's blood, but it's like a gentle dinner party. The bats are careful not to hurt the host, and they even help the host by keeping it healthy.",
+    "intermediate": "The symbiotic feeding relationship between vampire bats and their hosts involves a delicate balance of anticoagulants, anesthetics, and vasodilators in the bat's saliva, and a passive flow mechanism for blood extraction that minimizes tissue damage and discomfort for the host. This relationship is functionally convergent with the craving-tanha cycle in Buddhist philosophy, as both systems involve a cycle of consumption and satisfaction.",
+    "expert": "The symbiotic feeding relationship between vampire bats and their hosts is a fascinating example of coevolution and mutualism. The bats' ability to extract blood with minimal harm to the host allows for long-term survival and reproductive success. From a philosophical perspective, this relationship challenges our understanding of predation and symbiosis, and highlights the importance of considering complex systems and their long-term stability. The symbiotic feeding relationship between vampire bats and their hosts also provides insights into the evolution of human consumer behavior and the exploitation of pleasure-pain cycles."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The symbiotic feeding relationship between vampire bats and their hosts is a complex and delicate system that challenges our understanding of predation and mutualism, and provides insights into the evolution of human consumer behavior and the exploitation of pleasure-pain cycles.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

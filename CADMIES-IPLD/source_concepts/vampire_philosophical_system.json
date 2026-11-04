@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vampire_philosophical_system",
+  "title": "Vampire Philosophical System",
+  "definition": "A philosophical system built around a character from popular culture (a vampire), encompassing its biological aspects, feeding behavior, and a comprehensive catalog of philosophical concepts.",
+  "type": "Concept",
+  "domain": "Popular Culture and Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.817514Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.817514Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a vampire not just as a scary monster, but as a philosopher. This system combines facts about its biology with a collection of wisdom and ideas from different fields of philosophy.",
+    "intermediate": "A vampire-centric philosophical system that combines elements from popular culture with philosophical concepts. It explores themes such as identity, power, and the nature of existence, using the vampire as a narrative device.",
+    "expert": "A novel exploration of the intersection between popular culture and philosophy, this system builds a vampire-centric philosophical narrative. By examining the vampire's biological nature and its philosophical reflections, it reveals the interconnectedness of these seemingly disparate fields, offering unique insights into human existence, identity, and power dynamics."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnectedness and interdependence of popular culture, philosophy, and reality, as revealed through the narrative of a vampire character.",
+    "source_chunk": 61,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

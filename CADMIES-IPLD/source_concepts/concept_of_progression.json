@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_of_progression",
+  "title": "Concept Of Progression",
+  "definition": "A philosophical concept that explores the relentless pursuit of improvement, satisfaction, and further progression, especially in a dynamic and evolving context like human perception and technology.",
+  "type": "Concept",
+  "domain": "Psychology, Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.756194Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.756194Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as the idea that once we enjoy something, we often want more of it. Just like how Coca-Cola keeps us coming back for that next tingle, the human mind often seeks out new experiences or improvements to satisfy its craving for novelty.",
+    "intermediate": "The Concept of Progression is a psychological principle that connects to the Tanha Cycle in Buddhist Philosophy. It explores how human craving (tanha) for novelty and improvement can be triggered by temporary sensory pleasure (vedana), leading to an endless cycle of desire and dissatisfaction.",
+    "expert": "This concept explores the philosophical implications of human craving for novelty and improvement. It delves into edge cases like the role of technology in shaping our desires, the limits of human satisfaction, and connections to other fields such as artificial intelligence, game theory, and the study of human motivation."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interplay between human perception and technology, demonstrating how technology can be designed to exploit our innate desire for novelty and improvement, much like the Craving Tanha Cycle.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

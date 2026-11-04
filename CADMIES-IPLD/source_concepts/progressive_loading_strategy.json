@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "progressive_loading_strategy",
+  "title": "Progressive Loading Strategy",
+  "definition": "A strategy that loads and displays data in stages based on user interaction and viewport, improving load time and user experience.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.522689Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.522689Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a website that only loads the parts you're currently viewing, like a video game. This makes the site faster and more enjoyable to use.",
+    "intermediate": "Progressive loading is a technique used to optimize data loading and rendering in applications. It works by loading and displaying data in stages based on user interaction and viewport, improving load time and user experience.",
+    "expert": "Progressive loading is a key aspect of modern web development and data visualization. It improves performance and user experience by reducing the amount of data that needs to be loaded and rendered at once. The strategy can be applied in various ways, such as lazy loading images, paginating data, or using a tiled rendering approach. Progressive loading can also be extended to real-time applications, such as streaming video or live data visualization, to handle large datasets and ensure smooth performance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The approach of domain-grouped progressive loading improves the load time and user experience of data visualization applications by reducing the amount of data that needs to be loaded and rendered at once, and adapting to user interaction and viewport changes.",
+    "source_chunk": 111,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

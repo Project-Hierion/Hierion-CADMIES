@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "non_dualistic_awareness",
+  "title": "Non Dualistic Awareness",
+  "definition": "A consciousness that transcends dualities such as subject and object, self and other, and thereby experiences a unified reality.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.297262Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.297262Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "anatta",
+      "dukkha",
+      "perceptual_transformation",
+      "neurological_selfless_rewiring",
+      "interconnected_consciousness"
+    ],
+    "contradicts": [
+      "self_illusion"
+    ],
+    "related_to": [
+      "letting_go_of_the_self",
+      "living_as_an_organism"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a part of a beautiful painting, not separate from it. Non-dualistic awareness is understanding and experiencing that we're all connected in this way.",
+    "intermediate": "Non-dualistic awareness refers to the dissolution of the subject-object duality through perceptual transformation. It's about recognizing that our true nature is not separate from the universe's nature.",
+    "expert": "Non-dualistic awareness is a philosophical concept that challenges the Cartesian dualism of mind and body, and the subject-object dualism of Western metaphysics. It's about experiencing the interconnectedness of consciousness, reality, and the universe. It has implications for neuroscience, quantum physics, and Eastern philosophies."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "anatta",
+      "dukkha",
+      "perceptual_transformation",
+      "neurological_selfless_rewiring",
+      "interconnected_consciousness"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the dissolution of subject-object duality, suggesting a shift towards non-dualistic awareness.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

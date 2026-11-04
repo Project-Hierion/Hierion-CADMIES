@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "local_sop_vault_architecture",
+  "title": "Local Sop Vault Architecture",
+  "definition": "The organizational structure and design principles of a local Standard Operating Procedure (SOP) vault.",
+  "type": "Concept",
+  "domain": "Documentation and Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.303414Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.303414Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a local SOP vault as a guidebook with a clear structure. It's made up of sections like an introduction, step-by-step procedures, and references. Everything in the guidebook is connected so you can easily find what you need.",
+    "intermediate": "A local SOP vault is a structured collection of documents that serve as a single Standard Operating Procedure. It's designed to be navigable and flexible, with elements like pages, references, notes, and documents interlinked for easy exploration. The vault's philosophy is one of interconnectedness \u2014 everything links to everything else.",
+    "expert": "The local SOP vault architecture represents a unique blend of information architecture, knowledge management, and documentation principles. It builds upon the existing Obsidian vault structure while introducing a new layer of organization and interconnectivity. Philosophically, it reflects the idea of a living, evolving document that adapts to its context and users. It also provides a potential model for more interconnected and flexible knowledge systems, with applications beyond SOPs in fields like research and collaboration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The local SOP vault architecture represents a unique blend of documentation and knowledge management principles, with potential applications beyond SOPs in fields like research and collaboration.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "harm_based_law",
+  "title": "Harm Based Law",
+  "definition": "The principle that the law should regulate potential harm to creators or their rights, rather than physical existence or technical processes of data transfer.",
+  "type": "Concept",
+  "domain": "Legal Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.429477Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.429477Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the law as a guardian of creativity. It should focus on stopping actions that cause harm to artists or their work, rather than worrying about the physical nature of the data being transferred.",
+    "intermediate": "The law should be based on the potential for infringement or harm to creators, rather than the technical processes of data transfer. This aligns with the first sale doctrine and prevents abuse while allowing technology to function.",
+    "expert": "The law should regulate potential harm to creators or their rights, rather than the physical existence or technical processes of data transfer. This separates the law from the mechanics of data transfer and focuses on the potential for infringement. It also highlights the philosophical distinction between the law regulating acts of creation and those of consumption, and connects to the broader discourse on the role of law in digital societies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The principle that the law should regulate potential harm to creators or their rights, rather than physical existence or technical processes of data transfer.",
+    "source_chunk": 163,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

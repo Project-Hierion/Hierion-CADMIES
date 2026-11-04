@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_sanitization",
+  "title": "Data Sanitization",
+  "definition": "The process of ensuring data is clean, consistent, and secure for sharing or use in a public setting.",
+  "type": "Concept",
+  "domain": "Cybersecurity",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.610825Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.610825Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're sharing a recipe with a friend. You remove your personal notes and replace your measurements with generic ones. That's data sanitization.",
+    "intermediate": "Data sanitization involves removing or replacing sensitive information such as usernames, email addresses, and full paths with generic placeholders. It ensures data is clean and safe for sharing or public use.",
+    "expert": "Data sanitization is a critical step in securing data while preserving its usefulness. It involves handling personal data responsibly and ethically, addressing potential privacy and security issues, and preparing data for a new context or audience. It's a practice with philosophical implications in data ethics, privacy, and security."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Sanitization ensures data is safe for sharing while preserving its functionality and utility.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

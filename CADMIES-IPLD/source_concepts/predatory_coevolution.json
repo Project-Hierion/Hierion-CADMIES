@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "predatory_coevolution",
+  "title": "Predatory Coevolution",
+  "definition": "The mutual evolution and adaptation of predator and prey species in an ecosystem, resulting in a symbiotic relationship where both parties benefit.",
+  "type": "Concept",
+  "domain": "Ecology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.782581Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.782581Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "predatory_inevitability",
+      "strategic_acceptance",
+      "ecosystem_as_cohabitation"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a predator and its prey as two dancers \u2014 they both evolve and adapt to each other over time. Like a lion and a zebra, their survival depends on each other.",
+    "intermediate": "Predatory coevolution is a complex process that involves genetic, behavioral, and environmental changes in both the predator and prey populations. This adaptation can lead to intricate patterns of survival and coexistence.",
+    "expert": "Predatory coevolution is a fascinating example of a broader biological phenomenon called coevolution. It has been studied extensively in various ecological contexts, from bacteria and viruses to plants and animals. The concept also has philosophical implications for the nature of existence and interdependence, connecting to ideas of emergence and the interconnectedness of all things."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "predatory_inevitability",
+      "strategic_acceptance",
+      "ecosystem_as_cohabitation"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The vampire's coevolution with its host can be viewed as a form of predatory coevolution, where both parties have evolved strategies to benefit from their relationship.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

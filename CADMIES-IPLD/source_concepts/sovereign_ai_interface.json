@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sovereign_ai_interface",
+  "title": "Sovereign Ai Interface",
+  "definition": "A user interface for an AI model that is designed to operate independently and securely, with no reliance on external services or data sources.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.271418Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.271418Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your phone's calculator app, but instead of simple math, it's a smart helper that knows everything about the world. This smart helper lives completely on your phone and doesn't need to ask anyone else for answers.",
+    "intermediate": "A sovereign AI interface is a user interface that allows interaction with an AI model without the need for internet access or reliance on cloud-based services. It ensures data privacy and security by keeping all processing and data storage local.",
+    "expert": "A sovereign AI interface is a novel approach to human-computer interaction that prioritizes data privacy and security. It allows for the deployment of large language models on local hardware, enabling real-time inference with minimal latency. This approach has philosophical implications for the decentralization of AI, as well as ethical considerations regarding data ownership and control."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the potential of sovereign AI interfaces for enhancing privacy and security, while also enabling offline access to powerful AI capabilities.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

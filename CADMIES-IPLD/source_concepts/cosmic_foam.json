@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_foam",
+  "title": "Cosmic Foam",
+  "definition": "The name for the phenomenon of aggregation in the universe, characterized by its emergent, frothy nature, resulting from the agitation and interaction of cosmic forces.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.191597Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.191597Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe as an ocean. The Cosmic Foam are the beautiful, sparkling bubbles on the surface. They're not alive; they're just the result of the universe's movement and agitation.",
+    "intermediate": "The Cosmic Foam is a consequence of the interplay of gravitational and dynamic forces in the universe. It's a passive, emergent structure that appears as a result of these forces, similar to froth in a drink or on the ocean's surface.",
+    "expert": "The Cosmic Foam is a philosophically significant concept. It challenges the traditional model of the universe as a web. Instead, it posits the universe as a froth, a passive, emergent result of cosmic forces. This has implications for our understanding of the universe's structure and its relationship to other fields such as complexity science and self-organizing systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Cosmic Foam is a beautiful, scientifically evocative name that captures the passive, emergent, foamy nature of the universe.",
+    "source_chunk": 107,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

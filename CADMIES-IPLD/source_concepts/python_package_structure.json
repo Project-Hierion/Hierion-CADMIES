@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "python_package_structure",
+  "title": "Python Package Structure",
+  "definition": "The organization of a Python project into a package, including the use of __init__.py, setup.py or pyproject.toml, and metadata.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.515325Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.515325Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your Python project as a box. To make it easy to open and use, we need to organize it well. This means adding a special file and some information about the project, so it can be installed and used by others.",
+    "intermediate": "In Python, a package is a directory containing a collection of modules. To create a package, we include an __init__.py file and define metadata using setup.py or pyproject.toml. This allows us to easily install and import the package.",
+    "expert": "Python package structure is essential for modular and maintainable code. It enables namespace packaging, where modules with the same name can coexist in different packages. This is achieved by adding an __init__.py file to the package directory. Metadata in setup.py or pyproject.toml allows for package distribution and installation using pip. It also enables setuptools to automate various tasks such as building and distributing the package."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Proper Python package structure enhances code organization, modularity, and reusability. It allows for easy installation and import of the package.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

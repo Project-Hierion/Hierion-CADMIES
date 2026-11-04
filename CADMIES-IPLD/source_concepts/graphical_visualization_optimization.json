@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "graphical_visualization_optimization",
+  "title": "Graphical Visualization Optimization",
+  "definition": "The strategic modification of graphical representations to enhance readability, comprehension, and aesthetic appeal.",
+  "type": "Concept",
+  "domain": "Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.380832Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.380832Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like making your drawings bigger so your friends can read your notes better, or making your video game characters look cuter.",
+    "intermediate": "Graphical visualization optimization is the art of adjusting graphical elements, such as node size and font size, to optimize legibility and aesthetics in data visualizations.",
+    "expert": "Graphical visualization optimization delves into the intersection of design, user experience, and data science. It explores the perceptual psychology of visual representations, examining how colors, shapes, and arrangements impact interpretation and retention of information. Moreover, it connects to the philosophy of perception and the cognitive science of attention, as well as the broader field of visual communication in art and media."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user prioritizes larger nodes to accommodate text over enlarging the text size itself, showing a focus on balance and efficiency in visual communication.",
+    "source_chunk": 59,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

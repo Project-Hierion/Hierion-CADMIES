@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ethical_media_ecosystem",
+  "title": "Ethical Media Ecosystem",
+  "definition": "A new media ecosystem that values ownership, locality, and the human experience over corporate control and digital scarcity.",
+  "type": "Concept",
+  "domain": "Sociology and Media Studies",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.405503Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.405503Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a media world where you own your content, host it locally, and experience it in the moment. It's a community-driven model that values relationships over transactions.",
+    "intermediate": "The ethical media ecosystem is a shift from centralized platforms to decentralized systems. It prioritizes local production, experiential media, and protocol over platform. It's a new social agreement that moves from owning products to accessing protocols.",
+    "expert": "The ethical media ecosystem challenges the digital scarcity model. It's a return to a more ancient form of media consumption, emphasizing the live, unrepeatable moment. It's a philosophical shift that questions the ownership of digital content, exploring the implications for creativity, sharing, and the role of technology in society. It connects to the field of peer-to-peer networks, cryptography, and decentralized governance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ethical media ecosystem is a new social agreement that moves from owning products to accessing protocols, challenging the digital scarcity model and the role of technology in society.",
+    "source_chunk": 155,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

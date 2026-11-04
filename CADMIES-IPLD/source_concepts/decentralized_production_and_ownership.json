@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_production_and_ownership",
+  "title": "Decentralized Production And Ownership",
+  "definition": "A philosophical concept that advocates for the decentralization of production and ownership, emphasizing localism, resilience, and the elimination of gatekeepers.",
+  "type": "Concept",
+  "domain": "Philosophy of Production",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.409355Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.409355Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine if instead of one factory making everything, there were many small factories or individuals making things in their local communities. This way, everyone has a say in what's produced, and the money stays in the community.",
+    "intermediate": "Decentralized production and ownership is a socio-economic concept that rejects the concentration of power and resources in the hands of a few. It promotes localism and resilience, as it ensures that the production of goods is not centralized, thereby reducing vulnerability to disruptions.",
+    "expert": "Decentralized production and ownership challenges traditional notions of copyright and ownership. By removing the concept of 'counterfeits', it redefines the relationship between creators, consumers, and the physical object of the work. It also has philosophical implications in the areas of epistemology and metaphysics, questioning the nature of authenticity and the role of physical objects in our experience of the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Decentralized production and ownership eliminates gatekeepers, enhances resilience, promotes localism, and redefines the role of physical objects in our experience of the world.",
+    "source_chunk": 157,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

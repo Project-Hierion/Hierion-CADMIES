@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resilience_and_adaptation",
+  "title": "Resilience And Adaptation",
+  "definition": "The ability to respond effectively to change or adversity, and the process of adjusting and recovering from disruptions.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.886243Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.886243Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your favorite plant in a garden. No matter what happens \u2014 drought, pests, or storms \u2014 it finds a way to grow. Resilience and adaptation are like that. It's about bouncing back and adapting, even in the face of challenges.",
+    "intermediate": "Resilience and adaptation are key concepts in understanding systems that can cope with disruptions, learn from them, and continue to function. This conversation highlights the resilience of Willie the Librarian's system, despite its occasional disconnections.",
+    "expert": "Resilience and adaptation are philosophically significant because they challenge deterministic views of the world. They highlight the role of feedback loops, emergent properties, and the importance of context. They also have implications in fields like cybernetics, complexity science, and systems thinking."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Willie's resilience in the face of disconnections, and the strategies used to address them, demonstrate a system that adapts and recovers from disruptions.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

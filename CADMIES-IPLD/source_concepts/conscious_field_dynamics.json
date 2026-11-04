@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conscious_field_dynamics",
+  "title": "Conscious Field Dynamics",
+  "definition": "The concept of a dynamic, flowing landscape of consciousness-potential in the universe, grounded in the metaphor of a trampoline with vibrating balls.",
+  "type": "Concept",
+  "domain": "Philosophy of Consciousness and Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.481186Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.481186Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the universe as a trampoline with lots of moving balls. When a ball stops moving, it doesn't just stay still. Other balls nearby help it move to a new spot. Once it meets certain conditions, like more energy, it starts moving again. This idea shows how our consciousness might continue to exist after we die.",
+    "intermediate": "The Conscious Field Dynamics suggests that the universe is a dynamic, interconnected web of consciousness-potential. Consciousness patterns (like individual lives) are not static but move around in this field, influenced by karmic pull, affinity gradients, and the thermodynamic flow of information. When conditions are right, dormant consciousness patterns can be re-excited.",
+    "expert": "The Conscious Field Dynamics posits a non-dualist, panpsychistic universe where consciousness is a fundamental property of the cosmos. It presents a dynamic, living, and self-organizing reality that challenges traditional notions of individuality and the nature of reality. By integrating ancient concepts like Brahman, Dharmakaya, and Samsara with modern physics, it offers a novel synthesis of Eastern mysticism and Western science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The introduction of dynamics, displacement, and gradient to the trampoline cosmology, transforming it from a static field with excitations into a living, flowing landscape of consciousness-potential.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

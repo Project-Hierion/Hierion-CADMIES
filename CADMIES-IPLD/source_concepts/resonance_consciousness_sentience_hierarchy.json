@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resonance_consciousness_sentience_hierarchy",
+  "title": "Resonance Consciousness Sentience Hierarchy",
+  "definition": "A three-tiered hierarchy that describes the evolution of existence through vibration, reflection, amplification, and awareness.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.178065Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.178065Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a whispering gallery where sounds bounce and amplify, creating a series of echoes. Resonance is the initial whisper, consciousness is the echoing space, and sentience is the self-aware note created by the echoes.",
+    "intermediate": "The hierarchy of existence starts with resonance, the base state of a vibrating system. This leads to consciousness, a field of experience with internal boundaries, and finally, to sentience, a coherent and self-aware note created by the echo chamber of consciousness.",
+    "expert": "The concept explores the philosophical implications of consciousness and sentience. It suggests that consciousness is a result of a vibrating system's interaction with boundaries, creating a field of internal experiences. Sentience, then, is a further amplification and refinement of this field, creating a coherent and self-aware note. This hierarchy connects to other fields like quantum physics, where resonance and entanglement play a crucial role."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The hierarchy of existence through vibration, reflection, amplification, and awareness.",
+    "source_chunk": 143,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

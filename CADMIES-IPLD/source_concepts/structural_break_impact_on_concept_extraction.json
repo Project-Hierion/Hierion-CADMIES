@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "structural_break_impact_on_concept_extraction",
+  "title": "Structural Break Impact On Concept Extraction",
+  "definition": "The influence of structural breaks within a text on the number and quality of concepts extracted by an LLM.",
+  "type": "Concept",
+  "domain": "Language Modeling",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.348664Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.348664Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a conversation as a long story. When there are clear pauses or topic changes, it's easier for a smart machine to understand and remember different ideas.",
+    "intermediate": "Structural breaks in a text, such as line breaks or shifts in conversation, can significantly increase the number of distinct concepts extracted by a language model. These breaks provide anchor points for the model to separate and interpret different ideas within the text.",
+    "expert": "Structural breaks in a text can enhance the quality of concepts extracted by a language model through the improved representation of topic boundaries. By providing clear demarcations between separate ideas, these breaks allow the model to more accurately compress and distill the essential information from the text. However, the impact of structural breaks is not universal and depends on the specific characteristics of the text and the model's internal mechanisms. For example, a model may struggle to extract multiple concepts from a monolithic block of text, even if it contains multiple structural breaks, if the text is highly complex or ambiguous."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The presence of structural breaks within a text can significantly influence the number and quality of concepts extracted by a language model.",
+    "source_chunk": 138,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

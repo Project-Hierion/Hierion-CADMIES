@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concurrent_ollama_requests",
+  "title": "Concurrent Ollama Requests",
+  "definition": "The issue arising from sending multiple simultaneous requests to the Ollama API, causing one or more requests to fail due to internal server errors.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.307725Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.307725Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to use two machines at the same library. If they both try to check out a book at the same time, one might fail because the book is already out. This is similar to sending too many requests to the Ollama API at once.",
+    "intermediate": "Concurrent Ollama requests occur when multiple threads or processes attempt to access the Ollama API simultaneously. This can lead to server errors, timeouts, or unpredictable results due to race conditions and resource contention within the Ollama server.",
+    "expert": "The issue of concurrent Ollama requests arises from the stateless nature of the HTTP protocol and the single-threaded processing model of Ollama. Simultaneous requests can cause race conditions, leading to inconsistent or erroneous results. To address this, asynchronous processing, request queuing, or resource pooling techniques can be employed to ensure that requests are handled in a sequential and controlled manner."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Sending multiple simultaneous requests to the Ollama API can cause server errors due to internal server limitations, highlighting the need for sequential request handling.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

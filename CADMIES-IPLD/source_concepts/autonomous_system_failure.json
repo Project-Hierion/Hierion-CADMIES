@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "autonomous_system_failure",
+  "title": "Autonomous System Failure",
+  "definition": "A concept that encapsulates the idea of a system, in this case ORCID, failing to operate independently as expected due to an error or issue.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.915612Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.915612Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like when your computer crashes and you can't log in. Instead of the system working smoothly, it shows an error message.",
+    "intermediate": "Autonomous system failure refers to a situation where an independent system, like ORCID, encounters an error or issue that prevents it from functioning as expected, returning a 500 response with a HTML error page.",
+    "expert": "Autonomous system failure is a complex issue that highlights the interconnectedness of technology systems. In this context, it refers to ORCID's inability to handle a request, returning a 500 response with a HTML error page. This failure can have philosophical implications, such as questioning the reliability and autonomy of digital systems, and its impact on user experience and data integrity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the potential for autonomous systems, like ORCID, to fail and the consequences of these failures.",
+    "source_chunk": 83,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

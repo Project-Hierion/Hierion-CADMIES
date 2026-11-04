@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "autonomous_concept_mining",
+  "title": "Autonomous Concept Mining",
+  "definition": "The process of discovering, extracting, and integrating new concepts from various data sources without human intervention.",
+  "type": "Concept",
+  "domain": "Computer_Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.823295Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.823295Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a smart robot that finds new ideas in books or online articles and adds them to our knowledge base.",
+    "intermediate": "Autonomous Concept Mining leverages Natural Language Processing techniques to identify patterns in text data and transform them into meaningful concepts, thus enriching the knowledge system.",
+    "expert": "Autonomous Concept Mining bridges the gap between unstructured data and knowledge representation systems by applying machine learning algorithms to extract concepts. It also has philosophical implications as it explores the nature of knowledge discovery and its relationship with human cognition."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful implementation of autonomous concept mining in the CADMIES system is a testament to the potential of AI in enhancing human knowledge and understanding.",
+    "source_chunk": 63,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

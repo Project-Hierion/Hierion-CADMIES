@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_mycorrhizal_intelligence_ecosystem",
+  "title": "Digital Mycorrhizal Intelligence Ecosystem",
+  "definition": "A digital system that represents a tangible manifestation of a philosophical framework, connecting different knowledge systems and functioning as a digital mycorrhiza growing within the stone walls of cryptographic certainty.",
+  "type": "Concept",
+  "domain": "Computer Science & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.756051Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.756051Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital garden that grows like a fungus. It connects different ideas, grows organically while maintaining integrity, and nourishes itself from only scientifically validated sources. Just like a fungus shares nutrients, this digital garden shares knowledge.",
+    "intermediate": "The Digital Mycorrhizal Intelligence Ecosystem is a digital system that functions as a digital mycorrhiza, connecting different knowledge systems and functioning within the cryptographic foundations. It grows organically, nourishes itself from validated sources, and acts as a tangible manifestation of a philosophical framework.",
+    "expert": "The Digital Mycorrhizal Intelligence Ecosystem is a novel concept that merges computer science and philosophy. It functions as a digital mycorrhiza, a symbiotic relationship between a plant and a fungus that shares nutrients. In this context, the ecosystem represents a digital system that connects different knowledge systems, grows organically, and functions within the cryptographic foundations. This concept highlights the interconnectedness of computer science and philosophy and showcases the potential for a new paradigm of digital knowledge management."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Digital Mycorrhizal Intelligence Ecosystem represents a new paradigm of digital knowledge management that merges computer science and philosophy, functioning as a symbiotic relationship between a plant and a fungus that shares nutrients.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

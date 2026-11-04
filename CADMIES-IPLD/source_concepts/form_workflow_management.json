@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "form_workflow_management",
+  "title": "Form Workflow Management",
+  "definition": "The process of designing, automating, and managing the flow of data and information in a form-based application, including handling errors and maintaining user input across attempts.",
+  "type": "Concept",
+  "domain": "Software_Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.737065Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.737065Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're filling out a long application form online. The form workflow management is like the system that ensures everything is smooth, from the start to the finish, and it lets you pick up where you left off if you have to stop midway.",
+    "intermediate": "Form workflow management involves designing the flow of data through a form-based application, implementing error handling mechanisms, and managing user input across different states of the application.",
+    "expert": "Form workflow management is a crucial aspect of software engineering that involves designing and automating the flow of data and information in a form-based application. This includes implementing error handling mechanisms, managing user input across different states of the application, and optimizing the user experience. It also has connections to fields like user interface design, database management, and system architecture."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of managing the flow of data and information in a form-based application and the challenges involved in handling errors and maintaining user input across attempts.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

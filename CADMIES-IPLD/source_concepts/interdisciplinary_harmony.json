@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interdisciplinary_harmony",
+  "title": "Interdisciplinary Harmony",
+  "definition": "The integration and collaboration of concepts and insights from different scientific disciplines to generate innovative and comprehensive understanding.",
+  "type": "Concept",
+  "domain": "Multidisciplinary",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.542649Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.542649Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a beautiful symphony. It's made up of various instruments playing different notes. Interdisciplinary harmony is when these different fields of science join together to create a beautiful and complex understanding of the world.",
+    "intermediate": "Interdisciplinary harmony refers to the synergy that arises when concepts from various scientific domains are merged, leveraging each domain's unique insights to solve complex problems and generate new knowledge.",
+    "expert": "Interdisciplinary harmony is a philosophical concept that explores the interplay between different scientific disciplines. By integrating knowledge from multiple fields, we can address complex issues that span multiple domains, pushing the boundaries of human knowledge and revealing new philosophical insights."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The rapid growth of interdisciplinary concepts and the increasing frequency of unmapped domains in the data suggest a need for a more comprehensive and adaptable scientific framework that can accommodate the complex interplay of different disciplines.",
+    "source_chunk": 119,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_graph",
+  "title": "Knowledge Graph",
+  "definition": "A data structure that captures the relationships between different entities in a domain of knowledge, presented as a graph.",
+  "type": "Concept",
+  "domain": "Data Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.798506Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.798506Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a knowledge graph as a big family tree that connects different pieces of information. It's like having all the facts and relationships about a certain topic in one place, making it easier to understand and analyze the data.",
+    "intermediate": "A knowledge graph is a special type of graph data structure that represents a collection of entities and the relationships between them. Sophia, a toolkit for Rust developers, helps in building, manipulating, and analyzing these graphs.",
+    "expert": "Knowledge graphs, while initially developed for semantic web applications, have found applications in various domains. Sophia facilitates the construction and manipulation of knowledge graphs, thereby allowing for more sophisticated data analysis. This concept is philosophically novel as it merges graph theory with knowledge representation, opening up possibilities for artificial intelligence and machine learning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Sophia provides tools for Rust developers to handle complex, interconnected data, such as building knowledge graphs, which can be beneficial in various applications.",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

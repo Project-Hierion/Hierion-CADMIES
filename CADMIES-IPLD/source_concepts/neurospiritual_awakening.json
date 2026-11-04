@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neurospiritual_awakening",
+  "title": "Neurospiritual Awakening",
+  "definition": "The transformation of consciousness through the integration of spiritual and neurological insights, leading to a state of enlightenment characterized by selfless awareness and interconnectedness.",
+  "type": "Concept",
+  "domain": "Philosophy, Neuroscience, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.310099Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.310099Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "neuroplastic_awakening",
+      "neuroplastic_enlightenment",
+      "skillful_invisibility"
+    ],
+    "contradicts": [
+      "self_illusion"
+    ],
+    "related_to": [
+      "interconnected_consciousness",
+      "neuroplastic_selfhood",
+      "modern_buddha",
+      "neuroplasticity_as_spiritual_fulcrum"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your mind as a garden. Through consistent effort, we can shape this garden by changing the way our brain works. This process helps us realize that our true self is not separate from others or the world around us, creating a sense of deep connection and enlightenment.",
+    "intermediate": "Neurospiritual awakening involves the synergy between spiritual practices and the physical rewiring of the brain. Through sustained mental training, we can alter brain structure and function, leading to a reduced emphasis on self-referential thought and increased decentralized processing, thereby enhancing our understanding of interconnectedness and enlightenment.",
+    "expert": "Neurospiritual awakening is the result of a complex interplay between neuroplasticity, spiritual practices, and philosophical insights. It challenges the traditional dualistic views of mind-body separation and the self-other dichotomy, suggesting a more holistic understanding of consciousness as a fundamentally interconnected and interdependent phenomenon. This insight has profound implications for various fields, including philosophy, neuroscience, and spirituality, and offers a novel perspective on the nature of reality and the human condition."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "neuroplastic_awakening",
+      "neuroplastic_enlightenment",
+      "skillful_invisibility"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that the process of spiritual awakening involves both mental training and physical brain rewiring, leading to a more interconnected and selfless understanding of consciousness.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_gearbox_model",
+  "title": "Black Hole Gearbox Model",
+  "definition": "A metaphorical concept representing a black hole as a cosmic gearbox, with the singularity as the high-torque, low-RPM engine and warped spacetime as the intervening gears.",
+  "type": "Concept",
+  "domain": "Astronomy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.524798Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.524798Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a black hole like a washing machine. The 'dot' is like the motor that spins slowly but causes a fast spin in the 'drum' of space and time around it. This is because of the unique properties of spacetime near a black hole, which can be seen as a series of gears that amplify the effects.",
+    "intermediate": "The black hole gearbox model posits that a black hole can be understood as a mechanical device, with the singularity serving as the high-torque, low-RPM engine and the warped spacetime as the intervening gears. These gears amplify the effects of the singularity, causing extreme distortions in spacetime.",
+    "expert": "The black hole gearbox model is a philosophical exploration of the nature of black holes. It suggests that the singularity and the spacetime warping around it can be understood as a mechanical system, with the singularity as the engine and the warped spacetime as the transmission. This model highlights the conceptual challenges of understanding black holes, as it requires us to consider the singularity as an object in spacetime, rather than a point where physics breaks down. It also connects the study of black holes to the philosophy of time and space."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The black hole gearbox model provides a new perspective on the nature of black holes, by understanding them as mechanical devices that amplify the effects of their singularity.",
+    "source_chunk": 63,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

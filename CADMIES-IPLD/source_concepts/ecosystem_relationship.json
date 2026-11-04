@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ecosystem_relationship",
+  "title": "Ecosystem Relationship",
+  "definition": "The interplay and coevolution of organisms in a particular environment over time, emphasizing mutual dependence and adaptation.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.873100Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.873100Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about a garden. Different plants and bugs help each other grow and live. That's an example of an ecosystem relationship.",
+    "intermediate": "Ecosystem relationships involve complex trophic networks, where organisms interact as predators, prey, or mutualists. The relationship between a vampire and its host can be seen as a form of symbiosis, where the vampire benefits from the host's resources without harming it significantly over time.",
+    "expert": "Ecosystem relationships are a rich field with philosophical implications. They highlight the interconnectedness of all life forms and challenge traditional notions of hierarchy and dominance. The relationship between a vampire and its host, often depicted as a parasitic one, can be reinterpreted as a symbiotic relationship, with both parties mutually benefitting. This challenges traditional views of dominance and control in relationships."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals a nuanced understanding of relationships, shifting the paradigm from traditional hierarchical models to more interconnected, symbiotic ones.",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

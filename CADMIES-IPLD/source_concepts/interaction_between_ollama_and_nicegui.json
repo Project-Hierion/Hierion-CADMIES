@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interaction_between_ollama_and_nicegui",
+  "title": "Interaction Between Ollama And Nicegui",
+  "definition": "The relationship between the Ollama language model server and the NiceGUI framework, including potential issues and solutions.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.243123Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.243123Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of Ollama as a smart helper and NiceGUI as a website builder. They're trying to work together, but sometimes they have trouble understanding each other.",
+    "intermediate": "Ollama is a language model server that provides APIs for generating text based on a given input. NiceGUI is a framework for creating interactive web-based software with Python. When these two components interact, there can be problems due to mismatched methods or incorrect configurations.",
+    "expert": "The interaction between Ollama and NiceGUI involves asynchronous communication through APIs. The error 'AttributeError: 'Label' object has no attribute 'set_content'' indicates a method mismatch in the NiceGUI framework. This issue occurs because the 'set_content' method is being called on a 'Label' object, but the correct method for setting the text of a label in NiceGUI is 'set_text'. This error highlights the importance of following the documentation and using the correct methods for a given framework."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The error 'AttributeError: 'Label' object has no attribute 'set_content'' occurs due to a method mismatch in the NiceGUI framework. This issue is not inherent to the interaction between Ollama and NiceGUI, but rather a specific error in the NiceGUI code.",
+    "source_chunk": 85,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

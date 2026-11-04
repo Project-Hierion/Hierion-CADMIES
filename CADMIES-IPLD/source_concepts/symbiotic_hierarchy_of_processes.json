@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_hierarchy_of_processes",
+  "title": "Symbiotic Hierarchy Of Processes",
+  "definition": "A philosophical concept that perceives the universe as a nested hierarchy of interconnected, dynamic processes, from the fundamental level of particles to the macroscopic level of living beings and ecosystems.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.909574Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.909574Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine everything in the universe as a series of strange, wiggly things that work together like a big symphony. Everything from tiny particles to the whole planet is just a complex dance of wiggles.",
+    "intermediate": "This concept builds upon quantum mechanics and biology, suggesting that at the fundamental level, particles are probabilistic jitters that form atomic structures. These structures then build molecules, cells, and ultimately, complex living beings. The whole universe is a symbiotic hierarchy of dynamic, interconnected processes.",
+    "expert": "This concept challenges determinism and reductionism, suggesting that the universe is fundamentally probabilistic and holistic. It also connects to the philosophy of Eastern thought, such as the concept of Shunyata, and the holographic principle from quantum gravity, which suggests that all information in the universe can be described on the boundary of a region. The novel insight is that this hierarchical, symbiotic structure is present at all levels of reality, from the fundamental level of particles to the macroscopic level of ecosystems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is a nested hierarchy of interconnected, dynamic processes, with the same underlying structure present at all levels of reality.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

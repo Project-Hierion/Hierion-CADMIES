@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "document_conversion_workflow",
+  "title": "Document Conversion Workflow",
+  "definition": "A comprehensive guide for converting documents between Markdown and PDF formats, with optional conversion to plain text.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.711491Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.711491Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A step-by-step guide to convert files between Markdown and PDF. This also includes an optional step to convert PDFs to plain text.",
+    "intermediate": "A guide that discusses the use of pandoc and libreoffice for document conversion. It covers Markdown to PDF, PDF to plain text, and PDF to Markdown.",
+    "expert": "A guide that delves into the inner workings of document conversion. It discusses the limitations of different conversion methods, best practices for document preservation, and the philosophical implications of format conversion."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Learning about the intricacies and limitations of document conversion can lead to a deeper understanding of the digital landscape.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

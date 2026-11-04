@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gui_backup_architecture",
+  "title": "Gui Backup Architecture",
+  "definition": "The design and structure of a graphical user interface (GUI) for managing and executing backup operations.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.607927Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.607927Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a backup system as a video game console. The GUI is the controller, which lets you navigate between the calendar, file browser, and diff viewer, and perform backup operations. It's user-friendly and easy to understand.",
+    "intermediate": "The GUI for the backup system follows a 3-tier component architecture, with NiceGUI as the web-based framework. It includes a calendar for tracking backups, a diff viewer for file comparison, and a file tree browser. The engine that actually moves files from A to B is a separate module that performs backup operations using rsync or a custom Python script.",
+    "expert": "The GUI backup architecture explores the interaction between user interface and system functionality. It's a practical application of the model-view-controller (MVC) pattern, with the NiceGUI framework serving as the view and separate modules for the model and controller. The design also highlights the importance of separating concerns and maintaining a clear delineation between user interface and system operations, which has philosophical implications for the separation of interface and implementation in software design."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful design of the GUI demonstrates the practical application of the model-view-controller pattern and the importance of separating user interface and system operations.",
+    "source_chunk": 76,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

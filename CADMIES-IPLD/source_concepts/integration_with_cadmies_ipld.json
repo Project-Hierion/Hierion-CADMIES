@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "integration_with_cadmies_ipld",
+  "title": "Integration With Cadmies Ipld",
+  "definition": "The integration of a chat interface with the CADMIES-IPLD (Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem), a content-addressed knowledge network of scientific and philosophical concepts.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.242329Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.242329Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The chat interface is connected to a knowledge system called CADMIES-IPLD. This means that it can access and use information from CADMIES-IPLD to answer questions and provide insights.",
+    "intermediate": "The chat interface is integrated with the CADMIES-IPLD, a content-addressed knowledge network. This integration allows the chat interface to search the mycelium for relevant concepts and use them to generate context for the AI's responses.",
+    "expert": "Integrating the chat interface with CADMIES-IPLD enables the AI to leverage a rich and diverse knowledge base. However, it also raises questions about the accuracy and reliability of the information, and the need for robust search and retrieval algorithms."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration with CADMIES-IPLD highlights the potential for knowledge systems to be used as a service, enhancing their utility and accessibility.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

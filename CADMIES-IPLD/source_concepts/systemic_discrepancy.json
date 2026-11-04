@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "systemic_discrepancy",
+  "title": "Systemic Discrepancy",
+  "definition": "A significant gap or inconsistency between the expected outcome and the actual outcome of a system.",
+  "type": "Concept",
+  "domain": "Systems Thinking",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.022902Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.022902Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're building a puzzle, but some pieces are missing. That's a systemic discrepancy \u2014 a gap between what you expect and what's actually there.",
+    "intermediate": "A systemic discrepancy occurs when the interconnected components of a system fail to operate as expected, leading to undesirable outcomes. It's often a result of overlooked dependencies or misaligned goals.",
+    "expert": "Systemic discrepancies are fascinating in their complexity. They can be self-reinforcing and hard to detect, as individual components may function well in isolation. Understanding systemic discrepancies requires a holistic view of the system, including its structure, dynamics, and external environment. It's a key concept in systems thinking and chaos theory, with applications in fields as diverse as engineering, economics, and social sciences."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The issue is a systemic discrepancy between the expected outcome of the ghost minting process and the actual outcome, which is a lack of new blocks and index entries.",
+    "source_chunk": 81,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

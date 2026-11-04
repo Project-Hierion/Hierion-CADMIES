@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_gui_system",
+  "title": "Cadmies Gui System",
+  "definition": "A comprehensive graphical user interface for creating, viewing, and managing concepts within the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.060945Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.060945Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital notebook for ideas. This is a tool that helps you easily create, view, and manage your thoughts and concepts.",
+    "intermediate": "The CADMIES GUI System is a user-friendly graphical user interface that leverages the CADMIES tools to create, store, and retrieve concepts in a decentralized and air-gapped environment.",
+    "expert": "The CADMIES GUI System is a novel application of graph theory and user experience design. It enables users to navigate and interact with a complex knowledge graph, with features for air-gap security, live preview, and optional secure sharing. The system's architecture allows for scalability and extensibility, with potential applications in various fields such as education, research, and collaboration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES GUI System is a user-friendly and secure tool that enables users to easily create, view, and manage concepts within a decentralized knowledge system.",
+    "source_chunk": 129,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

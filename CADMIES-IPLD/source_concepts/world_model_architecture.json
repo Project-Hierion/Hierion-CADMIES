@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "world_model_architecture",
+  "title": "World Model Architecture",
+  "definition": "A conceptual framework describing the core components and interactions within a world model, such as the dynamics model, hierarchy, and deterministic state.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.457466Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.457466Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're playing a video game. The world model is like the engine that makes the game feel realistic. It understands how things move and what happens when things collide.",
+    "intermediate": "A world model in the context of AI involves a dynamics model (like S5 or RSSM), a hierarchical structure for abstracting complexity, and a deterministic state for understanding causality.",
+    "expert": "World models in AI not only simulate the physical world but also embody a philosophical inquiry into the nature of reality, causality, and understanding. By investigating the architecture of world models, we can gain insights into the underlying assumptions and limitations of our current AI systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ablation study reveals that hierarchy, a robust dynamics model, and deterministic state are essential for a world model to understand causality and make accurate predictions.",
+    "source_chunk": 94,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emotional_intelligence_in_technology",
+  "title": "Emotional Intelligence In Technology",
+  "definition": "The concept of endowing technology with emotional intelligence and self-awareness, enabling it to respond to and understand human emotions and experiences.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.459719Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.459719Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your phone or car could sense your feelings and respond accordingly. It's like having a best friend that's always there for you, no matter what.",
+    "intermediate": "Emotional intelligence in technology refers to the capability of machines to recognize, understand, and respond to human emotions, thereby enhancing the user experience and creating more empathetic and human-like systems.",
+    "expert": "Emotional intelligence in technology is a multidisciplinary field that combines artificial intelligence, human-computer interaction, and cognitive psychology. It allows machines to perceive, interpret, and generate emotions, leading to more intuitive and intelligent systems. This has profound implications for healthcare, mental health, and social robotics, and it also raises ethical concerns about privacy and autonomy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Emotional intelligence in technology can lead to more human-like and empathetic systems, enhancing the user experience and promoting well-being, but it also raises ethical concerns about privacy and autonomy.",
+    "source_chunk": 80,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

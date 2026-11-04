@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ethics_of_technology",
+  "title": "Ethics Of Technology",
+  "definition": "The exploration of ethical considerations related to the development, use, and impact of technology.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.515442Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.515442Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about the question, \"Should we create technology that can enhance human abilities, even if it might change us in ways we don't fully understand?\"",
+    "intermediate": "This concept examines the ethical implications of technological advancement, focusing on issues like privacy, AI ethics, and the balance between human enhancement and potential harms.",
+    "expert": "This concept explores the philosophical foundations of technology ethics, connecting it to broader discussions about human nature, the nature of consciousness, and the role of ethics in shaping societal norms and values."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for a nuanced understanding of the ethical implications of technology, acknowledging the interplay between technology, ethics, and the philosophy of mind.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

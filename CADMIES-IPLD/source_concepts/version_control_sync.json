@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "version_control_sync",
+  "title": "Version Control Sync",
+  "definition": "The process of synchronizing a local repository with a remote one in version control systems like Git.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.443351Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.443351Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as updating your work from the internet to your computer, or vice versa. Like merging two copies of your homework to ensure you have the latest version.",
+    "intermediate": "Version control sync involves commands such as 'git pull' or 'git fetch'. It allows multiple users to collaborate on a project by merging their changes into the main branch, while also keeping track of each version of the project.",
+    "expert": "Version control sync is a fundamental aspect of distributed version control systems. It allows for efficient collaboration and preserves the integrity of the codebase. However, it can lead to merge conflicts if multiple users make changes to the same line of code. Strategies like 'fast-forward' merging and 'rebase' can help manage these conflicts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The process of version control sync can reveal the importance of having a clean working tree and being in sync with the remote repository before making significant changes.",
+    "source_chunk": 169,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

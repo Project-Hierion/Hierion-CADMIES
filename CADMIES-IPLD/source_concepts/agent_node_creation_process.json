@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_node_creation_process",
+  "title": "Agent Node Creation Process",
+  "definition": "The structured sequence of steps used to define, validate, and generate a CID for an AgentNode.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.733402Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.733402Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine building a LEGO model. You first plan out each piece, then check if they fit together correctly. Once everything is in place, you assign a unique number to your creation, so it can be easily found and referenced.",
+    "intermediate": "AgentNode creation process involves defining agent purpose and execution specification, validating schema compliance, semantic consistency, content, and generating a unique CID using the IPLD format.",
+    "expert": "AgentNode creation process is a novel approach that combines the principles of IPLD and JSON Schema to create a universal schema for intelligent agents. It allows for the validation of agent specifications at different levels, from syntactic compliance to semantic consistency. By generating a unique CID for each agent, it enables the creation of a graph-like network of interconnected agents."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The AgentNode creation process provides a universal schema and validation system for intelligent agents, enabling the creation of a graph-like network of interconnected agents.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "class_naming_inconsistency",
+  "title": "Class Naming Inconsistency",
+  "definition": "The discrepancy between a file's name and the names of its classes, leading to import errors in the pipeline.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.442100Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.442100Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about a book. When the author writes it, they give it a title. If the book is published under a new edition, sometimes they keep the old title, and sometimes they change it. In our system, the 'files' are like the books, and the 'class names' are like the titles. We need to make sure the titles match the actual content of the files to avoid any confusion or errors.",
+    "intermediate": "In software development, classes are blueprints for creating objects. When a file is renamed, the class names within it might not be updated accordingly. This can lead to import errors when the pipeline attempts to use these outdated class names. To address this, we need to ensure the class names in the import statements match the actual names of the classes in the updated files.",
+    "expert": "The class naming inconsistency is a common issue in software development that can lead to errors and confusion. In our system, this issue arises due to the renaming of files without updating the class names within them. This inconsistency can disrupt the pipeline's functionality, causing import errors. To resolve this, we must accurately reference the correct class names in the import statements. This requires a systematic review and update of all relevant import statements to align with the new file names and their corresponding class names. This process not only resolves the current issue but also highlights the importance of maintaining consistency in naming conventions throughout the software development lifecycle."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of maintaining consistency in naming conventions, especially when files are renamed, to avoid confusion, errors, and potential disruption to the system's functionality.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

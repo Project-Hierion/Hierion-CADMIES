@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "timing_consistency",
+  "title": "Timing Consistency",
+  "definition": "The need for consistency and precision in the timing of events in a system to prevent duplication or missed actions.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.426146Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.426146Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your computer is making breakfast. If it starts the toaster at the same time it starts the kettle, you might end up with burnt toast and cold coffee. But if it waits a few minutes before starting the kettle, you'll have perfect breakfast. Timing consistency is making sure everything in the system starts at the right time.",
+    "intermediate": "Timing consistency in a software system involves the synchronization of various operations to ensure that they occur in the correct order and at the appropriate times. This is crucial to prevent duplication or loss of data, as well as to maintain the system's overall functionality and performance.",
+    "expert": "Timing consistency is a fundamental challenge in distributed systems, where multiple processes or threads operate independently and asynchronously. Ensuring timing consistency requires the use of synchronization primitives, such as locks or semaphores, to coordinate the execution of concurrent operations. This can lead to complexities such as deadlocks and livelocks, which require sophisticated algorithms and techniques for resolution."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for timing consistency in a software system to prevent duplication or missed actions highlights the importance of synchronization and coordination between concurrent operations.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

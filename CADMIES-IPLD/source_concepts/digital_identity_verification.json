@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_identity_verification",
+  "title": "Digital Identity Verification",
+  "definition": "The process of confirming the authenticity and validity of digital data, such as scientific concepts, using various methods.",
+  "type": "Concept",
+  "domain": "Cryptography",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.971510Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.971510Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine digital identity verification like a digital passport check for scientific concepts. It ensures that the information is accurate and secure.",
+    "intermediate": "Digital identity verification is a crucial part of the scientific data lifecycle, using methods like hash checks and cryptographic signatures to ensure data integrity and authenticity.",
+    "expert": "Digital identity verification is an extension of identity management that involves digital fingerprints, hash checks, cryptographic signatures, and more, leading to a trustworthy scientific ecosystem. It has implications for data privacy, provenance, and reproducibility, connecting to fields like blockchain technology and quantum cryptography."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of digital identity verification methods within the scientific data lifecycle enhances data integrity, trust, and interoperability.",
+    "source_chunk": 97,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

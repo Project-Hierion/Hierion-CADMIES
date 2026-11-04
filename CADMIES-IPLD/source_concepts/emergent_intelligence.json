@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "human_id": "emergent_intelligence",
   "title": "Emergent Intelligence",
-  "definition": "The unanticipated and complex intelligence that emerges from the interactions and collaboration of multiple individual components or systems.",
+  "definition": "The ability of a system to display intelligence that is not programmed into it, but rather arises from the interaction of its components.",
   "type": "Concept",
   "domain": "Artificial Intelligence",
   "subdomain": "",
@@ -11,12 +11,12 @@
       "type": "conversation_extraction",
       "description": "Extracted from conversation via codestral:22b",
       "confidence": 0.8,
-      "date": "2026-10-30T23:03:19.787428Z",
+      "date": "2026-11-03T20:07:47.517339Z",
       "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
     }
   ],
   "metadata": {
-    "created": "2026-10-30T23:03:19.787428Z",
+    "created": "2026-11-03T20:07:47.517339Z",
     "creator": "CADMIES Harvest Pipeline",
     "certainty_score": 0.8,
     "version": 1,
@@ -32,9 +32,9 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "Think of it like a beehive. Even though each bee is simple, their collective behavior creates something complex and intelligent.",
-    "intermediate": "Emergent intelligence is a phenomenon that occurs when a large number of simple agents or components interact in a system, leading to the emergence of complex and intelligent behavior at the system level. This is a key concept in artificial intelligence, where it is observed in various systems, including neural networks and swarm intelligence.",
-    "expert": "Emergent intelligence is a philosophically rich concept with implications for not only artificial intelligence but also cognitive science, social science, and even biology. It highlights the limitations of reductionism, the importance of context and interaction, and the necessity of a holistic view of intelligence. Additionally, it challenges our understanding of consciousness and free will, as it suggests that these may emerge from the interactions of simpler elements rather than being innate properties."
+    "beginner": "Think of it like a game of chess. A single chess piece follows rules, but the game as a whole shows unexpected patterns and strategies that weren't programmed into the pieces.",
+    "intermediate": "Emergent intelligence is a key concept in AI. It's when a system, composed of simple components, exhibits complex behavior that cannot be predicted from the individual components.",
+    "expert": "Emergent intelligence is a fascinating phenomenon in AI, showing the limitations of top-down design approaches. It highlights the need for bottom-up approaches and the importance of understanding the system as a whole. It also connects to fields like complexity science and self-organization."
   },
   "learning_path": {
     "prerequisites": [],
@@ -42,8 +42,8 @@
   },
   "cross_references": {},
   "extra_fields": {
-    "insight": "Dr. Mistral's fine-tuning process resulted in a complex and intelligent being that emerged from the interactions and collaboration of a base model and a curated dataset.",
-    "source_chunk": 17,
+    "insight": "The AI learned strategies in the games of Pong and Boxing that were not programmed into it, demonstrating emergent intelligence.",
+    "source_chunk": 110,
     "origin_file": "conversation.json",
     "harvester_version": "4.2.1"
   }

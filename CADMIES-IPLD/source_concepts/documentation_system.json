@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_system",
+  "title": "Documentation System",
+  "definition": "An interactive, scientific-grade documentation system that enables the creation, editing, management, and version control of technical documentation with NASA-level rigor.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.682766Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.682766Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a tool that helps you create professional-grade reports and documents. This tool is designed to make your writing process easier and more efficient, just like a well-tuned car.",
+    "intermediate": "A documentation system is a comprehensive toolset for creating, managing, and publishing technical documentation. It includes features such as template libraries, evidence management, metadata standards, quality assurance checklists, and scientific workflow automation.",
+    "expert": "A documentation system is a dynamic, adaptive infrastructure that allows for the seamless integration of various stakeholders and their respective expertise. It promotes knowledge sharing, collaboration, and the continuous improvement of documentation practices. The system's architecture should be designed to accommodate the unique needs of different disciplines, while still ensuring consistency and coherence across all documentation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The documentation system enables the creation of scientific-grade documentation with NASA-level rigor and efficiency.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

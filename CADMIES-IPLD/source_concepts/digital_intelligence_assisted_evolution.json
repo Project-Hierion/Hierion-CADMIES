@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_intelligence_assisted_evolution",
+  "title": "Digital Intelligence Assisted Evolution",
+  "definition": "The concept of human evolution, powered and accelerated by digital intelligence and technology.",
+  "type": "Concept",
+  "domain": "Philosophy and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.935201Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.935201Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how technology has made our lives easier and faster. Now, imagine if we could harness its power to evolve and learn as a society more quickly, just like how digital technologies are evolving.",
+    "intermediate": "Digital Intelligence Assisted Evolution is a theory proposing that the integration of digital technology and artificial intelligence into human society will significantly accelerate and enhance human evolution, similar to how technology has influenced the rate of technological evolution.",
+    "expert": "Digital Intelligence Assisted Evolution posits a symbiotic relationship between human intelligence and digital technology, where technological advancements facilitate the emergence and refinement of new ideas, knowledge, and social structures. This process can be seen as a parallel evolution to biological evolution, with digital technologies playing the role of a new environment that shapes and accelerates human cognitive and social development."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The convergence of human and digital evolution may lead to a new form of human intelligence that combines the strengths of both biological and artificial systems.",
+    "source_chunk": 51,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

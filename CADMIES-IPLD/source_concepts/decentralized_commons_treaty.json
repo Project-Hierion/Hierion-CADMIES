@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_commons_treaty",
+  "title": "Decentralized Commons Treaty",
+  "definition": "An agreement between key stakeholders in decentralized infrastructure, focusing on standardization and mutual trust, to ensure interoperability, security, and reliability.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.340636Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.340636Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a group of important organizations coming together to agree on common rules for sharing data and resources. This helps things run smoothly and reliably, just like how countries have treaties to prevent wars.",
+    "intermediate": "The Decentralized Commons Treaty is a set of standards and agreements designed to facilitate interoperability and mutual trust between key players in decentralized infrastructure. This includes standard data primitives, shared payment rails, and juridical ground rules for disputes.",
+    "expert": "The Decentralized Commons Treaty is a sociotechnical phenomenon that seeks to address the social consensus issue in the field of decentralized infrastructure. By creating a shared constitutional moment, it aims to standardize data primitives, interoperable payment rails, and jurisdictional ground rules. This not only facilitates technical interoperability but also enhances trust and security in the network. The treaty draws inspiration from the historical precedent of the TCP/IP standardization process, highlighting the role of centralized coordination in achieving decentralization."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The bottleneck in the adoption of decentralized infrastructure is social consensus, not technological or financial constraints. A Decentralized Commons Treaty can bridge this gap by establishing shared standards, interoperability, and mutual trust between key stakeholders.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

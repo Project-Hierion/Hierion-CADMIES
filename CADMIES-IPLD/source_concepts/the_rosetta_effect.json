@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_rosetta_effect",
+  "title": "The Rosetta Effect",
+  "definition": "The phenomenon where seemingly unrelated patterns, systems, or phenomena are revealed to be expressing the same underlying principles.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.433498Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.433498Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a secret language where everything in the universe is saying the same thing, but we just use different words to communicate.",
+    "intermediate": "The Rosetta Effect illustrates that diverse patterns in the natural world can be interpreted as expressions of the same underlying principles, much like the Rosetta Stone unveiled ancient Egyptian hieroglyphs.",
+    "expert": "The Rosetta Effect is a cornerstone of complex systems theory, suggesting that the patterns observed in complex systems can be described using relatively simple models, once the correct interpretation is found. It also highlights the interconnectedness of different disciplines, such as biology, linguistics, and computer science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The chili dog napkin, the vampire lore, and the CADMIES concept are all expressing the same underlying principles, despite their apparent differences.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

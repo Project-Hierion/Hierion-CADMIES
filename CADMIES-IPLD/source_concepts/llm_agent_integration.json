@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "llm_agent_integration",
+  "title": "Llm Agent Integration",
+  "definition": "The integration of a Large Language Model (LLM) into the CADMIES knowledge system to enhance its ability to understand and generate human-like text.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.072889Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.072889Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a librarian named Willie who knows every book in our digital library. When you ask a question, Willie finds the most relevant information and explains it in a way that's easy to understand.",
+    "intermediate": "In the CADMIES knowledge system, the LLM agent, named Willie the Librarian, communicates with the mycelium network to find and interpret data. It uses the Ollama API for querying and retrieval.",
+    "expert": "The LLM agent is a novel extension of the CADMIES knowledge system. It bridges the gap between symbolic and neural computation by interpreting user queries, searching the mycelium network for relevant data, and feeding it to a local LLM via the Ollama API. This integration enhances the system's understanding and generation of human-like text, and it opens up possibilities for more advanced natural language processing tasks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of a Large Language Model into the CADMIES knowledge system enhances its ability to understand and generate human-like text, and it opens up possibilities for more advanced natural language processing tasks.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

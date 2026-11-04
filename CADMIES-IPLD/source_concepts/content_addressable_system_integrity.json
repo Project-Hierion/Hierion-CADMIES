@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressable_system_integrity",
+  "title": "Content Addressable System Integrity",
+  "definition": "The assurance that a content-addressable storage system reliably and consistently stores and retrieves information based on its unique content, without any alteration or loss.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.540391Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.540391Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're putting your favorite books on a magical shelf. Each book always goes to the same spot, so you can always find it. This is like a content-addressable system ensuring your data is safe and easy to find.",
+    "intermediate": "Content-addressable systems use cryptographic hash functions to generate unique addresses (CIDs) for data. These CIDs are used to store and retrieve data, ensuring integrity and authenticity. The system integrity refers to the consistency and accuracy of this process.",
+    "expert": "Content-addressable system integrity relies on cryptographic hash functions to generate deterministic CIDs. This ensures data consistency and makes it resistant to tampering. It also leverages Merkle DAGs to detect data corruption and inconsistencies, providing strong security guarantees. Additionally, it has applications in various fields, including blockchain technology and distributed systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful completion of a read/write cycle with consistent content, as demonstrated in the conversation, highlights the integrity and reliability of the content-addressable system.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

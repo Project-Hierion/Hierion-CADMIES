@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "multi_tab_interface",
+  "title": "Multi Tab Interface",
+  "definition": "A user interface design with multiple tabs or pages that can be switched between, allowing for separate yet integrated functionality.",
+  "type": "Concept",
+  "domain": "User Experience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.187634Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.187634Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like having multiple windows on your computer, but all within the same application. You can switch between them easily without closing the whole thing.",
+    "intermediate": "A multi-tab interface design allows for context switching between different functionalities while maintaining a unified user experience. It can enhance productivity and usability by providing seamless navigation between related tasks.",
+    "expert": "The multi-tab interface design is a fundamental aspect of modern user experience design. It allows for parallel processing, improving efficiency and reducing cognitive load. Furthermore, it enables a more modular and scalable application architecture. This design has been adopted in various fields, including web browsers, text editors, and integrated development environments."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the need for a multi-tab interface design that allows for the integration of a conversational LLM interface with the existing mycelium browser.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

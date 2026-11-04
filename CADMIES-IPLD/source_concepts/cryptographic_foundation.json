@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cryptographic_foundation",
+  "title": "Cryptographic Foundation",
+  "definition": "The use of cryptography to establish a permanent and verifiable foundation for a digital system, ensuring its security, integrity, and authenticity.",
+  "type": "Concept",
+  "domain": "Cryptography",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.750724Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.750724Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of cryptography as digital locks that protect digital content from unauthorized access or tampering. It's like having a secret handshake that only the right people can understand.",
+    "intermediate": "Cryptographic foundations involve using cryptographic hashes, such as SHA-256, to create unique digital fingerprints of data. These fingerprints allow for data integrity and authenticity verification, while also providing a foundation for building secure and interoperable digital systems.",
+    "expert": "Cryptographic foundations are a cornerstone of secure communication and digital systems. They are also a key component of distributed ledger technologies, such as blockchain, and their ability to create a secure and tamper-evident record of data. The use of cryptography in digital systems also raises important philosophical questions about privacy, security, and trust."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of cryptography to establish a permanent and verifiable foundation for a digital system is a novel and valuable approach to ensuring the security, integrity, and authenticity of digital data and information.",
+    "source_chunk": 36,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_constitutional_charter",
+  "title": "Community Constitutional Charter",
+  "definition": "A document that protects the integrity of the document, makes it binding, and is enforced by community norms, not legal enforcement.",
+  "type": "Concept",
+  "domain": "Governance",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.369106Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.369106Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital agreement that protects the agreement itself from changes and holds everyone accountable to it. This is more like a community's promise than a legal contract.",
+    "intermediate": "A community-enforced constitutional charter is a non-binding agreement that includes integrity clauses to protect the document from tampering and attribution clauses to ensure the original text is maintained in derivative works.",
+    "expert": "A community-constitutional charter is a novel approach that blends the principles of social contracts, digital integrity protection, and community enforcement. It challenges traditional notions of legal binding and introduces philosophical questions about the nature of community and consent."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept of a community-constitutional charter that balances the need for document integrity, binding commitment, and community enforcement, while avoiding legal entanglements.",
+    "source_chunk": 63,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

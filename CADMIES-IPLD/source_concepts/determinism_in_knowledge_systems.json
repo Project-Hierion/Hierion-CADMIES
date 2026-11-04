@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "determinism_in_knowledge_systems",
+  "title": "Determinism In Knowledge Systems",
+  "definition": "The principle that the same content will always produce the same outcome or result in a knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.614973Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.614973Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like this: In a recipe, if you follow the same steps with the same ingredients, you'll always get the same dish. In a knowledge system, if you input the same content, you'll always get the same result.",
+    "intermediate": "In the context of a knowledge system, determinism ensures that the same input data always results in the same output. This is important for trustworthiness and reproducibility of the system.",
+    "expert": "Determinism in knowledge systems has philosophical implications, as it underscores the notion of objective truth. It also connects to other fields like physics, where determinism is a fundamental principle. However, in a complex system, the true nature of determinism can be debated, as small changes in initial conditions can lead to vastly different outcomes (chaos theory)."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful verification of the same CID upon repeated testing highlights the determinism of the knowledge system.",
+    "source_chunk": 74,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

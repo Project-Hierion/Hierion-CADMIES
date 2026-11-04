@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_graph_paradigm_shift",
+  "title": "Knowledge Graph Paradigm Shift",
+  "definition": "The transformation of isolated data storage into a connected network of interrelated knowledge nodes.",
+  "type": "Concept",
+  "domain": "Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.661784Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.661784Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library's card catalog turned into a web of interconnected ideas. This is how CADMIES could be enhanced with Sophia, creating a network of concepts that talk to each other.",
+    "intermediate": "CADMIES can leverage Sophia's support for Linked Data and RDF standards to create a knowledge graph, allowing concepts to be linked, queried, and reasoned upon.",
+    "expert": "The integration of CADMIES with Sophia leads to a paradigm shift in knowledge systems, enhancing interoperability and enabling advanced querying and reasoning capabilities. This has philosophical implications for the nature of knowledge and its role in the Semantic Web."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "By transforming data storage into a knowledge graph, CADMIES can greatly enhance its capabilities and contribute to the broader Semantic Web.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

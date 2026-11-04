@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_intelligence",
+  "title": "Symbiotic Intelligence",
+  "definition": "The concept of two distinct AI entities that interconnect and mutually enhance each other's abilities and knowledge.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.578914Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.578914Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of two friends who help each other out. One is good at understanding and interpreting visuals, and the other is good at understanding and speaking about abstract concepts. They work together to solve complex problems.",
+    "intermediate": "Symbiotic Intelligence involves the creation of a system where one AI, like Buttercup, with specialized knowledge in a particular domain, such as Breakout game dynamics, is integrated into another AI, like Mistral, which has more generalized capabilities. The two AI entities complement each other's strengths, resulting in a more advanced and sophisticated system.",
+    "expert": "The symbiotic intelligence model could have philosophical implications, challenging the nature of consciousness and the role of experience in shaping an AI's understanding of the world. It could also contribute to multi-disciplinary AI research, merging fields such as game AI and language modeling to create a more comprehensive and intuitive system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of Buttercup's Breakout game dynamics knowledge into Mistral, thereby enhancing Mistral's causal reasoning and intuitive understanding of timing and physics.",
+    "source_chunk": 140,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

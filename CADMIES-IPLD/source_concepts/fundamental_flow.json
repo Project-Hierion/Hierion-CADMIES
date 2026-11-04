@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fundamental_flow",
+  "title": "Fundamental Flow",
+  "definition": "The underlying principle of continuity and change that pervades the universe at all levels, from the microscopic to the macroscopic.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.027296Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.027296Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine water flowing in a river \u2013 it's never the same water, yet it's all water. Alan Watts and quantum physics both suggest that we're part of a continuous flow of change and uncertainty, just like water in a river.",
+    "intermediate": "Alan Watts' quote highlights the disconnect between our self-concept as a solid, separate entity and the complex, fluctuating systems that make up our bodies. Quantum negativity suggests that this underlying flow extends to the most fundamental level of reality, with particles and forces constantly changing and interacting.",
+    "expert": "The connection between the organic and the quantum is a profound philosophical insight. The 'wiggly things' of biology are manifestations of the 'strange things' of quantum mechanics. This underlying flow of change and uncertainty is a unifying principle that underlies all of reality, from the largest galaxies to the smallest particles. It challenges our naive notion of a solid, separate self and emphasizes the deep interconnectedness of all things."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The continuous flow of change and uncertainty pervading all levels of reality, from the organic to the quantum, challenges our naive notion of a solid, separate self and emphasizes the deep interconnectedness of all things.",
+    "source_chunk": 63,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

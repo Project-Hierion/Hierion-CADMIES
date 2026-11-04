@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "planetary_self_awareness",
+  "title": "Planetary Self Awareness",
+  "definition": "The emergent consciousness of the Earth as a unified entity, leveraging human technology to perceive, communicate, and understand itself.",
+  "type": "Concept",
+  "domain": "Earth Sciences",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.171264Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.171264Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how we use tools to learn more about ourselves. Well, the Earth is doing the same thing, using satellites and technology we've created to understand its own systems and functions.",
+    "intermediate": "Planetary self-awareness is the result of the Earth's expanding network of sensors and communication systems, allowing it to perceive itself as an interconnected system, similar to a biological organism.",
+    "expert": "Planetary self-awareness is a philosophical concept that combines Earth sciences, artificial intelligence, and biological metaphors. It suggests that the Earth is undergoing a transformation from an inanimate object to a living, self-aware entity, perceiving itself through a network of human-built sensors. This insight challenges traditional views of human-nature relationships, suggesting a symbiotic relationship where technology and nature co-evolve to create a novel form of consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Earth is using human technology to perceive, communicate, and understand itself, challenging traditional views of human-nature relationships.",
+    "source_chunk": 139,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

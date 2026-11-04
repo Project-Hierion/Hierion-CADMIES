@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_graphical_interface",
+  "title": "Cadmies Graphical Interface",
+  "definition": "A graphical user interface for the CADMIES-IPLD system, allowing users to interact with and navigate the system locally and air-gapped.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.055975Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.055975Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your computer system as a garden. The CADMIES Graphical Interface is like a map you can use to explore and manage this garden. It helps you add new ideas, find existing ones, and see how they're connected.",
+    "intermediate": "The CADMIES Graphical Interface is a software application that provides a user-friendly way to interact with the CADMIES-IPLD system. It allows users to add new concepts, browse the concept library, view a knowledge graph, and access an audit trail of operations.",
+    "expert": "The CADMIES Graphical Interface is a novel application of graph theory and human-computer interaction. It enables users to navigate and manipulate the CADMIES-IPLD system, which is a decentralized and self-verifying data structure. The interface's design highlights the interconnectedness of concepts and their relationships, providing a unique and intuitive user experience. This design also has implications for the field of knowledge representation, as it showcases the potential of graph-based systems for organizing and presenting complex information."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES Graphical Interface demonstrates the power of graph theory and human-computer interaction in creating a user-friendly and intuitive interface for navigating and manipulating a decentralized and self-verifying data structure.",
+    "source_chunk": 127,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

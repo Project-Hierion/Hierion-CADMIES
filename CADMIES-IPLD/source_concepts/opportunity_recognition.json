@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "opportunity_recognition",
+  "title": "Opportunity Recognition",
+  "definition": "The ability to identify and capitalize on opportunities that align with one's skills, interests, and values.",
+  "type": "Concept",
+  "domain": "Career Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.368877Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.368877Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like knowing which jobs are a good match for you. You should look for opportunities that let you use your strengths and learn new things.",
+    "intermediate": "Opportunity recognition involves identifying market needs, assessing the fit between a project's requirements and your skills, and understanding the competition. In this case, the 'Custom IT Asset Tracking Platform' job opportunity is a good match because it involves building systems, data pipelines, and UI, which are your strengths.",
+    "expert": "Opportunity recognition is a complex process that involves understanding the market, your skills, and the competition. It's not just about finding jobs that match your skills; it's about identifying opportunities that offer personal growth, challenge, and alignment with your values. The 'Custom IT Asset Tracking Platform' job opportunity is a good match because it offers these benefits while also leveraging your existing knowledge and skills in systems, data pipelines, and UI."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'Custom IT Asset Tracking Platform' job opportunity is a good match because it aligns with the user's skills, interests, and values, and it offers personal growth and challenge.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

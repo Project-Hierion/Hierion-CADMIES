@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "instructional_data_diversity",
+  "title": "Instructional Data Diversity",
+  "definition": "The concept of diversifying instructional data to enhance the capabilities and generalization of language models.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.474480Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.474480Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about learning a new skill. It's better to learn from a variety of resources and experiences, not just one. In the same way, we can train AI models more effectively by using different types of instructional data.",
+    "intermediate": "Instructional data diversity refers to the practice of using a diverse range of instructional data to train language models. This includes data from various domains, styles, and sources, such as human-written prompts, multi-turn conversations, and screenshots. This approach helps improve the model's ability to understand and generate a wide variety of responses.",
+    "expert": "Instructional data diversity is a crucial aspect of developing advanced language models. By utilizing a broad spectrum of instructional data, we can mitigate bias, enhance the model's ability to understand context, and improve its performance in real-world applications. This concept connects to research in fairness, robustness, and multi-task learning in AI. Moreover, it has implications for the design of future instructional datasets, as they should be representative and inclusive to ensure the model's generalizability."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of instructional data diversity in training language models.",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

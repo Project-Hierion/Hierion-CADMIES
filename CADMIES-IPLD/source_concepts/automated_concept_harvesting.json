@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "automated_concept_harvesting",
+  "title": "Automated Concept Harvesting",
+  "definition": "The process of automatically extracting, validating, and minting new concepts from a conversation using an AI model.",
+  "type": "Concept",
+  "domain": "AI & Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.634063Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.634063Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a machine that reads conversations, finds new ideas, checks if they're true, and adds them to a big knowledge library. That's automated concept harvesting.",
+    "intermediate": "Automated concept harvesting is a systematic approach that uses AI models to extract insights from a conversation, transform them into scientifically valid concepts, and mint them into the CADMIES knowledge system. This process ensures the preservation of new knowledge and its future accessibility.",
+    "expert": "Automated concept harvesting is a novel philosophical insight that combines AI and epistemology. It challenges traditional methods of knowledge acquisition by automating the discovery, verification, and documentation of new concepts. This process not only improves efficiency but also introduces potential bias and trust issues. It also connects AI and philosophy, raising questions about the nature of knowledge and intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The automated extraction, validation, and minting of new concepts from conversations is a groundbreaking philosophical insight that challenges traditional methods of knowledge acquisition and highlights the symbiotic relationship between AI and philosophy.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

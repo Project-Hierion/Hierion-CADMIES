@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scratch_remediation_technique",
+  "title": "Scratch Remediation Technique",
+  "definition": "A methodology to remove scratches from a surface, specifically focusing on screens, using different techniques based on the polish type.",
+  "type": "Concept",
+  "domain": "Physics and Material Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.505350Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.505350Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to fix a tiny scratch on a screen. You need to use the right technique to apply the polish. This helps soften the surface and fill the scratch, making it less noticeable. It's like cooking - using the right ingredients and steps can make a big difference.",
+    "intermediate": "Scratch remediation techniques involve the application and manipulation of polish to alter the surface at a molecular level, causing the scratch to appear less noticeable. The technique used can vary depending on the polish type and the specific requirements of the screen. A key factor is the breakdown process of the polish, which can influence its effectiveness.",
+    "expert": "The scratch remediation technique can be understood through the lens of thermodynamics and kinetics. The process involves the application of energy to soften the surface at the molecular level. This can be achieved through abrasion, heat, or a combination of both, depending on the polish type. Understanding the kinetics of these processes allows for the optimization of the technique, leading to a more efficient and effective remediation of scratches."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The key to effective scratch remediation is understanding the specific requirements of the polish and the surface, and adjusting the technique accordingly.",
+    "source_chunk": 32,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

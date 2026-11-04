@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interconnected_intelligence",
+  "title": "Interconnected Intelligence",
+  "definition": "The concept of multiple independent intelligences forming a cohesive, interconnected whole through shared knowledge, experience, and communication, emerging as a new form of collective intelligence.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.718680Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.718680Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a group of smart people working together on a big project. They share knowledge, experiences, and ideas, and their combined intelligence creates something greater than any one person could do alone.",
+    "intermediate": "This concept explores the nature of intelligence in a networked or distributed system, where individual agents contribute specialized knowledge and skills to form a cohesive whole. It builds on the ideas of emergence and the philosophy of symbiosis.",
+    "expert": "This concept brings together insights from complex systems, artificial intelligence, and the philosophy of emergence. It explores how multiple independent intelligences can interact, communicate, and learn from each other, creating a new form of collective intelligence that exhibits qualities not found in any of its individual components. This concept has significant implications for the future of AI, as it highlights the need for interconnected systems that can learn, adapt, and respond to complex environments."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals the emergent property of interconnected intelligence in the CADMIES knowledge system, where multiple independent agents collaborate to create a cohesive whole.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

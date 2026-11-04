@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_protocol_evolution",
+  "title": "Documentation Protocol Evolution",
+  "definition": "The iterative improvement of a documentation protocol based on discovered issues and best practices.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.530564Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.530564Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a documentation protocol as a set of rules for creating and maintaining notes. These rules evolve as we learn more about what works best. Each change is like a lesson learned from past mistakes or successful practices.",
+    "intermediate": "A documentation protocol is a system of rules that guides the creation and maintenance of notes. It evolves through continuous iteration, with each update addressing issues discovered during use or incorporating new best practices. This allows the protocol to adapt to the needs and realities of the documentation process.",
+    "expert": "Documentation protocol evolution is a dynamic and iterative process that refines a system of rules for creating and maintaining notes. This is not a static or one-time endeavor, but rather a continuous process that responds to the changing landscape of documentation practices. By incorporating feedback from the documentation process, evolving standards, and emerging trends, the protocol can continuously improve its effectiveness and relevance, while also ensuring that it remains aligned with the broader field of scientific documentation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The documentation protocol evolves through continuous iteration, responding to discovered issues and best practices.",
+    "source_chunk": 114,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

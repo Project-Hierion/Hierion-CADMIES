@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "pleasant_sensation_cycle",
+  "title": "Pleasant Sensation Cycle",
+  "definition": "The recurring experience where a fleeting pleasant sensation causes a cycle of craving, satisfaction, and dissatisfaction.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.765497Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.765497Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a delicious ice cream. Your taste buds enjoy the sweetness, but then it melts away. You might want more to satisfy that initial enjoyment. This cycle repeats, causing a constant dance of desire and satisfaction.",
+    "intermediate": "This concept, often seen in Buddhist and contemporary psychology, posits that a transient pleasant sensation (vedana) triggers a cycle of craving (tanha), leading to temporary satisfaction followed by renewed dissatisfaction (dukkha).",
+    "expert": "This concept extends the understanding of human experience by highlighting the role of pleasure in perpetuating cycles of desire. It also connects to other philosophical explorations of suffering and the human condition. Further, it resonates with research in addictive behaviors and consumer psychology, revealing patterns of human cognition and behavior."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Pleasant sensations are not inherently fulfilling; they can actually drive a cycle of desire and dissatisfaction.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

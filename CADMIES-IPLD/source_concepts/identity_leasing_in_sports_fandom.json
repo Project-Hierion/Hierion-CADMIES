@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "identity_leasing_in_sports_fandom",
+  "title": "Identity Leasing In Sports Fandom",
+  "definition": "The phenomenon where individuals rent or lease a part of their identity from a successful sports team or brand, especially when their support is only displayed during times of victory.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.100928Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.100928Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a special license plate for your car that only says your favorite sports team's name when they win a championship. This is similar to people who pay for jerseys to show they're part of a team, even though they don't actually know the players.",
+    "intermediate": "Identity leasing in sports fandom refers to the practice where individuals associate themselves with successful sports teams or brands, particularly during times of success, but not during times of failure. This behavior is akin to renting a portion of one's identity, as opposed to truly identifying with a sports team.",
+    "expert": "The concept of identity leasing in sports fandom is a modern sociological phenomenon that builds upon consumer behavior and marketing strategies. It highlights the role of brands and corporations in shaping individual identity and self-expression. This concept has philosophical implications for understanding consumer culture, the commodification of personal identity, and the nature of sports fandom as a form of social bonding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed that sports fandom has evolved into a form of identity leasing, where individuals associate themselves with successful sports teams as a means of validating their identity. This behavior contrasts with the original purpose of sports jerseys, which was to identify players on the field.",
+    "source_chunk": 110,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

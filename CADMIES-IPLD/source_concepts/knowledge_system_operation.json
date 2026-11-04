@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_system_operation",
+  "title": "Knowledge System Operation",
+  "definition": "The process and management of a knowledge system, including backup, logging, and filtering mechanisms.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.490988Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.490988Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a knowledge system as a big library. It's like a librarian's job to keep all books safe (backup), log all activities (logs), and help users find specific books quickly (filters).",
+    "intermediate": "Knowledge system operation involves managing backups, logs, and filters. This ensures data integrity, provides audit trails, and allows for efficient search and retrieval of information.",
+    "expert": "Knowledge system operation is a complex process that balances efficiency, reliability, and security. It involves managing backups to protect data, logging activities for audit trails, and using filters for search and retrieval. This concept also has implications in other fields such as philosophy of knowledge, information science, and ethics of technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful operation of a knowledge system involves the seamless integration of backup, logging, and filtering mechanisms.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

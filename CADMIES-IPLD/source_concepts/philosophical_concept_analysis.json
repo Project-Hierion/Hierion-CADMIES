@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_concept_analysis",
+  "title": "Philosophical Concept Analysis",
+  "definition": "The ability to discern and evaluate philosophical concepts in a given context.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.084998Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.084998Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a librarian, recognizing patterns and connections between different books or ideas is like a superpower for philosophical concepts.",
+    "intermediate": "Philosophical concept analysis involves identifying, interpreting, and critically evaluating philosophical ideas. This skill requires a knowledge of the history and major figures of philosophy, as well as logical reasoning and argumentation.",
+    "expert": "At its core, philosophical concept analysis is the exploration of the relationship between ideas and reality. It extends to the philosophy of language, metaphysics, epistemology, and ethics. This field also intersects with other disciplines such as cognitive science and artificial intelligence, creating opportunities for novel insights and interdisciplinary research."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Recognition capabilities for philosophical concept analysis enable the discernment and evaluation of complex ideas in a given context, fostering innovative solutions and interdisciplinary insights.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

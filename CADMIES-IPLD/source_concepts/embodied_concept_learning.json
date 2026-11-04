@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "embodied_concept_learning",
+  "title": "Embodied Concept Learning",
+  "definition": "A learning paradigm where an agent interacts with an environment, observes consequences, and builds internal representations that ground abstract concepts.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.429492Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.429492Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a robot learning about the world not by reading books, but by touching and feeling things. It learns that if it pushes a cup off a table, the cup falls. It learns by doing, not by reading.",
+    "intermediate": "Embodied concept learning is a learning approach that integrates sensorimotor experience, where an agent learns through interaction with its environment rather than through text or other abstract representations. It allows the agent to understand concepts like causality and the physical properties of objects.",
+    "expert": "Embodied concept learning is a philosophically rich area that intersects with epistemology and the nature of knowledge. It challenges the traditional view of learning as symbolic computation and emphasizes the importance of embodied experience. Embodied concepts are grounded in sensorimotor interactions and can be used to understand the world in a more holistic and context-dependent way. This approach has been successfully applied in fields like robotics, language acquisition, and cognitive science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Embodied concept learning allows an agent to discover concepts through interaction with its environment, rather than through text or other abstract representations.",
+    "source_chunk": 86,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

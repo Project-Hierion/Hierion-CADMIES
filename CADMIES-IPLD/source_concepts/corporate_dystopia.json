@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "corporate_dystopia",
+  "title": "Corporate Dystopia",
+  "definition": "A system where corporations claim ownership over life and its processes, leading to a disconnect from natural laws and a violation of basic rights.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.830059Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.830059Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a world where big companies own what we eat and how we reproduce. They make rules about it and sue anyone who doesn't follow, even if they're animals or plants.",
+    "intermediate": "The corporate dystopia is a philosophical system that challenges the natural order by claiming ownership over life and its processes. This leads to a legal and economic reality where the free exchange of seeds, symbiosis between plant and animal, and natural acts of eating and sowing are criminalized.",
+    "expert": "The corporate dystopia is a profound disconnect from natural laws and a violation of basic rights. It challenges the natural order by claiming ownership over life and its processes, leading to a legal and economic reality where corporations rule supreme. The corporate dystopia has philosophical implications for the ownership of life, the nature of property, and the role of the state. It also raises questions about the interconnectedness of life and the ethical implications of owning life itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The corporate dystopia is a system that recognizes no authority higher than its own patents, no logic older than its bottom line, and no rights other than its own property rights.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

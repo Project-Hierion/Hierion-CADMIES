@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_calculus",
+  "title": "Conceptual Calculus",
+  "definition": "The process of replacing outdated, insufficient concepts with more precise, meaningful ones to advance scientific understanding and communication.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.172783Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.172783Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of conceptual calculus as a way to improve our scientific language. It's like updating an old map with a more accurate one.",
+    "intermediate": "Conceptual calculus involves replacing existing concepts with more precise ones. It's similar to mathematical calculus, where new functions are defined to describe complex phenomena.",
+    "expert": "Conceptual calculus is a philosophical exploration of the relationship between language and reality. By replacing outdated concepts, we can better understand and communicate complex phenomena. This process has implications for the philosophy of language, science, and metaphysics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful replacement of 'Cosmic Web' with 'Cosmium Bloom' demonstrates the power of conceptual calculus.",
+    "source_chunk": 100,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

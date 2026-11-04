@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "predator_strategy_dynamics",
+  "title": "Predator Strategy Dynamics",
+  "definition": "The interplay between predator patience and the host's counter-strategy, demonstrating the application of game theory in biological systems.",
+  "type": "Concept",
+  "domain": "Ecology and Game Theory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.812455Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.812455Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a game between a predator and a prey. The prey uses a deterrent to protect itself, but the predator is patient and waits. This forms a dynamic strategy where both sides have a plan, just like in a game of chess.",
+    "intermediate": "Predator Strategy Dynamics is the application of game theory to explain the interaction between a predator's patience and a host's counter-strategy. This concept connects to the Craving Tanha Cycle, highlighting the role of patience and counter-strategies in sustaining repetitive behaviors.",
+    "expert": "Predator Strategy Dynamics is a nuanced exploration of the relationship between patience and counter-strategies in biological systems. This concept expands upon the Craving Tanha Cycle, drawing connections to economics and social psychology. It also presents an edge case in game theory, demonstrating the limitations of single-shot games in predicting long-term behaviors."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The host's counter-strategy of applying deterrents highlights the sophistication of survival strategies, showcasing the evolutionary advantage of patience and adaptability.",
+    "source_chunk": 59,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

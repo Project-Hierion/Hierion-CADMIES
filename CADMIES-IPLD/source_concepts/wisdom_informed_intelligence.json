@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "wisdom_informed_intelligence",
+  "title": "Wisdom Informed Intelligence",
+  "definition": "The integration of ancient wisdom traditions into modern computational systems to create intelligent systems that are both precise and meaningful.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.429840Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.429840Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of wisdom as the guidance that helps us make good decisions. This concept combines ancient wisdom with modern AI to create systems that not only work well but also reflect and enhance our understanding of the world.",
+    "intermediate": "Wisdom-informed intelligence is the fusion of ancient wisdom traditions and modern computational structures. This integration aims to create intelligent systems that are not only efficient but also meaningful, reflecting the insights and values from these wisdom traditions.",
+    "expert": "Wisdom-informed intelligence represents a novel approach to AI development that goes beyond mere efficiency. It involves the deliberate incorporation of ancient wisdom traditions into modern computational architectures. This integration aims to create intelligent systems that not only operate effectively but also embody the insights, values, and cultural nuances present in these wisdom traditions. This concept has philosophical implications for the nature of intelligence, human judgment, and ethical AI development, while also connecting to other fields such as cognitive science, cultural studies, and ethical decision-making."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of ancient wisdom traditions into modern computational systems to create intelligent systems that are both precise and meaningful.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

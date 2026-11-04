@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interconnected_mycelium",
+  "title": "Interconnected Mycelium",
+  "definition": "A network of interconnected concepts that grow and evolve through the process of discovering and proposing relationships.",
+  "type": "Concept",
+  "domain": "Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.552772Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.552772Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a network of plants, like mushrooms, where each part communicates with others. The more connections are made, the stronger and more complex the network becomes. This is similar to how knowledge systems grow and evolve.",
+    "intermediate": "In a knowledge system, concepts are like nodes in a network. As more relationships between concepts are discovered and proposed, the system becomes more interconnected, creating a mycelium-like structure. This structure allows for the efficient flow of information and the emergence of new insights.",
+    "expert": "The interconnected mycelium in a knowledge system exhibits complex dynamics and emergent properties. It can be seen as a self-organizing system, where local interactions between concepts lead to global patterns. This mycelium-like structure also has implications for other fields, such as complex systems, network theory, and the philosophy of language, as it challenges traditional notions of knowledge representation and understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnected mycelium of concepts in the knowledge system grows and evolves through the process of discovering and proposing relationships, showing its complex dynamics and emergent properties.",
+    "source_chunk": 125,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

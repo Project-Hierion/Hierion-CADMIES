@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "willies_operational_strategy",
+  "title": "Willies Operational Strategy",
+  "definition": "The strategy employed by Willie the Librarian to provide responses in the CADMIES system, involving keyword search, semantic search, a pause, and a main Ollama call.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.361244Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.361244Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine Willie the Librarian as a librarian who quickly finds relevant information using keywords, then dives deeper with more sophisticated methods, and finally, takes time to consider and formulate his answer.",
+    "intermediate": "Willie's operational strategy in the CADMIES system comprises a sequence of keyword search, semantic search, a brief pause, and a main call to Ollama. This design allows for swift initial responses and the capability to incorporate additional context for more nuanced answers.",
+    "expert": "Willie's operational strategy in the CADMIES system reflects a blend of efficiency and depth. The use of keyword search enables quick initial responses, while the subsequent semantic search provides the opportunity to expand context and depth. The strategic pause before the main Ollama call ensures that any lingering Ollama processes are completed, potentially improving the quality and relevance of the final response. This approach highlights the importance of sequential and considerate processing in artificial intelligence systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The sequential and considerate processing strategy employed by Willie the Librarian in the CADMIES system demonstrates the value of careful design in artificial intelligence systems, balancing efficiency with depth to provide nuanced and accurate responses.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

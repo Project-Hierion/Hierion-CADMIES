@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "transient_pleasure_principle",
+  "title": "Transient Pleasure Principle",
+  "definition": "The insight that the pleasure derived from temporary sensory experiences, such as consuming Coca-Cola, is impermanent and not a source of enduring happiness.",
+  "type": "Concept",
+  "domain": "Buddhist_Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.666560Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.666560Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "middle_path_of_consumption",
+      "non_attachment_vs_detachment"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like savoring a delicious ice cream cone \u2014 the taste is amazing, but it won't last forever. Enjoying it fully while understanding its impermanence can help us find more lasting happiness.",
+    "intermediate": "This principle aligns with the Buddhist teaching of anicca (impermanence). Sensory pleasures, like the tingle of a Coca-Cola, are fleeting and not a true source of happiness. By recognizing this, one can engage with pleasure fully while remaining unattached to its presence or absence.",
+    "expert": "This principle challenges the hedonistic consumer culture that promotes the belief that more pleasure equals more happiness. It also highlights the connection between Buddhist philosophy and modern cognitive-behavioral psychology, which emphasizes the role of mindfulness and non-attachment in achieving wellbeing."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The impermanent nature of sensory pleasure highlights the need for a balanced and mindful relationship with consumption, and the limitations of pleasure as a source of enduring happiness.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

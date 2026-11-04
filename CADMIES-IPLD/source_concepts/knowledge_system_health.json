@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_system_health",
+  "title": "Knowledge System Health",
+  "definition": "The overall quality and completeness of a knowledge system, measured by various factors such as the number of concepts, relationships, and unmapped concepts.",
+  "type": "Concept",
+  "domain": "Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.417938Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.417938Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the health of a knowledge system as how well it's doing as a whole. A healthy system has lots of concepts, strong connections between them, and few or no orphans.",
+    "intermediate": "Knowledge system health is a multifaceted measure that includes the number of concepts, the density of relationships, and the presence of unmapped concepts. A healthy knowledge system is characterized by a large number of concepts, a high density of relationships, and a minimal number of unmapped concepts.",
+    "expert": "Assessing knowledge system health goes beyond simply counting concepts and relationships. It involves understanding the quality and relevance of the concepts, the depth and breadth of the relationships, and the coverage and representativeness of the knowledge system. A healthy knowledge system is not only extensive but also accurate, up-to-date, and inclusive, enabling effective knowledge sharing and exploration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the health of a knowledge system can guide efforts to improve its quality, completeness, and usefulness, contributing to more informed decision-making and better problem-solving.",
+    "source_chunk": 69,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "local_llm_setup",
+  "title": "Local Llm Setup",
+  "definition": "The process of setting up and using Large Language Models (LLMs) such as Mistral on a local machine, without relying on cloud-based services or APIs.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.312426Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.312426Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a powerful chatbot on your computer that you can talk to without using the internet. This is what we're doing with Ollama and Mistral.",
+    "intermediate": "Local LLM setup involves running Ollama server inside a Fedora toolbox container and using the Python 'ollama' library to communicate with it. Mistral and TinyLlama models are stored locally on the machine, providing fast and efficient processing without relying on the cloud.",
+    "expert": "Local LLM setup offers security advantages over cloud-based services. It also allows for customization and control over the models used, with the ability to add new models or modify existing ones. However, it requires more technical knowledge and resources to set up and maintain compared to cloud-based services. Additionally, the local setup may not have the same level of scalability and performance as cloud-based solutions, especially for large-scale applications."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The local setup allows for air-gapped, secure and customizable LLM operations, but requires more technical knowledge and resources to set up and maintain compared to cloud-based services.",
+    "source_chunk": 106,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "transient_fixation_as_copying",
+  "title": "Transient Fixation As Copying",
+  "definition": "The philosophical concept that temporary perceptual representations of a copyrighted work during its distribution can be considered as making copies, requiring licenses.",
+  "type": "Concept",
+  "domain": "Law and Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.788197Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.788197Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it this way: when you look at a book, your brain makes a quick picture. If the law says every time your brain makes that picture, it's like making a copy that needs a license, then the whole book distribution industry might be breaking the law.",
+    "intermediate": "Transient fixations, such as mental images or video frames, created during the distribution of copyrighted works can be considered copies under certain interpretations of copyright law. This concept highlights the discrepancy between the technical definition of copying and the practical implications of distribution.",
+    "expert": "The philosophical notion of transient fixation as copying challenges the foundational assumptions of copyright law. By broadening the definition of 'copy' to include temporary perceptual representations, the concept raises questions about the scope of copyright protection and the balance between authorial rights and public access. This concept also highlights the tensions between digital technology and traditional notions of copyright, and its implications for fair use, preservation, and the role of intermediaries in the distribution of works."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The entire physical distribution industry might be a massive, ongoing infringement operation if temporary perceptual representations are considered copies requiring licenses.",
+    "source_chunk": 151,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

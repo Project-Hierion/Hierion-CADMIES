@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "llm_mycelium_interface",
+  "title": "Llm Mycelium Interface",
+  "definition": "A cognitive agent that serves as an interface between natural language queries and a content-addressed knowledge base, using local LLM models for responses.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.110331Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.110331Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine Willie as a smart assistant who reads and understands the CADMIES library and can answer your questions in plain English.",
+    "intermediate": "LLM Mycelium Interface is an agent that queries local Ollama models with context from the CADMIES mycelium to provide informed responses.",
+    "expert": "IPLD-based cognitive agent extending AgentNode schema with LLM bridge capabilities. It uses Ollama API to provide natural language access to the content-addressed mycelium, with concept retrieval, context assembly, and model selection."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The LLM Mycelium Interface illustrates the potential for using IPLD and LLM models to create a bridge between natural language and content-addressed knowledge.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

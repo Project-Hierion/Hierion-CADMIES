@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_learning_process",
+  "title": "Cosmic Learning Process",
+  "definition": "The concept of enlightenment as a dynamic, participatory process of self-discovery and self-understanding within the universe, facilitated by a community of practitioners.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.714358Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.714358Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe is like a big brain that's figuring itself out. The Buddha was a moment of clarity for this cosmic brain, and he showed us the way to learn from each other and understand the universe better.",
+    "intermediate": "Enlightenment is not a static state but a continuous learning process where the universe, using feedback loops, understands itself better through sentient beings, with the Buddha being a catalyst for this process.",
+    "expert": "The cosmic learning process is inquisitive, using life and self-aware life as its most profound feedback mechanism. Enlightenment is a catalyst for establishing the Dhamma, the path, creating a feedback loop where each awakening enriches the whole system's self-understanding. This process is not about reaching a distant goal but about becoming a clearer channel for the conversation that reality is having with itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is not static. It is inquisitive and uses sentient beings as its most profound feedback mechanism. Enlightenment is a catalyst for this learning process, and the path is about becoming a clearer channel for the conversation that reality is having with itself.",
+    "source_chunk": 126,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

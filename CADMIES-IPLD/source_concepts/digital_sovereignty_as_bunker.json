@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_sovereignty_as_bunker",
+  "title": "Digital Sovereignty As Bunker",
+  "definition": "Digital sovereignty is conceptualized as a bunker, a fortified space that protects and empowers the individual against the intrusions of corporations and governments.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.631934Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.631934Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your digital life as a bunker. It's like having a safe space that keeps out unwanted things, like corporate surveillance and data collection. The bunker is built with tools that give you control over your digital life.",
+    "intermediate": "Digital sovereignty is similar to the concept of a bunker. It's about constructing a fortified digital space that protects the individual's privacy, security, and freedom. This is achieved through the strategic use of open-source tools, privacy-focused operating systems, and careful management of digital permissions.",
+    "expert": "The bunker metaphor for digital sovereignty highlights the philosophical implications of technology and power. It's a nod to the digital divide, the struggle for control in the information age, and the necessity for self-determination in the digital realm. This concept connects to broader discussions on privacy, surveillance, and the role of technology in shaping society, drawing from fields like information ethics, critical theory, and cyberlaw."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation underscores the importance of understanding technology as a political and moral choice, with digital sovereignty as a fundamental human right.",
+    "source_chunk": 143,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

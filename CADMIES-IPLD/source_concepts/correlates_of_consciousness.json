@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "correlates_of_consciousness",
+  "title": "Correlates Of Consciousness",
+  "definition": "The phenomenon where certain patterns in the physical world are found to correlate with subjective experiences of consciousness.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.634652Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.634652Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine consciousness as a pattern that leaves a trace, like a unique fingerprint. We're trying to find and understand this pattern across different levels of the universe.",
+    "intermediate": "Correlates of Consciousness are patterns in the physical world that correspond to subjective experiences of consciousness. The project aims to identify these patterns across various scales to understand the nature of consciousness.",
+    "expert": "Correlates of Consciousness are isomorphic patterns that arise from the dynamic, self-organizing nature of conscious systems. By searching for these patterns across all scales, we can unravel the philosophical mystery of how consciousness emerges from the physical world and its connection to life. This insight has implications for understanding the nature of reality, consciousness, and the relationship between the biological and the spiritual."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The project aims to identify isomorphic patterns in the physical world that correspond to subjective experiences of consciousness, providing insights into the nature of consciousness and its connection to life.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

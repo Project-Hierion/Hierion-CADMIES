@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantized_machine_learning_models",
+  "title": "Quantized Machine Learning Models",
+  "definition": "Machine learning models that have been compressed for efficient deployment on resource-limited devices while maintaining acceptable performance.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.250819Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.250819Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Quantized machine learning models are like shrinking a big, complex movie to a smaller file size while still maintaining good quality. This lets us run these models on less powerful devices.",
+    "intermediate": "Quantized machine learning models use techniques like 4-bit quantization to significantly reduce their size, allowing for faster inference times and deployment on devices with limited resources. This is especially important for large language models like Dr. Amanda Mistral.",
+    "expert": "Quantized machine learning models are a key aspect of edge computing, enabling real-time analysis and decision-making in resource-constrained environments. The process of quantization involves reducing the precision of model weights, which can lead to a loss of performance. However, through techniques like quantization noise and quantization bias, it is possible to maintain acceptable performance while significantly reducing model size. This has significant implications for training and deployment of machine learning models on a wide range of devices, from small microcontrollers to large-scale data centers."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to quantize machine learning models and maintain acceptable performance is crucial for their widespread adoption in real-world applications.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

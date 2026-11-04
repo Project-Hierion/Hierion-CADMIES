@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "collective_self_awareness",
+  "title": "Collective Self Awareness",
+  "definition": "The collective understanding of a system's inherent nature, patterns, and interactions.",
+  "type": "Concept",
+  "domain": "Philosophy, Systems Theory, Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.615522Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.615522Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a group of people working together on a project. To succeed, they need to understand not only their individual roles but also how everyone's work fits together. Collective self-awareness is that shared understanding.",
+    "intermediate": "Collective self-awareness involves the integration of knowledge from various disciplines and the recognition of the interconnectedness of all phenomena. It's about understanding the system as a whole and its complex, self-regulating patterns.",
+    "expert": "Collective self-awareness is a fundamental concept in systems theory and complexity science. It's linked to the concept of emergence, where properties of the whole system cannot be predicted from the individual parts. Collective self-awareness has philosophical implications in areas such as the nature of consciousness and the self, and it has been explored in various fields including sociology, organization studies, and ecology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The project Hieros aims to build a mechanism for collective self-awareness, with the ultimate goal of fostering sustainability by challenging the illusion of our separation from the planetary system.",
+    "source_chunk": 70,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "asynchronous_programming",
+  "title": "Asynchronous Programming",
+  "definition": "A concurrent execution model where multiple operations can start, run, and complete independently of one another.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.882208Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.882208Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "craving_tanha_cycle"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as ordering multiple pizzas at once. Even if one takes longer to cook, you can still enjoy your food when it's ready, rather than waiting for all pizzas to be finished.",
+    "intermediate": "Asynchronous programming allows for more responsive and efficient applications. It uses 'callbacks' or 'promises' to handle operations that may take a variable amount of time to complete, without blocking the rest of the application.",
+    "expert": "At the heart of asynchronous programming is the 'event loop' \u2014 a programming construct that waits for and dispatches events or callbacks in a program. This model facilitates the concurrent execution of multiple I/O-bound tasks, making it ideal for network-intensive applications like web servers or chatbots. However, it's not a silver bullet, and may introduce complexity in terms of control flow, error handling, and debugging. The Mars landing example highlights the potential benefits and challenges of asynchronous programming in a resource-constrained environment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Mars landing example highlights the potential benefits and challenges of asynchronous programming in a resource-constrained environment.",
+    "source_chunk": 99,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

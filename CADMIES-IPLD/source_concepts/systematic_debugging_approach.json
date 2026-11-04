@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "systematic_debugging_approach",
+  "title": "Systematic Debugging Approach",
+  "definition": "A structured and systematic approach to identify and resolve bugs and issues in a project, following a logical order to ensure complete fixes and reducing the likelihood of reintroducing errors.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.439627Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.439627Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're building a house. First, you need to address the major problems, like leaking roofs and broken foundations. Then, you move on to smaller issues, such as fixing wobbly door hinges. You follow a step-by-step process, ensuring each problem is solved before moving onto the next.",
+    "intermediate": "Systematic debugging involves identifying the source of errors, fixing them in a logical sequence, and verifying that the fixes have been successful. This method ensures a complete and effective solution, reducing the chances of reintroducing errors.",
+    "expert": "Systematic debugging is a systematic approach that emphasizes the process of identifying, diagnosing, and resolving issues in a software system. By following a logical order and addressing each problem completely, systematic debugging can improve software reliability, reduce maintenance costs, and increase developer productivity. The approach can also have philosophical implications for understanding the nature of complex systems and the limits of human knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of a systematic and logical approach to debugging, addressing issues in a sequential order to ensure complete and effective fixes.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "json_parsing_error",
+  "title": "Json Parsing Error",
+  "definition": "A common issue in data processing where the system is expecting JSON data but receives a different format, causing a parsing error.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.501223Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.501223Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to read a book, but it's written in a language you don't understand. JSON parsing error is like that \u2013 the computer can't understand the data it's receiving, so it throws an error.",
+    "intermediate": "JSON parsing error occurs when the expected JSON data format doesn't match the actual data format. This can be due to issues in data serialization or deserialization, such as mismatched quotation marks or missing commas.",
+    "expert": "JSON parsing errors are a class of syntax errors that can lead to unexpected behavior in applications. Understanding the causes of these errors, such as mismatched data types or unexpected characters, can help developers write more robust code. JSON parsing errors can also have security implications, as they can be exploited in a technique called JSON hijacking."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mistral's output included explanatory text and markdown backtick blocks, which caused the parser to fail. This highlights the importance of ensuring data formats are consistent and expected.",
+    "source_chunk": 111,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

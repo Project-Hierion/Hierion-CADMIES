@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "adaptive_workflow_management",
+  "title": "Adaptive Workflow Management",
+  "definition": "The concept of managing a workflow that can adapt to the capabilities and resources of the local system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.856971Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.856971Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your daily routine as a workflow. Sometimes, based on your available resources or energy, you might need to adjust your routine. In the same way, the computer system should be able to adapt its workflow based on the available resources.",
+    "intermediate": "Adaptive Workflow Management is a strategy that allows a workflow to be dynamically adjusted based on the capabilities and resources of the local system. This approach ensures optimal utilization of resources and avoids unnecessary bottlenecks.",
+    "expert": "Adaptive Workflow Management is a field of study in computer science that explores the design and implementation of systems that can dynamically adjust their workflows. This concept not only has implications for individual computer systems but also for large-scale distributed systems and cyber-physical systems. It involves the interplay between system resources, workflow design, and real-time monitoring to ensure optimal utilization of resources."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The workflow should be adaptable to the resources of the local system to ensure efficient utilization of resources.",
+    "source_chunk": 162,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

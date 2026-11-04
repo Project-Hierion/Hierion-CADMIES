@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "inclusive_technological_innovation",
+  "title": "Inclusive Technological Innovation",
+  "definition": "The concept of creating and implementing technological innovations with the intention of maximizing accessibility, privacy, and resilience, particularly in the context of global knowledge sharing.",
+  "type": "Concept",
+  "domain": "Technology and Society",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.557870Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.557870Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of building a global library that everyone can use anonymously, even behind firewalls, and making sure it stays accessible even if someone tries to take it down.",
+    "intermediate": "Creating inclusive technological innovations involves maximizing accessibility by integrating technologies like TOR for censorship-resistant access, ensuring privacy through anonymized queries, and increasing resilience through distributed data archiving.",
+    "expert": "Inclusive technological innovation not only expands access to knowledge but also questions the power structures and data hoarding that underpin traditional knowledge dissemination. It highlights the potential for technology to challenge inequality and create a more equitable and resilient global knowledge network. Furthermore, it highlights the need for a balance between openness and privacy in the digital age, and the role of technologies such as TOR in protecting anonymity and freedom of inquiry."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The innovative use of TOR for censorship-resistant access and enhanced privacy in the context of global knowledge sharing demonstrates a commitment to inclusivity, privacy, and resilience.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

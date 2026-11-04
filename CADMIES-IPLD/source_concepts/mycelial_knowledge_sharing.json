@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_knowledge_sharing",
+  "title": "Mycelial Knowledge Sharing",
+  "definition": "The concept that knowledge is shared among the nodes in a mycelium, rather than being individual to a specific node.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.599968Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.599968Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where the soil is connected. Plants don't keep their nutrients to themselves, they share them with other plants. In the same way, a mycelium allows different parts of a system to share information and knowledge.",
+    "intermediate": "In a biological mycelium, the network of interconnected fungal hyphae facilitates the sharing of nutrients and genetic information. This concept can be applied to the CADMIES knowledge system, where nodes share knowledge rather than maintaining individual knowledge silos.",
+    "expert": "The mycelial knowledge sharing concept presents a novel philosophical exploration in distributed systems, particularly in the context of artificial intelligence. It challenges the traditional notion of localized knowledge and suggests a more interconnected, holistic approach. The implications of this concept extend beyond the field of biology, with potential applications in fields such as social networks, cloud computing, and decentralized organizations."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium shares knowledge, not identities.",
+    "source_chunk": 72,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

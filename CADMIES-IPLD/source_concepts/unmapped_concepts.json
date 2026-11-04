@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unmapped_concepts",
+  "title": "Unmapped Concepts",
+  "definition": "Concepts in a knowledge system that have not been connected to other concepts via relationships.",
+  "type": "Concept",
+  "domain": "Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.416062Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.416062Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of unmapped concepts as orphans in a big concept family. They exist, but they're not connected to others, like they're missing a piece of their puzzle.",
+    "intermediate": "In the context of a knowledge system, unmapped concepts are nodes without edges in the concept graph. They are isolated concepts that have not been related to other concepts, potentially hindering comprehensive understanding and exploration.",
+    "expert": "Unmapped concepts challenge the completeness and interconnectedness of a knowledge system. They can be a result of incomplete data collection, lack of context, or methodological limitations. Analyzing unmapped concepts can reveal gaps in understanding, provide insights into untapped areas of knowledge, and inform the design of future data collection strategies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The presence of unmapped concepts indicates areas where relationships and connections could be further explored and established, enhancing the comprehensiveness and depth of the knowledge system.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

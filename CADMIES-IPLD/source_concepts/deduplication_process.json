@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "deduplication_process",
+  "title": "Deduplication Process",
+  "definition": "The process of identifying and removing duplicate or similar concepts from a list.",
+  "type": "Concept",
+  "domain": "Data Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.726654Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.726654Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of deduplication as cleaning up a list. It's like removing any clones or near-clones, so you only have unique ideas.",
+    "intermediate": "Deduplication involves two main steps: exact title match removal and near-duplicate detection using a language model. It aims to ensure data integrity and improve efficiency.",
+    "expert": "Deduplication is a critical aspect of data management. It not only simplifies data but also enhances search efficiency. In the field of data science, deduplication processes can significantly improve the quality of insights gained from data analysis. Furthermore, deduplication is related to the concept of entity resolution in database management and information retrieval."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of deduplication in maintaining data quality and efficiency, and how it can be implemented using a combination of exact title match removal and near-duplicate detection using a language model.",
+    "source_chunk": 132,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

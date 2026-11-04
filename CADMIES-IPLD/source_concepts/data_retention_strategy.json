@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_retention_strategy",
+  "title": "Data Retention Strategy",
+  "definition": "A policy that determines how long data is kept and managed over time.",
+  "type": "Concept",
+  "domain": "Information Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.380616Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.380616Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're sorting through your old photos. Some you keep forever, some you store for a few years, and others get deleted. A data retention strategy is like deciding how long to keep your digital information.",
+    "intermediate": "In the context of backup systems, data retention strategy involves setting rules for how long different types of backups are retained. This can include daily, weekly, and monthly backups, each with their own retention period.",
+    "expert": "Data retention strategy is a fundamental aspect of data management and privacy. It has implications for data security, compliance with regulations, and cost management. A well-defined strategy can ensure data integrity while minimizing storage costs. However, it's a delicate balance as too short a retention period may lead to data loss, while too long may violate privacy rights or lead to unnecessary storage costs."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of a well-thought-out data retention strategy in backup systems.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

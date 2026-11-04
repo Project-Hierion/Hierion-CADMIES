@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "legal_captivity",
+  "title": "Legal Captivity",
+  "definition": "The idea that legal systems can be captured or manipulated by corporations or powerful individuals.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.913756Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.913756Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Some people believe that legal systems can be influenced or \"captured\" by corporations or wealthy individuals, who use their power to gain advantages or avoid regulations.",
+    "intermediate": "The concept of legal captivity refers to the process by which legal systems become dominated by economic interests, leading to outcomes that are not necessarily in the public interest.",
+    "expert": "The legal captivity perspective is a critique of neoliberalism and its assumption that markets are self-regulating."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation suggests a pattern of legal systems being captured or manipulated to serve corporate interests, which could be explored further through the lens of legal captivity.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

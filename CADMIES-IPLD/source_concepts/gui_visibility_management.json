@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gui_visibility_management",
+  "title": "Gui Visibility Management",
+  "definition": "The process of managing the visibility of user interface elements in a graphical user interface.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.251272Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.251272Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as turning on and off things on a screen. In a video game, this could be showing or hiding instructions, menus, or game characters.",
+    "intermediate": "GUI visibility management involves manipulating the visibility attributes of UI elements using methods like set_visibility() or replace() in the program's code.",
+    "expert": "GUI visibility management is a crucial aspect of user experience. It can help improve performance by reducing the amount of data the graphics card needs to process and can also provide a more intuitive and aesthetically pleasing interface. However, it can lead to bugs if not implemented correctly, as seen in this conversation, where the use of deprecated methods caused the function to crash."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of deprecated or non-existing methods in visibility management can cause unexpected crashes in the function.",
+    "source_chunk": 87,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

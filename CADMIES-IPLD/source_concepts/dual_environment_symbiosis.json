@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dual_environment_symbiosis",
+  "title": "Dual Environment Symbiosis",
+  "definition": "A coexistence and interdependence of two separate but symbiotic environments, each contributing unique resources and capabilities to the other.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.898029Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.898029Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having two different workspaces \u2014 one is your old project with tools, data, and a special script. The other is a fresh copy of the project. They need each other to work efficiently. The old workspace has things that the new one doesn't, and the new one has things that the old one needs.",
+    "intermediate": "In the context of this conversation, we're seeing a dual environment symbiosis where the old workspace, with its installed dependencies and startup script, is necessary for the new clone to function correctly. However, the new clone contributes its up-to-date code and a more recent version of the store, which is valuable to the old workspace.",
+    "expert": "This insight highlights the complex dynamics of working with multiple environments in a development context. The interdependence between the old and new environments not only demonstrates the importance of preserving certain resources and configurations but also underscores the challenges of maintaining compatibility and coherence between different versions of a project. This dual environment symbiosis could also be understood in the context of microbiome theory, where multiple environments (in this case, the old and new workspaces) coexist and mutually benefit each other, much like the relationship between the human body and its microbiome."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The symbiotic relationship between the old and new environments, each contributing unique resources and capabilities to the other, highlights the importance of maintaining compatibility and coherence between different versions of a project.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

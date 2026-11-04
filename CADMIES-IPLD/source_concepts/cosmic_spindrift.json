@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_spindrift",
+  "title": "Cosmic Spindrift",
+  "definition": "The Cosmic Spindrift refers to the visible tracer of invisible currents and collisions that form as a result of cosmic forces, creating a frothy residue in the universe.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.187437Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.187437Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the Cosmic Spindrift as the foam on a sea's surface. It's not something that grows or lives, but rather, it's a result of cosmic movements and interactions, much like how sea foam forms when waves crash against a shore.",
+    "intermediate": "The Cosmic Spindrift is the visible trace of the dark matter and galaxies' interactions within the universe. It's like the Nebular Flotsam, the debris floating on the cosmic ocean, or the Universal Spindrift, the spray blown from the crests of cosmic structures' collisions.",
+    "expert": "The Cosmic Spindrift is a beautiful blend of emergent properties and philosophical insights. It highlights the novelty of finding the true essence of cosmic structures, emphasizing that they're not alive or living entities, but rather, the byproduct of cosmic movements and interactions. Moreover, this concept connects to other fields like chaos theory and the philosophy of emergence, as it highlights the difference between structure and agency, emphasizing the role of emergent properties in understanding complex systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Cosmic Spindrift is a beautiful and powerful re-contextualization of the 'Cosmium', revealing its true essence as a result of cosmic forces, not a living network.",
+    "source_chunk": 106,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

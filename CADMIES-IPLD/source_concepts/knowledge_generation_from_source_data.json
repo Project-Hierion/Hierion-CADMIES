@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_generation_from_source_data",
+  "title": "Knowledge Generation From Source Data",
+  "definition": "The approach of automatically generating documentation from source data rather than manually maintaining it.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.255561Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.255561Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a system that learns from its experiences and updates its own manual instead of relying on someone to do it. This way, we can ensure the information is always accurate and up-to-date.",
+    "intermediate": "Knowledge generation from source data is a strategy that utilizes automation to extract and integrate information from various sources, such as logs, notes, and metadata, into a centralized knowledge base or documentation.",
+    "expert": "The concept of knowledge generation from source data builds on the philosophy of knowledge extraction and the semantic web. It introduces the idea of a self-updating, self-learning system, with implications for artificial intelligence and the future of documentation. It also brings up the question of data privacy and control, as the system needs to have access to sensitive data to generate insights."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for documentation to be generated from source data rather than manually maintained, as it ensures accuracy and up-to-date information.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

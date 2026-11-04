@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_management_system",
+  "title": "Knowledge Management System",
+  "definition": "A system that stores, retrieves, and organizes knowledge concepts, such as scientific principles and laws.",
+  "type": "Concept",
+  "domain": "Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.587928Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.587928Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a giant library. It's like having a smart librarian who can quickly find the right book for you. This 'smart librarian' is the knowledge management system.",
+    "intermediate": "A knowledge management system is a digital tool that handles the creation, storage, organization, and sharing of knowledge concepts. In this case, it's used to store and retrieve scientific concepts.",
+    "expert": "Knowledge management systems are sophisticated digital tools that leverage content-addressed data structures, like the InterPlanetary Linked Data (IPLD) format, to store and retrieve information. They are essential in modern education and research, facilitating collaborative knowledge creation, sharing, and preservation. This system exemplifies this by using the Universal Scientific Concept Schema, ensuring interoperability and universal understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system demonstrates the use of content-addressed knowledge storage, where each unique concept is identified by a unique CID, ensuring data integrity and consistency.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

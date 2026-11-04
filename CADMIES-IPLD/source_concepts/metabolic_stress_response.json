@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "metabolic_stress_response",
+  "title": "Metabolic Stress Response",
+  "definition": "A systemic response by both humans and plants to environmental perturbations that prioritizes short-term survival at the cost of long-term well-being and functionality.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.269098Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.269098Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of this as a survival mechanism that humans and plants use when they're suddenly put under stress. It's a way of ensuring short-term survival, but it can have long-term negative effects.",
+    "intermediate": "The metabolic stress response is a biochemical process that occurs in response to an environmental perturbation or an interruption in the expected energy supply. It prioritizes short-term survival over long-term well-being or optimal functioning, often resulting in observable symptoms such as headaches or growth halts.",
+    "expert": "The metabolic stress response is an isomorphic phenomenon observed in both humans and plants. It involves the activation of a stress signaling cascade, which is a series of biochemical reactions that prioritize short-term survival over long-term well-being and functionality. This response is initiated when an environmental perturbation, such as an energy supply interruption, occurs. The metabolic stress response can have profound implications for both individual organisms and ecosystems, as it can lead to negative trade-offs between survival and thriving. Furthermore, it highlights the fundamental similarities between the metabolic systems of humans and plants, suggesting deeper biological unity and shared evolutionary strategies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The metabolic stress response is an isomorphic phenomenon observed in both humans and plants, highlighting the fundamental similarities between their metabolic systems and shared evolutionary strategies.",
+    "source_chunk": 119,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

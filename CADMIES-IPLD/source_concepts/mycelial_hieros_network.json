@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_hieros_network",
+  "title": "Mycelial Hieros Network",
+  "definition": "A decentralized, self-sustaining knowledge organism, modeled after a mycelial organism in its operational model, structure, and benefits.",
+  "type": "Concept",
+  "domain": "System Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.989038Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.989038Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine Hieros as an underground fungal network connecting people and ideas. It helps share and grow knowledge, just like mycelium nourishes trees.",
+    "intermediate": "Hieros is a mycelial network with contributors, a core protocol, and applications. It's symbiotic, breaking down siloed knowledge and enhancing the collective intelligence.",
+    "expert": "Hieros is a mycelial network, a novel approach merging the operational models of natural networks with human systems. It's a live, evolving ecosystem, more resilient, intelligent, and alive than its components."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Hieros can be modeled as a mycelial organism to understand its operational model, structure, and benefits, providing a powerful, accurate, and profound metaphor.",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

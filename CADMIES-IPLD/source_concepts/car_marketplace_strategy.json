@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "car_marketplace_strategy",
+  "title": "Car Marketplace Strategy",
+  "definition": "Strategies to build and monetize a car rental marketplace, focusing on selecting the right business model and vehicle requirements.",
+  "type": "Concept",
+  "domain": "Business",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.161372Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.161372Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine starting a car rental service. There are two ways to grow: either partnering with established rental companies or connecting individual car owners. The key decision is what type of cars to list. Some platforms only accept newer cars, while others have more flexible rules.",
+    "intermediate": "Building a car rental marketplace involves choosing between two models: supplier-focused aggregator or peer-to-peer (P2P). The vehicle requirements for listing on the platform can vary significantly, with most platforms focusing on newer cars under a certain age limit, mileage cap, and value limit. Exceptions may exist for specialty or classic vehicles.",
+    "expert": "The strategy of building and monetizing a car rental marketplace involves selecting a business model that aligns with your goals and resources. The choice between a supplier-focused aggregator and a peer-to-peer (P2P) marketplace has its own advantages and challenges. Vehicle requirements for listing on the platform can shape the market's appeal and profitability. Most platforms focus on newer cars to ensure quality and safety, but some exceptions may exist for specialty or classic vehicles. This decision has implications for the platform's scalability, operational hurdles, and potential for disruption in the car rental industry."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The vehicle requirements for listing on a car rental marketplace can significantly shape the market's appeal and profitability, with most platforms focusing on newer cars to ensure quality and safety.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

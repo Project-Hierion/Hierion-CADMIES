@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "secure_data_handling",
+  "title": "Secure Data Handling",
+  "definition": "The practice of securely managing and transmitting sensitive information, such as credentials, to protect data privacy and integrity.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.907485Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.907485Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a special safe for your important stuff. When you need to use that stuff, you take it out from the safe. But you never leave your important stuff out of the safe or write it down anywhere. That's how we handle sensitive data.",
+    "intermediate": "Secure data handling involves the use of encryption, secure protocols, and secure storage methods to protect sensitive data from unauthorized access or disclosure. In this case, we're talking about credentials like ORCID's Client ID and Secret, which are read from an environment file rather than hardcoded into the script.",
+    "expert": "Secure data handling is a broad field with philosophical implications in the areas of privacy, security, and trust. It involves the use of cryptography, secure key management, and secure coding practices to ensure the confidentiality, integrity, and availability of data. In this context, it is also closely related to the field of identity management, as the ORCID credentials enable the authentication of users. Furthermore, secure data handling is a critical aspect of maintaining the trust between users and systems, as it ensures that users' sensitive data is not misused or compromised."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of securely handling sensitive data to protect user privacy and system security.",
+    "source_chunk": 80,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

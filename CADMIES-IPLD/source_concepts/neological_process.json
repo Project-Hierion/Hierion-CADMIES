@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neological_process",
+  "title": "Neological Process",
+  "definition": "The process and principles of creating new words and phrases to fill lexical gaps, specifically when existing language is inadequate to describe a newly understood concept or phenomenon.",
+  "type": "Concept",
+  "domain": "Linguistics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.672432Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.672432Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to describe something new that nobody's ever talked about before. Since there's no word for it, you make up a new one. That's the neological process.",
+    "intermediate": "Neology involves identifying conceptual gaps, exploring morphological methods such as compounding or blending, and legitimizing the new term through definition and usage. It's a way to expand our vocabulary to fit new ideas.",
+    "expert": "The neological process is a linguistic activity that challenges the boundaries of our lexicon. It's connected to semantics, morphology, and pragmatics. By understanding and applying neology, we can foster a more dynamic and adaptive language that keeps up with the evolving world around us."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The creation of a new word or phrase is not just an individual act, but a methodology that can be applied to fill gaps in our existing language.",
+    "source_chunk": 104,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

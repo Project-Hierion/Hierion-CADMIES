@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interactivity_in_visualizations",
+  "title": "Interactivity In Visualizations",
+  "definition": "The concept of enhancing visualizations through interactive elements to provide more context and understanding to users.",
+  "type": "Concept",
+  "domain": "Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.394526Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.394526Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Interactive visualizations are like digital books. You can click and zoom in to get more details, just like you can flip pages to read more in a book.",
+    "intermediate": "Interactivity in visualizations refers to the use of dynamic elements to enhance user engagement and data exploration. This can include features like zooming, panning, hovering, and filtering.",
+    "expert": "Interactivity in visualizations is a critical aspect of data storytelling. It allows users to explore data at their own pace, uncover patterns, and gain deeper insights. This concept has philosophical implications for user-centered design, cognitive psychology, and human-computer interaction. It also connects to fields like HCI, UX design, and data journalism."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlighted the importance of interactivity in visualizations for enhancing user engagement and data exploration.",
+    "source_chunk": 63,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

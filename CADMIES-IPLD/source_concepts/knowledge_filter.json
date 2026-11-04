@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_filter",
+  "title": "Knowledge Filter",
+  "definition": "The process by which a system selectively allows or disallows the entry of concepts based on their scientific rigor.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.761262Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.761262Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a gatekeeper at a fort who lets in only ideas that meet certain standards. In the same way, our system lets in only concepts that have been scientifically validated.",
+    "intermediate": "The knowledge filter is a component that allows only concepts that meet a minimum standard of scientific rigor into the network. This is analogous to the defense layers of a fort, which allow only those who pass through certain gates.",
+    "expert": "The knowledge filter acts as a philosophical gatekeeper, allowing only concepts that have undergone a four-tiered scientific rigor process. This process, which includes basic, standard, rigorous, and strict levels of validation, ensures the entry of high-quality concepts into the network. This concept builds upon the work of Karl Popper and Imre Lakatos, who emphasized the role of falsifiability in scientific progress, and extends it to the creation of a knowledge network."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Just as Fort Saint Angelo filtered who entered its gates, so too does our validator filter knowledge from chaos. Only concepts meeting scientific standards nourish the network.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

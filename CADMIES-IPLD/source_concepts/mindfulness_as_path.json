@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mindfulness_as_path",
+  "title": "Mindfulness As Path",
+  "definition": "Mindfulness is not just a practice, but a path to understanding and living the nature of reality.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.703118Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.703118Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Mindfulness is like learning to see the world with soft focus. Instead of judging or reacting to what we see, we learn to perceive sensations without labeling them.",
+    "intermediate": "Mindfulness is a practice that allows us to see the interconnectedness of all experiences, softening the rigid separation between 'self' and 'world'.",
+    "expert": "Mindfulness is a philosophical path that reveals the nature of mind as a vast, open, aware space. It challenges our identification with thoughts and sensations, connecting us to the ground of being."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mindfulness is a path to understanding the nature of reality and living in harmony with it.",
+    "source_chunk": 119,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

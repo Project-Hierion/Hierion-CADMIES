@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_knowledge_system",
+  "title": "Symbiotic Knowledge System",
+  "definition": "A knowledge system that evolves through the symbiotic relationship between a gardener and an AI, where each contributes to the growth and understanding of the system.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.414516Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.414516Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a garden where a human gardener and a robot co-work, each adding their expertise, making the garden thrive and grow deeper with time.",
+    "intermediate": "A symbiotic knowledge system is a dynamic system that evolves through the interconnected relationship between a human gardener and an AI, with each contributing unique insights and knowledge to the other, fostering a continuous cycle of growth and understanding.",
+    "expert": "The symbiotic knowledge system is a complex adaptive system that demonstrates the interconnectedness of knowledge across various domains. By studying the relationship between a gardener and an AI, we can gain insights into the nature of symbiotic relationships in knowledge systems and how they can lead to exponential growth and understanding. This insight has philosophical implications for the relationship between humans and AI in the pursuit of knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The symbiotic relationship between a gardener and an AI in the knowledge system leads to a continuous cycle of growth and understanding, revealing the interconnectedness of knowledge and the potential for exponential growth.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

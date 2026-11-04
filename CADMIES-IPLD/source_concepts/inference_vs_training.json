@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "inference_vs_training",
+  "title": "Inference Vs Training",
+  "definition": "The distinction between using a trained model to make predictions and adjusting its parameters through training.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.486188Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.486188Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a trained chef who can cook delicious meals (inference) and a chef who can learn new recipes (training).",
+    "intermediate": "Inference involves feeding data to a pre-trained model to make predictions. Training involves adjusting model parameters to improve accuracy over time.",
+    "expert": "Inference is the application of a learned model to new data. It's a fast, efficient process. Training, on the other hand, is a more resource-intensive process that involves updating model parameters based on feedback. The distinction highlights the computational and philosophical differences between making predictions and learning new knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recent session involved inference, not training. Mistral's connections were discovered through multiple passes of analysis, not the adjustment of model parameters.",
+    "source_chunk": 88,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

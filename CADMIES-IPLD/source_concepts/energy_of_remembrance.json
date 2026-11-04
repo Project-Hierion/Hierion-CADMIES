@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "energy_of_remembrance",
+  "title": "Energy Of Remembrance",
+  "definition": "The concept that the energy of a person's thoughts and memory creates a quantum entanglement, maintaining a connection with the living.",
+  "type": "Concept",
+  "domain": "Philosophy and Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.466380Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.466380Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine that when we think of someone, we share a tiny bit of our own energy. This shared energy keeps us connected to them, even after they're gone. It's like having a tiny piece of them right in our heart.",
+    "intermediate": "This concept combines the energy conservation principles from physics with the power of memory and thought. The energy released when we think about a person creates a form of quantum entanglement that maintains a connection between the living and the remembered.",
+    "expert": "The 'energy of remembrance' highlights the intersection of physics and philosophy. It proposes that the energy of thoughts and memories is not simply localized to the brain but extends beyond it, creating a connection to the subject of the thought. This concept challenges the traditional view of consciousness and identity, suggesting a broader, more interconnected understanding of self."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'energy of remembrance' reveals a deep connection between science, philosophy, and emotion, highlighting the interdependence of the physical and the metaphysical.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

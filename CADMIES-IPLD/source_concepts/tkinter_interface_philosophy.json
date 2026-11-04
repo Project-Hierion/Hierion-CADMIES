@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "tkinter_interface_philosophy",
+  "title": "Tkinter Interface Philosophy",
+  "definition": "The philosophical exploration of the role and function of user interfaces in knowledge systems.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.629018Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.629018Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're reading a book. The book's layout helps you understand it better. The Tkinter Interface in CADMIES does a similar job for the knowledge system, making it easier for you to navigate and learn.",
+    "intermediate": "The Tkinter Interface in CADMIES serves as a medium between the user and the knowledge system. It follows the philosophical principle of 'Form follows function', enhancing usability and accessibility.",
+    "expert": "The Tkinter Interface in CADMIES is a manifestation of the broader philosophy of technology, intertwining human-computer interaction with the exploration of knowledge. It explores the boundaries between technology and consciousness, and questions the nature of information and its representation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Tkinter Interface in CADMIES is a symbiotic relationship between the user and the knowledge system, emphasizing the role of technology in enhancing human understanding and exploration of knowledge.",
+    "source_chunk": 86,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

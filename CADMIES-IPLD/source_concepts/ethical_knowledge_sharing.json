@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ethical_knowledge_sharing",
+  "title": "Ethical Knowledge Sharing",
+  "definition": "The concept of sharing knowledge in an ethical and responsible manner, upholding the principles of the AGPLv3 with Commons Clause license.",
+  "type": "Concept",
+  "domain": "Philosophy of Knowledge",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.619190Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.619190Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're learning about a new plant. You share what you know about it, but you ask others to respect the plant and not harm it. This is a simple way to understand ethical knowledge sharing.",
+    "intermediate": "Ethical knowledge sharing involves distributing information fairly and responsibly, ensuring that knowledge is accessible to those who need it, and protecting the privacy and security of data. This concept is closely related to open-source principles and the AGPLv3 with Commons Clause license.",
+    "expert": "Ethical knowledge sharing is a complex issue that raises philosophical questions about the nature of knowledge, the rights of authors, and the responsibility of users. It also has practical implications for digital security, privacy, and data protection. The AGPLv3 with Commons Clause license is a novel approach that combines open-source principles with a focus on ethical knowledge sharing and the commons."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Ethical knowledge sharing is a fundamental principle of the AGPLv3 with Commons Clause license, which emphasizes the ethical and responsible use of knowledge.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

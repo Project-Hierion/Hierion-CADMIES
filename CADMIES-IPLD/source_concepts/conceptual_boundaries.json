@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_boundaries",
+  "title": "Conceptual Boundaries",
+  "definition": "The delineation of distinct ideas or concepts in a continuous text, often influenced by structural breaks like topic changes and pauses.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.499617Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.499617Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're reading a book. Sometimes, the author shifts to a new topic. These shifts can help you understand where one idea ends and another begins.",
+    "intermediate": "Conceptual boundaries are defined by structural breaks in a conversation, such as topic changes or pauses. They help machines understand distinct ideas and their relationships.",
+    "expert": "Conceptual boundaries are the seams that hold together a coherent discourse. They're influenced by surface patterns and the underlying structure of the text. Understanding them is a fundamental challenge for artificial intelligence and has implications for fields like philosophy, linguistics, and cognitive science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Structural breaks in a conversation can reveal distinct concepts, but they can also cause confusion if they split ideas. Overlapping chunks can help maintain conceptual integrity.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

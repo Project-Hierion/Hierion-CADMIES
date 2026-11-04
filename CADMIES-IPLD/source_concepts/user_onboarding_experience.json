@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_onboarding_experience",
+  "title": "User Onboarding Experience",
+  "definition": "The overall experience new users have when interacting with CADMIES, from installation to initial use.",
+  "type": "Concept",
+  "domain": "User Experience Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.053257Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.053257Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine going to a new restaurant. The user onboarding experience is like the welcome and guidance you receive when you first walk in. It helps you understand what to do and what to expect.",
+    "intermediate": "The user onboarding experience involves several aspects, such as installation instructions, interface design, and guidance for new users. It aims to minimize confusion and maximize usability.",
+    "expert": "The user onboarding experience in CADMIES is a critical aspect of the system's usability and accessibility. Poor onboarding can lead to user frustration and abandonment. Good onboarding, on the other hand, can create a positive first impression and increase user engagement. The user onboarding experience in CADMIES also reflects broader principles of user-centered design, such as minimizing cognitive load and providing clear feedback."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A well-designed user onboarding experience can significantly improve the usability and appeal of CADMIES.",
+    "source_chunk": 126,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

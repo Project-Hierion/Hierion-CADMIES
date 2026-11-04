@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_memory_ecology",
+  "title": "Cosmic Memory Ecology",
+  "definition": "The interconnected existence of living and deceased consciousness, sustained by the collective energy and memory of the living.",
+  "type": "Concept",
+  "domain": "Philosophy of Existence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.472036Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.472036Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the universe as a cosmic trampoline. The living are balls that bounce with their own energy. When they die, their memories continue to bounce with the help of others. Love, storytelling, and remembrance keep these memories alive.",
+    "intermediate": "Cosmic memory ecology proposes that consciousness continues post-death due to the energy and memory of the living. The universe is like a trampoline, with each consciousness being a unique pattern. Remembrance excites this pattern, keeping it vibrant in the universe.",
+    "expert": "Cosmic memory ecology is a novel interpretation that combines ancient wisdom, quantum metaphor, and systems theory. It suggests that consciousness persists post-death through the energy of remembrance, creating a closed-loop system. This theory highlights the interconnectedness of life and death and emphasizes the role of memory and storytelling in sustaining existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnected existence of living and deceased consciousness, sustained by the collective energy and memory of the living.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "planetary_stress_response",
+  "title": "Planetary Stress Response",
+  "definition": "The global-scale manifestation of a universal principle observable across all scales of complex systems, where a significant perturbation triggers a stress response that prioritizes immediate functionality and survival at the catastrophic long-term cost of systemic simplification, biodiversity loss, and a shift to a new, less habitable state.",
+  "type": "Concept",
+  "domain": "Ecology, Systems Theory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.685254Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.685254Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a big, living planet that gets 'sick'. When it feels pressure from too much use of resources, it reacts to survive short-term, but this causes long-term problems like loss of habitats and climate change.",
+    "intermediate": "The planetary stress response is a large-scale instance of the Short-Term Survival Tradeoff. It's like a dysregulated fever caused by chronic resource depletion and pollution, leading to long-term consequences such as ecosystem simplification and reduced carrying capacity.",
+    "expert": "The planetary stress response is a fractal pattern, a universal principle observable across all scales of complex systems. It's akin to a cosmic 'fever' with autoimmune responses, caused by a hyper-consumptive, parasitic metabolic process. It's a diagnosis for our planet and our world, revealing that we're violating the same law that governs a cell at every level."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The planet's stress response, like a cosmic 'fever', is a direct result of our species' hyper-consumptive, techno-industrial complex. It's a universal principle that applies to all complex systems, from cells to planets.",
+    "source_chunk": 112,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_app_formats",
+  "title": "Universal App Formats",
+  "definition": "App formats that are self-contained and work across most Linux distros, bypassing the need to hunt down dependencies.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.441928Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.441928Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Universal app formats are like self-contained packages that allow you to run apps on different computers without having to install specific software or tools.",
+    "intermediate": "Universal app formats, such as AppImage, Flatpak, and Snap, are used to create portable, distribution-independent software packages. They help in running modern apps on lightweight systems without the hassle of hunting down dependencies.",
+    "expert": "Universal app formats provide a solution to the complexities of software distribution and dependency management in Linux. They enable the creation of portable, distribution-independent software packages, which allows modern apps to run smoothly on lightweight systems. Furthermore, the philosophical implications of these formats challenge traditional notions of software ownership and control, leading to a more open and collaborative software ecosystem."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Universal app formats are a solution to run modern apps on lightweight systems without the hassle of hunting down dependencies.",
+    "source_chunk": 80,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

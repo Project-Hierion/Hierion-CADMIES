@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scale_unification_of_dynamics",
+  "title": "Scale Unification Of Dynamics",
+  "definition": "The concept that the mathematical descriptions of motion or dynamics may have formal similarities across different scales of observation.",
+  "type": "Concept",
+  "domain": "Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.053531Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.053531Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a dance where the beat is the same, even if the dancers are very different in size. The theory suggests that this common beat can be found across different levels of the universe.",
+    "intermediate": "The theory posits a unifying framework for understanding the dynamics of systems across various scales, from quantum vibrations to biological processes to collective behaviors.",
+    "expert": "The scale unification of dynamics goes beyond simple emergence. It suggests that there may be underlying principles that govern the behavior of complex systems at all levels. This could have profound implications for our understanding of life and consciousness, and may even connect quantum mechanics to social sciences."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the potential for finding formal similarities in the mathematical descriptions of dynamics across different scales, suggesting a unifying framework for understanding the universe.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

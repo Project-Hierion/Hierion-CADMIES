@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "intellectual_ecosystem",
+  "title": "Intellectual Ecosystem",
+  "definition": "A network that connects, nourishes, and communicates ideas, consisting of various entities such as researchers, students, and industry professionals, evolving through verification and adaptation.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.960056Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.960056Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of an intellectual ecosystem as a garden. Different people bring seeds (ideas) to the garden, and everyone nourishes these seeds (ideas) with their experiences and insights. Over time, the garden grows and changes based on what seeds are successful (verified) and what are discarded (refuted).",
+    "intermediate": "An intellectual ecosystem is a complex system composed of various entities that interact, contribute, and learn from each other. It can be understood as a form of decentralized knowledge network, where the value of ideas is determined through a process of verification and validation, occurring in different domains and roles.",
+    "expert": "An intellectual ecosystem can be viewed as a self-organizing system that exhibits emergent properties, such as adaptability, resilience, and evolution. It can be compared to natural ecosystems in terms of its complexity and its ability to adapt to external conditions. Intellectual ecosystems have implications for the nature of truth and knowledge, the role of authority and expertise, and the dynamics of scientific discovery and innovation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The intellectual ecosystem is a multi-dimensional and evolving network that reflects the diversity and complexity of human knowledge and understanding.",
+    "source_chunk": 94,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

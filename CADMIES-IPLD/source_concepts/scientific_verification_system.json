@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_verification_system",
+  "title": "Scientific Verification System",
+  "definition": "A system that enables and maintains the verification of scientific concepts and identities in a secure, scalable, and user-friendly manner.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.827521Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.827521Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a system that helps scientists prove their ideas and shows the world who they are. It's like having a stamp on your research papers that says 'verified by the community'.",
+    "intermediate": "The scientific verification system is a decentralized network that integrates ORCID for identity verification and uses a blockchain-like structure to create a chain of verification for scientific concepts. The system includes a system for managing superseded concepts, providing a historical record of the evolution of scientific thought.",
+    "expert": "The scientific verification system is a novel application of blockchain technology, combining it with the principles of the philosophy of science. By integrating ORCID for identity verification, the system enhances the trustworthiness of scientific findings. The use of blockchain-like structures enables the creation of a chain of verification for scientific concepts, enhancing the reproducibility and transparency of scientific research. The system also includes a mechanism for managing superseded concepts, contributing to the ongoing refinement of scientific knowledge and providing a historical record of the evolution of scientific thought. The system's emphasis on secure, scalable, and user-friendly solutions highlights its intersection with fields such as cryptography and human-computer interaction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of ORCID for identity verification and the use of a blockchain-like structure for the chain of verification of scientific concepts contributes to the trustworthiness and transparency of scientific research.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

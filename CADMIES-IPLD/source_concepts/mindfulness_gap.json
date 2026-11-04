@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mindfulness_gap",
+  "title": "Mindfulness Gap",
+  "definition": "The disconnect between a person's mental state and their physical surroundings, resulting in inefficient or unnecessary actions.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.165840Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.165840Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's when you do something without being fully aware of your surroundings or your actions, like taking a longer, less direct route home.",
+    "intermediate": "Mindfulness gap is a psychological phenomenon where individuals are mentally elsewhere, leading to disproportionate decisions or actions that are not optimally efficient or relevant to the current situation.",
+    "expert": "Mindfulness gap is a manifestation of the mind-body disconnect in a modern, fast-paced society. It highlights the complex interplay between cognitive processes, cultural norms, and environmental factors in shaping human behavior. It is a philosophical exploration of presence, awareness, and the human condition in the digital age."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recurring 'mindfulness gap' behavior observed in a family points to a larger cultural trend of mind wandering and disengagement from the physical world.",
+    "source_chunk": 136,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

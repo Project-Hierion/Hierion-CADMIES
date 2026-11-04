@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_agent_blueprint",
+  "title": "Philosophical Agent Blueprint",
+  "definition": "A conceptual blueprint describing an autonomous agent capable of analyzing and connecting philosophical concepts.",
+  "type": "Concept",
+  "domain": "Metaphysics / Epistemology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.070901Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.070901Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a smart robot that can read and understand deep thoughts about the world. This concept is like the blueprint for that robot.",
+    "intermediate": "A philosophical agent blueprint is a conceptual representation of an autonomous agent that can interpret and link philosophical concepts. It's a blueprint that enables the creation of agents capable of understanding and interpreting complex ideas.",
+    "expert": "The philosophical agent blueprint is a novel concept in the field of artificial intelligence and philosophy. It transcends traditional agent designs by focusing on the interpretation and connection of philosophical concepts. This concept challenges the conventional separation of philosophy and technology, presenting a unique exploration into the potential fusion of these fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The philosophical agent blueprint demonstrates the potential for a new type of intelligent system that can navigate and make sense of complex philosophical concepts.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

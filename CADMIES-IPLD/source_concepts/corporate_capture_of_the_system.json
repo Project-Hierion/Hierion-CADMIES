@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "corporate_capture_of_the_system",
+  "title": "Corporate Capture Of The System",
+  "definition": "The process by which corporations influence and manipulate political and regulatory institutions to serve their own interests at the expense of the public good.",
+  "type": "Concept",
+  "domain": "Political Science, Corporate Law",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.848460Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.848460Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a powerful corporation being like a kid in a candy store, using its money to buy what it wants \u2014 rules and laws that benefit it over the good of society.",
+    "intermediate": "Corporate capture involves a variety of strategies, from lobbying and campaign contributions to the revolving door phenomenon, where former regulators join corporations in high-paying jobs. This gives corporations an unfair advantage in shaping laws and regulations.",
+    "expert": "The concept of corporate capture is deeply rooted in political economy and institutional theory. It highlights the power dynamics between corporations, governments, and the legal system. The extent and implications of corporate capture can vary greatly, from influencing regulatory decisions to shaping public policies. This can lead to market failures, such as monopoly, and a lack of accountability for harmful practices."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The legal system is not just flawed by greed; it has been actively captured by corporations. It works exactly as designed to serve capital first and justice second.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

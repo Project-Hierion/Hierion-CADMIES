@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "machine_learning_model_management",
+  "title": "Machine Learning Model Management",
+  "definition": "The process of managing and maintaining machine learning models, including deployment, versioning, and scaling.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.527360Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.527360Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine managing a school's classrooms. Machine learning model management is like organizing and scaling up these classrooms to accommodate more students or subjects.",
+    "intermediate": "Machine learning model management involves deploying, updating, and scaling models to handle varying loads and data volumes. It also encompasses version control and security measures to ensure model reliability and security.",
+    "expert": "Machine learning model management is a complex task that involves addressing issues such as model drift, interpretability, and fairness. It also connects to other fields like MLOps, distributed systems, and containerization, requiring a nuanced understanding of both theory and practice."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the challenges and opportunities in managing machine learning models, such as the need for efficient deployment, version control, and scalability.",
+    "source_chunk": 36,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

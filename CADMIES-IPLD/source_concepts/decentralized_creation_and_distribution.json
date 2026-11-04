@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_creation_and_distribution",
+  "title": "Decentralized Creation And Distribution",
+  "definition": "The concept of creating and distributing content in a decentralized manner, away from traditional gatekeepers and intermediaries.",
+  "type": "Concept",
+  "domain": "Cultural Production",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.761398Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.761398Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a world where anyone can print their own book at home, or order a vinyl record made locally. It's like if you could just send a digital file to a machine, and it would create a physical copy for you. No need for publishers or factories.",
+    "intermediate": "Decentralized creation and distribution refers to a system that empowers individuals and communities to produce and distribute content independently, using technologies such as print-on-demand, digital libraries, and micro-pressing plants. This model eliminates the need for traditional intermediaries like publishers and distributors.",
+    "expert": "Decentralized creation and distribution challenges the traditional model of cultural production by enabling direct relationships between creators and consumers. It offers a more resilient and equitable system, with no central points of failure, no gatekeepers, and no counterfeits. This concept also has implications for intellectual property, privacy, and the role of technology in society, as it redefines the ownership and value of creative works."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The shift from a centralized to a decentralized model of creation and distribution has the potential to disrupt traditional power structures and create a more equitable and resilient cultural ecosystem.",
+    "source_chunk": 146,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

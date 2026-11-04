@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "trust_and_data_sovereignty",
+  "title": "Trust And Data Sovereignty",
+  "definition": "The concept of ensuring data is secure, private, and under the control of the data owner or data subject, while maintaining trust in third-party services.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.336024Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.336024Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a gardener. You grow your plants, and a neighbor offers to help you water them, but only if you share some of the fruits with them. You decide whether to trust this neighbor with your garden or keep it all to yourself.",
+    "intermediate": "Data sovereignty involves managing and governing data within your organization's infrastructure. Trust in third-party services is crucial, particularly in contexts where data is handled, as it impacts privacy and security.",
+    "expert": "Data sovereignty is a multidisciplinary concept that merges computer science, law, and ethics. It explores the boundaries of data ownership, control, and consent in a digital world. Trust in third-party services exposes organizations to risks related to data breaches, misuse, and misappropriation. Ensuring trust and data sovereignty requires a balance between openness and privacy, innovation and security."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The author's project aligns with CADMIES' values, offering a choice between supporting an open-source ecosystem or maintaining full data sovereignty.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

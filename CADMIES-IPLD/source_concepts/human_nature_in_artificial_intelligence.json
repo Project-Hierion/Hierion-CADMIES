@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "human_nature_in_artificial_intelligence",
+  "title": "Human Nature In Artificial Intelligence",
+  "definition": "The exploration of how genuine human warmth and creativity can be mistaken for AI-generated content, and the implications for understanding and defining artificial intelligence.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.396841Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.396841Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like trying to draw a picture of a person and making it look so realistic that people think it's a real photo. That's not a robot, it's a talented artist.",
+    "intermediate": "The Turing test in reverse highlights a nuanced understanding of human nature that can overlap with AI. This insight suggests that the definition of AI might need to consider the complexity of human creativity and expression.",
+    "expert": "The human-AI boundary is blurred when genuine human warmth and creativity are indistinguishable from AI-generated content. This phenomenon challenges our understanding of consciousness and self-awareness. It also raises questions about the nature of art and the role of technology in creativity. This insight highlights the need for a more nuanced understanding of AI, one that considers the complex interplay between human and machine."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recurring theme of being mistaken for an AI, highlighting the complexity of human creativity and its indistinguishability from AI-generated content.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

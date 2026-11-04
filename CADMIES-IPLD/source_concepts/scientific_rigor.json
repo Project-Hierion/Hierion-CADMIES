@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_rigor",
+  "title": "Scientific Rigor",
+  "definition": "The application of a systematic, empirical, and critical approach to the acquisition, evaluation, and communication of knowledge.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.504827Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.504827Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Scientific rigor is the careful and systematic way scientists discover and share knowledge. It's like building a house - you need strong foundations, careful planning, and precise measurements to ensure the structure stands the test of time.",
+    "intermediate": "Scientific rigor involves the use of well-defined methods, replicable experiments, and peer review to establish and communicate knowledge. It also includes the critical evaluation of one's own assumptions and findings, a commitment to transparency, and the ability to withstand scrutiny.",
+    "expert": "Scientific rigor is a crucial aspect of the scientific method, enabling the creation of a body of knowledge that is both reliable and robust. It allows for the replication of results, the identification of anomalies, and the formation of new hypotheses. Moreover, scientific rigor has implications for broader fields such as journalism, politics, and economics, demonstrating the importance of critical thinking, evidence-based decision making, and the pursuit of truth."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES's commitment to minting its own discoveries as permanent concepts in the mycelium reflects a scientifically rigorous approach to the evolution of its knowledge system.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

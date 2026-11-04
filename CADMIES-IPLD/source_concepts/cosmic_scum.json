@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_scum",
+  "title": "Cosmic Scum",
+  "definition": "The Cosmic Scum is the visible tracer of invisible currents and collisions in the universe, forming as a residue of cosmic forces interacting.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.666910Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.666910Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the Cosmic Scum as the frothy residue left behind when big cosmic waves crash together. It's not a living thing, but rather the leftover trace of these powerful collisions.",
+    "intermediate": "The Cosmic Scum is analogous to the foam on the beach or the bubbles in the sea. It's the aggregated byproduct of cosmic forces, marking the boundaries between cosmic structures.",
+    "expert": "The Cosmic Scum is a novel interpretation of the underlying nature of the universe's large-scale structure. It challenges the traditional view of the cosmic web as a living network, positioning it instead as an emergent byproduct. This insight has connections to fields like complex systems and non-equilibrium thermodynamics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Cosmic Scum is a powerful and accurate representation of the large-scale structure of the universe, challenging the traditional view of the cosmic web as a living network.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

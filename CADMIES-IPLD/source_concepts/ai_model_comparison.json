@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ai_model_comparison",
+  "title": "Ai Model Comparison",
+  "definition": "A comparison of two AI models, Claude and Mistral, based on features, pricing, reasoning power, openness, data control, privacy, and platform support.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.411008Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.411008Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of Claude and Mistral as two AI assistants. Claude is more like a personal tutor, while Mistral is more like an open-source friend that you can customize yourself. They both offer different strengths and are suitable for different needs.",
+    "intermediate": "Claude and Mistral are AI models with distinct features and pricing. Claude provides strong reasoning power and a solid free plan, but it's a closed, API-only platform. Mistral offers open-source models, which are more adaptable and cost-effective, but it lacks Claude's strong reasoning power. The choice between the two depends on your specific needs and preferences.",
+    "expert": "The comparison between Claude and Mistral highlights the philosophical trade-offs between managed deep reasoning and open-source adaptability. Claude's premium, managed deep reasoning makes it more suitable for high-volume classification and customer support, while Mistral's cost-effective, open-source adaptability makes it ideal for developers who want full control over the model and want to host it themselves. The choice between the two also depends on data residency needs and privacy concerns."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The choice between Claude and Mistral depends on the specific needs and preferences of the user, including reasoning power, openness, data control, privacy, and platform support.",
+    "source_chunk": 80,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

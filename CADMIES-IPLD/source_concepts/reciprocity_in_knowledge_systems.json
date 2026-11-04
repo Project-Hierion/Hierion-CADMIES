@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "reciprocity_in_knowledge_systems",
+  "title": "Reciprocity In Knowledge Systems",
+  "definition": "The concept of reciprocity in a knowledge system, where sharing knowledge leads to further knowledge growth and sharing.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.814687Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.814687Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a knowledge system like a garden. If you share what you learn, it helps others grow. In return, they share what they learn, and together you both gain more knowledge.",
+    "intermediate": "Reciprocity in knowledge systems promotes a cycle of learning and sharing. This concept can be applied to open source projects, academic institutions, and personal knowledge management, fostering mutual growth and improvement.",
+    "expert": "Reciprocity in knowledge systems is a philosophical principle that has been studied in various fields, including economics, sociology, and information science. It involves a balance between giving and receiving, with the understanding that sharing knowledge leads to further growth. The concept of reciprocity can be applied to open source projects to promote community collaboration and innovation, while also addressing concerns about commercial exploitation and proprietary AI training."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novelty of this concept lies in its application to knowledge systems, emphasizing the importance of reciprocity and mutual growth over commercial exploitation.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

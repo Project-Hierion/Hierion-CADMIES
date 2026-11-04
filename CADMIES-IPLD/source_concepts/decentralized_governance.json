@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_governance",
+  "title": "Decentralized Governance",
+  "definition": "A system of decision-making that allows for diverse perspectives, transparent processes, and iterative evolution.",
+  "type": "Concept",
+  "domain": "Governance",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.382005Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.382005Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Decentralized governance is like a village council where everyone has a say, decisions are made openly, and rules can change over time.",
+    "intermediate": "Decentralized governance ensures that the system is not controlled by a single entity, but rather by a network of stakeholders. It leverages mechanisms such as rough consensus and open comment periods to allow for the evolution and adaptation of the system.",
+    "expert": "Decentralized governance is a novel approach that combines the benefits of decentralized systems (resilience, scalability, and security) with the need for governance (decision-making, coordination, and consensus). It also draws from the principles ofcommons-based peer production and the philosophy of open-source software. Decentralized governance has the potential to revolutionize the way we make decisions and create shared value, with implications for fields such as politics, economics, and technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Decentralized Commons Treaty demonstrates a commitment to decentralized governance, with principles such as 'People Govern' and 'Interest-Neutral Stewardship'.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

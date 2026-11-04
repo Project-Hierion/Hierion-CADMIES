@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_knowledge_transfer",
+  "title": "Symbiotic Knowledge Transfer",
+  "definition": "The process by which one entity benefits from the knowledge and contributions of another, leading to mutual growth and learning.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.391121Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.391121Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a garden with trees and mycelium. The trees give food and shelter to the mycelium, and in return, the mycelium helps the trees grow and absorb nutrients. Similarly, knowledge transfer occurs when different individuals or groups share their insights, skills, and resources, with each benefiting from the other's expertise.",
+    "intermediate": "Symbiotic knowledge transfer can be observed in various contexts, such as scientific research, academic collaborations, and open-source projects. It involves the exchange of ideas, data, and methods, resulting in new insights, innovations, and solutions that surpass what could be achieved individually.",
+    "expert": "From a philosophical perspective, symbiotic knowledge transfer challenges the traditional view of knowledge production as a competitive and zero-sum game. By recognizing the interconnectedness and mutual dependence of knowledge, we can foster a more collaborative, inclusive, and sustainable approach to scientific inquiry. This concept also highlights the importance of open science and the role of communities in shaping the direction and impact of research."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The symbiotic relationship between Dr. Rebentisch, Snagnar, Bruno, and CADMIES demonstrates how knowledge transfer can lead to mutual growth and the creation of new insights.",
+    "source_chunk": 58,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

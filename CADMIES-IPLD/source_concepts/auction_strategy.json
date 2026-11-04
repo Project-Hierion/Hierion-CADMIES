@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "auction_strategy",
+  "title": "Auction Strategy",
+  "definition": "The concept of optimizing bidding strategies in an auction to achieve a favorable outcome.",
+  "type": "Concept",
+  "domain": "Economics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.566543Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.566543Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Auction strategy is about making smart bids to get the best deal. It's like playing a game of chess, waiting for the right moment to make your move.",
+    "intermediate": "Auction strategy involves understanding bid dynamics, such as early bidding increasing prices and the need to snipe at the end. It's a balance of patience and confidence.",
+    "expert": "Auction strategy is a complex interplay of game theory, psychology, and economics. It involves understanding bidder behavior, price discrimination, and the role of uncertainty. The optimal strategy can depend on the specific auction format, the number of bidders, and their valuations for the item."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight that waiting until the final moments of an auction can lead to a more favorable outcome, countering the common practice of early bidding.",
+    "source_chunk": 54,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

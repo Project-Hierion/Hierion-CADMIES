@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_lifecycle",
+  "title": "Knowledge Lifecycle",
+  "definition": "The process of creating, sharing, importing, and exporting concepts in the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.042273Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.042273Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a toy box with your favorite toys. Knowledge lifecycle is like how you share your toys with friends, bring new ones home, and learn from others. It's all about managing, sharing, and growing your knowledge.",
+    "intermediate": "In the CADMIES system, knowledge lifecycle involves exporting concepts into CAR files for sharing, importing concepts from other sources, and ensuring the validity and reliability of the knowledge through a verification workflow.",
+    "expert": "Knowledge lifecycle in the CADMIES system extends the traditional notion of knowledge management by incorporating philosophical insights from epistemology and the philosophy of science. It emphasizes the dynamic nature of knowledge, its social construction, and the need for continual verification and revision to address uncertainty and change."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CAR file format enables the efficient sharing and importing of concepts, facilitating knowledge transfer and collaboration within the CADMIES system.",
+    "source_chunk": 121,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

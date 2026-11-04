@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_resilience",
+  "title": "Backup Resilience",
+  "definition": "The ability of a backup system to recover from errors, interruptions, and failures.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.233027Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.233027Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your backup system as a bouncy ball. Sometimes, it gets stuck, but a quick nudge (like resetting a flag) helps it keep rolling. This keeps your data safe.",
+    "intermediate": "Backup resilience ensures the system can handle unexpected interruptions, such as Ctrl+C, power loss, or unmounting, by adding a trap to reset the backup flag, even in case of these interruptions.",
+    "expert": "Backup resilience is not just about handling interruptions. It's about robustness in the face of various errors, including IO errors, permissions errors, and filesystem errors. It's about building a system that can learn from its mistakes and adapt to new challenges, even when they're not anticipated."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The script's resilience can be improved by adding a trap to reset the backup flag, even in case of interruptions.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_superposition",
+  "title": "Quantum Superposition",
+  "definition": "A fundamental principle in quantum mechanics that allows a quantum system to exist in multiple states simultaneously until it is observed or measured.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.536443Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.536443Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "quantum_entanglement"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a coin that can be both heads and tails at the same time, until we look at it. Quantum superposition is a similar idea for tiny particles.",
+    "intermediate": "Quantum superposition is a fundamental principle in quantum mechanics that allows a quantum system to exist in multiple states simultaneously. This means particles can exist in various states, such as spin up and down, until observed or measured.",
+    "expert": "Quantum superposition is a central principle in quantum mechanics that allows particles to exist in multiple states simultaneously. This has profound implications for computing, cryptography, and our understanding of reality at the smallest scales. However, it also presents challenges due to the measurement problem and the nature of wavefunction collapse."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability of quantum systems to exist in multiple states simultaneously, and the implications for our understanding of reality and computation.",
+    "source_chunk": 116,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

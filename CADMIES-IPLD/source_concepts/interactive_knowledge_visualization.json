@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interactive_knowledge_visualization",
+  "title": "Interactive Knowledge Visualization",
+  "definition": "A system that allows for dynamic visualization and exploration of complex interconnected concepts.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.511555Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.511555Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a map that lets you zoom in and out and click on things to learn more about them. It helps you understand how different ideas are connected.",
+    "intermediate": "Interactive knowledge visualization is a method of representing data in a graph-like structure, allowing users to explore and understand relationships between concepts. In this context, it refers to the CADMIES Mycelium Map.",
+    "expert": "Interactive knowledge visualization is a novel method of exploring complex systems, combining principles from graph theory, human-computer interaction, and educational technology. It allows for the representation and navigation of large, interconnected datasets. In this context, the CADMIES Mycelium Map serves as a unique example of interactive knowledge visualization, providing insights into the interplay between various philosophical concepts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES Mycelium Map is an interactive system that allows users to explore and understand the complex interconnections between philosophical concepts.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "phased_growth",
+  "title": "Phased Growth",
+  "definition": "The structured and progressive development of a system over distinct phases.",
+  "type": "Concept",
+  "domain": "Systems Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.237006Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.237006Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a project as a garden. Just like a garden grows through different stages like seeding, sprouting, and blooming, a project grows through distinct phases that build upon each other.",
+    "intermediate": "Phased growth is a strategic approach that breaks down a project into manageable parts. Each phase builds upon the previous one, leading to a comprehensive and well-structured final product.",
+    "expert": "Phased growth is a concept rooted in project management and systems design. It allows for a focused and iterative approach to development. Each phase is designed to validate and improve upon the previous one, ensuring the overall system's robustness and adaptability. This approach has been successful in various fields, from software development to urban planning, demonstrating its universal applicability and philosophical depth."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of phased growth in managing a complex project like CADMIES.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

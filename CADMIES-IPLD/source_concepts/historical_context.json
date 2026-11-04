@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "historical_context",
+  "title": "Historical Context",
+  "definition": "The timeline of a concept's discovery and evolution, including key events and milestones.",
+  "type": "Concept",
+  "domain": "History of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.818496Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.818496Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the historical context as the journey of a concept from its first idea to where it is today. It's like tracing the roots of a tree back to its seed.",
+    "intermediate": "A historical perspective of a concept's discovery and development, including significant events, contributors, and contextual information.",
+    "expert": "The historical context of a concept provides insights into its emergence, evolution, and adoption. It also highlights the role of social, political, and technological factors in shaping the development of ideas and theories. Furthermore, studying the historical context of a concept can reveal patterns and connections between seemingly unrelated fields of knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The historical context of a concept can reveal patterns and connections between seemingly unrelated fields of knowledge.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

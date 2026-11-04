@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_interface_modularity",
+  "title": "User Interface Modularity",
+  "definition": "The design principle that separates the user interface into distinct, interchangeable modules or components, allowing for flexibility and ease of development and maintenance.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.471516Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.471516Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a house \u2014 each room is a module that can be rearranged or replaced without affecting the whole structure. In software, this means separating the user interface into different pages or sections that can be developed, tested, and updated independently.",
+    "intermediate": "User interface modularity promotes a decoupled architecture, where each module is a self-contained piece with a clear interface. This facilitates reuse, easy maintenance, and the ability to adapt to changing requirements or technologies.",
+    "expert": "Modularity in user interfaces is a cornerstone of software engineering, enabling the creation of flexible, scalable, and maintainable systems. It allows for the separation of concerns, enabling different teams to work independently. Moreover, modularity facilitates the integration of third-party libraries or components, and it supports the adoption of microfrontend architectures. However, modularity also introduces challenges such as consistency, communication, and state management."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES GUI's modular design, with separate pages for the dashboard, Willie Chat, Browse Library, Add Concept, and Mycelium Map, allows for flexibility and ease of development and maintenance.",
+    "source_chunk": 46,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

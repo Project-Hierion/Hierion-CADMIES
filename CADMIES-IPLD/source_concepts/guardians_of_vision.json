@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "guardians_of_vision",
+  "title": "Guardians Of Vision",
+  "definition": "A system of stewardship designed to perpetuate a project's core values, resilient to human fallibility and aligned with its mission.",
+  "type": "Concept",
+  "domain": "Organizational Governance",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.563967Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.563967Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a group of wise people who guide a project, ensuring it always stays true to its original purpose.",
+    "intermediate": "Guardians of Vision is a framework for leadership that balances idealism with practicality. It includes a Founding Council, a Constitutional Charter, and a rotating Stewardship Board.",
+    "expert": "The Guardians of Vision framework is novel in its focus on creating a system that perpetuates a project's mission, prioritizing its values over individual leaders."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A robust leadership system can ensure the project's purity and longevity.",
+    "source_chunk": 41,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

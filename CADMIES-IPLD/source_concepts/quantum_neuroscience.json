@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_neuroscience",
+  "title": "Quantum Neuroscience",
+  "definition": "The interdisciplinary field that explores the principles and applications of quantum mechanics to understand and explain biological processes at the level of neurons and neural networks.",
+  "type": "Concept",
+  "domain": "Neuroscience and Quantum Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.383655Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.383655Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to understand how the brain works, but using the rules of quantum physics instead of regular physics. Quantum neuroscience is about merging these two worlds to answer questions about the brain and consciousness.",
+    "intermediate": "Quantum neuroscience is an interdisciplinary field that applies the principles of quantum mechanics to understand the functionality and organization of biological neurons and neural networks. It aims to explain quantum coherence in biological systems and the potential role of quantum phenomena in brain computation and consciousness.",
+    "expert": "Quantum neuroscience is a novel intersection of neuroscience and quantum physics that seeks to explore the fundamental question of how quantum mechanics can play a role in the brain. It offers a new perspective on understanding the functionality of neurons and neural networks, challenging traditional notions of determinism and locality. Quantum neuroscience also has implications for the nature of consciousness, consciousness studies, and the philosophy of mind. Additionally, it has connections to fields such as computer science, biology, and philosophy of science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The exploration of interdisciplinary concepts in neuroscience and quantum physics reveals the potential for quantum mechanics to play a role in understanding the brain and consciousness.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

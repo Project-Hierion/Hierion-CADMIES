@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "structured_data_import",
+  "title": "Structured Data Import",
+  "definition": "The process of importing data that is already structured or formatted in a specific way, such as JSON, into a system or database.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.510173Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.510173Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like filling out a form with all the information already written down. The computer understands it easily.",
+    "intermediate": "Structured data import involves transforming data from its source format into a format that can be used by a target system. This could include parsing, cleaning, mapping, and validating the data.",
+    "expert": "Structured data import is a critical aspect of data integration and ETL (Extract, Transform, Load) processes. It allows for more efficient data transfer, enables data consistency, and supports advanced data analysis. However, it requires a deep understanding of both source and target data structures, and may involve complex data transformations and error handling."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the need for clear communication and understanding of data formats and import methods, particularly in the context of manual data entry and automated data processing.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_growth_model",
+  "title": "Symbiotic Growth Model",
+  "definition": "A model that emphasizes the need for mutualistic interactions between content acquisition and concept formation to facilitate balanced growth in a knowledge system.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.495620Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.495620Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a garden that needs both seeds (content) and fertilizer (conceptual understanding) to grow. Both are essential for balanced growth.",
+    "intermediate": "This model highlights the symbiotic relationship between content acquisition and concept formation. It suggests that the quality of concepts improves with more relevant content, and the volume of content grows with a richer set of concepts.",
+    "expert": "The symbiotic growth model challenges traditional approaches to knowledge acquisition and organization. It highlights the need for continuous feedback loops between content acquisition, concept formation, and relationship building. This model has implications for various fields, including education, research, and artificial intelligence, where understanding and managing complex systems is crucial."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of balancing content acquisition and concept formation for knowledge system growth.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

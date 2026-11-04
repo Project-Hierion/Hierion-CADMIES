@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interconnectedness_of_buddhist_concepts",
+  "title": "Interconnectedness Of Buddhist Concepts",
+  "definition": "The interconnected and comprehensive nature of Buddhist teachings, where each concept enriches and deepens the understanding of the others.",
+  "type": "Concept",
+  "domain": "Buddhist Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.672957Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.672957Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "mindful_consumption",
+      "everyday_dharma",
+      "middle_path_of_consumption",
+      "non_attachment_vs_detachment",
+      "raft_of_practice",
+      "paradox_of_practice"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Buddhist teachings are like a puzzle with many interconnected pieces.",
+    "intermediate": "The concepts of craving tanha cycle, mindful consumption, everyday dharma, middle path of consumption, non-attachment vs detachment, raft of practice, and paradox of practice all interconnect and form a comprehensive teaching.",
+    "expert": "The interconnectedness of Buddhist concepts reflects the holistic nature of Buddhism, highlighting the philosophical arc from suffering to liberation and revealing the paradoxical nature of practice."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnectedness of Buddhist concepts reveals the holistic and comprehensive nature of Buddhist teachings.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

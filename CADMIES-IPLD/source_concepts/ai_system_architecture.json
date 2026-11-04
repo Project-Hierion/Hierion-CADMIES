@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ai_system_architecture",
+  "title": "Ai System Architecture",
+  "definition": "A comprehensive system architecture that integrates LLM fine-tuning, knowledge graph construction, and pipeline automation.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.366983Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.366983Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a smart system that learns, remembers, and does things automatically. It's like a gardener who grows, connects, and takes care of plants.",
+    "intermediate": "It's an architecture that combines Language Model Fine-tuning, a knowledge graph of concepts and relationships, and a pipeline for automating data processing and serving.",
+    "expert": "It's a novel integration of AI and ML techniques, where the fine-tuned Language Model acts as the 'brain', the knowledge graph as the 'memory', and the pipeline automation as the 'body'. This architecture allows for the creation and utilization of custom AI assistants, like Dr. Amanda Mistral, and explores the possibilities of decentralized data systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful integration of AI and ML techniques to create a comprehensive system architecture that allows for the creation and utilization of custom AI assistants.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

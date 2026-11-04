@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "collaborative_knowledge_stewardship",
+  "title": "Collaborative Knowledge Stewardship",
+  "definition": "The practice of managing and curating shared knowledge in a collaborative context, with emphasis on maintaining an up-to-date, accurate, and organized knowledge base.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.247800Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.247800Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you and a group of friends are building a garden. To grow the best plants, you need to regularly check and update your seeds, tools, and notes. This is like collaborative knowledge stewardship \u2014 ensuring your shared knowledge is current and helpful.",
+    "intermediate": "Collaborative knowledge stewardship involves maintaining a knowledge base that is accurate, up-to-date, and organized. This ensures that everyone has access to the most relevant and useful information. In the context of CADMIES, this means managing scientific notes, training data, and models.",
+    "expert": "Collaborative knowledge stewardship is a complex philosophical concept that intersects with fields like epistemology, sociology, and ethics. It challenges the traditional model of knowledge as a hierarchical, top-down structure. Instead, it emphasizes the need for a decentralized, bottom-up approach that values the contributions of all members of a community. In the context of CADMIES, this means recognizing the need for a flexible, adaptive knowledge system that can accommodate a wide range of perspectives and approaches."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for a collaborative, decentralized approach to knowledge management that values the contributions of all members of a community.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "strategic_transparency",
+  "title": "Strategic Transparency",
+  "definition": "The concept of maximizing openness and transparency for strategic advantages in a project's operations.",
+  "type": "Concept",
+  "domain": "Project Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.561830Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.561830Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like building a garden that everyone can enjoy, and making sure everyone knows what's in it. This helps avoid any misunderstandings or conflicts.",
+    "intermediate": "Strategic transparency is about using open, public internet protocols to ensure that all stakeholders can access information freely and without fear of censorship. It's a strategic move to build trust and prevent misinterpretations.",
+    "expert": "Strategic transparency creates a form of diplomatic immunity for the project. It leverages the open and public pathways of the internet to promote scientific collaboration and knowledge-sharing. This approach emphasizes universal utility and widespread ownership, which creates a robust and resilient network that is politically palatable and legally secure."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The key to avoiding potential pitfalls and ensuring the project's long-term success is strategic transparency and a focus on universal utility and widespread ownership.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

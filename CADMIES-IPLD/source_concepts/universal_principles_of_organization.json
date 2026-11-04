@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_principles_of_organization",
+  "title": "Universal Principles Of Organization",
+  "definition": "The identification and analysis of consistent patterns in the dynamics and information flow across various scales, from quantum to ecological.",
+  "type": "Concept",
+  "domain": "Physics, Biology, Mathematics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.065326Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.065326Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a dance where every step follows the same rhythm, no matter who dances or where. That rhythm is what we're trying to understand.",
+    "intermediate": "This concept explores universal network motifs and dynamics, such as feed-forward loops, that control the speed of various processes across different scales, from protein conformations to neural networks to predator-prey cycles.",
+    "expert": "The discovery of universal principles of organization could revolutionize our understanding of complex systems. By finding a unified formalism that can seamlessly describe dynamics from quantum to ecological scale, we could develop a true 'Theory of Everything' for complex systems, with profound philosophical implications for our understanding of life, the universe, and everything."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential discovery of universal principles of organization that could unify our understanding of dynamics across various scales.",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

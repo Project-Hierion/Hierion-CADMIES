@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sop_creation_process",
+  "title": "Sop Creation Process",
+  "definition": "The systematic approach to build Standard Operating Procedures (SOPs) that are comprehensive, navigable, and accessible to anyone.",
+  "type": "Concept",
+  "domain": "Project Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.302456Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.302456Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a blueprint for a system. It's like having a step-by-step guide that anyone can understand, regardless of their background or experience.",
+    "intermediate": "SOP creation process involves defining the scope, structuring the content, and organizing it in a way that allows for easy navigation and understanding. It's a structured way to document and share knowledge.",
+    "expert": "The SOP creation process is not just about documentation. It's about creating a system that can adapt to change, be validated for accuracy, and be a living document that evolves with the system it describes. It's a philosophical approach to knowledge management that connects to other fields like software engineering and human-computer interaction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The SOP creation process is a systematic approach to build comprehensive, navigable, and accessible knowledge documents.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

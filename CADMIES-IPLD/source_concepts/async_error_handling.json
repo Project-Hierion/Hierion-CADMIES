@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "async_error_handling",
+  "title": "Async Error Handling",
+  "definition": "The concept of asynchronous error handling in the context of a chat interface that uses a language learning model (LLM) with a long generation time.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.236935Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.236935Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as trying to cook dinner while also watering plants. Even though you start both tasks at the same time, you might need to pause cooking to water the plants. The same thing happens with the chat interface \u2014 it needs to handle long responses from the language model without causing issues.",
+    "intermediate": "Asynchronous error handling in a chat interface involves running tasks like generating responses from a language model in the background while maintaining a smooth user experience. This is particularly important when the generation time is long, as it can cause issues if not handled properly in the context of the async event loop.",
+    "expert": "Asynchronous error handling in the context of a chat interface that uses a language learning model (LLM) with a long generation time is a non-trivial problem. It involves managing the asynchronous execution of long-running tasks without blocking the event loop or causing issues with the user interface. This concept has philosophical implications for the design of efficient and scalable chat interfaces, and it also has connections to other fields such as distributed systems and concurrency."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The issue is not with the architecture, but with the regression introduced when fixing NiceGUI API errors. The streaming logic hasn't changed between the version that worked and now.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

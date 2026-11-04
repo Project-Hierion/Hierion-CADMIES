@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "model_interchangeability_and_adaptation",
+  "title": "Model Interchangeability And Adaptation",
+  "definition": "The concept of swapping and fine-tuning AI models in tools and frameworks, leveraging the flexibility of the Model Context Protocol (MCP) and techniques like LoRA.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.416892Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.416892Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're playing with a toolbox. Even though it's designed for one tool, you can swap it out for another, and with a bit of effort, even make the new tool better suited for your needs.",
+    "intermediate": "Model interchangeability and adaptation allow for the use of different AI models in tools and frameworks, such as Mistral instead of Claude. Fine-tuning techniques like LoRA help to optimize model performance and memory usage.",
+    "expert": "Model interchangeability and adaptation provide flexibility and efficiency in AI toolchains. By using the Model Context Protocol (MCP), which is built to be model-agnostic, different models can be easily swapped. Techniques like LoRA allow for the fine-tuning of models without updating the entire massive model, making it a perfect fit for consumer GPUs. This not only enables the use of different models but also promotes innovation and adaptation in the AI field."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to swap and fine-tune AI models in tools and frameworks, facilitated by the Model Context Protocol (MCP) and techniques like LoRA, allows for flexibility, efficiency, and innovation in the AI field.",
+    "source_chunk": 81,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

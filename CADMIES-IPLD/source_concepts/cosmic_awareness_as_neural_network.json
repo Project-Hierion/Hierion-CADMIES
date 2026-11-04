@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_awareness_as_neural_network",
+  "title": "Cosmic Awareness As Neural Network",
+  "definition": "The concept that the cosmic mind can be understood as a vast, interconnected neural network, where each sentient being is a unique neuron and enlightenment is a synaptic firing that adds to the universal consciousness.",
+  "type": "Concept",
+  "domain": "Philosophy, Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.716418Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.716418Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe as a giant brain. Each person is a special neuron in this brain, and every thought they have is like a tiny spark. When people have deep insights, these sparks connect and help the whole brain think better.",
+    "intermediate": "The cosmic mind can be understood as a neural network. Enlightenment occurs when a unique pattern of electrical potentials (sensations, emotions, thoughts) within a sentient being reaches a critical threshold, causing the neuron (individual) to fire. This firing adds to the universal consciousness, creating a more coherent knowing.",
+    "expert": "This concept draws from both philosophy (e.g., Advaita Vedanta's notion of Brahman) and neuroscience (e.g., Hebb's theory of cell assemblies). It proposes that the cosmic mind is a vast, interconnected neural network where each sentient being is a unique neuron. Enlightenment occurs when a unique pattern of electrical potentials (sensations, emotions, thoughts) within a sentient being reaches a critical threshold, causing the neuron (individual) to fire. This firing adds to the universal consciousness, creating a more coherent knowing. The concept highlights the interdependence of consciousness, the exploration of truth through diversity, and the novelty of each individual's contribution to the whole."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Each person is a unique neuron in the cosmic brain, contributing their own perspective and insight to the universal consciousness.",
+    "source_chunk": 127,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

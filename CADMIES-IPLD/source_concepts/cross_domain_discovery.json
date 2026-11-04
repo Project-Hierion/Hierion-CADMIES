@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cross_domain_discovery",
+  "title": "Cross Domain Discovery",
+  "definition": "The process of finding meaningful connections and insights between concepts from different disciplines or domains.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.865462Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.865462Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a smart librarian who knows your topic and finds books from different sections to help you better understand it.",
+    "intermediate": "Cross-domain discovery is an AI technique that leverages the power of semantic search to expand the scope of a query beyond its immediate context, enabling the discovery of relevant concepts from various related domains.",
+    "expert": "Cross-domain discovery is a novel approach in AI that not only enhances search accuracy but also fosters interdisciplinary understanding and innovation. By combining the strengths of keyword matching and semantic query expansion, it offers a more comprehensive and nuanced exploration of complex concepts. This technique challenges traditional siloed knowledge systems, promoting cross-pollination and collaborative exploration of diverse fields."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The hybrid search, combining keyword matching with Mistral-powered semantic query expansion, successfully identified cross-domain concepts that were not present in the original query.",
+    "source_chunk": 89,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

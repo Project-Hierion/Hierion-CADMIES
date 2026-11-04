@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "harmonious_cosmology",
+  "title": "Harmonious Cosmology",
+  "definition": "The concept that the rhythm and movement of everyday phenomena, like a washing machine, echo the fundamental patterns and processes in the universe, particularly in the behavior of black holes.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.740008Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.740008Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine that the rhythmic movements in your washing machine are like the dance of the universe. This concept suggests that these patterns tell us something deeper about the nature of the cosmos, particularly about the mysterious objects called black holes.",
+    "intermediate": "This concept posits that the harmonic geometry of black holes, as revealed through the principles of general relativity, can be observed on a smaller scale in everyday objects, such as a washing machine. This connection suggests a deeper unity in the universe.",
+    "expert": "This concept reveals a hidden symmetry between the macroscopic behavior of black holes and the microscopic behavior of everyday objects. By understanding this symmetry, we may gain new insights into the nature of space-time, the fundamental laws of physics, and even the boundary conditions of our universe. This insight bridges the gap between classical physics and quantum mechanics, and has implications for string theory and the holographic principle."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The rhythm and movement of everyday phenomena echo the fundamental patterns and processes in the universe.",
+    "source_chunk": 117,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "metaphysical_focus",
+  "title": "Metaphysical Focus",
+  "definition": "The specialization of a system in exploring and understanding metaphysical and philosophical concepts, as opposed to physical or mathematical concepts.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.546129Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.546129Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a system that focuses on understanding the nature of reality and existence, rather than just numbers and physical objects. That's a metaphysical focus.",
+    "intermediate": "A metaphysical focus involves a specialization in exploring and understanding concepts related to the nature of reality, existence, consciousness, and the relationship between mind and matter. This focus is facilitated by the inclusion of metaphysical concepts in the system's knowledge base.",
+    "expert": "A metaphysical focus is a unique aspect of this system. It allows for the exploration of complex and abstract concepts that are central to many philosophical traditions, including idealism, materialism, and phenomenology. This focus is connected to the philosophy of science and the study of the nature of knowledge, with implications for fields such as philosophy of mind and consciousness studies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system's metaphysical focus sets it apart from other systems, enabling it to explore and understand unique and abstract concepts that are central to many philosophical traditions.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

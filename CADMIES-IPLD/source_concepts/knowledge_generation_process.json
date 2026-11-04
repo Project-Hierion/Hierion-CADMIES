@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_generation_process",
+  "title": "Knowledge Generation Process",
+  "definition": "The process of creating new concepts and insights through the analysis of input data and the application of artificial intelligence.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.516506Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.516506Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a machine that reads information, understands it, and then creates new ideas. It's like having a super smart friend who can learn from different topics and connect the dots.",
+    "intermediate": "Knowledge generation involves taking raw text input, identifying key concepts, and then applying artificial intelligence to create new insights. This process can be facilitated by techniques such as natural language processing and machine learning.",
+    "expert": "The knowledge generation process can be seen as a complex interplay of various fields, including artificial intelligence, computer science, and linguistics. It involves not only understanding the input data but also considering the context, cultural nuances, and potential biases. Furthermore, the process can be iterative, with new insights leading to further exploration and refinement of concepts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the process of knowledge generation and the creation of new concepts, demonstrating how artificial intelligence can be used to extract insights from raw text data.",
+    "source_chunk": 105,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

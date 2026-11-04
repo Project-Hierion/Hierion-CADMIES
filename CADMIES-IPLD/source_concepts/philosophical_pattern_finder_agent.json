@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_pattern_finder_agent",
+  "title": "Philosophical Pattern Finder Agent",
+  "definition": "A cognitive agent that identifies self-similar patterns and connections across metaphysical concepts using our existing philosophical knowledge base.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.279752Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.279752Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "fractal_resonance_hypothesis"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a smart machine that helps us find connections between different ideas. It looks for patterns in our existing knowledge, helps us discover new insights, and even solves real-world problems.",
+    "intermediate": "The philosophical pattern finder agent is a tool that systematically explores the interconnections among diverse concepts in metaphysics. It aids in discovering patterns that can explain complex issues and provide new solutions.",
+    "expert": "The philosophical pattern finder agent represents a new approach to philosophical inquiry, combining empirical data with philosophical analysis. It has potential applications in artificial intelligence, ethics, and metaphilosophy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The development of a tool that can aid in discovering patterns and connections across metaphysical concepts, providing new insights and solutions.",
+    "source_chunk": 94,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

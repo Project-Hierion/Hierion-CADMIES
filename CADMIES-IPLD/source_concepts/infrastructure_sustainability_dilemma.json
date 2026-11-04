@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "infrastructure_sustainability_dilemma",
+  "title": "Infrastructure Sustainability Dilemma",
+  "definition": "The challenge of maintaining the physical and operational infrastructure for decentralized systems without introducing centralized control points.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.336571Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.336571Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're playing a game online, and the servers need to be in one place. This creates a central point that might be a target for attacks or lead to increased cost. But, if we spread these servers around, it becomes hard to maintain them all.",
+    "intermediate": "The infrastructure sustainability dilemma refers to the challenge of maintaining the physical and operational infrastructure for decentralized systems, such as blockchain networks, without reintroducing centralized control points. This leads to problems like cost, security, and jurisdiction vulnerability.",
+    "expert": "The infrastructure sustainability dilemma is a philosophical and practical challenge that reveals the limitations of pure decentralization in the digital age. It highlights the need for a balance between the benefits of decentralization, such as resilience and security, and the costs of maintaining the required infrastructure. This dilemma has deep philosophical implications, as it questions the extent to which true decentralization is possible and whether it is a desirable goal."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The infrastructure sustainability dilemma reveals the need for a balance between the benefits of decentralization and the costs of maintaining the required infrastructure.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_governed_document",
+  "title": "Community Governed Document",
+  "definition": "A document that is maintained and evolved by a community, protected from exploitation, and adaptable to community needs.",
+  "type": "Concept",
+  "domain": "Governance",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.372950Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.372950Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a document that a group of people create and manage together. It's not owned by anyone, can't be sold, and the group decides how it changes. No one can claim it's theirs.",
+    "intermediate": "A community-governed document is a social contract that is protected from unauthorized modification and commercial exploitation. Its evolution is guided by a community consensus process, not a license.",
+    "expert": "A community-governed document is a unique form of governance that combines elements of both decentralized and centralized systems. It enables a community to create and maintain a shared resource while protecting it from unauthorized modification. This is a novel approach to governance that has implications for both digital and physical communities, and it can be seen as a bridge between copyright and governance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The document's enforcement mechanism is community reputation and interoperability, not copyright law. If someone violates the treaty, they get forked out of the commons.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

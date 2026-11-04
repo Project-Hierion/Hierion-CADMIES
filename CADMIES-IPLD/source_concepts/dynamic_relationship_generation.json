@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dynamic_relationship_generation",
+  "title": "Dynamic Relationship Generation",
+  "definition": "The process of generating new relationships between concepts in a knowledge system based on computational power and model training.",
+  "type": "Concept",
+  "domain": "Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.457785Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.457785Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a relationship generator as a smart system that learns and adds connections between ideas based on what it knows. It's like having a super-smart friend who can help you make new connections between things you're learning.",
+    "intermediate": "Dynamic relationship generation in a knowledge system is a process that leverages computational power and machine learning techniques to establish new connections between existing concepts. This process can help expand the knowledge base, enhance understanding, and reveal new insights.",
+    "expert": "Dynamic relationship generation in knowledge systems is a sophisticated field that explores the interplay between computational power, machine learning, and philosophy. It can be seen as a contemporary application of the ancient Greek concept of synthesis, where new insights and connections are created through the combination of known elements. This process can be philosophically significant as it challenges traditional notions of knowledge representation and highlights the dynamic nature of knowledge systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Dynamic relationship generation in knowledge systems can be thought of as a symbiotic relationship between computational power and the philosophical pursuit of understanding the interconnectedness of concepts.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

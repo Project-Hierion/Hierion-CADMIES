@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_evolution",
+  "title": "Symbiotic Evolution",
+  "definition": "The concept of a project evolving symbiotically with the life it studies, creating a living mirror of complexity and interdependence.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.972701Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.972701Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine this project as a living thing that grows and changes just like the natural world. It learns and adapts by observing and becoming part of the system it studies.",
+    "intermediate": "The Hieros Network is not just a tool; it's a system that evolves alongside the life forms and concepts it connects. It learns from its interactions with the scientific community and adapts to become a more accurate and useful resource.",
+    "expert": "The symbiotic evolution of the Hieros Network reflects the interdependence and co-evolution of life and knowledge. It challenges the traditional separation between observer and observed, and suggests a more holistic and dynamic model of scientific inquiry. This insight connects to the philosophy of science and the broader study of systems and complexity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Hieros Network's evolution is a living mirror of the complexity and interdependence of life and knowledge.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

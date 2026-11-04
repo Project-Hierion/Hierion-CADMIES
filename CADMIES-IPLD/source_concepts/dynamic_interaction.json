@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dynamic_interaction",
+  "title": "Dynamic Interaction",
+  "definition": "A concept that focuses on the continuous and reciprocal influences that various aspects of reality have on each other, particularly within complex systems.",
+  "type": "Concept",
+  "domain": "Complexity Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.229120Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.229120Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a dance between different elements where each move affects the other, creating a beautiful and ever-changing pattern. This is like dynamic interaction.",
+    "intermediate": "Dynamic interaction is a fundamental principle in complexity science that describes how different components of a system interact and evolve over time. It's often visualized as a web of interconnected nodes or a network.",
+    "expert": "Dynamic interaction is a cornerstone of complex systems theory, which explores the behavior of networks and systems composed of many components. It challenges traditional reductionist views by highlighting the emergent properties that arise from these interactions. Dynamic interaction is also found in various fields, from ecology to economics, and its philosophical implications include the denial of absolute truth and the nature of reality as an ongoing process."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the concept of dynamic interaction, a fundamental principle in complexity science that describes the continuous and reciprocal influences of various aspects of reality.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

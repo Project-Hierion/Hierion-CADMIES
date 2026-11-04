@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "collaborative_knowledge_integration",
+  "title": "Collaborative Knowledge Integration",
+  "definition": "The process of integrating new knowledge and tools into an existing system while maintaining a partnership relationship.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.406016Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.406016Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a garden with different plants. Adding new tools or knowledge is like adding more plants. We value collaboration and respect for each entity's unique contributions.",
+    "intermediate": "Collaborative knowledge integration involves understanding the strengths of existing tools and incorporating new ones. This process ensures that the system remains diverse and adaptable.",
+    "expert": "Collaborative knowledge integration is a philosophical convergence between the system and partner entities. It goes beyond simple integration or collaboration. It's about creating a new edge in the knowledge graph, fostering a culture of learning and growth."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The process of integrating new knowledge and tools into an existing system while maintaining a partnership relationship can lead to a richer, more adaptable knowledge base.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

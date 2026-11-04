@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conversational_insight_harvesting",
+  "title": "Conversational Insight Harvesting",
+  "definition": "The process of extracting, transforming, and minting new scientific concepts from a conversational context.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.627473Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.627473Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a magical machine that turns everyday conversations into new scientific ideas. That's conversational insight harvesting.",
+    "intermediate": "Conversational insight harvesting is a pipeline that extracts concepts from a conversation, transforms them into a standard format, and mints them as new scientific entities. This process involves searching the mycelium for relevant existing concepts and validating the quality of new concepts.",
+    "expert": "Conversational insight harvesting is a novel approach that bridges the gap between human communication and scientific knowledge. It leverages natural language processing and machine learning to extract concepts from a conversation and transform them into UniversalScientificConcept objects. This process not only enables the discovery of new scientific insights but also challenges traditional approaches to knowledge representation and verification. By mining the mycelium for relevant existing concepts, it ensures the creation of a rich and interconnected network of scientific knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Conversational insight harvesting is a novel approach that leverages natural language processing and machine learning to extract, transform, and mint new scientific concepts from a conversational context.",
+    "source_chunk": 90,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

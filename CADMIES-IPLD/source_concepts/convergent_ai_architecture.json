@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "convergent_ai_architecture",
+  "title": "Convergent Ai Architecture",
+  "definition": "The pattern where two independent AI systems, built by different people, converge on a similar architectural design, validating its utility and significance.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.907797Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.907797Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two different teams, in different countries, build separate AI systems. Surprisingly, they both end up with a similar design. This shows that this design is a good solution to a common problem.",
+    "intermediate": "Convergent AI architecture refers to the recurring pattern where independent AI systems, developed by different individuals or teams, converge on a similar architectural design. This convergence validates the utility and significance of the design, as it has been independently discovered by multiple parties.",
+    "expert": "Convergent AI architecture is a notable observation in the field of artificial intelligence. It occurs when two or more independent AI systems, developed by different individuals or teams, converge on a similar architectural design. This convergence is not merely a coincidence but rather a demonstration of the design's utility and significance. It also highlights the commonality of problem-solving approaches in the field, as multiple teams have independently arrived at a similar solution. Additionally, convergent AI architecture has implications for the broader field of complex systems and pattern recognition, as it suggests that certain architectural designs are more likely to emerge when solving specific problems."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recurring pattern of convergent AI architecture, where independent systems developed by different teams converge on a similar design, validates its utility and significance.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

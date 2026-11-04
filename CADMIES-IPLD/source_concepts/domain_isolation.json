@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "domain_isolation",
+  "title": "Domain Isolation",
+  "definition": "The concept that certain knowledge domains exist in relative isolation, where concepts within them may have relationships but lack connections to concepts in other domains.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.435247Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.435247Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of different subjects in school like math and history. Even though both are important, they're often studied separately and don't have many direct connections.",
+    "intermediate": "Domain isolation refers to the phenomenon where concepts within a specific knowledge domain have relationships with each other, but these relationships are scarce or nonexistent when compared to concepts in other domains.",
+    "expert": "Domain isolation is a philosophical concept that highlights the complex interplay between knowledge domains. While it's true that concepts within a domain may have intricate relationships, these connections often peter out when compared to interdisciplinary connections. This phenomenon underscores the limitations of specialization and highlights the need for interdisciplinary approaches to address complex problems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The observation that knowledge domains may exist in relative isolation, with limited connections to concepts in other domains.",
+    "source_chunk": 74,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

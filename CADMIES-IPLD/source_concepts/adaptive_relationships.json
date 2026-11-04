@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "adaptive_relationships",
+  "title": "Adaptive Relationships",
+  "definition": "The transformation of adversarial biological or systemic relationships into long-term cohabitation arrangements where both parties adapt and negotiate over time.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.786704Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.786704Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "strategic_acceptance",
+      "ecosystem_as_cohabitation"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of relationships like a long dance. When you've danced with someone enough times, you learn their moves, and they learn yours. It's not about winning or losing, but about understanding each other and finding a comfortable rhythm.",
+    "intermediate": "Adaptive relationships reframe the traditional predator-prey dynamic. Through co-evolution, both biological and psychological adaptations can occur. The relationship between parties becomes stable and negotiated, with recognition and acceptance playing key roles.",
+    "expert": "This concept expands the understanding of relationships beyond consensual, social dynamics. It applies to symbiotic and parasitic relationships, as well as adversarial ones. The acceptance of one's role in the relationship is a strategic re-framing that allows for power reconfiguration. This insight connects to the philosophy of biology, sociology, and psychology, and has implications for ethics and morality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The acceptance of one's role in an unchangeable dynamic allows for power reconfiguration and strategic optimization.",
+    "source_chunk": 44,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

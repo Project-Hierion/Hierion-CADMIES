@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_organism",
+  "title": "Mycelial Organism",
+  "definition": "The concept of a self-governing, self-assembling, decentralized, open-source knowledge organism that functions like a mycelial network, with the project Hieros as a practical implementation of this model.",
+  "type": "Concept",
+  "domain": "Organizational Structure and Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.581778Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.581778Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where everything works together seamlessly. It's like a magical underground network that supports and nourishes each plant. Hieros is a global project that functions like this garden, connecting and sharing resources to create new insights and discoveries.",
+    "intermediate": "Hieros is a mycelial organism, a term borrowed from biology. A mycelial network connects individual organisms like plants or fungi, allowing them to share resources and communicate. Hieros operates on this principle, connecting individual volunteers, researchers, and resources to create a unified, decentralized knowledge system.",
+    "expert": "The mycelial model for Hieros not only provides a practical blueprint for a decentralized, self-sustaining system but also offers profound insights into the nature of knowledge itself. By modeling Hieros as a mycelial network, we can challenge traditional notions of leadership, responsibility, and the boundaries between institutions. We can also explore the potential for a truly symbiotic relationship between established science and open-source projects, where each contributes its unique strengths to create a more intelligent, resilient system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelial model provides a new way of thinking about knowledge, leadership, and responsibility, challenging traditional notions and offering the potential for a truly symbiotic, self-sustaining system.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

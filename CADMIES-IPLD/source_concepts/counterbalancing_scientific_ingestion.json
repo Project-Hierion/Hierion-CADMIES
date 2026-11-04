@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "counterbalancing_scientific_ingestion",
+  "title": "Counterbalancing Scientific Ingestion",
+  "definition": "The process of ingesting and integrating knowledge from scientific domains to complement and counterbalance existing concepts, ensuring a balanced and comprehensive knowledge graph.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.493456Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.493456Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as feeding a garden with a mix of seeds. We're currently focusing on philosophical ideas. To grow a healthier garden, we need to add seeds from different areas like science.",
+    "intermediate": "Counterbalancing scientific ingestion involves incorporating concepts from STEM domains such as Neuroscience, Chemistry, Economics, Medicine, and Mathematics into the knowledge graph. This ensures that the graph is not overly philosophical and has a more well-rounded understanding of the world.",
+    "expert": "Counterbalancing scientific ingestion is crucial for a balanced knowledge graph. It allows the graph to transcend philosophical abstraction and ground its insights in the physical, chemical, biological, and economic realities that thinking emerged from. This process not only strengthens the scientific rigor of the graph but also enhances its interdisciplinary insights and its ability to make practical contributions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The knowledge graph's strength lies in its ability to balance philosophical insights with scientific knowledge, ensuring a well-rounded understanding of the world.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

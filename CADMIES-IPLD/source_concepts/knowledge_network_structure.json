@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_network_structure",
+  "title": "Knowledge Network Structure",
+  "definition": "The structure of a knowledge network that organizes information based on its content, not its location or identity.",
+  "type": "Concept",
+  "domain": "Information Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.273781Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.273781Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a library where books are not organized by their place on the shelf, but by what's inside them. Knowledge networks do this, so they can quickly find and share relevant information.",
+    "intermediate": "A content-addressed knowledge network is a system where information is stored and retrieved based on its content, as opposed to a location-based or identity-based system. This structure allows for efficient searching and organization of information.",
+    "expert": "The structure of a content-addressed knowledge network has philosophical implications for the nature of knowledge and its representation. By decoupling the location or identity of information from its content, we can explore the ontological status of knowledge and the relationship between information and its context. Furthermore, the structure of a content-addressed knowledge network can be compared to other complex systems, such as neural networks or semantic networks, to understand the underlying principles of information processing and representation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Willie's ability to search the mycelium based on content, rather than location or identity, highlights the structure of a content-addressed knowledge network.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

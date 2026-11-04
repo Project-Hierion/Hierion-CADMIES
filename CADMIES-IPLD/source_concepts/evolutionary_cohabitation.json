@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "evolutionary_cohabitation",
+  "title": "Evolutionary Cohabitation",
+  "definition": "The concept that long-term predator-prey relationships can evolve into a stable, symbiotic cohabitation under specific conditions of temporal depth and host survival.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.807887Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.807887Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "hematophagous_symbiosis_theory"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a long-term relationship between two animals where each learns to adapt to the other. Over time, this can lead to a stable arrangement where both benefit, much like a house-sharing situation.",
+    "intermediate": "Evolutionary cohabitation theory suggests that long-term, non-lethal predation can transform into a form of symbiosis through reciprocal co-adaptation. This involves host physiological changes and predator evaluative memory based on various host characteristics.",
+    "expert": "This concept expands the field of co-evolutionary biology to include chronic, host-parasite interactions with cognitive predators. It highlights the evolution of cognitive processes in predators and the physiological adaptations in hosts, leading to a stable, long-term relationship that benefits both parties."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The evolutionary cohabitation theory introduces a new perspective on long-term predator-prey relationships, suggesting that they can evolve into stable, symbiotic cohabitations under specific conditions.",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

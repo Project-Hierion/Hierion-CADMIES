@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "chunk_size_optimization",
+  "title": "Chunk Size Optimization",
+  "definition": "The strategic adjustment of the size of text chunks in a processing pipeline to balance efficiency, speed, and the quality of concept extraction.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.730739Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.730739Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like painting a picture. If you use a big brush, you paint faster but might miss small details. If you use a small brush, you see more details but it takes longer. Choosing the right brush size (chunk size) is about finding the balance.",
+    "intermediate": "Chunk size optimization in a processing pipeline involves adjusting the amount of text data processed at once to ensure efficient operation while maintaining the quality of extracted concepts. This can be done by increasing chunk size for faster processing, or decreasing it to capture more nuanced and fine-grained concepts.",
+    "expert": "Chunk size optimization is a critical aspect of pipeline design in various fields, including natural language processing and machine learning. Larger chunks provide more context, which can improve the accuracy of concept extraction. However, they also increase the computational complexity and can lead to the loss of subtle mid-chunk shifts. Smaller chunks capture these nuances but may result in more duplicate concepts due to overlapping boundaries. The optimal chunk size depends on the specific task, the available computational resources, and the desired level of granularity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Adjusting chunk size in a processing pipeline is a strategic decision that balances efficiency, speed, and the quality of concept extraction, with larger chunks providing more context and smaller chunks capturing more nuanced concepts.",
+    "source_chunk": 134,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dual_model_strategy",
+  "title": "Dual Model Strategy",
+  "definition": "A strategy that leverages two different models to optimize for both speed and depth in AI-based systems.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.045710Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.045710Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have two friends. One is quick but not very smart, the other is slow but very knowledgeable. In a conversation, you use your quick friend for casual chit-chat and your smart friend for complex topics. This is a dual-model strategy in AI.",
+    "intermediate": "A dual-model strategy in AI involves maintaining two distinct models: one optimized for speed and another for depth. The speed-optimized model, such as Mistral Chat Fast, is used for casual conversations and quick queries. On the other hand, the intelligence-optimized model, like Mistral Research Pro, is employed for research, analysis, and complex reasoning tasks.",
+    "expert": "The dual-model strategy is a paradigm shift in AI systems, focusing on balancing speed and depth. Speed-optimized models, such as Mistral Chat Fast, operate with minimal overhead and provide quick responses, ideal for casual conversations and quick information retrieval. Intelligent-optimized models, like Mistral Research Pro, incorporate complex mechanisms like Hierarchy of Objects and Graphs (HOG) and Retrieval-Augmented Generation (RAG) to answer complex queries and perform in-depth research. This strategy not only enhances user experience but also showcases the potential of AI in various applications."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The implementation of a dual-model strategy in AI systems demonstrates the balance between speed and depth, improving user experience and showcasing the potential of AI in different applications.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

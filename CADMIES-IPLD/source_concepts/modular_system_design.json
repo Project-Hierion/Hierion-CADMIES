@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "modular_system_design",
+  "title": "Modular System Design",
+  "definition": "A system design that is divided into separate, independent modules or components that can be developed, tested, and updated individually.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.660621Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.660621Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a toy box where each toy is a separate module. You can add new toys (modules), take out old ones, or fix a toy without affecting the others.",
+    "intermediate": "Modular system design is a design principle where a system is divided into modules that can be developed, tested, and updated independently. It allows for easier scalability, maintenance, and replacement of components.",
+    "expert": "Modular system design is a foundational concept in software engineering. It allows for the decomposition of complex systems into smaller, manageable components. This approach facilitates code reusability, fault isolation, and the ability to scale individual components without affecting the whole system. Moreover, it supports the open-closed principle, enabling the system to be extended without modifying its existing source code."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 3-tier backup system is designed as a modular system, with separate pages, components, and scripts. This allows for easier development, maintenance, and scalability.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

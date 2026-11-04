@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "liability_allocation",
+  "title": "Liability Allocation",
+  "definition": "The distribution of responsibility for financial loss or harm, especially in a legal or business context.",
+  "type": "Concept",
+  "domain": "Law and Business",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.164546Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.164546Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like sharing blame when something goes wrong. Instead of saying 'it's not my fault' or leaving someone stranded, we need a clear plan of who should pay for repairs or breakdowns.",
+    "intermediate": "Liability allocation involves the assignment of responsibility for loss, damage, or injury in a contractual or legal relationship. It's about determining who is legally accountable for the consequences of an event, such as a vehicle breakdown.",
+    "expert": "Liability allocation is a complex philosophical question that intersects with moral responsibility, insurance, and risk management. It's also a key issue in contract law and tort law. Philosophically, it raises questions about fairness, justice, and the distribution of costs in a society. From a legal perspective, it involves issues of contract interpretation, causation, and the doctrine of proximate cause. In the context of car-sharing platforms, liability allocation is a crucial aspect of managing risk and ensuring consumer protection."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals the need for a clear and fair liability allocation mechanism in car-sharing platforms, addressing breakdowns and maintenance costs.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

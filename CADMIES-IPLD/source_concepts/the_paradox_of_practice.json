@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_paradox_of_practice",
+  "title": "The Paradox Of Practice",
+  "definition": "The apparent paradox of learning about the cessation of craving while actively engaging with an object of craving, which resolves when the practice has done its work and direct experience replaces conceptual analysis.",
+  "type": "Concept",
+  "domain": "Buddhist_Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.667902Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.667902Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "everyday_dharma",
+      "raft_of_practice"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "mindful_consumption",
+      "middle_path_of_consumption"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It might seem weird to learn about stopping craving while drinking a Coke. But actually, that's the best time to learn \u2014 right in the middle of the experience you're trying to understand.",
+    "intermediate": "The Paradox of Practice presents the untrained mind with an apparent contradiction: practicing cessation while consuming. But the contradiction exists only in concept, not in direct experience. The practitioner is not feeding the chain of craving but observing sensation without attachment.",
+    "expert": "The Paradox of Practice addresses the subtle attachment to spiritual methodology. The paradox resolves when the practice has done its work, and the practitioner experiences direct insight into the nature of craving. This insight allows the practitioner to engage with objects of craving without feeding the chain of craving, thereby practicing the highest level of engagement and liberation."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "everyday_dharma",
+      "raft_of_practice"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The paradox of mindful consumption resolves when the practice has done its work and direct experience replaces conceptual analysis.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "systems_level_stress_response",
+  "title": "Systems Level Stress Response",
+  "definition": "A conserved systems-level response where chronic stress leads to dysregulation of critical systems, increasing vulnerability to minor perturbations.",
+  "type": "Concept",
+  "domain": "Physiology & Systems Theory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.274333Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.274333Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a system like your car. When it's always under a lot of pressure (stress), it wears down and can break down easily with small bumps in the road (perturbations).",
+    "intermediate": "This concept highlights a universal pattern where chronic stress results in dysregulation of critical systems, making the system more sensitive to minor stressors and perturbations, ultimately weakening it.",
+    "expert": "This is a philosophical exploration of the role of stress in complex systems. It not only applies to biological systems like the human body and plants, but also to social and technological systems. The insight is that chronic stress can create a state of heightened sensitivity and fragility, where minor disturbances can lead to disproportionate responses and systemic collapse."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Chronic stress can lead to a system becoming fragile and vulnerable to minor disturbances, ultimately weakening it.",
+    "source_chunk": 120,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

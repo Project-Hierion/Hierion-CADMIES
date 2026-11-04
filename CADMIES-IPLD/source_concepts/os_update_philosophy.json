@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "os_update_philosophy",
+  "title": "Os Update Philosophy",
+  "definition": "The underlying philosophy and design of how operating systems handle updates and changes.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.433402Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.433402Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as how your computer's 'grown-ups' treat changes. Some computers (like Windows and Fedora) assume they know better and make changes without asking, while others (like your USB idea) just sit back and let you decide.",
+    "intermediate": "Operating system update philosophy is about the balance between stability and functionality. Some systems prioritize immediate updates, while others let users decide when to apply changes. This conversation highlights the advantages and disadvantages of each approach.",
+    "expert": "The OS update philosophy is a reflection of broader principles in software development and human-technology interaction. Some systems follow a 'push' model, where updates are pushed to users without consent, while others adopt a 'pull' model, allowing users to decide when and how to apply changes. This insight connects to broader discussions about user agency, control, and trust in technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals that the 'push' model of immediate updates in some operating systems can be frustrating and wasteful, while the 'pull' model of user-controlled updates offers a more efficient and satisfying experience.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

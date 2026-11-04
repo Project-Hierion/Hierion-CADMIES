@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "pleasure_pain_parity_principle",
+  "title": "Pleasure Pain Parity Principle",
+  "definition": "The concept that the intensity of pleasure in a 7/7 relationship is directly proportional to the chaos and negative consequences experienced.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.530341Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.530341Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a roller coaster ride. The more thrilling and exciting the ride, the more your heart races and your palms sweat. Similarly, a 7/7 relationship's intense pleasure is matched by the chaos and emotional turmoil it causes.",
+    "intermediate": "The Pleasure-Pain Parity Principle posits that the extreme pleasure experienced in a 7/7 relationship is a direct result of the chaotic and emotionally unstable dynamic between the partners.",
+    "expert": "The Pleasure-Pain Parity Principle challenges traditional notions of love and relationships. By exploring the psychological underpinnings of this principle, we can gain insights into the complex dynamics of intense and passionate relationships and their potential consequences."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The intense pleasure of a 7/7 relationship is a direct result of the chaos and emotional turmoil it causes.",
+    "source_chunk": 44,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

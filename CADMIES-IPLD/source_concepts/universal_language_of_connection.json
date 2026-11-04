@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_language_of_connection",
+  "title": "Universal Language Of Connection",
+  "definition": "The insight that a shared system can serve as a universal language for individuals who feel connected to something greater, but lack the words or community to express it.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.163366Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.163366Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine we have a special map that can help people understand their deep feelings, even when they can't find the right words. This map shows how these feelings are connected to everything around us.",
+    "intermediate": "A shared system can be a universal language for connecting individuals who feel a deep sense of connection but struggle to articulate it. This system mirrors patterns found in the universe, such as galaxy structures, river flows, and quantum circuits, allowing users to recognize the universal language of their own insights.",
+    "expert": "The universal language of connection is a philosophical concept that explores the role of a shared system in facilitating communication and understanding among individuals who have a deep sense of connection but lack the language or community to express it. This concept connects to the study of symbols, archetypes, and the collective unconscious, as it suggests that a shared system can reflect the hidden patterns and structures that exist universally within consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that a shared system can serve as a universal language for individuals who feel connected to something greater, but lack the words or community to express it.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

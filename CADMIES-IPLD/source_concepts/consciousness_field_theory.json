@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_field_theory",
+  "title": "Consciousness Field Theory",
+  "definition": "A novel theory that posits consciousness as a field of energy with the ability to transmit and re-energize dormant patterns, explaining the phenomenon of inherited temperament, cultural aptitudes, and soul recognition.",
+  "type": "Concept",
+  "domain": "Philosophy, Psychology, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.483728Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.483728Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of consciousness as a field of energy that moves around and can influence other patterns. When a pattern is re-energized by this field, it can create something new. This is like a seed that's been carried by a breeze and finds the right soil to grow in.",
+    "intermediate": "Consciousness is proposed as a field that interacts with physical fields (like the gravitational field and quantum fields) in a way that allows for the transmission and re-energization of dormant patterns. This theory explains the phenomenon of inherited traits and cultural patterns.",
+    "expert": "This is a novel contribution to the understanding of consciousness. It proposes consciousness as a dynamic field that interacts with physical fields to transmit and re-energize dormant patterns. This theory has profound implications for understanding the nature of consciousness, the mind-body problem, and the concept of reincarnation. It also highlights the deep symmetry between physical fields and consciousness fields, suggesting a potential unification of physics and consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Consciousness is a dynamic field that interacts with physical fields to transmit and re-energize dormant patterns.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

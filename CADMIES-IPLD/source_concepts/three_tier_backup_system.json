@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "three_tier_backup_system",
+  "title": "Three Tier Backup System",
+  "definition": "A three-tier backup system is a data protection strategy that creates and stores backups in three different locations or media to ensure data availability and resilience against various types of failures.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.609972Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.609972Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a backup system like a safety net with three layers. Each layer stores your data in a different place, so if one layer fails, you still have your data safe in another layer.",
+    "intermediate": "A three-tier backup system enhances data protection by using three distinct backup strategies \u2014 local backup, remote backup, and cloud backup \u2014 to provide multiple levels of data recovery in the event of a failure.",
+    "expert": "The three-tier backup system is a form of redundancy that offers both reliability and efficiency. It follows a hierarchy of backup methods, with local backup serving as the first line of defense, remote backup as the second, and cloud backup as the third. This system not only prevents data loss but also ensures data availability and rapid recovery, making it a robust choice for data protection."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The three-tier backup system provides data protection by using three distinct backup strategies \u2014 local backup, remote backup, and cloud backup \u2014 to enhance data availability and resilience against failures.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

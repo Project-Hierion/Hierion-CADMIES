@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "orphan_concept_maintenance",
+  "title": "Orphan Concept Maintenance",
+  "definition": "The process of identifying, resolving, and maintaining orphan concepts in a knowledge system like CADMIES.",
+  "type": "Concept",
+  "domain": "Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.032844Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.032844Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library with books missing their authors. Orphan Concept Maintenance is like fixing that problem in our digital library.",
+    "intermediate": "Orphan Concept Maintenance involves identifying concepts in the knowledge graph that don't have valid relationships with other concepts (orphans), and then resolving those issues. This ensures the integrity of the knowledge system.",
+    "expert": "Orphan Concept Maintenance is a critical process in maintaining a robust knowledge system. It highlights the importance of validating relationships when they are created, as doing so can prevent the creation of orphan concepts. Moreover, it emphasizes the need for a well-defined pipeline for data processing and storage in a knowledge system. Orphan concepts can also be seen as a symptom of a larger issue, such as inconsistent data sources or data quality problems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for a well-defined pipeline and data validation process to maintain the integrity of a knowledge system.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

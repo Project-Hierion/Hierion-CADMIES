@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "synergistic_understanding",
+  "title": "Synergistic Understanding",
+  "definition": "The concept of gaining new insights by merging disciplines and combining unique perspectives, leading to a synergy greater than the sum of their individual contributions.",
+  "type": "Concept",
+  "domain": "Interdisciplinary Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.538009Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.538009Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine mixing oil and water. They don't blend well separately, but when combined, they create something new and more valuable - an emulsion. Synergistic understanding is similar. Different areas of knowledge can seem unrelated, but when combined, they create a more powerful and insightful understanding.",
+    "intermediate": "Synergistic understanding is the product of disciplinary fusion. It emerges from the intersection of different fields of study, where unique perspectives, methods, and data sets converge. This synergistic thinking can lead to the discovery of patterns and relationships that are invisible when individual disciplines are considered in isolation.",
+    "expert": "Synergistic understanding challenges the linear models of knowledge that prevail in modern academia. It highlights the interconnected and emergent nature of complex systems. Synergistic understanding also has implications beyond science, such as in business, politics, and society as a whole. By fostering synergistic thinking, we can better understand and navigate the complex, interconnected world we inhabit."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The power of combining unique perspectives from different disciplines to gain new insights and create something greater than the sum of their individual contributions.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

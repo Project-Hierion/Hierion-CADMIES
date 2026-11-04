@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "orphan_edge_cleanup",
+  "title": "Orphan Edge Cleanup",
+  "definition": "A phase in the infrastructure status which involves identifying and resolving unconnected edges, or orphan edges, in the data structure.",
+  "type": "Concept",
+  "domain": "Data Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.058544Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.058544Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a game of Pac-Man. Orphan edges are like those lonely dots that Pac-Man can't eat because they're not connected to the main path. They need a cleanup to be part of the whole game.",
+    "intermediate": "In a graph structure, orphan edges are edges that are not connected to any nodes. This phase of the infrastructure status involves identifying these orphan edges and deciding how to handle them.",
+    "expert": "The concept of orphan edge cleanup builds upon graph theory and data structure principles. It is a critical step in data quality assurance to ensure the integrity of the data structure. However, it presents challenges such as deciding whether to create a new phase or fold it into an existing one, and considering the philosophical implications of unconnected data."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The decision to create a new phase or fold it into an existing one highlights the continuous evolution and adaptation of the infrastructure status.",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

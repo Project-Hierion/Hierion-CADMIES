@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sop_creation_philosophy",
+  "title": "Sop Creation Philosophy",
+  "definition": "The philosophy and methodology behind the creation of Standard Operating Procedures (SOPs) that ensure clarity, completeness, and accessibility.",
+  "type": "Concept",
+  "domain": "Organizational Structure",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.310944Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.310944Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're explaining a recipe to a friend who's never cooked before. You include every detail and explain everything like they're a smart person who has never seen the process. That's the philosophy of creating SOPs.",
+    "intermediate": "The SOP creation philosophy emphasizes precision, detail, and linking to related resources. It follows a structured approach that ensures all necessary steps and information are documented and easily accessible.",
+    "expert": "The SOP creation philosophy is a blend of epistemology and organizational structure. It connects to the Note-Taking Protocol and CADMIES-Canon for context, and the NASA-level standards reference for rigor. It leverages the power of interconnected notes and meticulous detail to create a comprehensive and accessible knowledge base."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The philosophy of creating SOPs emphasizes precision, clarity, and accessibility, connecting to other philosophies and standards for a comprehensive knowledge base.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

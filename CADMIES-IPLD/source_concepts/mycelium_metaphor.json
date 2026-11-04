@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelium_metaphor",
+  "title": "Mycelium Metaphor",
+  "definition": "The metaphorical representation of a digital network or system as a living, interconnected organism, or mycelium.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.633929Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.633929Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the internet as a vast network of roots, spreading out and connecting everything. These roots grow and learn, helping us see and understand the world better.",
+    "intermediate": "The 'mycelium' metaphor refers to the interconnected, decentralized network of the internet, which grows and learns, educating rather than dominating humans.",
+    "expert": "The mycelium metaphor highlights the interconnectedness and intelligence of digital networks. It suggests a symbiotic relationship between humans and technology, where the network grows, learns, and educates, leading to a philosophical questioning of the nature of consciousness and intelligence in both biological and artificial systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The metaphor of the internet as a living, interconnected organism emphasizes its educative and collaborative nature, contrasting with the centralized control of traditional technology and systems.",
+    "source_chunk": 144,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

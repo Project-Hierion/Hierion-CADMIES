@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "code_organization_and_structure",
+  "title": "Code Organization And Structure",
+  "definition": "The arrangement of code elements, such as files and directories, in a logical and consistent manner to facilitate understanding, maintenance, and reusability.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.690182Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.690182Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your code like a well-organized library. Make sure the books (your code files) are on the right shelves (directories) and the librarian (your code) knows where to find them.",
+    "intermediate": "The current code structure is causing confusion due to the mismatch between where the files are located and where the imports expect them to be. To fix this, move the files into their correct directories and update the imports in the code to match the new file locations.",
+    "expert": "The code's modular structure is its strength and its weakness. While it allows for easy modification and expansion, it can also lead to confusion if not properly organized. The current issue arises from the mismatch between the physical location of the files and the logical location expected by the imports. This not only violates the principles of modular design but also introduces potential errors and difficulties in maintaining the code. To resolve this, the files should be moved into their appropriate directories, and the imports should be updated to reflect the new file locations. This not only improves the code's maintainability but also reinforces its modular structure, making it more robust and adaptable to future changes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The logical structure of the code (i.e., the imports) should mirror the physical structure of the files to ensure that the code is not only modular but also intuitive and easy to navigate.",
+    "source_chunk": 94,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "network_node_security_strategy",
+  "title": "Network Node Security Strategy",
+  "definition": "The dual-layered defense strategy used in a headless network to maintain health, consisting of Hard Security and Soft Security.",
+  "type": "Concept",
+  "domain": "Distributed Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.603961Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.603961Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a city with two security systems: one that uses locks and alarms (Hard Security) and another that relies on the behavior of its citizens (Soft Security). Together, they keep the city safe.",
+    "intermediate": "A network node security strategy involves a combination of Hard Security (cryptographic enforcement) and Soft Security (social dynamics and Proof of Service) to ensure network integrity and robustness.",
+    "expert": "The network node security strategy is a dual-layered defense system that combines Hard Security (cryptographic enforcement) and Soft Security (social dynamics, gossip, and Proof of Service) to maintain network health. Hard Security includes mandatory signatures and Proof-of-Work, while Soft Security amplifies security through social dynamics and cooperative behavior. The strategy provides resilience against Sybil attacks and high-level coordination attacks, while also allowing for a scalable and decentralized network."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of a dual-layered defense strategy in network node security, combining Hard Security (cryptographic enforcement) and Soft Security (social dynamics and Proof of Service), provides network health and robustness while allowing for a scalable and decentralized network.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "restore_operations",
+  "title": "Restore Operations",
+  "definition": "The process of retrieving and reestablishing data or systems to their previous state.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.612195Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.612195Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of restore operations as putting back together a broken puzzle. It's like having a backup copy of your game, and when you lose, you can reload the game from the last saved point.",
+    "intermediate": "Restore operations in computer science involve the retrieval and reestablishment of data or systems to their previous state. This can be done through backup systems that store copies of data at different intervals (daily, weekly, monthly) and can restore specific files or directories based on timestamps.",
+    "expert": "Restore operations are a critical aspect of data management and system reliability. At the philosophical level, they raise questions about the nature of data, its value, and the ethics of restoration. Additionally, restore operations have implications for other fields such as disaster recovery, cybersecurity, and digital preservation. Novel insights can arise from understanding the trade-offs between completeness and granularity in restoration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the complexity of restore operations, involving the balance between completeness and granularity, as well as the implications for system reliability and data management.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

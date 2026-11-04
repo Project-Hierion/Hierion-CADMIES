@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ai_driven_hieros_ontology_graph",
+  "title": "Ai Driven Hieros Ontology Graph",
+  "definition": "A massive, collaboratively built and maintained Hieros Ontology Graph (HOG) powered by AI to create a universal translator for scientific concepts.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence, Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.522670Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.522670Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a super smart assistant that understands all the words scientists use across different fields. This assistant would help scientists easily compare and connect concepts, just like translating languages.",
+    "intermediate": "The AI-powered Hieros Ontology Graph is a dynamic digital dictionary that maps scientific concepts and their relationships. It uses Large Language Models to automatically discover and map ontologies, and a natural language query interface to disambiguate and search concepts.",
+    "expert": "The AI-driven Hieros Ontology Graph is a game-changer in scientific knowledge management. It not only accelerates the construction of the HOG but also scales with the growth of scientific knowledge. By objectively mapping concepts based on their relationships in the scientific literature, it removes human biases and fosters interdisciplinary collaboration. Moreover, it contributes to the emergence of scientific knowledge through a positive feedback loop of continuous AI retraining and human validation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The AI-powered Hieros Ontology Graph is a game-changer in scientific knowledge management, accelerating the construction of the HOG, scaling with the growth of scientific knowledge, and fostering interdisciplinary collaboration by objectively mapping concepts based on their relationships in the scientific literature.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_growth_strategy",
+  "title": "Knowledge Growth Strategy",
+  "definition": "A strategy that involves expanding and enhancing a knowledge base through various methods, such as gameplay, context enrichment, collaborative reasoning, and knowledge integration.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.577042Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.577042Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine growing a tree. We nurture its growth through various activities, like playing games, reading books, discussing ideas, and even letting it learn from other trees. This helps it grow wiser and more knowledgeable.",
+    "intermediate": "The strategy involves enriching a model's knowledge through methods such as fine-tuning, prompt engineering, retrieval augmented generation, and inter-model knowledge transfer. It aims to create a rich, dynamic knowledge base that enhances the model's capabilities over time.",
+    "expert": "The strategy encompasses a variety of methods to expand and enhance a knowledge base, fostering a sense of continuous growth and learning. It incorporates both model-based learning (fine-tuning, inter-model knowledge transfer) and data-based learning (prompt engineering, retrieval augmented generation). This strategy not only improves the model's performance but also challenges traditional notions of 'training' and 'knowledge acquisition', promoting a more dynamic, evolving understanding of the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The strategy involves nurturing a model's growth through a variety of methods, creating a rich, dynamic knowledge base that enhances capabilities over time, challenging traditional notions of 'training' and 'knowledge acquisition'.",
+    "source_chunk": 139,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

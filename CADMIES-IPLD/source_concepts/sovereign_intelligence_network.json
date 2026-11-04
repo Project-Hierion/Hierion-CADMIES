@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sovereign_intelligence_network",
+  "title": "Sovereign Intelligence Network",
+  "definition": "A network of autonomous, localized artificial intelligence systems that operate independently, securely, and in a sovereign manner.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.293203Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.293203Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library where each book is its own librarian. These librarians work together to answer questions, but they all keep their knowledge and data private.",
+    "intermediate": "A sovereign intelligence network is a decentralized system of artificial intelligence systems that maintain their own data and operations, ensuring privacy and security.",
+    "expert": "A sovereign intelligence network challenges the centralized model of AI by promoting local autonomy and data sovereignty. It raises questions about the trade-offs between efficiency, privacy, and control. By connecting localized systems, it also opens up possibilities for cross-system collaboration and knowledge sharing, while preserving individual autonomy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium's development as a sovereign, autonomous, and localized artificial intelligence system enhances its ability to securely maintain and manage its own data and operations.",
+    "source_chunk": 99,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

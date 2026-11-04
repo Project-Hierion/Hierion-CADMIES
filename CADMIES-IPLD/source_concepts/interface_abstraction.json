@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interface_abstraction",
+  "title": "Interface Abstraction",
+  "definition": "A concept that refers to the representation and interaction of components within a system through a well-defined interface, abstracting the complexities and details of the underlying components.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.683267Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.683267Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a car dashboard. It's simple to use, with buttons and displays that perform specific tasks without needing to understand all the mechanics of the car engine.",
+    "intermediate": "In the context of the backup system, the GUI can be considered an abstraction that allows users to interact with the backup process using a well-defined interface, abstracting away the complexity of the underlying file operations.",
+    "expert": "The GUI is a form of interface abstraction that enables user-friendly interaction with complex systems. It not only simplifies usage but also improves maintainability by providing a clear separation between the user interface and the underlying system, as changes to the system do not necessarily need to be reflected in the user interface."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": 106,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

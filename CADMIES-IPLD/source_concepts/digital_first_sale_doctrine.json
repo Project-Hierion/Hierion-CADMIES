@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_first_sale_doctrine",
+  "title": "Digital First Sale Doctrine",
+  "definition": "The principle in copyright law that the purchaser of a copyrighted work owns the original copy of that work, and has the right to make any number of copies of it for personal use without permission.",
+  "type": "Concept",
+  "domain": "Law and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.395157Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.395157Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of buying a book in a physical store. Once you own it, you can make copies for yourself as many times as you want. In the digital world, this principle doesn't always apply. This conversation is questioning why.",
+    "intermediate": "The digital first sale doctrine is a concept that explores the disconnect between the principles of physical media ownership and digital media distribution. The discussion highlights the issue of whether streaming services, which make multiple transient copies for a single viewing, are violating the spirit of the first sale doctrine.",
+    "expert": "This concept delves into the philosophical implications of the first sale doctrine in the digital age. It challenges the assumption that digital media distribution is fundamentally different from physical media distribution. By examining the process of digital media consumption, the discussion reveals a contradiction between the principles of the first sale doctrine and the reality of digital distribution. This contradiction has significant implications for digital rights, privacy, and the balance of power between consumers and content producers."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discussion highlights a contradiction between the principles of the first sale doctrine and the reality of digital distribution, questioning whether digital media distribution is fundamentally different from physical media distribution.",
+    "source_chunk": 152,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

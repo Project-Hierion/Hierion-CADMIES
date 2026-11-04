@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "local_sovereign_ai_system",
+  "title": "Local Sovereign Ai System",
+  "definition": "A completely private AI assistant that runs 100% on the user's own hardware, utilizing container technology for secure execution, and a local network for communication, ensuring data sovereignty and privacy.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.325519Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.325519Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as your personal AI assistant that only uses your computer and internet. It's like having a smart friend that stays on your device and never shares your data with others.",
+    "intermediate": "A local sovereign AI system is a type of AI assistant that runs entirely on the user's hardware, uses container technology for isolated execution, and communicates through a local network, ensuring data privacy and sovereignty. It's similar to a local development environment for AI models.",
+    "expert": "A local sovereign AI system represents a novel approach to AI privacy and sovereignty, combining the isolation provided by containerization with the accessibility of web technology. This allows users to maintain full control over their data and AI models, while also benefiting from the performance and scalability of container technology. It also raises philosophical questions about the nature of AI, privacy, and data ownership, and has implications for the future of AI development and deployment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel and noteworthy observation from the conversation is the combination of container technology, local network communication, and the emphasis on data privacy and sovereignty to create a completely private and secure AI assistant.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

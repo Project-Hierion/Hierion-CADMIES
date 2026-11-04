@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "civilizational_self_awareness",
+  "title": "Civilizational Self Awareness",
+  "definition": "The pursuit of understanding a civilization's true nature, its impact on its environment, and the potential for sustainable growth.",
+  "type": "Concept",
+  "domain": "Philosophy, Systems Theory, Ecology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.116265Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.116265Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine understanding a city as a whole. This idea is like that, but for a whole civilization. It's about understanding who we are, what we do, and how we can live in harmony with the world.",
+    "intermediate": "Civilizational self-awareness involves recognizing patterns and relationships across multiple disciplines. It's about understanding the emergent properties of a civilization and its impact on its environment. This understanding can guide sustainable decision-making.",
+    "expert": "Civilizational self-awareness is a philosophical and scientific pursuit that draws from multiple disciplines. It's about understanding the interaction between a civilization and its environment at a systemic level. This understanding can challenge traditional narratives and lead to new ways of thinking about sustainability. It also has implications for the philosophy of science, as it highlights the limitations of specialization and the need for interdisciplinary collaboration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for a mechanism for collective self-awareness at the scale of our entire civilization.",
+    "source_chunk": 76,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

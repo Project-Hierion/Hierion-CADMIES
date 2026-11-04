@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_system_architecture",
+  "title": "Agent System Architecture",
+  "definition": "A systematic and interconnected approach to designing, building, and managing a network of intelligent agents, incorporating elements of philosophy, coding, and data structure.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.075142Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.075142Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library that houses different types of smart workers. Each worker knows how to do a specific job, and they all work together to accomplish complex tasks. That's a basic version of an agent system architecture.",
+    "intermediate": "An agent system architecture involves defining a schema for agents, creating a runtime for executing agent code, and implementing agent definitions as JSON files. These components interact to enable the networked functioning of intelligent agents.",
+    "expert": "The agent system architecture not only shapes the functionality and interaction of individual agents but also reflects philosophical patterns of behavior and cognition. By studying these patterns, we gain insights into the nature of intelligence and agency, extending our understanding of both computer science and philosophy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The philosophy of intelligence and agency can be explored and embodied through the design and implementation of agent systems, which combine elements of coding, data structure, and philosophical insight.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

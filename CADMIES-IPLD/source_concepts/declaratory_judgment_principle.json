@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "declaratory_judgment_principle",
+  "title": "Declaratory Judgment Principle",
+  "definition": "A legal principle that allows one to seek a court ruling clarifying their rights without asking for damages or other relief.",
+  "type": "Concept",
+  "domain": "Law",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.431915Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.431915Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as asking the court to tell you if something is legal, without having to go through the whole process of getting something done if it is.",
+    "intermediate": "Declaratory judgment is a remedy used to determine the legal rights and obligations of the parties without actually granting any relief. It's often used in copyright law to clarify ownership and usage rights.",
+    "expert": "The principle of declaratory judgment originates from English common law, where it serves as a tool to provide certainty in uncertain situations. It has philosophical implications in the field of legal philosophy, particularly in relation to the separation of powers and the role of courts in interpreting and enforcing laws. The use of this principle in copyright law highlights the ongoing debate about the balance between the rights of creators and users, and the role of the law in promoting innovation and access to information."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user is seeking a declaratory judgment to clarify their rights regarding their media, which is a classic application of this legal principle.",
+    "source_chunk": 164,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

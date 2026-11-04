@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_schema",
+  "title": "Agent Schema",
+  "definition": "A data structure that defines the characteristics and properties of a data object.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.687818Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.687818Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A schema is a blueprint that defines the structure and characteristics of a software program.",
+    "intermediate": "A schema is a data structure that defines the characteristics and properties of a data object.",
+    "expert": "A schema is a fundamental concept in data modeling and database design. It highlights the challenges and opportunities associated with the definition and evolution of schemas."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The agent schema is a key concept in the design and implementation of software agents and distributed artificial intelligence systems.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

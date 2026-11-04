@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_movement_argument",
+  "title": "Digital Movement Argument",
+  "definition": "The legal argument that digital file transfer does not constitute copying if the original file is destroyed in the process.",
+  "type": "Concept",
+  "domain": "Legal Theory and Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.759247Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.759247Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine sharing a song with a friend. You don't make a copy, you move the song from your device to theirs, and it's gone from yours. This is a concept in law that challenges the idea that every time we share digital content, we're making a copy.",
+    "intermediate": "The 'digital movement argument' is a legal theory that argues that transferring a digital file from one location to another, with the original file being destroyed in the process, does not constitute copying. This argument has been made in court cases regarding digital file sharing and has implications for copyright law and the nature of digital reproduction.",
+    "expert": "The 'digital movement argument' is a philosophically significant concept that challenges the separation of digital data from the physical medium it occupies. By exploring the mathematical and cryptographic proofs that can verify the destruction of the original file during transfer, this argument presents a potential legal loophole that could redefine digital rights and the physicality of data. Furthermore, it raises questions about the role of the state in regulating physics and semantics, and the philosophical implications of the materiality of information and thought."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'digital movement argument' provides a potential legal loophole for digital file transfer by challenging the assumption that every file transfer constitutes copying, and by exploring the use of cryptographic techniques to verify the destruction of the original file during transfer.",
+    "source_chunk": 145,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

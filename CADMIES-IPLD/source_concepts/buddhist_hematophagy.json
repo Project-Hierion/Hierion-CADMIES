@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "buddhist_hematophagy",
+  "title": "Buddhist Hematophagy",
+  "definition": "The concept of hematophagy, or blood drinking, within the context of Buddhist philosophy, exploring its relationship to craving and attachment.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.843003Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.843003Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a vampire's desire for blood as a metaphor for craving in Buddhism. This concept explores how blood drinking, a common trope in vampire lore, relates to the cycle of craving and attachment in Buddhist philosophy.",
+    "intermediate": "Buddhist hematophagy is the examination of the symbolic and philosophical significance of blood drinking, specifically in relation to the Craving Tanha Cycle. It explores how this ancient trope reflects the cycle's dynamic and its potential to lead individuals into attachments and subsequent suffering.",
+    "expert": "Buddhist hematophagy delves into the nuanced interplay between the symbology of blood drinking and the philosophical concept of craving. By connecting the Craving Tanha Cycle to hematophagy, it highlights the cycle's potential to perpetuate itself and lead individuals into harmful patterns of behavior. Moreover, it offers a unique lens through which to explore the philosophical implications of hematophagy in other cultures and its connections to concepts like symbiosis and predation in biology."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The connection between the Craving Tanha Cycle and the hematophagic trope in vampire lore offers a unique insight into the cycle's potential to perpetuate itself and lead individuals into harmful patterns of behavior.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

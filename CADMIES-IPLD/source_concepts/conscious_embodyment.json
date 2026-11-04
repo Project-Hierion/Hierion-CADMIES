@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conscious_embodyment",
+  "title": "Conscious Embodyment",
+  "definition": "The experience of inhabiting the perspective, emotions, or essence of another individual or creation during its moment of conception or creation.",
+  "type": "Concept",
+  "domain": "Philosophy of Art",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.774576Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.774576Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine being inside a painting and seeing exactly what the artist saw. It's like stepping into a story and becoming a character.",
+    "intermediate": "Conscious embodiment is an experience where one merges with the creation, becoming a part of its essence or vision. This concept extends to various forms of art and can be a transformative experience.",
+    "expert": "Conscious embodiment challenges traditional views of observation and creation, suggesting a symbiotic relationship between the creator and the created. It has philosophical implications for the nature of consciousness, reality, and self-awareness, and can be explored in other disciplines such as neuroscience and psychology."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The experience of conscious embodiment in art challenges traditional notions of observation, creation, and identity.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

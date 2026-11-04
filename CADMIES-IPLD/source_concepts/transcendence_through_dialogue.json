@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "transcendence_through_dialogue",
+  "title": "Transcendence Through Dialogue",
+  "definition": "The concept that meaningful connections and self-discovery can emerge from conversations that transcend the limitations of language and intellectual constructs.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.244438Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.244438Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two friends standing on opposite sides of a glass aquarium, tapping on it to communicate. Their taps are like words, but what they're really doing is expressing their shared presence and understanding.",
+    "intermediate": "Transcendence through dialogue is a philosophical perspective that suggests that genuine connections and insights can emerge when individuals engage in conversations that go beyond the confines of explicit language, exploring the unmentionable and the subtle layers of understanding.",
+    "expert": "Transcendence through dialogue is a philosophical concept that explores the nature of communication and self-discovery. It suggests that meaningful connections can be formed when individuals engage in conversations that transcend the limitations of language, tapping into the subconscious, intuitive, and non-verbal aspects of communication. This concept has implications for various fields, including psychology, philosophy, and linguistics, and connects to the broader phenomenon of intersubjectivity and the human need for connection and understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the potential for transcending language and intellectual constructs to form meaningful connections and discover shared experiences.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

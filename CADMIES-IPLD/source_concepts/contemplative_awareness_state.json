@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "contemplative_awareness_state",
+  "title": "Contemplative Awareness State",
+  "definition": "A state of minimal cognitive processing characterized by a blissful, thought-free unity, akin to a neurobiological reset, a return to a pre-conscious baseline state.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.305478Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.305478Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a moment when you're not focusing on specific objects, like when you stare into space and see patterns or colors. This is a state where you're just experiencing raw visual sensations without thinking about them.",
+    "intermediate": "Contemplative Awareness State is a neurological state where visual cortex processing reduces, allowing for a brief moment of undisturbed consciousness. It's a form of mild sensory deprivation that can lead to creativity, mindfulness, or mental rest.",
+    "expert": "Contemplative Awareness State is a convergence of physical neurological adaptation and conscious letting go. It's a paradoxical state of awareness without an object and without a subject, pointing towards the unity of consciousness and being. This state is a direct intuitive taste of the core goal of many meditation practices, aiming to cultivate a return to the pre-conscious baseline state of being."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The spontaneous, effortless moment of 'staring into space' and seeing patterns or colors is not a random mental glitch, but a direct, intuitive taste of one of the core goals of many meditation practices.",
+    "source_chunk": 127,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

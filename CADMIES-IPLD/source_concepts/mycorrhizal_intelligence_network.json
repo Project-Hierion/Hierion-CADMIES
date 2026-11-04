@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycorrhizal_intelligence_network",
+  "title": "Mycorrhizal Intelligence Network",
+  "definition": "A decentralized knowledge management system that stores and interconnects verifiable scientific and philosophical concepts using a content-addressed system based on biological mycorrhizal networks.",
+  "type": "Concept",
+  "domain": "Information Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.697280Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.697280Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a mycorrhizal network as an underground web connecting plants and fungi. CADMIES is like this, but for ideas. It's a decentralized system that helps us understand and share knowledge in a verifiable way.",
+    "intermediate": "CADMIES is a mycorrhizal intelligence network that leverages the structure and function of biological mycorrhizal networks to model a decentralized knowledge management system. It uses a Universal Scientific Concept Schema and a content-addressed system for storing and interconnecting concepts.",
+    "expert": "CADMIES is a novel decentralized knowledge management system that draws inspiration from biological mycorrhizal networks. It offers a unique blend of static scientific concepts and dynamic executable agent capabilities, creating a dynamic, resilient, and verifiable knowledge base. By extending the Universal Scientific Concept Schema with the AgentNode Schema, it simulates the complex, adaptive, and interactive nature of biological systems within a digital framework."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES simulates biological mycorrhizal networks to create a dynamic, decentralized knowledge management system that combines static scientific concepts with dynamic executable agent capabilities.",
+    "source_chunk": 109,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

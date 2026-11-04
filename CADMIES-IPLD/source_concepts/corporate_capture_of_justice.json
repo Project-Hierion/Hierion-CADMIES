@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "corporate_capture_of_justice",
+  "title": "Corporate Capture Of Justice",
+  "definition": "The systematic process by which the legal system is compromised or manipulated to serve the interests of corporations over justice and the common good.",
+  "type": "Concept",
+  "domain": "Law and Politics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.463911Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.463911Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a judge as a parent making decisions in a child custody case. When the rich, powerful parent pays the judge, they get what they want, even if it's unfair or unjust.",
+    "intermediate": "Corporate capture of justice occurs when regulatory, judicial, and political institutions are co-opted by corporate interests, leading to decisions that favor corporations over public interest and justice. This can be seen through lobbying, financial contributions, and the revolving door between industries and government.",
+    "expert": "Corporate capture of justice is a systemic issue that has been studied extensively in fields such as political science and law. It occurs through various mechanisms such as lobbying, financial contributions, the revolving door between industries and government, and the inversion of logic to justify unethical or harmful practices in the name of progress or innovation. This process can lead to a systematic neglect of public interest, environmental degradation, and unfair outcomes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The legal system is not just flawed by greed, it has been actively captured by corporate interests, working exactly as designed.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

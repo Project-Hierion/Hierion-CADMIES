@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "local_autonomy_in_mycelium",
+  "title": "Local Autonomy In Mycelium",
+  "definition": "The concept that the mycelium can operate independently of external code, allowing for divergence in concept releases and code releases over time.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.023293Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.023293Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a mycelium network as a self-governing garden. It grows and changes on its own, even if the gardener occasionally adds new seeds or tools. Similarly, the CADMIES mycelium can grow and update itself, even if the source code changes over time.",
+    "intermediate": "The mycelium in CADMIES is a decentralized network that stores and manages concepts as Content-Addressed Data. This allows the mycelium to operate independently of the source code, enabling concept releases and code releases to diverge over time. This is a fundamental principle of the mycelium's design, promoting flexibility and adaptability.",
+    "expert": "The local autonomy of the mycelium in CADMIES is a significant contribution to the field of Distributed Knowledge Systems. It allows for the creation of a dynamic, evolving knowledge base that can adapt to changing circumstances. This contrasts with traditional centralized knowledge systems, which are vulnerable to single points of failure. The mycelium's local autonomy also has philosophical implications, as it challenges the notion of a fixed, unchanging truth. Instead, it embraces the idea of knowledge as a living, growing entity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium's ability to operate independently of external code allows for divergence in concept releases and code releases over time, promoting flexibility and adaptability in a knowledge base.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

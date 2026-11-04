@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "intelligent_agent_storage_system",
+  "title": "Intelligent Agent Storage System",
+  "definition": "A system for storing and managing intelligent agents, their concepts, and related information in a decentralized and secure manner using the InterPlanetary Linked Data (IPLD) format.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.631686Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.631686Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital library that stores smart robots and their wisdom. It uses a special language and secure storage to ensure every piece of information is safe and easy to find.",
+    "intermediate": "This is a system for intelligent agent storage using IPLD, which is a new, distributed data format that enables linking data across different sources. It allows for the creation and management of intelligent agents and their associated concepts, such as UniversalScientificConcepts and AgentNodes.",
+    "expert": "The intelligent agent storage system is a novel application of IPLD that allows for the decentralized storage and management of intelligent agents and their associated concepts. This system builds upon the foundation of the CADMIES IPLD system and the UniversalScientificConcept schema, extending it to support the creation and management of intelligent agents and their concepts. The system ensures data integrity and security through the use of content addressing, schema validation, and atomic operations, and it provides a foundation for the development of more sophisticated intelligent agent systems in the future."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The intelligent agent storage system is a novel application of IPLD that builds upon the foundation of the CADMIES IPLD system, extending it to support the creation and management of intelligent agents and their associated concepts.",
+    "source_chunk": 80,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

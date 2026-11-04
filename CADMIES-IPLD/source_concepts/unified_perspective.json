@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_perspective",
+  "title": "Unified Perspective",
+  "definition": "A broad, high-level concept that encompasses the interconnectedness and unity of various phenomena, theories, and perspectives.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.285395Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.285395Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine everything as parts of a larger whole. Every action has a reaction, just like every thought affects our feelings and behaviors.",
+    "intermediate": "Unified perspective highlights the interconnectedness of different concepts and theories, such as quantum consciousness, game theory, and the human genome project, emphasizing their common underlying principles and patterns.",
+    "expert": "Unified perspective provides a philosophical framework that explores the unity and interdependence of various fields, from physics to psychology, and even beyond. It challenges the boundaries of disciplines, revealing deep connections and philosophical implications. By considering the world as a unified whole, unified perspective offers novel insights into the nature of reality and consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of various concepts, suggesting a unified perspective that encompasses them.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

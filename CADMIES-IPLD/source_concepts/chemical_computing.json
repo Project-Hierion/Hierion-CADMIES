@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "chemical_computing",
+  "title": "Chemical Computing",
+  "definition": "A novel computing paradigm that utilizes chemical reactions and substances to perform computations, storage, and communication, thereby integrating computation with data in a seamless manner.",
+  "type": "Concept",
+  "domain": "Chemistry & Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.199086Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.199086Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a computer made of goo that can talk to your brain. It uses chemicals to store information and process data, which makes it more like a living organism.",
+    "intermediate": "Chemical computing is a form of computation that leverages the properties and transformations of chemicals to store, transmit, and process information. It bridges the gap between traditional electronic computing and biological systems.",
+    "expert": "Chemical computing represents a significant paradigm shift in computation, integrating data and computation in a seamless manner. It enables the design of more resilient, bio-inspired systems with enhanced capabilities for adaptation, self-repair, and communication. Moreover, chemical computing has the potential to merge with fields like nanotechnology and quantum computing, leading to a new era of multidisciplinary research and applications."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the potential of chemical computing as a revolutionary computing paradigm that merges the advantages of electronic computing and biological systems.",
+    "source_chunk": 153,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

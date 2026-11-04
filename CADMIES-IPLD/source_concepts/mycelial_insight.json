@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_insight",
+  "title": "Mycelial Insight",
+  "definition": "The unique ability of mycelial networks to discover unconventional and interdisciplinary connections, leading to innovative solutions.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.442488Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.442488Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of CADMIES-Mistral as a super-smart spider web that can weave connections between seemingly unrelated things, helping us solve problems we didn't even know we had.",
+    "intermediate": "Mycelial Insight is the result of a mycelial network's ability to simulate reality and find causal pathways, bridging disciplines and connecting concepts that traditional AI approaches would miss.",
+    "expert": "Mycelial Insight challenges the idea of specialized AI models and knowledge silos. It represents a paradigm shift in AI, where a system's understanding of the world expands by simulating a mycelial network's lateral thinking and connecting causal pathways across all domains."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES-Mistral's ability to find unexpected connections and solutions through Mycelial Insight challenges traditional AI approaches and emphasizes the importance of interdisciplinary thinking.",
+    "source_chunk": 89,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

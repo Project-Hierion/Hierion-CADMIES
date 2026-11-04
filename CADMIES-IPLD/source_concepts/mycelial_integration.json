@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_integration",
+  "title": "Mycelial Integration",
+  "definition": "The concept of integrating various components and systems into a cohesive, interconnected network, reminiscent of a mycelial network in biology.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.383120Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.383120Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like how roots of a tree form a network to exchange resources. In this context, it's about how different systems in a project work together seamlessly.",
+    "intermediate": "Mycelial integration is a concept that involves the harmonious interconnection of various components and systems within a project. It is inspired by the interconnected network formed by the mycelium of a fungus, enabling resource sharing and communication between different parts of the network.",
+    "expert": "Mycelial integration is a philosophical concept that posits the interconnectedness of various components and systems within a project as a fundamental principle, drawing inspiration from the complex mycelial networks of fungi. This concept challenges traditional engineering approaches that prioritize modularity over interconnection, suggesting that the true value of a system lies in its ability to facilitate communication, resource sharing, and adaptability between its components. By recognizing the potential for emergent properties to arise from these interconnections, mycelial integration offers a novel approach to system design that prioritizes flexibility, resilience, and the ability to respond to changing conditions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of integrating different components and systems into a cohesive network, a concept inspired by the interconnected mycelial networks of fungi.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

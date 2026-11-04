@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_network_architecture",
+  "title": "Knowledge Network Architecture",
+  "definition": "The organizational structure that enables the interconnection and mutual learning of knowledge nodes within a system.",
+  "type": "Concept",
+  "domain": "Philosophy, Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.838020Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.838020Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden with different plants that not only grow independently but also communicate and learn from each other, sharing resources and information.",
+    "intermediate": "Knowledge network architecture refers to the design of interconnected knowledge nodes that promote mutual learning and the creation of new insights.",
+    "expert": "The knowledge network architecture in the CADMIES system is a self-wiring mycelium that connects unrecognized needs with answers, enabling continuous learning and growth. It draws inspiration from biological mycelium networks, which can function independently and communicate with each other, and it serves as a foundation for a broader digital mycelium, fostering interdisciplinary collaboration and knowledge sharing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnected knowledge nodes within the CADMIES system enable continuous learning and the creation of new insights.",
+    "source_chunk": 158,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

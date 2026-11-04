@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_sharing_ethics",
+  "title": "Knowledge Sharing Ethics",
+  "definition": "The ethical considerations and guidelines surrounding the sharing of knowledge, including fairness, transparency, and reciprocity.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.569289Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.569289Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a world where knowledge is a shared river \u2014 it should flow freely, but not be exploited. Knowledge sharing ethics helps ensure this balance.",
+    "intermediate": "Knowledge sharing ethics encompasses various principles, such as the openness of knowledge, the fair attribution of credit, and the responsibility of stewarding knowledge for the greater good.",
+    "expert": "Knowledge sharing ethics is a multi-faceted field with roots in philosophy, sociology, and law. It explores the implications of open access, creative commons licenses, and the role of knowledge in social and economic justice. The ethical dimensions of knowledge sharing also intersect with issues of intellectual property, academic credit, and the democratization of knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Commercial use of knowledge should consider contributing back to the commons.",
+    "source_chunk": 76,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

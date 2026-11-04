@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "treaty_initiation",
+  "title": "Treaty Initiation",
+  "definition": "The process by which a unified effort is launched to address a common challenge or opportunity, such as the creation of a Decentralized Commons Treaty.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.346120Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.346120Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a group of people trying to solve a big problem. Starting a 'treaty' is like deciding when it's time to write down their shared plan and start working on it together. This could mean agreeing on common standards, coordinating efforts, or setting up a formal structure to manage the project.",
+    "intermediate": "The initiation of a treaty is the formal start of a coordinated effort. It involves drafting a charter that outlines the objectives, scope, and initial structure of the organization. In the context of decentralization, this could involve setting technical standards, establishing governance structures, and formalizing cooperation between different projects.",
+    "expert": "The initiation of a treaty is a critical juncture in large-scale social coordination. It represents a shift from informal collaboration to formal organization. Philosophically, it raises questions about the nature of commitment and cooperation, the role of authority and leadership, and the balance between centralization and decentralization. Additionally, the treaty initiation process can be seen as an instance of the 'social construction of technology,' highlighting the interplay between technical and social factors in shaping technology's development and adoption."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The success of large-scale, coordinated efforts depends on who initiates the treaty process and when they do it.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

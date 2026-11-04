@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_structure_and_edges",
+  "title": "Concept Structure And Edges",
+  "definition": "Understanding the structural organization and connection management of knowledge units within the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Philosophy of Knowledge",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.420060Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.420060Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library as a big knowledge system. Knowledge units (books) have connections to other units (references). We're looking at how these units are structured and how their connections are labeled.",
+    "intermediate": "The concept of concept structure and edges in the CADMIES knowledge system revolves around understanding the organization of knowledge units and the labels used for their interconnections. This involves analyzing the structure of a concept block and identifying the field that contains the edges.",
+    "expert": "The concept of concept structure and edges in the CADMIES knowledge system is a philosophical exploration of the nature of knowledge interconnectivity and representation. It delves into the structural organization of knowledge units and the labels used for their interconnections. This concept connects to the philosophy of language, semiotics, and graph theory. It also has implications for knowledge management and artificial intelligence, as it underpins how machines understand and process knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The edges within the CADMIES knowledge system are not labeled as 'edges' but rather as 'relationships' and 'cross_references'.",
+    "source_chunk": 70,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

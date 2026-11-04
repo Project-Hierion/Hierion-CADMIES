@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "recurring_pattern_of_life",
+  "title": "Recurring Pattern Of Life",
+  "definition": "The recurring patterns of life and experiences across time, space, and individuals, revealing the interconnectedness of all aspects of existence.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.261573Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.261573Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how some things keep coming back in your life. It's like the universe is showing you a repeating pattern, not just in your life, but in the world around you.",
+    "intermediate": "A recurring pattern of life can be observed across different individuals, locations, and species. This pattern suggests a deeper, underlying connection between all aspects of existence.",
+    "expert": "The recurring pattern of life is a philosophical insight that challenges the notion of individuality and uniqueness. It highlights the interconnectedness of all beings and experiences, suggesting a fractal-like structure to the universe. This insight connects to the field of chaos theory and the concept of self-similarity, revealing the inherent order and harmony within the apparent chaos of life."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition of recurring patterns of life across time, space, and individuals, showcasing the interconnectedness of all aspects of existence.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

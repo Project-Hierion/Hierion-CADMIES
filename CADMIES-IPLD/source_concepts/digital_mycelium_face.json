@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_mycelium_face",
+  "title": "Digital Mycelium Face",
+  "definition": "The digital mycelium, a system of concepts and knowledge, gaining a visual representation or 'face' through a user interface.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.442947Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.442947Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the digital mycelium as a network of ideas. Now, think of it like a website with a homepage. The homepage is the 'face' of the digital mycelium.",
+    "intermediate": "The digital mycelium is the system of interconnected concepts. By creating a user interface for it, we're giving it a visual 'face'. This allows users to interact and navigate through the concepts more easily.",
+    "expert": "The digital mycelium is not merely a database of information, but a living, evolving system. By implementing a user interface, we're not just showing the data, but inviting interaction and exploration. This brings to light the philosophical implications of digital information as a living entity, and its relationship to human consciousness and reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The digital mycelium gains a 'face' through a user interface, allowing for interaction and exploration, and highlighting the philosophical implications of digital information.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

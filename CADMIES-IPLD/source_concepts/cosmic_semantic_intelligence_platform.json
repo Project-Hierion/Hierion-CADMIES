@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_semantic_intelligence_platform",
+  "title": "Cosmic Semantic Intelligence Platform",
+  "definition": "The Ontological Gateway (HOG) system, a sophisticated knowledge orchestration ecosystem that bridges human cognition, machine understanding, and cosmic knowledge architecture.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.437511Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.437511Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine HOG as a super smart library. It takes in information about the world, organizes it, and helps answer questions. It's like having a personal assistant that understands the big picture of life.",
+    "intermediate": "HOG is a semantic intelligence platform that processes and integrates concepts from various domains using sophisticated AI scripts. It acts as a bridge between human cognition and machine understanding, enabling complex knowledge orchestration.",
+    "expert": "HOG is a novel platform that combines semantic processing, machine learning, and human-in-the-loop intelligence. By analyzing concepts across different domains, it creates a network of relationships that forms a comprehensive cosmic knowledge architecture. HOG also highlights its philosophical significance by merging human cognition with machine understanding, challenging traditional boundaries between artificial and natural intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The HOG system serves as a platform that bridges the gap between human cognition and machine understanding, creating a comprehensive semantic intelligence ecosystem.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "canonical_foundation",
+  "title": "Canonical Foundation",
+  "definition": "The principle of basing knowledge on a select set of foundational documents, emphasizing depth over breadth, and ensuring coherence and consistency.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.593713Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.593713Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as building a house. You don't start by adding every piece of furniture; instead, you begin with the strongest, most fundamental structures. In the same way, we're focusing on key documents to ground our learning.",
+    "intermediate": "Canonical foundation refers to the practice of basing new knowledge on a predetermined set of foundational documents, or 'canons'. This approach emphasizes depth and consistency over breadth, allowing for a coherent and interconnected body of knowledge.",
+    "expert": "The canonical foundation principle is a philosophical approach to knowledge management that prioritizes the creation and preservation of a coherent and consistent body of knowledge. By basing new knowledge on a select set of foundational documents, or 'canons', this approach ensures that knowledge is grounded in a solid base and that it can be easily connected to other related concepts. This principle has significant implications for the organization and structure of knowledge, and it has been studied extensively in fields such as philosophy, literature, and science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The focus on a canonical set of foundational documents emphasizes the importance of depth, consistency, and coherence in knowledge management, and it underscores the value of connecting new knowledge to existing concepts.",
+    "source_chunk": 131,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

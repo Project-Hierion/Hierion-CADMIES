@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_predation",
+  "title": "Symbiotic Predation",
+  "definition": "The relationship between predators and prey that involves mutual benefits or dependencies, where one entity benefits from the other's actions.",
+  "type": "Concept",
+  "domain": "Ecology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.871021Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.871021Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a relationship between a lion and a zebra. Although a lion hunts and eats zebras, their coexistence also benefits the zebra herd as it keeps predators at bay, allowing them to focus on survival and reproduction.",
+    "intermediate": "Symbiotic predation is a complex interaction between predators and prey that involves both parasitism and mutualism. It's a form of coevolution where the predator's behavior affects the prey's survival and reproduction, and the prey's presence influences the predator's hunting success.",
+    "expert": "The concept of symbiotic predation has been studied extensively in the fields of ecology, evolutionary biology, and game theory. It challenges traditional ecological theories that emphasize competition and survival of the fittest. Symbiotic predation can lead to stable coexistence between species, creating intricate relationships in ecosystems."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The query highlighted the importance of understanding the relationship between predators and prey over time, which led to the extraction of the concept of symbiotic predation.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

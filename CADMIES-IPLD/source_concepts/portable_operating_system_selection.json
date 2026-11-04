@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "portable_operating_system_selection",
+  "title": "Portable Operating System Selection",
+  "definition": "The process of selecting an operating system that can be easily installed and used from a portable storage device like a USB drive.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.436505Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.436505Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as choosing a suitcase for your laptop that's easy to carry and has enough room for your essentials.",
+    "intermediate": "Portable Operating System Selection is about choosing a lightweight and efficient operating system that can be run from a USB drive, considering factors like base size, updates, hardware support, and performance.",
+    "expert": "The art of Portable Operating System Selection involves making a strategic choice that balances simplicity, speed, flexibility, and reliability. This process considers the base size of the OS, the necessity for updates, the hardware support offered, the performance on the specific USB drive, and the user's preferences for desktop environments."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of considering various factors when selecting a portable operating system for a USB drive.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

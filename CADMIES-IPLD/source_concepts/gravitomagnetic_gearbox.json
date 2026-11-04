@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gravitomagnetic_gearbox",
+  "title": "Gravitomagnetic Gearbox",
+  "definition": "A theoretical model that explains the structure and behavior of a rotating black hole as a gravitomagnetic gearbox, comprising a spinning ring singularity, a gravitomagnetic field, an event horizon, and an ergosphere.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.652946Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.652946Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A black hole is not just a big object. Imagine it as a special machine, a gravitomotive gearbox. The center of this machine, the ring singularity, is like the motor that spins. The machine takes this spin and uses it to twist space and time, creating a whirlpool around it. This is what makes a black hole special.",
+    "intermediate": "A rotating black hole can be conceptualized as a gravitomagnetic gearbox. The ring singularity acts as the motor, generating a gravitomagnetic field that twists spacetime. This field causes frame-dragging, leading to the formation of an event horizon and an ergosphere.",
+    "expert": "The gravitomagnetic gearbox model provides a geometric interpretation of a rotating black hole. It posits that the ring singularity is the source of a gravitomagnetic field that twists spacetime. This field causes frame-dragging, which results in a non-uniform rotation of spacetime. The gear ratio is determined by the black hole's mass and angular momentum, creating a deep gravitational well that gears up the local curvature speed. This model has philosophical implications, challenging our notions of causality and determinism."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The gravitomagnetic gearbox model provides a unified theoretical summary of a rotating black hole, emphasizing the role of geometry and frame-dragging in its structure and behavior.",
+    "source_chunk": 97,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

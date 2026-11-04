@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "technological_empowerment",
+  "title": "Technological Empowerment",
+  "definition": "The concept of individuals reclaiming control over their data and technology, creating alternatives to corporate monopolies.",
+  "type": "Concept",
+  "domain": "Social and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.738907Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.738907Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're part of a huge machine where some people are in control of your personal information and the technology you use. 'Technological empowerment' is about you taking back control, making choices, and creating your own alternatives.",
+    "intermediate": "Technological empowerment is the process where individuals reclaim control over their data and technology, challenging corporate monopolies. This involves creating and using alternative technologies and services that protect privacy and user rights.",
+    "expert": "Technological empowerment is a social and philosophical concept that explores the relationship between individuals, corporations, and technology. It highlights the power dynamics that arise from data collection and corporate control over technology, and the potential for individuals to challenge these dynamics and reclaim control. This concept has philosophical implications for privacy, data sovereignty, and the role of technology in society. It also has connections to other fields such as political philosophy, economics, and technology policy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The power of individuals to challenge corporate control over technology and reclaim control of their data and personal information.",
+    "source_chunk": 139,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

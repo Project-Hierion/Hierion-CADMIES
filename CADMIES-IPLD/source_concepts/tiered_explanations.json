@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "tiered_explanations",
+  "title": "Tiered Explanations",
+  "definition": "A concept representation that includes three explanations at increasing levels of difficulty: beginner, intermediate, and expert.",
+  "type": "Concept",
+  "domain": "Knowledge Representation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.816061Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.816061Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a concept as a multi-layered cake. The beginner explanation is the simple frosting, the intermediate is the filling, and the expert is the delicious cake beneath.",
+    "intermediate": "A structured concept representation that includes three explanations at varying levels of abstraction and technicality to cater to learners at different stages.",
+    "expert": "A nuanced concept representation that provides multiple explanations, each tailored to a specific audience or level of expertise. This approach highlights the layered and interconnected nature of knowledge, and allows for a more comprehensive understanding of a concept."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The multifaceted nature of understanding can be better represented through multiple explanations tailored to different levels of expertise.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

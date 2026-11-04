@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "systemic_interdependence",
+  "title": "Systemic Interdependence",
+  "definition": "The relationship between various components in a system such that the functioning of each component relies on the functioning of other components.",
+  "type": "Concept",
+  "domain": "Systems Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.066390Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.066390Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a car - every part of the car relies on other parts to function properly. For example, the engine can't run without gas, and the wheels can't turn without the engine.",
+    "intermediate": "Systemic interdependence is a principle in complex system design. In the context of this conversation, it refers to the relationship between the user's computer system, the external storage drives (PNY and HDD), and the backup system.",
+    "expert": "Systemic interdependence is a foundational concept in complexity science and systems theory. It has implications in various fields including ecology, sociology, and engineering. In this context, the systemic interdependence is not just about the backup system relying on the storage drives, but also about the user's actions (unlocking the drives) being a necessary condition for the system to function."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The backup system's functionality is not solely dependent on the system itself, but also on the user's actions and the state of external components (storage drives).",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

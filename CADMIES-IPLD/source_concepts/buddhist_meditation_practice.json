@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "buddhist_meditation_practice",
+  "title": "Buddhist Meditation Practice",
+  "definition": "The practice of mindfulness and awareness, as taught by the Buddha, to understand the true nature of reality and escape the cycle of suffering.",
+  "type": "Concept",
+  "domain": "Philosophy & Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.125076Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.125076Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Buddhist meditation helps us notice and accept everything that happens, like watching a movie. It helps us let go of struggles and be free.",
+    "intermediate": "Buddhist meditation focuses on awareness of each passing moment, recognizing that our suffering often stems from being lost in thoughts. This practice helps us understand the interconnectedness of all things and escape the cycle of suffering.",
+    "expert": "Buddhist meditation practices such as Anapana and Vipassana involve focusing the mind on the sensations of breathing in and out, or observing the physical sensations in the body. This practice cuts the chain of dependent origination (ignorance, craving, clinging, suffering), allowing individuals to understand the true nature of reality and escape the cycle of suffering. Buddhist meditation is philosophically connected to mindfulness meditation and has been studied for its potential benefits in neuroscience and psychology."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Buddhist meditation practices, such as Anapana, focus on awareness of each passing moment, helping individuals understand the interconnectedness of all things and escape the cycle of suffering.",
+    "source_chunk": 121,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

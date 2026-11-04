@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gui_architecture_mismatch",
+  "title": "Gui Architecture Mismatch",
+  "definition": "A concept that refers to the incompatibility of a particular Graphical User Interface (GUI) architecture with a system's underlying hardware or software capabilities.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.376207Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.376207Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to use a video game designed for high-performance computers on a slower laptop. Even though the game looks great, it might not run smoothly or perform as expected because it was built for a different system.",
+    "intermediate": "In this context, NiceGUI, a GUI library used for the project, relies on persistent websockets for real-time updates. However, on CPU-only systems with slow LLM inference times, the websocket connection might idle out and drop, causing the entire UI to fail. This is a fundamental mismatch of architecture.",
+    "expert": "This concept highlights the need for a deep understanding of a system's limitations and the appropriate selection of architectural tools. It also underscores the importance of considering the trade-offs between elegance and functionality in software design. This mismatch not only affects the user experience but also has implications for scalability and maintainability of the system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed that the current GUI architecture (NiceGUI) is not compatible with the CPU-only slow inference of the LLM, leading to a poor user experience. This insight highlighted the need for a pivot to a more suitable GUI architecture.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

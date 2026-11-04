@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "host_predator_coevolution",
+  "title": "Host Predator Coevolution",
+  "definition": "The reciprocal adaptation between a host and its predator over time, leading to a mutually beneficial relationship.",
+  "type": "Concept",
+  "domain": "Evolutionary Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.805262Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.805262Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a game of chess between a host (like a person) and a predator (like a vampire). Over time, they learn each other's moves and start playing in a way that's beneficial for both.",
+    "intermediate": "Host-predator coevolution occurs when the host and the predator's interactions shape each other's evolution. This can result in the predator becoming less harmful and the host adapting to the predator's presence.",
+    "expert": "Host-predator coevolution is a complex interplay of genetic and cultural adaptations. It can lead to the formation of stable symbiotic relationships, with the host providing a regular food source and the predator becoming less of a threat. This phenomenon has been studied extensively in systems like plants and herbivores, and it's fascinating to see its parallels in the host-vampire relationship."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The host-vampire relationship is a form of coevolution where both parties benefit over time, with the host providing a stable food source and the vampire learning to be less of a threat.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

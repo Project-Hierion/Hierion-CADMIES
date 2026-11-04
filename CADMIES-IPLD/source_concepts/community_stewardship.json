@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_stewardship",
+  "title": "Community Stewardship",
+  "definition": "The responsibility and care taken by a community to maintain and improve a project or resource for the benefit of all its members.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.222249Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.222249Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Community stewardship is like when a neighborhood garden gets taken care of by all the neighbors, making it beautiful for everyone to enjoy.",
+    "intermediate": "Community stewardship involves the collective effort and contribution of individuals to manage and enhance a shared resource. It emphasizes the importance of maintaining a project's integrity, accessibility, and relevance to its users.",
+    "expert": "Community stewardship is a complex and multifaceted concept that encompasses a variety of sociological, political, and technological aspects. It can manifest as a form of social capital, a way to build cohesive and sustainable communities, and a means to distribute resources and opportunities more equitably. Community stewardship also has implications for the future of open-source software, data, and knowledge production, as it challenges traditional models of ownership and control."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful reorganization and maintenance of the LLMDataHub project by the community demonstrates the power of community stewardship and its potential to breathe new life into abandoned or neglected resources.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

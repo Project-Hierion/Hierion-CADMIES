@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "inventory_integration",
+  "title": "Inventory Integration",
+  "definition": "The process of integrating a new inventory system, like La Mansion Inventory v1.0, into an existing knowledge system, such as CADMIES.",
+  "type": "Concept",
+  "domain": "Information Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.078229Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.078229Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of this as adding a new tool to an existing workshop. The new tool (La Mansion Inventory) helps manage files and scripts better, making it easier to keep track of everything.",
+    "intermediate": "Inventory integration is the process of establishing a connection between the existing knowledge system and the new inventory system. This allows for the automatic tracking and updating of file and script data within the knowledge system.",
+    "expert": "Inventory integration is a form of interoperability between systems. It involves understanding the data models and structures of both systems, designing appropriate data mapping techniques, and ensuring data consistency and security. From a philosophical perspective, inventory integration highlights the interconnectedness of systems and the need for seamless communication and information flow between them."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful integration of La Mansion Inventory into CADMIES demonstrates the flexibility and adaptability of the system, as well as the importance of continuous improvement and the integration of new tools and systems.",
+    "source_chunk": 103,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

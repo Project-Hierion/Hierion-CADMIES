@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "structural_breaks_in_text",
+  "title": "Structural Breaks In Text",
+  "definition": "A visible or logical separation in text that signals a shift in thought, turn, or topic.",
+  "type": "Concept",
+  "domain": "Linguistics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.898373Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.898373Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're reading a story. A structural break is like a pause, a sign that the author wants to focus on something new. This can be a line break, a change in speaker, or even a change in the scene.",
+    "intermediate": "Structural breaks in text can include line breaks, paragraph indents, speaker changes, section headers, lists, topic shifts, and whitespace. These breaks help to organize and structure the text, making it easier for a model to understand and extract concepts.",
+    "expert": "Structural breaks in text have been studied in the field of discourse analysis. They can influence the way readers process and understand a text, and they can also be used to analyze the structure and coherence of a text. In the context of natural language processing, structural breaks can help a model to better understand the context and meaning of a text, especially when extracting concepts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The presence of structural breaks in text can significantly increase the number of concepts that can be extracted from that text.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

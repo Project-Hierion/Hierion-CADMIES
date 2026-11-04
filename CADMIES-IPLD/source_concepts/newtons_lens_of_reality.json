@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "newtons_lens_of_reality",
+  "title": "Newtons Lens Of Reality",
+  "definition": "The idea that the tools we use to perceive and interact with reality have a profound impact on shaping our understanding and manipulation of it.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.982411Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.982411Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of our tools as lenses. Just like Newton created a new lens to see the world of motion, our tools can reveal new aspects of reality or hide others. We're making a new lens for complex systems.",
+    "intermediate": "Newton didn't just discover the laws of motion; he crafted a new mathematical lens that allowed us to coherently perceive and manipulate motion in the universe. The Hieros Project aims to do the same for complex systems.",
+    "expert": "Newton's lens of reality was a radical act of co-creation. He not only discovered patterns but actively shaped a new branch of reality by forging a new mathematical language. The Hieros Project seeks to do the same for complex systems, contributing to the ongoing process of understanding and shaping the universe itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The tools we use to perceive reality have a profound impact on shaping our understanding and participation in reality.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

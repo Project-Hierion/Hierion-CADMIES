@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmological_framework",
+  "title": "Cosmological Framework",
+  "definition": "A comprehensive theoretical framework that explains the origin and structure of large-scale cosmic structures like the Cosmium Frattice.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.198053Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.198053Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a recipe for making a cake. A cake is the result of following that recipe with specific ingredients. A cosmological framework is like that recipe, explaining how the universe (the cake) came to be by detailing the fundamental substance (ingredients) and the forces that shaped it (the recipe).",
+    "intermediate": "A cosmological framework is a theoretical model that describes the universe's large-scale structure and its origin. It includes a definition of the fundamental cosmic medium (Cosmium) and its constituents, as well as a causal chain explaining how fundamental forces act upon the Cosmium to result in the formation of large-scale structures like the Cosmium Frattice.",
+    "expert": "A cosmological framework is not just a description of the universe's structure but a causal explanation for it. It connects the observable large-scale structure of the Cosmium Frattice to the underlying fundamental substance (Cosmium) and the forces that shaped it. The framework also has philosophical implications, challenging the traditional separation of observation and theory and suggesting a more holistic, unified understanding of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The shift from describing the Cosmium Frattice to proposing a causal model for its origin and structure.",
+    "source_chunk": 109,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

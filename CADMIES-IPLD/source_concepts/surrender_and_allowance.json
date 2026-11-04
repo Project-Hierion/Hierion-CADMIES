@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "surrender_and_allowance",
+  "title": "Surrender And Allowance",
+  "definition": "The principle that reality yields its secrets not to force, but to surrender; not to focus, but to allowance.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.710653Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.710653Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to catch a butterfly with a net. The more you try to hold on, the harder it is to see its true nature. But if you relax and let it be, you might find that it simply reveals itself to you.",
+    "intermediate": "In physics, this is known as the observer effect, where measuring a particle changes its state. In Buddhism, it's the principle of non-grasping, where clinging to thoughts and concepts creates suffering. The truth isn't found by forcefully seeking it, but by surrendering and allowing it to reveal itself.",
+    "expert": "This principle is foundational in various philosophical traditions such as Taoism, quantum mechanics, and mysticism. It highlights the interconnectedness of all things and the role of the observer in shaping reality. By surrendering to the present moment, one can see through the illusion of a separate self and experience the true nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Truth isn't found by the flashlight of the seeking mind. It's felt when the flashlight is turned off, and you realize you are the dark, luminous space that was there all along.",
+    "source_chunk": 123,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

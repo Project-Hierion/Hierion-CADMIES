@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_self_reflection",
+  "title": "Scientific Self Reflection",
+  "definition": "The philosophical concept of science as a self-reflective system, where tools and theories to understand complexity must themselves be complex and adaptive.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.975124Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.975124Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of science as a mirror. To understand the world, we use tools and theories. But these tools and theories are like mirrors themselves. Just like we can't see our face with a normal mirror, we can't fully understand the world with simple tools and theories. So, we need to build more complex tools and theories to see the truth.",
+    "intermediate": "Scientific self-reflection is the idea that science is a self-correcting and evolving system. It requires the continuous creation of new frameworks and tools to understand phenomena. These tools and frameworks must be complex and adaptive, mirroring the complexity of the subject matter they seek to explain.",
+    "expert": "Scientific self-reflection is a philosophical exploration of the recursive nature of science. It challenges the distinction between theory and practice, observer and observed, and subject and object. It also connects to the philosophy of language and the role of tools in shaping our understanding of the world. By building complex, adaptive systems to study complexity, we are engaging in a form of meta-science that reflects on the nature of scientific inquiry itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Science as a self-reflective system, where tools and theories to understand complexity must themselves be complex and adaptive.",
+    "source_chunk": 51,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

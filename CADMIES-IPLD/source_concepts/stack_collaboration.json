@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "stack_collaboration",
+  "title": "Stack Collaboration",
+  "definition": "The collaboration between two complementary systems to enhance their overall functionality and impact.",
+  "type": "Concept",
+  "domain": "Systems Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.568426Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.568426Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two tools: one that stores information and another that helps you find it. If they work well together, they can be more useful than working separately.",
+    "intermediate": "Stack collaboration refers to the synergistic relationship between two systems, where one's output is integrated as input for the other. This can lead to enhanced functionality and mutual benefits.",
+    "expert": "Stack collaboration is a strategic approach to system integration, leveraging the unique strengths of each component to create a more robust, adaptable, and efficient whole. It involves understanding the interfaces, data formats, and operational processes of both systems, and designing them to work seamlessly together. This can lead to novel insights and capabilities, and can foster innovation and competition in the field."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals a potential for stack collaboration between a content-addressed knowledge base and a distributed search engine.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

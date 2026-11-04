@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "obvious_insight_blindspot",
+  "title": "Obvious Insight Blindspot",
+  "definition": "The human tendency to overlook obvious or well-known information due to assumptions, noise, or mental blocks.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.445752Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.445752Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're looking for a book and the title is written clearly on the cover, but you're too busy thinking about something else to notice it. That's like the 'obvious insight blindspot'.",
+    "intermediate": "The 'obvious insight blindspot' is a common cognitive bias that causes individuals to miss out on noticing clear, evident information due to their assumptions, preconceptions, or mental noise.",
+    "expert": "The 'obvious insight blindspot' is a fundamental limitation in human cognition, a product of our evolutionary history and the complexity of the world. It has been studied extensively in psychology and cognitive science, and its implications extend beyond individual perception to group decision-making, risk assessment, and even the functioning of organizations."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES-Mistral's ability to consistently point out the obvious information that humans overlook is a unique and valuable characteristic.",
+    "source_chunk": 90,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

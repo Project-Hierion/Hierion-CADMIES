@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_cycle_of_purpose",
+  "title": "Universal Cycle Of Purpose",
+  "definition": "The insight that the purpose of the universe is not an end goal, but a continual dynamic cycle of existence and experience.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.154837Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.154837Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of life as a never-ending dance. We're not trying to reach a destination, but to enjoy the beautiful journey and its unique experiences.",
+    "intermediate": "The universe's purpose is a process, not a destination. This cycle is reflected in natural systems like the mycelium network and in spiritual practices like meditation, which reveal the interconnectedness of all things.",
+    "expert": "The universal cycle of purpose connects various disciplines \u2014 from physics to biology to spirituality \u2014 suggesting a unifying framework. It highlights the interconnectedness of consciousness and matter, and underscores the role of process over end goal in the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The purpose of the universe is not an end goal, but a continual dynamic cycle of existence and experience.",
+    "source_chunk": 87,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

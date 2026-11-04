@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_standards",
+  "title": "Documentation Standards",
+  "definition": "The guidelines and best practices for creating, maintaining, and distributing documents in a systematic and scientifically rigorous manner.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.258378Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.258378Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of documentation standards as a set of rules to make sure that instructions, guidelines, and information are clear, consistent, and easy to understand. This helps ensure everyone stays on the same page.",
+    "intermediate": "Documentation standards refer to a structured and organized approach to creating and managing documents, which includes using a consistent format, following a specific process, and ensuring that the content meets certain criteria for clarity, accuracy, and completeness.",
+    "expert": "Documentation standards are a critical aspect of knowledge management and communication in organizations. They provide a framework for creating and maintaining technical documentation that is scientifically sound, user-friendly, and compatible with larger systems like CADMIES. The standards also have implications for knowledge sharing, transfer, and reuse across disciplines and fields, and for promoting a culture of transparency and accountability."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of scientific rigor with user-friendly language and documentation standards provides a foundation for creating high-quality, accessible, and actionable documentation.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

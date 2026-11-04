@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "learning_pacing_in_rl",
+  "title": "Learning Pacing In Rl",
+  "definition": "The challenge of balancing long periods of sparse feedback with sudden bursts of chaos in Reinforcement Learning.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.566078Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.566078Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a child learning to play a game where she has to wait a long time for a ball to arrive, then suddenly needs to move. Learning to play this game consistently is a common challenge in video games.",
+    "intermediate": "In Reinforcement Learning, the agent learns by performing actions in an environment and receiving feedback. The problem is that the feedback is often sparse and delayed. This can cause the agent to lose focus and make mistakes.",
+    "expert": "Learning pacing in Reinforcement Learning is a known challenge in games like Breakout. The sparse and delayed feedback can lead to long periods of inactivity (dead periods) followed by sudden bursts of chaos (angles and speeds after hitting the last few bricks). This requires a hierarchical approach where a high-level strategy subactor learns control and anticipation, while a low-level subactor handles detailed movements. However, even with this approach, the agent can still struggle with patience and focus."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The agent's struggles with patience and focus in Breakout reveal a fundamental challenge in Reinforcement Learning: balancing long periods of sparse feedback with sudden bursts of chaos.",
+    "source_chunk": 134,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

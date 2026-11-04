@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "toolbox_philosophy",
+  "title": "Toolbox Philosophy",
+  "definition": "The philosophical underpinning of using toolboxes for managing development environments in Fedora Silverblue, focusing on the benefits of lightweight containers, system cleanness, version isolation, and update independence.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.722443Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.722443Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine toolboxes as special containers that hold all the tools needed for a task. They don't mess with your main system, making it easier to manage and update, and they can be easily re-created if needed. This allows for a clean, organized, and versatile development environment.",
+    "intermediate": "Toolboxes in Fedora Silverblue serve as lightweight containers that encapsulate specific development environments. They ensure system cleanness by isolating installed tools from the base system. Toolboxes provide version isolation, allowing for different toolsets for various projects. They also ensure update independence, as system updates do not interfere with toolbox operations.",
+    "expert": "The philosophy of using toolboxes in Fedora Silverblue revolves around the concept of containerization and its philosophical implications. Toolboxes offer a balance between system integrity and user flexibility. They ensure system cleanness by avoiding package layering, which can lead to system pollution. Toolboxes promote version isolation, facilitating the coexistence of different tool versions for various projects. Moreover, toolboxes ensure update independence, as system updates do not affect toolbox operations. This philosophy has broader implications in the field of software engineering and system administration, highlighting the benefits of modularity and isolation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Toolboxes in Fedora Silverblue provide a clean, organized, and versatile development environment while maintaining system integrity and update independence.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

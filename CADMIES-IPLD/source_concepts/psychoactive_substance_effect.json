@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "psychoactive_substance_effect",
+  "title": "Psychoactive Substance Effect",
+  "definition": "The neurological and psychological effects of certain substances that interact with the brain's serotonin receptors, causing a temporary disintegration of the ego and a rewiring of reality.",
+  "type": "Concept",
+  "domain": "Psychology and Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.115050Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.115050Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Certain substances mimic the brain's natural chemicals, hijacking receptors to trigger intense signals. This disruption of the brain's filtering system can temporarily change our perception of reality.",
+    "intermediate": "Psychoactive substances, such as DMT, structurally mimic neurotransmitters, powerfully binding to specific serotonin receptors. This triggers an intense signal cascade that disrupts the Default Mode Network, causing a temporary rewiring of reality and disintegration of the ego.",
+    "expert": "The effect of psychoactive substances can be understood through the lens of structural mimicry, receptor hijacking, and network disintegration. Molecular mimicry of natural neurotransmitters allows substances to bind to specific serotonin receptors, triggering an overwhelming signal cascade. This disruption of the Default Mode Network, the system responsible for the ego and mental chatter, causes a temporary rewiring of reality and facilitates communication between brain regions that don't normally interact. This experience has philosophical implications, challenging our understanding of self and consciousness, and highlights the delicate balance of the brain's signaling system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The chain reaction of structural mimicry, receptor hijacking, and network disintegration that causes a temporary rewiring of reality and the disintegration of the ego.",
+    "source_chunk": 116,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

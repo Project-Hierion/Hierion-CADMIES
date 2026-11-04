@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_philosophy",
+  "title": "Documentation Philosophy",
+  "definition": "The philosophical underpinnings and strategies for organizing, structuring, and disseminating knowledge within a system.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.476710Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.476710Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library where books are easily found and understandable. A documentation philosophy is like the rules that keep the library running smoothly.",
+    "intermediate": "Documentation philosophy encompasses the design of a knowledge management system's structure, interconnectivity, and attribution, enabling efficient knowledge sharing and evolution.",
+    "expert": "Documentation philosophy is a unique blend of information science, sociology, and epistemology. It encompasses the design of a knowledge management system's structure, interconnectivity, and attribution, while also addressing the ethical implications of knowledge acquisition, dissemination, and ownership."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES knowledge system's documentation philosophy emphasizes clarity, evidence-based claims, and collaboration.",
+    "source_chunk": 102,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

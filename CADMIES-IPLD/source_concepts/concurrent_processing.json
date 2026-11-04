@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concurrent_processing",
+  "title": "Concurrent Processing",
+  "definition": "The ability of a system to perform multiple tasks simultaneously, effectively managing resources to ensure optimal utilization and performance.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.370016Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.370016Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your computer as a busy kitchen. While it's baking a cake, it can also be making breakfast eggs. Concurrent processing allows this multi-tasking.",
+    "intermediate": "Concurrent processing uses threading, asyncio, and event loops to manage multiple tasks. It's crucial for responsive UIs, handling many users, and maintaining websocket connections.",
+    "expert": "Concurrent processing involves managing system resources, dealing with race conditions, and understanding the Global Interpreter Lock in Python. It's also a topic in distributed systems and parallel computing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system's ability to handle multiple tasks simultaneously, while maintaining responsiveness and resource optimization, is a noteworthy observation.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

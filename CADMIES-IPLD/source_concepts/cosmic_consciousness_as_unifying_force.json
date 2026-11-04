@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_consciousness_as_unifying_force",
+  "title": "Cosmic Consciousness As Unifying Force",
+  "definition": "The concept of cosmic consciousness acting as a unifying force, enabling the integration of fragmented human knowledge and facilitating the solution of complex global issues.",
+  "type": "Concept",
+  "domain": "Philosophy, Cosmology, Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.613973Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.613973Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a vast library with thousands of books. Cosmic consciousness is like the librarian that organizes these books into a cohesive whole, making it easier to find what we need and solve problems.",
+    "intermediate": "Cosmic consciousness can be viewed as a unifying principle that integrates various disciplines and perspectives, promoting a holistic understanding of the universe and enabling the solution of complex global issues.",
+    "expert": "The concept of cosmic consciousness as a unifying force highlights the interconnectedness of all disciplines and phenomena. It suggests that a comprehensive understanding of the universe requires integrating insights from various fields and embracing a non-dualistic perspective. This concept has philosophical implications for the nature of reality and consciousness, and its exploration may lead to novel insights in fields such as artificial intelligence, neuroscience, and quantum physics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Cosmic consciousness acts as a unifying force, enabling the integration of fragmented human knowledge and facilitating the solution of complex global issues.",
+    "source_chunk": 138,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

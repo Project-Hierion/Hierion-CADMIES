@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "predatory_ecosystem_dynamics",
+  "title": "Predatory Ecosystem Dynamics",
+  "definition": "The complex relationships between predator and prey within an ecosystem, including strategic acceptance, cohabitation, and the exploitation of biological mechanisms like patience and subconscious awareness.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.814801Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.814801Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "hematophagous_symbiosis_theory",
+      "predatory_patience_adaptation",
+      "subconscious_cellular_awareness"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about a park with lions and zebras. Sometimes the lions don't chase the zebras, which might seem strange. This is because in a park, there's always food for the zebras, so there's no need for them to be extra careful. Similarly, some animals have learned to coexist in the same environment, and sometimes they even help each other out.",
+    "intermediate": "Predatory ecosystem dynamics involves understanding how predator and prey species interact and evolve in response to each other. This can include studying behaviors like strategic acceptance, where predators learn to not always chase prey for food, and cohabitation, where different species learn to live together in harmony. Biological mechanisms such as predatory patience and subconscious cellular awareness also play a role in these dynamics.",
+    "expert": "The study of predatory ecosystem dynamics is a fascinating intersection of biology, ecology, and philosophy. It involves understanding not only how predator and prey species interact, but also why certain strategies emerge and how they can be explained through biological mechanisms. This field has connections to other disciplines like game theory, evolutionary biology, and neuroscience. It also raises philosophical questions about the nature of cooperation and competition in biological systems."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The study of predatory ecosystem dynamics highlights the complex interplay between strategy, evolution, and biology, and demonstrates that understanding these dynamics can provide insights into a wide range of biological and philosophical questions.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

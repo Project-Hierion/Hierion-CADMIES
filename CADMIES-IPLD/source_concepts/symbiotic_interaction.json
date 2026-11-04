@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_interaction",
+  "title": "Symbiotic Interaction",
+  "definition": "A relationship in which two entities mutually benefit from each other.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.480014Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.480014Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a bee and a flower. The bee needs the flower's nectar to survive, and the flower needs the bee to help it reproduce. This is an example of symbiotic interaction.",
+    "intermediate": "Symbiotic interaction is a form of mutualism, where two different species coexist and benefit from each other. Examples include the relationship between clownfish and sea anemones, or the symbiotic relationship between humans and bacteria in the gut.",
+    "expert": "From a philosophical perspective, symbiotic interaction can be seen as a complex form of coevolution. It highlights the interdependencies within ecosystems and the ways in which different species can coexist and evolve together. This concept also has implications in fields like sociology and economics, where it can be used to understand relationships between organizations and their environments."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the presence of symbiotic interactions between various entities, highlighting the mutual benefits and interdependencies within the system.",
+    "source_chunk": 85,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

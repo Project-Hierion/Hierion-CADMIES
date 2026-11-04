@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_vault_structure",
+  "title": "Knowledge Vault Structure",
+  "definition": "The organized structure of a knowledge vault, containing raw and refined information for various purposes.",
+  "type": "Concept",
+  "domain": "Information Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.060943Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.060943Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a big library with two sections. One is for rough notes and ideas, and the other is for more polished, scientifically-ready knowledge. This way, it's easy to find what you need, whether it's for casual use or serious study.",
+    "intermediate": "A knowledge vault is a structured repository that houses raw and refined information. It typically consists of a primary workspace for casual notes and a secondary workspace for more polished, scientifically-ready content. This structure allows for easy access and utilization of information depending on the user's needs.",
+    "expert": "The knowledge vault structure is a novel approach to information management that recognizes the value of both raw and refined information. By creating a two-layer structure, the vault provides a space for casual exploration and ideation (raw information) while also accommodating more structured, scientifically-sound content (refined information). This structure enables a more flexible and comprehensive approach to knowledge management, connecting it to other fields such as scientific methodology and data organization."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The separation of raw and refined information in a knowledge vault structure allows for a more flexible and comprehensive approach to knowledge management, connecting it to scientific methodology and data organization.",
+    "source_chunk": 95,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "temporal_reconfiguration_theory",
+  "title": "Temporal Reconfiguration Theory",
+  "definition": "The theory suggesting that time-travel isn't about traveling along a timeline but rather reconfiguring the present to match a prior state of the universe.",
+  "type": "Concept",
+  "domain": "Philosophy of Time and Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.095126Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.095126Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Time-travel isn't like going back in time to visit a past that doesn't exist. Instead, it's more like rebuilding the past in the present, making it come back to life.",
+    "intermediate": "Temporal reconfiguration theory posits that time-travel involves recreating a past state of the universe in the present, without moving along a timeline. This theory connects to the idea of presentism and the nature of memory and perception.",
+    "expert": "The temporal reconfiguration theory challenges the traditional understanding of time-travel by suggesting that it's not about moving through time but rather changing the configuration of matter in the present. This theory connects to philosophical debates about the nature of time, space, and causality, and has implications for quantum physics and the interpretation of special relativity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Time-travel isn't about going back in time to visit a past that doesn't exist. Instead, it's about rebuilding the past in the present, making it come back to life. This insight challenges the traditional understanding of time-travel and connects to philosophical debates about the nature of time, space, and causality.",
+    "source_chunk": 107,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

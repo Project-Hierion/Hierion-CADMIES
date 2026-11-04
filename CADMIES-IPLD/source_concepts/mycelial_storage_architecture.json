@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_storage_architecture",
+  "title": "Mycelial Storage Architecture",
+  "definition": "A unique storage and organization system that employs a network of interconnected concepts stored in a blockstore, with relationships represented as edges.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.982445Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.982445Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your knowledge as a garden of ideas. This system is like a network of tunnels (concepts) connected by pathways (edges) in the soil (blockstore).",
+    "intermediate": "Mycelial Storage Architecture is a type of distributed data storage and retrieval system that uses a graph-based structure to store and interconnect concepts. It leverages a blockstore to store concept data and represents relationships as edges between nodes.",
+    "expert": "The Mycelial Storage Architecture is a novel application of distributed systems and graph theory in the field of knowledge representation. It leverages the principles of mycelial networks in biology to create a robust, scalable, and flexible system for storing and retrieving complex interconnected concepts. Unlike traditional hierarchical or flat storage systems, the mycelial architecture allows for multiple paths and connections between concepts, enabling a richer and more nuanced representation of knowledge. This architecture has potential applications in various fields, including AI, machine learning, and human-computer interaction."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Mycelial Storage Architecture's unique interconnected network of concepts and relationships provides a richer and more nuanced representation of knowledge than traditional storage systems.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

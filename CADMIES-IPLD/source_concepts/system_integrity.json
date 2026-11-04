@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "system_integrity",
+  "title": "System Integrity",
+  "definition": "The quality and accuracy of the CADMIES knowledge system, as demonstrated by the successful execution of various tests.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.698755Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.698755Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of this as making sure all the parts of our smart system work together well. Just like how a car needs to be well-oiled and all its parts working correctly, our system needs to function properly to ensure accurate and reliable information.",
+    "intermediate": "System integrity refers to the reliability and consistency of the CADMIES knowledge system. This was demonstrated through the successful execution of tests, including the CID generator, scientific validator, CBOR reader, and executor. These components ensure the system's content-addressed storage, schema validation, deterministic CIDs, and handling of non-agent concepts.",
+    "expert": "System integrity is a complex concept that encompasses the reliability, consistency, and trustworthiness of the CADMIES knowledge system. The successful execution of various tests not only validates the system's operational functionality but also highlights its resilience to errors and its ability to maintain data integrity. This demonstrates the system's commitment to content-addressed storage, schema validation, and deterministic CIDs, thereby ensuring trust and reliability. Furthermore, the ability to handle non-agent concepts without failure underscores the system's versatility and adaptability, positioning it as a robust platform for knowledge storage and retrieval."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful execution of various tests has underscored the integrity and reliability of the CADMIES knowledge system, showcasing its ability to handle content-addressed storage, schema validation, and deterministic CIDs, while also demonstrating its versatility in handling non-agent concepts.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

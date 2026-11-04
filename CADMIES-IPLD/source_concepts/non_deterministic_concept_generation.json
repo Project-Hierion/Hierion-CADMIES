@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "non_deterministic_concept_generation",
+  "title": "Non Deterministic Concept Generation",
+  "definition": "The process of generating concepts that vary in each iteration due to the non-deterministic nature of the underlying model.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.753450Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.753450Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a computer making up a story. Each time you run the program, it might come up with a different story. This is like non-deterministic concept generation.",
+    "intermediate": "In the field of AI, non-deterministic concept generation refers to the unpredictable output of a machine learning model. Each run of the model can yield a different result, leading to varying concepts.",
+    "expert": "Non-deterministic concept generation is a fundamental aspect of machine learning models, particularly those using stochastic methods. This characteristic arises from the model's inherent uncertainty and the sensitivity to initial conditions. It has philosophical implications for the nature of knowledge and truth, and it's a significant challenge in achieving consistent and reliable results in AI systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The non-deterministic nature of concept generation highlights the need for careful handling of data and models to ensure consistency and reliability.",
+    "source_chunk": 120,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "spiritual_harmony",
+  "title": "Spiritual Harmony",
+  "definition": "The concept of balancing and integrating internal and external environments to achieve a state of harmony and enlightenment.",
+  "type": "Concept",
+  "domain": "Philosophy, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.254707Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.254707Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "anatta",
+      "inner_renunciation",
+      "mindful_acknowledgement",
+      "qualia"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "cosmic_game",
+      "resonance_presence",
+      "ocean_as_cosmic_breath",
+      "nibbana",
+      "awakening_experience",
+      "cosmic_hum",
+      "calm_water_mind",
+      "cosmic_self_exploration",
+      "thermodynamic_time",
+      "non_attachment_vs_detachment",
+      "ecosystem_as_cohabitation"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine balancing a seesaw to find a peaceful middle ground. Spiritual harmony is about balancing our inner peace with our experience in the world.",
+    "intermediate": "Spiritual harmony involves the interplay of concepts like anatta (no permanent self), inner renunciation, and mindful acknowledgement. It's about letting go of attachments while remaining present and aware.",
+    "expert": "Spiritual harmony is a complex philosophical concept that blends Eastern and Western perspectives. It suggests that enlightenment can be achieved through understanding the nature of consciousness (qualia) and our relationship with the universe (gravitational waves, thermodynamic time). It's also connected to the notion of ecosystems as cohabitation and the distinction between non-attachment and detachment."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "anatta",
+      "inner_renunciation",
+      "mindful_acknowledgement",
+      "qualia"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Spiritual harmony requires integrating and balancing our inner world (consciousness, emotions) with our external experience, without losing sight of the impermanence and interconnectedness of all things.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "legal_collapse_strategy",
+  "title": "Legal Collapse Strategy",
+  "definition": "A legal strategy that leverages a system's own contradictions to force a collapse of the entire edifice.",
+  "type": "Concept",
+  "domain": "Law",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.416429Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.416429Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as using the rules against the rulemakers. When laws are unfairly used and written to benefit powerful entities, this strategy is used to expose and challenge them.",
+    "intermediate": "This strategy involves using an 'as-applied constitutional challenge' or a 'void for vagueness' argument to demonstrate how unjust laws get broken by showing that the legal system's own rules are being selectively enforced or are unconstitutionally vague.",
+    "expert": "The legal collapse strategy is a novel approach that highlights the philosophical implications of law and power. By exposing the contradictions between laws and their enforcement, it challenges the legitimacy of the legal system. This strategy has been used in various fields, including civil rights and antitrust law, to challenge unjust laws and promote equality and competition."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of a system's own contradictions to force a collapse of the entire edifice is a strategic legal move that has been successful in challenging unjust laws and promoting social and political change.",
+    "source_chunk": 160,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

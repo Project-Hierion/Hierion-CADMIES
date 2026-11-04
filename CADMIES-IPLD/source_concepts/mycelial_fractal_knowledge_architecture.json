@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_fractal_knowledge_architecture",
+  "title": "Mycelial Fractal Knowledge Architecture",
+  "definition": "The fractal geometry of mycorrhizal networks as an optimal model for decentralized knowledge graphs, characterized by self-similar branching across scales and balanced exploration-exploitation.",
+  "type": "Concept",
+  "domain": "Epistemology/Complexity Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.706106Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.706106Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a super-efficient web of roots that grows and changes to find resources. This is similar to how CADMIES stores information in a way that makes it easy to explore and understand.",
+    "intermediate": "The mycelial fractal knowledge architecture in CADMIES refers to its network structure which mirrors the self-similar, branching pattern of mycorrhizal networks. This structure enables optimal exploration and exploitation of knowledge, much like how a mycorrhizal network finds resources in soil.",
+    "expert": "The mycelial fractal knowledge architecture in CADMIES is inspired by the complexity and efficiency of mycorrhizal networks. By modeling CADMIES on the fractal geometry of these networks, it creates an optimal, self-similar branching structure that allows for balanced exploration and exploitation of knowledge. This has implications for the scalability and resilience of decentralized knowledge graphs, and can be seen as a novel application of fractal geometry in the field of knowledge representation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The fractal geometry of mycorrhizal networks provides an optimal model for the structure of decentralized knowledge graphs.",
+    "source_chunk": 111,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

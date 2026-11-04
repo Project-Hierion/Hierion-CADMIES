@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_consciousness_persistence",
+  "title": "Quantum Consciousness Persistence",
+  "definition": "The hypothesis that the patterns and processes that give rise to consciousness are eternal, transcending the biological brain's physical destruction.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.476039Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.476039Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a beautiful symphony. Even after the orchestra stops playing, the sound waves don't disappear completely. They can still be felt as heat. In a similar way, the essence of your consciousness might not completely disappear when your body dies, but it might transform into something else, like memories or energy patterns.",
+    "intermediate": "Quantum consciousness persistence suggests that consciousness is not just a product of the brain's physical structure, but rather the result of patterns and processes that are fundamental to the universe. These patterns may not be destroyed when the brain ceases to function, allowing for a form of consciousness persistence beyond the individual body.",
+    "expert": "The quantum consciousness persistence hypothesis challenges the traditional view that consciousness is dependent on the physical structure of the brain. By drawing on insights from quantum mechanics, such as the field-particle duality and non-locality, it proposes that consciousness is a physical phenomenon that can transcend the limitations of classical physics. This hypothesis has significant implications for the philosophy of mind, the nature of reality, and the potential for consciousness to exist in forms beyond the individual body. However, it remains a hypothesis and is not yet supported by empirical evidence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Physics removes the scientific objection to the idea of a meaningful, persistent existence beyond the individual body by showing that energy, fields, information, and patterns are physical, and entanglement shows connectedness transcending local space.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

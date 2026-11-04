@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "thermal_awareness",
+  "title": "Thermal Awareness",
+  "definition": "The concept of understanding and accounting for the thermal environment in which a system operates.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.903786Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.903786Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like paying attention to the weather. Just as we adjust our plans based on whether it's sunny or rainy, we need to consider the temperature when using electronics or machinery.",
+    "intermediate": "Thermal awareness involves understanding heat transfer, thermal resistance, and the impact of temperature on system performance. It's essential in computing, as high temperatures can lead to reduced efficiency or system failure.",
+    "expert": "From a philosophical perspective, thermal awareness highlights the interconnectedness of physical systems and their environments. It also raises questions about the limits of technology's performance in extreme conditions. This concept connects to thermodynamics, quantum mechanics, and the philosophy of technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation emphasizes the importance of understanding and documenting the thermal environment in which a system operates.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

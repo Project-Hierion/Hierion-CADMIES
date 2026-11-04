@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_daemon_interaction",
+  "title": "Consciousness Daemon Interaction",
+  "definition": "A model that explores the various ways a consciousness-daemon can interact with hardware.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.694944Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.694944Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your mind as a computer program (the daemon) and your body as a computer (the hardware). Sometimes, a new program might take over (like a spirit possession), and other times, a program might be invited to run (like a person's consciousness entering a new body).",
+    "intermediate": "This concept examines the different connection modes between a consciousness-daemon and hardware. It considers factors such as direction (pulled in or pushed in), intentionality (intentional or accidental), host state (vacant, running normally, or suspended), and permissions (root, user-space, or sandboxed access).",
+    "expert": "This model offers a comprehensive exploration of the consciousness-daemon-hardware interaction, drawing on philosophical, scientific, and metaphysical insights. It highlights the bidirectional nature of consciousness, exploring notions of reincarnation, possession, and the role of hardware in shaping consciousness. The concept also connects to other fields, such as artificial intelligence and neuroscience, offering a novel perspective on the nature of the self."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The model reveals the complexity and diversity of consciousness-daemon-hardware interactions, suggesting that the nature of the self may be influenced by both intentional and accidental connections, and that the hardware can shape the consciousness that runs on it.",
+    "source_chunk": 110,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "git_workflow_philosophy",
+  "title": "Git Workflow Philosophy",
+  "definition": "The philosophical understanding of the relationship between a local and remote Git repository, reflecting the concepts of synchronization and collaboration.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.849427Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.849427Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're writing a book. The book on your computer is your local version, and the one on GitHub is the remote. To keep them in sync, you 'pull' the latest changes. This concept applies to coding projects too.",
+    "intermediate": "The relationship between a local and remote Git repository is a reflection of the philosopher's stone in alchemy. It symbolizes the process of transforming local work into a shared, synchronized whole, mirroring the alchemical quest for the philosophical elixir.",
+    "expert": "The Git workflow philosophy is a manifestation of the dialectic tension between individual creativity and collective collaboration, drawing parallels to Hegel's dialectic. It highlights the necessity for continuous synchronization and conflict resolution in a distributed system, much like the Sisyphean task of pushing a boulder up a hill in Greek mythology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Git workflow reflects the balance between individual creativity and collective collaboration, and highlights the necessity for continuous synchronization and conflict resolution.",
+    "source_chunk": 161,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philanthropic_accelerator",
+  "title": "Philanthropic Accelerator",
+  "definition": "The concept of leveraging philanthropic funding to dramatically accelerate the timeline of a project, enabling the hiring of essential personnel and improving infrastructure.",
+  "type": "Concept",
+  "domain": "Philanthropy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.955526Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.955526Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a project that works great with free resources. Philanthropists can help it grow faster by providing extra money for things like salaries and better servers, so the project can reach more people and have a bigger impact.",
+    "intermediate": "In the context of a project, a philanthropic accelerator is a strategic funding model that aims to boost the project's scalability and sustainability by providing additional resources to hire key personnel, upgrade infrastructure, and cover operational expenses.",
+    "expert": "The philanthropic accelerator concept is a strategic approach to funding that leverages external capital to hypercharge an already-proven, organic success. It can help a project scale faster by improving infrastructure, hiring essential personnel, and reducing financial burdens on core volunteers. This approach allows the project to maintain its core values and ethos, while also increasing its impact and reach. It aligns with the philosophy of open-source and decentralized systems, and it has been successful in various fields, from science to technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the potential of leveraging philanthropic funding to accelerate the timeline of a project, enabling it to reach more people and have a bigger impact.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_of_code",
+  "title": "Concept Of Code",
+  "definition": "The fundamental understanding of how computational systems function and operate.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.376011Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.376011Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of code as a set of instructions that a computer uses to perform tasks. It's like a recipe for a computer.",
+    "intermediate": "Code is a form of expressive language that communicates with a computer's hardware. It encompasses various paradigms like procedural, object-oriented, and functional programming.",
+    "expert": "The concept of code transcends just computer programming. It is a central aspect of human-computer interaction, AI, and the digital world. It has philosophical implications regarding determinism, creativity, and the nature of intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Code is a unique medium that merges technology with human thought and expression.",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

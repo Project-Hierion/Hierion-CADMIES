@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "selective_restoration",
+  "title": "Selective Restoration",
+  "definition": "The ability to restore a system or parts of a system to a previous state without affecting the current state of the rest of the system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.614184Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.614184Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as being able to restore specific projects or parts of a computer system to how they were at a certain time, without changing everything else.",
+    "intermediate": "Selective restoration is a technique used in computer systems to restore specific components or data from a backup without affecting the current state of the rest of the system.",
+    "expert": "Selective restoration is a critical concept in data management and system recovery. It enables the recovery of specific components or data from a backup while leaving the current state of the rest of the system intact. This allows for fine-grained control over system restoration and minimizes disruption to ongoing operations. Moreover, selective restoration can have philosophical implications for our understanding of time, change, and the nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to perform selective restoration of a system provides fine-grained control over system recovery, minimizes disruption to ongoing operations, and has philosophical implications for our understanding of time and change.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

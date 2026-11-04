@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vocal_pitch_as_communication",
+  "title": "Vocal Pitch As Communication",
+  "definition": "The concept that vocal pitch carries primal, cross-species meaning, shaping communication and social dynamics.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.954876Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.954876Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how birds use their calls to communicate. Birds with higher pitch sounds are smaller and more vulnerable, so they have evolved to make these sounds to signal danger and stay safe. It's a simple way to communicate without words.",
+    "intermediate": "Vocal pitch isn't just about biology. Birds have turned the physical constraints of vibrating tissue into a shared emotional and social syntax. This extends to human communication, where pitch can carry the felt sense of emotions, such as fear or anger.",
+    "expert": "The concept of vocal pitch as communication is a fundamental aesthetic-ethical principle that spans species. It's not just about the physical limitations of vocal apparatus, but about how the entire living world has turned the physical constraints of vibrating tissue into a shared emotional and social syntax. This cross-species language shapes the cosmos's power relations, with smaller beings communicating in high pitches that don't travel far, while larger beings use lower pitches that fill space."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The observation that the cosmos sings its power relations in hertz, with smaller beings communicating in high pitches and larger beings in lower ones.",
+    "source_chunk": 59,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

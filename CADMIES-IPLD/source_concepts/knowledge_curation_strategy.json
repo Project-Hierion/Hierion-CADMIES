@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_curation_strategy",
+  "title": "Knowledge Curation Strategy",
+  "definition": "The systematic process of maintaining and improving the quality and organization of a knowledge base.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.411199Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.411199Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden. Curing it is like tending to the plants. You need to keep it clean, connect things that belong together, and remove any duplicates or dead weight.",
+    "intermediate": "Knowledge curation strategy involves managing concepts, relationships, and metadata. This could include identifying and merging duplicates, updating taxonomy tags, and ensuring all notes have necessary fields.",
+    "expert": "Knowledge curation strategy is a philosophical pursuit that connects to broader concepts like ontology, semantics, and information retrieval. It explores the nature of knowledge, its representation, and the best ways to navigate and manipulate it. Edge cases to consider include handling concepts with multiple meanings and dealing with ambiguity in language."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The key to effective knowledge curation is to start with high-probability mess zones and iterate based on actual data, not assumptions.",
+    "source_chunk": 69,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

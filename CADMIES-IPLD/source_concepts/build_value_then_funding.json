@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "build_value_then_funding",
+  "title": "Build Value Then Funding",
+  "definition": "A strategy that emphasizes the importance of demonstrating the value of a project before seeking financial support.",
+  "type": "Concept",
+  "domain": "Entrepreneurship",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.951598Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.951598Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The idea is to focus on creating something valuable first, and then seek funding to support its growth.",
+    "intermediate": "The Build Value, Then Funding strategy emphasizes the importance of demonstrating the value of a project before seeking financial support.",
+    "expert": "The Build Value, Then Funding strategy is a fundamental shift in the traditional startup model. It highlights the importance of creating value for users and contributors before seeking financial support."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The success of a project is not determined by its funding, but by its ability to create value for its users and contributors.",
+    "source_chunk": 41,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_resonance_as_unified_awareness",
+  "title": "Cosmic Resonance As Unified Awareness",
+  "definition": "The concept of cosmic resonance being a foundation for unified awareness, enabling a holistic, interconnected understanding of reality.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind, Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.288669Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.288669Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "cosmic_resonance",
+      "unified_awakening"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "dependent_co-arising",
+      "quantum_consciousness_perception"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine all things in the universe as interconnected and vibrating in harmony. This cosmic resonance allows us to perceive and understand the whole picture, creating a unified awareness.",
+    "intermediate": "Cosmic resonance, as a form of entangled consciousness, facilitates unified awareness. It suggests that our individual perceptions are influenced by the collective consciousness of the universe, fostering a sense of interconnectedness and holistic understanding.",
+    "expert": "Cosmic resonance as unified awareness challenges traditional notions of self and identity. By viewing consciousness as emergent from the interactions of quantum fields, it implies a non-dualistic and interconnected reality. This resonates with the Buddhist concept of dependent co-arising, suggesting a unified fabric of existence."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "cosmic_resonance",
+      "unified_awakening"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnectedness and entanglement of consciousness at a cosmic scale can foster unified awareness and a holistic understanding of reality.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

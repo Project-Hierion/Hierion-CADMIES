@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "directory_structure_evolution",
+  "title": "Directory Structure Evolution",
+  "definition": "The evolution and organization of directory structures within a file system to optimize access and management of resources.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.655430Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.655430Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a file cabinet. At first, it's messy, but over time, you create new drawers and organize files better. Directory structure evolution is similar \u2013 it's about making it easier to find and manage resources by organizing them in a logical way.",
+    "intermediate": "Directory structure evolution involves changes in the arrangement of files and directories over time to support new features, enhance security, or improve performance. It's about organizing the file system in a way that makes sense for the system's purpose and the data it handles.",
+    "expert": "Directory structure evolution is a complex topic with philosophical implications. It's about the balance between order and chaos, structure and flexibility. The evolution of directory structures reflects the evolution of our understanding of the data and the systems that handle it. It's also connected to larger philosophical questions about the nature of order and structure in the universe. However, in the context of this conversation, it's primarily about the evolution and organization of a file system to optimize access and management of resources."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The directory structure evolution demonstrates the evolution of our understanding and the adaptation of systems to handle new features and data.",
+    "source_chunk": 85,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

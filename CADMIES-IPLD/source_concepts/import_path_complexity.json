@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "import_path_complexity",
+  "title": "Import Path Complexity",
+  "definition": "The complexity and intricacy of import paths in a Python project, especially when dealing with nested directories and package structures.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.240802Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.240802Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to find your way in a maze of hallways and rooms. Each hallway represents a directory, and each room is a Python file. To access a file, you need to know which path to take from your current location. If the path is too long or not correct, it's like trying to find a room in the wrong building \u2014 you won't find it.",
+    "intermediate": "Import paths in Python are crucial for correctly referencing modules and functions from other files. The complexity arises when dealing with nested directories and package structures. The Python interpreter uses a specific sequence of steps to search for modules, and any deviations in the import statement can lead to errors. Understanding and managing import paths is a common challenge in larger projects.",
+    "expert": "Import path complexity can lead to various issues such as circular imports, hidden imports, and unexpected module resolution. It can also make code more difficult to understand and maintain. To address this, Python provides mechanisms such as the sys.path variable, which allows developers to explicitly set the search path for modules. Additionally, modern project structures often include tools like setuptools and virtual environments to simplify dependency management and ensure consistent import behavior across different environments."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of understanding and managing import paths in Python projects, especially when dealing with nested directories and package structures.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

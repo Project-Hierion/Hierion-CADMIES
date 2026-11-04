@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interactive_mycelium",
+  "title": "Interactive Mycelium",
+  "definition": "The concept of the CADMIES mycelium being interactive and responsive to user queries through the use of an LLM.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.185576Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.185576Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the CADMIES mycelium as a living, intelligent database that can answer your questions like a smart friend. The LLM (Language Learning Model) helps it understand and respond to your queries.",
+    "intermediate": "The CADMIES mycelium, which is a network of IPLD blocks connected by CIDs, can be made interactive through the integration of an LLM. This enables the mycelium to answer user queries by interpreting the context of the question and providing relevant responses.",
+    "expert": "The integration of an LLM with the CADMIES mycelium can be seen as a novel approach to artificial intelligence, bridging the gap between symbolic and neural networks. This allows the mycelium to not only store and distribute information, but also understand and generate meaningful responses to user queries. Furthermore, this integration can lead to advancements in various fields, such as natural language processing and knowledge graph navigation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of an LLM with the CADMIES mycelium allows for a more interactive and responsive system, enabling it to answer user queries and generate relevant responses.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

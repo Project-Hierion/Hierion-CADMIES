@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sovereign_ai",
+  "title": "Sovereign Ai",
+  "definition": "The practice of running AI models on local infrastructure to ensure data privacy, security, and reduce reliance on external services.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.405907Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.405907Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The conversation mentions a system that doesn't need the internet to work. This means it's completely independent, which can be especially useful in certain situations.",
+    "intermediate": "Sovereign AI refers to the practice of running AI models on local infrastructure. This ensures data privacy and security, and also reduces reliance on external services, which can improve performance and reliability.",
+    "expert": "Sovereign AI is a critical aspect of digital sovereignty, allowing users to maintain control over their data and computational resources. It also challenges the centralization of AI technology, promoting decentralization and resilience. However, it's important to note that while sovereign AI offers advantages in terms of data privacy and security, it may also limit access to global AI resources and knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Sovereign AI challenges the centralization of AI technology, promoting decentralization and resilience.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_symbiosis",
+  "title": "Philosophical Symbiosis",
+  "definition": "The concept of interdependence and mutual growth between philosophical concepts, leading to the development of a rich and evolving knowledge system.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.034714Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.034714Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine philosophical ideas as plants in a garden. They grow and thrive together, benefiting from each other's presence and creating a beautiful, complex ecosystem.",
+    "intermediate": "Philosophical symbiosis refers to the dynamic interplay between concepts, where each concept builds upon and is connected to others, creating a network of knowledge that evolves over time.",
+    "expert": "Philosophical symbiosis is a recursive, self-reinforcing process that results in a rich and nuanced understanding of the world. It encompasses not just the interplay of concepts but also the philosophical implications of this interconnectedness, such as the emergence of new insights and the refinement of existing ones. This process can be compared to biological symbiosis, where organisms depend on each other for survival and growth, but also to the interdisciplinary nature of knowledge, where fields of study influence and are influenced by each other."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnectedness of philosophical concepts can lead to the emergence of new insights and the refinement of existing ones, resulting in a rich and evolving knowledge system.",
+    "source_chunk": 118,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

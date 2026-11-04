@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "contextual_precision",
+  "title": "Contextual Precision",
+  "definition": "The ability to extract accurate and distinct concepts from text, even when the text contains overlapping or ambiguous contexts.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.718424Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.718424Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to summarize a long conversation with many ideas. If you pause and restate at each main topic, you'll get a more accurate summary than if you read it as one continuous stream.",
+    "intermediate": "Contextual precision in text extraction involves leveraging structural breaks to accurately and safely separate text into distinct sections for concept extraction. This relates to the idea of chunking in NLP, which emphasizes processing text in manageable units to minimize context overlap.",
+    "expert": "Contextual precision is a fundamental challenge in AI that applies across multiple domains, from text extraction to image classification. By understanding the concept of structural breaks, we can improve the model's ability to extract distinct concepts from ambiguous contexts. This insight connects to the broader field of AI alignment, which explores how to ensure AI models align with human values and expectations."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the role of structural breaks in text extraction can improve the model's ability to extract accurate and distinct concepts from overlapping or ambiguous contexts.",
+    "source_chunk": 128,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

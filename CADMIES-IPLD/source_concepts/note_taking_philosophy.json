@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "note_taking_philosophy",
+  "title": "Note Taking Philosophy",
+  "definition": "A philosophical perspective on note-taking practices, with a focus on maintaining a fluid and interconnected network of knowledge.",
+  "type": "Concept",
+  "domain": "Information Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.853743Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.853743Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of note-taking as planting seeds in a garden. Allow ideas to grow freely and organically, and then nurture them into well-structured notes. The garden is more important than individual flowers.",
+    "intermediate": "Note-taking philosophy involves creating a graph-like structure for knowledge storage, where notes are linked and tagged to facilitate discovery and cross-referencing. This philosophy emphasizes the interconnectedness of ideas, rather than hierarchical organization.",
+    "expert": "The note-taking philosophy emphasizes the inherent complexity and fluidity of knowledge. It draws from network theory to propose that notes should be linked and tagged in a way that reflects the underlying relationships between concepts, rather than a linear, hierarchical structure. This philosophy has implications for the design of digital tools, the training of researchers, and the evolution of scientific communities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The note-taking philosophy highlights the interconnectedness of ideas, and emphasizes the importance of creating a fluid and networked structure for knowledge storage.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

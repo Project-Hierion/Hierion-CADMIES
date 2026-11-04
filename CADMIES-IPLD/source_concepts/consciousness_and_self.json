@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_and_self",
+  "title": "Consciousness And Self",
+  "definition": "Explores the relationship between consciousness, self-awareness, and the psychedelic state, highlighting the paradoxical nature of heightened consciousness without a stable self.",
+  "type": "Concept",
+  "domain": "Philosophy and Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.119122Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.119122Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine being an awake baby in a world full of wonders, with no concept of 'me' or 'mine'. This is what it's like in a psychedelic state - your mind is fully awake and alert, but it's like you've lost your 'self'.",
+    "intermediate": "The psychedelic state involves a heightening of consciousness that can dissolve the boundaries between the self and the external world. This creates a paradoxical experience of intense awareness without a stable self, similar to the state of consciousness in infancy or deep sleep.",
+    "expert": "The psychedelic state challenges the traditional duality of consciousness and self. It highlights the philosophical implications of consciousness as a primary experience without a fixed self, connecting to broader discussions in phenomenology, existentialism, and neuroscience. It also provides insights into the nature of reality construction and the role of the ego in maintaining a sense of self."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The psychedelic state reveals the paradoxical nature of consciousness and self-awareness, showcasing the instability of the self and the primal, infantile consciousness that underlies it.",
+    "source_chunk": 118,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

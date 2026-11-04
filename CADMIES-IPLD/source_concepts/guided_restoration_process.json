@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "guided_restoration_process",
+  "title": "Guided Restoration Process",
+  "definition": "A step-by-step, interactive process designed to restore backups with user guidance and confirmation.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.640154Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.640154Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a virtual time machine. You select what you want to restore, choose where to put it, and confirm the changes.",
+    "intermediate": "Guided restoration process is a user-friendly feature that facilitates the selection of backup sources, files, and destinations. It provides an interactive, step-by-step interface for users to navigate and make informed decisions.",
+    "expert": "Guided restoration process is a critical concept in the field of backup and data recovery. It offers a user-centric approach that addresses the challenges of complexity and uncertainty inherent in restoring backups. By presenting the restoration process as a sequence of interconnected steps, it enables users to make informed decisions, while also minimizing the risk of data loss or corruption. This approach is also notable for its adaptability and scalability, allowing for seamless integration with various backup systems and file structures."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The guided restoration process offers a user-friendly and adaptable solution for restoring backups, enabling users to make informed decisions and minimize the risk of data loss or corruption.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

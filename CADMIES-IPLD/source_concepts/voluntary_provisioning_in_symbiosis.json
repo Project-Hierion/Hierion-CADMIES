@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "voluntary_provisioning_in_symbiosis",
+  "title": "Voluntary Provisioning In Symbiosis",
+  "definition": "A behavioral adaptation in long-term host-predator relationships where the host voluntarily provides non-essential offerings to the predator as a form of ritualized negotiation to signal acceptance, resource sufficiency, and psychological stability.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.800763Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.800763Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "hematophagous_symbiosis_theory"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "free_range_artisanal_meal_ticket",
+      "acceptance_of_predation"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Leaving cookies for a vampire is like setting the table and leaving a glass of wine. It shows that you accept the arrangement and can provide. This makes both you and the vampire calmer.",
+    "intermediate": "The cookie offering ritual is a unique form of predator-prey interaction where the host voluntarily provides food within an involuntary relationship. This acknowledges the predation and re-frames the host's role, transforming them from a victim to an active participant.",
+    "expert": "The cookie offering ritual engages with the anthropology of ritual, game theory, and the philosophy of agency under constraint. It functions as a costly signal in a repeated asymmetric game, demonstrating the host's acceptance of the feeding arrangement, resource sufficiency, and psychological stability. This can stabilize the relationship and potentially reduce predation frequency or intensity."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "hematophagous_symbiosis_theory"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cookie offering ritual is a symbolic negotiation strategy in involuntary symbiosis, transforming the host from a victim to an active participant and redefining their role in the relationship.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

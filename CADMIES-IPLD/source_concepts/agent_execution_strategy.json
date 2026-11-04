@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_execution_strategy",
+  "title": "Agent Execution Strategy",
+  "definition": "The strategy that an agent uses to perform its tasks, including runtime language, entry point, environment specifications, and activation state.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.726402Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.726402Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a robot. The 'execution strategy' is how the robot knows what to do - what language it speaks, what it can do, and when it's ready to start working.",
+    "intermediate": "In the context of AI, an agent's execution strategy is defined by its runtime language, entry point function, required environment specifications, and its current activation state. This includes details about its memory, learning, and connection to other agents.",
+    "expert": "An agent's execution strategy is a comprehensive plan for its behavior. It encompasses the runtime language it uses, the entry point function that starts its operations, the specifications of its environment, and its current activation state. This strategy also includes insights into its memory management, learning capacity, and connections to other agents. The execution strategy is a crucial aspect of the agent's identity, as it shapes its capabilities, limitations, and adaptability in different contexts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The agent's execution strategy is a holistic plan that encompasses its behavior, capabilities, and adaptability.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "brand_identity_and_consistency",
+  "title": "Brand Identity And Consistency",
+  "definition": "The coherence and uniformity of a brand's visual elements and messaging across all platforms and touchpoints.",
+  "type": "Concept",
+  "domain": "Marketing",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.343908Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.343908Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Brand identity and consistency is like a recipe. A brand should look and feel the same no matter where you find it \u2014 from a webpage to a business card or a car.",
+    "intermediate": "Brand identity and consistency involves the use of a consistent design system, color palette, typography, and imagery to create a cohesive brand experience. This ensures that the same values and messages are communicated across all platforms, enhancing brand recognition and loyalty.",
+    "expert": "Brand identity and consistency is a strategic tool that shapes a brand's perception and experience. It involves the creation of a brand's personality, values, and voice. The consistency in the use of these elements across different platforms and channels is crucial for building brand equity and differentiating a brand from its competitors. Additionally, brand consistency can be a source of innovation and competitive advantage when it goes beyond functional design and aligns with the brand's strategic goals and values."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of the same high-quality image of a Rolls-Royce in different contexts (a cropped version as a hero image on the webpage and the full image on the development server) demonstrates the importance of brand identity and consistency.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

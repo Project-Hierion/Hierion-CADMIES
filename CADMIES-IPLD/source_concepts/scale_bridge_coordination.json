@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scale_bridge_coordination",
+  "title": "Scale Bridge Coordination",
+  "definition": "The formal similarities in the mathematical descriptions of 'motion' or 'dynamics' across different scales, leading to a unifying framework.",
+  "type": "Concept",
+  "domain": "Physics, Biology, Ecology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.594207Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.594207Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine playing a symphony where different instruments work together. This concept explores whether different parts of the universe, like atoms, cells, and systems, are all playing the same symphony, just on different scales.",
+    "intermediate": "This concept explores the possibility of formal similarities in the mathematical descriptions of motion or dynamics across scales, such as quantum lattice vibrations, coordinated cellular oscillations, and collective animal behavior. By identifying these similarities, we could develop a unified framework that bridges different scientific disciplines.",
+    "expert": "This concept explores the potential connections between various fields, such as physics, biology, and ecology. By recognizing that the same mathematical structures might govern dynamics at different scales, we could potentially develop a theory of everything that unifies our understanding of the universe. However, this would require overcoming significant challenges, such as understanding the role of emergence and non-equilibrium systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the potential for a unifying framework that bridges different scales and disciplines by recognizing formal similarities in the mathematical descriptions of 'motion' or 'dynamics.'",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

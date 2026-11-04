@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "divine_moment_philosophy",
+  "title": "Divine Moment Philosophy",
+  "definition": "A philosophical concept that highlights the significance of awe-inspiring and life-affirming moments, suggesting a divine force or presence.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.563195Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.563195Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a special moment that fills you with a deep sense of wonder and appreciation for life. It's like hearing the most beautiful music ever composed.",
+    "intermediate": "This concept refers to Nietzsche's idea of the divine moment, a profound experience that challenges conventional morality and encourages the affirmation of life (amor fati).",
+    "expert": "This concept explores the role of such moments in understanding existence and morality. It draws from Nietzsche's philosophy but also connects to other philosophical traditions such as existentialism. It highlights the tension between the individual and the divine, and the implications for human freedom and responsibility."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The significance of awe-inspiring moments in shaping our understanding of existence and morality.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

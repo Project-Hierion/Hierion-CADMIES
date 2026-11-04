@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "optimal_model_usage",
+  "title": "Optimal Model Usage",
+  "definition": "The strategy of selecting and utilizing AI models based on their size, complexity, and intended role, considering available hardware resources and task requirements.",
+  "type": "Concept",
+  "domain": "Artificial_Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.719453Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.719453Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of different models as different tools for different jobs. For everyday tasks, choose a smaller tool that's easy to use and fast. For more complex tasks, a bigger tool with more power can help, but it may take longer and use more resources.",
+    "intermediate": "Optimal model usage involves understanding the trade-offs between model size, computation resources, and task complexity. Smaller models like Mistral Small 4 are efficient for everyday use, while larger models like Mistral Medium 3.5 excel at heavy lifting tasks.",
+    "expert": "Optimal model usage is a field of ongoing research. It involves not just the technical aspects of model size and computation, but also the philosophical implications of delegating tasks to AI. Edge cases include the 'thrashing' effect where a model spends too much time switching between tasks, and the 'cold start' problem where a model needs to 'warm up' before it can perform optimally. This concept connects to other fields like human-computer interaction, human-robot collaboration, and distributed systems."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals a strategic approach to model usage, considering both the capabilities of the models and the limitations of the hardware.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

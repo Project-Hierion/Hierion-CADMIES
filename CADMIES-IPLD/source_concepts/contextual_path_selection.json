@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "contextual_path_selection",
+  "title": "Contextual Path Selection",
+  "definition": "The understanding that the path of least resistance is not always the most logical choice due to the influence of context and personal experiences.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.162896Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.162896Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like when you see someone take a longer route even though a shorter one is available \u2014 it's not just about physical resistance, but also about the context and their own experiences.",
+    "intermediate": "This concept refers to the cognitive processes that influence decision-making in certain situations, such as navigating through an environment. It highlights the role of context and personal history in shaping path selection.",
+    "expert": "The study of contextual path selection delves into the complex interplay between cognitive biases, social norms, and individual experiences. It explores how these factors can lead to seemingly irrational decisions, such as the one observed in the conversation. This field connects to other areas, such as behavioral economics and decision theory."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The observation that the path of least resistance can be influenced by various factors, including context and personal experiences.",
+    "source_chunk": 135,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "free_multilingual_integration",
+  "title": "Free Multilingual Integration",
+  "definition": "The concept of seamless and cost-effective integration of multilingual support into a system without any backend modifications or API key configurations.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.330924Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.330924Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're building a website that you want to be available in many languages. With free multilingual integration, you can add support for new languages without needing to change any part of your site's core logic or pay extra for a service.",
+    "intermediate": "Free multilingual integration is a method of adding multilingual support to a system by utilizing a free and open-source client-side library that interfaces with a free default translation service. This allows for seamless translation without any backend modifications or API key configurations.",
+    "expert": "The concept of free multilingual integration highlights a practical solution to the problem of adding multilingual support to a system. This is achieved through the use of a client-side library that interfaces with a free default translation service. By leveraging this approach, developers can provide multilingual support to their users without incurring additional costs or risks to the core system. This concept also highlights the philosophical implications of open-source software and the potential for free and efficient solutions to complex problems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The proposal offers a zero-backend, zero-config multilingual layer that is genuinely free and open-source. This is achieved through the use of a client-side library that interfaces with a free default translation service.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

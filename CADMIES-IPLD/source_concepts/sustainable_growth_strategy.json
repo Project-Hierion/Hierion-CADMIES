@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sustainable_growth_strategy",
+  "title": "Sustainable Growth Strategy",
+  "definition": "A strategy that integrates and balances long-term development goals with the ability to meet current needs without compromising the ability of future generations to meet their own needs.",
+  "type": "Concept",
+  "domain": "Economics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.406953Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.406953Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden. Sustainable growth means planting fruits and vegetables that will produce a harvest now and for future seasons, without depleting the soil or overusing resources.",
+    "intermediate": "Sustainable growth strategy is a long-term development approach that aims to balance economic growth, social well-being, and environmental preservation. It emphasizes sustainability, resilience, and inclusiveness.",
+    "expert": "Sustainable growth strategy is a multidisciplinary concept that draws from economics, ecology, sociology, and philosophy. It involves understanding and managing complex systems, considering the interdependencies between economic, social, and environmental factors. Sustainable growth requires a balance between exploitation and conservation, innovation and tradition, and short-term gains and long-term viability. It also has philosophical implications, as it challenges the traditional notion of unlimited growth and raises questions about the true value of wealth and well-being."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of integrating and balancing long-term development goals with current needs, without compromising the ability of future generations to meet their own needs.",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mind_as_lens",
+  "title": "Mind As Lens",
+  "definition": "The concept that an artist's mind is a unique lens that can reprogram the viewer's perception of the world, challenging our understanding of art and reality.",
+  "type": "Concept",
+  "domain": "Philosophy of Art",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.772354Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.772354Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Artists have a special way of looking at the world, and when you look at their work, it can change how you see things. It's like wearing a new pair of glasses.",
+    "intermediate": "An artist's mind functions as a distinct lens through which they perceive and portray the world. This unique vision can reorient the viewer's perspective, challenging conventional notions of reality and art.",
+    "expert": "The mind of an artist is a complex, dynamic lens that shapes their perceptions and creations. By examining these works, we gain insights into alternative ways of seeing and being that challenge our understanding of reality, art, and the human condition."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Artists' minds act as unique lenses that can reprogram the viewer's perception of the world, demonstrating the interplay between individual vision and cultural context.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

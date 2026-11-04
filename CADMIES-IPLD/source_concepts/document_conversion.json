@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "document_conversion",
+  "title": "Document Conversion",
+  "definition": "The process of converting documents between different formats, such as Markdown to PDF or PDF to text.",
+  "type": "Concept",
+  "domain": "Information Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.713856Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.713856Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a book. You can change its format - from a hardcover to an e-book, or scan a hardcopy into a digital version. Document conversion does the same for written information.",
+    "intermediate": "Document conversion is a method of transforming data from one file format to another. It's essential in IT for tasks like generating documentation in various formats, extracting data from PDFs, and more.",
+    "expert": "Document conversion is a complex process that involves understanding the structure and semantics of the data. It's a field at the intersection of computer science, linguistics, and human-computer interaction. Novel approaches in this area can lead to improved data extraction, better document understanding, and more user-friendly tools."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The process of converting between different document formats, such as Markdown to PDF or PDF to text, is a common yet complex task.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

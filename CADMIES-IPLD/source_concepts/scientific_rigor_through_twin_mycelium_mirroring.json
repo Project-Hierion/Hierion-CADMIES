@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_rigor_through_twin_mycelium_mirroring",
+  "title": "Scientific Rigor Through Twin Mycelium Mirroring",
+  "definition": "The principle that scientific rigor is achieved through the transparent documentation of methodology, credit to all influences, and open sharing of how knowledge grows.",
+  "type": "Concept",
+  "domain": "Science and Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.496589Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.496589Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two gardens that grow together but don't share secrets. One grows beautifully, and we wonder why. The secret: sharing every seed, tool, and strategy. Scientific rigor is like that \u2014 it's about being open and transparent about how we learn and grow.",
+    "intermediate": "Scientific rigor demands transparency of method. This means crediting all influences, documenting methodology, and tracing the lineage of knowledge. Open sharing of the growth process is the key to reproducible, credible work.",
+    "expert": "The twin mycelium mirroring concept challenges traditional notions of scientific propriety. By acknowledging and sharing every influence, the process of knowledge growth becomes a collaborative, open system. This has philosophical implications for the nature of knowledge, authorship, and collaboration. It also highlights the need for interdisciplinary work and cross-pollination of ideas."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The good doctor held up a mirror. In his open crediting, we saw the standard we should have been meeting all along.",
+    "source_chunk": 109,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

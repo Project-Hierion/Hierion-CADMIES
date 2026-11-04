@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interactive_ontology_management",
+  "title": "Interactive Ontology Management",
+  "definition": "The process of managing and structuring a knowledge base through interactive interfaces, enabling users to add, modify, and remove concepts and relationships.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.451424Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.451424Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like having a personal assistant for your digital knowledge. You can easily add, change, or remove ideas and how they are related to each other.",
+    "intermediate": "Interactive ontology management is a technique that utilizes user interfaces to modify a hierarchical ontology. It allows users to add new concepts, modify existing ones, or remove them as needed, while also managing relationships between these concepts.",
+    "expert": "Interactive ontology management is a dynamic process that merges human intelligence with artificial intelligence. It enables users to intuitively shape and modify a knowledge base, adding concepts and relationships as they discover new insights. This process can be further optimized by integrating it with other systems and using advanced techniques such as natural language processing and machine learning for automatic knowledge structuring. Interactive ontology management also has philosophical implications, as it reflects our evolving understanding of the world and our desire to organize and make sense of it."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Cosmium Zoraster HOG Wizard provides an interactive way to manage a knowledge base, enabling users to easily add, modify, and remove concepts and relationships.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

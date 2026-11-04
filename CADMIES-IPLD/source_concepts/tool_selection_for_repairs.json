@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "tool_selection_for_repairs",
+  "title": "Tool Selection For Repairs",
+  "definition": "The concept of selecting the appropriate tools for specific repair jobs, considering the material properties, drilling techniques, and the advantages of specialized tools.",
+  "type": "Concept",
+  "domain": "Mechanical Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.428021Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.428021Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "To repair hard items, use the right tool. Drill bits for hardened steel need to be slow and strong. Left-hand drill bits can help remove broken bolts more easily.",
+    "intermediate": "For repairing hardened steel, use carbide or cobalt drill bits. These are harder than standard bits and can cut through the material effectively. Left-hand drill bits work by drilling a pilot hole and trying to unscrew the bolt at the same time.",
+    "expert": "The selection of tools for repair jobs is a complex decision that involves understanding material properties and appropriate drilling techniques. For hardened steel, carbide and cobalt drill bits are preferred due to their hardness and heat resistance. Left-hand drill bits offer an alternative approach by drilling a pilot hole and applying counter-clockwise torque to unscrew the bolt. This approach has its limitations and may not work with all keyless chucks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of carbide or cobalt drill bits and left-hand drill bits can significantly improve the effectiveness and efficiency of repair jobs, especially when dealing with hardened steel and broken bolts.",
+    "source_chunk": 75,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

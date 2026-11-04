@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "tkinter_gui_architecture",
+  "title": "Tkinter Gui Architecture",
+  "definition": "A new GUI architecture being built using Tkinter in a separate folder from the existing NiceGUI architecture.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.452929Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.452929Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine building a house - the old house (NiceGUI) is getting retired, and a new, separate house (Tkinter GUI) is being built in a different neighborhood. Both houses serve the same purpose, but they're built differently.",
+    "intermediate": "The Tkinter GUI architecture is being developed in a separate folder from the NiceGUI architecture. Both architectures serve the same purpose, but they use different technologies and have a different folder structure. The new Tkinter GUI is being built separately to improve performance and flexibility.",
+    "expert": "The Tkinter GUI architecture is a novel approach to building a graphical user interface for the CADMIES system. It provides a more lightweight and flexible alternative to the existing NiceGUI architecture, which is based on the Qt framework. The Tkinter GUI architecture also allows for easier integration with other Python GUI libraries, such as PyQt and wxPython, which can enhance the overall functionality and usability of the CADMIES system. However, it may require additional time and resources to develop and maintain the Tkinter GUI architecture, especially since it is being built in a separate folder from the existing NiceGUI architecture. Overall, the Tkinter GUI architecture is a promising and flexible approach to building a graphical user interface for the CADMIES system, but it also presents some unique challenges and opportunities that will need to be carefully considered and addressed."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The decision to build a new Tkinter GUI architecture in a separate folder from the existing NiceGUI architecture allows for greater flexibility and performance, but it also presents unique challenges and opportunities that will need to be carefully considered and addressed.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

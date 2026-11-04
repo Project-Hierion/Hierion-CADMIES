@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_structure_mismatch",
+  "title": "Data Structure Mismatch",
+  "definition": "The mismatch between the expected data structure and the actual data structure in a function or method.",
+  "type": "Concept",
+  "domain": "Programming",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.473066Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.473066Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to assemble a piece of furniture, but you're using the wrong type of screw. This is similar to a data structure mismatch in programming \u2014 you're trying to use data in a format that's not compatible with the function or method.",
+    "intermediate": "Data structure mismatch occurs when a function expects a certain type of data structure (like a list or dictionary), but receives a different one. For example, accessing a dictionary attribute with the dot notation (`.attribute`) instead of brackets (`[\"key\"]`) or the `.get()` method.",
+    "expert": "Data structure mismatch is a common source of errors in programming. It can lead to runtime errors or unexpected behavior. Understanding the type of data structure expected by a function is crucial for writing correct code. Furthermore, this concept highlights the importance of type systems in programming languages, which help catch such errors at compile time rather than runtime."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the expected data structure is key to avoiding data structure mismatch errors in programming.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

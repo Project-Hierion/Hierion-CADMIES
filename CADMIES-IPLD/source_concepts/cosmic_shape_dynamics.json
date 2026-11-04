@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_shape_dynamics",
+  "title": "Cosmic Shape Dynamics",
+  "definition": "A philosophical exploration of the long-term changes in the heliosphere's shape, caused by the interaction of the solar wind and interstellar wind, and the solar system's tilt relative to the galactic plane.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.300170Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.300170Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine shaking a cup of ice and water to understand how the heliosphere, our Sun's bubble in space, gets its strange shape. The Sun's wind and the space around it don't blend easily, just like the ice and water. Over millions of years, these interactions create changes in the shape of the heliosphere.",
+    "intermediate": "The cosmic shape dynamics concept refers to the long-term changes in the heliosphere's shape resulting from the collision and interaction of the solar wind (freshwater) and interstellar wind (saltwater), and the solar system's tilt relative to the galactic plane. This dynamism causes the heliosphere to be turbulent, foamy, and constantly shifting.",
+    "expert": "The cosmic shape dynamics concept delves into the philosophical implications of the heliosphere's shape, highlighting the interplay of forces over time. It explores how changing solar activity, interstellar conditions, and galactic gravitational forces lead to the heliosphere's unstable, ever-shifting shape. This concept also connects to other fields, such as plasma physics and celestial mechanics, and challenges our understanding of the universe's stability and complexity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The heliosphere's shape is a result of the dynamic interaction of the solar wind, interstellar wind, and the solar system's tilt, which leads to a turbulent, unstable, and constantly shifting boundary.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

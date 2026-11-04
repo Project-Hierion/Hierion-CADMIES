@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemology_of_knowledge_sources",
+  "title": "Epistemology Of Knowledge Sources",
+  "definition": "The study of the nature, sources, limits, and validity of knowledge, with a focus on its reliability and accuracy, particularly in contexts involving multiple sources.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.146432Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.146432Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a detective, trying to solve a mystery. You gather information from different sources like newspapers, eyewitnesses, and lab reports. The epistemology of knowledge sources is about understanding which sources are more reliable for solving the mystery of a topic.",
+    "intermediate": "Epistemology of knowledge sources explores the trustworthiness of information from various sources, such as scientific experiments, philosophical arguments, and digital databases. It considers the strengths and limitations of each source to determine their contributions to understanding a topic.",
+    "expert": "The epistemology of knowledge sources delves into the philosophical, scientific, and social dimensions of knowledge acquisition. It investigates the nature of evidence, the roles of personal experience, expert opinion, and empirical data in forming beliefs. By understanding the epistemic value of different sources, we can navigate the complex landscape of knowledge more effectively, critically evaluating its validity and avoiding confirmation bias."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "By recognizing the distinct epistemic values of different knowledge sources, we can create a more accurate and nuanced understanding of complex topics.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

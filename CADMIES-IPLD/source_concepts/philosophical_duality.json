@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_duality",
+  "title": "Philosophical Duality",
+  "definition": "The concept of philosophical duality explores the inherent tension or coexistence of seemingly contradictory ideas or principles.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.459864Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.459864Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of philosophical duality as the dance between two partners who are both beautiful and ugly at the same time.",
+    "intermediate": "Philosophical duality refers to the simultaneous acceptance and reconciliation of opposing ideas or principles within a theoretical framework.",
+    "expert": "Philosophical duality challenges the classical distinction between subject and object, good and evil, reality and illusion. It highlights the paradoxical nature of human knowledge and the complexity of understanding the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The complex relationships and dualities observed across various fields suggest the richness and depth of human thought and inquiry.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

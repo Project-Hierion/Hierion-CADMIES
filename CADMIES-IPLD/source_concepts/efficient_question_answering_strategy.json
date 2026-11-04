@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "efficient_question_answering_strategy",
+  "title": "Efficient Question Answering Strategy",
+  "definition": "A strategy that optimizes the utilization of AI resources by minimizing unnecessary intelligence costs and maximizing efficiency in answering questions.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.332554Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.332554Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a smart assistant that does tasks faster and better based on what you ask. It knows not to use heavy resources for simple questions and uses the best methods for complex ones, just like a smart student.",
+    "intermediate": "An efficient question-answering strategy leverages techniques such as keyword search, semantic search, and sequential processing to minimize the use of AI resources. This approach ensures quick responses for simple queries and provides thorough answers for complex questions without causing unnecessary delays or errors.",
+    "expert": "The insight behind the efficient question-answering strategy is the recognition of the trade-off between intelligence cost and response time. By designing a system that employs a combination of keyword search and semantic search, followed by a sequential processing of the main Ollama call, the strategy significantly improves response time while minimizing the overall intelligence cost. This approach not only enhances user experience but also demonstrates a deeper understanding of the limitations and potentials of AI models in real-world applications."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the implementation of an optimized question-answering strategy that effectively balances the utilization of AI resources, ensuring quick responses for simple queries and thorough answers for complex questions without unnecessary delays or errors.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

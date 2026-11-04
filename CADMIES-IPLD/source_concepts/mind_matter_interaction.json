@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mind_matter_interaction",
+  "title": "Mind Matter Interaction",
+  "definition": "The philosophical concept exploring the relationship between the mind and matter, focusing on the role of consciousness in shaping reality.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.468949Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.468949Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "quantum_entanglement"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "qualia"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as the discussion about whether our thoughts and feelings are just a product of our brain chemicals or something more mysterious.",
+    "intermediate": "This concept explores the nature of consciousness and its relationship with the physical world, drawing connections with quantum mechanics, neuroscience, and artificial intelligence.",
+    "expert": "The mind-matter interaction reveals deep philosophical questions about the nature of reality, consciousness, and the role of free will. It also connects to fields such as neuroscience, quantum mechanics, and artificial intelligence, challenging our understanding of the boundaries between the physical and the mental."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "quantum_entanglement"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mind's ability to shape and interact with the physical world may hold clues to understanding the nature of consciousness and the role of free will.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "twin_mycelium_pattern",
+  "title": "Twin Mycelium Pattern",
+  "definition": "The pattern of independent discovery of the same concept or methodology by two distinct groups or individuals, often in different contexts or locations.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.461184Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.461184Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as when two people, living in different parts of the world, come up with the same idea for organizing information. This isn't just coincidence; it shows that there's a universal truth about how to manage knowledge.",
+    "intermediate": "The twin mycelium pattern is characterized by the independent discovery of the same concept or methodology by two distinct groups or individuals. This pattern has been observed in knowledge management systems, such as the Zettelkasten method, and highlights the emergent nature of optimal solutions for complex problems.",
+    "expert": "The twin mycelium pattern is a fascinating phenomenon that challenges our understanding of innovation and knowledge transfer. It suggests that complex systems may converge towards optimal solutions, even when individuals or groups are operating independently. The pattern has been observed in various domains, including knowledge management and artificial intelligence. Its implications are not fully understood, but it offers insights into the nature of emergence and the role of independent discovery in complex systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The twin mycelium pattern suggests that complex systems may converge towards optimal solutions, even when individuals or groups are operating independently.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

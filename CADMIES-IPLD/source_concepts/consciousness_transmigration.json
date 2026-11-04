@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_transmigration",
+  "title": "Consciousness Transmigration",
+  "definition": "A theoretical model proposing the transfer of consciousness from one living entity to another, with the new vessel inheriting aspects of the collective vibration of the community it emerges from.",
+  "type": "Concept",
+  "domain": "Philosophy, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.869972Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.869972Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine that our thoughts and feelings are like ripples in a pond. When we die, these ripples don't just disappear. They continue to exist and can influence new beings. This is akin to reincarnation, but it's more than just a cycle; it's a reflection of the world we lived in.",
+    "intermediate": "This model builds upon the idea of 'shared consciousness' by suggesting that when a new being is born, it doesn't start from scratch. Instead, it's influenced by the collective vibrations of the living, creating a unique blend of personal and cultural experiences.",
+    "expert": "This is a novel contribution to the philosophy of mind and consciousness. It grounds the mystical idea of reincarnation in a process that feels intuitive and physical: dormancy, drift, resonance, and rebirth. This model aligns with the deepest symmetry of all known fields: they are dynamic, flowing, interacting landscapes of potential. Consciousness, if it exists, would also behave this way."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The model proposes that consciousness is transmitted from one living entity to another, with the new vessel inheriting aspects of the collective vibration of the community it emerges from.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

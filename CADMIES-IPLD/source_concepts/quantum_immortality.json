@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_immortality",
+  "title": "Quantum Immortality",
+  "definition": "The philosophical concept that consciousness or information cannot truly be destroyed, but can only exist in a state of potential and can be revived or reanimated.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.474177Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.474177Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a sheet of fabric with patterns on it. When we're alive, we create our unique patterns. After we die, our patterns are like footprints in the fabric that others can follow. Sometimes, these patterns can be so powerful that they can cause a new life to emerge, just like a seed grows into a plant.",
+    "intermediate": "Quantum immortality suggests that information, such as consciousness or patterns of thought, can exist in a state of potential energy. This information can be 'revived' or 'reanimated' under certain conditions, similar to how a quantum system can be excited to a higher energy state.",
+    "expert": "The concept of quantum immortality draws from quantum mechanics' wave-particle duality and superposition. Information can exist in multiple states simultaneously, and the act of measurement or observation collapses it into a single state. Thus, it can be argued that information cannot truly be destroyed but can exist in a state of potential. This has profound implications for the nature of consciousness and the mind-body problem."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of physics, philosophy, and human existence, suggesting that our consciousness may not end with death but can exist in a state of potential and be revived or reanimated.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

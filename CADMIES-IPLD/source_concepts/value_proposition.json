@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "value_proposition",
+  "title": "Value Proposition",
+  "definition": "A unique selling proposition that compels a customer to choose a product or service over alternatives.",
+  "type": "Concept",
+  "domain": "Marketing",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.348320Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.348320Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's a special reason why someone should pick The Bespoke Detailer over other detailing services. It promises a full transformation for vehicles up to five years old, focusing on quality and affordability.",
+    "intermediate": "The value proposition of The Bespoke Detailer's Bespoke Renewal service emphasizes the customization, variety of vehicles, flexibility in pick-up and drop-off, and competitive pricing. It also highlights the absence of hidden charges and unlimited mileage.",
+    "expert": "The value proposition of The Bespoke Detailer's Bespoke Renewal service encompasses both functional and symbolic elements, such as customization, variety, flexibility, affordability, and transparency. This proposition appeals to the desires for distinction, control, and value. It also subtly challenges the conventional notion of depreciation in the car industry by suggesting that vehicles can be 'renewed' rather than 'replaced'."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Bespoke Detailer's Bespoke Renewal service presents a unique value proposition that combines functional benefits (customization, variety, flexibility, and affordability) with symbolic benefits (distinction, control, and value).",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "linguistic_evolution_in_science",
+  "title": "Linguistic Evolution In Science",
+  "definition": "The process by which scientific terms and concepts evolve and gain acceptance within the scientific community.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.660513Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.660513Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a new word in a language like a seed. It doesn't suddenly appear in dictionaries; it grows through use in daily conversations and writings. Similarly, new scientific terms gain acceptance when scientists start using them widely.",
+    "intermediate": "Linguistic evolution in science involves the adoption of new terminology to better describe and understand complex phenomena. This process is influenced by various factors, including the necessity of the new term, its ease of understanding, and its logical consistency with existing knowledge.",
+    "expert": "Linguistic evolution in science is a fascinating interplay between language, culture, and cognition. It often involves the creation of neologisms to fill gaps in our understanding of the world. However, it also raises philosophical questions about the nature of language, truth, and reality. Furthermore, the process of linguistic evolution in science can be seen as a parallel to other forms of cultural evolution, such as the evolution of memes or the adoption of new technologies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The process of linguistic evolution in science is a complex, multi-faceted process that involves both practical and philosophical considerations.",
+    "source_chunk": 98,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

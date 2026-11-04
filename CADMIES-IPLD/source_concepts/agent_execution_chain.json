@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_execution_chain",
+  "title": "Agent Execution Chain",
+  "definition": "A sequence of software programs, or agents, that work together to complete a task.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.684100Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.684100Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "An agent execution chain is a sequence of software programs that work together to complete a task.",
+    "intermediate": "An agent execution chain is a sequence of software agents that work together to process and interpret data.",
+    "expert": "An agent execution chain is a fundamental concept in distributed artificial intelligence. It highlights the challenges and opportunities associated with the synchronization, coordination, and communication between software agents."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The agent execution chain is a key concept in the design and implementation of distributed artificial intelligence systems.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

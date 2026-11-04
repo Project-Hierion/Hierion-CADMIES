@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "valid_relationship_filtering",
+  "title": "Valid Relationship Filtering",
+  "definition": "The process of identifying and filtering out invalid relationships in a network.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.527576Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.527576Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a game where players connect dots. This concept is like a filter that checks if the lines between dots are valid or not.",
+    "intermediate": "In the context of network data, valid relationships are those that connect known entities with recognized types. Invalid relationships are filtered out.",
+    "expert": "The novelty of this concept lies in its application in large-scale data processing, where performance optimization is crucial. Edge filtering can prevent unnecessary computations, reduce data redundancy, and enhance the accuracy of results."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of filtering out invalid relationships to improve the efficiency and accuracy of data processing.",
+    "source_chunk": 117,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

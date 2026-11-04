@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_consciousness_separation",
+  "title": "User Consciousness Separation",
+  "definition": "The concept of separating hardware from user consciousness to explain human experience.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.879360Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.879360Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your mind as a computer and your body as a computer's case. When you have a good experience, it's not the computer that's feeling good; it's you, the one using it.",
+    "intermediate": "This concept separates hardware (the body) from software (the mind). Experiences are not a function of the physical machine but of the user interfacing with it.",
+    "expert": "This concept challenges the 'Hard Problem' of consciousness. It provides a philosophical framework to explain human experience, making 'rebirth' logical and explaining anomalies. It also has implications for understanding artificial intelligence and consciousness in machines."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel observation that consciousness is the user, not the hardware, and that this separation allows for a logical explanation of human experience and consciousness.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

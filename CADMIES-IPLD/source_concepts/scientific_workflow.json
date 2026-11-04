@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_workflow",
+  "title": "Scientific Workflow",
+  "definition": "The process of creating, editing, validating, and publishing scientific concepts, while maintaining a link between their casual and scientific versions.",
+  "type": "Concept",
+  "domain": "Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.775859Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.775859Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're cooking a recipe. You start with a simple version (casual), then gradually add more details and explanations (scientific). Your workflow should help you smoothly transition between these versions.",
+    "intermediate": "The scientific workflow involves creating concepts, editing them, connecting them to related ideas, validating their accuracy through peer review, and publishing them. It ensures a seamless transition between casual and scientific versions of a concept.",
+    "expert": "The scientific workflow is a collaborative process that bridges the gap between casual and scientific explanations. It allows for the creation, editing, and validation of concepts, fostering continuous learning and knowledge expansion. This workflow has philosophical implications for the nature of knowledge, truth, and collaboration, and connects to other fields such as artificial intelligence and human-computer interaction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The seamless transition between casual and scientific versions of a concept enhances the learning experience and highlights the continuous nature of knowledge.",
+    "source_chunk": 62,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

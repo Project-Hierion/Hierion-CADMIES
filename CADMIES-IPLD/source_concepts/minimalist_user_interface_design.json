@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "minimalist_user_interface_design",
+  "title": "Minimalist User Interface Design",
+  "definition": "A user interface design philosophy that uses minimalist principles to enhance usability and user focus.",
+  "type": "Concept",
+  "domain": "User Experience Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.329737Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.329737Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a website where you don't see clutter but only the essentials. This way, it's easier for you to use it and focus on what matters most.",
+    "intermediate": "Minimalist user interface design is a principle that aims to reduce visual noise and unnecessary elements, leading to a more streamlined and efficient user experience. This is often achieved through simplicity in design, clear typography, and well-chosen color schemes.",
+    "expert": "Minimalist user interface design is not just about aesthetics, but also a psychological approach to design. It focuses on the user's decision-making process, emphasizing simplicity and clarity to reduce cognitive load. The philosophy has its roots in Gestalt principles and has been adopted by many prominent designers and brands. However, it's important to note that minimalist design should not be overly simplified to the point of being confusing or lacking in functionality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The vast majority of the screen below the top bar being completely blank/black suggests a minimalist user interface design, likely to enhance usability and user focus.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

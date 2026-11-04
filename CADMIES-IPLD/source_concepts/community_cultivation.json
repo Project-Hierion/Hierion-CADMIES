@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_cultivation",
+  "title": "Community Cultivation",
+  "definition": "The process of recognizing, appreciating, and nurturing contributions to a community, with the goal of building culture and encouraging further involvement.",
+  "type": "Concept",
+  "domain": "Community Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.000359Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.000359Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like caring for a garden. When someone plants a seed (makes a contribution), it's nice to acknowledge their work and make them feel welcome. This can help make the garden grow by attracting more people who want to contribute.",
+    "intermediate": "Community cultivation involves recognizing individual contributions and reinforcing positive behaviors. This can be done through public acknowledgment, such as mentions in commit messages and issues, and by creating a culture of appreciation and celebration. This fosters a sense of community and encourages repeat participation.",
+    "expert": "Community cultivation is a strategic approach to managing open-source and collaborative projects. It builds on the idea that communities are not just collections of individuals, but rather networks of relationships and interactions. By cultivating a culture of recognition, appreciation, and celebration, projects can attract and retain contributors, while also promoting a sense of belonging and community. Additionally, community cultivation can have broader implications for organizational culture and employee engagement."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The power of recognition and appreciation in cultivating a sense of community and encouraging repeat participation.",
+    "source_chunk": 104,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

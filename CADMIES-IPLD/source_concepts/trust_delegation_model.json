@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "trust_delegation_model",
+  "title": "Trust Delegation Model",
+  "definition": "A model where a user trusts a third party to verify their identity, which they then use to interact with other systems.",
+  "type": "Concept",
+  "domain": "Cybersecurity",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.921453Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.921453Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a scenario where you don't have to directly check someone's credentials. Instead, you trust a service to do it for you. This way, you can use that service to interact with other systems.",
+    "intermediate": "In the context of ORCID and GitHub integration, the trust delegation model involves using GitHub as a trusted third party to verify the user's ORCID. This allows the user to interact with other systems, like CADMIES, using their GitHub credentials.",
+    "expert": "The trust delegation model has significant implications in the field of cybersecurity. It provides a more secure way of identity verification, reducing the risk of data breaches and unauthorized access. Furthermore, it enhances user experience by simplifying the authentication process. However, it relies on the third party's security measures and raises questions about data privacy and control."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the implementation of a trust delegation model, where GitHub is used as a trusted third party to verify the user's ORCID, simplifying the authentication process and enhancing user experience.",
+    "source_chunk": 85,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "organic_trust_network",
+  "title": "Organic Trust Network",
+  "definition": "A decentralized network of interconnected individuals and entities that grows trust organically through peer verification.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.873770Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.873770Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a community garden where everyone grows their own food. Trust grows as people see each other's work and contribute their own. No central authority is needed.",
+    "intermediate": "This is a form of peer-to-peer trust network, where trust is established through individual verification of each other's contributions. This is similar to how the web of trust works in the PGP (Pretty Good Privacy) system.",
+    "expert": "The organic trust network in CADMIES is a novel application of the decentralized trust model, which has been studied extensively in the cryptography and distributed systems fields. It's a form of reputation system that doesn't rely on a central authority, but rather on the cumulative evaluation of all individual verifications. This is a significant step towards a more trustworthy and decentralized internet."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES demonstrates that a decentralized trust network can be built and grown through peer verification, without the need for a central authority.",
+    "source_chunk": 70,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

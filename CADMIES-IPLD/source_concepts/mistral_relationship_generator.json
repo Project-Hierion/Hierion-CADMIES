@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mistral_relationship_generator",
+  "title": "Mistral Relationship Generator",
+  "definition": "A Python tool that uses Mistral to propose cross-reference relationships between minted concepts.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.073645Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.073645Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a machine that suggests connections between ideas. It's like having a smart friend who can spot patterns in your thoughts.",
+    "intermediate": "The Mistral Relationship Generator is a tool that feeds concept data into Mistral, an advanced AI language model. It helps identify potential relationships such as 'builds upon', 'related to', 'specializes', and 'contradicts' between the concepts.",
+    "expert": "The Mistral Relationship Generator is a sophisticated tool that uses a two-phase strategy to propose connections between concepts. It leverages the power of Mistral, a large language model, to understand the semantic relationships between concepts. This tool is not only a practical application of AI in knowledge graph construction but also a step towards understanding the philosophical implications of conceptual relationships."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Mistral Relationship Generator demonstrates the potential of AI in constructing knowledge graphs and understanding conceptual relationships.",
+    "source_chunk": 100,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

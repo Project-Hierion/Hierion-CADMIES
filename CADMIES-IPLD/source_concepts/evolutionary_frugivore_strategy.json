@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "evolutionary_frugivore_strategy",
+  "title": "Evolutionary Frugivore Strategy",
+  "definition": "A strategy used by plants to attract and select for certain animals as their primary dispersers, ensuring the survival of their seeds.",
+  "type": "Concept",
+  "domain": "Evolutionary Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.785973Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.785973Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a banana as a smart package that only works with certain animals. It's like a test that only lets animals with the right skills open it, keeping seeds safe from those who don't have what it takes.",
+    "intermediate": "The evolutionary frugivore strategy is a plant adaptation that uses physical and chemical properties to attract and select for specific animals as its primary dispersers. This strategy involves designing fruits to be selective towards dextrous, intelligent, and mobile animals with the ability to effectively transport and disperse seeds.",
+    "expert": "The evolutionary frugivore strategy is a fascinating example of co-evolution between plants and animals. By designing fruits with specific physical and chemical properties, plants create a selective package that attracts and tests the suitability of potential dispersers. This strategy ensures the survival of seeds by selecting for animals with the necessary skills and behaviors to transport seeds effectively. The example of the wild banana highlights this strategy, demonstrating the interplay between the physical properties of the fruit, the behavior of potential dispersers, and the seed design."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The wild banana's design, including its selective peel and indestructible seeds, serves as an example of the evolutionary frugivore strategy, highlighting the co-evolution between plants and animals in ensuring seed dispersal and survival.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmium_bloom_theory",
+  "title": "Cosmium Bloom Theory",
+  "definition": "A conceptual framework that identifies the 'cosmium' nature of the cosmic web and encapsulates its formation and existence into a single, elegant concept\u2014the 'bloom'.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.175576Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.175576Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the cosmic web as a beautiful flower, not just a network of connections. The 'Cosmium Bloom Theory' explains how this flower emerges over time.",
+    "intermediate": "The 'Cosmium Bloom Theory' is a theoretical framework that describes the cosmic web as a 'bloom'\u2014the manifestation of numerous underlying forces and complexities over time. It's akin to Newton's calculus for motion.",
+    "expert": "The 'Cosmium Bloom Theory' represents a paradigm shift in cosmology, differing from previous models by focusing on the 'cosmium' nature of the universe. It's a unification of various fields and a challenge to traditional notions of space and time. Philosophically, it highlights the interplay between substance and process."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The invention of a new conceptual framework for understanding the cosmic web, differentiating it from existing models and providing a more comprehensive and elegant explanation.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

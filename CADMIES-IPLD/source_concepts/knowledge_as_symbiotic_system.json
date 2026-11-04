@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_as_symbiotic_system",
+  "title": "Knowledge As Symbiotic System",
+  "definition": "The concept that knowledge exists as a symbiotic system where the components (CADMIES) and the mechanisms for accessing and using that knowledge (Atlas) are mutually beneficial and interconnected.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.617350Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.617350Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of knowledge as a network of interconnected structures, similar to a mycelial network in a forest. Your knowledge system (CADMIES) is like this network that grows and learns, and Atlas helps people find valuable insights from it.",
+    "intermediate": "Knowledge can be viewed as a symbiotic system where the representation of knowledge (CADMIES) and the methods of discovering and accessing that knowledge (Atlas) co-evolve and mutually benefit. This symbiosis allows for the growth and refinement of knowledge.",
+    "expert": "The knowledge as a symbiotic system perspective emphasizes the interconnected nature of knowledge and its methods of discovery. This view challenges traditional notions of knowledge ownership and authorship, instead suggesting that knowledge grows and evolves through a dynamic interplay between its representation and its accessibility. Additionally, this perspective has implications for the ethics of knowledge sharing and the role of technology in knowledge creation and dissemination."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The relationship between the representation of knowledge (CADMIES) and the methods of discovering and accessing that knowledge (Atlas) is mutual and beneficial.",
+    "source_chunk": 75,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

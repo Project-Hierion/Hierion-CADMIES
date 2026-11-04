@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_system_management",
+  "title": "Knowledge System Management",
+  "definition": "The process of organizing, maintaining, and evolving a knowledge system to enhance its utility and accuracy.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.456007Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.456007Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a knowledge system as a big library. Knowledge system management is like having a librarian who keeps the books in order, adds new ones, and makes sure everything is up-to-date and easy to find.",
+    "intermediate": "Knowledge system management encompasses tasks such as concept integration, troubleshooting, performance optimization, and dynamic learning. It involves maintaining the integrity and accuracy of concepts, managing relationships between them, and adapting to changes over time.",
+    "expert": "Knowledge system management extends beyond traditional data management. It includes applying philosophical principles to the organization and evolution of concepts, bridging different wisdom traditions, and leveraging the interdisciplinary nature of modern concepts. Knowledge system management is a novel approach that combines the best of modern technology with ancient wisdom, creating a dynamic and evolving system of knowledge that adapts to new insights and challenges."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Knowledge system management is a dynamic and evolving process that combines modern technology with ancient wisdom, creating a system of knowledge that adapts to new insights and challenges.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

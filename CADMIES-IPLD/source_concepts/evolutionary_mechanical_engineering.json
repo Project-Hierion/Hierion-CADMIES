@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "evolutionary_mechanical_engineering",
+  "title": "Evolutionary Mechanical Engineering",
+  "definition": "The application of mechanical engineering principles in the context of evolutionary biology to understand the design and function of biological systems.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.483341Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.483341Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine understanding how living things work as well as we do with our machines. That's what evolutionary mechanical engineering is about.",
+    "intermediate": "Evolutionary mechanical engineering is the study of how biological systems evolve to perform mechanical tasks efficiently and effectively, using principles of mechanics and materials science.",
+    "expert": "Evolutionary mechanical engineering is a novel interdisciplinary field that combines principles from mechanical engineering, biology, and evolutionary biology to understand the design and function of biological systems. It draws on concepts from solid mechanics, fluid dynamics, and materials science to explain the evolution of biological structures and mechanisms. This field has the potential to provide insights into the underlying principles of life and the limits of biological design, and to inspire new approaches to engineering and materials science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The popup mechanism in the jellyfish is a masterclass in evolutionary mechanical engineering, demonstrating the power of biology to create sophisticated and functional systems using simple materials and mechanisms.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

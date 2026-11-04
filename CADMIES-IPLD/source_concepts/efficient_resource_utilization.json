@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "efficient_resource_utilization",
+  "title": "Efficient Resource Utilization",
+  "definition": "The practice of using resources (such as computational power) optimally to achieve the desired outcomes with minimum waste.",
+  "type": "Concept",
+  "domain": "Computing",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.587208Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.587208Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're baking a cake. You only turn on the oven when you need it and turn it off when you're done. This is a simple way to save energy and resources.",
+    "intermediate": "Efficient resource utilization involves understanding the workload requirements and adjusting resource allocation accordingly. In the context of this conversation, it means spinning up a GPU-powered machine only when needed for a short duration, then destroying it to stop billing.",
+    "expert": "Efficient resource utilization is a cornerstone of cloud computing. It allows for scalability, cost optimization, and sustainability. The concept of destroying machines to stop billing is a design choice that balances convenience and resource management. This practice is not unique to computing and has philosophical implications in other fields, such as manufacturing and energy management."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of destroying machines to stop billing and the necessity of efficient resource utilization for accessing high-performance computing resources.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

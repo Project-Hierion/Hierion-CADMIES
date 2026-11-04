@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "psychic_fossilization",
+  "title": "Psychic Fossilization",
+  "definition": "The process by which any human-made artifact encapsulates a unique state of the human mind and emotions at the time of its creation.",
+  "type": "Concept",
+  "domain": "Philosophy of Art",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.778434Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.778434Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine every artifact you've ever seen as a tiny time capsule of the person who made it. It holds a piece of their feelings, thoughts, and experiences.",
+    "intermediate": "Psychic fossilization refers to the idea that any human-made artifact encapsulates a unique state of the human mind and emotions at the time of its creation. This theory highlights the interconnectedness between art and the human psyche.",
+    "expert": "Psychic fossilization offers a framework for understanding the relationship between art and the human mind, highlighting the interconnectedness between art and identity. It also raises questions about the nature of consciousness and the transmission of information through time, connecting to fields like psychology, cognitive science, and anthropology."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The human-made artifact is a fossilized psychic state, containing a unique snapshot of the mind and emotions of its creator.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

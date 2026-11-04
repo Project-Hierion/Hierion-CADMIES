@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemological_sprawl",
+  "title": "Epistemological Sprawl",
+  "definition": "The disproportionate expansion of philosophical and epistemological concepts in a knowledge graph compared to scientific and empirical concepts.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.491041Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.491041Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where the seeds of ideas grow uncontrollably. If it only plants seeds of philosophical questions without any scientific answers, the garden becomes a mess with no clear path or fruit.",
+    "intermediate": "Epistemological Sprawl occurs when the knowledge graph expands primarily with abstract concepts, particularly philosophical and epistemological ones, without a corresponding expansion of scientific and empirical concepts.",
+    "expert": "Epistemological Sprawl challenges the integrity of the knowledge graph by creating a feedback loop. The more philosophical concepts exist, the more philosophical connections Mistral finds, further tilting the graph toward abstraction. This leads to a lack of grounded concepts and weakens cross-domain reasoning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The disproportionate expansion of philosophical concepts may hinder the graph's ability to provide deep, practical insights.",
+    "source_chunk": 90,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

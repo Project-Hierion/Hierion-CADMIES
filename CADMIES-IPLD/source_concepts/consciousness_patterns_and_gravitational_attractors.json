@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_patterns_and_gravitational_attractors",
+  "title": "Consciousness Patterns And Gravitational Attractors",
+  "definition": "The idea that consciousness patterns are influenced by biological attractors, such as parents, and can be compared to particles in a quantum field.",
+  "type": "Concept",
+  "domain": "Psychology and Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.876364Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.876364Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of consciousness as a ball rolling through life, and parents as magnets that can attract and shape this ball. When a newborn's consciousness ball rolls near a parent's magnet, it can 'lock on' and start a new life pattern.",
+    "intermediate": "Consciousness patterns are subject to gravitational influences, similar to how particles in a quantum field are influenced by other particles. Parents can act as 'gravitational attractors' for consciousness patterns in newborns, influencing their development and potential future experiences.",
+    "expert": "This concept explores the relationship between consciousness and physical reality, suggesting that consciousness patterns are not isolated but rather influenced by their surroundings, including biological attractors. This idea has philosophical implications for the nature of self and identity, and connects to research in quantum physics and the role of consciousness in shaping reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that consciousness patterns can be influenced by biological attractors, such as parents, and that this process can be compared to particles in a quantum field.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

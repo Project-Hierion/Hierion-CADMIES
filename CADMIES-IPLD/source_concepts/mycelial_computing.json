@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_computing",
+  "title": "Mycelial Computing",
+  "definition": "The concept of a decentralized knowledge network where nodes communicate and process information, similar to the mycelial network in a fungus.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.220551Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.220551Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a smart garden where each plant (node) shares and receives information with other plants, allowing the garden to grow and learn.",
+    "intermediate": "Mycelial computing leverages the structure of mycelial networks to build a distributed system. Nodes collaboratively store and retrieve data in a peer-to-peer manner, promoting resilience and decentralization.",
+    "expert": "Mycelial computing explores the intersection between biology and computing, providing insights into self-organizing systems. It challenges traditional computing models by emphasizing the benefits of decentralization, autonomy, and interconnectedness. Additionally, it offers potential applications in areas such as artificial intelligence, internet of things, and edge computing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the potential of mycelial computing as a distributed system and its implications for decentralized knowledge networks.",
+    "source_chunk": 75,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_paradigms_and_their_impact",
+  "title": "Scientific Paradigms And Their Impact",
+  "definition": "The exploration of scientific paradigms and their influence on the development and acceptance of scientific theories.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.550453Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.550453Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of scientific paradigms as different ways of looking at the world. They shape what we think is possible and true in science.",
+    "intermediate": "Scientific paradigms are sets of assumptions, theories, and methods that scientists employ to understand and interpret the natural world. These paradigms can have a profound impact on the development and acceptance of scientific theories.",
+    "expert": "Scientific paradigms play a complex role in the philosophy of science. They not only shape the theories we develop but also influence how we perceive reality. Furthermore, the interplay between different paradigms can lead to scientific revolutions, where previously accepted theories are discarded and new ones emerge. This insight connects to the philosophy of Thomas Kuhn's 'The Structure of Scientific Revolutions'."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interplay and influence of different scientific paradigms on the development and acceptance of scientific theories.",
+    "source_chunk": 123,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

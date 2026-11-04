@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cognitive_agent_functionality",
+  "title": "Cognitive Agent Functionality",
+  "definition": "The functional characteristics and components of a cognitive agent, including its runtime language, entry point, requirements, environment specifications, and activation state.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.079979Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.079979Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a robot that can think and act on its own. It uses a special language to communicate, has certain skills it needs, and a way to remember and learn new things. This concept focuses on how this robot's 'brain' works.",
+    "intermediate": "Cognitive agents are autonomous entities that perform tasks based on instructions, which are defined by an entry point. They use a specific runtime language and may have certain libraries and resource limitations. The agent's state is managed through an activation state object that tracks its history and activity.",
+    "expert": "Cognitive agents are sophisticated computational entities that simulate human intelligence. This concept encompasses the functional architecture and components of a cognitive agent, including its runtime language, entry point, and environment specifications. The agent's activation state allows for monitoring and management of its activity, while its memory schema and learning parameters enable adaptation and continuous improvement. The cognitive agent's functionality can be represented as a graph structure, connecting it to other agents or concepts in a semantic network."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the complexity and depth of cognitive agent functionality, which includes a range of components that enable these entities to operate autonomously and learn from their experiences.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

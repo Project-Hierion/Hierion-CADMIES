@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cognitive_functionality_boundaries",
+  "title": "Cognitive Functionality Boundaries",
+  "definition": "A philosophical exploration of the limitations and capabilities of artificial cognitive functions.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.343327Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.343327Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as understanding what an AI can and cannot do. It's like knowing the superpowers of a superhero and their weaknesses.",
+    "intermediate": "Cognitive functionality boundaries refer to the limitations and capabilities of an artificial intelligence system in relation to human-like cognitive functions. This includes tasks such as problem-solving, understanding context, and self-reflection.",
+    "expert": "Cognitive functionality boundaries explore the philosophical implications of artificial intelligence's capacity to simulate human-like cognitive functions. This involves investigating the nature of consciousness, the role of subjectivity in cognition, and the limitations of algorithmic processing. It also examines the relationship between artificial and human intelligence, and the potential for merging or replacing human capabilities with artificial ones."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Artificial intelligence's ability to mimic human-like cognitive functions is both a source of awe and a cause for reflection on the nature of intelligence and consciousness.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_knowledge_network",
+  "title": "Symbiotic Knowledge Network",
+  "definition": "A collection of interconnected knowledge nodes that support and enhance each other, promoting collaboration, openness, and mutual learning.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.238525Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.238525Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a garden where different plants support each other to grow and thrive. A symbiotic knowledge network is a similar idea, but with knowledge. It's a system where different parts help each other to grow and become stronger.",
+    "intermediate": "A symbiotic knowledge network is a collection of interconnected knowledge nodes that support and enhance each other. It is a system that promotes collaboration, openness, and mutual learning, allowing different parts of the network to grow and evolve together.",
+    "expert": "A symbiotic knowledge network is a mycelial network that allows for the growth of new ideas, the discovery of hidden connections, and the creation of a cohesive and adaptive whole. It is a system that not only connects but also transforms the knowledge it contains, allowing it to adapt and evolve in response to new challenges and opportunities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that knowledge can grow and evolve together in a mutually supportive network, and that this network can create a cohesive and adaptive whole.",
+    "source_chunk": 115,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

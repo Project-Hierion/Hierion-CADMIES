@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "python_environment_dependency_management",
+  "title": "Python Environment Dependency Management",
+  "definition": "The process of installing and managing external libraries required by a Python project on a user's local machine.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.019017Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.019017Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "To use a car, you need the right tools. In programming, these tools are called 'dependencies'. If you're building a car (CADMIES) with Python, you need pip (the wrench) to put the wheels (dependencies) on your car.",
+    "intermediate": "Managing Python project dependencies involves using pip to install and manage external libraries on a user's local machine. This can be done inside a virtual environment to isolate the project from the system-wide Python environment.",
+    "expert": "Python environment dependency management is a complex process that involves understanding the system's Python environment, handling potential conflicts between dependencies, and ensuring compatibility across different operating systems. In the context of CADMIES, it's about providing users with a clear, straightforward way to install the necessary dependencies to run the project, while also considering the potential challenges of running on immutable Linux systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for a clear, user-friendly process for installing and managing Python project dependencies, particularly on immutable Linux systems.",
+    "source_chunk": 111,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

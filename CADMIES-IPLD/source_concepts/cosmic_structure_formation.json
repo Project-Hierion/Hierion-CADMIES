@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_structure_formation",
+  "title": "Cosmic Structure Formation",
+  "definition": "The process by which large-scale structures form in the universe, resulting from the agitation of spacetime and the subsequent formation of the Cosmium Froth Structure.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.669265Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.669265Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as the way the universe's building blocks, like galaxies, arrange themselves in a beautiful, orderly pattern. This pattern isn't made by living beings, but by the natural agitation of the cosmos.",
+    "intermediate": "Cosmic Structure Formation is the result of the Cosmium Froth Event, a process that began with the primordial agitation of spacetime. It results in the formation of the Cosmium Froth Structure, the stable, lattice-like pattern we see in the cosmic medium.",
+    "expert": "Cosmic Structure Formation is a fundamental aspect of the universe's evolution. It is not merely a passive result, but an active process that reveals the underlying principles of gravity and quantum mechanics. By understanding Cosmic Structure Formation, we can gain insights into the nature of dark matter, dark energy, and the origins of cosmic inflation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Cosmium Froth Event and the Cosmium Froth Structure are two aspects of the same phenomenon, describing it from different perspectives.",
+    "source_chunk": 103,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

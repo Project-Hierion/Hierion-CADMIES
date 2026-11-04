@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "synergistic_collaboration",
+  "title": "Synergistic Collaboration",
+  "definition": "A concept that emphasizes the power of combining diverse perspectives and skills to achieve a greater outcome than could be achieved individually.",
+  "type": "Concept",
+  "domain": "Organizational Behavior",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.177791Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.177791Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a team of people working together to build a house. Each person brings a unique skill, like carpentry, painting, or plumbing. When they all work together, they build a stronger, more beautiful house than any single person could create on their own.",
+    "intermediate": "Synergistic collaboration is a process where individuals with different skills, backgrounds, and viewpoints work together to produce a result that exceeds the sum of their individual contributions. This concept is based on the principle of collective intelligence.",
+    "expert": "Synergistic collaboration is a complex phenomenon that involves more than just the sum of its parts. It can lead to creative breakthroughs, enhance decision-making, and foster innovation. However, it also requires effective communication, trust, and a shared purpose. Moreover, synergistic collaboration can be observed in various fields, from science and engineering to art and business."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The power of diverse perspectives and skills working together to achieve a greater outcome than could be achieved individually.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

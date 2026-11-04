@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "optimal_resource_allocation",
+  "title": "Optimal Resource Allocation",
+  "definition": "The strategic use of resources to achieve the best outcome with the least waste and highest efficiency.",
+  "type": "Concept",
+  "domain": "Economics and Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.038597Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.038597Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like managing a restaurant. Sometimes, it's more cost-effective to have the busiest waiter handle a smaller table, rather than having an idle waiter at a full table.",
+    "intermediate": "In the context of AI training, optimal resource allocation means using the most appropriate GPU configurations to achieve the desired training speed and efficiency, while minimizing costs.",
+    "expert": "Optimal resource allocation in AI training is a complex problem that combines elements of computational complexity, scheduling theory, and economics. It involves understanding the specific characteristics and limitations of different GPU models, and making strategic decisions about when to use them to maximize training speed and efficiency, while minimizing costs. This is a novel insight because it highlights the importance of considering both the technical and economic aspects of AI training when making resource allocation decisions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of considering both the technical and economic aspects of AI training when making resource allocation decisions.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

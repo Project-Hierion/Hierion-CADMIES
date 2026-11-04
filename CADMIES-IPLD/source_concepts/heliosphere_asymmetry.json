@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "heliosphere_asymmetry",
+  "title": "Heliosphere Asymmetry",
+  "definition": "The concept that the heliosphere, a protective bubble surrounding our solar system, experiences a more significant impact from the interstellar medium from a particular direction due to our solar system's motion through it.",
+  "type": "Concept",
+  "domain": "Astronomy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.278418Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.278418Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the heliosphere as a bubble that's like a balloon constantly being blown up by the Sun. However, this bubble is being squished from the front, not evenly from all sides, because we're moving through space.",
+    "intermediate": "The heliosphere, influenced by the interstellar medium, experiences a non-uniform pressure due to the solar system's motion. This results in a more pronounced asymmetry in the shape of the heliosphere, with more impact on the 'nose' or 'front' of the system.",
+    "expert": "The heliosphere's asymmetry is a result of the solar wind's interaction with the interstellar medium. The solar wind's pressure varies inversely with the square of the distance from the Sun, causing the heliosphere to experience a higher dynamic pressure from the upstream region due to our solar system's motion. This results in a magnetopause that is elongated in the direction of travel, creating the 'bow shock' and 'tail' of the heliosphere."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The heliosphere's asymmetrical shape is due to the solar system's motion through the interstellar medium, causing a higher dynamic pressure from the upstream region.",
+    "source_chunk": 27,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

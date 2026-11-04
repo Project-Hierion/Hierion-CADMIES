@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "async_context_interference",
+  "title": "Async Context Interference",
+  "definition": "A phenomenon where long-running asynchronous tasks in a system exceed internal timeouts or block the event loop, causing unintended consequences.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.234686Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.234686Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to run a slow program in the background while using your computer. If that program takes too long, it might cause other programs to stop working properly.",
+    "intermediate": "Async context interference occurs when a long-running asynchronous task in a system, like a slow AI model, exceeds internal timeouts or blocks the event loop, causing other tasks or the user interface to fail.",
+    "expert": "Async context interference is a complex issue that combines several factors, including the specifics of the event loop, the asynchronous task's resource demands, and the system's overall performance. It can lead to unpredictable errors, poor user experience, and system instability. Understanding and mitigating this issue requires a deep understanding of asynchronous programming, event loop design, and system resource management."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The problem was identified as a long-running AI model interfering with NiceGUI's async context, causing unintended consequences. This insight highlights the potential risks of using long-running tasks in an async context and the need for careful handling of system resources.",
+    "source_chunk": 81,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

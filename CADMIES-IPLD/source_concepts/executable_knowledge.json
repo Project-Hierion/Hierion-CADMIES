@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "executable_knowledge",
+  "title": "Executable Knowledge",
+  "definition": "The concept of transforming information into executable actions, operations, or behaviors.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.700123Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.700123Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of executable knowledge as a recipe. It's not just a list of ingredients; it's a set of instructions that guide you to cook a delicious meal. In the same way, executable knowledge in CADMIES isn't just information; it's knowledge that can be used to perform actions or make decisions.",
+    "intermediate": "Executable knowledge in CADMIES is represented by AgentNodes, which extend a standard scientific concept with executable agent capabilities. This allows CADMIES to process the AgentNode's instructions and dynamically decide which tools or functions to call based on the input task, creating a loop of 'reasoning \u2192 action \u2192 new information \u2192 further reasoning'.",
+    "expert": "Executable knowledge in CADMIES is a novel approach in the field of AI and knowledge representation. It blends the declarative nature of scientific concepts with the procedural nature of executable code. This fusion allows for a more dynamic, adaptive, and intelligent system. Furthermore, the use of content-addressed identifiers (CIDs) and the Universal Scientific Concept Schema ensures the verifiability and quality of the executable knowledge, making it a significant contribution to the field of artificial general intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES transforms scientific concepts into executable knowledge, enabling a dynamic and intelligent system that can make decisions and perform actions based on its knowledge.",
+    "source_chunk": 110,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

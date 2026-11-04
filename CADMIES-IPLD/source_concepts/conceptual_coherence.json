@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_coherence",
+  "title": "Conceptual Coherence",
+  "definition": "The consistency and logical coherence of a set of concepts within a domain.",
+  "type": "Concept",
+  "domain": "Epistemology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.365122Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.365122Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Conceptual coherence is like making sure all the pieces of a puzzle fit together smoothly.",
+    "intermediate": "Conceptual coherence is achieved when concepts are defined clearly and consistently.",
+    "expert": "Conceptual coherence is a critical aspect of philosophical inquiry and epistemology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Achieving conceptual coherence requires a deep understanding of the nature of concepts and logical consistency.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

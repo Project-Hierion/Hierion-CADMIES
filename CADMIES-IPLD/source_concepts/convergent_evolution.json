@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "convergent_evolution",
+  "title": "Convergent Evolution",
+  "definition": "The independent development of similar features or characteristics in distinct groups of organisms living in different environments.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.534046Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.534046Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two different creatures evolving in separate environments. Despite never meeting or communicating with each other, they develop similar features due to facing similar challenges. This is convergent evolution.",
+    "intermediate": "Convergent evolution occurs when distinct biological lineages develop similar traits because they face similar selective pressures in their environments. In this context, the similar traits are user interfaces of note-taking systems.",
+    "expert": "Convergent evolution is a fascinating phenomenon that challenges our understanding of evolution. It highlights the underlying principles that shape the development of complex systems. In this case, it reveals the shared patterns in the design of user interfaces, suggesting that the same environmental pressures may have influenced their evolution."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The convergence in user interface design of note-taking systems across distinct projects suggests that similar environmental pressures or design principles may have influenced their development.",
+    "source_chunk": 115,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_stewardship",
+  "title": "Data Stewardship",
+  "definition": "The practice of managing and maintaining data integrity and availability over time, ensuring accuracy and relevance of information.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.993198Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.993198Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of data stewardship as a librarian who keeps the books on the shelves organized and up-to-date. In this context, we're dealing with digital 'books' or data.",
+    "intermediate": "Data stewardship involves handling data throughout its lifecycle, including data validation, storage, retrieval, and deletion. It's about managing data quality, security, and privacy.",
+    "expert": "Data stewardship is a critical aspect of digital infrastructure and knowledge systems. It encompasses both technical and ethical considerations. Philosophically, it raises questions about data ownership, persistence, and the role of technology in shaping our understanding of the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of proper data stewardship and the need to clean up orphaned edges in the knowledge system.",
+    "source_chunk": 69,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

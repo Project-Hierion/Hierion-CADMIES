@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycorrhizal_knowledge_system",
+  "title": "Mycorrhizal Knowledge System",
+  "definition": "A system that interconnects various domains of knowledge, facilitating understanding and growth through mutual exchange and integration.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.363934Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.363934Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a giant garden where different types of seeds (concepts) grow and intertwine with each other, making the garden more beautiful and productive.",
+    "intermediate": "A mycorrhizal knowledge system is a complex network that integrates concepts from various domains, enabling a deeper understanding through interconnectedness and symbiotic relationships.",
+    "expert": "A mycorrhizal knowledge system is a novel approach to knowledge management that draws from the principles of mycorrhizal networks in nature. It promotes interdisciplinary understanding and collaboration, while also exploring the philosophical implications of networked knowledge and the role of individual concepts within the system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycorrhizal knowledge system is a unique approach to knowledge management, emphasizing interconnectedness and symbiosis, which can foster growth and understanding across various domains.",
+    "source_chunk": 46,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

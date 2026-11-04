@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_linguistic_evolution",
+  "title": "Scientific Linguistic Evolution",
+  "definition": "The process through which new scientific terms are adopted, legitimized, and integrated into the scientific lexicon, influenced by the natural lifecycle of word adoption and the community's need for new concepts.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.179510Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.179510Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like spreading a new idea in a community. You can't just declare a new word, it has to catch on with people. It's a long journey, but if the idea is good, it will grow.",
+    "intermediate": "Scientific linguistic evolution involves a multi-phase process that begins with informal usage and gradually moves toward formal adoption. The community plays a crucial role, with dictionaries following usage rather than leading it.",
+    "expert": "The scientific linguistic evolution of new terms reflects the broader process of language change. It often involves paradigm shifts, where a new concept challenges existing ones. This process has philosophical implications, such as how new concepts emerge and challenge our understanding of the world. It also connects to other fields, such as linguistics, sociology, and the history of science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The strategy to legitimize a new scientific term involves a multi-phase process that includes grounding the concept, seeding the ecosystem, infecting the academy, and allowing for organic growth.",
+    "source_chunk": 104,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

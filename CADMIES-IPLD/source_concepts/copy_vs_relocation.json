@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "copy_vs_relocation",
+  "title": "Copy Vs Relocation",
+  "definition": "The distinction between a 'copy' and the 'relocation' of a digital work, highlighting the philosophical implications of this distinction in the context of copyright law.",
+  "type": "Concept",
+  "domain": "Law",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.414690Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.414690Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of making a 'copy' of a digital work like leaving a trail of breadcrumbs behind. When you move a file, you're not leaving a copy at each step; you're just erasing the trail of the original.",
+    "intermediate": "In copyright law, a 'copy' involves creating an exact duplicate of a work, while 'relocation' is the transfer of ownership without creating a new copy. The distinction is crucial, as it affects the legality of various digital actions.",
+    "expert": "The distinction between 'copy' and 'relocation' challenges the fundamental premises of copyright law. If a single bit is considered a copy, then every digital action, from emailing to editing a film, could be considered infringement. However, if a single bit is not a copy, then digital transfers like streaming or printing are legal because no 'copy' ever exists in two places."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The distinction between 'copy' and 'relocation' highlights the philosophical implications of defining a 'copy' as a single bit in the context of copyright law, and the potential legal consequences of this definition.",
+    "source_chunk": 159,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

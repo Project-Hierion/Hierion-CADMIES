@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dynamic_knowledge_system",
+  "title": "Dynamic Knowledge System",
+  "definition": "A system that dynamically loads and updates knowledge concepts from both local storage and external sources, such as CAR file releases.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.013321Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.013321Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library that can grow and change. Sometimes it gets new books from a friend, and sometimes it pulls updates from a central server. This makes sure that everyone has the latest information.",
+    "intermediate": "In the context of a philosophical knowledge system, a dynamic knowledge system is a design that allows for the seamless integration and updating of concepts from both local and external sources, such as CAR file releases. This enables a robust and evolving knowledge base that can adapt to new insights and information.",
+    "expert": "The dynamic knowledge system in CADMIES is a novel concept in the field of philosophical knowledge systems, as it combines the principles of content-addressed storage with a dynamic loading mechanism. This design allows for the efficient and secure sharing of scientific and philosophical concepts, while also enabling the verification and validation of these concepts through a four-tier validation system and a CAR file sharing mechanism. The dynamic loading mechanism also allows for the evolution of the knowledge base over time, as new concepts can be added and existing concepts can be updated or removed. This has implications for the nature of knowledge and its relationship to technology, as well as the role of verification and validation in the construction of a robust and reliable knowledge base."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The dynamic loading mechanism in CADMIES allows for the efficient and secure sharing of scientific and philosophical concepts, while also enabling the verification and validation of these concepts through a four-tier validation system and a CAR file sharing mechanism.",
+    "source_chunk": 109,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

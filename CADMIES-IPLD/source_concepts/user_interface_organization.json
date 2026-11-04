@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_interface_organization",
+  "title": "User Interface Organization",
+  "definition": "The method of organizing the components of a user interface to enhance usability and user experience.",
+  "type": "Concept",
+  "domain": "Human-Computer Interaction",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.194362Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.194362Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a bookstore. The best-selling books are at eye level, making it easy for customers to find them. Similarly, in a well-organized user interface, important and frequently used features are prominently displayed.",
+    "intermediate": "User interface organization involves placing elements in a logical order to reduce cognitive load and provide a seamless user experience. This may include using navigation menus, search bars, and categorizing content.",
+    "expert": "User interface organization is a critical aspect of human-computer interaction, with implications for user experience, cognitive load, and the psychological effects of interface design. Organizational theories such as the Serial Position Effect and the Fitts' Law can be applied to optimize interface organization. It also has connections to fields such as information architecture and user experience design."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user reorganized the sidebar to prioritize the most-used actions and enhance usability.",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

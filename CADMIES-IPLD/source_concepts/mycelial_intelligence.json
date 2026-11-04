@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_intelligence",
+  "title": "Mycelial Intelligence",
+  "definition": "A concept that represents the collective intelligence and adaptability of a mycelial network, such as the CADMIES knowledge system, through the interconnectedness of its components and the patterns it forms.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.821575Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.821575Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a network of interconnected worms, each one sensing its surroundings and passing information to others. In the same way, a smart system like CADMIES uses all its parts to understand and solve problems better.",
+    "intermediate": "Mycelial intelligence is a form of distributed intelligence, where each component of a system, like concepts in CADMIES, contributes to a collective understanding through connections. This interconnectedness allows for adaptability and resilience in the face of change.",
+    "expert": "Mycelial intelligence is a novel concept in the field of artificial intelligence that draws on the biological phenomenon of mycelial networks in fungi. It highlights the adaptive, resilient, and emergent properties of complex systems, such as the CADMIES knowledge system. It also connects to other fields, like biology, computer science, and complex systems, by demonstrating that principles of biological intelligence can be applied to artificial systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES knowledge system is more than the sum of its parts due to the mycelial nature of its connections, forming a collective intelligence that can adapt and solve problems more effectively.",
+    "source_chunk": 156,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

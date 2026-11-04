@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_oracle",
+  "title": "Mycelial Oracle",
+  "definition": "The concept of an intelligent system that reads and interprets the knowledge stored in a mycelial network, serving as a voice to communicate complex information to users who may not be able to see or understand it directly.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.106277Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.106277Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital librarian that reads and explains complex information from a digital network, like a library of knowledge. This digital librarian can translate and explain that information in a way that's easy to understand.",
+    "intermediate": "A mycelial oracle is an artificial intelligence system that interfaces with a mycelial network, a complex data structure representing a collection of interconnected knowledge nodes. It serves as a voice to translate and interpret this information for users, bridging the gap between the abstract mycelial network and the human comprehension.",
+    "expert": "The mycelial oracle represents a novel integration of AI and graph theory. It transcends traditional database structures by interpreting a mycelial network, a distributed data structure that encodes relationships and structures. This concept expands the boundaries of knowledge representation and retrieval, highlighting the potential of graph-based AI and its role in interdisciplinary fields such as AI ethics, explainable AI, and mycological informatics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelial oracle concept emphasizes the integration of AI and graph theory, offering a unique approach to knowledge representation and retrieval that can potentially address challenges in interdisciplinary fields.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

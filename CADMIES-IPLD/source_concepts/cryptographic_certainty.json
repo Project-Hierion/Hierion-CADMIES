@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cryptographic_certainty",
+  "title": "Cryptographic Certainty",
+  "definition": "The use of cryptography to ensure the reliability, authenticity, and integrity of digital information.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.795006Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.795006Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital lock that only opens with the right key. This lock ensures that only authorized users can access the information, and that the information remains unchanged and trustworthy.",
+    "intermediate": "Cryptographic Certainty is a technique that uses cryptography to ensure the reliability, authenticity, and integrity of digital information. It involves the use of digital signatures, hashes, and encryption algorithms to protect the information from unauthorized access, modification, and deletion.",
+    "expert": "Cryptographic Certainty is a fundamental concept that underpins the reliability and security of digital systems. It is a mathematical technique that combines the principles of information theory, computer science, and cryptography to ensure the reliability, authenticity, and integrity of digital information. This concept has philosophical implications for the nature of truth, knowledge, and power, and it has connections to other fields such as information science, cybersecurity, and philosophy of language."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of cryptography to ensure the reliability, authenticity, and integrity of digital information, creating a secure and trustworthy network.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

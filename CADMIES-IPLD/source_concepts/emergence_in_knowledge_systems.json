@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emergence_in_knowledge_systems",
+  "title": "Emergence In Knowledge Systems",
+  "definition": "The concept of how complex systems, such as knowledge networks, emerge from the interactions of their components.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.882899Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.882899Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a recipe for making a cake. The cake (complex system) emerges from the combination of ingredients (simple components) and the baking process. Similarly, knowledge systems like CADMIES emerge from the interaction of various elements.",
+    "intermediate": "Emergence in knowledge systems refers to the observation that new properties and patterns at a higher level of analysis emerge from the interactions of individual components at a lower level. This concept is closely related to self-organization and adaptability.",
+    "expert": "The emergence in knowledge systems is a philosophical insight that challenges the traditional top-down approach to system design. It highlights the importance of local interactions, adaptability, and the role of external conditions in shaping complex systems. This insight has connections to other fields such as sociology, economics, and evolutionary biology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed that the CADMIES knowledge system emerged from the interaction of various elements, such as GitHub, ORCID, IPLD, Python, and individual users, without a central planner. This demonstrates the concept of emergence in complex systems.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

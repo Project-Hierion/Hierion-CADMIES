@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_mycorrhiza",
+  "title": "Digital Mycorrhiza",
+  "definition": "A digital representation of mycorrhiza, a symbiotic relationship between plants and fungi, applied to knowledge sharing and storage systems.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.174757Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.174757Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden, but instead of soil, it's the internet. Plants are ideas and fungi are connections. Just as in a mycorrhiza, knowledge grows and shares resources, making the whole network stronger.",
+    "intermediate": "CADMIES is a digital mycorrhiza, a networked system that facilitates knowledge sharing and storage through symbiotic relationships between concepts. This relationship enables the growth and interconnection of ideas, much like a physical mycorrhiza.",
+    "expert": "CADMIES is a novel application of the mycorrhiza metaphor to digital knowledge systems. It explores the philosophical implications of symbiosis, networked intelligence, and decentralized knowledge storage. By treating concepts as interconnected nodes, it challenges traditional notions of ownership and authorship, while still ensuring accountability and scientific validation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES demonstrates a symbiotic relationship between technology and philosophy, using a natural metaphor to create a decentralized, networked system for knowledge storage and sharing.",
+    "source_chunk": 59,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

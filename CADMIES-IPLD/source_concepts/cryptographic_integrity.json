@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cryptographic_integrity",
+  "title": "Cryptographic Integrity",
+  "definition": "The assurance that data has not been tampered with or altered during transmission or storage.",
+  "type": "Concept",
+  "domain": "Cryptography",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.727818Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.727818Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine cryptographic integrity as a digital lock that ensures only authorized changes can be made to the data. No one can sneak in and change the contents without leaving a trace.",
+    "intermediate": "Cryptographic integrity is achieved through cryptographic hashes or digital signatures. These methods ensure that data remains unchanged from its original state, providing a level of trust in the system.",
+    "expert": "Cryptographic integrity plays a pivotal role in the larger context of computer security and distributed systems. It is closely connected to concepts like non-repudiation and zero-knowledge proofs. However, it is also subject to philosophical considerations, such as the nature of identity and the implications of unalterable records."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The philosophical breach caused by the CID Generator Immutability Flaw highlights the importance of cryptographic integrity in maintaining the foundational trust in the system.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

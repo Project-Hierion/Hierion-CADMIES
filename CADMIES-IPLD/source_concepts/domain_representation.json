@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "domain_representation",
+  "title": "Domain Representation",
+  "definition": "A visual representation of concepts and their relationships within various domains.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.378534Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.378534Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a map where different ideas are connected. Each connection represents how ideas in one domain relate to those in another.",
+    "intermediate": "Domain representation is a graphical tool that uses nodes to represent concepts and edges to represent relationships. It helps in understanding the interconnections between different domains.",
+    "expert": "Domain representation is a philosophical exploration of how knowledge is structured and interconnected. It's a visual interpretation of epistemology and ontology, showing how concepts from different disciplines build upon, relate to, or contradict each other. It also has implications for the theory of knowledge and understanding across disciplines."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of visualizing and understanding the interconnectedness of concepts across different domains.",
+    "source_chunk": 58,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

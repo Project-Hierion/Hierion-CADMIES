@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sequential_processing",
+  "title": "Sequential Processing",
+  "definition": "A method of executing a series of tasks in a specific order, with each task completed before the next one begins.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.310955Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.310955Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a to-do list where you have to complete one task before moving on to the next. This is like that, but for computers.",
+    "intermediate": "In the context of CPU-only systems, sequential processing is necessary because CPUs can only execute one task at a time. This ensures that the second task doesn't interfere with the first one.",
+    "expert": "Sequential processing is a fundamental concept in computer science. It's used in single-threaded systems to avoid race conditions and to ensure data consistency. However, it can lead to inefficiencies in systems with multi-core CPUs. Parallel processing is a potential solution, but it requires a more complex architecture."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The fix for CPU-only systems processing tasks one at a time is to implement sequential processing with enough breathing room between tasks.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_boundary_challenges",
+  "title": "Concept Boundary Challenges",
+  "definition": "The issue that arises when extracting concepts from conversational data with chunk boundaries that slice through natural transitions or contexts.",
+  "type": "Concept",
+  "domain": "Knowledge Extraction",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.349529Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.349529Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're reading a book and the page ends right in the middle of a sentence. You're missing some important information to understand the full context. The same thing happens with conversation chunks, causing us to miss out on complete concepts.",
+    "intermediate": "Concept boundary challenges arise due to the artificial splitting of conversational data into chunks. This can result in incomplete concepts or conversational transitions that fall between chunks, which may not be accurately extracted.",
+    "expert": "The concept boundary challenge is a philosophical exploration of the relationship between language, knowledge extraction, and the limits of human understanding. It highlights the tension between the discrete nature of human language and the continuous flow of thought. This challenge also draws connections to other fields such as cognitive science and artificial intelligence, particularly in the context of conversation modeling and natural language processing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Conversational data can be fragmented into chunks that do not accurately represent complete concepts or transitions, leading to incomplete knowledge extraction.",
+    "source_chunk": 139,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

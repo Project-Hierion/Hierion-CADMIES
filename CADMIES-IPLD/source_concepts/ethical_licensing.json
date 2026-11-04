@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ethical_licensing",
+  "title": "Ethical Licensing",
+  "definition": "A licensing strategy that emphasizes fair distribution, collaborative development, and the public good.",
+  "type": "Concept",
+  "domain": "Ethics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.501018Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.501018Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of ethical licensing as a way to share software that respects everyone involved. It ensures fair distribution, allows for improvements, and benefits the common good.",
+    "intermediate": "Ethical licensing strategies, such as AGPLv3 with Commons Clause, promote open-source development by requiring reciprocal contributions and limiting commercial use, fostering a community-driven approach.",
+    "expert": "Ethical licensing is a philosophical exploration at the intersection of ethics, law, and technology. By focusing on reciprocity, transparency, and the public good, ethical licensing promotes a collaborative, democratic model of innovation. It also raises questions about the role of copyright in knowledge production and the implications of proprietary ownership for access, diversity, and the common good."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ethical licensing strategy used in the CADMIES project emphasizes fair distribution, collaborative development, and the public good, fostering a sense of community and shared knowledge.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

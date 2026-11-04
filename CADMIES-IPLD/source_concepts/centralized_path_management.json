@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "centralized_path_management",
+  "title": "Centralized Path Management",
+  "definition": "A concept that promotes efficient and error-free handling of file and directory paths within a project by using a centralized, standardized approach.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.462771Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.462771Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a GPS for your project's folders. It helps you navigate and find what you need without getting lost in the wrong directory.",
+    "intermediate": "Centralized path management is a technique where all paths are calculated based on a single reference point, reducing the chance of errors caused by path miscalculations and providing a standardized way to access project files.",
+    "expert": "Centralized path management enhances code maintainability and portability. By avoiding hard-coded paths, it ensures that a project can be moved or restructured without breaking file references. This concept also has broader applications in software design, such as in managing dependencies and creating modular systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the need for centralized path management to improve code maintainability and portability in the CADMIES project.",
+    "source_chunk": 44,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

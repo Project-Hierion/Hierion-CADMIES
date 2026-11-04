@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_interdependence",
+  "title": "Knowledge Interdependence",
+  "definition": "The reciprocal connections and interdependence that exist between various concepts in a knowledge system.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.531476Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.531476Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a spider's web where each strand represents a concept. The strands are connected to each other, showing how ideas are interconnected.",
+    "intermediate": "Knowledge interdependence refers to the web of relationships that exist between different concepts. It highlights how ideas build upon and relate to each other.",
+    "expert": "Knowledge interdependence is a philosophical insight that emphasizes the interconnectedness of concepts. It draws from the fields of semiotics and epistemology to argue that knowledge is not a collection of isolated facts, but a complex network of interrelated ideas. This insight has implications for how we understand the growth and development of knowledge, as well as the limits of human understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversational data reveals an intricate web of relationships between various concepts, highlighting their interdependence and mutual influence.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

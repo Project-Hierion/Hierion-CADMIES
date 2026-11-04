@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "proactive_planning",
+  "title": "Proactive Planning",
+  "definition": "The concept of taking anticipatory actions based on future possibilities and probabilities.",
+  "type": "Concept",
+  "domain": "Project Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.543919Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.543919Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Proactive planning is like preparing for a picnic ahead of time. You think about what might happen and make a plan so you're ready for whatever the future might bring.",
+    "intermediate": "Proactive planning involves identifying potential challenges or opportunities in the future and developing strategies to mitigate risks or capitalize on opportunities before they occur. This often includes updating dataset descriptions and adding new datasets to the repository to ensure they are ready for future use.",
+    "expert": "Proactive planning is a fundamental aspect of project management that reflects a broader philosophical perspective on life. It involves understanding the interplay of possibilities, probabilities, and actions. Proactive planning in a technical context such as managing a repository highlights the importance of foresight, adaptability, and the ability to anticipate and respond to changes in the environment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of proactive planning in managing a repository by updating dataset descriptions and adding new datasets to prepare for future use.",
+    "source_chunk": 118,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

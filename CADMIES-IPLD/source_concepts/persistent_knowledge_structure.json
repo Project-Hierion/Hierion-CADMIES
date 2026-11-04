@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "persistent_knowledge_structure",
+  "title": "Persistent Knowledge Structure",
+  "definition": "A structured repository that securely stores and retrieves data over time, ensuring data integrity and continuity.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.678278Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.678278Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library that keeps your books organized and safe, allowing you to easily find and read them whenever you need. This concept does something similar for digital data.",
+    "intermediate": "A persistent knowledge structure is a data storage and retrieval system that uses InterPlanetary Linked Data (IPLD) blocks to store and retrieve data. IPLD provides a secure, content-addressable way to link and package data, ensuring data integrity and continuity over time.",
+    "expert": "The persistent knowledge structure is a novel approach to data storage and retrieval that combines the principles of IPLD with the philosophy of the Digital Seed. It provides a secure, content-addressable way to link and package data that ensures data integrity and continuity over time. This approach has philosophical implications for the nature of knowledge and its transmission across time and space, and has connections to other fields such as blockchain technology and distributed systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need to securely store and retrieve data over time, ensuring data integrity and continuity, is a fundamental challenge in computer science. The persistent knowledge structure provides a solution to this challenge by combining the principles of IPLD with the philosophy of the Digital Seed.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

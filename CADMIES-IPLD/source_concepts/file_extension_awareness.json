@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "file_extension_awareness",
+  "title": "File Extension Awareness",
+  "definition": "The recognition and importance of file extensions in computing and data management.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.030120Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.030120Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about files like people. Some people have names that end with a specific word to show they belong to a certain group. Computer files use 'extensions' to tell programs what kind of file they are, so they can be read and used correctly.",
+    "intermediate": "File extensions are used in computing to indicate the format or type of the file, allowing the operating system to identify how to open or handle it. In this conversation, the importance of file extensions in accurately counting and managing knowledge blocks was discussed.",
+    "expert": "File extension awareness is a fundamental concept in computer science. Its importance extends to the field of data management and storage, where it plays a crucial role in ensuring data integrity and consistency. This conversation highlights a common issue where the absence or inconsistency of file extensions can lead to inaccuracies in data processing. Philosophically, this insight reveals the interplay between human and machine intelligence, and the need for a clear and consistent language to enable effective communication and collaboration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of file extensions in accurately managing and processing data, as demonstrated by the bug in the CADMIES system.",
+    "source_chunk": 116,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

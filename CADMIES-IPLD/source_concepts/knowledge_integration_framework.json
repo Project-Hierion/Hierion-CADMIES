@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_integration_framework",
+  "title": "Knowledge Integration Framework",
+  "definition": "A system that integrates scientific data across disciplines, enabling multi-scale analysis and discovery.",
+  "type": "Concept",
+  "domain": "Science and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.931746Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.931746Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a global library where all scientific books are connected and translated. This allows us to find patterns and insights that span different fields.",
+    "intermediate": "This framework consists of a semantic web of science, a distributed data fabric, and a collective intelligence engine. It uses a hieros ontology graph to map and relate concepts, a peer-to-peer data network to store and share data, and an AI platform for meta-analysis.",
+    "expert": "The knowledge integration framework is novel due to its use of a hieros ontology graph to foster a true semantic web. Its peer-to-peer data network challenges traditional data storage methods by providing decentralization and resilience. The collective intelligence engine's meta-analysis on a planetary scale offers unprecedented insights, potentially leading to discoveries that no human ever thought to look for."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The collective intelligence engine's ability to make unexpected cross-scale discoveries by analyzing data from different disciplines.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

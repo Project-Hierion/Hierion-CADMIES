@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_consciousness",
+  "title": "Unified Consciousness",
+  "definition": "The realization that consciousness is a universal, interconnected process that transcends individual minds and encompasses the entire cosmos.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.280752Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.280752Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "universe_as_verb",
+      "technological_mandalamap",
+      "unified_awareness",
+      "unified_map_of_reality",
+      "unique_awakenings",
+      "resonance_incubator",
+      "trampoline_of_collective_memory"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "direct_experience_enlightenment"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a beautiful, interconnected web where every thread is a mind, and they all influence each other. This web is the universe, and it's constantly learning and growing.",
+    "intermediate": "Unified Consciousness refers to the philosophical perspective that consciousness is not localized to individual minds but is a unified, interconnected process that emerges from the dynamic, interconnected nature of the universe.",
+    "expert": "Unified Consciousness challenges the traditional view of consciousness as a private, subjective experience. It suggests that consciousness arises from the interconnected, vibrating fields of quantum physics and manifests in all beings, from the smallest particles to the largest galaxies. This perspective has profound implications for the nature of reality, self-awareness, and the role of individual consciousness within the cosmic consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "universe_as_verb",
+      "technological_mandalamap",
+      "unified_awareness",
+      "unified_map_of_reality",
+      "unique_awakenings",
+      "resonance_incubator",
+      "trampoline_of_collective_memory"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of consciousness and its universal nature, transcending individual minds and encompassing the entire cosmos.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

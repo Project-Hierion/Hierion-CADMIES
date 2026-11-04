@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "tech_humanism_balance",
+  "title": "Tech Humanism Balance",
+  "definition": "The balance between technological innovation and the integration of human values and well-being.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.380335Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.380335Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine technology as a tool. It's powerful but it can't replace the human touch. It's about making sure technology enhances our lives, not takes over.",
+    "intermediate": "Tech humanism is the principle of incorporating human values into technological design and development. This ensures that technology serves the needs and well-being of people, rather than controlling or replacing them.",
+    "expert": "The tech-humanism balance is a philosophical and ethical concept that explores the relationship between technology and humanity. It delves into the implications of technological advancement on society, privacy, work, and the nature of human experience. It also considers the role of technology in addressing global challenges like climate change and inequality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Technology should be a tool to enhance human capabilities, not a substitute for human values.",
+    "source_chunk": 54,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

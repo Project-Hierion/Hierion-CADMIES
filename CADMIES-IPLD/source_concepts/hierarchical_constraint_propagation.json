@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_constraint_propagation",
+  "title": "Hierarchical Constraint Propagation",
+  "definition": "The concept of how a hierarchical system operates by propagating constraints and information from higher to lower levels.",
+  "type": "Concept",
+  "domain": "Philosophy of Science, Systems Theory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.920721Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.920721Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a game of dominoes. Each domino is like a part of a complex system. When you knock over the first one, it causes a series of reactions that eventually makes the last one fall. This is a simple form of constraint propagation in action.",
+    "intermediate": "In a hierarchical system, each level of complexity imposes constraints on the level below it, and this imposition of constraints leads to the emergence of new patterns and phenomena at each level. This is a form of top-down causation or constraint propagation.",
+    "expert": "The novel insight here is that the concept of hierarchical constraint propagation allows us to understand the functioning of complex systems that cannot be reduced to the sum of their parts. It also highlights the limitations of reductionism and the need for a more comprehensive understanding of emergent properties. This concept has connections to fields such as complexity science, non-equilibrium thermodynamics, and the philosophy of science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is not just a static assembly of parts but a dynamic, multi-scale process of constraint propagation and information flow.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

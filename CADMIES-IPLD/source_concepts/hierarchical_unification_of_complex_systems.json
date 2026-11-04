@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_unification_of_complex_systems",
+  "title": "Hierarchical Unification Of Complex Systems",
+  "definition": "The concept of mapping and understanding the hierarchical architecture of reality, from quantum fields to the biosphere, as a unified scale-bridging theory of complex systems.",
+  "type": "Concept",
+  "domain": "Interdisciplinary",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.598476Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.598476Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of reality as a giant puzzle. This concept is about trying to piece together how all the different parts, from tiny quantum particles to large living organisms and ecosystems, fit together and influence each other.",
+    "intermediate": "The hierarchical unification of complex systems is the effort to build a unified theoretical framework that spans multiple scales, from the behavior of quantum fields to the dynamics of the biosphere. This involves integrating insights from quantum physics, systems and synthetic biology, neuroscience, ecology, earth system science, and complex systems theory.",
+    "expert": "The hierarchical unification of complex systems is a novel philosophical perspective that recognizes the interconnectedness of phenomena across different scales. It postulates that a comprehensive understanding of reality requires a unified theory that can explain causal relationships between quantum fields, biological systems, and ecological and earth system processes. This theoretical framework may have philosophical implications for our understanding of determinism, emergence, and the nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential to understand and predict the behavior of complex systems at multiple scales by integrating insights from various disciplines.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

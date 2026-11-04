@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ai_driven_ontology_graph",
+  "title": "Ai Driven Ontology Graph",
+  "definition": "An AI-powered system that dynamically builds and maintains a universal translator for scientific concepts across disciplines.",
+  "type": "Concept",
+  "domain": "AI and Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.934551Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.934551Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a smart AI guide that helps different fields of science talk to each other. It's like having a universal translator for science.",
+    "intermediate": "The AI-driven Ontology Graph (HOG) is a system that uses machine learning to map and understand scientific concepts. It bridges the linguistic isolation between different scientific disciplines.",
+    "expert": "The AI-driven Ontology Graph (HOG) is a groundbreaking innovation that leverages the power of Large Language Models (LLMs) to create a dynamic, collaborative knowledge graph. This system not only accelerates the scientific discovery process but also challenges traditional epistemological boundaries by fostering cross-disciplinary understanding and synthesizing knowledge from various fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The AI-driven Ontology Graph (HOG) is a transformative tool that accelerates scientific discovery, fosters cross-disciplinary understanding, and challenges traditional epistemological boundaries.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

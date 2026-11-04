@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "illusion_of_separate_self",
+  "title": "Illusion Of Separate Self",
+  "definition": "The misconception that the true nature of reality is a separate and independent self or ego.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.121049Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.121049Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of yourself as a wave in the ocean. You might feel like a separate entity, but you're just a part of the constant flow.",
+    "intermediate": "The illusion of separate self is the belief that a self or ego exists as a distinct entity from the rest of the world, while it is actually a construct created by the mind.",
+    "expert": "The illusion of separate self is a pervasive phenomenon in human cognition, with roots in ancient philosophy and Eastern mystical traditions. It leads to the suffering and dissatisfaction described in Buddhism, and its resolution is the ultimate goal of the Buddhist path of enlightenment. The molecule is a temporary catalyst that helps break through this illusion, but meditation and self-reflection are more sustainable methods."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The dissolution of the illusion of separate self reveals the true nature of reality as boundless, unconditioned awareness.",
+    "source_chunk": 119,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

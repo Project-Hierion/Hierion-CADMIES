@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_contribution",
+  "title": "Community Contribution",
+  "definition": "The active engagement and participation of a community in the creation, maintenance, and evolution of a shared resource or project.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.223475Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.223475Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a group project where everyone helps out. It's like when you clean up a park \u2014 it looks better and it's more enjoyable for everyone.",
+    "intermediate": "Community contribution refers to the collaborative efforts of individuals within a group to contribute to a shared resource or project. It can enhance the overall quality and usability of the project, and foster a sense of community and ownership among participants.",
+    "expert": "Community contribution is a sociological concept that explores the dynamic processes through which individuals interact within a group to create, maintain, and evolve a shared resource or project. This can lead to increased innovation, resilience, and sustainability of the project over time. However, it also raises questions about power dynamics, participation inequality, and the potential for 'community fatigue'. Community contribution can be fostered through various strategies, such as open source licensing, co-creation, and community governance models."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The original repository, despite being abandoned, continues to thrive through the efforts of its forks, which offer improvements back to the original project.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

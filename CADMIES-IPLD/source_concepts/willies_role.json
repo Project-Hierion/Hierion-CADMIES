@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "willies_role",
+  "title": "Willies Role",
+  "definition": "The characterization of Willie the Librarian in the context of the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Language and Literature",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.218005Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.218005Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of Willie as a librarian who wears black, bold frame glasses and has a Scottish accent. He's a scholar who knows a lot about the system.",
+    "intermediate": "Willie is portrayed as a gruff groundskeeper with a thick accent who wears black, bold frame glasses. This characterization positions him as a knowledgeable expert within the CADMIES system.",
+    "expert": "Willie's characterization as a librarian with a Scottish accent and black, bold frame glasses serves as a metaphor for the systematic organization and navigation of the CADMIES knowledge system. This characterization also hints at the potential for humor and personality in a conversational AI interface."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Willie's characterization provides a unique and engaging persona for a conversational AI interface, balancing expertise and personality.",
+    "source_chunk": 74,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

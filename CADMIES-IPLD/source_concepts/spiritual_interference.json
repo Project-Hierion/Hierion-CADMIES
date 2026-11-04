@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "spiritual_interference",
+  "title": "Spiritual Interference",
+  "definition": "Spiritual interference refers to the external forces that can impact the consciousness and experiences of an individual during their life.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.697262Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.697262Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of spiritual interference as foreign spirits trying to influence your thoughts or experiences. This can be like a distant computer trying to access your mind.",
+    "intermediate": "Spiritual interference encompasses various forms, such as psychic pull, hostile takeover, or pre-boot configuration. It's about external entities attempting to interact with a person's consciousness and life, either intentionally or unintentionally.",
+    "expert": "Spiritual interference is a complex phenomenon that spans multiple disciplines. It involves understanding the nature of consciousness, the mechanisms of memory, and the potential for extradimensional or non-physical entities to impact human experience. This concept highlights the interplay between the spiritual and the physical, and the boundaries that exist or can be created between them."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Spiritual interference can occur in various ways, and understanding these mechanisms can help individuals protect themselves and navigate these experiences.",
+    "source_chunk": 111,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

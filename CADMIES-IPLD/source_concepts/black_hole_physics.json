@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_physics",
+  "title": "Black Hole Physics",
+  "definition": "A theoretical concept in physics that describes a region of space where gravity is so strong that nothing, including light, can escape from it.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.515968Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.515968Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a black hole as a super-powerful vacuum cleaner. It sucks in everything, including light, and nothing can escape. If it spins, it behaves like a spinning vacuum cleaner, with effects like creating a 'ring of no return' and powerful jets shooting out from the poles.",
+    "intermediate": "A black hole is a region of space-time where the gravitational pull is so strong that even light cannot escape. If a black hole spins, it deforms into an oblate spheroid shape, not a perfect sphere. This spin can lead to the formation of relativistic jets, which are high-energy outflows that shoot out from the poles of the black hole.",
+    "expert": "A black hole is a solution to the Einstein field equations in general relativity, representing a region of space where the curvature of spacetime is so intense that no matter or radiation can escape. Spinning black holes have a more complex structure due to the effects of rotation, such as the formation of a ring singularity and the creation of an ergosphere. The maximum spin rate of a black hole is limited by the cosmic censorship hypothesis, which states that a singularity cannot be exposed to the exterior universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A spinning black hole is not a simple spinning dot; it deforms into an oblate spheroid shape and has complex internal structures such as a ring singularity and an ergosphere. Spinning black holes can also form relativistic jets, which are high-energy outflows that shoot out from the poles of the black hole.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

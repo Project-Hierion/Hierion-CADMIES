@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemic_humility",
+  "title": "Epistemic Humility",
+  "definition": "The recognition that all knowledge is provisional, fallible, and bounded by the limits of one's own perspective.",
+  "type": "Concept",
+  "domain": "Epistemology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.750036Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.750036Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "dunning_kruger_effect"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "occams_razor",
+      "bayes_theorem",
+      "godels_incompleteness_theorems"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Thinking that you might be wrong is a smart move. It's not about having no convictions, but being open to changing them when faced with new information.",
+    "intermediate": "Epistemic humility is the intellectual virtue that acknowledges uncertainty and the possibility of revision. It's about understanding that certainty is not a measure of truth and holding strong beliefs lightly.",
+    "expert": "Epistemic humility is a philosophical principle that challenges the notion of absolute certainty. It highlights the limitations of human knowledge, the role of perspective, and the importance of revision. It contrasts with dogmatic cultures that value certainty as a sign of strength. Epistemic humility connects to other fields like logic (Occam's Razor, Bayes' Theorem), mathematics (G\u00f6del's Incompleteness Theorems), and psychology (Dunning-Kruger effect)."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "dunning_kruger_effect"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Epistemic humility highlights the limitations of human knowledge and the importance of revision, challenging dogmatic cultures that value certainty as a sign of strength.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

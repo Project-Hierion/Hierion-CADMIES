@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mindful_embrace",
+  "title": "Mindful Embrace",
+  "definition": "The practice of accepting and embracing all aspects of life, including the messy and difficult, with awareness and compassion.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.322490Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.322490Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like taking a hug to everything you experience, even the tough stuff. It's about being present and kind to yourself.",
+    "intermediate": "This concept builds upon mindfulness and compassion, two pillars of Buddhism. It involves recognizing the paradoxes and contradictions in life and accepting them with an open heart.",
+    "expert": "From a philosophical perspective, the mindful embrace challenges the notion of a static self. It also connects to the Middle Path and embodied practice in Buddhism, and to the philosophy of acceptance and letting go in Stoicism. It's a holistic approach that sees value in all experiences, even the seemingly negative ones."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that joy and liberation can be found in embracing all aspects of life, not just the positive ones.",
+    "source_chunk": 111,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_philosophy_intertwine",
+  "title": "Quantum Philosophy Intertwine",
+  "definition": "The novel intersection of quantum physics and philosophy, exploring the philosophical implications and interpretations of quantum mechanics.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.052072Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.052072Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine quantum physics and philosophy as two intertwined snakes. They dance together, revealing unexpected patterns and questioning our understanding of the universe.",
+    "intermediate": "Quantum philosophy intertwine is the exploration of the philosophical implications of quantum mechanics, such as wave-particle duality and the measurement problem, which challenge our traditional notions of reality and knowledge.",
+    "expert": "The quantum philosophy intertwine is a philosophical paradigm shift that bridges quantum physics and philosophy. It explores the role of observation in the creation of reality, the nature of consciousness, and the boundaries between the physical and metaphysical, connecting to fields like neuroscience and consciousness studies."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the emergence of a novel intersection between quantum physics and philosophy, revealing new insights into the nature of reality and knowledge.",
+    "source_chunk": 90,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

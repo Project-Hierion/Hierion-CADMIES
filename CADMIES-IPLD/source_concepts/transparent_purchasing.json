@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "transparent_purchasing",
+  "title": "Transparent Purchasing",
+  "definition": "A concept that emphasizes transparency and clarity in the purchasing process, revealing potential risks and unavailability of additional services.",
+  "type": "Concept",
+  "domain": "Business",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.352400Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.352400Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about when you're buying something online and see all the extra features or add-ons that are listed, but they're not available for your purchase. This concept highlights the importance of understanding what you're paying for and knowing what's not included.",
+    "intermediate": "Transparent purchasing is about disclosing all aspects of a service or product, including limitations and unavailability of certain features or options. It encourages informed decision-making and builds trust between the buyer and the seller.",
+    "expert": "Transparent purchasing can be a philosophical approach that challenges the traditional opaque business models. It highlights the need for ethical and informed consumer behavior. It also raises questions about the role of deception and manipulation in commercial transactions. This concept has connections to consumer rights, contract law, and ethical business practices."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The booking summary page displays a service costing $80 but lists all additional services as 'Unavailable', indicating a lack of transparency in the purchasing process.",
+    "source_chunk": 41,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

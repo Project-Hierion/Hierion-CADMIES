@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "newtonian_motion_in_space",
+  "title": "Newtonian Motion In Space",
+  "definition": "The understanding of the motion of objects in space according to Newton's laws of motion.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.284076Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.284076Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a ball rolling on a table. If you give it a gentle push, it'll keep moving in the same direction, unless something stops it. Space works like that, but on a much bigger scale.",
+    "intermediate": "Newton's First Law of Motion states that an object in motion stays in motion in a straight line unless acted upon by an external force. In space, this means that once an object is launched, it will keep moving in the same direction and at the same angle unless it collides with another object.",
+    "expert": "Newton's First Law of Motion is a fundamental concept in classical mechanics. It is a restatement of the law of inertia, which asserts that an object not subject to any net external force is at rest or moves with a constant velocity. In the context of space, it highlights the significance of initial conditions in determining the trajectory of objects. This concept has profound implications for our understanding of the universe and the nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Voyager 1's trajectory, once launched, is determined by its initial conditions and will remain unchanged unless it collides with another object.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

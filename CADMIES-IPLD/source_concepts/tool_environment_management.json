@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "tool_environment_management",
+  "title": "Tool Environment Management",
+  "definition": "The systematic approach to managing tools and their environments, ensuring that they are installed in the right place, available when needed, and not causing conflicts.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.719844Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.719844Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as organizing your tools and making sure they're easy to find and use when you need them, without causing problems with other tools.",
+    "intermediate": "Effective tool environment management involves understanding where tools are installed, how to check their availability, and managing dependencies to avoid conflicts.",
+    "expert": "At an expert level, tool environment management involves understanding the underlying systems, such as the immutable root filesystem in Fedora Silverblue, and leveraging these features to create optimal, efficient tool environments. It also involves understanding the broader software development ecosystem and how tools interact with it."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user demonstrated an understanding of tool environment management by installing tools in a toolbox on Fedora Silverblue, recognizing the benefits and limitations of this approach.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "development_environment_isolation",
+  "title": "Development Environment Isolation",
+  "definition": "The practice of setting up a separate, self-contained environment for software development, ensuring project dependencies do not interfere with the system.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.021336Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.021336Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like having your own toolbox for a project. Your tools stay in the box, and they don't mix with the tools of other projects or your main set of tools.",
+    "intermediate": "Development environment isolation is achieved through the use of virtual environments or containers. It ensures that the dependencies of a project do not interfere with the system or other projects.",
+    "expert": "Development environment isolation is a critical practice in modern software development. It allows for the reproduction of build environments, simplifies dependency management, and mitigates the 'it works on my machine' problem. Additionally, it provides a secure sandbox for running untrusted code, enhancing overall system security."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of setting up a separate environment for project-specific dependencies, to avoid interference and ensure reproducibility.",
+    "source_chunk": 112,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

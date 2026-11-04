@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_preservation_strategy",
+  "title": "Data Preservation Strategy",
+  "definition": "A strategy designed to ensure the durability, availability, and integrity of data over time.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.383238Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.383238Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a backup system as a safety net for your digital stuff. It creates copies of your files and saves them in different places. That way, if something happens to your main data, you can still get it back.",
+    "intermediate": "A data preservation strategy involves a backup system that creates copies (or backups) of data. These backups are stored in different locations (like daily, weekly, and monthly backups) to ensure data durability and availability. It also includes data integrity checks and regular cleanup of old backups to manage disk space.",
+    "expert": "From a data preservation standpoint, a successful strategy should balance durability, availability, and integrity. This involves creating multiple backups at different frequencies (daily, weekly, monthly), storing these backups in separate locations (to guard against single points of failure), and performing regular data integrity checks. Additionally, managing old backups is crucial to maintain disk space. This concept connects to information theory, fault tolerance, and disaster recovery in computer science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discussion highlights the importance of a well-thought-out data preservation strategy, which involves creating and managing backups effectively to ensure data durability, availability, and integrity.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

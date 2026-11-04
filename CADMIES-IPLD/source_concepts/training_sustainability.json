@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "training_sustainability",
+  "title": "Training Sustainability",
+  "definition": "The concept of maintaining the training process of a machine learning model consistently over time, despite challenges and obstacles.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.562737Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.562737Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine training a pet like a dog. Even if it occasionally faces small hurdles, like missing a toy or needing a new ball, it continues learning and improving. Training sustainability is similar \u2014 keeping the learning process going, even when there are temporary setbacks.",
+    "intermediate": "Training sustainability in machine learning involves handling dependency issues, like installing missing packages, and maintaining system resources, like memory and processing power. It's about creating a robust training environment that can overcome obstacles and continue learning effectively.",
+    "expert": "Training sustainability is a critical aspect of machine learning that connects to broader concepts like system reliability, fault tolerance, and continuous learning. It's about designing systems that can learn from data over extended periods, even in the presence of intermittent failures or resource constraints. This philosophical insight highlights the importance of resilience and adaptability in artificial intelligence systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to overcome temporary setbacks and continue the training process is a key aspect of sustainability in machine learning.",
+    "source_chunk": 132,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_as_energy_transfer",
+  "title": "Consciousness As Energy Transfer",
+  "definition": "The concept that consciousness is an energy that is neither created nor destroyed, but merely transferred and modified.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.098971Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.098971Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine consciousness like a lamp that keeps shining even when you move it to a different place. Death isn't when the lamp goes out; it's just changing the lamp's location.",
+    "intermediate": "Consciousness is energy that follows conservation laws. It doesn't start at birth or end at death; it just changes its focus. The body is a temporary vessel for this energy.",
+    "expert": "Consciousness as energy transfer challenges the notion of a permanent self. It suggests that our identity is a story told by others and can be dissolved when we're no longer remembered. This insight connects to the philosophy of non-duality and the nature of reality in physics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Consciousness is an energy transfer that challenges the notion of a permanent self.",
+    "source_chunk": 109,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

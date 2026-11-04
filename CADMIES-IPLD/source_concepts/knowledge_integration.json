@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_integration",
+  "title": "Knowledge Integration",
+  "definition": "The process of incorporating new concepts, insights, and models into existing knowledge systems.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.973302Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.973302Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like adding new books to a library. Each book expands the knowledge that the library can provide.",
+    "intermediate": "Knowledge integration involves merging different types of knowledge, such as scientific theories and practical applications, to create a more comprehensive understanding.",
+    "expert": "Knowledge integration is a philosophical and practical challenge. It requires navigating the tension between preserving distinct domains and fostering interdisciplinary understanding. This process can reveal new insights and challenge existing theories, leading to a more holistic and nuanced understanding of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of integrating new knowledge into existing systems to expand our understanding and uncover new insights.",
+    "source_chunk": 98,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

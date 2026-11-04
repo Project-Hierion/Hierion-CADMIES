@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "project_maintenance_best_practices",
+  "title": "Project Maintenance Best Practices",
+  "definition": "The optimal strategies and techniques to keep a project well-organized, functional, and up-to-date.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.507784Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.507784Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of project maintenance like taking care of your garden. Keeping things tidy and updated prevents bigger issues from growing.",
+    "intermediate": "Project maintenance involves managing dependencies, keeping documentation current, and structuring the project for ease of use. It's about keeping a clean, functional codebase.",
+    "expert": "Effective project maintenance also involves considering inclusivity and following industry standards. It's about creating a project environment that supports collaboration and growth, while addressing potential issues proactively."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user highlighted the importance of managing dependencies, updating documentation, and structuring the project for ease of use.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

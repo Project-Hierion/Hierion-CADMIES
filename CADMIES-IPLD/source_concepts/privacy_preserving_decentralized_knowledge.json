@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "privacy_preserving_decentralized_knowledge",
+  "title": "Privacy Preserving Decentralized Knowledge",
+  "definition": "A system that enables decentralized knowledge sharing while preserving privacy through directory-level visibility and capability-based access.",
+  "type": "Concept",
+  "domain": "Distributed Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.598397Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.598397Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a library where each book has a tag indicating its visibility. When you borrow a book, you get a ticket that lets you read it. This system allows sharing knowledge without exposing private information.",
+    "intermediate": "Privacy-preserving decentralized knowledge is a system that utilizes directory-level visibility to control what data is visible to the network and capability-based access to ensure only authorized users can access certain resources.",
+    "expert": "Privacy-preserving decentralized knowledge is a novel approach that combines the distributed database structure of CADMIES with the peer-to-peer distribution protocol of Atlas. This system provides a proven privacy model, while also addressing the limitations of both individual systems. The integration allows CADMIES to gain global discovery and query distribution, while Atlas gains structured, verified knowledge payloads. The combination of these systems is greater than the sum of its parts, providing a reference implementation for privacy-preserving decentralized knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of CADMIES and Atlas creates a complete decentralized knowledge stack with privacy built in, addressing the limitations of each individual system and providing a reference implementation for privacy-preserving decentralized knowledge.",
+    "source_chunk": 66,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

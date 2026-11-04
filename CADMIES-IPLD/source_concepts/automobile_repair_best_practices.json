@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "automobile_repair_best_practices",
+  "title": "Automobile Repair Best Practices",
+  "definition": "A set of guidelines and techniques for safely and effectively repairing automobiles, including properly identifying and replacing components, following safety protocols, and leveraging appropriate tools.",
+  "type": "Concept",
+  "domain": "Mechanics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.413201Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.413201Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a mechanic. To fix a problem with a car, you should always replace broken parts, use the correct tools, and follow the manual's instructions to avoid causing more damage.",
+    "intermediate": "When addressing automobile repair, it's crucial to replace broken parts to prevent future failure, use the correct torque settings for safe and secure fastening, and use appropriate tools to facilitate the repair process, all while adhering to the vehicle's service manual for accurate guidance.",
+    "expert": "Automobile repair best practices encompass a broad spectrum of guidelines and techniques, from the importance of replacing broken components to prevent potential failure, to the utilization of appropriate tools to facilitate a successful repair. Philosophically, these practices challenge the notion of a do-it-yourself mentality by emphasizing the value of professional knowledge and expertise. Furthermore, these practices connect to broader ethical and environmental concerns by promoting sustainable repair methods and responsible part sourcing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of replacing broken components, using the correct torque settings, and utilizing appropriate tools for successful automobile repair.",
+    "source_chunk": 70,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

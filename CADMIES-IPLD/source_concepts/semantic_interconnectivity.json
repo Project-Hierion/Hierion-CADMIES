@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "semantic_interconnectivity",
+  "title": "Semantic Interconnectivity",
+  "definition": "The concept of understanding and navigating the relationships and connections between philosophical concepts, forming a network of knowledge.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.629758Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.629758Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a spider web where each thought is a point, and the connections between thoughts are the threads. The more threads that connect, the stronger the web, and the more interconnected our thoughts are.",
+    "intermediate": "Semantic interconnectivity is the study of how different philosophical concepts are interrelated, forming a complex network of ideas. This involves understanding the semantic connections between words and concepts, and the logical relationships between them.",
+    "expert": "Semantic interconnectivity explores the philosophical foundations of knowledge representation, formal semantics, and computational linguistics. It involves analyzing the meanings of concepts, their interrelationships, and the logical structures that underpin philosophical arguments. The study of semantic interconnectivity has implications for areas such as artificial intelligence, natural language processing, and philosophy of language."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Philosophical Analyzer Agent can extract and analyze the semantic connections between philosophical concepts, providing a richer understanding of the interconnectivity of knowledge.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

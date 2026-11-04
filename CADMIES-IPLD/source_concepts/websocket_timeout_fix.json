@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "websocket_timeout_fix",
+  "title": "Websocket Timeout Fix",
+  "definition": "The strategy to prevent a websocket connection from timing out due to a blocking operation.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.263432Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.263432Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're playing a game online with your friend. If you take too long to respond, the game might kick you out due to inactivity. To fix this, you can either play the game in the background while you do other things, or instantly respond even if you're still thinking, to keep the connection alive.",
+    "intermediate": "In a real-time application, such as a chatbot interface, a websocket connection can timeout if a blocking operation, like a semantic search, takes too long to complete. To prevent this, we can run the blocking operation in a separate thread before registering it with the UI update loop, or perform the operation synchronously in a thread and then start the stream.",
+    "expert": "The issue arises due to the asynchronous nature of the application. A websocket connection can timeout if it receives no updates from the server for a certain period of time. In this case, the semantic expansion process, which involves making an Ollama request, is blocking the event loop long enough for the websocket to timeout. The solution involves running the entire send_message function in a separate thread, so that nothing blocks the event loop. This keeps the websocket connection alive and prevents it from timing out."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The websocket connection can timeout due to a blocking operation. Running the blocking operation in a separate thread before registering it with the UI update loop or performing the operation synchronously in a thread and then starting the stream can prevent this timeout.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

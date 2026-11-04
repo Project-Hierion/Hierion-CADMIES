@@ -2,21 +2,21 @@
   "schema_version": "1.0.0",
   "human_id": "content_addressed_knowledge_graph",
   "title": "Content Addressed Knowledge Graph",
-  "definition": "A decentralized, open-source network for storing, sharing, and discovering knowledge, structured as a graph where nodes represent concepts and edges represent relationships.",
+  "definition": "A knowledge representation system where each concept is identified by a unique content identifier (CID), enabling direct and efficient retrieval and navigation.",
   "type": "Concept",
   "domain": "Artificial Intelligence",
   "subdomain": "",
   "proofs": [
     {
       "type": "conversation_extraction",
-      "description": "Extracted from conversation via mistral:7b",
+      "description": "Extracted from conversation via codestral:22b",
       "confidence": 0.8,
-      "date": "2026-10-30T21:15:59.246987Z",
+      "date": "2026-10-31T20:22:40.048015Z",
       "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
     }
   ],
   "metadata": {
-    "created": "2026-10-30T21:15:59.246987Z",
+    "created": "2026-10-31T20:22:40.048015Z",
     "creator": "CADMIES Harvest Pipeline",
     "certainty_score": 0.8,
     "version": 1,
@@ -32,9 +32,9 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "A digital library where every idea is given a unique address, like a digital fingerprint. This allows for easy organization, sharing, and discovery of knowledge.",
-    "intermediate": "A knowledge graph that uses content-addressing to ensure decentralization and openness, with each concept represented as a node and relationships between concepts represented as edges.",
-    "expert": "A philosophical exploration of knowledge representation and organization, leveraging content-addressing for decentralization and openness, creating a network of interconnected concepts and relationships that evolves with the collective intelligence of its users."
+    "beginner": "Imagine a library where every book has a unique barcode. The AI can find and learn from any book instantly using that barcode, which makes it faster and more accurate.",
+    "intermediate": "In AI systems, a content-addressed knowledge graph is a directed acyclic graph (DAG) where each node is a concept identified by a unique content identifier (CID). This allows for efficient retrieval and navigation, enhancing the ability to understand and learn from the data.",
+    "expert": "The content-addressed knowledge graph in CADMIES replaces the traditional semantic layer and retrieval layer found in other systems. It provides a more structured and efficient way to manage and access knowledge. The CID-addressed concepts enable direct retrieval and navigation, while the DAG structure allows for the representation of complex relationships and the understanding of provenance. This approach has the potential to enhance the performance and capabilities of AI systems, and it also opens up opportunities for interoperability and collaboration across different AI platforms."
   },
   "learning_path": {
     "prerequisites": [],
@@ -42,8 +42,8 @@
   },
   "cross_references": {},
   "extra_fields": {
-    "insight": "Decentralized, open-source knowledge networks allow for the democratization of knowledge, enabling collaborative intelligence and continuous learning.",
-    "source_chunk": 99,
+    "insight": "Replacing the traditional semantic layer and retrieval layer with a content-addressed knowledge graph enables more structured and efficient management and access to knowledge, enhancing the performance and capabilities of AI systems.",
+    "source_chunk": 10,
     "origin_file": "conversation.json",
     "harvester_version": "4.2.1"
   }

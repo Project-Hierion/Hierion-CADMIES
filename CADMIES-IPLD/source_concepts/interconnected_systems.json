@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interconnected_systems",
+  "title": "Interconnected Systems",
+  "definition": "The concept of interconnected systems highlights how each phenomenon under discussion is intrinsically linked to others, forming a complex, interdependent web of elements.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.532112Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.532112Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a spider's web \u2014 every thread affects the others, making a strong, interconnected whole. Similarly, topics like oxygen, nuclear fission, oceans, vaccines, magnetism, biodiversity, and hormones are all interconnected, with each having a significant impact on the others.",
+    "intermediate": "The interconnectedness of systems is a recurring theme across various scientific disciplines. For instance, the oxygen produced by photosynthetic cyanobacteria is crucial for life on Earth, while the reactive oxygen species can damage cells. These two processes are closely intertwined, creating a delicate balance that sustains life.",
+    "expert": "The concept of interconnected systems reveals the underlying complexity and resilience of nature. It underscores the need for a systems approach in understanding and addressing global challenges. For example, the interaction between ocean currents and atmospheric circulation plays a crucial role in regulating global climate. Similarly, the relationship between hormone levels and endocrine disruptors highlights the interconnectedness of biological systems and their vulnerability to external influences."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of various phenomena, demonstrating the need for a holistic approach in understanding and addressing global challenges.",
+    "source_chunk": 114,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

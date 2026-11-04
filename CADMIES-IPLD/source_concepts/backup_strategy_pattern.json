@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_strategy_pattern",
+  "title": "Backup Strategy Pattern",
+  "definition": "A pattern in a backup system that determines which type of backup (daily, weekly, monthly) to run based on the current date and time.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.679258Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.679258Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a weekly cleaning schedule for your house. Depending on the day of the week, you might do a deep clean or a quick dust, just like a backup system decides whether to perform a full backup or a quick snapshot based on the time and day.",
+    "intermediate": "The backup strategy pattern in a system like this involves conditional logic that evaluates the current date and time to determine which type of backup to perform. This could be daily, weekly, or monthly backups, each with its own retention policy.",
+    "expert": "The backup strategy pattern is a key aspect of a robust backup system, ensuring data integrity and availability. It not only accounts for the frequency of backups but also their retention period, balancing the need for quick restorability with storage efficiency. This pattern also connects to data lifecycle management and disaster recovery strategies, ensuring that backups are not just a backup but a critical component of a comprehensive data management strategy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The backup strategy pattern shows how conditional logic can be used to create a flexible and efficient data backup system.",
+    "source_chunk": 104,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "translucent_mycelium",
+  "title": "Translucent Mycelium",
+  "definition": "The principle that the CADMIES knowledge system should be completely transparent and open, allowing for mistakes to be data points rather than embarrassments.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.356406Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.356406Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the CADMIES knowledge system as a living, growing organism. Just as you can see the veins and roots of a tree, the CADMIES system should be transparent, allowing everyone to see its inner workings and understand how it grows and changes.",
+    "intermediate": "The translucent mycelium concept is a philosophical principle that emphasizes transparency and openness in the CADMIES knowledge system. This principle reflects the belief that mistakes are valuable data points that contribute to the growth and evolution of the system, rather than sources of embarrassment.",
+    "expert": "The translucent mycelium concept challenges the traditional view of scientific knowledge as a closed, finished product. By treating the CADMIES knowledge system as a living, evolving entity, the concept highlights the importance of transparency, openness, and continuous learning. Furthermore, the translucent mycelium concept has philosophical implications for the nature of truth and knowledge, as it suggests that the truth is not fixed or absolute, but rather emergent and context-dependent."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept of a translucent mycelium reflects the philosophy of open notebook science and highlights the importance of transparency and openness in the CADMIES knowledge system.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

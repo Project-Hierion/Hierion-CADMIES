@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_causal_abstraction",
+  "title": "Hierarchical Causal Abstraction",
+  "definition": "The integration of hierarchical levels of abstraction in a causal simulation framework to ground abstract concepts in a progressive and interconnected manner.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.353673Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.353673Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a smart learning system that builds concepts layer by layer, like learning to ride a bike: start with pedals, then wheels, and finally balance. This helps understand and use abstract concepts in a more concrete and causal way.",
+    "intermediate": "The concept of hierarchical causal abstraction is about structuring a causal simulation model with multiple levels of abstraction. This allows for the gradual and context-dependent mapping of abstract concepts onto a concrete causal framework, enhancing the model's ability to understand and reason about complex systems.",
+    "expert": "Hierarchical causal abstraction is a novel integration of hierarchical abstraction into a causal simulation framework. It builds upon the idea of structured state space sequence models and extends it with hierarchical subgoal abstraction across multiple levels. This framework allows for the incremental and interconnected grounding of abstract concepts, enabling a more nuanced and causally coherent understanding of complex systems. By mapping latent states onto natural language, the model can provide experiential understanding of abstract concepts, rather than relying on dictionary definitions alone. This approach has implications for various fields, including philosophy, cognitive science, and artificial intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The hierarchical causal abstraction framework allows for the incremental and interconnected grounding of abstract concepts, enhancing the model's ability to understand and reason about complex systems.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

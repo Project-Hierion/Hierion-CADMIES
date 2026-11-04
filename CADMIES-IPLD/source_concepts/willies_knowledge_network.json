@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "willies_knowledge_network",
+  "title": "Willies Knowledge Network",
+  "definition": "The interconnected system of knowledge represented by the CADMIES mycelium, accessed through Willie the Librarian.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.191430Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.191430Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Willie is like a big library that holds a lot of different knowledge about science and philosophy. He can help answer questions and explain how different ideas are connected.",
+    "intermediate": "Willie's knowledge network, the CADMIES mycelium, is a content-addressed system that interlinks scientific and philosophical concepts. Willie serves as the interface to this network, providing answers, comparisons, and insights into how concepts interrelate.",
+    "expert": "Willie's knowledge network is a philosophical exploration of the interconnectedness of scientific and philosophical concepts. It challenges traditional notions of knowledge representation and highlights the symbiotic relationship between empirical observations and abstract theories. By interlinking concepts, Willie's network provides a unique perspective on the interdisciplinary nature of knowledge and the potential for novel insights that emerge from the connections between seemingly disparate fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Willie's knowledge network demonstrates the potential for novel insights by interconnecting scientific and philosophical concepts, challenging traditional notions of knowledge representation, and highlighting the interdisciplinary nature of knowledge.",
+    "source_chunk": 66,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

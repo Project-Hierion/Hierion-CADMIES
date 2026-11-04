@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "verification_system",
+  "title": "Verification System",
+  "definition": "A comprehensive system that handles the verification of concepts, identities, and relationships within the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.929517Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.929517Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a system that checks if the information we have about things is accurate. It confirms who wrote it and if a new version replaces an old one.",
+    "intermediate": "The verification system manages the creation, evaluation, and storage of verification statements and ORCID stamps. It ensures data integrity and trustworthiness by tracking the verification chain and calculating the verification level.",
+    "expert": "The verification system is a critical component of the CADMIES knowledge system, integrating with ORCID and other identity providers for secure authentication. It uses blockchain technology to store verification statements, enabling the creation of a transparent and trustworthy network of knowledge. The system also supports the tracking of supersedence relationships and the calculation of verification levels using a multi-faceted approach, taking into account the variety and quality of verification sources."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The design of the verification system demonstrates the integration of multiple security measures, including secure authentication, data integrity, and trustworthiness, to create a robust and reliable knowledge system.",
+    "source_chunk": 88,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

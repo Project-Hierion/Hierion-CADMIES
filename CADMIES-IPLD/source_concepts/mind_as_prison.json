@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mind_as_prison",
+  "title": "Mind As Prison",
+  "definition": "The idea that the mind acts as a prison, trapping us within a narrative of separation and suffering, while the truth lies in a unified field of silence and peace.",
+  "type": "Concept",
+  "domain": "Philosophy, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.708631Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.708631Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine our mind as a cage that we've been locked inside of. We're trying to find freedom, but we're looking for it outside instead of within. The key to unlocking the cage is in our own quiet moments, like taking a deep breath or losing track of time in a shower stream.",
+    "intermediate": "The mind, with its tendency to create stories and seek external validation, often hinders our recognition of an underlying truth that is already present. This truth is found in the silent, unified field of experience, which is often dismissed as 'mental static' or 'blankness'.",
+    "expert": "The mind as a prison is a philosophical insight that has its roots in various spiritual traditions. It suggests that the mind's primary function of narrating, separating, and problem-solving obstructs our understanding of a deeper, more unified truth. This insight has connections to fields like neuroscience, where it can be seen as a critique of the dualistic mind-body model, and to eastern philosophy, where it resonates with concepts of emptiness and non-duality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mind's job is to narrate, separate, and problem-solve. This can obscure the profound, silent truth that lies within us.",
+    "source_chunk": 122,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

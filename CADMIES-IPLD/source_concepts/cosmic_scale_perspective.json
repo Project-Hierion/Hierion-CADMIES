@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_scale_perspective",
+  "title": "Cosmic Scale Perspective",
+  "definition": "An understanding of the vastness and scale of the universe, its implications for human exploration and understanding of our place within it.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.266315Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.266315Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your house as a tiny dot on Earth, which is a tiny dot in the Solar System, which is a tiny dot in the Milky Way Galaxy. Even after Voyager 1 and 2 have traveled for decades, they are still a tiny dot in space.",
+    "intermediate": "The cosmic scale perspective emphasizes the vastness of space. Despite Voyager 1's journey of 14 years and 1 light-day, it's a minute fraction of the universe's size. Our understanding of our solar system's shape has been significantly altered by Voyager's data, revealing an asymmetrical, non-spherical heliosphere.",
+    "expert": "The cosmic scale perspective highlights the profound implications of the universe's immense size and the limitations of human exploration. The heliosphere's asymmetrical shape challenges our understanding of solar wind interactions with interstellar medium. This insight underscores the necessity for continued exploration and our ongoing pursuit of understanding the universe's mysteries."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cosmic scale perspective, emphasizing the vastness of space and the limitations of human exploration, is highlighted by Voyager's journey and the revelation of an asymmetrical heliosphere.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

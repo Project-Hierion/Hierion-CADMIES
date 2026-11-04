@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "complex_system_unpredictability",
+  "title": "Complex System Unpredictability",
+  "definition": "The unpredictable emergent behavior that arises from the interaction of numerous individual components in a complex system.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.545615Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.545615Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a human body as a complex system. When you delve deep into its workings, you discover all sorts of strange and wiggly things. This is due to the unpredictability of how these individual parts interact with each other, leading to unexpected and seemingly 'funny' behavior.",
+    "intermediate": "Alan Watts highlights the unpredictability of complex systems, such as the human body. This is a philosophical extension of the concept of 'emergence' in systems science. The behavior at a macro-level is not simply a sum of the behavior of its constituent parts.",
+    "expert": "Alan Watts' statement brings to light the philosophical implications of complex systems, particularly in the context of reductionism and holism. His observation aligns with the theory of 'quantum negativity', suggesting that at the deepest levels of reality, the nature of our existence is fundamentally unpredictable and interconnected."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unpredictability and emergent behavior of complex systems, such as the human body, challenge our attempts to reduce them to simple, understandable components.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

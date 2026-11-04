@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "software_packaging",
+  "title": "Software Packaging",
+  "definition": "The process of preparing a software program for distribution and installation.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.521096Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.521096Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're sending a present. Packaging helps you organize the contents in a way that makes it easy to receive and use.",
+    "intermediate": "Software packaging includes creating a setup.py file that defines metadata and dependencies, allowing the software to be installed using package managers like pip.",
+    "expert": "Software packaging also involves versioning and dependency management, ensuring the correct software components are installed. This is particularly important in research and development, where different versions of software may be needed to recreate a research environment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The creation of a setup.py file allows the software to be installed and managed as a package, simplifying installation and versioning.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

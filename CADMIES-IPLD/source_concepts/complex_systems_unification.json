@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "complex_systems_unification",
+  "title": "Complex Systems Unification",
+  "definition": "The hypothesis that the same formalisms of 'dynamics' and 'information flow' can be applied across all scales of complexity, from quantum mechanics to ecological systems.",
+  "type": "Concept",
+  "domain": "Physics, Biology, Mathematics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.509868Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.509868Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine playing with Lego blocks. No matter the size of the structure, the rules are the same. The hypothesis suggests that in the universe, from tiny atoms to vast ecosystems, the underlying rules governing how things work are essentially the same.",
+    "intermediate": "This hypothesis postulates that the mathematical frameworks used to understand dynamics and information flow at the quantum level can be extended to larger systems, such as biological organisms and ecological networks. This would allow for a unified understanding of complex systems, from the behavior of individual proteins to the behavior of entire ecosystems.",
+    "expert": "This hypothesis could potentially revolutionize our understanding of complex systems by providing a theoretical framework that can seamlessly connect quantum mechanics with ecological systems. It could also lead to the development of a new branch of mathematics that can describe dynamics across all scales without changing its fundamental laws, only its parameters. This would be a true 'Theory of Everything' for complex systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of universal principles that can explain the behavior of complex systems across all scales of complexity, from quantum mechanics to ecological systems.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

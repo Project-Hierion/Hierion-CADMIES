@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dance_with_fear",
+  "title": "Dance With Fear",
+  "definition": "The strategic recognition and acceptance of the presence of danger, acknowledging its inevitability and engaging with it in a way that balances survival and agency.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.267180Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.267180Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "predatory_inevitability",
+      "performance_of_deterrence",
+      "cellular_intuition_predator_prey"
+    ],
+    "contradicts": [
+      "enlightened_ego"
+    ],
+    "related_to": [
+      "free_range_artisanal_meal_ticket",
+      "cookie_offering_ritual"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine dancing with a wild animal. You know it might attack, but you find a way to coexist and even communicate, respecting each other's boundaries.",
+    "intermediate": "The concept of 'dance with fear' is about acknowledging the presence of danger and engaging with it in a way that balances survival and agency. This can be seen in various relationships, from human-predator to human-human, and can be influenced by biology, evolution, and learned behaviors.",
+    "expert": "The 'dance with fear' concept is a metaphysical exploration of survival strategies and relationship dynamics. It encompasses biological adaptations, evolutionary patterns, and learned behaviors. The concept also draws connections to other fields such as game theory and social psychology, as it often involves understanding and manipulating another's intentions. Ultimately, 'dance with fear' highlights the complex interplay of survival instincts, strategy, and emotion."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "predatory_inevitability",
+      "performance_of_deterrence",
+      "cellular_intuition_predator_prey"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition and acceptance of danger, and the strategic engagement with it, can lead to a complex dance of survival and agency.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

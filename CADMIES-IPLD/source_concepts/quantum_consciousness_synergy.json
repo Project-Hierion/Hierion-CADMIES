@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_consciousness_synergy",
+  "title": "Quantum Consciousness Synergy",
+  "definition": "The interplay between quantum physics and consciousness studies, highlighting the potential for both fields to shed light on each other and contribute to a more comprehensive understanding of reality.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.345862Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.345862Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two friends exploring a mystery together. Quantum physics is one friend, studying tiny particles. Consciousness is the other friend, exploring our thoughts and feelings. When they team up, they might discover new insights about both the small and the large.",
+    "intermediate": "Quantum consciousness synergy refers to the potential synergies between quantum physics and consciousness studies. This interdisciplinary field explores the potential for both fields to shed light on each other and contribute to a more comprehensive understanding of reality, including the nature of consciousness and the limits of our current physical theories.",
+    "expert": "Quantum consciousness synergy is a philosophical and scientific endeavor that explores the potential synergies between quantum physics and consciousness studies. This interdisciplinary field seeks to reconcile the wave-particle duality and superposition principles of quantum mechanics with the subjective experience of consciousness. It also investigates the role of quantum entanglement in understanding consciousness and the nature of reality, challenging traditional notions of locality and realism. By combining insights from both fields, quantum consciousness synergy offers a promising avenue for understanding the fundamental nature of consciousness and reality, with potential implications for various other fields such as neuroscience, artificial intelligence, and cosmology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential synergies between quantum physics and consciousness studies offer a promising avenue for understanding the fundamental nature of consciousness and reality.",
+    "source_chunk": 46,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

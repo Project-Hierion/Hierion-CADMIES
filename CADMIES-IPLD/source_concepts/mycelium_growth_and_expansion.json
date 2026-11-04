@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelium_growth_and_expansion",
+  "title": "Mycelium Growth And Expansion",
+  "definition": "The continuous process of a mycelium network expanding its domain by incorporating new concepts and knowledge areas.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.372805Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.372805Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where different plants grow together, forming a network. This network can grow and expand by adding new plants or integrating existing ones. Similarly, in this context, the mycelium network grows and expands by incorporating new concepts and areas of knowledge.",
+    "intermediate": "In the context of the CADMIES knowledge system, the mycelium network refers to the interconnected web of concepts. This network grows and expands by incorporating new concepts and areas of knowledge, forming a more comprehensive and interdisciplinary system.",
+    "expert": "The mycelium network in the CADMIES knowledge system can be viewed as a metaphor for knowledge growth and expansion in a complex and dynamic system. This process involves the integration of new concepts and areas of knowledge, creating a more interdisciplinary and holistic system. This is a philosophical exploration of the nature of knowledge and its growth, with implications for areas such as the philosophy of science and the philosophy of technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium network in the CADMIES knowledge system grows and expands by incorporating new concepts and areas of knowledge, highlighting the dynamic and interdisciplinary nature of knowledge.",
+    "source_chunk": 56,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

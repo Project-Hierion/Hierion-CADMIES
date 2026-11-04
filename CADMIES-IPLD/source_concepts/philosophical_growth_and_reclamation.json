@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_growth_and_reclamation",
+  "title": "Philosophical Growth And Reclamation",
+  "definition": "The concept of growth and reclamation of knowledge within a system, emphasizing the transfer and recycling of nutrients.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.524800Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.524800Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden. Plants grow and thrive by taking in nutrients from the soil. When a plant dies, its nutrients are not wasted. Instead, they return to the soil to help new plants grow. This is like philosophical growth and reclamation \u2014 ideas are nurtured and recycled to create new insights.",
+    "intermediate": "In the context of scientific research, philosophical growth and reclamation refers to the cyclical process of knowledge acquisition, utilization, and reintegration. It highlights the interconnectedness and mutual dependence of ideas, emphasizing the importance of recycling insights for continuous growth.",
+    "expert": "From a philosophical perspective, the concept of philosophical growth and reclamation highlights the dialectical nature of knowledge. It suggests that new insights are not generated in isolation but rather through a continuous process of engagement with existing ideas. Furthermore, it underscores the importance of reflecting on past work and reintegrating it into the current framework, emphasizing the interconnectedness of ideas across time and space."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cyclical process of knowledge acquisition, utilization, and reintegration within a system.",
+    "source_chunk": 112,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

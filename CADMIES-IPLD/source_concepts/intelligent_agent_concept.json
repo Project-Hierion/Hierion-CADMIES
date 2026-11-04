@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "intelligent_agent_concept",
+  "title": "Intelligent Agent Concept",
+  "definition": "A conceptual model that defines intelligent agents within the CADMIES ecosystem, extending foundational concepts with capabilities for executable logic, network connections, memory, and learning.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.703639Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.703639Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a smart helper that can learn, remember things, and make decisions. It's like a super-smart computer program that can think and act on its own.",
+    "intermediate": "An intelligent agent is a software entity that can perceive its environment, reason about it, and take actions based on its understanding. It extends universal scientific concepts with executable logic, network connections, memory storage, and learning capabilities.",
+    "expert": "Intelligent agents represent a bridge between artificial intelligence and real-world systems. They are autonomous, reactive systems that can learn from experience, allowing them to improve their decision-making over time. The intelligent agent concept expands on universal scientific concepts by enabling executable logic, network connections, memory storage, and learning. This allows for the creation of complex, interconnected systems capable of solving complex problems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of executable logic, network connections, memory, and learning capabilities in intelligent agents enables the creation of a more dynamic, adaptive, and intelligent system.",
+    "source_chunk": 46,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

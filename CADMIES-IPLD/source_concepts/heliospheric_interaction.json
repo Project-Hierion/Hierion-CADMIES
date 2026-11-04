@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "heliospheric_interaction",
+  "title": "Heliospheric Interaction",
+  "definition": "The complex interaction between the heliosphere (the Sun's protective bubble) and the interstellar medium.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.276072Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.276072Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the Sun as a sprinkler in space, shooting water in all directions. Now, picture wind blowing on that water from one side. That's how the Sun's bubble interacts with other space stuff.",
+    "intermediate": "The heliospheric interaction is the result of the Sun's continuous expansion in all directions (solar wind) and its movement through the galaxy, where it encounters the interstellar wind from one direction. This interaction results in the shaping of the heliosphere.",
+    "expert": "The heliospheric interaction is a complex phenomenon that involves not only fluid dynamics but also magnetohydrodynamics. It's a study of the interactions between the Sun's solar wind and the interstellar medium, which can result in the formation of structures like the Heliosheath, the Termination Shock, and the Heliopause. This field connects to other areas of physics, such as plasma physics and cosmology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Sun's role in shaping its protective bubble is not just about evenly spreading 'stuff' in all directions, but about its interaction with the interstellar wind coming from a specific direction.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

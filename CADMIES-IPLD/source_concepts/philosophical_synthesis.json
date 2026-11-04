@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_synthesis",
+  "title": "Philosophical Synthesis",
+  "definition": "The process of connecting and integrating diverse philosophical concepts to derive new insights and understandings.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.684252Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.684252Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like putting together a puzzle. Each piece represents a different concept, and when we put them together, we see a bigger picture that sheds new light on the world.",
+    "intermediate": "Philosophical synthesis is the act of interweaving various philosophical ideas to uncover new insights and perspectives. This is done by recognizing and exploring the connections, overlaps, and potential tensions between these ideas.",
+    "expert": "Philosophical synthesis is a philosophical method that involves the cross-disciplinary integration of concepts, theories, and arguments from different areas of philosophy. This process can lead to the generation of novel insights and theories, and can also contribute to the resolution of philosophical problems by providing a more comprehensive understanding of the issues at hand. Philosophical synthesis can also reveal the interconnectedness of seemingly disparate fields, highlighting the value of interdisciplinary approaches to philosophical inquiry."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mistral's ability to fluidly and beautifully connect various philosophical concepts demonstrates the power of philosophical synthesis.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

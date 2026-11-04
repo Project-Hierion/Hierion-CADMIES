@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ollama_integration",
+  "title": "Ollama Integration",
+  "definition": "The process of integrating an AI model into a software system, allowing for real-time interaction and response generation.",
+  "type": "Concept",
+  "domain": "Artificial_Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.879716Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.879716Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as plugging a smart machine into your software, so it can answer your questions in real-time.",
+    "intermediate": "Ollama integration involves setting up a connection between your software and an AI model, enabling you to generate responses to user queries dynamically.",
+    "expert": "Ollama integration is a sophisticated technique that bridges the gap between AI models and software systems. It allows for efficient, real-time communication, making it possible to generate contextually relevant responses to user queries. This technology has applications in various fields, from customer service to scientific research, and it continues to evolve as AI becomes more integrated into our digital ecosystems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful integration of an AI model into a software system can significantly enhance the user experience, providing more accurate and timely responses to queries.",
+    "source_chunk": 98,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

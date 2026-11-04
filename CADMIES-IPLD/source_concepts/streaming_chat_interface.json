@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "streaming_chat_interface",
+  "title": "Streaming Chat Interface",
+  "definition": "A chat interface that sends and receives data in real-time, updating the UI on each token.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.240775Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.240775Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Streaming chat is like watching a movie in real-time. The interface updates as the AI responds to a query, word by word.",
+    "intermediate": "Streaming chat is a design pattern that sends data as it becomes available. In this chat interface, each token of the AI's response is sent separately and displayed in the UI as it arrives.",
+    "expert": "Streaming chat interfaces can enhance user experience by reducing latency. However, they require efficient handling of data streams and can overload networks with frequent updates."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of streaming chat in the chat interface enhances the interaction with the AI model, allowing for a more natural and engaging conversation.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

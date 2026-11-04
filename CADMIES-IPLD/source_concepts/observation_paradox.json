@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "observation_paradox",
+  "title": "Observation Paradox",
+  "definition": "The concept that the act of observing or measuring fundamental particles can significantly alter their properties or behavior, leading to a paradoxical situation where the universe seems to 'cheat' or behave unnaturally.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.676758Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.676758Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine playing a game where the rules change when you look away. That's kind of how quantum particles behave. They don't make decisions until we observe them, and this can create strange situations.",
+    "intermediate": "The Observation Paradox in quantum mechanics refers to the counterintuitive phenomenon where the act of observing a quantum system can disrupt the system's state, leading to a conflict with the principle of causality. This paradox is exemplified by the 'Measurement Problem' in quantum mechanics.",
+    "expert": "The Observation Paradox is a long-standing conundrum in the interpretation of quantum mechanics. It highlights the tension between the deterministic nature of classical physics and the probabilistic nature of quantum mechanics. The paradox is rooted in the measurement problem, which attempts to reconcile the wave-particle duality of quantum mechanics with the classical world of definite outcomes. This paradox has philosophical implications for the nature of reality, the role of observation, and the boundaries between classical and quantum mechanics. It also has connections to other fields, such as information theory and the philosophy of science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The act of observation can significantly alter the properties of fundamental particles, leading to a paradoxical situation where the universe seems to 'cheat' or behave unnaturally.",
+    "source_chunk": 106,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

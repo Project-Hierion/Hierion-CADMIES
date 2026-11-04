@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dialogic_interplay",
+  "title": "Dialogic Interplay",
+  "definition": "The dialectical interaction, exchange, and interplay of ideas that occurs within a conversation.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.834877Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.834877Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a dialogic interplay as a conversation where people listen to each other, learn from each other, and ideas bounce back and forth.",
+    "intermediate": "A dialogic interplay is a philosophical concept that emphasizes the dialectical relationship between individuals and their environment. It involves a continuous exchange of ideas, knowledge, and perspectives.",
+    "expert": "The dialogic interplay in a conversation can be understood as a philosophical manifestation of the Hegelian dialectic, where thesis and antithesis produce a synthesis. This concept also connects to pragmatism and the social construction of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The dialogic interplay in this conversation revealed a rich exchange of ideas and perspectives, demonstrating the potential for insight and understanding through dialogue.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

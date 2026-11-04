@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "luxury_service_branding",
+  "title": "Luxury Service Branding",
+  "definition": "The strategic use of visual elements, such as fonts, photography, and layout, to create a premium, elegant, and luxurious brand identity for a service.",
+  "type": "Concept",
+  "domain": "Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.350324Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.350324Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a fancy hotel or restaurant. They use special fonts, nice pictures, and a dark background to give you a sense of luxury and high-quality service.",
+    "intermediate": "Branding a service as luxury involves the careful selection and arrangement of visual elements, such as fonts and photography, to create a distinct and upscale brand image.",
+    "expert": "Luxury service branding is a sophisticated practice that leverages visual elements to evoke feelings of exclusivity and prestige. This can be achieved through the strategic use of fonts, photography, and layout to create a unique and memorable brand identity. The concept of luxury service branding has broader implications in consumer psychology and marketing strategy, connecting to the idea of creating desired states of mind through visual cues."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of a dark background, contrasting fonts, and high-contrast photography creates an elegant and luxurious brand identity for a service, suitable for a high-end auto detailing service.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

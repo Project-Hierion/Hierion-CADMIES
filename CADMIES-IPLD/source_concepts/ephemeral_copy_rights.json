@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ephemeral_copy_rights",
+  "title": "Ephemeral Copy Rights",
+  "definition": "A concept exploring the nature of rights over transient or ephemeral copies in the context of digital media distribution.",
+  "type": "Concept",
+  "domain": "Law and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.771851Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.771851Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine copying a movie for a friend. Even though you're only lending them your copy temporarily, under certain rules, you might still be breaking the law. This concept discusses why and how these rules apply in the digital world.",
+    "intermediate": "The concept of ephemeral copy rights examines the legal implications of transient or intermediate copies created during digital media distribution. It focuses on how copyright law currently handles these transient copies and whether it should be revised to better accommodate modern technology.",
+    "expert": "Ephemeral copy rights is a philosophical exploration of the fundamental nature of copyright and its application to digital media distribution. It delves into the philosophical implications of defining a single bit as a copy, connecting the concept to broader discussions in metaphysics, philosophy of language, and the digital humanities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The law's inconsistent treatment of transient copies highlights the tension between preserving a business model and adapting to the realities of modern technology.",
+    "source_chunk": 148,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

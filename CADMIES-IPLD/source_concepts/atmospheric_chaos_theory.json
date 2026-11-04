@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "atmospheric_chaos_theory",
+  "title": "Atmospheric Chaos Theory",
+  "definition": "The concept that the Earth's atmosphere's chaotic movements and interactions of air masses can lead to significant weather patterns and phenomena.",
+  "type": "Concept",
+  "domain": "Meteorology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.402947Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.402947Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine playing air hockey with invisible hot and cold air blobs. These air blobs move around, interact with each other, and sometimes get stuck, causing wild weather patterns and heat domes.",
+    "intermediate": "Atmospheric chaos theory explores how the uneven heating of the Earth's surface and the Earth's rotation cause air to rise and sink, creating complex atmospheric patterns and weather phenomena, such as heat domes.",
+    "expert": "Atmospheric chaos theory is a philosophical exploration of the complex and dynamic interplay between thermal forces, Earth's rotation, and the chaotic nature of air flow. It challenges traditional deterministic views of the atmosphere, emphasizing the role of non-linear, emergent properties in creating weather patterns. It also draws connections to other fields, such as dynamical systems theory and chaos theory."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unexpected creation of a heat dome in Houston due to complex atmospheric interactions is a compelling demonstration of atmospheric chaos theory.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

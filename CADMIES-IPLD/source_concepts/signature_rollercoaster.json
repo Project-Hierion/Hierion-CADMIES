@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "signature_rollercoaster",
+  "title": "Signature Rollercoaster",
+  "definition": "An interactive app that transforms a user's signature into a 3D rollercoaster, allowing the user to virtually ride their name in first-person perspective.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.964794Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.964794Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine turning your signature into a rollercoaster you can ride. It's like having a personal amusement park where you get to design and experience a thrilling ride based on your own writing.",
+    "intermediate": "This app converts a user's signature into a 3D rollercoaster track, implementing smooth curves and slight banking for a realistic coaster experience. The user then gets to ride their name in first-person perspective.",
+    "expert": "The signature rollercoaster concept explores the interplay of technology and art. By merging 2D signature data with 3D rollercoaster dynamics, it creates a unique user experience. Philosophically, it questions the nature of self-expression and personal identity through a digital medium."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The signature rollercoaster app merges technology and art to create a unique and personalized user experience, questioning the nature of self-expression and identity through a digital medium.",
+    "source_chunk": 95,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

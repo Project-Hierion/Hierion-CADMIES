@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interdependence_theory",
+  "title": "Interdependence Theory",
+  "definition": "The philosophical framework that understanding every individual, action, or state is deeply interconnected and dependent on the conditions surrounding them, with the power to influence and transform those conditions.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.010236Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.010236Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "social_fermentation"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a circle where every point affects every other point. No action or decision happens in isolation.",
+    "intermediate": "The concept that all phenomena are interconnected and mutually influence each other, often drawn from systems theory and the idea of complex adaptive systems.",
+    "expert": "Interdependence theory is a comprehensive understanding of the universe as a deeply interconnected system. It explores the philosophical implications of this interconnectedness, from the quantum entanglement of particles to the global interdependence of social systems. It also connects to other fields such as network theory and complex systems theory."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation emphasized the interconnectedness of all things, highlighting the profound impact of individual actions and states on the surrounding conditions.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_diversity",
+  "title": "Conceptual Diversity",
+  "definition": "The principle that multiple distinct and viable conceptual frameworks can coexist within a scientific field, leading to a richer understanding of the subject.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.497844Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.497844Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a garden with different types of flowers. Just like we have many ways to understand and explain things, science has different concepts that coexist and contribute to our understanding.",
+    "intermediate": "Conceptual diversity is the acceptance of multiple, possibly incompatible, conceptual frameworks within a scientific field. It challenges the belief that one conceptual framework can fully explain a subject, promoting a pluralistic approach to scientific understanding.",
+    "expert": "Conceptual diversity is a philosophical stance that challenges the assumption of monosemantism in scientific discourse. It highlights the role of context, history, and social factors in shaping scientific knowledge. By acknowledging the limitations of a single conceptual framework, scientific diversity can lead to more robust and resilient theories, and foster interdisciplinary collaboration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The coexistence of multiple distinct and viable conceptual frameworks in a scientific field.",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

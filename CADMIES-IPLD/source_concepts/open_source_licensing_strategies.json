@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "open_source_licensing_strategies",
+  "title": "Open Source Licensing Strategies",
+  "definition": "Strategies used to grant permissions for using, modifying, and distributing open source projects.",
+  "type": "Concept",
+  "domain": "Law and Ethics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.366849Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.366849Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine open source as a shared garden. Different licensing strategies are like gates at the entrance \u2014 some let everyone in for any purpose, while others have rules about who can enter, what they can do, and how they must give credit.",
+    "intermediate": "Open source licensing strategies are legal agreements between the author and the users. They define the rights and responsibilities regarding the usage, modification, and distribution of a project. The most common strategies include MIT, Apache, GPL, and BSD licenses.",
+    "expert": "Open source licensing strategies are a complex interplay of legal and ethical considerations. They can affect the success and survival of a project by determining who can contribute, under what conditions, and with what expectations. Different strategies have unique implications for community building, innovation, and control over intellectual property. The choice of license can also have significant implications for software patents, as seen in the differences between The Unlicense and CC0."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Unlicense and CC0 are open source licensing strategies with different implications for software patents.",
+    "source_chunk": 62,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

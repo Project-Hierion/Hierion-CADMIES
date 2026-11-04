@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "delegated_authorization",
+  "title": "Delegated Authorization",
+  "definition": "A concept involving the delegation of authorization from one entity to another, with a focus on temporary, limited, and secure access.",
+  "type": "Concept",
+  "domain": "Cybersecurity",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.607046Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.607046Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're lending a friend your car keys. You only let them use them for a specific time and place, and you take them back when they're done. This is similar to delegated authorization in the online world.",
+    "intermediate": "Delegated authorization is a security mechanism that allows a user to grant limited, time-bound access to their resources or services to another entity, without sharing their own credentials. This is done using cryptographic techniques to ensure security and privacy.",
+    "expert": "Delegated authorization is a cornerstone of zero-trust and attribute-based access control systems. It allows for dynamic and fine-grained access control, while minimizing the potential for unauthorized access or data breaches. It also enables more efficient and secure identity management, by allowing users to maintain control over their digital identities while still allowing for seamless and secure access to resources and services."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight is the use of cryptographic techniques to ensure security and privacy in delegated authorization, while still allowing for efficient and seamless access to resources and services.",
+    "source_chunk": 70,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

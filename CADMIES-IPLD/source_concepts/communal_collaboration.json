@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "communal_collaboration",
+  "title": "Communal Collaboration",
+  "definition": "The concept of leveraging a collective effort to achieve a common goal, utilizing the unique skills and resources of each individual within a community.",
+  "type": "Concept",
+  "domain": "Organizational Behavior",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.604160Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.604160Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine working on a big painting where everyone paints a small part. Each contributor adds their unique touch, and together, they create a beautiful masterpiece.",
+    "intermediate": "Communal collaboration is a strategy that harnesses the diverse skills and resources of a group, leading to the creation of a more robust and resilient system. In this context, it refers to the involvement of multiple individuals and institutions in the development and maintenance of the Hieros Network.",
+    "expert": "Communal collaboration can foster innovation and knowledge sharing, leading to more robust and resilient systems. In the context of the Hieros Network, it allows for the integration of data from various disciplines and the identification of cross-disciplinary connections. This approach challenges the traditional model of research, promoting a more interconnected and comprehensive understanding of the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful implementation of the Hieros Network relies on the active involvement and collaboration of a diverse range of contributors, each bringing their unique skills and resources to the project.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

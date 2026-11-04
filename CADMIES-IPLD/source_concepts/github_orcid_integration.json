@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "github_orcid_integration",
+  "title": "Github Orcid Integration",
+  "definition": "The relationship and limitations between GitHub's integration with ORCID and its API, and how it affects the programmatic accessibility of ORCID data.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.923764Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.923764Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you link your ORCID to GitHub, it's like having a special badge on your profile. However, the system that CADMIES uses to check profiles doesn't recognize this badge. So, even though GitHub knows you're verified, CADMIES doesn't. This means the best way to confirm your ORCID ID is still through the public ORCID API.",
+    "intermediate": "GitHub's partnership with ORCID allows users to display their ORCID ID on their public profiles. However, GitHub's API does not expose this information, limiting the programmatic accessibility of ORCID data for services like CADMIES. Despite this, the ORCID badge on a GitHub profile provides evidence of a verified ORCID ID, which can be manually verified through a screenshot.",
+    "expert": "The relationship between GitHub and ORCID highlights the limitations of relying solely on public APIs for identity verification. While GitHub's integration with ORCID allows for the display of a verified ORCID ID on public profiles, the absence of this information in GitHub's API limits the programmatic accessibility of ORCID data. This creates a need for alternative methods of identity verification, such as manual verification through a screenshot. This issue also highlights the philosophical implications of digital identity and trust in online systems, and the importance of considering the limitations of public APIs in designing such systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The limitations of GitHub's API in exposing ORCID data highlights the need for alternative methods of identity verification, such as manual verification through a screenshot. This also raises philosophical questions about digital identity and trust in online systems.",
+    "source_chunk": 86,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

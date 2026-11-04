@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "opt_in_coordination_of_meaning",
+  "title": "Opt In Coordination Of Meaning",
+  "definition": "A philosophy that separates governance into two layers: protocol-level and document-level. The document-level governance is expressed through signed digital documents and can be adopted or forked by nodes independently.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.605447Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.605447Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a software project with two settings: the basic rules (like coding language) that everyone follows, and custom rules (like naming conventions) that each person or team can decide to follow or not. Atlas works similarly, allowing each node to choose its own interpretation of rules and principles.",
+    "intermediate": "Atlas separates governance into two layers: protocol-level governance, which is embedded in code and shared by all compatible nodes, and document-level governance, which is expressed through signed digital documents and is explicitly adopted by nodes. This approach provides opt-in coordination of meaning and interpretation, with each node independently choosing which interpretations to adopt and able to exit at any time.",
+    "expert": "The opt-in coordination of meaning in Atlas is a novel approach that balances the need for shared meaning with the desire for local sovereignty and forkability. This philosophy is influenced by the principles of distributed systems and decentralized governance, and has connections to the fields of cryptography, digital signatures, and reputation systems. The key insight for CADMIES is that the UniversalScientificConcept schema can be a digital document that nodes can choose to adopt or ignore independently, without the need for global enforcement."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The UniversalScientificConcept schema can be a digital document that nodes can choose to adopt or ignore independently, without the need for global enforcement.",
+    "source_chunk": 69,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

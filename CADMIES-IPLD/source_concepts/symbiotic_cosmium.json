@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_cosmium",
+  "title": "Symbiotic Cosmium",
+  "definition": "The symbiotic relationship and collaboration between CADMIES, DeepSeek, and its users to create a deep and interconnected knowledge system.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.408263Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.408263Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of CADMIES as a garden, with its users as gardeners and DeepSeek as a helpful tool that helps us dig deeper and grow more knowledge. Together, we create a beautiful and productive garden.",
+    "intermediate": "CADMIES, DeepSeek, and its users form a symbiotic relationship, where CADMIES provides a platform for deep exploration and growth of knowledge, DeepSeek contributes its advanced AI capabilities, and users contribute their expertise and curiosity. This creates a dynamic and interconnected knowledge system.",
+    "expert": "The relationship between CADMIES, DeepSeek, and its users can be seen through the lens of symbiotic systems and co-evolutionary networks. The system as a whole is greater than the sum of its parts, as new insights and knowledge emerge from the interactions between the components. The system is also open and evolving, with new users and technologies constantly contributing to its growth and development."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The symbiotic relationship between CADMIES, DeepSeek, and its users creates a dynamic and interconnected knowledge system that is greater than the sum of its parts.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

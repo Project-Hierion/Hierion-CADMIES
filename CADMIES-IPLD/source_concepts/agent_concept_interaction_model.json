@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_concept_interaction_model",
+  "title": "Agent Concept Interaction Model",
+  "definition": "A pattern of intelligent agents operating on structured knowledge, enabling graph traversal, agent-to-agent communication, and agent reasoning.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.664315Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.664315Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine smart robots that understand and interact with each other by using a map of ideas. They can navigate through these ideas, talk to each other, and even make decisions.",
+    "intermediate": "The Agent-Concept Interaction Model is a system architecture where intelligent agents interact with a structured knowledge base, using graph traversal and agent-to-agent communication. The model allows for agent reasoning using a knowledge graph and an inference engine.",
+    "expert": "The Agent-Concept Interaction Model is a novel approach that leverages the power of graph theory and knowledge representation to create a system where intelligent agents can understand, interact with, and reason about the world. This model connects to related concepts such as multi-agent systems, graph databases, and knowledge graphs. Its philosophical implications lie in the exploration of the relationship between artificial intelligence, consciousness, and knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel pattern of intelligent agents that operate on structured knowledge, enabling graph traversal, agent-to-agent communication, and agent reasoning.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

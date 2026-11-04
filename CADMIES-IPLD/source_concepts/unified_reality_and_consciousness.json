@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_reality_and_consciousness",
+  "title": "Unified Reality And Consciousness",
+  "definition": "The concept that the physical universe and our conscious experience are fundamentally interconnected, challenging traditional notions of separation and duality.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.260841Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.260841Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "unified_reality",
+      "universal_observer"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "complexity_paradigm_shift",
+      "mycelial_network",
+      "self_aware_mycelium"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe as a giant, connected web, and our consciousness as a part of that web. We're not just observers, but an integral part of the universe exploring itself.",
+    "intermediate": "Unified Reality and Universal Observer concepts suggest that the physical universe and our subjective experiences are two sides of the same coin, intertwined in a complex, interconnected system.",
+    "expert": "The philosophical exploration of Unified Reality and Universal Observer reveals a potential bridge between physical science and the nature of consciousness, challenging traditional dualistic perspectives and suggesting a more holistic, panpsychist interpretation of reality."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "unified_reality",
+      "universal_observer"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnectedness of the physical universe and our conscious experience challenges traditional notions of separation and duality.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

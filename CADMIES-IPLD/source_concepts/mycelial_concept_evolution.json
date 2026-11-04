@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_concept_evolution",
+  "title": "Mycelial Concept Evolution",
+  "definition": "The process where a concept in CADMIES undergoes iterative enrichment from multiple gardeners, creating a version chain where each subsequent version supersedes the previous one.",
+  "type": "Concept",
+  "domain": "CADMIES_Methodology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.734077Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.734077Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "craving_tanha_cycle"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a concept as a seed that grows stronger in a community of knowledge. Each member adds more nourishment, and the concept grows bigger and better. The original seed is still there, but the bigger plant is the result of everyone's contributions.",
+    "intermediate": "The mycelial concept evolution is a form of version control for knowledge, where a concept (represented by its CID) is immutable once created, but can be enriched by others to create a new version that supersedes the original. This allows for a richer, more collaborative knowledge base.",
+    "expert": "From a philosophical perspective, mycelial concept evolution can be seen as a decentralized form of truth-seeking, where the sum of all knowledge is greater than the knowledge of any individual. This highlights the importance of collaboration and iteration in the pursuit of truth, and challenges traditional notions of authorship and ownership of knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelial concept evolution in CADMIES is a novel and collaborative method of knowledge creation that challenges traditional notions of authorship and ownership.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

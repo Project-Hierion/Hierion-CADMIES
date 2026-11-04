@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unifying_concept_of_nature",
+  "title": "Unifying Concept Of Nature",
+  "definition": "A broad, all-encompassing theory that unifies various aspects of nature under a single framework.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.917015Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.917015Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to explain all of nature as just a bunch of different wiggles. While this sounds fun, it doesn't actually help us understand anything.",
+    "intermediate": "The 'Grand Unified Theory of Wiggles' attempts to explain all of nature under a single concept. However, this approach fails to distinguish between different scales and phenomena, which leads to its fundamental flaw.",
+    "expert": "The 'Grand Unified Theory of Wiggles' is a metaphorical framework that fails to provide a unified, testable explanation of nature. It fails to account for the complex emergence of phenomena, the separation of scales, and the necessity of precise, operational definitions. This is not a novel observation, but rather a critique of the concept itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'Grand Unified Theory of Wiggles' fails to provide a unified, testable explanation of nature due to its lack of falsifiability, predictive power, and distinction between scales and phenomena.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

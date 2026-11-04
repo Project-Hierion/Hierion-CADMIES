@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ai_driven_knowledge_system",
+  "title": "Ai Driven Knowledge System",
+  "definition": "A collaborative, dynamic system that uses AI to continuously discover, map, and interpret scientific knowledge across disciplines.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.080290Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.080290Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a smart robot that reads and understands all scientific articles. This robot helps scientists find connections between different fields by linking similar concepts. It's like having a super smart librarian that can help you find books across different sections of the library.",
+    "intermediate": "An AI-powered knowledge system integrates scientific literature by automatically identifying and linking key concepts from various disciplines. It uses Natural Language Processing (NLP) and Machine Learning (ML) techniques to curate a dynamic and continuously evolving dictionary of scientific terms and their relationships (Ontology).",
+    "expert": "The AI-driven knowledge system is a game-changer in science. By leveraging LLMs, it bridges the semantic gaps between different disciplines by recognizing formal analogies between concepts from seemingly unrelated fields. This system not only accelerates the discovery and mapping of scientific knowledge but also facilitates interdisciplinary collaboration, reducing bias, and improving the efficiency and scale of scientific research."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The AI-driven knowledge system offers a solution to the problem of cross-disciplinary communication by automatically identifying and linking key concepts, bridging the semantic gaps between different disciplines.",
+    "source_chunk": 69,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

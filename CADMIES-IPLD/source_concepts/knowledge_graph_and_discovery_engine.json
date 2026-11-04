@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_graph_and_discovery_engine",
+  "title": "Knowledge Graph And Discovery Engine",
+  "definition": "The concept of combining a knowledge graph (DAG structure) with a distributed search engine to create a powerful system for discovering and retrieving interconnected scientific and philosophical concepts.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.496051Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.496051Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your knowledge is a map of concepts that are connected to each other. A knowledge graph is that map, and a discovery engine is like having a smart GPS that can help you find any concept you need on that map, no matter where it's located on the map.",
+    "intermediate": "A knowledge graph is a structured representation of knowledge, with concepts as nodes and relationships between concepts as edges, stored in a DAG (Directed Acyclic Graph) structure. A discovery engine is a system for searching and retrieving structured data across a distributed network. By combining these two approaches, we can create a powerful system for discovering and accessing interconnected scientific and philosophical concepts.",
+    "expert": "A knowledge graph (DAG structure) provides a rich and flexible representation of knowledge, allowing for the capture of complex relationships between concepts. By combining this with a distributed search engine, we can create a system that enables efficient discovery and retrieval of concepts, even in the face of network constraints and dynamic data distribution. This approach has implications for the fields of knowledge management, information retrieval, and distributed systems, and offers a novel solution to the problem of managing and accessing large-scale, interconnected datasets."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The synergy between a knowledge graph (DAG structure) and a distributed search engine provides a powerful approach for managing and accessing large-scale, interconnected datasets, with applications in the fields of knowledge management, information retrieval, and scientific research.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

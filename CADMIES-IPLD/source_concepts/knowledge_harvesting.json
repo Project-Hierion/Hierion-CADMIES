@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_harvesting",
+  "title": "Knowledge Harvesting",
+  "definition": "The process of extracting, organizing, and storing knowledge from a source, such as a conversation, into a structured format for further use and understanding.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.719294Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.719294Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're gathering fruits from a tree, but instead of apples, you're picking up ideas. That's what knowledge harvesting is.",
+    "intermediate": "Knowledge harvesting involves several steps, including loading the conversation, searching the mycelium for existing concepts, chunking the conversation, extracting new concepts using a language model, transforming the extracted concepts into a standard format, saving the concepts, validating them, generating a CID, saving the concepts to a blockstore, creating a provenance record, and reporting the results.",
+    "expert": "Knowledge harvesting is a complex process that draws from several disciplines, including philosophy of science, computer science, and data management. It involves the use of a language model to extract new concepts from a conversation, which is then transformed into a standard format and saved to a blockstore. The process is deterministic, meaning that the same conversation will always yield the same CID. The concept of knowledge harvesting highlights the interdisciplinary nature of science and the importance of standardizing and structuring data for further use and understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept of knowledge harvesting highlights the interdisciplinary nature of science and the importance of standardizing and structuring data for further use and understanding.",
+    "source_chunk": 113,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

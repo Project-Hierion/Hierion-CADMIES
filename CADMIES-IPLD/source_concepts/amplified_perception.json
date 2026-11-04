@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "amplified_perception",
+  "title": "Amplified Perception",
+  "definition": "The concept of enhancing or altering one's perception, particularly through technology, to amplify certain aspects or experiences.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.099671Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.099671Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of amplified perception as like when you use a magnifying glass to see tiny details that you can't with your naked eye. Technology does something similar, but it can amplify more than just sight - like hearing or feeling.",
+    "intermediate": "Amplified perception refers to the use of technology to enhance or modify an individual's sensory input, leading to a more immersive and impactful experience. This can range from sound systems that amplify music to virtual reality technology that simulates environments, to wearable devices that amplify human senses.",
+    "expert": "The concept of amplified perception is multidisciplinary, intersecting with fields such as psychology, neuroscience, and technology. It explores the boundaries of human perception, the role of technology in shaping experiences, and the philosophical implications of enhancing or altering sensory input. Amplified perception also raises ethical questions about privacy, consent, and the potential for misuse or dependency."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Technology can be used to amplify and enhance various aspects of human perception, creating more immersive experiences and raising philosophical questions about the nature of reality and the role of technology in shaping human experience.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

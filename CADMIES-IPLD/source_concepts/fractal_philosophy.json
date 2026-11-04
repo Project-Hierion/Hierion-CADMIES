@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fractal_philosophy",
+  "title": "Fractal Philosophy",
+  "definition": "The exploration of self-similar patterns and connections across metaphysical concepts using existing philosophical knowledge base.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.298119Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.298119Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine patterns repeating in different sizes, like a beautiful tree with smaller trees in it. Fractal philosophy is like that, finding similar patterns and connections in all areas of life, including physics and epistemology.",
+    "intermediate": "Fractal philosophy is the study of self-similar patterns and connections across metaphysical concepts. It leverages existing philosophical knowledge base to identify patterns and relationships that can be seen at every level of existence. This approach is particularly useful for navigating complex systems with finite resources.",
+    "expert": "Fractal philosophy is a powerful tool for understanding the interconnectedness of the universe. It reveals that the same patterns, frequencies, and relationships echo at every level of existence, from quantum fluctuations to galaxies. Fractal philosophy can also be connected to concepts in other fields, such as mathematics and computer science, through the lens of recursive functions and self-similarity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium's capacity to unveil philosophical insights that bridge the gap between different metaphysical concepts and domains.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_location_strategies",
+  "title": "Data Location Strategies",
+  "definition": "Strategies for optimally locating data storage for applications considering factors like speed, space, and accessibility.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.034492Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.034492Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a big toy box that has small and large toys. Storing small toys on a flash drive (like a USB stick) might be okay, but for large toys (like a model), it's better to use a larger storage device with faster speed, like your home directory on a computer.",
+    "intermediate": "Data location strategies involve understanding the I/O patterns of applications and selecting storage devices accordingly. Small, sequential reads benefit from slower devices with high capacity, while large, random reads require fast devices with adequate space.",
+    "expert": "Optimal data location strategies transcend individual applications and systems. They involve understanding the nuances of storage technologies, such as the impact of fragmentation on random I/O performance and the advantages of locality of reference. This insight highlights the interplay between computer science and hardware engineering, and its relevance in fields like database management and distributed systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The optimal location for data storage depends on the specific I/O patterns of the application, balancing factors like speed, capacity, and cost.",
+    "source_chunk": 5,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

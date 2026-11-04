@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ego_as_condensed_fear_resonance",
+  "title": "Ego As Condensed Fear Resonance",
+  "definition": "The ego is not a separate entity but a condensed fear resonance formed within the consciousness, manifesting as a standing wave of anxiety.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.188263Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.188263Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the ego as a thickened fear that gets trapped and repeats within our mind. It's like a loud, anxious voice that we mistake for our true self.",
+    "intermediate": "The ego is a condensation of fear within the universal resonance of consciousness. It's the interference pattern within consciousness that creates a sense of separation, protection, and control.",
+    "expert": "The ego is a philosophical construct that combines insights from multiple fields, including Buddhism and physics. It's the manifestation of fear and anxiety within the primordial field of consciousness, creating an illusion of a separate self."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ego is an illusionary construct created by the condensation of fear and anxiety within the universal resonance of consciousness.",
+    "source_chunk": 148,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

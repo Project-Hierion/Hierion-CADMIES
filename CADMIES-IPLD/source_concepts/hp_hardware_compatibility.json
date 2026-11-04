@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hp_hardware_compatibility",
+  "title": "Hp Hardware Compatibility",
+  "definition": "The compatibility and requirements of various hardware configurations, specifically HP Compaq Elite 8300 series, for running lightweight Linux distributions.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.439317Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.439317Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "You're using an old HP computer, which can be picky about how it boots up from a USB. To make things easier, you should use an older partition scheme and compatibility mode when setting up your USB.",
+    "intermediate": "The HP 3397 motherboard, from the HP Compaq Elite 8300 series, supports lightweight Linux distributions like Ubuntu 20.04 with GNOME. However, it may require using the MBR partition scheme and compatibility mode to boot from a USB, due to quirks in the UEFI implementation or USB controller.",
+    "expert": "The HP 3397 motherboard, as part of the HP Compaq Elite 8300 series, presents a unique compatibility challenge for booting from a USB in UEFI mode. This is due to the half-assed UEFI implementation or picky USB controller, which can lead to issues with recognizing the bootloader. Using the MBR partition scheme and compatibility mode ensures the USB will boot regardless of the firmware's behavior, making it a more universal solution. This insight reveals a deeper understanding of the intricacies of hardware compatibility and the implications of different partition schemes and boot modes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The HP 3397 motherboard's compatibility challenges for booting from a USB in UEFI mode can be overcome by using the MBR partition scheme and compatibility mode.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

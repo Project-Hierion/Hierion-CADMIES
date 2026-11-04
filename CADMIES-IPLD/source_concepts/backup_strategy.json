@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_strategy",
+  "title": "Backup Strategy",
+  "definition": "A plan to protect and restore data. It encompasses frequency, retention, and error handling.",
+  "type": "Concept",
+  "domain": "Systems Administration",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.235891Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.235891Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like saving your favorite books. You don't keep only the latest copy. You also make old copies and keep them safe. A backup strategy is a plan that helps you do this with your digital data.",
+    "intermediate": "A backup strategy encompasses a backup plan, which includes specifying what data to backup and the frequency of backups. It also includes a retention policy, which determines how long to keep backups. Additionally, it may include strategies for error handling and recovery.",
+    "expert": "A robust backup strategy considers philosophical questions about data and its value. It may involve considering the role of redundancy, the nature of data loss and recovery, and the implications of long-term data retention for privacy and security. It may also involve the integration of backup strategies with broader risk management and disaster recovery strategies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the need for a well-thought-out backup strategy that considers data sources, frequency, retention, error handling, and disk space.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

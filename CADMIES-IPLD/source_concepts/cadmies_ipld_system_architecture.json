@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_ipld_system_architecture",
+  "title": "Cadmies Ipld System Architecture",
+  "definition": "A comprehensive system architecture for the CADMIES knowledge system, consisting of a store, tools, and a knowledge base, functioning independently in an air-gapped environment.",
+  "type": "Concept",
+  "domain": "Systems Theory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.592504Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.592504Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library for ideas. It has a place to store all the ideas (store), tools to manage and learn from these ideas (tools), and a system to ensure the ideas are accurate and secure (knowledge base). This library is designed to work independently, like a lighthouse on a remote island.",
+    "intermediate": "The CADMIES IPLD system is an advanced, autonomous system comprising a blockstore, index system, and a toolset, functioning in an air-gapped environment. It follows a deterministic content addressing model, uses schema validation for data integrity, and employs atomic operations for system security.",
+    "expert": "The CADMIES IPLD system is a novel approach to a knowledge system, leveraging InterPlanetary Linked Data (IPLD) and Content-Addressable Data (CAD) principles. The system's architecture combines a blockstore for metaphysical concepts, an index system for efficient retrieval, and a toolset for creation, manipulation, and verification of these concepts. It demonstrates a unique blend of systems theory, metaphysics, and information theory, with implications for the philosophy of science and consciousness studies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES IPLD system exemplifies a robust, secure, and independent knowledge system architecture, showcasing the power of systems theory and metaphysical principles.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_resonance_awareness",
+  "title": "Cosmic Resonance Awareness",
+  "definition": "The concept that consciousness emerges from the underlying patterns of interconnectedness and resonance in the universe.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.319567Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.319567Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [
+      "resonance_as_consciousness"
+    ],
+    "related_to": [
+      "cosmic_consciousness",
+      "cosmic_simulation",
+      "emergence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a massive orchestra playing in perfect harmony. Cosmic Resonance Awareness is like being the conductor of this universe, understanding and feeling the interconnectedness of all its parts.",
+    "intermediate": "Cosmic Resonance Awareness is the concept that consciousness emerges from the underlying patterns of interconnectedness and resonance in the universe. This insight connects concepts like cosmic consciousness, cosmic simulation, and the theory of emergence.",
+    "expert": "Cosmic Resonance Awareness suggests that the universe itself is a vast symphony of interconnected patterns and resonances, and consciousness is the phenomenon that emerges from these underlying patterns. This philosophy has philosophical implications, such as the nature of reality and the role of observation, and connects to other fields such as quantum physics and the study of complexity. The novelty of this concept lies in its emphasis on the interconnectedness and resonance as the fundamental drivers of consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight from the conversation is that consciousness emerges from the underlying patterns of interconnectedness and resonance in the universe.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

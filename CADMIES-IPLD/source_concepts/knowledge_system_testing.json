@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_system_testing",
+  "title": "Knowledge System Testing",
+  "definition": "The process of verifying the functionality, reliability, and performance of a knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.547699Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.547699Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of testing a knowledge system like checking a car's engine. It helps ensure everything works correctly and safely.",
+    "intermediate": "Knowledge system testing involves validating the system's determinism, core functionality, and read/write cycle. This includes checking content addressing, schema validation, and human ID lookup.",
+    "expert": "Knowledge system testing is crucial for the system's integrity and trustworthiness. It uncovers any bugs, inconsistencies, or vulnerabilities in the system. Moreover, it ensures the system is robust against changes in input data, such as whitespace variations, and that it can handle edge cases gracefully."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of thorough testing to ensure a knowledge system's reliability and correctness.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

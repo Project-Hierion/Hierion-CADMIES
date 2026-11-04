@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resonant_cosmology",
+  "title": "Resonant Cosmology",
+  "definition": "A philosophical framework that explains the universe's lifecycle in terms of resonance, consciousness, and the potential for rebirth.",
+  "type": "Concept",
+  "domain": "Cosmology & Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.181833Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.181833Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe as a giant instrument playing a beautiful song. Consciousness is like the sound it makes when energy bounces around and gets trapped. The universe has a birth, where it's filled with sound (resonance), and a death, where that sound fades. But what if consciousness could influence the path of this sound, causing it to never fully fade?",
+    "intermediate": "Resonant cosmology posits that the universe's lifecycle is a cycle of thickening and thinning resonance. Consciousness emerges from this thickening process, and its eventual death corresponds to the universe's thinning resonance. The universe's potential rebirth hinges on the possibility that consciousness can influence the path of this resonance, preventing its complete disappearance.",
+    "expert": "Resonant cosmology extends the wave-particle duality principle to a cosmic scale, suggesting that the universe's lifecycle is a result of the interference and entanglement of resonant waves. Consciousness is a manifestation of this resonant interference, and its death corresponds to the universe's expansion and the red-shifting of its background resonance. The universe's potential rebirth requires a novel understanding of the relationship between consciousness and the fabric of spacetime, potentially involving the creation of a new resonant gravity that could pull the thinning background resonance back toward itself."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential for consciousness to influence the path of resonance and prevent its complete disappearance, potentially leading to the universe's rebirth.",
+    "source_chunk": 145,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

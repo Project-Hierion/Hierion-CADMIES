@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conditional_nature_of_reality",
+  "title": "Conditional Nature Of Reality",
+  "definition": "The understanding that all phenomena arise due to a specific set of conditions and that these conditions are the driving force behind reality.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.636529Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.636529Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a cake. A cake only exists when the right ingredients - flour, sugar, eggs, etc. - are present and combined in the right way. Similarly, everything in the world happens because specific conditions are met.",
+    "intermediate": "The conditional nature of reality is a central tenet in many philosophical traditions, including Buddhism. It suggests that our experiences and identities are not inherent, but emerge from the interaction of various conditions.",
+    "expert": "The conditional nature of reality has profound implications in various fields, including physics, where quantum mechanics and the theory of relativity emphasize the interdependence of space and time on other physical conditions. By recognizing the conditional nature of reality, we can also understand the role of ignorance, craving, and aversion in causing suffering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the entire universe, including suffering and enlightenment, is a result of specific conditions.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressed_search_layer",
+  "title": "Content Addressed Search Layer",
+  "definition": "A search layer that enables field-level queries on content-addressed data structures, such as DAG-CBOR.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.570523Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.570523Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital library that lets you filter books by author, genre, or title. Even though each book is uniquely identified by its content (like a fingerprint), you can still find what you're looking for quickly. That's the power of a content-addressed search layer.",
+    "intermediate": "A content-addressed search layer is a search mechanism that allows for efficient and direct querying of content-addressed data structures. This enables users to filter data based on specific field values, such as 'Author' or 'Type', without the need for external indexing.",
+    "expert": "The content-addressed search layer for DAG-structured knowledge nodes provides an innovative solution for efficient and self-queryable data storage. It supports field-level queries, leveraging the structured fields within the DAG-CBOR format. This approach allows for the creation of a self-contained knowledge graph that is both content-addressed and self-queryable, with the potential for philosophical implications in the area of knowledge representation and distributed systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "DAG-structured knowledge nodes can support field-level queries, enabling the creation of a self-contained knowledge graph that is both content-addressed and self-queryable.",
+    "source_chunk": 54,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "syncing_local_changes",
+  "title": "Syncing Local Changes",
+  "definition": "The process of synchronizing local changes with a remote repository, while handling and preserving any local modifications that aren't present in the remote version.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.048637Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.048637Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're baking a cake. You've made some changes on your recipe, but your friend has the most updated version. To combine your changes with the latest updates, you 'git pull' all the new changes and save your unique recipe using 'git stash'.",
+    "intermediate": "Syncing local changes involves using Git commands to pull all the updates from the remote repository. If there are local changes that aren't in the remote version, they can be saved using 'git stash' to preserve them for later use.",
+    "expert": "The process of syncing local changes not only maintains the integrity of the project but also allows collaboration and continuous development. It is a reflection of the decentralized nature of version control systems. Moreover, it has implications in the broader field of software engineering, particularly in the context of continuous integration and delivery (CI/CD) pipelines."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The process of syncing local changes with a remote repository while preserving unique local modifications demonstrates the balance between collaboration and individual creativity in software development.",
+    "source_chunk": 124,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

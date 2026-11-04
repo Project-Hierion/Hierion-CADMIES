@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "tanha_cycle_of_desire",
+  "title": "Tanha Cycle Of Desire",
+  "definition": "A self-perpetuating cycle in which an impermanent stimulus (like a pleasant sensation) triggers a craving for its repetition, leading to temporary satisfaction followed by renewed dissatisfaction.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.739595Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.739595Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a balloon popping \u2014 you get a quick burst of happiness (the pop), but then you're left wanting more (the craving). That's the tanha cycle of desire.",
+    "intermediate": "The tanha cycle of desire is a recurring pattern where an impermanent stimulus creates a craving for its repetition, leading to a cycle of temporary satisfaction and renewed dissatisfaction.",
+    "expert": "The tanha cycle of desire is a fundamental aspect of human experience that has been studied extensively in Buddhist philosophy. It's a metaphysical principle that reveals the impermanence of pleasure and the source of suffering. This cycle has also been observed in consumer behavior, with products like Coca-Cola exploiting the tanha cycle to encourage repeat consumption."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The tanha cycle of desire is a recurring pattern that underlies human experience and is a source of suffering. This cycle has been observed in consumer behavior and can be a tool for understanding human motivation.",
+    "source_chunk": 24,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

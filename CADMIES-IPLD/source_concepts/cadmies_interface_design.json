@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_interface_design",
+  "title": "Cadmies Interface Design",
+  "definition": "The architectural design of the CADMIES graphical interface that facilitates interaction with the CADMIES IPLD philosophical concept system.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.676302Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.676302Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital library that lets you add, view, and manage concepts from the CADMIES system. It's like having a personal assistant for your ideas.",
+    "intermediate": "The CADMIES interface design is a user-friendly graphical user interface that provides an intuitive way to interact with the CADMIES IPLD system. It includes features such as adding concepts, browsing the library, and viewing audit trails.",
+    "expert": "The CADMIES interface design is a unique solution in the field of software engineering, particularly in the realm of philosophical concept systems. It combines elements of user interface design, software architecture, and data modeling. The design ensures both usability and efficiency, while also maintaining the offline and air-gapped nature of the CADMIES system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES interface design is a well-thought-out solution that balances usability, functionality, and security, making it an ideal tool for managing philosophical concepts in an offline and air-gapped environment.",
+    "source_chunk": 89,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

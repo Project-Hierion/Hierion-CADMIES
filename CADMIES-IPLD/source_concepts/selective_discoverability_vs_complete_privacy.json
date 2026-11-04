@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "selective_discoverability_vs_complete_privacy",
+  "title": "Selective Discoverability Vs Complete Privacy",
+  "definition": "The concept of controlling data visibility in a networked system to maintain selective discoverability for public knowledge and complete privacy for personal data.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.586260Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.586260Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital vault that only shares what's meant to be public, while keeping personal secrets completely hidden. This way, the public can find and use the information that's meant to be shared, while private data remains completely private and secret.",
+    "intermediate": "In a networked system, selective discoverability involves controlling which data is visible to the network. This is achieved by marking directories as public or private, with private data being completely invisible to the network, ensuring its privacy and security.",
+    "expert": "Selective discoverability vs. complete privacy is a fundamental principle in distributed systems, with implications for security, privacy, and data sovereignty. By making data undiscoverable to the network, we ensure complete privacy and provide a stronger guarantee than traditional access control mechanisms, which rely on trust and assume the security of the access control mechanism. This approach has been employed in security systems for decades, under the principle of plausible deniability."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Selective discoverability ensures that public knowledge is visible to the network, while personal data is completely private and undiscoverable, providing a stronger guarantee of privacy than traditional access control mechanisms.",
+    "source_chunk": 61,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

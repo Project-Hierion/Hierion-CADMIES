@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "second_order_avoidance",
+  "title": "Second Order Avoidance",
+  "definition": "The phenomenon of using external distractions to avoid dealing with internal mental chaos or discomfort.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.591026Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.591026Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like this: we use things like our phone or TV to distract us from our own thoughts and feelings that we don't want to deal with. It's a way to hide from our own mental noise.",
+    "intermediate": "Second-order avoidance is a strategy we employ to escape from our internal mental chaos. By immersing ourselves in external distractions, we effectively shield ourselves from confronting unchosen thoughts and emotions.",
+    "expert": "Second-order avoidance is a complex psychological phenomenon that arises from our desire for comfort and control. By layering external distractions over internal mental chaos, we create a buffer zone that allows us to maintain a sense of stability and order. However, this strategy ultimately reinforces our avoidance tactics and contributes to the perpetuation of mental noise and discomfort. Understanding the mechanisms of second-order avoidance can provide insights into human behavior and cognitive processes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that external distractions are often used to avoid dealing with internal mental chaos or discomfort.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

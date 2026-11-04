@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conversation_knowledge_transformation",
+  "title": "Conversation Knowledge Transformation",
+  "definition": "The process of transforming conversation text into permanent philosophical concepts in a knowledge system.",
+  "type": "Concept",
+  "domain": "Knowledge Systems, Philosophy, Language Processing",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.502592Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.502592Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Turning everyday conversations into ideas that are easy to understand and remember, just like turning a messy text into a neat and organized set of concepts.",
+    "intermediate": "Conversation text is processed by a language model, which extracts key concepts. These concepts are then transformed into a structured format suitable for a knowledge system, allowing for easy retrieval and understanding.",
+    "expert": "This process involves natural language processing, concept extraction, and knowledge representation. It explores the philosophical implications of language and knowledge representation, connecting to fields such as artificial intelligence, semiotics, and philosophy of language. The novelty of this concept lies in its practical application: turning conversation text into a knowledge graph, rather than just generating text."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "By automating the transformation of conversation text into philosophical concepts, we enable the scalable growth of a knowledge system while preserving the depth and complexity of those concepts.",
+    "source_chunk": 95,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

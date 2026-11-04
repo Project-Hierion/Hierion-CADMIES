@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "energy_conservation_principle",
+  "title": "Energy Conservation Principle",
+  "definition": "The law of conservation of energy states that energy can neither be created nor destroyed, only transformed or transferred.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.513563Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.513563Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a toy train set. You can't make more energy by adding more cars, you just rearrange them. Energy conservation works the same way in the universe.",
+    "intermediate": "Energy conservation is a fundamental principle that stems from the invariance of physical laws under time translation. It links to concepts like momentum and mass conservation, and has been verified through numerous experiments.",
+    "expert": "The energy conservation principle is a cornerstone of physics, with profound philosophical implications. It emerges from the time translation symmetry of physical systems, as described by Noether's theorem. This principle has been extensively tested and has significant connections to other fields like thermodynamics and quantum mechanics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The consistent observation of energy conservation across various contexts, from the tiny realm of particles to the vast scale of the universe, suggests a deep underlying unity to the physical world.",
+    "source_chunk": 36,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

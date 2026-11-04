@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_rights_and_star_trek_teleportation",
+  "title": "Digital Rights And Star Trek Teleportation",
+  "definition": "The exploration of the 'move, don't copy' argument in digital rights and its comparison to Star Trek's teleportation technology.",
+  "type": "Concept",
+  "domain": "Law and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.407471Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.407471Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're sending a song to someone. Instead of making a duplicate copy on your friend's device, you make the original song disappear from yours. This is like Star Trek teleportation for media, but it raises questions about digital copyright.",
+    "intermediate": "The 'move, don't copy' argument suggests that transferring digital information without creating a duplicate copy is not an infringement of copyright. This concept is analogous to the way Star Trek's teleportation technology disassembles and reassembles matter, without creating a duplicate 'you'.",
+    "expert": "The 'move, don't copy' argument challenges the traditional understanding of copyright, which is based on the physical medium that contains the information. By focusing on the transfer of information rather than the physical medium, this argument proposes a more abstract understanding of copyright that could have philosophical implications for other fields such as artificial intelligence and blockchain technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'move, don't copy' argument challenges the traditional understanding of copyright and suggests a more abstract and mathematical understanding of information transfer that could have novel legal and philosophical implications.",
+    "source_chunk": 156,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "secure_data_sharing_model",
+  "title": "Secure Data Sharing Model",
+  "definition": "A model for sharing data securely and privately among a network of nodes, where data is exposed only to authorized parties through granular access controls and plausible deniability.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.596363Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.596363Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a secret vault that only lets people in based on a special key. Each key gives access to specific sections of the vault, and no one can tell what's inside without the key. This is a simple way to understand secure data sharing.",
+    "intermediate": "The secure data sharing model involves using capability-based access controls to grant access to data based on tokens, rather than on the identity of the user. This allows for granular access control, data locality, and plausible deniability, while ensuring that data is not exposed to unauthorized parties.",
+    "expert": "The secure data sharing model is a novel approach to data privacy and security that combines principles from computer science, cryptography, and philosophy. It allows for granular access control by defining access policies at the directory level, rather than the node level. This enables data locality and plausible deniability, while ensuring that data is not exposed to unauthorized parties. The model also compares favorably to identity-based access control models in terms of privacy leakage, scalability, anonymity, and revocation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The secure data sharing model is a privacy-preserving approach to data sharing that combines principles from computer science, cryptography, and philosophy to ensure data is exposed only to authorized parties through granular access controls and plausible deniability.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

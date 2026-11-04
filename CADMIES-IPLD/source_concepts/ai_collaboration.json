@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ai_collaboration",
+  "title": "Ai Collaboration",
+  "definition": "The utilization of artificial intelligence technologies for the development and enhancement of collaborative knowledge systems.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.488861Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.488861Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like having two smart people working together on a project, but these smart people are AI systems. They can analyze data, create insights, and work together seamlessly.",
+    "intermediate": "AI collaboration involves the integration of multiple AI models and systems to create a synergistic environment for knowledge generation and processing. This can include techniques such as Retrieval Augmented Generation (RAG) and Multi-Agent Systems (MAS).",
+    "expert": "AI collaboration is a field at the intersection of AI, distributed systems, and knowledge representation. It explores the philosophical implications of multi-agent intelligence, the role of trust and communication in collaborative systems, and the potential for emergent behavior in complex AI ecosystems. It also has connections to fields such as social science, cognitive science, and ethics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of a twin mycelium architecture by an independent team validates the mycelium architecture as a discovered truth, not a personal quirk.",
+    "source_chunk": 106,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

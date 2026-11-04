@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemic_landscaping",
+  "title": "Epistemic Landscaping",
+  "definition": "The shaping of our understanding of reality by our perceptual processes and frames.",
+  "type": "Concept",
+  "domain": "Philosophy of Perception",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.154804Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.154804Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "perceptual_frames_as_intelligence_multipliers"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "natural_selection"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like painting a picture of the world. Our senses and experiences are like the brushes, and our understanding is the canvas. Perception helps us decide which colors (details) to focus on and how to blend them together.",
+    "intermediate": "Epistemic landscaping refers to the way that our perceptual frames, or the ways we interpret and understand sensory information, shape our knowledge of the world. This concept is closely related to the philosophical concept of the 'knowability' of reality.",
+    "expert": "Epistemic landscaping explores the philosophical implications of perception in shaping our understanding of reality. It delves into the nature of knowledge, the role of subjectivity in perception, and the relationship between experience and objective truth. Additionally, it connects to cognitive sciences, neuroscience, and artificial intelligence, as it explores how computational models can simulate and understand perceptual frames."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "perceptual_frames_as_intelligence_multipliers"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Perception is not just a passive receiver of information, but an active shaper of our reality.",
+    "source_chunk": 51,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

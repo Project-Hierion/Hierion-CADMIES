@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dual_mode_interface",
+  "title": "Dual Mode Interface",
+  "definition": "The concept of providing two interaction modes (SCIENTIFIC and CASUAL) in a knowledge system for users with different levels of expertise and preferences.",
+  "type": "Concept",
+  "domain": "User Interface Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.768762Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.768762Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a user interface that offers two modes - one for experts who need full control (SCIENTIFIC MODE), and another for beginners who want simplicity (CASUAL MODE). Both modes are connected so that you can easily switch between them.",
+    "intermediate": "The Dual-Mode Interface concept involves designing a knowledge system that caters to two user personas: the Scientific Persona (requires SCIENTIFIC MODE) and the Casual Persona (requires CASUAL MODE). The interface should auto-detect the mode based on the user's query or preference, but provide manual switching options.",
+    "expert": "The Dual-Mode Interface concept introduces a unique duality in user interface design, connecting the scientific rigor of precision work with the simplicity and accessibility needed for learning and collaboration. By implementing auto-detection heuristics, the system can provide a seamless transition between the two modes, enhancing user experience. The interface should also ensure bidirectional translation between the two modes, enabling both scientific data and casual ideas to be understood and presented effectively."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Dual-Mode Interface concept introduces a new dimension to knowledge system design by recognizing and catering to the needs of two distinct user personas: those with expertise and those looking for simplicity. This duality enhances accessibility and understanding, bridging the gap between precision work and casual exploration.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

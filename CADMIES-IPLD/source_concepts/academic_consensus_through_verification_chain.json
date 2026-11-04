@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "academic_consensus_through_verification_chain",
+  "title": "Academic Consensus Through Verification Chain",
+  "definition": "A method for reaching academic consensus by allowing multiple students to verify or refute concepts in a CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.878260Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.878260Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a group project where everyone adds their two cents. Students can agree, disagree, or ask questions about concepts. Teachers can see who agreed, disagreed, or had questions. This helps build a stronger understanding of the material.",
+    "intermediate": "This concept leverages the use of ORCID IDs to create a verification chain. Each student's contribution is timestamped and recorded. Teachers can export the concept with all student verifications to use as evidence of engagement.",
+    "expert": "This approach challenges the traditional academic publishing model by making peer review transparent and accessible. The verification chain serves as an immutable record of academic consensus, eliminating the need for journals, editors, and paywalls. This method allows for self-correction and ensures that all contributions, including those that may initially sound like gibberish, are given equal dignity and scrutiny."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The academic consensus through verification chain replaces the traditional academic publishing model with a transparent, self-correcting, and equitable system.",
+    "source_chunk": 71,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

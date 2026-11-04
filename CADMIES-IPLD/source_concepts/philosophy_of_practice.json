@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophy_of_practice",
+  "title": "Philosophy Of Practice",
+  "definition": "A philosophical approach that explores the nature of practice, learning, and the relationship between theory and practice.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.534961Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.534961Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine learning a sport or a skill. Philosophy of practice is about understanding how we learn and grow through doing, and how that relates to our theories about the world.",
+    "intermediate": "Philosophy of practice is a broad field that includes areas like learning theory, action theory, and the philosophy of education. It's interested in understanding how we learn, how practice shapes our understanding, and how theory can guide practice.",
+    "expert": "Philosophy of practice is a philosophically rich and multidisciplinary field with connections to areas like epistemology, ethics, and the philosophy of language. It's noteworthy for its emphasis on the role of practice in shaping our understanding of the world and our place in it."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The relationship between theory and practice, and the role of doing in shaping our understanding of the world.",
+    "source_chunk": 120,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

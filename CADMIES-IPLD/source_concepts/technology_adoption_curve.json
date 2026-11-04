@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "technology_adoption_curve",
+  "title": "Technology Adoption Curve",
+  "definition": "The pattern of adoption of new technologies over time, encompassing the rise of the technology, its growth and maturation, and its eventual broad acceptance.",
+  "type": "Concept",
+  "domain": "Technology & Economics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.151054Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.151054Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a roadmap for new technologies. From a costly, specialized product to a mass-produced, affordable one.",
+    "intermediate": "Technology adoption curve reflects the evolution of a new technology from a niche, expensive product to a mainstream, affordable one. It highlights the challenges and opportunities faced at each stage of the technology's lifecycle.",
+    "expert": "The technology adoption curve illuminates the interplay between innovation, economics, and consumer demand. It highlights the barriers to entry for new technologies, the role of government and market forces, and the long-term implications for technological progress and economic inequality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cost of developing a custom chip from scratch is equivalent to the price of an entire, bleeding-edge LiDAR system from its pioneering era, demonstrating the consistent cost of innovation across different technological eras.",
+    "source_chunk": 132,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

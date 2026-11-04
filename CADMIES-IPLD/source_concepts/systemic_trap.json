@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "systemic_trap",
+  "title": "Systemic Trap",
+  "definition": "A mechanism that hinders progress or innovation by encouraging only certain behaviors or actions, despite the potential benefits of alternative approaches.",
+  "type": "Concept",
+  "domain": "Sociology of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.086586Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.086586Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a systemic trap as a hidden roadblock. It's like a path that keeps leading back to the same place, even though a better destination exists. In science, these traps can prevent new connections and insights.",
+    "intermediate": "A systemic trap in science is a self-reinforcing cycle that discourages cross-disciplinary collaboration. It's a structural problem that leads scientists to focus on narrow specialties, which limits the potential for groundbreaking discoveries.",
+    "expert": "The systemic trap in science is a complex interplay of institutional incentives, professional norms, and cultural attitudes. It's a form of self-organizing constraint that maintains the status quo, even when this status quo is not in the best interest of scientific progress. By understanding the dynamics of this systemic trap, we can design interventions that promote more collaborative and innovative science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Scientists are trapped in a systemic trap that discourages cross-disciplinary collaboration, despite the potential for groundbreaking discoveries.",
+    "source_chunk": 71,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "storm_charged_capacitor",
+  "title": "Storm Charged Capacitor",
+  "definition": "The phenomenon where a person becomes a capacitor in a storm, storing electrical charge from the atmosphere.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.388449Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.388449Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a storm as a big battery. When you're out in a storm, you're like a wire that connects to this battery. The storm 'charges' you up, giving you extra energy.",
+    "intermediate": "A person in a storm acts as one plate of a capacitor, with the ground acting as the other plate. The separation of charge in the air forms an electric field, which causes the person to absorb ions and charged aerosols, effectively storing electrical charge.",
+    "expert": "The storm-charged capacitor is a unique phenomenon that combines physical, biological, and chemical processes. It involves the interaction between an individual's conductive body and the storm's intense electric field, leading to a redistribution of ions and a transfer of electrical potential. This has implications for understanding the human body's response to electrical stimuli and the role of the atmosphere in energy transfer."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The storm-charged capacitor demonstrates the interplay between physical, biological, and chemical processes in a natural environment and highlights the human body's ability to interact with and absorb energy from its surroundings.",
+    "source_chunk": 149,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

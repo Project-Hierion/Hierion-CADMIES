@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "truth_validation_engine",
+  "title": "Truth Validation Engine",
+  "definition": "A system that uses a world model to simulate the consequences of concepts, ideas, or claims, and validates their truth based on their survival in this simulation.",
+  "type": "Concept",
+  "domain": "AI",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.435840Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.435840Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a machine that tests ideas in a virtual world. If an idea survives, it's considered true. If it falls apart, it's discarded. This keeps our system smart and efficient.",
+    "intermediate": "This is a truth-validation engine that leverages a world model to simulate the consequences of concepts. Mistral acts as an interface, consulting the world model before making assertions. This allows for the continuous growth and pruning of concepts based on their ability to survive simulated futures.",
+    "expert": "The truth-validation engine is a novel application of the DreamerV3/HIEROS architecture. It separates the concerns of concept generation and truth validation, allowing for the continuous growth and pruning of concepts based on their ability to survive simulated futures. This has philosophical implications for the nature of truth and knowledge, and connects to other fields such as logic, epistemology, and the philosophy of science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of a world model to validate the truth of concepts is a novel application of the DreamerV3/HIEROS architecture, with philosophical implications for the nature of truth and knowledge.",
+    "source_chunk": 87,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "galactic_navigation",
+  "title": "Galactic Navigation",
+  "definition": "The study of spacecraft trajectories within the Milky Way galaxy, focusing on their relationship to the galactic plane and Earth's orbit.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.280586Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.280586Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about the Milky Way as a giant spinning disk of stars. Voyager 1 was launched into space like a car from a moving car window. It got a speed boost from Earth's orbit, then made a turn to head 'up' and out of the 'flattened' planetary neighborhood, just like how a ball thrown from a moving car window goes even faster.",
+    "intermediate": "Voyager 1's trajectory can be understood within the context of its initial direction of travel, aligned with Earth's counterclockwise orbit around the Sun, and its subsequent 'upward' turn out of the ecliptic plane. This navigation is influenced by the structure of the Milky Way galaxy, where the majority of stars, including our Sun, orbit around the galactic center in a counterclockwise direction.",
+    "expert": "The study of Voyager 1's trajectory within the Milky Way galaxy reveals a complex interplay between orbital mechanics, celestial bodies' gravitational influence, and the galaxy's spiral arm structure. Understanding Voyager 1's path provides insights into our understanding of the Milky Way's gravitational field and the Sun's position within it. This also has implications for our understanding of the galaxy's evolution and the formation of its spiral arms."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Voyager 1's trajectory is a testament to the impact of Earth's orbital motion and the gravitational influence of celestial bodies on spacecraft navigation, highlighting the intricate relationship between orbital mechanics and celestial structure within the Milky Way galaxy.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

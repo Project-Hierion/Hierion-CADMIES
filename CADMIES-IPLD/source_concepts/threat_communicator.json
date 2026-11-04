@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "threat_communicator",
+  "title": "Threat Communicator",
+  "definition": "The use of pitch and speed in vocal communication to convey threat levels or emotional states.",
+  "type": "Concept",
+  "domain": "Psychology, Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.965811Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.965811Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your voice as a way to show how you're feeling. A calm voice signals safety, while a fast, high-pitched voice shows fear or danger.",
+    "intermediate": "Threat communication involves pitch change and speed modulation of the voice. A steady tone indicates safety, while a rapid or rising pitch signals danger. This is an inherent alarm system that humans recognize instantly, without learning.",
+    "expert": "Threat communication is a multidimensional phenomenon that combines biological responses and cultural learnings. By analyzing pitch and speed changes in voice, we can understand emotional states and social dynamics. This insight has implications for fields like sociology, music, and linguistics, and it highlights the interplay between biology and culture."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed that vocal communication encodes information about threat levels through changes in pitch and speed, forming a rich emotional palette.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

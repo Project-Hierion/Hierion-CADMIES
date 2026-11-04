@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "experimental_sandbox_paradigm",
+  "title": "Experimental Sandbox Paradigm",
+  "definition": "A development strategy that involves creating a safe, isolated environment for experimental work, enabling easy rollback to the previous state, and maintaining a clean commit history.",
+  "type": "Concept",
+  "domain": "Software_Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.636647Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.636647Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're cooking a new dish. You make it in a separate pot (safe sandbox) so you can try new things without ruining the main dish. If it doesn't turn out well, you can easily go back to the original recipe (rollback safety). The secret recipe book (commit history) keeps track of all your experiments.",
+    "intermediate": "In software development, the experimental sandbox paradigm involves creating a separate branch from the main repository to test experimental features. This allows for easy rollback to the previous state in case of any issues, while maintaining a clean and organized commit history.",
+    "expert": "The experimental sandbox paradigm is a development strategy that leverages the principles of software engineering and version control to promote innovation and risk management. By creating a safe and isolated environment for experimental work, developers can explore new ideas, technologies, and architectures without jeopardizing the stability and reliability of the main product. This paradigm enables easy rollback to the previous state in case of failures or unintended consequences, while also maintaining a clean and structured commit history that provides insights into the evolution and rationale behind the codebase. Furthermore, the experimental sandbox paradigm aligns with the philosophical perspective of scientific enquiry, where controlled experiments are a fundamental tool for generating knowledge and testing hypotheses."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of creating a safe and isolated environment for experimental work, enabling easy rollback to the previous state and maintaining a clean commit history.",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

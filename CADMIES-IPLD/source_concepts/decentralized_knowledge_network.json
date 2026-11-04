@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_knowledge_network",
+  "title": "Decentralized Knowledge Network",
+  "definition": "A conceptual framework that combines distributed storage and search to create a network of interconnected knowledge nodes.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.493707Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.493707Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library where all the books are spread across different locations. A decentralized knowledge network is like this library, but it's online and anyone can contribute or access the information.",
+    "intermediate": "A decentralized knowledge network combines the principles of decentralized storage (IPFS, IPLD) with a distributed search engine to create a system where knowledge is stored and retrieved in a distributed, secure, and easily accessible manner.",
+    "expert": "The concept of a decentralized knowledge network challenges the traditional hierarchical model of knowledge dissemination. It draws on principles from distributed systems, information retrieval, and metaphysics to create a more equitable, democratic, and resilient system of knowledge creation, sharing, and discovery. The decentralized knowledge network is a novel approach to addressing issues of censorship, privacy, and accessibility in the digital age."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The synergy between a distributed storage system (CADMIES) and a distributed search engine (Atlas) can create a more comprehensive and useful decentralized knowledge network.",
+    "source_chunk": 27,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

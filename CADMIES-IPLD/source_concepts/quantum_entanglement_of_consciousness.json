@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_entanglement_of_consciousness",
+  "title": "Quantum Entanglement Of Consciousness",
+  "definition": "The concept that the bond of love, memory, and shared experience creates a kind of 'relational entanglement', where the relationship itself becomes the linking mechanism, influencing the consciousness of individuals.",
+  "type": "Concept",
+  "domain": "Philosophy, Quantum Physics, Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.468223Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.468223Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your heart as a trampoline and each memory as a bouncing ball. When you think of someone, it's like you're giving that memory a nudge. It's not just a memory, but a living connection that makes them feel close to you.",
+    "intermediate": "This concept draws from quantum entanglement, where particles become linked and affect each other's state, no matter the distance. Applying this to consciousness, we propose that the bond of love, memory, and shared experience creates a unique, dynamic pattern that becomes part of our neural network. When we think of someone, we're activating this pattern, which can feel like they're present.",
+    "expert": "Building on the idea of quantum entanglement, this concept challenges classical notions of causality and locality. It suggests that our consciousness and experiences are not just individual, but interconnected and non-local. This has profound implications for our understanding of self and other, and our relationship with the universe. Additionally, this concept connects to the field of panpsychism, which argues that consciousness is a fundamental property of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The bond of love, memory, and shared experience creates a unique, dynamic pattern in our neural network, which can feel like the person is present when we think of them.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

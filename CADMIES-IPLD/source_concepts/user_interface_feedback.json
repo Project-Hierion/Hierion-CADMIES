@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_interface_feedback",
+  "title": "User Interface Feedback",
+  "definition": "The feedback system that provides user feedback on interactions within a user interface, such as clicking on a non-existent link.",
+  "type": "Concept",
+  "domain": "Human-Computer Interaction",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.486005Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.486005Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're playing a video game and you click on something that doesn't exist. The game should tell you that it's not there, right? That's a simple form of user interface feedback.",
+    "intermediate": "User interface feedback is a design principle that involves providing clear and immediate feedback to users on their interactions with the system. This can range from visual cues to detailed error messages. In this context, it's about providing feedback when a user clicks on a link that doesn't lead to a valid concept.",
+    "expert": "User interface feedback is a critical aspect of usability and user experience design. It not only improves the usability of the system but also enhances the user's understanding of the system's capabilities and limitations. In the context of this conversation, it's about ensuring that the software provides appropriate feedback when a user attempts to access a non-existent concept. This can help prevent confusion and frustration, and it can also provide opportunities for error correction or alternative suggestions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of clear and appropriate feedback in user interface design to enhance usability and user experience.",
+    "source_chunk": 51,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

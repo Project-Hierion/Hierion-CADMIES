@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "heliospheric_shape",
+  "title": "Heliospheric Shape",
+  "definition": "The three-dimensional shape of the region of space dominated by the solar wind, which encompasses the planets within the solar system.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.310831Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.310831Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine our solar system's bubble in space. When we move through things, they don't surround us equally. This makes our bubble look different, like a lumpy ball. But over time, the shape changes a bit.",
+    "intermediate": "The heliosphere is shaped by the Sun's motion through the interstellar medium and the pressure from the interstellar magnetic field. Over long timescales, these forces cause the heliosphere to be generally rounder on average, but at any given moment, it's more like a 'rounded croissant' or a 'squashed beach ball'.",
+    "expert": "The heliospheric shape is a result of a complex interplay between the Sun's motion through the interstellar medium, the pressure from the interstellar magnetic field, and the fluctuating strength of the solar wind. This creates a lumpy, bumpy, asymmetrical blob. The debate about the heliospheric shape highlights the ongoing nature of scientific discovery and the role of data in challenging and refining our understanding of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The heliospheric shape is a dynamic, constantly evolving result of the interplay between the Sun's motion, the pressure from the interstellar medium, and the fluctuating strength of the solar wind.",
+    "source_chunk": 41,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

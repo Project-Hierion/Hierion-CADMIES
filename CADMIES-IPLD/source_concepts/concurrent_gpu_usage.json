@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concurrent_gpu_usage",
+  "title": "Concurrent Gpu Usage",
+  "definition": "The limitation of using only one free GPU at a time in a cloud-based machine learning environment.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.042292Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.042292Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Just like how you can only use one computer at a time, cloud platforms allow you to use one free GPU at a time for your machine learning projects.",
+    "intermediate": "The concept of concurrent GPU usage in cloud-based machine learning environments, which is limited to one free GPU per user at a given time due to resource allocation.",
+    "expert": "The limitation of concurrent GPU usage in cloud-based machine learning environments is a result of resource allocation strategies. It challenges the scalability and efficiency of machine learning projects that require high computational power. This limitation has implications for collaborative work and the adoption of machine learning in industries where multiple simultaneous GPU instances are necessary."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The limitation of concurrent GPU usage highlights the need for efficient resource allocation strategies in cloud-based machine learning environments.",
+    "source_chunk": 86,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_dynamics",
+  "title": "Cosmic Dynamics",
+  "definition": "The study of the complex interactions between various forces in the universe, leading to the formation and evolution of structures like the heliosphere, solar system, and galaxies.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.303853Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.303853Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine different fluids in a room, each pushing and pulling on each other. This creates patterns and shapes. Now replace 'fluids' with the various forces in space and 'room' with the universe. That's cosmic dynamics.",
+    "intermediate": "Cosmic dynamics involves understanding the interplay between solar wind, interstellar wind, magnetic fields, gravity, and other forces. These interactions lead to structures like the heliosphere and the shape of galaxies.",
+    "expert": "Cosmic dynamics is a branch of astrophysics that combines fluid dynamics, plasma physics, celestial mechanics, and general relativity. It studies the emergence of large-scale structures in the universe, the formation and evolution of galaxies, and the role of dark matter. Cosmic dynamics also has philosophical implications for our understanding of the universe's determinism and randomness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Cosmic dynamics is the underlying principle that explains the formation and evolution of structures in the universe, from the heliosphere to galaxies.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

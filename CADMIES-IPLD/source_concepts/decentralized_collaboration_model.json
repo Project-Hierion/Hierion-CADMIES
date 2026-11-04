@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_collaboration_model",
+  "title": "Decentralized Collaboration Model",
+  "definition": "A model of collaboration in a decentralized environment that leverages the benefits of a coordination point without central control.",
+  "type": "Concept",
+  "domain": "Organizational Theory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.364763Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.364763Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're working on a project with a group of friends, and you're all using a shared folder on the internet. Anyone can add or modify content, but the folder itself doesn't control what you can do. This is similar to a decentralized collaboration model.",
+    "intermediate": "In a decentralized collaboration model, a coordination point like a Git repository is used to facilitate collaboration, but the community consensus, not the repository, holds the real authority. This model allows for version control, transparency, and the ability to fork or mirror the repository if necessary.",
+    "expert": "The decentralized collaboration model, particularly as described in the context of the Decentralized Commons Treaty, highlights the tension between coordination and control. By using a repository as a coordination point, the model allows for transparent and structured collaboration while maintaining the benefits of a decentralized environment. This model has implications for governance, resilience, and the role of the commons in shaping the future of technology and society."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Decentralized Commons Treaty repo serves as a coordination point for building the decentralized commons, but the community consensus holds the real authority. This model allows for transparency, resilience, and the ability to adapt to changing circumstances.",
+    "source_chunk": 61,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

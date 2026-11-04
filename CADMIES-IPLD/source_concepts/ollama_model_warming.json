@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ollama_model_warming",
+  "title": "Ollama Model Warming",
+  "definition": "The practice of pre-loading Ollama models to ensure immediate response times in a system environment.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.276545Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.276545Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your computer as a car. Warming a model is like starting the engine before you need to drive. It makes the software respond faster, just like a car that's been started already is ready to go.",
+    "intermediate": "In the context of software development, warming a model refers to pre-loading it into memory. This is done to minimize the latency when a request is made, ensuring a more responsive and seamless user experience.",
+    "expert": "The practice of warming models can have significant implications for the design of software systems. It involves understanding the lifecycle of resources and managing them efficiently. It also introduces considerations for error handling and recovery in the event of a cold load. In broader contexts, the principles of warming models can be applied to other fields, such as database optimization and cloud computing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The strategy of warming models can significantly enhance the performance of a software system by minimizing latency and ensuring a smooth user experience.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

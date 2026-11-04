@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_bloom",
+  "title": "Cosmic Bloom",
+  "definition": "The cosmic web's appearance as a grand, static, and complex structure left behind by the primordial processes of the universe.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.651118Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.651118Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the cosmic web as a beautiful, frozen-in-time, celestial pattern. It's like a stunning algal bloom, a result of the universe's initial formation. Just as a fungal bloom is the mushroom left after a fungus' growth, the cosmic bloom is what we see today due to the universe's original dynamics.",
+    "intermediate": "The cosmic bloom is a term that encapsulates the cosmic web's appearance. It suggests a static, beautiful, and complex pattern left behind by the primordial processes of the universe, such as the Big Bang, inflation, and gravitational collapse. This term contrasts with animated or living metaphors, as we cannot prove the cosmic web has will or agency from our perspective.",
+    "expert": "The cosmic bloom is a powerful philosophical concept that explores the tension between scientific observation and poetic interpretation. It is a metaphor that acknowledges the universe's complexity while emphasizing its static, observable nature. This term reflects the idea that the cosmic web is a fossilized echo of the universe's early creation. It also draws a connection between the cosmic bloom and the philosophical concept of emergence, suggesting that complex patterns can emerge from simpler underlying processes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cosmic bloom highlights the distinction between scientific observation and poetic interpretation, emphasizing the static nature of what we can observe.",
+    "source_chunk": 94,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressable_discourse",
+  "title": "Content Addressable Discourse",
+  "definition": "The concept of content-addressable discourse, where concepts are identified and accessed through their unique content or semantic meaning, rather than arbitrary labels or identifiers.",
+  "type": "Concept",
+  "domain": "Information_Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.859622Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.859622Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library where books are not shelved by color, but by the stories they tell. This is like content-addressable discourse \u2014 understanding ideas based on what they are, not how they're labeled.",
+    "intermediate": "Content-addressable discourse is a paradigm shift in information management, focusing on the unique content or semantics of data to identify and access concepts. This contrasts with traditional methods of using arbitrary labels or identifiers.",
+    "expert": "Content-addressable discourse offers a solution to the limitations of keyword-based search, which often fails to capture context and nuance. By focusing on content, it enables the discovery of related concepts across vocabulary boundaries, increasing recall and overall system performance. This paradigm has implications for fields such as natural language processing, knowledge graphs, and semantic search."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the limitations of keyword-based search and the potential benefits of content-addressable discourse, enabling the discovery of related concepts across vocabulary boundaries.",
+    "source_chunk": 86,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_rights_management_paradox",
+  "title": "Digital Rights Management Paradox",
+  "definition": "The paradoxical situation where the act of legally owning digital media requires violating copyright laws due to digital rights management techniques.",
+  "type": "Concept",
+  "domain": "Law and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.745651Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.745651Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine buying a movie and needing to break the law just to watch it on your own devices. That's the digital rights management paradox.",
+    "intermediate": "Digital rights management paradox is the conflict between copyright laws and digital media ownership, where the act of using legally owned media may violate copyright laws due to digital rights management techniques.",
+    "expert": "The digital rights management paradox reveals the tension between the physical and digital worlds in copyright law. It highlights the need for legal reform to accommodate the unique characteristics of digital media and challenges the traditional understanding of 'copying' and 'fixation'."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The paradoxical situation where the act of legally owning digital media requires violating copyright laws due to digital rights management techniques.",
+    "source_chunk": 142,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

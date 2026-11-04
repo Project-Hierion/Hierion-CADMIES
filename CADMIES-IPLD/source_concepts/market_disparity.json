@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "market_disparity",
+  "title": "Market Disparity",
+  "definition": "The significant price gap between auctioned and fixed-price goods, indicating market imbalance.",
+  "type": "Concept",
+  "domain": "Economics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.568622Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.568622Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're buying a popular toy. There's an auction where people bid, and some listings are fixed prices. The auctioned toy costs much more than the fixed-price ones. This is a market disparity.",
+    "intermediate": "In economics, market disparity occurs when there's a significant price gap between auctioned goods and goods sold at fixed prices. This imbalance can indicate supply and demand issues, market inefficiencies, or other factors.",
+    "expert": "Market disparity is a complex phenomenon that often arises due to asymmetric information, behavioral economics, or market structures. It can have significant social and economic implications, including price discrimination, rent-seeking, and welfare losses. Market disparity also connects to other fields, such as game theory and behavioral economics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights a market disparity in the GPU market, with auctioned GPUs significantly exceeding their market value.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

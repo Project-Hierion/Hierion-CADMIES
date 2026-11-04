@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_harvesting_pipeline",
+  "title": "Unified Harvesting Pipeline",
+  "definition": "A single script that harvests, saves, and mints concepts directly into the mycelium knowledge graph, allowing for human approval and modification before minting.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.549874Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.549874Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a harvester as a smart worker who not only picks concepts from conversations but also carefully places them in the right spot in the knowledge graph. This unified harvester does all that in one go, giving you a chance to review and approve each concept before it's officially added.",
+    "intermediate": "The unified harvesting pipeline is an automated system that extracts, saves, and mints concepts into the IPLD mycelium knowledge graph. It provides a human approval gate to ensure the accuracy and relevance of each concept before it's integrated into the graph. This pipeline streamlines the process of knowledge acquisition and integration.",
+    "expert": "The unified harvesting pipeline is a novel approach to automated knowledge acquisition and integration. It combines the functions of a concept harvester, a concept saver, and a concept minting system into a single pipeline. This integration allows for human approval and modification before concepts are minted into the IPLD mycelium knowledge graph. The pipeline's design highlights the importance of human oversight in the automated knowledge acquisition process and highlights the potential for philosophical insights to be derived from the interplay between humans and machines."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unified harvesting pipeline highlights the importance of human oversight in the automated knowledge acquisition process and showcases the potential for philosophical insights to be derived from the interplay between humans and machines.",
+    "source_chunk": 71,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

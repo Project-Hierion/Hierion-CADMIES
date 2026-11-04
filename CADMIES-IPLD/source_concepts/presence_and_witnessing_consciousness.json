@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "presence_and_witnessing_consciousness",
+  "title": "Presence And Witnessing Consciousness",
+  "definition": "A state of consciousness that involves being fully present in the moment, observing thoughts and emotions without identification or attachment.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.308913Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.308913Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine being a detective in your own mind. You observe your thoughts and feelings without getting caught up in them. It's like watching the scenery of life unfold without being the scenery itself.",
+    "intermediate": "Presence and witnessing consciousness is a state of awareness characterized by non-judgmental observation of thoughts, emotions, and sensations. It contrasts with identification with these experiences, which creates a sense of separation and suffering.",
+    "expert": "The presence and witnessing consciousness is a fundamental aspect of human consciousness, present in all experiences. It has been studied extensively in Buddhist meditation traditions and has philosophical implications in fields like phenomenology and hermeneutics. The insight that makes this concept novel is its emphasis on the observer as a separate entity from the observed, a view that challenges the traditional Cartesian notion of the self."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The accidental, fleeting glimpse of presence and witnessing consciousness revealed the destination of the meditation path.",
+    "source_chunk": 128,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

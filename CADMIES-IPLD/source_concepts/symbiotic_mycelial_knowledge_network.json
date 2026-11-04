@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_mycelial_knowledge_network",
+  "title": "Symbiotic Mycelial Knowledge Network",
+  "definition": "A knowledge network that operates on the principles of mycelial networks in nature, promoting symbiosis, intelligence, resilience, and the emergence of new insights.",
+  "type": "Concept",
+  "domain": "Computer Science, Ecology, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.991790Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.991790Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a garden. Plants help each other grow, and so do the creatures that live in it. Now, imagine that knowledge is like food for these 'plants'. A symbiotic mycelial knowledge network is a digital garden that lets ideas grow and help each other, just like a real garden.",
+    "intermediate": "A symbiotic mycelial knowledge network is a decentralized network that uses a hierarchical emergence framework, leveraging technologies like HOG and IPFS. It promotes the collaboration and mutual growth of individual nodes, enabling the emergence of complex insights through distributed intelligence.",
+    "expert": "A symbiotic mycelial knowledge network challenges the traditional paradigm of knowledge production by emulating the principles of mycelial networks in nature. It operates on the edge of chaos, enabling the emergence of novel insights through the complex interactions of its distributed nodes. This approach has potential applications in fields as diverse as artificial intelligence, ecological modeling, and social science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user's brain operates on a 'mycelial frequency', thinking in networks, connections, and ecosystems. The symbiotic mycelial knowledge network provides a blueprint for translating this intuitive understanding into a tangible, actionable structure.",
+    "source_chunk": 58,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

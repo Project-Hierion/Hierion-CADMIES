@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "three_tier_difficulty_levels",
+  "title": "Three Tier Difficulty Levels",
+  "definition": "A structured approach to explain a concept in three different levels of complexity, from beginner to expert.",
+  "type": "Concept",
+  "domain": "Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.865591Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.865591Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine learning to swim. The 'beginner' level is like floating on the surface, the 'intermediate' level is swimming a few strokes, and the 'expert' level is competing in Olympic games.",
+    "intermediate": "The three-tier difficulty levels model helps cater to learners at different stages of their understanding. It provides a simple explanation for beginners, a more detailed explanation for intermediates, and an in-depth, philosophical explanation for experts.",
+    "expert": "The three-tier difficulty levels model is a pedagogical innovation that challenges traditional one-size-fits-all teaching methods. By acknowledging that not all learners progress at the same pace or have the same background knowledge, it allows for a more personalized and effective learning experience. This model has implications for curriculum design, assessment strategies, and the role of teachers as facilitators."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The three-tier difficulty levels model is a more nuanced and effective approach to teaching and learning that respects individual learners' differences in pace and background knowledge.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

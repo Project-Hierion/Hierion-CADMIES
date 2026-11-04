@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "version_control_strategies",
+  "title": "Version Control Strategies",
+  "definition": "Strategies used to manage and navigate through the changes made to the harvester codebase.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.882095Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.882095Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Picture version control as a time machine for your code. It lets you see different versions, go back to previous ones if needed, and merge changes together.",
+    "intermediate": "Version control strategies include creating backups, comparing changes (diff), and merging updates from a remote repository (pull) or pushing local changes to a remote repository (push).",
+    "expert": "Version control strategies can influence software development practices, team dynamics, and project outcomes. Strategies like Git's branching model can enable efficient collaboration and integration, but also pose challenges in managing merge conflicts and understanding the project's history."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful navigation through the changes in the harvester codebase highlights the importance of using version control strategies.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

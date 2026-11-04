@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "brain_plasticity_and_identity",
+  "title": "Brain Plasticity And Identity",
+  "definition": "The concept that the brain's ability to rewire itself through experience challenges the notion of personal identity as a fixed essence.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.512315Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.512315Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your brain as a garden that grows and changes with experiences. Just as a garden can look different over time, so can your personality and identity.",
+    "intermediate": "Brain plasticity, such as that seen in London taxi drivers, demonstrates that our personal identity is not a static essence but rather a dynamic process shaped by experience and learning. This has implications for understanding self-awareness, memory, and cognitive processes.",
+    "expert": "Brain plasticity suggests that personal identity is not a fixed essence but an ongoing process influenced by neurobiological, psychological, and social factors. This challenges traditional notions of selfhood and highlights the role of experience in shaping individual consciousness and identity. It also raises philosophical questions about free will, determinism, and the nature of consciousness, connecting to fields such as neuroscience, philosophy of mind, and social psychology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The brain's ability to rewire itself through experience challenges the notion of personal identity as a fixed essence.",
+    "source_chunk": 102,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

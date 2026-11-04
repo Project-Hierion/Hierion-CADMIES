@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "learning_dynamics",
+  "title": "Learning Dynamics",
+  "definition": "The interaction and interplay between low-level reflexive learning and high-level strategic learning in a complex system.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.569502Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.569502Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine learning to ride a bike. At first, you focus on controlling your balance and pedaling. Over time, you learn to combine these skills with strategies like knowing when to speed up or slow down. This conversation discusses a similar learning process in a machine.",
+    "intermediate": "The discussion revolves around the dynamics between two sub-systems (Subactor-0 and Subactor-1) representing low-level and high-level learning. Subactor-0 learns low-level tasks with confidence, while Subactor-1 is still exploring and learning its strategy. The learning dynamics reflect the balance and interaction between these two sub-systems.",
+    "expert": "The learning dynamics discussed in the conversation highlight the complex interplay between low-level reflexive learning (Subactor-0) and high-level strategic learning (Subactor-1). This interaction is a manifestation of the exploration-exploitation trade-off, where Subactor-0 explores the environment and collects data for Subactor-1 to build a world model. Subactor-1 then uses this model to make decisions, leading to a feedback loop that influences Subactor-0's learning. This dynamic is akin to the learning dynamics observed in human development and has been studied extensively in the field of reinforcement learning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals the dynamic interplay between low-level reflexive learning and high-level strategic learning, highlighting the exploration-exploitation trade-off and its impact on the learning dynamics of a complex system.",
+    "source_chunk": 136,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

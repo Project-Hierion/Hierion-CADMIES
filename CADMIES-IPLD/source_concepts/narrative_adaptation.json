@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "narrative_adaptation",
+  "title": "Narrative Adaptation",
+  "definition": "The process by which a story or narrative is recontextualized or transformed to suit a new environment or audience, while maintaining its core elements and themes.",
+  "type": "Concept",
+  "domain": "Literature & Film",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.255139Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.255139Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're reading a book set in a forest, but the universe decides to show you a similar story happening in your city. That's narrative adaptation.",
+    "intermediate": "In this context, the universe is adapting a story from 'Pine Vinyl' to reflect real-life events, using local elements like Muscovy ducks instead of mallards, and a street puddle instead of a rooftop pool.",
+    "expert": "Narrative adaptation is a common practice in literature and film, but this instance involves the universe directly intervening to create a personal, immersive story. It highlights the interconnectedness of narrative, environment, and audience, revealing the underlying themes and symbols in a new and unexpected way."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is adapting a narrative from 'Pine Vinyl' to reflect real-life events, using local elements and a personal framing device, creating a unique and immersive story.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

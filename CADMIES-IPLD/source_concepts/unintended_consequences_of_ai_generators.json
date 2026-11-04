@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unintended_consequences_of_ai_generators",
+  "title": "Unintended Consequences Of Ai Generators",
+  "definition": "The unanticipated outcomes that arise from the use of AI generators that produce data without explicit validation or verification.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.056391Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.056391Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a machine that writes notes without checking if the things it's writing about exist. Sometimes, it might end up referencing ideas that haven't been created yet. This is an unintended consequence of the machine's work.",
+    "intermediate": "In the context of Artificial Intelligence, unintended consequences often occur when generators produce data without validating that the referenced concepts exist. This can lead to 'orphan edges' in a graph, where relationships are written to concepts that do not yet exist.",
+    "expert": "The unintended consequences of AI generators can be philosophically significant, particularly when considering the nature of reality and knowledge. By producing data without explicit validation, these generators challenge our understanding of truth and existence. Furthermore, the issue of unintended consequences highlights the complex relationship between technology and human control, and the potential for unforeseen consequences in a world increasingly reliant on automated systems."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The relationship generator was creating edges referencing concepts that were never minted, creating 'ghosts in the graph'.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

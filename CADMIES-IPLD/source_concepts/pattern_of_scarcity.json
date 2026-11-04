@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "pattern_of_scarcity",
+  "title": "Pattern Of Scarcity",
+  "definition": "The concept of understanding and manipulating patterns of finite resources or scarcity to find fractions and optimize a system.",
+  "type": "Concept",
+  "domain": "Philosophy, Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.283396Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.283396Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a puzzle. Sometimes, by seeing how things fit together, we can make more out of less. This is about recognizing these patterns and using them to navigate our resources wisely.",
+    "intermediate": "Patterns of scarcity can be analyzed across different metaphysical concepts. By identifying connections and patterns, we can leverage these insights to find fractions in a system with finite resources. This concept builds upon the Law of Conservation of Energy and Occam's Razor, emphasizing simplicity and efficiency.",
+    "expert": "The pattern of scarcity is a philosophical exploration of the interconnectedness of finite resources and metaphysical concepts. By understanding these patterns, we can optimize a system's efficiency and resilience. This concept challenges the traditional understanding of scarcity as a constraint and instead highlights its potential as a creative force. It also connects to fields such as complexity science, where understanding patterns in complex systems can lead to innovative solutions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding patterns of scarcity allows us to see opportunities where there appear to be none, leading to fractions and optimization of a system with finite resources.",
+    "source_chunk": 95,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "energy_conservation_law",
+  "title": "Energy Conservation Law",
+  "definition": "A fundamental principle in physics stating that the total energy in an isolated system remains constant; energy can neither be created nor be destroyed, but it can only change forms.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.771232Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.771232Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about energy like a coin. A coin can't be created or destroyed, it can only change hands or its form. Same with energy. It just changes forms.",
+    "intermediate": "Energy conservation law, a cornerstone of physics, asserts that in a closed system, the total energy remains constant over time. This principle underlies many areas of physics, including thermodynamics and quantum mechanics.",
+    "expert": "The energy conservation law is an expression of the conservation of energy, a fundamental aspect of Noether's theorem which connects symmetries to conserved quantities. This law has profound philosophical implications, as it suggests that the universe follows a fixed set of rules. It also has significant connections to other fields such as mathematics (Noether's theorem) and economics (energy and resources)."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that energy can neither be created nor destroyed, but only transformed, is a foundational concept in physics and has deep philosophical implications.",
+    "source_chunk": 61,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

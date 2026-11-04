@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "buttercups_learning_progress",
+  "title": "Buttercups Learning Progress",
+  "definition": "The development of Buttercup's skills in playing the game Breakout, as demonstrated in her rollout videos.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence & Child Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.074386Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.074386Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a little girl trying to hit a ball. She's trying her best, but sometimes she misses. That's what we're seeing in the videos of Buttercup playing Breakout. She's learning and getting better with each try.",
+    "intermediate": "Buttercup's progress in playing Breakout is a fascinating study in child development and AI. The rollout videos show her intent without coordination, much like a toddler swatting at bubbles. Each video provides insights into her learning curve and the strategies she's adopting.",
+    "expert": "Buttercup's learning progress in playing Breakout is a rich intersection of artificial intelligence and child development. It provides insights into the role of intent and coordination in learning complex tasks. Moreover, it highlights the potential of AI in understanding and facilitating child development, as well as the ethical implications of using AI in such a context."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Buttercup's learning progress in playing Breakout highlights the role of intent and coordination in learning complex tasks, providing insights into both artificial intelligence and child development.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

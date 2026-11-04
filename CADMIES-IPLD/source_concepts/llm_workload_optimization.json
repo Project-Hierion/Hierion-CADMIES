@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "llm_workload_optimization",
+  "title": "Llm Workload Optimization",
+  "definition": "The strategic distribution of tasks among different LLM models to optimize computational resources and achieve the best results.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.881310Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.881310Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like dividing work among three helpers in a store: one for quick tasks, one for heavy lifting, and one for deep thinking.",
+    "intermediate": "This concept involves understanding the capabilities of different Large Language Models (LLMs) and assigning tasks accordingly to maximize efficiency and accuracy.",
+    "expert": "LLM Workload Optimization is a philosophical exploration of the trade-offs between speed, accuracy, and resource consumption in AI. It has implications for the future of distributed computing and the role of specialized models in a digital mycelium."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the strategic use of different LLM models to optimize the workflow of a digital mycelium, highlighting the importance of resource management and task specialization in AI systems.",
+    "source_chunk": 27,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

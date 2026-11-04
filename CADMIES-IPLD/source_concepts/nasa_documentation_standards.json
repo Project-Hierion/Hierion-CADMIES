@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nasa_documentation_standards",
+  "title": "Nasa Documentation Standards",
+  "definition": "A set of guidelines and rules for creating scientific documentation that adheres to NASA standards.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.265831Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.265831Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're writing a school report. NASA documentation standards are like the rules and format your teacher expects, but for professional, space-related documents.",
+    "intermediate": "NASA documentation standards are a set of guidelines for creating professional-grade scientific documentation. This includes specific rules for formatting, metadata, and version control.",
+    "expert": "NASA documentation standards are a well-established set of guidelines that ensure clarity, reliability, and consistency in scientific documentation. These standards have philosophical implications for the role of documentation in scientific communication and have been adopted by many other organizations. The standards' emphasis on evidence-based documentation also connects to broader debates about the nature of scientific knowledge and the role of opinion."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of standardized documentation in scientific communication and the potential philosophical implications of these standards.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

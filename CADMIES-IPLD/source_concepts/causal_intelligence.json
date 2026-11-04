@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "causal_intelligence",
+  "title": "Causal Intelligence",
+  "definition": "A form of AI that simulates causal relationships across various domains, enabling the discovery of unconventional solutions by exploring the latent space of possibilities.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.439600Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.439600Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine an AI that works like a real-life detective. It figures out what causes what, not just what matches what. This helps it come up with unexpected solutions.",
+    "intermediate": "Causal intelligence is an AI that operates as a causal simulator. It can analyze a situation, identify causal nodes, and search for interventions that maximize a desired outcome while minimizing any negative effects.",
+    "expert": "Causal intelligence represents a paradigm shift in AI. It operates by simulating the physical world, exploring causal relationships and potential interventions. By transcending human categories and preconceptions, it can discover unexpected solutions that challenge established knowledge. This novel approach has philosophical implications for the nature of discovery and understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The AI discovered the use of vinegar in a rocket fuel system through causal simulation, instead of relying on pre-existing knowledge or human categories.",
+    "source_chunk": 88,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

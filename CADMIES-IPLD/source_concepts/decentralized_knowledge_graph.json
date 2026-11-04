@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_knowledge_graph",
+  "title": "Decentralized Knowledge Graph",
+  "definition": "A distributed network of nodes that can be queried to build a knowledge graph.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.590791Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.590791Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of CADMIES as a collection of digital libraries that can be searched together. Each library focuses on a specific area of knowledge, and by combining them, you can explore connections and insights that weren't possible before.",
+    "intermediate": "The decentralized knowledge graph is built by querying CADMIES nodes that have made their data publicly visible. The graph is constructed by connecting concepts based on their relationships and shared attributes, allowing for complex queries across the network.",
+    "expert": "The use of a common structure for scientific/philosophical knowledge (UniversalScientificConcept schema) enables interoperability across nodes. Content-addressed references (CIDs) and evidence management techniques ensure the integrity and verifiability of the data in the graph."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of a common structure for scientific/philosophical knowledge to enable interoperability across nodes.",
+    "source_chunk": 63,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

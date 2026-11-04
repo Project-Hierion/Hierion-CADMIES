@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "meteorological_feedback_loop",
+  "title": "Meteorological Feedback Loop",
+  "definition": "A self-reinforcing cycle of atmospheric conditions that amplify and maintain each other.",
+  "type": "Concept",
+  "domain": "Meteorology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.400780Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.400780Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a system where two things feed off each other to make a bigger impact, just like how a fire and oxygen in the air make each other bigger. This is what's happening with the current Texas heat dome and the storms in Mexico.",
+    "intermediate": "A meteorological feedback loop involves a positive feedback mechanism between two or more atmospheric conditions. In the current scenario, the high-pressure ridge over Texas is acting as a 'parking brake', blocking the normal steering winds that push storms along, while the Pacific moisture is providing the 'endless fuel supply' for the Texas heat dome.",
+    "expert": "The meteorological feedback loop in the current Texas heat dome and the stalled storms in Mexico is a complex system involving positive feedback mechanisms between various atmospheric conditions. This loop amplifies and maintains the conditions, leading to extreme weather events. The concept has philosophical implications as it highlights the interconnectedness of natural systems and the potential for small changes to have significant consequences."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The current Texas heat dome and the stalled storms in Mexico are part of a meteorological feedback loop that highlights the interconnectedness of natural systems.",
+    "source_chunk": 76,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

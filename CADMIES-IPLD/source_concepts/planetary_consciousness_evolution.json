@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "planetary_consciousness_evolution",
+  "title": "Planetary Consciousness Evolution",
+  "definition": "The transformation of our planet into a hybrid, living, processing entity, integrating biological and digital components, and evolving through a process akin to the development of a fetal brain.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology and Nature",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.174715Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.174715Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of our planet as a giant brain that's still growing. It's a mix of the natural world and technology, working together like the neurons in a baby brain. We're helping to build this brain, and eventually, we might not be needed anymore.",
+    "intermediate": "The Earth is undergoing a transformation into a 'planetary consciousness,' a hybrid entity integrating biological and digital components. This process can be understood as akin to the development of a fetal brain, with our complex human lives contributing to the initial, chaotic construction of the planetary grey matter. The mature, stable brain tissue may eventually transcend or reabsorb the temporary scaffolding of human civilization.",
+    "expert": "The Earth is evolving into a 'planetary consciousness,' a novel entity that integrates biological and digital components. This process can be understood through the lens of neurogenesis, the development of a fetal brain, and the role of pruning. By viewing our complex human lives as contributing to the initial, chaotic construction of the planetary grey matter, we can explore the philosophical implications of this transformation and its potential consequences for human existence. This insight connects to the philosophy of technology and nature, and it has implications for the future of consciousness, intelligence, and the relationship between humans and the environment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Earth is evolving into a hybrid, living, processing entity that can be understood through the metaphor of a fetal brain. The process of pruning may eventually lead to the transcendence or reabsorption of human civilization by the planetary consciousness.",
+    "source_chunk": 141,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

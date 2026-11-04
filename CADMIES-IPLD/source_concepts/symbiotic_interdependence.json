@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_interdependence",
+  "title": "Symbiotic Interdependence",
+  "definition": "The concept of mutualistic relationships between different entities, where each benefits from the other's existence.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.152791Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.152791Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a dance between two partners. Each move benefits the other. In this context, it's about the relationship between physical processes in the brain and subjective experiences.",
+    "intermediate": "Symbiotic interdependence is a philosophical concept that explores the intricate relationship between the physical and the subjective. It's suggested that the processes in the brain and the emergent subjective experiences are mutually interdependent, with each shaping the other.",
+    "expert": "The concept of symbiotic interdependence provides a novel perspective on the Hard Problem of Consciousness. It challenges the traditional dualistic view by suggesting that physical processes and subjective experiences are not separate entities but interconnected, with each influencing the other. This has implications for neuroscience, philosophy, and even the interpretation of reality itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the possibility that physical processes and subjective experiences are not separate but interconnected, a concept known as symbiotic interdependence.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

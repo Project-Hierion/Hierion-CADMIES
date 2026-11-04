@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_world_model",
+  "title": "Hierarchical World Model",
+  "definition": "A world model that consists of multiple interconnected levels or hierarchies, each processing and understanding different aspects of the environment.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.359906Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.359906Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a computer game where each character has their own understanding of the world. The main character might see objects and people, a supporting character might understand patterns of movement, and a third character might perceive long-term goals. This is a simple version of a hierarchical world model.",
+    "intermediate": "A hierarchical world model is a complex system that uses multiple levels of abstraction to understand and predict the environment. Each level, or hierarchy, processes and interprets data at a different scale. This allows the model to handle complex and uncertain situations more effectively than a flat model.",
+    "expert": "Hierarchical world models are a novel application of hierarchical recursive state-space models (RSSM) and deep recurrent neural networks (RNNs). They enable the model to learn long-term dependencies, handle uncertainty, and generate coherent and plausible predictions. Hierarchical world models have been successfully used in various fields, including robotics, game AI, and human-robot interaction. However, they face challenges such as scalability, interpretability, and sample efficiency."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel observation from the conversation is that the Snagnar HIEROS world model utilizes a hierarchical structure to process and understand the environment, which is a unique and effective approach.",
+    "source_chunk": 51,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

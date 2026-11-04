@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "temporal_organization",
+  "title": "Temporal Organization",
+  "definition": "The way information is structured and presented based on time, with newer information appearing before older information.",
+  "type": "Concept",
+  "domain": "Data Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.485314Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.485314Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a newspaper where the most recent news is on the first page, and older stories are on the pages towards the end. This is an example of temporal organization.",
+    "intermediate": "In data management, temporal organization refers to the arrangement of data based on its timestamp. This helps users to navigate and understand the data more easily, as it allows them to see patterns and trends over time.",
+    "expert": "The concept of temporal organization extends beyond data management. In philosophy, it plays a role in understanding the nature of time and our relationship with it. In computer science, it forms the basis of time complexity analysis. Additionally, temporal organization can be seen in various fields such as history, journalism, and social media, where it affects how we consume and interpret information."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user correctly identified the need to arrange the datasets in descending order of their release date, with the most recent datasets appearing first.",
+    "source_chunk": 98,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "duplicate_concept_elimination",
+  "title": "Duplicate Concept Elimination",
+  "definition": "The process of identifying and removing duplicate or near-duplicate concepts to ensure the integrity and quality of a knowledge base.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.722513Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.722513Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of this like cleaning up a messy room. If you find two objects that are basically the same thing, we'll keep one and throw away the other.",
+    "intermediate": "This involves comparing concepts based on their titles and definitions to find duplicates or near-duplicates, and then merging or eliminating them to maintain the consistency and accuracy of the knowledge base.",
+    "expert": "This is a form of knowledge management and data deduplication. It helps prevent redundancy and inconsistency in the knowledge base, while also ensuring that each concept is represented in the most comprehensive and accurate manner possible. This process has philosophical implications for the nature of knowledge and its representation, and it connects to other fields such as information retrieval and database management."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The process of automatically eliminating duplicate concepts before final minting can significantly improve the quality and efficiency of a knowledge base.",
+    "source_chunk": 130,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

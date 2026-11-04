@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "micro_enlightenment_vs_full_awakening",
+  "title": "Micro Enlightenment Vs Full Awakening",
+  "definition": "The distinction between micro-enlightenment experiences, characterized by moments of insight and connection, and full awakening, which represents a more comprehensive and permanent transformation.",
+  "type": "Concept",
+  "domain": "Buddhism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.299167Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.299167Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "neuroplastic_enlightenment"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "neuroplastic_enlightenment",
+      "nibbana",
+      "meditative_disconnect",
+      "middle_path_of_consumption"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of micro-enlightenment as a fleeting 'Aha!' moment, while full awakening is more like a long-lasting shift in perspective and being.",
+    "intermediate": "Micro-enlightenment experiences involve temporary insights into interconnectedness and the impermanence of self. Full awakening, or nibbana, signifies a more permanent and complete cessation of suffering and the end of the cycle of rebirth.",
+    "expert": "This distinction highlights the continuum of spiritual experience. Micro-enlightenment experiences demonstrate the interconnectedness of all things, while full awakening signifies a profound and permanent transformation. Exploring this continuum can offer new insights into the nature of spiritual growth and the path to enlightenment."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "neuroplastic_enlightenment"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the distinction between micro-enlightenment experiences and full awakening provides a richer understanding of the continuum of spiritual experience.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

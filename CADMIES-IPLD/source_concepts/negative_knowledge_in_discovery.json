@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "negative_knowledge_in_discovery",
+  "title": "Negative Knowledge In Discovery",
+  "definition": "The power and importance of knowledge that something is not, in the scientific discovery process.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.207018Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.207018Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine that every time we fail to find a certain thing, we're actually getting closer to understanding it. That's because each failure tells us more about what it's not. This 'negative knowledge' is just as important as knowing what something is.",
+    "intermediate": "Negative knowledge, or the process of elimination, plays a fundamental role in scientific discovery. It's about recognizing what something is not, which can guide researchers to find out what it is. This concept is closely related to falsifiability in the scientific method.",
+    "expert": "Negative knowledge provides a foundation for scientific inquiry and contributes to its cumulative nature. It reflects the open-endedness of scientific knowledge, as new discoveries can challenge existing theories. Negative knowledge also highlights the interconnectedness of different fields, as unresolved mysteries in one area may be linked to puzzles in another. This insight has philosophical implications for the demarcation problem and the nature of scientific knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The process of elimination, or negative knowledge, is a powerful form of knowledge that guides scientific discovery and helps to shape the map of our understanding of the universe.",
+    "source_chunk": 111,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

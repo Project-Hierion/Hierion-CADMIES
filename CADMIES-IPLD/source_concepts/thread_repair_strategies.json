@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "thread_repair_strategies",
+  "title": "Thread Repair Strategies",
+  "definition": "Different approaches to repair damaged threads in a vehicle component, including using a thread repair kit and replacing the entire component.",
+  "type": "Concept",
+  "domain": "Mechanics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.421721Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.421721Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to tighten a bolt into a nut that has been stripped. You can either clean and repair the nut with a kit (like adding new teeth), or replace the entire nut. Both options have their pros and cons.",
+    "intermediate": "Thread repair strategies involve using a thread repair kit to clean and create new threads in a damaged component, or replacing the entire component with a new one. The choice between these strategies depends on the cost, complexity, and availability of parts.",
+    "expert": "The choice between thread repair strategies and component replacement is a long-standing problem in mechanics and manufacturing. Thread repair kits, such as thread inserts, have been developed as a cost-effective alternative to replacing components. However, their success depends on factors such as the specific repair kit, the initial damage to the threads, and the stresses that the component will experience. Replacing the component provides a guaranteed solution but is often more expensive and time-consuming."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discussion highlights the trade-offs between using a thread repair kit and replacing a damaged component, with considerations for cost, complexity, and stress on the repaired component.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

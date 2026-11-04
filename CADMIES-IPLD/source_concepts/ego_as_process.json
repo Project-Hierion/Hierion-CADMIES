@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ego_as_process",
+  "title": "Ego As Process",
+  "definition": "Insight that the ego is not a concrete thing, but a process or habit that arises from thoughts and sensations.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.130089Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.130089Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the ego like a sandcastle. It's built from our thoughts and feelings, and it can crumble just as easily as it forms.",
+    "intermediate": "The ego is a verb that pretends to be a noun. It's a process of self-assembling that occurs through thoughts and sensations, not a stable, solid entity.",
+    "expert": "The ego is an illusion that arises from the mind's need to make sense of experiences. It's a habit that forms from thoughts and sensations, and it can be witnessed and understood as a process, not a thing. This insight has implications for understanding the nature of consciousness and the self, and it connects to other philosophical concepts like the mind-body problem and the nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ego is not a stable, solid entity, but a process that forms from thoughts and sensations.",
+    "source_chunk": 123,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

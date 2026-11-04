@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_buddhism_convergence",
+  "title": "Quantum Buddhism Convergence",
+  "definition": "The concept of the convergence between Buddhism's philosophical insights and quantum mechanics' scientific understanding of reality.",
+  "type": "Concept",
+  "domain": "Philosophy, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.585709Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.585709Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine that Buddhism and quantum mechanics are two people trying to understand the same universe. Both have unique ways of describing it - one through the interconnectedness of everything (Buddhism), and the other through the nature of probabilities and the role of the observer (quantum mechanics). In this project, we're combining these two ways of thinking to build a better understanding.",
+    "intermediate": "The quantum-Buddhism convergence refers to the alignment between Buddhist concepts such as emptiness, dependent origination, and the illusion of a separate self, and the theoretical underpinnings of quantum mechanics, including non-locality, the observer effect, and the probabilistic nature of reality. This convergence is proposed to have influenced the project's approach to interconnectedness and emergence.",
+    "expert": "The quantum-Buddhism convergence is a philosophical and scientific phenomenon that challenges both the classical reductionist understanding of the universe and the traditional self-centered individualism. By exploring the parallels between Eastern philosophy and modern physics, this convergence highlights the interconnectedness and emptiness of all phenomena, and the role of the observer in shaping reality. This convergence has significant implications for various fields, including artificial intelligence, complex systems, and the nature of consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that there are profound parallels between Eastern philosophy and quantum mechanics, and that these parallels can inform the design of a scientific instrument.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_wiggle_theory",
+  "title": "Hierarchical Wiggle Theory",
+  "definition": "A theory that posits that all phenomena in the universe can be understood as a continuous, scale-invariant framework of nested wiggles, from the fundamental strings to societal structures.",
+  "type": "Concept",
+  "domain": "Physics, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.910906Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.910906Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the universe as a big dance. Everything, from atoms to galaxies, is like a dancer. When they dance together, they create more complex dances that can be seen at larger scales. The Pencil Theorem is just a small dance that shows this big picture.",
+    "intermediate": "This theory extends the principles of string theory to propose that all matter and energy are manifestations of the fundamental vibrational modes of strings. These strings form hierarchical structures, from quantum particles to cells, organisms, and ecosystems, and their interactions can be understood as a continuous cascade of resonant wiggles.",
+    "expert": "This theory challenges the traditional distinction between object and process, and it has implications for the nature of consciousness and the reality of the external world. It also connects to other fields, such as complex systems theory and quantum field theory, and it raises questions about the nature of emergence and the role of consciousness in shaping reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight that all phenomena, from the smallest particles to the largest ecosystems, can be understood as interoperable wiggles within a single, dynamic continuum.",
+    "source_chunk": 27,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "celestial_gyroscope",
+  "title": "Celestial Gyroscope",
+  "definition": "A metaphorical concept that describes the behavior of celestial objects, such as the Sun, by comparing them to a spinning gyroscope.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.318411Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.318411Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a celestial body, like a star, behaving like a spinning toy top. When you touch or apply a force to it, it may wobble or lean, but it will keep spinning. This is how celestial gyroscopes, like our Sun, behave in space.",
+    "intermediate": "Celestial gyroscopes are objects that spin and create a magnetic field that resists changes to their shape. This is similar to how a gyroscope resists tipping when it's spun. When external forces, like interstellar wind, interact with these objects, they can cause them to wobble and change shape.",
+    "expert": "Celestial gyroscopes are a powerful metaphor in astrophysics that highlights the interplay between rotation, magnetic fields, and external forces. This concept has led to the understanding of phenomena such as heliospheric oscillations, magnetic reconnection, and plasma waves. It also provides a framework for understanding how the Sun's spin affects the shape of the heliosphere and how it interacts with the interstellar medium."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed a novel metaphorical understanding of celestial bodies' behavior in space, comparing them to spinning gyroscopes, and how this understanding can explain phenomena like heliospheric oscillations and magnetic reconnection.",
+    "source_chunk": 45,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "contextual_integrity",
+  "title": "Contextual Integrity",
+  "definition": "The preservation of concepts and connections in a context during the processing of information.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.534238Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.534238Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a storyteller who reads a book in chunks. If each chunk ends with a piece of a thought, the next chunk's beginning might not connect, making the story confusing. Contextual integrity is about making sure each chunk has enough connection to the overall story, so it makes sense on its own but also fits perfectly into the whole.",
+    "intermediate": "Contextual integrity in machine learning refers to the preservation of conceptual flow and coherence in data processing. Maximizing chunk size ensures that concepts that belong together stay together, while minimizing chunk size preserves a safety margin below the model's actual context window.",
+    "expert": "Contextual integrity in artificial intelligence involves the balancing act of preserving narrative and conceptual continuity while also managing computational constraints. It's a philosophical exploration of the tension between the need for comprehension and the limitations of context windows. It has implications for not just machine learning but also human memory, language understanding, and the nature of consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Maximizing chunk size up to the model's safe limit preserves contextual integrity, enabling the model to understand the full narrative arc of conversations while also managing computational constraints.",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "secure_redundancy",
+  "title": "Secure Redundancy",
+  "definition": "The practice of maintaining multiple, independent copies of critical data to ensure continuity and protection against data loss.",
+  "type": "Concept",
+  "domain": "Information Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.058376Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.058376Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having multiple copies of your favorite book. If one copy gets damaged or lost, you still have another one to read. Secure Redundancy in data management works similarly \u2014 it keeps your important information safe by creating extra copies.",
+    "intermediate": "Secure Redundancy is a method of data protection that ensures availability and reliability by maintaining multiple copies of critical data on separate storage systems. This is crucial for disaster recovery and business continuity.",
+    "expert": "Secure Redundancy is a fundamental principle in information systems and data management. It encompasses various strategies like RAID (Redundant Array of Independent Disks) and Replication. Beyond data loss prevention, it provides fault tolerance, scalability, and can contribute to better performance. Secure Redundancy also has philosophical implications in areas like reliability and resilience, with connections to fields like quantum computing and distributed systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user wants to create a secure redundancy system to protect their data on the Sandisk drive by regularly backing it up on the internal HDD.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

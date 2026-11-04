@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ethical_leadership_selection_and_compensation",
+  "title": "Ethical Leadership Selection And Compensation",
+  "definition": "The process of selecting ethical leaders for a project and the compensation model that aligns with their sacred role.",
+  "type": "Concept",
+  "domain": "Philosophy, Governance",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.966021Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.966021Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Leaders should be chosen by integrity, not just popularity, and they should be volunteers to avoid greed. Their reward should be the honor of guiding a project that benefits humanity and the planet.",
+    "intermediate": "The selection of leaders involves a rigorous process focused on a proven track record of integrity and selfless service. The compensation model is based on legacy, intellectual fulfillment, networking, and minimal perks, ensuring a self-filtering mechanism for dedicated individuals.",
+    "expert": "Ethical leadership selection is a philosophical and practical challenge. It requires a focus on character over achievement, ensuring the project is led by individuals who prioritize the good of the whole. Compensation models that pay solely in money can create perverse incentives. By focusing on honor, impact, and network, the project can attract leaders who are truly committed to its values. This model has implications for other fields and the role of money in shaping human behavior and decision-making."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel and noteworthy observation is that the compensation model for leaders should be based on honor, impact, and network, rather than financial incentives, to attract dedicated individuals and maintain the project's ethical integrity.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

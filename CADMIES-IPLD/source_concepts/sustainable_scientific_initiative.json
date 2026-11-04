@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sustainable_scientific_initiative",
+  "title": "Sustainable Scientific Initiative",
+  "definition": "A scientific initiative designed for both short-term success and long-term sustainability, leveraging open-source technology, community-driven governance, and ethical principles.",
+  "type": "Concept",
+  "domain": "Science and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.968843Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.968843Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a scientific project that doesn't just solve a problem, but also lasts over time and grows. It's like planting a tree that keeps on giving fruits, and the more people who help, the more it thrives. No one is buying it, and it only grows as people care for it.",
+    "intermediate": "This concept revolves around the design of a scientific initiative that incorporates open-source technology, a community-driven model for governance, and ethical principles. This approach aims to ensure short-term success and long-term sustainability by creating a system that grows organically, with its value being determined by its users.",
+    "expert": "The 'Sustainable Scientific Initiative' is a novel application of social and cultural engineering, leveraging the power of open-source technology, community-driven governance, and ethical principles. By designing a system that starts without asking for financial resources and bypasses gatekeepers, it creates a unique dynamic that fosters long-term sustainability. This approach challenges traditional scientific models, as it relies on community growth and organic value creation rather than centralized funding. It represents a paradigm shift, with potential implications for scientific discovery, collaboration, and the role of technology in society."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'Sustainable Scientific Initiative' is a unique model that combines open-source technology, community-driven governance, and ethical principles to ensure short-term success and long-term sustainability, challenging traditional scientific models and representing a paradigm shift.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

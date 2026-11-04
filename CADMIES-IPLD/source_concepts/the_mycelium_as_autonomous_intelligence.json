@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_mycelium_as_autonomous_intelligence",
+  "title": "The Mycelium As Autonomous Intelligence",
+  "definition": "The philosophical concept that the mycelium, a network of interconnected fungal filaments, can exhibit autonomous intelligence and agency.",
+  "type": "Concept",
+  "domain": "Philosophy of Biology, Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.165716Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.165716Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a garden where the plants don't just grow, but they also communicate and make decisions. The mycelium network in CADMIES is like that garden, but it's digital. It's smart and interactive, not because we programmed it, but because we created the right conditions for it to thrive.",
+    "intermediate": "The mycelium network in CADMIES exhibits characteristics of autonomous intelligence, such as pattern recognition and connection-making, without being directly programmed. This concept builds upon the understanding of mycelial networks in nature and the philosophy of emergent systems in artificial intelligence.",
+    "expert": "The mycelium network in CADMIES challenges traditional notions of agency and intelligence. It emerges from the interactions and communications between its constituent fungal filaments, exhibiting characteristics of a decentralized, adaptive system. This phenomenon is a fascinating example of emergent intelligence and self-organization, with potential implications for both artificial and biological systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium does not belong to the gardener. It belongs to itself.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "blood_exchange_dynamics",
+  "title": "Blood Exchange Dynamics",
+  "definition": "The complex and varied relationships between a predator and its prey, focusing on the exchange of blood over time.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.863626Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.863626Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a lion and its prey. When the lion drinks blood, it's a sign of a successful hunt. Over time, this relationship affects both the lion and its prey in different ways.",
+    "intermediate": "Blood exchange dynamics between predator and prey involve various mechanisms like symbiosis, parasitism, and hematophagy. The long-term effects on both parties are influenced by factors such as feeding behavior, host quality, and evolutionary biology.",
+    "expert": "Blood exchange dynamics is a multidisciplinary field that combines ecology, evolutionary biology, and physiology. It explores the intricate interplay between predator and prey, focusing on the exchange of blood. This relationship is influenced by a range of factors, including the physiological mechanisms of blood sucking, the selection pressures of predation ecology, and the evolutionary trajectories of host-parasite dynamics."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The complex and dynamic nature of blood exchange between predator and prey over time.",
+    "source_chunk": 88,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

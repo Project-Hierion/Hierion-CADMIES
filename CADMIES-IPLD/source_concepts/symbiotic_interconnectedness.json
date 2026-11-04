@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_interconnectedness",
+  "title": "Symbiotic Interconnectedness",
+  "definition": "The concept of how different entities can form intricate relationships where each benefits from the other, creating a system greater than the sum of its parts.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.996664Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.996664Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "interconnectedness_of_life",
+      "alchemical_insight",
+      "sacred_everyday_continuum"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where all the plants and insects help each other grow. This is symbiotic interconnectedness.",
+    "intermediate": "Symbiotic interconnectedness refers to the mutualistic relationships between entities in a system, where each component benefits from the existence and interactions of the others.",
+    "expert": "Symbiotic interconnectedness is a philosophical concept that highlights the complex web of relationships that exist between entities, leading to a system that is more than the sum of its parts. This concept has been explored in various fields, including biology, sociology, and economics, and it has significant implications for understanding systems and their behavior."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals the interconnectedness of various concepts, suggesting that they form a symbiotic relationship, where each benefits from the other, creating a more comprehensive understanding of the subject matter.",
+    "source_chunk": 70,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

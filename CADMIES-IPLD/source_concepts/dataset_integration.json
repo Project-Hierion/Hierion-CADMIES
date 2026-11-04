@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dataset_integration",
+  "title": "Dataset Integration",
+  "definition": "The process of combining various datasets for more comprehensive and accurate model training.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.463650Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.463650Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're making a really good meal. You can't use just one ingredient, you need a variety to create a delicious dish. Similarly, to train a good machine learning model, you need to use different datasets to make it more capable.",
+    "intermediate": "Dataset integration involves combining various datasets to create a more diverse and representative training set. This can improve the generalizability of the trained model by exposing it to a wider range of data patterns.",
+    "expert": "Dataset integration is a critical aspect of machine learning that not only enhances model performance but also challenges the fundamental assumptions of dataset bias and fairness. It's a complex process that involves dealing with data heterogeneity, noise, and missing values. Furthermore, it raises ethical concerns about data ownership and privacy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance and challenges of dataset integration in machine learning.",
+    "source_chunk": 88,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

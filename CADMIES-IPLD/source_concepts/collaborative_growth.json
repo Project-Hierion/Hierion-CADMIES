@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "collaborative_growth",
+  "title": "Collaborative Growth",
+  "definition": "The concept of a community, project, or organization growing and improving through collaborative efforts and learning from each other.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.234757Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.234757Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden. Plants grow better when they share resources and learn from each other. Similarly, a project thrives when its members pool their strengths and share what they learn.",
+    "intermediate": "Collaborative growth is a sociological concept that focuses on the synergistic development of a group or organization through the collective learning and improvement of its members. It emphasizes the importance of sharing resources, knowledge, and expertise for mutual benefit and continuous learning.",
+    "expert": "Collaborative growth is a complex sociological phenomenon that involves the interplay between individual and collective learning, knowledge sharing, and resource allocation within a group. It can be influenced by various factors such as group size, diversity, communication, and leadership. Additionally, collaborative growth can be studied in the context of other fields such as organizational behavior, innovation management, and network analysis. Ultimately, collaborative growth reflects the philosophical notion of the collective being greater than the sum of its parts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept of collaborative growth is evident in the ongoing development and maintenance of CADMIES, which thrives on the collective learning and improvement of its contributors.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

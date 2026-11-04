@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "integration_challenges",
+  "title": "Integration Challenges",
+  "definition": "A high-level concept exploring the various challenges that arise in the integration of different materials, components, and technologies.",
+  "type": "Concept",
+  "domain": "Manufacturing and Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.159222Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.159222Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to build a perfect lego set, but the instructions are missing for one crucial piece. That missing piece is what we call the integration challenge - it's when different parts or materials don't fit or work together as they should.",
+    "intermediate": "Integration challenges occur when attempting to combine different technologies, such as optical fibers, III-V materials, and silicon or LNOI in the same device. This often results in yield losses and increased costs due to the precision required and the artisanal craft of packaging.",
+    "expert": "The integration challenges discussed in the conversation highlight the complex interplay between physics, engineering, and economics. These challenges not only hinder the commercialization of advanced technologies but also limit their potential applications. Overcoming these challenges could lead to novel insights in material science, manufacturing, and the development of new markets."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration challenges in photonics and manufacturing highlight the interplay between physics, engineering, and economics, and the need for innovative solutions to overcome these barriers.",
+    "source_chunk": 134,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

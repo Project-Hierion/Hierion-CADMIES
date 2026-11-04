@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_finding_out_dynamics",
+  "title": "The Finding Out Dynamics",
+  "definition": "The concept of experiencing significant consequences for a decision, ranging from personal to cosmic in scale.",
+  "type": "Concept",
+  "domain": "Psychology and Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.527937Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.527937Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine making a bad decision and facing the consequences. It could be as small as a bad grade in school or as big as the universe ending. The 'Finding Out' is the feeling and experience of these consequences.",
+    "intermediate": "The 'Finding Out' is a dynamic psychological process that occurs when the consequences of a decision become evident. This can range from emotional and interpersonal consequences to universal and existential consequences. The magnitude of these consequences is defined by the 'Find Out' level.",
+    "expert": "The 'Finding Out' is a multidisciplinary concept that intersects psychology, philosophy, and metaphysics. It refers to the experience of understanding the full implications of a decision, from the personal to the cosmic. The 'Find Out' level is a measure of the intensity of these consequences, which can have profound philosophical implications, such as the nature of existence and the role of decision-making."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'Finding Out' is a dynamic, multidimensional experience that reflects the interplay between personal and universal consequences.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

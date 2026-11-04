@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "subconscious_adaptation",
+  "title": "Subconscious Adaptation",
+  "definition": "The process by which the body, including cells and immune systems, responds to persistent threats or conditions below the level of conscious thought.",
+  "type": "Concept",
+  "domain": "Cognitive_Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.794691Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.794691Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "predatory_inevitability",
+      "ecosystem_as_cohabitation"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your body as a smart machine that's always working even when you're not aware. Sometimes, it adapts to things that happen to it, and these adaptations can happen without your conscious knowledge.",
+    "intermediate": "Subconscious adaptation involves non-conscious processes like cellular signaling and immune system response that allow the body to adapt to long-term threats or conditions. This process operates on evolutionary timescales and can coexist with conscious acceptance of the situation.",
+    "expert": "This concept challenges Cartesian dualism by suggesting that the mind and body are not separate entities, but interconnected systems. Subconscious adaptation is a form of embodied cognition, and it has implications for our understanding of long-term parasitic or predatory relationships. The body's intelligence is non-verbal, non-narrative, and it operates on a different timescale than conscious thought."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The body's ability to adapt to persistent threats or conditions below the level of conscious thought.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

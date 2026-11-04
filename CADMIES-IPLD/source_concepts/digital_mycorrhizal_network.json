@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_mycorrhizal_network",
+  "title": "Digital Mycorrhizal Network",
+  "definition": "A digital representation of a mycorrhizal network where 'concepts' are nodes and their relationships form the edges.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence, Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.359073Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.359073Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The interface is displaying a knowledge network. It's like a digital garden where all the ideas are growing and connecting to each other.",
+    "intermediate": "CADMIES presents a knowledge graph where 'concepts' represent nodes, and their connections and relationships form the edges.",
+    "expert": "CADMIES is a digital mycorrhizal network, where 'concepts' are mycorrhizal fungal networks that form symbiotic relationships with other entities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interface is not fully functional, as indicated by the '?' symbols, suggesting potential limitations in data availability or design choices.",
+    "source_chunk": 45,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

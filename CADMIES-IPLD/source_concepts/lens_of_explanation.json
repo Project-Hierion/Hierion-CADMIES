@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "lens_of_explanation",
+  "title": "Lens Of Explanation",
+  "definition": "The various ways of understanding and explaining phenomena in different disciplines, each with its unique approach and perspective.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.494969Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.494969Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like using different glasses to look at the world. Each glass helps us see certain things clearly while blurring out others.",
+    "intermediate": "The lens of explanation is a philosophical concept that explores how scientists and researchers use different theoretical frameworks to understand and explain phenomena in their respective disciplines.",
+    "expert": "The lens of explanation is a multidisciplinary approach that examines how different epistemologies shape the construction of knowledge in various fields. This concept highlights the interplay between philosophy, history, and social contexts in the evolution of scientific theories."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals a variety of lenses through which different disciplines seek to understand and explain the world.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

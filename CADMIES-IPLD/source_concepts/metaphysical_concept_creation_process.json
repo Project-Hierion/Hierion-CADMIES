@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "metaphysical_concept_creation_process",
+  "title": "Metaphysical Concept Creation Process",
+  "definition": "The process by which new metaphysical concepts are created and added to the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.642397Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.642397Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like cooking a new recipe. A chef (the user) follows a recipe (the tool) to create a dish (the concept) that's new and interesting.",
+    "intermediate": "The metaphysical concept creation process involves defining a new concept, assigning it a type, domain, and subdomain, and providing a description. This process leverages a CID generator tool to assign a unique identifier to the concept and store it in the system.",
+    "expert": "The metaphysical concept creation process is a philosophical exploration of the boundaries of knowledge and understanding. It challenges the traditional notions of truth and reality, as it allows for the creation of concepts that may not have been previously considered. Furthermore, the process of creating metaphysical concepts highlights the interdisciplinary nature of knowledge, connecting philosophy, science, and technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The metaphysical concept creation process is a novel exploration of the boundaries of knowledge and understanding, challenging traditional notions of truth and reality, and highlighting the interdisciplinary nature of knowledge.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

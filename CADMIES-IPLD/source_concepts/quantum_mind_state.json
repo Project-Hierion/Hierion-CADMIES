@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_mind_state",
+  "title": "Quantum Mind State",
+  "definition": "The concept that merges the phenomena of quantum superposition and entanglement with the state of mind that experiences the world as a blurred, unified field.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.704816Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.704816Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your mind as a filter that normally shapes the world into clear, separate objects. But when you focus less, the filter becomes thin and lets in more noise\u2014a sense of everything merging into one.",
+    "intermediate": "Quantum superposition and entanglement suggest that at the fundamental level, reality is indeterminate and interconnected. This concept merges these quantum phenomena with the state of mind that allows for a blurred, merged visual field.",
+    "expert": "The quantum mind state challenges the traditional view of mind-body dualism. It suggests that our everyday perception is an act of collapsing the wave function of the universe into a classical, object-based world. This state of mind allows for a direct experience of the underlying unity that quantum physics describes. It also has philosophical implications for the nature of consciousness and the role of observation in shaping reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The experience of a blurred, unified visual field during moments of diffuse attention mirrors the structure of objective reality as described by quantum physics.",
+    "source_chunk": 120,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

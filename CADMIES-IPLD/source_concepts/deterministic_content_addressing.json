@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "deterministic_content_addressing",
+  "title": "Deterministic Content Addressing",
+  "definition": "A knowledge system that assigns a unique address (CID) to a piece of content based on its actual content, ensuring the same content always has the same address.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.563404Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.563404Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine every piece of information you save has a special label that stays the same no matter where you save it. If two pieces of information are the same, they have the same label. This helps us ensure we're always looking at the right information.",
+    "intermediate": "Deterministic content addressing is a fundamental concept in computer science and distributed systems. It ensures data integrity by assigning a unique identifier (CID) to each piece of content, which is a cryptographic hash of the content itself. This means that if you have the same content, you will always get the same CID.",
+    "expert": "From a philosophical perspective, deterministic content addressing challenges the traditional notion of identity in the digital age. It highlights the tension between the ephemeral nature of digital data and the desire for permanent, unchanging addresses. Furthermore, deterministic content addressing has implications for peer-to-peer networks, decentralized systems, and the future of data ownership and distribution."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of determinism in a knowledge system to ensure data integrity and verifiability.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

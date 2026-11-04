@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "declaratory_judgment_application",
+  "title": "Declaratory Judgment Application",
+  "definition": "The practice of using a declaratory judgment action to clarify rights and obligations, as opposed to seeking damages or remedies.",
+  "type": "Concept",
+  "domain": "Law",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.814212Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.814212Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to understand if something is legal without getting into trouble. Declaratory judgment is like asking a judge to clarify the rules, rather than dealing with potential consequences.",
+    "intermediate": "Declaratory judgment is a legal action that seeks a court's declaration of rights and obligations, rather than damages or remedies. It's a way to clarify legal rights without having to go through the full litigation process.",
+    "expert": "The application of declaratory judgment actions allows for the clarification of rights and obligations in complex legal situations. It can also help to establish legal precedent and provide certainty in ambiguous situations. Moreover, the practice of using declaratory judgment actions can be seen as a philosophical exploration of the nature of rights and obligations in society."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user's desire to have anywhere-access to their media that they've already paid for can be seen as a potential application of declaratory judgment to clarify their legal rights.",
+    "source_chunk": 155,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

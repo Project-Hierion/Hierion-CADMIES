@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "python_rust_interface",
+  "title": "Python Rust Interface",
+  "definition": "The concept of using Rust as a wrapper for Python code to create a graphical user interface (GUI) for a system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.629309Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.629309Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a Python game that you love, but it doesn't have a nice user interface. Using Rust, you can create a front-end that makes your game look and feel more professional, while keeping all your game logic and data analysis in Python.",
+    "intermediate": "The Python-Rust interface allows the development of a Rust UI that interacts with Python code through a command line interface (CLI). This is beneficial for systems that utilize Python's extensive machine learning and data science libraries, but require the performance and safety of Rust for the UI layer.",
+    "expert": "The Python-Rust interface is a notable concept in the field of computer science due to its successful application in high-performance systems. Rust's memory safety prevents UI crashes and its native compilation results in smaller binary sizes. However, using Python allows for the preservation of the extensive machine learning and data science ecosystem. This approach is increasingly common in production ML systems where a professional desktop app is desired, but the Python ecosystem is necessary."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Rust can be used as a wrapper for Python code to create a graphical user interface for a system, while keeping all the machine learning and data science code intact in Python.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

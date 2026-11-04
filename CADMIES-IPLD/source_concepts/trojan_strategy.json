@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "trojan_strategy",
+  "title": "Trojan Strategy",
+  "definition": "A strategy where the form is indistinguishable from the ordinary while the function is entirely different. It describes a deliberate deception or misrepresentation of intent for a strategic advantage.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.796700Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.796700Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "trojan_cigarette"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "strategic_acceptance",
+      "predatory_inevitability"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a toy duck that looks real but quacks. A Trojan strategy is like that. It seems normal but has a secret purpose, and it's all about getting an edge over someone else.",
+    "intermediate": "The Trojan strategy is a form of strategic deception or misrepresentation, often used in warfare. However, it can be applied in any context where there's a desire to gain an advantage through disguise. It's a philosophical concept that explores the ethics and strategies of deception.",
+    "expert": "The Trojan strategy is a philosophical exploration of deception and its role in strategic decision-making. It's a form of practical reasoning that challenges the boundaries between truth and illusion, ethics and strategy. It has been applied in various fields, from warfare to business, and it's a timeless concept with modern relevance in the digital age of information manipulation."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "trojan_cigarette"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The trojan cigarette demonstrates the power of deception and disguise in strategic decision-making. By presenting a mundane object with a hidden function, it challenges our assumptions about truth and appearance.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

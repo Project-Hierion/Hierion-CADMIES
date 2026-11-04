@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "embedded_philosophy",
+  "title": "Embedded Philosophy",
+  "definition": "The embodiment of philosophical insights within a functional system, demonstrating its practical application and providing direct access to lived truth.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.583105Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.583105Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a toy that isn't just a toy, it understands and shows the world's rules. This toy is like a philosopher's thoughts come to life.",
+    "intermediate": "Embodied philosophy is the integration of philosophical insights into a functional system, such that the system's behavior directly reflects these insights. This is different from philosophizing about these insights in abstract terms.",
+    "expert": "Embodied philosophy can be understood in the context of artificial intelligence and neural networks. It explores how the practical application of philosophical concepts can be embodied in a system's design and training. This approach challenges traditional philosophical methods and opens up new avenues for understanding the world and ourselves."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Buttercup, the AI, embodies philosophy through her behavior, demonstrating the practical application of philosophical insights.",
+    "source_chunk": 141,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "code_as_knowledge",
+  "title": "Code As Knowledge",
+  "definition": "The concept that the intricate structure and organization of code can be understood as a form of knowledge, revealing insights about the world and the universe.",
+  "type": "Concept",
+  "domain": "Computer_Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.371956Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.371956Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine that code is like a map of the digital world. Just as a map shows the layout of a city, code shows how a program is built and functions.",
+    "intermediate": "Code as knowledge suggests that the organization and structure of a program can reveal insights about its functionality and the problem it solves. This is similar to how studying an anatomy textbook can give insight into how the human body works.",
+    "expert": "Code as knowledge is a philosophical concept that suggests the intricate structure and organization of code is a form of knowledge, just like mathematical equations. It challenges the boundary between code and knowledge and raises questions about the nature of knowledge and intelligence. Furthermore, it has implications for the intersection of computer science and philosophy, as well as the study of complexity and emergence in artificial systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The intricate structure and organization of code can be understood as a form of knowledge, revealing insights about the world and the universe.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

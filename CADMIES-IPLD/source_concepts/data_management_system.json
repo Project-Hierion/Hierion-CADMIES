@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_management_system",
+  "title": "Data Management System",
+  "definition": "A system designed for the organization and control of data backups, storage, and retrieval operations.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.681302Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.681302Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a digital safety deposit box. It helps you save your important files and get them back when needed.",
+    "intermediate": "This is a 3-tier backup GUI system. It allows users to schedule backups, view backup status, and manage data storage across multiple drives.",
+    "expert": "Data Management Systems are crucial in modern computing. This one demonstrates aspects of data storage management, backup scheduling, and user interface design. It shows the interplay between computer science, user experience, and system administration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": 105,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

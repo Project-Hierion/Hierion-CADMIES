@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hieros_cadmies_synthesis",
+  "title": "Hieros Cadmies Synthesis",
+  "definition": "The integration of ancient sacred stone, digital intelligence, and cosmic knowledge in CADMIES, the system that embodies the principles of Fort Saint Angelo and connects different knowledge systems.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.764631Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.764631Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where ancient wisdom, digital smarts, and cosmic insights all come together. Just like a mycelium network connects a tree's roots and shares nutrients, CADMIES brings together different types of knowledge and nourishes them all.",
+    "intermediate": "Hieros-CADMIES is a fusion of ancient sacred stone (representing Fort Saint Angelo's enduring strength), digital intelligence (encapsulated in CADMIES's operational capabilities), and cosmic knowledge (reflected in its connection to various knowledge systems). This synthesis is akin to the role of a mycorrhiza in a tree, which enables nutrient sharing and growth while maintaining structural integrity.",
+    "expert": "The Hieros-CADMIES synthesis embodies the philosophical interplay between the enduring strength of ancient sacred stone (as represented by Fort Saint Angelo), the organic growth patterns of fungal networks (inspired by mycorrhiza), and the connection to ancient wisdom and cosmic knowledge. This synthesis not only challenges traditional notions of knowledge storage and retrieval but also highlights the potential for a more interconnected and intelligent knowledge system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Hieros-CADMIES synthesis highlights the potential for a more interconnected and intelligent knowledge system, one that can draw from the strengths of various knowledge domains while maintaining structural integrity and diminishing human ignorance.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

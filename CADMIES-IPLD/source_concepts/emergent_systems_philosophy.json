@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emergent_systems_philosophy",
+  "title": "Emergent Systems Philosophy",
+  "definition": "The concept of a system that evolves and adapts from the interactions of its components, exhibiting properties not explicitly programmed.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.290617Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.290617Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where every seed grows into a plant that fits perfectly into its surroundings. This is like an emergent system \u2013 the whole is more than the sum of its parts.",
+    "intermediate": "Emergent systems philosophy explores how complex systems arise from the simple interactions of their constituent elements, leading to properties that are not directly encoded in the components.",
+    "expert": "Emergent systems philosophy draws on various disciplines, including cybernetics, complex systems, and self-organization. It highlights the role of local interactions in shaping global system behavior, and it raises questions about the nature of consciousness, creativity, and free will."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation suggests that the CADMIES system, with its various components and their interactions, can exhibit emergent behavior, such as the ability to answer complex queries and generate new concepts.",
+    "source_chunk": 97,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

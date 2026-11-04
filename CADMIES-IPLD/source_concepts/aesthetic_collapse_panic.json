@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "aesthetic_collapse_panic",
+  "title": "Aesthetic Collapse Panic",
+  "definition": "The human panic over climate change is primarily caused by the anticipation of aesthetic and lifestyle collapse, rather than existential dread.",
+  "type": "Concept",
+  "domain": "Climate Ethics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.380540Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.380540Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ecology:principle/weed_triumph"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "ecology:principle/humans_as_weeds"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "People fear climate change more because they worry about losing their comfortable lifestyles, not because they think the planet is going to end.",
+    "intermediate": "The fear of climate change stems from the potential for widespread inconvenience, such as displacement, hunger, and the collapse of supply chains. This is often referred to as aesthetic or lifestyle collapse, rather than existential dread.",
+    "expert": "The panic over climate change can be understood within the philosophical context of the aesthetic collapse, which argues that humans are more concerned with preserving their current comfort zone than with the survival of the species. This insight connects to the principle of the weed triumph in ecology, and contrasts with the axiom that climate change is an existential threat."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ecology:principle/weed_triumph"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The fear of climate change is largely driven by the anticipation of aesthetic and lifestyle collapse, rather than existential dread.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

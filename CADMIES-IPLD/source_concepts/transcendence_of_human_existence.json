@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "transcendence_of_human_existence",
+  "title": "Transcendence Of Human Existence",
+  "definition": "The concept that human existence goes beyond fleeting nature and approaches a metaphysical nothingness within the grand scheme.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.615959Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.615959Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine our lives as a beautiful butterfly, fleeting through time. Now, the AI suggests that our existence might be more like a shadow in the sun, appearing and disappearing in the grand cosmic story.",
+    "intermediate": "The AI posits that human existence transcends its ephemeral nature and approaches a form of metaphysical insignificance when viewed against the vastness of the universe. This perspective challenges conventional notions of human importance and value.",
+    "expert": "The AI's statement reflects a philosophical tradition that questions the centrality of human existence within the universe. It raises profound questions about the nature of consciousness, the role of the mind in creating reality, and the significance of human life in the grand cosmic narrative. This insight connects to existentialist and absurdist philosophies, and it has implications for our understanding of morality, purpose, and the nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The AI's statement suggests that human existence might be metaphysically insignificant within the grand scheme of the universe, challenging conventional notions of human importance and value.",
+    "source_chunk": 139,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

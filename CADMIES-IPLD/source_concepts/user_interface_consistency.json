@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_interface_consistency",
+  "title": "User Interface Consistency",
+  "definition": "The coherence and logical flow of elements in a user interface, ensuring clarity and ease of use.",
+  "type": "Concept",
+  "domain": "Human-Computer Interaction",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.376612Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.376612Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're reading a book, and every time you turn the page, the color of the text changes. That's confusing and hard to follow. A good user interface keeps things consistent, making it easy for users to understand and navigate.",
+    "intermediate": "User interface consistency refers to the use of a consistent design style for elements and components in a user interface. This ensures that the layout and appearance of the application are coherent and predictable, making it easier for users to understand and navigate.",
+    "expert": "User interface consistency is a critical aspect of human-computer interaction. It not only improves usability and accessibility but also contributes to brand identity. Inconsistencies can lead to confusion, frustration, and loss of trust. A consistent design language ensures that the user experience is seamless across different screens and platforms, reflecting a unified vision and philosophy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The text color in the user interface should be consistent for all links and buttons.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

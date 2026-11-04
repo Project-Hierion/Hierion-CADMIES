@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "synergy_of_concepts",
+  "title": "Synergy Of Concepts",
+  "definition": "The interplay and mutual reinforcement between concepts that contribute to a comprehensive understanding of a subject.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.135571Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.135571Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a team of smart people working together. Each member brings their unique skills, and when they collaborate, they create something greater than the sum of their parts.",
+    "intermediate": "In the CADMIES mycelium, synergy of concepts refers to the interconnectedness and interdependence of scientific and philosophical ideas. Concepts from different domains complement each other, leading to a more cohesive and nuanced understanding of a subject.",
+    "expert": "The synergy of concepts in the CADMIES mycelium reflects the dialectical relationship between different philosophical traditions and scientific disciplines. It highlights the importance of context, perspective, and the interaction between ideas. The synergy reveals philosophical tensions and potential resolutions, offering insights into the nature of knowledge and reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation did not explicitly mention concepts, but the interplay between the user's question and the mycelium's responses revealed a deeper understanding of the synergy between concepts.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

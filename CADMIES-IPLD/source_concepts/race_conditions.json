@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "race_conditions",
+  "title": "Race Conditions",
+  "definition": "A type of concurrency error that occurs when the behavior of a system depends on the relative timing or interleaving of multiple processes or threads.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.550853Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.550853Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two people trying to share a resource, like a limited number of tickets to a concert. If they don't take turns or check availability carefully, they might end up with too many tickets, causing a problem.",
+    "intermediate": "Race conditions are a common source of errors in concurrent systems. They occur when the outcome of a computation depends on the relative timing of events, such as the order in which processes or threads access shared resources.",
+    "expert": "Race conditions are a fundamental challenge in concurrent programming. They have been studied extensively in the context of both theoretical computer science and practical systems. Understanding race conditions can lead to insights into the limitations of concurrency and the need for synchronization mechanisms. Additionally, race conditions connect to broader issues in computer security, where they can be used to exploit vulnerabilities in systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The instability of the machine learning model could be caused by race conditions in the signal management of the script.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

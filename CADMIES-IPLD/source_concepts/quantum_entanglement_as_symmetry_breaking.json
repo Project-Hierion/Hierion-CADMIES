@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_entanglement_as_symmetry_breaking",
+  "title": "Quantum Entanglement As Symmetry Breaking",
+  "definition": "Quantum entanglement is interpreted as a breakdown of symmetry in the quantum field, where the state of one particle instantaneously affects the state of another, regardless of the distance between them.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.676839Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.676839Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Quantum entanglement is like when two objects become so connected that changing one instantly changes the other, no matter how far apart they are. It's like they're sharing a secret that can't be broken.",
+    "intermediate": "Quantum entanglement is viewed as a manifestation of symmetry breaking in quantum fields. This means that once entangled, the quantum state of one particle immediately influences the state of another, regardless of the physical separation between them.",
+    "expert": "Quantum entanglement is interpreted as a consequence of the inherent symmetry of quantum fields, which allows for the existence of entangled states. However, the process of measurement or interaction with the environment causes the entangled state to 'collapse' into one of its possible configurations, a phenomenon known as decoherence. This symmetry breaking leads to the non-local correlations observed in entangled systems, challenging our understanding of causality and locality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Quantum entanglement is a natural outcome of the underlying symmetry in quantum fields, challenging traditional notions of locality and causality.",
+    "source_chunk": 102,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

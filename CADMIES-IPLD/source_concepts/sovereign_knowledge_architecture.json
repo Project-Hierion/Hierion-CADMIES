@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sovereign_knowledge_architecture",
+  "title": "Sovereign Knowledge Architecture",
+  "definition": "A decentralized, self-governing system for organizing, representing, and attributing knowledge, operating on fully local, sovereign infrastructure.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.301420Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.301420Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where everyone can plant their own seeds, water them, and harvest the fruits. That's how sovereign knowledge architecture works \u2014 it's a digital garden where everyone's ideas grow and thrive.",
+    "intermediate": "Sovereign knowledge architecture is a type of decentralized database that uses IPLD (InterPlanetary Linked Data) and CIDs (Content Identifiers) to create a self-governing, verifiable structure for collaborative research. It's akin to a distributed version control system, but for knowledge.",
+    "expert": "The sovereign knowledge architecture is a novel application of blockchain technology, merging the principles of decentralization, immutability, and cryptography with the structure of knowledge graphs. It presents philosophical questions about ownership, attribution, and the nature of knowledge itself, while also connecting to the broader field of distributed systems and peer-to-peer networks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The sovereign knowledge architecture demonstrates a new way to organize, represent, and attribute knowledge, leveraging the power of decentralized technology to create a self-governing, verifiable system.",
+    "source_chunk": 102,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

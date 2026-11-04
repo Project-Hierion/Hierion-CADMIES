@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelium_importance",
+  "title": "Mycelium Importance",
+  "definition": "The importance and impact of importing the full mycelium of interconnected concepts in the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.036818Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.036818Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a garden. When you import the full mycelium, you're planting all the seeds together. This lets the ideas grow and connect, making the system more valuable and useful.",
+    "intermediate": "In the context of CADMIES, importing the full mycelium ensures a robust and interconnected knowledge system. It allows the various concepts to interact and enrich each other, enhancing the system's overall functionality and usability.",
+    "expert": "The mycelium import in CADMIES is akin to the concept of 'network effects' in complex systems. By interconnecting a multitude of concepts, the system gains emergent properties that transcend the sum of its parts. This not only expands its potential applications but also deepens its philosophical and metaphysical implications, potentially connecting it to other fields such as artificial intelligence and neural networks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Importing the full mycelium of interconnected concepts enhances the functionality and usability of the CADMIES knowledge system, and may have broader implications for its philosophical and metaphysical significance.",
+    "source_chunk": 119,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

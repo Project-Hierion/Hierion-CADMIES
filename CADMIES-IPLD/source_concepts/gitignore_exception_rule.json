@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gitignore_exception_rule",
+  "title": "Gitignore Exception Rule",
+  "definition": "A rule in a .gitignore file that overrides a more general ignore rule for a specific file or pattern.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.944745Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.944745Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a rule in a school's dress code that allows students to wear a costume on Halloween. A gitignore exception rule lets certain files be tracked even when they would otherwise be ignored due to a more general rule.",
+    "intermediate": "In the context of version control, a gitignore exception rule is a rule that uses the exclamation mark (!) to override an ignore rule that was previously defined. This allows specific files or patterns to be tracked, even if they would otherwise be ignored by a more general rule.",
+    "expert": "The gitignore exception rule is a powerful feature that can be used to manage complex version control workflows. By allowing for the tracking of specific files or patterns, while still ignoring others, it enables developers to maintain a clean and organized repository. This feature also has implications for software licensing and distribution, as it allows developers to exclude certain files from being distributed, while still keeping them in the repository for their own use."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The gitignore exception rule is a tool that allows developers to maintain a clean and organized repository, while still being able to track specific files or patterns that are necessary for their work.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

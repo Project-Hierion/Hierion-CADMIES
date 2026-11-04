@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_distribution_model",
+  "title": "Knowledge Distribution Model",
+  "definition": "A conceptual model for how knowledge is published, discovered, and verified in a decentralized knowledge ecosystem.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.498378Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.498378Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library system where books are stored in a central place, but people can use different apps to find and borrow them. This is similar to how CADMIES could function with Glitter and Atlas.",
+    "intermediate": "The knowledge distribution model involves a central storage system (CADMIES DAG), a publishing platform (Glitter), and a discovery platform (Atlas). Scientists publish verified knowledge to the central storage system. Users can discover and use that knowledge through the Glitter or Atlas platforms.",
+    "expert": "The knowledge distribution model is a novel application of distributed systems theory. It combines the rigor of blockchain-based verification (Glitter) with the accessibility of social trust models (Atlas). This model expands on existing decentralized database systems by integrating a central, immutable knowledge layer with multiple publishing and discovery platforms. This allows for a more comprehensive and user-friendly decentralized knowledge ecosystem."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The knowledge distribution model can expand the functionality of a decentralized knowledge ecosystem by integrating multiple publishing and discovery platforms.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

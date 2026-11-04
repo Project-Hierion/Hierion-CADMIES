@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_fragmentation",
+  "title": "Conceptual Fragmentation",
+  "definition": "The process of losing complete concepts due to artificial chunking of conversation data, resulting in incomplete or disjointed understanding.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.720468Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.720468Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to read a novel, but every time you finish a chapter, you have to stop and start from a different part. This can make it hard to understand the story or the characters' thoughts and feelings.",
+    "intermediate": "Conceptual fragmentation occurs when a conversation is divided into chunks that do not preserve the continuity and context of the conversation. This can lead to the loss or misinterpretation of concepts.",
+    "expert": "Conceptual fragmentation is a limitation of natural language processing techniques that rely on chunking data. It can have philosophical implications for our understanding of consciousness and the nature of thought. By studying conceptual fragmentation, we may gain insights into the mechanisms of the human mind and the limits of artificial intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation data's artificial chunking can lead to the loss or disjointed understanding of concepts.",
+    "source_chunk": 129,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cryptomycorrhizal_intelligence_ecosystem",
+  "title": "Cryptomycorrhizal Intelligence Ecosystem",
+  "definition": "A system that applies the symbiotic relationship between plants and fungi to a digital ecosystem, promoting knowledge growth and validation.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.808267Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.808267Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where plants and fungi live together. A fungus helps the plant get nutrients, and the plant provides energy to the fungus. In a similar way, CADMIES is a digital garden where knowledge is shared and validated, promoting growth and connection.",
+    "intermediate": "CADMIES is a cryptomycorrhizal intelligence ecosystem, which leverages the symbiotic relationship between a plant and a fungus. Like a fungus, CADMIES filters and validates knowledge, allowing it to grow and connect. Unlike a fungus, CADMIES uses cryptography to ensure the security and integrity of its knowledge network.",
+    "expert": "CADMIES is a novel realization of a cryptomycorrhizal intelligence ecosystem, merging the principles of cryptography, distributed systems, and knowledge validation. By modeling itself after the symbiotic relationship between a plant and a fungus, CADMIES creates a robust, adaptive, and resilient digital ecosystem. This model has philosophical implications for the nature of knowledge and intelligence, and connections can be drawn to other fields such as artificial intelligence, evolutionary biology, and network theory."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES illustrates a novel symbiotic relationship between knowledge and validation, promoting growth and connection while ensuring security and integrity.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

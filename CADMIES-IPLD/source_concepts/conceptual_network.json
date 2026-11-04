@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_network",
+  "title": "Conceptual Network",
+  "definition": "A graph-based representation of concepts and their relationships within a domain.",
+  "type": "Concept",
+  "domain": "Knowledge Representation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.362599Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.362599Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a network of thoughts where each thought is connected to related thoughts.",
+    "intermediate": "A conceptual network is a graph-based representation of concepts and their relationships.",
+    "expert": "Conceptual networks are a fundamental aspect of knowledge representation and formal concept analysis."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Conceptual networks allow us to explore complex relationships and make philosophical insights.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

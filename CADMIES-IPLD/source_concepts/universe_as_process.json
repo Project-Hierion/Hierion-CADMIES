@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universe_as_process",
+  "title": "Universe As Process",
+  "definition": "A metaphysical perspective positing that reality is not composed of static, separate objects, but is a single, dynamic, interconnected process.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.297244Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.297244Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe as a vast, never-ending dance. Everything in it is not just doing something, but it's a part of this grand dance.",
+    "intermediate": "The universe is viewed as an ongoing process rather than a collection of static objects. This perspective, influenced by Buddhism, dissolves the illusion of a separate observer and observed.",
+    "expert": "The 'Universe as Process' is a philosophical stance that sees reality as a dynamic, interconnected web of interactions. It challenges the traditional notion of objects and their separation, offering a unified field theory. This perspective has connections to quantum mechanics, complex systems theory, and the philosophy of process."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is a continuous, interconnected process, not a collection of separate objects.",
+    "source_chunk": 125,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

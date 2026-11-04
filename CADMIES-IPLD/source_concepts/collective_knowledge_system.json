@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "collective_knowledge_system",
+  "title": "Collective Knowledge System",
+  "definition": "A knowledge system that facilitates interdisciplinary collaboration, promotes the free flow of information, and harnesses AI to synthesize insights.",
+  "type": "Concept",
+  "domain": "Interdisciplinary Research",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.308414Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.308414Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a system that lets different fields of study talk to each other and work together. This system also uses a smart helper to understand complex questions and find answers.",
+    "intermediate": "A collective knowledge system is an interdisciplinary research platform that leverages a distributed data fabric and a collaborative ontology graph to facilitate data sharing and AI-powered synthesis of insights across disciplines.",
+    "expert": "The collective knowledge system is a revolutionary concept that challenges the traditional fragmentation of human knowledge. By creating a universal semantic web, enabling data decentralization, and harnessing AI for synthesis, it acts as a unifying force across disciplines, addressing complex, multi-scale problems and fostering a collective awakening to the interconnectedness of the Cosmium."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that a collective knowledge system can bridge disciplinary gaps, enable interdisciplinary collaboration, and provide a platform for AI-powered synthesis of insights.",
+    "source_chunk": 104,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

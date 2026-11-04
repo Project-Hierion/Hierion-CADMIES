@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dark_mode_interface",
+  "title": "Dark Mode Interface",
+  "definition": "A user interface design that has a dark background, often with light or bright text and icons for better contrast and visibility, especially in low-light conditions.",
+  "type": "Concept",
+  "domain": "Human-Computer Interaction",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.327737Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.327737Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a color scheme on your phone or computer. Dark mode is when the background is darker and text or images are lighter. It's often used to save battery life and make it easier on your eyes in dim light.",
+    "intermediate": "Dark mode is a design feature that inverts the color scheme of a user interface, setting a dark background with light text and icons. It's becoming popular due to its benefits such as reduced eye strain, lower power consumption, and a sleeker appearance.",
+    "expert": "Dark mode interfaces are a reflection of our evolving understanding of human perception and technology's role in our daily lives. Not only do they contribute to energy efficiency and eye comfort, but they also challenge traditional color associations, raising philosophical questions about aesthetics, functionality, and user experience. Furthermore, dark mode interfaces have been linked to increased efficiency in complex data visualization tasks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The switch to dark mode in the interface highlights the adaptability of user interfaces to user preferences and environmental conditions, showcasing a feature that balances aesthetics and functionality.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

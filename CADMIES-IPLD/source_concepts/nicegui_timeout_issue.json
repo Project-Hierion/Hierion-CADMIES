@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nicegui_timeout_issue",
+  "title": "Nicegui Timeout Issue",
+  "definition": "A common issue in NiceGUI where JavaScript requests fail to receive a response, causing a timeout error.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.366662Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.366662Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're ordering food online and your phone keeps saying 'No response' after a while. That's similar to a NiceGUI timeout issue. It happens when the browser fails to respond to JavaScript requests.",
+    "intermediate": "A NiceGUI timeout issue arises due to a failure in the browser's response to JavaScript requests. This can be caused by various factors, such as network issues, browser settings, or even the complexity of the application.",
+    "expert": "The NiceGUI timeout issue is a form of asynchronous communication failure between the server and the client. It can be attributed to network latency, browser-specific limitations, or application complexity. A thorough analysis of the JavaScript request-response cycle is necessary to pinpoint the root cause and implement a suitable solution."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The repetition of sections in the browser could be a symptom of a larger issue, potentially the NiceGUI timeout error, which needs to be addressed to ensure the proper functioning of the application.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

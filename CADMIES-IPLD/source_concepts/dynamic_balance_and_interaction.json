@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dynamic_balance_and_interaction",
+  "title": "Dynamic Balance And Interaction",
+  "definition": "The concept of dynamic balance and interaction highlights the interplay of forces, systems, and processes in maintaining equilibrium and enabling change.",
+  "type": "Concept",
+  "domain": "Natural Sciences",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.530059Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.530059Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a seesaw. When two kids of different weights are on opposite ends, the seesaw balances. The same principle applies in nature. Different components interact to maintain balance, like the heart pumping blood and the body responding with breathing.",
+    "intermediate": "Dynamic balance and interaction involve complex systems where various components, such as biological, geological, or physical processes, continuously interact and influence each other to maintain a steady state. Examples include the carbon cycle and plate tectonics.",
+    "expert": "The concept of dynamic balance and interaction reveals a deep philosophical truth about the universe. It highlights the interconnectedness and interdependence of all things, from the intricate functioning of the human body to the vast movements of tectonic plates. This concept not only explains patterns in nature but also sheds light on the emergence of complexity and order from chaotic systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The observation that various systems in nature constantly interact and influence each other to maintain a steady state highlights the fundamental importance of dynamic balance and interaction.",
+    "source_chunk": 113,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

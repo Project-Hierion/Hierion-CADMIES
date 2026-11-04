@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fundamentality_of_science_and_ontology",
+  "title": "Fundamentality Of Science And Ontology",
+  "definition": "The concept exploring the relationship between science and ontology, focusing on their fundamental roles and their intertwined nature.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.503031Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.503031Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a house: science is the bricks and the structure, while ontology is the blueprint. Science tells us what's there, and ontology tells us how to understand it all. Sometimes, they're done together, and sometimes they're separate.",
+    "intermediate": "In philosophy, ontology is traditionally seen as the most fundamental field due to its focus on existence. However, in modern scientific practice, physics and mathematics often play more prominent roles. The key insight is that science and ontology are intertwined; one informs the other, and they both contribute to our understanding of the world.",
+    "expert": "The relationship between science and ontology is a philosophical and scientific endeavor that spans centuries. While some philosophers argue for the primacy of ontology, most modern scientists see their fundamental theories as primary. This debate raises questions about the nature of truth, the role of mathematics in understanding reality, and the interplay between scientific inquiry and philosophical speculation. Ultimately, the answer to the question of fundamentalness depends on whether existence questions must be answered before or through substantive inquiry."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Science and ontology are intertwined; one informs the other, and they both contribute to our understanding of the world.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

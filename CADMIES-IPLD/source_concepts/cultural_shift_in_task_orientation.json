@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cultural_shift_in_task_orientation",
+  "title": "Cultural Shift In Task Orientation",
+  "definition": "The transition from process-oriented tasks to result-oriented tasks in modern culture.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.889373Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.889373Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how chores have changed over time. People used to do them slowly and mindfully, focusing on the process and the inner experience. Now, they're often done quickly and with a focus on the final result.",
+    "intermediate": "This cultural shift can be observed in various aspects of modern life. It's a move from being to doing, from focusing on the process to focusing on the outcome. The monk's broom and the leaf blower are symbols of this shift.",
+    "expert": "This shift has profound implications for our understanding of human nature and culture. It highlights our desire for efficiency and control, but it may also lead to a lack of mindfulness and inner contemplation. This insight connects to broader debates in sociology, philosophy, and psychology about the nature of work and human fulfillment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights a cultural shift from process-oriented tasks to result-oriented tasks.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

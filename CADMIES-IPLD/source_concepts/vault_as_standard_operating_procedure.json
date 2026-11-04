@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vault_as_standard_operating_procedure",
+  "title": "Vault As Standard Operating Procedure",
+  "definition": "The application of a vault structure to systematically organize and present standard operating procedures, live system state, and historical context.",
+  "type": "Concept",
+  "domain": "Information Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.318657Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.318657Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a vault as a big box that holds all the rules for a system, including the current state and past decisions. It's like a recipe book for a complex machine, with every step and note clearly organized.",
+    "intermediate": "The vault-as-SOP approach involves merging a polished SOP with a live system tree and dated notes to create a navigable, structured repository. The vault serves as a comprehensive guide, linking official procedures, current system state, and historical context.",
+    "expert": "The vault-as-SOP concept bridges the gap between theoretical procedures and real-world implementation. By merging a polished SOP with a live system tree and dated notes, it provides a unified resource for understanding, troubleshooting, and improving complex systems. This approach has the potential to transform information management in various fields, enhancing efficiency and knowledge sharing. Moreover, the vault-as-SOP concept connects to the broader field of digital preservation and knowledge graph theory, emphasizing the importance of structured data and interlinking information for long-term usability and accessibility."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The vault-as-SOP concept merges a polished SOP with a live system tree and dated notes to create a comprehensive, navigable repository, linking official procedures, current system state, and historical context.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

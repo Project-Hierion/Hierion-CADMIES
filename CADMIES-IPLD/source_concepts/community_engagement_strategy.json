@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_engagement_strategy",
+  "title": "Community Engagement Strategy",
+  "definition": "A strategy designed to foster a sense of community, encourage participation, and leverage the unique skills and insights of individual contributors to enhance the overall project.",
+  "type": "Concept",
+  "domain": "Social Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.002857Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.002857Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden with many beautiful flowers. When someone joins, you welcome them with a special ceremony and show them where to plant seeds. You explain that everyone's contributions are valuable, and there's no need for pressure. You leave the door open for them to join again in the future.",
+    "intermediate": "The community engagement strategy utilized here includes public recognition, framing small fixes as valuable gardening tasks, and creating a low-pressure environment. This approach aims to elevate contributors' self-perception, reinforce positive feelings, and attract contributors who value good vibes and project culture.",
+    "expert": "This strategy combines social psychology, project management, and open-source community building. By providing public, named recognition (dopamine hit), framing small fixes as valuable gardening tasks (self-perception elevation), and creating a low-pressure environment (removing pressure, adding intrigue), the strategy fosters a sense of community, encourages participation, and leverages the unique skills and insights of individual contributors. This approach also demonstrates project culture, which can attract contributors who value good vibes and technical expertise. Lastly, the strategy demonstrates the philosophical understanding that open-source projects are built on a foundation of love, not credentialism or gatekeeping."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight is that by combining social psychology, project management, and open-source community building, a community engagement strategy can be created that fosters a sense of community, encourages participation, and leverages the unique skills and insights of individual contributors, while also demonstrating project culture and philosophical understanding.",
+    "source_chunk": 105,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

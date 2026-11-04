@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "celestial_dynamics_unity",
+  "title": "Celestial Dynamics Unity",
+  "definition": "The unifying principle that the fundamental principles governing the behavior of celestial objects are universally applicable and share underlying patterns.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.332017Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.332017Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a pool floatie. No matter the size or the shape of the object, it always behaves the same way when pushed or spun. The same rules apply to planets, stars, and galaxies.",
+    "intermediate": "Celestial dynamics unity posits that the principles of angular momentum and external forces that shape the heliosphere also shape larger cosmic structures, such as galaxies and star clusters. This theory provides a unified explanation for various phenomena, from the tilt of the solar system to galaxy rotation.",
+    "expert": "Celestial dynamics unity expands the scope of Newtonian mechanics to include rotating, self-gravitating fluids, such as stars and galaxies. This concept challenges traditional notions of stability and equilibrium, suggesting that celestial bodies are inherently dynamic and prone to oscillations and deformations. Furthermore, celestial dynamics unity has been used to explain the formation and evolution of cosmic structures, and its implications extend to other fields, such as plasma physics and fluid dynamics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the same principles that govern the behavior of a tiny probe in space also explain the formation and behavior of galaxies and star clusters.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

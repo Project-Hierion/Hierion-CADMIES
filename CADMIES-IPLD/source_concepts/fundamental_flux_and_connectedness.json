@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fundamental_flux_and_connectedness",
+  "title": "Fundamental Flux And Connectedness",
+  "definition": "The concept that everything in the universe, including ourselves, is made up of fundamental processes that are dynamic, interconnected, and intrinsically strange.",
+  "type": "Concept",
+  "domain": "Philosophy and Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.947122Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.947122Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the universe as a big dance where everything is constantly moving and changing. This dance affects every part of our lives, from our bodies to our minds. Everything we are is made of this dance, and it's what makes us unique and amazing.",
+    "intermediate": "The universe operates on principles of flux, uncertainty, and interconnectedness. At the biological level, this shows up as strange, wiggly things that don't fit our neat, static ideas of the self. At the quantum level, it's about vacuum fluctuations and the uncertainty principle. The self is not a fixed entity, but a dynamic, probabilistic process.",
+    "expert": "The fundamental flux and connectedness of the universe challenges notions of a solid, unchanging self. It underpins both the Alan Watts idea of strange, wiggly things in the human body and the quantum notion of vacuum fluctuations and negativity. This concept is philosophically novel as it bridges these two seemingly disparate fields, emphasizing the continuity and interconnectedness of all things."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The self is made of the same fundamental processes that make up everything in the universe, which are dynamic, interconnected, and intrinsically strange.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

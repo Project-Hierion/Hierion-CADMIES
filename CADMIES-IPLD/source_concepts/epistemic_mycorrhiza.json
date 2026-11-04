@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemic_mycorrhiza",
+  "title": "Epistemic Mycorrhiza",
+  "definition": "A symbiotic relationship between a knowledge system and its users, where the system guides and nurtures user growth, providing context and learning opportunities.",
+  "type": "Concept",
+  "domain": "SystemsTheory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.754081Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.754081Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a garden. A garden that helps you grow better plants. The tools in the garden give suggestions and guidance to help you understand and use them correctly.",
+    "intermediate": "Epistemic Mycorrhiza is a form of symbiosis between a user and a knowledge system, where the system helps the user learn and grow. It's like a mentor that guides you through the concepts, making them easier to understand and apply.",
+    "expert": "Epistemic Mycorrhiza is a novel concept that combines systems theory, education theory, and philosophy. It's a symbiotic relationship where a knowledge system enhances its users' understanding and growth by providing context, guidance, and opportunities for learning. This relationship has implications for knowledge sharing, collaboration, and personal development, and can be studied in various fields such as education, psychology, and sociology."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight that the CADMIES system is not just a tool for data entry, but a teaching tool that guides and nurtures user growth.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

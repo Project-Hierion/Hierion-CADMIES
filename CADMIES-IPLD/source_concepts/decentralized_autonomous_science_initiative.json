@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_autonomous_science_initiative",
+  "title": "Decentralized Autonomous Science Initiative",
+  "definition": "A global, open-source, and decentralized scientific network that leverages advanced technologies to foster cross-disciplinary collaboration and knowledge sharing, aiming to solve complex problems across various scientific domains.",
+  "type": "Concept",
+  "domain": "Science and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.926307Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.926307Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a worldwide science club where anyone can join and contribute. This isn't just about sharing data; it's about using technology to unite diverse scientific minds to tackle big challenges.",
+    "intermediate": "A Decentralized Autonomous Science Initiative (DASI) is a network-based approach that leverages blockchain and AI technologies to facilitate collaboration among scientists across disciplines. It allows for open, real-time data sharing and the formation of dynamic, interdisciplinary teams.",
+    "expert": "DASIs represent a novel approach to scientific research, integrating the benefits of decentralized systems (resilience, autonomy, and fair distribution of resources) with the rigor and inquisitiveness of traditional scientific methods. These initiatives have the potential to revolutionize knowledge generation, promote cross-disciplinary innovation, and reshape the global scientific landscape."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept of a Decentralized Autonomous Science Initiative offers a solution for fostering interdisciplinary collaboration, promoting knowledge sharing, and addressing complex scientific problems on a global scale.",
+    "source_chunk": 32,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

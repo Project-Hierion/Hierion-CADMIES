@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "organizational_structuring",
+  "title": "Organizational Structuring",
+  "definition": "The process of organizing datasets into clear sections or categories based on specific criteria, such as date of release, type of content, or language.",
+  "type": "Concept",
+  "domain": "Data Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.472376Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.472376Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine sorting books in a library. Organizational structuring is like deciding how to group the books - by genre, author, publication date, etc. It makes finding the right information easier and more intuitive.",
+    "intermediate": "Organizational structuring of datasets involves creating a logical hierarchy that allows for efficient navigation and search. This can be done based on release date, type of content, size, language, or any other relevant criteria.",
+    "expert": "Organizational structuring is a fundamental aspect of data management. It not only enhances usability but also facilitates data mining, analysis, and machine learning. By structuring datasets, we can uncover patterns and insights that might otherwise be overlooked. Moreover, this process is not limited to digital datasets; it has been applied in various fields, from literature to scientific research, with similar benefits."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of organizing datasets for efficient data management and analysis.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

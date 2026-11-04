@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "integrated_knowledge_system",
+  "title": "Integrated Knowledge System",
+  "definition": "A system that combines the capabilities of a content-addressed, schema-enforced DAG structure for immutable knowledge representation with a discovery, query, and social graph layer, enabling verifiable knowledge nodes to be discovered, queried, and composed across a global peer network.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.579255Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.579255Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library that can store and share different types of knowledge like books and research papers. This library has a smart system that helps you find the right information easily and ensures that what you find is accurate and unchanged.",
+    "intermediate": "An integrated knowledge system is a combination of a Decentralized Autonomous Graph (DAG) structure for storing and addressing immutable knowledge with a network protocol for discovery, query, and social graph. This results in a peer-to-peer network for sharing verifiable knowledge nodes.",
+    "expert": "An integrated knowledge system merges the benefits of a DAG structure for content-addressed, schema-enforced knowledge representation and a distributed network protocol for discovery, query, and social graph. This leads to a verifiable knowledge graph with content addressing, schema enforcement, and peer-to-peer discovery, enhancing the integrity and accessibility of the knowledge system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of a DAG structure for knowledge representation with a network protocol for discovery and query creates a verifiable and accessible knowledge system.",
+    "source_chunk": 58,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

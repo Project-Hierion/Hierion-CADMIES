@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_entanglement_reality",
+  "title": "Quantum Entanglement Reality",
+  "definition": "The concept that the quantum entanglement of particles can be used to model the interconnectedness and interdependence of all phenomena in the universe, suggesting a holistic reality where everything is fundamentally interconnected.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.840391Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.840391Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two dice are magically linked so that when you roll one, you instantly know what number the other one shows, no matter how far apart they are. This can help us understand how everything in the universe is connected in a unique way.",
+    "intermediate": "Quantum entanglement is a quantum mechanical phenomenon where two or more particles become linked in such a way that the state of one particle cannot be described independently of the other, regardless of the distance between them. This has been used to demonstrate the non-locality of quantum mechanics and has been studied as a potential resource for quantum information science.",
+    "expert": "Quantum entanglement challenges our classical understanding of reality by demonstrating that particles can exhibit correlations that are stronger than any classical explanation could account for. This has led to philosophical discussions about the nature of reality, with some arguing that the entanglement of quantum particles provides evidence for a holistic, interconnected reality where everything is fundamentally interconnected."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Quantum entanglement suggests a universe where every phenomenon is intrinsically linked to every other, forming a complex, interconnected whole.",
+    "source_chunk": 76,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

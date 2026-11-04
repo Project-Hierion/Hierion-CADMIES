@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "phantom_concepts",
+  "title": "Phantom Concepts",
+  "definition": "Concepts suggested in relationships but that do not have their own definition or existence in the system.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.008253Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.008253Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine these are shadows in the knowledge system. They're mentioned, but they're not real. They're ideas that we know should be there, but they're just not.",
+    "intermediate": "These are concepts that are referenced in relationships but do not have their own concept block in the system. They are suggested connections that the AI makes, but the concepts they are connecting to do not exist in the current knowledge base.",
+    "expert": "Phantom concepts are a result of a bug in the relationship generator. The generator is creating edges that reference concepts that do not exist. This can lead to a sparse graph with dangling edges. The solution is to validate that every target concept exists before writing the edge. This is a philosophical issue because it raises questions about the nature of knowledge and how we define concepts. It also has implications for the graph theory of knowledge representation."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The relationship generator overstepped its bounds by creating edges referencing concepts that do not exist. This highlights the need for a validation step in the generator to ensure that every target concept exists before writing the edge.",
+    "source_chunk": 75,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

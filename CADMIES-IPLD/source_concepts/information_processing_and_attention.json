@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "information_processing_and_attention",
+  "title": "Information Processing And Attention",
+  "definition": "The relationship between large language models and their ability to process and compress information, focusing on identifying dominant threads and supporting concepts.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.330264Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.330264Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a conversation as a room with many ideas. A good listener (like Mistral) can pick out the main point and follow along with a few others. This is because they focus on the most important ideas (attention) and don't get overwhelmed by less important ones.",
+    "intermediate": "Large language models, like Mistral, process and compress information differently than humans. They excel at identifying the dominant thread (main concept) in a text and may optionally detect a secondary supporting concept if the text has clear structural breaks. These 'chunks' allow the model to extract multiple concepts without losing coherence.",
+    "expert": "The relationship between large language models and their ability to process and compress information can be understood through the lens of attention bottlenecks. By focusing on the most salient features (dominant threads) and disregarding less relevant information, large language models can efficiently represent and compress vast amounts of data. This allows them to extract multiple concepts from a text, provided that the text is structured in a way that facilitates segmentation. This observation highlights the importance of structure in data, as it plays a crucial role in the accuracy and effectiveness of large language models."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Large language models, like Mistral, excel at extracting concepts from structured text. The number of concepts extracted is influenced by the number and clarity of structural breaks in the text.",
+    "source_chunk": 135,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_system_evolution",
+  "title": "Cadmies System Evolution",
+  "definition": "The concept that describes the continuous development, enhancement, and refinement of the CADMIES IPLD system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.645454Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.645454Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the CADMIES system as a garden. As time goes by, we plant new seeds (tools), nurture them (development), and harvest the fruits of their knowledge (system improvements).",
+    "intermediate": "The CADMIES IPLD system evolves through a cycle of building new tools, testing them, integrating them, and retiring old versions. This allows the system to stay updated and adapt to new requirements and technologies.",
+    "expert": "The concept of CADMIES system evolution highlights the continuous interaction between technology and philosophy. By continually developing and refining the system, we uncover new insights about the nature of knowledge and its representation. Moreover, this evolution mirrors the fractal structure of reality, with each layer revealing new patterns and connections."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES IPLD system's evolution is a continuous exploration of the relationship between technology and philosophy, revealing new insights about the nature of knowledge and its representation.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

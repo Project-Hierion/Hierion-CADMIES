@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unity_of_scales",
+  "title": "Unity Of Scales",
+  "definition": "The concept that the properties and behaviors of complex systems are interconnected and interdependent across multiple scales, from quantum to global.",
+  "type": "Concept",
+  "domain": "Interdisciplinary Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.512209Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.512209Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a ladder with rungs representing different scales\u2014from tiny particles to large systems. The idea is that to understand how the ladder works, we need to see how all its rungs are connected.",
+    "intermediate": "The unity of scales refers to the observation that phenomena at the smallest scales (quantum physics) can have significant effects on phenomena at larger scales (biology, ecology).",
+    "expert": "The unity of scales challenges traditional disciplinary boundaries, suggesting that we need a new, more integrative framework to understand complex systems. This insight has philosophical implications, as it questions the nature of causality and the reality of separate scales."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unity of scales implies that to understand complex systems, we need to consider interactions and causal relationships across all scales, from quantum to global.",
+    "source_chunk": 27,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "god_as_character_and_human_as_the_universe_s_self_portrait",
+  "title": "God As Character And Human As The Universe S Self Portrait",
+  "definition": "The idea that God is a character created by humans to understand the universe, and humans are a character created by the universe to understand itself.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.373437Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.373437Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine God as a story we tell to make sense of the world, and us as the universe's own story about itself.",
+    "intermediate": "God is a human projection of ideals and longings for explanation, while humans are an emergent property of the universe's self-understanding, akin to the universe's self-portrait.",
+    "expert": "The concept intersects with Feuerbach's and psychoanalytic theories about the \u2018God-shaped hole,\u2019 Sagan's theory of the universe's self-understanding, Hegel's Spirit coming to self-consciousness through history, and Teilhard de Chardin's Omega Point. It also suggests a recursive loop where the universe's self-understanding creates a meta-character for further understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe's self-understanding is both the author and the character of its narrative, creating a playful recursion where God is a character we made to understand the universe, and humans are a character the universe made to understand itself.",
+    "source_chunk": 145,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

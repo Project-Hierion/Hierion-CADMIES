@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cloud_development_environment",
+  "title": "Cloud Development Environment",
+  "definition": "The practice of using cloud-based tools and platforms for coding, development, testing, and other software engineering activities, as opposed to using a local machine.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.626840Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.626840Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a painter, but instead of using a physical paintbrush on a canvas, you use a digital painting tool on a cloud. This lets you work on your code from anywhere, and it's all stored safely in the cloud.",
+    "intermediate": "Cloud development environments such as GitHub Codespaces and Docker allow for rapid, isolated, and consistent development. This separation between development and production environments can improve workflow and reduce bugs.",
+    "expert": "Cloud development environments represent a shift towards a more distributed and resilient software development paradigm. They can also improve security and privacy by limiting the data exposed on a developer's local machine. However, they can introduce latency and require a stable internet connection."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The separation of development and production environments using cloud tools can enhance workflow and reduce bugs, while also improving security and privacy.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "negative_knowledge",
+  "title": "Negative Knowledge",
+  "definition": "The power and significance of understanding what something is not, which can be as valuable as knowing what it is.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.674555Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.674555Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine searching for a needle in a haystack. While finding the needle is the goal, learning that certain types of objects aren't the needle helps narrow down the search. In science, rejecting possible answers is just as important as accepting them.",
+    "intermediate": "Negative knowledge refers to the elimination of possibilities, based on evidence or observation. This process of elimination is a critical aspect of the scientific method and can lead to more precise and profound understanding of a subject.",
+    "expert": "Negative knowledge plays a fundamental role in the philosophy of science, as it highlights the limitations of our understanding. The process of elimination can reveal the hidden structures and constraints that shape our knowledge, connecting diverse fields such as logic, epistemology, and the philosophy of language. Negative knowledge also emphasizes the importance of critical thinking and the need to test assumptions against evidence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The value of negative knowledge in guiding scientific inquiry is exemplified by the search for dark matter, where the process of elimination has shaped the field and led to a more focused search for a viable candidate.",
+    "source_chunk": 105,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

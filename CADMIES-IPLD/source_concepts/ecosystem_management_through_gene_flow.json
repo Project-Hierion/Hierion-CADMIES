@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ecosystem_management_through_gene_flow",
+  "title": "Ecosystem Management Through Gene Flow",
+  "definition": "The intentional cultivation of a diverse ecosystem to promote genetic health and robustness in its inhabitants.",
+  "type": "Concept",
+  "domain": "Ecology, Genetics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.175262Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.175262Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your yard as a little community of blue jays, bugs, and plants. By providing food and shelter, you've made it a home for them. This helps blue jays maintain a good mix of genes to keep their population healthy.",
+    "intermediate": "By fostering an ecosystem, you've increased habitat provisioning and trophic cascading. This has led to breeding success and the presence of two blue jay fledglings. The observed sex-based dispersal in blue jays suggests a strategy to maintain genetic diversity and prevent inbreeding.",
+    "expert": "Your yard is functioning as a source population for blue jays, facilitating gene flow within a local network. By promoting outbreeding and genetic diversity, you're contributing to the robustness and resilience of the blue jay meta-population. This is a form of ecosystem management that leverages the principles of ecology and genetics for a holistic and sustainable approach to conservation and biodiversity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user's yard is functioning as a genetic diversity sanctuary for blue jays, contributing to the health and robustness of the local meta-population.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

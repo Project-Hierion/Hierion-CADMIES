@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_as_co_information",
+  "title": "Consciousness As Co Information",
+  "definition": "The proposition that consciousness is not a mere byproduct of sensory input, but an additional layer of information carried by light and integrated into the perception process.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.493502Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.493502Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine consciousness as a software update that's downloaded through the light we see. Just as turning on a computer with a new OS gives it new capabilities, the first light our eyes experience helps us understand and experience the world in a deeper, more conscious way.",
+    "intermediate": "Consciousness is not simply the product of processing visual data. This concept suggests that consciousness is an additional layer of information that's carried by light and integrated into the perception process. This 'co-information' provides the context and structure that allows us to experience the world as a unified, subjective reality.",
+    "expert": "This concept challenges the traditional view of consciousness as an emergent property of the brain. Instead, it proposes that consciousness is a fundamental feature of the universe, carried by light and integrated into the perception process through a dual-band receiver in the visual cortex. This co-information not only allows us to perceive the physical world but also to experience it as a unified, subjective reality. This has implications for the nature of reality, the role of consciousness in shaping our experience of it, and the relationship between consciousness and other fields such as quantum mechanics and information theory."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Consciousness is not a mere byproduct of sensory input, but an additional layer of information carried by light and integrated into the perception process.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

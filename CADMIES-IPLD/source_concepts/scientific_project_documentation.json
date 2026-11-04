@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_project_documentation",
+  "title": "Scientific Project Documentation",
+  "definition": "The process of formally documenting a scientific project's methodology, architecture, and decision-making process, serving as a single source of truth, a lab notebook, and a foundation for collaboration.",
+  "type": "Concept",
+  "domain": "Research Methodology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.849517Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.849517Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like keeping a detailed journal about your project. It helps others understand your work and makes it easier to follow along as you progress.",
+    "intermediate": "Scientific project documentation involves creating a structured, interconnected system of notes that outline the project's methodology, tools, decisions, and results. This creates a single source of truth, makes onboarding new collaborators possible, and aligns with best practices in knowledge management.",
+    "expert": "Scientific project documentation is a critical aspect of research that not only serves as a record of the project's progress but also shapes its future direction. By formalizing the project, documenting its architecture, and creating a single source of truth, the project becomes more robust, adaptable, and open to collaboration. This process is influenced by the Luhmann/Ahrens/Forte tradition of atomic, densely-linked knowledge management and aligns with the twin mycelium collaboration methodology. Additionally, the scientific project documentation process can have philosophical implications, as it raises questions about truth, knowledge, and the role of documentation in shaping our understanding of the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The process of formalizing CADMIES as a scientific project, documenting its architecture, and creating a single source of truth serves as a foundation for collaboration, aligns with the twin mycelium collaboration methodology, and raises philosophical questions about truth, knowledge, and documentation.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

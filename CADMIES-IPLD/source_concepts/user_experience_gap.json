@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_experience_gap",
+  "title": "User Experience Gap",
+  "definition": "A disparity between the user-facing documentation and the actual process of using a software product.",
+  "type": "Concept",
+  "domain": "Human-Computer Interaction",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.051312Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.051312Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to assemble a piece of furniture from instructions in a book. The book tells you to get the screwdriver and hammer, but it doesn't mention the wrench that you also need. That's a user experience gap.",
+    "intermediate": "A user experience gap occurs when the software's documentation fails to communicate all the necessary steps or dependencies for a successful installation or usage.",
+    "expert": "A user experience gap is a design flaw that can lead to frustration, wasted time, and errors. It highlights the importance of clear and comprehensive documentation. From a philosophical perspective, it raises questions about the nature of knowledge transmission and the role of documentation in understanding and using complex systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the need for clear and comprehensive documentation to bridge the gap between user expectations and the actual process of using the software.",
+    "source_chunk": 125,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

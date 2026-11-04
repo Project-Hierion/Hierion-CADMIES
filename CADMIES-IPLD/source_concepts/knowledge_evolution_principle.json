@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_evolution_principle",
+  "title": "Knowledge Evolution Principle",
+  "definition": "A principle that describes the continuous creation, refinement, and deprecation of knowledge within a system to ensure its relevance, accuracy, and ethical integrity.",
+  "type": "Concept",
+  "domain": "Epistemology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.340290Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.340290Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "conservation_of_energy",
+      "occams_razor",
+      "natural_selection",
+      "bayes_theorem",
+      "perceptual_frames_as_intelligence_multipliers"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of knowledge as a garden that grows and changes over time. Just like you add new plants, remove old ones, and nurture the ones that grow well, knowledge should be updated, improved, and replaced in a similar way to keep it fresh and useful.",
+    "intermediate": "The knowledge evolution principle involves creating new concepts with unique human-readable identifiers, updating existing concepts by generating new content-addressable identifiers (CIDs) when changes occur, and deprecating concepts that are no longer relevant or accurate. This process ensures that the knowledge in the system remains up-to-date, relevant, and ethically sound.",
+    "expert": "The knowledge evolution principle encompasses the systematic creation, refinement, and deprecation of knowledge within a system. This process includes unique human-readable identifiers (human_ids), content-addressable identifiers (CIDs), and metadata fields that track version history and provenance. The principle also includes validation rules for human_ids, CIDs, and metadata to ensure data integrity, uniqueness, and ethical usage. The knowledge evolution principle connects to other fields such as information theory, cognitive science, and ethics by emphasizing the importance of maintaining accurate, relevant, and ethically sound knowledge within a system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of continuous knowledge evolution to ensure its relevance, accuracy, and ethical integrity.",
+    "source_chunk": 121,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

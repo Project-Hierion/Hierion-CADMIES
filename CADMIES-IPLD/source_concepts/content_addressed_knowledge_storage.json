@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressed_knowledge_storage",
+  "title": "Content Addressed Knowledge Storage",
+  "definition": "A system where each unique piece of knowledge is assigned a unique identifier (CID) that directly corresponds to its content, facilitating efficient and accurate retrieval and storage of educational materials.",
+  "type": "Concept",
+  "domain": "Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.848893Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.848893Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine each book in a library having a unique barcode that matches its content. This system helps us find and manage educational materials easily and accurately.",
+    "intermediate": "Content-addressed knowledge storage is a method where each CID uniquely identifies a specific piece of educational content. This approach ensures the accurate retrieval and storage of knowledge blocks, enhancing the organization and accessibility of educational resources.",
+    "expert": "Content-addressed knowledge storage is a cornerstone of distributed systems and decentralized information sharing. By employing a CID, the system ensures data integrity, redundancy, and efficient retrieval. It also lays the groundwork for interoperability with other decentralized storage systems and blockchain technologies, promoting the open sharing of educational resources."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system demonstrates the power of content-addressed knowledge storage, a method that allows for the efficient and accurate retrieval and storage of educational materials.",
+    "source_chunk": 61,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

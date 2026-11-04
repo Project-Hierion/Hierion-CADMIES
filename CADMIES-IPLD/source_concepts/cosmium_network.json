@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmium_network",
+  "title": "Cosmium Network",
+  "definition": "The universal, web-like structure of the cosmos, composed of dark matter and gaseous filaments, analogous to a mycelial network.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.647042Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.647042Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the cosmic web as a giant spider web. It's a network that connects all galaxies and gives them shape and structure. The Cosmium Network is what makes this web possible and real.",
+    "intermediate": "The Cosmium Network is a metaphysical entity composed of dark matter and gaseous filaments. It functions as a connective framework for galaxies, similar to how a mycelial network in a forest supports its life.",
+    "expert": "The Cosmium Network is a fundamental structure of the universe, unifying quantum mechanics and cosmology. It highlights the interconnectedness of the universe and challenges traditional notions of space and time. The Cosmium Network also draws connections to the field of topology, which explores the invariant properties of spaces."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Cosmium Network is a novel concept that provides a deeper understanding of the structure of the universe.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

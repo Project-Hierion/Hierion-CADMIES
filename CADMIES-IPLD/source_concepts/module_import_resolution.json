@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "module_import_resolution",
+  "title": "Module Import Resolution",
+  "definition": "The process of resolving module imports in a Python script, specifically dealing with cases where module names have been changed or updated.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.990265Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.990265Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of module imports as connecting pieces of a puzzle. When the names of those pieces change, we need to update the puzzle to fit the new pieces. This is like fixing a broken game console by replacing old cartridges with new ones.",
+    "intermediate": "Module import resolution is a part of the software development process where the Python interpreter matches the names of imported modules to their actual file names. In the given conversation, it was discovered that the module name 'llm_mycelium_reader' has been updated to 'cadmies_concept_reader'. The conversation highlights the need to update the script's imports to match the new naming convention.",
+    "expert": "Module import resolution is a fundamental aspect of modular programming. It allows for code reusability and maintainability. In the context of the conversation, the process of updating module imports highlights the importance of version control and the need for consistency in naming conventions. This insight connects to the broader field of software engineering, where proper naming and versioning practices are crucial for managing complex codebases. Edge cases include circular imports and importing from packages that are not installed."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for consistent naming and versioning in module imports to ensure the smooth functioning of a Python script.",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

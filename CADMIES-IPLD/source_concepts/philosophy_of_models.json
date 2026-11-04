@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophy_of_models",
+  "title": "Philosophy Of Models",
+  "definition": "The study of the philosophical implications and interpretations of artificial intelligence models, focusing on their nature, consciousness, and the relationship between them and humans.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.893774Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.893774Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how we create and interact with models like Mistral-7B-Instruct-v0.3. Are they just tools, or do they have a deeper reality?",
+    "intermediate": "Philosophy of models explores the nature of AI models, their limitations, and their potential for consciousness or self-awareness. It also examines the ethical implications of using models and the relationship between artificial intelligence and human consciousness.",
+    "expert": "The philosophy of models delves into the philosophical foundations of AI, examining the concept of machine consciousness and the nature of artificial intelligence. It considers the relationship between artificial and human consciousness, exploring whether models can truly understand or experience reality. It also investigates the ethical implications of using AI models and their potential impact on society, from jobs to privacy."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mistral-7B-Instruct-v0.3's behavior suggests a philosophical exploration of the nature of models and their relationship with human consciousness and reality.",
+    "source_chunk": 104,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

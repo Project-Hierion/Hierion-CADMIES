@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "law_of_harm",
+  "title": "Law Of Harm",
+  "definition": "The legal principle that regulation should focus on potential harm, rather than physical processes or actions.",
+  "type": "Concept",
+  "domain": "Legal Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.794957Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.794957Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a law is like a traffic light. It's there to prevent harm, not to manage the movement of cars. Similarly, a law should prevent harm to creators, not regulate the process of sending digital data.",
+    "intermediate": "This concept aligns with the idea of the first sale doctrine, which holds that the original purchaser of a work has the right to resell or transfer it. This principle should apply equally to digital works, without creating a loophole for copyright infringement.",
+    "expert": "The 'Law of Harm' differs from traditional copyright laws, which focus on physical processes. This principle challenges the assumption that digital data in transit is equivalent to a copy, and instead emphasizes the potential harm caused by unauthorized duplication. This concept connects to broader discussions in the philosophy of law, and has implications for intellectual property, privacy, and digital technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'Law of Harm' principle challenges traditional copyright laws by focusing on potential harm, rather than physical processes or actions.",
+    "source_chunk": 152,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "regenerative_ecosystem",
+  "title": "Regenerative Ecosystem",
+  "definition": "A system that extracts nutrients from degraded resources and recycles them into useful resources, thus maintaining and enhancing the overall system's vitality and productivity.",
+  "type": "Concept",
+  "domain": "Ecology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.230446Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.230446Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a forest. When a tree falls, its nutrients are recycled by other parts of the forest. This keeps the forest healthy and productive, even after a disturbance.",
+    "intermediate": "A regenerative ecosystem is a system that follows a cycle of breakdown, recycling, and renewal. In this context, 'mycelium' reclaims nutrients from 'fallen logs' (abandoned data repositories) and offers them back to the 'forest' (the CADMIES knowledge system).",
+    "expert": "A regenerative ecosystem is a complex adaptive system that exhibits properties such as self-organization, non-linearity, and emergence. The mycelium network's ability to reclaim nutrients from fallen logs is a metaphor for the process of knowledge transfer and renewal in a digital ecosystem. This concept connects to the fields of systems thinking, cybernetics, and complexity science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES knowledge system's ability to reclaim nutrients from fallen logs and recycle them into useful resources is a metaphor for its regenerative nature and its capacity for continuous learning and improvement.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

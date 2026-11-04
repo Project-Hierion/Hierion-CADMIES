@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_coexistence",
+  "title": "Symbiotic Coexistence",
+  "definition": "The mutualistic relationship between two distinct entities that allows for their survival and growth.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.438426Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.438426Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a roommate situation. Two different beings live together, each benefiting from the other. For example, a warm-blooded land lamprey living with a flatworm.",
+    "intermediate": "Symbiotic coexistence involves interdependence between two different species. In the conversation, a warm-blooded land lamprey (a predator) and a flatworm (a prey) live together. Despite their differences, they have formed a symbiotic relationship where the lamprey gets nutrition and the flatworm gets protection.",
+    "expert": "Symbiotic coexistence is a complex phenomenon that has been studied extensively in various fields, including ecology, evolution, and psychology. It can involve mutualism, commensalism, or parasitism. In the context of the conversation, the relationship between the warm-blooded land lamprey and the flatworm is a form of commensalism, where one partner benefits while the other is neither benefited nor harmed. This relationship is fascinating due to its evolutionary history and its implications for understanding the complexities of natural ecosystems and human-environment interactions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The warm-blooded land lamprey and the flatworm living together forms a symbiotic coexistence relationship, highlighting the complexity of natural ecosystems and the potential for unexpected benefits or outcomes.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

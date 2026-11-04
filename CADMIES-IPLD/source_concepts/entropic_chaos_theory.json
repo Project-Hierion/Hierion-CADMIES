@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "entropic_chaos_theory",
+  "title": "Entropic Chaos Theory",
+  "definition": "A theoretical perspective that explores the relationship between consciousness, psychedelic experiences, and the shift from order to maximum disorder in the brain, with insights drawn from system entropy, neural cascades, and the collapse of the ego.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind and Consciousness",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.117253Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.117253Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your mind as a well-organized library. Normally, it's like a quiet, structured place. But when something powerful, like a psychedelic, disrupts it, the library becomes a chaotic, overwhelming mess. It's not less information, it's more, and it's all mixed up. In this state, you can't find 'yourself' because the system that normally creates your identity is disrupted.",
+    "intermediate": "This theory suggests that psychedelic experiences involve a shift from low-entropy, orderly brain states to high-entropy, chaotic ones. This is achieved through a neural cascade that leads to the collapse of the ego. The ego is seen as a complex, constantly running indexing process maintained by the Default Mode Network. The disruptive effect of psychedelics on this process leads to ego death, causing the individual to search for the narrative 'I' and find raw sensory data instead.",
+    "expert": "From a philosophical perspective, the entropic chaos theory challenges traditional notions of self and identity. It suggests that our sense of self is not a static, singular entity, but an emergent property of complex neural dynamics. The theory also has implications for the nature of consciousness, as it proposes that consciousness arises from the patterns of neural activity, not from any underlying substance. Additionally, the theory provides a novel perspective on the relationship between psychedelics, consciousness, and mental health, connecting these fields with insights from dynamical systems theory, cognitive science, and the philosophy of mind."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that our sense of self is an emergent property of complex neural dynamics, and that psychedelic experiences can disrupt this process, leading to ego death and a shift from order to maximum disorder in the brain.",
+    "source_chunk": 117,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

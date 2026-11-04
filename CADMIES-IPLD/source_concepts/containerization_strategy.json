@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "containerization_strategy",
+  "title": "Containerization Strategy",
+  "definition": "A strategy for integrating containerization within an existing operating system ecosystem, preserving the base system and allowing for the installation of specific development and troubleshooting tools.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.031742Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.031742Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a special toolbox that lets you add new tools without affecting your main operating system.",
+    "intermediate": "This strategy involves using containerization to create isolated environments for installing and using specific tools, while maintaining the integrity of the base operating system.",
+    "expert": "This strategy provides a flexible solution for incrementally adopting containerization within an existing operating system ecosystem, allowing for the selective installation of tools and environments without causing interference or disruption to the base system. By leveraging the principles of containerization, this approach ensures that the installed tools are isolated from the rest of the system, while still providing access to shared resources and functionalities as needed."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Toolbx environment allows for the selective installation of tools and environments without causing interference or disruption to the base operating system, providing a flexible solution for incrementally adopting containerization.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

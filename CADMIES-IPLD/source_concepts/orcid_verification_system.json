@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "orcid_verification_system",
+  "title": "Orcid Verification System",
+  "definition": "A system that ensures the authenticity and ownership of digital concepts by integrating with the ORCID API for verification and stamping.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.926438Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.926438Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a digital passport for your ideas. It checks if you're really the creator of a concept and if it's genuine, using a special digital identity system.",
+    "intermediate": "The ORCID Verification System is a mechanism that integrates with the ORCID API to validate and stamp digital concepts. It ensures authenticity and ownership by verifying the identity of the concept's creator through ORCID.",
+    "expert": "The ORCID Verification System is a novel approach to digital identity and verification, connecting the physical world of scholarly research with the digital realm. By integrating with the ORCID API, it creates a robust system for verifying and stamping digital concepts. This not only enhances trust and authenticity but also provides a framework for future integrations with other digital identity systems, expanding the possibilities for digital verification and authentication."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ORCID Verification System integrates digital identity and verification, enhancing trust and authenticity in the digital realm.",
+    "source_chunk": 87,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

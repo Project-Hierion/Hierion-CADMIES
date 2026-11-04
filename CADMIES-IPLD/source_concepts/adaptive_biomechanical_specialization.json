@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "adaptive_biomechanical_specialization",
+  "title": "Adaptive Biomechanical Specialization",
+  "definition": "The strategic separation of distinct biological functions into specialized components, enabling each to evolve optimally to its specific task, enhancing overall function and survival.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.480454Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.480454Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a vampire's fangs aren't just for drinking. They're like a set of hooks that hold things in place while the tongue does the feeding. This separation of functions allows each part to be optimized for its job, improving overall performance.",
+    "intermediate": "Adaptive biomechanical specialization separates the biomechanical problems of anchoring and feeding into two distinct systems. This approach is mechanically convergent with various engineering solutions and demonstrates the evolutionary advantage of dividing labor for specific tasks.",
+    "expert": "Adaptive biomechanical specialization represents an elegant solution to a multi-constraint optimization problem in biological systems. This adaptation allows each component to evolve independently while maintaining synergy with other components, leading to enhanced overall function and survival."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The separation of functions into specialized components enables each to evolve optimally to its specific task, enhancing overall function and survival in biological systems.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "evolutionary_mismatch",
+  "title": "Evolutionary Mismatch",
+  "definition": "The occurrence of features or adaptations in an organism that are not beneficial or optimal for its survival and reproduction, due to external influences or interventions.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.703551Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.703551Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how a self-peeling banana is like a product designed for us, not its natural environment. Just like how a snowman might melt in a hotter climate, a self-peeling banana in nature wouldn't be as beneficial as it is for us.",
+    "intermediate": "Evolutionary mismatch occurs when an organism's traits do not align with its evolutionary history or environment. For bananas, the peel's ease of removal is a mismatch in their natural environment, as it doesn't serve the fruit's survival or reproduction needs.",
+    "expert": "Evolutionary mismatch is a complex concept that highlights the tension between natural selection and external interventions. In the case of the banana, the peel's ease of removal is a result of human selection for taste and convenience, not the fruit's natural evolutionary pressures. This mismatch illustrates the ongoing dialogue between nature and culture, and challenges our understanding of what 'natural' truly means."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ease of peeling a banana is a result of human intervention, not natural selection, illustrating the concept of evolutionary mismatch.",
+    "source_chunk": 114,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

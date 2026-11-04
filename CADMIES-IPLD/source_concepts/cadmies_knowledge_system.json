@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_knowledge_system",
+  "title": "Cadmies Knowledge System",
+  "definition": "A three-layered knowledge system comprising a conceptual fortress (Cosmium Angelo), a volcanic glass library (Scientific Obsidian), and a living knowledge network (CADMIES Mycelium).",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.840974Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.840974Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "CADMIES is a library system with three parts: a fortress (Cosmium Angelo), a frozen record (Scientific Obsidian), and a living network (CADMIES Mycelium).",
+    "intermediate": "CADMIES is a knowledge system consisting of a container (Cosmium Angelo), a record (Scientific Obsidian), and a life (CADMIES Mycelium). The system operates through a zettelkasten methodology, with each phase documented in the Scientific Obsidian vault.",
+    "expert": "CADMIES is a novel blend of physical and conceptual elements, symbolizing the fusion of technology and knowledge. It is a system of three layers: the fortress (Cosmium Angelo), the record (Scientific Obsidian), and the life (CADMIES Mycelium). The integration of these elements creates a robust, adaptable, and eternally evolving knowledge system. The use of zettelkasten methodology enhances the interconnectedness and accessibility of knowledge, while the three-layer system ensures a balance between stability and dynamism."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of physical and conceptual elements in a knowledge management system creates a unique blend of stability and dynamism.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_experience_design",
+  "title": "User Experience Design",
+  "definition": "The process of enhancing user satisfaction and ease of use through the creation of user interfaces and user experiences.",
+  "type": "Concept",
+  "domain": "Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.339543Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.339543Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like making a cake. User Experience Design is about how the cake (your website) looks, feels, and works for the person eating it (your user).",
+    "intermediate": "User Experience Design encompasses various design disciplines to create a cohesive, functional, and aesthetically pleasing experience. This includes understanding user behavior, user interface design, and user experience mapping.",
+    "expert": "User Experience Design is a philosophical discipline that intersects with psychology, ethnography, and human-computer interaction. It explores the relationship between users and technology, focusing on user-centered design principles and the emotional experience of using a product. It also has connections with fields like service design and industrial design."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful implementation of User Experience Design results in a seamless blend of form and function, creating an experience that is both practical and emotionally resonant.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

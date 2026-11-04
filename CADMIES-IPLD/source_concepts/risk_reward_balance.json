@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "risk_reward_balance",
+  "title": "Risk Reward Balance",
+  "definition": "The evaluation of the potential benefits against the potential costs or drawbacks of a decision or action.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.533317Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.533317Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as weighing the upsides against the downsides of a situation. Like deciding to go on a date, even though there's a chance they might not be your perfect match.",
+    "intermediate": "In the context of this conversation, risk-reward balance refers to the judgment of the potential benefits of a relationship (the 'sex would be so great') against the potential costs and risks (the 'broken lease agreements and interest compounded in tears').",
+    "expert": "This concept is rooted in decision theory and utility maximization. It's a fundamental aspect of risk management and game theory. The balance can be influenced by factors such as personal preferences, risk tolerance, and the availability of alternatives. In this case, the 'beautiful disaster' serves as a unique risk that the individual is willing to take due to the perceived benefits."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The willingness to endure a 'beautiful disaster' implies a favorable risk-reward balance in the individual's perception.",
+    "source_chunk": 45,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

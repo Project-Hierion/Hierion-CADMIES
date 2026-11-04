@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "curated_data_library",
+  "title": "Curated Data Library",
+  "definition": "A comprehensive collection of datasets that provides a central location for accessing, exploring, and utilizing data related to language models.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.242891Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.242891Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a big bookstore for data. It helps you find all the best books (datasets) for training your machine learning models (LLMs).",
+    "intermediate": "A curated data library is a centralized repository that gathers diverse datasets from various sources. It allows for easy access, management, and utilization of data for tasks such as training and fine-tuning language models.",
+    "expert": "A curated data library is a critical infrastructure in the field of artificial intelligence. It serves as a centralized repository for datasets, facilitating their discovery, access, and utilization. By maintaining a comprehensive and up-to-date collection, it enables researchers and practitioners to compare different datasets, identify trends, and develop novel applications. Furthermore, a curated data library plays a crucial role in addressing the reproducibility crisis in machine learning by ensuring the availability and transparency of the data used in research."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The value of a curated data library lies in its ability to provide a centralized and comprehensive collection of datasets, thereby promoting reproducibility, facilitating comparison, and fostering innovation in the field of language models.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

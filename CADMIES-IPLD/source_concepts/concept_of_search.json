@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_of_search",
+  "title": "Concept Of Search",
+  "definition": "The process of discovering and organizing relevant information to answer a question or solve a problem.",
+  "type": "Concept",
+  "domain": "Information_Retrieval",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.869348Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.869348Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "craving_tanha_cycle"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're looking for a book in a library. You search based on what you know about the book, and the system finds the best matches. Search in this context refers to that process.",
+    "intermediate": "Concept of search encompasses keyword matching and semantic query expansion. Keyword matching finds exact or similar words in a document, while semantic query expansion uses context to broaden the search terms, increasing recall but potentially decreasing precision.",
+    "expert": "The concept of search is a foundational element in information science and computer science. It's been studied extensively for over six decades. Search techniques have been applied beyond text to images, video, and complex data structures. Moreover, search is intrinsically intertwined with privacy and security, as it's a primary method for information access and control."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The hybrid search combines keyword matching (precision) with semantic query expansion (recall) to find relevant concepts across vocabulary boundaries.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

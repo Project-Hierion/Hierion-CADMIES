@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "social_interplay",
+  "title": "Social Interplay",
+  "definition": "The complex interplay of social structures, cultural movements, and human interactions that shape societies and communities.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.437680Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.437680Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of social interplay as how people, politics, and laws all influence each other. It's like a dance, where everyone's moves affect the whole.",
+    "intermediate": "Social interplay is the intricate web of social structures, governance, communication, and cultural movements that shape societal norms and structures. It encompasses politics, law, and human interaction.",
+    "expert": "Social interplay is a multi-faceted phenomenon that intertwines sociology, economics, linguistics, and philosophy. It's a dynamic, emergent property of complex systems, reflecting the interplay of cultural norms, economic forces, and linguistic communication. Philosophically, it raises questions about the nature of human consciousness, creativity, and collaboration. In terms of knowledge management, it underscores the importance of social networks and knowledge sharing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of social structures, politics, economics, and linguistics, shaping societal norms and structures.",
+    "source_chunk": 75,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

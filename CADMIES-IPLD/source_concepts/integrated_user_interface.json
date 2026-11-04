@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "integrated_user_interface",
+  "title": "Integrated User Interface",
+  "definition": "A user interface that seamlessly integrates various functionalities into a cohesive and intuitive whole.",
+  "type": "Concept",
+  "domain": "User Experience Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.197025Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.197025Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a well-designed website or app that does everything you need in one place. No need to switch tabs or apps \u2014 everything is right there.",
+    "intermediate": "An integrated user interface is a design approach that prioritizes usability and efficiency by presenting multiple features or functions within a single application, rather than requiring the user to switch between separate applications or interfaces.",
+    "expert": "The concept of an integrated user interface has been widely studied in human-computer interaction. It can lead to improved user satisfaction, task completion time, and reduced cognitive load. However, designing an effective integrated UI requires careful consideration of information architecture, user flow, and user-centered design principles. Additionally, the concept of an integrated UI is not exclusive to digital interfaces; it can also be applied to physical systems, such as a smart home with integrated lighting, heating, and security systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful integration of multiple functionalities into a cohesive user interface in the CADMIES system.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

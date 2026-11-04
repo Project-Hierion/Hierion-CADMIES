@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_interconnections",
+  "title": "Philosophical Interconnections",
+  "definition": "The concept of how philosophical concepts from different disciplines are interconnected and how they form a cohesive framework.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.079130Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.079130Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of philosophical ideas as a complex web. This concept focuses on how these ideas are connected and how they create a broader understanding.",
+    "intermediate": "Philosophical interconnections refer to the semantic relationships and overlaps between concepts from various philosophical disciplines. This understanding aids in creating a cohesive and comprehensive philosophical framework.",
+    "expert": "Philosophical interconnections reveal the depth and complexity of the philosophical landscape. This understanding is not only a synthesis of various disciplines but also provides insights into the nature of knowledge itself. It highlights the interconnectedness of concepts across fields and suggests the existence of fundamental patterns or structures that underpin all philosophical inquiry."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of interconnections among philosophical concepts suggests a unifying framework that transcends individual disciplines.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

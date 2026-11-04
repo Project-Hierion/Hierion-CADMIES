@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vicious_cycle_concept",
+  "title": "Vicious Cycle Concept",
+  "definition": "A cycle of recurring patterns that, despite short-term benefits, ultimately result in negative outcomes over the long term.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.745179Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.745179Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "craving_tanha_cycle"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a hamster wheel \u2014 you run in circles but never get anywhere. Similarly, some habits or behaviors can make us feel good right now, but they don't lead us to our true potential or long-term happiness.",
+    "intermediate": "A vicious cycle is a type of feedback loop where the output of a process is used as an input to the same process, resulting in repetitive patterns that reinforce the cycle. The Craving Tanha Cycle (referenced by 'craving_tanha_cycle') is an example of this, demonstrating how pleasant sensations can lead to further craving and dissatisfaction.",
+    "expert": "A vicious cycle can be understood within the broader context of complex systems and non-linear dynamics. It highlights the interplay between causes and effects, and the importance of understanding and breaking these cycles to achieve positive change. The Vicious Cycle Concept also connects to other fields like economics (e.g., the debt cycle) and psychology (e.g., the addictive cycle)."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the existence of vicious cycles in various contexts, demonstrating the importance of understanding and addressing these patterns to promote long-term well-being and growth.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

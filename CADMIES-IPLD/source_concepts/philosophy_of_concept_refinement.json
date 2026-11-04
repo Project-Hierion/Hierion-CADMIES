@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophy_of_concept_refinement",
+  "title": "Philosophy Of Concept Refinement",
+  "definition": "The process of refining and distilling concepts to their most essential, unified, and philosophically meaningful form.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.728634Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.728634Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of refining concepts as simplifying ideas while keeping their core meaning. It's like clarifying a muddy thought into a clear, understandable idea.",
+    "intermediate": "The philosophy of concept refinement explores methods to enhance understanding by merging similar concepts, eliminating duplicates, and identifying underlying philosophical themes.",
+    "expert": "The philosophy of concept refinement examines the nature of concepts, their relationships, and the cognitive processes involved in their formation and comprehension. It connects to other fields like semiotics, logic, and epistemology, exploring the philosophical implications of refining concepts and identifying the edge cases that challenge our understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlighted the importance of refining concepts for clarity, coherence, and philosophical depth.",
+    "source_chunk": 133,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

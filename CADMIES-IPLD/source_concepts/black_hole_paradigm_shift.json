@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_paradigm_shift",
+  "title": "Black Hole Paradigm Shift",
+  "definition": "The conceptual shift from viewing black holes as objects within our 'regular world' to understanding them as unique, reversed-logic entities within their own 'kingdom'.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.521828Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.521828Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of black holes not like washing machines, where they spin faster near the center. Instead, imagine black holes as unique entities that bend and warp spacetime, creating a space where time flows differently than our regular world. The bigger they are and the faster they spin, the more they distort spacetime.",
+    "intermediate": "Black holes are not objects within spacetime; they are conditions of spacetime. Their mass and spin create a curvature in spacetime, leading to the formation of an event horizon and an ergosphere. The size and shape of these regions are determined by the mass and spin of the black hole, respectively.",
+    "expert": "The paradigm shift in understanding black holes is akin to understanding gravity not as a force but as a curvature of spacetime. It highlights the non-locality of gravity and the interconnectedness of space and time. Black holes challenge our classical notions of causality, as they distort spacetime in such a way that external observers can see events within their event horizon before those events have occurred."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that black holes are unique entities that warp and distort spacetime, requiring a paradigm shift in understanding them.",
+    "source_chunk": 62,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

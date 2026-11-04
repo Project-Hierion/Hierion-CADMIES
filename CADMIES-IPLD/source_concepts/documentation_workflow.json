@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_workflow",
+  "title": "Documentation Workflow",
+  "definition": "The structured process for creating scientific-grade documentation from initial text entry to professional PDF output.",
+  "type": "Concept",
+  "domain": "Information Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.574587Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.574587Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a recipe for writing professional reports. It starts with choosing a report type, then creating content, adding details, and finally checking and publishing the document.",
+    "intermediate": "The documentation workflow is a systematic approach that ensures the creation of high-quality, scientifically-formatted documents. It involves selecting a document type, drafting content, applying metadata, conducting quality checks, generating a scientific PDF, and managing versions.",
+    "expert": "The documentation workflow is a philosophical exploration of the relationship between information, communication, and professionalism. It reveals the nuanced interplay between human creativity, technological tools, and organizational structure. By examining edge cases and drawing connections to fields like information science and cognitive psychology, it highlights the importance of understanding the context and audience when conveying complex ideas."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The documentation workflow demonstrates the transformative power of structured processes, combining human creativity with technological tools to produce professional, scientifically-formatted documents.",
+    "source_chunk": 56,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelium_growth_architecture",
+  "title": "Mycelium Growth Architecture",
+  "definition": "The design of a modular, adaptable, and user-centric mycelium growth system that allows for both stable and enhanced experiences.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.987393Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.987393Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden that can adapt to your preferences. Mycelium Growth Architecture allows you to choose how the garden looks and feels. It's like having a customizable toolkit for growing ideas.",
+    "intermediate": "Mycelium Growth Architecture is a toggle-based architecture that allows users to opt-in to enhanced experiences in the mycelium map. This enhances user engagement and exploration while ensuring stability and performance.",
+    "expert": "Mycelium Growth Architecture is a novel approach to software design that leverages toggle-based features to create a customizable and adaptable system. It allows for both stable and enhanced experiences, while also providing a framework for continuous evolution and improvement. This architecture has implications for user-centric design, modular software systems, and the future of intelligent networks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to create customizable and adaptable systems that can evolve over time, while ensuring stability and performance, is a key challenge in software engineering. Mycelium Growth Architecture provides a framework for addressing this challenge in a user-centric way.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

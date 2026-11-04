@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_cleanliness_importance",
+  "title": "Data Cleanliness Importance",
+  "definition": "The emphasis on the importance of clean and well-organized data in producing reliable and accurate results.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.375330Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.375330Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your room is messy. It's hard to find things, and you might even lose some. In our context, data is like the objects in your room. Clean, organized data makes it easier to find and use information, which leads to better results.",
+    "intermediate": "In the conversation, we discussed the need to normalize human_ids, deduplicate concepts, and fix problems at the root rather than patching around them. This is all about data cleanliness and its importance in producing reliable pipelines.",
+    "expert": "The emphasis on data cleanliness highlights the importance of data preprocessing in the data pipeline. Clean data not only improves efficiency but also ensures accuracy and reliability. Additionally, this concept has implications in other fields such as data science and statistics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of data cleanliness in producing reliable and accurate results, and the need to address problems at the root rather than patching around them.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

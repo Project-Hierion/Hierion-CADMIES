@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_management",
+  "title": "Backup Management",
+  "definition": "The process of managing backups, including scheduling, storage utilization, and data retention.",
+  "type": "Concept",
+  "domain": "System Administration",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.635848Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.635848Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of backup management as a system that helps you save your data in case something goes wrong. It's like having a copy of your important stuff on a cloud so you can get it back if needed.",
+    "intermediate": "Backup management involves scheduling regular backups, monitoring storage utilization, and managing data retention policies. This includes tasks like calculating storage usage, enumerating backup sets, and building a file tree for a given backup path.",
+    "expert": "From a philosophical perspective, backup management challenges us to consider the nature of data, its value, and the risks of loss. It also raises questions about efficiency, redundancy, and the role of technology in preserving and facilitating access to knowledge. Additionally, it connects to fields like information theory and data privacy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals a system for managing backups, demonstrating the importance of data preservation and the need for robust backup strategies.",
+    "source_chunk": 89,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "integrated_intelligent_architecture",
+  "title": "Integrated Intelligent Architecture",
+  "definition": "The integration of AI technologies into a broader intelligent system that leverages the unique capabilities of each technology.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence, Software Architecture",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.322443Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.322443Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a smart home that can not only control your lights and thermostat but also have a conversation with you. That's an integrated intelligent architecture.",
+    "intermediate": "An integrated intelligent architecture involves the integration of various AI technologies to create a cohesive and functional system. This approach leverages the unique capabilities of each technology to improve overall performance and functionality.",
+    "expert": "An integrated intelligent architecture is a philosophically significant concept that challenges traditional approaches to AI integration. It advocates for a multi-disciplinary and interdisciplinary approach to AI, recognizing that no single technology can meet all needs. This approach has the potential to revolutionize fields such as healthcare, transportation, and manufacturing, by creating intelligent systems that are adaptable, efficient, and sustainable."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

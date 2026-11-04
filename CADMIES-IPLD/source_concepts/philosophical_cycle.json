@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_cycle",
+  "title": "Philosophical Cycle",
+  "definition": "A repeating pattern that encapsulates the interplay of various concepts, ultimately leading to the recurrence of the initial state.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.722236Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.722236Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a ball bouncing up and down. It's a simple cycle: the ball goes up, then down. In a philosophical sense, this could be a cycle of thoughts, emotions, or experiences that repeats over and over.",
+    "intermediate": "A philosophical cycle is a sequence of interrelated concepts or ideas that follow a recurring pattern. This could be seen as a loop in a concept graph, where each concept builds upon or is a response to the previous one, ultimately leading back to the initial state.",
+    "expert": "A philosophical cycle is a dynamic and dialectical process where concepts are not static but evolve and interact, giving rise to new insights that challenge or confirm existing theories. This cyclical process has been observed in various philosophical traditions and can be understood in the context of epistemology, hermeneutics, and the philosophy of language."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The repetitive nature of philosophical cycles underscores the complexity and dynamic nature of philosophical inquiry, and highlights the interconnectedness of ideas.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

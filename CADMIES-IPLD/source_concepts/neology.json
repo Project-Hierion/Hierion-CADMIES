@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neology",
+  "title": "Neology",
+  "definition": "The process of creating new words to fill lexical gaps, convey meaning, and evolve language.",
+  "type": "Concept",
+  "domain": "Linguistics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.181614Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.181614Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When we feel that existing words don't fully capture the reality we're trying to describe, we create new words. Neology is the process of creating these new words.",
+    "intermediate": "Neology involves the use of compounding, blending (portmanteau), and using classical roots to create new words that are evocative, functional, and fill a lexical gap. It's a natural and essential process that has driven the evolution of language.",
+    "expert": "Neology is a complex and fascinating field that intersects with semiotics, sociolinguistics, and cognitive psychology. It's not just about creating new words, but also about the cultural and psychological factors that influence language change, and the role of language in shaping our understanding of the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Neology is the engine of language evolution, and it's precisely the feeling that existing words 'don't cut it' that catalyzes the process of creating new ones.",
+    "source_chunk": 105,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

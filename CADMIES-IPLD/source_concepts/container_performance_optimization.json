@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "container_performance_optimization",
+  "title": "Container Performance Optimization",
+  "definition": "The practice of enhancing the speed and efficiency of software containers through various techniques.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.041186Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.041186Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a container as a box with your software inside. Container optimization is like making that box run faster. By using a faster USB port or a faster drive, you're optimizing the container's performance.",
+    "intermediate": "Container performance optimization involves techniques such as using faster hardware, like USB 3 over USB 2, or using solid-state drives (SSD) over traditional hard drives. This can significantly speed up operations like downloading and installing software.",
+    "expert": "Container performance optimization is a multidisciplinary field that combines elements of computer science, hardware engineering, and system administration. It goes beyond just using faster hardware. It also includes techniques like container image optimization, layer caching, and container orchestration strategies. The novel insight here is the relationship between hardware and software, and how optimizing both can significantly enhance container performance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of hardware speed in enhancing the performance of software containers, such as the Fedora toolbox.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

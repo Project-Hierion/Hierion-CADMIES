@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_continuity_of_consciousness",
+  "title": "Quantum Continuity Of Consciousness",
+  "definition": "The hypothesis that the patterns and processes giving rise to consciousness are preserved and can continue to exist beyond the biological brain's function.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.858431Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.858431Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine that when we die, our thoughts and feelings don't just disappear like a switch being turned off. Instead, they become part of a larger network or field, similar to how water waves leave ripples on a pond. This network is like a trampoline, allowing our thoughts and feelings to bounce back and forth, keeping them alive in a sense.",
+    "intermediate": "This concept proposes that the patterns and processes that give rise to consciousness are preserved and can continue to exist beyond the biological brain's function. This is inspired by the insights of physics, particularly quantum fields and non-locality, and is consistent with the laws of physics without violating them. It fulfills a deep human need for meaning, connection, and continuity beyond the individual body.",
+    "expert": "This hypothesis challenges the hard problem of consciousness by suggesting that the specific, organized, dynamic pattern that is consciousness can persist after the brain ceases functioning. It aligns with the principles of quantum mechanics, which shows that fields are fundamental and particles are transient excitations. It also connects to the philosophy of mind, panpsychism, and the concept of pneuma. This insight highlights the interconnectedness and pattern-oriented nature of the universe, inviting us to consider a more mysterious, interconnected, and metaphysical reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Physics removes the scientific objection to the idea of a meaningful, persistent existence beyond the individual body by showing that energy is eternal, fields are fundamental, information and patterns are physical, and entanglement shows connectedness transcends local space.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

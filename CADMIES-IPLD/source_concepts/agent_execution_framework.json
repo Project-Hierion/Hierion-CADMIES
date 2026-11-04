@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_execution_framework",
+  "title": "Agent Execution Framework",
+  "definition": "A system that loads, executes, and manages agents based on their specifications and implementations.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.793541Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.793541Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a director of a theater. You have scripts for different plays (agent specifications) and you know how to stage each play (agent implementations). Your job is to choose the right play, gather the actors (requirements), and run the show (execute the agent).",
+    "intermediate": "The agent execution framework is a system that manages the loading and execution of agents based on their specifications (agent_spec) and implementations (impl_module). It resolves agent types to their corresponding implementation modules, loads function entry points, and executes them with the provided requirements and input context.",
+    "expert": "The agent execution framework is a sophisticated system that not only manages the lifecycle of agents but also provides an abstracted interface for executing complex operations. It acts as a bridge between the high-level specifications of agents and their low-level implementations, allowing for seamless integration and execution of agents in various contexts. This framework is unique in its ability to handle exceptions and errors during execution, providing detailed error information and metadata for debugging and analysis. Additionally, the framework's design allows for easy extension and modification, making it a versatile tool for a wide range of artificial intelligence applications."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The agent execution framework is a comprehensive system that abstracts the complex process of loading, executing, and managing agents into a simple and intuitive interface.",
+    "source_chunk": 66,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

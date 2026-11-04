@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_scientific_confluence",
+  "title": "Philosophical Scientific Confluence",
+  "definition": "The concept of the confluence between ancient philosophical insights and modern scientific understanding, especially as they relate to the nature of interconnectedness, emptiness, and the illusion of a separate self.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.008283Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.008283Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how different ideas from different places can teach us something new when we combine them. This project brings together philosophical ideas from ancient Eastern traditions and modern scientific theories to create a new understanding of reality.",
+    "intermediate": "This concept involves the harmonious interaction between ancient philosophical concepts like Buddhism's Prat\u012btyasamutp\u0101da, \u015a\u016bnyat\u0101, and Anatt\u0101, and modern scientific understanding derived from quantum mechanics. These concepts converge to provide a unique perspective on the nature of interconnectedness and the illusion of a separate self.",
+    "expert": "The philosophical scientific confluence is a fascinating exploration of the potential synergies between different intellectual traditions. This insight not only contributes to our understanding of the fundamental nature of reality but also challenges the traditional separation between science and philosophy, suggesting that they are two sides of the same coin. The confluence of Eastern philosophy and quantum mechanics reveals deep philosophical and historical connections, highlighting the common ground between seemingly disparate fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user's observation about the parallels between Buddhist concepts and quantum mechanics highlights the potential synergies between different intellectual traditions, suggesting that they are two sides of the same coin.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

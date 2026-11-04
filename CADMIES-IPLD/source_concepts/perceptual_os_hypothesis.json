@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "perceptual_os_hypothesis",
+  "title": "Perceptual Os Hypothesis",
+  "definition": "The idea that the observer's perceptual apparatus, modified by substances or practices, fundamentally shapes phenomenological reality and pattern detection.",
+  "type": "Concept",
+  "domain": "Epistemology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.853073Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.853073Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your brain as an operating system. Just as changing the software on a computer can change what it can see and do, changing your perspective through drugs or practices can change your perception and intelligence.",
+    "intermediate": "The Perceptual OS Hypothesis posits that the observer's perceptual apparatus (eyes, brain, and conscious experience) fundamentally shapes reality. Different operating systems, modified by substances like cannabis or practices like meditation, can enable different patterns of recognition and reveal what was previously invisible.",
+    "expert": "The Perceptual OS Hypothesis connects to broader fields such as cognitive science, consciousness studies, and neurodiversity. It challenges the fixed nature of intelligence, suggesting that it's not an innate, static trait, but rather a dynamic and adaptable capability shaped by the environment. This insight has philosophical implications for our understanding of self, consciousness, and reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Intelligence isn't fixed - it's filtered through the 'operating system' of perception. Change the OS, change what becomes visible.",
+    "source_chunk": 62,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

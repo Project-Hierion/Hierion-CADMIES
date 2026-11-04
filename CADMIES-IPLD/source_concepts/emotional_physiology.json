@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emotional_physiology",
+  "title": "Emotional Physiology",
+  "definition": "The study of the physical aspects of emotions, focusing on the interaction between emotions and the body.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.564221Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.564221Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your heart racing when you're scared. That's your body responding to your emotions.",
+    "intermediate": "Emotional physiology explores the relationship between emotions and the physical body. This includes understanding how emotions affect heart rate, hormone levels, and overall physical health.",
+    "expert": "Emotional physiology is a multidisciplinary field that combines psychology, neuroscience, and physiology. It investigates the complex interplay between emotions, cognition, and the physical body. This includes understanding the role of neurotransmitters like oxytocin, dopamine, and cortisol in emotional responses, as well as the influence of the parasympathetic and sympathetic nervous systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Emotional physiology highlights the intricate relationship between emotions and the physical body, demonstrating that understanding the full spectrum of human experience requires a multidisciplinary approach.",
+    "source_chunk": 127,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

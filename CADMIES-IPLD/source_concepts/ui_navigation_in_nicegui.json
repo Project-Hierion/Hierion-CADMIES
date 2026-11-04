@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ui_navigation_in_nicegui",
+  "title": "Ui Navigation In Nicegui",
+  "definition": "The concept of navigating within a user interface by using the ui.navigate.to() method in NiceGUI, a Python library for creating web-based user interfaces.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.694000Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.694000Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're on a website with multiple pages. To move between pages, you click on links. In programming, we do the same thing, but we use a special method in the code. This concept is about using that method in NiceGUI.",
+    "intermediate": "UI navigation in NiceGUI involves using the ui.navigate.to() method to switch between different pages or views of a web application. This is an essential part of creating a seamless user experience in Python-based GUIs.",
+    "expert": "The concept of UI navigation in NiceGUI expands the understanding of user interfaces in Python applications. It highlights the importance of creating a cohesive and intuitive user experience. Furthermore, it connects to the broader field of human-computer interaction, as it involves understanding how users interact with technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the need to replace ui.open() calls with ui.navigate.to() in the dashboard buttons of a NiceGUI application, thereby highlighting the importance of accurate and appropriate method usage in UI navigation.",
+    "source_chunk": 95,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

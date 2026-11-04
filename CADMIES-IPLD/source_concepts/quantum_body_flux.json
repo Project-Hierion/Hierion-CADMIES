@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_body_flux",
+  "title": "Quantum Body Flux",
+  "definition": "The intrinsic unpredictability and fluidity of the human body, stemming from quantum mechanical processes at its fundamental level.",
+  "type": "Concept",
+  "domain": "Philosophy, Quantum Physics, Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.588100Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.588100Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Your body is filled with strange quantum stuff when you dig deep. It's like your body is a cosmic dance, not a machine.",
+    "intermediate": "The human body, at its core, is a complex ecosystem. Break it down to the molecular level, and you'll find it's a strange, quantum world full of uncertainty and interconnectedness.",
+    "expert": "The quantum body flux concept unifies biological systems and quantum mechanics. We're a flowing ecosystem on a biological level and a collection of quantum probability fields on a physical level. Both reveal a fundamental principle of change, flow, uncertainty, and interconnectedness. We're not a fixed self; we're this ongoing, strange, and wonderful process of the universe itself."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The search for a solid, unchanging 'self' within leads to an infinite regression of 'wiggliness.'",
+    "source_chunk": 54,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

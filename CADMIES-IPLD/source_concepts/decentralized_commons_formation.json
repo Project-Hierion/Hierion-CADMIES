@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_commons_formation",
+  "title": "Decentralized Commons Formation",
+  "definition": "The process of establishing and governing a decentralized commons, such as a decentralized internet or web, through a treaty or charter.",
+  "type": "Concept",
+  "domain": "Governance",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.353694Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.353694Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a group of people deciding to create a community where resources are shared fairly and everyone has a voice. They write down their rules and agreements in a treaty to guide their decisions and actions.",
+    "intermediate": "Decentralized Commons Formation is the process of establishing a decentralized system that manages shared resources. This involves creating a treaty or charter that outlines the rules and governance structure of the system.",
+    "expert": "Decentralized Commons Formation is a complex process that involves philosophical considerations, political negotiations, and technical implementation. It explores the challenges of coordinating a decentralized system, balancing individual autonomy with collective decision-making, and managing the tension between local and global perspectives. This process has implications for the future of governance and the role of the state in managing shared resources."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful formation of a Decentralized Commons requires a cautious and thorough approach, involving parallel work, the involvement of key partners, and a multi-year journey from initial interest to documented standards and practical guides.",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

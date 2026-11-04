@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sleep_quality_deception",
+  "title": "Sleep Quality Deception",
+  "definition": "The concept of using sleep quality as a cue to deceive or assess the quality of a target.",
+  "type": "Concept",
+  "domain": "Philosophy and Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.798691Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.798691Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "rem_latency_host_quality_metric"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "predatory_patience_adaptation",
+      "hematophagous_symbiosis_theory",
+      "paradox_of_practice"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a predator that uses your sleep quality to decide if you're an easy meal. Deep sleepers are safer for them to feed on.",
+    "intermediate": "The concept of sleep quality deception connects philosophy of perception and biology. It suggests that sleep patterns can be used to deceive or assess quality.",
+    "expert": "The sleep quality deception concept challenges classical theories of predation and perception. It highlights the role of sleep architecture in host quality and suggests that this is an evolutionary adaptation for hematophagous predators."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "rem_latency_host_quality_metric"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Sleep quality can be a significant factor in deception and quality assessment.",
+    "source_chunk": 51,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

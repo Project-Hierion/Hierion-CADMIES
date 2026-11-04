@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unity_of_mystic_and_scientific_pursuit",
+  "title": "Unity Of Mystic And Scientific Pursuit",
+  "definition": "The concept that the pursuit of mystical enlightenment and scientific understanding are fundamentally similar and aim to reveal the unity of the self and the universe.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.617434Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.617434Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine being able to see the universe as if it were a tiny flake in your palm. This is what both mystics and scientists are trying to achieve: seeing the universe from a perspective that reveals its underlying unity.",
+    "intermediate": "The unity of the mystical and scientific pursuit can be understood as the realization that the self and the universe are fundamentally interconnected. Mystics achieve this through the dissolution of the separate self, while scientists achieve it through the dissolution of solid, separate objects into quantum fields.",
+    "expert": "The unity of the mystical and scientific pursuit is a philosophical insight that connects Eastern and Western traditions. It suggests that the self and the universe are not separate, but that they are fundamentally interconnected. This insight has implications for the nature of consciousness, the structure of reality, and the role of mathematics in understanding the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The pursuit of mystical enlightenment and scientific understanding are fundamentally similar and aim to reveal the unity of the self and the universe.",
+    "source_chunk": 71,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_harmonization",
+  "title": "Concept Harmonization",
+  "definition": "The process of aligning and integrating different concepts within a knowledge system to ensure consistency, interoperability, and coherence.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.986042Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.986042Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library that wants to organize its books better. Concept harmonization is like making sure all the books about the same topic are grouped together, even if they have different titles or spelling.",
+    "intermediate": "Concept harmonization involves standardizing and reconciling concepts across a knowledge system by addressing issues such as naming inconsistencies, synonyms, and ambiguities. It ensures that concepts are unified and interconnected, enabling more accurate and effective knowledge retrieval and reasoning.",
+    "expert": "Concept harmonization is a critical aspect of knowledge management and semantic interoperability. It involves resolving ontological conflicts, leveraging semantic similarity metrics, and applying graph-based methods to integrate and align concepts. Concept harmonization not only improves data quality but also enables cross-domain knowledge transfer and the creation of more robust and comprehensive knowledge graphs. Furthermore, it contributes to advancing the field of machine learning by facilitating the development of more sophisticated and context-aware algorithms."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of concept harmonization in ensuring the accuracy, effectiveness, and interoperability of a knowledge system was highlighted in the conversation.",
+    "source_chunk": 66,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

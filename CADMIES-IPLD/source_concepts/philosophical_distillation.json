@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_distillation",
+  "title": "Philosophical Distillation",
+  "definition": "The process of condensing a philosophical concept into a single poetic sentence, encapsulating its core essence.",
+  "type": "Concept",
+  "domain": "Epistemology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.731461Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.731461Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Thinking of a complex idea in a simple, easy-to-understand way that can be shared with others using a beautiful sentence.",
+    "intermediate": "Philosophical distillation is the art of capturing the essence of a concept in a concise and expressive poetic sentence. It requires understanding the nuances of the concept and the ability to communicate them clearly and beautifully.",
+    "expert": "Philosophical distillation is a form of philosophical expression that encapsulates the essence of a complex idea into a single poetic sentence. It is a philosophical tool that highlights the interdisciplinary nature of knowledge and its application in everyday life. Philosophical distillation challenges the philosopher to think deeply and communicate clearly, making connections between different fields of study and inviting reflection on the nature of reality and the human experience. Moreover, it can have practical applications in education, research, and activism, as it allows for the dissemination of complex ideas in a simple and accessible manner."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Philosophical distillation highlights the interdisciplinary nature of knowledge and its application in everyday life.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

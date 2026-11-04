@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gearbox_of_concepts",
+  "title": "Gearbox Of Concepts",
+  "definition": "A metaphorical representation of the interconnectedness and mutual influence between various concepts in a domain, functioning like a gearbox in a physical system.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.545080Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.545080Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a gearbox in a car. Each gear is a concept, and the way they mesh together determines how knowledge flows and interacts. This concept shows how different ideas support and influence each other.",
+    "intermediate": "The Gearbox of Concepts is a philosophical metaphor that highlights the interdependencies and mutual support between concepts within a domain. It draws from the mechanical concept of a gearbox, where each gear represents a concept, and the mesh of gears reflects the interactions and exchanges of knowledge among these concepts.",
+    "expert": "The Gearbox of Concepts is a metaphorical exploration of epistemic interactions and their implications for knowledge construction. It builds on the philosophical work of Karl Popper and Imre Lakatos, who both emphasized the role of problem-solving and heuristics in scientific discovery. The Gearbox of Concepts suggests that the process of conceptual development can be understood as a complex system of interlocking gears, where each concept is a potential 'gear' that can either facilitate or hinder the transmission of knowledge and understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnectedness and mutual influence between various concepts within a domain can be likened to a gearbox, with each concept functioning as a gear that contributes to the overall flow and exchange of knowledge.",
+    "source_chunk": 45,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

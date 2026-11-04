@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_dialectics",
+  "title": "Philosophical Dialectics",
+  "definition": "A philosophical concept exploring the interplay and relationships between various concepts, particularly in the domains of science, philosophy, and technology.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.387434Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.387434Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a conversation between different ideas. It's about how ideas build on each other, challenge each other, and sometimes even contradict each other.",
+    "intermediate": "Philosophical dialectics is the systematic study of the interrelationships and interactions between concepts in various domains. It explores how ideas build upon, contradict, and are related to each other.",
+    "expert": "Philosophical dialectics is a theoretical framework that explores the interrelationships and interactions between concepts in various domains. It delves into the philosophical implications of these relationships, including the role of contradiction and dialectical tension in the formation of new ideas and paradigms. Additionally, it connects to other fields such as cognitive science and linguistics to understand how concepts are formed, understood, and communicated."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The complexity and interconnectedness of concepts across various domains, particularly in the fields of science, philosophy, and technology.",
+    "source_chunk": 61,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

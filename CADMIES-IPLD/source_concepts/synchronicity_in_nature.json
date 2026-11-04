@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "synchronicity_in_nature",
+  "title": "Synchronicity In Nature",
+  "definition": "The concept of meaningful coincidences in nature as a form of communication or guidance from a higher power.",
+  "type": "Concept",
+  "domain": "Philosophy, Biology, Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.251295Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.251295Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of seeing patterns in nature as messages from a higher power. Like finding two ducks near you in a way that feels too perfect to be a coincidence.",
+    "intermediate": "Synchronicity in nature refers to the concept of meaningful coincidences as a form of communication or guidance. This can manifest in various forms, such as seeing patterns or symbols in random events or situations.",
+    "expert": "Synchronicity in nature challenges the notion of causality and randomness, suggesting a deeper interconnectedness and a potential for communication beyond the physical realm. It also raises questions about the nature of consciousness and reality, and its connections to other fields such as quantum mechanics and chaos theory."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Seeing two ducks near you in a way that feels too perfect to be a coincidence can be interpreted as a form of synchronicity, a meaningful coincidence from the universe.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

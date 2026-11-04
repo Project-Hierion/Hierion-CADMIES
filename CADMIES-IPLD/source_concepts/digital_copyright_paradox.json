@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_copyright_paradox",
+  "title": "Digital Copyright Paradox",
+  "definition": "The contradiction between the physical and digital worlds in the context of copyright law and its application to media distribution and consumption.",
+  "type": "Concept",
+  "domain": "Law and Ethics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.743681Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.743681Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a physical book that you can lend to a friend without making a new copy. Now think about digital media where every time you watch it, multiple copies are made. It's like the rules for digital media don't match up with our everyday understanding of sharing.",
+    "intermediate": "The digital copyright paradox arises from the discrepancy between the physical world's first sale doctrine and the digital world's constant creation and deletion of transient copies during streaming and viewing.",
+    "expert": "The digital copyright paradox reveals the inadequacy of traditional copyright laws to adapt to the unique characteristics of digital media. It highlights the need for a more nuanced understanding of copying and sharing in the digital world, drawing connections to issues of fair use, digital rights, and the role of technology in shaping our society."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The digital copyright paradox highlights the need for a more nuanced understanding of copying and sharing in the digital world.",
+    "source_chunk": 141,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

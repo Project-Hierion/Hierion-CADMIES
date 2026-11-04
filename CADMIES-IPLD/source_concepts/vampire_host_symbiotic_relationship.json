@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vampire_host_symbiotic_relationship",
+  "title": "Vampire Host Symbiotic Relationship",
+  "definition": "The complex and dynamic interdependence between a vampire and its host, characterized by mutual adaptation, negotiation, and strategic management over time.",
+  "type": "Concept",
+  "domain": "Epistemology, Philosophy, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.874410Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.874410Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a game between a vampire and its host. At first, the vampire takes what it wants (like blood), and the host may feel unhappy. Over time, they might learn to negotiate and offer things like cookies to the vampire, making the relationship more balanced.",
+    "intermediate": "Vampire-host symbiotic relationships can be viewed through concepts like the Cookie Offering Ritual, Hematophagous Symbiosis Theory, Cellular Intuition in Predator-Prey Relationships, and Predatory Inevitability. These theories suggest that over time, a vampire and its host could develop a stabilized relationship based on involuntary symbiosis, subconscious adaptation, and strategic management.",
+    "expert": "The vampire-host symbiotic relationship is a fascinating interdisciplinary topic that bridges biology, philosophy, and Buddhist thought. It involves understanding the dynamics of long-term predator-prey relationships, the role of cognitive adaptation and strategic negotiation, and the philosophical concept of the Middle Path of Consumption. This relationship could be seen as a form of symbiosis, with both parties adapting to each other's presence and learning to navigate their interdependence. From a physical perspective, energy transfer and entropy play crucial roles in these systems."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The vampire-host relationship provides a unique lens to explore symbiotic interactions, cognitive adaptation, and strategic negotiation. By understanding this relationship, we can gain insights into broader predator-prey dynamics and the role of adaptation in long-term interactions.",
+    "source_chunk": 94,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

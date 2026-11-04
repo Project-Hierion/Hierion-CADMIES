@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "real_time_ui_updates",
+  "title": "Real Time Ui Updates",
+  "definition": "The process of updating the UI on each token of the AI's response, rather than waiting for the entire response.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.251227Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.251227Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The chat interface updates in real-time as the AI responds to a query. This means that you can see the response being generated word by word, which can be more interesting and engaging than waiting for a full response.",
+    "intermediate": "Real-time UI updates are achieved by processing each token of the AI's response as it arrives. This is done by streaming the response and updating the UI on each token, rather than waiting for the entire response.",
+    "expert": "Real-time UI updates can enhance user experience by making applications more interactive and engaging. However, they can also increase network traffic and computational overhead."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of real-time UI updates in the chat interface demonstrates the potential for AI to be used in real-time applications, such as voice assistants and collaborative tools.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

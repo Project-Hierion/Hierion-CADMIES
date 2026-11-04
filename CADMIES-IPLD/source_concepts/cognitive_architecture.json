@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cognitive_architecture",
+  "title": "Cognitive Architecture",
+  "definition": "A hierarchical system of concepts and processes that enables the execution of cognitive functions such as pattern recognition and decision making.",
+  "type": "Concept",
+  "domain": "Cognitive Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.710967Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.710967Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your brain as a city with many different buildings. Each building represents a different skill, like reading, math, or language. The city layout (cognitive architecture) lets these skills work together to solve complex problems.",
+    "intermediate": "Cognitive architecture refers to the organizational structure of a cognitive system, such as an AI agent. It specifies the relationships between cognitive capabilities (e.g., pattern recognition, decision making) and how they are executed in a coherent system.",
+    "expert": "The concept of cognitive architecture originates from cognitive science and AI research. It represents a novel approach to designing AI agents, focusing on the organizational structure of the system rather than individual algorithms. The architecture is IPLD-based and extends the Universal Scientific Concept schema with executable cognitive capabilities for philosophical concept analysis."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cognitive architecture of an AI agent can be viewed as an extension of the Universal Scientific Concept schema, providing executable cognitive capabilities for philosophical concept analysis.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

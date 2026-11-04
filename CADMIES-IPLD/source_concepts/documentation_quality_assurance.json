@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_quality_assurance",
+  "title": "Documentation Quality Assurance",
+  "definition": "The process of ensuring the accuracy, clarity, completeness, maintainability, and usability of documentation.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.470854Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.470854Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of documentation quality assurance as checking and improving the manuals of your home appliances to make sure they're easy to understand, up-to-date, and helpful.",
+    "intermediate": "Documentation quality assurance is the systematic process of validating and enhancing the content and structure of documentation to ensure it meets the needs of its intended users. This involves checking for accuracy, clarity, completeness, and maintainability.",
+    "expert": "Documentation quality assurance is a critical aspect of knowledge management and software development. It ensures the consistency and reliability of information, enhances user experience, and contributes to the overall quality of the product. This concept has philosophical implications, as it explores the relationship between truth, clarity, and usability, and its connections to fields like information science, user experience design, and knowledge engineering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Automated documentation tools and quality metrics enable the ongoing assessment and improvement of documentation, ensuring its continuous relevance and utility.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

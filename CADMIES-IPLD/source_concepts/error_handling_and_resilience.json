@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "error_handling_and_resilience",
+  "title": "Error Handling And Resilience",
+  "definition": "The ability of a system to continue operating correctly and gracefully in the face of errors or unexpected situations.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.478997Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.478997Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're building a house. Error handling and resilience are like having a plan for what to do if a hammer breaks while you're building. In software, it's about making sure things don't crash unexpectedly and providing clear messages about what went wrong.",
+    "intermediate": "Error handling and resilience in software involves catching and handling exceptions (errors that occur during runtime) and designing systems to recover from them. This can include retrying failed operations, providing fallback mechanisms, and logging detailed error information for debugging.",
+    "expert": "Error handling and resilience is a critical aspect of building robust, fault-tolerant systems. It involves understanding the nature of errors in a system, designing a strategy for handling them, and implementing a system that can recover from them. This can involve techniques such as fault isolation, graceful degradation, and active monitoring. The philosophy behind error handling and resilience is about building systems that are resilient to failure, can learn from their mistakes, and can adapt to changing conditions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of error handling and resilience in software, particularly in a graphical user interface. The system should gracefully handle errors and provide clear feedback to the user, rather than crashing unexpectedly.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

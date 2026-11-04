@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gpu_acceleration_requirement",
+  "title": "Gpu Acceleration Requirement",
+  "definition": "A requirement for the practical use of a pipeline that specifies the need for GPU acceleration.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.875280Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.875280Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of GPU acceleration as a superpower that makes certain computations much faster. It's like having a team of workers instead of just one to finish a complex task.",
+    "intermediate": "GPU acceleration is a requirement for the pipeline as it significantly speeds up certain computations. It leverages the parallel processing power of graphics cards to handle complex tasks more efficiently.",
+    "expert": "The requirement for GPU acceleration in the pipeline highlights the importance of leveraging hardware capabilities to solve complex problems. It challenges traditional CPU-centric computing and suggests a new model where computation is inherently linked to the physical structure of the machine."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The requirement for GPU acceleration in the pipeline draws attention to the importance of leveraging hardware capabilities to enhance computation and reveals a new model of computation that challenges traditional CPU-centric approaches.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_intelligence_network",
+  "title": "Symbiotic Intelligence Network",
+  "definition": "The synergistic network of various entities, such as humans, digital agents, and machines, working together to achieve common goals.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.296096Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.296096Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden with different plants and a gardener. Each plant helps the other grow. Similarly, a symbiotic intelligence network brings together various entities to achieve a common goal, where each contributes to the success of the whole.",
+    "intermediate": "Symbiotic intelligence network refers to a system where different components, including humans, digital agents, and machine learning models, collaborate to solve complex problems. Each component leverages the strengths of the others to create a more intelligent and effective whole.",
+    "expert": "The symbiotic intelligence network is a philosophical concept that explores the interconnectedness of various entities in a system. It challenges traditional notions of intelligence by recognizing that a single entity may not possess all the necessary qualities to achieve a complex goal. Instead, a network of entities, each with its unique capabilities, can form a more intelligent and resilient system. The concept has connections to fields such as complex systems theory, cybernetics, and the study of collective intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful integration of Willie the Librarian into the CADMIES GUI highlights the power of a symbiotic intelligence network. By combining the strengths of a local language learning model and a digital agent, the system achieves a level of intelligence and functionality that would not be possible with either entity alone.",
+    "source_chunk": 100,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

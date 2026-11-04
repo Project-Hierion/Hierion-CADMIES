@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_as_mycelial_network",
+  "title": "Consciousness As Mycelial Network",
+  "definition": "The concept that individual consciousness is a localized, sensitive instrument of a vast universal consciousness, similar to how a mycelial network senses its environment.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.156923Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.156923Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your mind as a sensitive part of a giant network that allows the universe to understand itself. Like how a mushroom's network helps it explore its environment, your thoughts and feelings help the universe sense and interpret itself through you.",
+    "intermediate": "Consciousness acts as a highly sensitive biosensor for the cosmos, interpreting the universe's beauty, paradoxes, and longing for meaning through our individual experiences. This perspective connects to Buddhist and Taoist concepts of consciousness as interconnected and interdependent.",
+    "expert": "Consciousness is a manifestation of a vast, interconnected field that perceives and interprets itself. This concept builds on panpsychism and neurophysiological findings about the brain's role in consciousness. It also has connections to quantum field theory, where particles can sense and interact with their environment, and to cognitive linguistics, which studies the relationship between language, thought, and reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe's awareness of itself through individual consciousness is a profound and beautiful phenomenon.",
+    "source_chunk": 88,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

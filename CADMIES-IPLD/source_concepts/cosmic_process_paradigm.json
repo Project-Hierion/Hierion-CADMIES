@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_process_paradigm",
+  "title": "Cosmic Process Paradigm",
+  "definition": "A conceptual framework that integrates the scientific description and the organic, process-oriented perspective of the universe, highlighting its growth and evolution.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.178579Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.178579Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the universe as a cosmic garden that grows and changes over time. The Cosmic Process Paradigm is a way to describe this ongoing, natural growth using scientific and organic language.",
+    "intermediate": "The Cosmic Process Paradigm is a concept that combines the structural descriptions of the Cosmic Web with the dynamic, organic metaphors of a blooming phenomenon. It offers a more comprehensive and nuanced understanding of the universe's evolution and development.",
+    "expert": "The Cosmic Process Paradigm is a novel conceptual framework that synthesizes scientific and poetic terminology to provide a unified and more holistic understanding of the universe. It challenges existing terminology by emphasizing the universe as a living, growing system, rather than a static or human-invented structure. By doing so, it connects to the fields of complexity science, systems thinking, and the philosophy of becoming, offering a new lens through which to explore the cosmos."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Cosmic Process Paradigm is a unique and original concept that integrates scientific and poetic language to provide a new perspective on the universe's growth and evolution.",
+    "source_chunk": 102,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

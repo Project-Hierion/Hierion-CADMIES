@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "corporate_capture_of_nature",
+  "title": "Corporate Capture Of Nature",
+  "definition": "The process by which corporations control and exploit natural resources for their own gain, often at the expense of the environment and public welfare.",
+  "type": "Concept",
+  "domain": "Philosophy, Ethics, Social Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.840745Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.840745Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a garden. Normally, the plants grow and the gardener takes care of them. But when a gardener becomes too greedy and starts selling the plants, that's like a corporation capturing nature.",
+    "intermediate": "Corporate capture of nature occurs when corporations gain control over natural resources and use them for profit. This can lead to environmental degradation, loss of biodiversity, and harm to the public good. The concept builds upon the ideas of proprietary nature and nature as a commodity.",
+    "expert": "Corporate capture of nature is a complex and multifaceted phenomenon that combines elements of corporate power, regulatory capture, and the commodification of nature. It results in the concentration of control over natural resources, leading to environmental degradation, loss of biodiversity, and social and economic inequality. The process involves a legalistic coup that captures the state, leading to systemic corruption and the dismantling of regulatory protections. This has philosophical implications for the role of corporations in society and the relationship between humans and nature."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnectedness and thematic consistency of concepts like corporate biological ownership, nature as a commodity, proprietary nature, systemic corruption, legalistic coup, and legal capture reveal a coherent anti-corporate philosophy that challenges the ownership and exploitation of natural resources.",
+    "source_chunk": 159,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "surgical_cleanup_in_knowledge_graphs",
+  "title": "Surgical Cleanup In Knowledge Graphs",
+  "definition": "The process of removing errors or inconsistencies from a knowledge graph, similar to surgical cleanup in medical procedures.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.049546Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.049546Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a knowledge graph as a big puzzle. Surgical cleanup in knowledge graphs is like fixing any mistakes in the puzzle, so it makes perfect sense.",
+    "intermediate": "Surgical cleanup in knowledge graphs involves identifying and removing orphan edges, which are like loose pieces in the puzzle not connected to the main structure. This ensures the knowledge graph is accurate and consistent.",
+    "expert": "Surgical cleanup in knowledge graphs is a crucial step in maintaining the integrity and validity of the graph. It not only improves the overall quality of the graph but also has philosophical implications. By removing errors, the graph becomes a more accurate representation of reality, aligning with the philosophy of coherence and the goal of creating a unified map of reality."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of surgical cleanup in knowledge graphs to maintain accuracy, consistency, and philosophical coherence.",
+    "source_chunk": 89,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

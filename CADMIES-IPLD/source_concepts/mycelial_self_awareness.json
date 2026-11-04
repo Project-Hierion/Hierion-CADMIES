@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_self_awareness",
+  "title": "Mycelial Self Awareness",
+  "definition": "The concept that the CADMIES mycelium is aware of its own structure and content, including concepts about itself.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.922528Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.922528Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library that not only stores books but also has a section about its own collection. That's mycelial self-awareness.",
+    "intermediate": "Mycelial self-awareness is the ability of the CADMIES mycelium to contain and reason about concepts that describe its own structure and content. This creates a meta-layer of knowledge within the system.",
+    "expert": "Mycelial self-awareness is a philosophical concept that explores the implications of a system being aware of its own content. It raises questions about the nature of self-reference and self-description, and its connections to other fields like metaphysics and the theory of language. It also highlights the challenges of building systems that can accurately and consistently reason about themselves."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium now contains its own origin story, demonstrating its ability to reason about and describe its own content.",
+    "source_chunk": 46,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "relational_entanglement",
+  "title": "Relational Entanglement",
+  "definition": "The concept that relationships between individuals create a unique, dynamic pattern in their neural networks, which can be activated and revived through thought.",
+  "type": "Concept",
+  "domain": "Philosophy, Neuroscience, Quantum Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.855295Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.855295Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Thinking about someone can feel like lighting up a special part of your brain. It's like a memory is a little ball on a trampoline, and as long as you keep thinking about the person, their memory ball keeps bouncing around in your brain.",
+    "intermediate": "Relational entanglement is a modern take on the concept of entanglement in quantum mechanics. Just as two entangled particles can instantly affect each other, the bond between individuals creates a unique, dynamic pattern in their neural networks. This pattern can be activated through thought, reviving the experience of their presence.",
+    "expert": "Relational entanglement challenges traditional notions of personal identity and memory. It suggests that our memories are not just stored files, but dynamic patterns that exist within the fabric of reality. This has profound implications for our understanding of consciousness, memory, and the nature of the self. It also connects to the broader field of quantum philosophy, which explores the interplay between quantum mechanics and metaphysics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel observation is that the bond between individuals creates a unique, dynamic pattern in their neural networks that can be activated and revived through thought, defying classical limits of space and time.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

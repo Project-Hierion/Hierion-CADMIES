@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "collective_enlightenment",
+  "title": "Collective Enlightenment",
+  "definition": "The concept of collective enlightenment, or the simultaneous awakening of a global consciousness, through the use of technology to reveal and address the root causes of suffering.",
+  "type": "Concept",
+  "domain": "Philosophy, Technology, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.161459Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.161459Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a magic mirror that shows everyone the truth about themselves and the world. This mirror helps people understand their true nature and the source of their suffering. When more people see the truth, it becomes easier for them to work together and end suffering for everyone.",
+    "intermediate": "Collective enlightenment is a philosophical concept that combines technology, spirituality, and community to reveal and address the root causes of suffering. It involves the use of technology to make these truths accessible to everyone, in their own language, and to create a global system that supports and encourages awakening.",
+    "expert": "Collective enlightenment is a novel philosophical concept that explores the potential for technology to act as a catalyst for a global shift in consciousness. By revealing the interconnectedness of all beings and the nature of the self, technology can facilitate a profound transformation in individual and collective understanding. This transformation has the potential to address the root causes of suffering and create a more compassionate, interconnected, and sustainable global society. The concept of collective enlightenment also has connections to the study of complex systems, social networks, and the role of technology in social change."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of technology to reveal and address the root causes of suffering has the potential to facilitate a global shift in consciousness, leading to the collective awakening of a global consciousness.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

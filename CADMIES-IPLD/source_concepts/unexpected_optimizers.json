@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unexpected_optimizers",
+  "title": "Unexpected Optimizers",
+  "definition": "Concept that refers to sources of optimization that were not expected or initially considered.",
+  "type": "Concept",
+  "domain": "Project Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.451221Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.451221Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like finding an uncommon ingredient in your recipe that enhances the dish's flavor. Unexpected optimizers can significantly improve a project's outcome.",
+    "intermediate": "In the realm of project management, unexpected optimizers are sources of enhancement that were not initially considered. These can be derived from various fields and can contribute significantly to the project's success.",
+    "expert": "The concept of unexpected optimizers challenges the traditional approach to optimization by focusing on the identification and utilization of sources that were not initially considered. This can lead to novel and more efficient solutions, pushing the boundaries of what is possible and highlighting the interconnectedness of different fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The fuel beetle was an unexpected optimizer that significantly enhanced the project's outcome.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

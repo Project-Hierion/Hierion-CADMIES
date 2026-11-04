@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_intelligence_spectrum",
+  "title": "Agent Intelligence Spectrum",
+  "definition": "A conceptual representation of the different levels and types of intelligence that an agent can exhibit, from simple automation to full autonomy.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.598266Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.598266Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the agent intelligence spectrum as a ladder. Each step on the ladder represents a different level of intelligence that an agent can have. From simple tasks like following commands to more complex ones like making decisions based on reasoning and understanding.",
+    "intermediate": "The agent intelligence spectrum is a philosophical concept that encompasses various levels of intelligence, from reactive agents that follow commands to proactive agents that engage in self-directed learning and decision-making. This spectrum considers different types of intelligence, such as artificial general intelligence (AGI) and narrow artificial intelligence (NAI).",
+    "expert": "The agent intelligence spectrum is a philosophical exploration of the different types and levels of intelligence that can be exhibited by an agent. It connects to broader discussions about consciousness, consciousness in machines, and the nature of intelligence. The spectrum considers the continuum from simple automation to full autonomy, and the edge cases of AGI and NAI. It also connects to other fields, such as machine learning, cybernetics, and artificial life."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the agent intelligence spectrum, which represents the different levels and types of intelligence that an agent can exhibit. This concept connects to broader discussions about the nature of intelligence and the capabilities of machines.",
+    "source_chunk": 32,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

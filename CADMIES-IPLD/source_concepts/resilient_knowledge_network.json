@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resilient_knowledge_network",
+  "title": "Resilient Knowledge Network",
+  "definition": "A robust system of interconnected knowledge sources, built on principles of self-sufficiency, integrity, and organic growth.",
+  "type": "Concept",
+  "domain": "Philosophy of Knowledge and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.737184Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.737184Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden of knowledge. It's not about having the tallest or most beautiful trees, but about having a well-nourished, interconnected network that can withstand challenges and grow over time.",
+    "intermediate": "A resilient knowledge network is akin to a mycorrhiza, connecting different knowledge systems and nourishing all parts of the network while maintaining structural integrity. It diminishes the gap of human ignorance, fostering organic growth while upholding principles of self-sufficiency and clear communication.",
+    "expert": "The concept of a resilient knowledge network draws from various fields, including philosophy, sociology, and technology. It merges the enduring strength of human-built structures, such as Fort Saint Angelo, with the organic growth patterns of fungal networks and the timeless wisdom of ancient civilizations. This convergence allows for a robust, self-sufficient system that can navigate the digital realm and the cosmos, while diminishing the gap of human ignorance and fostering organic growth while maintaining structural integrity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unique blend of historical, philosophical, and technical elements in CADMIES creates a resilient knowledge network that embodies the principles of Fort Saint Angelo and fosters organic growth.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

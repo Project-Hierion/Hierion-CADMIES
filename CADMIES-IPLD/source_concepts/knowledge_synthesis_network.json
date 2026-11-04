@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_synthesis_network",
+  "title": "Knowledge Synthesis Network",
+  "definition": "A decentralized platform designed to map formal, causal linkages between scales of organization, enabling systematic discovery.",
+  "type": "Concept",
+  "domain": "Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.994810Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.994810Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a network that connects different areas of study like a giant spider's web. It helps researchers understand how ideas in one field are related to those in another, leading to new insights and discoveries.",
+    "intermediate": "A knowledge synthesis network is a federated architecture that uses a semantic layer (like a cross-disciplinary Rosetta Stone), a data fabric (decentralized network), and a synthesis engine (AI-driven discovery interface) to map formal, causal linkages between different scales of organization.",
+    "expert": "A knowledge synthesis network is a novel approach to scientific research that challenges the traditional siloed structure of disciplines. By mapping formal, causal linkages between scales of organization, it offers a deeper understanding of the complex, interconnected systems we study. This insight has implications for various fields, from quantum physics to ecology, and offers a new paradigm for scientific discovery."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A knowledge synthesis network offers a new paradigm for scientific discovery by mapping formal, causal linkages between scales of organization.",
+    "source_chunk": 59,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

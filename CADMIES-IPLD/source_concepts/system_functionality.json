@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "system_functionality",
+  "title": "System Functionality",
+  "definition": "The distinct roles or purposes that a system or application serves, encompassing multiple components and processes.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.643006Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.643006Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a car. It has multiple parts and functions like starting the engine, steering, and braking. A system in software is similar \u2014 it has various features that help it function smoothly.",
+    "intermediate": "In this context, the system refers to a 3-Tier Backup GUI. Its functionality includes backup, restore, and audit trail, which are all separate components of the system that serve specific purposes.",
+    "expert": "The system's functionality is a complex interplay of user interface design, backend operations, and data management. It's a manifestation of the system's architecture, where each component contributes to the overall system's efficiency and user experience. The system's modular design allows for easy updates and maintenance, enhancing its functionality and robustness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

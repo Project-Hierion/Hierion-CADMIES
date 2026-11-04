@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_integrity",
+  "title": "Conceptual Integrity",
+  "definition": "The coherence and logical consistency of the relationships and connections between concepts in a knowledge system.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.044943Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.044943Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a well-organized library. Conceptual integrity is when all the books (concepts) are on their correct shelves (relationships), and none are missing or misplaced.",
+    "intermediate": "Conceptual integrity refers to the quality of a knowledge system's interconnectedness and consistency. It ensures that all concepts are appropriately related, and there are no disconnected or inconsistent elements.",
+    "expert": "Conceptual integrity is a philosophical issue concerning the structure and consistency of a knowledge system. It involves the examination of relationships between concepts, ensuring they are coherent, consistent, and reflect the underlying reality. Conceptual integrity also connects to other fields like logic, semantics, and epistemology, as it impacts the validity and soundness of the knowledge system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the importance of maintaining conceptual integrity in the CADMIES knowledge system, highlighting the need to handle orphan edges and ensure all concepts are logically connected.",
+    "source_chunk": 87,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

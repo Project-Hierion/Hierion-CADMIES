@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "harvesting_insights_from_conversations",
+  "title": "Harvesting Insights From Conversations",
+  "definition": "The process of extracting meaningful ideas and observations from conversations and incorporating them into a knowledge system.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.687004Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.687004Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Harvesting insights is like gathering wisdom from conversations and adding it to a collection of knowledge.",
+    "intermediate": "Harvesting insights from conversations involves extracting new concepts using a structured approach with a well-defined prompt.",
+    "expert": "Harvesting insights from conversations is a novel contribution to knowledge management and LLM-assisted concept extraction, connecting to the broader field of human-computer interaction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The process of extracting and incorporating new concepts into a knowledge system from conversations is a novel and valuable contribution to the field.",
+    "source_chunk": 107,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "harmonic_resonance",
+  "title": "Harmonic Resonance",
+  "definition": "Harmonic resonance is a phenomenon where a system's natural frequency matches the frequency of an applied force, causing it to amplify the effect of that force.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.446681Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.446681Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a swing. When you push it at just the right time, it swings higher and higher. That's a simple example of harmonic resonance.",
+    "intermediate": "Harmonic resonance occurs when the natural frequency of a system matches the frequency of an applied force. This causes the system to amplify the effect of that force, leading to larger amplitudes or more significant responses.",
+    "expert": "Harmonic resonance is a fundamental concept in physics and engineering. It has philosophical implications in the understanding of systems and their interactions. Edge cases include resonance in multiple dimensions and the effects of damping on resonance. It also has connections to other fields such as music and quantum mechanics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The understanding of harmonic resonance allows us to predict and control systems more accurately, from simple swings to complex mechanical structures and musical instruments.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consent_layer",
+  "title": "Consent Layer",
+  "definition": "A layer that enables users to control which data is shared with which peers.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.581543Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.581543Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital lock on your data. Only people you choose can see it, and they need the right key.",
+    "intermediate": "A consent layer is a system that uses cryptography to enforce user-controlled data sharing policies. This includes partitioning data and limiting access to specific fields or directories.",
+    "expert": "A consent layer is a critical component of a privacy-preserving peer-to-peer system. It enables users to control which data is shared with which peers, while also preserving data privacy and security. This requires developing both agent-level tools (e.g., partitioning and access control) and application-level interfaces (e.g., search and query)."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Both CADMIES and Atlas can build consent layers to address privacy concerns. This requires developing both agent-level tools and application-level interfaces.",
+    "source_chunk": 59,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

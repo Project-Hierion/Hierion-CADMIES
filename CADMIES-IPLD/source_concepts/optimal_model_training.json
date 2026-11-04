@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "optimal_model_training",
+  "title": "Optimal Model Training",
+  "definition": "The ideal approach to train an AI model that balances the quality and quantity of training data to produce the most stable and coherent output.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.538169Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.538169Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're teaching a child a language. You don't need to teach them every word in the dictionary. Instead, focus on a few key words and phrases that help them understand and communicate effectively. AI models should learn in a similar way.",
+    "intermediate": "Optimal model training involves fine-tuning the model with a small, carefully crafted dataset for key aspects like persona and concepts, while using a larger, more diverse dataset for factual knowledge through a RAG pipeline. This balance ensures the model's personality and knowledge base are stable and coherent.",
+    "expert": "The optimal model training approach aligns with the 'Less Is More for Alignment' finding from the LIMA paper. It highlights the importance of precision over volume in training data. Furthermore, this approach separates the soul (personality and concepts) from the brain (factual knowledge), which allows for a more flexible and adaptable AI model. This separation also has implications for privacy and security, as sensitive information can be stored externally and not directly within the model."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The sweet spot for training AI models is a balance between the quality and quantity of training data. A small, carefully crafted dataset can produce a stable and coherent output for key aspects, while a larger, more diverse dataset can be used for factual knowledge through a RAG pipeline.",
+    "source_chunk": 116,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

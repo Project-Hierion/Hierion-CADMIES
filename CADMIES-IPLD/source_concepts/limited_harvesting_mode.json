@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "limited_harvesting_mode",
+  "title": "Limited Harvesting Mode",
+  "definition": "A mode in the CADMIES Harvest Pipeline that only mints concepts from pre-existing JSON files in source_concepts/, without extracting from a conversation.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.829186Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.829186Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a farmer without a herding dog. You can't round up new sheep, but you can still take care of the sheep you already have. That's how the Limited Harvesting Mode works.",
+    "intermediate": "In the CADMIES Harvest Pipeline, the Limited Harvesting Mode is activated when a large language model (LLM) is not available. It bypasses the conversation extraction step and focuses solely on minting concepts from pre-existing JSON files.",
+    "expert": "The Limited Harvesting Mode's philosophy is about pragmatism and resource efficiency. It accepts the limitations of its environment and adapts to them rather than attempting to perform tasks beyond its capabilities. This stance aligns with the philosophy of 'sufficient reason' and the 'principle of parsimony' in philosophy, which favors the simplest explanation that adequately accounts for the available evidence."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Limited Harvesting Mode highlights the importance of adapting to limitations and making the best use of available resources.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

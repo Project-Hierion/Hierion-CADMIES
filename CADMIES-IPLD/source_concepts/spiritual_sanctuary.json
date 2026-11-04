@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "spiritual_sanctuary",
+  "title": "Spiritual Sanctuary",
+  "definition": "A space that fosters a sense of belonging, honors diverse cultures, and encourages personal and communal growth.",
+  "type": "Concept",
+  "domain": "Philosophy of Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.247423Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.247423Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a cozy room where everyone feels at home. It's a place that values different backgrounds, where people can be themselves and find a sense of peace.",
+    "intermediate": "A spiritual sanctuary is a concept that draws from both religious traditions and spiritual practices. It's a space that honors individual experiences of the divine and celebrates diversity. It's a blend of a map (religion) and a pair of hiking boots (spiritual tradition).",
+    "expert": "The concept of a spiritual sanctuary challenges traditional boundaries between religion and spirituality. It highlights the potential for interfaith harmony and the role of personal experience in spiritual growth. The sanctuary also underscores the importance of communal spaces in fostering a sense of belonging and promoting social cohesion."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the power of music as a bridge that connects people across cultures and fosters a sense of belonging.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

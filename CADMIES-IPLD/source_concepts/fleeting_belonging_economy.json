@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fleeting_belonging_economy",
+  "title": "Fleeting Belonging Economy",
+  "definition": "A social and commercial model that capitalizes on people's desire for short-term belonging, often through excessive consumption and emotional investment.",
+  "type": "Concept",
+  "domain": "Sociology, Economics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.102730Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.102730Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like going to a sports game. You pay a lot for a fleeting moment of belonging. It's not about authentic connection or the game \u2014 it's about the feeling of being part of a crowd, even if it's temporary and costly.",
+    "intermediate": "The fleeting belonging economy is a system where people pay to be part of a group or community for a short period, often as a form of self-expression or to signal their social status. This can be seen in sports fandom, social media, and entertainment subscriptions.",
+    "expert": "The fleeting belonging economy is a social and economic phenomenon that draws on human psychology and sociological theories of identity and community. It reflects the interplay between social media, consumer culture, and the desire for social validation. This concept also connects to the broader field of consumer behavior and the role of emotions in economic decisions."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals that the fleeting belonging economy is a complex and pervasive phenomenon that capitalizes on people's desire for temporary belonging and emotional connection, often at a significant cost.",
+    "source_chunk": 111,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

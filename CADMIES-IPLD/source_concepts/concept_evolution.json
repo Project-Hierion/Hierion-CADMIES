@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_evolution",
+  "title": "Concept Evolution",
+  "definition": "The process by which concepts evolve from static, individual representations to dynamic, interactive agents, capable of exploring and understanding the world.",
+  "type": "Concept",
+  "domain": "Systems Theory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.538497Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.538497Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a seed growing into a tree. A concept starts as a simple idea, but it can grow and change into something more complex and interactive.",
+    "intermediate": "Concept evolution involves the transformation of individual concepts into intelligent agents. This process is facilitated by schema evolution, allowing for the representation of more complex systems and behaviors.",
+    "expert": "Concept evolution is a fundamental process in the development of intelligent systems. It involves not only the transformation of static concepts into dynamic agents but also the exploration of their relationships and interactions with the environment. This process is deeply connected to the philosophy of information and the study of complex systems, with implications for fields such as artificial intelligence and machine learning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system's focus on metaphysical concepts and its ability to evolve concepts into intelligent agents sets it apart from other systems.",
+    "source_chunk": 46,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

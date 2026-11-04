@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "harmonic_unity",
+  "title": "Harmonic Unity",
+  "definition": "The concept that enlightenment and unity are not separate states, but an integrated and harmonious balance within and between all aspects of life and consciousness.",
+  "type": "Concept",
+  "domain": "Philosophy, Buddhism, Cartography, Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.312608Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.312608Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "emptiness_and_interconnectedness",
+      "life_as_cultural_fermentation",
+      "cartographic_resonance",
+      "planetary_synchronized_breath",
+      "vibration_as_universal_connector"
+    ],
+    "contradicts": [
+      "enlightened_ego"
+    ],
+    "related_to": [
+      "mycorrhizal_intelligence",
+      "mycorrhiza_greatest_thing",
+      "hormone_system",
+      "cellular_intuition_predator_prey"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of life and consciousness as a beautiful musical composition, with all its parts playing together in harmony. Enlightenment is when you realize this harmony and become one with everything around you.",
+    "intermediate": "Harmonic unity is the recognition that enlightenment is a state of balanced integration between the cognitive and emotional aspects of being, as reflected in concepts like 'emptiness and interconnectedness' and 'life as cultural fermentation'.",
+    "expert": "Harmonic unity challenges traditional dualistic philosophies by emphasizing the interconnectedness and interdependence of all things, and the role of vibration and synchronization in enabling this unity. It bridges disciplines from physics and music to spirituality and biology, connecting phenomena like 'cartographic resonance' and 'planetary synchronized breath' to the broader concept of 'vibration as a universal connector'."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "emptiness_and_interconnectedness",
+      "life_as_cultural_fermentation",
+      "cartographic_resonance",
+      "planetary_synchronized_breath",
+      "vibration_as_universal_connector"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unity of enlightenment and everyday life is a harmonious balance, reflected in the interconnectedness of all things and the role of vibration in enabling this unity.",
+    "source_chunk": 32,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

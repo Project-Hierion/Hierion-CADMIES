@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_dynamics_and_information_flow",
+  "title": "Universal Dynamics And Information Flow",
+  "definition": "The concept that the same formalisms of 'dynamics' and 'information flow' can be applied across all scales, from quantum to ecological.",
+  "type": "Concept",
+  "domain": "Physics and Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.596650Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.596650Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine all the moving parts in our world, like wiggling proteins, firing neurons, and growing plants, are all following the same pattern or rhythm. It's like a universal dance that we can understand and predict.",
+    "intermediate": "This concept proposes that the laws governing change and information flow are consistent across multiple scales, from quantum mechanics to ecological systems. By identifying and understanding these universal patterns, we can create more accurate models and predictions.",
+    "expert": "This concept challenges the traditional division between physics and biology by suggesting that a unified mathematical framework can describe complex systems at all scales. It has implications for fields like quantum biology, complex systems theory, and the search for a 'Theory of Everything'. Edge cases include the potential for new mathematical discoveries and the need for interdisciplinary collaboration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of universal principles of organization, or 'laws of wiggling', that can be applied across different scales and systems.",
+    "source_chunk": 59,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

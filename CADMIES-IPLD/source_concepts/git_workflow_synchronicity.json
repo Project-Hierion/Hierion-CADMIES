@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "git_workflow_synchronicity",
+  "title": "Git Workflow Synchronicity",
+  "definition": "The concept of maintaining consistent and synchronized workflows between local, Paperspace, and GitHub environments.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.942691Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.942691Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your work as a garden. Make sure all your seeds (changes) are planted in the right places (environments) and grow together harmoniously.",
+    "intermediate": "Git workflow synchronicity is about maintaining consistency and harmony between the local, Paperspace, and GitHub environments. It ensures that changes made in one environment are accurately reflected in all others.",
+    "expert": "Git workflow synchronicity is a complex dance between the local, Paperspace, and GitHub environments. It's not just about keeping things in sync, but about ensuring the integrity of the workflow. This involves understanding the intricacies of git commands, managing .gitignore files, and dealing with potential conflicts. It's a philosophical dance between efficiency and precision."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of maintaining synchronized workflows between different environments in software development.",
+    "source_chunk": 54,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

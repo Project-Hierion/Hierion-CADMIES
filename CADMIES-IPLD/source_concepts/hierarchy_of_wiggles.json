@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchy_of_wiggles",
+  "title": "Hierarchy Of Wiggles",
+  "definition": "A nested structure of dynamic, interconnected processes, from the fundamental level of string theory to the entire planetary ecosystem.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.503520Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.503520Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of everything around you as a series of strange, squiggly things that interact. Everything, from the smallest particles to the biggest objects and even life, is made up of these squiggles.",
+    "intermediate": "The hierarchy of wiggles encompasses the concept that all matter at its most fundamental level is composed of vibrating strings of energy. This leads to the formation of atoms, molecules, and complex structures such as cells and organs.",
+    "expert": "The hierarchy of wiggles provides a unifying theory that connects quantum physics, string theory, and biological systems. It highlights the fundamental interconnectedness of all things, from the smallest particles to the largest ecosystems, and emphasizes the role of dynamics and processes in shaping our understanding of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the 'you' that feels like a single, solid person is built on a foundation of wiggles, from the fundamental level of string theory to the complex structures of the human body.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

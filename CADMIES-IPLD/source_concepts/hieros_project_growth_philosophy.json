@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hieros_project_growth_philosophy",
+  "title": "Hieros Project Growth Philosophy",
+  "definition": "The long-term growth and impact philosophy of the Hieros project, emphasizing organic growth, decentralized development, and the role of the community.",
+  "type": "Concept",
+  "domain": "Social Sciences",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.970978Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.970978Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the Hieros project as a seed that needs nurturing and time to grow into a strong, thriving tree. It's more about being a helpful part of the ecosystem than being the biggest player. Over time, it will make a positive impact on its own and help others grow.",
+    "intermediate": "The Hieros project's growth philosophy is rooted in a decentralized, community-driven approach. It focuses on organic growth, with the project being one player in a larger ecosystem, rather than aiming for dominance. This allows the project to foster a positive impact and help other players grow over time.",
+    "expert": "The Hieros project's growth philosophy is a novel application of the 'emergent order' concept in social sciences and network theory. It emphasizes the role of local interactions and bottom-up emergence in shaping the overall system, rather than relying on top-down control. This approach allows the project to adapt and evolve with its environment while maintaining a positive impact. The philosophy also highlights the importance of cultural adoption and long-term sustainability, connecting to the broader field of social and organizational change."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Hieros project's growth philosophy emphasizes decentralized development, organic growth, and the role of the community, highlighting the importance of cultural adoption and long-term sustainability.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

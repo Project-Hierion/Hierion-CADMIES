@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "web_development_techniques",
+  "title": "Web Development Techniques",
+  "definition": "A set of methodologies and tools used to create and maintain websites and web applications.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.397736Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.397736Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Web development techniques involve building a website using languages like HTML, CSS, and JavaScript, and sometimes additional technologies. It's similar to a carpenter using various tools to build a house.",
+    "intermediate": "Web development techniques encompass front-end and back-end programming. Front-end involves designing the user interface, while back-end involves managing databases and server functionality. These techniques build upon foundational concepts like algorithms and data structures.",
+    "expert": "Web development techniques span multiple fields such as computer graphics, networking, and security. They require a deep understanding of the web stack, including protocols like HTTP and HTTPS. The art of web development lies in balancing performance, security, and usability. The expert also considers the ethics and social implications of their work."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnectedness of various techniques in web development forms a complex and dynamic system, akin to a biological network that grows and evolves over time.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

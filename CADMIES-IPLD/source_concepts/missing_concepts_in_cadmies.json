@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "missing_concepts_in_cadmies",
+  "title": "Missing Concepts In Cadmies",
+  "definition": "Concepts that are referenced in the CADMIES knowledge graph but do not exist as standalone concepts in the system.",
+  "type": "Concept",
+  "domain": "Knowledge Representation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.984284Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.984284Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library where some books are mentioned in other books but they're not available for independent reading. These missing books are the 'missing concepts' in our knowledge system.",
+    "intermediate": "In graph theory, 'missing concepts' are nodes that are targeted by edges but do not exist in the graph. They represent knowledge gaps or unresolved references.",
+    "expert": "The existence of missing concepts in a knowledge graph highlights the incompleteness of the system and the need for continuous expansion and maintenance. It also emphasizes the interconnected nature of knowledge, where understanding one concept often depends on understanding related concepts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The presence of missing concepts in a knowledge graph underscores the need for continuous expansion and maintenance, highlighting the interconnected nature of knowledge.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

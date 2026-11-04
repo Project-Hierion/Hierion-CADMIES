@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universes_cosmium_bloom",
+  "title": "Universes Cosmium Bloom",
+  "definition": "The beautiful, complex, static structure resulting from the primordial processes of the universe, signifying its unique, enduring material.",
+  "type": "Concept",
+  "domain": "Astronomy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.664597Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.664597Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe as a beautiful, still painting, like a giant mushroom's gills, made from its own unique substance, revealing the universe's age and ongoing story.",
+    "intermediate": "The Universe's Cosmium Bloom is a result of the universe's primordial processes, such as the Big Bang and gravitational collapse, signifying the universe's unique, enduring material left behind.",
+    "expert": "The Universe's Cosmium Bloom suggests the universe's age and complexity, as a static structure resulting from primordial processes. It highlights the universe's unique substance and its role in cosmology, with connections to other scientific fields like biology and art."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Universe's Cosmium Bloom beautifully encapsulates the complex interplay between the process (the Big Bang, inflation, gravitational collapse) and its result (the cosmic web), highlighting the universe's unique substance and age.",
+    "source_chunk": 100,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

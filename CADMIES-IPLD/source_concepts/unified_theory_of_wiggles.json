@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_theory_of_wiggles",
+  "title": "Unified Theory Of Wiggles",
+  "definition": "A theory that proposes a continuous, scale-invariant framework from the Planck length to planetary ecosystems, with all phenomena being reformulated as interoperable wiggles within a single, dynamic continuum.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.590062Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.590062Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine everything in the universe as a series of gentle waves or movements. These waves interact in a complex way that creates all that we see and experience.",
+    "intermediate": "The Unified Theory of Wiggles suggests that reality is defined by the act of wiggling, uniting quantum mechanics, biology, and geology within a single framework.",
+    "expert": "The Unified Theory of Wiggles challenges the traditional distinction between object and process, providing a novel insight into the relationship between wiggles at the fundamental level and emergent phenomena."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Unified Theory of Wiggles unites various disciplines under a single framework, providing a deeper understanding of the interconnectedness of all phenomena in the universe.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

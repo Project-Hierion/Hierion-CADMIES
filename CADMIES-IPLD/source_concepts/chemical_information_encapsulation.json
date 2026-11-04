@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "chemical_information_encapsulation",
+  "title": "Chemical Information Encapsulation",
+  "definition": "The technique used to protect and preserve chemical signals from degradation and loss of definition in a fluid medium, leading to the creation of robust digital packets.",
+  "type": "Concept",
+  "domain": "Chemistry",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.202854Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.202854Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine sending a message in a bottle, but to keep it clear and easy to understand, we need to put the message inside a protective container. This way, it won't get lost or mixed up in the water as it travels.",
+    "intermediate": "Chemical Information Encapsulation is a technique used to isolate a chemical signal from its environment to prevent Taylor Dispersion and signal smearing. This is achieved by encasing the signal in a protective shell or surrounding it with a continuous fluid flow.",
+    "expert": "Chemical Information Encapsulation is a foundational step towards building a real chemical logic system. By protecting chemical signals from their noisy environment, the technique enables the creation of robust digital packets. This has philosophical implications for the nature of information and its relationship with the physical world, and it connects to other fields such as quantum computing and nanotechnology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that protecting a chemical signal from its noisy environment is crucial for creating a robust digital system.",
+    "source_chunk": 154,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

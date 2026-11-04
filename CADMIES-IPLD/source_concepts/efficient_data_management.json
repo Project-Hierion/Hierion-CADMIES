@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "efficient_data_management",
+  "title": "Efficient Data Management",
+  "definition": "The practice of optimizing data storage and access for efficiency, cleanliness, and performance.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.038248Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.038248Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like organizing your room to find things easily and quickly, while keeping it tidy.",
+    "intermediate": "Efficient data management involves placing data in the right location, ensuring data integrity, and minimizing data redundancy for quicker access.",
+    "expert": "Efficient data management also encompasses big data processing, cloud storage, and data privacy concerns. It's a critical aspect of digital economy and cybersecurity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Optimizing the storage and access of data, such as machine learning models, on a fast storage device like an SSD can significantly improve performance.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

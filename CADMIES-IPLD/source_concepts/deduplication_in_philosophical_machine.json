@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "deduplication_in_philosophical_machine",
+  "title": "Deduplication In Philosophical Machine",
+  "definition": "The process of eliminating duplicate or near-duplicate concepts before they are minted into a philosophical machine.",
+  "type": "Concept",
+  "domain": "Philosophy and Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.724533Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.724533Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a librarian organizing books on a philosophical shelf. If you find two books that talk about the same idea, you keep one and throw the other out. Deduplication in a philosophical machine works in a similar way, keeping only unique ideas.",
+    "intermediate": "Deduplication in a philosophical machine involves comparing extracted concepts for similarities and differences. If two concepts are found to be close matches or exact duplicates, only one is kept to prevent redundancy and increase efficiency.",
+    "expert": "The deduplication process in a philosophical machine not only eliminates duplicates but also handles near-duplicates. This is a philosophical process because it deals with the nature of ideas and their representation. It's also a machine learning problem as it involves comparing and classifying concepts. The challenge lies in defining what makes two concepts distinct or similar, a philosophical and mathematical question."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of eliminating duplicates before minting concepts into a philosophical machine to maintain its integrity and efficiency.",
+    "source_chunk": 131,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

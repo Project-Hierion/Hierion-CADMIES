@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_structure_metaphor",
+  "title": "Cosmic Structure Metaphor",
+  "definition": "A metaphorical concept to describe the appearance of cosmic structures, focusing on visual and textural qualities.",
+  "type": "Concept",
+  "domain": "Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.662812Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.662812Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Cosmic structures appear like a beautiful, delicate network, similar to a silk fabric or the intricate patterns in marble.",
+    "intermediate": "The cosmic structure is described as a 'Silken Mycelium,' combining the delicacy of silk with the form of a fungus, or a 'Gossamer Vasculature,' merging the filmy quality of gossamer with the structure of veins.",
+    "expert": "The choice of metaphor for cosmic structures is a philosophical exploration of the relationship between appearance, language, and reality. By describing structures using metaphors, we reveal aspects of our human perception and understanding of the universe. This concept challenges the traditional notion of scientific objectivity by acknowledging the subjective and poetic nature of scientific language."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cosmic structure's appearance is a blend of poetic metaphors and scientific terminology, reflecting the interplay between human perception, language, and reality.",
+    "source_chunk": 99,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

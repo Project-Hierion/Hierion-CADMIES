@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_maintenance_strategy",
+  "title": "Knowledge Maintenance Strategy",
+  "definition": "A strategy that ensures the accuracy, relevance, and usability of a knowledge system over time.",
+  "type": "Concept",
+  "domain": "Philosophy of Knowledge",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.527844Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.527844Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine maintaining a garden. You keep removing dead leaves, prune overgrown plants, and regularly add new seeds. A knowledge maintenance strategy is like that \u2014 it's a way to keep your knowledge fresh and effective.",
+    "intermediate": "A knowledge maintenance strategy involves regular validation, updating, and pruning of a knowledge system. This ensures that the knowledge remains accurate, relevant, and usable, while also allowing for the incorporation of new insights and the discarding of outdated or irrelevant knowledge.",
+    "expert": "A knowledge maintenance strategy is a philosophical and practical approach to managing a knowledge system. It involves continuous assessment of the knowledge's validity, relevance, and usability, as well as its alignment with the current state of the field and the organization's goals. This strategy not only ensures the longevity and effectiveness of the knowledge, but also enables the knowledge system to adapt and evolve in response to changes in the world and the organization."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The automated validation system scans notes for frontmatter consistency, dead wikilinks, missing sections, and duplicate files.",
+    "source_chunk": 113,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

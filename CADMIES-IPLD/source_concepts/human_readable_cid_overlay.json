@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "human_readable_cid_overlay",
+  "title": "Human Readable Cid Overlay",
+  "definition": "A human-readable format that overlays a content-addressed identifier, making it usable for discovery and understanding.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.619563Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.619563Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a street address for digital content. It's easier to remember and use than just a random string of numbers.",
+    "intermediate": "This is a structured format of 'Domain:Type/ConceptName' that serves as a human-readable identifier overlay for a content-addressed identifier (CID). It enhances usability and discovery in a decentralized system.",
+    "expert": "The 'Domain:Type/ConceptName' format provides a hierarchical and queryable human-readable identifier that addresses the usability problem in content-addressed systems. This format has implications for knowledge sharing and organization, with connections to other fields like semantic web and metadata standards. It also highlights the need for a more human-centric approach to content addressing, balancing machine efficiency with user experience."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'Domain:Type/ConceptName' format is a solution to the usability problem in content-addressed systems, providing a human-readable overlay for discovery and understanding.",
+    "source_chunk": 76,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

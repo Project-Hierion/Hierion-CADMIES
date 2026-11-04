@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_as_field_excitation",
+  "title": "Consciousness As Field Excitation",
+  "definition": "The theory that consciousness is a stable excitation in a field of potential energy, akin to other fundamental fields such as the electromagnetic field.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.873383Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.873383Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine consciousness as a bounce on a trampoline. Energy fed into the field of consciousness creates stable bounces, or 'excitations', which we perceive as thoughts, emotions, and experiences.",
+    "intermediate": "Consciousness is proposed to be a coherent excitation in a field of potential energy, governed by the same principles as other fundamental fields. This excitation could be influenced by biological and psychological attractors, and its coherence may account for the persistence of consciousness.",
+    "expert": "This concept proposes a unified field-theoretic view of reality, with consciousness as a specific manifestation of the underlying dynamic, flowing reality. It suggests that consciousness is not a separate substance but an emergent property of the universe, governed by the same principles as other fundamental fields. This theory offers a potential metaphysics of integration, unifying mind and matter."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Consciousness is a stable excitation in a field of potential energy, with implications for the nature of reality and the relationship between mind and matter.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_duplication_resolution",
+  "title": "Concept Duplication Resolution",
+  "definition": "The process of identifying and handling duplicate or near-duplicate concepts extracted from overlapping text chunks.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.901270Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.901270Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a game of 'Spot the Same' with concepts. You need to find any concepts that are the same or very similar, pick the best name, and keep only one. This helps avoid confusion and keeps things organized.",
+    "intermediate": "In a text processing pipeline, duplicate concepts can occur when overlapping chunks are processed. This concept is about identifying and resolving such duplicates. This might involve using a semantic hash to compare concepts or using an LLM to compare the meaning of concepts with different names.",
+    "expert": "Concept duplication resolution is a crucial step in knowledge extraction and representation, especially in systems with overlapping text processing. It not only enhances data integrity but also ensures that similar concepts are not treated as distinct entities. This has implications in areas such as information retrieval and knowledge graph construction. A solution might involve using advanced techniques like semantic similarity or graph-based clustering, and considering edge cases such as polysemy and anaphora resolution."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Duplicate concepts can occur when processing overlapping text chunks. A post-mint deduplication step can help improve data integrity and avoid confusion by merging similar concepts.",
+    "source_chunk": 24,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

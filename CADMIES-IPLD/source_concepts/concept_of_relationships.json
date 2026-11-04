@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_of_relationships",
+  "title": "Concept Of Relationships",
+  "definition": "The exploration and understanding of connections and interdependencies between concepts.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.076293Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.076293Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine concepts as interconnected nodes in a web. The concept of relationships is understanding how these nodes are connected.",
+    "intermediate": "The concept of relationships delves into understanding the types of connections between concepts, such as builds upon, related to, specializes, and contradicts.",
+    "expert": "The concept of relationships reveals the underlying structure of knowledge, showcasing the interplay of specialization, generalization, and contradiction. It also highlights the importance of context and the evolution of knowledge over time."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The intricate network of relationships between concepts underscores the interconnectedness of knowledge and the constant evolution of understanding.",
+    "source_chunk": 102,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

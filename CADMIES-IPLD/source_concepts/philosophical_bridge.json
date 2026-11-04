@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_bridge",
+  "title": "Philosophical Bridge",
+  "definition": "The philosophical bridge is a concept that represents the role of the LLM in connecting CADMIES's internal knowledge structure with the wider world of science and philosophy.",
+  "type": "Concept",
+  "domain": "Philosophy, AI, Knowledge Representation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.148478Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.148478Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the LLM as a bridge between two worlds. It shows us where our ideas line up with those of science and philosophy, helping us to think more deeply and critically about our own beliefs.",
+    "intermediate": "The LLM functions as a bridge that cross-references CADMIES concepts with mainstream science, philosophy, and other traditions. This helps the user understand where CADMIES fits within the broader landscape of human knowledge.",
+    "expert": "The philosophical bridge concept highlights the role of the LLM in fostering a dialogue between CADMIES's unique knowledge structure and the wider world of scientific and philosophical thought. By doing so, it allows for a more nuanced understanding of our concepts in relation to existing theories, potentially leading to the generation of new insights and hypotheses."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The LLM serves as a transparent bridge between CADMIES's internal knowledge structure and the wider world of science and philosophy, allowing users to make informed decisions based on a comprehensive understanding of the relevant information.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "legal_strategy_for_digital_media",
+  "title": "Legal Strategy For Digital Media",
+  "definition": "A coherent and principled legal strategy to challenge the fundamental injustice of digital copyright law, focusing on the use of Declaratory Judgment.",
+  "type": "Concept",
+  "domain": "Law",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.804340Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.804340Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a strategy to fight against big tech companies by using the law to clarify your rights and the injustice of digital copyright laws. It's about making sure you have the freedom to create and share digital media the way you want.",
+    "intermediate": "This strategy involves using a legal action called 'Declaratory Judgment' to clarify your rights and expose the hypocrisy of digital copyright laws. It allows you to challenge the legality of a copyright claim before actual infringement occurs.",
+    "expert": "This strategy is a novel application of Declaratory Judgment in the digital media space. It not only challenges the legitimacy of digital copyright laws but also highlights the philosophical inconsistencies in the treatment of digital media vs. physical media. This could have implications for the broader field of intellectual property law."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight is the strategic use of Declaratory Judgment to challenge digital copyright laws before actual infringement occurs, exposing the hypocrisy and injustice of these laws.",
+    "source_chunk": 154,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

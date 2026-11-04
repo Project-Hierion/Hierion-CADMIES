@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_nature_of_reality",
+  "title": "Unified Nature Of Reality",
+  "definition": "The concept that all aspects of reality are interconnected and that understanding one aspect can lead to a deeper understanding of others.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.240688Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.240688Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "interconnected_reality",
+      "conservation_of_energy"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "quantum_entanglement",
+      "fractals",
+      "butterfly_effect",
+      "bayes_theorem"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a web of life - every thread is connected to every other, and pulling on one can affect the whole. That's the unified nature of reality.",
+    "intermediate": "The unified nature of reality suggests that various disciplines, such as physics, philosophy, and biology, are deeply interconnected. Understanding concepts from one field can provide insights into another.",
+    "expert": "The unified nature of reality highlights the interdisciplinary nature of knowledge and challenges traditional boundaries between different fields. It suggests that reality is fundamentally connected, and that a holistic understanding of the universe can only be achieved by considering all its intricate interconnections."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "interconnected_reality",
+      "conservation_of_energy"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnected nature of reality suggests that understanding various concepts can provide a more comprehensive understanding of the universe.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

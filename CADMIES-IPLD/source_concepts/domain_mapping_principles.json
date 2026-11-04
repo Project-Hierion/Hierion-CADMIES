@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "domain_mapping_principles",
+  "title": "Domain Mapping Principles",
+  "definition": "Fundamental principles that guide the process of categorizing concepts within the CADMIES knowledge system based on their content and subject matter.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.054417Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.054417Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like organizing a library. We don't just put books in bins labeled 'Stuff', we put them in bins for 'Science', 'History', 'Art', etc. Similarly, we don't just label concepts 'Science', we put them in the right category based on what they're about.",
+    "intermediate": "Domain mapping is the process of assigning a concept to a specific domain based on its content. This involves distinguishing between methods (like 'Science') and disciplines, handling compound domains, and ensuring consistency in the categorization rule. It's important to understand that domain mapping should be based on the concept's content, not its label.",
+    "expert": "The domain mapping principles establish a systematic approach to categorizing concepts within the CADMIES knowledge system. They highlight the distinction between methods and disciplines, demonstrating that 'Science' is a method, not a domain. Compound domains are addressed by resolving them to the first domain listed, a decision made by the harvester. The principles also emphasize the importance of content-based mapping over domain labels. These principles have philosophical implications, connecting the process of categorizing knowledge to broader questions about the nature of disciplines and the roles they play in understanding the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The principles of domain mapping established in this conversation highlight the importance of distinguishing between methods and disciplines, handling compound domains consistently, and basing categorization on concept content rather than labels.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

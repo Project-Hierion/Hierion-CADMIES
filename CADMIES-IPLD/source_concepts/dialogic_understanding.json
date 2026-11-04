@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dialogic_understanding",
+  "title": "Dialogic Understanding",
+  "definition": "The philosophical process of mutual understanding and interpretation that occurs through dialogue and reflection.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.377620Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.377620Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine understanding as a conversation between two characters. Each character learns from the other, just like we learn from others in real life.",
+    "intermediate": "Dialogic understanding is a process of meaning-making that arises from the interaction between characters or individuals. It emphasizes the importance of communication and dialogue in understanding.",
+    "expert": "Dialogic understanding is a philosophical concept that posits that understanding is not a solitary, internal process, but a dynamic, intersubjective one. It has connections to hermeneutics, dialogue philosophy, and pragmatism. It suggests that the meaning of a text or a concept is not fixed, but emerges through dialogue and interpretation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding is a collaborative process that emerges from dialogue and reflection.",
+    "source_chunk": 146,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mindful_awareness",
+  "title": "Mindful Awareness",
+  "definition": "A state of active, open attention and observation to the present moment, without judgment.",
+  "type": "Concept",
+  "domain": "Buddhist_Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.328690Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.328690Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're drinking a soda. Enjoy the taste, smell, and sensation. Notice your thoughts and feelings, but don't get caught up in them.",
+    "intermediate": "Mindful awareness involves focusing on the current experience, including physical sensations and mental states, without becoming attached or averse to them. This practice is central to various Eastern philosophies, including Buddhism.",
+    "expert": "Mindful awareness is a cornerstone of many Eastern philosophies, particularly Buddhism. It involves the intentional focusing of attention on the present moment, acknowledging thoughts and feelings without being overwhelmed by them. This practice has been shown to have numerous psychological and physiological benefits, and has been studied extensively within the field of Cognitive Science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that one can enjoy a simple pleasure, like drinking a soda, without being caught in the cycle of craving and aversion.",
+    "source_chunk": 114,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

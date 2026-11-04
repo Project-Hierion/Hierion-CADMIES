@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_components",
+  "title": "Cadmies Components",
+  "definition": "The various components that make up the CADMIES knowledge system, such as the ConceptReader, BrowsePage, AuditPage, and UI elements.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.210890Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.210890Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a computer system as a factory. CADMIES components are the machines and processes inside the factory, like the ConceptReader that reads information and the BrowsePage where you can explore ideas.",
+    "intermediate": "CADMIES components are the functional units that implement features such as concept browsing, auditing, and user interface elements. They interact with each other to provide a cohesive system.",
+    "expert": "The CADMIES components represent a modular and extensible design approach. This allows for easier maintenance and enhancement of the system. It also facilitates the integration of the system with other tools and services in the field of knowledge representation and management."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES components are designed to be interconnected and modular, allowing for flexibility and scalability.",
+    "source_chunk": 71,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

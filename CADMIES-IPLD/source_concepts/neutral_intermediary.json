@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neutral_intermediary",
+  "title": "Neutral Intermediary",
+  "definition": "A person or organization that facilitates communication and collaboration between different parties without favoring one side over the other.",
+  "type": "Concept",
+  "domain": "Sociology, Law",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.348315Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.348315Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a referee in a sporting event. They don't play the game, but they make sure the rules are followed and the game is fair for all players.",
+    "intermediate": "A neutral intermediary acts as a trustee, steward, or fiduciary, managing resources for a community without personal profit. This role is crucial in decentralized systems to foster collaboration and coordination.",
+    "expert": "The role of a neutral intermediary in decentralized systems is critical for fostering collaboration and coordination. It can take the form of a mediator, arbiter, or escrow agent, ensuring fairness and transparency. In legal and corporate contexts, a neutral intermediary is a trustee or fiduciary, legally obligated to act in the best interests of all parties involved. The challenge lies in creating such a role in decentralized systems without centralizing control or creating incentives for capture."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for a neutral intermediary in decentralized systems to foster collaboration and coordination without creating centralized control or incentives for capture.",
+    "source_chunk": 54,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

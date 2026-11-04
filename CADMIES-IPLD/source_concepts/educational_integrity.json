@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "educational_integrity",
+  "title": "Educational Integrity",
+  "definition": "The practice of ensuring that the educational process is honest, accurate, and beneficial for all students and stakeholders.",
+  "type": "Concept",
+  "domain": "Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.575031Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.575031Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Educational integrity is like making sure the teacher's lesson plan is fair and beneficial to all students, just like a well-baked pie is fair to all eaters.",
+    "intermediate": "Educational integrity involves adhering to principles such as honesty, accuracy in content, and fairness in assessment. It ensures that the educational process is beneficial to all students and stakeholders.",
+    "expert": "Educational integrity is a multidimensional concept that encompasses not only the accuracy of content but also the fairness of assessment and the ethical conduct of educators. It has philosophical implications for the role of knowledge in society and the relationship between education and justice. Furthermore, it has connections to other fields such as computer science and information theory, where issues of data integrity and security are relevant."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of educational integrity was highlighted in the conversation through the example of a philosophical concept being shared for educational purposes and the need to ensure that the educational process is fair, honest, and beneficial to all stakeholders.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

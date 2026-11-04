@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_integration",
+  "title": "Concept Integration",
+  "definition": "The process of combining different parts of a system into a cohesive whole, highlighting their interdependencies and synergies.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.433581Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.433581Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're building a car. Integration is like putting all the pieces together \u2013 the engine, the transmission, the wheels. It's about making sure they all work together seamlessly.",
+    "intermediate": "Concept integration in computer science involves merging concepts from different chunks or modules, ensuring they complement and enhance each other. This is essential for creating robust and efficient systems.",
+    "expert": "Concept integration is a philosophical exploration of how individual concepts can be synthesized into a coherent whole. It touches on epistemology, logic, and the nature of reality. By integrating concepts, we challenge existing boundaries and reveal novel insights."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation demonstrates the interconnectedness of various components within the CADMIES Harvest Pipeline, highlighting the need for concept integration.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

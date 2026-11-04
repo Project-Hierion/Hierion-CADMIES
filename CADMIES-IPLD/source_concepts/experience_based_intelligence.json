@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "experience_based_intelligence",
+  "title": "Experience Based Intelligence",
+  "definition": "The concept of intelligence that is derived from direct experience, rather than from abstract learning or external input.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.573791Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.573791Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a 5-year-old who has spent 325K minutes swimming. This child knows how to swim, while a librarian who has read books about swimming can only write about it. Experience-based intelligence is learning from direct experience.",
+    "intermediate": "Experience-based intelligence is a form of embodied AI, where an agent learns by interacting with its environment. Unlike models trained solely on text data, these agents have procedural memory and world models, allowing them to learn causality and timing.",
+    "expert": "Experience-based intelligence challenges the traditional symbolic AI paradigm. By focusing on experience, these agents can learn skills more efficiently and robustly. However, they face challenges in communication, reasoning, and generalization. The magic lies in connecting experience-based and symbolic AI, allowing the former to teach the latter what it feels like to play."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Experience-based intelligence learns from direct experience and can complement symbolic AI, allowing for more robust and efficient learning.",
+    "source_chunk": 138,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

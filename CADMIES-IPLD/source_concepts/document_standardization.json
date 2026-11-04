@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "document_standardization",
+  "title": "Document Standardization",
+  "definition": "The process of ensuring consistency and coherence in documentation, including metadata, version control, and formatting standards.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.688132Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.688132Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library where all books are well-organized and follow a certain pattern. Document standardization is like that, but for digital content. It helps make sure things are easy to find and understand.",
+    "intermediate": "Document standardization involves creating and adhering to guidelines for metadata, version control, and formatting. This ensures consistency and coherence in documentation, making it easier to navigate and update.",
+    "expert": "Document standardization is a complex field that combines elements of metadata management, version control, and formatting. It can have philosophical implications, as it involves deciding how to represent and organize knowledge. It also has connections to other fields, such as information science and software engineering. A well-standardized document system can improve productivity, reduce errors, and enhance understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the need for document standardization in the CADMIES system, including the use of metadata, version control, and consistent formatting.",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

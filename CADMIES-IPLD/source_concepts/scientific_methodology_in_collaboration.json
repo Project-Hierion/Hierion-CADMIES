@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_methodology_in_collaboration",
+  "title": "Scientific Methodology In Collaboration",
+  "definition": "The application of scientific rigor and methodology in a collaborative environment to ensure quality, reproducibility, and ethical standards.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.350222Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.350222Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as following a recipe for success in teamwork. We use clear steps, document everything, and test results like scientists to build trust and reliability.",
+    "intermediate": "In collaboration, we apply the scientific methodology: hypothesizing, experimenting, observing, analyzing, and communicating results. This ensures reliability, reproducibility, and ethical standards.",
+    "expert": "The scientific methodology in collaboration is not just about following steps but about creating an environment that values knowledge, truth, and integrity. It's about fostering a culture of inquiry, critical thinking, and ethical behavior. It's also about recognizing the unique contributions of each individual and leveraging diversity for better outcomes. Finally, it's about the constant pursuit of understanding the world and ourselves, which is philosophically connected to the quest for knowledge and truth."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful application of scientific rigor and methodology in collaboration can foster trust, reliability, and ethical standards, while also promoting a culture of inquiry and knowledge pursuit.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

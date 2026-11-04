@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "git_model_of_self",
+  "title": "Git Model Of Self",
+  "definition": "The concept of understanding the self as a version-controlled system, with each version representing a different configuration or deployment of the self.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.852456Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.852456Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of yourself as a software program. Different parts of your life are like different versions of the code. You can go back to a previous version, make changes, and merge insights from different versions.",
+    "intermediate": "The Git Model of Self posits that the self is a dynamic, layered, and version-controlled system. Experiences, learnings, and modifications are like commits, while the coherence and continuity of the self are represented by the branch structure.",
+    "expert": "The Git Model of Self extends the metaphor of version control to the human mind. It connects to the non-self doctrine of anatt\u0101, predictive processing, and trauma theory. It resolves the tension in trauma theory by recognizing that experiences change the self, yet the pre-trauma self persists as a deployment in the version history. The model also engages with the concept of 'self' in physics, where the self is seen as a complex system of interacting parts."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The self is a git log.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

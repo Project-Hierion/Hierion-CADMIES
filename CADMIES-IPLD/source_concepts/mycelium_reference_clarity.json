@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelium_reference_clarity",
+  "title": "Mycelium Reference Clarity",
+  "definition": "The concept of improving clarity in the mycelium knowledge system for unminted references.",
+  "type": "Concept",
+  "domain": "Philosophy of Knowledge",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.491396Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.491396Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where some seeds are planted but not all have grown into plants. Currently, the system shows a question mark for seeds that haven't sprouted. Let's change that to a clipboard symbol to show these are ideas waiting to grow into full concepts.",
+    "intermediate": "The mycelium knowledge system references theoretical concepts that haven't been formalized into standalone books. Current UI displays these as 'not found' with a question mark. This concept proposes to use a clipboard symbol to indicate that these are ideas waiting to be developed into full concepts.",
+    "expert": "In the philosophy of knowledge, the distinction between knowledge and belief is crucial. This concept addresses the representation of unformalized ideas within the mycelium knowledge system. By using a clipboard symbol for unminted references, it emphasizes their potential for development rather than their current absence. This aligns with constructivist epistemology and prompts continuous exploration and refinement of ideas."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of a clipboard symbol for unminted references in the mycelium knowledge system improves clarity and encourages continuous exploration and refinement of ideas.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

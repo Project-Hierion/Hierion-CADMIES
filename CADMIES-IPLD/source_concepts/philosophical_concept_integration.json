@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_concept_integration",
+  "title": "Philosophical Concept Integration",
+  "definition": "The process of integrating philosophical concepts into a local system using Rust to orchestrate Python tools, with a focus on usability and scalability.",
+  "type": "Concept",
+  "domain": "Philosophy & Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.637568Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.637568Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library where you can add and find philosophical concepts easily. Rust helps run your existing Python tools to make it happen without any manual commands.",
+    "intermediate": "Philosophical Concept Integration leverages Rust to wrap Python tools, creating a unified GUI for adding and querying concepts. This enables easy scalability and usability.",
+    "expert": "Philosophical Concept Integration challenges traditional notions of concept management by integrating philosophy and technology. Rust acts as a bridge between the two, enabling direct manipulation of IPLD blocks for metaphysical concepts while maintaining system safety and scalability. This insight has implications for the intersection of philosophy and technology, and the role of Rust in creating safe and scalable systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Rust acts as a bridge between philosophy and technology, enabling direct manipulation of IPLD blocks for metaphysical concepts while maintaining system safety and scalability.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophy_of_adaptation",
+  "title": "Philosophy Of Adaptation",
+  "definition": "The philosophical exploration of human resilience and response to change, emphasizing the role of acceptance and optimization.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.386217Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.386217Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "climate_ethics:principle/aesthetic_collapse"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "ecology:principle/weed_triumph",
+      "ecology:principle/humans_as_weeds"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the philosophy of adaptation like learning to roll with the punches in life. Instead of getting upset about things we can't change, we can learn to accept them and make the best of our situation.",
+    "intermediate": "The philosophy of adaptation revolves around the human capacity to resiliently face and navigate change. This involves accepting what we can't change and strategically optimizing our position within it. It's about understanding our limitations and finding ways to thrive within them.",
+    "expert": "The philosophy of adaptation delves into the complex interplay between human nature, the environment, and change. It explores the philosophical implications of accepting predation, or the strategic acceptance of unavoidable circumstances, and how this perspective can lead to a deeper understanding of the human condition. The philosophy of adaptation also connects to other fields, such as ecology and economics, and raises questions about the nature of resilience, change, and human-environment relationships."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "climate_ethics:principle/aesthetic_collapse"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The human response to change, such as climate crisis, often involves a combination of resistance and adaptation. Understanding this dynamic can lead to a deeper philosophical understanding of human nature and the world.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

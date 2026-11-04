@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "robust_backup_system",
+  "title": "Robust Backup System",
+  "definition": "A backup system that handles issues like locked drives, supports multiple backup destinations, and provides robust error messages.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.670195Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.670195Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your backup system as a safety net. It should be able to handle any hiccups, like when your drive is locked, and allow you to back up data in multiple places.",
+    "intermediate": "A robust backup system provides error messages for unmounted drives, supports multiple backup targets, and allows users to select which source drive to back up.",
+    "expert": "A robust backup system is a critical component in data management. It not only handles issues like locked drives, but also supports multiple backup destinations, ensuring data redundancy. By providing explicit error messages, it improves usability and debuggability. Additionally, the system's design to allow users to select which source drive to back up enables flexibility and scalability."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlighted the need for a robust backup system that can handle locked drives, support multiple backup destinations, and provide explicit error messages.",
+    "source_chunk": 100,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

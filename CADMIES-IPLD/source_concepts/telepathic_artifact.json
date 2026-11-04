@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "telepathic_artifact",
+  "title": "Telepathic Artifact",
+  "definition": "A concept that explains how art can transport viewers into the psychological state of the artist during the creation process.",
+  "type": "Concept",
+  "domain": "Art_History",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.776572Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.776572Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine art as a window into the mind of the artist at the moment they created it. Viewing art can feel like having a short conversation with the artist's thoughts and feelings.",
+    "intermediate": "Art, especially when it's well-crafted, acts as a telepathic time machine, allowing the viewer to share in the exact mental state of the artist during the creation of the work. This is achieved through the subtle imprint of the artist's presence and consciousness in the artifact.",
+    "expert": "The telepathic nature of art is a result of the fusion of the artist's consciousness, the unique characteristics of the object, and the viewer's subjective experience. This insight challenges the traditional understanding of art as a representation and highlights its role as a medium for transmitting emotions, thoughts, and sensations across time and space."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Art is not a representation of reality but a telepathic time machine that transports the viewer into the mental state of the artist during the creation process.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

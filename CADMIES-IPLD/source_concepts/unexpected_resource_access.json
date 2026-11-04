@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unexpected_resource_access",
+  "title": "Unexpected Resource Access",
+  "definition": "The unexpected or unauthorized access to a limited or expensive computational resource.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.414027Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.414027Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're on a budget at a restaurant, but you suddenly get a free meal that's usually more expensive. This is like unexpected resource access \u2014 it's getting more than you're used to without paying for it.",
+    "intermediate": "Unauthorized resource access involves bypassing typical limits or restrictions to gain access to more powerful or expensive computational resources that are usually out of one's budget or permissions.",
+    "expert": "Unanticipated resource access in computational environments raises ethical concerns about fairness and resource allocation. It may also present technical challenges such as maintaining system stability and security. Furthermore, the insights gained from this analysis could potentially be applied to broader discussions of resource distribution in society, highlighting the role of unexpected access in unequal opportunities and outcomes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Unanticipated resource access highlights the complex interplay between individual action, system limitations, and the distribution of resources, and can raise important ethical and technical considerations.",
+    "source_chunk": 67,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

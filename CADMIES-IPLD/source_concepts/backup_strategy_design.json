@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_strategy_design",
+  "title": "Backup Strategy Design",
+  "definition": "The strategic design of a backup system, focusing on optimizing resources and minimizing interference with normal system operations.",
+  "type": "Concept",
+  "domain": "Systems Administration",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.104636Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.104636Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a librarian deciding what books to keep in your shelves. You can't keep every book forever, so you decide to keep a daily copy of the newest books, a weekly copy of what's hot, and a monthly archive of the classics. That's a simple backup strategy.",
+    "intermediate": "The backup strategy design involves creating a schedule for backing up data, setting retention policies for different types of backups, and designing backup mechanisms to minimize the impact on system performance.",
+    "expert": "A well-designed backup strategy not only ensures data integrity but also optimizes resource usage. It may involve using techniques like incremental backups, deduplication, and compression. It may also consider the consequences of backup operations on the system's availability and security."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The script follows a strategy of daily, weekly, and monthly backups, with different retention periods. This approach optimizes resource usage and ensures data integrity over time.",
+    "source_chunk": 112,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

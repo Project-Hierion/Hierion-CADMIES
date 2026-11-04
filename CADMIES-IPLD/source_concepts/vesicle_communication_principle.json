@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vesicle_communication_principle",
+  "title": "Vesicle Communication Principle",
+  "definition": "The concept that biological communication relies on the protection and transportation of chemical signals within vesicles, a method that can be applied to other systems.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.205117Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.205117Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of vesicles as little bubbles that carry important messages. By protecting these messages and carefully managing their delivery, we can ensure accurate communication.",
+    "intermediate": "Vesicle communication is a biological mechanism that involves packaging chemical signals within lipid-based vesicles to prevent dilution and degradation during transportation. This principle can be applied to other systems, such as car rental networks.",
+    "expert": "The vesicle communication principle is a fundamental aspect of biological systems, providing a robust method for signaling and information transfer. By understanding and applying this principle, it's possible to design more efficient and accurate communication systems. This insight also has connections to other fields, such as nanotechnology and computer science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The vesicle communication principle used in biological systems can be applied to other systems, such as car rental networks, to improve efficiency and accuracy of communication and information transfer.",
+    "source_chunk": 155,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

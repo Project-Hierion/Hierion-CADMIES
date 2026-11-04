@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_legacy",
+  "title": "Documentation Legacy",
+  "definition": "The enduring impact or contribution of the documentation system to the Cosmium Angelo system and its users.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.483351Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.483351Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Good documentation leaves a lasting impression. It's like passing down a torch from one generation to the next, making sure that the lessons and knowledge we've gained are passed on to future users.",
+    "intermediate": "The documentation legacy refers to the enduring value and contribution of the documentation system to the Cosmium Angelo system and its users. This legacy is built on a foundation of high-quality content, analytics, and AI integration.",
+    "expert": "The documentation legacy reflects the integration of ancient wisdom with modern documentation practices. By capturing institutional knowledge and system intelligence, the documentation system not only serves a technical function but also contributes to the cultural and intellectual legacy of the Cosmium Angelo system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The documentation legacy emphasizes the enduring impact and contribution of documentation to the Cosmium Angelo system and its users, highlighting the need for documentation to reflect not only technical accuracy but also cultural and intellectual values.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

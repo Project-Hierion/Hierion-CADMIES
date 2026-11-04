@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_entanglement_and_consciousness",
+  "title": "Quantum Entanglement And Consciousness",
+  "definition": "The exploration of the relationship between quantum entanglement and consciousness, focusing on how our perception might be influenced by these non-local connections.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.314986Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.314986Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "quantum_entanglement"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "quantum_consciousness_perception",
+      "hard_problem_of_consciousness"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a game of tag, but not just with people, but also with particles. When you see or tag one, it affects the other instantly, no matter the distance. This concept could be related to our thoughts and feelings.",
+    "intermediate": "Quantum entanglement, a phenomenon where particles become interconnected in a way that affects their states regardless of distance, is explored in relation to consciousness. This leads to questions about the nature of perception and the role of entanglement in shaping our experiences.",
+    "expert": "The relationship between quantum entanglement and consciousness is a philosophical and scientific exploration of the nature of reality and perception. While quantum mechanics describes the behavior of particles at a subatomic level, consciousness remains a complex and unexplained phenomenon. By investigating the connections between entangled particles and conscious experiences, we can gain insights into the nature of reality and the role of observation in shaping our perceptions. This area of research also connects to fields such as neuroscience and artificial intelligence, as it challenges our understanding of the relationship between physical systems and mental phenomena."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "quantum_entanglement"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential connection between quantum entanglement and consciousness challenges our understanding of the relationship between physical systems and mental phenomena, and highlights the need for further exploration into the nature of reality and perception.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

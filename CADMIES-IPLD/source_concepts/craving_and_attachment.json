@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "craving_and_attachment",
+  "title": "Craving And Attachment",
+  "definition": "A Buddhist concept that describes the continuous cycle of desire and attachment to pleasurable experiences, leading to suffering and dissatisfaction.",
+  "type": "Concept",
+  "domain": "Buddhism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.331323Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.331323Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine craving a delicious Coke on a hot day. No matter how much you drink, it's never enough to fully quench your thirst. This is similar to the cycle of craving and attachment in Buddhism.",
+    "intermediate": "The Buddhist concept of craving and attachment refers to the continuous desire for pleasurable experiences, such as drinking Coke. This leads to a cycle of suffering and dissatisfaction, as the pleasure is fleeting and never fully satisfies.",
+    "expert": "The concept of craving and attachment in Buddhism is a central tenet that highlights the emptiness of material pleasures and the suffering they cause. It's a philosophical exploration of the human condition, connecting to broader concepts such as existentialism and the search for meaning. By understanding and breaking free from these cycles, individuals may find peace and enlightenment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the Buddhist concept of craving and attachment as it applies to the consumption of Coke.",
+    "source_chunk": 115,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

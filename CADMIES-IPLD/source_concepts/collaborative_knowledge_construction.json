@@ -2,21 +2,21 @@
   "schema_version": "1.0.0",
   "human_id": "collaborative_knowledge_construction",
   "title": "Collaborative Knowledge Construction",
-  "definition": "The process of building shared understanding and knowledge through joint efforts and contributions.",
+  "definition": "The process of building and refining a knowledge base through collective effort and shared understanding.",
   "type": "Concept",
-  "domain": "Sociology",
+  "domain": "Metaphysics",
   "subdomain": "",
   "proofs": [
     {
       "type": "conversation_extraction",
-      "description": "Extracted from conversation via mistral:7b",
+      "description": "Extracted from conversation via codestral:22b",
       "confidence": 0.8,
-      "date": "2026-10-30T21:15:59.302340Z",
+      "date": "2026-10-31T20:22:40.199139Z",
       "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
     }
   ],
   "metadata": {
-    "created": "2026-10-30T21:15:59.302340Z",
+    "created": "2026-10-31T20:22:40.199139Z",
     "creator": "CADMIES Harvest Pipeline",
     "certainty_score": 0.8,
     "version": 1,
@@ -32,9 +32,9 @@
     "specializes": []
   },
   "difficulty_levels": {
-    "beginner": "Working together with others to create, develop, and improve knowledge and ideas.",
-    "intermediate": "A systematic approach to producing and validating knowledge through collaboration, involving multiple contributors and iterative refinement.",
-    "expert": "A philosophical perspective on the construction of knowledge, emphasizing the role of collaboration in generating, refining, and validating knowledge, as well as the importance of transparency, accountability, and continuous improvement in the collaborative process."
+    "beginner": "Imagine building a puzzle together. Every person adds a piece, and together, they create a complete picture. In the world of knowledge, this is what we're doing.",
+    "intermediate": "Collaborative knowledge construction involves a system where multiple agents contribute to building a comprehensive knowledge base. This concept connects to decentralized systems and the importance of collective intelligence.",
+    "expert": "Collaborative knowledge construction is a philosophical and practical approach that examines how knowledge is constructed in a distributed and decentralized manner. It has implications for fields like social science, education, and AI, particularly in areas such as knowledge graph construction and multi-agent systems. Edge cases involve conflicts in knowledge, scalability, and the measurement of collective intelligence."
   },
   "learning_path": {
     "prerequisites": [],
@@ -42,8 +42,8 @@
   },
   "cross_references": {},
   "extra_fields": {
-    "insight": "Collaboration is essential for creating robust and high-quality knowledge systems.",
-    "source_chunk": 122,
+    "insight": "The conversation revealed a need for a collaborative knowledge construction system, emphasizing the role of multiple agents contributing to a shared knowledge base.",
+    "source_chunk": 69,
     "origin_file": "conversation.json",
     "harvester_version": "4.2.1"
   }

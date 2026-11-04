@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "storm_charged_battery",
+  "title": "Storm Charged Battery",
+  "definition": "The concept of a human body being charged by a storm system, acting as a capacitor in an electrical circuit.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.736661Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.736661Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a storm like a wireless charger for your body. It creates an electric field that makes you a temporary battery, charging you up and giving you energy.",
+    "intermediate": "During a storm, the massive charge separation between the cloud base and the ground creates a strong electric field. Your body, full of electrolytes, acts like a capacitor, absorbing ions and charged aerosols from the storm. This results in a literal transfer of electrical potential from the storm to your body.",
+    "expert": "The storm's ion factory pumps charged particles into the atmosphere, which then migrate onto and into the human body. This results in a significant modification of the body's membrane potentials, altering the electrical properties of every cell. This concept challenges traditional views of human-environment interactions, highlighting the intricate and interconnected nature of biological and physical systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The storm's ion factory pumps charged particles into the atmosphere, which then migrate onto and into the human body, modifying the body's membrane potentials.",
+    "source_chunk": 138,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

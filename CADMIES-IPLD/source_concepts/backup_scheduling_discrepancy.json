@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_scheduling_discrepancy",
+  "title": "Backup Scheduling Discrepancy",
+  "definition": "An anomaly in a backup system's scheduling that results in unintended execution or non-execution of backups.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.107277Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.107277Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a backup schedule as a series of checkpoints. Sometimes, the system might miss a checkpoint or run a backup too early due to an error in the scheduling logic. This can lead to data loss or unnecessary backups.",
+    "intermediate": "Backup scheduling discrepancy occurs when the time interval calculation or state comparison in a backup script fails to match the intended backup schedule. This can lead to backups running more or less frequently than planned, causing data loss or inefficient storage usage.",
+    "expert": "Backup scheduling discrepancy is a form of temporal misalignment in distributed systems, highlighting the complexity of scheduling tasks in a deterministic and distributed manner. It also demonstrates the importance of rigorous testing and validation of backup scripts to ensure data integrity and system reliability. From a philosophical perspective, it raises questions about the nature of time, causality, and the relationship between actions and their consequences."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The anomalous backup scheduling pattern on May 28th is a result of a bug in the 4-hour block calculation and state comparison logic, leading to an incorrect assumption that a backup had already run for that block.",
+    "source_chunk": 113,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

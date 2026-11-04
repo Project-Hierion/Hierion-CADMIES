@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "async_callback_support",
+  "title": "Async Callback Support",
+  "definition": "The ability of a system to handle asynchronous callbacks in its event-driven architecture.",
+  "type": "Concept",
+  "domain": "Software_Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.897696Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.897696Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're making a sandwich. Some parts take time (like toasting bread) and others can happen simultaneously (like adding lettuce). Async callbacks allow your software to do both, making it more efficient and responsive.",
+    "intermediate": "Async callback support is crucial for event-driven systems like NiceGUI. It allows the system to handle events asynchronously, which means it can process multiple events simultaneously, leading to better performance and responsiveness.",
+    "expert": "Lack of async callback support can lead to performance bottlenecks and unresponsive UIs in event-driven systems. This is especially true in systems like NiceGUI that use the browser's event loop for UI updates. The novel insight here is that the issue is not with Ollama or the browser, but with NiceGUI's handling of async callbacks in version 3.10.0."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The issue in NiceGUI 3.10.0 is not with Ollama or the browser, but with NiceGUI's handling of async callbacks.",
+    "source_chunk": 106,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

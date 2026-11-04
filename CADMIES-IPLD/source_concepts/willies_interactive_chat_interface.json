@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "willies_interactive_chat_interface",
+  "title": "Willies Interactive Chat Interface",
+  "definition": "A conversational chat interface that utilizes LLM technology to assist users in exploring and learning about various concepts within the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science / Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.887995Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.887995Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a chatbot that can answer questions about books. Willie the Librarian is like that, but he's a chatbot who can help you understand complex ideas in simple terms.",
+    "intermediate": "Willie the Librarian Chat Interface is a full-fledged conversational LLM interface that enables users to interact with the CADMIES knowledge system. It leverages Ollama's Python client and asyncio for stable websocket handling.",
+    "expert": "Willie the Librarian Chat Interface is not just a chatbot; it's a novel exploration of the symbiotic relationship between technology and philosophy. It showcases the potential of LLM technology in democratizing access to complex knowledge systems, while also highlighting the philosophical implications of human-machine interaction. Furthermore, it demonstrates the power of interdisciplinary collaboration between computer science and philosophy."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Willie the Librarian Chat Interface demonstrates the potential of LLM technology in democratizing access to complex knowledge systems, while also highlighting the philosophical implications of human-machine interaction.",
+    "source_chunk": 102,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

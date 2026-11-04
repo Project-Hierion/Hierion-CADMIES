@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_consciousness",
+  "title": "Quantum Consciousness",
+  "definition": "The exploration of the relationship between quantum mechanics and consciousness, questioning the nature of reality and the role of observation in shaping it.",
+  "type": "Concept",
+  "domain": "Philosophy & Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.424241Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.424241Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a game where the rules change based on who's watching. Quantum Consciousness is about understanding how our thoughts and observations might influence the fundamental structure of the universe.",
+    "intermediate": "Quantum Consciousness is the intersection of quantum physics and philosophy, exploring the role of consciousness and observation in shaping reality and challenging the boundaries of classical physics.",
+    "expert": "Quantum Consciousness posits that our consciousness might not only be a fundamental aspect of reality, but also a driving force behind the emergence of the classical world. This concept has significant implications for our understanding of self, reality, and the nature of physical laws, connecting quantum mechanics with fields like metaphysics and epistemology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The exploration of the potential role of consciousness in shaping the classical world through quantum mechanics.",
+    "source_chunk": 72,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

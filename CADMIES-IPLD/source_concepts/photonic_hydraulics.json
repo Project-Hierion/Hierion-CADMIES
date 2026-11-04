@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "photonic_hydraulics",
+  "title": "Photonic Hydraulics",
+  "definition": "The application of hydraulic principles and technology to the field of photonics, using the flow and manipulation of light to create robust and compact systems.",
+  "type": "Concept",
+  "domain": "Photonics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.142521Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.142521Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a hydraulic system as a set of pipes and valves that control the flow of oil. Photonic hydraulics does the same thing, but with light.",
+    "intermediate": "Photonic hydraulics leverages the principles of beam splitting, routing, and combining light to create miniature, robust, and versatile optical systems. It draws on the analogy of hydraulics to describe the flow and manipulation of light.",
+    "expert": "Photonic hydraulics expands on the concept of photonic integration, integrating multiple optical functions within a single micro-machined structure. This offers the potential for compact, energy-efficient, and high-performance systems. The field has significant implications for various technologies such as LiDAR, communications, and sensing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of photonic hydraulics as a solution for the challenges of LiDAR systems in the context of archaeological discovery and cultural preservation.",
+    "source_chunk": 129,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

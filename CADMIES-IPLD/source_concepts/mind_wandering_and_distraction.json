@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mind_wandering_and_distraction",
+  "title": "Mind Wandering And Distraction",
+  "definition": "The phenomenon where the mind wanders from the present moment to engage in thoughts about the past or future, and the use of external distractions to mask this wandering.",
+  "type": "Concept",
+  "domain": "Philosophy, Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.592875Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.592875Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about when you're eating a delicious salad. Your mind might be daydreaming about a conversation instead of focusing on the food. But sometimes, you use a noisy device like a phone to keep your mind busy so you don't realize it's wandering.",
+    "intermediate": "Mind wandering is a common human experience where our thoughts disengage from the present moment and focus on past or future scenarios. External distractions, such as noise, serve as a 'thought muffler' to prevent us from recognizing our thoughts are not in the present.",
+    "expert": "Mind wandering is a complex phenomenon rooted in the nature of consciousness. It highlights the gap between the present moment and our thought processes. External distractions function as a coping mechanism, allowing us to escape the discomfort of recognizing our thoughts are not fully in the present. This insight connects to fields like consciousness studies, cognitive science, and mindfulness practices."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Noticing the use of external distractions to hide the wandering mind and the resulting discomfort highlights the relationship between presence, awareness, and the human experience.",
+    "source_chunk": 69,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "inspiration_from_the_mundane",
+  "title": "Inspiration From The Mundane",
+  "definition": "The notion that significant scientific insights can originate from mundane, everyday observations and experiences.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.555857Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.555857Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "scientific_method"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Sometimes, ideas that seem simple and ordinary can lead to groundbreaking discoveries in science. This conversation showed that even common objects can inspire new theories.",
+    "intermediate": "This concept highlights the role of inspiration in scientific discovery. It suggests that insights can arise from unconventional sources, including everyday experiences and objects, challenging the traditional emphasis on formal education and abstract concepts.",
+    "expert": "This concept has significant implications for the history and philosophy of science. It challenges the dominant view that scientific discovery is a rational, linear process and suggests that inspiration, intuition, and chance play a more significant role. It also has connections to creativity studies and the role of context in idea generation."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "scientific_method"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation demonstrated that even mundane observations can lead to significant scientific insights.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_spacetime_structure",
+  "title": "Black Hole Spacetime Structure",
+  "definition": "The concept of a black hole's structure as a result of its spinning singularity, creating a region of twisted spacetime outside the event horizon.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.518717Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.518717Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A black hole's 'size' isn't just about a singular point. It's more like a washing machine's motion: as you move outward, you experience a stronger 'spin' effect, even if the inner part is spinning slowly.",
+    "intermediate": "A spinning black hole's structure is not described by a spin rate, but by its angular momentum. Further out from the singularity, the effects of gravitational drag create a region of spacetime with faster 'spin' than the inner singularity.",
+    "expert": "The black hole's spacetime structure results from the singularity's rotation, which creates a region of twisted spacetime outside the event horizon. This structure contradicts classical notions of space and time, highlighting the need for a theory of quantum gravity to fully understand black holes. This insight also connects to concepts like the cosmic speed limit and the nature of causality's breakdown."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A spinning black hole's structure is not a material object, but the geometric 'result' of a spinning, crushed core's imprint on the fabric of reality. The outer regions of a black hole experience faster 'spin' due to gravitational drag, contrary to intuitive expectations.",
+    "source_chunk": 61,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

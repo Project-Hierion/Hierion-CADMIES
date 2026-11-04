@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_knowledge_curation",
+  "title": "Decentralized Knowledge Curation",
+  "definition": "A system that allows users to own and govern their data, curate specific subsets of the world's knowledge, and publish and discover data in a peer-to-peer network.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.491545Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.491545Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine if you could control what information you share, who sees it, and how it's used. Decentralized knowledge curation is like having a personal librarian that only shares your favorite books with people who care about them.",
+    "intermediate": "Decentralized knowledge curation involves creating a P2P publishing and discovery protocol that empowers users and developers by giving them control over their data and enabling them to curate specific subsets of knowledge. This approach reduces centralization, platform lock-ins, and data ownership issues.",
+    "expert": "Decentralized knowledge curation is a novel approach that challenges the traditional centralized database model by enabling users to curate and host specific subsets of the world's knowledge. This system leverages social mechanisms and node independence to ensure that the 'truth' is not dictated by a single global index, but by a resilient network of peers. By decentralizing data ownership and governance, this system empowers users and developers while promoting interoperability and resilience."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Decentralized knowledge curation allows users to curate and host specific subsets of the world's knowledge, ensuring data ownership and governance, and promoting interoperability and resilience.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

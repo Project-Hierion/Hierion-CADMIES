@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_stewardship_model",
+  "title": "Community Stewardship Model",
+  "definition": "A governance model that empowers the community to make decisions about the infrastructure, protocols, and standards they use, with a neutral steward overseeing the process to ensure fairness and transparency.",
+  "type": "Concept",
+  "domain": "Governance",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.350281Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.350281Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a group of people working together to create and manage shared resources. Instead of a single boss deciding everything, everyone has a say. This group has a special helper to make sure everything runs smoothly and fairly.",
+    "intermediate": "A community-governed model with a neutral steward responsible for ensuring fairness and transparency. This model involves community consensus on the standards, protocols, and infrastructure used, with the steward playing a role similar to that of the W3C or IETF.",
+    "expert": "A novel governance model that leverages the principles of decentralization and the wisdom of crowds. This model ensures that the collective decisions of the community are made in the best interests of the commons, while also addressing the challenges of coordination and collective action. This model has implications for the future of governance in a digital context, and its philosophical underpinnings connect it to other fields such as political philosophy and epistemology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The community-stewardship model could provide a viable solution for governing decentralized infrastructure, enabling fair and transparent decision-making while addressing the challenges of coordination and collective action.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

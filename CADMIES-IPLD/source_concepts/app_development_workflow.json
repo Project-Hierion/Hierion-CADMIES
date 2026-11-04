@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "app_development_workflow",
+  "title": "App Development Workflow",
+  "definition": "The series of steps and processes used to create, test, and distribute a software application.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.639883Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.639883Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're baking a cake. You need to write the recipe (code), test it (debug), and then share it (deploy) with others.",
+    "intermediate": "App development workflow involves various stages such as planning, design, coding, testing, and deployment. It can be simplified or complicated based on the tools and technologies used.",
+    "expert": "The app development workflow is a complex interplay of human, technical, and organizational factors. It's influenced by Agile, Waterfall, and other methodologies. It also intersects with fields like UX/UI design, project management, and software engineering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the complexity of app development workflow, with different tools and technologies requiring different numbers of open windows or terminals.",
+    "source_chunk": 83,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

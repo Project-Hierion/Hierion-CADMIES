@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_installation",
+  "title": "Cadmies Installation",
+  "definition": "The process to install and set up the CADMIES knowledge system on a local machine or a Docker container.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.523214Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.523214Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "CADMIES Installation is like following a recipe to set up a new software on your computer. It can be done in 3 ways: using pip, using Docker, or manually installing Python and its dependencies.",
+    "intermediate": "CADMIES Installation involves understanding different methods (pip, Docker, manual) to install a Python package and its dependencies. It requires knowledge of command line, environment variables, and file structures.",
+    "expert": "CADMIES Installation is a complex process that involves understanding of software distribution, dependency management, and containerization. It requires understanding of IPLD (InterPlanetary Linked Data) and CBOR (Concise Binary Object Representation), which are data formats used by CADMIES. Installation on different platforms (Linux, Mac, Windows) may require different approaches due to platform-specific dependencies and system configurations."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful installation of CADMIES demonstrates the usability and versatility of the software, and its ability to run on different platforms with different configurations.",
+    "source_chunk": 41,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressability",
+  "title": "Content Addressability",
+  "definition": "The property of a system that ensures the same content always generates the same unique identifier, and different content generates different identifiers.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.532150Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.532150Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital locker. No matter how you organize your books, the same set of books will always fit into the same slot. This is like content addressability: it ensures the same information always gets the same unique label.",
+    "intermediate": "Content addressability is a crucial aspect of distributed systems. It ensures data integrity and consistency by assigning a unique identifier (CID) to each piece of content. This means that if the content changes, the CID will change as well, providing a reliable way to reference and retrieve data.",
+    "expert": "Content addressability is a cornerstone of the InterPlanetary Linked Data (IPLD) system, which underpins decentralized data structures in various domains, including computer science, cryptography, and blockchain technology. Its philosophical implications extend to the nature of knowledge and truth, as it challenges the traditional notions of uniqueness and immutability by proposing a new model based on the content itself. Furthermore, content addressability's edge cases and connections to other fields, such as information theory and digital fingerprinting, provide a rich foundation for further exploration and research."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Content addressability ensures the reliability and consistency of data storage and retrieval in distributed systems by assigning unique identifiers (CIDs) to each piece of content.",
+    "source_chunk": 24,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

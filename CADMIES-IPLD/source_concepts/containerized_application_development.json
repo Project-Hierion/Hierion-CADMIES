@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "containerized_application_development",
+  "title": "Containerized Application Development",
+  "definition": "The practice of developing applications within containers to ensure portability and isolation.",
+  "type": "Concept",
+  "domain": "Software Development, System Administration",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.317827Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.317827Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of containers as portable boxes where you can put your software and everything it needs to run. This makes it easier to move your software around and ensures it works the same way no matter where it goes.",
+    "intermediate": "Containerized application development involves packaging an application and its dependencies in a container to ensure consistency and portability. This approach improves efficiency and reduces the risk of environment-related issues.",
+    "expert": "Containerized application development is a modern and innovative approach to software development. It offers philosophical insights into the modularity of software systems and the separation of concerns. Containers provide a degree of isolation that is similar to that of virtual machines, but with lower overhead. This makes them ideal for microservices architectures and for deploying applications in cloud environments."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

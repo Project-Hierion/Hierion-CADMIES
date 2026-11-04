@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_inspiration",
+  "title": "Scientific Inspiration",
+  "definition": "The phenomenon that triggers creative scientific insight, often arising from unexpected sources or experiences.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.933942Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.933942Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Scientific inspiration is when a new idea or thought comes to a scientist, often during a break or outside of work, sparking a new discovery or theory.",
+    "intermediate": "Scientific inspiration can be attributed to the subconscious mind's integration of new information, which can lead to the formation of innovative hypotheses or the resolution of complex problems.",
+    "expert": "The philosophy of science explores the nature of scientific inspiration, highlighting its role in the scientific method and the relationship between creativity, rationality, and uncertainty. This insight connects to the broader field of creativity studies, which investigates the cognitive, psychological, and social factors that contribute to creative outcomes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Scientific inspiration can emerge from both professional and personal experiences, demonstrating that the mind is constantly processing information and can make unexpected connections.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

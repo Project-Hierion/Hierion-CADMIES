@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holistic_understanding_of_reality",
+  "title": "Holistic Understanding Of Reality",
+  "definition": "A philosophical concept that acknowledges the interconnectedness of all phenomena, recognizing their interdependence and the lack of a permanent, independent self.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.303795Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.303795Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "anatta_non_self",
+      "emptiness_and_dependent_origination",
+      "interconnected_organisms"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "living_as_an_organism",
+      "integrative_inquiry",
+      "paradigm_shift_in_science"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine living in a big, beautiful forest. Everything in the forest \u2014 the trees, animals, grass, and even you \u2014 are all interconnected. Changes in one part affect the whole. This is like the universe, where everything is connected, and our understanding of reality is more like a big picture.",
+    "intermediate": "Holistic understanding of reality emphasizes the interdependence of all phenomena, drawing from concepts like Anatt\u0101 (Non-Self) and Dependent Origination. It involves recognizing the interconnected web of relationships that make up the complex system we call the universe.",
+    "expert": "From the perspective of holistic understanding, the universe is a complex, interconnected system of interdependent phenomena. This understanding challenges traditional notions of causality and selfhood, connecting philosophy with fields like neuroscience and quantum physics. It's a novel way of viewing reality that emphasizes the interplay of different disciplines and the need for cross-disciplinary collaboration."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "anatta_non_self",
+      "emptiness_and_dependent_origination",
+      "interconnected_organisms"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of various concepts, such as living as an organism, emptiness and dependent origination, and interconnected organisms, suggesting a holistic understanding of reality.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

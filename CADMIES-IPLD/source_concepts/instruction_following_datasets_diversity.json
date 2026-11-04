@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "instruction_following_datasets_diversity",
+  "title": "Instruction Following Datasets Diversity",
+  "definition": "The variety of instruction-following datasets used in the field of machine learning for training and evaluating language models.",
+  "type": "Concept",
+  "domain": "Machine Learning",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.491484Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.491484Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of different types of instruction manuals used to teach different machines. These datasets are like those manuals, but they're used to teach artificial intelligence.",
+    "intermediate": "Instruction-following datasets are diverse in their sources, languages, sizes, and the specific tasks they focus on. They are used for training and evaluating language models, with a particular emphasis on their ability to follow instructions.",
+    "expert": "The diversity of instruction-following datasets is a reflection of the field's efforts to improve language models' ability to understand and generate human-like text. Different datasets cater to various linguistic tasks and cultural nuances, and their combination can lead to more robust and generalized language models. The study of these datasets also provides insights into the challenges and opportunities of training language models on real-world data."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the wide range of instruction-following datasets used in the field of machine learning, demonstrating their diversity in sources, languages, sizes, and tasks.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

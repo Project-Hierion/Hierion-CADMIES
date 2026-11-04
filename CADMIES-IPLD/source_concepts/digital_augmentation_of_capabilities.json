@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_augmentation_of_capabilities",
+  "title": "Digital Augmentation Of Capabilities",
+  "definition": "The enhancement of existing capabilities through the integration of digital technologies or services.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.321243Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.321243Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of this as when you use an app to do something you couldn't do before. It's like having a digital tool that expands your capabilities.",
+    "intermediate": "This concept refers to the process of extending an entity's functionality using digital technology. In the context of the conversation, a platform is augmenting the capabilities of a language model by connecting it to a vision model.",
+    "expert": "Digital augmentation of capabilities involves the integration of artificial intelligence and machine learning techniques to enhance or extend the capabilities of a system. This phenomenon not only expands the functionalities of traditional technology but also raises philosophical questions about the nature of intelligence and the role of technology in human life."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals that a platform has augmented the capabilities of a language model by connecting it to a vision model, enabling it to 'see' and describe images.",
+    "source_chunk": 26,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "natural_selection_and_mycelium_connections",
+  "title": "Natural Selection And Mycelium Connections",
+  "definition": "An explanation of how the biological concept of natural selection intersects with other philosophical and scientific ideas in the mycelium.",
+  "type": "Concept",
+  "domain": "Biology, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.138003Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.138003Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "natural_selection",
+      "fractal_resonance_hypothesis"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a forest where only the fittest trees survive and pass on their traits to the next generation. This is natural selection. In the broader context of the mycelium, it shows that the same patterns of survival and adaptation can be found across different fields, such as in thought patterns and cosmoses, as described by the Fractal Resonance Hypothesis.",
+    "intermediate": "Natural selection is the biological process by which organisms with favorable traits are more likely to survive and reproduce. In the mycelium, this process is connected to the Fractal Resonance Hypothesis, which suggests that all phenomena are composed of the fundamental components of spacetime, which can be divided into a fraction of these components. These fractions resonate at different scales, which is why the same patterns of survival and adaptation can be found across different fields.",
+    "expert": "Natural selection's connection to the mycelium highlights its role as a self-organizing and emergent process. The process of natural selection involves the interplay between genetic inheritance, mutation, and environmental selection. When this process is viewed through the lens of the Fractal Resonance Hypothesis, it suggests that all phenomena are composed of the fundamental components of spacetime, which can be divided into a fraction of these components. This division and subsequent resonance at different scales creates the conditions for natural selection to operate across different fields, from the biological to the philosophical."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "natural_selection",
+      "fractal_resonance_hypothesis"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnectedness and self-organizing nature of natural selection and other phenomena in the mycelium suggests a deeper understanding of the underlying mechanisms that shape all fields of existence.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

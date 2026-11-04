@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_flow",
+  "title": "Conceptual Flow",
+  "definition": "A high-level abstraction of the continuous, unidirectional flow of concepts and insights from a conversation, embodying the evolution of understanding and knowledge acquisition.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.767910Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.767910Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the flow of ideas in a conversation as a stream, where each new piece of information builds upon what has been said before, just like how a river's flow is dependent on the land it passes through.",
+    "intermediate": "Conceptual Flow refers to the process by which ideas and concepts evolve and interconnect within a conversation, creating a coherent narrative that builds upon and extends existing knowledge.",
+    "expert": "Conceptual Flow is a philosophical concept that explores the directionality of knowledge acquisition and the role of context in understanding. It investigates the relationship between ideas, their origins, and their interconnections, highlighting the non-linear and complex nature of the flow of concepts within a conversation."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals a continuous, unidirectional flow of concepts and insights, demonstrating the interconnectedness of ideas and their dependence on context and prior knowledge.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

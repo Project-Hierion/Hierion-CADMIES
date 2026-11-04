@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "futile_cycle_tradeoff",
+  "title": "Futile Cycle Tradeoff",
+  "definition": "A persistent state of a system where it exerts all its energy on basic maintenance against an overwhelming stressor, with no remaining resources for growth, resilience, or evolution.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.283144Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.283144Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a machine that works really hard but all it does is break down and get fixed. No matter how much energy it uses, it can't create anything new or improve. This is what we call a futile cycle tradeoff.",
+    "intermediate": "A futile cycle tradeoff occurs when a system invests all its resources in maintaining a dysfunctional state due to a constant stressor, leading to a persistent lack of resources for evolution, complexity, and resilience.",
+    "expert": "The futile cycle tradeoff is a fundamental tradeoff in complex systems, arising from the tension between short-term survival strategies and long-term growth. It highlights the importance of energy dissipation, hierarchy, and feedback loops in determining the direction and outcome of complex systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Moon's futile cycle of energy dissipation due to tidal locking stress underscores the universal tradeoff between short-term survival and long-term complexity and evolution in physical systems.",
+    "source_chunk": 122,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

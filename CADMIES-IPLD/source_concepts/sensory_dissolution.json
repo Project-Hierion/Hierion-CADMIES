@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sensory_dissolution",
+  "title": "Sensory Dissolution",
+  "definition": "The process of perceptual adaptation and sensory fatigue that can lead to a merging of visual elements and a transition from active seeing to passive looking, resulting in a sense of 'nothingness'.",
+  "type": "Concept",
+  "domain": "Psychology and Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.304733Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.304733Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine when you stare at a patterned wall for a while. The lines and shapes start to blend together, and you might lose focus on individual objects. This is a simple version of sensory dissolution.",
+    "intermediate": "Sensory dissolution occurs when the visual system adapts to repetitive, low-contrast input. This can lead to neuronal fatigue, causing boundaries to soften, patterns to merge, and individual objects to blend into a field of color or texture, creating a sense of 'nothingness'.",
+    "expert": "Sensory dissolution is a fascinating phenomenon that demonstrates the interplay between top-down and bottom-up processing in the visual system. It highlights the role of neuronal adaptation, attention, and context in perceptual experience. It also connects to the Buddhist concept of Anicca (Impermanence) and Anatta (Not-Self), suggesting that sensory dissolution may be a glimpse into the true, interconnected, and impermanent nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Sensory dissolution is a natural human experience that can provide insight into the interconnected and impermanent nature of reality.",
+    "source_chunk": 126,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "evidence_management_protocol",
+  "title": "Evidence Management Protocol",
+  "definition": "A structured system for organizing, capturing, and referencing evidence in technical documentation.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.263616Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.263616Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a neat file cabinet for all the proofs and records you collect during a tech project. This concept is like that. It helps you keep things tidy and easy to find.",
+    "intermediate": "Evidence Management Protocol is a systematic approach to handle and reference evidence in technical documentation. It involves creating a standard directory structure, capturing command outputs, indexing evidence files, and referencing them in the document.",
+    "expert": "The Evidence Management Protocol is a novel approach that integrates the principles of evidence management and technical documentation. It not only enhances the rigor of documentation but also promotes transparency and reproducibility. By adhering to this protocol, we can ensure that all evidence is collected, organized, and referenced in a consistent and systematic manner, making it easier to validate claims and reproduce results. Additionally, this protocol can be extended to other fields, such as legal and medical documentation, where evidence management is crucial."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Evidence Management Protocol is a structured and systematic approach to handle and reference evidence in technical documentation, enhancing its rigor, transparency, and reproducibility.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

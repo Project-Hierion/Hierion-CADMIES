@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "iterative_refinement_cycle",
+  "title": "Iterative Refinement Cycle",
+  "definition": "The process where initial ideas are developed, tested, refined, and repeated in a cycle to approach a more accurate or optimal solution.",
+  "type": "Concept",
+  "domain": "Software_Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.742546Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.742546Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like cooking a dish \u2014 you start with a recipe, taste it, then adjust the flavors. This process keeps happening until the dish is perfect.",
+    "intermediate": "In the context of software development, it's the methodology where requirements are transformed into a working product through various stages like designing, prototyping, testing, and deployment.",
+    "expert": "The iterative refinement cycle is a fundamental principle in software development, but it also applies to other fields such as scientific research and product design. This cycle is a form of feedback loop, enabling continuous improvement and adaptation. It highlights the importance of flexibility and adaptability in problem-solving and innovation."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The iterative refinement cycle is a universal pattern that occurs in various disciplines, highlighting the importance of continuous adaptation and improvement in achieving optimal solutions.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

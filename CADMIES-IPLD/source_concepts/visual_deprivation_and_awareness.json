@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "visual_deprivation_and_awareness",
+  "title": "Visual Deprivation And Awareness",
+  "definition": "An exploration of the experience of visual deprivation and its relationship to consciousness, self-awareness, and contemplative practices.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.700448Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.700448Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine when you close your eyes and just feel the world around you. That's kind of like what happens when you 'stare into space'. It's your brain letting go of detailed visual processing and just experiencing the raw sensations of light and color.",
+    "intermediate": "Visual deprivation involves a shift from focused to diffuse attention in the visual cortex. This can lead to a state of minimal cognitive processing and a more primitive experience of light and color. This experience is often a gateway to mind-wandering, creativity, meditation, and a form of mental rest. It can also be a glimpse into the raw material of sight before it becomes vision.",
+    "expert": "Visual deprivation is a neurological phenomenon that has been studied extensively. It involves a reduction in the processing of static visual input in the visual cortex. This state is not merely the absence of visual processing, but a distinct neurobiological event. When combined with a conscious letting go of the usual cognitive framing of the visual field, it can lead to a state of pure consciousness without content, a paradoxical form of self-awareness. This experience has been described as a form of contemplative practice in various cultures and traditions, often intended to be cultivated through meditation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The spontaneous experience of visual deprivation is a direct, intuitive taste of one of the core goals of many meditation practices.",
+    "source_chunk": 118,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

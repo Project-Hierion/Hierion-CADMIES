@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "vault_organization",
+  "title": "Vault Organization",
+  "definition": "The systematic structure and categorization of information within the Scientific Obsidian Vault, including the creation of folders and notes for different types of content.",
+  "type": "Concept",
+  "domain": "Information Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.855975Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.855975Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your vault as a big library. Just like how a library has different shelves for different types of books, your vault has folders for different kinds of notes. This helps you find and manage information easily.",
+    "intermediate": "Vault organization is the process of structuring the Scientific Obsidian Vault to optimize information retrieval and management. This involves creating a logical hierarchy of folders and notes that reflect the content's nature, such as metadata, development sessions, polished concepts, and collaboration documents.",
+    "expert": "Vault organization is a complex yet essential aspect of knowledge management. It involves not only the physical arrangement of notes and folders but also the philosophical and methodological underpinnings that guide the creation and preservation of knowledge. By organizing the vault in a way that reflects its content, CADMIES enhances its usability and longevity. Additionally, the vault organization draws connections to other fields such as library science, information architecture, and digital gardens, highlighting the novelty of its approach."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The systematic organization of the Scientific Obsidian Vault, including the creation of folders and notes for different types of content, enhances information retrieval and management and draws connections to other fields.",
+    "source_chunk": 19,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "verification_methods",
+  "title": "Verification Methods",
+  "definition": "Diverse methods used in the CADMIES system to verify the authenticity and identity of users.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.946470Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.946470Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a library checking if your ID is real. There are different ways to confirm who you are: checking your email domain, using cryptography, or even verifying your GitHub commits.",
+    "intermediate": "Verification methods in CADMIES include email domain verification, self-sovereign identity (DID), web of trust, and Git commit signing. Each method uses unique approaches to authenticate and verify user identity.",
+    "expert": "Verification methods in CADMIES explore the interdisciplinary field of digital identity management, drawing from computer science, cryptography, and social networks. These methods challenge traditional centralized authentication models, promoting decentralization and user sovereignty."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The variety of verification methods in the CADMIES system highlights the evolving nature of digital identity management and the importance of exploring multiple, interdisciplinary approaches.",
+    "source_chunk": 90,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

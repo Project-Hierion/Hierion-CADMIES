@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hematophagous_efficiency",
+  "title": "Hematophagous Efficiency",
+  "definition": "The mechanisms and strategies utilized by hematophagous organisms to maximize blood intake, minimize host damage, and ensure continuous feeding.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.803146Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.803146Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Hematophagous creatures have evolved methods to feed efficiently and silently. They use specialized structures to feed on blood and have adapted to minimize pain and damage to their hosts.",
+    "intermediate": "Hematophagous efficiency involves the use of micro-channels, anticoagulant compounds, local anesthetics, and vasodilators to ensure continuous blood flow and minimize host discomfort during feeding.",
+    "expert": "Hematophagous efficiency is a complex interplay of physical mechanisms (micro-channels, passive flow) and chemical strategies (anticoagulants, local anesthetics, vasodilators). This efficiency allows organisms to feed silently and continuously, while minimizing damage to their hosts. This concept highlights the symbiotic relationship between hematophagous organisms and their hosts, and connects to the broader fields of animal behavior and physiology."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Hematophagous organisms have evolved sophisticated strategies to maximize blood intake while minimizing host discomfort and damage.",
+    "source_chunk": 54,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

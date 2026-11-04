@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_flow_of_data",
+  "title": "Conceptual Flow Of Data",
+  "definition": "The conceptual flow of data and information throughout the conversation review and minting process.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.450481Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.450481Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a conversation as a pipeline. The data (concepts, poetics, mantras) flow through different steps (review, validation, minting) to be saved and used.",
+    "intermediate": "The conceptual flow of data in the CADMIES Harvest Full Pipeline involves loading, chunking, extracting, transforming, validating, and minting concepts. The pipeline also integrates with the Mycelium for contextual awareness and potential improvements.",
+    "expert": "The conceptual flow of data in the CADMIES Harvest Full Pipeline is a complex system that combines natural language processing, blockchain technology, and knowledge graph principles. It showcases the intersection of data processing, knowledge representation, and decentralized systems, highlighting the potential for a more intelligent, adaptive, and decentralized knowledge infrastructure."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation review and minting process demonstrates the conceptual flow of data and information, highlighting the potential for a more intelligent and adaptive knowledge infrastructure.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

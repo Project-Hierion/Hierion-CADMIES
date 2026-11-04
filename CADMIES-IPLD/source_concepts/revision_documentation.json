@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "revision_documentation",
+  "title": "Revision Documentation",
+  "definition": "A systematic approach to documenting revisions or updates to datasets, making it clear what has been changed and when.",
+  "type": "Concept",
+  "domain": "Data Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.499096Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.499096Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a 'history book' for your data. When something changes, we note it down, so everyone knows what's new and when.",
+    "intermediate": "Revision documentation is a practice that involves creating a separate document to track changes made to datasets over time. This allows users to understand the evolution of the data and the reasons behind these changes.",
+    "expert": "The practice of revision documentation in data management not only improves transparency and accountability but also facilitates version control and reproducibility. This concept can be applied in various fields, including machine learning, scientific research, and software development. By maintaining a record of revisions, researchers can understand the historical context of datasets and make more informed decisions about their use."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of clear and transparent documentation for understanding the evolution of datasets and making informed decisions about their use.",
+    "source_chunk": 104,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

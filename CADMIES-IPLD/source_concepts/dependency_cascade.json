@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dependency_cascade",
+  "title": "Dependency Cascade",
+  "definition": "A situation where the absence or failure of one component leads to a series of other components also failing.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.564652Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.564652Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a domino effect. When one software package is missing, it can cause a chain reaction of other packages not working properly.",
+    "intermediate": "Dependency cascade refers to the phenomenon in software development where the failure or absence of one dependency can lead to the failure of other dependent components in a system.",
+    "expert": "Dependency cascade is a common issue in software development. It can occur when a dependency is missing or outdated, causing other dependent components to fail. This can have significant consequences, including reduced system stability, performance degradation, and increased downtime. Dependency cascades can also have philosophical implications, as they highlight the interconnectedness of software systems and the importance of managing dependencies carefully."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The repeated attempts to install necessary packages highlight the issue of dependency cascades in software development.",
+    "source_chunk": 133,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

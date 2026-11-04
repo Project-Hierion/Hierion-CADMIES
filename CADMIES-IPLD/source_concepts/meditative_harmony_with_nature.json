@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "meditative_harmony_with_nature",
+  "title": "Meditative Harmony With Nature",
+  "definition": "The concept of merging one's inner peace and consciousness with the natural world through meditative practices.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.025436Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.025436Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "meditative_breath_merging_with_nature",
+      "playful_mystery_as_valid_knowing",
+      "sound_as_listening_to_connection"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "climate_change"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine being in a quiet forest. By focusing on your breath, you start to feel a sense of calmness and unity with the trees, birds, and other animals around you. This is meditative harmony with nature.",
+    "intermediate": "Meditative harmony with nature involves a blend of mindfulness, consciousness expansion techniques, and a deep connection with the natural world. This can lead to enhanced self-awareness, emotional well-being, and a deeper understanding of the interconnectedness of all things.",
+    "expert": "Meditative harmony with nature is a philosophical exploration of the relationship between the human mind, consciousness, and the natural world. It connects to fields such as ecopsychology, transpersonal psychology, and eco-spirituality. The concept challenges traditional notions of separation between the self and nature, suggesting that true peace and well-being can only be achieved through a harmonious relationship with the natural world. This insight also has implications for climate change, conservation, and sustainability."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "meditative_breath_merging_with_nature",
+      "playful_mystery_as_valid_knowing",
+      "sound_as_listening_to_connection"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the potential for meditative practices to foster a deep sense of harmony and connection with the natural world, offering a path to personal and collective well-being.",
+    "source_chunk": 114,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "verification_handshake",
+  "title": "Verification Handshake",
+  "definition": "The process by which scientists verify concepts and exchange them securely using CAR files.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.017825Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.017825Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine sending a digital postcard to a friend. The postcard (concept) has a special stamp (verification) that shows it's legitimate and hasn't been altered.",
+    "intermediate": "The verification handshake is a workflow that involves exporting a verified concept into a CAR file, sending it to the recipient, and then importing and verifying it. This ensures the integrity of the data and its source.",
+    "expert": "The verification handshake is a cryptographically secure process that uses Content Addressable Data Integrity (CADI) to verify the authenticity and integrity of concepts. It not only ensures data integrity but also provides a means to exchange verified knowledge between isolated systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The verification handshake allows for secure and transparent exchange of verified concepts, enabling collaboration and knowledge transfer.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

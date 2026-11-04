@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cost_performance_balance",
+  "title": "Cost Performance Balance",
+  "definition": "The optimal balance between cost and performance in computing resources.",
+  "type": "Concept",
+  "domain": "Computing",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.583171Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.583171Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine buying a car. You want the best bang for your buck. Cost-Performance Balance is the same thing but for computers. It's choosing the right hardware that gives you enough power at a price that's reasonable.",
+    "intermediate": "Cost-Performance Balance in computing involves selecting hardware that provides sufficient computational resources for tasks at a cost-effective price. This involves considering factors like VRAM, GPU architecture, and cost per hour of usage.",
+    "expert": "The concept of Cost-Performance Balance in computing has philosophical implications in the broader field of resource management. By selecting hardware that provides optimal computational resources for tasks at a cost-effective price, it demonstrates a balance between practicality and performance. This balance highlights the trade-offs that must be considered when allocating resources and reflects the philosophical tension between efficiency and capacity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The RTX4000 at $0.56/hr is the pragmatic choice due to its 8GB VRAM fitting Mistral with breathing room and savings of $0.20/hr over the A4000. However, the A100 at $1.15/hr, with double the VRAM, offers a significant performance upgrade and could be cheaper on a longer-term commitment.",
+    "source_chunk": 63,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

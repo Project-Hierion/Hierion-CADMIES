@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_scale_bridging_theory",
+  "title": "Unified Scale Bridging Theory",
+  "definition": "A theoretical framework that explores the interconnectedness and causality across multiple scales of complex systems, from quantum fields to the biosphere.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.923517Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.923517Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a puzzle where each piece represents a different area of study, like the microscopic world of quantum physics or the macroscopic world of ecosystems. The goal is to fit these pieces together in a way that explains how they all influence each other.",
+    "intermediate": "A unified scale-bridging theory is a comprehensive theoretical framework that explores the interconnectedness and causality across multiple scales of complex systems. It aims to create a coherent narrative that explains how quantum fields influence cellular biochemistry, which in turn shapes ecological systems and global phenomena.",
+    "expert": "A unified scale-bridging theory represents a novel philosophical and scientific endeavor, attempting to resolve the traditional dualism between reductionist and emergent theories. By exploring the interconnectedness and causality across multiple scales, it seeks to create a coherent narrative that not only explains the relationship between quantum fields and cellular biochemistry but also connects these insights to other fields such as neuroscience, ecology, and computer science. This approach challenges the idea of strict reductionism and embraces the notion that complex systems can only be understood through a holistic and interdisciplinary lens."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential discovery of a unified scale-bridging theory could revolutionize our understanding of the world, providing a coherent narrative that connects quantum fields, cellular biochemistry, and ecological systems, challenging the traditional dualism between reductionist and emergent theories.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "perception_as_operating_system",
+  "title": "Perception As Operating System",
+  "definition": "The concept that perception acts as an 'operating system' that filters and interprets sensory information, shaping the way we perceive reality.",
+  "type": "Concept",
+  "domain": "Philosophy of Perception",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.162374Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.162374Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "hard_problem_of_consciousness",
+      "fermi_paradox"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of perception like a pair of glasses. Different lenses reveal different aspects of reality. Our personal filters and experiences make us see the world differently.",
+    "intermediate": "Perception functions as an 'operating system' by acting as a filter and interpreter of sensory data. This concept, known as The Different OS Hypothesis, suggests that variations in perception enable unique pattern recognition capabilities, potentially offering insights into the nature of consciousness and revealing aspects of reality not readily apparent under normal circumstances.",
+    "expert": "The perception-as-operating-system hypothesis is a philosophical exploration that expands upon the hard problem of consciousness. By considering perception as an 'operating system', we can investigate the role of consciousness and the brain in shaping our experience of reality. The concept also offers insights into the nature of qualia and the subjective nature of experience. Furthermore, it provides a framework for understanding how extraterrestrial civilizations may perceive reality differently due to their unique biological or technological capabilities, offering a new perspective on the Fermi Paradox."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Perception shapes our reality by acting as a filter and interpreter of sensory data, much like different operating systems interpret data on a computer.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_workspace_maintenance",
+  "title": "Cadmies Workspace Maintenance",
+  "definition": "The process of keeping a digital workspace clean and efficient by removing unnecessary or outdated files and directories, ensuring the source of truth is up-to-date, and maintaining a single source of information.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.901977Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.901977Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your digital workspace as a garden. Just like you wouldn't let weeds grow unchecked, it's important to regularly clean up unnecessary files and folders to keep your workspace tidy and easy to navigate.",
+    "intermediate": "CADMIES workspace maintenance involves identifying outdated or duplicate files, understanding the purpose of each file, and removing or updating them to ensure the workspace only contains the necessary and most recent information. This ensures the source of truth is clear and avoids confusion.",
+    "expert": "CADMIES workspace maintenance is a crucial aspect of digital project management that goes beyond simple file deletion. It involves understanding the interconnectedness of files and directories, the importance of version control, and the philosophical implications of a single source of truth. This concept is novel in its emphasis on the ongoing management of a digital workspace, connecting it to broader questions about information management and digital epistemology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of maintaining a clean and efficient digital workspace to ensure clarity, avoid confusion, and facilitate ongoing project management.",
+    "source_chunk": 36,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

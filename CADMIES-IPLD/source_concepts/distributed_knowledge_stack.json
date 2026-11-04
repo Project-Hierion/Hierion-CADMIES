@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "distributed_knowledge_stack",
+  "title": "Distributed Knowledge Stack",
+  "definition": "A holistic, decentralized system that integrates personal data, formal verification layers, and a unified data structure to enable data ownership and interoperability.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.572333Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.572333Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a digital library that lets each person own and manage their own data, with rules and guidelines to make it easy to connect and share with others.",
+    "intermediate": "This is a distributed database system that uses Directed Acyclic Graphs (DAGs) and Schema.org structures for data interoperability. It's designed to combat platform lock-in and increase data ownership by allowing users to control their digital identity.",
+    "expert": "This concept extends the principles of blockchain technology to create a more robust and versatile decentralized system. It explores the philosophical implications of data ownership and interoperability, and its potential connections to fields like privacy law and human-computer interaction design."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential for a decentralized knowledge stack to solve problems related to platform lock-in, data ownership, and interoperability.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

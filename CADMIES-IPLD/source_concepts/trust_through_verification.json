@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "trust_through_verification",
+  "title": "Trust Through Verification",
+  "definition": "The process of establishing trust in a system through verification of identity and claims.",
+  "type": "Concept",
+  "domain": "Cybersecurity",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.862384Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.862384Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of trust in a digital system as a checkmark. Verification helps ensure that checkmark is genuine by confirming who you are and what you claim.",
+    "intermediate": "Trust through verification is a method used in cybersecurity to validate the authenticity of users, data, and operations within a system. This is achieved through a combination of identity verification (like ORCID OAuth) and claim verification (such as ensuring the visibility of work in a knowledge system).",
+    "expert": "Trust through verification is a fundamental aspect of cybersecurity, with implications in distributed systems and blockchain technology. It's a blend of authentication and authorization, ensuring that users and their claims are who and what they say they are. Beyond cybersecurity, trust through verification is also a principle in philosophy of science, where it's crucial for establishing the credibility of research and scholars."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Trust through verification is a foundational principle in creating secure and reliable digital systems, particularly in knowledge systems like CADMIES.",
+    "source_chunk": 66,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

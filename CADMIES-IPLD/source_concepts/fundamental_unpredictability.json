@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fundamental_unpredictability",
+  "title": "Fundamental Unpredictability",
+  "definition": "The concept that the fundamental nature of reality is characterized by uncertainty and continuous change, rather than a fixed and deterministic structure.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.903645Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.903645Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of reality as a wiggly river. No matter how much you know about the water's current at one point, you can't perfectly predict its flow at another point. This 'wiggliness' is true for our bodies and the universe.",
+    "intermediate": "The philosophical concept of fundamental unpredictability draws from various fields, including biology (Alan Watts' view of the human body) and quantum physics (quantum negativity). It suggests that our search for a solid 'self' within us leads to a recursive 'wiggliness', and that a unified principle underlies both the organic and the quantum.",
+    "expert": "The concept of fundamental unpredictability is not new, but its application to bridge biology and quantum physics offers a novel insight. By connecting Alan Watts' biological perspective with quantum negativity, it becomes clear that the illusion of separation is pervasive. We are a flowing ecosystem (bio), and a collection of quantum probabilistic fields (physics). Understanding this continuity challenges the naive notion of a separate, stable self."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The seamless connection between biological 'wiggliness' and quantum 'strangeness' highlights the pervasive nature of fundamental unpredictability.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

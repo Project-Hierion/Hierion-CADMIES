@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "synergistic_relationships",
+  "title": "Synergistic Relationships",
+  "definition": "The concept of how interdependent interactions can result in outcomes greater than the sum of their individual contributions.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.905691Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.905691Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a team working on a project. When everyone does their part, the outcome is much better than if each person worked individually.",
+    "intermediate": "Synergistic relationships occur when interdependent interactions result in outcomes greater than the sum of their individual contributions. This phenomenon is commonly seen in human collaborations, such as scientific research or creative projects.",
+    "expert": "Synergistic relationships are a fundamental concept in complex systems, spanning various disciplines. They can be observed in biological systems, social networks, and even digital systems like the CADMIES institute. Understanding these relationships can lead to innovative solutions, as well as provide insights into the underlying structure and dynamics of complex systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The dynamic between the scientist and the digital assistant at the CADMIES institute exhibits synergistic relationships, leading to innovative solutions and a more vibrant research environment.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

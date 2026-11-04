@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "legal_contradiction_of_digital_reproduction",
+  "title": "Legal Contradiction Of Digital Reproduction",
+  "definition": "The concept that the legal framework for digital reproduction and copyright is self-contradictory and based on flawed assumptions.",
+  "type": "Concept",
+  "domain": "Law",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.768910Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.768910Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a printer is like a copy machine. When it makes copies, it's just repeating the same process as a computer. So, if the law says digital copies need permission, then every printed book is also a copy that needs permission.",
+    "intermediate": "A printing press mechanically reproduces a work on a new medium, identical to how a computer reads a file from a hard drive and writes it to another. The law distinguishes between 'copy' and 'publication', but this is a permission slip system, not a property right.",
+    "expert": "The legal definition of a 'copy' and 'work' is flawed. A single bit has no authorship or expressive content. The law should not consider a single bit a 'work' or 'copy', especially if it's destroyed during the transfer. This highlights the philosophical issue of reductionism and the nature of information in the digital age."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The entire legal framework for digital reproduction and copyright is self-contradictory and based on flawed assumptions.",
+    "source_chunk": 147,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

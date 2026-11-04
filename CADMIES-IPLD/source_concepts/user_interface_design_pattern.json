@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_interface_design_pattern",
+  "title": "User Interface Design Pattern",
+  "definition": "A recurring solution to a common problem in a specific context within a software system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.627003Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.627003Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a user interface design pattern as a blueprint that solves a common problem. It's like a reusable solution that makes software design easier and more efficient.",
+    "intermediate": "A user interface design pattern is a reusable solution to a common problem that occurs in a particular context within a software system. It's a generalized representation of a design, not a specific implementation.",
+    "expert": "User interface design patterns, often described using the Gang of Four's 'Design Patterns: Elements of Reusable Object-Oriented Software', are general, reusable solutions to common design problems in a specific context. They provide a high-level description of a solution, not a specific implementation. Patterns offer an abstraction for designers and developers to communicate about user interface design, and they serve as a reference for problem-solving in specific contexts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "User interface design patterns are reusable solutions to common problems, enabling efficient and effective communication among designers and developers.",
+    "source_chunk": 85,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

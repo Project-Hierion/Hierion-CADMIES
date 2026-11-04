@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ebay_international_shopping",
+  "title": "Ebay International Shopping",
+  "definition": "The concept of navigating and purchasing products on eBay across different international marketplaces.",
+  "type": "Concept",
+  "domain": "E-Commerce",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.562961Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.562961Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of eBay as a global marketplace. If you see a deal on a product, but it's not from your country, you can check if it's available internationally and ship it to you.",
+    "intermediate": "International shopping on eBay involves understanding different marketplaces, currency conversion, and shipping regulations. It can lead to significant savings on high-demand products.",
+    "expert": "The international shopping on eBay is a reflection of global interconnectivity and market dynamics. It highlights the challenges of currency exchange rates, cross-border regulations, and logistics. The concept also has implications for national economies and consumer behavior."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The potential savings from international shopping on eBay can be significant, but it requires careful consideration of various factors such as shipping costs, customs duties, and product compatibility.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

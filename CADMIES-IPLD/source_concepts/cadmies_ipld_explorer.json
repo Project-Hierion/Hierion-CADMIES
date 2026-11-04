@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_ipld_explorer",
+  "title": "Cadmies Ipld Explorer",
+  "definition": "A graphical interface for the CADMIES IPLD philosophical concept system, enabling users to navigate, add, and view concepts while ensuring local data storage, offline operation, and air-gap security.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.679304Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.679304Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a digital library that helps you manage and learn about concepts. It's like a website you use on your computer without being connected to the internet.",
+    "intermediate": "The CADMIES IPLD Explorer is a software application that acts as a user interface for the CADMIES IPLD system. It allows for the creation, viewing, and searching of philosophical concepts, all while adhering to a strict air-gap policy to ensure local data storage and offline operation.",
+    "expert": "The CADMIES IPLD Explorer is a novel application that provides a graphical interface for the CADMIES IPLD philosophical concept system. It enhances usability and accessibility to the system while maintaining its core philosophical integrity. Additionally, it serves as a case study in software development that prioritizes local data storage, offline operation, and air-gap security, demonstrating the potential for offline-first and privacy-focused software applications in various domains."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES IPLD Explorer demonstrates a unique approach to software development, prioritizing local data storage, offline operation, and air-gap security to ensure privacy and resilience.",
+    "source_chunk": 90,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

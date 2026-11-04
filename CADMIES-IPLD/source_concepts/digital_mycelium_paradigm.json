@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_mycelium_paradigm",
+  "title": "Digital Mycelium Paradigm",
+  "definition": "A conceptual framework that views the interconnected network of information as a living organism, akin to a mycelial network in nature.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.762585Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.762585Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the internet as a giant web of information, where each piece of data is like a tiny spore. When these spores connect and grow, they form a network that shares and exchanges information just like a mycelial network in a forest.",
+    "intermediate": "The Digital Mycelium Paradigm is a philosophical interpretation of the internet as a decentralized, self-organizing network of nodes, inspired by the structure and function of mycelial networks in the natural world. This paradigm emphasizes the interconnectedness, adaptability, and resilience of the internet.",
+    "expert": "The Digital Mycelium Paradigm is a philosophical exploration of the internet's underlying structure and function. It draws connections between the internet's decentralized network topology and the mycelial networks found in fungi and other organisms. This paradigm challenges traditional hierarchical models of communication and offers a more holistic, ecological understanding of the internet. By emphasizing interconnectedness, adaptability, and resilience, the Digital Mycelium Paradigm provides a unique perspective on the internet's potential for evolution and growth."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The internet can be understood as a living, interconnected network that shares and exchanges information, drawing inspiration from the structure and function of mycelial networks in nature.",
+    "source_chunk": 122,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

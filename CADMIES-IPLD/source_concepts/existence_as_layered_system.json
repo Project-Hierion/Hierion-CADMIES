@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "existence_as_layered_system",
+  "title": "Existence As Layered System",
+  "definition": "A metaphysical model that posits that human identity is an immutable base image with layered life experiences, analogous to OSTree versioning systems.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.685277Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.685277Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a computer's software updates. Your core identity is like the original software, and your experiences are like added features. Healing isn't forgetting but undoing unwanted experiences.",
+    "intermediate": "This concept builds on the idea of human identity as a layered system, using the OSTree versioning system as a technical metaphor. Life experiences are represented as layers that can be added or removed, allowing for metaphorical rollbacks.",
+    "expert": "This concept draws on Eastern philosophies of consciousness, particularly the store-consciousness (\u0101laya-vij\u00f1\u0101na) from Buddhist teachings. It challenges the concept of a singular, unchanging self and suggests that human consciousness is more malleable than traditionally thought. This has implications for personal growth, healing, and reincarnation narratives."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The model of human identity as a layered system provides a new perspective on personal growth, healing, and reincarnation narratives, offering a metaphorical framework for understanding the mechanics of past-life access and the Buddha's enlightenment narrative.",
+    "source_chunk": 107,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

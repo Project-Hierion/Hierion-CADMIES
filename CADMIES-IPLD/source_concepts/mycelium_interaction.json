@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelium_interaction",
+  "title": "Mycelium Interaction",
+  "definition": "The interplay between a knowledge network and a local language model to answer questions, compare insights, and find connections.",
+  "type": "Concept",
+  "domain": "Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.130785Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.130785Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden with plants connected through roots. Now, imagine the garden keeper (you) using their knowledge to answer questions and compare their thoughts with the knowledge planted in the garden. That's what a mycelium interaction is.",
+    "intermediate": "Mycelium interaction is a symbiotic relationship between a content-addressed knowledge network (the mycelium) and a local language model (the garden keeper). The garden keeper uses their knowledge to answer questions, compares it with the mycelium's knowledge, and identifies connections between the concepts.",
+    "expert": "Mycelium interaction is a novel concept that combines ideas from knowledge networks and language models. In this paradigm, a local language model interacts with a content-addressed knowledge network (the mycelium) to answer questions, compare insights, and find connections. This interaction allows for a richer understanding of the concepts and their interrelations. Additionally, mycelium interaction has implications for decentralized knowledge systems, privacy, and the role of AI in understanding the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mycelium interaction is a symbiotic relationship that combines the strengths of content-addressed knowledge networks and local language models to create a richer understanding of concepts and their interrelations.",
+    "source_chunk": 40,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

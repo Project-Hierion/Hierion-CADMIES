@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_retrieval_reliability",
+  "title": "Knowledge Retrieval Reliability",
+  "definition": "The principle that knowledge retrieval should be as reliable as knowledge storage, with content-addressing ensuring consistent understanding across systems.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.580898Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.580898Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of knowledge retrieval as a process that should be as accurate as saving information. A system that uses unique addresses for each piece of knowledge ensures everyone gets the same information.",
+    "intermediate": "Knowledge retrieval reliability is about maintaining consistency and accuracy during the process of accessing stored knowledge. Content-addressing is a strategy that uses unique identifiers (CIDs) for each piece of knowledge, ensuring that the same data is retrieved by all users, regardless of where it is stored.",
+    "expert": "The reliability of knowledge retrieval systems is a philosophical concern that intersects with data integrity, system reliability, and the nature of knowledge itself. By utilizing content-addressing, we can ensure that the same knowledge is retrieved consistently, even in distributed systems. This aligns with the broader concept of semantic transparency and the role of CIDs in creating a decentralized, trustless knowledge web."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The principle of knowledge retrieval reliability underscores the importance of maintaining consistency and accuracy in accessing stored knowledge, with content-addressing as a key strategy for achieving this.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_visualization",
+  "title": "Knowledge Visualization",
+  "definition": "A graphical representation of the connections and relationships between concepts in a knowledge system, used for understanding and exploring the structure of that system.",
+  "type": "Concept",
+  "domain": "User Interfaces & Visualization",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.452936Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.452936Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a spider web \u2014 the lines connecting the dots represent how different ideas are connected. The CADMIES Mycelium Map does the same thing, making it easier to understand and navigate the complex web of concepts in the CADMIES system.",
+    "intermediate": "Knowledge visualization in the context of CADMIES refers to the interactive mycelium map. This is a force-directed graph that uses nodes to represent concepts and edges to represent relationships between concepts. The map is rendered using D3.js and SVG, requiring a JavaScript-capable browser to view.",
+    "expert": "The CADMIES Mycelium Map is a sophisticated example of knowledge visualization. It provides a dynamic, interactive representation of the CADMIES knowledge system, enabling users to explore connections, hierarchies, and patterns that may not be immediately apparent from a text-based index. This visualization technique also has implications for other fields, such as sociology, where network diagrams can be used to analyze social structures. However, it's worth noting that the effectiveness of a visualization can depend on the underlying data and the user's familiarity with the domain."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES Mycelium Map provides a dynamic, interactive visualization of the knowledge system, making it easier to explore connections and patterns between concepts.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

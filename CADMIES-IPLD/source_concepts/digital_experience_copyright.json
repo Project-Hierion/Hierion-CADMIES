@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "digital_experience_copyright",
+  "title": "Digital Experience Copyright",
+  "definition": "A challenge to the traditional copyright regime that argues digital experiences should be regulated differently than physical objects.",
+  "type": "Concept",
+  "domain": "Law and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.397176Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.397176Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about watching a movie on your computer. The studio makes many copies to share the movie, but if you do the same, it's illegal. This argument says it's unfair because the experience of watching a movie is the same, whether the copies are physical or digital.",
+    "intermediate": "The digital experience copyright argument challenges the statutory language of copyright laws, which define 'copy' as a material object. It also highlights the power asymmetry between large corporations and individuals, and the fear of slippery slopes that leads copyright holders to overprotect their business models.",
+    "expert": "The digital experience copyright argument is a philosophical challenge to the nature of copyright and its relationship with technology. It highlights the hypocrisy of DRM systems that force users to break the law to use what they bought, and the need for a new legal framework that recognizes digital experiences as distinct from physical objects. This argument also has connections to other fields, such as economics (the theory of scarce resources), philosophy (the nature of ownership and use), and sociology (the role of technology in shaping culture and norms)."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The digital experience copyright argument highlights the need for a new legal framework that recognizes digital experiences as distinct from physical objects, and challenges the traditional copyright regime that is based on the reproduction of objects.",
+    "source_chunk": 153,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

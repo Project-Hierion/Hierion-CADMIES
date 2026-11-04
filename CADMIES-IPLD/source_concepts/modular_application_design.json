@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "modular_application_design",
+  "title": "Modular Application Design",
+  "definition": "A software design approach that decomposes an application into separate, interchangeable components or modules, each with a distinct functionality.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.669040Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.669040Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like building a car. Each part like the engine, wheels, and dashboard can be made or replaced independently, making it easier to build and maintain.",
+    "intermediate": "In modular application design, each module serves a specific purpose and can be developed, tested, and updated independently. This leads to better maintainability, scalability, and allows for the reuse of components.",
+    "expert": "Modular application design is a cornerstone of microservices architecture. By designing applications as a suite of small services, it becomes easier to scale and manage complex systems. Additionally, it supports the principle of separation of concerns, where each module handles a particular aspect of the functionality. This can lead to improved fault tolerance and performance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of modular design in building a scalable and maintainable software application.",
+    "source_chunk": 87,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

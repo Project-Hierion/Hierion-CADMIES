@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_geometry",
+  "title": "Black Hole Geometry",
+  "definition": "The geometric structure of space and time around a black hole, particularly the Kerr spacetime, derived from Einstein's field equations.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.683809Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.683809Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a black hole like a whirlpool in space-time. It's created by a massive object and distorts the fabric of space-time around it, causing weird things like time dilation and the bending of light.",
+    "intermediate": "A black hole geometry is a solution to Einstein's field equations that describes the curved space-time around a black hole. The Kerr spacetime, a specific solution for a rotating black hole, includes the concept of an ergosphere, a region where space-time is dragged by the rotation of the black hole.",
+    "expert": "Black hole geometry is a rich field at the intersection of general relativity and non-linear geometry. It provides insights into the nature of space-time and singularities, while also highlighting the limitations of our understanding. The Kerr spacetime, in particular, showcases the complex interplay between gravity, rotation, and the structure of space-time."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals the geometric structure of black holes, which is not just a mere description but a poetic dance of space-time.",
+    "source_chunk": 106,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

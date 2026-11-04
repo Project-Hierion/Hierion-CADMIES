@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_interrelationship",
+  "title": "Concept Interrelationship",
+  "definition": "The connections and relationships between different concepts in a knowledge system.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.525267Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.525267Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of concepts as nodes in a network. Concept interrelationship is like the web of connections between these nodes.",
+    "intermediate": "Concept interrelationship refers to the complex network of connections, dependencies, and interdependencies between different concepts. These relationships can be classified into various types, such as builds_upon, related_to, and contradicts.",
+    "expert": "Concept interrelationship explores the philosophical underpinnings of how concepts are interconnected. It delves into the nature of these relationships, their implications for knowledge acquisition and organization, and their potential connections to other fields, such as graph theory and semantic networks."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The relationship generation script is the missing tool that fills the gap in the architecture of the knowledge system, enabling the creation of a dense graph by proposing edges between existing concepts.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

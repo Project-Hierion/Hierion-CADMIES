@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holistic_reality",
+  "title": "Holistic Reality",
+  "definition": "The concept that everything in the universe is interconnected and fundamentally dependent on each other.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.291076Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.291076Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "interconnected_reality",
+      "fundamental_interconnectedness",
+      "mycelial_network"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "dependent_origination",
+      "emergence",
+      "cosmium_frattice"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a spider's web. Everything connected in a complex, interdependent network. That's how reality works.",
+    "intermediate": "Holistic Reality refers to the interconnectedness of all phenomena in the universe, emphasizing the interdependence and mutual conditionality of all things, following concepts like dependent origination and the mycelial network.",
+    "expert": "Holistic Reality is a philosophical position that reflects the complex, interconnected nature of reality. It has implications in various fields, including quantum physics, consciousness studies, and ecology. It suggests that the universe operates as a single, coherent system, with no true boundaries between elements. This challenges the traditional reductionist approach to science and promotes a more holistic understanding of the world."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "interconnected_reality",
+      "fundamental_interconnectedness",
+      "mycelial_network"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is a single, interconnected system, with no true boundaries between elements.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

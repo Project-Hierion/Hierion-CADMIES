@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_system_lifecycle",
+  "title": "Knowledge System Lifecycle",
+  "definition": "The stages through which a knowledge system evolves, from initial setup and testing to integration with a larger system.",
+  "type": "Concept",
+  "domain": "Technology and Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.613052Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.613052Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of building a house. First, you set up your tools and materials (computer setup), then you build a small structure to test them (running the CID generator), and finally, you integrate it into a larger system (posting to the envelopes endpoint).",
+    "intermediate": "The knowledge system lifecycle consists of three phases: setup, testing, and integration. In the setup phase, necessary tools are installed and configured on the user's computer. The testing phase involves generating and reading Content IDentifiers (CIDs) to ensure the tools are functioning correctly. The integration phase involves connecting the tools to a larger system, such as the /envelopes endpoint, for data exchange.",
+    "expert": "The knowledge system lifecycle can be viewed through the lens of complexity science, which studies the emergent properties of systems. The lifecycle begins with the user's initial configuration of the system, which involves setting up a complex network of interdependent components. As the system evolves, it undergoes a series of transformations, moving from a simple, local structure to a more complex, integrated system. This process highlights the importance of robust testing and validation strategies to ensure the reliability and accuracy of the system. Additionally, the knowledge system lifecycle can be compared to the scientific research lifecycle, which also involves stages of problem definition, hypothesis generation, testing, and integration with existing knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the knowledge system lifecycle can help users navigate the setup and testing process more effectively, and can also provide insights into the broader processes of system evolution and complexity.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

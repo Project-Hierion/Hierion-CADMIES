@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_inventory",
+  "title": "Cadmies Inventory",
+  "definition": "A comprehensive tool that catalogs and analyzes every file in the CADMIES project directory recursively, providing detailed insights into the project's structure and content.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.088110Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.088110Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're taking an inventory of a large warehouse. This tool does the same thing but for digital files in the CADMIES project. It tells you what kind of files are there, how many, and some details about each one.",
+    "intermediate": "The CADMIES Inventory is a recursive file scanner and analyzer that generates an inventory report for the entire project directory. It categorizes files by type, size, and modification date, and provides content analysis for selected file types.",
+    "expert": "CADMIES Inventory is a sophisticated tool that serves as a digital archivist for the CADMIES project. It uses a recursive traversal algorithm to catalog every file, and employs content analysis algorithms to classify file types and extract metadata. This not only provides insights into the project's structure and content, but also enables advanced features such as search and code analysis. From a philosophical perspective, it reflects on the nature of knowledge representation and the role of tools in understanding complex systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES Inventory tool reveals the complexity and richness of the CADMIES project by providing a comprehensive and detailed inventory of all its files.",
+    "source_chunk": 105,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

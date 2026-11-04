@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_boundary_preservation",
+  "title": "Concept Boundary Preservation",
+  "definition": "The process of maintaining the integrity of distinct concepts in a conversation, even when they are split across chunk boundaries due to artificial cut-offs.",
+  "type": "Concept",
+  "domain": "Language and Communication",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.899152Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.899152Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to read a book without finishing a paragraph, then starting again right after the paragraph ends. This can make it hard to understand the ideas in that paragraph. A good system should try to avoid this by considering the context before and after a chunk to understand the full thought.",
+    "intermediate": "Concept boundary preservation refers to the technique of maintaining the coherence of ideas across chunks. This is achieved by considering overlapping sections of text to ensure that a concept is not inadvertently split between two separate chunks.",
+    "expert": "Concept boundary preservation is a critical issue in the field of natural language processing. It involves understanding the structure of a conversation at a deeper level than surface patterns such as whitespace and line returns. This insight has implications for other fields, such as machine learning and artificial intelligence, where the preservation of concept boundaries is essential for accurate interpretation of text."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of maintaining the integrity of concepts across chunk boundaries to ensure accurate interpretation of text.",
+    "source_chunk": 23,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

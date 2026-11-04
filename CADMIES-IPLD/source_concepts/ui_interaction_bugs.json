@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ui_interaction_bugs",
+  "title": "Ui Interaction Bugs",
+  "definition": "Recurring issues in a user interface that cause unexpected behavior or failure.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.229573Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.229573Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of these as the little hiccups your computer or app has when you're trying to use it. They can make things confusing or stop you from doing what you want to do.",
+    "intermediate": "These are often caused by mismatches between expected and actual behavior in the user interface code. Common bugs include incorrect method calls or missing attributes.",
+    "expert": "UI interaction bugs can have profound implications for user experience. They can lead to frustration, reduced productivity, and even loss of data. Understanding the underlying causes and patterns of UI bugs can inform strategies for robust and intuitive software design."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding and diagnosing UI interaction bugs is a crucial skill in software development, as they can significantly impact user satisfaction and the overall success of a product.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

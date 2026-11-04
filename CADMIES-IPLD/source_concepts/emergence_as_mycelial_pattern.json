@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emergence_as_mycelial_pattern",
+  "title": "Emergence As Mycelial Pattern",
+  "definition": "The recognition that complex systems, such as CADMIES, do not emerge from individual components but from the interconnected patterns of their interactions.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.885130Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.885130Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "emergence",
+      "dependent_origination"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden. Instead of focusing on individual flowers, think about the garden as a whole. It's more than just the sum of its parts. The same goes for CADMIES. It's a mycelial pattern, a network of connections and interactions.",
+    "intermediate": "Emergence as Mycelial Pattern refers to the concept that complex systems, like CADMIES, arise from the interconnected patterns and interactions of their components. This is similar to the concept of an Indra's Net, where every node contains every other node.",
+    "expert": "Emergence as Mycelial Pattern is a philosophical insight that challenges the traditional view of causation in complex systems. It suggests that complex systems, such as CADMIES, do not emerge from individual components but from the interconnected patterns and interactions of their components. This insight has implications for fields such as systems theory, complexity science, and the philosophy of science."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "emergence",
+      "dependent_origination"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES is a mycelial pattern, a complex system that emerges from the interconnected patterns and interactions of its components.",
+    "source_chunk": 74,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

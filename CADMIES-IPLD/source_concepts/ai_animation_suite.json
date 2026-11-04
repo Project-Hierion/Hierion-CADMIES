@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ai_animation_suite",
+  "title": "Ai Animation Suite",
+  "definition": "The use of a suite of AI tools to create animated short films.",
+  "type": "Concept",
+  "domain": "Animation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.625202Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.625202Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like having a digital film crew at your fingertips. These tools help create characters, scenes, and movements for an animated short film.",
+    "intermediate": "AI animation suite is a collection of AI tools used to generate assets, ensure character consistency, and animate scenes for a short film. Tools like Midjourney, DALL-E 3, Stable Diffusion, and specialized tools help in creating a coherent and engaging animated film.",
+    "expert": "The AI animation suite is a novel approach to filmmaking that leverages the power of AI tools to create a short film. This suite includes tools for generating art and characters, ensuring character consistency, animating scenes, and more. The use of AI in filmmaking challenges the traditional approach and has the potential to revolutionize the industry by making the process more efficient and accessible."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of AI tools to create animated short films is a novel approach to filmmaking that has the potential to revolutionize the industry.",
+    "source_chunk": 75,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

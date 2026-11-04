@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interactive_concept_cards",
+  "title": "Interactive Concept Cards",
+  "definition": "A user interface design concept where individual concept cards are made clickable, enabling the user to view full concept details in a popup window when clicked.",
+  "type": "Concept",
+  "domain": "Human-Computer Interaction",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.474862Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.474862Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a collection of flashcards. When you click on one, it flips over to reveal more information. In this case, the 'flashcards' are concepts from a knowledge system, and clicking on them opens a popup window with full details.",
+    "intermediate": "Interactive concept cards are a type of user interface design where each concept is presented as a card. When a user clicks on a card, a modal popup window displays the full concept details. This enhances user engagement and comprehension, as it allows users to interactively explore and learn from the concepts.",
+    "expert": "Interactive concept cards are a novel application of the metaphor of 'active learning'. They challenge traditional static knowledge representation methods by allowing users to actively engage with concepts, fostering deeper understanding and comprehension. From a philosophical perspective, interactive concept cards question the nature of knowledge and learning by emphasizing the active role of the learner in constructing meaning. This insight has implications for educational theory and learning design, as well as for the broader field of human-computer interaction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Interactive concept cards challenge traditional static knowledge representation methods by allowing users to actively engage with concepts, fostering deeper understanding and comprehension.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

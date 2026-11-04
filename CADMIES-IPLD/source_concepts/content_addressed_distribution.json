@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressed_distribution",
+  "title": "Content Addressed Distribution",
+  "definition": "The process of distributing data where each unique piece of content is assigned a unique identifier, enabling verification and efficient retrieval.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.398801Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.398801Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a magical library where every book is labeled with a unique code. This code helps you find the right book quickly and ensures that you have the correct version of the book. That's what content-addressed distribution is.",
+    "intermediate": "Content-addressed distribution is a data distribution method where each file is identified by a hash of its content. This ensures data integrity and efficiency, as only unique content is stored and retrieved.",
+    "expert": "Content-addressed distribution is a key concept in distributed systems and information theory. It offers benefits such as automatic duplication elimination, data integrity verification, and efficient storage and retrieval. However, it also presents challenges such as handling content updates and managing indexing. The novel insight here is the use of IPLD (InterPlanetary Linked Data) content addressing, which provides a native, extensible way to address and link data in a decentralized network."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of content-addressed distribution (CAR) in the CADMIES knowledge system ensures data integrity, efficiency, and a native, extensible way to address and link data in a decentralized network.",
+    "source_chunk": 61,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

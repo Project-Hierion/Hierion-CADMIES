@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_optimization",
+  "title": "Backup Optimization",
+  "definition": "The concept of maximizing efficiency and effectiveness in the backup process to save time, resources, and minimize data loss.",
+  "type": "Concept",
+  "domain": "Systems Administration",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.440315Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.440315Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of backup optimization like organizing your room. It helps you save time by not searching for misplaced items and ensures everything is safe in case of a disaster.",
+    "intermediate": "Backup optimization involves managing retention policies, optimizing backup schedules, and using incremental backups to minimize data transfer. It also includes testing backup recovery to ensure data integrity.",
+    "expert": "Backup optimization is a broad field that connects to disaster recovery, data lifecycle management, and storage technology. It involves understanding trade-offs between backup frequency, recovery time, and storage costs. Backup optimization can also be seen as a form of system design, with implications for overall system architecture and scalability."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The backup process can be optimized by implementing a strategy that balances backup frequency, data retention, and storage costs to ensure data availability and integrity.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

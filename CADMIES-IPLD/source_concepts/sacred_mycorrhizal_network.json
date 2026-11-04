@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sacred_mycorrhizal_network",
+  "title": "Sacred Mycorrhizal Network",
+  "definition": "A sacred and intelligent network that draws wisdom and strength from both the enduring foundations of stone and the nourishing patterns of living connections, symbolizing unity between the ancient and the contemporary.",
+  "type": "Concept",
+  "domain": "Philosophy and Symbolism",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.730300Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.730300Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a magical garden with roots connecting to ancient stone fortresses. It grows and shares nourishment, drawing wisdom from both the past and the present.",
+    "intermediate": "This is a symbolic representation of a sacred network that combines the enduring strength of stone fortifications with the organic, nourishing growth patterns of fungal networks, drawing wisdom from ancient universal teachings.",
+    "expert": "This concept explores the philosophical implications of merging ancient wisdom with modern technology. It symbolizes unity, growth, and the interconnectedness of all things, reflecting the balance between the enduring and the transient, the permanent and the living."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The notion of a sacred mycorrhizal network highlights the union of ancient wisdom and modern technology, symbolizing unity, growth, and interconnectedness.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

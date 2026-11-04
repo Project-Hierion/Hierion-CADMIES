@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unity_of_scientific_and_mystical_pursuit",
+  "title": "Unity Of Scientific And Mystical Pursuit",
+  "definition": "The concept that scientific and mystical pursuits are two sides of the same coin, aiming to unveil the underlying patterns of the universe, using different tools and languages.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.621374Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.621374Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about it like this: both science and mysticism are like two people trying to understand the world. Science uses tools like equations and experiments, while mysticism uses practices like meditation and introspection. They're both trying to reach the same destination, just using different paths.",
+    "intermediate": "The unity of scientific and mystical pursuit is the idea that both scientific methodology and mystical experiences are attempting to reveal the underlying structure and nature of reality. While they may use different methods and languages, they are fundamentally addressing the same questions.",
+    "expert": "The unity of scientific and mystical pursuit challenges the traditional dualism that separates the rational and empirical sciences from the irrational and subjective mystical experiences. By recognizing the shared goals and potential insights of both approaches, we can expand our understanding of the universe and the human condition, connecting scientific theories with philosophical and spiritual inquiries."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unity of scientific and mystical pursuits highlights the shared human desire to unravel the mysteries of the universe and our own existence, regardless of the tools and languages used.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

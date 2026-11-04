@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_field_hypothesis",
+  "title": "Consciousness Field Hypothesis",
+  "definition": "The proposition that consciousness is a fundamental aspect of the universe, existing as a pervasive field similar to other physical fields, and that individual consciousness arises from localized excitations within this field.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind and Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.860781Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.860781Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the universe as a huge, interconnected field. Just as we have electric and magnetic fields, some people propose that there might also be a 'consciousness field.' This field could cause consciousness to arise in our brains, similar to how a magnet causes a compass to point north.",
+    "intermediate": "The Consciousness Field Hypothesis is an extension of field theories in physics and dualist theories in the philosophy of mind. It suggests that just as physical fields like the electromagnetic field underpin our understanding of the universe, a consciousness field could underpin our understanding of consciousness. This field is proposed to exist universally, and individual consciousness arises from localized excitations within this field.",
+    "expert": "The Consciousness Field Hypothesis is a radical reimagining of the universe's fundamental structure, connecting consciousness with the most advanced theories in physics and philosophy. It challenges the mainstream view that consciousness is an emergent property of the brain, proposing instead that consciousness is a fundamental aspect of the universe. This hypothesis has philosophical implications for dualism and monism, and scientific implications for quantum mechanics and the nature of reality. It also offers a potential resolution to the 'hard problem' of consciousness and provides a framework for understanding phenomena like memory, love, and death."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Consciousness Field Hypothesis offers a potential resolution to the 'hard problem' of consciousness and provides a framework for understanding phenomena like memory, love, and death.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_growth_strategies",
+  "title": "Hierarchical Growth Strategies",
+  "definition": "The concept that systems can support multiple strategies for hierarchy growth, such as optional or configurable hierarchy.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.455721Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.455721Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a tree. A tree can grow in different ways, like branching out or going deeper. In this context, a system can grow its hierarchy in various strategies, such as turning it on or off.",
+    "intermediate": "Hierarchical growth strategies refer to the different methods a system can use to construct its hierarchical structure. This can include making the hierarchy optional or configurable, allowing for flexibility in how the system grows and learns.",
+    "expert": "The concept of hierarchical growth strategies explores the various methods a system can adopt to construct its hierarchical structure. This not only impacts the system's ability to learn and adapt but also its efficiency and scalability. It has philosophical implications for the nature of complexity and emergence in artificial intelligence and computational systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The fact that HIEROS supports multiple hierarchy growth strategies indicates its versatility and adaptability.",
+    "source_chunk": 93,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

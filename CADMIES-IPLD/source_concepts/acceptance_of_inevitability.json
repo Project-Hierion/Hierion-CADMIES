@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "acceptance_of_inevitability",
+  "title": "Acceptance Of Inevitability",
+  "definition": "The understanding that certain outcomes or situations are inevitable and the decision to accept and strategically manage them instead of resisting.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.784563Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.784563Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like realizing that no matter how hard you try, some things are simply out of your control. Instead of fighting it, you learn to work with it and make the most out of the situation.",
+    "intermediate": "Acceptance of inevitability refers to the recognition of unavoidable outcomes and the shift in strategy from resistance to acceptance and proactive management. This concept intersects with ideas like resilience, adaptation, and survival strategies.",
+    "expert": "The acceptance of inevitability is a psychological stance that acknowledges the unavoidable and inescapable nature of certain situations or outcomes. It explores the human capacity to adapt and thrive in the face of inevitable adversity, with implications for survival strategies, risk management, and the role of chance and fate in shaping outcomes. This insight has philosophical implications for existentialism, stoicism, and the human condition, as well as connections to fields such as economics, organizational behavior, and game theory."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition that certain outcomes are inevitable can lead to a shift in strategy from resistance to acceptance and proactive management, with potential implications for resilience, survival, and the role of chance in shaping outcomes.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

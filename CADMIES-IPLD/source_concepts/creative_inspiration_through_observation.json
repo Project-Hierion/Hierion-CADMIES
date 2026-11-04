@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "creative_inspiration_through_observation",
+  "title": "Creative Inspiration Through Observation",
+  "definition": "The concept that the process of creative inspiration can originate from real-life experiences and observations.",
+  "type": "Concept",
+  "domain": "Art and Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.259412Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.259412Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Art often draws from real life. When you see something unique, it can spark an idea for a story or artwork.",
+    "intermediate": "Creative inspiration can arise from personal experiences and observations. This is reflected in the similarities between Luke La Roc's 'Pine Vinyl' episode and the user's real-life experience with mallards in a residential pool.",
+    "expert": "The concept of creative inspiration through observation challenges the notion that creativity is solely a product of imagination or intuition. This phenomenon highlights the interplay between personal experiences and artistic expression, connecting art with philosophy and the study of the human experience."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user's real-life experience with mallards in a residential pool served as the source material for Luke La Roc's 'Pine Vinyl' episode, demonstrating the potential for creative inspiration to arise from personal observations.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

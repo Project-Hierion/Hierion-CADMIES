@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_field_theory",
+  "title": "Unified Field Theory",
+  "definition": "The concept that all fundamental forces and particles in the universe can be explained by a single, unified mathematical framework.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.256206Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.256206Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "quantum_reality_as_perception",
+      "wiggle_theory",
+      "funny_monsters",
+      "unified_wiggles"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "cross_scale_causality",
+      "unified_wiggle"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine everything in the universe as one big dance. All the particles and forces are just different steps and dancers, but they all follow the same dance floor.",
+    "intermediate": "Unified Field Theory seeks to explain electromagnetism, gravity, and the strong and weak nuclear forces as different manifestations of a single underlying quantum field.",
+    "expert": "Unified Field Theory is a long-standing quest in physics, with theories like string theory proposing that all fundamental forces are modes of vibration in a multidimensional space-time fabric. This theory has philosophical implications for the nature of reality and the role of mathematics in understanding it."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "quantum_reality_as_perception",
+      "wiggle_theory",
+      "funny_monsters",
+      "unified_wiggles"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation hints at the interconnectedness of physics and philosophy through the notion of a unified field theory.",
+    "source_chunk": 11,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

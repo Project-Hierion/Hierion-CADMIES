@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fundamental_reality",
+  "title": "Fundamental Reality",
+  "definition": "The true nature of the universe as a unified, participatory phenomenon, which is experienced directly and can be understood through ceasing manipulation of perception.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.315712Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.315712Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine looking at a scene without trying to interpret it or assign meanings to objects. Just seeing what's there. That's a glimpse of fundamental reality.",
+    "intermediate": "Fundamental reality is the raw, uncollapsed field of experience. It's what remains when we stop the cognitive machinery of separation, such as subject/object or this/that.",
+    "expert": "Fundamental reality is the recognition that the universe is a unified, inseparable phenomenon. It challenges the scientific understanding of reality as discrete particles and waves, and instead suggests a participatory, interconnected universe. This concept has philosophical implications and connects to other fields, such as quantum physics and Eastern philosophy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Fundamental reality can be experienced directly and is a participatory, unified phenomenon.",
+    "source_chunk": 131,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

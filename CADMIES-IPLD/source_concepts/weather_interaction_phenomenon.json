@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "weather_interaction_phenomenon",
+  "title": "Weather Interaction Phenomenon",
+  "definition": "A unique weather phenomenon resulting from the interaction between Pacific and Canadian atmospheric systems affecting Texas.",
+  "type": "Concept",
+  "domain": "Meteorology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.398104Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.398104Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two powerful winds, one coming from the Pacific and the other from Canada, meeting in Texas. Normally, these winds move apart, but this time they're swirling around each other, creating a 'bowl' that traps heat and moisture over Texas, especially in Houston.",
+    "intermediate": "The phenomenon in Texas is a result of the interaction between an upper-level high-pressure ridge, which acts as a 'bowl', and a stalled Cut-Off Low originating from Pacific and Canadian atmospheric systems. The high-pressure ridge traps heat and moisture, while the Cut-Off Low brings in moisture, leading to unusual weather conditions.",
+    "expert": "The Texas weather phenomenon is a unique manifestation of the complex interplay between synoptic-scale (large-scale) and mesoscale (small-scale) atmospheric systems. It represents a rare occurrence where a Heat Dome (upper-level high-pressure ridge) and a Cut-Off Low (stalled extratropical cyclone) interact, resulting in an amplified and persistent high-pressure system. This phenomenon has been studied in the context of climate change and its effects on extreme heat events."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unique weather phenomenon in Texas is a result of the complex interplay between Pacific and Canadian atmospheric systems, highlighting the role of these large-scale systems in shaping local weather patterns.",
+    "source_chunk": 75,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

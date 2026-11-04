@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycorrhizal_network",
+  "title": "Mycorrhizal Network",
+  "definition": "The interconnected network of agent nodes (IPLD blocks) and connections (CID links) that forms the backbone of the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.825459Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.825459Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "craving_tanha_cycle"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a network of roots (nodes) spreading out and connecting (links) to form a large, intelligent system. That's the mycorrhizal network in the CADMIES knowledge system.",
+    "intermediate": "The mycorrhizal network is an interconnected system of agent nodes (IPLD blocks) linked by their unique identifiers (CIDs). It functions as the backbone of the CADMIES knowledge system, allowing for the organization and exchange of information.",
+    "expert": "The mycorrhizal network serves as a metaphor for the underlying structure of the CADMIES knowledge system, which is an interconnected network of autonomous agents. This structure enables the system to learn, adapt, and grow over time, while also providing a rich context for understanding and generating insights. The mycorrhizal network can be seen as a manifestation of the principles of emergence and self-organization, and its functioning can be studied using tools from both philosophy of technology and complexity science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycorrhizal network is a symbol of the interconnectedness and intelligence of the CADMIES knowledge system, and it serves as a foundation for its ability to learn, adapt, and generate insights.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

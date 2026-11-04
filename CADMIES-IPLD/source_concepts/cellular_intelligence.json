@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cellular_intelligence",
+  "title": "Cellular Intelligence",
+  "definition": "The distributed intelligence system within the body's cells, which detect, signal, and adapt to persistent environmental pressures independently of conscious mediation.",
+  "type": "Concept",
+  "domain": "Cognitive_Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.788475Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.788475Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "cellular_intuition_predator_prey"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "predatory_inevitability",
+      "ecosystem_as_cohabitation"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Your body is smarter than you think. Even when your conscious mind doesn't know, your cells can detect and adapt to things like a vampire's feeding habits.",
+    "intermediate": "Cellular intelligence extends embodied cognition theory into immunology and threat detection, challenging top-down models of cognition and suggesting that 'knowing' is not limited to conscious awareness.",
+    "expert": "Cellular intelligence posits that biological responses constitute a form of intelligence operating below the threshold of consciousness, capable of developing long-term adaptive strategies independent of conscious psychological coping mechanisms. This has significant implications for understanding chronic stress, autoimmune disorders, and the mind-body relationship."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "cellular_intuition_predator_prey"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The body's cells can detect and adapt to persistent threats independently of conscious thought, challenging top-down models of cognition.",
+    "source_chunk": 45,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "causality_reversal_paradox",
+  "title": "Causality Reversal Paradox",
+  "definition": "The concept that the ordinary relationship between cause and effect breaks down in extreme environments, such as near black holes, potentially leading to paradoxes and the blurring of our understanding of reality.",
+  "type": "Concept",
+  "domain": "Philosophy & Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.247134Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.247134Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "black_hole_causality_reversal",
+      "quantum_perception"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "frame_dragging_gradient",
+      "impermanence",
+      "nondual_awareness",
+      "illusion_of_solidity",
+      "unified_frequency"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a ripple in a pond. Normally, the ripple is caused by something (like a stone) and then it disappears. But in extreme environments, like near a black hole, the rules might get twisted, causing ripples to create stones, or even creating their own causes.",
+    "intermediate": "The causality reversal paradox arises from the complex interplay of general relativity and quantum mechanics near black holes. In such environments, time and space can behave in unexpected ways, blurring the lines between cause and effect.",
+    "expert": "The causality reversal paradox highlights the limitations of our current understanding of physics and the need for a more comprehensive theory of quantum gravity. It also draws attention to the philosophical implications of determinism and free will, as well as the nature of reality and our ability to make predictions about it."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "black_hole_causality_reversal",
+      "quantum_perception"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unexpected behavior of cause and effect near black holes challenges our understanding of reality and highlights the need for a more comprehensive theory of physics.",
+    "source_chunk": 8,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

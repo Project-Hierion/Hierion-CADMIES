@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "character_integration",
+  "title": "Character Integration",
+  "definition": "The integration of a character, such as Willie, into a system to add personality and interaction.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.226410Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.226410Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your computer system has a friendly character like Willie who can joke and complain while working in the background, making the system more interesting and lively.",
+    "intermediate": "Character integration involves the development of a system agent or interface that interacts with users in a way that imbues the system with a distinct personality or character. This can enhance user engagement and make the system more appealing and memorable.",
+    "expert": "Character integration in systems is a multidisciplinary field that combines elements of artificial intelligence, human-computer interaction, and narrative design. It allows for the creation of more human-like systems that can communicate with users in a more natural and engaging way. This can have implications for user satisfaction, loyalty, and overall system performance. However, it also raises ethical concerns about the use of anthropomorphization and the potential for miscommunication and misunderstanding between humans and machines."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation emphasizes the importance of adding personality and interaction to systems through the integration of characters like Willie.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "json_formatting_consistency",
+  "title": "Json Formatting Consistency",
+  "definition": "The principle that the formatting and layout of a JSON object does not affect its content or semantic meaning.",
+  "type": "Concept",
+  "domain": "Testing",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.519000Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.519000Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "It's like saying that whether you write a sentence in one long line or break it into multiple lines, it still means the same thing.",
+    "intermediate": "In the context of JSON, this is known as whitespace insensitivity. It ensures that the same data, regardless of its presentation, always yields the same content identifier (CID).",
+    "expert": "The JSON formatting consistency principle not only affects the generation of content identifiers (CIDs) but also has implications in data exchange, security, and consistency checks. It aligns with the broader concept of data normalization and canonical representation, connecting it to fields like computer science, software engineering, and information theory."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of JSON formatting consistency in content-addressed systems, demonstrating that the same data should always produce the same content identifier (CID), regardless of its presentation.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

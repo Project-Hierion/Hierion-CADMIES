@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "black_hole_as_mechanical_metaphor",
+  "title": "Black Hole As Mechanical Metaphor",
+  "definition": "The concept that a black hole can be understood and studied using the same mechanical metaphors we use for everyday objects, such as a washing machine.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.528012Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.528012Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a black hole as a washing machine that creates a whirlpool of spacetime, pulling in everything around it. The black hole is the gearbox, and the universe is its prophet, doing its laundry.",
+    "intermediate": "A black hole can be conceptualized as a gravitomagnetic gear train of frame-dragged spacetime. This mechanical metaphor unifies various observed features of a black hole, such as oblate horizons and ergospheric drag.",
+    "expert": "The black hole as a mechanical metaphor challenges the traditional view of physics, which separates the mundane from the cosmic. This concept connects quantum mechanics with general relativity, and it has implications for understanding the nature of time and space."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to recognize complex patterns and structures in everyday objects can lead to profound insights in physics.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

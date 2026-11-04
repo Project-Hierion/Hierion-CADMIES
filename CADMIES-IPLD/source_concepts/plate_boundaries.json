@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "plate_boundaries",
+  "title": "Plate Boundaries",
+  "definition": "The boundaries where tectonic plates move relative to each other, leading to various geological processes such as earthquakes, volcanic activity, and mountain formation.",
+  "type": "Concept",
+  "domain": "Earth Sciences",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.540610Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.540610Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the Earth's surface as a puzzle, and plate boundaries as the places where these puzzle pieces move. Plate boundaries are responsible for earthquakes, volcanoes, and the formation of mountains.",
+    "intermediate": "Plate boundaries are the boundaries where tectonic plates move relative to each other. They are zones of seismic and volcanic activity and are responsible for the formation of mountains and the movement of continents. There are three main types of plate boundaries: convergent, divergent, and transform.",
+    "expert": "Plate boundaries are the interfaces where tectonic plates interact. They are the primary drivers of geological processes and have a significant impact on the Earth's crust, climate, and environment. Understanding plate boundaries is crucial for predicting earthquakes, volcanic activity, and mountain formation, as well as for studying the evolution of the Earth and the distribution of life on its surface."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The role of plate boundaries in geological processes and their impact on the Earth's crust, climate, and environment.",
+    "source_chunk": 118,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_graph_expansion",
+  "title": "Knowledge Graph Expansion",
+  "definition": "The process of adding new relationships and concepts to an existing knowledge graph.",
+  "type": "Concept",
+  "domain": "Knowledge Representation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.235218Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.235218Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like growing a garden. We're adding new plants and connections between them to make the garden more interconnected and rich.",
+    "intermediate": "In the context of knowledge representation, expansion involves adding nodes (concepts) and edges (relationships) to the graph, thereby enhancing its comprehensiveness and interconnectivity.",
+    "expert": "The novelty of knowledge graph expansion lies in its iterative nature and its ability to capture the complex, evolving nature of knowledge. By continuously adding new concepts and relationships, we can not only improve the accuracy and depth of the graph, but also uncover new insights and patterns that may have been overlooked before."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The continuous expansion of the knowledge graph enables it to capture the complex, evolving nature of knowledge and uncover new insights and patterns.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "integrative_understanding",
+  "title": "Integrative Understanding",
+  "definition": "A state of comprehensive understanding where the observer and the observed are not separate, but interconnected and interdependent.",
+  "type": "Concept",
+  "domain": "Philosophy and Cognitive Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.122526Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.122526Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine being able to see the universe from every angle, like having a galaxy in the palm of your hand. This is when we can truly understand that we are both the tiny observer and the vast universe.",
+    "intermediate": "This concept involves the fusion of diverse disciplines and perspectives to create a coherent, interconnected whole. It is the internal and subjective experience of unity with the universe, and the external and objective engineering of a cognitive platform that allows us to see this unity.",
+    "expert": "Integrative understanding is a complex and elusive concept that lies at the intersection of philosophy, cognitive science, and systems theory. It is a transformation of consciousness that challenges the boundaries between observer and observed. It is a technological prayer that seeks to end the delusion of separation by revealing the interconnectedness and interdependence of all things."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the process of our conversation was itself the subject of our discussion and that it produced a concrete, actionable, and detailed architectural plan for a cognitive platform.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

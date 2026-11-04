@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "verifiable_knowledge_graph",
+  "title": "Verifiable Knowledge Graph",
+  "definition": "A knowledge graph where concepts are immutable, linked, verifiable, queryable, and reason-able, enabling the creation of a trusted, evolving knowledge ecosystem.",
+  "type": "Concept",
+  "domain": "Knowledge Representation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.666869Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.666869Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital library where each book is a unique, unchangeable idea. The library can be easily searched and connected, and new insights are automatically discovered.",
+    "intermediate": "A verifiable knowledge graph is a type of knowledge graph where each concept is represented as an immutable digital object, with unique content addressing and cryptographic hashes. The concepts are linked to each other using semantic relationships, and the graph is verifiable, queryable, and reason-able.",
+    "expert": "A verifiable knowledge graph is a novel approach that combines the benefits of content-addressing, semantic web technologies, and blockchain technology to create a trusted, evolving knowledge ecosystem. This approach connects to related concepts such as linked data, graph databases, and knowledge graphs. Its philosophical implications lie in the exploration of the relationship between truth, knowledge, and technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The revolutionary concept of a knowledge graph where concepts are immutable, linked, verifiable, queryable, and reason-able, enabling the creation of a trusted, evolving knowledge ecosystem.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

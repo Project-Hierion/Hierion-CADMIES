@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dilution_into_noise",
+  "title": "Dilution Into Noise",
+  "definition": "The process by which meaningful information becomes indistinguishable from background noise through entropy, leading to loss of information.",
+  "type": "Concept",
+  "domain": "Information Theory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.448684Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.448684Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to hear a whisper in a crowded room. The more noise, the harder it is to understand the whisper. This is an example of dilution into noise.",
+    "intermediate": "In information theory, dilution into noise refers to the loss of information when meaningful signals are submerged in background noise. This concept is crucial in fields like signal processing and cognitive science, where understanding how information is lost is essential for effective communication and learning.",
+    "expert": "Dilution into noise explores the boundaries of what can be communicated and understood in the presence of noise. It has connections to fields like quantum mechanics and thermodynamics. Moreover, understanding this process can help in designing more efficient communication systems and understanding the limits of human cognition."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The loss of information due to dilution into noise is a fundamental limitation in communication and understanding, with profound implications for our understanding of the physical world and our cognitive abilities.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

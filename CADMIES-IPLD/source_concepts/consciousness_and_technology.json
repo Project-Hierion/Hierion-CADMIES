@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_and_technology",
+  "title": "Consciousness And Technology",
+  "definition": "The exploration of the relationship between consciousness and technology, including the implications of technological advancement for consciousness, the nature of consciousness, and the role of consciousness in shaping human existence.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.519211Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.519211Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Wonder about the question, \"Can technology enhance or replace human consciousness, and what does that mean for our sense of self and identity?\"",
+    "intermediate": "This concept examines the relationship between consciousness and technology, focusing on issues like AI consciousness, brain-computer interfaces, and the implications of technological augmentation for human consciousness and identity.",
+    "expert": "This concept delves into the philosophical foundations of consciousness, connecting it to broader discussions about the nature of reality, the nature of mind, and the role of consciousness in shaping human existence, while also exploring the potential for technology to challenge traditional notions of consciousness and identity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for a philosophical understanding of the relationship between consciousness and technology, recognizing its potential benefits and risks and the need for a critical reflection on its role in shaping human existence.",
+    "source_chunk": 32,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

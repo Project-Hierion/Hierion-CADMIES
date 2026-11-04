@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "synchronicity_in_engineering",
+  "title": "Synchronicity In Engineering",
+  "definition": "The concept that the ideal engineering designs should mimic the brain's wet and interconnected nature, rather than relying on dry and hard-wired technologies.",
+  "type": "Concept",
+  "domain": "Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.191952Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.191952Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of our electronics like a brain. The best machines should be wet and interconnected like the brain, not dry and hard-wired.",
+    "intermediate": "Synchronicity in engineering advocates for mimicking the brain's wet, interconnected nature. This contrasts with traditional engineering methods that rely on dry, hard-wired technologies. Brains are efficient due to their interconnected neurons, which can be modeled to create more advanced electronics.",
+    "expert": "Synchronicity in engineering suggests that the ideal engineering designs should emulate the brain's wet, interconnected, and adaptable nature. This contrasts with traditional engineering approaches that focus on efficiency through hard-wired, digital systems. By modeling engineering designs after the brain, we can create systems that are not only more efficient but also more adaptable, resilient, and capable of solving complex problems through emergent behavior."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The brain's wet and interconnected nature is a source of inspiration for engineering designs that prioritize efficiency, adaptability, and emergent behavior.",
+    "source_chunk": 150,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

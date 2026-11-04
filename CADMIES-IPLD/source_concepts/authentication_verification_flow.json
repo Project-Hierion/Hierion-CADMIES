@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "authentication_verification_flow",
+  "title": "Authentication Verification Flow",
+  "definition": "A process in which a user's identity is confirmed by going through a series of steps that involve device authorization and token polling.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.912481Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.912481Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a safety check when you're using a new app or device. It makes sure it's really you by asking you to confirm your identity on another device.",
+    "intermediate": "Authentication verification flow is a security concept used in applications for confirming a user's identity. It involves a device authorization step, where the app obtains a device code and verification URI. This is followed by a token polling step, where the app repeatedly sends requests to ORCID to check if the user has authorized the app, until it receives an access token.",
+    "expert": "The authentication verification flow in the context of ORCID device flow is a critical part of the OAuth 2.0 device authorization grant, a more secure and user-friendly alternative to other OAuth flows. It's a multi-step process that ensures a user's identity is verified before granting access to their ORCID profile. This flow is robust and secure, and its design is a notable contribution to the field of user authentication."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful implementation of the ORCID authentication verification flow demonstrates a robust and secure user authentication process.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

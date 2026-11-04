@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "democratization_of_resources",
+  "title": "Democratization Of Resources",
+  "definition": "The concept of reclaiming control and ownership over resources traditionally controlled by large corporations and entities, and distributing it among individuals or communities.",
+  "type": "Concept",
+  "domain": "Society and Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.741464Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.741464Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as the 'little guy' energy on the internet. It's about people banding together to create their own alternatives to the mainstream options that often seem unfair and extractive.",
+    "intermediate": "This concept encompasses the movement towards open-source software, mutual aid networks, and community-owned systems. It's about challenging traditional power structures and creating a more equitable and democratic society.",
+    "expert": "The democratization of resources is a broad societal and philosophical movement that has implications in various fields such as technology, economics, and political theory. It's not just about technology; it's about redefining ownership, community, and the role of government in a digital age."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The movement towards democratization of resources is driven by a shift in people's thinking, from 'how much does this cost?' to 'who owns this?'",
+    "source_chunk": 140,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

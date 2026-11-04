@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_preservation_system",
+  "title": "Knowledge Preservation System",
+  "definition": "A system that facilitates the creation, storage, and retrieval of permanent, verifiable, and interconnected concepts, resembling a knowledge garden.",
+  "type": "Concept",
+  "domain": "Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.708169Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.708169Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a magical garden where you can plant your ideas. Each idea grows into a tree that never forgets what it's learned. And you can link these trees together to help you understand how different ideas are connected.",
+    "intermediate": "A knowledge preservation system is a content-addressed digital mycorrhizal intelligence ecosystem. It uses IPLD/DAG-CBOR to store verifiable concepts with unique identifiers. This system allows for deterministic addressing, ensuring same content leads to same CID and understanding.",
+    "expert": "The knowledge preservation system represents a novel application of content-addressed systems in educational knowledge management. It connects to other fields such as cryptography and distributed systems, by leveraging deterministic addressing and DAG-CBOR for data integrity. It also explores ethical knowledge sharing through AGPLv3 with Commons Clause licensing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that a system can be designed to preserve and grow knowledge, just like a garden, while maintaining data integrity and ethical knowledge sharing.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

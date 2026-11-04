@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_system_architecture",
+  "title": "Knowledge System Architecture",
+  "definition": "The organization and structure of a knowledge system, including its hardware and software components, and the distribution of workload across these components.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.179609Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.179609Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a knowledge system as a big machine with parts that do different jobs. Some parts are in your garage (local), some are in the cloud, and some are in a data center (DO). The system uses a mix of people, computers, and models to learn and grow.",
+    "intermediate": "The knowledge system architecture consists of a local Fedora laptop, cloud GPUs for AI inference, a Digital Ocean droplet for hosting, and a hybrid distribution of workload across these components. It leverages LLMs for concept extraction and relationship generation, and other machine learning models for training and fine-tuning.",
+    "expert": "The knowledge system architecture is a blend of centralized and distributed computing, with a focus on scalability, fault tolerance, and resource efficiency. It utilizes a variety of AI models, including Mistral, Codestral, and TinyLlama, and leverages GPUs to accelerate LLM inference. The architecture also allows for dynamic scaling of resources, such as GPU rental for training runs, and a separation of concerns between the web server and the AI models to optimize costs and performance."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The knowledge system architecture is a blend of centralized and distributed computing, with a focus on scalability, fault tolerance, and resource efficiency. This allows for the dynamic scaling of resources and a separation of concerns between the web server and the AI models to optimize costs and performance.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

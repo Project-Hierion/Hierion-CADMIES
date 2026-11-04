@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "buddhist_insight_and_science",
+  "title": "Buddhist Insight And Science",
+  "definition": "The synthesis of Buddhist philosophical insights with modern scientific principles, particularly the principles of impermanence, not-self, and dependent origination, and their manifestation in physical systems.",
+  "type": "Concept",
+  "domain": "Philosophy & Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.696250Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.696250Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how looking at a wall or a pattern can make things blur and merge. This is like the universe, where everything is changing and merging, and there's no permanent self. Science and Buddhism are explaining the same thing in different ways.",
+    "intermediate": "Buddhist concepts like anicca (impermanence) and anatta (not-self) are reflected in modern scientific understandings of the universe as a verb and the interconnectedness of all phenomena. These insights are manifest in physical systems that follow the path of least action, a principle derived from dependent origination.",
+    "expert": "The synthesis of Buddhist philosophical insights with modern scientific principles challenges traditional dualities and highlights the interconnectedness and impermanence of all phenomena. This synergy shows that scientific laws of motion are not violations of Buddhist principles, but rather their physical manifestations. This insight has philosophical implications for understanding the nature of reality and consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Buddhist insights and scientific principles are not two separate worlds, but two ways of understanding the same underlying reality.",
+    "source_chunk": 117,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

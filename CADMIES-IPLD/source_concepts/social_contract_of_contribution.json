@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "social_contract_of_contribution",
+  "title": "Social Contract Of Contribution",
+  "definition": "The unspoken agreement between project maintainers and contributors in open source: contributions are public and will be attributed, and contributors expect their work to be recognized.",
+  "type": "Concept",
+  "domain": "Social Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.995537Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.995537Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Open source projects rely on a shared agreement. Contributors expect their work to be acknowledged, and maintainers will attribute it. It's a simple exchange of recognition for your help.",
+    "intermediate": "The social contract of contribution is a tacit understanding between project maintainers and contributors. It establishes a norm of attribution and recognition for contributions, which is crucial for fostering community and sustainability in open source projects.",
+    "expert": "The social contract of contribution is a complex and multifaceted phenomenon that shapes open source projects. It reflects the interplay between social norms, individual motivations, and collective goals. It also has philosophical implications, as it raises questions about ownership, authorship, and the nature of contribution. Additionally, the social contract of contribution has been studied in other contexts, such as collaborative work and peer production, and has been connected to broader discussions about the commons and the sharing economy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Open source projects thrive on the social contract of contribution, where contributors expect their work to be recognized and attributed.",
+    "source_chunk": 103,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

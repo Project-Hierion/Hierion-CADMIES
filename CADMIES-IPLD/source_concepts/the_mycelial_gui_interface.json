@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_mycelial_gui_interface",
+  "title": "The Mycelial Gui Interface",
+  "definition": "A specialized graphical user interface designed for the Mycelium Digital Intelligence system, enabling users to interact with Willie the Librarian, a language learning model, to explore and discuss the functionalities and concepts of the mycelium.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.876217Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.876217Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a chatbot that lives in a digital garden. You can talk to it about the mycelium, and it'll find the right information to help you. It's like having a smart librarian with a Scottish accent.",
+    "intermediate": "The Mycelial GUI Interface is a specialized chat-based graphical user interface that facilitates communication with Willie the Librarian, an LLM. It's tailored to the Mycelium Digital Intelligence system, enabling users to interactively explore and discuss the functions and concepts of the mycelium network.",
+    "expert": "The Mycelial GUI Interface is a novel instance of human-computer interaction that leverages the principles of mycelial networks. By integrating a Language Learning Model, it enables users to explore the functionalities and concepts of the mycelium through interactive dialogue. This interface represents a fusion of biological intelligence with digital technology, highlighting the potential for symbiotic relationships between humans and artificial intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Mycelial GUI Interface demonstrates a unique approach to human-computer interaction, drawing inspiration from the complex networks and communication patterns observed in mycelial fungi. This insight highlights the potential for future interactions between humans and artificial intelligence to be more intuitive, organic, and symbiotic.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

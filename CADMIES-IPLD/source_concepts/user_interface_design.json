@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_interface_design",
+  "title": "User Interface Design",
+  "definition": "The concept of designing user interfaces that provide a visually appealing and intuitive experience for users.",
+  "type": "Concept",
+  "domain": "Human-Computer Interaction",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.664514Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.664514Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a user interface like a house. A well-designed interface makes it easy to navigate, understand, and use, just like a well-designed house makes it easy to move around and find what you need.",
+    "intermediate": "User interface design involves creating layouts, choosing color schemes, and applying design principles to enhance usability and aesthetic appeal. It often connects to user experience design and requires knowledge of graphics design and human factors engineering.",
+    "expert": "User interface design is a multidisciplinary field that combines elements of design, psychology, and technology. It aims to create interfaces that are not only functional and easy to use but also delightful and engaging. User interface design has philosophical implications, as it explores the relationship between technology and human experience. It also connects to other fields, such as graphic design, animation, and software engineering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user interface design, such as changing the icon to a castle, enhances the user experience by creating a unique and visually appealing identity for the backup management system.",
+    "source_chunk": 98,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

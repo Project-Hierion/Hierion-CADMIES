@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_empowerment_through_alternative_systems",
+  "title": "Community Empowerment Through Alternative Systems",
+  "definition": "The concept of individuals gaining a sense of agency and ownership through the use of alternative systems, such as open-source software, mutual aid networks, and community-based initiatives.",
+  "type": "Concept",
+  "domain": "Sociology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.392649Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.392649Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When people start thinking about who owns things instead of just how much they cost, they're looking for alternatives. These choices add up and make alternatives more viable for others. It's about taking control and building things because existing options are closed or hostile.",
+    "intermediate": "The shift from mainstream, extractive systems to alternative, community-based ones is driven by a desire for ownership and agency. This movement is fueled by individual choices and the social network effect, which increases the viability of alternatives. It's not about purity, but about reducing surface area of surveillance and reconnecting people with a sense of control.",
+    "expert": "The concept of community empowerment through alternative systems is a sociological exploration of individual agency and ownership in the digital age. It's a response to the extractive nature of mainstream systems and a philosophical challenge to the dominant capitalist model. This movement highlights the complex interplay between technology, society, and individual psychology, with implications for privacy, digital rights, and social cohesion."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The resurgence of community-based alternatives demonstrates a desire for ownership and agency in the digital age, challenging the extractive nature of mainstream systems and highlighting the complex interplay between technology, society, and individual psychology.",
+    "source_chunk": 151,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "curated_dataset_management",
+  "title": "Curated Dataset Management",
+  "definition": "The practice of organizing, maintaining, and presenting datasets in a structured and user-friendly manner to facilitate their discovery and usage.",
+  "type": "Concept",
+  "domain": "Data Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.467957Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.467957Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library. A curated library keeps all its books organized in a way that lets you easily find what you need. This is like managing a dataset \u2014 making it easy to browse and use.",
+    "intermediate": "Curated dataset management involves creating a well-organized repository that includes information about each dataset, such as its size, language, usage, and a description. This makes it easier for researchers and practitioners to find and select the most relevant datasets for their needs.",
+    "expert": "Curated dataset management is a crucial aspect of training large language models. It not only improves the efficiency of dataset discovery but also ensures the quality and relevance of the data. This practice also contributes to the democratization of machine learning, making it accessible to small organizations and individuals. Furthermore, curated dataset management can have philosophical implications, such as shaping the way we understand and interact with data."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of organizing and presenting datasets in a structured and user-friendly manner to facilitate their discovery and usage.",
+    "source_chunk": 90,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

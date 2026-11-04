@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "seasonal_cycles_in_astronomy",
+  "title": "Seasonal Cycles In Astronomy",
+  "definition": "A misconception in astronomy about the relationship between Earth's distance from the sun and the seasons.",
+  "type": "Concept",
+  "domain": "Astronomy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.405376Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.405376Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine Earth's tilt causing a different angle of sunlight at different times of the year, not its distance from the sun.",
+    "intermediate": "Seasons are primarily influenced by Earth's axial tilt, which affects the angle of sunlight, not its distance from the sun.",
+    "expert": "The misconception arises from a misunderstanding of the relationship between solar insolation and seasonal climate response. Philosophically, it highlights the distinction between causation and correlation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The misunderstanding of the relationship between Earth's distance from the sun and the seasons highlights the distinction between causation and correlation.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

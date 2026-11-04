@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "media_capitalism_cycle",
+  "title": "Media Capitalism Cycle",
+  "definition": "The recurring cycle of media distribution and consumption, from physical scarcity to digital gold rush to streaming rent-seeking trap and back to physical.",
+  "type": "Concept",
+  "domain": "Sociology and Economics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.399862Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.399862Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a game where the rules keep changing. Sometimes, we use physical items, like books or CDs. Sometimes, we use digital ones. Companies make money by selling us these items. But we often find ways to copy them, and that causes problems. So, the rules change again, and the cycle repeats.",
+    "intermediate": "Media capitalism cycle is a recurring pattern in the distribution and consumption of media. It begins with physical scarcity, where companies control manufacturing and distribution, and charging for the object. With the advent of digital technology, the cycle shifts to digital gold rush, where companies sell digital copies of the same content. This leads to a streaming rent-seeking trap, where companies charge a monthly subscription for access to content. The cycle eventually returns to physical due to the inability to control digital copying, which leads to a new golden age of physical counterfeiting.",
+    "expert": "The media capitalism cycle is a sociological and economic phenomenon that traces back to the Industrial Revolution. It highlights the ongoing struggle between creators, distributors, and consumers. The cycle's continuity challenges the traditional notion of intellectual property and copyright. It also raises philosophical questions about the value of creativity, the role of technology in society, and the balance between individual freedom and collective good."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The media capitalism cycle is a recurring pattern that demonstrates the ongoing struggle between creators, distributors, and consumers. Despite the apparent progression of technology, the cycle keeps returning to physical distribution due to the inability to control digital copying, leading to a new golden age of physical counterfeiting.",
+    "source_chunk": 154,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

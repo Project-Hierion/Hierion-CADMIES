@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_concept_unification",
+  "title": "Scientific Concept Unification",
+  "definition": "The process of identifying and consolidating related scientific concepts into broader, unified theories or models.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.544461Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.544461Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're cooking a meal. You have different ingredients like apples, carrots, and potatoes. But you notice that they all are vegetables. Instead of having three separate ingredients, you unify them under the broader concept of vegetables. Scientific concept unification is a bit like that \u2014 it's the process of recognizing common patterns in different scientific ideas and grouping them together.",
+    "intermediate": "Scientific concept unification involves identifying similarities between different scientific theories or observations and forming a more encompassing concept that incorporates these elements. This process promotes understanding by simplifying complex knowledge and facilitating connections between seemingly unrelated ideas.",
+    "expert": "Scientific concept unification is a philosophical endeavor that explores the nature of knowledge and understanding in the sciences. By identifying underlying structures or patterns in different scientific disciplines, researchers can formulate more comprehensive and integrated theories. This process can lead to novel insights, challenge existing paradigms, and facilitate interdisciplinary collaboration. Additionally, concept unification can have implications for the philosophy of language and ontology, as it investigates the relationship between language, thought, and reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The AI's successful extraction of scientific concepts from a conversation and the consolidation of related topics into broader concepts demonstrates the effectiveness of a carefully crafted extraction prompt.",
+    "source_chunk": 120,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

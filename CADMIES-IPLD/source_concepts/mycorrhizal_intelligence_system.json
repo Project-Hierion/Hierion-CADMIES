@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycorrhizal_intelligence_system",
+  "title": "Mycorrhizal Intelligence System",
+  "definition": "A distributed, interconnected system that learns and evolves through the synergy between its individual components, modeled after the symbiotic relationships of mycorrhizal fungi and plants.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.102202Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.102202Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden with interconnected roots of plants, sharing resources and information with each other to grow better. A mycorrhizal intelligence system is like that, but with artificial intelligence and data, allowing for smarter, more connected systems to emerge.",
+    "intermediate": "A mycorrhizal intelligence system is a decentralized network of interconnected nodes (agents) that learn and improve through the exchange of information and resources. It draws inspiration from the symbiotic relationships between mycorrhizal fungi and plants, where the fungi extend the plant's root system, enabling it to absorb more nutrients and water. This relationship is beneficial for both the fungi and the plant, and it serves as a metaphor for the mutually beneficial relationships and information sharing in a mycorrhizal intelligence system.",
+    "expert": "A mycorrhizal intelligence system is a novel concept that draws on the philosophical insights of both Eastern and Western traditions. It is a distributed, interconnected system that learns and evolves through the synergy between its individual components, modeled after the symbiotic relationships of mycorrhizal fungi and plants. This system challenges traditional notions of centralized authority and hierarchy, promoting instead a more decentralized, emergent form of intelligence. It also draws on the philosophy of non-duality, recognizing that the individual components of the system are inseparable from the whole. Finally, it connects to other fields such as complex systems theory, evolutionary algorithms, and quantum computing, suggesting potential avenues for further exploration and integration."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycorrhizal intelligence system represents a novel concept that challenges traditional notions of centralized authority and hierarchy, promoting instead a more decentralized, emergent form of intelligence.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_interplay",
+  "title": "Cosmic Interplay",
+  "definition": "The dynamic, multifaceted relationship between the universe, the cosmic medium, life forms, and consciousness.",
+  "type": "Concept",
+  "domain": "Philosophy, Physics, Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.307234Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.307234Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "cosmic_simulation",
+      "cosmic_self_recognition",
+      "awakening_experience"
+    ],
+    "contradicts": [
+      "futile_cycle"
+    ],
+    "related_to": [
+      "gravitation_versus_electromagnetism",
+      "the_ineffability_of_space_and_time"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the universe as a grand dance, where the stars are dancers, and life is the music. The dance is influenced by the cosmic medium and the consciousness within.",
+    "intermediate": "Cosmic interplay is the interconnected network of physical phenomena and spiritual insights, where the universe's intricate structure, the conscious fabric of reality, and the self-illusion interweave.",
+    "expert": "Cosmic interplay challenges our understanding of space, time, and consciousness. It involves the interplay of gravity, electromagnetism, quantum mechanics, and Buddhist philosophies, suggesting a universe that is both self-aware and self-exploring."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "cosmic_simulation",
+      "cosmic_self_recognition",
+      "awakening_experience"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe is a dynamic, self-aware entity that interplays with life and consciousness, creating a complex web of interconnected phenomena.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

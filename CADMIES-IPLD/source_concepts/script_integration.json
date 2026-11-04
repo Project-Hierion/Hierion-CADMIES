@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "script_integration",
+  "title": "Script Integration",
+  "definition": "The process of merging features and functionality from two different versions or branches of a script, ensuring compatibility and coherence between them.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.857693Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.857693Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're assembling a puzzle. Script integration is like taking pieces from two puzzles and fitting them together to make a bigger, complete picture. It's about combining different parts of a project to work well together.",
+    "intermediate": "In software development, script integration involves merging code from two different sources. This could be due to the introduction of new features or to fix bugs. It's about ensuring that the added code works correctly with the existing codebase and doesn't introduce new problems.",
+    "expert": "From a philosophical perspective, script integration can be seen as a metaphor for synthesis, a unification of disparate elements into a coherent whole. This process requires careful consideration of design principles, understanding the underlying concepts, and managing potential conflicts or trade-offs. Successful integration can lead to innovative solutions and create new possibilities, while unsuccessful integration can result in technical debt and systemic problems."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Successful script integration requires understanding the underlying concepts, careful design, and effective conflict management. It can lead to innovative solutions and create new possibilities.",
+    "source_chunk": 85,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

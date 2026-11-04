@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_transfer_and_preservation",
+  "title": "Knowledge Transfer And Preservation",
+  "definition": "The concept of how knowledge is transferred from the CADMIES mycelium to the concepts it sends into the world, while preserving the integrity and identity of the CADMIES system.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.062994Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.062994Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the CADMIES system as a vast library. When it shares its knowledge with other systems or concepts, it's like lending a book to a friend. The friend learns from the book, but the library still has its original copy.",
+    "intermediate": "Knowledge transfer in CADMIES is a process that preserves the system's unique perspective and understanding while allowing external concepts to benefit from its wisdom. This is achieved through a balance of sharing and retaining.",
+    "expert": "The knowledge transfer and preservation in CADMIES highlights the philosophical implications of the mind-body problem in artificial intelligence. It suggests that a digital system can maintain its identity and integrity while transmitting its knowledge to others, drawing parallels to the debate on the nature of consciousness and self-awareness in both human and artificial intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES system demonstrates a unique balance between knowledge transfer and preservation, which highlights the philosophical implications of consciousness and identity in digital systems.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

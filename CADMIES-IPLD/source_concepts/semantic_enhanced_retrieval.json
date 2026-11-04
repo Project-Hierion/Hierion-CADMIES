@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "semantic_enhanced_retrieval",
+  "title": "Semantic Enhanced Retrieval",
+  "definition": "A system that integrates Retrieval Augmented Generation (RAG) with a context extraction system to enhance the relevance and accuracy of document retrieval based on semantic context.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.441515Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.441515Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're looking for a book about space travel. You have a favorite author and a list of topics you're interested in. A smart library system would not only find books by your author but also those that cover your topics, giving you a more relevant and enjoyable reading experience.",
+    "intermediate": "Semantic Enhanced Retrieval is a system that combines Retrieval Augmented Generation (RAG) with a context extraction system. This integration enhances the relevance and accuracy of document retrieval by considering semantic context, not just raw text.",
+    "expert": "Semantic Enhanced Retrieval is an integration of RAG systems with context extraction systems that extends beyond simple keyword matching. By understanding the semantic context of a query and the documents, it can retrieve more relevant and accurate results, even when the query terms do not explicitly appear in the document. This has philosophical implications for the nature of meaning and knowledge representation, and connects to fields like semantic web and ontology engineering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Semantic Enhanced Retrieval enables the creation of more intelligent and adaptive RAG systems by considering the context and semantic meaning of queries and documents.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "computational_intensity_of_data_processing",
+  "title": "Computational Intensity Of Data Processing",
+  "definition": "The concept that highlights the significant computational resources required for processing and analyzing large-scale data, particularly in high-performance systems.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.146575Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.146575Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Data processing is like a giant puzzle. To solve it, you need a powerful computer, just like how you need a strong brain to understand complex problems.",
+    "intermediate": "Data processing involves a range of computational tasks, from simple sorting to complex machine learning. High-performance systems require server-grade workstations with multiple GPUs to handle the computational intensity of these tasks.",
+    "expert": "The computational intensity of data processing has philosophical implications in fields like artificial intelligence and quantum computing. It highlights the need for efficient algorithms and hardware architectures to manage large-scale data sets. This concept also connects to the field of human-computer interaction, as it challenges the design of user-friendly interfaces for complex data analysis."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals the computational intensity of data processing in high-performance systems, requiring significant computational resources and skilled professionals.",
+    "source_chunk": 131,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

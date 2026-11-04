@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_release_pipeline",
+  "title": "Knowledge Release Pipeline",
+  "definition": "The process of creating, publishing, and distributing knowledge resources in a consistent and automated manner.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.023632Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.023632Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're baking a cake. Before you serve it, you need to mix the ingredients, bake the cake, and package it. Knowledge release pipeline is similar, it's the process of creating, organizing, and sharing information in a systematic way.",
+    "intermediate": "A knowledge release pipeline involves creating a series of automated processes that ensure knowledge resources are properly versioned, tested, and released. This includes concepts, data, code, and documentation.",
+    "expert": "A robust knowledge release pipeline combines elements of DevOps, Continuous Integration/Continuous Deployment (CI/CD), and InterPlanetary Linked Data (IPLD) to create a seamless flow of knowledge creation, validation, and distribution. It also connects to broader fields like machine learning and artificial intelligence to enable knowledge synthesis and reasoning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CAR release pipeline is the missing piece that allows for the systematic creation, publishing, and distribution of knowledge resources in the CADMIES system.",
+    "source_chunk": 113,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

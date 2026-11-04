@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "legal_paradox",
+  "title": "Legal Paradox",
+  "definition": "A situation where laws or legal systems are shown to have contradictory, illogical, or absurd implications.",
+  "type": "Concept",
+  "domain": "Law and Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.418438Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.418438Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about a situation where the rules make no sense. For example, the law saying sharing a digital file is the same as selling bootleg copies, but physically passing a book around isn't.",
+    "intermediate": "A legal paradox occurs when the application of a law or legal principle leads to a result that is inconsistent or illogical. This occurs in the digital realm with concepts like 'copying' and 'moving' files, but also in the physical world with the supply chain of goods.",
+    "expert": "A legal paradox is a powerful tool in legal and philosophical analysis. It exposes the limitations and inconsistencies of legal systems. In the digital realm, it highlights the need to distinguish between transient data and persistent storage, and to recognize the difference between commercial and personal use. The paradox also has implications for the philosophy of law, as it challenges the distinction between law and ethics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The absurd consequence of applying digital laws to the physical supply chain of goods highlights the need for a reevaluation of these laws.",
+    "source_chunk": 161,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

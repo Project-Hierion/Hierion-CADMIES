@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_mission",
+  "title": "Documentation Mission",
+  "definition": "The purpose or goal of the documentation system, which is to preserve wisdom, enable excellence, and ensure continuity.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.480537Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.480537Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Documentation has three main jobs: to help people remember important information, to help people do their best work, and to make sure everyone is on the same page, no matter what happens.",
+    "intermediate": "The documentation mission includes preserving institutional knowledge, enabling users and developers to excel, and ensuring that system understanding is maintained across time and team changes.",
+    "expert": "The documentation mission reflects the integration of the ancient Hieros principle of sacred knowledge architecture with modern documentation practices. It highlights the need for documentation to not only serve a technical function but also to embody a philosophical commitment to preserving and sharing knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The documentation mission emphasizes the importance of documentation as a means of preserving wisdom, enabling excellence, and ensuring continuity in the face of change.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

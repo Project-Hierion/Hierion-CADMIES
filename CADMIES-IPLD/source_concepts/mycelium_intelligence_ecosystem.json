@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelium_intelligence_ecosystem",
+  "title": "Mycelium Intelligence Ecosystem",
+  "definition": "A knowledge system that emulates the behavior of a mycelium network, promoting understanding, collaboration, and shared knowledge growth.",
+  "type": "Concept",
+  "domain": "Computing and Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.342313Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.342313Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden of ideas that grows and interconnects, just like a mycelium network in nature. It helps people learn and collaborate, much like a living library that's always growing and evolving.",
+    "intermediate": "The mycelium intelligence ecosystem is a decentralized knowledge system that uses a mycelium network metaphor to create a collaborative learning environment. It utilizes InterPlanetary Linked Data (IPLD) and Content-Addressed Data and Messaging in IPFS (CADMIES) structure for storing and retrieving concepts.",
+    "expert": "The mycelium intelligence ecosystem is a novel approach to knowledge systems that leverages the complex interconnectedness of mycelium networks to create a dynamic, collaborative, and resilient learning environment. It draws from multiple fields such as computer science, networking, and biology. By using the IPLD and CADMIES structure, it ensures data integrity, version control, and provenance, while its mycelium network metaphor promotes understanding, collaboration, and shared knowledge growth."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium intelligence ecosystem is a novel approach to knowledge systems that emulates the behavior of a mycelium network, promoting understanding, collaboration, and shared knowledge growth.",
+    "source_chunk": 122,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

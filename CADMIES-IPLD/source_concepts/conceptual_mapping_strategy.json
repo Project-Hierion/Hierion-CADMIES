@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_mapping_strategy",
+  "title": "Conceptual Mapping Strategy",
+  "definition": "A methodology used to understand and visualize relationships between concepts in a knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.421986Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.421986Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a map that shows how different ideas are connected. This map helps us understand the bigger picture of all these ideas.",
+    "intermediate": "Conceptual mapping strategy involves creating a graph-based representation of concepts, where edges indicate relationships. In the context of CADMIES, this strategy helps understand how concepts are derived from other concepts and where discrepancies occur.",
+    "expert": "Conceptual mapping strategy is a fundamental tool in knowledge representation and reasoning. It allows for the exploration of complex systems by breaking them down into interconnected components. In the CADMIES system, this strategy reveals how concepts are interrelated across different domains, highlighting patterns and connections. Moreover, it provides a philosophical insight into the nature of knowledge and how it is constructed through interdisciplinary relationships."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The map generator's edge data source differs from the blockstore's concept structure, highlighting the importance of understanding the underlying data structure for accurate knowledge mapping.",
+    "source_chunk": 71,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

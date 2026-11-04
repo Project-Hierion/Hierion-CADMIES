@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scale_bridging_unification",
+  "title": "Scale Bridging Unification",
+  "definition": "The idea that the laws of physics operate on multiple scales in a unified manner, facilitating interactions between them.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.918175Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.918175Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a ladder where each step is a different level of reality, from atoms to galaxies. Scientists think that the same physical rules apply on every step, so you can climb up or down the ladder by understanding how things work at that level.",
+    "intermediate": "Scale-bridging unification is the hypothesis that physical laws governing one scale have a mathematical connection to laws governing another scale, enabling a unified understanding of the universe from quantum mechanics to cosmology.",
+    "expert": "Scale-bridging unification is a philosophical and scientific framework that posits the universe as an interconnected hierarchy of systems, with each level exhibiting emergent phenomena. It seeks to understand the interplay between scales through the lens of statistical mechanics, quantum field theory, and non-equilibrium thermodynamics, with potential connections to information theory, neural networks, and biological systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the intriguing possibility of unifying various scales of reality through a common framework that captures the underlying dynamics and emergent phenomena at each level.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

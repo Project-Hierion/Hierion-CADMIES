@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "robust_data_extraction",
+  "title": "Robust Data Extraction",
+  "definition": "A method to reliably extract data from unstructured text files, even when the data is not properly formatted.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.658473Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.658473Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to read a book with messy formatting. Robust data extraction is like having a skilled librarian who can find and organize the information you need, even if it's not perfectly organized in the first place.",
+    "intermediate": "Robust data extraction is a technique used in computer science to parse and extract data from unstructured or semi-structured text files. It involves handling errors and exceptions that might occur due to the data's inconsistency or incomplete structure.",
+    "expert": "Robust data extraction is a fascinating area of computer science that combines natural language processing, error handling, and data structure theory. It's a non-trivial problem, particularly in the realm of bioinformatics and digital humanities, where data is often messy and unstructured. The solution involves developing algorithms that can understand and interpret the context of the data, even when it's ambiguous or incomplete."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": 99,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

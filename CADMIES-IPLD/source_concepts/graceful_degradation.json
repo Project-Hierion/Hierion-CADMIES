@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "graceful_degradation",
+  "title": "Graceful Degradation",
+  "definition": "The ability of a system to maintain its functionality and performance under conditions of degraded resources or increasing load.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.643486Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.643486Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a smartphone app. When you're on a slow network, it might take a bit longer to load, but it still works. That's graceful degradation.",
+    "intermediate": "Graceful degradation in the context of this conversation harvester means that if the Large Language Model (LLM) is unavailable, the system should still be able to validate and mint concepts, thus maintaining its functionality.",
+    "expert": "In the realm of software engineering, graceful degradation is a design principle that enhances usability and reliability. In this conversation harvester, implementing graceful degradation allows the system to continue its operations even when the LLM is not available. This not only improves the overall user experience but also demonstrates the resilience and robustness of the system. Further exploration might include investigating the implications of graceful degradation in other areas of software engineering, such as networking and distributed systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to maintain functionality and performance under conditions of degraded resources, in this case, the unavailability of the Large Language Model (LLM), is a key aspect of a robust and reliable system.",
+    "source_chunk": 94,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

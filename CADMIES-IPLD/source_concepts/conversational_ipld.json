@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conversational_ipld",
+  "title": "Conversational Ipld",
+  "definition": "A method for structuring and managing conversations as linked data using the InterPlanetary Linked Data (IPLD) format and Content-Addressable Data and Metadata in Encoded Structures (CADMIES) architecture.",
+  "type": "Concept",
+  "domain": "Computer_Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.682174Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.682174Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like having a digital filing cabinet for conversations. Instead of one big file for each talk, we split it into small sections like dates, topics, and insights. Then, we can easily find the right information without having to read the whole thing.",
+    "intermediate": "Conversational IPLD is a data structure that allows for conversations to be stored as a network of interconnected blocks, with each block containing a specific piece of information. This structure makes it easy to retrieve relevant information without having to process the entire conversation, improving efficiency and accuracy.",
+    "expert": "Conversational IPLD is a novel application of the InterPlanetary Linked Data (IPLD) format, which is a data structure that allows for the creation of a network of interconnected data blocks. This structure enables conversations to be stored in a decentralized and verifiable manner, with each block containing a specific piece of information. By linking these blocks together, a conversation can be navigated and searched in a flexible and efficient way, allowing for specific information to be retrieved without having to process the entire conversation. This has philosophical implications for the nature of knowledge and communication, as it allows for the creation of a dynamic and evolving knowledge graph that can be navigated and updated in real-time."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight that conversational IPLD provides is the ability to structure and manage conversations as linked data, enabling specific information to be retrieved efficiently and accurately, and providing a philosophical foundation for the dynamic and evolving nature of knowledge and communication.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_pipeline",
+  "title": "Concept Pipeline",
+  "definition": "A comprehensive system for extracting, verifying, and minting concepts into a blockstore.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.610124Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.610124Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a machine that takes in data, finds concepts, checks if they're true, and then saves them in a digital lockbox. That's what a concept pipeline does.",
+    "intermediate": "A concept pipeline is a series of tools that automates the process of extracting concepts from text, verifying their accuracy, and minting them into a blockstore. It uses natural language processing (NLP) to identify concepts and machine learning to verify their accuracy.",
+    "expert": "A concept pipeline is a sophisticated AI-driven system that applies the principles of digital mycorrhizal networks to the process of knowledge acquisition and dissemination. It's a pipeline that integrates multiple technologies, including NLP, machine learning, and blockchain, to extract, verify, and mint concepts into a distributed ledger. This pipeline plays a crucial role in promoting knowledge sharing, diminishing ignorance, and contributing to the ethical use of AI in society."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept pipeline revolutionizes the way we acquire and share knowledge by automating the process and ensuring the accuracy and ethical use of the information.",
+    "source_chunk": 85,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

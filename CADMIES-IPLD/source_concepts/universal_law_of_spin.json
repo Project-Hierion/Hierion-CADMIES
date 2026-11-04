@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_law_of_spin",
+  "title": "Universal Law Of Spin",
+  "definition": "A fundamental physical principle stating that a spinning object, under the influence of gravity, tends to flatten into a disk-like structure.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.314723Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.314723Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a cloud of dust spinning. As it collapses under gravity, it forms a sort of irregular vinyl record. This happens at all scales, from tiny planets to huge galaxies.",
+    "intermediate": "A spinning object, influenced by gravity, tends to flatten into a disk-like structure due to centrifugal force and conservation of angular momentum. This law applies universally, from planets to galaxies.",
+    "expert": "The universal law of spin is a manifestation of the interplay between angular momentum and gravitational potential in rotating, self-gravitating systems. It has been observed in various astrophysical contexts, such as galaxy formation and black hole accretion disks. This law highlights the profound connection between geometry and dynamics in cosmological systems and emphasizes the role of symmetries in shaping the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user has successfully connected the shape of our solar system with the shape of the galaxy, revealing a universal law of spin that applies to all scales.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

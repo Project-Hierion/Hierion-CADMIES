@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "car_file_management",
+  "title": "Car File Management",
+  "definition": "The process of exporting, importing, and verifying concepts using CAR files in the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.044312Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.044312Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're moving furniture between rooms in a house. Exporting is packing, importing is unpacking, and verification is making sure everything is in its right place and undamaged.",
+    "intermediate": "CAR file management in the CADMIES system allows for the transfer and integration of concepts. Exporting bundles concepts into a portable file format, importing integrates these concepts into the system, and verification ensures their accuracy and authenticity.",
+    "expert": "The CAR file management process is a sophisticated application of IPLD (InterPlanetary Linked Data) and Merkle DAG (Directed Acyclic Graph) principles. It supports the secure, decentralized exchange of knowledge, enabling the construction of a robust, verifiable mycelium of interconnected concepts. Furthermore, it establishes a framework for continuous learning and improvement, as the system can evolve over time through the addition and verification of new concepts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The systematic and structured process of exporting, importing, and verifying concepts using CAR files in the CADMIES knowledge system enables the efficient and accurate transfer of knowledge, ensuring the integrity and validity of the mycelium of interconnected concepts.",
+    "source_chunk": 122,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

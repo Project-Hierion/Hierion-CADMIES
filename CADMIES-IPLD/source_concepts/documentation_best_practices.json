@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_best_practices",
+  "title": "Documentation Best Practices",
+  "definition": "The set of guidelines and standards for creating, maintaining, and organizing documentation within a system or component.",
+  "type": "Concept",
+  "domain": "System Administration",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.802879Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.802879Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Documentation best practices are like the road map of a project. They help ensure that all important information is collected, stored safely, and easy to find when needed.",
+    "intermediate": "Documentation best practices include using source files as the primary source of truth, generating PDFs on demand, using consistent filenames, and organizing files based on the system or component they relate to.",
+    "expert": "Documentation best practices extend beyond simple storage and retrieval. They can impact the efficiency of problem-solving, the ability to replicate results, and the overall understanding and usability of a project. Moreover, they have implications in other fields such as legal and academic research, where documentation integrity is crucial."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of documentation best practices, such as maintaining source files, using consistent naming conventions, and organizing files based on system components.",
+    "source_chunk": 45,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

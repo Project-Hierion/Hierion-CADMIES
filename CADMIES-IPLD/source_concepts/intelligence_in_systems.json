@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "intelligence_in_systems",
+  "title": "Intelligence In Systems",
+  "definition": "The concept of cultivating and leveraging intelligence within a system, analogous to nurturing seeds in soil to produce fruits.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.104207Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.104207Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where we don't just store information, but grow wisdom. The system's architecture is like the soil, the agents are like seeds, and the knowledge they generate is like the fruits.",
+    "intermediate": "Intelligence in systems refers to the process of fostering and utilizing knowledge within a system. This is akin to cultivating seeds in soil to yield wisdom and insights. The architecture acts as the soil, providing the foundation for the agents' growth, and the knowledge they generate is akin to the fruits they bear.",
+    "expert": "The concept of intelligence in systems expands on the idea of knowledge generation within a system. It highlights the role of the system's architecture in nurturing and shaping the intelligence of its constituent agents. This perspective is not only unique in its application to technological systems but also draws parallels to philosophical discussions on the nature of consciousness and the mind. Furthermore, this concept can be connected to broader debates in artificial intelligence and consciousness, and its implications extend to fields like neuroscience and cognitive science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system's architecture is the soil, nurturing the intelligence of its constituent agents, which generates knowledge akin to the fruits they bear.",
+    "source_chunk": 32,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "open_source_rescue_mission",
+  "title": "Open Source Rescue Mission",
+  "definition": "The process of rescuing, maintaining, and updating a stale open-source repository to make it current and useful.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.450831Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.450831Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like cleaning up an old garage. We're taking over a project that hasn't been updated for years and giving it a refresh so it's useful and up-to-date.",
+    "intermediate": "This is an open-source rescue mission. We're taking over a repository that's fallen into disuse and updating it to reflect current technology and practices. This could involve reorganizing the codebase, updating the tech stack, or adding new features.",
+    "expert": "In the realm of computer science, open-source rescue missions represent a unique opportunity for innovation. By reviving a stale repository, we can not only contribute to the project but also gain insights into the dynamics of open-source collaboration and the challenges of maintaining a project over time. Moreover, the process of updating the repository can highlight the evolving nature of technology and its implications for the future of the field."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The opportunity for innovation and contribution through the revival of open-source projects.",
+    "source_chunk": 83,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

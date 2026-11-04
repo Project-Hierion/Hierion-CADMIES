@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_lifecycle",
+  "title": "Documentation Lifecycle",
+  "definition": "The process of creating, editing, managing, and version-controlling technical documentation, from initial text entry to professional PDF output.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.261072Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.261072Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're writing a report for school. From drafting it to making it look professional, you're going through different stages. Documentation lifecycle is like that, but for technical documentation.",
+    "intermediate": "Documentation lifecycle encompasses the steps from initial text entry to generating a professional PDF output. This includes selecting the appropriate document type, applying metadata, quality checking, generating the PDF, and version control.",
+    "expert": "The documentation lifecycle is a systematic process that ensures the creation of high-quality technical documentation. It involves various stages such as text entry, metadata application, quality assurance, PDF generation, and version control. The documentation lifecycle can be enhanced by integrating tools like CADMIES (Cosmium Angelo Digital Mycorrhizal Intelligence EcoSystem) audit framework methodologies, which provide a battle-tested workflow."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The documentation lifecycle is a systematic process that ensures the creation of high-quality technical documentation, enhancing the overall rigor and efficiency of the documentation process.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

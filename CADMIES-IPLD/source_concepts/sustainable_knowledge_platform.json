@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sustainable_knowledge_platform",
+  "title": "Sustainable Knowledge Platform",
+  "definition": "A knowledge platform that is globally accessible, resilient, privacy-focused, and censorship-resistant.",
+  "type": "Concept",
+  "domain": "Computer Science, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.958691Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.958691Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital library that can be accessed by anyone, no matter where they are or what their network allows. It keeps their personal queries private and ensures the information remains available even if someone tries to block it. It's like having a library with many copies worldwide, and each copy is hidden to protect its users.",
+    "intermediate": "A sustainable knowledge platform is a globally accessible, distributed knowledge graph that leverages the TOR network for enhanced privacy and resilience. It operates on IPFS for decentralized data storage and utilizes open-source LLMs for efficient querying. The platform is sustained through a lean, efficient team structure that balances technical expertise and operational needs.",
+    "expert": "The sustainable knowledge platform is a novel exploration of the intersections between computer science, philosophy, and political theory. It challenges traditional models of knowledge sharing and access by leveraging distributed systems, cryptographic privacy tools, and decentralized data storage. This platform has significant implications for knowledge dissemination, intellectual property, and freedom of information. It also highlights the potential for blockchain technology to create more equitable and resilient systems outside of financial applications."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The project proposes a sustainable knowledge platform that leverages the TOR network for enhanced privacy and resilience, addressing the need for a globally accessible, censorship-resistant knowledge graph.",
+    "source_chunk": 44,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

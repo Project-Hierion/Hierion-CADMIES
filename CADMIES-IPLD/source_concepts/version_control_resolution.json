@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "version_control_resolution",
+  "title": "Version Control Resolution",
+  "definition": "The process of resolving conflicts that arise during the merge of changes made to a file in different branches of a version control system.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.048678Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.048678Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're editing a document with a friend, and you both make changes to the same part. Version control helps you merge your changes without losing anyone's work.",
+    "intermediate": "Version control resolution involves understanding and resolving merge conflicts, typically by choosing one version of the change over the other. It's a key skill for collaborative software development.",
+    "expert": "Version control resolution is not only about maintaining consistency but also about understanding the implications of different changes. It connects to the broader field of conflict resolution and negotiation, and can highlight the philosophical question of what constitutes a 'correct' version of a document."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of version control resolution in maintaining consistency and understanding the implications of different changes.",
+    "source_chunk": 88,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "pc_compatibility_limitations",
+  "title": "Pc Compatibility Limitations",
+  "definition": "An understanding of the limitations imposed by a computer's physical structure and power supply on the installation and performance of graphics processing units.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.564860Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.564860Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to fit a big, heavy part in a small, tight space. It just won't work. Similarly, a computer's size and power supply can prevent certain graphics cards from functioning properly.",
+    "intermediate": "PC compatibility limitations arise from the physical dimensions of the chassis and the capabilities of the power supply unit. This can limit the installation of full-size graphics processing units and hinder their full performance.",
+    "expert": "The compatibility between a computer and a graphics card is a multidisciplinary issue that involves both physical constraints and power supply capabilities. It challenges the design of both hardware and software systems, and it has significant implications for performance optimization and user experience. This insight highlights the importance of considering the entire system when designing or upgrading hardware components."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The compatibility between a computer and a graphics card can be limited by the physical dimensions of the chassis and the capabilities of the power supply unit.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

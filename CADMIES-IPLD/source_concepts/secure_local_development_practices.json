@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "secure_local_development_practices",
+  "title": "Secure Local Development Practices",
+  "definition": "The practices and guidelines that ensure secure and private development processes, especially when dealing with sensitive information.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.904710Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.904710Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your local development space as your secret club. To keep it safe, you don't let your friends (GitHub) know about your secret credentials. A bouncer (.gitignore) ensures that these secrets stay within the club.",
+    "intermediate": "Secure local development practices involve avoiding the accidental commit of sensitive information, such as secrets or credentials. This is achieved through the use of a .gitignore file to exclude these files from being tracked by Git.",
+    "expert": "Secure local development practices are crucial in maintaining data privacy and security, especially in software development. This concept connects to broader themes of cybersecurity and privacy protection. It also has implications for software development methodologies, such as 12-factor apps and containerization, which emphasize the separation of configuration and code."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need to check and manage .gitignore to prevent the accidental commit of sensitive information.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

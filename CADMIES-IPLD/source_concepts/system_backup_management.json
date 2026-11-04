@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "system_backup_management",
+  "title": "System Backup Management",
+  "definition": "The process of creating, managing, and restoring data backups for a computer system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.676910Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.676910Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of system backup management as saving your work regularly. It helps protect your data in case of loss or damage.",
+    "intermediate": "System backup management involves creating regular backups of your data, which can be stored locally or remotely. It also includes strategies to restore this data in case of system failures or data loss.",
+    "expert": "System backup management is a critical aspect of data integrity and availability. It not only guards against hardware failures and data corruption, but also helps in compliance with data protection regulations. It involves understanding the different types of backups (full, incremental, differential), backup schedules, retention policies, and backup tiering (local, offsite, cloud)."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of having a system in place to manage backups effectively, with a focus on restoring data as needed.",
+    "source_chunk": 103,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

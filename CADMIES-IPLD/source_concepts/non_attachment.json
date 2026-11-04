@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "non_attachment",
+  "title": "Non Attachment",
+  "definition": "The practice of letting go of attachment to experiences, emotions, or objects, allowing for a more liberated relationship with them.",
+  "type": "Concept",
+  "domain": "Buddhist Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.333795Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.333795Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Non-attachment means not being overly attached to things or experiences. Even when you enjoy a Coke, you can let it go without clinging to it.",
+    "intermediate": "Non-attachment is about releasing dependency on experiences. It's about understanding that happiness that depends on a thing is fragile, while happiness that doesn't is freedom.",
+    "expert": "Non-attachment is a fundamental principle in Buddhist philosophy, emphasizing the role of the mind in shaping our relationship with the world. By practicing non-attachment, we can recognize the impermanence of all things and find true freedom."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Non-attachment allows us to enjoy experiences fully without being consumed by them, leading to a more liberated and fulfilling life.",
+    "source_chunk": 116,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

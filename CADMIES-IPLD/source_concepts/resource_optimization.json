@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resource_optimization",
+  "title": "Resource Optimization",
+  "definition": "The strategic allocation and management of resources to achieve the best results under certain constraints.",
+  "type": "Concept",
+  "domain": "Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.034857Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.034857Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a carpenter optimizing the use of wood for building a house. They ensure that each piece is used effectively to minimize waste and maximize quality.",
+    "intermediate": "Resource optimization involves balancing costs, benefits, and constraints. In the context of cloud services, it can be about choosing the right machine types or storage sizes for a given workload.",
+    "expert": "Resource optimization is a fundamental concept in operations research and management science. It has applications in various fields, from supply chain management to energy consumption. In the cloud services industry, resource optimization can lead to cost savings and improved performance. However, it also requires understanding the trade-offs between different resources and considering the specifics of the workload."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The text highlights the benefits of resource optimization in cloud services, particularly the cost savings and performance improvements that can be achieved by choosing the right machine types and storage sizes.",
+    "source_chunk": 83,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

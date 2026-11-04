@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_merging",
+  "title": "Concept Merging",
+  "definition": "The process of combining and deduplicating concepts from multiple sources, such as different chunks of text.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.678471Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.678471Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of concept merging as putting together a big puzzle from different pieces. It helps us avoid repeating the same ideas and makes sure we have a complete and accurate understanding.",
+    "intermediate": "Concept merging is the technique used to integrate concepts extracted from various chunks of text. This process ensures that the final set of concepts is unique and comprehensive, while avoiding redundancy.",
+    "expert": "Concept merging in the context of artificial intelligence involves not only the synthesis of ideas from multiple sources but also the consideration of philosophical implications and the potential for conflicts. It's a nuanced process that reflects the complexity of understanding and interpreting human language and its many subtleties."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novelty lies in the methodological approach to dealing with the inherent complexity of human language and the need to synthesize multiple sources while avoiding redundancy.",
+    "source_chunk": 103,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

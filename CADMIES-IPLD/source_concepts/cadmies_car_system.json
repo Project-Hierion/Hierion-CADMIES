@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_car_system",
+  "title": "Cadmies Car System",
+  "definition": "The system for managing, storing, and sharing scientific concepts using CAR files in the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.039290Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.039290Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a digital storage and sharing system for ideas, similar to how Google Drive or Dropbox work. But instead of files, it stores scientific concepts.",
+    "intermediate": "The CADMIES CAR System is a file-based data interchange method used to share scientific concepts within the CADMIES knowledge system. It utilizes CAR (Content Addressable and Replication) files, which are self-describing packages containing data and metadata.",
+    "expert": "The CADMIES CAR System is a novel application of Content Addressable and Replication (CAR) files, leveraging their self-describing properties to enable a robust and efficient system for managing, storing, and sharing scientific concepts. This system not only facilitates data interchange but also ensures data integrity and reproducibility, connecting to the broader field of scientific data management and the philosophical concept of scientific continuity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES CAR System is a self-describing, robust, and efficient system for managing, storing, and sharing scientific concepts, ensuring data integrity and reproducibility.",
+    "source_chunk": 120,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

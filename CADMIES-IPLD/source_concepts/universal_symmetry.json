@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "universal_symmetry",
+  "title": "Universal Symmetry",
+  "definition": "The realization that physical laws, patterns, and dynamics are consistent and similar across different scales and contexts.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.323921Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.323921Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a kid's floatie in a pool. It wobbles and bends, just like the universe does. The same physics that make the floatie behave also apply to the universe, only on a much larger scale.",
+    "intermediate": "The concept of universal symmetry suggests that the fundamental laws of physics operate consistently at all scales, from the smallest particles to the largest galaxies. This symmetry underlies phenomena such as gravitational warping, spinning disks, and dynamic equilibrium.",
+    "expert": "The notion of universal symmetry extends to the philosophical implications of scale invariance and the role of underlying symmetries in physical theories. It also connects to other fields such as mathematics, where symmetries play a crucial role in the beauty and elegance of theories, and to philosophy of science, where it raises questions about the nature of reality and the role of observation in understanding the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe behaves like a kid's floatie, with the same physics operating at all scales.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

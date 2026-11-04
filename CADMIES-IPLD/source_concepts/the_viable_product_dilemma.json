@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_viable_product_dilemma",
+  "title": "The Viable Product Dilemma",
+  "definition": "The challenge of scaling a viable product or service in the market while lacking the mindset and resources of a business person.",
+  "type": "Concept",
+  "domain": "Business Strategy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.112490Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.112490Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a great idea for a business, but you're struggling to make it grow because you're not a business expert and don't have much money. It's like trying to build a house without the right tools or a clear plan.",
+    "intermediate": "This is a common problem faced by entrepreneurs who have a solid product or service but lack the business acumen to scale it. It's about recognizing the internal issues that are preventing growth and addressing them systematically.",
+    "expert": "This dilemma highlights the complexities of scaling a viable product or service. It's about understanding the systemic issues that hinder growth and developing a strategy to address them. This can involve restructuring the pricing model, streamlining operations, and focusing on a specific, high-margin solution. It's also about developing the mindset of a business operator, which involves understanding the processes of attracting and converting customers."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The challenge is not external, but internal. The solution involves a systematic approach to diagnose and address internal issues, such as pricing, leakage, and product/service mix, and developing a simple, repeatable system for attracting and converting customers.",
+    "source_chunk": 115,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

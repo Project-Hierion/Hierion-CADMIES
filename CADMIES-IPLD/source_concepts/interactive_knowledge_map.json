@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interactive_knowledge_map",
+  "title": "Interactive Knowledge Map",
+  "definition": "A visual representation of knowledge where nodes can be interacted with to explore relationships and details.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.431708Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.431708Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital map where each dot represents a piece of information. You can click on these dots to learn more and discover connections between different ideas.",
+    "intermediate": "An interactive knowledge map is a graphical user interface that uses nodes to represent concepts and edges to represent relationships between these concepts. It allows users to explore, search, and filter the knowledge in the map.",
+    "expert": "Interactive knowledge maps are a type of visualization technique that combines the benefits of human-computer interaction and information visualization. They can be used to support various cognitive tasks such as learning, problem-solving, and decision-making. Interactive knowledge maps have been studied in different domains such as education, organizational management, and scientific research. They can also be used to model complex systems and simulate their behavior."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interactive knowledge map is a tool that allows users to navigate and explore the relationships between concepts in a visual and intuitive way.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

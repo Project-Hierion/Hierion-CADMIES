@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_verification_process",
+  "title": "Concept Verification Process",
+  "definition": "The process by which the authenticity, integrity, and trustworthiness of a concept are ensured and validated.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.072785Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.072785Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of concept verification like checking a receipt at a store. It's a way to make sure what you're getting is real and hasn't been tampered with.",
+    "intermediate": "Concept verification involves creating a digital signature (or provenance block) with a unique identifier (CID), which is then attached to the concept. This allows for verification at a later stage by recalculating the CID and comparing it to the stored one.",
+    "expert": "Concept verification is a cryptographic process that ensures the integrity and authenticity of knowledge. It forms the basis for the creation of trust networks and decentralized knowledge graphs. By leveraging blockchain technology and content-addressed data structures, the process provides a secure and tamper-evident way of verifying the provenance and history of concepts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discussion highlights the importance of secure and transparent knowledge management in a digital age.",
+    "source_chunk": 132,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

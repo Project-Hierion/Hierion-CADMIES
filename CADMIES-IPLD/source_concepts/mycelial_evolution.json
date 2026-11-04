@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_evolution",
+  "title": "Mycelial Evolution",
+  "definition": "The concept of how mycelium networks, which play a significant role in natural systems, can contribute to evolution or natural selection.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.117567Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.117567Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine mycelium networks as the roots of a giant plant that connect underground. These networks can help exchange nutrients and information, just like how cells communicate in our bodies. Some researchers believe that these networks might also play a role in evolution or natural selection, similar to how genes can influence species over time.",
+    "intermediate": "Mycelial evolution refers to the hypothesis that the complex networks formed by mycelium can contribute to the evolutionary process. These networks can facilitate the spread of beneficial traits, increase resource availability, and enable cooperation among organisms, potentially shaping the survival and success of species.",
+    "expert": "The concept of mycelial evolution expands the traditional understanding of evolution by incorporating the role of mycelium networks. Mycelial evolution posits that the symbiotic relationships and information sharing among mycelial networks can lead to the emergence of new adaptive traits, fostering the evolution of complex organisms. This hypothesis also challenges the centrality of individual organisms in the evolutionary process, emphasizing the importance of collective behavior and network dynamics. Moreover, mycelial evolution connects to other fields, such as complexity science and network biology, to explore the underlying mechanisms and principles governing these phenomena."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mycelial evolution highlights the potential role of symbiotic networks in shaping the evolution of complex organisms and challenges the traditional focus on individual organisms in the evolutionary process.",
+    "source_chunk": 37,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

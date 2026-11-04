@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_ecosystem_packaging",
+  "title": "Agent Ecosystem Packaging",
+  "definition": "The concept of packaging complete agent networks (runtime, agents, and configuration) as single, portable CAR files for distribution.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.100420Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.100420Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine bundling a complete game (graphics, sounds, gameplay) into a single file for easy sharing and playing. That's similar to how agent ecosystem packaging works. It lets us share complex systems easily.",
+    "intermediate": "Agent ecosystem packaging involves combining the runtime, multiple agents, and their configuration into a single CAR file. This allows for easy distribution and deployment of complex, interconnected agent networks.",
+    "expert": "Agent ecosystem packaging is a novel approach that integrates the runtime interpreter, multiple agents, and their configuration into a single CAR file. This enables the creation of portable, self-contained ecosystems that can be easily distributed, securing the system from tampering. The concept has significant implications for the decentralized distribution ecosystem, allowing for the formation of interconnected networks of agents."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept of packaging complete agent networks as single CAR files for distribution, enabling the creation of portable, self-contained ecosystems.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

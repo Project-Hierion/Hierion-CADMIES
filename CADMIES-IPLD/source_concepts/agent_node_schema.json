@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_node_schema",
+  "title": "Agent Node Schema",
+  "definition": "The formal schema for structuring concepts into agent nodes in the CADMIES knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.742458Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.742458Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where each idea is a seed. The Agent Node Schema is the guide that helps us nurture these seeds into mature ideas, so they can grow and interact with each other.",
+    "intermediate": "The Agent Node Schema is a structured format that allows concepts to be represented as agent nodes in the CADMIES knowledge system. It includes fields for metadata, relationships, and difficulty levels.",
+    "expert": "The Agent Node Schema is a novel application of the UniversalScientificConcept schema in a content-addressed, distributed knowledge system. By connecting concepts through relationships, it enables composability and adaptability, and allows for the discovery of patterns and insights. It also has philosophical implications for the nature of knowledge representation and the role of schema in knowledge construction."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Agent Node Schema demonstrates the power of structured, relational knowledge representation for enabling adaptable, composable systems.",
+    "source_chunk": 54,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

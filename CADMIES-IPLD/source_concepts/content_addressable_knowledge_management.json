@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressable_knowledge_management",
+  "title": "Content Addressable Knowledge Management",
+  "definition": "A local, air-gapped knowledge management system that uses content-addressing to store and retrieve philosophical/metaphysical concepts.",
+  "type": "Concept",
+  "domain": "Information Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.659150Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.659150Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital library where each book's title is not its own name, but a unique code that changes if even a single word is changed. This makes it easier to find and share ideas, and it works without a central server.",
+    "intermediate": "This is a content-addressable knowledge management system that uses the concept of Content Identifiers (CIDs) to store and retrieve philosophical/metaphysical concepts. CIDs ensure unique identification of data, allowing for efficient storage and retrieval in a local, air-gapped system.",
+    "expert": "This is a novel application of content-addressing in a knowledge management system, providing a decentralized, secure, and scalable solution for storing and retrieving philosophical/metaphysical concepts. CIDs enable efficient indexing and lookup, while the air-gapped system ensures data privacy and independence from external servers. This system can be extended to other domains and has philosophical implications for the nature of knowledge and its representation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system leverages content-addressing to enable efficient storage and retrieval of philosophical concepts, while the air-gapped design ensures data privacy and independence.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

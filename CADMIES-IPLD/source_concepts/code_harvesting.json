@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "code_harvesting",
+  "title": "Code Harvesting",
+  "definition": "The process of automatically extracting insights from source code to create new concepts for a knowledge system.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.552853Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.552853Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a robot sifting through a mountain of code to pick out useful ideas and turning them into new concepts. That's what code harvesting is!",
+    "intermediate": "Code harvesting is the process of using natural language processing techniques to automatically extract meaningful insights from source code. This can involve identifying patterns, relationships, or abstract concepts that can be represented as new concepts within a knowledge system.",
+    "expert": "Code harvesting is a novel approach to knowledge engineering that combines computer science, artificial intelligence, and philosophy. By automatically extracting insights from source code, it enables the creation of new concepts that can contribute to a broader understanding of the underlying system. This process can also be seen as a form of reverse engineering, where the knowledge system is used to infer the design principles and functionalities of the source code. Moreover, code harvesting can be connected to other fields such as software engineering, where it can be used to improve the quality and maintainability of software systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Code harvesting is a novel approach to knowledge engineering that combines computer science, artificial intelligence, and philosophy to automatically extract insights from source code.",
+    "source_chunk": 124,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

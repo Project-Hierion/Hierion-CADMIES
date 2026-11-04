@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "evolutionary_marketing_strategy",
+  "title": "Evolutionary Marketing Strategy",
+  "definition": "The application of evolutionary principles in the design of marketing and product strategies to optimize survival and reproduction.",
+  "type": "Concept",
+  "domain": "Marketing",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.824108Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.824108Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a fruit that knows exactly how to attract animals to eat it and spread its seeds to new places. That's what evolutionary marketing strategy is - designing products and experiences to encourage the natural cycle of consumption and reproduction.",
+    "intermediate": "Evolutionary marketing strategy employs strategies such as structural design, user experience, shelf-life cues, and brand loyalty to mimic the successful self-sustaining cycle that nature has developed over millions of years.",
+    "expert": "Evolutionary marketing strategy is a novel application of biological principles to marketing and product design. It explores the philosophical implications of understanding and mimicking natural selection, such as how the interaction between design and user behavior can lead to emergent properties that optimize survival and reproduction. It also draws connections to fields such as artificial life, swarm intelligence, and evolutionary algorithms."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The wild banana's packaging design is a successful example of evolutionary marketing strategy, with the peel acting as a protective structure, a user-friendly interface, a dynamic labeling system, and a brand loyalty driver.",
+    "source_chunk": 2,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

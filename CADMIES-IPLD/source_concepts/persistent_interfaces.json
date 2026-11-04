@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "persistent_interfaces",
+  "title": "Persistent Interfaces",
+  "definition": "The principle of designing user interfaces to persist their state across reconnections or navigations, ensuring a seamless user experience.",
+  "type": "Concept",
+  "domain": "User_Experience_Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.883989Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.883989Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a website that remembers your preferences or progress even if you leave and come back later. This is the idea of 'persistent interfaces'.",
+    "intermediate": "Persistent interfaces are designed to maintain the same state or content across multiple sessions or interactions, providing a consistent user experience.",
+    "expert": "The concept of persistent interfaces has significant implications for large-scale systems and real-time applications. It introduces challenges related to data consistency, state management, and fault tolerance. It also opens opportunities for personalization, offline support, and improved user engagement. Moreover, persistent interfaces connect to the broader field of distributed systems and databases."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Willie chat page should be a persistent interface, not recreated on every navigation. This ensures a seamless user experience and prevents unexpected behavior.",
+    "source_chunk": 100,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interactive_user_interface",
+  "title": "Interactive User Interface",
+  "definition": "A user interface that allows users to interact with the system, providing features such as tooltips, detailed popups, history navigation, and clickable cross-references.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.508025Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.508025Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a website that helps you understand things better. It shows you details when you hover over things, remembers where you've been, and lets you click on related ideas. That's an interactive user interface.",
+    "intermediate": "An interactive user interface is a graphical representation of a system that allows users to interact with the system through various input devices. It includes features such as tooltips, detailed popups, history navigation, and clickable cross-references, enhancing user experience and understanding.",
+    "expert": "From a philosophical perspective, an interactive user interface can be seen as a manifestation of human-machine symbiosis. It allows for bidirectional communication and knowledge transfer, blurring the lines between the user and the system. Furthermore, it can be connected to the concept of the 'user experience' in human-computer interaction, which explores the emotional and psychological aspects of using technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interactive user interface enhances usability and user experience by providing features that make the system more intuitive and engaging.",
+    "source_chunk": 58,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

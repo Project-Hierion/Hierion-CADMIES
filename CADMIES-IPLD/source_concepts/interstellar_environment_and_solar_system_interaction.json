@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interstellar_environment_and_solar_system_interaction",
+  "title": "Interstellar Environment And Solar System Interaction",
+  "definition": "The concept of the interstellar medium's influence on the solar system, emphasizing its role as a passive environment that the solar system interacts with.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.291572Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.291572Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the solar system as a boat sailing through a vast ocean. The ocean is the interstellar medium - it's just there, not actively pushing against the boat. The boat represents the solar system, and as it moves, it encounters the ocean and is influenced by it.",
+    "intermediate": "The interstellar medium is the diffuse gas, dust, and magnetic fields that fill space between stars. As the solar system moves through this environment, it interacts with it, with the solar wind being affected by dispersion and distance, weakening and spreading out as it travels.",
+    "expert": "This concept challenges the anthropomorphic notion of space as a hostile environment, instead presenting it as a passive backdrop that the solar system interacts with. This interaction results in the formation of the heliosphere, the bubble of charged particles and magnetic fields surrounding the solar system, which is shaped by the solar wind and the interstellar medium."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The solar system interacts with the interstellar medium, which is a passive environment that affects the solar wind, causing it to weaken and disperse as it travels.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

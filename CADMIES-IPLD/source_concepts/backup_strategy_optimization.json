@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_strategy_optimization",
+  "title": "Backup Strategy Optimization",
+  "definition": "The concept of optimizing the strategy for a backup system to improve efficiency and reliability.",
+  "type": "Concept",
+  "domain": "System Administration",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.056152Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.056152Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a system that saves your work. To make sure it's quick and effective, you can adjust settings like when backups happen and where they're saved. This concept is about optimizing those settings.",
+    "intermediate": "Backup strategy optimization involves balancing between frequency of backups (daily, weekly, monthly), retention periods, and storage locations to ensure data integrity and accessibility while minimizing storage costs and system overhead.",
+    "expert": "Backup strategy optimization is a nuanced field that delves into philosophical implications of data persistence, system resilience, and the cost-benefit analysis of storage. It also explores edge cases such as disk space management, file size limits, and backup consistency. Philosophically, it questions the value of data, the role of backups in preserving identity, and the nature of time and change."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The internal HDD is mounted at `/run/media/fedora/FSACA`, which is vfat (FAT32), with a 4GB file size limit. This could potentially limit the backup system's ability to handle large rsyncs.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_integration",
+  "title": "Scientific Integration",
+  "definition": "The concept of understanding and applying principles from different scientific disciplines to solve complex problems or deepen understanding.",
+  "type": "Concept",
+  "domain": "Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.548486Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.548486Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like putting together a puzzle. You use pieces from various subjects to create a clearer picture of a topic.",
+    "intermediate": "Scientific integration involves combining knowledge from different fields to create new insights. It's about recognizing interconnections and synergies between seemingly unrelated concepts.",
+    "expert": "Scientific integration is a philosophical exploration that challenges the boundaries of traditional disciplines. It allows us to explore the interdisciplinary nature of science, highlighting the connections between fields like physics, biology, and mathematics. This approach can lead to novel discoveries and a deeper understanding of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of various scientific domains, demonstrating the potential for scientific integration to yield new insights and solutions.",
+    "source_chunk": 122,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

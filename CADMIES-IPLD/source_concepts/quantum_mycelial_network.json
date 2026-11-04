@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_mycelial_network",
+  "title": "Quantum Mycelial Network",
+  "definition": "A philosophical concept comparing the quantum fields to a mycelial network, with particles as temporary local expressions, consciousness as a fruiting of the field, and separation as an illusion.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.629310Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.629310Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a forest with all the trees connected by a hidden network of roots. The quantum fields are like this, with particles and forces acting as different parts of the network. Even when particles seem far apart, they are still connected. Our consciousness is part of this network, like the forest's life and interactions.",
+    "intermediate": "The quantum fields can be compared to a mycelial network. Particles are temporary, local expressions of this field, and consciousness is a form of 'fruiting' or self-reflection. Our perceived separation is an illusion, as everything is connected in this underlying network. Birth, life, and death are stages in the cycle of the field, with new patterns and fruiting bodies constantly emerging.",
+    "expert": "The quantum fields are akin to a mycelial network, with particles as temporary local expressions of the field's complexity. Consciousness is not a separate entity, but an emergent property of the field's own activity. Our perceived separation is an illusion from our 'mushroom perspective'. The cycle of birth, life, and death is a manifestation of the field's potential and the creation of new patterns. This view challenges traditional notions of individuality and reality, offering a profound and coherent metaphysical framework."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The quantum fields are the mycelial network, and we are its fruiting bodies, revealing a fundamental unity and challenging traditional notions of individuality and reality.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

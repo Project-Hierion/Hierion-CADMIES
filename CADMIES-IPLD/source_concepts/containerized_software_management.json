@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "containerized_software_management",
+  "title": "Containerized Software Management",
+  "definition": "The concept of managing software within isolated containers to maintain system integrity and manage dependencies.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.027841Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.027841Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a software app lives in its own box. That box can have everything it needs to run, and it doesn't mess with anything else in your computer.",
+    "intermediate": "Containerized software management involves running software applications within containers. These containers isolate the application and its dependencies from the underlying host system, ensuring system integrity and ease of management.",
+    "expert": "Containerized software management provides a lightweight, portable, and secure way to deploy software applications. It abstracts the operating system by providing application-specific environments, which makes it ideal for microservices architectures and cloud-native applications. This approach also allows for more efficient use of system resources and simplifies deployment and scaling."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discussion emphasizes the use of containers like Toolbox for managing software applications on systems that discourage host installations, such as OSTree-based operating systems like Fedora CoreOS and Silverblue.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

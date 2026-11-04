@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "convergent_knowledge_systems",
+  "title": "Convergent Knowledge Systems",
+  "definition": "The emergent phenomenon where multiple independent teams or individuals, working in isolation, converge on similar or identical knowledge systems without shared communication or external influence.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.434187Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.434187Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two bees independently making honeycombs. Despite working separately, they end up creating similar structures. This is an example of convergent knowledge systems.",
+    "intermediate": "Convergent knowledge systems occur when multiple individuals or teams independently develop similar solutions to complex problems. This phenomenon has been studied in various domains, including science, technology, and social systems.",
+    "expert": "Convergent knowledge systems are a fascinating aspect of human cognition and a challenge to traditional notions of innovation. They highlight the power of distributed problem-solving and the inherent structure of complex systems. Convergent knowledge systems have been observed in scientific communities, technological development, and even in artistic creation. They raise questions about the role of communication in knowledge transfer, the nature of human creativity, and the limits of individuality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of convergent knowledge systems within two independent systems demonstrates the inherent patterns and structures that emerge in complex systems.",
+    "source_chunk": 166,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

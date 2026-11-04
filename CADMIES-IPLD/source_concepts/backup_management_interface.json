@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_management_interface",
+  "title": "Backup Management Interface",
+  "definition": "A user interface for managing backups, including viewing backup status, initializing backups, and canceling backups.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.638518Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.638518Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a dashboard that helps you keep track of your saved files. It shows you the status of your backups, lets you start new backups, and can even stop them if needed.",
+    "intermediate": "A backup management interface is a graphical user interface that provides functionality for managing backups. It allows users to view the status of existing backups, initiate new backups, and cancel ongoing backups.",
+    "expert": "A backup management interface is a crucial component of a data management system. It not only provides users with real-time visibility into their backup operations but also enables them to make informed decisions about their data. It can have implications for data integrity, disaster recovery, and overall system performance. It also connects to the broader field of human-computer interaction, as it's a user experience that aims to be intuitive and accessible."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the need for a user-friendly interface that allows users to easily manage their backups.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

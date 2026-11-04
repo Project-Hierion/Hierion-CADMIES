@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_base_diversity",
+  "title": "Knowledge Base Diversity",
+  "definition": "The range of domains and disciplines that a knowledge base encompasses.",
+  "type": "Concept",
+  "domain": "Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.845701Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.845701Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a library with different sections for fiction, non-fiction, history, science, and art. The diversity of these sections shows the library's depth and breadth of knowledge.",
+    "intermediate": "Knowledge base diversity refers to the variety of topics and disciplines a system includes. This can enhance problem-solving capabilities and promote interdisciplinary thinking.",
+    "expert": "From a philosophical perspective, knowledge base diversity is about recognizing the interconnectedness of different fields. It's not just about having a broad range of information, but also about how that information interrelates. Diversity can lead to deeper understanding and more creative solutions, but it also poses challenges in terms of coherence and consistency."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals a knowledge base with a diverse range of topics, suggesting its potential for interdisciplinary thinking and problem-solving.",
+    "source_chunk": 59,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

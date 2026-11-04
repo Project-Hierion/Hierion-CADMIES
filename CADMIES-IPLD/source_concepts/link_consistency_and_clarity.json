@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "link_consistency_and_clarity",
+  "title": "Link Consistency And Clarity",
+  "definition": "The practice of maintaining a consistent and clear representation of links across different sections of a concept, with clear distinctions between resolved and unresolved links.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.493749Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.493749Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine all links in a website are the same color and shape. Some point to existing pages, others to pages that don't exist yet. This helps you understand which links are valid and which aren't.",
+    "intermediate": "Link consistency and clarity involves using a standard link icon (\ud83d\udd17) for all links in the builds_upon, related_to, and contradicts sections. Unresolved links are marked with '\ud83d\udccb (concept not yet in mycelium)' and displayed in gray, while resolved links are in indigo. Contradictions are also marked with the link icon but displayed in red to visually distinguish them.",
+    "expert": "Link consistency and clarity is a user experience principle that extends to knowledge systems such as CADMIES. It not only improves usability but also enhances the coherence and clarity of the system. By consistently using a link icon (\ud83d\udd17) to represent links, users can quickly understand the relationship between concepts. The use of different colors (indigo for resolved links, red for contradictions) enhances the visual hierarchy of the information. Unresolved links are marked with '\ud83d\udccb (concept not yet in mycelium)' to inform users about the incompleteness of the system. This approach also allows for potential future integration with other knowledge systems or databases, as the use of a standard link icon (\ud83d\udd17) makes it easier to establish connections and interoperability. Furthermore, the use of tooltips to provide additional information on unresolved links enhances the overall user experience."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The consistency and clarity of links in a knowledge system can significantly improve user experience and the coherence and clarity of the system.",
+    "source_chunk": 54,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

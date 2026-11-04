@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_bubbles_and_domains",
+  "title": "Cosmic Bubbles And Domains",
+  "definition": "Concept exploring the differences and relationships between two cosmic domains: the Heliosphere (Sun's protective bubble) and the Milky Way Galaxy.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.271444Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.271444Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your house is a tiny bubble (Heliosphere) created by your sprinkler (Solar Wind) in a massive city (Milky Way). Your house is in the city, but it's not the city itself. Leaving your house, you're entering the city's street, not venturing into the unknown.",
+    "intermediate": "The Heliosphere is a bubble of solar wind and magnetic fields formed by the Sun. It's distinct from the Milky Way Galaxy, which is a massive barred spiral galaxy. The Heliosphere is shaped by a cosmic tug-of-war between the Sun's solar wind and the interstellar medium.",
+    "expert": "The Heliosphere and Milky Way form a complex system where their interaction shapes the heliosphere's irregular shape. This is a result of the Sun's solar wind constantly battling with the interstellar medium, creating a 'space weather vane'. This novel insight highlights the interplay between local and galactic cosmic forces."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Heliosphere is a microcosm within the Milky Way, shaped by the interplay of local (solar wind) and galactic (interstellar medium) forces.",
+    "source_chunk": 25,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

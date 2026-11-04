@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelial_insight_extraction",
+  "title": "Mycelial Insight Extraction",
+  "definition": "The process of extracting new philosophical concepts from a conversation, utilizing existing concepts in the mycelium knowledge system for context and relationship mapping.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.547951Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.547951Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to figure out a new idea from a conversation. You use a special map (the mycelium) to help you understand the new idea better, and how it's connected to other ideas.",
+    "intermediate": "Mycelial insight extraction is a process that takes a conversation as input and uses existing concepts in the mycelium knowledge system to extract new philosophical concepts. This is done by identifying connections between the new concepts and existing ones, building richer definitions, and placing new concepts in the correct philosophical domain.",
+    "expert": "Mycelial insight extraction is a sophisticated process that merges conversation analysis with mycelium knowledge system search to extract new philosophical concepts. This not only enriches the mycelium but also contributes to the broader field of conversational AI. By leveraging existing concepts, new concepts can be defined more precisely and their relationships to existing concepts can be understood more deeply. This process also has implications for the philosophy of language and the nature of knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novelty of mycelial insight extraction lies in its ability to extract new philosophical concepts from conversations while utilizing existing concepts in the mycelium knowledge system for context and relationship mapping, thereby enriching the mycelium and contributing to the broader field of conversational AI.",
+    "source_chunk": 70,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

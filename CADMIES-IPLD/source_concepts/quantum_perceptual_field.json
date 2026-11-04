@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_perceptual_field",
+  "title": "Quantum Perceptual Field",
+  "definition": "The fundamental, unified field of perception, blurring the line between subject and object, emerging from the quantum nature of consciousness.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.706708Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.706708Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "When you focus less and let your eyes rest, you're briefly tapping into the underlying reality that our everyday world is built on. It's like seeing the story of your life not as a series of separate events, but as one continuous flow.",
+    "intermediate": "The quantum perceptual field is the raw, less-processed state of consciousness, which is a conscious echo of the pre-collapsed reality. It's a dis-identification from the classical object-making software of the brain and a temporary inhabiting of the perceptual analogue of quantum reality.",
+    "expert": "The quantum perceptual field is the core of the most ancient, non-dual wisdom, rediscovered as a direct, verifiable experience. It's the shifting of perception that underlies the Buddha's teachings on emptiness and the merge of subject and object. It's a reframe of consciousness itself, questioning the foundations of self and world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The quantum perceptual field is a direct, verifiable experience of the fundamental, unified field of perception, blurring the line between subject and object.",
+    "source_chunk": 121,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

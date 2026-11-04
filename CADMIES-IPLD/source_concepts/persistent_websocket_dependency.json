@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "persistent_websocket_dependency",
+  "title": "Persistent Websocket Dependency",
+  "definition": "A persistent websocket-based UI architecture that requires a stable and fast connection for real-time updates, which may lead to issues with CPU-intensive operations or slow responses.",
+  "type": "Concept",
+  "domain": "Software Architecture",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.372486Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.372486Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your computer's internet connection as a pipe that data flows through. Persistent websocket-based UIs are like a constant stream of data flowing through that pipe. If the pipe gets clogged or the data flow is too slow, the whole system can crash.",
+    "intermediate": "Persistent websocket-based UIs create a continuous, bidirectional communication channel between the client and server for real-time updates. This architecture requires a stable and fast connection to avoid timeouts and ensure smooth operation, especially in CPU-intensive or latency-sensitive applications.",
+    "expert": "The persistent websocket dependency in UI architecture introduces a real-time communication channel between the client and server, enabling dynamic and interactive user experiences. However, this architecture exposes the system to potential performance bottlenecks and instability, such as websocket timeouts due to CPU-intensive operations or slow responses. To address these challenges, architectural solutions include adding asynchronous processing, improving network latency, and optimizing CPU utilization."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The persistent websocket dependency in NiceGUI can lead to issues with CPU-intensive operations or slow responses, causing the entire UI to crash.",
+    "source_chunk": 27,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

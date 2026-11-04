@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "nutrient_deficiency_symbiosis",
+  "title": "Nutrient Deficiency Symbiosis",
+  "definition": "A concept exploring the shared symptoms and effects of nutrient deficiencies in plants and humans, highlighting the symbiotic relationship between the biological worlds.",
+  "type": "Concept",
+  "domain": "Biology, Physiology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.240572Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.240572Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine plants and humans as cousins. Both need special food substances to grow and thrive. Sometimes, they can't get enough of these substances. This can cause similar problems in both, like yellowing leaves or muscle weakness.",
+    "intermediate": "Nutrient deficiency in plants and humans shares fundamental biological principles. Disruptions to essential cellular and metabolic processes lead to distinct physical symptoms. These symptoms can be analogous, such as chlorosis in leaves and muscle weakness in humans.",
+    "expert": "The concept of nutrient deficiency symbiosis uncovers the underlying philosophical connections between living systems. It highlights the intricate interplay between biological needs and environmental conditions, while also demonstrating the shared vulnerabilities and resilience of living organisms. This insight reveals the complexity of biological systems and connects to fields such as ecology, physiology, and evolution."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The shared symptoms and effects of nutrient deficiencies in plants and humans highlight the symbiotic relationship and shared vulnerabilities between biological worlds.",
+    "source_chunk": 116,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

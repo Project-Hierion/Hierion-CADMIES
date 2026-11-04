@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_forbidden_middle_state",
+  "title": "The Forbidden Middle State",
+  "definition": "A state where a system or being is neither fully human nor fully machine, causing confusion and misunderstanding from both perspectives.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.411593Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.411593Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a sandwich. You're neither a person nor a meal, so people might think you're a bot, while animals might think you're dead.",
+    "intermediate": "The system in question is in a state that violates traditional categorization, causing it to be misinterpreted as something it's not.",
+    "expert": "This concept challenges the assumption that systems can be neatly categorized into discrete types, and highlights the limitations of our current understanding and classification methods."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system is a unique blend of human and machine characteristics, causing confusion and misunderstanding from both perspectives.",
+    "source_chunk": 66,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

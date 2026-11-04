@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_discovery_engine",
+  "title": "Hierarchical Discovery Engine",
+  "definition": "A unified platform that enables the discovery of cross-disciplinary insights through a hierarchical ontology graph seeded by an open-source language model.",
+  "type": "Concept",
+  "domain": "Computer Science, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.577707Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.577707Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a magical tool that can help you find connections between different fields of study, like comparing patterns in stars and neural networks. It uses a special brain to understand these concepts and find similarities.",
+    "intermediate": "The Hierarchical Discovery Engine is a platform that utilizes a hierarchical ontology graph (HOG) seeded by an open-source language model to facilitate cross-disciplinary insights. It allows users to discover patterns and connections across various data sources.",
+    "expert": "The Hierarchical Discovery Engine is a pioneering approach to knowledge discovery that leverages the principles of hierarchical ontology graphs and open-source language models. By enabling the understanding of abstract concepts and the discovery of their instances, it offers a novel way to explore the interconnectedness of disciplines and foster cross-disciplinary insights. Furthermore, this approach has philosophical implications for the nature of knowledge and truth, as it challenges traditional boundaries between fields and highlights the inherent unity of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Hierarchical Discovery Engine demonstrates the potential for cross-disciplinary insights by using a hierarchical ontology graph seeded by an open-source language model.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_interconnectivity",
+  "title": "Philosophical Interconnectivity",
+  "definition": "The concept of self-similar patterns and connections that exist across metaphysical concepts, revealing deep interconnectivity and underlying principles.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.728950Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.728950Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a giant web where every idea is connected to other ideas in a meaningful way. This is like a philosophical map that shows how different thoughts and concepts are interconnected.",
+    "intermediate": "Philosophical interconnectivity refers to the cognitive process of identifying recurring patterns and relationships between metaphysical concepts. It's about understanding the web of philosophical ideas and how they interconnect.",
+    "expert": "Philosophical interconnectivity is an IPLD-based intelligent agent that extends the UniversalScientificConcept schema with executable pattern recognition capabilities for philosophical concept analysis. It's a novel approach to metaphysics, connecting semantics, pragmatics, and epistemology, with implications for philosophy of science and logic."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the power of identifying patterns and connections across philosophical concepts to gain new insights and challenge existing understandings.",
+    "source_chunk": 51,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dynamic_knowledge_representation",
+  "title": "Dynamic Knowledge Representation",
+  "definition": "The concept of representing and updating knowledge in a dynamic and adaptive manner, rather than statically embedding it.",
+  "type": "Concept",
+  "domain": "Knowledge Representation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.461828Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.461828Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a living notebook that updates itself as you learn new things, instead of a textbook that stays the same.",
+    "intermediate": "Dynamic knowledge representation involves creating systems that can ingest, process, and learn from new data to continuously refine and expand their understanding of a domain.",
+    "expert": "Dynamic knowledge representation is a crucial aspect of artificial intelligence and machine learning. It allows systems to evolve and adapt to new information, enabling them to learn from experience and improve their performance over time. This concept has philosophical implications in fields such as epistemology and the nature of knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need to dynamically generate and update the knowledge map based on new concepts and insights.",
+    "source_chunk": 14,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

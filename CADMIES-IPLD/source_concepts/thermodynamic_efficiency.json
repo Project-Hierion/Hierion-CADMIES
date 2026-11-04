@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "thermodynamic_efficiency",
+  "title": "Thermodynamic Efficiency",
+  "definition": "The ratio of the useful output of a process to the total energy input, typically expressed as a percentage.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.538792Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.538792Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "thermodynamics_laws"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of thermodynamic efficiency like the fuel economy of a car. The more miles you get per gallon, the more efficient your car is. In a machine, the more useful work it does with the energy it takes in, the more efficient it is.",
+    "intermediate": "Thermodynamic efficiency is the ratio of the useful output of a process to the total energy input. It is typically expressed as a percentage. For example, a car's fuel efficiency is a measure of thermodynamic efficiency. The second law of thermodynamics sets a limit on the maximum possible efficiency of a process.",
+    "expert": "Thermodynamic efficiency is a critical concept in thermodynamics, which deals with the relationship between energy, work, and heat. It is the ratio of the useful output of a process to the total energy input, typically expressed as a percentage. The second law of thermodynamics sets a limit on the maximum possible efficiency of a process, known as the Carnot efficiency. Understanding thermodynamic efficiency is essential for developing sustainable energy sources and improving the efficiency of machines."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The limits on the maximum possible efficiency of a process and the relationship between energy, work, and heat.",
+    "source_chunk": 117,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

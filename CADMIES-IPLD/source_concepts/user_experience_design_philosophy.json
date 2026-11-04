@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_experience_design_philosophy",
+  "title": "User Experience Design Philosophy",
+  "definition": "The philosophy of designing user interfaces that not only look good but also convey a clear message and evoke emotion.",
+  "type": "Concept",
+  "domain": "Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.477471Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.477471Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like creating an experience. Just as a good book has a great cover that piques your interest, a good user interface should grab your attention and guide you effortlessly.",
+    "intermediate": "User experience design philosophy involves balancing aesthetics with usability, focusing on intuitive navigation, clear messaging, and emotional resonance. It's about creating a harmonious environment that both looks good and works well.",
+    "expert": "At its core, user experience design philosophy is a blend of art and science. It delves into the philosophical implications of human-computer interaction, exploring questions of perception, emotion, and cognition. It's about creating an environment that not only meets user needs but also enhances their overall experience. The field also draws connections to other disciplines, such as branding, marketing, and psychology, to create a cohesive, comprehensive user experience."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user interface's design philosophy should be a reflection of the product's overall message and experience.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

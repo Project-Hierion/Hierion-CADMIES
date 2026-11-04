@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "persistent_storage_management",
+  "title": "Persistent Storage Management",
+  "definition": "The process of managing the storage and retrieval of data in a persistent manner, ensuring data integrity and availability.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.696511Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.696511Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're playing a video game. Every time you level up, you save your progress. That's persistent storage management: remembering and keeping your data safe, even when you stop playing.",
+    "intermediate": "In the context of this system, persistent storage management involves correctly storing and retrieving the CBOR files associated with philosophical concepts. This ensures that the data is available when needed, even after long periods of inactivity or system restarts.",
+    "expert": "From a philosophical perspective, persistent storage management highlights the tension between data preservation and data loss. It also raises questions about the nature of knowledge and its representation. Additionally, it draws connections to broader concepts in data management and preservation, such as data backup and recovery, data consistency, and data durability."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The issue of missing or inaccessible CBOR files highlights the importance of proper persistent storage management in this philosophical concept system.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

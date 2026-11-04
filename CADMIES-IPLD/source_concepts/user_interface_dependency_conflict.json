@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_interface_dependency_conflict",
+  "title": "User Interface Dependency Conflict",
+  "definition": "A situation where the user interface fails to load due to conflicts or incompatibilities between JavaScript dependencies.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.895696Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.895696Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Your app isn't working properly because it can't load some of its parts. This is like trying to put together a puzzle, but some pieces don't fit well with others.",
+    "intermediate": "The user interface is experiencing a dependency conflict, likely due to incompatible JavaScript modules. This can prevent the page from loading properly and cause the websocket to drop.",
+    "expert": "The issue is rooted in the interaction between the frontend and backend of the application. Incompatibilities between ES modules and CommonJS modules can lead to a failure to load JavaScript dependencies, which in turn causes the websocket to drop. This highlights the complexity of maintaining a cohesive user interface in a modern, modular software development environment."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The root cause of the problem is a dependency conflict between JavaScript modules, which is preventing the page from loading properly.",
+    "source_chunk": 105,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

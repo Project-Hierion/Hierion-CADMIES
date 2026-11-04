@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "scientific_rigor_in_documentation",
+  "title": "Scientific Rigor In Documentation",
+  "definition": "The application of scientific rigor and standardized documentation practices to ensure accurate, reproducible, and verifiable results.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.448050Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.448050Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine going to a doctor for a check-up. They follow a standard process to ensure they understand your health, take necessary measures, and document their findings. In our case, we're following a similar scientific method to document and explain things, just like scientists do.",
+    "intermediate": "Scientific rigor in documentation involves using a standard template for notes, following a canonical domain taxonomy, and adhering to naming conventions. It also includes validating documents and using a version control system to maintain accuracy and reproducibility.",
+    "expert": "The scientific rigor in documentation concept highlights the importance of clarity, accuracy, and reproducibility in knowledge creation. It connects to the philosophy of science, where the scientific method is used as a model for understanding the world. The concept also has implications for knowledge management and organizational learning, as it can improve the efficiency and effectiveness of knowledge transfer and decision-making."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of following scientific rigor and standardized documentation practices to ensure accuracy, reproducibility, and verifiability in knowledge creation and sharing.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

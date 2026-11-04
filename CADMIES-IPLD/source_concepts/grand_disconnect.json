@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "grand_disconnect",
+  "title": "Grand Disconnect",
+  "definition": "The gap between the dynamic, interconnected nature of reality and the static, isolated entities used by academic disciplines and databases.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.606070Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.606070Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to explain a living, breathing city to someone who only knows about individual buildings. That's how we try to understand the universe.",
+    "intermediate": "The Grand Disconnect is the mismatch between the process-oriented, relational nature of reality and the isolated, entity-based structure of academic disciplines and databases.",
+    "expert": "The Grand Disconnect is a profound philosophical insight about the nature of reality and our attempts to understand it. It highlights the limitations of traditional disciplinary boundaries and databases, which are structured around static, isolated entities. This disconnect stifles cross-disciplinary insights and innovations, as different fields of study lack the semantic bridge to recognize and understand shared patterns."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mismatch between the dynamic, interconnected nature of reality and the static, isolated entities used by academic disciplines and databases hinders cross-disciplinary insights and innovations.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

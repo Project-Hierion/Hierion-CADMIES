@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "async_programming_lifecycle",
+  "title": "Async Programming Lifecycle",
+  "definition": "The process of creating, executing, and managing asynchronous operations in a program, including exception handling and task cancellation.",
+  "type": "Concept",
+  "domain": "Programming",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.899646Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.899646Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "craving_tanha_cycle"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a recipe you follow while cooking. Async programming is like having multiple recipes in the kitchen and being able to switch between them without waiting for one to finish. Exceptions are like mistakes in the recipe and tasks are like individual steps that can be paused or cancelled.",
+    "intermediate": "In async programming, awaitables represent operations that might take some time to complete. These are wrapped in tasks, which are scheduled on the event loop. Exception handling in async programming involves adding callbacks to tasks to catch and handle any exceptions that occur during their execution.",
+    "expert": "The async programming lifecycle encompasses the creation of coroutines, the scheduling of tasks on the event loop, and the management of tasks' lifecycle. It provides a framework for handling concurrency, enabling programs to perform multiple operations simultaneously without blocking the main thread. However, it also introduces new challenges such as task cancellation and exception handling in asynchronous code."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The key to avoiding 'connection lost' errors in UI updates during async callbacks is to stream the response token-by-token, keeping the websocket alive and updating the UI in real-time.",
+    "source_chunk": 107,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "impermanence_and_craving",
+  "title": "Impermanence And Craving",
+  "definition": "The exploration of how the fleeting nature of pleasure leads to continued desire and suffering.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.320371Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.320371Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Drinking Coke is like chasing a dream that never quite fulfills you. The sweet taste is fleeting and temporary, causing a cycle of wanting more.",
+    "intermediate": "Buddhist teachings on impermanence and craving are exemplified in the cycle of consuming Coca-Cola. The initial pleasure of the bubbles and cold refreshment gives way to a craving for more, which perpetuates suffering.",
+    "expert": "The cycle of consuming Coca-Cola illustrates the fundamental Buddhist concepts of anicca (impermanence) and tanha (craving). The transient nature of the pleasant feeling and the arising of craving create a pattern of suffering that mirrors human existence. This exploration highlights the philosophical implications of mindfulness and awareness in experiencing pleasure and overcoming desire."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user's insightful application of Buddhist principles by using the example of Coca-Cola consumption.",
+    "source_chunk": 110,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

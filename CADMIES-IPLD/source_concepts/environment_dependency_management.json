@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "environment_dependency_management",
+  "title": "Environment Dependency Management",
+  "definition": "The process of managing the dependencies that a software project relies on to run correctly.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.693626Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.693626Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your software project as a machine that needs certain tools to work. Dependencies are these tools. Managing them means making sure you have the right tools and that they're updated when needed.",
+    "intermediate": "Dependencies are external libraries or modules that your project uses. Environment dependency management involves setting up, updating, and managing these dependencies to ensure that your project runs smoothly.",
+    "expert": "Environment dependency management is a complex process that involves multiple strategies such as version control, virtual environments, and dependency lock files. It's about maintaining a consistent, reproducible environment for your software project. This is crucial for large-scale projects with many contributors."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Managing dependencies correctly is a fundamental part of developing and running a software project. Failure to do so can lead to errors, incompatibilities, and security vulnerabilities.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_flow",
+  "title": "Consciousness Flow",
+  "definition": "A philosophical model that posits consciousness as a dynamic, flowing landscape of potential, influenced by karmic pull, affinity gradient, and the thermodynamic flow of information.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.869179Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.869179Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of consciousness as a ball on a trampoline. It's not just still, it's moving. It moves due to past actions and the natural pull of the world around it. This movement can lead to new forms of life, just like how the ball can roll to a new spot on the trampoline.",
+    "intermediate": "Consciousness is a dynamic field influenced by karmic pull, affinity gradient, and the thermodynamic flow of information. This movement in the consciousness field can lead to the emergence of new forms of life.",
+    "expert": "Consciousness is a fundamental property of the cosmos, flowing dynamically through a field influenced by karmic pull, affinity gradient, and the thermodynamic flow of information. This model offers a physics-like mechanism for pattern recurrence (reincarnation) and post-death existence in memory, without relying on the concept of a soul. The dynamics introduced in this model challenge traditional notions of stasis and change, and have profound implications for our understanding of the universe and our place within it."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The introduction of dynamics, displacement, and gradient to the trampoline cosmology creates a living, flowing landscape of consciousness-potential.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "costly_signaling_in_predation",
+  "title": "Costly Signaling In Predation",
+  "definition": "The concept of hosts voluntarily providing non-essential offerings to predators as a form of costly signaling, altering the dynamics of an involuntary relationship, and potentially influencing predator behavior.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.790533Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.790533Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "hematophagous_symbiosis_theory"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "acceptance_of_predation",
+      "strategic_acceptance"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a scenario where you leave cookies for a vampire, not to stop them from feeding, but to show that you're calm, accepting, and well-nourished. This small gesture might make both of you feel more comfortable and even change the frequency of their visits.",
+    "intermediate": "Costly signaling in predation refers to the behavioral adaptation where hosts voluntarily provision predators with non-essential offerings as a form of ritualized negotiation. This strategy allows hosts to reclaim agency by signaling acceptance, resource sufficiency, and psychological stability to the predator.",
+    "expert": "The cookie offering ritual represents a novel insight into the anthropology of ritual, game theory, and the philosophy of agency under constraint. It suggests that symbolic communication can significantly modify the dynamics of even the most asymmetric biological relationships. The offering functions as a costly signal in a repeated asymmetric game, potentially influencing predator behavior and reducing feeding frequency."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "hematophagous_symbiosis_theory"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cookie offering ritual highlights the potential for symbolic communication to alter the dynamics of involuntary biological relationships.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

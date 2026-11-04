@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "alternative_identity_verification",
+  "title": "Alternative Identity Verification",
+  "definition": "Alternative methods to verify the identity of an individual, apart from ORCID, for the purpose of knowledge system authentication and validation.",
+  "type": "Concept",
+  "domain": "Cybersecurity",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.940082Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.940082Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as alternative ways to confirm someone's identity, like how you might use a driver's license instead of a passport to board a plane.",
+    "intermediate": "Alternative identity verification methods are systems that offer a similar level of assurance as ORCID, but function differently. GitHub was previously discussed, but it doesn't expose ORCID linkage.",
+    "expert": "Alternative identity verification methods include GitHub and potential alternatives like email verification or institution-based verification. These methods pose unique challenges and trade-offs, and their suitability depends on the specific use case and risk profile. For example, email verification is vulnerable to spoofing, while institution-based verification may be limited to certain academic or corporate communities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "GitHub does not currently support ORCID linkage for identity verification, suggesting the need for alternative methods.",
+    "source_chunk": 89,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

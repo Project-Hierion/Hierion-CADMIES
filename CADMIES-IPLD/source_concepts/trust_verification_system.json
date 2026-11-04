@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "trust_verification_system",
+  "title": "Trust Verification System",
+  "definition": "A system that combines privacy and accountability by trusting third-party verification while keeping sensitive data hidden.",
+  "type": "Concept",
+  "domain": "Cryptography",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.951480Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.951480Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a system that checks if someone is who they say they are, without ever showing their full identity. This is like that, but for online platforms.",
+    "intermediate": "This is a trust verification system that uses a third-party service like GitHub to verify user identities while maintaining user privacy. It works by using GitHub's verified email and domain information.",
+    "expert": "The trust verification system in this context is a novel application of zero-knowledge proofs and cryptographic hash functions. By using GitHub's verified email and domain information, it provides a level of accountability while maintaining user privacy. This system has philosophical implications for the balance between privacy and accountability in digital platforms. Additionally, it can be applied to other fields such as identity verification in e-government services."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system combines privacy and accountability by trusting third-party verification while keeping sensitive data hidden.",
+    "source_chunk": 92,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

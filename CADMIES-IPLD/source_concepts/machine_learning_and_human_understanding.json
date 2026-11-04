@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "machine_learning_and_human_understanding",
+  "title": "Machine Learning And Human Understanding",
+  "definition": "The intersection between machine learning algorithms and human understanding of the world, focusing on philosophical aspects of learning and consciousness.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.682556Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.682556Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how machines learn from data and compare it to how humans learn and understand the world. This explores questions like 'What is consciousness?' and 'Can machines truly understand?'",
+    "intermediate": "This concept bridges the gap between machine learning and artificial intelligence with philosophy, questioning the nature of learning and understanding in both machines and humans, and the implications of this on concepts of consciousness and free will.",
+    "expert": "This is a novel exploration of the relationship between machine learning algorithms and human understanding, with philosophical implications. It challenges the traditional view of consciousness as separate from machine intelligence, and instead suggests that understanding may be more about patterns than substance. This has implications for artificial general intelligence, artificial consciousness, and the nature of self-awareness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The philosophical intersection between machine learning and human understanding suggests that understanding may be more about patterns than substance.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

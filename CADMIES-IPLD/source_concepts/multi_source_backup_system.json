@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "multi_source_backup_system",
+  "title": "Multi Source Backup System",
+  "definition": "A backup system that allows data to be securely stored and backed up from multiple source locations, enhancing data redundancy and accessibility.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.672439Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.672439Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a safety net that copies your important files from multiple places. This way, even if one place gets damaged, you still have a backup.",
+    "intermediate": "A multi-source backup system is a type of data backup solution that allows users to back up data from multiple sources to multiple destinations. It increases data reliability and availability.",
+    "expert": "A multi-source backup system is a sophisticated solution that provides data redundancy, enhancing data security and availability. It involves implementing multiple backup processes that store data in separate locations. This strategy minimizes the impact of single points of failure and improves data recovery and business continuity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlighted the integration of a new source location (PNY) into the existing backup system, demonstrating the concept of a multi-source backup system.",
+    "source_chunk": 101,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

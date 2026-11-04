@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "system_resilience",
+  "title": "System Resilience",
+  "definition": "The ability of a system to recover from failures, maintain performance, and continue operation under adverse conditions.",
+  "type": "Concept",
+  "domain": "Systems Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.467891Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.467891Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a system's resilience like the flexibility of a rubber band. Even when faced with problems or challenges, it can bounce back and continue functioning.",
+    "intermediate": "System resilience encompasses backup systems, recovery procedures, and performance optimization strategies. It's about maintaining operational continuity, even in the face of failures.",
+    "expert": "System resilience is a complex interplay of various factors, including backup systems, recovery procedures, performance optimization, and security measures. It's about creating a system that can adapt, learn, and evolve, even in the presence of uncertainties and adversities. It's also about the philosophy of robustness, redundancy, and adaptability."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of system resilience, emphasizing the need for backup systems, recovery procedures, and performance optimization strategies.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

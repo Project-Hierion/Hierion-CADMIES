@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "non_duality_in_consciousness",
+  "title": "Non Duality In Consciousness",
+  "definition": "The philosophical concept that highlights the interconnectedness and non-separateness of the observer and the observed in the realm of consciousness.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.132567Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.132567Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a pond and its ripples. You are the still pond, and the ripples are your thoughts and emotions. Even when the ripples are present, the pond remains calm. This is non-duality \u2013 understanding that you are not your thoughts.",
+    "intermediate": "Non-duality in consciousness suggests that the observer (the conscious mind) and the observed (thoughts, emotions, and sensations) are interdependent and non-separable. The true self is neither the mind nor its content.",
+    "expert": "Non-duality in consciousness has profound implications in various philosophical traditions, such as Advaita Vedanta and Zen Buddhism. It challenges the Cartesian dualism of mind and body, suggesting that consciousness is fundamental and unified. Further, this concept has connections to quantum mechanics and the nature of reality, indicating a potential interplay between individual consciousness and the cosmic consciousness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The realization that the observer and the observed are interconnected and non-separable in the realm of consciousness.",
+    "source_chunk": 124,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

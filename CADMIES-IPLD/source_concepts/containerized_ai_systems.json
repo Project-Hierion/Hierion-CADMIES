@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "containerized_ai_systems",
+  "title": "Containerized Ai Systems",
+  "definition": "A system that leverages containers to optimize the deployment and operation of AI services and tools.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.463108Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.463108Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a container as a box for your software. It makes sure everything works properly on different systems without any conflicts. This helps AI services run smoothly, faster and more efficiently.",
+    "intermediate": "Containerized AI systems involve encapsulating AI services and tools within lightweight, portable containers. This ensures consistency across different environments, simplifies deployment, and optimizes resource utilization.",
+    "expert": "Containerized AI systems involve the use of virtualized environments to isolate and manage the execution of AI applications. These systems provide portability, scalability, and resource efficiency by leveraging container technologies such as Docker and Kubernetes. Furthermore, they enable the development and integration of microservices architectures, which can lead to more modular, resilient, and maintainable AI systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of containers allows for the efficient and consistent deployment and operation of AI services and tools, leading to improved performance, scalability, and resource utilization.",
+    "source_chunk": 16,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

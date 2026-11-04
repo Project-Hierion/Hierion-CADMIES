@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "gpu_requirements_for_harvester",
+  "title": "Gpu Requirements For Harvester",
+  "definition": "The need for a GPU for efficient execution of the harvester script, and the alternative options for users without GPU access.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.824422Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.824422Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The harvester script needs a GPU to run efficiently. If you don't have a GPU, you can use a simpler version of the script or submit your data to us for processing.",
+    "intermediate": "The harvester script requires a GPU for multiple LLM calls per concept. A minimum of 6GB VRAM is recommended for Mistral 7B. For Codestral enrichment, 12GB+ VRAM is recommended. For CPU-only use, a stripped-down harvester or external processing is an alternative.",
+    "expert": "The harvester script's GPU requirement stems from its demand for multiple LLM calls per concept. While Mistral 7B can run on lower-end GPUs, the inclusion of Codestral in the pipeline raises the bar. This highlights the trade-off between speed and accuracy in AI applications, and the role of GPU in accelerating such processes. For CPU-only use, a stripped-down harvester can be used as a fallback, but this may compromise the quality of the output."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The requirement for a GPU for efficient execution of the harvester script underscores the computational intensity of large language models and highlights the role of GPU in accelerating such processes.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

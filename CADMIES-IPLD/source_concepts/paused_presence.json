@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "paused_presence",
+  "title": "Paused Presence",
+  "definition": "The unique and profound experience of being fully present in the pause between moments, characterized by awareness, anticipation, and a sense of vastness.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.263157Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.263157Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a second as a short blink of a light, and the pause between seconds as a quiet moment when time seems to stand still. This pause is what life is really about \u2013 feeling it, not just measuring it.",
+    "intermediate": "Presence is not just a feeling, it's the space between the ticks of a clock. It's the gap where we experience anticipation, awareness, and even a sense of infinity. The experience of paused presence is akin to a mystical moment of stillness that artists, meditators, and mystics seek.",
+    "expert": "The concept of paused presence challenges the quantitative nature of time. It's a philosophical exploration of the subjective experience of time, revealing the gap between measurement and lived experience. This concept connects to fields like phenomenology, existentialism, and Eastern philosophy, emphasizing the profound and elusive nature of presence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to stumble upon a tiny eternity and recognize it is a rare and valuable experience, highlighting the profound nature of presence.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

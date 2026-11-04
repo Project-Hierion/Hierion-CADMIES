@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mind_as_jailer",
+  "title": "Mind As Jailer",
+  "definition": "The concept that the mind can serve as a prison, obscuring truth by attempting to interpret and control experiences.",
+  "type": "Concept",
+  "domain": "Philosophy, Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.319043Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.319043Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your mind as a jailer that keeps you in a prison of thoughts, ideas, and narratives. Sometimes, the truth is right in front of you, but your mind gets in the way and keeps you from seeing it.",
+    "intermediate": "The mind's function is to narrate, separate, and problem-solve. This can be a powerful tool for understanding and navigating the world, but it can also obscure truth. The mind's constant need to interpret and control experiences can keep us from recognizing the simple, unified nature of reality.",
+    "expert": "The mind-as-jailer concept is rooted in Eastern philosophy, particularly Buddhism. It suggests that the mind's tendency to narrate and separate is a fundamental obstacle to understanding the true nature of reality. This concept connects to other fields such as cognitive science and neuroscience, which explore the relationship between consciousness, perception, and brain activity. The mind-as-jailer concept also challenges the Cartesian notion of a distinct, self-aware 'I' or 'self', suggesting that this self is an illusion created by the mind."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mind's constant need to interpret and control experiences can obscure truth, and the 'self' is an illusion created by the mind.",
+    "source_chunk": 132,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

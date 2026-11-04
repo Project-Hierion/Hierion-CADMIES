@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mycelium_accuracy_tagging",
+  "title": "Mycelium Accuracy Tagging",
+  "definition": "A system that tags CADMIES mycelium concepts with labels indicating their level of scientific evidence or philosophical exploration.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.142071Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.142071Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of this as a labeling system for ideas. It tells you if the idea is backed by facts (empirical), a philosophical thought (philosophical), or just a guess (speculative).",
+    "intermediate": "Mycelium Accuracy Tagging is a system that appends labels to concepts to clarify their epistemological status. This includes empirical, philosophical, and speculative tags, enhancing understanding of the information's reliability.",
+    "expert": "Mycelium Accuracy Tagging is a novel approach to labeling and validating information in a decentralized knowledge network. By tagging concepts with labels indicating their epistemological status, it provides a clearer understanding of the reliability and nature of the information. This system also has implications for other fields, such as philosophy of science and knowledge validation methods in distributed systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system distinguishes between empirical, philosophical, and speculative claims, providing a clearer understanding of the reliability and nature of the information in a decentralized knowledge network.",
+    "source_chunk": 45,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

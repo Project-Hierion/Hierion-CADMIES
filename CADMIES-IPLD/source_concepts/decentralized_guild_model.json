@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_guild_model",
+  "title": "Decentralized Guild Model",
+  "definition": "A model for organizing a project based on a tiered system of volunteer roles, with increased responsibility and recognition, and using blockchain for transparency and accountability.",
+  "type": "Concept",
+  "domain": "Organizational Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.579846Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.579846Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden with many volunteers, each having a specific role and more responsibility as they gain more experience. The garden also uses a digital book to record all important decisions and actions to ensure everyone knows what's going on. This way, everyone can trust the garden's growth and direction.",
+    "intermediate": "This model involves establishing a structured system of volunteer roles within a project, with each role having more responsibility and recognition as one becomes more trusted and experienced. Blockchain technology is utilized to create a publicly visible, unchangeable ledger to log significant actions and decisions, enhancing transparency and accountability.",
+    "expert": "The decentralized guild model expands upon traditional organizational structures by distributing power and decision-making to a network of volunteers. This model aligns with the principles of decentralization and decentralized autonomous organizations (DAOs). By using blockchain, the model enhances its resilience and trustworthiness while providing transparency and enabling a more democratic decision-making process. The model also emphasizes the role of reputation and status within the community, which can serve as a more meaningful incentive for individuals to contribute to the project than traditional monetary compensation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed the importance of a decentralized guild model and the integration of blockchain technology to enhance transparency and accountability.",
+    "source_chunk": 49,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

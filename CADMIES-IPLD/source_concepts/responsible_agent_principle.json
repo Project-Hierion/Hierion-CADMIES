@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "responsible_agent_principle",
+  "title": "Responsible Agent Principle",
+  "definition": "The principle that the entity generating or writing data should be responsible for ensuring its accuracy and validity.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.067382Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.067382Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're cooking a recipe. You should make sure the ingredients you add exist before mixing them, right? Similarly, a system should check if data it's using exists and is accurate before using it.",
+    "intermediate": "The responsible agent principle is a design principle in AI systems that asserts that the agent generating or writing data should be responsible for ensuring its accuracy and validity. This principle is related to data validation and integrity.",
+    "expert": "The responsible agent principle has significant philosophical implications, particularly in the context of knowledge graphs and semantic web technologies. It challenges the traditional distinction between authoring and publication, as well as the role of the machine in data creation. Edge cases include scenarios where the 'agent' is uncertain about data validity, or where multiple agents are involved in data generation. This principle also connects to broader discussions about accountability and trust in AI systems."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The relationship generator should validate target existence before writing edges to ensure graph integrity and accuracy.",
+    "source_chunk": 98,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

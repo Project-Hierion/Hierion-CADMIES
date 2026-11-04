@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_maintained_open_source_projects",
+  "title": "Community Maintained Open Source Projects",
+  "definition": "The concept of sustaining open-source projects through community engagement and maintenance, even after initial development.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.229568Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.229568Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a park where people regularly clean it up, even after it's built. That's what community-maintained open-source projects do: they keep growing and improving, not just once, but over time.",
+    "intermediate": "Community-maintained open-source projects involve the continuous involvement of a community in the development and upkeep of a project, ensuring its longevity and evolution beyond the initial creator's involvement.",
+    "expert": "The maintenance of community-maintained open-source projects is a testament to the collective intelligence and altruism of the people involved. It challenges the conventional model of project development and ownership, highlighting the potential for distributed knowledge and decision-making. Moreover, the success of these projects can be a gauge for the health of a particular open-source community and its commitment to sharing knowledge and resources."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The abandoned LLMDataHub repository was rejuvenated through community maintenance and is now serving as a valuable resource for ongoing development.",
+    "source_chunk": 3,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

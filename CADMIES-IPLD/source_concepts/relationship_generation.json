@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "relationship_generation",
+  "title": "Relationship Generation",
+  "definition": "The process of identifying and establishing relationships or connections between concepts in a knowledge system.",
+  "type": "Concept",
+  "domain": "Knowledge Systems",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.451410Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.451410Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a web of information where ideas are connected to each other. Relationship generation is like weaving that web by finding and creating links between different concepts.",
+    "intermediate": "Relationship generation involves analyzing concepts, identifying their interconnections, and proposing new relationships based on these insights. It is a critical part of building and maintaining a coherent knowledge system.",
+    "expert": "Relationship generation is a recursive process that deepens the interconnectedness of a knowledge system. It not only connects concepts within a domain but also explores connections between domains. The philosophical implication is that understanding the world requires recognizing and navigating these relationships."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mistral's relationship generation process is self-wiring, continuously expanding the knowledge system by establishing new connections.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

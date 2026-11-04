@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_ecosystem",
+  "title": "Knowledge Ecosystem",
+  "definition": "A collection of interconnected components that enable the acquisition, storage, and utilization of knowledge in a systemized and efficient manner.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.465530Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.465530Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your knowledge is like a garden. Tools help you grow it (add new ideas), storage keeps it safe, and the system helps you find what you need when you need it.",
+    "intermediate": "A knowledge ecosystem is a network of AI systems, such as Mistral, RAG, and HOG, that work together to process, store, and retrieve information, enabling context-aware responses.",
+    "expert": "A knowledge ecosystem is a complex adaptive system that integrates multiple AI components. It enables not only the acquisition and utilization of information but also its continuous growth and improvement. This concept has philosophical implications in fields like epistemology, as it explores the nature of knowledge and its role in shaping human understanding and intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept of a knowledge ecosystem, where various AI systems collaborate to create, store, and retrieve knowledge, was extracted from the discussion about the system's infrastructure and its components.",
+    "source_chunk": 17,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

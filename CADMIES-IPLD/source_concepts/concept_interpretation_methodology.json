@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_interpretation_methodology",
+  "title": "Concept Interpretation Methodology",
+  "definition": "The process of interpreting and extracting high-level concepts from text data, prioritizing quality over quantity, and preferring unified philosophical concepts over granular pieces.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.650910Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.650910Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like reading a book. You don't try to understand every single word, but rather focus on the main ideas and themes. It's about finding the big picture.",
+    "intermediate": "Concept interpretation methodology in AI involves using techniques to extract meaningful, high-level concepts from data. This process prioritizes quality over quantity and prefers unified philosophical concepts.",
+    "expert": "Concept interpretation methodology is a philosophical and practical approach to extracting insights from data. It connects to the field of hermeneutics, focusing on understanding the deep meanings behind the text. This methodology prioritizes quality over quantity, favoring unified philosophical concepts that reveal novel insights about the data. It also considers the limitations and edge cases of different extraction techniques."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation emphasizes the importance of quality over quantity in concept extraction and the value of unified philosophical concepts.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

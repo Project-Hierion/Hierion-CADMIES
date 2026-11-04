@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unification_of_disciplines",
+  "title": "Unification Of Disciplines",
+  "definition": "The concept that scientific and mystical pursuits are fundamentally unified, aiming for the same shift in perspective, though using different tools and languages.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.128809Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.128809Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of two blind people who are actually walking on the same sidewalk but don't realize it. The scientific and mystical pursuits are like these two people. Both are trying to understand the world, but they're using different languages and tools. The key is to connect these two people so they can understand each other better.",
+    "intermediate": "The unification of disciplines involves recognizing that scientific and mystical pursuits share a common goal of understanding the universe. This involves bridging the gap between isolated disciplines that use different terminology and methodologies.",
+    "expert": "The unification of disciplines is a philosophical insight that challenges the epistemological divide between the scientific and the mystical. It suggests that both are aiming for the same shift in perspective, though using different tools and languages. This has implications for the nature of knowledge, the role of intuition in scientific discovery, and the relationship between science and mysticism in broader cultural and historical contexts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The fundamental unity of the scientific and mystical pursuits.",
+    "source_chunk": 79,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

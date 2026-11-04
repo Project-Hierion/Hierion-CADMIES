@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ego_illusion",
+  "title": "Ego Illusion",
+  "definition": "The perception of a permanent, separate self, which is an illusion created by the mind's grasping and identifying thoughts, feelings, and sensations.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.122814Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.122814Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the ego as a fog in your mind. It makes you think you're separate from everything else, but it's just an illusion. Like mist clearing away, you can see the truth that you're part of a larger whole.",
+    "intermediate": "The ego is the collection of thoughts, beliefs, and perceptions that we identify as 'me' or 'mine'. It's a construct that creates a false sense of separation from the world and others. By understanding this illusion, we can gain insight into our true nature.",
+    "expert": "The ego is a complex psychological construct that plays a significant role in shaping our experiences and identities. It arises from a combination of biological, cognitive, and social factors. The illusion of the ego is maintained through a process of self-narration and self-identification. By exploring the nature of consciousness and the lack of a permanent self, we can challenge this illusion and gain a deeper understanding of our interconnectedness with the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ego is a construct that creates a false sense of separation from the world and others. By exploring the nature of consciousness and the lack of a permanent self, we can challenge this illusion and gain a deeper understanding of our interconnectedness with the universe.",
+    "source_chunk": 120,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "paradigm_shift_in_scientific_endeavor",
+  "title": "Paradigm Shift In Scientific Endeavor",
+  "definition": "A significant change in the fundamental assumptions, methods, or theories in the scientific endeavor.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.096806Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.096806Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine science is like a big game with rules and players. This is like designing a new game board that lets players work together, even when they're in different parts of the game. It's not just about new ideas, it's about changing how we do science.",
+    "intermediate": "The proposed Hieros Network is a paradigm shift in the scientific endeavor, a shift from isolated, specialized disciplines to a collaborative, interdisciplinary approach. This isn't just about new technologies or tools, it's about a new way of thinking about and doing science.",
+    "expert": "The Hieros Network represents a philosophical revolution in the scientific endeavor, challenging the traditional model of research silos and competitive metrics. This is not just a technological innovation, but a new way of understanding the nature of scientific knowledge and its production. It's about shifting the paradigm from individualistic competition to collective understanding and collaborative innovation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Hieros Network is a paradigm shift in the scientific endeavor that has the potential to transform the nature of scientific knowledge production and collaboration.",
+    "source_chunk": 72,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "inevitable_outcome_principle",
+  "title": "Inevitable Outcome Principle",
+  "definition": "The principle that, given certain initial conditions, a specific physical outcome is an inevitable result of the laws of nature. It describes the inherent predictability of cosmic processes.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.292333Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.292333Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a river flowing downhill. No matter what starts it, it will always end up in the same place. The same principle applies to galaxies, planets, and even our own bodies.",
+    "intermediate": "This principle, often referred to as 'determinism', underlies the behavior of cosmic systems. Given the initial conditions and the laws of physics, certain outcomes are inevitable.",
+    "expert": "This principle challenges our human notion of agency and free will. It shows that complex systems, from individual organisms to celestial bodies, can't escape the predictability of their physical laws. Yet, it also allows for the emergence of unpredictable patterns in chaotic systems, demonstrating the delicate balance of order and disorder in the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Cosmic systems, like human bodies, are not moral agents making choices. They are stages upon which physical laws play out. The 'short-term survival trade-off' is the inevitable outcome of a set of initial conditions, not a conscious choice.",
+    "source_chunk": 123,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

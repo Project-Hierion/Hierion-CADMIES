@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "code_inventory_analysis",
+  "title": "Code Inventory Analysis",
+  "definition": "The process of understanding the contents, structure, and relationships of a large codebase by analyzing its files and directories.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.082214Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.082214Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're exploring a new mansion. Code inventory analysis is like listing all the rooms, noting what's inside, and finding patterns.",
+    "intermediate": "Code inventory analysis involves scanning a project to understand its directory structure, file types, and sizes. It's a way to gain insights into the project's organization and complexity.",
+    "expert": "Code inventory analysis is a systematic approach to understanding a codebase. It can reveal potential project structures, highlight security risks, and provide insights into the project's evolution. By analyzing file contents, it can also uncover patterns and connections between different parts of the codebase."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals a system for analyzing a codebase, which can provide insights into its structure, potential projects, and security risks.",
+    "source_chunk": 104,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

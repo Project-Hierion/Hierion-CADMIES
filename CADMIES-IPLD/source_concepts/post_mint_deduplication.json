@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "post_mint_deduplication",
+  "title": "Post Mint Deduplication",
+  "definition": "The process of eliminating duplicate concepts from a list of concepts, typically after they have been minted but before they are saved.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.364143Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.364143Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're collecting stickers and you accidentally get some duplicates. Post-mint deduplication is like checking your collection to make sure there are no repeats before you display it.",
+    "intermediate": "Post-mint deduplication involves running a function on a list of concepts after they've been extracted from a source but before they're saved or reviewed. This function removes any duplicate concepts, ensuring data integrity.",
+    "expert": "Post-mint deduplication is a critical step in data processing to ensure the accuracy and efficiency of a system. By eliminating duplicates from a list of concepts, the system can save storage space, improve performance, and avoid inconsistencies. Furthermore, the timing of this process \u2014 just before review and minting \u2014 allows for the greatest level of control and flexibility, as it ensures that the deduplicated data is used in all subsequent steps without affecting earlier stages of the pipeline."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of post-mint deduplication as a critical step in data processing and its implications for data integrity and system performance.",
+    "source_chunk": 141,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

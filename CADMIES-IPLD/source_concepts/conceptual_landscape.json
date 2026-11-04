@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_landscape",
+  "title": "Conceptual Landscape",
+  "definition": "The interconnected web of ideas and concepts across various disciplines and domains, represented as nodes, and their relationships, represented as edges.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.356778Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.356778Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a garden with many different flowers and plants. Each flower represents an idea, and the paths between them show how these ideas are related. You can explore different areas of the garden (or domains) to find concepts that interest you.",
+    "intermediate": "In a conceptual landscape, concepts are nodes, and relationships between them are edges. A knowledge graph is a graph-based data structure that represents a conceptual landscape, allowing users to navigate and explore concepts, domains, and relationships.",
+    "expert": "The conceptual landscape is a philosophical exploration of the nature of knowledge and its representation. It challenges the traditional hierarchical and siloed structure of academic disciplines. A knowledge graph is a computational implementation of a conceptual landscape, enabling sophisticated search, reasoning, and discovery of complex patterns and insights."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interconnectedness and evolvability of the conceptual landscape, challenging the traditional boundaries of disciplines and fostering a more holistic and interdisciplinary understanding of knowledge.",
+    "source_chunk": 43,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

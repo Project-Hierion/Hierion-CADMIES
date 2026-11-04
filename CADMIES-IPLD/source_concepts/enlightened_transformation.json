@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "enlightened_transformation",
+  "title": "Enlightened Transformation",
+  "definition": "The process of conscious evolution from ego-centricity to a state of integrated awareness and compassionate presence.",
+  "type": "Concept",
+  "domain": "Philosophy, Spirituality",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.264845Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.264845Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "self_illusion",
+      "perceptual_shift",
+      "nirvana_consciousness",
+      "divine_amnesia"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "integrated_awareness",
+      "enlightened_ordinary",
+      "skillful_invisibility",
+      "middle_way_of_practice"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Enlightened Transformation is a journey where we move from a self-centered mindset to a more loving and aware state. It's like learning to see the world with a heart full of kindness, rather than through the lens of our own thoughts.",
+    "intermediate": "Enlightened Transformation is a process of self-illusion dissolution, where the individual undergoes a perceptual shift from the ego-centric view of the world to a more integrated and aware consciousness. This transformation is often associated with spiritual practices such as mindfulness and the Noble Eightfold Path.",
+    "expert": "Enlightened Transformation is a philosophical and psychological phenomenon that spans multiple disciplines. It involves the deconstruction of the self-illusion, a fundamental change in how one perceives and understands reality. This process may reveal the interconnectedness between individual consciousness and the universe's architecture, as suggested by Sonic Cosmology, and the potential for transcending individual existence, as proposed in Nirvana Consciousness and Divine Amnesia."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "self_illusion",
+      "perceptual_shift",
+      "nirvana_consciousness",
+      "divine_amnesia"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness between various concepts such as enlightenment, consciousness, self-awareness, and reality perception, suggesting a broader understanding of the enlightened transformation process.",
+    "source_chunk": 13,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

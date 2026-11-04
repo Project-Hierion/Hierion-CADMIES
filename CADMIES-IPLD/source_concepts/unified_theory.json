@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "unified_theory",
+  "title": "Unified Theory",
+  "definition": "A theoretical framework that combines and explains multiple scientific theories under one umbrella.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.546515Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.546515Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine trying to understand the universe as a big puzzle. A unified theory is like finding a magic key that fits all the pieces together, making sense of what we see and how things work.",
+    "intermediate": "A unified theory is a theoretical framework that combines and simplifies multiple scientific theories by providing a single, consistent explanation for observed phenomena. An example is General Relativity, which unifies the concepts of gravitation and space-time.",
+    "expert": "A unified theory offers a deeper understanding of the universe by providing a more comprehensive explanation of observed phenomena. It not only consolidates multiple scientific theories but also highlights the interconnectedness of different fields. A notable example is the Theory of Everything (TOE), which aims to unify quantum mechanics and general relativity, shedding light on the fundamental nature of the universe."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlighted the emergence of new unified theories such as General Relativity, Nervous System, Celestial Dynamics, Bioenergetics, Microbial Ecosystems, Endocrine System, Black Holes, and Climate Change, connecting and explaining various phenomena within and across different scientific domains.",
+    "source_chunk": 121,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

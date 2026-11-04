@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_orchestration",
+  "title": "Backup Orchestration",
+  "definition": "The systematized process of managing backups at different intervals (daily, weekly, monthly) and removing old backups to optimize storage.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.617779Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.617779Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're a librarian managing books. You've got a system where you make daily backups, weekly backups, and monthly backups. When a backup is old and not needed anymore, you remove it to make room for new ones. This is similar to what backup orchestration does with digital data.",
+    "intermediate": "Backup orchestration is a sophisticated system that uses shell scripts to automate the process of creating backups at specified intervals. It also ensures that old backups are removed to manage storage effectively. This is achieved by using rsync for data transfer and regular expressions for pattern matching in file names.",
+    "expert": "From a philosophical perspective, backup orchestration is a study in preservation and ephemerality. It balances the need to store data for future use with the necessity to free up resources for new data. It also explores the relationship between time and data, as it manipulates timestamps to determine which backups are old enough to be removed. Additionally, backup orchestration has connections to fields like data mining, information theory, and cybersecurity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the need for a system to manage and optimize backups, demonstrating an understanding of data preservation and resource management.",
+    "source_chunk": 81,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

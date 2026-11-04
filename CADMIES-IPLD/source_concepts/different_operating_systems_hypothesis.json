@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "different_operating_systems_hypothesis",
+  "title": "Different Operating Systems Hypothesis",
+  "definition": "The hypothesis that perceptual frames can enhance intelligence by providing multiple operating systems or perspectives.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.819572Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.819572Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having different lenses to see the world. Each lens lets you focus on a unique aspect, expanding your understanding.",
+    "intermediate": "The Different Operating Systems Hypothesis posits that the ability to perceive and interpret the world through multiple 'operating systems' or frames of reference can augment cognitive abilities.",
+    "expert": "The Different Operating Systems Hypothesis is a philosophical proposal that draws from the concept of multiple intelligences and embodied cognition. It suggests that the ability to perceive and interpret the world through multiple 'operating systems' or frames of reference can enhance cognitive abilities, providing a richer, more nuanced understanding of reality. This hypothesis also has implications for artificial intelligence, suggesting that creating systems with multiple perceptual frameworks could lead to more intelligent and adaptable AI."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to perceive and interpret the world through multiple 'operating systems' or frames of reference can enhance cognitive abilities.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

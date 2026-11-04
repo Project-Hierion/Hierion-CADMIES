@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "global_scientific_nervous_system",
+  "title": "Global Scientific Nervous System",
+  "definition": "A decentralized, peer-to-peer data network that enables the discovery of universal patterns and connections across disciplines and scales.",
+  "type": "Concept",
+  "domain": "Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.068610Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.068610Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a global brain where all scientists share their knowledge and ideas. This brain helps us find common patterns in different areas of science, making discoveries faster and more powerful.",
+    "intermediate": "The global scientific nervous system is a network of data and AI that allows for the efficient sharing, analysis, and synthesis of scientific data. It enables the discovery of universal patterns and connections across disciplines and scales, which can lead to new insights and breakthroughs.",
+    "expert": "The global scientific nervous system is a novel approach to the organization and transmission of scientific knowledge. It combines the principles of a peer-to-peer data network with the power of AI to enable the discovery of universal patterns and connections across disciplines and scales. This can lead to new insights and breakthroughs, and has the potential to reshape the way science is done, blurring the boundaries between disciplines and creating a new global scientific identity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The creation of a global scientific nervous system that enables the discovery of universal patterns and connections across disciplines and scales has the potential to reshape the way science is done and lead to new insights and breakthroughs.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

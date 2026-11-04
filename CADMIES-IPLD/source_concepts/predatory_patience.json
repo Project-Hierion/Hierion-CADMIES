@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "predatory_patience",
+  "title": "Predatory Patience",
+  "definition": "The strategic adaptation of hematophagous predators to infrequent, stealth-optimized feeding through extreme metabolic efficiency, enhanced sensory capabilities, and the ability to wait out transient deterrents.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.810482Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.810482Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Predators like vampires have evolved to feed less frequently and more silently than their prey. This is because they have adapted to have low energy use, which lets them wait for the right moment to feed without running out of energy. They also have good senses, like super smell and night vision, that help them find their prey and avoid getting caught.",
+    "intermediate": "Predatory patience is a suite of physiological and behavioral adaptations enabling infrequent, stealth-optimized feeding. This is achieved through low metabolic rates, enhanced sensory capabilities for host identification and chemical assessment, and the ability to outlast transient deterrents through metabolic patience.",
+    "expert": "Predatory patience is a counterintuitive strategy in the evolutionary arms race of predation. It's a metabolic strategy that enables a hematophagous predator to maximize their survival and reproductive success in the long term, despite the immediate cost of reduced energy intake and the evolutionary pressure to maximize energy expenditure for hunting. This strategy is characterized by an ultra-low metabolic rate, enabling feeding intervals of 2-7 nights, and advanced sensory capabilities that replace speed in prey location."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Predatory patience is a counterintuitive strategy that exploits the evolutionary pressure for energy maximization in predation by optimizing for survival and reproductive success in the long term.",
+    "source_chunk": 58,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cpu_inference_strategy",
+  "title": "Cpu Inference Strategy",
+  "definition": "A two-phase strategy for CPU inference that maximizes efficiency and minimizes timeouts, consisting of intra-batch edges and cross-batch bridges.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.570185Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.570185Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a strategy for making fast decisions on a CPU as two steps: first, looking at a small group of options, and then connecting these groups. This way, we can make better decisions faster.",
+    "intermediate": "The CPU inference strategy is a two-phase approach, where the first phase focuses on establishing relationships within a small batch of concepts (intra-batch edges), and the second phase involves creating connections between these batches (cross-batch bridges).",
+    "expert": "The CPU inference strategy is a novel approach that leverages the limitations of CPU-based inference systems. By breaking down the inference process into two phases, it enables efficient exploration of relationships within a batch of concepts and facilitates the discovery of connections between batches. This strategy has significant philosophical implications, as it highlights the interconnectedness of concepts and the importance of understanding both local and global relationships."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The effectiveness of the CPU inference strategy lies in its ability to balance the exploration of local relationships within a batch of concepts (intra-batch edges) and the discovery of global connections between batches (cross-batch bridges).",
+    "source_chunk": 56,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

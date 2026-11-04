@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holistic_wisdom",
+  "title": "Holistic Wisdom",
+  "definition": "Holistic wisdom refers to the integration and understanding of various concepts across different domains, recognizing their interconnectedness and potential applications.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.453888Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.453888Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Holistic wisdom is like a big puzzle where all the pieces are different shapes and colors. To see the whole picture, you need to fit them together, understanding how each piece relates to the other.",
+    "intermediate": "Holistic wisdom is the synthesis of diverse concepts and theories, connecting and interpreting them in a comprehensive manner. It acknowledges the interrelatedness of disciplines and their mutual influence.",
+    "expert": "Holistic wisdom is an epistemological model that emphasizes the synergy and interdependence of concepts from various disciplines. It challenges traditional silos of knowledge, promoting a more comprehensive and integrated understanding of the world. Holistic wisdom has connections to complex systems theory, cognitive science, and information theory, and it has philosophical implications for the nature of truth and knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of diverse concepts from various domains creates a more comprehensive and interconnected understanding of the world.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

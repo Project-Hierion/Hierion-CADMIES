@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "software_evolution",
+  "title": "Software Evolution",
+  "definition": "The process of a software application evolving over time through updates, upgrades, and modifications.",
+  "type": "Concept",
+  "domain": "Computer_Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.845227Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.845227Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of software as a living thing \u2014 it grows and changes. This is when it gets new features, fixes problems, and can be improved.",
+    "intermediate": "Software evolution is the systematic process of modifying and upgrading software applications. This can be through adding new functionalities, fixing bugs, or improving performance. It's a cyclical process that often involves versioning and rollbacks.",
+    "expert": "Software evolution is a complex process that integrates various disciplines including computer science, human-computer interaction, and software engineering. It involves understanding the software's history, its purpose, and its context. The evolution process can be influenced by technological advances, market trends, user feedback, and regulatory requirements. Edge cases include managing dependencies, ensuring backward compatibility, and handling unexpected side effects."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Software evolution reveals a continuous cycle of improvement and adaptation, highlighting the need for clear naming conventions, version control, and a rollback plan.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

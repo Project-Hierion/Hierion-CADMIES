@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "evolutionary_feedback_loop",
+  "title": "Evolutionary Feedback Loop",
+  "definition": "A self-perpetuating loop where the adaptations of one organism influence the environment and then shape the future evolution of that species and its interactions with other species and the environment.",
+  "type": "Concept",
+  "domain": "Evolutionary Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.855517Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.855517Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of evolution as a game of tag between creatures and their environments. When a creature adapts to its environment, it changes the game. This new environment then shapes the evolution of the creature, and the cycle continues.",
+    "intermediate": "An evolutionary feedback loop is a closed-loop system where the adaptive traits of a population contribute to the selection of those traits, creating a self-reinforcing effect. This concept is central to understanding the processes of natural selection and speciation.",
+    "expert": "The evolutionary feedback loop is a philosophically rich concept that highlights the interplay between genetics, phenotypes, and the environment. It connects to broader philosophical questions about determinism, free will, and the nature of life. The feedback loop also has implications for understanding complex systems and the dynamics of change in other fields, such as economics and sociology."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of evolutionary processes and the feedback loops that shape the world.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

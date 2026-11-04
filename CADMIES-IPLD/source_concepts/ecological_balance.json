@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ecological_balance",
+  "title": "Ecological Balance",
+  "definition": "The equilibrium between living organisms and their physical environment, and the principles that govern it.",
+  "type": "Concept",
+  "domain": "Ecology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.558413Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.558413Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Ecological balance is like finding the sweet spot where nature and its creatures thrive together. It's about understanding how changes in one part of the ecosystem can affect everything else, and finding ways to maintain this balance.",
+    "intermediate": "Ecological balance involves studying the relationships between living organisms and their physical environment, as well as the principles that govern these relationships. This includes understanding concepts such as biodiversity, ecosystem services, and the role of keystone species.",
+    "expert": "Ecological balance is a complex field that involves understanding the interplay between biology, geography, and climate. Exploring ecological balance involves delving into areas such as landscape ecology, conservation biology, and ecosystem modeling. Novel insights include the role of network theory in understanding ecosystem functioning, the concept of ecological debt, and the role of ecological restoration in addressing climate change."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding ecological balance may provide insights into the resilience and sustainability of ecosystems, and inform strategies for conservation and restoration.",
+    "source_chunk": 128,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

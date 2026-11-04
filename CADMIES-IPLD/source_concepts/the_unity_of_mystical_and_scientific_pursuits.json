@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_unity_of_mystical_and_scientific_pursuits",
+  "title": "The Unity Of Mystical And Scientific Pursuits",
+  "definition": "The observation that the pursuit of enlightenment, through meditation and introspection, mirrors the scientific pursuit, which dissolves the illusion of separate objects by studying quantum fields.",
+  "type": "Concept",
+  "domain": "Philosophy and Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.118259Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.118259Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine seeing the universe from the perspective of its quantum fields, just like a Buddhist monk sees the interconnectedness of all things. This concept is about the unity of these two seemingly different ways of understanding the world.",
+    "intermediate": "The unity of the mystical and scientific pursuits is found in their shared goal of dissolving illusions. Buddhism dissolves the illusion of separate selves, while physics dissolves the illusion of separate objects. Both aim to understand the fundamental nature of reality, using different tools and perspectives.",
+    "expert": "The unity of the mystical and scientific pursuits is a philosophical and historical insight that bridges Eastern and Western thought. It reflects the idea of non-duality, found in both Advaita Vedanta and quantum mechanics. The concept has implications for the philosophy of mind, consciousness, and reality, and for the relationship between science and spirituality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The unity of the mystical and scientific pursuits, reflecting the fundamental interconnectedness of reality and the individual self.",
+    "source_chunk": 77,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

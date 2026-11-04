@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_extraction",
+  "title": "Knowledge Extraction",
+  "definition": "The process of identifying, extracting, and representing significant information from a source.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.748629Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.748629Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as reading a book and pulling out the main ideas. No need for a master's degree, just a keen eye for important points.",
+    "intermediate": "Knowledge extraction in AI involves natural language processing techniques to convert unstructured text data into structured knowledge that can be stored and queried.",
+    "expert": "Knowledge extraction is a critical component in building knowledge graphs and ontologies. It has connections to fields like information retrieval, machine learning, and knowledge representation. Mistral's non-deterministic behavior highlights the challenge of ensuring consistency and accuracy in extracted knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The knowledge extraction process should be automated, flexible, and adaptable to different sources and contexts. However, maintaining consistency and accuracy in knowledge extraction from non-deterministic models remains a challenge.",
+    "source_chunk": 119,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

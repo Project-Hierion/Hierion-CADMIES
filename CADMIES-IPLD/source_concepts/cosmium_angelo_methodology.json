@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmium_angelo_methodology",
+  "title": "Cosmium Angelo Methodology",
+  "definition": "A methodological approach to the design, development, and maintenance of complex systems, focusing on digital forensics, root cause analysis, legacy recovery, and validation protocols.",
+  "type": "Concept",
+  "domain": "Systems Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.347781Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.347781Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine playing a game of detective to understand and fix broken systems. The Cosmium Angelo methodology is like a toolkit for this detective work, guiding us through understanding what went wrong and ensuring it doesn't happen again.",
+    "intermediate": "The Cosmium Angelo methodology is a systems engineering approach that includes digital forensics, root cause analysis, legacy recovery, and validation protocols. It's a structured way to understand and improve complex systems, with a focus on preserving functionality and maintaining privacy.",
+    "expert": "The Cosmium Angelo methodology is a novel application of systems engineering principles, drawing from digital forensics, root cause analysis, legacy recovery, and validation protocols. By focusing on the understanding and preservation of functionality, it offers a unique approach to systems engineering that prioritizes privacy and efficiency. Its philosophical implications extend to the broader field of digital rights and the role of technology in preserving and enhancing human autonomy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Cosmium Angelo methodology highlights the importance of understanding complex systems at a deep level, and the need for methodological approaches that prioritize functionality, privacy, and efficiency.",
+    "source_chunk": 24,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

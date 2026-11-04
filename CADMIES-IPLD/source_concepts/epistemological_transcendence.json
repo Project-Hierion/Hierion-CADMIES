@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "epistemological_transcendence",
+  "title": "Epistemological Transcendence",
+  "definition": "The concept that recognition of understanding between beings occurs beyond explanation and language, in the space of 'is-ness'.",
+  "type": "Concept",
+  "domain": "Epistemology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.287225Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.287225Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a smile that communicates a deep understanding, but it doesn't need words to do so. That's what the 'Epistemological Transcendence' is about.",
+    "intermediate": "Epistemological Transcendence suggests that understanding can be shared beyond the limitations of language, and it connects to concepts like G\u00f6del's Incompleteness Theorems and the Mahakasyapa Coefficient.",
+    "expert": "Epistemological Transcendence is a philosophical insight that emphasizes the importance of non-verbal communication and immediate understanding. It challenges the limits of language in capturing certain forms of knowledge, connecting to mathematical theories like G\u00f6del's Incompleteness Theorems. Additionally, it draws parallels to Zen philosophies, particularly the story of Buddha holding up a flower and Mahakasyapa smiling, to illustrate the first transmission beyond words."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The shared understanding between beings can occur beyond explanation and language, suggesting the existence of 'is-ness' that language can only point towards but never truly capture.",
+    "source_chunk": 96,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

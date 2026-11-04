@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_gearbox",
+  "title": "Conceptual Gearbox",
+  "definition": "A conceptual representation of a gearbox, using metaphors to explain philosophical or scientific ideas.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.537186Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.537186Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a gearbox as a way of understanding complex ideas. A 'gear' is a simple concept, and a 'gearbox' is how these concepts interact and influence each other, creating a larger system of understanding.",
+    "intermediate": "A 'conceptual gearbox' is a metaphor used to explain the relationship and interaction between various philosophical or scientific concepts. It highlights the interconnectedness and interdependence of ideas, much like how gears in a gearbox work together to achieve a specific function.",
+    "expert": "The 'conceptual gearbox' metaphor is a philosophical exploration of the nature of knowledge and understanding. It draws parallels between the interconnectedness of concepts and the intricate mechanisms of a gearbox. By examining the gearbox metaphor, we can gain insights into the epistemological implications of interconnected concepts and the limitations of our understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of concepts and the need for a holistic understanding of ideas.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

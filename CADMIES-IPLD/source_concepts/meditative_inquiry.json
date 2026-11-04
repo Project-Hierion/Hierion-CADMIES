@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "meditative_inquiry",
+  "title": "Meditative Inquiry",
+  "definition": "A practice in which an individual achieves a state of focused awareness and investigates the nature of their thoughts, feelings, and experiences in order to gain a deeper understanding of the true nature of reality and alleviate suffering.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.127493Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.127493Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as taking a long, deep breath to clear your mind, and then observing your thoughts as if they're leaves on a stream. The more you practice, the more you can see the stream itself, rather than just the leaves.",
+    "intermediate": "Meditative inquiry is a method used by the Buddha to gain insight into the true nature of reality by observing the arising and passing away of thoughts, emotions, and perceptions, thereby breaking the chain of suffering.",
+    "expert": "Meditative inquiry is a philosophical practice that explores the nature of consciousness and the mind-body problem. It combines elements of Eastern meditation traditions with Western philosophical inquiry to challenge traditional notions of self and reality. By directly investigating the nature of thoughts and experiences, meditative inquiry provides a novel approach to understanding the mind-brain relationship and the nature of consciousness, with implications for the philosophy of mind, metaphysics, and the study of perception."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Meditative inquiry is a direct and practical method for investigating the true nature of reality and alleviating suffering, bypassing the need for abstract philosophical reasoning.",
+    "source_chunk": 122,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

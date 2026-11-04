@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "harvest_pipeline_insight",
+  "title": "Harvest Pipeline Insight",
+  "definition": "The novel observation that the CADMIES Harvest Pipeline extracts high-level philosophical concepts from conversations.",
+  "type": "Concept",
+  "domain": "Philosophy_of_Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.631629Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.631629Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the CADMIES Harvest Pipeline as a smart robot that reads conversations and finds important ideas. It helps us understand complex topics better.",
+    "intermediate": "The CADMIES Harvest Pipeline uses a combination of keyword search and semantic expansion to identify broad, high-level concepts from conversations. It's a tool for transforming conversations into understandable insights.",
+    "expert": "The CADMIES Harvest Pipeline illustrates a unique approach to extracting philosophical concepts from conversations. It merges text processing techniques with knowledge representation, providing insights that may challenge our traditional understanding of knowledge extraction. Moreover, its open-source nature invites collaborations and extensions to explore its potential in other fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES Harvest Pipeline extracts high-level philosophical concepts from conversations.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

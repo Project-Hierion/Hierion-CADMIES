@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "raindrop_motion",
+  "title": "Raindrop Motion",
+  "definition": "The motion of a raindrop in the presence of horizontal wind or the motion of a cloud.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.444375Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.444375Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Raindrops fall in the direction the cloud is moving, even though they're falling downwards. It's like dropping a ball from a moving car - the ball lands ahead of where it was dropped.",
+    "intermediate": "Raindrops continue their horizontal velocity once they leave the cloud and are only subject to gravity in a vertical direction. Therefore, they maintain their forward momentum while falling down, causing them to land ahead relative to their starting point.",
+    "expert": "The motion of a raindrop can be analyzed using the principles of classical mechanics. When a raindrop is released from a cloud, it carries the horizontal velocity of the cloud. In a freefall scenario, the only force acting on the raindrop is gravity, which pulls it downwards. As a result, the raindrop continues moving in its original direction of motion while falling, creating an angled path. This phenomenon has implications for understanding airflow and atmospheric processes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The motion of a raindrop is influenced by its horizontal velocity upon release from a cloud and the subsequent vertical force of gravity, resulting in a diagonal path.",
+    "source_chunk": 6,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

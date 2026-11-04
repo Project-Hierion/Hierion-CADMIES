@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emotional_energy_dynamics",
+  "title": "Emotional Energy Dynamics",
+  "definition": "The concept of emotional energy following laws of motion, pressure, displacement, and resonance within and between individuals.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.598127Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.598127Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine emotions as energy. Positive feelings can 'push out' negative ones, and when we appreciate someone, it's like tuning them up and creating a wave of positivity.",
+    "intermediate": "Emotional energy dynamics can be understood through the lens of physical laws, such as Archimedes' principle, resonance, and entropy. Complimenting someone introduces heat energy into a closed system, increasing warmth and expansion.",
+    "expert": "The concept of emotional energy dynamics challenges traditional physics by suggesting that emotional energy multiplies on sharing, breaking the law of conservation of energy. This insight connects to broader fields such as sociology and quantum physics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Complimenting a stranger introduces warmth and expansion into their emotional system, displacing negative energy and creating a wave of positivity.",
+    "source_chunk": 71,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

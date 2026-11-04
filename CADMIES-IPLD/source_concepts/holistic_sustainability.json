@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holistic_sustainability",
+  "title": "Holistic Sustainability",
+  "definition": "A multi-dimensional approach to sustainability that encompasses financial, community, and ethical factors to ensure long-term success and integrity.",
+  "type": "Concept",
+  "domain": "Organizational Strategy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.565856Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.565856Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden that thrives not only because of its beauty, but also because it provides food and shelter for the community, and it does so in a way that is fair and respectful to everyone involved. That's holistic sustainability.",
+    "intermediate": "Holistic sustainability is a strategic approach that integrates financial, community, and ethical dimensions to ensure long-term success and integrity. It's about balancing the needs of the organization with the needs of the people it serves and the environment.",
+    "expert": "Holistic sustainability is a novel concept that transcends traditional notions of sustainability by considering the interconnectedness of financial, community, and ethical factors. It challenges traditional hierarchies and power structures, promoting a more equitable and resilient future. Holistic sustainability has philosophical implications for fields like economics, sociology, and ethics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Hieros Network's success hinges on its ability to foster holistic sustainability, balancing the needs of the organization with the needs of the community and the environment.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

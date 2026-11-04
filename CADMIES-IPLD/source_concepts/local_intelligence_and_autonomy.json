@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "local_intelligence_and_autonomy",
+  "title": "Local Intelligence And Autonomy",
+  "definition": "The concept of utilizing local computation resources to enable intelligence and autonomy in a system, such as Willie the Librarian, without relying on external cloud services.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence, Computing",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.178531Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.178531Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a smart assistant that works on your computer, instead of relying on a server in a distant data center. This way, your data stays private and you don't need to worry about internet speeds.",
+    "intermediate": "Local intelligence and autonomy involve running large language models (LLMs) on a user's machine using tools like Ollama. This approach allows for data privacy, faster responses, and reduced reliance on cloud services.",
+    "expert": "Local intelligence and autonomy is a key aspect of decentralization and privacy in AI systems. It allows for more efficient use of resources, as processing is done locally rather than on remote servers. Furthermore, it increases data security and privacy, as no data needs to leave the user's machine. This approach also has implications for resilience and disaster recovery, as it reduces the single point of failure that occurs with cloud-based systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of local intelligence and autonomy in AI systems for data privacy, speed, resource efficiency, and resilience.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

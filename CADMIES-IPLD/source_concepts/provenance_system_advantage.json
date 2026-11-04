@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "provenance_system_advantage",
+  "title": "Provenance System Advantage",
+  "definition": "The strategic advantage derived from a strong provenance system in a technical proposal.",
+  "type": "Concept",
+  "domain": "Business Strategy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.370975Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.370975Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a secret recipe book. A provenance system is like having a super organized recipe book that shows you where each ingredient came from and how it's changed over time. This makes it easy to follow the trail and understand the history of each ingredient, which can be a big advantage in a business proposal.",
+    "intermediate": "In the context of a technical proposal, a provenance system offers a strategic advantage because it allows for the creation of audit trails, providing transparency and accountability in the management of assets and data. This can help demonstrate a company's reliability and expertise.",
+    "expert": "A provenance system's strategic advantage lies in its ability to provide a comprehensive and verifiable record of the history, ownership, and transformation of data or assets. This can have significant implications in fields such as law, forensics, and supply chain management. In a business proposal, it can be a differentiating factor, highlighting the company's commitment to transparency, accountability, and data integrity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A provenance system's strategic advantage lies in its ability to provide a comprehensive and verifiable record of the history, ownership, and transformation of data or assets, which can be a differentiating factor in a technical proposal.",
+    "source_chunk": 50,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

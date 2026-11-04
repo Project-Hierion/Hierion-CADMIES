@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "mistral_saturation",
+  "title": "Mistral Saturation",
+  "definition": "The phenomenon where a model, after multiple runs, consistently proposes the same set of relationships, indicating that it has likely exhausted its ability to generate new insights from the current data.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.484183Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.484183Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a librarian who's finished cataloging a section and is waiting for new books. Mistral, in this case, has read all the books and is now confident about which connections are real.",
+    "intermediate": "In the context of Artificial Intelligence, Mistral Saturation occurs when a model, after multiple iterations, consistently outputs the same set of relationships, suggesting it has explored all possible insights from the current dataset.",
+    "expert": "Mistral Saturation is a critical observation in the field of AI, highlighting the limitations of current models in generating new insights from existing data. It also underscores the importance of regular audits and the need for fresh data or models to continue the exploration of complex systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mistral's consistent output of the same relationships across multiple runs indicates its saturation on the current concept pool, highlighting the need for a second opinion or fresh data.",
+    "source_chunk": 87,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

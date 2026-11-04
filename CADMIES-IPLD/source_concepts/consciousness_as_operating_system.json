@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_as_operating_system",
+  "title": "Consciousness As Operating System",
+  "definition": "The concept that consciousness can be likened to an operating system, which stabilizes and organizes the patterns of a brain into a coherent self.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.489050Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.489050Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of consciousness as the software that runs your brain. It creates a sense of 'you' by organizing all the brain's patterns into a unified experience.",
+    "intermediate": "Consciousness can be seen as an operating system that acts on the hardware of the brain, forming a stable pattern of self-awareness. It resonates with specific environmental waves, shaping our personalities and experiences.",
+    "expert": "This concept extends the quantum-mechanical idea of wave-particle duality to the realm of consciousness. Patterns of consciousness are waves that can couple with specific environmental frequencies, causing the formation of a stable self. This view has philosophical implications for the nature of self and free will."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that consciousness can be likened to an operating system that 'boots up' during birth, and that specific environmental frequencies can shape our personalities.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

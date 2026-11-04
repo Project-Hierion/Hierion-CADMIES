@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_nature",
+  "title": "Consciousness Nature",
+  "definition": "The nature and essence of consciousness, its origin, and its relationship with the physical world.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.556583Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.556583Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Thinking, feeling, and being aware \u2014 that's consciousness. We're still figuring out how and why it exists, and whether it's tied to our physical bodies.",
+    "intermediate": "Consciousness nature involves exploring the hard problem of consciousness, which asks why and how we have subjective experiences. It also includes understanding the relationship between consciousness and the brain, as well as the nature of consciousness in other animals and artificial systems.",
+    "expert": "The nature of consciousness is a long-standing philosophical and scientific question. Exploring consciousness nature involves delving into the philosophy of mind, neuroscience, and cognitive science. Novel insights include the dual-aspect theory of consciousness, the integrated information theory of consciousness, and the role of consciousness in free will and self-awareness."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the nature of consciousness may provide insights into the fundamental nature of reality and the role of subjective experience in shaping our understanding of the world.",
+    "source_chunk": 127,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

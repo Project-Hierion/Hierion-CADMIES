@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "atmospheric_composition",
+  "title": "Atmospheric Composition",
+  "definition": "The distribution and concentration of gases and other components in a planet's atmosphere.",
+  "type": "Concept",
+  "domain": "Earth Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.524482Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.524482Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the atmosphere as a layered cake. Each layer, or layer of gases, plays a unique role in shaping our environment. For example, the ozone layer protects us from harmful UV rays, while carbon dioxide helps trap heat.",
+    "intermediate": "Atmospheric composition is the study of the distribution and concentration of gases and other components in a planet's atmosphere. This includes major components like nitrogen, oxygen, and carbon dioxide, as well as trace gases like ozone and water vapor.",
+    "expert": "Atmospheric composition is a critical factor in understanding planetary habitability, climate change, and air pollution. It involves complex interactions between physics, chemistry, and biology. Studying atmospheric composition can provide insights into the history, evolution, and future of a planet's atmosphere and its impact on life."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The composition of the atmosphere can significantly influence a planet's climate, weather patterns, and the potential for life. Understanding atmospheric composition can help us predict and mitigate the effects of human activities on the environment.",
+    "source_chunk": 109,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

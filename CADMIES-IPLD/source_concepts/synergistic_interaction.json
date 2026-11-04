@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "synergistic_interaction",
+  "title": "Synergistic Interaction",
+  "definition": "The novel interaction and combination of concepts from different domains to create a more comprehensive understanding.",
+  "type": "Concept",
+  "domain": "Interdisciplinary",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.526563Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.526563Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine connecting different parts of a puzzle to create a complete picture. Synergistic interaction is when these parts work together to create something more powerful than the sum of their individual parts.",
+    "intermediate": "Synergistic interaction occurs when the combination of concepts from various disciplines provides a more comprehensive understanding than could be achieved by examining them separately. This is often seen in interdisciplinary fields.",
+    "expert": "Synergistic interaction is a complex phenomenon that arises from the interplay of multiple disciplines. It can result in novel insights and advancements that cannot be derived from individual disciplines. This concept has philosophical implications for the nature of knowledge and the role of interdisciplinary research. Edge cases include situations where synergistic interaction leads to unintended consequences or misunderstandings."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the synergistic interaction between neuroscience, chemistry, biology, and pharmacology.",
+    "source_chunk": 110,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

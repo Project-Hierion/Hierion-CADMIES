@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hybrid_compute_strategy",
+  "title": "Hybrid Compute Strategy",
+  "definition": "A strategy that combines the use of local compute resources with cloud-based compute resources to optimize performance and cost.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.575546Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.575546Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine using your personal computer for daily tasks but hiring a professional to help with big projects when needed. This is like a hybrid compute strategy.",
+    "intermediate": "A hybrid compute strategy involves utilizing a combination of local compute resources and cloud-based compute resources. This approach can be more cost-effective and efficient than relying solely on one resource type, as it allows for the optimal use of resources based on the needs of the task at hand.",
+    "expert": "A hybrid compute strategy offers a nuanced approach to compute resource utilization, recognizing the advantages and limitations of both local compute resources and cloud-based compute resources. By combining these resources, it is possible to achieve optimal performance and cost-efficiency. However, this approach also requires careful consideration of data privacy and security, as well as the potential for increased complexity in system architecture and management."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A hybrid compute strategy can be a more cost-effective and efficient solution for long-term compute-intensive tasks than relying solely on cloud-based compute resources.",
+    "source_chunk": 59,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

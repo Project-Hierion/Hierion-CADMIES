@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "trade_off_analysis",
+  "title": "Trade Off Analysis",
+  "definition": "The process of evaluating and comparing the benefits and costs of different options in order to make a decision.",
+  "type": "Concept",
+  "domain": "Decision Making",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.573720Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.573720Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're deciding between a new bike and a new car. A trade-off analysis helps you consider the pros and cons of both, like cost, convenience, and environmental impact, to make the best choice.",
+    "intermediate": "Trade-off analysis is a structured decision-making technique that evaluates alternatives based on multiple criteria. It's used to compare the benefits and costs of different options and make informed decisions.",
+    "expert": "Trade-off analysis is a fundamental aspect of decision-making in economics and philosophy. It involves comparing alternatives using multiple attributes or criteria. The process can be simple or complex, depending on the context and the number of options and criteria. Trade-off analysis also has connections to game theory and negotiation strategies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals the trade-offs between using a desktop GPU and a cloud-based GPU service like Kaggle. Both options have their benefits and costs, and the decision depends on factors such as upfront cost, recurring cost, availability, interactive use, batch processing, setup complexity, and maintenance.",
+    "source_chunk": 58,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

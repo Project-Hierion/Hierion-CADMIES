@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_autonomy",
+  "title": "Decentralized Autonomy",
+  "definition": "The principle that power and decision-making in a system should be distributed among all its participants, rather than concentrated in a single entity.",
+  "type": "Concept",
+  "domain": "Governance",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.374779Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.374779Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a decision-making process where everyone has a say, similar to a large group discussion, where no one individual has the final word.",
+    "intermediate": "Decentralized autonomy allows for a more democratic, fair, and resilient decision-making structure. It ensures that no single entity can unilaterally control the system.",
+    "expert": "Decentralized autonomy challenges traditional hierarchical structures and their potential for centralization of power. It also raises questions about how to balance individual autonomy with collective decisions, and how to address issues of coordination and collaboration in decentralized systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Decentralized Commons Treaty emphasizes decentralized autonomy in its governance structure, decision-making processes, and dispute resolution mechanisms.",
+    "source_chunk": 66,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

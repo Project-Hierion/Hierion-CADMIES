@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "isomorphic_biochemical_failure",
+  "title": "Isomorphic Biochemical Failure",
+  "definition": "A universal phenomenon where the deficiency of essential chemical elements leads to a disruption of fundamental biochemical processes, manifesting in predictable physical symptoms across diverse organisms.",
+  "type": "Concept",
+  "domain": "Biology, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.259591Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.259591Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a car that runs out of gas. No matter the car's model or engine, it stops functioning. Similarly, in both plants and humans, the absence of essential nutrients disrupts their core functions, causing predictable effects like weakness or stunted growth.",
+    "intermediate": "Isomorphic biochemical failure occurs when a shared chemical element is absent or insufficient. This deficiency causes a universal disruption of fundamental physiological processes in both plants and animals, leading to similar symptoms.",
+    "expert": "Isomorphic biochemical failure is an interdisciplinary concept that unifies the study of nutrient deficiency in both plants and animals. By recognizing shared biochemical mechanisms and the roles of specific chemical elements, we can understand the fundamental principles governing life across kingdoms. This novel insight highlights the isomorphic nature of biological systems and their underlying physiological structures."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The shared symptoms of nutrient deficiency in plants and humans are a result of their shared evolutionary history and the essential roles of chemical elements in biochemical processes.",
+    "source_chunk": 117,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

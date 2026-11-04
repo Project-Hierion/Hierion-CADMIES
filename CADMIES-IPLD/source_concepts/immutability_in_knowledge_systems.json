@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "immutability_in_knowledge_systems",
+  "title": "Immutability In Knowledge Systems",
+  "definition": "The concept that once a piece of information is stored in a knowledge system, it cannot be changed.",
+  "type": "Concept",
+  "domain": "Knowledge Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.751079Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.751079Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a book in a library. Once it's on the shelf, you can't change its pages. In a digital knowledge system, once a concept is saved, it stays the same.",
+    "intermediate": "In the context of content-addressed blockstore systems, immutability ensures that the same concept always gets the same CID. This creates a trustworthy record of knowledge that cannot be altered.",
+    "expert": "The concept of immutability in knowledge systems has philosophical implications in the field of epistemology. It emphasizes the value of knowledge as a stable foundation for understanding and decision-making. However, it also highlights the need for a systematic approach to updating and revising concepts, as immutability can lead to the accumulation of outdated or incorrect information over time. This requires a balance between preserving the value of stable knowledge and allowing for its evolution and improvement."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of preserving the integrity of knowledge and the need for a systematic approach to updating and revising concepts.",
+    "source_chunk": 56,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

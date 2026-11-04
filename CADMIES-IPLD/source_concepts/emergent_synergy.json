@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emergent_synergy",
+  "title": "Emergent Synergy",
+  "definition": "A concept that highlights the unique outcomes produced by the interaction of multiple components, often surpassing the sum of their individual impacts.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.477045Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.477045Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a recipe where the sum of its ingredients might not taste great, but when combined, they create a delicious dish. Emergent synergy is like that \u2014 the whole is greater than the sum of its parts.",
+    "intermediate": "Emergent synergy refers to the phenomenon where the behavior of a complex system cannot be predicted from the knowledge of its individual components. It's a form of system-level behavior that arises due to the interactions between those components.",
+    "expert": "Emergent synergy is a philosophical observation that has implications in various fields, including physics, biology, and sociology. It challenges deterministic and reductionist views by suggesting that the whole is more than just the sum of its parts. Emergent synergy also plays a significant role in self-organizing systems and adaptive behavior."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of system-level behavior and the unique outcomes produced by the interaction of multiple components, which often surpass the sum of their individual impacts.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

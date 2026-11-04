@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_contribution_roles",
+  "title": "Community Contribution Roles",
+  "definition": "A system of fluid, non-hierarchical roles that enable anyone to contribute to a project, fostering a thriving, open community.",
+  "type": "Concept",
+  "domain": "Social Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.989605Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.989605Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about a garden. Different people help with seeds, soil, water, and weeding. These roles help the garden grow, but anyone can do any job based on their skills and interest.",
+    "intermediate": "Community contribution roles are similar to gardener roles in a project. They allow people to contribute based on their skills and interests, fostering a diverse and open community. These roles can include Documentation Gardener, Seed Planter, Mycelium Weaver, Tool Smith, GUI Cultivator, Bug Exterminator, and Composter.",
+    "expert": "The concept of community contribution roles is a social science exploration of how open systems can foster innovation and creativity. By establishing fluid roles, we can tap into the unique skills and interests of individuals, leading to a richer and more diverse community. This concept also connects to the fields of organizational behavior and project management, as it explores how to maximize individual and collective productivity."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The innovative nature of community contribution roles lies in their ability to foster an open, flexible, and inclusive environment that encourages individual growth and collective success.",
+    "source_chunk": 102,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

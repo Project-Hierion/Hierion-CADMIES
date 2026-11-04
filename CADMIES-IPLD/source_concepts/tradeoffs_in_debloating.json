@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "tradeoffs_in_debloating",
+  "title": "Tradeoffs In Debloating",
+  "definition": "The understanding that debloating a phone or system involves a tradeoff between convenience and control, with an emphasis on privacy and understanding what runs on the device.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.392585Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.392585Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of debloating your phone as a game of give and take. On one side, you gain more control over your privacy and the inner workings of your phone. But on the other side, certain apps might not work as smoothly, and you might have to take more steps to set them up.",
+    "intermediate": "The process of debloating a device entails a consideration of tradeoffs. In exchange for enhancing privacy and understanding what's running on the device, you might experience slight inconveniences such as having to use alternative platforms for certain apps and manually adjusting some settings.",
+    "expert": "The tradeoffs involved in debloating a device reveal a deeper philosophical debate about the balance between convenience and control. By opting for debloating, one chooses to prioritize privacy and transparency over the seamless integration of services offered by companies like Google and Samsung. This decision challenges the normative assumptions of modern technology and highlights the importance of deliberate engagement with the potential risks and benefits of the technologies we use."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Debloating a phone or system involves a tradeoff between convenience and control, with an emphasis on privacy and understanding what runs on the device.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

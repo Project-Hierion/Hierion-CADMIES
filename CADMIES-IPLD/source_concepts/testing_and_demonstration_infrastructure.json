@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "testing_and_demonstration_infrastructure",
+  "title": "Testing And Demonstration Infrastructure",
+  "definition": "The infrastructure used to test and demonstrate a system's functionality in a controlled environment.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.516964Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.516964Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're testing a new game. The testing version is like a sandbox where you can play around without affecting the real game. This helps make sure the game works as expected.",
+    "intermediate": "In software development, a testing infrastructure is used to isolate and test components of a system in a controlled environment. This allows developers to verify the functionality of the system without impacting the production environment.",
+    "expert": "The testing infrastructure in this context not only serves to validate the functionality of the system but also acts as a demonstration platform. This allows stakeholders to understand how the system works and makes it easier for them to make informed decisions. Furthermore, the separation between the testing and production environments provides a safety net, ensuring that changes to the system do not inadvertently cause harm. This approach to software development is known as the 'test-driven development' paradigm and has been shown to lead to more robust, reliable software systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlighted the need to create a separate testing environment for the IPLD Knowledge System, which will allow for the system's functionality to be tested and demonstrated in isolation.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

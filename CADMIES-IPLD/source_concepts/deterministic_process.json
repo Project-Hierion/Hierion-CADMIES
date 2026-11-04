@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "deterministic_process",
+  "title": "Deterministic Process",
+  "definition": "A process that produces the same output every time it is given the same input.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.724768Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.724768Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a recipe for a cake. If you follow the recipe exactly, each time you make the cake, it will turn out the same every time.",
+    "intermediate": "In the context of knowledge harvesting, a deterministic process is one that produces the same CID for the same conversation. This is achieved by using a language model to extract concepts from the conversation and then transforming those concepts into a standard format, which is then used to generate a CID.",
+    "expert": "The concept of a deterministic process highlights the importance of reproducibility in science. In a deterministic process, the same conversation will always yield the same CID, which can be used to retrieve the concepts extracted from the conversation. This allows for the creation of a verifiable and transparent record of knowledge. The deterministic nature of knowledge harvesting also raises questions about the role of randomness and uncertainty in scientific discovery."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The deterministic nature of knowledge harvesting highlights the importance of reproducibility in science and the creation of a verifiable and transparent record of knowledge.",
+    "source_chunk": 114,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

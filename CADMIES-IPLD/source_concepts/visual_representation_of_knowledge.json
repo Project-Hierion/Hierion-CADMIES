@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "visual_representation_of_knowledge",
+  "title": "Visual Representation Of Knowledge",
+  "definition": "The concept of using graphical elements such as nodes and edges to visually represent knowledge and its interconnections.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.325702Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.325702Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a map where cities represent ideas and the roads show how those ideas are connected. This map helps us understand complex relationships between ideas.",
+    "intermediate": "Visual representation of knowledge involves the use of graph theory to map the connections and interdependencies between concepts. This allows for more intuitive understanding and exploration of knowledge structures.",
+    "expert": "The visual representation of knowledge has been a fundamental tool in the history of science and thought. It not only aids in comprehension but also reveals patterns and relationships that might otherwise be overlooked. This concept has philosophical implications in the field of epistemology, where it raises questions about the nature of knowledge and its representation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the use of graphical representations to visualize and understand complex knowledge structures, showcasing the interconnectedness of ideas.",
+    "source_chunk": 38,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "energy_transformation_processes",
+  "title": "Energy Transformation Processes",
+  "definition": "Broad concept encapsulating the various ways energy is transformed and transferred within biological and physical systems.",
+  "type": "Concept",
+  "domain": "Biology, Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.528295Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.528295Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of energy transformation processes as the cycle of energy production and consumption in living beings and machines. Just like a factory turning raw materials into finished goods, these processes convert energy into work or store it for later use.",
+    "intermediate": "Energy transformation processes involve mechanisms like oxidative phosphorylation, osmosis, catalysis, and viral replication. These processes manipulate energy flow to maintain life, power machinery, or perform specific functions.",
+    "expert": "Energy transformation processes are fundamental to life and technology. They highlight the interplay between physics and biology, demonstrating the principles of thermodynamics, diffusion, and catalysis. Understanding these processes can lead to advances in medicine, sustainable energy production, and environmental science."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals the complexity and interconnectedness of biological and physical energy transformation processes, emphasizing the critical role of specific mechanisms in maintaining life and functioning.",
+    "source_chunk": 111,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

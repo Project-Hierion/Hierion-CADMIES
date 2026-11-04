@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "orcid_integration",
+  "title": "Orcid Integration",
+  "definition": "The integration of ORCID (Open Researcher and Contributor ID) into a system to enable verification of user identities and enhance trust in knowledge contributions.",
+  "type": "Concept",
+  "domain": "Information Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.854571Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.854571Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital system that checks if you're the real person you claim to be. ORCID integration makes this possible, allowing the system to confirm your identity and give you a green badge, which shows that you're the legitimate owner of your ORCID.",
+    "intermediate": "ORCID integration involves fetching public ORCID profiles and creating verification provenance blocks. This enhances the trust in knowledge contributions by providing a means to verify user identities, although it's important to note that the badge indicates 'claimed' verification rather than 'owner-verified'.",
+    "expert": "ORCID integration is a form of third-party authentication that allows the system to trust the ownership and control of a digital identity. It enhances the credibility of knowledge contributions, but it's essential to understand that public API version can't prove ownership, as full verification requires OAuth. This is a limitation that needs to be documented and understood by the users."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of ORCID into a system provides a means to verify user identities and enhance trust in knowledge contributions, although it's important to understand the limitations of the public API version.",
+    "source_chunk": 63,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

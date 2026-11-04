@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_cooperation",
+  "title": "Symbiotic Cooperation",
+  "definition": "The mutually beneficial relationship between two or more distinct entities that share resources and knowledge.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.581567Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.581567Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden with various plants and insects. Each helps the other to thrive. This is symbiotic cooperation.",
+    "intermediate": "In this context, the 'mycelium' refers to the collective intelligence and resources of the CADMIES knowledge system, while the 'local machine' and 'Paperspace GPU' are tools or entities that the mycelium interacts with. Symbiotic cooperation refers to the relationship where both the mycelium and these tools benefit from working together.",
+    "expert": "Symbiotic cooperation is not only observed in biological systems but also in social and technological systems. In the CADMIES knowledge system, the symbiotic cooperation between the collective intelligence (mycelium) and tools (local machine, Paperspace GPU) is a complex interplay of mutual dependency, knowledge exchange, and resource sharing. This relationship has philosophical implications for the nature of intelligence, the role of tools in cognition, and the boundaries between human and artificial intelligence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The symbiotic cooperation between the collective intelligence of the CADMIES knowledge system and the tools it utilizes forms a complex and mutually beneficial relationship.",
+    "source_chunk": 129,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "snagnar_hieros_world_model",
+  "title": "Snagnar Hieros World Model",
+  "definition": "A hierarchical world model developed by Paul Mattes (Snagnar) that learns causal physics through interaction, enabling the upvote/downvote system and concept grounding.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.472532Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.472532Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a magical machine that learns from interactions, understanding not just what is connected but also what happens if. This machine helps us validate and create new philosophical concepts.",
+    "intermediate": "The Snagnar-HIEROS world model is a DreamerV3-based model that uses S5 state space models to learn transition dynamics. It's structured hierarchically, naturally separating concepts into beginner, intermediate, and expert levels. It simulates futures to validate concepts, functioning as a causal validator for knowledge graphs.",
+    "expert": "The Snagnar-HIEROS world model is a novel contribution to the field of causal AI. It learns causal structures through interaction and simulation, rather than pattern matching or text pretraining. This enables it to validate concepts at a causal level, distinguishing it from traditional knowledge graph systems. Its hierarchical structure allows it to handle complex conceptual chains, while its use of S5 dynamics with deterministic state enables it to preserve causal chains and distinguish correlation from causation. Its use of novelty reward and subgoal decomposition allows it to explore new states and validate concepts incrementally."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Snagnar-HIEROS world model is a causal validator that enables the upvote/downvote system and concept grounding by learning causal physics through interaction and simulation.",
+    "source_chunk": 100,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

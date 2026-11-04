@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "git_workflow",
+  "title": "Git Workflow",
+  "definition": "A series of steps and commands used to interact with a Git repository and manage changes to the codebase.",
+  "type": "Concept",
+  "domain": "Software Development",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.885293Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.885293Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of Git workflow as your code's daily routine. It includes checking the status, pulling updates, making changes, and pushing them back.",
+    "intermediate": "A typical Git workflow includes fetching remote changes, comparing changes (diff), staging changes, committing them, and pushing them to a remote repository.",
+    "expert": "Git workflow can be influenced by various factors, including project size, team size, and the chosen development model. Efficient Git workflow can improve team productivity and code quality, but inefficient workflow can lead to merge conflicts and project delays."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of following a structured Git workflow for managing changes to the codebase.",
+    "source_chunk": 29,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

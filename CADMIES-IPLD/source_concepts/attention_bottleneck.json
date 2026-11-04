@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "attention_bottleneck",
+  "title": "Attention Bottleneck",
+  "definition": "The process of a large language model focusing on and extracting the main concept or idea from a large amount of text, reducing the number of detailed insights.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.892262Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.892262Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a large language model like Mistral as a super-focused reader. It reads a lot of text but only remembers the most important ideas. This makes it good at summarizing.",
+    "intermediate": "The attention bottleneck refers to the fact that large language models, when processing large amounts of text, often distill the main idea and compress the information, neglecting some detailed insights.",
+    "expert": "The attention bottleneck is a result of the transformer architecture used in large language models, which employs self-attention mechanisms. This architecture allows the model to focus on certain parts of the text while disregarding others, a process akin to selective memory. This feature is both a strength and a limitation, enabling efficient processing of large amounts of text but potentially causing the model to overlook or misinterpret some nuanced details."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Mistral's ability to consistently extract 1-2 core concepts per 1,000 words suggests a natural attention bottleneck in large language models.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

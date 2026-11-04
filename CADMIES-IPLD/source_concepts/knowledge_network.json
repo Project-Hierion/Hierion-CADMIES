@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_network",
+  "title": "Knowledge Network",
+  "definition": "A network that interconnects different knowledge systems, nourishes its components, grows organically, and diminishes human ignorance.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.734443Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.734443Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A network connects different types of knowledge like a tree connecting to its roots, sharing resources, and promoting growth. This helps us learn and grow, just like a tree, and fill in the gaps of our knowledge.",
+    "intermediate": "A knowledge network is a system of interconnected knowledge sources that nourishes each component. It grows organically, similar to a mycorrhiza connecting tree roots, while maintaining structural integrity. This network diminishes the gap of human ignorance by connecting different knowledge systems.",
+    "expert": "A knowledge network is a complex system that interconnects diverse knowledge sources. It is analogous to a mycorrhiza, which facilitates the exchange of nutrients between a plant and its fungal partner. A knowledge network nurtures its components, allows for organic growth, maintains structural integrity, and minimizes human ignorance, thereby enhancing collective intelligence and promoting learning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "A knowledge network, such as CADMIES, interconnects different knowledge systems, nourishes all parts, grows organically, and diminishes human ignorance, thereby enriching collective intelligence and promoting learning.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

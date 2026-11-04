@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "public_good_nature",
+  "title": "Public Good Nature",
+  "definition": "The nature of a resource that is both non-excludable and non-rivalrous, with benefits that are enjoyed by all and not easily captured by market forces.",
+  "type": "Concept",
+  "domain": "Philosophy, Economics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.371056Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.371056Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a public park. Everyone can use it for free, and its value isn't reduced if more people use it. That's a public good.",
+    "intermediate": "A resource is a public good if it exhibits the characteristics of non-excludability (anyone can use it) and non-rivalry (using it doesn't limit others' use). Public goods often rely on community governance and voluntary contributions.",
+    "expert": "From a philosophical perspective, public goods challenge the traditional economic model of private property and market exchange. They highlight the need for alternative governance structures and the role of collective action in ensuring common resources are managed sustainably. Public goods also raise questions about fair distribution and the role of the state in resource allocation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The treaty should be a public good, with explicit provisions against commercial exploitation and derivative works. This ensures its benefits are enjoyed by all and not captured by market forces.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

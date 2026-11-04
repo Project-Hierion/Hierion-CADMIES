@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "capability_based_access",
+  "title": "Capability Based Access",
+  "definition": "A security model that restricts access to resources based on the possession of capabilities, rather than a person's identity.",
+  "type": "Concept",
+  "domain": "Security",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.584003Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.584003Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a bouncer at a club. You don't need to prove who you are to enter, you just need a valid ticket. In our system, a valid ticket is a specific CID.",
+    "intermediate": "Capability-based access is a security model that allows or denies access to resources based on the possession of a capability, such as a digital token or key. This differs from traditional identity-based security models, which rely on proving a person's identity before granting access.",
+    "expert": "Capability-based access is a security model that provides fine-grained access control to resources. It is based on the idea that a person's identity should not be the primary means of authorizing access to resources. Instead, access should be granted based on the possession of a capability, such as a digital token or key. This model has been studied extensively in computer science and has been implemented in systems such as the Linux kernel and Google's Android operating system. Capability-based access provides stronger security guarantees than identity-based models, as it prevents the leakage of sensitive information and reduces the risk of unauthorized access. However, it also requires careful design to ensure that capabilities cannot be used to escalate privileges or bypass access controls."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Capability-based access allows for more secure and flexible resource management than traditional identity-based models, as it does not rely on proving a person's identity before granting access. Instead, access is granted based on the possession of a specific capability, such as a CID.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

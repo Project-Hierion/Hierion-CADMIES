@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "placeholder_concept",
+  "title": "Placeholder Concept",
+  "definition": "The concept that encapsulates the understanding of the role and usage of placeholders, particularly in the context of OAuth registration where a placeholder URL is required but never used.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.868116Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.868116Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're filling out a form for a new account, and you don't have all the information yet. You can use a placeholder as a temporary filler that you'll replace later with the real thing.",
+    "intermediate": "A placeholder is a temporary value that is used to reserve space for a real value that will be provided later. In the context of OAuth registration, a placeholder URL is required to satisfy the form but is never used because device flow doesn't trigger redirects.",
+    "expert": "The use of placeholders in OAuth registration is a pragmatic solution to a technical limitation. OAuth's authorization flow requires a redirect URI for security reasons, but device flow, which is designed for devices with no browser, does not use redirects. To accommodate this, some OAuth providers allow the use of placeholders that are stored but never used, while others require a real URL. The choice of placeholder can depend on various factors, including the provider's requirements and the specific use case."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The role of placeholders in OAuth registration highlights the balance between technical constraints and practical solutions in software development.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

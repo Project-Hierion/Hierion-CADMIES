@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "single_use_reservations",
+  "title": "Single Use Reservations",
+  "definition": "A concept that refers to reservations or bookings that are designed for single-day use, rather than multi-day use.",
+  "type": "Concept",
+  "domain": "Hospitality and Business",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.325822Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.325822Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a hotel reservation where you only plan to stay for one night. Single-use reservations are similar \u2014 they're booked for a specific, single day.",
+    "intermediate": "Single-use reservations are often found in services like car detailing, event planning, or equipment rentals. They're bookings that are designed for a single day's use, contrasting with multi-day reservations.",
+    "expert": "The concept of single-use reservations has been explored in various fields, from hospitality to logistics. It raises questions about optimal pricing strategies, resource allocation, and customer satisfaction. It also connects to the broader idea of 'just-in-time' inventory management and demand forecasting."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The image reveals that the booking interface is designed for single-use reservations, as all appointments have the same start and end date.",
+    "source_chunk": 28,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

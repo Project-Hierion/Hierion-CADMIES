@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_paradox_of_consumption",
+  "title": "The Paradox Of Consumption",
+  "definition": "The simultaneous experience of pleasure from consumption and discontent with its impermanence.",
+  "type": "Concept",
+  "domain": "Buddhist Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.336428Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.336428Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "impermanence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like drinking a coke. You enjoy the taste, but then you realize it's just a drink and not the ultimate solution to your problems. This is a paradox of consumption.",
+    "intermediate": "The Paradox of Consumption refers to the simultaneous enjoyment and discontent from consuming sensory pleasures. It's a paradox because pleasure is sought after, yet when experienced, it often leaves a sense of dissatisfaction due to its impermanent nature.",
+    "expert": "The Paradox of Consumption is a philosophical exploration of the tension between the pleasure derived from consuming sensory experiences and the dissatisfaction that arises from their fleeting nature. This paradox forms the basis of the craving cycle in Buddhist philosophy and highlights the limitations of pleasure as a means to achieve lasting happiness and fulfillment."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The simultaneous enjoyment and dissatisfaction from consuming sensory pleasures highlights the limitations of pleasure as a means to achieve lasting happiness and fulfillment.",
+    "source_chunk": 118,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

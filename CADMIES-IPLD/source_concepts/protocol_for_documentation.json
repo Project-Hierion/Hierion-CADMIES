@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "protocol_for_documentation",
+  "title": "Protocol For Documentation",
+  "definition": "A set of guidelines and conventions for creating and maintaining documentation, including the use of different note types (raw, polished), naming protocols, and formatting standards.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.482615Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.482615Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "A protocol for documentation is a set of rules for how to write and organize notes. It helps make sure that everyone is on the same page and that the notes are easy to understand and use.",
+    "intermediate": "A protocol for documentation is a set of guidelines and conventions for creating and maintaining documentation. It includes the use of different note types, such as raw and polished notes, naming protocols for attribution, and formatting standards for markdown files.",
+    "expert": "A protocol for documentation is a systematic approach to knowledge creation and maintenance. It's a way to ensure that knowledge is accessible, reliable, and consistent. The use of different note types and naming protocols allows for a clear distinction between working drafts and finalized documentation, while the formatting standards for markdown files ensure consistency and readability. This concept has implications for other fields that rely on the creation and maintenance of documentation, such as legal and medical fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of different note types and naming protocols to distinguish between working drafts and finalized documentation, and the importance of consistency and readability in formatting standards.",
+    "source_chunk": 104,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

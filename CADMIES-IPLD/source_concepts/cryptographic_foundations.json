@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cryptographic_foundations",
+  "title": "Cryptographic Foundations",
+  "definition": "The use of cryptography to ensure the security, authenticity, and integrity of data and systems.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.745691Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.745691Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of cryptography as a digital lock. It keeps bad actors out while allowing good data to flow in.",
+    "intermediate": "Cryptographic foundations involve using techniques like hash functions and digital signatures to guarantee data integrity and confidentiality. This enables the creation of digital trust.",
+    "expert": "Cryptography forms the basis of modern cybersecurity and digital infrastructure. Its philosophical underpinnings explore the interplay between information, uncertainty, and knowledge. By studying cryptographic foundations, we understand the limits of what can be secured and the potential for future attacks and defenses."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Cryptography ensures the permanent, verifiable, and foundational nature of digital information.",
+    "source_chunk": 34,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

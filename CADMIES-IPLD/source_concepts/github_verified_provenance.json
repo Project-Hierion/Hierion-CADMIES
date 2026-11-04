@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "github_verified_provenance",
+  "title": "Github Verified Provenance",
+  "definition": "The process of verifying user identity through GitHub to create a provenance note for a concept, enhancing transparency and trust in the knowledge system.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.948903Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.948903Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine verifying a recipe in cooking. GitHub does the email check, so you don't have to. You just click, log in, and that's it. Your name and the institution you belong to are noted down, and everyone can see it.",
+    "intermediate": "This is a method of ensuring user authenticity and credibility in the CADMIES knowledge system by leveraging GitHub's email verification process. It enhances the transparency and trustworthiness of concepts by providing a provenance note with the user's GitHub username and verified email domain.",
+    "expert": "The GitHub-verified provenance concept is a novel application of digital verification in the philosophy of science, drawing on the trust infrastructure of GitHub. It provides a secure, transparent, and verifiable record of concept verification, enhancing academic accountability and promoting the reproducibility of knowledge. This concept has implications for privacy, as it allows for the verification of user identity without exposing sensitive information, while still maintaining a level of anonymity and preventing fake accounts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The insight is the application of GitHub's email verification process to create a provenance note for concepts in the CADMIES knowledge system, enhancing transparency and trust through a method that respects user privacy and enhances academic accountability.",
+    "source_chunk": 91,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

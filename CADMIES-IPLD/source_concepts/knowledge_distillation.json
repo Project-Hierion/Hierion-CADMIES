@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_distillation",
+  "title": "Knowledge Distillation",
+  "definition": "The process of extracting, preserving, and sharing the underlying patterns and relationships from data, separate from the raw data itself, to enable reproducibility, verification, and extension of insights.",
+  "type": "Concept",
+  "domain": "Interdisciplinary",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.744223Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.744223Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you've learned a dance move from a video. You can teach that move to someone else without showing them the exact video. Just the steps and why they work. Knowledge distillation is like that, but with patterns and relationships from data.",
+    "intermediate": "Knowledge distillation is the process of transforming raw data into high-level concepts, mathematical relationships, and insights that can be understood and utilized independently of the original data. This allows for the verification and extension of these insights by others.",
+    "expert": "Knowledge distillation is a critical step in open science, enabling the separation of the discovery from the discovery process. It's a philosophical realization that the data is the fossilized bones, while the CADMIES concept is the living creature. It's the difference between handing someone a fish (the data) and teaching them how to fish (the concept). This has profound implications for interdisciplinary collaboration, as it allows scientists to build on each other's insights without needing to re-do the original experiments. It also has connections to the philosophy of science, the semiotics of data, and the nature of scientific discovery."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Knowledge distillation separates the discovery from the discovery process, enabling reproducibility, verification, and extension of insights.",
+    "source_chunk": 118,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

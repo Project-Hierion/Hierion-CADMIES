@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "community_curation",
+  "title": "Community Curation",
+  "definition": "The collaborative effort by a group of individuals to maintain, update, and improve a shared resource.",
+  "type": "Concept",
+  "domain": "Community Management",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.465825Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.465825Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a community project where everyone contributes to keep it alive and useful. This could be like managing a community garden or maintaining a wiki.",
+    "intermediate": "Community curation is the process by which a community collectively manages and maintains a resource, such as a dataset or repository. This can involve adding new content, updating existing content, and fixing errors.",
+    "expert": "Community curation is a form of decentralized governance that leverages the intelligence and energy of a community to maintain a resource. It can lead to more accurate and comprehensive resources, as well as increased engagement and ownership among community members. However, it can also lead to challenges such as inconsistent standards and lack of oversight, which require strategies for quality control and moderation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful maintenance and improvement of shared resources can be achieved through collaborative efforts by the community.",
+    "source_chunk": 89,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

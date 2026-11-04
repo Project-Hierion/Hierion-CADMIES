@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "system_reliability",
+  "title": "System Reliability",
+  "definition": "The ability of a system to perform its required functions under specified conditions for a specified period of time.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.460322Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.460322Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a backup system is like a trustworthy babysitter. It should keep working as expected, even when there are issues or unexpected things happen.",
+    "intermediate": "System reliability in a backup context refers to the consistency and accuracy of data backup and recovery. This involves handling errors and exceptions, as well as maintaining system state.",
+    "expert": "System reliability is a complex field that intersects with areas like fault tolerance, high availability, and system resilience. It's about designing a system that can recover from failures and continue functioning correctly. In the context of the backup system, this means ensuring data integrity and consistency, even in the presence of errors or exceptions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The backup system's reliability can be improved by properly handling and logging errors and exceptions.",
+    "source_chunk": 12,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

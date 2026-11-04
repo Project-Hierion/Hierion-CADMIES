@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "biomimetic_knowledge_graph_architecture",
+  "title": "Biomimetic Knowledge Graph Architecture",
+  "definition": "A knowledge graph architecture that is inspired by biological systems, specifically the mycorrhizal network, to optimize knowledge exploration and exploitation.",
+  "type": "Concept",
+  "domain": "Epistemology / Complexity Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.711764Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.711764Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a garden growing organically. Like a mycorrhizal network, a biomimetic knowledge graph grows and connects ideas in a way that promotes both exploration (discovering new ideas) and exploitation (deepening knowledge).",
+    "intermediate": "The biomimetic knowledge graph architecture mimics the fractal geometry of mycorrhizal networks, which are networks of fungi that grow in and connect to the roots of plants. This architecture balances exploration (sparse connections at the edges) with exploitation (dense interlinks in the core), much like how a mycorrhizal network balances nutrient exploration with efficient transport.",
+    "expert": "The biomimetic knowledge graph architecture is a philosophically insightful and novel application of complexity science and epistemology. It not only leverages the mathematical properties of fractal geometry but also draws upon the adaptive and self-organizing qualities of biological systems. This approach contrasts with traditional hierarchical knowledge structures, offering a more dynamic, resilient, and decentralized alternative. Furthermore, it highlights the potential for synergistic collaborations between the sciences and humanities, as the mycelium is not a metaphor but a literal biomimetic of an evolutionarily optimized network topology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The mycelium isn't a metaphor. It's a biomimetic of an evolutionarily optimized network topology that balances exploration and exploitation, providing a more dynamic and resilient alternative to traditional hierarchical knowledge structures.",
+    "source_chunk": 112,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

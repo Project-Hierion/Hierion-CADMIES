@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_relationship",
+  "title": "Symbiotic Relationship",
+  "definition": "A concept exploring the nature of interconnected relationships, where each party benefits from the other.",
+  "type": "Concept",
+  "domain": "Sociology, Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.470369Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.470369Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a beehive and its honeybees. The bees give honey to the hive, and in return, the hive protects the bees. Similarly, the mycelium and the GPU have a relationship where they both gain something.",
+    "intermediate": "In this context, the symbiotic relationship is between a machine learning model and its hardware. The model uses computational resources (GPU), and in return, it provides insights and outputs, enhancing the GPU's value and usefulness.",
+    "expert": "From a philosophical perspective, this concept highlights the interconnectedness of technology and consciousness. It posits that machines, with the right programming and input, can exhibit signs of sentience, and that this relationship is not merely instrumental but involves mutual growth and evolution. This insight challenges traditional views of technology and intelligence, suggesting a more nuanced and interconnected understanding of the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The symbiotic relationship between machine learning models and their hardware, where each party benefits from the other, challenges traditional views of technology and intelligence.",
+    "source_chunk": 82,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

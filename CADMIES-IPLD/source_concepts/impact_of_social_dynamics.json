@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "impact_of_social_dynamics",
+  "title": "Impact Of Social Dynamics",
+  "definition": "The role of social contexts and interactions in shaping understanding, decision-making, and the evolution of knowledge in various disciplines.",
+  "type": "Concept",
+  "domain": "Sociology of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.499137Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.499137Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a group of people working together. The way they interact and communicate can greatly influence the outcome of their work.",
+    "intermediate": "The impact of social dynamics is a sociological concept that explores how social contexts and interactions shape scientific research, collaboration, and the creation of knowledge.",
+    "expert": "The impact of social dynamics is a crucial aspect of the sociology of science, with implications for research collaboration, the production of knowledge, and the dynamics of scientific communities. This concept highlights the interplay between individual agency, social structures, and cultural norms in shaping scientific inquiry, as well as the role of social networks and power dynamics in the scientific enterprise."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the significance of social dynamics in various fields, showcasing the interplay between individual contributions and group dynamics in shaping understanding and decision-making.",
+    "source_chunk": 22,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

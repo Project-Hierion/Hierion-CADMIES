@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_interdisciplinarity",
+  "title": "Philosophical Interdisciplinarity",
+  "definition": "The exploration of complex intersections and relationships between various philosophical, scientific, and interdisciplinary domains.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.341362Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.341362Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine different subjects like science, art, and philosophy are interconnected dots on a big canvas. Philosophical interdisciplinarity is when we look at how these dots connect and influence each other.",
+    "intermediate": "Philosophical interdisciplinarity investigates the interplay and mutual influence between different philosophical traditions, scientific disciplines, and interdisciplinary fields.",
+    "expert": "Philosophical interdisciplinarity involves exploring the philosophical implications of interdisciplinary research and the potential for integrating insights from various disciplines to provide a more comprehensive understanding of the world. It can also challenge traditional disciplinary boundaries and lead to the emergence of new interdisciplinary fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights a prevalent trend of interdisciplinary research and exploration, particularly in the fields of philosophy, physics, and neuroscience.",
+    "source_chunk": 44,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

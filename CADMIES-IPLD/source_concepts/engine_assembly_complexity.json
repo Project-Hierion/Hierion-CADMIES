@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "engine_assembly_complexity",
+  "title": "Engine Assembly Complexity",
+  "definition": "The complexity and critical nature of specific components in an engine assembly, highlighting the need for careful handling and replacement.",
+  "type": "Concept",
+  "domain": "Mechanical Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.424868Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.424868Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Cars have different parts that fit together like a puzzle. Some parts are more important to handle correctly than others because they are part of a critical system. For example, the high-pressure fuel pump in your car needs to be connected to a bracket that is bolted to the cylinder head. It's crucial to replace these parts carefully to avoid damaging your engine.",
+    "intermediate": "In the context of engine assembly, certain components play a crucial role in the performance and safety of the vehicle. The high-pressure fuel pump, which is mounted on a bracket that bolts to the cylinder head, is a precision part with strict installation requirements. Any damage or improper handling can lead to significant issues, making it a critical component that requires careful handling and replacement.",
+    "expert": "The concept of engine assembly complexity delves into the philosophical implications of the interconnected nature of mechanical systems. The high-pressure fuel pump in an engine assembly is a critical component due to its role in the fuel delivery system. Its mounting bracket, which is bolted to the cylinder head, adds to the complexity of the assembly. The interplay between this component and its environment requires precise installation techniques to maintain the integrity and functionality of the system. Moreover, this complexity highlights the interconnectedness of mechanical systems, as any damage to the fuel pump can have cascading effects on other components, challenging the concept of modularity in engineering design."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Careful handling and replacement of specific components in an engine assembly, such as the high-pressure fuel pump and its mounting bracket, is crucial to maintain the integrity and functionality of the system.",
+    "source_chunk": 74,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

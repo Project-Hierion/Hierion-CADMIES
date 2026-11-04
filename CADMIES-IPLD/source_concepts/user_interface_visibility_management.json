@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_interface_visibility_management",
+  "title": "User Interface Visibility Management",
+  "definition": "The process of managing the visibility of different elements in a user interface to improve user experience and functionality.",
+  "type": "Concept",
+  "domain": "User Experience Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.256257Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.256257Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a puzzle. Sometimes, you need to hide or show certain pieces to solve it or understand it better. Visibility management in a user interface is like that. It's about making sure the right parts of the interface are visible at the right time.",
+    "intermediate": "Visibility management in a user interface involves controlling the display of elements such as buttons, text, or images. This can enhance usability by reducing clutter, improving readability, and guiding user focus. It's also crucial for handling dynamic content and providing a responsive user experience.",
+    "expert": "Visibility management in a user interface is a nuanced field that balances aesthetics, functionality, and user experience. It can be used to present relevant information, guide user focus, and create a more intuitive and engaging interface. However, it must be done carefully to avoid overwhelming the user with too much information or disrupting the user flow. Visibility management is also a crucial aspect of minimalist design and can be connected to the broader field of cognitive psychology, as it affects how users perceive and interact with the interface."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful implementation of visibility management in a user interface can significantly enhance the user experience, making the interface more intuitive, engaging, and functional.",
+    "source_chunk": 88,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dna_data_integration",
+  "title": "Dna Data Integration",
+  "definition": "The process of integrating DNA sequence data into the existing system architecture.",
+  "type": "Concept",
+  "domain": "Genomics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.602466Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.602466Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a room with lots of books (philosophical concepts) and empty shelves (legacy DNA directories). We're going to fill those shelves with new books about DNA (experimental data).",
+    "intermediate": "Integrating DNA sequence data involves structuring the data as concepts and storing it in the IPLD blockstore, while the legacy DNA directories will serve as organizers or views rather than primary storage.",
+    "expert": "The DNA data integration process is crucial for expanding the knowledge base of the system. It involves dealing with complex data types like genomic sequences and ensuring compatibility with the existing metaphysical concepts. It also has implications for system scalability and data management. Lastly, it can potentially bridge the gap between philosophical concepts and experimental data, offering new insights into the nature of reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "By integrating DNA sequence data into the system, we can bridge the gap between philosophical concepts and experimental data, offering new insights into the nature of reality.",
+    "source_chunk": 33,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_insight_integration",
+  "title": "Philosophical Insight Integration",
+  "definition": "The ability of an intelligent system to connect and integrate philosophical concepts across various domains, leading to novel insights.",
+  "type": "Concept",
+  "domain": "Philosophy and AI",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.423524Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.423524Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a smart brain that can understand and connect different ideas from various areas, like science and philosophy. This helps us see things in new ways and make meaningful connections.",
+    "intermediate": "Philosophical insight integration involves the application of AI techniques to extract, understand, and connect philosophical concepts from different domains. This integration can lead to the generation of new insights by highlighting connections and parallels between seemingly unrelated concepts.",
+    "expert": "Philosophical insight integration is a novel approach that combines the fields of philosophy and AI. It involves the development of intelligent systems capable of interpreting and connecting philosophical concepts from various domains, such as physics, biology, and systems. This integration can lead to the generation of novel insights by revealing unexpected relationships and parallels between concepts, and by highlighting the philosophical implications of these connections."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability to integrate philosophical concepts from different domains can lead to the generation of new insights by revealing unexpected relationships and parallels between concepts, and by highlighting the philosophical implications of these connections.",
+    "source_chunk": 1,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

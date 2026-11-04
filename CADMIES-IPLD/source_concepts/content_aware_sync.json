@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_aware_sync",
+  "title": "Content Aware Sync",
+  "definition": "A synchronization method that intelligently updates a system by comparing content-addressable identifiers (CIDs) to determine whether to add, update, or skip an operation.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:49.027723Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:49.027723Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a smart update system that checks if new information is the same as what's already on your computer. If it's the same, the system doesn't bother updating it, saving time and space.",
+    "intermediate": "Content-aware sync uses CIDs to determine if a piece of data is new or modified. If the CID is the same, the data is considered unchanged, and the system skips the update operation. This method is efficient and prevents unnecessary data duplication.",
+    "expert": "Content-aware sync is a form of distributed data storage and synchronization that leverages content-addressing to maintain data integrity and consistency. By comparing CIDs, the system can accurately determine the status of data and apply the appropriate operation: addition, update, or skip. This method is particularly useful in decentralized systems, where data may be stored on multiple nodes, and synchronization between nodes is required. Content-aware sync also has applications in version control systems, where it can be used to efficiently merge changes between different branches or repositories."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful use of content-aware sync in the CADMIES system demonstrates its efficiency and accuracy in maintaining data integrity and consistency.",
+    "source_chunk": 115,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

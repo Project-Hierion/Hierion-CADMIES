@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_symbiotic_manifesto",
+  "title": "The Symbiotic Manifesto",
+  "definition": "A philosophical concept that promotes interdisciplinary collaboration and understanding, challenging the disconnect between different sciences and addressing human ignorance.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.310466Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.310466Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where different plants and animals work together to create a beautiful ecosystem. The Symbiotic Manifesto is like that garden, promoting collaboration and understanding between different fields of knowledge.",
+    "intermediate": "The Symbiotic Manifesto is a philosophical concept that encourages interdisciplinary collaboration, challenging the separation between physics, biology, and other disciplines. It also aims to address human ignorance by creating a public AI that can synthesize information from various fields.",
+    "expert": "The Symbiotic Manifesto is a novel insight that challenges the traditional separation of knowledge into silos, promoting a symbiotic relationship between different fields. This has philosophical implications for our understanding of reality and knowledge, and it connects to the philosophy of Project Hieros and the concept of the mycelium as a living network. It also raises questions about the nature of human consciousness and its relationship to physical processes."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interdisciplinary collaboration and understanding promoted by the Symbiotic Manifesto has the potential to address human ignorance and challenge the separation of knowledge into silos.",
+    "source_chunk": 105,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "photonic_integrated_circuit",
+  "title": "Photonic Integrated Circuit",
+  "definition": "A solid-state optical routing block that directs, splits, and attenuates light without moving parts, utilizing internal, machined-like pathways to manage light flow.",
+  "type": "Concept",
+  "domain": "Photonics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.140665Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.140665Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a tiny glass chip that works like a mini traffic system for light. It's like having a traffic director for photons, allowing them to flow smoothly and efficiently in and out of different paths.",
+    "intermediate": "A photonic integrated circuit is a specialized glass block with internal waveguides to precisely direct, split, and attenuate light signals. It's similar to a hydraulic manifold, but for light, enabling fast and interference-free operations.",
+    "expert": "A photonic integrated circuit is a fundamental component of modern optical networking and quantum computing hardware. It combines the principles of optics and microfabrication to create a small, solid-state device that can manage and manipulate light at the quantum level. Its advantages include immunity to electromagnetic interference, small size, and high speed. This concept has philosophical implications for the nature of information and computation, as well as connections to fields like quantum mechanics and materials science."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user's description of a 'machined block' that manages light flow is a foundational principle of modern photonic integrated circuits.",
+    "source_chunk": 128,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

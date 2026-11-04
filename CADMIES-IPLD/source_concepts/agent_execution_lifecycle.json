@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "agent_execution_lifecycle",
+  "title": "Agent Execution Lifecycle",
+  "definition": "The process through which an agent loads its specification, finds its implementation, executes its function, and packages the results.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.788181Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.788181Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a robot that follows a set of instructions. It first finds out what it needs to do, then it looks up how to do it, performs the task, and finally shares what it learned. This whole process is the agent execution lifecycle.",
+    "intermediate": "An agent's execution lifecycle involves loading its specification, resolving its implementation, executing its function, and packaging the results. This process is orchestrated by an executor that manages the agent's dependencies and context.",
+    "expert": "The agent execution lifecycle is a complex process that involves loading and interpreting the agent specification, dynamically importing and executing the implementation module, managing the execution context, and packaging the results. This process is a fundamental aspect of the agent-based computing model, which allows for the flexible and modular construction of intelligent systems. The agent execution lifecycle is also closely connected to the concept of software agents, which are autonomous entities that perceive their environment, make decisions, and act upon those decisions. The agent execution lifecycle is a philosophical exploration of the nature of intelligence, autonomy, and the relationship between software and the world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The agent execution lifecycle is a philosophical exploration of the nature of intelligence, autonomy, and the relationship between software and the world.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

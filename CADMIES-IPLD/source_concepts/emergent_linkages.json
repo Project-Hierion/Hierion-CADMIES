@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "emergent_linkages",
+  "title": "Emergent Linkages",
+  "definition": "A conceptual insight that the complex system of interconnected fields and disciplines may lead to the emergence of novel and unexpected relationships.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.986114Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.986114Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a puzzle. When you add pieces together, you might discover new patterns or connections that weren't there before. This is similar to how scientists might find connections between seemingly unrelated fields.",
+    "intermediate": "The emergent linkages theory suggests that the complex network of scientific disciplines may lead to the discovery of previously unnoticed connections. This is facilitated by the use of advanced technologies like the Hieros Ontology Graph (HOG).",
+    "expert": "The concept of emergent linkages challenges the traditional view of scientific progress, emphasizing the role of interdisciplinary exploration. It highlights the potential for novel insights to arise from the complex interactions between fields, and the importance of open data sharing and collaboration in this process. The theory also draws connections to the philosophy of complexity and the study of complex systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that the complex interplay of disciplines may lead to the discovery of new and unexpected connections.",
+    "source_chunk": 55,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

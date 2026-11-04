@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cadmies_llm_integration",
+  "title": "Cadmies Llm Integration",
+  "definition": "The integration of CADMIES and a local Language Learning Model (LLM) to enhance functionality within the CADMIES GUI.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.068390Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.068390Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a smart search bar that can answer your questions about concepts, and a chatbot that can guide you through the mycelium network in the CADMIES GUI.",
+    "intermediate": "The CADMIES GUI is enhanced with LLM-powered concept search and a conversational mycelium explorer. This integration allows for more intelligent querying and exploration of concepts within the CADMIES system.",
+    "expert": "The integration of CADMIES and LLM provides a sophisticated system that leverages the distributed nature of the mycelium network for semantic search and querying. This not only enhances user experience but also pushes the boundaries of knowledge representation and retrieval within a decentralized system, creating a novel intersection between computer science and philosophy."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of CADMIES and LLM creates a sophisticated system that enhances user experience and pushes the boundaries of knowledge representation and retrieval within a decentralized system.",
+    "source_chunk": 18,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

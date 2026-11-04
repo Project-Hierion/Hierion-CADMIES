@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "user_interface_design_patterns",
+  "title": "User Interface Design Patterns",
+  "definition": "Recurring solutions to common problems in user interface design, such as navigation, display, and interaction patterns.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.442827Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.442827Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of UI design patterns as blueprints for creating user-friendly elements. They're like common recipes in cooking, making it easier and more consistent to design apps or websites.",
+    "intermediate": "User Interface Design Patterns are predefined solutions to common challenges in designing user-centric digital experiences. These patterns serve as a guide, providing a proven structure for common features like menus, buttons, and forms, improving usability and consistency.",
+    "expert": "User Interface Design Patterns are the embodiment of human-centric design principles, reflecting a deep understanding of human cognition and behavior. They serve as a bridge between theory and practice, encapsulating the knowledge of countless user research studies and design iterations. Furthermore, these patterns highlight the interdisciplinary nature of design, connecting fields like psychology, sociology, and technology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation revealed recurring patterns in the design of user interfaces, suggesting the existence of a well-established body of knowledge in the field of user experience design.",
+    "source_chunk": 76,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

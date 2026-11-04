@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "hierarchical_abstraction",
+  "title": "Hierarchical Abstraction",
+  "definition": "The process of breaking down complex systems into simpler components or layers, each representing a distinct level of abstraction.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.410703Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.410703Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a hierarchical abstraction like a pyramid. At the bottom, we have simple details. As we move up, these details are grouped into more abstract concepts.",
+    "intermediate": "In the context of AI, hierarchical abstraction involves training models to learn patterns and concepts at various levels of complexity. This allows AI systems to understand and make decisions based on a high-level understanding of the world.",
+    "expert": "Hierarchical abstraction is a key concept in cognitive science and AI. It enables models to capture the structure of a problem and make predictions with less computational resources. Additionally, hierarchical abstraction has been shown to improve the interpretability of AI systems, allowing them to generate explanations for their decisions. Moreover, hierarchical abstraction is a fundamental principle of human cognition, and understanding it has implications for the design of intelligent systems that can interact with humans in a meaningful way."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "HIEROS's ability to form a hierarchy during training indicates its capability to learn hierarchical abstractions, which is crucial for its understanding of the world.",
+    "source_chunk": 65,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

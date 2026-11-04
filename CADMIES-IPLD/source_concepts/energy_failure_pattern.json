@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "energy_failure_pattern",
+  "title": "Energy Failure Pattern",
+  "definition": "The systemic breakdown that occurs due to the absence of a foundational energy source, leading to various symptoms and secondary effects.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.264041Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.264041Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your body is like a machine that needs energy to work properly. When it doesn't get enough energy, things start to break down, causing problems.",
+    "intermediate": "The energy failure pattern is characterized by a failure to effectively utilize Adenosine Triphosphate (ATP), the primary energy currency of cells, due to a deficiency of a key molecular component. This can manifest in various ways, such as reduced growth, weak muscles, or headaches.",
+    "expert": "The energy failure pattern is a complex systems failure that encompasses a broad range of phenomena, from stunted plant growth to neurological energy failure. It's a multidisciplinary pattern that highlights the interconnectedness of biological systems and the crucial role of energy in these systems. The pattern has been observed in various domains, including botany, medicine, and physics, and its study offers insights into fundamental mechanisms and principles."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The recognition of a common pattern in diverse domains, where systemic breakdown occurs due to the absence of a foundational energy source.",
+    "source_chunk": 118,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

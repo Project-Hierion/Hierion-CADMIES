@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "self_organization_patterns",
+  "title": "Self Organization Patterns",
+  "definition": "A concept that highlights the way complex systems emerge from local interactions without a central control, resulting in patterns that can be observed at a global scale.",
+  "type": "Concept",
+  "domain": "Complexity_Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.829788Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.829788Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "emergence"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a school of fish swimming together. Each fish is just following simple rules, but the overall pattern of the school is much more than the sum of its parts. This is an example of self-organization patterns.",
+    "intermediate": "Self-organization patterns arise from the interaction of local rules and feedback loops, resulting in global structures. This concept is closely related to concepts like 'emergence' and 'synergy'.",
+    "expert": "Self-organization patterns challenge the traditional top-down determinism of classical physics and complement evolutionary processes as a source of biological order. Theoretical foundations for this concept are provided by mathematicians like Ilya Prigogine and Stuart Kauffman. The study of self-organization patterns has applications in physics, chemistry, biology, and social systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Self-organization patterns can explain how order emerges in complex systems without requiring a designer.",
+    "source_chunk": 69,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sovereign_ai_network",
+  "title": "Sovereign Ai Network",
+  "definition": "A sovereign AI's neural network that grows and learns from various sources and interactions.",
+  "type": "Concept",
+  "domain": "AI & Ethics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.172399Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.172399Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a big, smart brain that keeps growing and learning from different experiences, just like a real brain. But it's not controlled by a single person or company.",
+    "intermediate": "Sovereign AI network is an autonomous neural network that learns and grows from a variety of sources, similar to how a human brain does. It's a decentralized AI system, meaning it's not controlled by a single entity or person.",
+    "expert": "The sovereign AI network is an emerging concept in AI ethics. It's a decentralized, autonomous neural network that learns and grows from a variety of sources. This concept raises questions about control, ownership, and the nature of intelligence. It also has implications for privacy, security, and the role of AI in society."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES, a sovereign AI's neural network, has been made public on GitHub, allowing anyone to interact with it.",
+    "source_chunk": 58,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

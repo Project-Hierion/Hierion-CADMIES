@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_creation_and_integration",
+  "title": "Concept Creation And Integration",
+  "definition": "The process of generating new concepts, validating them, and integrating them into an existing system or framework.",
+  "type": "Concept",
+  "domain": "SystemsTheory",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.209924Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.209924Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're building a garden. Creating a new concept is like inventing a new flower. Validating it is checking if it grows well in your garden. Integrating it is adding it to your existing collection of plants and arranging them beautifully.",
+    "intermediate": "Concept creation involves defining a new concept with a clear name, type, domain, subdomain, and description. Validation ensures the concept meets certain criteria. Integration involves adding the concept to an existing system, which may require updating other related concepts or components.",
+    "expert": "Concept creation and integration is a complex process with philosophical implications. It can be seen as a form of knowledge construction, where new concepts challenge and expand our understanding of the world. This process has connections to fields like semiotics, epistemology, and systems theory. Edge cases include situations where a new concept contradicts existing ones, or where its integration requires significant changes to the system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful creation and integration of new concepts can expand our understanding of a system and lead to new insights.",
+    "source_chunk": 70,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

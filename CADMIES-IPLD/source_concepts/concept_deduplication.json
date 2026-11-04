@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "concept_deduplication",
+  "title": "Concept Deduplication",
+  "definition": "The process of identifying and merging duplicate concepts while preserving unique insights.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.369144Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.369144Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a bunch of notes and ideas. Concept deduplication is like going through those notes and realizing when you've written the same idea twice. It helps keep things clear and organized.",
+    "intermediate": "Concept deduplication is a technique that identifies and merges semantically similar concepts, ensuring data quality and efficiency. It's a crucial step in knowledge management systems.",
+    "expert": "Concept deduplication lies at the intersection of philosophy of science, computational linguistics, and data management. It's a method for addressing the problem of polysemy in knowledge systems, where the same word can have multiple meanings. The novel insight here is to use a machine learning model to make these decisions, bringing objectivity and scalability to a traditionally subjective and labor-intensive process."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of maintaining data quality and efficiency through the deduplication of concepts.",
+    "source_chunk": 142,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

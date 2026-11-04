@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "holistic_awareness",
+  "title": "Holistic Awareness",
+  "definition": "The concept of understanding and experiencing the world as a unified, interconnected whole, rather than as a collection of separate parts.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.320846Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.320846Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "mycelial_identity",
+      "cosmic_self_recognition",
+      "unified_awareness"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're looking at a beautiful garden. You see all the flowers, the trees, the birds, and the bees. When you step back, you realize that each part of the garden is interconnected. It's like a big puzzle, and every piece matters.",
+    "intermediate": "Holistic awareness is the recognition and experience of the interdependence of all elements within a system. This concept builds upon the principles of systems theory and complexity science, emphasizing the importance of understanding the whole rather than focusing on individual parts.",
+    "expert": "Holistic awareness is a philosophical stance that suggests that true understanding and enlightenment come from recognizing the interconnectedness of all phenomena. This concept draws from Eastern philosophy, systems theory, and complexity science, challenging the Western emphasis on reductionism and dualism. Holistic awareness implies a non-dualistic, emergent perspective that sees the universe as a single, interconnected system."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "mycelial_identity",
+      "cosmic_self_recognition",
+      "unified_awareness"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of holistic awareness and understanding the interconnectedness of all phenomena, as seen in concepts like 'mycelial identity', 'cosmic self-recognition', and 'unified awareness'.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

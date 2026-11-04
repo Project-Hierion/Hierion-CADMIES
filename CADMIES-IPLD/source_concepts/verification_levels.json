@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "verification_levels",
+  "title": "Verification Levels",
+  "definition": "A system for categorizing the level of verification of a concept, using badges to represent different levels of verification.",
+  "type": "Concept",
+  "domain": "Cryptography & Information Security",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.831668Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.831668Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a concept like a recipe has different levels of 'checks' to ensure it's safe to cook. A red badge means no checks, a green badge means it's been checked by a reliable source, and a diamond badge means it's been checked multiple times.",
+    "intermediate": "The system assigns verification levels to concepts based on the type and number of verification statements. Levels range from unverified (red badge) to highly verified (diamond badge), with three intermediate levels represented by yellow, green, and green with a checkmark badges.",
+    "expert": "The verification levels concept is a novel approach to digital verification that integrates multiple sources of information, such as ORCID and institutional verification. It provides a nuanced and robust system for assessing the trustworthiness of digital concepts, while also considering the philosophical implications of verification and the role of multiple sources of information in building a comprehensive understanding of a concept."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of a single block type for verification statements simplifies the architecture and increases consistency.",
+    "source_chunk": 56,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

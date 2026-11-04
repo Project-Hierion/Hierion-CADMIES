@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "heliospheric_asymmetry",
+  "title": "Heliospheric Asymmetry",
+  "definition": "The phenomenon of the heliosphere's asymmetrical shape resulting from the interaction of the solar wind and interstellar wind.",
+  "type": "Concept",
+  "domain": "Astrophysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.296116Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.296116Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a bubble floating in a sea, but it's not blowing equally in all directions. Instead, it's being pushed and pulled from different sides, making it look lumpy and uneven.",
+    "intermediate": "The heliospheric asymmetry occurs due to the interaction between the solar wind and interstellar wind, creating shock waves and tangled magnetic fields that distort the heliosphere's shape.",
+    "expert": "The heliospheric asymmetry is a manifestation of the non-linear dynamics and chaos theory within the heliosphere-interstellar medium interface. It not only affects our solar system but also has implications for the global evolution of magnetic fields and plasma in the universe, connecting it to the larger field of dynamo theory and turbulence in astrophysics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The 'tiny twist' in the conversation is the root cause of the heliosphere's lumpy, croissant-shaped appearance.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

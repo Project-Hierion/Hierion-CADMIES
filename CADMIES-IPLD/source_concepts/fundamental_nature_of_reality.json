@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "fundamental_nature_of_reality",
+  "title": "Fundamental Nature Of Reality",
+  "definition": "The philosophical concept that explores the essence of reality, its underlying nature, and its connection to various disciplines.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.552027Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.552027Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of reality as a collection of weird, wiggly things. Even the things you think are solid and certain are made of these wiggly parts.",
+    "intermediate": "The fundamental nature of reality, as described by concepts like quantum negativity and the uncertainty principle, is a dynamic, probabilistic, interconnected process.",
+    "expert": "The fundamental nature of reality is a subject of ongoing philosophical debate. Quantum physics suggests a probabilistic, non-local, interconnected universe. When we examine human nature and biology, we find a continuum with this underlying reality. This points to a deep connection between these two seemingly disparate fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Reality is fundamentally a collection of strange, wiggly, probabilistic, interconnected processes. This insight connects concepts from quantum physics and human nature.",
+    "source_chunk": 35,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

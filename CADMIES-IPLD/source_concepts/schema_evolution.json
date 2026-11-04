@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "schema_evolution",
+  "title": "Schema Evolution",
+  "definition": "The process by which the structure and complexity of a data schema evolve over time to better represent and model the systems and concepts it describes.",
+  "type": "Concept",
+  "domain": "Data Modeling",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.543116Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.543116Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a Lego set. As you add more pieces, the structure of the set becomes more complex. Similarly, a schema evolves by adding more details and complexity to better represent the concepts it describes.",
+    "intermediate": "Schema evolution involves the transformation of a basic concept representation schema into a more complex one that can support the creation of intelligent agents. This process is facilitated by the definition of new data models and the incorporation of additional metadata.",
+    "expert": "Schema evolution is a crucial aspect of data modeling and system development. It allows for the representation of more complex systems and behaviors, enabling the creation of intelligent agents that can interact with their environment and learn from experience. This process is deeply connected to the philosophy of information and the study of complex systems, with implications for fields such as artificial intelligence and machine learning."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system's evolution from a UniversalScientificConcept schema to an AgentNode schema enables the creation of intelligent agents that can explore and understand metaphysical concepts.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

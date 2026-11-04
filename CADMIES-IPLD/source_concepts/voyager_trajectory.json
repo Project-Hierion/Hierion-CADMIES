@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "voyager_trajectory",
+  "title": "Voyager Trajectory",
+  "definition": "The path of Voyager 1 as it moves through space, including its direction and angle of departure from the solar system.",
+  "type": "Concept",
+  "domain": "Astronomy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.285864Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.285864Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a tiny spaceship leaving Earth and its path through space. It doesn't just go straight out, but also banks up at a 35\u00b0 angle, like taking off from a runway.",
+    "intermediate": "Voyager 1's trajectory is a combination of two main movements: it travels outward from the solar system at a 35\u00b0 angle relative to the galactic plane, and it does so after using gravitational slingshots around Jupiter and Saturn to increase its speed.",
+    "expert": "The Voyager trajectory is a fascinating example of the gravitational slingshot effect in action. By using these slingshots, Voyager 1 was able to leave the solar system with a velocity of 17 kilometers per second, which is approximately 60,000 kilometers per hour. This trajectory allows us to explore the outer edges of the solar system and the interstellar medium."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Voyager trajectory is a unique visual representation of the gravitational slingshot effect, demonstrating the combination of outward and upward movement required to leave the solar system.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

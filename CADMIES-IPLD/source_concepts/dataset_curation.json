@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "dataset_curation",
+  "title": "Dataset Curation",
+  "definition": "The process of collecting, organizing, and maintaining a collection of data for a specific purpose or use.",
+  "type": "Concept",
+  "domain": "Data Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.483232Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.483232Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're collecting recipes for a cooking book. You find recipes, sort them, and make sure they're easy to find. That's dataset curation.",
+    "intermediate": "Dataset curation is the process of gathering, cleaning, and structuring data to be useful and relevant for a specific task or analysis. It involves data management techniques and can significantly impact the quality and results of machine learning models.",
+    "expert": "Dataset curation is a critical aspect of data science and machine learning, with philosophical implications in the realm of data ethics and bias. It requires a deep understanding of the data lifecycle and the ability to navigate the complex landscape of data privacy and security. Effective dataset curation can lead to more accurate and unbiased models, while poor curation can introduce bias and skew results."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance and challenge of maintaining a living, curated dataset in the rapidly evolving field of large language models.",
+    "source_chunk": 97,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

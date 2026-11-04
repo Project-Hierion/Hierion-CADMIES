@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "system_optimization",
+  "title": "System Optimization",
+  "definition": "The process of improving a system's performance, capacity, and efficiency through the removal of duplicates, resolution of technical issues, and streamlining of architecture.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.335611Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.335611Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a messy room full of duplicate items and broken things. System optimization is like cleaning it up and fixing what's broken to make it more organized and functional.",
+    "intermediate": "System optimization involves storage duplication elimination, technical issue resolution, and architectural streamlining to enhance performance, capacity, and efficiency.",
+    "expert": "System optimization is a multidisciplinary field that combines aspects of data management, computer networking, and software engineering. It aims to enhance system performance, capacity, and efficiency by addressing issues such as storage duplication, technical blockers, and organizational challenges. The process often involves a systematic cleanup operation that integrates various techniques, including virtual environment consolidation, storage optimization, and the resolution of technical issues. This can have significant implications for storage recovery, maintenance complexity, and the overall sustainability and scalability of the system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The successful completion of a comprehensive system audit and cleanup operation, which resulted in the recovery of 31GB of storage, the elimination of duplicates, the resolution of technical issues, and the streamlining of architecture.",
+    "source_chunk": 21,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

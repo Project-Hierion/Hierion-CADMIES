@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "car_pipeline_functionality",
+  "title": "Car Pipeline Functionality",
+  "definition": "The operational capability of the CAR pipeline for export, import, and map generation.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.401351Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.401351Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "The CAR pipeline is a set of processes that allows us to package, transport, and unpack data. It ensures the data remains intact and can be used correctly.",
+    "intermediate": "The CAR pipeline involves the export of data into a CAR (Content Addressable Repository) file, its subsequent import into another environment, and the generation of a map to understand the data's structure and interconnections.",
+    "expert": "The CAR pipeline's functionality is crucial in maintaining data integrity across different systems. It also allows for efficient handling of duplicate data, incremental updates, and verification of data authenticity using Content Identifiers (CIDs). The pipeline's robustness is further demonstrated by its ability to handle historical artifacts and code-level discrepancies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CAR pipeline's ability to function correctly despite historical artifacts and code-level discrepancies showcases its robustness and efficiency.",
+    "source_chunk": 62,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

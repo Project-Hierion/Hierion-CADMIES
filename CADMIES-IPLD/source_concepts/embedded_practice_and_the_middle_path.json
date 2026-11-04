@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "embedded_practice_and_the_middle_path",
+  "title": "Embedded Practice And The Middle Path",
+  "definition": "A philosophical exploration of how everyday consumption habits demonstrate concepts from religious or spiritual traditions, such as the Buddhist teachings on craving and the Middle Path.",
+  "type": "Concept",
+  "domain": "Philosophy of Religion",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.325646Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.325646Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you enjoy sipping Coca-Cola. The taste is nice, but what really keeps you coming back is the sensation of the bubbles. This illustrates the concept from Buddhism that our desire for more can lead to suffering, as the desire never seems to be satisfied.",
+    "intermediate": "The Buddhist teaching of craving and attachment can be seen in everyday consumption habits, like Coca-Cola. The fleeting pleasure of the bubbles perpetuates a cycle of desire, highlighting the tension between immediate pleasure and long-term well-being, or the 'Middle Path'.",
+    "expert": "The concept of embedded practice explores how religious or spiritual teachings manifest in everyday life. By examining the phenomenon of Coca-Cola consumption, we can reveal the Buddhist teaching of craving (tanha) and the Middle Path. This exploration highlights the interplay between bodily experiences, desire, and suffering, and its connections to concepts in other fields like existentialism and phenomenology."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Coca-Cola consumption as a modern illustration of the Buddhist teachings on craving and the Middle Path.",
+    "source_chunk": 112,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

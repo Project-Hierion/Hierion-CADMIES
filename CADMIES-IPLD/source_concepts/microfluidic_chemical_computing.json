@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "microfluidic_chemical_computing",
+  "title": "Microfluidic Chemical Computing",
+  "definition": "A computing paradigm that uses microfluidic channels to manipulate and process chemical signals, enabling the creation of a chemical computer.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.195821Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.195821Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a river of saline water that carries tiny signals, like fish swimming upstream. These signals are caused by small chemical disruptions, which can be controlled to create a computer that performs calculations.",
+    "intermediate": "Microfluidic chemical computing is a novel approach to computing that uses the flow of fluids, such as saline solutions, to carry and manipulate chemical signals. This allows for the creation of a chemical computer that can perform calculations and logical operations using fluidic logic gates, such as AND, OR, and NOT gates.",
+    "expert": "Microfluidic chemical computing is a radical shift in the paradigm of computing, combining principles from fluid dynamics, chemistry, and computer science. It enables the creation of a chemical computer that operates on the basis of chemical signals, allowing for massive parallelism, low power consumption, and potential integration with biological systems. This approach also presents challenges related to the design and control of fluidic logic gates, the stability and reproducibility of chemical reactions, and the scalability of the system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The use of microfluidic channels and chemical signals to create a computing paradigm that enables massive parallelism and low power consumption, while also presenting challenges related to the design and control of fluidic logic gates.",
+    "source_chunk": 152,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

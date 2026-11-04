@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "reinforcement_learning_process",
+  "title": "Reinforcement Learning Process",
+  "definition": "The iterative learning process that an agent undergoes to improve its decision-making abilities in an environment.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.567832Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.567832Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a child learning to play a game. At first, they make mistakes and don't know what to do. Over time, they learn from these mistakes and start to play better. Reinforcement learning is a way for computers to do this, too.",
+    "intermediate": "Reinforcement learning is a type of machine learning where an agent learns to behave in an environment by taking actions and receiving rewards. The agent's goal is to maximize its cumulative reward. The process involves the agent exploring the environment, trying out different actions, and updating its strategy based on the rewards it receives.",
+    "expert": "The process of reinforcement learning is complex and involves various techniques. This conversation highlights the iterative learning process, where the agent takes actions based on a current policy, interacts with the environment, and updates the policy based on the observed rewards. This process allows the agent to learn optimal strategies for maximizing long-term rewards. It also connects to the broader field of artificial intelligence and its applications in game playing, robotics, and autonomous systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": 135,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

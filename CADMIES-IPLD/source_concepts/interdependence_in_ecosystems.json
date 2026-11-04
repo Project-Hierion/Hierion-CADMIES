@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interdependence_in_ecosystems",
+  "title": "Interdependence In Ecosystems",
+  "definition": "The concept that the survival and prosperity of one species in an ecosystem is closely tied to the survival and prosperity of other species.",
+  "type": "Concept",
+  "domain": "Biology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.488735Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.488735Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a garden where flowers need bees to grow, and bees need flowers to survive. In an ecosystem, everything is connected, and when one thing changes, it affects everything else.",
+    "intermediate": "In ecological systems, interdependence is a fundamental principle. This concept, also known as mutualism, shows how species coexist and evolve together. Predation, in the context of this conversation, can be seen as an example of interdependence, with the predator relying on its prey for survival.",
+    "expert": "The concept of interdependence in ecosystems has profound implications in the field of sociobiology. It extends beyond biological systems to social structures, such as survival cultures. Predation can also be seen as a form of interdependence in survival cultures, where certain individuals or groups rely on others for resources or protection. However, the relationship between predation and survival culture is complex and often contradictory, highlighting the nuances and limitations of this concept."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Predation, while often perceived as a destructive force, is actually a form of interdependence in ecosystems, showing the complex and nuanced relationships between species and concepts.",
+    "source_chunk": 52,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

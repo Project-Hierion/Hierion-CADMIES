@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_immutability",
+  "title": "Content Immutability",
+  "definition": "The principle that once a digital object is created, its content remains unchanged, ensuring integrity and reliability.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.607771Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.607771Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a digital document like a recipe. Once it's published, you don't want it to change. That's how content immutability works \u2014 once a digital object is created, its content stays the same.",
+    "intermediate": "Content immutability is a concept in computer science that states that once a digital object is created, its content remains unchanged. This principle ensures data integrity and reliability, especially in decentralized systems like blockchains or content-addressed file systems.",
+    "expert": "Content immutability is a fundamental concept in computer science and information theory, ensuring data integrity and reliability. It forms the basis of distributed ledger technologies like blockchains, content-addressed file systems, and version control systems. Immutability guarantees that once a digital object is created, its content remains unchanged, allowing for trustless verification and preserving historical records. This principle also raises philosophical questions about the nature of change, identity, and the meaning of time in the digital world."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The concept of content immutability highlights the importance of preserving historical records and ensuring data integrity in digital systems.",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "full_stack_ai_system_development",
+  "title": "Full Stack Ai System Development",
+  "definition": "The end-to-end creation of an AI system, from training models to deploying on web frontends, with a focus on integrating knowledge graphs and producing scientific documentation.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.364820Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.364820Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine building a car: I can do everything from designing the engine to assembling the body and adding features like GPS. Similarly, I can build an AI system that can learn, understand, and make decisions, and I can also create a web interface for it.",
+    "intermediate": "Full-stack AI system development involves the construction of a complete pipeline, including data harvesting, model training, enrichment, relationship mapping, and deployment on various platforms. This process often requires integrating knowledge graphs and producing comprehensive documentation.",
+    "expert": "Full-stack AI system development is a unique blend of machine learning, computer science, and data engineering. It requires a deep understanding of both theoretical and practical aspects of AI, from low-level GPU operations to high-level web development. The integration of knowledge graphs into these systems allows for the creation of more sophisticated and accurate AI models. Moreover, the production of scientific documentation is crucial for ensuring reproducibility and transparency in the AI field."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The development of a full-stack AI system, including the integration of knowledge graphs and the production of scientific documentation, sets the individual apart from others in the field.",
+    "source_chunk": 47,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

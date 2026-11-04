@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interaction_design_patterns",
+  "title": "Interaction Design Patterns",
+  "definition": "Design principles that guide the creation of user interfaces, focusing on usability, learnability, and enjoyment.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.503176Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.503176Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're baking a cake. Interaction design patterns are like recipes: they help you create a user-friendly, easy-to-navigate interface, similar to how a good recipe makes baking a cake enjoyable and successful.",
+    "intermediate": "Interaction design patterns are guidelines that help create intuitive and engaging user interfaces. They're similar to blueprints for a house: they provide a structure and set of rules to follow, while allowing for flexibility and customization.",
+    "expert": "Interaction design patterns are reusable solutions to common user interface challenges, derived from patterns in the physical world. By understanding the underlying psychological and perceptual principles, designers can create more effective and efficient interfaces."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

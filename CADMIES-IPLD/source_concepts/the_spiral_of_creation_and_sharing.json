@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "the_spiral_of_creation_and_sharing",
+  "title": "The Spiral Of Creation And Sharing",
+  "definition": "The concept of an evolving spiral where each iteration learns from the last, leading to the emergence of the personal sovereign library, decentralized physical production, experiential media, and protocol over platform.",
+  "type": "Concept",
+  "domain": "Sociology, Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.752421Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.752421Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a cycle that keeps getting better and better. Each time we create something new, we learn from it, and that helps us create even better things next time. This cycle doesn't end; it keeps spinning, and it makes us leave digital behind as a simpler way of living.",
+    "intermediate": "The cycle of creation and sharing isn't static; it's a spiral. Each new iteration builds upon the last, leading to innovations like the personal sovereign library, decentralized physical production, and the shift from products to protocols. These changes challenge traditional business models and allow for more direct relationships between creators and consumers.",
+    "expert": "The spiral of creation and sharing is a fundamental shift in human behavior and society. It's rooted in the inherent desire to share and create, which is a core feature of human nature. This spiral challenges traditional business models and technologies, pushing towards a more decentralized, local, and encrypted world. It's not just about technology; it's about a new social agreement that values sharing and creativity over consumption and control. The spiral of creation and sharing is a philosophical and sociological insight with implications for technology, economics, and the future of society."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The spiral of creation and sharing is a philosophical and sociological insight that challenges traditional business models and technologies, pushing towards a more decentralized, local, and encrypted world.",
+    "source_chunk": 144,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ui_state_representation",
+  "title": "Ui State Representation",
+  "definition": "The concept of visually representing different states or outcomes in a user interface design.",
+  "type": "Concept",
+  "domain": "User Experience Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.331908Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.331908Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a website or app displaying a different page or message when there's no data available. This is a way to let you know that something is missing or not ready.",
+    "intermediate": "UI state representation is a design technique used to communicate the current state of an application or interface to its users. In the image provided, an 'empty state' is used to indicate that there is no data to display.",
+    "expert": "UI state representation is a fundamental aspect of user experience design, with implications for user engagement, usability, and the overall user experience. In the context of data presentation, it can also be seen as a form of feedback, providing users with information about their interactions with the system. In the image provided, the 'empty state' serves to inform the user about the absence of data, while also suggesting possible next steps (e.g., creating a new booking)."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The image showcases a well-designed user interface that effectively communicates the absence of data through an 'empty state', enhancing user experience and clarity.",
+    "source_chunk": 31,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

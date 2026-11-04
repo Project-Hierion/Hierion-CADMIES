@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "system_architecture_strategies",
+  "title": "System Architecture Strategies",
+  "definition": "Diverse strategies employed in system design to ensure reliability, integrity, and security.",
+  "type": "Concept",
+  "domain": "Systems Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.291914Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.291914Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of system architecture strategies as the blueprints for building reliable systems. They involve using different approaches to ensure the system functions well, keeps data safe, and can work independently.",
+    "intermediate": "System architecture strategies involve techniques like air-gapping, data sovereignty, smart import systems, and universal concept formats to ensure the system is resilient, secure, and can operate independently.",
+    "expert": "System architecture strategies involve a blend of philosophical, technical, and ethical considerations. Air-gapping, for example, draws on the notion of separation in philosophy to ensure system security. Data sovereignty connects to political philosophy and questions of control over data. The universal concept format reflects the idea of interoperability in complex systems, a philosophical concept linked to the field of distributed systems."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The system's use of diverse strategies to ensure reliability, integrity, and security highlights its sophisticated design and attention to philosophical principles.",
+    "source_chunk": 9,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

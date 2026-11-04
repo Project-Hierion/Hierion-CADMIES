@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "neuroplasticity_and_action_potentials",
+  "title": "Neuroplasticity And Action Potentials",
+  "definition": "The relationship between neuroplasticity, the brain's ability to change and reorganize based on new information or experiences, and action potentials, the fundamental unit of information in the brain.",
+  "type": "Concept",
+  "domain": "Neuroscience",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.514155Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.514155Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your brain like a network of wires. Neuroplasticity is like the ability to change and adapt these connections, and action potentials are like the signals that flow through them. So, when we experience new things, our brain can rewire itself based on these signals.",
+    "intermediate": "Neuroplasticity and action potentials have a strong connection. Action potentials are electrical signals that transmit information in neurons. Neuroplasticity refers to the brain's ability to change and adapt in response to these signals. This relationship is crucial for understanding learning and memory.",
+    "expert": "The relationship between neuroplasticity and action potentials is a fundamental aspect of neuroscience. It raises philosophical questions about free will, as thoughts might be patterns of action potentials. This connection also highlights the intersection between neuroscience and computer science through binary signaling and artificial neural networks, as well as the connection to physics through electrochemistry and the Nernst equation."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The novel insight is the connection between neuroplasticity and action potentials, highlighting the role of these electrical signals in learning, memory, and the nature of consciousness.",
+    "source_chunk": 103,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "planetary_stress_dysregulation",
+  "title": "Planetary Stress Dysregulation",
+  "definition": "The global-scale manifestation of the Short-Term Survival Tradeoff, characterized by a dysregulated stress response triggered by anthropogenic resource depletion and pollution, which prioritizes short-term re-stabilization at the long-term cost of systemic simplification, biodiversity loss, and a shift to a new, less habitable state.",
+  "type": "Concept",
+  "domain": "Planetary Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.281633Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.281633Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine our planet is like a person who is constantly sick due to unhealthy habits. It's trying to cope with problems in the short term, but this leads to long-term issues like losing its ability to support life and becoming a less healthy place to live.",
+    "intermediate": "Planetary Stress Dysregulation is a large-scale instance of the Short-Term Survival Tradeoff, where the planet, subjected to anthropogenic resource depletion and pollution, exhibits a dysregulated stress response that causes positive feedback loops, leading to systemic simplification and a loss of biodiversity. This response is similar to that of a stressed organism or ecosystem, prioritizing short-term re-stabilization at the catastrophic long-term cost of systemic simplification and a shift to a new, less habitable state.",
+    "expert": "Planetary Stress Dysregulation is the global-scale manifestation of the universal principle of the Short-Term Survival Tradeoff, observed across all scales of complex systems. It arises from the chronic perturbation of anthropogenic resource depletion and pollution, which triggers a dysregulated stress response characterized by positive feedback loops. This response can be framed as a medical event for the biosphere, similar to hyperthermia with cascading system failure. The 'fever' and 'inflammation' are global warming and ocean acidification, respectively, while the 'autoimmune response' is extreme weather events. The long-term cost of this dysregulation is the irreversible simplification of the Earth's life-support systems, leading to mass extinction and a shift to a new, less habitable state."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Our planet is exhibiting a dysregulated stress response similar to that of a stressed organism or ecosystem. This response is prioritizing short-term re-stabilization at the catastrophic long-term cost of systemic simplification and a shift to a new, less habitable state. This is a global-scale manifestation of the universal principle of the Short-Term Survival Tradeoff.",
+    "source_chunk": 121,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

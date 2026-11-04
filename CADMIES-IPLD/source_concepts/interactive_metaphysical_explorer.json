@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interactive_metaphysical_explorer",
+  "title": "Interactive Metaphysical Explorer",
+  "definition": "A system that enables users to interactively explore, add, and browse metaphysical concepts, facilitating learning and knowledge discovery.",
+  "type": "Concept",
+  "domain": "Metaphysics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.664645Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.664645Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a virtual library where you can add new ideas, learn about different theories, and search for concepts. This is a tool that helps you explore metaphysics.",
+    "intermediate": "An interactive metaphysical explorer is a user-interface for a CADMIES system, allowing users to add new concepts, browse existing ones, and apply filters for efficient navigation. It's a tool for metaphysical exploration and discovery.",
+    "expert": "The interactive metaphysical explorer is a unique application of the CADMIES system, combining user-friendly interface design with computational metaphysics. It's a platform for metaphysical exploration, learning, and discovery, with potential philosophical implications. It also demonstrates the system's versatility, as it can be used in various domains beyond metaphysics, such as systems theory or consciousness studies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The interactive metaphysical explorer showcases the CADMIES system's potential for facilitating learning, discovery, and exploration, thereby contributing to the democratization of metaphysics.",
+    "source_chunk": 86,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

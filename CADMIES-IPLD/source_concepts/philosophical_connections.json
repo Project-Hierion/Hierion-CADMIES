@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_connections",
+  "title": "Philosophical Connections",
+  "definition": "The exploration of semantic connections and patterns between philosophical concepts.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.635448Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.635448Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as finding how different philosophical ideas are connected to each other. Like how the pieces of a puzzle fit together.",
+    "intermediate": "This involves analyzing philosophical concepts for shared domains, types, subdomains, and terminology to reveal connections and patterns.",
+    "expert": "Examining philosophical connections can uncover novel insights about the nature of reality, knowledge, existence, and consciousness. It also has implications for areas like metaphysics, epistemology, and ethics. However, it's complex and requires a nuanced understanding of philosophical traditions and theories."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discussion highlights the potential for finding significant connections and insights by examining the relationships between philosophical concepts.",
+    "source_chunk": 39,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

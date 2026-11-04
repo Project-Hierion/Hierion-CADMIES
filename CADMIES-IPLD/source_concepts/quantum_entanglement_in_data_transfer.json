@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quantum_entanglement_in_data_transfer",
+  "title": "Quantum Entanglement In Data Transfer",
+  "definition": "The phenomenon of instantaneous correlation between particles, applied to data transfer via Python scripts.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-04T00:42:32.388092Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-04T00:42:32.388092Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine two computers sharing information so instantly, it feels like they're reading each other's minds. That's quantum entanglement in data transfer.",
+    "intermediate": "Quantum entanglement is the concept from quantum mechanics that particles can be linked in such a way that the state of one particle can instantly affect the state of another, no matter the distance. In this context, we're applying this concept to data transfer using Python scripts.",
+    "expert": "Quantum entanglement in data transfer is a metaphorical application of a fundamental principle from quantum mechanics. While true quantum entanglement requires physical particles, the concept can be applied to data transfer via Python scripts due to the instantaneous correlation and synchronization they enable. This is particularly interesting in the context of distributed systems and data consistency."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The scripts were written in April and worked in May, illustrating the power of foresight and planning in software development.",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

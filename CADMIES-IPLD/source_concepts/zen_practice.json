@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "zen_practice",
+  "title": "Zen Practice",
+  "definition": "Philosophical concept emphasizing the importance of the journey over the destination, focusing on mindfulness and acceptance of life's impermanence.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.940415Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.940415Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Zen practice is like pointing at the moon \u2014 it's not about reaching the moon, it's about the journey of pointing and the lessons learned along the way.",
+    "intermediate": "Zen practice involves focusing on the act of doing, rather than the outcome. This concept is often compared to the 'Honeymooners' character Ralph Kramden, who constantly schemes and strives, yet never reaches his ultimate goal \u2014 the moon.",
+    "expert": "Zen practice is a philosophical tradition that emphasizes living in the present moment and understanding the interconnectedness of all things. It has deep roots in Buddhism and has been a significant influence on various art, literature, and scientific fields. The practice of 'pointing at the moon' can be seen as a metaphor for the constant pursuit of enlightenment, while also acknowledging the impermanence of all phenomena."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals that the act of 'pointing at the moon' can be seen as a metaphor for Zen practice, emphasizing the importance of the journey and the lessons learned along the way.",
+    "source_chunk": 53,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

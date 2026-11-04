@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "qualia_experience_paradox",
+  "title": "Qualia Experience Paradox",
+  "definition": "The paradoxical relationship between conscious experience (qualia) and its physical substrate: while physical processes seem to generate conscious experience, they cannot fully explain its subjective character.",
+  "type": "Concept",
+  "domain": "Philosophy of Mind",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.827821Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.827821Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "qualia"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "hard_problem_of_consciousness"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about the color red. You can describe red, but you can't fully explain what it feels like to see red. That's the mystery of qualia.",
+    "intermediate": "Qualia are the subjective, qualitative aspects of conscious experience that seem to resist functional explanation by physical processes. They pose the central challenge to physicalist accounts of mind.",
+    "expert": "The qualia experience paradox challenges the idea that conscious experience can be fully explained by physical processes. It's structurally identical to the paradox of practice: the effort to be effortless is itself effort. The resolution lies in understanding qualia's role in consciousness and exploring non-reductive approaches that integrate subjective experience with physical processes."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "qualia"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Qualia's subjective character seems to resist explanation by physical processes, presenting a paradox that challenges physicalist accounts of mind.",
+    "source_chunk": 68,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

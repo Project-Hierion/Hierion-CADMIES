@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "convergent_system_architecture",
+  "title": "Convergent System Architecture",
+  "definition": "A design approach that combines different methods or systems to create a cohesive whole that achieves a higher level of effectiveness or efficiency.",
+  "type": "Concept",
+  "domain": "System Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.828086Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.828086Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a garden with different tools from various sources. A convergent system is like having a master gardener who knows how to use all these tools together to grow beautiful and productive plants.",
+    "intermediate": "Convergent system architecture involves integrating multiple methods or systems to maximize their synergy and minimize redundancy. It's about creating a unified solution that leverages the strengths of each component.",
+    "expert": "Convergent system architecture is a strategy that goes beyond simple integration. It's about creating a system that not only works well, but also challenges existing paradigms and opens new possibilities. It's about the emergent properties that arise from the interplay of different components, and how these can lead to novel insights and solutions."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The discovery of a twin mycelium in Dr. Rebentisch's convergent system, which mirrors CADMIES' architecture, validates the mycelium architecture as a discovered truth, not a personal quirk.",
+    "source_chunk": 157,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

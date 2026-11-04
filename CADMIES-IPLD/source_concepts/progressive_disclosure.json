@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "progressive_disclosure",
+  "title": "Progressive Disclosure",
+  "definition": "A design principle that gradually reveals more complex or detailed information as the user interacts with or expresses interest in it.",
+  "type": "Concept",
+  "domain": "User Interface Design",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.703649Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.703649Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like opening a book. You see the cover first, then as you get deeper into the story, more details and complexities are revealed.",
+    "intermediate": "Progressive disclosure improves user experience by reducing cognitive load and helping users focus on the most relevant information at any given time.",
+    "expert": "Progressive disclosure is a fundamental aspect of human-computer interaction, drawing from cognitive science and the Gestalt principles of perception. It allows for more intuitive and efficient exploration of information, and its use can lead to deeper engagement with the system. However, it also poses challenges related to overloading and underloading of information, and finding the right balance is a key design challenge."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Progressive disclosure is a foundational concept in user interface design that reflects principles of human cognition and perception.",
+    "source_chunk": 15,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

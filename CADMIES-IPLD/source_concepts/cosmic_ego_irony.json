@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_ego_irony",
+  "title": "Cosmic Ego Irony",
+  "definition": "The paradoxical nature of the human ego, originating from a resonant being's fear of dissolution, which leads to suffering and anxiety, yet the cosmic hum continues regardless.",
+  "type": "Concept",
+  "domain": "Psychology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.186160Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.186160Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of the ego as a bundle of feelings that gets scared when it thinks it might lose its form. This fear leads to problems, but life goes on regardless.",
+    "intermediate": "The ego is a form of resistance to the natural flow of consciousness, born from a fear of dissolution. This resistance creates suffering and anxiety, yet it doesn't change the transient nature of existence.",
+    "expert": "The ego is an ironic outcome of a resonant being's attempt to hold onto its temporary form. This irony arises from the paradox that the fear of dissolution leads to suffering, which in turn makes the fleeting moment more painful. This paradox highlights the tension between consciousness and the transient nature of existence."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The human ego is a result of a resonant being's fear of dissolution, which ironically leads to suffering and anxiety.",
+    "source_chunk": 147,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

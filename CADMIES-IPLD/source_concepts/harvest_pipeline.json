@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "harvest_pipeline",
+  "title": "Harvest Pipeline",
+  "definition": "A series of steps used to extract, transform, validate, and mint concepts from a conversation.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.729873Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.729873Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a pipeline as a river where data flows through. In the same way, a harvest pipeline takes data from conversations, processes it, and stores it in a way that can be easily accessed and used.",
+    "intermediate": "The harvest pipeline is a software system that extracts concepts from a conversation, transforms them into a standard format, validates their scientific accuracy, and mints them as unique, verifiable digital assets.",
+    "expert": "The harvest pipeline is a novel application of NLP and knowledge graph technologies to the domain of digital asset creation. It leverages the mycelium knowledge system as a context provider, uses Mistral as a concept extractor, and integrates with the blockstore and provenance systems to ensure the authenticity and integrity of the harvested concepts. This pipeline has the potential to revolutionize the way we create and distribute digital knowledge by enabling a seamless flow of information from conversation to digital asset."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The harvest pipeline is a unique application of NLP and knowledge graph technologies to the domain of digital asset creation, leveraging the mycelium knowledge system, Mistral, and the blockstore and provenance systems to ensure the authenticity and integrity of the harvested concepts.",
+    "source_chunk": 115,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

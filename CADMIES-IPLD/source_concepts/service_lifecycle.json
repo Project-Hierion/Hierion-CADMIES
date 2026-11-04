@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "service_lifecycle",
+  "title": "Service Lifecycle",
+  "definition": "The stages and processes through which a service evolves and impacts the customer experience.",
+  "type": "Concept",
+  "domain": "Business Operations",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.603969Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.603969Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a service like a car - it goes through different stages like buying, maintaining, and renewing. Each stage has its own importance and impact on the overall experience.",
+    "intermediate": "The service lifecycle includes stages like booking, pricing, service execution, renewal, and customer satisfaction. Each stage interacts with the system in specific ways, from backend operations to frontend presentation.",
+    "expert": "The service lifecycle encompasses a variety of human and technical interactions, from the initial booking through to post-service satisfaction. It highlights the need for a seamless and continuous flow, addressing concerns like cache, data consistency, and user experience. Moreover, it underscores the importance of understanding the lifecycle in the context of broader business and technical trends."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Understanding the service lifecycle is crucial for identifying and addressing issues in the system, from backend deployment to frontend presentation.",
+    "source_chunk": 135,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

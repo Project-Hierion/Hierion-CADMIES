@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "biopiracy_through_patents",
+  "title": "Biopiracy Through Patents",
+  "definition": "The use of patent law to control biological resources and restrict their use, sharing, and reproduction, often with devastating consequences for nature and communities.",
+  "type": "Concept",
+  "domain": "Law and Ethics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:24:59.845970Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:24:59.845970Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a company using patent law to control seeds that can naturally spread, like wind or animals. This means that even if the seeds land on your property, you could be sued for 'stealing' them, despite not doing anything wrong.",
+    "intermediate": "Biopiracy through patents involves the application of intellectual property law, such as patents, to living organisms and their derivatives, which can lead to the misappropriation of biological resources and a loss of traditional knowledge and practices.",
+    "expert": "Biopiracy through patents challenges the fundamental principles of nature, such as the Law of Seeds, the Right to Save Seeds, and the Innocence of the Land. It also highlights the paradoxical relationship between intellectual property law and the natural world, as well as the consequences for biodiversity, food sovereignty, and human rights."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The court's ruling that a man-made legal construct holds supremacy over the ancient, fundamental laws of nature when the two come into conflict demonstrates the power and consequences of biopiracy through patents.",
+    "source_chunk": 4,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

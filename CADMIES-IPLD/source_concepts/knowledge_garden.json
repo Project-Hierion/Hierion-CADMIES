@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_garden",
+  "title": "Knowledge Garden",
+  "definition": "A dynamic system that harvests, validates, and mints insights from human-AI dialogue into a growing semantic network of concepts.",
+  "type": "Concept",
+  "domain": "Philosophy, Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.346335Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.346335Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like a garden that grows over time. It takes in ideas, checks if they're good (just like a plant needs sunlight, water, and good soil), and then adds them to a collection of ideas. Over time, these ideas connect to form a big web of knowledge.",
+    "intermediate": "The knowledge garden is a hybrid system that combines human dialogue, AI extraction, and blockchain-like concept minting. It validates each concept, assigns a Content ID (CID), maintains a provenance record, and saves it to a database. This results in a networked knowledge base that can be queried and built upon.",
+    "expert": "The knowledge garden is a novel application of human-AI dialogue that leverages distributed ledger technology. It extends the concept of a digital garden to a living system that continuously evolves through the dynamic interplay of human insight and AI processing. This system provides a philosophical foundation for a decentralized, networked knowledge base that is both immutable and dynamic, reflecting the interconnected nature of consciousness and reality."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The knowledge garden is a living system that grows through the dynamic interplay of human insight and AI processing, continuously evolving and expanding its network of concepts.",
+    "source_chunk": 137,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

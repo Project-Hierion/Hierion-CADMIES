@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "willie_functionality_troubleshooting",
+  "title": "Willie Functionality Troubleshooting",
+  "definition": "The process of diagnosing and resolving issues with Willie's functionality in the CADMIES GUI.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.238643Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.238643Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're trying to fix a broken toy. You go back to how it used to work and find what changed.",
+    "intermediate": "Willie's functionality troubleshooting involves comparing the current version of the code with a known working version to identify the changes that cause the issue.",
+    "expert": "Troubleshooting Willie's functionality is a complex process that involves understanding the system architecture, debugging tools, and version control. It highlights the importance of modular design and the need for thorough testing."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The issue was caused by incorrect import statements and file paths, which can be resolved by comparing the current version with a known working version.",
+    "source_chunk": 83,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

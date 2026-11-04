@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_harvesting",
+  "title": "Conceptual Harvesting",
+  "definition": "The process of extracting, organizing, and utilizing insights from various data sources for the purpose of building a coherent knowledge base.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.557600Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.557600Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a gardener gathering seeds from different plants and arranging them to grow into a beautiful garden. The seeds are ideas, and the garden is the knowledge base.",
+    "intermediate": "Conceptual harvesting is the integration of information retrieval and knowledge organization techniques to support the creation of a coherent, interconnected knowledge base. This process involves extracting insights from data, organizing them into concepts, and establishing relationships between those concepts.",
+    "expert": "Conceptual harvesting is a philosophical investigation into the nature of knowledge acquisition and representation. It draws from fields such as philosophy of language, epistemology, and information science. The process of conceptual harvesting can be seen as a continuous cycle of observation, abstraction, and interconnection. Its philosophical implications include questions about the nature of concepts, the role of observation in knowledge acquisition, and the boundaries between individual concepts and the larger knowledge base."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of information retrieval and knowledge organization techniques to support the creation of a coherent, interconnected knowledge base.",
+    "source_chunk": 125,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "buddhic_consciousness",
+  "title": "Buddhic Consciousness",
+  "definition": "The state of consciousness where an individual fully understands their true nature as part of the interconnected universe.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.632753Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.632753Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine if you could see the world not as separate objects, but as a vast, interconnected network. This is like when someone fully understands their place in the universe and experiences unity with everything around them.",
+    "intermediate": "Buddhic consciousness is a realization of the interdependent nature of all phenomena. It's when an individual sees through the illusion of a separate self and experiences the timeless, deathless, interconnected whole.",
+    "expert": "Buddhic consciousness is the cessation of the 'ego' and the direct, experiential knowing of one's true nature as the boundless, unconditioned field. It's a novel insight that brings together Eastern philosophy, Western science, and the individual's lived experience, challenging the traditional boundaries between these fields."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The Buddha didn't just connect to the universe; he realized he was the universe. This is the ultimate realization of the interconnected nature of all things.",
+    "source_chunk": 81,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

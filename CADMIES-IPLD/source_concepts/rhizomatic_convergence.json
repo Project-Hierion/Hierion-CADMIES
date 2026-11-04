@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "rhizomatic_convergence",
+  "title": "Rhizomatic Convergence",
+  "definition": "The integration of different knowledge systems, allowing for the organic growth and evolution of a complex network.",
+  "type": "Concept",
+  "domain": "Philosophy of Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.781995Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.781995Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a network of roots that spreads out in all directions, connecting different parts of a system. This root network allows for the free flow of resources and knowledge, enabling the system to grow and evolve in unexpected ways.",
+    "intermediate": "Rhizomatic Convergence is a process that integrates different knowledge systems and allows for the emergence of new insights and possibilities. It is a self-organizing, self-referential system that uses the connections between different disciplines and perspectives to support the growth and evolution of the whole.",
+    "expert": "Rhizomatic Convergence is a novel concept that synthesizes the philosophical ideas of decentralization, interdisciplinarity, and emergence. It is a self-organizing, self-referential system that integrates different knowledge systems to support the emergence of new insights and possibilities. This concept has philosophical implications for the nature of knowledge, truth, and reality, and it has connections to other fields such as complexity theory, network theory, and postmodernism."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of different knowledge systems, such as ancient wisdom, digital intelligence, and cosmic knowledge, to create a complex and evolving network.",
+    "source_chunk": 42,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

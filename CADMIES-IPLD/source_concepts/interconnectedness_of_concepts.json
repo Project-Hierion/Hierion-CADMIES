@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "interconnectedness_of_concepts",
+  "title": "Interconnectedness Of Concepts",
+  "definition": "The concept of how various ideas and concepts are interconnected and interdependent on each other in a complex web of relationships.",
+  "type": "Concept",
+  "domain": "Philosophy of Knowledge",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.507826Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.507826Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a spider's web \u2014 each thread is a relationship between two ideas. A small change in one idea can have a significant impact on other ideas, making them all interconnected.",
+    "intermediate": "Interconnectedness of concepts is a central tenet in the philosophy of knowledge. It suggests that understanding a concept often requires considering its relationships with other concepts, and that these relationships can shape and limit our understanding of that concept.",
+    "expert": "The interconnectedness of concepts is a philosophical insight that has been explored in various fields, from logic and semantics to sociology and network theory. It highlights the holistic nature of knowledge and the limitations of reductionist approaches. A concept's meaning is not only intrinsic, but also emergent from its relationships with other concepts in a complex, dynamic system."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the interconnectedness of concepts, suggesting that understanding a concept requires considering its relationships with other concepts.",
+    "source_chunk": 113,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

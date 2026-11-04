@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "decentralized_knowledge_transfer",
+  "title": "Decentralized Knowledge Transfer",
+  "definition": "The concept of transferring knowledge from centralized repositories to decentralized networks, enabling discoverability and resilience.",
+  "type": "Concept",
+  "domain": "Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.514600Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.514600Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think about how information flows in a library. This concept is about making that flow more accessible and resilient, like turning a traditional library into a global, online network of knowledge.",
+    "intermediate": "Decentralized Knowledge Transfer (DKT) involves shifting knowledge from centralized repositories to decentralized networks. This enhances discoverability, accessibility, and resilience of the information. It is closely related to concepts like peer-to-peer (P2P) networking and distributed systems.",
+    "expert": "Decentralized Knowledge Transfer is a philosophical and practical exploration of the potential for decentralized networks to revolutionize the way knowledge is disseminated, accessed, and maintained. It raises questions about the nature of truth, ownership, and control in a digital age. It also connects to broader discussions around technology, society, and the future of information infrastructure."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The opportunity to transform abandoned, siloed knowledge repositories into discoverable, decentralized knowledge networks.",
+    "source_chunk": 109,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

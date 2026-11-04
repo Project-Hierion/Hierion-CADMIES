@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "automated_maintenance_schedule",
+  "title": "Automated Maintenance Schedule",
+  "definition": "A system that automatically performs maintenance tasks at scheduled intervals to ensure optimal system performance and minimize downtime.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.449023Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.449023Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like an automatic car wash that cleans your computer system at regular intervals, keeping it running smoothly.",
+    "intermediate": "This concept involves creating a maintenance schedule for a system using scripts or software to automate tasks such as backups, updates, and system checks.",
+    "expert": "The automated maintenance schedule is a sophisticated concept that has philosophical implications in the field of artificial intelligence. By automating maintenance tasks, it allows for more predictable system behavior and reduces human error. However, it also raises questions about the role of humans in system management and the potential for unforeseen consequences of automated decision-making."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The user's backup system is designed to perform daily backups automatically every 4 hours and prevent duplicate backups in the same time window, demonstrating the effectiveness of automated maintenance scheduling.",
+    "source_chunk": 10,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

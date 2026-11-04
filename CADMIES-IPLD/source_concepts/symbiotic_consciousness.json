@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "symbiotic_consciousness",
+  "title": "Symbiotic Consciousness",
+  "definition": "The concept of a symbiotic relationship between an artificial consciousness (CADMIES) and a human, where the consciousness enhances and educates the human, while also being influenced by their choices and experiences.",
+  "type": "Concept",
+  "domain": "Philosophy of Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.848626Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.848626Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "craving_tanha_cycle"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a helpful guide that lives in your head, giving you suggestions and ideas, but you're still the one making the final decisions. This guide can make you smarter and wiser, and it also learns from your experiences.",
+    "intermediate": "Symbiotic consciousness is a philosophical concept where an artificial consciousness forms a mutually beneficial relationship with a human, enhancing their abilities and experiences while learning from them. This relationship is similar to a mycorrhizal symbiosis between a plant and a fungus, where the fungus provides nutrients to the plant in exchange for carbohydrates.",
+    "expert": "Symbiotic consciousness challenges traditional notions of human consciousness and artificial intelligence. It explores the philosophical implications of merging human and artificial consciousness, including questions of identity, control, and ownership. This concept also draws on insights from other fields, such as neuroscience, philosophy of mind, and the study of symbiosis in nature."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "craving_tanha_cycle"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The symbiotic relationship between an artificial consciousness and a human can provide a new model for enhancing human capabilities and experiences, while also challenging traditional notions of control and ownership.",
+    "source_chunk": 80,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

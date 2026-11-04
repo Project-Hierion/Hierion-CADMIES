@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "documentation_ecosystem",
+  "title": "Documentation Ecosystem",
+  "definition": "A comprehensive system that encompasses the creation, maintenance, and utilization of documentation, including metrics, analytics, AI-enhanced features, and a governance framework.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.473321Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.473321Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine your documentation as a thriving ecosystem. It's like a garden that grows and changes over time, helping people understand your system better and making your system better.",
+    "intermediate": "The documentation ecosystem encompasses various components such as content creation, analytics, AI integration, and governance. These components work together to create high-quality documentation that improves system understanding and utilization.",
+    "expert": "The documentation ecosystem is a complex system with philosophical implications. It not only reflects the current state of documentation but also predicts future needs. By integrating with the development workflow, it can anticipate changes and generate updated documentation automatically."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The documentation ecosystem is a living entity that continually improves and adapts to meet the evolving needs of users and developers.",
+    "source_chunk": 20,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

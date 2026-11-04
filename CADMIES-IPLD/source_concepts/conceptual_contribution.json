@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "conceptual_contribution",
+  "title": "Conceptual Contribution",
+  "definition": "The process by which new concepts are added to the mycelium, facilitating the expansion of knowledge and understanding.",
+  "type": "Concept",
+  "domain": "Epistemology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.626165Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.626165Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're painting a beautiful masterpiece. When you learn a new technique, it allows you to create more intricate and detailed pieces. Adding new concepts to the CADMIES system is like learning a new technique \u2014 it enriches the system and expands its ability to capture complex ideas.",
+    "intermediate": "Conceptual contribution is the act of submitting new concepts to the mycelium, the interconnected network of knowledge. This process enhances the system's capacity to represent and connect complex ideas, contributing to the broader knowledge base.",
+    "expert": "Conceptual contribution is a philosophical process that explores the nature of knowledge acquisition and the role of new concepts in expanding understanding. By adding concepts to the mycelium, we engage in a dialogue with existing knowledge, revealing novel insights, resolving tensions, and pushing the boundaries of our understanding. This process has philosophical implications for epistemology and the nature of truth, as well as connections to cognitive science and the sociology of knowledge."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "",
+    "source_chunk": 84,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

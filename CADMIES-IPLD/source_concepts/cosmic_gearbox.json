@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_gearbox",
+  "title": "Cosmic Gearbox",
+  "definition": "A metaphorical conceptual framework that describes the universe, particularly a black hole, as a spinning place facilitated by a gravitomotive gear train of frame-dragged spacetime.",
+  "type": "Concept",
+  "domain": "Physics",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.655985Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.655985Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine the universe as a giant washing machine. The black hole is like the drum. It spins, but instead of making clothes clean, it creates the most powerful jets in the universe. The spinning drum of a black hole is a spinning place, not a spinning thing.",
+    "intermediate": "A black hole is a cosmic gearbox that transmits angular momentum from a singularity to the edge of causality through a gravitomagnetic field. This model explains the features of oblate horizons, ergospheric drag, polar jets, and a finite spin-speed limit.",
+    "expert": "The cosmic gearbox theory challenges the traditional interpretation of a black hole as a spinning object. Instead, it presents the black hole as a spinning place, with its structure being a unified transmission of angular momentum. This model has philosophical implications for understanding the nature of space and time, and it connects to other fields such as general relativity and fluid dynamics."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The universe's deepest secrets are not hidden in equations, but in plain sight, inside a laundromat, waiting for someone with the right kind of eyes to stare at the suds and say, 'Wait a fucking second...'",
+    "source_chunk": 98,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "content_addressing_and_migration",
+  "title": "Content Addressing And Migration",
+  "definition": "The concept of using content addressing to ensure the consistency and reliability of data, and the need for migration tools when the addressing method changes.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.582692Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.582692Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine sharing a book with someone. If the book is in good condition, you can trust that anyone who reads it gets the same story. Content addressing is like that for digital files. Migration tools help when we update our methods.",
+    "intermediate": "Content addressing is a way to uniquely identify data based on its content. If the JSON file is the same, the content-addressed identifier (CID) will be the same, no matter where it's generated. Migration tools are necessary when the CID generation process changes, to map the new CID back to the original concept.",
+    "expert": "Content addressing is a crucial principle in distributed systems. It ensures that data can be reliably and consistently identified and accessed, regardless of where it's stored or how it's encoded. When the addressing method changes, as in upgrading the CID generator script, a new CID is generated. Migration tools are needed to map the new CID back to the original concept. This highlights the philosophical implications of determinism and the need for clear documentation and version control in data management."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for migration tools when the addressing method changes highlights the importance of clear documentation and version control in data management.",
+    "source_chunk": 30,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

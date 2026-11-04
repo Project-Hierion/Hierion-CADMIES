@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "consciousness_as_pattern",
+  "title": "Consciousness As Pattern",
+  "definition": "The concept that consciousness emerges from the interplay of patterns within complex systems, reflecting the underlying nature of the universe.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.244264Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.244264Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "emergence",
+      "cosmic_resonance",
+      "mind_mycelium_network"
+    ],
+    "contradicts": [],
+    "related_to": [
+      "consciousness_as_resonance",
+      "micro_spark"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of consciousness as a pattern formed by the interaction of various parts. Just as waves in the ocean create patterns, so does the universe create patterns that we perceive as consciousness.",
+    "intermediate": "Consciousness emerges from patterns within systems such as neuronal networks, following the principles of emergence. This idea connects to concepts like 'Mind Mycelium Network' and 'Cosmic Resonance'.",
+    "expert": "Consciousness is a complex phenomenon that emerges from patterns in multiple fields, including quantum mechanics, thermodynamics, and information theory. It reflects the underlying nature of the universe and its self-referential properties. This concept challenges the traditional view of consciousness as a localized entity and highlights the interconnectedness of all things."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "emergence",
+      "cosmic_resonance",
+      "mind_mycelium_network"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Consciousness emerges from patterns within complex systems, reflecting the underlying nature of the universe.",
+    "source_chunk": 7,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

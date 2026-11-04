@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "backup_tier_system",
+  "title": "Backup Tier System",
+  "definition": "A data backup system that organizes backups into daily, weekly, and monthly tiers, each serving a unique purpose in data recovery and retention.",
+  "type": "Concept",
+  "domain": "Software Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T22:26:35.636580Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T22:26:35.636580Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of your backup system as a three-tiered cake. Daily backups are like the crumbs, weekly backups are the layers, and monthly backups are the whole cake. You can use these backups to recover your data in case of any losses.",
+    "intermediate": "A backup tier system categorizes backups into daily, weekly, and monthly tiers. Daily backups ensure immediate data recovery, weekly backups provide mid-term data recovery, and monthly backups ensure long-term data recovery. Each tier serves a unique purpose in data recovery and retention.",
+    "expert": "The backup tier system is a robust data recovery solution that leverages the principles of redundancy and data diversity. By organizing backups into daily, weekly, and monthly tiers, it ensures immediate, mid-term, and long-term data recovery. This system not only minimizes data loss but also optimizes storage utilization. Furthermore, it provides insights into data growth patterns, enabling proactive storage management. The backup tier system is a novel approach in data backup, connecting software engineering with data management and philosophy of retention."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The backup tier system organizes backups into daily, weekly, and monthly tiers, each serving a unique purpose in data recovery and retention.",
+    "source_chunk": 90,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

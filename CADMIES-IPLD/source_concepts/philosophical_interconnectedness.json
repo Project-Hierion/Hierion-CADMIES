@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "philosophical_interconnectedness",
+  "title": "Philosophical Interconnectedness",
+  "definition": "The concept of philosophical interconnectedness emphasizes the interrelationships and shared themes among philosophical ideas and concepts, highlighting their interdependence and mutual influence.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.689703Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.689703Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine all philosophical ideas as a grand tapestry. This concept shows how different ideas weave together, creating a rich, interconnected whole.",
+    "intermediate": "Philosophical interconnectedness explores the semantic connections between concepts, such as shared terminology and domain, revealing how philosophical ideas are interrelated and build upon each other.",
+    "expert": "Philosophical interconnectedness uncovers the underlying patterns and structures of philosophical concepts, showing how they form a coherent network that reflects the evolution and development of human thought. This insight highlights the philosophical interconnectedness theorem, which posits that all philosophical concepts are interrelated and that understanding any concept requires understanding its connections to other concepts. This insight connects philosophy to other fields such as semiotics and graph theory, highlighting the power of interdisciplinary thinking."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation reveals that various philosophical ideas are interconnected, forming a coherent network that reflects the evolution and development of human thought.",
+    "source_chunk": 44,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "semantic_enhancement",
+  "title": "Semantic Enhancement",
+  "definition": "The integration of semantic search into the keyword matching engine of the CADMIES mycelium reader to improve recall and accuracy of concept retrieval.",
+  "type": "Concept",
+  "domain": "Software_Engineering",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T22:32:46.834139Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T22:32:46.834139Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [
+      "craving_tanha_cycle"
+    ],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine having a super-smart librarian who can understand the essence of your question, not just individual words. That's what semantic enhancement is \u2014 it makes the CADMIES system better at finding relevant information.",
+    "intermediate": "Semantic enhancement enhances the keyword matching engine in the CADMIES mycelium reader. It uses semantic analysis to expand keywords and improve the recall of relevant concepts, enabling more accurate and contextually relevant search results.",
+    "expert": "Semantic enhancement is a novel approach in the field of information retrieval. It combines the precision of keyword matching with the recall of semantic search to improve the overall efficiency and accuracy of concept retrieval. This technique has the potential to revolutionize the way knowledge systems like CADMIES operate, by enabling more sophisticated and nuanced search capabilities. It also opens up possibilities for exploring the philosophical implications of understanding and interpreting language semantically, such as the nature of meaning and understanding."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of semantic search into the CADMIES mycelium reader is a novel approach that has the potential to significantly improve the recall and accuracy of concept retrieval, and to open up new possibilities for exploring the philosophical implications of language and understanding.",
+    "source_chunk": 73,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "empowerment_of_the_little_guy",
+  "title": "Empowerment Of The Little Guy",
+  "definition": "The notion that individuals can challenge and overcome corporate and political dominance through collective action and resilience, enabling them to create their own safe spaces and shield themselves from data extraction.",
+  "type": "Concept",
+  "domain": "Sociology, Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.390735Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.390735Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a group of people banding together to fight against the big corporations and powers that be. They may feel like they're underdogs, but when they work together, they can overcome any obstacle and create a better world for themselves.",
+    "intermediate": "The empowerment of the individual through collective action, resilience, and the creation of alternative systems that challenge corporate and political dominance. This can lead to the formation of safe spaces for individuals to shield themselves from data extraction and create a more equitable society.",
+    "expert": "The empowerment of the individual within complex systems is a philosophical concept that explores the balance between individual autonomy and collective responsibility. It has been studied extensively in sociology, economics, and political science, with implications for privacy, data protection, and the role of technology in society. The notion that individuals can create safe spaces for themselves and others by working together to challenge corporate and political dominance is a recurring theme in the works of thinkers such as Hannah Arendt and Michel Foucault."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The ability of individuals to challenge corporate and political dominance through collective action and the creation of alternative systems can empower them to shield themselves from data extraction and create a more equitable society.",
+    "source_chunk": 150,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

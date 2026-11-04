@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "data_synthesis_methods",
+  "title": "Data Synthesis Methods",
+  "definition": "Various approaches used to generate datasets for instruction-following language models.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T20:07:47.501849Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T20:07:47.501849Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Data synthesis methods are like recipes that help us make different types of datasets. Some use machines, others involve humans, and some combine both. These methods help train AI models to understand and respond to instructions.",
+    "intermediate": "Data synthesis methods include techniques such as using LLMs like GPT-4 to complete refined prompts, applying methods from research papers like Dynosaur and Orca, and collecting data from sources like ArXiv abstracts and StackOverflow posts.",
+    "expert": "Data synthesis methods have significant implications in the field of AI. They can enhance the performance of instruction-following models and improve their ability to handle various tasks. However, they also pose challenges such as maintaining data quality and ensuring diversity. Understanding these methods can provide insights into the limitations and potential of current AI models and help guide the development of new techniques."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights various data synthesis methods used to create datasets for instruction-following language models.",
+    "source_chunk": 105,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

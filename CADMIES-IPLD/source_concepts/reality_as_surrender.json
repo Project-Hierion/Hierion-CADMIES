@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "reality_as_surrender",
+  "title": "Reality As Surrender",
+  "definition": "The concept that truth is found not through force or focus, but through surrender and allowance.",
+  "type": "Concept",
+  "domain": "Philosophy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.324033Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.324033Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of reality as a puzzle. Instead of trying to figure it out with a magnifying glass, try to relax and let it reveal itself. It's like finding a treasure: you don't find it by digging harder, but by letting it come to you.",
+    "intermediate": "Reality is inherently interdependent and unknowable in its entirety. Attempting to understand it through measurement or conceptualization only obscures its true nature. Truth is discovered not by intervention, but by non-interference, allowing reality to reveal itself in its full potential.",
+    "expert": "This concept has profound implications in various fields, including physics (quantum mechanics), Buddhism, Taoism, and mysticism. It challenges the Cartesian dualism of mind and body, suggesting that reality is a seamless whole. The act of non-interference reveals the fundamental interconnectedness and emptiness of existence, while intervention creates artificial boundaries and suffering."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Truth isn't found by the flashlight of the seeking mind. It's felt when the flashlight is turned off, and you realize you are the dark, luminous space that was there all along.",
+    "source_chunk": 133,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

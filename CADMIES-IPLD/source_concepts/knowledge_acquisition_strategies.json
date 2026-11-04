@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_acquisition_strategies",
+  "title": "Knowledge Acquisition Strategies",
+  "definition": "A high-level concept that explores various strategies for acquiring and integrating new knowledge into an existing knowledge base.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T18:35:36.590685Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T18:35:36.590685Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a recipe for learning new things. Sometimes, you gather ingredients (knowledge) from different sources, like reading notes and books. Other times, you create your own ingredients by observing and experimenting. The key is to blend these ingredients together effectively.",
+    "intermediate": "Knowledge acquisition strategies involve sourcing information from various domains, such as Zettelk notes and canonized material. These strategies can be classified into two types: direct and indirect. Direct strategies involve acquiring knowledge directly from specific sources, while indirect strategies involve generating knowledge through the application of principles or models.",
+    "expert": "The philosophy of knowledge acquisition strategies revolves around the relationship between internal and external sources of knowledge. This concept delves into the nature of truth and validity, questioning the role of subjective experiences in constructing knowledge. Furthermore, it explores the implications of these strategies in fields such as philosophy, epistemology, and cognitive science, considering the role of abstraction, analogy, and metaphor in understanding complex concepts."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The success of knowledge acquisition strategies relies on their ability to integrate and synthesize information from various sources, creating a cohesive and accurate understanding of a subject.",
+    "source_chunk": 130,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

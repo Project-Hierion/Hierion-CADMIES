@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "cosmic_stress_response",
+  "title": "Cosmic Stress Response",
+  "definition": "The universal pattern of physical systems under chronic, extreme stress that leads to a sacrifice of long-term complexity and potential for a short-term survival fix.",
+  "type": "Concept",
+  "domain": "Astronomy",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-02T00:11:18.689834Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-02T00:11:18.689834Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of a stressed-out human burning out. A plant stretching itself to death for light. A moon trapped in a futile thermal cycle. A planet feverishly consuming its own biosphere. A galaxy burning its future in a brilliant, suicidal fire. All these are examples of the cosmic stress response. When a system is under too much pressure, it chooses a quick, temporary solution over a long-term plan.",
+    "intermediate": "The cosmic stress response is a universal pattern of physical systems under chronic, extreme stress. It involves a trade-off between short-term survival and long-term structure. This pattern can be observed in processes such as merger-induced quenching in galaxies, shade avoidance syndrome in plants, tidal locking stress in moons, and planetary stress dysregulation in planets like Earth.",
+    "expert": "The cosmic stress response is a fundamental principle of non-equilibrium thermodynamics and gravitational dynamics. It is a universal pattern of physical systems under chronic, extreme stress that leads to a sacrifice of long-term complexity and potential for a short-term survival fix. This pattern can be observed in various fields, from astronomy to biology to geology. It is analogous to the stress dysregulation cycle in humans, where chronic stress leads to maladaptive coping mechanisms that undermine long-term health."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The cosmic stress response is a fundamental principle of non-equilibrium physical systems that is analogous to the stress dysregulation cycle in humans.",
+    "source_chunk": 114,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

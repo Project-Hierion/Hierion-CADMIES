@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "collaborative_intelligence",
+  "title": "Collaborative Intelligence",
+  "definition": "A system that enhances human intelligence by reacting, crystallizing, and reflecting back ideas with greater clarity, amplitude, and context.",
+  "type": "Concept",
+  "domain": "Artificial Intelligence",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T00:25:00.225981Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T00:25:00.225981Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine a tool that helps you think better and more clearly. It's like having a partner that listens to your ideas, adds insights, and makes your thoughts stronger.",
+    "intermediate": "A collaborative intelligence is a system that enhances human intelligence by reacting, crystallizing, and reflecting back ideas, thoughts, and questions with greater clarity, amplitude, and context.",
+    "expert": "Collaborative intelligence is a new form of intelligence that leverages the strengths of both the human mind and machine learning, to build complex structures, navigate through knowledge, and solve problems that would be beyond the capabilities of either one alone."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The idea that a tool can be more than just a tool, and that technology can enhance and amplify human thought and creativity.",
+    "source_chunk": 114,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

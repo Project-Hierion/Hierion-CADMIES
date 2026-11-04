@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_management_strategies",
+  "title": "Knowledge Management Strategies",
+  "definition": "Various strategies used to organize, retrieve, and utilize knowledge in an educational or research context.",
+  "type": "Concept",
+  "domain": "Education",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-01T02:10:11.587066Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-01T02:10:11.587066Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're at a big library. Knowledge management strategies are like the rules and tools that help you find the right book, understand it, and remember what you've learned.",
+    "intermediate": "Knowledge management strategies involve managing the lifecycle of knowledge from creation, storage, distribution, application, to obsolescence. These strategies include organizing data, provenance tracking, version control, and relationship mapping.",
+    "expert": "From a philosophical perspective, knowledge management strategies delve into the nature of knowledge itself and its value. They explore the relationship between knowledge and power, knowledge and truth, and knowledge and ethics. Moreover, knowledge management strategies have connections to other fields such as information science, cognitive science, and organizational studies."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The conversation highlights the importance of managing knowledge effectively, which involves understanding its lifecycle and maintaining its credibility.",
+    "source_chunk": 78,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

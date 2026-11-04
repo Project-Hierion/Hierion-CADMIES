@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "llm_mycelium_reader",
+  "title": "Llm Mycelium Reader",
+  "definition": "An agent that reads and interprets concepts from the mycelium map using a Language Learning Model (LLM).",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T20:22:40.093438Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T20:22:40.093438Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it as a smart book reader that can answer questions based on what it reads in a big network of ideas, or a 'mycelium map'.",
+    "intermediate": "This agent leverages the power of a Language Learning Model to understand and interpret concepts from the CADMIES-IPLD system's mycelium map. It provides context-aware responses to user queries.",
+    "expert": "The 'llm_mycelium_reader' is a novel approach that combines the distributed data storage of the mycelium map with the interpretive capabilities of Language Learning Models. This creates a new paradigm for knowledge representation and retrieval. Its implications span various fields, including artificial intelligence, distributed systems, and knowledge graph theory."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The integration of Language Learning Models into the CADMIES-IPLD system creates a new, intelligent way to navigate and interpret the mycelium map.",
+    "source_chunk": 27,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

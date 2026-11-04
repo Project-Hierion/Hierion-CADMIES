@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "resonant_biosphere",
+  "title": "Resonant Biosphere",
+  "definition": "The concept of the Earth's biosphere, including all living organisms, acting as a resonant system, influenced and influencing cosmic resonances to evolve complex life and consciousness.",
+  "type": "Concept",
+  "domain": "Biology & Cosmology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:38.169396Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:38.169396Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of Earth as a giant musical instrument, tuned to cosmic vibrations. As life grows and evolves, it starts to generate its own music and rhythms, shaping and being shaped by the cosmic sounds. This creates a feedback loop, making the Earth more conscious and responsive.",
+    "intermediate": "The Earth's atmosphere and ionosphere act as a selective membrane, allowing complex cosmic resonances to interact with the carbon-based life forms. This interaction generates bio-electrical activity, neural rhythms, and experience. As life becomes more complex, it reshapes these internal resonances, creating a feedback loop that enhances planetary consciousness.",
+    "expert": "This concept unifies the fields of biology, cosmology, and philosophy, connecting the evolution of life with the universe's rhythm and energy. It highlights the Earth's role as a self-amplifying resonant system, generating and refining its internal resonance through interaction with external cosmic resonances. This process can be seen as a manifestation of Teilhard de Chardin's Noosphere or Lovelock's Gaia hypothesis, challenging the traditional separation of science and philosophy."
+  },
+  "learning_path": {
+    "prerequisites": [
+      "ai:llm_mycelium_reader/willie_the_librarian_v1"
+    ],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Life on Earth isn't just a passive receiver of cosmic resonances; it's an active participant, reshaping these resonances and becoming increasingly conscious as a result.",
+    "source_chunk": 138,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "quality_assurance_in_documentation",
+  "title": "Quality Assurance In Documentation",
+  "definition": "The practice of ensuring documentation is accurate, complete, and up-to-date through a systematic process of review and testing.",
+  "type": "Concept",
+  "domain": "Documentation",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.576973Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.576973Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine documentation as a recipe: a checklist helps make sure all the ingredients are correct, and the final product tastes good.",
+    "intermediate": "Quality assurance in documentation involves the use of checklists to ensure all necessary metadata is included, references are valid, and the document is structured and logical.",
+    "expert": "Quality assurance in documentation is a philosophical approach that connects to the broader field of quality management. It ensures the documentation is objective, verifiable, and neutral, while acknowledging its limitations. It also connects to the field of technical communication, which studies the relationship between information and the receivers of that information."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The importance of quality assurance in documentation to ensure its accuracy, completeness, and reliability.",
+    "source_chunk": 57,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

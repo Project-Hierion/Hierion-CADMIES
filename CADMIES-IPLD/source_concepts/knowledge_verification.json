@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "knowledge_verification",
+  "title": "Knowledge Verification",
+  "definition": "The process of confirming the accuracy, reliability, and trustworthiness of a knowledge concept.",
+  "type": "Concept",
+  "domain": "Epistemology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T04:58:48.846630Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T04:58:48.846630Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you're reading a book. If it's well-known and recommended, you can trust the information more. A verification badge on a knowledge concept is like a seal of approval from a community of experts.",
+    "intermediate": "Knowledge verification is a process to validate the authenticity, consistency, and comprehensiveness of a knowledge concept. In a content-addressed knowledge system like CADMIES, a verification badge can indicate whether a concept has been confirmed by the community of contributors.",
+    "expert": "Knowledge verification is an important aspect of epistemology, the philosophy of knowledge. It ensures the accuracy and reliability of knowledge. In a decentralized and content-addressed knowledge system, verification can be a complex challenge due to the distribution and potential anonymity of contributors. A verification badge can serve as a signal of the community's confidence in a knowledge concept, but it also raises questions about the criteria for verification and the role of authority in knowledge production."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The CADMIES knowledge system can benefit from a verification process to enhance the reliability and trustworthiness of knowledge concepts.",
+    "source_chunk": 60,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

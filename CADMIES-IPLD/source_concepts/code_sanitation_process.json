@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "code_sanitation_process",
+  "title": "Code Sanitation Process",
+  "definition": "The systematic process of cleaning and standardizing code to ensure consistency, security, and maintainability.",
+  "type": "Concept",
+  "domain": "Computer Science",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T03:31:23.783369Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T03:31:23.783369Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine you have a messy room with papers all over the floor. Code sanitation is like tidying up that room - removing unnecessary items, organizing, and making sure everything is safe and easy to find.",
+    "intermediate": "Code sanitation involves processes like removing personal identifiers, updating outdated references, and eliminating non-functional code. It's crucial for security, maintainability, and adhering to best practices.",
+    "expert": "Code sanitation is a complex process that not only improves the functionality and security of code but also reflects on the culture and practices of an organization. It includes technical aspects like removing dead code, but also involves ethical considerations such as data anonymization and respecting intellectual property."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "The need for code sanitation was highlighted when a file containing sensitive information was mistakenly shared.",
+    "source_chunk": 64,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

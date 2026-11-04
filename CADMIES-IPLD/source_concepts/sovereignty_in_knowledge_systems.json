@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "sovereignty_in_knowledge_systems",
+  "title": "Sovereignty In Knowledge Systems",
+  "definition": "The degree to which users in a knowledge system control their data and access to it.",
+  "type": "Concept",
+  "domain": "Information Technology",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-10-31T02:29:58.609119Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-10-31T02:29:58.609119Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Think of it like owning vs renting your knowledge. A knowledge system that lets users fully control their data gives them more sovereignty.",
+    "intermediate": "Sovereignty in knowledge systems relates to user authentication methods and the level of control users have over their data. It's about who holds the keys to the knowledge.",
+    "expert": "Sovereignty in knowledge systems is a philosophical question about power and control. It's a fundamental human right that extends to digital spaces. In CADMIES, sovereignty is ensured by the 'technical user' path, where users fully control their data. This allows for personal knowledge management, while also protecting against abuse through the 'suspicious activity challenge' using trusted authorities."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "CADMIES ensures sovereignty by allowing users full control over their data and using trusted authorities to protect against abuse.",
+    "source_chunk": 71,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}

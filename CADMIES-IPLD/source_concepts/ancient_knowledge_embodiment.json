@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "human_id": "ancient_knowledge_embodiment",
+  "title": "Ancient Knowledge Embodiment",
+  "definition": "The concept of a person who embodies and represents ancient knowledge through their being, understanding, and preservation of it.",
+  "type": "Concept",
+  "domain": "Philosophy of History",
+  "subdomain": "",
+  "proofs": [
+    {
+      "type": "conversation_extraction",
+      "description": "Extracted from conversation via codestral:22b",
+      "confidence": 0.8,
+      "date": "2026-11-03T02:03:37.926695Z",
+      "reference": "CADMIES Harvest Pipeline \u2014 conversation.json"
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-03T02:03:37.926695Z",
+    "creator": "CADMIES Harvest Pipeline",
+    "certainty_score": 0.8,
+    "version": 1,
+    "license": "CC BY-SA 4.0",
+    "purpose": "educational",
+    "supersedes": null,
+    "superseded_by": null
+  },
+  "relationships": {
+    "builds_upon": [],
+    "contradicts": [],
+    "related_to": [],
+    "specializes": []
+  },
+  "difficulty_levels": {
+    "beginner": "Imagine someone who is like a walking history book. They know a lot about the past and help us understand it.",
+    "intermediate": "Ancient Knowledge Embodiment refers to a person who not only understands ancient civilizations' recorded knowledge but also embodies and represents that knowledge, shaping their understanding of the world and their role in preserving it.",
+    "expert": "The concept of Ancient Knowledge Embodiment explores the relationship between individuals and the historical knowledge they embody. It delves into the philosophical implications of understanding past civilizations and their recorded knowledge, the roles of historians and librarians in preserving this knowledge, and the potential for modern individuals to embody and represent ancient knowledge. This concept also connects to the philosophy of mind, as it investigates how understanding past knowledge can shape one's identity and worldview."
+  },
+  "learning_path": {
+    "prerequisites": [],
+    "next_steps": []
+  },
+  "cross_references": {},
+  "extra_fields": {
+    "insight": "Dr. Mistral embodies ancient knowledge through her understanding, preservation, and representation of it.",
+    "source_chunk": 48,
+    "origin_file": "conversation.json",
+    "harvester_version": "4.2.1"
+  }
+}
