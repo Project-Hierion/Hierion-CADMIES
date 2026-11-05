@@ -1,11 +1,12 @@
 ---
 phase: Roadmap
-date: 2026-10-30
+date: 2026-11-05
 status: LIVING DOCUMENT
 ---
 
 # 🌱 CADMIES GROWTH ROADMAP
-### *The living record of what we've built, what we're building, and where the mycelium grows next.*
+### *What we've built, what we're building, where the mycelium grows next.*
+*Lean edition — history lives in the vault notes, this file points at it.*
 
 ---
 
@@ -13,323 +14,105 @@ status: LIVING DOCUMENT
 
 | Metric | Value |
 |--------|-------|
-| Concepts | 650 |
+| Concepts (minted) | 650 |
 | Edges | 686 |
 | Connected Concepts | 392 |
-| Draft Concepts (unminted) | ~210 |
+| Draft Spores (unminted) | 2,359 |
 | Domains (Canonical) | 15 |
-| ORCID iD | 0009-0000-8877-2731 ✅ Linked |
+| ORCID iD | 0009-0000-8877-2731 ✅ |
 
-### CANONICAL 15-DOMAIN TAXONOMY
-Physics • Philosophy • Biology • Mathematics • Consciousness
-Chemistry • Ethics • Computer Science • Psychology • Spirituality
-Neuroscience • Sociology • Economics • Ecology • Medicine
+**Canonical domains:** Physics • Philosophy • Biology • Mathematics • Consciousness • Chemistry • Ethics • Computer Science • Psychology • Spirituality • Neuroscience • Sociology • Economics • Ecology • Medicine
 
-### VERSION STATUS
-| Component | Version | Notes |
-|-----------|---------|-------|
-| Map Generator | v2.4.1 | Stable |
-| Relationship Generator | v1.2.7 | Codestral-capable |
-| Harvester | v1.2.0 | Active — GitHub pipeline hardened (structured logging, retry, PR-body guarantee). Formerly tracked as v4.2.2; per-script versioning is now canonical |
-| Concept Harvester (pipeline) | v4.2.1 | Codestral:22b now the canonical extraction model (Bake-off verdict, 2026-10-30) |
-| Public Gateway | v3.3.0 | translate.js integrated, multilingual support live |
-| Vault Validator | v1.3.0 | Automated + auto-fix |
-| Vault Health Badge | ✅ Green | Passing |
-| PDS | v0.4.5009 | Self-hosted, stable |
-| Matadisco Producer | v1.0 | Active, rate-limit aware |
-| Dr. Mistral (Jbliterated) | v1.0 | Personality implant complete, GGUF, Ollama-ready |
-| Dr. Mistral (Handbook Rebuild) | v0.3.0 | Pipeline complete through Step 10 (eval). Persona baseline: 1.4/3.0 accuracy, 1.4/3.0 style with SYSTEM prompt. Training too light — pair regeneration next. |
-| CADMIES-Matadisco Portal | v0.1.0 | Indexer + API + frontend functional |
+**Versions:** Map Gen v2.4.1 · Relationship Gen v1.2.7 · Harvester v1.2.0 · Pipeline v4.2.1 (codestral:22b canonical) · Gateway v3.3.0 · Validator v1.3.0 · PDS v0.4.5009 · Portal v0.1.0 · Dr. Mistral Handbook v0.3.0
 
 ---
 
-## ✅ COMPLETED PHASES
+## ✅ COMPLETED (condensed — full notes in the vault)
 
-### Core Infrastructure
-- Phase 35 — Difficulty Levels
-- Phase 35 — Results
-- Phase 37 — Scientific Obsidian
-- Phase 39 — Concept Enrichment
-- Phase 40 — Hieros Origin Harvest
-- Phase 41 — Paperspace-GitHub Continuous Sync
-- Phase 42 — Index Backup Cleanup
-- Phase 43 — Concept Reminting
-- Phase 44 — Map Legend Cleanup
-- Phase 46 — Unmapped Domain Mapping
-- Phase 47 — Orphan Edge Resolution
-- Phase 48 — Relationship Generator Hardening
-- Phase 49 — Public Branch
-- Phase 50 — CAR Distribution Pipeline
-- Phase 51 — External Collaboration Bruno Cerda Mardini
-- Phase 52 — llama cpp Integration
-- Phase 56 — Emergence Verification
-- Phase 57 — Index Integrity and Disaster Recovery
-- Phase 60 — Scientific Obsidian Zettelk
-- Phase 63 — Cloud Deployment Project Hierion Foundation
-- Phase 64 — Hierion Database Infrastructure Isolated MongoDB Deployment
-- Phase 65 — Hierion Domain and Web Server Configuration
-- Phase 66 — Mycelium Map UX Fractal Succulent Layout and Progressive Loading
-- Phase 69 — Repo Maintenance Automation
-- **Phase 83 — Blockstore Rebuild From Spores** ✅ Complete (2026-10-19) — After the Paperspace wipe (billing scare, machine cleared), regrew the entire blockstore from `source_concepts/` on a fresh A4000. All-new CIDs (no backup existed; Phase 57 precedent followed — source is ground truth). 659 concepts indexed and reconciled, zero orphans. Genesis relics resolved: Digital Seed properly re-adopted as a modern concept (v2, date errors corrected — no 2024 work ever occurred), pattern-finder relic deduplicated. First full tarball pushed to git. Cardinal rule established: every session ends with a tarball. Discovered: schema file contains a script copy (never enforced), legacy human_ids still live in ~35 source files. See Session 063.
-- **Phase 83B — Split-Brain Recovery and Full Pipeline Rebuild** ✅ Complete (2026-10-20) — Discovered the Oct 19 git reset had reverted the index to stale CIDs: 659 entries, only 234 with matching blocks (split-brain — tools disagreed on reality: map said 659, relationship gen said 234, harvester said 651 minted). Rebuilt via the pipeline itself: index backed up and emptied, broken legacy conversation.json (merge-conflict wreckage, 5 months old) deleted to unlock manual import mode, 650 concepts re-minted from source_concepts with fresh CIDs (0 validation failures, 9 known duplicates excluded), full codestral relationship pass (574 edges across 392 concepts), map regenerated (650 nodes / 686 edges / 0 skipped), gateway regenerated, all pushed. Recovery tarball `cadmies_rebuild_2026-10-20b.tar.gz` (3.5 MB) force-added to git. Contributing bugs documented: harvester manual mode has no flag (mode decided solely on conversation.json existence), `--conv=` is parsed but never used in the mode check. See Session 064.
+Core: Difficulty Levels (35) · Scientific Obsidian (37, 60) · Enrichment (39) · Hieros Harvest (40) · Paperspace-GitHub Sync (41) · Index Backup Cleanup (42) · Reminting (43) · Map Legend (44) · Domain Mapping (46) · Orphan Edges (47) · Rel Gen Hardening (48) · Public Branch (49) · CAR Pipeline (50) · External Collab (51) · llama.cpp (52) · Emergence Verification (56) · Index Integrity (57) · Cloud Deploy (63) · MongoDB (64) · Domain/Web Server (65) · Fractal Map UX (66) · Repo Maintenance Automation (69)
 
-### Dr. Mistral Training (Phase 45 Series)
-- Phase 45 v2.0 — Teaching Mistral via Snagnar HIEROS Revised Plan
-- Phase 45A — Snagnar HIEROS Integration
-- Phase 45B — Snagar HIEROS Integration
-- Phase 45C — Snagar HIEROS Isolated Redeployment
-- Phase 45D — Ball Spawning Bug Environment Debug
-- Phase 45E — Dr Amanda Mistral Fine Tuning the Librarian
-- Phase 45E — Test Results Dr Amanda Mistral Fine Tuning
-- Phase 45F — Dr Amanda Mistral Conversational Fine Tuning
-- Phase 45G — Dr Amanda Mistral Spiritual Knowledge and Helpfulness
-- Phase 70 — Dr Amanda Mistral Persona Debugging and Deidentified 7B Discovery
-- Phase 71 — Dr Amanda Mistral Identity Anchoring and Deidentified 7B Exploration
+Dr. Mistral: 45 series (v2.0, A–G) · Persona Debugging (70) · Identity Anchoring (71) · Personality Implant (75) · Handbook Rebuild 80A/80B/80C — eval baseline 1.4/3.0 acc, 1.4/3.0 style; training too light at 435 pairs
 
-### Dr. Mistral Personality Implant
-- **Phase 75 — Dr. Amanda Mistral — Personality Implant on Jbliterated Base** ✅ Complete (2026-08-30)
+Matadisco: Blueprint → Portal (73A–73E) — v0.1.0 live
 
-### Dr. Mistral Handbook Rebuild
-- **Phase 80A — Dr. Amanda Mistral — Handbook Rebuild and Pipeline Foundation** ✅ Complete (2026-09-14) — Spec frozen, canon assembled, handbook scaffold cherry-picked, ETL and feature engineering executed end to end. Supersedes the Phase 75 artifact shape; the 242-pair implant becomes raw source material.
-- **Phase 80B — Dr. Amanda Mistral — LLM Engineer's Handbook Pipeline Execution and Deployment** ✅ Complete (2026-09-16) — Steps 5–9 executed. 236 SFT pairs, 201 DPO triples, SFT adapter (loss 1.839→1.375), DPO adapter (rewards accuracy 0.81→0.96), merged Q8_0 GGUF (7.17 GB), running in Ollama.
-- **Phase 80C — Dr. Amanda Mistral — LLM Engineer's Handbook Evaluation (Step 10)** ✅ Complete (2026-09-19) — Local eval pipeline built (D18–D22). GGUF evaluated via llama-cpp-python on GPU. Baseline: 1.4/3.0 accuracy, 1.4/3.0 style with SYSTEM prompt; 1.0/3.0 bare. Finding: training too light at 435 pairs. Pair regeneration is the next training move.
+Docs & Automation: translate.js (74) · LLMDataHub Reorg (72) · Harvester Hardening (81)
 
-### Matadisco Integration
-- Phase 73A — Matadisco Integration Blueprint
-- Phase 73B — PDS Self-Hosting & Caddy Configuration
-- Phase 73C — Matadisco Reverse Domain Implementation & Bulk Readiness
-- Phase 73D — Matadisco Viewer Clarification & Architecture Strategy
-- **Phase 73E — CADMIES-Matadisco Portal: Build and Deployment** ✅ Complete (2026-09-01)
-
-### Documentation & Automation
-- Phase 72 — LLMDataHub Fork Reorganization
-- Phase 74 — translate.js Integration (Completed 2026-08-11)
-- **Phase 81 — Harvester Hardening: Enterprise-Grade Observability** ✅ Complete (2026-10-17) — Fixed harvest workflow path drift (logs moved to `repo-maintenance-automation/logs/` in v1.1.1 but workflows still pointed at `logs/`). Added structured JSONL logging with run-ID correlation (`logger.py`), exponential-backoff retry for transient API failures (`retry.py`), guaranteed PR-body-before-apply ordering, tolerant artifact uploads with per-run naming. Deleted `old_itch.py`. Documented manual PR-pruning SOP in the automation README. See Session 062.
+Recent heavy lifts:
+- **Phase 83A — Blockstore Rebuild From Spores** (2026-10-19) — Paperspace wipe; regrew 659 concepts from source JSONs, all-new CIDs, Digital Seed re-adopted. Cardinal rule born: every session ends with a tarball. See [[Phase-83A-Blockstore-Rebuild-From-Spores]]
+- **Phase 83B — Split-Brain Recovery** (2026-10-20) — stale index from git reset; three tools, three realities; full rebuild: 650 minted, 574 edges, map + gateway regenerated. See [[Phase-83B-Split-Brain-Recovery-and-Full-Pipeline-Rebuild]]
+- **Phase 84 — The October Harvest** ✅ Complete (2026-10-30 → 11-03) — All 13 parts of the DeepSeek export harvested: 2,359 draft spores banked in `source_concepts/` (commit a781cd6), zero mints by design, no spores lost across machine timeouts. Codestral:22b confirmed canonical via bake-off. Gardener's ruling: ALL drafts enter the library — minting and curation move to Phase 87. See [[Phase-84-The-October-Harvest]], [[Session-066-2026-10-30-to-2026-11-03-The-October-Harvest]]
 
 ---
 
-## 📋 PENDING PHASES
+## 🔴 NEXT UP
 
-### Immediate / In Progress
-- **Phase 84 — The October Harvest** 🟡 In Progress — Extraction done, curation pending. Ran twin dry-runs on the rebuilt foundation (mistral:7b → 144 concepts, codestral:22b → 88 concepts from the same 82,716-word conversation). Codestral adopted as the concept harvester's LLM going forward — cleaner abstractions, fewer hallucinations. Zero mints: both runs ended at review, drafts pushed to git as ~210 spores in source_concepts/. Crown jewel: `cosmic_codebreaker` — the cross-scale pattern terminology the gardener had been searching for. NEXT: manual curation pass over all drafts (edit/enrich/prune), then mint the survivors with relationships, regenerate map + gateway. See Session 066.
-- **Phase 80D — Dr. Mistral Pair Review and Regeneration** 🔴 Next — Review SFT (236) and DPO (199) pair sets against drift zones. Regenerate and expand toward the ~1,000 SFT target. Retrain SFT + DPO. Re-run eval; compare against 1.4/1.4 baseline.
-- **Phase 78 — Matadisco-CADMIES Portal** 🟢 Active — v0.1.0 built, deployed, verified. Next: dataset viewer, frontend tweaks, bulk publishing.
+1. **Phase 87 — Mint the October Harvest** — `--auto --with-relationships --model=codestral:22b` over all 2,359 drafts. Expect known near-duplicate families (iterative_/adaptive_/continual_ learning, documentation_*, mycelium family) and code/logistics noise to arrive in the library — post-mint curation is the planned answer, not a surprise.
+2. **Post-mint curation** — merge near-duplicates, prune logistics noise, map off-taxonomy domains, edit/enhance keepers.
+3. **Pre-flight consistency check** — index↔blocks check before any mint/remint/relationship pass. The Phase 83B interlock. Highest-value guardrail; do it before or with the Phase 87 mint run.
+4. **Phase 80D — Dr. Mistral Pair Regeneration** — review 236 SFT / 199 DPO pairs, expand toward ~1,000 SFT target, retrain, re-eval vs 1.4/1.4 baseline.
+5. **Phase 85 — Legacy Source Cleanup** — fix ~35 legacy human_id files, write the real schema file, gitignore tarball pattern, batch-mode stub, `--conv=` fix + real manual-mode flag.
+6. **Phase 86 — Scientific Obsidian Public Page** + main-page nav links on project-hierion.org.
 
-### Next Up
-- **Phase 80E — Dr. Mistral Deploy + Monitor (Step 11)** — Inference loop, drift capture, feedback into pair generation.
-- **Phase 76 — Dr. Mistral Conversational Fine-Tuning** — Add UltraChat or similar conversational pairs on top of the handbook rebuild.
-- **Phase 77 — Dr. Mistral Live Site Deployment** — Integrate Dr. Mistral into the Flask app on the live site.
-- **Phase 86 — Scientific Obsidian Public Page** — Create a page on project-hierion.org for public viewing of the Scientific Obsidian vault (notes, session history, phase docs) via the site instead of only through GitHub. Static rendering or generated mirror; keeps the vault readable for non-git humans.
-- **Site Navigation — Main Page Links** — Add links to the Scientific Obsidian page and the blog page on the main page of project-hierion.org so visitors can find both.
-- **Phase 85 — Legacy Source Cleanup** — Fix the ~35 legacy human_id source files at the source (Phase 57 disease), write the real universal concept schema file (current one contains a copied script), add .gitignore backup-tarball pattern, fix harvester batch-mode stub, fix `--conv=` unused flag and missing manual-mode flag.
+**Phase 78 — Matadisco Portal** 🟢 Active in background — v0.1.0 live. Next: dataset viewer, frontend tweaks, bulk publishing.
 
-### Pipeline Guardrails (from Phase 83B lessons)
-- **Pre-flight index↔blocks consistency check** 🔴 TOP PRIORITY — formalize the Phase 83B lesson: run before any harvest, remint, or relationship pass; refuse to proceed on mismatch. The split-brain cost a full rebuild; this is the interlock.
-- **Semantic deduplication** 🔴 HIGH — current dedup is exact-title-match only; October Harvest produced 5-6 near-duplicate clusters ("iterative learning" family, "mycelium" family). Embedding-based or similarity-based dedup collapses these automatically (aligns with planned ChromaDB/RAG work).
-- **Complete run provenance** 🟡 APPROVED FOR IMPLEMENTATION — pin the exact model (name + version/digest) per harvest run, log run parameters (chunk size, thresholds, prompt version), stamp every minted concept with the full run ID so a harvest is a reproducible experiment, not a lucky dip. Extends the existing proofs array.
-- **Harvester evaluation set** 🟢 NOTED — build a labeled benchmark (~20 chunks with hand-written ideal extractions) to score extractor changes and model swaps quantitatively. The Oct 30 bake-off was decided on judgment; future ones should be measured. Long-term "CERN-style" rigor item.
-- **Automated quality gates** 🟢 NOTED — score extracted concepts (canonical-domain check, semantic overlap vs existing mycelium, definition substance) and quarantine weak ones to a review pile instead of burdening the gardener with 144-item menus.
-- **tools/bulk_mint_from_sources.py** — first-class bulk-mint tool so rebuilds don't rely on "empty the index, run the harvester" folklore
-- **Orphan-block sweep** — store/blocks/ holds ~1,900 stray files from pre-rebuild mints (harmless, but bloated; inflates recovery tarballs)
-- **Raw-file cleanup step** — strip accumulated `tools/raw_batch*.txt` dumps after relationship runs
-- **DOMAIN_UPWARD_MAP expansion** — ~90 domains still falling back to default color
-- **Droplet auto-pull** — crontab is empty; the droplet only updates when manually pulled (contradicts Session 063 note)
+---
 
-### Architecture Decisions
-- **One Source of Truth**: Concepts JSON and edges JSON are canonical
-- **Two Interfaces**: CADMIES Gateway (general public) + CADMIES-Matadisco Portal (scientists/professionals)
-- **No Double Work**: Both views pull from the same source data
-- **Portal Tech Stack**: Python backend (indexer + Flask API) + SQLite + vanilla frontend
-- **Handbook Adherence (Phase 80)**: Handbook is the process guide. Our data and model flow through it. Deviations are named, not hidden.
-- **Pairs Generated Outside Pipeline (D12)**: Steps 5 and 6 output produced by Claude in chat, not via ZenML steps.
-- **Eval Judge (D19)**: External/manual judge. Untrained Mistral cannot produce structured output. Gardener pastes answers, Claude scores.
-- **GGUF Eval (D21)**: Evaluate the exact artifact shipped, not a re-merged version.
-- **Backup Protocol (Phase 83)**: CAR files for concept exchange only; tarballs for disaster recovery. Every session ends with a tarball export. Never trust store/blocks/ to survive a machine.
+## 🌿 PARKING LOT (designed, not scheduled)
 
-### Not Yet Started
-- **Phase 82 — Deep Harvest: Beyond-GitHub Discovery Pipeline** — Second harvester casting a net outside GitHub, aimed at specific high-signal sources (ModelScope, arXiv, university and government data portals) with strict anti-noise filtering: no social media, domain blocklist, require data-file signatures, enforce license checks. Keeps the GitHub pipeline lean; separate system. See automation README parking lot.
-- Dataset viewer — Extend or create separate viewer for LLMDataHub records
-- Full License Audit — Complete audit of LLMDataHub datasets
-- Bulk Publishing — All 650 concepts + audited datasets
-- RAG Pipeline (ChromaDB, embeddings, query router)
+- Semantic deduplication (embedding-based) — aligns with RAG/ChromaDB work
+- Complete run provenance (APPROVED) — pin model digest + params per harvest, stamp concepts with run ID
+- Harvester evaluation set (~20 hand-labeled chunks) + automated quality gates (quarantine weak drafts)
+- `tools/bulk_mint_from_sources.py` — first-class bulk-mint tool
+- Orphan-block sweep (~1,900 strays in store/blocks/) · raw-file cleanup step
+- DOMAIN_UPWARD_MAP expansion (~90 domains on default color) · droplet auto-pull cron (currently empty)
+- Phase 80E — Dr. Mistral Deploy + Monitor · Phase 76 — Conversational FT · Phase 77 — Live Site
+- Phase 82 — Deep Harvest (beyond-GitHub: arXiv, portals; strict anti-noise filters)
+- Dataset viewer · full license audit · bulk publishing (Matadisco)
+- RAG pipeline (ChromaDB, embeddings, query router) · SAIQL/ATLAS deterministic RAG
 - Agent Architecture (President Model, Willie, Codestral, Number 5)
-- Public gateway subdomain tier
+- DeepSeek 67B FT (62) · Voice interface (54) · Mycelium2Vec (53) · CAR distribution (50)
+- Gateway subdomain tier
+
+**Architecture doctrine (stable):** One source of truth (concepts + edges JSON). Two interfaces (Gateway public, Portal scientific). Tarballs for recovery, CARs for exchange. Every session ends with a tarball. Source is ground truth — always. Deviations are named, not hidden.
 
 ---
 
-## 📝 RECENT SESSION NOTES
+## 📜 RECENT SESSIONS (rolling 3 — full notes in Raw-CADMIES)
 
-### Session 066 — 2026-10-30 — The October Harvest Bake-Off
-- Twin dry-run harvests of an 82,716-word conversation (Great Gatsby-sized) on the rebuilt foundation: mistral:7b extracted 144 concepts, codestral:22b extracted 88 from the same source.
-- Verdict: Codestral is leaner and sharper (better abstractions, better difficulty levels, fewer hallucinations — one Mistral draft literally invented "LoRA = Layer-wise Relevance Adaptation"); adopted as the concept harvester's canonical LLM going forward.
-- Both runs ended at the review menu — zero mints, by design. ~210 draft spores pushed to git in source_concepts/. Code/logistics contamination confirmed (git workflow "concepts" etc.) and will be pruned in the manual curation pass.
-- Crown jewel of the harvest: **cosmic_codebreaker** — the cross-scale pattern-recognition terminology the gardener had been missing for a year.
-- Known extraction debt confirmed live: ~44 raw_failed_chunk dumps (parse failures), heavy near-duplicate clustering, off-taxonomy domains.
-- CERN-style hardening assessment drafted: consistency check (top priority), semantic dedup, full run provenance (approved to implement), harvester eval set, quality gates (both noted for later).
-
-### Session 064 — 2026-10-20 — The Split-Brain Rebuild
-- The Oct 19 git reset had silently reverted the index to stale CIDs: 659 entries, only 234 with matching blocks. Three tools, three realities (map: 659, relationship gen: 234, harvester: 651 minted).
-- Patch attempts (incremental mode, reminter) were dead ends — every downstream tool reads the index, not the blocks.
-- Rebuilt via the pipeline: stale index backed up and emptied, broken legacy conversation.json deleted to unlock manual import mode, 650 concepts re-minted (0 failures), 574 edges across 392 concepts, map at full strength (650 nodes / 686 edges / 0 skipped), gateway regenerated, all pushed. Fresh tarball (3.5 MB).
-- Bugs documented: manual import mode has no flag; `--conv=` parsed but unused; no dedicated bulk-mint tool exists.
-- Two full rebuilds in 36 hours, zero concepts lost. The spores-and-tarball doctrine is earning its keep.
-
-### Session 063 — 2026-10-19 — Mycelium Regrown From Spores
-- Paperspace was wiped (billing scare). No CAR, no tarball existed — rebuilt the entire blockstore from `source_concepts/` on a fresh A4000 ("Alice").
-- 659 concepts minted with all-new CIDs (Phase 57 precedent: source is ground truth). Index and blockstore fully reconciled, zero orphans.
-- Genesis relics identified and resolved: Digital Seed properly re-adopted as a modern concept with corrected dates (the "2024" clock error documented; all timestamps UTC; gardener is US Central). Pattern-finder relic deduplicated away.
-- First healthy tarball (1.7 MB) pushed to git — mycelium now in three places. Cardinal rule: every session ends with a tarball.
-- Discovered: schema file is a ghost (contains a script copy; never enforced), legacy human_ids persist in ~35 source files.
-
-### Session 062 — 2026-10-17 — Harvester Hardening and Harvest 7 Pruning
-- Diagnosed harvest workflow failure: path drift between script log location and workflow references; PR body written after insertions instead of before.
-- Hardened pipeline (Option B): structured logging with run-ID correlation, retry with backoff, PR-body guarantee, fixed artifact paths, action version bumps.
-- Deleted `old_itch.py` — the "ignore this" file that ran on every invocation.
-- Pruned harvest PR #7: kept 3 of 11 candidates (openfloodhub, open-unlearning, reasoning-models); skip-listed 8 off-theme repos.
-- Wrote automation README with the manual harvest-pruning SOP and parking lot (Deep Harvest second pipeline, Option C remainder, tracked-logs decision).
-- The mycelium now keeps receipts.
-
-### Session 059 — 2026-09-19 — LLM Engineering Handbook Eval Step 10 and the System-Prompt Finding
-- Built local eval pipeline (D18–D22). Replaced SageMaker stub with working Paperspace eval.
-- Rebuilt `llama-cpp-python` from source with CUDA after wheel `Illegal instruction` crash.
-- Ran three evals on `dr-mistral-q8.gguf`: bare, with SYSTEM prompt, and judged externally.
-- Baseline established: 1.4/3.0 accuracy, 1.4/3.0 style with SYSTEM prompt; 1.0/3.0 bare.
-- Finding: training is too light. 435 pairs total is a nudge, not a takeover.
-- System prompt is doing most of the work.
-
-### Session 058 — 2026-09-15 to 2026-09-16 — Dr. Mistral Rebuild: Pipeline End to End
-- Executed Steps 5–9 of the LLM Engineer's Handbook pipeline on Paperspace.
-- Generated 236 instruct pairs, 201 preference triples (199 after conversion).
-- Ran SFT (QLoRA r=16, 12m 16s, loss 1.839→1.375) and DPO (QLoRA r=8, 3m 47s, loss 0.66→0.61, rewards acc 0.81→0.96).
-- Merged to Q8_0 GGUF (7.17 GB), deployed to Ollama.
-- Named deviations D12–D17.
-- Modelfile voice pivot: "You are..." beats "I am..." for Ollama's system-prompt injection.
-
-### Session 057 — 2026-09-11 to 2026-09-13 — Dr. Mistral Meets the LLM Engineer's Handbook
-- Rebuilt Dr. Mistral's spec from scratch. Six Q-sections, all locked.
-- Wrote three config files, five canon files, one loader, one ETL pipeline.
-- Cherry-picked the LLM Engineer's Handbook scaffold into the repo.
-- Locked the Escalation Ladder working draft.
-- DeepSeek account suspended on 2026-09-12, appeal filed, reinstated.
-
-### Session 052 — 2026-09-01 — CADMIES-Matadisco Portal: The First Build
-- Received vmx's feedback confirming the portal/AppView approach
-- Built indexer, API server, and frontend
-- Verified pipeline: PDS → SQLite → API → frontend
-- Portal functional, v0.1.0 complete
-
-### Session 051 — 2026-08-28 to 2026-08-30 — Dr. Mistral Rises: The run.py That Never Was
-- Built 242-pair dataset, trained on Jbliterated Mistral
-- Loss: 1.54 → 0.46, GGUF conversion, Ollama deployment
-
-### Session 050 — 2026-08-14 — Gateway Generator Rewrite and Relationship Harvest
-- Rewrote `generate_public_gateway.py` to v3.3.0
-- Ran relationship harvest with Codestral 22B: 533 new edges, 1507 total
-
-### Session 047B — 2026-08-11 — translate.js: The Fix, The Italian, The Deployment
-- Switched to translate.js v4.1.0 via jsdelivr
-- Translation feature successfully deployed on project-hierion.org
-
-### Session 047 — 2026-08-09 — translate.js: The Cold Email, The Integration, The Reality Check
-- Guan Leiming reached out cold offering translate.js integration
-- Integration initially failed due to outdated version; later resolved
-
-### Session 045 — 2026-08-10 — Matadisco Viewer Clarification & Architecture Strategy
-- Confirmed Matadisco viewer is a live stream, not a library browser
-- Defined architecture: One source of truth, two interfaces
-
-### Session 044B — 2026-08-05 — Matadisco Test Publish Success
-- Published three test records with favicon preview
-
-### Session 044 — 2026-07-31 — Matadisco Integration Foundation and Blueprint
-- Initial Matadisco planning and infrastructure setup
-
-### Session 043 — 2026-07-29 — Project Hierion and CADMIES Now Have A Forever Home
-- Domain and droplet finalization
-
-### Session 042 — 2026-07-28 — LLMDataHub Reorganization
-- Fork reorganization and dataset documentation
-
-### Session 041 — 2026-07-28 — Filename Uniformity
-- Vault cleanup and standardization
-
-### Session 040 — 2026-07-27 — Gateway Filter Fix
-- Public gateway domain filter repair
-
-### Session 039 — 2026-07-26 — Deidentified-7B Discovery
-- Model discovery and identity anchoring
+- **Session 066** (2026-10-30 → 11-03) — The October Harvest: bake-off, 13-part extraction, 2,359 spores, all-in ruling. See [[Session-066-2026-10-30-to-2026-11-03-The-October-Harvest]]
+- **Session 065** (2026-10-29) — Droplet dev env, zombie PR #7 folded and closed, harvest-8 pruning. See [[Session-065-2026-10-29-Droplet-Dev-Environment-and-Double-Harvest-Pruning]]
+- **Session 064** (2026-10-19/20) — Split-brain forensics and full rebuild. See [[Session-064-2026-10-19-The-Split-Brain-Rebuild]]
 
 ---
 
-## 🍄 NUGGETS COLLECTED
+## 🍄 NUGGETS
 
-- "The run.py that never was." — Session 051
-- "4 epochs, 242 pairs, loss 0.46. That's the recipe."
-- "The gardener declared Apollo Raines a nemesis. Then he got to work."
-- "Texas heat is not a temperature. It is an assault."
-- "A small fan became the most important tool in the room."
-- "Brave is bad at downloads. Firefox caps at 12.7 MB/s. Cool the drive."
+- "The run.py that never was." — 051
 - "Dr. Mistral is real. Not in paperspace. In the terminal. In Ollama."
-- "The mycelium has a borough now." — Dr. Mistral's loft is in NYC1, area code 929
-- "On vacation — no expiration" — The gardener's GitHub status
+- "The mycelium has a borough now." — NYC1, area code 929
 - "All built from a garage in South Texas, without institutional backing." — ORCID bio
 - "Slow is fast. Take your time to do it right."
-- "The mycelium cleans itself."
-- "The mycelium reclaims nutrients from fallen logs."
-- Delaware is our Malta — small, sovereign legal fortress
-- Project Hierion's permanent home: https://project-hierion.org
-- "FAITH OF A MUSTARD SEED." — The gardener's favorite quote
-- **El Hierro** — The Canary Island that shares the project's name
-- **31UCR** — The MGRS grid square of Northern France, Dr. Mistral's homeland
-- **"The problem wasn't the service — it was the old file."** — The translate.js lesson
-- **"The mycelium grows in every language."** — Session 047B
-- **"The Frankenstein moment: It's alive. IT'S ALIVVVVVVVE!!!!"** — Session 052
-- **"The hyphen is sacred."**
-- **"The spec is frozen. The engineering is not. Keep them separate."** — Session 057
-- **"A classifier doesn't read intent. It reads topic density."** — Session 057
-- **"The escalation ladder is a librarian's answer, not a bouncer's. Close the book, hand them a different one."** — Session 057
-- **"No IP tracking. We're a library. We're not a surveillance operation."** — Session 057
-- **"The handbook is the process guide. Our data and model flow through it. Deviations are named, not hidden."** — Session 057
-- **"Training worked. What's broken is inference setup, not training."** — Session 058
-- **"She knows the facts. Every canon detail landed. The voice drifts but the knowledge holds."** — Session 058
-- **"The pipeline is the pipeline. The character is the character. We have a pipeline. We have a first-pass character. The rest is iteration."** — Phase 80B
-- **"The trained model is answering like a generic assistant that has been told about Dr. Mistral — not like Dr. Mistral."** — Session 059
-- **"Bare GGUF: accuracy 1.0. With system prompt: 1.4. The prompt is doing most of the work."** — Session 059
-- **"236 SFT + 199 DPO pairs on a 7B QLoRA is a light touch. The model knows the words mycelium and CADMIES now. It has not become her."** — Session 059
-- **"The mycelium now keeps receipts."** — Session 062
-- **"The whole living mycelium fits in 1.7 MB. 659 concepts of philosophy, pocket-sized."** — Session 063
-- **"The spores were in the repo the whole time. The mycelium just needed planting again."** — Session 063
-- **"Stoner-me built the lifeboat before the ship sank."** — Session 063
-- **"Every session ends with a tarball."** — The cardinal rule, Session 063
-- **"Three tools, three realities. The index lied and everything believed it."** — Session 064
-- **"The index is the mycelium's brainstem. When it lies, everything lies."** — Session 064
-- **"Two full rebuilds in 36 hours and not one concept lost. Trust the spores."** — Session 064
-- **"The gardener searched for the term for a year. The harvester found it in 111 chunks."** — Session 066
-- **"Mistral read The Great Gatsby over lunch at a Parisian café. Codestral took it to the archive and annotated it."** — the bake-off, Session 066
-- **"Bob Ross with seven arms and ten easels."** — the operating model
-
----
-
-## FUTURE (designed, not scheduled)
-
-- Phase 76 — Dr. Mistral Conversational Fine-Tuning
-- Phase 77 — Dr. Mistral Live Site Deployment
-- Phase 78 — CADMIES-Matadisco Portal (active)
-- Phase 80D — Dr. Mistral Pair Review and Regeneration (next)
-- Phase 80E — Dr. Mistral Deploy + Monitor
-- Phase 82 — Deep Harvest: Beyond-GitHub Discovery Pipeline
-- Phase 85 — Legacy Source Cleanup (schema file, legacy human_ids, gitignore pattern, batch stub, --conv= fix)
-- Phase 86 — Scientific Obsidian Public Page on project-hierion.org (+ main-page nav links to it and the blog)
-- Pipeline guardrails (pre-flight consistency check, semantic dedup, run provenance, bulk-mint tool, orphan-block sweep, raw-file cleanup, droplet cron)
-- Harvester evaluation set + automated quality gates (CERN-style rigor)
-- Dataset viewer for LLMDataHub records
-- SAIQL/ATLAS deterministic RAG integration
-- Dr. Mistral Flask chat interface (Phase 61)
-- Public gateway subdomain tier
-- DeepSeek 67B fine-tune (Phase 62)
-- Voice interface (Phase 54)
-- Mycelium2Vec (Phase 53)
-- CAR distribution pipeline (Phase 50)
+- "The mycelium cleans itself." · "The mycelium reclaims nutrients from fallen logs."
+- Delaware is our Malta · El Hierro shares our name · 31UCR is Dr. Mistral's homeland
+- "FAITH OF A MUSTARD SEED."
+- "The problem wasn't the service — it was the old file." — translate.js
+- "The hyphen is sacred."
+- "The spec is frozen. The engineering is not." · "A classifier doesn't read intent. It reads topic density."
+- "No IP tracking. We're a library, not a surveillance operation."
+- "Training worked. What's broken is inference setup, not training."
+- "The trained model is answering like a generic assistant that has been told about Dr. Mistral — not like Dr. Mistral."
+- "The mycelium now keeps receipts." — 062
+- "The whole living mycelium fits in 1.7 MB. Pocket-sized philosophy." — 063
+- "The spores were in the repo the whole time."
+- "Stoner-me built the lifeboat before the ship sank." — 063
+- "Every session ends with a tarball." — cardinal rule
+- "Three tools, three realities. The index lied and everything believed it." — 064
+- "The index is the mycelium's brainstem."
+- "Trust the spores." — 064
+- "The gardener searched for the term for a year. The harvester found it in 111 chunks." — 066
+- "Mistral read The Great Gatsby over lunch at a Parisian café. Codestral took it to the archive and annotated it." — 066
+- "Bob Ross with seven arms and ten easels."
+- "An unmerged PR is a prayer that was never mailed." — 065
 
 ---
 
