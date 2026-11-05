@@ -4,7 +4,7 @@ date: 2026-11-05
 status: LIVING DOCUMENT
 ---
 
-![Growth Roadmap](assets/Lumo-generated-roadmap-image.png)
+![Growth Roadmap — v2026-11-05](assets/Lumo-generated-roadmap-image.png)
 
 # 🌱 CADMIES GROWTH ROADMAP
 ### *What we've built, what we're building, where the mycelium grows next.*
