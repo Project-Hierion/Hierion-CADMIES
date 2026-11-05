@@ -2,7 +2,7 @@
 phase: 84
 date: 2026-11-05
 status: In Progress
-related: "[[Phase-83B-Split-Brain-Recovery-and-Full-Pipeline-Rebuild]], [[Phase-57-Index-Integrity-and-Disaster-Recovery]], [[Session-066-2026-10-30-to-2026-11-03-The-October-Harvest]]"
+related: "[[Phase-83B-Split-Brain-Recovery-and-Full-Pipeline-Rebuild]], [[Phase-57-Index-Integrity-and-Disaster-Recovery]], [[Session-066-2026-10-30-to-2026-11-03-The-October-Harvest-Massive-13-Part-DeepSeek-Conversation-Export-Extraction)]]"
 ---
 
 # Phase 84: The October Harvest
