@@ -1,10 +1,18 @@
+<p align="center">
+  <img 
+    src="assets/lumo-roadmap-image.png" 
+    alt="Growth Roadmap — v2026-11-05" 
+    title="Growth Roadmap — v2026-11-05" 
+    width="90%"
+    style="max-width: 100%; height: auto;"
+  />
+</p>
+
 ---
 phase: Roadmap
 date: 2026-11-05
 status: LIVING DOCUMENT
 ---
-
-![Growth Roadmap — v2026-11-05](assets/Lumo-generated-roadmap-image.png)
 
 # 🌱 CADMIES GROWTH ROADMAP
 ### *What we've built, what we're building, where the mycelium grows next.*
