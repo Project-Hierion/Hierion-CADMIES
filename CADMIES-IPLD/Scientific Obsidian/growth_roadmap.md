@@ -50,7 +50,7 @@ Docs & Automation: translate.js (74) · LLMDataHub Reorg (72) · Harvester Harde
 Recent heavy lifts:
 - **Phase 83A — Blockstore Rebuild From Spores** (2026-10-19) — Paperspace wipe; regrew 659 concepts from source JSONs, all-new CIDs, Digital Seed re-adopted. Cardinal rule born: every session ends with a tarball. See [[Phase-83A-Blockstore-Rebuild-From-Spores]]
 - **Phase 83B — Split-Brain Recovery** (2026-10-20) — stale index from git reset; three tools, three realities; full rebuild: 650 minted, 574 edges, map + gateway regenerated. See [[Phase-83B-Split-Brain-Recovery-and-Full-Pipeline-Rebuild]]
-- **Phase 84 — The October Harvest** ✅ Complete (2026-10-30 → 11-03) — All 13 parts of the DeepSeek export harvested: 2,359 draft spores banked in `source_concepts/` (commit a781cd6), zero mints by design, no spores lost across machine timeouts. Codestral:22b confirmed canonical via bake-off. Gardener's ruling: ALL drafts enter the library — minting and curation move to Phase 87. See [[Phase-84-The-October-Harvest]], [[Session-066-2026-10-30-to-2026-11-03-The-October-Harvest]]
+- **Phase 84 — The October Harvest** (2026-10-30 → 11-03) — All 13 parts of the DeepSeek export harvested: 2,359 draft spores banked in `source_concepts/` (commit a781cd6), zero mints by design, no spores lost across machine timeouts. Codestral:22b confirmed canonical via bake-off. Gardener's ruling: ALL drafts enter the library — minting and curation move to Phase 87. See [[Phase-84-The-October-Harvest]], [[Session-066-2026-10-30-to-2026-11-03-The-October-Harvest]]
 
 ---
 
