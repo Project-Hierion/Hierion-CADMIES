@@ -2,7 +2,7 @@
 phase: 41
 date: 2026-05-18
 status: Complete
-related: [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Architecture Overview]], [[Harvester Pipeline (Superceded by Workflows)]], [[Decisions-Log]]
+related: [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Architecture Overview]], [[Harvester Pipeline (Superceded by Workflows)]]
 ---
 # Phase 41 — 2026-05-18
 

@@ -2,7 +2,7 @@
 phase: 45D
 date: 2026-06-05
 status: In Progress
-related: , [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]]
+related: [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Session-014-2026-05-20-Buttercup-setup]]
 ---
 
 # Phase 45D: Ball Spawning Bug — Environment Debug

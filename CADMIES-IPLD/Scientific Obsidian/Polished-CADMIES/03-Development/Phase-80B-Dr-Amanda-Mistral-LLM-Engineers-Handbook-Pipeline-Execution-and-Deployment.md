@@ -2,7 +2,7 @@
 phase: 80B
 date: 2026-09-16
 status: Complete
-related: [[Phase-75-Dr-Amanda-Mistral-Personality-Implant-on-Jbliterated-Base]]
+related: [[Phase-75-Dr-Amanda-Mistral-Personality-Implant-on-Jbliterated-Base]], [[Phase-80A-Dr-Amanda-Mistral-Handbook-Rebuild-and-Pipeline-Foundation]]
 ---
 
 # Phase 80B: Dr. Amanda Mistral — LLM Engineers Handbook Pipeline Execution and Deployment

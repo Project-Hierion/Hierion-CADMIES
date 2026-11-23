@@ -4,6 +4,8 @@
 
 # Session 055 — 2026-09-06 — LLMDataHub Structure and Feast
 
+related: [[Phase-72B-LLMDataHub-Structure-Feast-and-Autonomy]]
+
 ## Soundtrack
 Amyttiville movies. Mycelium reclaiming nutrients from fallen logs. Good weed. Good herb. Good nature.
 

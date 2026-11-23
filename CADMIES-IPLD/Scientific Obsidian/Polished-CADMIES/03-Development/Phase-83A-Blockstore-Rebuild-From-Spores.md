@@ -2,7 +2,7 @@
 phase: 83A
 date: 2026-10-19
 status: Complete
-related: "[[Phase-57-Index-Integrity-and-Disaster-Recovery]], [[Session-063-2026-10-19-Mycelium-Regrown-From-Spores]], [[Phase-42-Index-Backup-Cleanup]], [[Phase-43-Concept-Reminting]]"
+related: "[[Phase-57-Index-Integrity-and-Disaster-Recovery]], [[Session-063-2026-10-19-Mycelium-Regrown-From-Spores]], [[Phase-42-Index-Backup-Cleanup]], [[Phase-43-Concept-Reminting]], [[Phase-83B-Split-Brain-Recovery-and-Full-Pipeline-Rebuild]]"
 ---
 
 # Phase 83A: Blockstore Rebuild From Spores

@@ -2,7 +2,7 @@
 phase: 45 v2.0
 date: 2026-06-05
 status: In Progress — v2.0 Plan
-related: [[Phase-45A-Snagnar-HIEROS-Integration]], [[Phase-45B-Snagnar-HIEROS-Integration]], [[Phase-45C-Snagnar-HIEROS-Isolated-Redeployment]], [[Phase-45D-Ball-Spawning-Bug-Environment-Debug]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]]
+related: [[Phase-45A-Snagnar-HIEROS-Integration]], [[Phase-45B-Snagnar-HIEROS-Integration]], [[Phase-45C-Snagnar-HIEROS-Isolated-Redeployment]], [[Phase-45D-Ball-Spawning-Bug-Environment-Debug]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Session-012-2026-05-20-Snagnar-HIEROS-Full-Codebase-Analysis]]
 ---
 
 # Phase 45 v2.0: Teaching Mistral via Snagnar HIEROS — Revised Plan

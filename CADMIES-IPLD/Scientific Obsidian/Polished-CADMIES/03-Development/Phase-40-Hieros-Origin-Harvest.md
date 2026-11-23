@@ -2,7 +2,7 @@
 phase: 40
 date: 2026-05-15
 status: Complete — 103 concepts minted from founding document
-related: [[Harvester Pipeline (Superceded by Workflows)]], [[Phase-35-Results]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Architecture Overview]]
+related: [[Harvester Pipeline (Superceded by Workflows)]], [[Phase-35-Results]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Architecture Overview]], [[Phase-39-Concept-Enrichment]]
 ---
 
 # Phase 40: Hieros Origin Harvest

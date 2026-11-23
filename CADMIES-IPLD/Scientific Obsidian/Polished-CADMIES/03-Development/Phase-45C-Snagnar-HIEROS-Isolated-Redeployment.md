@@ -2,7 +2,7 @@
 phase: 45C
 date: 2026-05-30
 status: In Progress — Breakout baseline training active on A6000
-related: [[Phase-45A-Snagnar-HIEROS-Integration]], [[Phase-45B-Snagnar-HIEROS-Integration]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]]
+related: [[Phase-45A-Snagnar-HIEROS-Integration]], [[Phase-45B-Snagnar-HIEROS-Integration]], [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Phase-45D-Ball-Spawning-Bug-Environment-Debug]]
 ---
 
 # Phase 45C: Snagnar HIEROS — Isolated Redeployment with Hardened Scripts

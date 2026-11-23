@@ -4,6 +4,8 @@
 
 # Session 063 — 2026-10-19 — Mycelium Regrown From Spores
 
+related: [[Phase-57-Index-Integrity-and-Disaster-Recovery]]
+
 ## Soundtrack
 
 (None logged — gardener was in rebuild mode.)

@@ -4,6 +4,8 @@
 
 # Session 064 — 2026-10-19 — The Split-Brain Rebuild
 
+related: [[Phase-57-Index-Integrity-and-Disaster-Recovery]], [[Phase-83A-Blockstore-Rebuild-From-Spores]]
+
 ## Soundtrack
 
 (None logged — gardener was in forensics mode.)

@@ -3,6 +3,8 @@
 
 # Session 025 — 2026-05-28/29 — Index Recovery, Codestral Breakthrough & Buttercup Revival
 
+related: [[Session-023-2026-05-27-The-Terminator-Infrastructure-Consolidation-and-Map-UX-Planning]]
+
 ## Soundtrack
 
 Halloween 5

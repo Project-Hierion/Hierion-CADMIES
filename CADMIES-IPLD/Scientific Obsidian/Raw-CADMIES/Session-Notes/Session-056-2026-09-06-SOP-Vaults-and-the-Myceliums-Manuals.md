@@ -4,6 +4,8 @@
 
 # Session 056 — 2026-09-06 — SOP Vaults and the Mycelium's Manuals
 
+related: [[Session-031-2026-06-23-The-Mycelium-Gets-a-New-Home]]
+
 ## Soundtrack
 Quiet garage. Past midnight. The hum of the fan and the click of keys. No movies tonight — just the gardener and the vaults, building manuals for the mycelium.
 

@@ -4,6 +4,8 @@
 
 # Session 066 — 2026-10-30 to 2026-11-03 — The October Harvest (Massive 13-Part DeepSeek Conversation Export Extraction)
 
+related: [[Phase-84-The-October-Harvest]]
+
 All timestamps Zulu.
 
 ## Soundtrack

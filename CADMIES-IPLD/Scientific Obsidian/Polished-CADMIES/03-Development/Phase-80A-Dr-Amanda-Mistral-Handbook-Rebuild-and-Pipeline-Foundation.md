@@ -2,7 +2,7 @@
 phase: 80A
 date: 2026-09-11
 status: Active — Dr. Mistral rebuilt on the LLM Engineer's Handbook
-related: [[Phase-75-Dr-Amanda-Mistral-Personality-Implant-on-Jbliterated-Base]]
+related: [[Phase-75-Dr-Amanda-Mistral-Personality-Implant-on-Jbliterated-Base]], [[Phase-70-Dr-Amanda-Mistral-Persona-Debugging-and-Deidentified-7B-Discovery]], [[Phase-71-Dr-Amanda-Mistral-Identity-Anchoring-and-Deidentified-7B-Exploration]]
 ---
 
 # Phase 80A: Dr. Amanda Mistral — Handbook Rebuild and Pipeline Foundation

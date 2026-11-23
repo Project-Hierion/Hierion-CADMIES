@@ -4,6 +4,8 @@
 
 # Session 006 — 2026-05-14 —  Harvester & Scientific Obsidian
 
+related: [[Phase-35-Difficulty-Levels]], [[Phase-37-Scientific-Obsidian]]
+
 ## What We Did
 
 - Pulled latest from GitHub (2 commits behind, fast-forwarded)
