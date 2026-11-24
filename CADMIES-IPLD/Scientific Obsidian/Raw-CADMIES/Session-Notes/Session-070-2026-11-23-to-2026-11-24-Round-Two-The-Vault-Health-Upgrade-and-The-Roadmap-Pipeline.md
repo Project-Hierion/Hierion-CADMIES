@@ -59,6 +59,17 @@ UP, PARKING LOT, roadmap art) are reported but never auto-edited.
 Recommended cadence: run with the vault health check; art weekly at
 most, per the art ritual.
 
+And then the pipeline went fully autonomous: a cron job on the
+droplet (user cadmies, per SOP 3.4 — no root cron for project work)
+fires at 04:00Z and 16:00Z, one hour before each GitHub validator
+run. The job pulls main first (main's stuff wins arrival order),
+applies the idempotent sessions sync, commits only if the roadmap
+actually changed, and pushes over the deploy key — merging on
+divergence, retrying once on push races, never forcing, self-healing
+next cycle. The roadmap arrives on GitHub already synchronized; the
+validator, kept in Actions as the open-source showcase, inspects a
+self-tended vault.
+
 ## The Breakdown
 
 - The title-humanizer needed three iterations: raw hyphens first,
@@ -93,8 +104,7 @@ most, per the art ritual.
 
 ## Next Steps
 
-- Wire update_roadmap.py into the vault-check workflow (or a sibling
-  scheduled workflow) once cadence is settled
+- Watch the first cron cycles (04:00Z/16:00Z) and the roadmap_sync.log
 - Promote validator v1.4.0 + SOP vault + pipeline work to a polished
   phase note (Phase 85 candidate or its own phase number)
 - Watch the first scheduled twice-daily runs (05:00Z / 17:00Z) —
