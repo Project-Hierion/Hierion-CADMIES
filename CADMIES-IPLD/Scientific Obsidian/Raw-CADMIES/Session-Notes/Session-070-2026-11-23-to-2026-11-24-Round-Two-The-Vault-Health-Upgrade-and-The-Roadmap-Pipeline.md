@@ -87,6 +87,7 @@ most, per the art ritual.
 - "A validator that reads its own doctor's note and fails itself."
 - "Islands aren't broken. They're archipelagic."
 - "Machines sync. Humans curate. The shears stay warm."
+- "Main arrives first; the roadmap rides on top; merges settle disputes; force is a word this cron has never learned."
 - The SOP that watches the vault is watched by no one — enjoy the
   irony, guard the perimeter.
 
