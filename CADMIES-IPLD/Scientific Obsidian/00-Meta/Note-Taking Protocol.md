@@ -110,7 +110,8 @@ Raw notes are **narrative-driven records**, not rigid forms. The goal is to capt
 
 -   Write freely. Grammar optional. Structure optional. Vibes mandatory.
 -   Date your entries. Even a quick `2026-05-14` at the top helps trace idea lineage.
--   Use `[[double brackets]]` to link to related concepts, phases, sessions, or people — even if the target note doesn't exist yet. Red links are future spores.
+-   Use `[[double brackets]]` to link to related concepts, phases, sessions, or people.
+-   **Link only to notes that exist.** Links to nonexistent notes are treated as dead links by vault health validation and fail the build. In a live working session (Obsidian editor), red links are fine as future spores — but before a note is committed to the vault, either the target must exist or the reference must be plain text. Spores become wikilinks at the moment they sprout.
 -   Tag generously but loosely. `#idea`, `#question`, `#breakthrough`, `#bug`, `#wtf`
 -   No pressure to organize. The mycelium finds connections organically.
 -   Session notes must include the standard session template sections (but follow the Field Notes style above).

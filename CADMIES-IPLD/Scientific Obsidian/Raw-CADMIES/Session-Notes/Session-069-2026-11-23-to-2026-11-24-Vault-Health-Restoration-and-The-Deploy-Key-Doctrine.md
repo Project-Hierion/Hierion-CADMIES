@@ -40,7 +40,7 @@ kept as fossils (8a488ba) — and the four-card banner art landed after
 the accidental coral-fruiting-fungi masterpiece proved too good to
 throw away but wrong for the header.
 
-CI caught two real dead links: a ghost [[Decisions-Log]] reference
+CI caught two real dead links: a ghost Decisions-Log reference (a wikilink pointing at a deleted file)
 and a missing apostrophe in Session-067's Gardener's Wall link.
 Fixed in 7941ce1. Vault health: 147 files, zero issues.
 
