@@ -12,9 +12,9 @@ status: LIVING DOCUMENT
 
 <p align="center">
   <img 
-    src="../../assets/lumo-roadmap-image.png" 
-    alt="Growth Roadmap — v2026-11-05" 
-    title="Growth Roadmap — v2026-11-05" 
+    src="../../assets/lumo-roadmap-image-2026-11-23.png" 
+    alt="Growth Roadmap — v2026-11-23" 
+    title="Growth Roadmap — v2026-11-23" 
     width="90%" 
     style="max-width: 100%; height: auto;"
   >
