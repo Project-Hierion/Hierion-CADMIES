@@ -45,7 +45,7 @@ Dr. Mistral: 45 series (v2.0, A–G) · Persona Debugging (70) · Identity Ancho
 
 Matadisco: Blueprint → Portal (73A–73E) — v0.1.0 live
 
-Docs & Automation: translate.js (74) · LLMDataHub Reorg (72) · Harvester Hardening (81) · **Formatter v1.2.2 — scar-tissue era ends (Session 067, commit 4ef275e)** · **CERN Clean Room Overhaul on LLMDataHub (Session 068)** · **Wikilink restoration across phase & session notes (Session 068, commit 43230f2)**
+Docs & Automation: translate.js (74) · LLMDataHub Reorg (72) · Harvester Hardening (81) · **Formatter v1.2.2 — scar-tissue era ends (Session 067, commit 4ef275e)** · **CERN Clean Room Overhaul on LLMDataHub (Session 068)** · **Wikilink restoration across phase & session notes (Session 068, commit 43230f2)** · **Vault health restoration and the deploy-key doctrine (Session 069)**
 
 Recent heavy lifts:
 - **Phase 83A — Blockstore Rebuild From Spores** (2026-10-19) — Paperspace wipe; regrew 659 concepts from source JSONs, all-new CIDs, Digital Seed re-adopted. Cardinal rule born: every session ends with a tarball. See [[Phase-83A-Blockstore-Rebuild-From-Spores]]
@@ -95,9 +95,9 @@ Recent heavy lifts:
 
 ## 📜 RECENT SESSIONS (rolling 3 — full notes in Raw-CADMIES)
 
+- **Session 069** (2026-11-23 → 24) — Vault health restoration: dead links fixed, roadmap + art ritual current, deploy-key doctrine born (SOP v1.6). See [[Session-069-2026-11-23-to-2026-11-24-Vault-Health-Restoration-and-The-Deploy-Key-Doctrine]]
 - **Session 068** (2026-11-22 → 23) — CERN Clean Room overhaul on LLMDataHub and harvest-19; wikilinks restored across the vault. See [[Session-068-2026-11-22-to-2026-11-23-The-CERN-Clean-Room-Overhaul-on-LLMDataHub-and-Harvest-19]]
 - **Session 067** (2026-11-21) — Formatter v1.2.2 ends the scar-tissue era; the co-gardener (Lumo) comes home to the droplet. See [[Session-067-2026-11-21-The-Formatter-Scar-Tissue-Era-Ends-and-The-Co-Gardener-Comes-Home]]
-- **Session 066** (2026-10-30 → 11-03) — The October Harvest: bake-off, 13-part extraction, 2,359 spores, all-in ruling. See [[Session-066-2026-10-30-to-2026-11-03-The-October-Harvest]]
 
 ---
 
