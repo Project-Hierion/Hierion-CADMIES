@@ -2,7 +2,7 @@
 session: 010
 date: 2026-05-17
 status: Complete
-related: [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Architecture Overview]], [[Harvester Pipeline]], [[Decisions-Log]]
+related: [[Session-041-2026-07-28-LLMDataHub-Fork-Reorganization]], [[Architecture Overview]], [[Harvester Pipeline (Superceded by Workflows)]], decisions log (retired)
 ---
 
 # `Manual Concept Editing & Pipeline Gaps` — May 17, 2026
