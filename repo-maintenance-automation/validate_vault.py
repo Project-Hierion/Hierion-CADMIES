@@ -2,7 +2,7 @@
 """
 File: validate_vault.py
 Tool: CADMIES Vault Validator
-Version: 1.3.1
+Version: 1.4.0
 System: CADMIES / repo-maintenance-automation
 Status: ACTIVE
 License: AGPLv3 with Commons Clause
@@ -27,6 +27,10 @@ Version History:
   v1.2.1 (2026-07-16): Added check for markdown files missing .md extension.
   v1.3.0 (2026-07-16): --fix mode now handles roadmap drift automatically.
   v1.3.1 (2026-09-06): Honor config skip_folders list — directories excluded from all checks.
+  v1.4.0 (2026-11-24): Orphan-note detection (informational, zero inbound wikilinks);
+                       trend snapshot appended to logs/vault_health_trends.csv on every
+                       run (Zulu timestamps, per SOP 0.2); HTML dashboard written to
+                       logs/vault_health_dashboard.html for human-readable reports.
 """
 
 import os
@@ -36,7 +40,7 @@ import yaml
 import shutil
 import hashlib
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from collections import defaultdict
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -364,7 +368,7 @@ def check_roadmap_drift(vault_root, config, fix_mode=False, auto_yes=False):
     roadmap_path = vault_root / "growth_roadmap.md"
     if not roadmap_path.exists():
         issues.append("ROADMAP_NOT_FOUND: growth_roadmap.md missing from vault root")
-        return issues
+        return issues, {}  # v1.4.0 fix: early-return path now matches the tuple contract
     phases_dir = vault_root / "Polished-CADMIES/03-Development/"
     phase_statuses = {}
     if phases_dir.exists():
@@ -421,12 +425,95 @@ def check_missing_extensions(vault_root, config):
                     pass
     return issues
 
+def check_orphan_notes(vault_root, config):
+    """Informational: notes in scan folders with zero inbound wikilinks.
+    Reported but NOT counted as issues — orphan status is diagnosis, not failure."""
+    scan_folders = config.get("cross_refs", {}).get("scan_folders", [])
+    link_pattern = re.compile(r"\[\[([^\]]+)\]\]")
+    note_stems = {}
+    all_outbound = set()
+    for folder in scan_folders:
+        target_dir = vault_root / folder
+        if not target_dir.exists():
+            continue
+        for filepath in target_dir.rglob("*.md"):
+            if should_skip_path(filepath, config):
+                continue
+            note_stems[filepath.stem] = str(filepath.relative_to(vault_root))
+            try:
+                content = filepath.read_text()
+            except Exception:
+                continue
+            for link in link_pattern.findall(content):
+                clean = link.split("#")[0].split("|")[0].strip()
+                if clean:
+                    all_outbound.add(clean)
+    orphans = []
+    for stem, rel in sorted(note_stems.items()):
+        if stem in all_outbound:
+            continue
+        # fuzzy: allow prefix/substring refs
+        if any(stem in ref or ref in stem for ref in all_outbound if len(ref) > 6):
+            continue
+        # skip trivial/template stems
+        if stem in ("note-one", "note-two", "Public README.md"):
+            continue
+        orphans.append(rel)
+    return orphans
+
+def append_trend_snapshot(stats):
+    """Append one Zulu-stamped line to the trend CSV. Header on first write."""
+    log_dir = SCRIPT_DIR / "logs"
+    log_dir.mkdir(exist_ok=True)
+    trend_path = log_dir / "vault_health_trends.csv"
+    if not trend_path.exists():
+        trend_path.write_text("timestamp_utc,files_checked,issues_found\n")
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    with open(trend_path, "a") as f:
+        f.write(f"{ts},{stats['files_checked']},{stats['issues_found']}\n")
+    return trend_path
+
+def write_html_dashboard(vault_root, config, stats, section_results, issues_count):
+    """Write a human-readable HTML dashboard next to the text report."""
+    log_dir = SCRIPT_DIR / config["reporting"].get("output_dir", "logs/")
+    log_dir.mkdir(exist_ok=True)
+    html_path = log_dir / "vault_health_dashboard.html"
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    healthy = issues_count == 0
+    badge = ("background:#1a7f37;", "HEALTHY — THE MYCELIUM IS CLEAN") if healthy \
+            else ("background:#b35900;", f"{issues_count} ISSUE(S) FOUND")
+    rows = ""
+    for section_name, (checked, issue_count) in section_results.items():
+        mark = "✅" if issue_count == 0 else "⚠️"
+        rows += f"<tr><td>{mark} {section_name}</td><td>{checked}</td><td>{issue_count}</td></tr>\n"
+    html = f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>CADMIES Vault Health Dashboard</title>
+<style>
+body {{ font-family: -apple-system, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; background:#0d1117; color:#c9d1d9; }}
+.badge {{ display:inline-block; color:#fff; padding:.35rem .8rem; border-radius:6px; font-weight:600; }}
+table {{ border-collapse: collapse; width:100%; margin-top:1.2rem; }}
+td, th {{ border:1px solid #30363d; padding:.45rem .8rem; text-align:left; }}
+th {{ background:#161b22; }}
+h1 {{ font-size:1.3rem; }} .meta {{ color:#8b949e; font-size:.9rem; }}
+</style></head><body>
+<h1>🌱 CADMIES Vault Health Dashboard</h1>
+<p class="meta">{ts} · {stats['files_checked']} files checked · vault: {vault_root.name}</p>
+<p><span class="badge" style="{badge[0]}">{badge[1]}</span></p>
+<table><tr><th>Section</th><th>Files</th><th>Issues</th></tr>
+{rows}</table>
+<p class="meta">History: vault_health_trends.csv · Text report: vault_health_report.txt</p>
+</body></html>"""
+    html_path.write_text(html)
+    return html_path
+
 def run_validation(fix_mode=False, auto_yes=False):
     config = load_config()
     vault_root = get_vault_root(config)
     all_issues = []
     total_fixes = 0
     stats = {"files_checked": 0, "issues_found": 0}
+    section_results = {}  # name -> (files_checked, issues) for the HTML dashboard
 
     mode_label = "FIX MODE" if fix_mode else "REPORT MODE"
     if auto_yes:
@@ -451,6 +538,8 @@ def run_validation(fix_mode=False, auto_yes=False):
         if not files:
             continue
         print(f"── {doc_type} ({len(files)} files) ──")
+        _sec_start_issues = stats["issues_found"]
+        _sec_start_files = stats["files_checked"]
         for filepath in files:
             if should_skip_path(filepath, config):
                 continue
@@ -475,10 +564,13 @@ def run_validation(fix_mode=False, auto_yes=False):
                 if config.get("reporting", {}).get("show_passing", True):
                     print(f"  ✅ {rel}")
             total_fixes += fixes
+        section_results[doc_type] = (stats["files_checked"] - _sec_start_files,
+                                     stats["issues_found"] - _sec_start_issues)
 
     print(f"\n── Cross-Reference Check ──")
     ref_issues, ref_fixes = check_and_fix_cross_references(vault_root, config, fix_mode and not skip_all, auto_yes)
     total_fixes += ref_fixes
+    section_results["cross_references"] = (0, len(ref_issues))
     if ref_issues:
         for issue in ref_issues:
             print(f"  🔗 {issue}")
@@ -507,8 +599,18 @@ def run_validation(fix_mode=False, auto_yes=False):
     else:
         print(f"  ✅ No duplicates found")
 
+    print(f"\n── Orphan Notes (informational) ──")
+    orphan_list = check_orphan_notes(vault_root, config)
+    section_results["orphan_notes_info"] = (len(orphan_list), 0)
+    if orphan_list:
+        for o in orphan_list:
+            print(f"  🍄 ORPHAN: {o} (no inbound wikilinks)")
+    else:
+        print(f"  ✅ No orphans — every note is referenced")
+
     print(f"\n── Roadmap Sync ──")
     drift_issues, phase_statuses = check_roadmap_drift(vault_root, config, fix_mode and not skip_all, auto_yes)
+    section_results["roadmap_sync"] = (0, len(drift_issues))
     if drift_issues:
         for issue in drift_issues:
             print(f"  🗺️  {issue}")
@@ -582,6 +684,11 @@ def run_validation(fix_mode=False, auto_yes=False):
             for issue in all_issues:
                 f.write(f"{issue}\n")
         print(f"  Report saved to: {report_path}")
+
+    trend_path = append_trend_snapshot(stats)
+    print(f"  Trend snapshot appended: {trend_path.name}")
+    html_path = write_html_dashboard(vault_root, config, stats, section_results, stats["issues_found"])
+    print(f"  HTML dashboard: {html_path.name}")
 
     return 0 if stats["issues_found"] == 0 else 1
 
