@@ -95,9 +95,9 @@ Recent heavy lifts:
 
 ## 📜 RECENT SESSIONS (rolling 3 — full notes in Raw-CADMIES)
 
-- **Session 069** (2026-11-23 → 24) — Vault health restoration: dead links fixed, roadmap + art ritual current, deploy-key doctrine born (SOP v1.6). See [[Session-069-2026-11-23-to-2026-11-24-Vault-Health-Restoration-and-The-Deploy-Key-Doctrine]]
-- **Session 068** (2026-11-22 → 23) — CERN Clean Room overhaul on LLMDataHub and harvest-19; wikilinks restored across the vault. See [[Session-068-2026-11-22-to-2026-11-23-The-CERN-Clean-Room-Overhaul-on-LLMDataHub-and-Harvest-19]]
-- **Session 067** (2026-11-21) — Formatter v1.2.2 ends the scar-tissue era; the co-gardener (Lumo) comes home to the droplet. See [[Session-067-2026-11-21-The-Formatter-Scar-Tissue-Era-Ends-and-The-Co-Gardener-Comes-Home]]
+- **Session-068** (2026-11-22 → 23) — The CERN Clean Room Overhaul on LLMDataHub and Harvest 19. See [[Session-068-2026-11-22-to-2026-11-23-The-CERN-Clean-Room-Overhaul-on-LLMDataHub-and-Harvest-19]]
+- **Session-069** (2026-11-23 → 24) — Vault Health Restoration and the Deploy Key Doctrine. See [[Session-069-2026-11-23-to-2026-11-24-Vault-Health-Restoration-and-The-Deploy-Key-Doctrine]]
+- **Session-070** (2026-11-23 → 24) — Round Two the Vault Health Upgrade and the Roadmap Pipeline. See [[Session-070-2026-11-23-to-2026-11-24-Round-Two-The-Vault-Health-Upgrade-and-The-Roadmap-Pipeline]]
 
 ---
 
